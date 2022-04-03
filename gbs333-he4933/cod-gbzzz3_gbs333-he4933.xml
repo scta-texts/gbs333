@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="21"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-he4933"> <!-- l3d1q2 -->
+            <head xml:id="gbs333-he4933-Hd1e100">Quaestio 2</head>
+            <p xml:id="gbs333-he4933-d1e102">
+               <lb ed="#B" n="36"/>QVAESTIO. II. 
+      <lb ed="#B" n="37"/>QVAERIIVR secundo utrum 
+      <lb ed="#B" n="38"/>uerbum, &amp; quaelibet persona 
+      <lb ed="#B" n="39"/>&amp; diuina indifferenter debeat  
+      <lb ed="#B" n="40"/>ge assumere naturam quamlibet  
+      <lb ed="#B" n="41"/>suppositaliter.
+    </p>
+            <p xml:id="gbs333-he4933-d1e118">
+      ¶ Circa materiam huius 
+      <lb ed="#B" n="42"/>quaestionis sunt duae opin. contrariae, qua 
+      <lb ed="#B" n="43"/>rum neutra est demonstratiue 
+      improba<lb ed="#B" n="44" break="no"/>bilis. Vna est Scoti, &amp; Ockam, &amp; 
+      com<lb ed="#B" n="45" break="no"/>muniter modernorum tenentium 
+      par<lb ed="#B" n="46" break="no"/>tem affirmatiuam. Alia opinio est 
+      Hen<lb ed="#B" n="47" break="no"/>tici de Gandauo xiij quodli. q. ij. ad quam 
+      <lb ed="#B" n="48"/>(ut refert Ioannes Picus in apologia 
+      <lb ed="#B" n="49"/>sua q. iiij.) dimissa priore opinione in 
+      <lb ed="#B" n="50"/>senio declinauit, tanquam ad opin. ma¬ 
+      <!--52.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>gis probabilem. Videtur etiam aliquibus 
+      <lb ed="#B" n="52"/>esse opinio Alexandri de Hales par. iij. 
+      <lb ed="#B" n="53"/>art. i. mem. j. q. xi. &amp; q. xii. tametsi ibidem 
+      <lb ed="#B" n="54"/>solum de gratia unionis in Christo 
+      di<lb ed="#B" n="55" break="no"/>suuter i¬¬. 
+      <lb ed="#B" n="56"/>e: re opinio tenet partem 
+      negati<lb ed="#B" n="57" break="no"/>uam. Volo ambas prosequi solum 
+      recita<lb ed="#B" n="58" break="no"/>tiue, sine omni assertione, lectoris 
+      iudi<lb ed="#B" n="59" break="no"/>cio relinquens, quae probabilior sit iudi 
+      <lb ed="#B" n="60"/>canda. Et secundum hoc duo erunt 
+      ar<lb ed="#B" n="61" break="no"/>ticuli in q. quibus addetur tertius de 
+      <lb ed="#B" n="62"/>quorundam dubiorum solutione.
+    </p>
+            <p xml:id="gbs333-he4933-d1e170">
+      ¶ 
+      Quan<lb ed="#B" n="63" break="no"/>tum ad primum supponendum ex dicti 
+      <lb ed="#B" n="64"/>in praecedenti quaestione, quod aliquid 
+      per<lb ed="#B" n="65" break="no"/>sonari, siue assumi ad unitatem personae 
+      <lb ed="#B" n="66"/>non est ipsum fieri persona: alioquin na 
+      <lb ed="#B" n="67"/>tura humana non personaretur a uerbo, 
+      <lb ed="#B" n="68"/>nec assumeretur ad unitatem personae 
+      <lb ed="#B" n="69"/>uerbi: quia natura humana assumpta non 
+      <lb ed="#B" n="70"/>est persona: nec simpliciter nec 
+      perso<lb ed="#B" n="71" break="no"/>na uerbi: sed personari est (ut supra 
+      pa<lb ed="#B" n="72" break="no"/>tuit q praecedente.) dependentia 
+      sup<lb ed="#B" n="73" break="no"/>positalem ab aliqua persona terminari: 
+      <lb ed="#B" n="74"/>quo supposito est haec conclusio 
+      re<lb ed="#B" n="75" break="no"/>sponsalis huius conclusionis.
+    </p>
+            <p xml:id="gbs333-he4933-d1e202">
+      ¶ Omnis 
+      <lb ed="#B" n="76"/>entitas positiua, siue accidens, siue sub. 
+      <lb ed="#B" n="77"/>stantia, assumi potest suppositaliter  
+      <lb ed="#B" n="78"/>persona diuina. Ista conclusio sic 
+      pro<lb ed="#B" n="79" break="no"/>batur. Cuiuscunque naturae 
+      dependen<lb ed="#B" n="80" break="no"/>tia suppositalis potest terminari ad per 
+      <lb ed="#B" n="81"/>sonam diuinam, ipsa potest ab eo 
+      as<lb ed="#B" n="82" break="no"/>sumi: sed talis est omnis entitas 
+      po<lb ed="#B" n="83" break="no"/>sitiua tam substantia, quam accidens: 
+      <lb ed="#B" n="84"/>ergo. Consequentia nota cum 
+      maio<lb ed="#B" n="85" break="no"/>re. Minor probatur: quia cuiuslibet  
+      <lb ed="#B" n="86"/>sentitatis positiuae dependentia 
+      supposi<lb ed="#B" n="87" break="no"/>tale terminari ad personam diuinam, non 
+      di<lb ed="#B" n="88" break="no"/>cit imperfectionem in deo, nec 
+      repu<lb ed="#B" n="89" break="no"/>gnantiam in deo, aut creatura: ergo 
+      <lb ed="#B" n="90"/>posse terminari eius dependentiam 
+      ta<lb ed="#B" n="91" break="no"/>lem a diuina persona, non est 
+      negan<lb ed="#B" n="92" break="no"/>dum. Consequentia nota. 
+      Antece<lb ed="#B" n="93" break="no"/>dens patet: quia non dicit 
+      imperfe<lb ed="#B" n="94" break="no"/>ctionem in termino: licet assumptum 
+      <lb ed="#B" n="95"/>siue dependens sit res insimae 
+      perfe<lb ed="#B" n="96" break="no"/>ctionis: non enim importat 
+      maio<lb ed="#B" n="97" break="no"/>rem imperfectionem, quam 
+      termina<lb ed="#B" n="98" break="no"/>re dependentiam causalem, quae est 
+      <lb ed="#B" n="99"/>producti ad producens: aut 
+      conser<lb ed="#B" n="100" break="no"/>uati ad conseruans: sed haec 
+      termina<lb ed="#B" n="101" break="no"/>tur ad tota trinitatem: ergo &amp; illa. Nec 
+      <lb ed="#B" n="102"/>impedit uilitas, aut indignitas causati: 
+      <!--53.xml-->
+      <pb ed="#B" n="22"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cum nec diabolus, nec infernus, nec 
+      pec<lb ed="#B" n="2" break="no"/>cati actus positiuus esse possit, deo non 
+      <lb ed="#B" n="3"/>copseruanter aut potentialiter, aut 
+      es<lb ed="#B" n="4" break="no"/>se nre.
+    </p>
+            <p xml:id="gbs333-he4933-d1e278">
+      ¶ Praetereali  
+      <lb ed="#B" n="5"/>sentialiter non 
+      praeisei<lb ed="#B" n="6" break="no"/>cet natura rationalis dignior sit 
+      irratio<lb ed="#B" n="7" break="no"/>nali: tamen ita infinite distat dignitate a 
+      <lb ed="#B" n="8"/>perfectione diuinae personae, sicut 
+      ulti<lb ed="#B" n="9" break="no"/>ma creatura: igitur si indignitas 
+      creatu<lb ed="#B" n="10" break="no"/>rae impediret, nulla creatura esset assum 
+      <lb ed="#B" n="11"/>ptibilis: cum omnes aeque distant puta 
+      <lb ed="#B" n="12"/>infinite a dignitate diuina.
+    </p>
+            <p xml:id="gbs333-he4933-d1e298">
+      ¶ Quod 
+      <lb ed="#B" n="13"/>etiam non dicat repugnantiam aliquam  
+      <lb ed="#B" n="14"/>in deo, patet: quia apud deum non est 
+      <lb ed="#B" n="15"/>impossibile omne uerbum, id est omne 
+      con<lb ed="#B" n="16" break="no"/>ceptibile. Nunc autem ita 
+      conceptibi<lb ed="#B" n="17" break="no"/>le est deum assumpsisse creaturam 
+      irra<lb ed="#B" n="18" break="no"/>tionalem, sicut intelligibile est deum 
+      <lb ed="#B" n="19"/>assumpsisse creaturam rationalem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e316">
+      ¶ 
+      Item<lb ed="#B" n="20" break="no"/>uerbum est independens dependentia 
+      <lb ed="#B" n="21"/>suppositali: ergo potest omnem talem 
+      <lb ed="#B" n="22"/>dependentiam terminare: hoc enim sus 
+      <lb ed="#B" n="23"/>ficit, ut dictum est in quaestione 
+      praece<lb ed="#B" n="24" break="no"/>denti.
+    </p>
+            <p xml:id="gbs333-he4933-d1e329">
+      ¶ Quod etiam non dicat 
+      ali<lb ed="#B" n="25" break="no"/>quid repugnans creaturae: quia nulla 
+      <lb ed="#B" n="26"/>creatura habet in se entitatem positiua 
+      <lb ed="#B" n="27"/>repugnantem illi dependentia 
+      speciali<lb ed="#B" n="28" break="no"/>ad personam diuinam, siue repugnantem 
+      <lb ed="#B" n="29"/>eius communicabilitati, ut non 
+      commu<lb ed="#B" n="30" break="no"/>nicetur suppositodiuino. Nec etiam 
+      na<lb ed="#B" n="31" break="no"/>tura rationalis: cum illa sit assumpta, nec 
+      <lb ed="#B" n="32"/>irrationalis. Nam natura non rationa 
+      <lb ed="#B" n="33"/>lis non habet perfectiorem rationem 
+      <lb ed="#B" n="34"/>suppositi, quam natura intellectualis: 
+      er<lb ed="#B" n="35" break="no"/>go non habet aliquod repugnans, 
+      pro<lb ed="#B" n="36" break="no"/>pter quod non posset dependere ad uer 
+      <lb ed="#B" n="37"/>bum huiusmodi dependentia suppositali 
+      <lb ed="#B" n="38"/>plus, quam naturam intellectualis: sed 
+      natu<lb ed="#B" n="39" break="no"/>ra intellectualis non habet repugnans: 
+      <lb ed="#B" n="40"/>ergo nec illa.
+    </p>
+            <p xml:id="gbs333-he4933-d1e366">
+      ¶ Item omnis creatura est 
+      <lb ed="#B" n="41"/>im aequali potentia obedientialidei, nec 
+      <lb ed="#B" n="42"/>una plus, quam alia. quia omnia quaecunque  
+      <lb ed="#B" n="43"/>noluit, fecit in caelo, &amp; in terra, in mari, 
+      <lb ed="#B" n="44"/>&amp; in omnibus abyssis: ergo si unam 
+      crea<lb ed="#B" n="45" break="no"/>turam assumere potest uerbum: potest 
+      <lb ed="#B" n="46"/>quamlibet assumere.
+    </p>
+            <p xml:id="gbs333-he4933-d1e383">
+      ¶ Item si aliquam  
+      <lb ed="#B" n="47"/>non posset assumere, maxime accidens: 
+      <lb ed="#B" n="48"/>quia non potest terminare eius 
+      inhaesio<lb ed="#B" n="49" break="no"/>nem. Sed hoc non: quia licet 
+      inhaesi<lb ed="#B" n="50" break="no"/>uam dependentiam terminare non 
+      pos<lb ed="#B" n="51" break="no"/>sit: cum illa dicat potentialitatem in 
+      <lb ed="#B" n="52"/>termino, &amp; ita imperfectionem: non 
+      <!--53.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="53"/>tamen ideo repugnat uerbo terminare. 
+      <lb ed="#B" n="54"/>dependentiam suppositalem, quae nullam 
+      <lb ed="#B" n="55"/>dicit imperfectionem: quia illae 
+      depen<lb ed="#B" n="56" break="no"/>dentiae sunt ab inuicem separabiles. Non 
+      <lb ed="#B" n="57"/>nadem habitudo informare, &amp; 
+      <lb ed="#B" n="58"/>enim c 
+      e<lb ed="#B" n="59" break="no"/>dependere ad suppositum: ut dictum 
+      en<lb ed="#B" n="60" break="no"/>q. praecedenti. Et dependere non dicit  
+      <lb ed="#B" n="61"/>perfectionem in termino.
+    </p>
+            <p xml:id="gbs333-he4933-d1e422">
+      ¶ Item in 
+      tri<lb ed="#B" n="62" break="no"/>duo mortis Christi, caro Christi 
+      mor<lb ed="#B" n="63" break="no"/>tua, dependebat hac dependentia ad 
+      <lb ed="#B" n="64"/>uerbum: quia fuit hypostatice unita uer 
+      <lb ed="#B" n="65"/>bo in sepulcro: &amp; tamen caro Christi 
+      <lb ed="#B" n="66"/>est natura non intellectualis simpliciter, 
+      <lb ed="#B" n="67"/>&amp; maxime separata anima: ergo 
+      cuili<lb ed="#B" n="68" break="no"/>bet naturae non intellectuali posset 
+      uni<lb ed="#B" n="69" break="no"/>ri. Consequentia tenet: quia non est 
+      ma<lb ed="#B" n="70" break="no"/>ior ratio de una, quam de alia. Nec 
+      re<lb ed="#B" n="71" break="no"/>fert, quod prius fuit unita animae rationali: 
+      <lb ed="#B" n="72"/>quia alia unione caro unita est animae, 
+      <lb ed="#B" n="73"/>&amp; uerbo: etiam alia unione uerbum 
+      si<lb ed="#B" n="74" break="no"/>bi uniuit animam, &amp; alia carnem, quae 
+      <lb ed="#B" n="75"/>abinuicem sunt separabiles.
+    </p>
+            <p xml:id="gbs333-he4933-d1e455">
+      ¶ Item 
+      si<lb ed="#B" n="76" break="no"/>cut in triduo uniuit sibi carnem sine 
+      ani<lb ed="#B" n="77" break="no"/>ma, ita facere potuit abinitio: &amp; 
+      unio<lb ed="#B" n="78" break="no"/>nem illam conseruare in perpetuum: 
+      <lb ed="#B" n="79"/>quia quicquid uerbum potest ad 
+      tem<lb ed="#B" n="80" break="no"/>pus, potest perpetuo.
+    </p>
+            <p xml:id="gbs333-he4933-d1e468">
+      ¶ Corollarium 
+      <lb ed="#B" n="81"/>quod sequitur ad hanc conclusionem. 
+      <lb ed="#B" n="82"/>Illae sunt possibiles, deus est lapis, deus 
+      <lb ed="#B" n="83"/>est asinus, deus est homo danatus: deus 
+      <lb ed="#B" n="84"/>est diabolus. Patet: quia eadem 
+      ratio<lb ed="#B" n="85" break="no"/>ne, qua illa conceditur: deus est homo 
+      <lb ed="#B" n="86"/>crucifixus, mortuus, sanctus, beatus: 
+      <lb ed="#B" n="87"/>etiam istae sunt concedendae per 
+      com<lb ed="#B" n="88" break="no"/>municationem idiomatum: ut infra 
+      di<lb ed="#B" n="89" break="no"/>cetur. Vnde est regula: quamcunque 
+      de<lb ed="#B" n="90" break="no"/>nominationem natura aliqua tribueret 
+      <lb ed="#B" n="91"/>proprio supposito praecise ratione huius 
+      <lb ed="#B" n="92"/>dependentiae suppositalis: hanc etiam 
+      <lb ed="#B" n="93"/>tribuit supposito assumenti. Ex quo 
+      <lb ed="#B" n="94"/>sequitur primo, quod si uerbum assumeret 
+      <lb ed="#B" n="95"/>accidens: propter hoc uerbum non 
+      es<lb ed="#B" n="96" break="no"/>set accidens: nec informans, aut 
+      in<lb ed="#B" n="97" break="no"/>haerens. Patet: quia has 
+      denominatio<lb ed="#B" n="98" break="no"/>nes accidens non dat suo supposito: 
+      <lb ed="#B" n="99"/>quia subjectum accidentis non est 
+      ac<lb ed="#B" n="100" break="no"/>cidens: nec inhaerens, saltem non 
+      opor<lb ed="#B" n="101" break="no"/>tet. Secundo sequitur, si deus 
+      assu<lb ed="#B" n="102" break="no"/>meret albedinem modo, non ideo 
+      di<lb ed="#B" n="103" break="no"/>ceretur albus: quia albedo non 
+      de<lb ed="#B" n="104" break="no"/>nominat suppositum album, disi inhae¬ 
+      <!--54.xml-->
+      <pb ed="#B" n="23"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>reat. Sic licet assumeret actum peccati, 
+      <lb ed="#B" n="2"/>non tamen diceretur peccator: quia 
+      <lb ed="#B" n="3"/>peccator non importat tantum subsisten 
+      <lb ed="#B" n="4"/>tem in actupeccati: sed importat 
+      quan<lb ed="#B" n="5" break="no"/>dam deformitatem uerbo non 
+      conue<lb ed="#B" n="6" break="no"/>nientem. Sed contra hoc uidetur: quia 
+      <lb ed="#B" n="7"/>omnis actio naturae assumptae 
+      attribui<lb ed="#B" n="8" break="no"/>tur assumenti: ideo uerbum dicitur 
+      am<lb ed="#B" n="9" break="no"/>bulasse, comedisse praedicasse, nobis 
+      me<lb ed="#B" n="10" break="no"/>ruisse: similiter depassionibus: ideo 
+      ui<lb ed="#B" n="11" break="no"/>detur concedere oportere in casu, uerbum 
+      <lb ed="#B" n="12"/>uel deus peccat: &amp; uerbum est peccator. 
+      <lb ed="#B" n="13"/>Sicut concedere oportet secundum hanc 
+      <lb ed="#B" n="14"/>opinionem, deus est damnatus: posito, enim quod 
+      <lb ed="#B" n="15"/>deus assumeret naturam humanam sine 
+      gra<lb ed="#B" n="16" break="no"/>tia, quid concedere oportet. si potest 
+      assume<lb ed="#B" n="17" break="no"/>re lapidem gratiae non capacem: posset etiam 
+      <lb ed="#B" n="18"/>assumere naturam humana peccatricem 
+      <lb ed="#B" n="19"/>originali, uel actuali peccato. Similiter 
+      <lb ed="#B" n="20"/>natura assumpta posset de nono 
+      pecca<lb ed="#B" n="21" break="no"/>re, &amp; esse peruersissimus hominum. In 
+      om<lb ed="#B" n="22" break="no"/>nibus his casibus concedere oportet, dus 
+      <lb ed="#B" n="23"/>est peccator, deus potest peccare, deus potest 
+      <lb ed="#B" n="24"/>odire deum, deus potest esse peior 
+      Antichri<lb ed="#B" n="25" break="no"/>sto, uel diabolo: &amp; multa alia, quae sunt  
+      <lb ed="#B" n="26"/>piarum autium ossensiua.
+    </p>
+            <p xml:id="gbs333-he4933-d1e585">
+      ¶ Quantum ad se 
+      <lb ed="#B" n="27"/>cundum articulum recitanda est alia opin. 
+      <lb ed="#B" n="28"/>praedictae contraria, quam quidam 
+      magni<lb ed="#B" n="29" break="no"/>doctores tenent: ut refert Tho. de arge. 
+      <lb ed="#B" n="30"/>dist. ij. tertij q. i. art. i. hanc opinionem 
+      <lb ed="#B" n="31"/>solum recitatiue ponam: ut praemisi. Itaque  
+      <lb ed="#B" n="32"/>supponendum est primo ex 
+      praecedenti<lb ed="#B" n="33" break="no"/>q. unio suppositalis est quaedam entitas 
+      <lb ed="#B" n="34"/>positiua recepta in natura assumpta, 
+      si<lb ed="#B" n="35" break="no"/>ue sit relatio ab omnibus absolutis 
+      di<lb ed="#B" n="36" break="no"/>stincta, siue qualitas quaedam absoluta. 
+      <lb ed="#B" n="37"/>qua formaliter sit huiusmodi assumptio, 
+      <lb ed="#B" n="38"/>qua posita in natura assumpta ipsa est 
+      <lb ed="#B" n="39"/>unita, &amp; ea remota desinit esse unita. 
+      <lb ed="#B" n="40"/>Quam entitatem positiuam doctores, &amp; 
+      <lb ed="#B" n="41"/>sancti nominant gratiam unionis. Est enim 
+      <lb ed="#B" n="42"/>donum ex summa charitate datum, nul 
+      <lb ed="#B" n="43"/>lis meritis prcedentibus, secundum illud 
+      <lb ed="#B" n="44"/>Io. iij. Sic enim deus dilexit mundum: ut  
+      <lb ed="#B" n="45"/>filium suum unigenitum daret. Dedit autem 
+      <lb ed="#B" n="46"/>per eius incarnationem, siue naturae 
+      hu<lb ed="#B" n="47" break="no"/>manae assumptionem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e633">
+      ¶ Pro cuius 
+      intel<lb ed="#B" n="48" break="no"/>lectu aduertendum, quod secundum Alex. 
+      <lb ed="#B" n="49"/>de Hales parte iij. q ij. triplex ponitur 
+      <lb ed="#B" n="50"/>gratia in Christo: scilicet gratia singula 
+      <lb ed="#B" n="51"/>ris personae, gratia capitis, gratia unio¬ 
+      <!--54.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nis. Gratia singularis personae, est 
+      gra<lb ed="#B" n="53" break="no"/>tia gratum faciens, animam Christi 
+      perfi<lb ed="#B" n="54" break="no"/>ciens: qua homo Christus secundum 
+      na<lb ed="#B" n="55" break="no"/>turam assumptam excellenter, &amp; 
+      singu<lb ed="#B" n="56" break="no"/>lariter placuit deo: secundum illud Mat. 
+      <lb ed="#B" n="57"/>iij. &amp; xvij. Hic est filius meus dilectus, 
+      <lb ed="#B" n="58"/>in quo mihi bene complacui. Per hanc 
+      <lb ed="#B" n="59"/>quoque gratiam opera Christi secundum 
+      hu<lb ed="#B" n="60" break="no"/>manitatem meritoria fuerunt, &amp; 
+      patri<lb ed="#B" n="61" break="no"/>accepta ad nostram redemptionem: ut infra 
+      <lb ed="#B" n="62"/>dicetur.
+    </p>
+            <p xml:id="gbs333-he4933-d1e673">
+      ¶ Gratia capitis, de qua latius 
+      <lb ed="#B" n="63"/>inf. dist. xiij. est, qua tanquam caput 
+      eccle<lb ed="#B" n="64" break="no"/>siae gratiam influit membris: de qua ad 
+      <lb ed="#B" n="65"/>Eqhes. i. Ipsum dedit caput super 
+      om<lb ed="#B" n="66" break="no"/>nem ecclesiam, quae est corpus ipsius. Et  
+      <lb ed="#B" n="67"/>Aug. ad Dardanum. In Christo habitat  
+      <lb ed="#B" n="68"/>omnis plenitudo gratiae: sicut in capite 
+      <lb ed="#B" n="69"/>omnes sensus. Et Hugo de sacramentis. 
+      <lb ed="#B" n="70"/>Sicut spiritus hominis mediante capite 
+      <lb ed="#B" n="71"/>descendit ad membra uiuificanda: sic 
+      <lb ed="#B" n="72"/>spiritus sanctus per Christum uenit ad 
+      <lb ed="#B" n="73"/>christianos. Cuius plenitudo est in 
+      ca<lb ed="#B" n="74" break="no"/>pite: participatio uero in membris. 
+      Ve<lb ed="#B" n="75" break="no"/>rum hoc dictum Hug. Alexand. ubi sup. 
+      <lb ed="#B" n="76"/>q. xij. membro j. art. ij. intelligit de 
+      gra<lb ed="#B" n="77" break="no"/>capitis, &amp; unionis increata, quae est 
+      spiri<lb ed="#B" n="78" break="no"/>tussanctus, &amp; non de creata gra. Ponit enim 
+      <lb ed="#B" n="79"/>duplicem gratiam: creatam, &amp; increata: ut 
+      pa<lb ed="#B" n="80" break="no"/>tet ibidem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e715">
+      ¶ Gratia uero unionis creata 
+      <lb ed="#B" n="81"/>secundum Alex. ubi sup. q. xij. membro. i. ar. 
+      <lb ed="#B" n="82"/>i. est dispositio, quae ab increata gra 
+      relin<lb ed="#B" n="83" break="no"/>quitur, quoi disponit ad hanc unionem ex 
+      par<lb ed="#B" n="84" break="no"/>te humanitatis. Et secundum eunde non est 
+      <lb ed="#B" n="85"/>aliud, quam deiformitas, uel diuina 
+      assimi<lb ed="#B" n="86" break="no"/>latio: &amp; forte posset illud facilius sic 
+      di<lb ed="#B" n="87" break="no"/>ci.
+    </p>
+            <p xml:id="gbs333-he4933-d1e733">
+      ¶ Gratia unionis est illud, quo 
+      natu<lb ed="#B" n="88" break="no"/>ra humana formaliter unitur deo, hoc  
+      <lb ed="#B" n="89"/>est unio ipsa, siue sit relatio, siue 
+      quali<lb ed="#B" n="90" break="no"/>tas absoluta,. de illa posset intelligi 
+      di<lb ed="#B" n="91" break="no"/>ctum beati Aug. Quicquid conuenit 
+      <lb ed="#B" n="92"/>filio dei per naturam, conuenit filio 
+      ho<lb ed="#B" n="93" break="no"/>minis per gratiam. Hinc ait idem Alex. 
+      <lb ed="#B" n="94"/>memb. iii. q. ii. In Christo, enim fuit gia 
+      singu<lb ed="#B" n="95" break="no"/>laris sanctitatis, secundum quam fuit sanctus 
+      <lb ed="#B" n="96"/>homo: ita quod nihil deesset sibi de gratia, quae 
+      <lb ed="#B" n="97"/>posset haberi ab homine.
+    </p>
+            <p xml:id="gbs333-he4933-d1e757">
+      ¶ Item fuit 
+      ho<lb ed="#B" n="98" break="no"/>deus: &amp; ideo necessaria fuit in eo. 
+      gra<lb ed="#B" n="99" break="no"/>unionis: quia quod sit homo dus, habet per 
+      unio<lb ed="#B" n="100" break="no"/>nem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e766">
+      ¶ Item ipse mediatore fuit dei, &amp; 
+      <lb ed="#B" n="101"/>hominum, &amp; ideo fuit gratia in ipsa 
+      secun<lb ed="#B" n="102" break="no"/>dum quam esset caput ecclesiae: ut esset 
+      <!--55.xml-->
+      <pb ed="#B" n="24"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>medium influentiae gratiae in nobis: sicut  
+      <lb ed="#B" n="2"/>caput ad alia membra. Et subiungit ibi 
+      <lb ed="#B" n="3"/>dem, quod haec gratia multiplicata in 
+      Chri<lb ed="#B" n="4" break="no"/>sto est una secundum essentiam: non 
+      ta<lb ed="#B" n="5" break="no"/>men est una quantum ad actum, uel 
+      ope<lb ed="#B" n="6" break="no"/>rationem: quia alius actus est unire 
+      hu<lb ed="#B" n="7" break="no"/>manitatem diuinitati: alius influere 
+      gra<lb ed="#B" n="8" break="no"/>tiam: &amp; esse exemplar ad omnes animas 
+      <lb ed="#B" n="9"/>sanctas. Secundum primum attenditur 
+      <lb ed="#B" n="10"/>in Christo gratia unionis: secundum 
+      se<lb ed="#B" n="11" break="no"/>cundum gratiam capitis: secundum tertium 
+      gra<lb ed="#B" n="12" break="no"/>tia singularis personae: quo non obstante 
+      <lb ed="#B" n="13"/>potest dici, quod harum gratiarum semper 
+      poste<lb ed="#B" n="14" break="no"/>rior maior est priore, &amp; praesupponit eam: 
+      <lb ed="#B" n="15"/>unde gratia unionis omnium creaturarum 
+      <lb ed="#B" n="16"/>gratiarum est maxima: praesupponens in 
+      <lb ed="#B" n="17"/>subjecto utranique gratiam scilicet 
+      gra<lb ed="#B" n="18" break="no"/>tiam capitis, &amp; gratiam singularis 
+      sancti<lb ed="#B" n="19" break="no"/>tatis. Et de hoc dicit Alexan. par. iij. q. 
+      <lb ed="#B" n="20"/>xij. membro. i. arti. i. Debemus 
+      praeterea<lb ed="#B" n="21" break="no"/>intelligere gratiam creatam unionis in 
+      <lb ed="#B" n="22"/>Christo, in tanta perfectione, &amp; consum. 
+      <lb ed="#B" n="23"/>matione, &amp; excellentia: ut non solum 
+      <lb ed="#B" n="24"/>disponat ad amorem, &amp; cogitationem 
+      <lb ed="#B" n="25"/>dei creatam, &amp; talem qualis competit 
+      ho<lb ed="#B" n="26" break="no"/>mini deo: sed ulterius ad unitatem 
+      per<lb ed="#B" n="27" break="no"/>sonalem cum deo: ita disponendo, quod 
+      quic<lb ed="#B" n="28" break="no"/>quid conuenit filio dei per natura, 
+      conue<lb ed="#B" n="29" break="no"/>niat filio hominis per gratiam: sicut 
+      di<lb ed="#B" n="30" break="no"/>cit Aug. &amp; sic gratia unionis creata est 
+      <lb ed="#B" n="31"/>perfectissima assimilatio creaturae 
+      ratio<lb ed="#B" n="32" break="no"/>nalis ad deum, quaepossit esse, aut 
+      intelli<lb ed="#B" n="33" break="no"/>gi. haec Alex. De hoc est innuit Aug. xiii. 
+      <lb ed="#B" n="34"/>de trini. c. xix &amp; allegat magister Cum 
+      <lb ed="#B" n="35"/>ego, uerbum caro factum est, &amp; 
+      habi<lb ed="#B" n="36" break="no"/>tauit in nobis. in uerbo intelligo uerum 
+      <lb ed="#B" n="37"/>dei filium, in carne agnosco uerum 
+      ho<lb ed="#B" n="38" break="no"/>minis filium: &amp; utrumque simul in una 
+      per<lb ed="#B" n="39" break="no"/>sona dei, &amp; hominis, ineffabili gratiae 
+      lar<lb ed="#B" n="40" break="no"/>gitate coniunctum. Et infra. In rebus, enim 
+      <lb ed="#B" n="41"/>per tempus ortis, illa summa gratia est, 
+      <lb ed="#B" n="42"/>quod homo in unitate personae coniunctus 
+      <lb ed="#B" n="43"/>est deo, in rebus uero aeternis summa 
+      ue<lb ed="#B" n="44" break="no"/>ritas recte attribuitur dei uerbo. Et 
+      secun<lb ed="#B" n="45" break="no"/>dum hoc, quod Io addit. Vidimus gloriam 
+      <lb ed="#B" n="46"/>eius gloriam quasi unigeniti a patre, 
+      ple<lb ed="#B" n="47" break="no"/>num gratiae, &amp; ueritatis. Plenum gratiae 
+      refer<lb ed="#B" n="48" break="no"/>tur ad naturam assumptam: &amp; ueritatis, 
+      <lb ed="#B" n="49"/>ad personam assumentem. Hac enim 
+      gra<lb ed="#B" n="50" break="no"/>tia creatura eleuatur super statum 
+      creatu<lb ed="#B" n="51" break="no"/>rae: nedum ad perfectissima dei uisionem, 
+      <!--55.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>&amp; fruitiouem, quod omnium beatorum 
+      <lb ed="#B" n="53"/>est, sed ad personalem cum diuina natura 
+      <lb ed="#B" n="54"/>unionem, qua sit, ut ille homo 
+      temporali<lb ed="#B" n="55" break="no"/>ter natus ex uirgine, situere, &amp; realiter 
+      <lb ed="#B" n="56"/>unigenitus patris, natus ex eius 
+      substan<lb ed="#B" n="57" break="no"/>tia in aeternitate: qua eleuatione 
+      crea<lb ed="#B" n="58" break="no"/>turae maior excellentia in creatura 
+      co<lb ed="#B" n="59" break="no"/>gitari non potest.
+    </p>
+            <p xml:id="gbs333-he4933-d1e912">
+      ¶ Quibus praemissis est 
+      <lb ed="#B" n="60"/>conclusio prima secundum hanc. Nulla 
+      <lb ed="#B" n="61"/>natura non gratificabilis est a filio dei 
+      <lb ed="#B" n="62"/>immediate assumptibilis. Probatur: quia 
+      <lb ed="#B" n="63"/>nulla creatura, quae non est capax 
+      gra<lb ed="#B" n="64" break="no"/>tiae unionis, est immediate assumptibilis 
+      <lb ed="#B" n="65"/>a uerbo ad unitatem suppositi. Et 
+      om<lb ed="#B" n="66" break="no"/>nis creatura non gratificabilis est 
+      crea<lb ed="#B" n="67" break="no"/>tura, quae non est capax gratiae unionis: 
+      <lb ed="#B" n="68"/>ergo nulla talis est immediate 
+      assumpti<lb ed="#B" n="69" break="no"/>bilis. Consequentia nota in secunda 
+      pri<lb ed="#B" n="70" break="no"/>mae cum maiore. Minor probatur: quia 
+      <lb ed="#B" n="71"/>natura, quae propter sui imperfectionem 
+      <lb ed="#B" n="72"/>non est capax gratiae imperfectioris: non 
+      <lb ed="#B" n="73"/>est etiam capax gratiae perfectioris. Sed 
+      <lb ed="#B" n="74"/>gratia gratificans minor est gratia 
+      unio<lb ed="#B" n="75" break="no"/>nis, ut dictum est in notabili: ergo 
+      na<lb ed="#B" n="76" break="no"/>tura, quae non est capax gratiae gratum 
+      <lb ed="#B" n="77"/>facientis propter sui imperfectionem, 
+      <lb ed="#B" n="78"/>non erit capax gratiae unionis, quae est in 
+      <lb ed="#B" n="79"/>termino perfectionis gratiae creatae.
+    </p>
+            <p xml:id="gbs333-he4933-d1e959">
+      ¶ Se 
+      <lb ed="#B" n="80"/>cunda conclusio. Gratia unionis 
+      inhae<lb ed="#B" n="81" break="no"/>ret soli parti portionis animae superio  
+      <lb ed="#B" n="82"/>ris. Probatur, quia nobil ori formae 
+      de<lb ed="#B" n="83" break="no"/>betur subjectum nobilius: sed gratia 
+      unio<lb ed="#B" n="84" break="no"/>nis est forma accidentalis nobilissima 
+      <lb ed="#B" n="85"/>nata conuenire animae rationali: ergo 
+      <lb ed="#B" n="86"/>erit in nobilissima eius parte.
+    </p>
+            <p xml:id="gbs333-he4933-d1e977">
+      ¶ Item 
+      gra<lb ed="#B" n="87" break="no"/>tia gratum faciens est in portione 
+      supe<lb ed="#B" n="88" break="no"/>riore: ergo &amp; gratia unionis. Tenet 
+      con<lb ed="#B" n="89" break="no"/>sequentia: quia gratia unionis 
+      praesup<lb ed="#B" n="90" break="no"/>ponit gratiam gratificantem in subjecto. An 
+      <lb ed="#B" n="91"/>tecedens patet: quia gratia gratificans est, 
+      <lb ed="#B" n="92"/>in eo subjecto, in quo potest habere suam 
+      <lb ed="#B" n="93"/>operationem naturalem, quae est inclinare 
+      <lb ed="#B" n="94"/>in bonum aeternum, tamquam infinem ultimum. 
+      <lb ed="#B" n="95"/>Solius autem portionis superioris est 
+      <lb ed="#B" n="96"/>tendere in bonum summum, &amp; aeternum 
+      <lb ed="#B" n="97"/>tanquam in finem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1003">
+      ¶ Tertia conclusio.  
+      <lb ed="#B" n="98"/>Per gratiam unionis inhaerentem 
+      soli<lb ed="#B" n="99" break="no"/>animae tota natura humana, &amp; partes 
+      <lb ed="#B" n="100"/>eius, &amp; proprietates uerbo sunt unitae. 
+      <lb ed="#B" n="101"/>Probatur conclusio: quia tota naturam 
+      <lb ed="#B" n="102"/>humanam, &amp; partes eius, animam scilicet  
+      <!--56.xml-->
+      <pb ed="#B" n="25"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; corpus cum proprietatibus suis assum 
+      <lb ed="#B" n="2"/>psit uerbum: ut dicit Dam. &amp; allegat  
+      <lb ed="#B" n="3"/>magister dist. ij huius tertij. Iotam 
+      ho<lb ed="#B" n="4" break="no"/>minis naturam, &amp; animam, &amp; carnem, 
+      <lb ed="#B" n="5"/>&amp; harum proprietates, siue accidentia 
+      <lb ed="#B" n="6"/>assumpsit. Omnia, inqua, quae in nostra 
+      <lb ed="#B" n="7"/>natura plantauit dei, uerbum assumpsit: 
+      <lb ed="#B" n="8"/>scilicet corpus &amp; animam intellectualem: 
+      <lb ed="#B" n="9"/>&amp; horum idiomata. Totus enim totum assum 
+      <lb ed="#B" n="10"/>psit me: ut tota mihi salutem gratificet,  
+      <lb ed="#B" n="11"/>quod enim est inassumptibile, est 
+      incu<lb ed="#B" n="12" break="no"/>rabile. Haec ille. Et non uniuit sibi sine 
+      <lb ed="#B" n="13"/>unionis gratia: quae non inhaeret nisi 
+      so<lb ed="#B" n="14" break="no"/>li animae: ut dicit conclusio secunda: 
+      er<lb ed="#B" n="15" break="no"/>go.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1055">
+      ¶ Item quod unitunum coniuncto 
+      <lb ed="#B" n="16"/>rum, unit &amp; reliquum: &amp; quicquid 
+      ter<lb ed="#B" n="17" break="no"/>minat dependentiam suppositalem unius 
+      <lb ed="#B" n="18"/>naturae, terminat etiam dependentiam 
+      <lb ed="#B" n="19"/>omnium illi inexistentium, &amp; coniunctorum: 
+      <lb ed="#B" n="20"/>sicut persona Petri terminat 
+      dependen<lb ed="#B" n="21" break="no"/>tiam suppositalem animae eius, &amp; 
+      corpo<lb ed="#B" n="22" break="no"/>ris, &amp; omnium accidentium eis 
+      inhae<lb ed="#B" n="23" break="no"/>rentium: omnia enim illa suppositaliter  
+      <lb ed="#B" n="24"/>dependent ad aliud: ut habitum est. q. i. 
+      <lb ed="#B" n="25"/>&amp; non nisi ad personam Petri. Ita &amp; 
+      na<lb ed="#B" n="26" break="no"/>tura humana, cum dependet ad uerbum 
+      <lb ed="#B" n="27"/>per gratiam unionis, quae soli animae in 
+      <lb ed="#B" n="28"/>haeret, per eam ad idem dependet, 
+      quic<lb ed="#B" n="29" break="no"/>quid est ei coniunctum. Et est simile: nam 
+      <lb ed="#B" n="30"/>gratia gratificans inhaeret soli animae, &amp; 
+      <lb ed="#B" n="31"/>tamen hominem totum deo gratificat:  
+      <lb ed="#B" n="32"/>nam non solum animam: sed &amp; corpus 
+      <lb ed="#B" n="33"/>cum suis proprietatibus ipsum 
+      perficien<lb ed="#B" n="34" break="no"/>tibus acceptum reddit ad uitam aeter 
+      <lb ed="#B" n="35"/>nam: sic &amp; gratia unionis, quaesoli 
+      ani<lb ed="#B" n="36" break="no"/>mae inhaeret: quia sola anima eius capax 
+      <lb ed="#B" n="37"/>est: &amp; tamen animam, &amp; corpus 
+      forma<lb ed="#B" n="38" break="no"/>liter uerbo unit.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1107">
+      ¶ Haec opinio 
+      respon<lb ed="#B" n="39" break="no"/>det rationibus prioris opinionis. Ad 
+      pri<lb ed="#B" n="40" break="no"/>manm, quae est primae suae conclusionis 
+      pro<lb ed="#B" n="41" break="no"/>batio: dicitur, quod terminari dependentia 
+      <lb ed="#B" n="42"/>suppositalem creaturae irrationalis 
+      repu<lb ed="#B" n="43" break="no"/>gnat tam deo assumeti, quam naturae 
+      assu<lb ed="#B" n="44" break="no"/>mendae irrationali. Deo: quia infinitae 
+      po<lb ed="#B" n="45" break="no"/>tentiae dei repugnat qequid est indecens, 
+      <lb ed="#B" n="46"/>incogruum: secudum illud Ansel. Cui deus 
+      <lb ed="#B" n="47"/>homo Minimum inconueniens est deo 
+      impos<lb ed="#B" n="48" break="no"/>sibile: nam posse inconueniens admittere, 
+      <lb ed="#B" n="49"/>posse peccare, posse deficere, posse 
+      mo<lb ed="#B" n="50" break="no"/>ri; non est posse: sed fragilitatis, &amp; impoten 
+      <lb ed="#B" n="51"/>tiae. Ouinis autem fragilitas, &amp; impotentia 
+      <!--56.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>repugnat diuinae potentiae infinitae: sed  
+      <lb ed="#B" n="53"/>summum uniri personaliter naturae non 
+      <lb ed="#B" n="54"/>beatificabili est inconueniens: quia 
+      in<lb ed="#B" n="55" break="no"/>conueniensi esti summum uniri 
+      perfe<lb ed="#B" n="56" break="no"/>ctissima unione illi naturae imperfectae, 
+      <lb ed="#B" n="57"/>cui propter suam imperfectionem non potest 
+      <lb ed="#B" n="58"/>uniri unione minus perfecta: non autem 
+      <lb ed="#B" n="59"/>potest uniri naturae non intellectuali 
+      unio<lb ed="#B" n="60" break="no"/>ne gratifica, nec beatifica: ergo nec 
+      ex<lb ed="#B" n="61" break="no"/>cellentiori, puta personali: illu, enim post 
+      <lb ed="#B" n="62"/>unionem diuinarum personarum in 
+      essen<lb ed="#B" n="63" break="no"/>tia est perfectissima: sed secundum beatum 
+      <lb ed="#B" n="64"/>Ber. lib. v. de consideratione ad Fugenium 
+      <lb ed="#B" n="65"/>papam, &amp; in aliis pluribus locis: tribuit  
+      <lb ed="#B" n="66"/>enim nobilissimam denominationem 
+      concre<lb ed="#B" n="67" break="no"/>to creaturae, qua uere, &amp; realiter deus 
+      di<lb ed="#B" n="68" break="no"/>citur: ut apostolus Phil. ij. propter quod  
+      <lb ed="#B" n="69"/>scilicet fuisse obedientem patri usque ad 
+      <lb ed="#B" n="70"/>mortem crucis, dedit illi nomen super 
+      <lb ed="#B" n="71"/>omne nomen &amp;c. Nomen illud est, quod  
+      <lb ed="#B" n="72"/>ille obediens homo usque ad mortem 
+      cru<lb ed="#B" n="73" break="no"/>cis, uere dicitur, &amp; est deus: hoc autem 
+      <lb ed="#B" n="74"/>non conuenit nisi per illam unionem 
+      <lb ed="#B" n="75"/>personalem naturae humanae cum uerbo. 
+      <lb ed="#B" n="76"/>Et nisi illa unio esset maxima, &amp; opus 
+      <lb ed="#B" n="77"/>maxime gratuitae uoluntatis maioris, 
+      <lb ed="#B" n="78"/>quam beatificationis: quomo dicit Augu. 
+      <lb ed="#B" n="79"/>inter omnia opera ex temporeorta, 
+      <lb ed="#B" n="80"/>opus incarnationis est maximae gratiae: 
+      <lb ed="#B" n="81"/>&amp; ita maioris, quam opus beatificationis. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e1207">
+               <lb ed="#B" n="82"/>¶ Et quid magnum esset deum humanati: 
+      si<lb ed="#B" n="83" break="no"/>etiam sic posset creaturae uilissimae 
+      uni<lb ed="#B" n="84" break="no"/>ri. Vel potius quid per hanc unionem 
+      tan<lb ed="#B" n="85" break="no"/>tum exaltaretur rationalis creatura: etiam 
+      <lb ed="#B" n="86"/>super angelos (quam exaltationem non 
+      <lb ed="#B" n="87"/>satis magnificare sufficiunt omnes 
+      san<lb ed="#B" n="88" break="no"/>cti: immo &amp; apostolus ad Heb. i. pe totum 
+      <lb ed="#B" n="89"/>capitulum) si etiam conueniret naturae tan 
+      <lb ed="#B" n="90"/>imperfectae, quae nec gratificari: nec 
+      bea<lb ed="#B" n="91" break="no"/>tificari posset. Et qumodo humana natura in 
+      <lb ed="#B" n="92"/>Christo esset exaltata super angelos 
+      per<lb ed="#B" n="93" break="no"/>eius assumptionem: cum illa etiam 
+      conueni<lb ed="#B" n="94" break="no"/>ret craeaturae irrationali, quae etiam assum 
+      <lb ed="#B" n="95"/>pta per impossibile non aequaretur 
+      per<lb ed="#B" n="96" break="no"/>fectioni angelicae, etiam accidentali. 
+      Sem<lb ed="#B" n="97" break="no"/>per enim excelleret angelus ipsa 
+      bea<lb ed="#B" n="98" break="no"/>titudine, cuius talis natura itrationalis 
+      <lb ed="#B" n="99"/>non esset capax.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1250">
+      ¶ Repugnat etiam naturae 
+      <lb ed="#B" n="100"/>non intellectuali: quia ei repugnat gratia 
+      <lb ed="#B" n="101"/>unionis, sine qua impossibile est eam perso 
+      <lb ed="#B" n="102"/>naliter assumm: nam aei repugnat gratia gra¬ 
+      <!--57.xml-->
+      <pb ed="#B" n="26"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tificans, &amp; gloria propter suam 
+      imperfe<lb ed="#B" n="2" break="no"/>ctionem, quae tamen gratia, &amp; gloria sunt 
+      <lb ed="#B" n="3"/>minoris perfectionis, quam gratia 
+      unio<lb ed="#B" n="4" break="no"/>nis: &amp; per hoc etiam implicat 
+      contradi<lb ed="#B" n="5" break="no"/>ctionem naturam non gratificabilem 
+      as<lb ed="#B" n="6" break="no"/>sumi. Nam sequitur, est assumptibilis. 
+      <lb ed="#B" n="7"/>ergo gratificabilis, &amp; est natura non in 
+      <lb ed="#B" n="8"/>tellectualis: ergo non gratificabilis: &amp; 
+      <lb ed="#B" n="9"/>sic erit gratificabilis, &amp; non 
+      gratifica<lb ed="#B" n="10" break="no"/>bilis. Et uocatur hic gratificabile 
+      ordi<lb ed="#B" n="11" break="no"/>natum ad dei uisionem, &amp; fruitionem, quod 
+      <lb ed="#B" n="12"/>naturae non intellectualisimpliciter 
+      re<lb ed="#B" n="13" break="no"/>pugnat, eo quode talis natura.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1294">
+      ¶ Ad secundum 
+      <lb ed="#B" n="14"/>dicitur, quod propter distantiam praecise 
+      <lb ed="#B" n="15"/>naturae irrationalis a diuina in dignita 
+      <lb ed="#B" n="16"/>te non repugnat ei assumi: sed quia 
+      ei<lb ed="#B" n="17" break="no"/>repugnat gratia gratificans, quam 
+      prae<lb ed="#B" n="18" break="no"/>supponit gratia unionis insuo subjecto: 
+      <lb ed="#B" n="19"/>licet non sit aequa distantia: infinite 
+      di<lb ed="#B" n="20" break="no"/>stantium a deo: sicut in magnitudine si 
+      <lb ed="#B" n="21"/>esset infinita tota maior esset parte sua 
+      <lb ed="#B" n="22"/>infinita. Nec ualet haec republica: si 
+      di<lb ed="#B" n="23" break="no"/>citur, quod exceditur, in ea parte ubi 
+      <lb ed="#B" n="24"/>exceditur, ibi finitur: quomodo ergo 
+      <lb ed="#B" n="25"/>uerum est, quod non sit aequa distantia &amp;c. 
+      <lb ed="#B" n="26"/>Respondetur, ut supratactum fuit in 
+      se<lb ed="#B" n="27" break="no"/>cundo dist. j. quaest. iij. quod maius, &amp; minus 
+      <lb ed="#B" n="28"/>sumuntur dupliciter. Vno modo ut 
+      ma<lb ed="#B" n="29" break="no"/>ius dicitur, quod excedit aliud in certa, &amp; 
+      <lb ed="#B" n="30"/>determinata quantitate: &amp; sic non 
+      at<lb ed="#B" n="31" break="no"/>tribuitur infinitis: nec unum est 
+      ma<lb ed="#B" n="32" break="no"/>ius alio. Alio modo largius, ut maius 
+      di<lb ed="#B" n="33" break="no"/>citur, quod continet omnia, quae 
+      conti<lb ed="#B" n="34" break="no"/>net aliud, uel sibi correspondens: &amp; cun 
+      <lb ed="#B" n="35"/>hoc alia, &amp; sic conceditur unum 
+      infini<lb ed="#B" n="36" break="no"/>tum esse maius alio. &amp; minorem esse 
+      me<lb ed="#B" n="37" break="no"/>dietate totius, quam totum. Et si 
+      dici<lb ed="#B" n="38" break="no"/>tur: ubi exceditur, ibi finitur: hoc 
+      nega<lb ed="#B" n="39" break="no"/>rihabet ubi infinitas exceditur, sic, enim 
+      <lb ed="#B" n="40"/>excessum non finitur: conceditur uero 
+      <lb ed="#B" n="41"/>de excessu finitorum, ubi excessus 
+      inci<lb ed="#B" n="42" break="no"/>pit a certa quantitate excessi: uide 
+      la<lb ed="#B" n="43" break="no"/>tius in secundo loco praeallegato.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1362">
+      ¶ Ad 
+      <lb ed="#B" n="44"/>tertium dicitur quod additur. Non est 
+      <lb ed="#B" n="45"/>omneuerbum impossibile apud deum. 
+      <lb ed="#B" n="46"/>dicitur uerum est. Omne uerbum non 
+      <lb ed="#B" n="47"/>implicans, possibile est apud deum. Non 
+      <lb ed="#B" n="48"/>enim, omne conceptibile est deo 
+      possi<lb ed="#B" n="49" break="no"/>bile. Possum enim concipere aliquid, 
+      <lb ed="#B" n="50"/>quod est simpliciter impossibile, siue quod 
+      <lb ed="#B" n="51"/>implicat: sicut multis imponitur opi¬ 
+      <!--57.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nio, quae implicat: sed omneuerbum 
+      sim<lb ed="#B" n="53" break="no"/>plex, quod scilicet simplici cognitione 
+      <lb ed="#B" n="54"/>concipitur, possibile est deo propter quod 
+      <lb ed="#B" n="55"/>non dixit: omnia uerba: sed non est 
+      im<lb ed="#B" n="56" break="no"/>possibile omne uerbum.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1397">
+      ¶ Ad quartum 
+      <lb ed="#B" n="57"/>dicitur, quod independentia suppositalis 
+      <lb ed="#B" n="58"/>requiritur ad terminandum suppositalem 
+      <lb ed="#B" n="59"/>dependentian; sed non sufficit: quia cun 
+      <lb ed="#B" n="60"/>hoc requiritur in assumptibili a uerbo, 
+      <lb ed="#B" n="61"/>qdsit gratificabile, &amp; beatificabile, aut 
+      <lb ed="#B" n="62"/>pars eius, uel proprietas.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1413">
+      ¶ Ad quintum 
+      <lb ed="#B" n="63"/>dicitur, quod non repugnat personari a uer 
+      <lb ed="#B" n="64"/>bo naturae non beatificabili: propter  
+      <lb ed="#B" n="65"/>aliquod sibi repugnans super additum: 
+      <lb ed="#B" n="66"/>sed repugnat sibi: quia est talis natura, 
+      <lb ed="#B" n="67"/>quae non est capax gratiae, quam 
+      assum<lb ed="#B" n="68" break="no"/>ptio personalis ad uerbum praesupponit. 
+      <lb ed="#B" n="69"/>Has duas rationes expresse in effectutam 
+      <lb ed="#B" n="70"/>git Henticus Ganden. respondendo 
+      opi<lb ed="#B" n="71" break="no"/>nioni oppositae: quam tamen olim 
+      te<lb ed="#B" n="72" break="no"/>nuit: ut refert Io. Picus in sua apolog.¬ 
+      <lb ed="#B" n="73"/>quaest. iiij. unde de corpore Christi in 
+      <lb ed="#B" n="74"/>triduo dicit. Naturam hanc assumpsit  
+      <lb ed="#B" n="75"/>inquantum ad animamgordinabatur, in 
+      <lb ed="#B" n="76"/>telligibilem, ratione cuius 
+      ordinatio<lb ed="#B" n="77" break="no"/>nis etiam ipsum corpus potest dici 
+      intel<lb ed="#B" n="78" break="no"/>lectuale, ministerialiter scilicet &amp; 
+      dispositi<lb ed="#B" n="79" break="no"/>ue. Haec Henricus. Extendit Picus dicens. 
+      <lb ed="#B" n="80"/>Cum dicitur non posse assumi a deo nisi 
+      <lb ed="#B" n="81"/>natura intellectualis: intelligitur, quod 
+      prae<lb ed="#B" n="82" break="no"/>ter illam nihilsit, potest assumi, quod sit 
+      pri<lb ed="#B" n="83" break="no"/>mo assumptum, &amp; totum ac adaequatum 
+      <lb ed="#B" n="84"/>assumptibile. Sic corpus in triduo non 
+      <lb ed="#B" n="85"/>fuit assumptum primo: sed ut pars 
+      natu<lb ed="#B" n="86" break="no"/>rae rationalis primo, &amp; immediate 
+      assun<lb ed="#B" n="87" break="no"/>ptae. Et ceclaram consonantiam cum 
+      il<lb ed="#B" n="88" break="no"/>lo, quod habetur in solutione quartae 
+      ra<lb ed="#B" n="89" break="no"/>tionis infine: scilicet, quod sit gratificabile 
+      <lb ed="#B" n="90"/>aut pars eius: uel proprietas, &amp; ante hoc 
+      <lb ed="#B" n="91"/>dicit Henricus: quanuis omnis ratio 
+      sup<lb ed="#B" n="92" break="no"/>positandi plenissime reperiatur in deo: 
+      <lb ed="#B" n="93"/>haec tamen non est causa sufficiens: sed  
+      <lb ed="#B" n="94"/>concausa: sed ultra hoc in assumendo 
+      re<lb ed="#B" n="95" break="no"/>quiritur ratio imaginis: &amp; finaliter 
+      apti<lb ed="#B" n="96" break="no"/>tudo supernaturalis eleuationis ad 
+      bea<lb ed="#B" n="97" break="no"/>tificam operationem, quae non 
+      conue<lb ed="#B" n="98" break="no"/>nit naturae irrationali. Rationabile, enim 
+      <lb ed="#B" n="99"/>uidetur, quod creatura, quae non potest 
+      ele<lb ed="#B" n="100" break="no"/>uariad actum, secundum non possitetiam 
+      <lb ed="#B" n="101"/>eleuari ad actum primum. Ecce effectum 
+      <lb ed="#B" n="102"/>rationis quintae: ubi pro causa ponitur 
+      <!--58.xml-->
+      <pb ed="#B" n="27"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>non defectus omnipotentiae dei: sed 
+      di<lb ed="#B" n="2" break="no"/>uinae naturae excellentia, &amp; irrationalis 
+      <lb ed="#B" n="3"/>naturae difformis deficientia Haec ibi in 
+      <lb ed="#B" n="4"/>Io. Pici mirandulae apologia. q. iiij.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1517">
+      ¶ Ad 
+      <lb ed="#B" n="5"/>sextum negetur consequentia: quia 
+      li<lb ed="#B" n="6" break="no"/>cet omnis creatura sit in aequali 
+      poten<lb ed="#B" n="7" break="no"/>cia obedientiali &amp;c. tamen ex carne, &amp; 
+      <lb ed="#B" n="8"/>C hxminem, &amp; 
+      <lb ed="#B" n="9"/>anima rationali deus racissc. 
+      csestiet<lb ed="#B" n="10" break="no"/>non asinum. Sunt ergo omnia in aequali 
+      <lb ed="#B" n="11"/>potentia dei: ubi nulla est repugnantia, 
+      <lb ed="#B" n="12"/>&amp; implicatio sicut in proposito.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1538">
+      ¶ Ad 
+      se<lb ed="#B" n="13" break="no"/>ptimum dicitur: quod non potest assumere 
+      <lb ed="#B" n="14"/>accidens separatum a substantia 
+      assum<lb ed="#B" n="15" break="no"/>ptibili. Non quia accidens praecise: sed  
+      <lb ed="#B" n="16"/>quia tale non est capax oratiae: nec pars 
+      <lb ed="#B" n="17"/>aut accidens eius, quod est capax gratiae. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e1551">
+               <lb ed="#B" n="18"/>¶ Adoctauum dicitur: concedendo, quod 
+      <lb ed="#B" n="19"/>caro Christi in sepulchro est unita 
+      per<lb ed="#B" n="20" break="no"/>sonaliter uerbo: ut infra dicetur distin. 
+      <lb ed="#B" n="21"/>xxij. &amp; patet ex dictis. quaest. j. E. Non 
+      <lb ed="#B" n="22"/>tamen per unionem sibi inhaerentem: 
+      <lb ed="#B" n="23"/>sed per giatiam utionis inhaerentem 
+      ani<lb ed="#B" n="24" break="no"/>mae christi. Eo enim, quod anima Christi 
+      <lb ed="#B" n="25"/>separata est unita suppositaliter uerbo: 
+      <lb ed="#B" n="26"/>etiam caro in sepulchro personaliter fuit  
+      <lb ed="#B" n="27"/>unita uerbo. Nam caro Christi mortua 
+      <lb ed="#B" n="28"/>in sepulchro: quia non fuit alia forma sub 
+      <lb ed="#B" n="29"/>stantialispecifica informata: adhuc 
+      de<lb ed="#B" n="30" break="no"/>pendebat immediate ad animam 
+      incli<lb ed="#B" n="31" break="no"/>natione naturalis appetitus, quo 
+      mate<lb ed="#B" n="32" break="no"/>ria inclinatur ad formam; &amp; mediante 
+      <lb ed="#B" n="33"/>anima ad suppositum diuinum, cui 
+      ani<lb ed="#B" n="34" break="no"/>ma fuit unita non minus, quam si 
+      fuis<lb ed="#B" n="35" break="no"/>set animae coniuncta. Verum si gratia 
+      <lb ed="#B" n="36"/>unionis tolleretur ab anima, non 
+      tan<lb ed="#B" n="37" break="no"/>tum anima: sed etiam corpus in 
+      sepul<lb ed="#B" n="38" break="no"/>cro fuisset derelictum. Et ne illud uidea 
+      <lb ed="#B" n="39"/>tur quasi confictum, placet adducere 
+      uer<lb ed="#B" n="40" break="no"/>ba Alexan. parte. iij. quaest. xj. 
+      membro<lb ed="#B" n="41" break="no"/>j. unde ait. In triduo mortis uniebatur 
+      <lb ed="#B" n="42"/>diuinitas corpori mediante anima: quam 
+      <lb ed="#B" n="43"/>uis etiam esset separata a corpore. Nam 
+      <lb ed="#B" n="44"/>anima, ex quo unitur corpori, relinquit  
+      <lb ed="#B" n="45"/>in corpore dispositionem, quae remanet. 
+      <lb ed="#B" n="46"/>in corpore, separata anima ab ipsa. Et  
+      <lb ed="#B" n="47"/>illa dispositio est ipsius aiae, sicut effectus 
+      <lb ed="#B" n="48"/>quidam. Et propter hoc quicquid sit per 
+      <lb ed="#B" n="49"/>illam dispositionem, uel mediante illa, 
+      <lb ed="#B" n="50"/>sit mediante anima: quia mediante 
+      effe<lb ed="#B" n="51" break="no"/>ctuanimae tanquam suae causae proximum. 
+      <lb ed="#B" n="52"/>&amp; per longum declarat in fine subdens. 
+      <!--58.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="53"/>In corpore Iesu Christi manet 
+      disposi<lb ed="#B" n="54" break="no"/>tio ad diuinam unionem separata 
+      ani<lb ed="#B" n="55" break="no"/>ma, per quam dispositionem manet 
+      unio<lb ed="#B" n="56" break="no"/>corporis ad deitatem: quia quaelibet 
+      ma<lb ed="#B" n="57" break="no"/>teria sortitur proprietatem a dispositio  
+      <lb ed="#B" n="58"/>ne suae formae. Et ita anima Christi 
+      se<lb ed="#B" n="59" break="no"/>parata a corpore, illud, quod ex anima 
+      <lb ed="#B" n="60"/>etatis cerpore, scilicet impressio fuit 
+      <lb ed="#B" n="61"/>medium, uel dispositio unionis 
+      corpo<lb ed="#B" n="62" break="no"/>ris ad diuinitatem. Quod sic 
+      intelligen<lb ed="#B" n="63" break="no"/>dum puto: quod propter illam impressionem, 
+      <lb ed="#B" n="64"/>uel dispositionem in corpore derelictam, 
+      <lb ed="#B" n="65"/>psum dependebat ad animam tanquam  
+      <lb ed="#B" n="66"/>ad formam, ad quam naturaliter 
+      incli<lb ed="#B" n="67" break="no"/>nabatur; &amp; per eam ad suppositum 
+      ani<lb ed="#B" n="68" break="no"/>mae, quod est uerbum Non quod illa 
+      impres<lb ed="#B" n="69" break="no"/>sio fuerit gratia unionis: nec per illam 
+      <lb ed="#B" n="70"/>immediate unitum fuerit uerbo: sed quod 
+      <lb ed="#B" n="71"/>per illam immediate dependebat ad 
+      ani<lb ed="#B" n="72" break="no"/>mam: licet separatam, &amp; mediante 
+      ani<lb ed="#B" n="73" break="no"/>ma per gratiam unionis animae 
+      media<lb ed="#B" n="74" break="no"/>te ad uerbum. Et cum consequenter 
+      ar<lb ed="#B" n="75" break="no"/>guitur: non refert, quod prius unita fuit 
+      a<lb ed="#B" n="76" break="no"/>nimae rationali, negetur: &amp; similiter 
+      ne<lb ed="#B" n="77" break="no"/>oetur, quod uerbum alia unione uniuerit 
+      <lb ed="#B" n="78"/>sibi animam, &amp; alia carnem: sed eadem 
+      <lb ed="#B" n="79"/>gratia unionis uniuit sibi animam, &amp; 
+      car<lb ed="#B" n="80" break="no"/>nem, &amp; totam naturam humanam. Nam 
+      <lb ed="#B" n="81"/>sicut una gratia existente in anima 
+      bea<lb ed="#B" n="82" break="no"/>ti Petri in caelo, acceptat pulueres suos 
+      <lb ed="#B" n="83"/>siue corporis remunerandi ad gloriam, 
+      <lb ed="#B" n="84"/>quae est quaedam unio gratuita: &amp; nisi 
+      <lb ed="#B" n="85"/>gratia animam Petri informet, non 
+      ac<lb ed="#B" n="86" break="no"/>ceptarentur eius reliquiae ad gloriam. 
+      <lb ed="#B" n="87"/>Totus denique dicitur sanctus, &amp; 
+      bea<lb ed="#B" n="88" break="no"/>tus secundum corpus, &amp; animam: licet  
+      <lb ed="#B" n="89"/>diuersimode. Ita in proposito propter  
+      <lb ed="#B" n="90"/>gratiam unionis in anima Christi 
+      cor<lb ed="#B" n="91" break="no"/>pus separatum fuit hypostatice 
+      uerbo<lb ed="#B" n="92" break="no"/>unitum.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1720">
+      ¶ Ad nonum negetur: quod in 
+      tri<lb ed="#B" n="93" break="no"/>duo uniuit corpus sine anima. licet sine 
+      <lb ed="#B" n="94"/>anima informante corpus. 
+      Consequen<lb ed="#B" n="95" break="no"/>ter dicitur: quod corpus nunquam informa 
+      <lb ed="#B" n="96"/>tum anima non posset uerbum 
+      assume<lb ed="#B" n="97" break="no"/>resicut nec lapidem: sed iam unitum pe 
+      <lb ed="#B" n="98"/>animam, potest sic unitum 
+      conseruati<lb ed="#B" n="99" break="no"/>separata anima a corpore, sed non a 
+      uer<lb ed="#B" n="100" break="no"/>bo. Nam eo ipso, quod anima separaretur,  
+      <lb ed="#B" n="101"/>suppositaliter a uerbo per unionis 
+      abla<lb ed="#B" n="102" break="no"/>tionem, etiam corpus separaretur. 
+      Pos<lb ed="#B" n="103" break="no"/>set ergo perpetuo conseruare unionem 
+      <!--59.xml-->
+      <pb ed="#B" n="28"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>corporis manente unione animae etiam 
+      <lb ed="#B" n="2"/>separatae. Non autem illa sublata: sicut  
+      <lb ed="#B" n="3"/>perpetuo potest conseruare ignem 
+      cale<lb ed="#B" n="4" break="no"/>facientem manente calore in igne: sed  
+      <lb ed="#B" n="5"/>i non absato calore.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1764">
+      ¶ Qui uult tenere 
+      o<lb ed="#B" n="6" break="no"/>pinionemprimam, potest respondere ad 
+      <lb ed="#B" n="7"/>rationem secundae opinionis, quae in hoc  
+      <lb ed="#B" n="8"/>fundatur: una quod gratia unionis est sum 
+      <lb ed="#B" n="9"/>ma, &amp; praesupponit gratiam gratum 
+      fa<lb ed="#B" n="10" break="no"/>cientem &amp;c. Ad hanc dicitur: quod gratia 
+      <lb ed="#B" n="11"/>unionis dupliciter consideratur. Vno 
+      <lb ed="#B" n="12"/>modo, ut de facto coniuncta gratiae 
+      gra<lb ed="#B" n="13" break="no"/>tum facienti, &amp; beatifice: &amp; sic 
+      loquun<lb ed="#B" n="14" break="no"/>tur de ea sancti, cum dicunt eam esse 
+      <lb ed="#B" n="15"/>summam gratiam: quoduerum est 
+      pro<lb ed="#B" n="16" break="no"/>utincluditalias gratias. Alio modo 
+      con<lb ed="#B" n="17" break="no"/>sideratur, ut separata ab aliis de possibi 
+      <lb ed="#B" n="18"/>li. Sic ergo considerata cum praecisione, 
+      <lb ed="#B" n="19"/>seu separatione a gratia beatifica, non 
+      <lb ed="#B" n="20"/>est perfectissima: quia unio hypostatica, 
+      <lb ed="#B" n="21"/>ut dicit Scotus est secundum rationem 
+      <lb ed="#B" n="22"/>notionalem. Beatifica uero unio seu 
+      gra<lb ed="#B" n="23" break="no"/>tia est secundum rationem essentialem, 
+      <lb ed="#B" n="24"/>Vnde perfectius est esse beatum 
+      simpli<lb ed="#B" n="25" break="no"/>citer, &amp; non unitum: quam esse unitum 
+      <lb ed="#B" n="26"/>hypostatice, &amp; non beatum, cui uidetur 
+      <lb ed="#B" n="27"/>consonare illud beati Augustinui de 
+      <lb ed="#B" n="28"/>sfancta uiduitate. Beatior fuit uirgo 
+      Ma<lb ed="#B" n="29" break="no"/>ria concipiendo filium dei mente, quam 
+      <lb ed="#B" n="30"/>corpore. Prima conceptio est per 
+      gra<lb ed="#B" n="31" break="no"/>tiam gratificantem; secunda per gratiam 
+      <lb ed="#B" n="32"/>unionis. Licet illa auctoritas beati 
+      Au<lb ed="#B" n="33" break="no"/>gustini non uidetur satis ad propositum: 
+      <lb ed="#B" n="34"/>quia non loquitur de natura unita: 
+      sci<lb ed="#B" n="35" break="no"/>licet humanitate Christi. Huius enim 
+      <lb ed="#B" n="36"/>gratiam beatificam non praefert gratia 
+      <lb ed="#B" n="37"/>unionis: sed loquitur de matre domini, 
+      <lb ed="#B" n="38"/>quae non est hypostatice unita uerbo: 
+      <lb ed="#B" n="39"/>sed duntaxat materiam corpulentam 
+      mini<lb ed="#B" n="40" break="no"/>strauit. Et in illa magis fuit gratia 
+      uniri<lb ed="#B" n="41" break="no"/>deo: quam solam materiam uniendam uer 
+      bomi<lb ed="#B" n="42" break="no"/>nistrare: quia illam ministrare quaecunque 
+      ma<lb ed="#B" n="43" break="no"/>terialis creatura potuit. Potuit enim 
+      ean<lb ed="#B" n="44" break="no"/>assumere undecunque uoluit, sicut primum 
+      <lb ed="#B" n="45"/>hominem de terra plasmauit. Est enim 
+      <lb ed="#B" n="46"/>materia in omnibus eiusdem rationis. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e1855">
+               <lb ed="#B" n="47"/>¶ Vel dicitur: uounio illa est summa 
+      gra<lb ed="#B" n="48" break="no"/>tia: id est ex condescentia summae 
+      gra<lb ed="#B" n="49" break="no"/>tuitae uoluntatis dei. Vel dicitur, quod 
+      neu<lb ed="#B" n="50" break="no"/>tra gratiarum est maior altera: quia sunt 
+      <lb ed="#B" n="51"/>alterius generis, &amp; neutra necessario in 
+      <!--59.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cludit aliam.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1875">
+      ¶ Ad aliud, quod cofncedenda 
+      <lb ed="#B" n="53"/>secundum illam opinionem sint piarum 
+      <lb ed="#B" n="54"/>aurium offensiua. Diceretur, quod illa 
+      con<lb ed="#B" n="55" break="no"/>cessa non offendunt aures pias 
+      intelli<lb ed="#B" n="56" break="no"/>gentes, &amp; discretas: sed possunt 
+      of<lb ed="#B" n="57" break="no"/>tendere autes indoctas, &amp; rudes, quae 
+      pra<lb ed="#B" n="58" break="no"/>prie non sunt aures prae: cum pietas, que 
+      <lb ed="#B" n="59"/>thensebiadicitur, cognitionem praesup. 
+      <lb ed="#B" n="60"/>ponat, &amp; fidem. Sic etiam aures 
+      multo<lb ed="#B" n="61" break="no"/>rum infidelium iudeorum, &amp; gentilium 
+      <lb ed="#B" n="62"/>offendit dicere: quod deus factus sit morta 
+      <lb ed="#B" n="63"/>lis, feminae filius, crucifixus, mortuus, 
+      <lb ed="#B" n="64"/>depultus &amp;c. quae nihilominus uera sunt, 
+      <lb ed="#B" n="65"/>&amp; ab omnibus fidelibus concedenda. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e1907">
+               <lb ed="#B" n="66"/>¶ Ad aliud cum quaeritur. Quid magni 
+      es<lb ed="#B" n="67" break="no"/>set assumere hominem, si quamlibet na 
+      <lb ed="#B" n="68"/>turam etiam irrationalem potest aeque 
+      <lb ed="#B" n="69"/>assumere. Dicerent, quod simpliciter 
+      assu<lb ed="#B" n="70" break="no"/>mere creaturam sine eius 
+      gratificatio<lb ed="#B" n="71" break="no"/>ne, non esset ualde magnum faltem 
+      su<lb ed="#B" n="72" break="no"/>per caetera opera eius, sicut &amp; 
+      conferua<lb ed="#B" n="73" break="no"/>re creaturam, uel producere creaturam. 
+      <lb ed="#B" n="74"/>Sed assumere creaturam rationalem 
+      ta<lb ed="#B" n="75" break="no"/>li modo, cum plenitudine gratiarum, &amp; 
+      <lb ed="#B" n="76"/>charismatum: sed quod ab ea in caeteras fluit; 
+      <lb ed="#B" n="77"/>&amp; ex causa omnis gratiae gratificantis 
+      <lb ed="#B" n="78"/>creaturae humanae concessae: sic magnum 
+      <lb ed="#B" n="79"/>est, &amp; maximum: quia sic ab hac 
+      assum<lb ed="#B" n="80" break="no"/>ptione dependet lalus caeterorum. Haec 
+      <lb ed="#B" n="81"/>de articulo secundo.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1944">
+      ¶ Quantum ad 
+      ter<lb ed="#B" n="82" break="no"/>tium dubitatur primo. Vtrum uerbum 
+      <lb ed="#B" n="83"/>sit unitum naturae humanae assumptae una 
+      <lb ed="#B" n="84"/>unione, aut pluribus. Respondeturaliter  
+      <lb ed="#B" n="85"/>secundum opi. duas praemissas: nam 
+      secun<lb ed="#B" n="86" break="no"/>dum opi. secundam tenentem, solam 
+      na<lb ed="#B" n="87" break="no"/>turam gratificabilem esse suppositabilem 
+      <lb ed="#B" n="88"/>a uerbo, &amp; d unioest res absoluta, non 
+      <lb ed="#B" n="89"/>entitas relatiua: quia formaliter sit unio. 
+      <lb ed="#B" n="90"/>dicendum, quod ibi est dumtaxat una 
+      unio<lb ed="#B" n="91" break="no"/>for malis, quae inest animae tantum 
+      sub<lb ed="#B" n="92" break="no"/>jectiue ratione cuius anima primo, &amp; 
+      <lb ed="#B" n="93"/>per se unitur uerbo: &amp; corpus mediante 
+      <lb ed="#B" n="94"/>anima: ut supra declaratum fuit. F.
+    </p>
+            <p xml:id="gbs333-he4933-d1e1975">
+      ¶ Sed 
+      <lb ed="#B" n="95"/>secundum opinionem prima potest dici: 
+      <lb ed="#B" n="96"/>tot sunt uniones realiter distincte, 
+      <lb ed="#B" n="97"/>quot sunt unita realiter distincta: ita quod 
+      <lb ed="#B" n="98"/>alia unione unita est caro: alia anima. 
+      <lb ed="#B" n="99"/>Ideo posset manere unio unius, 
+      soluta<lb ed="#B" n="100" break="no"/>unione alterius: sicut enim unio 
+      nume<lb ed="#B" n="101" break="no"/>ratur secundum unionem terminorum, 
+      <lb ed="#B" n="102"/>ut dictum est q. praecedenti: ita etiam nu¬ 
+      <!--60.xml-->
+      <pb ed="#B" n="29"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>neratur secundum numerum unitorum; 
+      <lb ed="#B" n="2"/>ergo ubi sunt plura unita: plures sunt 
+      <lb ed="#B" n="3"/>uniones: &amp; totuniones, quot unita. 
+      <lb ed="#B" n="4"/>I
+    </p>
+            <p xml:id="gbs333-he4933-d1e2010">
+      ¶ Secundo dubitatur: utrum persona 
+      di<lb ed="#B" n="5" break="no"/>uina possit assumere personam 
+      crea<lb ed="#B" n="6" break="no"/>tam: &amp; uidetur quod sic: quia quaecumque sunt, 
+      <lb ed="#B" n="7"/>idem, quicquid conuenit uni, conuenit 
+      <lb ed="#B" n="8"/>&amp; alteri: sed natura, &amp; suppositum sunt  
+      <lb ed="#B" n="9"/>idem praecise: &amp; natura creata potest 
+      assu<lb ed="#B" n="10" break="no"/>mi: ergo &amp; persona.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2026">
+      ¶ Similiter quando 
+      <lb ed="#B" n="11"/>aliqua omnino supponunt pro eodem: 
+      im<lb ed="#B" n="12" break="no"/>possibile est, quod esse assumptum 
+      uerifice<lb ed="#B" n="13" break="no"/>tur de uno, &amp; non de alio: sed natura, &amp; 
+      <lb ed="#B" n="14"/>suppositum supponunt proeodem: ergo 
+      <lb ed="#B" n="15"/>si natura est assumpta: etiam persona est 
+      <lb ed="#B" n="16"/>assumpta. ergo impossibile est, quod haec sit. 
+      <lb ed="#B" n="17"/>uera. Haec natura est assumpta: nisi etiam 
+      <lb ed="#B" n="18"/>illa sit uera: hic homo est assumptus.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2046">
+      ¶ 
+      Praete<lb ed="#B" n="19" break="no"/>rea, etiam omnino eodem modo conuenit 
+      <lb ed="#B" n="20"/>naturae humanae: quod sit singularis, &amp; quod sit. 
+      <lb ed="#B" n="21"/>suppositum: quia posita sola natura; 
+      ue<lb ed="#B" n="22" break="no"/>rum est dicere, quod sit singularis: similiter 
+      <lb ed="#B" n="23"/>sit suppositum. ergo sicut 
+      contradi<lb ed="#B" n="24" break="no"/>ctio est, quod sit natura &amp; quod non sit 
+      singu<lb ed="#B" n="25" break="no"/>laris. Ita &amp; contradictio est, quod sit, &amp; non 
+      <lb ed="#B" n="26"/>sit suppositum: ergo si natura assumitur, 
+      <lb ed="#B" n="27"/>etiam suppositum assumitur. Item aut 
+      na<lb ed="#B" n="28" break="no"/>tura humana est in potentia neutra ad 
+      <lb ed="#B" n="29"/>dependendum, &amp; non dependendum ad 
+      <lb ed="#B" n="30"/>personam extrinsecam: aut non: sed plus 
+      <lb ed="#B" n="31"/>determinatur ad non dependendum, quam 
+      <lb ed="#B" n="32"/>ad dependendum. Nullum horum dici pott: 
+      <lb ed="#B" n="33"/>ergo natura non potest assum non plus, 
+      <lb ed="#B" n="34"/>quam suppositum. Consequentia nota: 
+      <lb ed="#B" n="35"/>&amp; assumptum probatur: quia non in 
+      po<lb ed="#B" n="36" break="no"/>tentia neutra: quia tunc non plus per 
+      na<lb ed="#B" n="37" break="no"/>turam conueniret sibi non dependere. 
+      <lb ed="#B" n="38"/>quam dependere: quod falsum est: quia 
+      <lb ed="#B" n="39"/>natura humana si sibi derelinqueretur, non 
+      <lb ed="#B" n="40"/>dependeret. Nec secundum: quia si plus 
+      de<lb ed="#B" n="41" break="no"/>terminatur naturaliter ad non 
+      dependen<lb ed="#B" n="42" break="no"/>dum, quam dependendum: tunc dependet a 
+      <lb ed="#B" n="43"/>uerbo uiolenter, quod falsum est, quia sic 
+      <lb ed="#B" n="44"/>per hanc dependetiam imperficeretur.  
+      <lb ed="#B" n="45"/>Ad illa respondet Guiliel. Ocham. iiij. 
+      <lb ed="#B" n="46"/>quodlib. q. xj. quod suppositum humanum 
+      po<lb ed="#B" n="47" break="no"/>test assumi a uerbo: sicut album potest 
+      <lb ed="#B" n="48"/>essenigrum. Et tamen haec est 
+      impossi<lb ed="#B" n="49" break="no"/>bilis: album est nigrum: haec tamen est 
+      <lb ed="#B" n="50"/>possibilis: hoc est nigrum 
+      demonstran<lb ed="#B" n="51" break="no"/>do album. Sic &amp; illa est possibilis: hoc  
+      <!--60.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>est assumptum: demonstrando naturam 
+      <lb ed="#B" n="53"/>sortis, quae est suppositum: &amp; ideo illa 
+      sup<lb ed="#B" n="54" break="no"/>positum potest assumi: sic debet poni in 
+      <lb ed="#B" n="55"/>esse: hoc assumitur demonstrando 
+      suppo<lb ed="#B" n="56" break="no"/>situm. Nihil enim aliud importat iila, 
+      sup<lb ed="#B" n="57" break="no"/>positum potest assumi: nisi quod ens, quod 
+      <lb ed="#B" n="58"/>nunc est suppositum, potest aliquando 
+      <lb ed="#B" n="59"/>assumi: sed quando assumitur, desinit 
+      es<lb ed="#B" n="60" break="no"/>se suppositum.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2145">
+      ¶ Ad rationes, quae sunt 
+      <lb ed="#B" n="61"/>tantum uerbales. Ad prima dicitur, cum 
+      <lb ed="#B" n="62"/>arguitur. Quaecunque sunt idem &amp;c. quod 
+      im<lb ed="#B" n="63" break="no"/>plicat falsum saltem in creaturis: quia ubi  
+      <lb ed="#B" n="64"/>est identitas, ibi non est pluralitas: nec est 
+      <lb ed="#B" n="65"/>ibi unum, &amp; alterum. Sed si ita argueretur.  
+      <lb ed="#B" n="66"/>Natura est suppositum: ergo si natura 
+      assu<lb ed="#B" n="67" break="no"/>mitur, suppositum assumitur: negetur 
+      con<lb ed="#B" n="68" break="no"/>sequentia: quia antecendens est 
+      particu<lb ed="#B" n="69" break="no"/>laris: &amp; assumi non conuenit subjecto. 
+      <lb ed="#B" n="70"/>ilicet natura pro illo supposito, pro quo sibi 
+      <lb ed="#B" n="71"/>conuenit praedicatum. Et est simile 
+      argu<lb ed="#B" n="72" break="no"/>mentu, si argueretur. Animal est homo: 
+      <lb ed="#B" n="73"/>ergo si animal est asinus: homo est asinus. 
+      <lb ed="#B" n="74"/>Quis enim natura, &amp; suppositum sunt idem: non 
+      <lb ed="#B" n="75"/>tamen uniuersaliter omnis natura est idem 
+      <lb ed="#B" n="76"/>upposito: &amp; quicquid conuenit naturae, 
+      <lb ed="#B" n="77"/>quae est suppositum, conuenit etiam 
+      suppo<lb ed="#B" n="78" break="no"/>sito. Assumi autem non conuenit naturae, 
+      <lb ed="#B" n="79"/>quae est suppositum. Sed posse assumi hoc  
+      <lb ed="#B" n="80"/>conuenitt im naturae, quam supposito: sal 
+      <lb ed="#B" n="81"/>tem per praedicationem: sed non assumi. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e2193">
+               <lb ed="#B" n="82"/>¶ Adillud, quod additur. Similiter 
+      quan<lb ed="#B" n="83" break="no"/>do aliqua supponunt pro eodem &amp;c. 
+      Dici<lb ed="#B" n="84" break="no"/>tur, quod uerum est, si supponunt, pro eodem  
+      <lb ed="#B" n="85"/>conuertibiliter. Nunc autem natura, &amp; 
+      sup<lb ed="#B" n="86" break="no"/>positum non supponunt 
+      conuertibili<lb ed="#B" n="87" break="no"/>ter pro eodem. Nam natura superius est 
+      <lb ed="#B" n="88"/>ad suppositum. Et cum infertur. 
+      Impos<lb ed="#B" n="89" break="no"/>sibile est, quod haec sit uera: haec natura est 
+      <lb ed="#B" n="90"/>assumpta: nisi illa sit uera: hic homo est 
+      <lb ed="#B" n="91"/>assumptus: conceditur, si idem in utraque  
+      <lb ed="#B" n="92"/>demonstratur: quia si demonstratur 
+      na<lb ed="#B" n="93" break="no"/>tura, quae est homo, tunc illa non est uera: 
+      <lb ed="#B" n="94"/>haec natura est assumpta, quia si esset 
+      as<lb ed="#B" n="95" break="no"/>sumpta: ia non esset homo: quia homo est 
+      <lb ed="#B" n="96"/>nomen suppositi.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2228">
+      ¶ Ad secundum 
+      omnino<lb ed="#B" n="97" break="no"/>eodem modo conuenit naturae &amp;c. 
+      Distin<lb ed="#B" n="98" break="no"/>guendum est de hac determinatione eodem 
+      <lb ed="#B" n="99"/>modo: quia uel dicit modum realem, uel 
+      <lb ed="#B" n="100"/>modum rationis: ut primo modo sit 
+      sen<lb ed="#B" n="101" break="no"/>sus. Eodem modo id est per idem reale super 
+      <lb ed="#B" n="102"/>additum: &amp; sic nec singularitas, nec sup. 
+      <!--61.xml-->
+      <pb ed="#B" n="30"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>positalitas conuenit rei per aliquod 
+      su<lb ed="#B" n="2" break="no"/>peradditum: quia natura seipsa est 
+      singu<lb ed="#B" n="3" break="no"/>laris, &amp; suppositum: &amp; sic posset 
+      conce<lb ed="#B" n="4" break="no"/>di eodem modo: quia per nihil superad 
+      <lb ed="#B" n="5"/>ditum. Nec ex hoc sequitur: quod sicut 
+      con<lb ed="#B" n="6" break="no"/>tradictio est temesse, &amp; non esse 
+      singu<lb ed="#B" n="7" break="no"/>larem: ita etiam contradictio est rem es 
+      <lb ed="#B" n="8"/>se, &amp; non esse suppositum: quia contra 
+      <lb ed="#B" n="9"/>dictio non est rerum, sed suppositionum. 
+      <lb ed="#B" n="10"/>Si uero dicit modum rationis: eodem 
+      <lb ed="#B" n="11"/>modo idest eadem ratione: sic negetur 
+      <lb ed="#B" n="12"/>assumptum. Alia est enim ratio 
+      singula<lb ed="#B" n="13" break="no"/>ris, alia suppositi, propter quas rationes 
+      <lb ed="#B" n="14"/>differentias nominibus 
+      corresponden<lb ed="#B" n="15" break="no"/>tes unum includit contradictionem, &amp; 
+      <lb ed="#B" n="16"/>non aliud.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2285">
+      ¶ Ad tertium dicitur post 
+      O<lb ed="#B" n="17" break="no"/>ckam. iiij. quodlibe. quaest. xj. quod esse in 
+      <lb ed="#B" n="18"/>potentia neutra dupliciter intelligitur.  
+      <lb ed="#B" n="19"/>Vno modo, quando non plus 
+      inclina<lb ed="#B" n="20" break="no"/>tur ex natura sua actiue ad unum, quam 
+      <lb ed="#B" n="21"/>ad aliud: &amp; sic natura assumpta; &amp; 
+      quae<lb ed="#B" n="22" break="no"/>cunque alia, est in potentia neutra ad de 
+      <lb ed="#B" n="23"/>pendendum ad suppositum extrinsecum, 
+      <lb ed="#B" n="24"/>uel ad non dependendum: quia neutrum 
+      <lb ed="#B" n="25"/>sibi conuenit ex natura sua actiue. 
+      Alio<lb ed="#B" n="26" break="no"/>modo dicitur esse in potentia neutra: 
+      <lb ed="#B" n="27"/>quia si derelinqueretur potentiae suae non 
+      <lb ed="#B" n="28"/>plus praedicaretur de eo unum, quam aliud: 
+      <lb ed="#B" n="29"/>&amp; sic natura assumpta non est in 
+      poten<lb ed="#B" n="30" break="no"/>tia neutra: quia si derelinqueretur suae 
+      <lb ed="#B" n="31"/>naturae: tunc non dependeret ad 
+      suppo<lb ed="#B" n="32" break="no"/>situm extrinsecum: &amp; in hoc sensu 
+      pro<lb ed="#B" n="33" break="no"/>cedit argumentum. Sic ergo admisso, quod 
+      <lb ed="#B" n="34"/>natura assumpta non est in potentia neutra. 
+      <lb ed="#B" n="35"/>Negetur, quod infertur, quod tunc dependeret 
+      <lb ed="#B" n="36"/>a uerbo uiolenter: quia non inclinatur 
+      <lb ed="#B" n="37"/>per naturam suam effectiue ad oppositum: 
+      <lb ed="#B" n="38"/>scilicet ad propriam personalitatem. Ita 
+      <lb ed="#B" n="39"/>dimissum suae naturae effectiue faceret 
+      <lb ed="#B" n="40"/>se non dependere; sicut graue 
+      uiolen<lb ed="#B" n="41" break="no"/>ter detinetur sursum: quia dimissum suae 
+      <lb ed="#B" n="42"/>naturae causat motum deorsum: &amp; talis 
+      <lb ed="#B" n="43"/>inclinatio effectiua non est aliquod 
+      po<lb ed="#B" n="44" break="no"/>sitiuum. Personalis autem propria nihil 
+      <lb ed="#B" n="45"/>addit super naturam rei: sed connotat  
+      <lb ed="#B" n="46"/>tantum negationem dependentiae. Ad 
+      <lb ed="#B" n="47"/>negationem autem nihil effectiua 
+      in<lb ed="#B" n="48" break="no"/>clinatur: &amp; ideo natura non plus 
+      incli<lb ed="#B" n="49" break="no"/>natur ad propriam personalitatem, quam 
+      <lb ed="#B" n="50"/>affirmatio inclinatur ad negationem: 
+      <lb ed="#B" n="51"/>ut dicit Ockam. quaest. ij. huius tertij¬ 
+      <!--61.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-he4933-d1e2368">
+               <lb ed="#B" n="52"/>¶ Quarto dubitatur. Vtrum suppositum 
+      <lb ed="#B" n="53"/>diuinum possit simul plures naturas 
+      nu<lb ed="#B" n="54" break="no"/>mero, &amp; specie differentes suppositare. 
+      <lb ed="#B" n="55"/>&amp; uidetur, quod non: quia tunc contraria 
+      praedi<lb ed="#B" n="56" break="no"/>carentur de eodem. Similiter &amp; dispara 
+      <lb ed="#B" n="57"/>ta. Consequens falsum. Probatur 
+      con<lb ed="#B" n="58" break="no"/>sequentia: quia si assumat uerbum 
+      natu<lb ed="#B" n="59" break="no"/>ram Ioannis albi: &amp; naturam Petri 
+      E<lb ed="#B" n="60" break="no"/>thiopis nigri: tunc album esset nigrum: 
+      <lb ed="#B" n="61"/>&amp; Ioannes esset Petrus. Album autem, 
+      <lb ed="#B" n="62"/>&amp; nigrum sunt contraria: Ioannes, &amp; 
+      <lb ed="#B" n="63"/>Petrus disparata. Probatur 
+      consequen<lb ed="#B" n="64" break="no"/>tia: quia in casu, uerbum est album, &amp; 
+      uer<lb ed="#B" n="65" break="no"/>bum est nigrum. Similiter est Ioannes, &amp; 
+      <lb ed="#B" n="66"/>est Petrus: ergo album estnigrum, &amp; Ioannes 
+      <lb ed="#B" n="67"/>est Petrus: expositorie in tertia figura. 
+      <lb ed="#B" n="68"/>Item incasu nec essent plures homines, 
+      <lb ed="#B" n="69"/>nec unus homo. Non plures homines: 
+      <lb ed="#B" n="70"/>quia non plures personae. Sola enim est 
+      <lb ed="#B" n="71"/>una persona scilicet uerbi. Nec unus 
+      ho<lb ed="#B" n="72" break="no"/>mo: quia plures naturae humanae 
+      reali<lb ed="#B" n="73" break="no"/>ter distinctae non constituunt unum 
+      ho<lb ed="#B" n="74" break="no"/>minem. Item unus homo habet unam 
+      fi<lb ed="#B" n="75" break="no"/>guram: est etiam in uno loco: sed in casu; 
+      <lb ed="#B" n="76"/>homo ille haberet distinctas figuras: quia 
+      <lb ed="#B" n="77"/>qua ratione haberet figuram Ioannis, 
+      <lb ed="#B" n="78"/>eadem ratione haberet figuram Petri. 
+      <lb ed="#B" n="79"/>Similiter esset in distinctis locis, 
+      Petri<lb ed="#B" n="80" break="no"/>scilicet &amp; Ioannis: &amp; ita non unus 
+      ho<lb ed="#B" n="81" break="no"/>mo. Item quaeritur quam figuram 
+      habe<lb ed="#B" n="82" break="no"/>ret homoille. Et an. emper essent simul 
+      <lb ed="#B" n="83"/>Petrus, &amp; Ioannes: an in distinctis locis: 
+      <lb ed="#B" n="84"/>an essent simul penetratiue: an essent 
+      si<lb ed="#B" n="85" break="no"/>bi iuxta positi.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2444">
+      ¶ In oppositum arguitur, 
+      <lb ed="#B" n="86"/>quia non est maiorratio, quare 
+      assume<lb ed="#B" n="87" break="no"/>re possit unamplus, quam aliam: ergo uel 
+      <lb ed="#B" n="88"/>ambas, uel nullam. Respondetur post 
+      <lb ed="#B" n="89"/>Sco. quaest. iij. quod suppositum diuinum potest 
+      <lb ed="#B" n="90"/>assumere plures naturas suppositaliter  
+      <lb ed="#B" n="91"/>simul: immo omnes assumptibiles. 
+      Proba<lb ed="#B" n="92" break="no"/>tur, quia non est repugnantia ex parte 
+      <lb ed="#B" n="93"/>naturarum: cum uniones illae siue 
+      depen<lb ed="#B" n="94" break="no"/>dentiae adinuicem non repugnent: ut 
+      <lb ed="#B" n="95"/>patet in simili in dependentijs 
+      effecti<lb ed="#B" n="96" break="no"/>uis &amp; finalibus. Omnes enim tales simul 
+      <lb ed="#B" n="97"/>terminat trinitas. Nec est repugnantia 
+      <lb ed="#B" n="98"/>ex parte suppositi diuini: quia per hoc  
+      <lb ed="#B" n="99"/>qd terminat suppositalem dependentia 
+      <lb ed="#B" n="100"/>unius naturae: non euacuatur eius 
+      termi<lb ed="#B" n="101" break="no"/>natiuitas; sicut nec in creatura. Nam 
+      ea<lb ed="#B" n="102" break="no"/>dem anima terminat dependentiam plu¬ 
+      <!--62.xml-->
+      <pb ed="#B" n="31"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rium scientiarum, uirtutum, habituum, 
+      <lb ed="#B" n="2"/>&amp; actuum: &amp; generaliter subjectum 
+      plu<lb ed="#B" n="3" break="no"/>riun formarum. Item tota trinitas 
+      ter<lb ed="#B" n="4" break="no"/>minat omnes relationes reales 
+      crea<lb ed="#B" n="5" break="no"/>turarum ad ipsam, quia est causa, &amp; 
+      <lb ed="#B" n="6"/>finis omnium: &amp; secundum ponentes 
+      <lb ed="#B" n="7"/>relationes una albedo terminare potest 
+      <lb ed="#B" n="8"/>infinitas similitudines, si essent infinita 
+      <lb ed="#B" n="9"/>alba. Non enim oportet ad 
+      multiplica<lb ed="#B" n="10" break="no"/>tionem fundamenti, &amp; relationem 
+      mul<lb ed="#B" n="11" break="no"/>tiplicare terminos. Nec ad 
+      multiplica<lb ed="#B" n="12" break="no"/>tionem formarum, multiplicare 
+      suppo<lb ed="#B" n="13" break="no"/>sita: siue inhaesionis, siue 
+      denominatio<lb ed="#B" n="14" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2521">
+      ¶ Ad rationes ante oppositum. Ad 
+      <lb ed="#B" n="15"/>primam conceditur, quod concreta, 
+      con<lb ed="#B" n="16" break="no"/>traria, &amp; disparata de eodem, &amp; de 
+      sein<lb ed="#B" n="17" break="no"/>uicem praedicantur: ut deducit argumen 
+      <lb ed="#B" n="18"/>tum. Et similiter si uerbum etiam 
+      assu<lb ed="#B" n="19" break="no"/>meret angeli naturam, uera esset illa: 
+      <lb ed="#B" n="20"/>homo est angelus. Verum in abstractis 
+      <lb ed="#B" n="21"/>non contingit: quia in casibus positis 
+      <lb ed="#B" n="22"/>humanitas Ioannis, non est humanitas 
+      <lb ed="#B" n="23"/>Petri: &amp; humanitas non est natura 
+      an<lb ed="#B" n="24" break="no"/>geli, siue angeleitas: quamuis enim 
+      con<lb ed="#B" n="25" break="no"/>traria repugnent respectu agentis 
+      natu<lb ed="#B" n="26" break="no"/>ralis: non tamen respectu agentis 
+      su<lb ed="#B" n="27" break="no"/>pernaturalis. Nec contraria inferunt 
+      <lb ed="#B" n="28"/>contrarietatem in terminis 
+      materiali<lb ed="#B" n="29" break="no"/>ter contrariis, sed bene propositiones 
+      <lb ed="#B" n="30"/>contrariae, uel termini formaliter 
+      con<lb ed="#B" n="31" break="no"/>trarij: ut omnis, nullus. Verum repugnam 
+      <lb ed="#B" n="32"/>tia realiter contrariorum est rospectu 
+      <lb ed="#B" n="33"/>eiusdem subjecti: ita quod naturaliter non 
+      <lb ed="#B" n="34"/>possunt esse in eodem subjecto: in casu 
+      <lb ed="#B" n="35"/>autem nostro non sunt in eodem 
+      sub<lb ed="#B" n="36" break="no"/>jecto. Non enim albedo est in natura 
+      <lb ed="#B" n="37"/>Petri: nec nigredo in natura Ioannis: 
+      li<lb ed="#B" n="38" break="no"/>cet Ioannes, &amp; Petrus in casu sunt idem 
+      <lb ed="#B" n="39"/>suppositum.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2578">
+      ¶ Ad secundum dicitur: quod in 
+      <lb ed="#B" n="40"/>casu Ioannes, &amp; Petrus sunt unus 
+      ho<lb ed="#B" n="41" break="no"/>mo, &amp; non plures homines: quia sunt 
+      <lb ed="#B" n="42"/>una persona, scilicet persona uerbi. No 
+      <lb ed="#B" n="43"/>mina enim concreta non plurificantur  
+      <lb ed="#B" n="44"/>nisi propter pluralitatem suppositorum. 
+      <lb ed="#B" n="45"/>Quamuis enim in Ioanne sunt multae 
+      <lb ed="#B" n="46"/>scientiae: non tamen dicitur plures 
+      scien<lb ed="#B" n="47" break="no"/>tes. Sunt ergo unus homo, id est una 
+      per<lb ed="#B" n="48" break="no"/>sona subsistens in natura humana
+    </p>
+            <p xml:id="gbs333-he4933-d1e2600">
+      ¶ Ad 
+      <lb ed="#B" n="49"/>tertium, quod arguit de sigura illius 
+      u<lb ed="#B" n="50" break="no"/>nius hominis. Dicitur, quod homo ille 
+      ha<lb ed="#B" n="51" break="no"/>beret plures figuras, omnium scilicet na¬ 
+      <!--62.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>turarum assumptarum. Est etiam in 
+      plu<lb ed="#B" n="53" break="no"/>ribus locis secundum naturas assumptas: 
+      <lb ed="#B" n="54"/>licet secundum naturam propriam, &amp; 
+      <lb ed="#B" n="55"/>diuinam sit ubique. Vnde si plures 
+      natu<lb ed="#B" n="56" break="no"/>rae humanae assumantur a uerbo non 
+      <lb ed="#B" n="57"/>oportet, quod ille naturae assumptae sint in 
+      <lb ed="#B" n="58"/>eodem loco: licet sint indistantia a uer 
+      <lb ed="#B" n="59"/>bo. Non enim oportet assumptum esse 
+      <lb ed="#B" n="60"/>in quolibet loco, in quo est uerbum 
+      si<lb ed="#B" n="61" break="no"/>cut nunc humana natura non est ubique,  
+      <lb ed="#B" n="62"/>quamuis uerbum sit ubique. Potest ergo 
+      <lb ed="#B" n="63"/>assumere naturam Ioannis: Ioanne 
+      exi<lb ed="#B" n="64" break="no"/>stente Romae: &amp; naturam Petri existen 
+      <lb ed="#B" n="65"/>tis Parisijs: &amp; quaelibet natura seruat  
+      <lb ed="#B" n="66"/>suam formam nec confunduntur 
+      figu<lb ed="#B" n="67" break="no"/>rae, sicut nec ipsae naturae assumptae. 
+      Ve<lb ed="#B" n="68" break="no"/>rum in casu concedendum est, quod 
+      Ioan<lb ed="#B" n="69" break="no"/>nes est Parisiis, &amp; Petrus Romae: 
+      simi<lb ed="#B" n="70" break="no"/>liter Ioannes habet figuram Petri: &amp; 
+      Pe<lb ed="#B" n="71" break="no"/>trus habet siguram Ioannis: quia idem 
+      <lb ed="#B" n="72"/>sunt in casu Petrus, &amp; Ioannes: licet na 
+      <lb ed="#B" n="73"/>turae sint diuersae. Similiter ubicunque 
+      <lb ed="#B" n="74"/>esset Petrus, ibi esset Ioannes: &amp; 
+      alicu<lb ed="#B" n="75" break="no"/>bi esset Ioannes, ubi non esset natura 
+      <lb ed="#B" n="76"/>Ioannis. Vbique enim esset Ioannes 
+      <lb ed="#B" n="77"/>&amp; Petrus, sicut ubique est uerbum. Nam 
+      <lb ed="#B" n="78"/>unum est Ioannes, &amp; Petrus, &amp; uerbum: 
+      <lb ed="#B" n="79"/>sed non est ubique natura Ioannis, aut  
+      <lb ed="#B" n="80"/>Petri sicut ubique est Christus homo: 
+      <lb ed="#B" n="81"/>sed non ubique est humanitas Christi. 
+      Pos<lb ed="#B" n="82" break="no"/>sent tamen naturae illae assumptae esse 
+      <lb ed="#B" n="83"/>simulpenetratiue, &amp; habere unam 
+      figu<lb ed="#B" n="84" break="no"/>ram, quam uellet eas habere uerbum: 
+      <lb ed="#B" n="85"/>sed hoc non oportet ratione assumptio  
+      <lb ed="#B" n="86"/>nis: &amp; sic satis patent illa &amp; similia: si, 
+      prae<lb ed="#B" n="87" break="no"/>positiones resoluantur. Nam ualent: 
+      sup<lb ed="#B" n="88" break="no"/>positum sustentans naturam Petri, 
+      su<lb ed="#B" n="89" break="no"/>stentat etiam naturam Ioannis, &amp; asini, 
+      <lb ed="#B" n="90"/>&amp; lapidis secundum opinionem 
+      praemis<lb ed="#B" n="91" break="no"/>sam. Licet natura humana Ioannis non 
+      <lb ed="#B" n="92"/>esset natura humana Petri, nec 
+      asinei<lb ed="#B" n="93" break="no"/>tas &amp;c. Quod si admittitur opinio, quod 
+      <lb ed="#B" n="94"/>uerbum potest omnem naturam 
+      suppo<lb ed="#B" n="95" break="no"/>sitare: forte concedere oportet: quod idem 
+      <lb ed="#B" n="96"/>indiuiduum potest contineri sub diuer 
+      <lb ed="#B" n="97"/>sis speciebus specialissimis substantiae, 
+      <lb ed="#B" n="98"/>&amp; accidentis. Sic enim conceditur, 
+      uer<lb ed="#B" n="99" break="no"/>bum est homo, uerbum est lapis, uerbum 
+      <lb ed="#B" n="100"/>est album, est dulce, logum idest est 
+      sup<lb ed="#B" n="101" break="no"/>positum sustentans humanitatem, 
+      natu<lb ed="#B" n="102" break="no"/>ram lapidis, albedinem, dulcedinem, 
+      <!--63.xml-->
+      <pb ed="#B" n="32"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>longitudinem citra inhaesionem. Sic ait. 
+      <lb ed="#B" n="2"/>Oyta in suo tertio. Possibile foret 
+      ali<lb ed="#B" n="3" break="no"/>quem esse hominem, angelum, seonem, 
+      <lb ed="#B" n="4"/>capram &amp;c. absque desitione, uel 
+      uariatio<lb ed="#B" n="5" break="no"/>ne facta in natura alicuius indiuidui, 
+      <lb ed="#B" n="6"/>uel speciei. Patet, si deus simul 
+      assume<lb ed="#B" n="7" break="no"/>ret illas naturas &amp;c. Sic secundum 
+      eun<lb ed="#B" n="8" break="no"/>dem, impossibile foret tantum unum 
+      es<lb ed="#B" n="9" break="no"/>se hominem absque hoc, quod aliquis homo 
+      <lb ed="#B" n="10"/>qui nunc est, esse desinat, uel 
+      destrua<lb ed="#B" n="11" break="no"/>tur. Et iterum tot esse homines, quot 
+      <lb ed="#B" n="12"/>nunc sunt absque hoc, quod aliquis homo de 
+      <lb ed="#B" n="13"/>nouo esse incipiat, uel producatur. 
+      Pa<lb ed="#B" n="14" break="no"/>ter si una persona diuina omnes 
+      natu<lb ed="#B" n="15" break="no"/>ras humanas omnium hominum 
+      assume<lb ed="#B" n="16" break="no"/>ret hypostatice: &amp; postea iterum 
+      dimit<lb ed="#B" n="17" break="no"/>teret &amp;c.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2767">
+      ¶ Quinto dubitatur. Vtrum 
+      <lb ed="#B" n="18"/>suppositum creatum possit assumere aliam 
+      <lb ed="#B" n="19"/>naturam creatam; &amp; terminare eius de 
+      <lb ed="#B" n="20"/>pendentiam suppositalem.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2776">
+      ¶ De hoc 
+      du<lb ed="#B" n="21" break="no"/>bio sunt opiniones contrariae Sco quaest. 
+      <lb ed="#B" n="22"/>siiij. &amp; Ockam. quaest. i. tertij: tenent par 
+      <lb ed="#B" n="23"/>tem affirmatiuam. Praemittentes quod  
+      <lb ed="#B" n="24"/>cum quaeritur. Vtrum suppositum 
+      crea<lb ed="#B" n="25" break="no"/>tum posset sustentare alia naturam 
+      crea<lb ed="#B" n="26" break="no"/>tam hypostatice. Sussentare naturam 
+      <lb ed="#B" n="27"/>potest accipi effectiue, uel terminatiue 
+      <lb ed="#B" n="28"/>siue formaliter. Primo modo tota 
+      trini<lb ed="#B" n="29" break="no"/>tas sustentat naturam humanam in 
+      Chri<lb ed="#B" n="30" break="no"/>sto, id est facit eam sustentificatam. 
+      Se<lb ed="#B" n="31" break="no"/>cundo modo solum uerbum sustentat  
+      <lb ed="#B" n="32"/>unionem naturae creatae ad ipsum. 
+      Pri<lb ed="#B" n="33" break="no"/>mo modo non est possibile suppositum 
+      <lb ed="#B" n="34"/>creatum sustentare aliam naturam a sua 
+      <lb ed="#B" n="35"/>effectiue. Patet: quia ad talem unionem 
+      <lb ed="#B" n="36"/>natura non est in potentia naturali; sed  
+      <lb ed="#B" n="37"/>est solum in potentia obedientiali. 
+      Si<lb ed="#B" n="38" break="no"/>cuti tactum fuit in dubio secundo, quod 
+      na<lb ed="#B" n="39" break="no"/>tura assumpta est in potentia neutra ad 
+      <lb ed="#B" n="40"/>dependendum, uel non dependendum 
+      <lb ed="#B" n="41"/>suppositaliter ad supppositum 
+      extrinse<lb ed="#B" n="42" break="no"/>cumeo, quod hoc non conuenit sibi per na 
+      <lb ed="#B" n="43"/>turam suam actiue: sicut graue sua 
+      gra<lb ed="#B" n="44" break="no"/>uitate effectiue &amp; naturaliter 
+      inclina<lb ed="#B" n="45" break="no"/>tur deorsum. Et ergo ad talem unionem 
+      <lb ed="#B" n="46"/>natura non est in potentia nisi obedientia 
+      <lb ed="#B" n="47"/>li: alioquin in proprio supposito 
+      subsiste<lb ed="#B" n="48" break="no"/>ret uiolenter, si esset in potentia aptitu 
+      <lb ed="#B" n="49"/>dinali ad suppositari ab extrinseco: 
+      si<lb ed="#B" n="50" break="no"/>cut lapis uiolenter est sursum: quia est 
+      <lb ed="#B" n="51"/>in potentiaaptitudinali ad esse deorsum: 
+      <!--63.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>potentia autem obedientialis est solun 
+      <lb ed="#B" n="53"/>respectu primi efficientis: &amp; non 
+      respi<lb ed="#B" n="54" break="no"/>cit aliam potentiam actiuam.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2857">
+      ¶ Secundo 
+      <lb ed="#B" n="55"/>modo, creatura potest terminare 
+      depen<lb ed="#B" n="56" break="no"/>dentiam suppositalem alterius 
+      creatu<lb ed="#B" n="57" break="no"/>rae: quia nulla reperitur ratio 
+      impossibi<lb ed="#B" n="58" break="no"/>sitatis: deo tamen efficiente illam 
+      depen<lb ed="#B" n="59" break="no"/>dentiam in natura sic unita, &amp; sustenta 
+      <lb ed="#B" n="60"/>ta. Notanter dicitur. Deo efficiente 
+      il<lb ed="#B" n="61" break="no"/>lam dependentiam: &amp; non agente 
+      crea<lb ed="#B" n="62" break="no"/>tura. Per hoc etiam tollitur replica, que 
+      <lb ed="#B" n="63"/>fieri posset: quae sunt unibilia, unum est 
+      <lb ed="#B" n="64"/>in potentia ad aliud, sed creatura non 
+      <lb ed="#B" n="65"/>est in potentia obedientiali ad aliam 
+      crea<lb ed="#B" n="66" break="no"/>turam, ut patuit: nec naturali, quia haec 
+      <lb ed="#B" n="67"/>unio est impossibilis. Solutio: creaturam 
+      <lb ed="#B" n="68"/>esse in potentia obedientiali ad unionem 
+      <lb ed="#B" n="69"/>hypostaticam cum alia dupliciter 
+      intel<lb ed="#B" n="70" break="no"/>ligitur. Vno modo in potentia 
+      obedien<lb ed="#B" n="71" break="no"/>tiali reducibili ad actum uirtute 
+      creatu<lb ed="#B" n="72" break="no"/>rae cui unitur: &amp; sic falsus est intellectus. 
+      <lb ed="#B" n="73"/>Alio modo uirtute agentis infiniti: scili 
+      <lb ed="#B" n="74"/>cet dei: &amp; sic uerus est intellectus: quod quae 
+      <lb ed="#B" n="75"/>sunt unibilia, unum est in potentia ad 
+      <lb ed="#B" n="76"/>aliud: &amp; sic potentia obedientialis est, 
+      <lb ed="#B" n="77"/>solum respectu primi efficientis. Sed quod 
+      <lb ed="#B" n="78"/>non sit ratio impossibilitatis: deo 
+      tame<lb ed="#B" n="79" break="no"/>auctore clare habet Ockam. quaest. i. 
+      <lb ed="#B" n="80"/>tertij cum inquit. Credo, quod illud, quod 
+      <lb ed="#B" n="81"/>est simpliciter dependens potest 
+      termi<lb ed="#B" n="82" break="no"/>nare dependentiam alterius naturae. 
+      Po<lb ed="#B" n="83" break="no"/>test etiam deus facere, quod una 
+      natura<lb ed="#B" n="84" break="no"/>creata dependeat ad aliam: tanquam ad 
+      <lb ed="#B" n="85"/>naturam sustentificantem. Et 
+      proba<lb ed="#B" n="86" break="no"/>tur, non enim est impossibilitas ex 
+      par<lb ed="#B" n="87" break="no"/>te dei agentis, cui omnia subijciuntur.  
+      <lb ed="#B" n="88"/>Vnde potest creare huiusmodi unionem 
+      <lb ed="#B" n="89"/>in natura creata ad aliam creaturam: nec 
+      <lb ed="#B" n="90"/>ex parte creaturae assumentis: quia talis 
+      <lb ed="#B" n="91"/>assumptio non ponit creaturam extra 
+      <lb ed="#B" n="92"/>statum creaturae. Non enim requirit in 
+      <lb ed="#B" n="93"/>assumente perfectionem infinitam: cum 
+      <lb ed="#B" n="94"/>persona diuina terminat huiusmodi de 
+      <lb ed="#B" n="95"/>pendentiam ratione proprietatis 
+      rela<lb ed="#B" n="96" break="no"/>tiuae, quae non dicit perfectionem 
+      sim<lb ed="#B" n="97" break="no"/>pliciter secundum illum doctorem. 
+      Iten<lb ed="#B" n="98" break="no"/>uidetur, quod terminare dependentia 
+      cau<lb ed="#B" n="99" break="no"/>salem, sit maioris perfectionis: quod 
+      ta<lb ed="#B" n="100" break="no"/>men conuenit uni creaturae respectu 
+      al<lb ed="#B" n="101" break="no"/>terius. Nec est impossibilitas ex parte 
+      <lb ed="#B" n="102"/>natura assumendae: quia tali non repu¬ 
+      <!--64.xml-->
+      <pb ed="#B" n="33"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gnat desuppositari alias non posset 
+      uni<lb ed="#B" n="2" break="no"/>ri uerbo. Igitur desuppositata potest 
+      de<lb ed="#B" n="3" break="no"/>pendere ad aliam creaturam: dum in ea 
+      <lb ed="#B" n="4"/>deus huiusmodi dependentia, seu 
+      unio<lb ed="#B" n="5" break="no"/>nem producat.
+    </p>
+            <p xml:id="gbs333-he4933-d1e2982">
+      ¶ Alia opinio aliquorum, 
+      <lb ed="#B" n="6"/>quam etiam recitat Scotus q. iiij. huius 
+      <lb ed="#B" n="7"/>dist. dicentium, quod natura creata non 
+      po<lb ed="#B" n="8" break="no"/>test sustentare suppositaliter aliam 
+      natu<lb ed="#B" n="9" break="no"/>ramcreatam in se suppositabilem. 
+      Ratio<lb ed="#B" n="10" break="no"/>illorum est: quia suppositum potens alia 
+      <lb ed="#B" n="11"/>naturam sustentare necessario includit  
+      <lb ed="#B" n="12"/>totam perfectionem naturae assumendae: 
+      <lb ed="#B" n="13"/>hoc autem nonfacit nisi suppositum 
+      illimi<lb ed="#B" n="14" break="no"/>tatum, &amp; infinitum: quialicet unum finitum sit. 
+      <lb ed="#B" n="15"/>eminentius alio: non tamenunum continet 
+      <lb ed="#B" n="16"/>totam perfectionem alterius; quia entia 
+      <lb ed="#B" n="17"/>ordinata essentialiter tamen uidentur 
+      di<lb ed="#B" n="18" break="no"/>stingui per negationem, qua inferius 
+      defi<lb ed="#B" n="19" break="no"/>cita superiori. Hanc soluit Sco. per hoc,  
+      <lb ed="#B" n="20"/>uerbum non est infinitum secundum 
+      ratio<lb ed="#B" n="21" break="no"/>nem personalitatis: &amp; tamen secundum illum 
+      ter<lb ed="#B" n="22" break="no"/>minat suppositalitatem naturae humanae. 
+      <lb ed="#B" n="23"/>Sed haec Sco. solutio facile excluditur 
+      <lb ed="#B" n="24"/>dicendo ut q. i. iuxta finem, quod ratio 
+      fon<lb ed="#B" n="25" break="no"/>malis terminandi dependentia persona 
+      <lb ed="#B" n="26"/>lem non est praecise essentia: nec proprietas 
+      <lb ed="#B" n="27"/>relatiua: sed totapersona, quae est 
+      forma<lb ed="#B" n="28" break="no"/>liter infinita: ut habitum est q. i. N. &amp; 
+      ha<lb ed="#B" n="29" break="no"/>bet Ockam q. i. tertii. Item qui sunt de 
+      il<lb ed="#B" n="30" break="no"/>la opinioneper Scotum recitata ubi sup. 
+      <lb ed="#B" n="31"/>sic arguunt per confirmatione. Solus deus 
+      <lb ed="#B" n="32"/>potest illabi creaturae illapsu generali: 
+      er<lb ed="#B" n="33" break="no"/>go etiam solus potest illabi illo 
+      illapsu<lb ed="#B" n="34" break="no"/>speciali. Tenet consequentia: quia illa 
+      <lb ed="#B" n="35"/>unio specialis post illam unionem 
+      per<lb ed="#B" n="36" break="no"/>sonarum in essentia est maxima secundum 
+      <lb ed="#B" n="37"/>Bernard. lib. v. ad Eugenium: ergo si 
+      <lb ed="#B" n="38"/>creaturae non conuenit minorunio: nec 
+      <lb ed="#B" n="39"/>conueniet maior. Illa ratio solueretur 
+      si<lb ed="#B" n="40" break="no"/>cut praecedens: si uerum esset, quod termina 
+      <lb ed="#B" n="41"/>re secundum suppositalem dependentia non 
+      <lb ed="#B" n="42"/>diceret perfectionem in termino: 
+      alioquin<lb ed="#B" n="43" break="no"/>non conueniret uni persone sine alia. 
+      Illap<lb ed="#B" n="44" break="no"/>sus denique generalis includit primitatem 
+      <lb ed="#B" n="45"/>efficientis causae in illabente: uel pmitatem 
+      <lb ed="#B" n="46"/>causae exemplaris, aut finalis; uel etiam 
+      <lb ed="#B" n="47"/>summam simplicitatem, quae sunt 
+      perfe<lb ed="#B" n="48" break="no"/>ctiones simpliciter: ideo soli deo 
+      conue<lb ed="#B" n="49" break="no"/>niunt: &amp; sic ratio illa non concludit  
+      <lb ed="#B" n="50"/>Nec ualet illa ratio, cui non potest 
+      com<lb ed="#B" n="51" break="no"/>municari minus, nec potest commu¬ 
+      <!--64.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nicari maius. Diceretur enim: quod illa 
+      <lb ed="#B" n="53"/>non est uera, nisi quando maius, &amp; 
+      mi<lb ed="#B" n="54" break="no"/>nus sunt eiusdem rationis: non diuersa 
+      <lb ed="#B" n="55"/>rum rationum: uel quando minus includitur 
+      <lb ed="#B" n="56"/>sub maiore. Volare enim minus est, quam 
+      in<lb ed="#B" n="57" break="no"/>telligere: &amp; tamen non conuenit homini, quod 
+      <lb ed="#B" n="58"/>potest intelligere. Praeterea beatus Bernar. 
+      <lb ed="#B" n="59"/>in illa unione personali includit 
+      unio<lb ed="#B" n="60" break="no"/>nem beatificam, &amp; hypostaticam &amp;c. cunm 
+      <lb ed="#B" n="61"/>illapsu generali: &amp; sic est perfectior 
+      so<lb ed="#B" n="62" break="no"/>lo illapsu: sed sic non est ad propositum. 
+      </p>
+            <p xml:id="gbs333-he4933-d1e3112">
+               <lb ed="#B" n="63"/>¶ Sed arguunt illi fortius. Suppositum 
+      <lb ed="#B" n="64"/>terminans illam dependentiam 
+      opor<lb ed="#B" n="65" break="no"/>tet esse indaepedens, &amp; incommunicabile 
+      <lb ed="#B" n="66"/>contradictoriae: ita quod ipsum dependere 
+      <lb ed="#B" n="67"/>includat contradictionem: solum 
+      conue<lb ed="#B" n="68" break="no"/>nit supposito diuino. Nam si creatura 
+      sup<lb ed="#B" n="69" break="no"/>positas potest dependere ad aliud 
+      sup<lb ed="#B" n="70" break="no"/>positum: quomodo potest ultimate 
+      ter<lb ed="#B" n="71" break="no"/>minare talem dependentia alterius. Nam 
+      <lb ed="#B" n="72"/>propter hoc: etsi creatura potest 
+      ter<lb ed="#B" n="73" break="no"/>minare dependentiam causalem 
+      cau<lb ed="#B" n="74" break="no"/>sae efficientis, uel finalis alterius non 
+      <lb ed="#B" n="75"/>tamen ultimate: sic enim solum 
+      termi<lb ed="#B" n="76" break="no"/>nat causa prima, &amp; finis ultimus. Vnde 
+      <lb ed="#B" n="77"/>nulla creatura sufficienter dependet 
+      cau<lb ed="#B" n="78" break="no"/>saliter ad aliam: donec per illam 
+      termi<lb ed="#B" n="79" break="no"/>netur ad causam primam simpliciter 
+      <lb ed="#B" n="80"/>independentem. Cum ergo natura in 
+      se<lb ed="#B" n="81" break="no"/>suppositabilis non dependet ad 
+      supposi<lb ed="#B" n="82" break="no"/>tum mediante alio supposito: oportet, 
+      <lb ed="#B" n="83"/>qdimmediate dependeat ad suppositum 
+      <lb ed="#B" n="84"/>simpliciter independens: quid est tantum 
+      <lb ed="#B" n="85"/>suppositum diuinum. Et si diceretur, quod 
+      <lb ed="#B" n="86"/>subjectum terminat dependentiam 
+      for<lb ed="#B" n="87" break="no"/>mae: &amp; tamen ipsum non est simpliciter 
+      <lb ed="#B" n="88"/>independens: quia subjici, potest esse 
+      <lb ed="#B" n="89"/>subjectum. Opponerent illi, quod nihil 
+      <lb ed="#B" n="90"/>ultimate terminat dependentia formae 
+      <lb ed="#B" n="91"/>subjectalem: nisi subjectum non potens 
+      <lb ed="#B" n="92"/>inhaerere alii subjecto: quod est uel 
+      to<lb ed="#B" n="93" break="no"/>tum compositum, uel materia prima. 
+      <lb ed="#B" n="94"/>Vnde omnis dependentia subjectalis in 
+      <lb ed="#B" n="95"/>generabilibus, &amp; corruptibilibus 
+      termi<lb ed="#B" n="96" break="no"/>natur finaliter per materiam primam, 
+      <lb ed="#B" n="97"/>mediate, uel immediate: quia est 
+      inde<lb ed="#B" n="98" break="no"/>pendens simpliciter tali dependentia 
+      <lb ed="#B" n="99"/>subjectali. In proposito autem: si 
+      na<lb ed="#B" n="100" break="no"/>tura assumitur a supposito 
+      extrinseco<lb ed="#B" n="101" break="no"/>creato: dependentia eius ibi ultimate 
+      <lb ed="#B" n="102"/>terminatur: nec per illud suppositum 
+      <!--65.xml-->
+      <pb ed="#B" n="34"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ultra tendit ad suppositum simpliciter 
+      <lb ed="#B" n="2"/>independens diuinum. Et ideo 
+      opoi<lb ed="#B" n="3" break="no"/>tet illud terminans esse simpliciter 
+      in<lb ed="#B" n="4" break="no"/>dependens tali dependentia 
+      supposita<lb ed="#B" n="5" break="no"/>li; quod soli supposito diuino conuenit, 
+      <lb ed="#B" n="6"/>quid simpliciter independens est: eo quod non 
+      <lb ed="#B" n="7"/>potest ad aliud suppositaliter 
+      depende<lb ed="#B" n="8" break="no"/>re. Illa secunda opinio bene 
+      concor<lb ed="#B" n="9" break="no"/>dat secundae opinioni dae principali 
+      quae<lb ed="#B" n="10" break="no"/>sito huius, quaestionis. Et prima 
+      con<lb ed="#B" n="11" break="no"/>cordat primae: &amp; possunt hic oia dubia 
+      <lb ed="#B" n="12"/>superius mota de uerbo respectu 
+      natu<lb ed="#B" n="13" break="no"/>rae assumptae innouari de supposito 
+      crea<lb ed="#B" n="14" break="no"/>to sustentante, &amp; natura sustentata 
+      se<lb ed="#B" n="15" break="no"/>cundum opinionem sic dicentium: 
+      scili<lb ed="#B" n="16" break="no"/>cet an unum suppositum potest 
+      susten<lb ed="#B" n="17" break="no"/>tare plures naturas: an plura supposita 
+      <lb ed="#B" n="18"/>unam naturam possint suppositare: &amp; 
+      <lb ed="#B" n="19"/>an eadem simul a supposito creato, &amp; 
+      <lb ed="#B" n="20"/>increato possit suppositari. Item: 
+      anil<lb ed="#B" n="21" break="no"/>la sit concedenda: angelus est seo, 
+      la<lb ed="#B" n="22" break="no"/>pis, arbor &amp;c. Item: utrum imperfectior 
+      <lb ed="#B" n="23"/>natura potest suppositare perfectiorem, 
+      <lb ed="#B" n="24"/>ut asinus hominem: homo angelum: in 
+      <lb ed="#B" n="25"/>qua denique specie talis asinus appareret, 
+      <lb ed="#B" n="26"/>an tudiret &amp;c. Quorum solutio potest 
+      <lb ed="#B" n="27"/>formarihoc casu posito secundum 
+      prae<lb ed="#B" n="28" break="no"/>missa de naturae humanae a uerbo 
+      sup<lb ed="#B" n="29" break="no"/>positatione. Et tantum de illa 
+      quae<lb ed="#B" n="30" break="no"/>stione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

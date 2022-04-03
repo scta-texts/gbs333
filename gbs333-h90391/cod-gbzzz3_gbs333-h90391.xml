@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="368"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h90391"> <!-- l3d39prae -->
+            <head xml:id="gbs333-h90391-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h90391-d1e102">
+      <!--399.xml-->
+               <pb ed="#B" n="368"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XXXIX. 
+      <lb ed="#B" n="2"/>IN distinctione 
+      prae<lb ed="#B" n="3" break="no"/>cedenti magister egit 
+      <lb ed="#B" n="4"/>de simplici mendacio 
+      <lb ed="#B" n="5"/>In hac dist. 
+      penulti<lb ed="#B" n="6" break="no"/>ma huius tertij agit 
+      <lb ed="#B" n="7"/>de periurio. Et potest 
+      <lb ed="#B" n="8"/>sententia textus in 
+      <lb ed="#B" n="9"/>his tribus conclusionibus 
+      compraehen<lb ed="#B" n="10" break="no"/>edi.
+    </p>
+            <p xml:id="gbs333-h90391-d1e133">
+      ¶ Prima. Petterat quicumque sciens; uel 
+      <lb ed="#B" n="11"/>nesciens iurat falsum: similiter qui 
+      cre<lb ed="#B" n="12" break="no"/>dens falsum iurat, quod est uerum.
+    </p>
+            <p xml:id="gbs333-h90391-d1e140">
+      ¶ 
+      Se<lb ed="#B" n="13" break="no"/>cunda. Iurare per deum, uel creaturas 
+      <lb ed="#B" n="14"/>simpliciter: quod est deum in testem 
+      as<lb ed="#B" n="15" break="no"/>sumere, uelper execrationem, quod est, 
+      <lb ed="#B" n="16"/>creaturam deo ad penam obligare: 
+      ma<lb ed="#B" n="17" break="no"/>lum est sine necessitate, per falsos uero 
+      <lb ed="#B" n="18"/>deos iurare semper malum est, quamuis 
+      <lb ed="#B" n="19"/>tali juramento (per infidelem facto) 
+      <lb ed="#B" n="20"/>fidelis ad bonum uti potest sine 
+      crimi<lb ed="#B" n="21" break="no"/>ne.
+    </p>
+            <p xml:id="gbs333-h90391-d1e163">
+      ¶ Tertia conclusio Iuramentum 
+      pro<lb ed="#B" n="22" break="no"/>missorium, quod in peiorem uergit 
+      exi<lb ed="#B" n="23" break="no"/>tum, non debet obseruati: quamuis sic 
+      <lb ed="#B" n="24"/>iurans nullatenus a periurio, quod non 
+      <lb ed="#B" n="25"/>promissum non seruando, sed iurando 
+      <lb ed="#B" n="26"/>incidit: sed nec a periurio callida 
+      uerbo<lb ed="#B" n="27" break="no"/>rum arte iurans: nec a peccato peierare. 
+      <lb ed="#B" n="28"/>cogens poterit excusari. Prosecutio 
+      <lb ed="#B" n="29"/>harum patet in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

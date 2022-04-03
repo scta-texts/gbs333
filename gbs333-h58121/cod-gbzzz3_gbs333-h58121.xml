@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="236"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h58121"> <!-- l3d24q1 -->
+            <head xml:id="gbs333-h58121-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h58121-d1e102">
+               <lb ed="#B" n="28"/>QVAESTIO VNCh. 
+      <lb ed="#B" n="29"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="30"/>saESE quaeritur: utrum credibilium 
+      <lb ed="#B" n="31"/>QA reuelatorum in eadem 
+      ani<lb ed="#B" n="32" break="no"/>RkaOP ma simul esse possit fides, &amp; 
+      <lb ed="#B" n="33"/>scientia.
+    </p>
+            <p xml:id="gbs333-h58121-d1e118">
+      ¶ Praemissis notabilibus, subiun 
+      <lb ed="#B" n="34"/>gentur conclusiones, quibus pro 
+      articu<lb ed="#B" n="35" break="no"/>lo tertio addendae sunt mouendorum 
+      <lb ed="#B" n="36"/>dubiorum solutiones.
+    </p>
+            <p xml:id="gbs333-h58121-d1e127">
+      ¶ Quantum ad 
+      <lb ed="#B" n="37"/>primum articulum, notandum, d licet  
+      <lb ed="#B" n="38"/>multipliciter accipitur scientia apud 
+      san<lb ed="#B" n="39" break="no"/>ctos, &amp; doc. hic tamen proprie accipitur 
+      <lb ed="#B" n="40"/>pro notitia adhaesiua conclusionis 
+      ne<lb ed="#B" n="41" break="no"/>cessariae acquisitae per demonstrationem: 
+      <lb ed="#B" n="42"/>ubi innuuntur tres conditiones scientiae. 
+      <lb ed="#B" n="43"/>Prima: quod sit notitia adhaesiua 
+      habitua<lb ed="#B" n="44" break="no"/>lis, uel actualis: per quod excluditur 
+      no<lb ed="#B" n="45" break="no"/>titia appraehensiua: ipsa scilicet ueritas 
+      <lb ed="#B" n="46"/>scita, quae non est scientia: sed objectum 
+      <lb ed="#B" n="47"/>scientiae. Scda: quod sit propositionis neces¬ 
+      <!--267.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>sarimae. Vnde etsi ppositionis contingentis 
+      <lb ed="#B" n="49"/>ueritas potest euidens esseper notitiam 
+      <lb ed="#B" n="50"/>intuitiuam extremorum: non tamen eius 
+      no<lb ed="#B" n="51" break="no"/>titia est scientia. Tertia: quod sit acquisita per 
+      <lb ed="#B" n="52"/>demonstrationem: hoc est per discursum 
+      <lb ed="#B" n="53"/>syllogisticum procedentem ex 
+      necessa<lb ed="#B" n="54" break="no"/>rijs euidentibus mediate, uel immediate. 
+      <lb ed="#B" n="55"/>unde nunquam aliqua ueritas scitur: 
+      do<lb ed="#B" n="56" break="no"/>nec resoluatur ad principia euidentia: 
+      <lb ed="#B" n="57"/>hoc est donec in probatione eius uenia 
+      <lb ed="#B" n="58"/>tur ad principia euidentia est terminis, 
+      <lb ed="#B" n="59"/>uelper experientiam.
+    </p>
+            <p xml:id="gbs333-h58121-d1e185">
+      ¶ Ex quo sequitur,  
+      <lb ed="#B" n="60"/>licet scientia subalternata 
+      praesuppo<lb ed="#B" n="61" break="no"/>nat principia sua ex subalternante: sicut  
+      <lb ed="#B" n="62"/>mulica ex arithmetica, &amp; perspectiua ex 
+      <lb ed="#B" n="63"/>peometria. hoc est, quod principia sua in 
+      a<lb ed="#B" n="64" break="no"/>lia scientia probantur, &amp; reducuntur ad 
+      <lb ed="#B" n="65"/>principia euidentia: nulli tamen subalter 
+      <lb ed="#B" n="66"/>nata est scientia: nisi cui principia eius 
+      <lb ed="#B" n="67"/>reducta sunt, &amp; demonstrata in scientia. 
+      <lb ed="#B" n="68"/>subalternante: quoniam si tantum credit 
+      <lb ed="#B" n="69"/>principia: &amp; supponitea in scientia 
+      su<lb ed="#B" n="70" break="no"/>periore demostrata, &amp; non sunt ei demo 
+      <lb ed="#B" n="71"/>strata: nullius conclusionis mulicae, uel 
+      <lb ed="#B" n="72"/>perspectiuae habere potest scientiam. Non 
+      <lb ed="#B" n="73"/>enim potest esse maioreuidentia, &amp; ad haesionis 
+      <lb ed="#B" n="74"/>firmitas conclusionis, quam praemissarum, 
+      ex<lb ed="#B" n="75" break="no"/>quibus infertur: immo quantum ad 
+      euiden<lb ed="#B" n="76" break="no"/>tiam, semper conclusio sequitur 
+      praemis<lb ed="#B" n="77" break="no"/>sam debiliorem: ut si maior est credita: 
+      <lb ed="#B" n="78"/>minor necessaria, &amp; euidens, uel 
+      econ<lb ed="#B" n="79" break="no"/>uerso: conclusio erit credita, &amp; non euidem 
+      <lb ed="#B" n="80"/>ter scita. Ex quo patet: quod nunquam erit 
+      <lb ed="#B" n="81"/>mulicus, &amp; perspectiuus: nisi fuerit 
+      arith<lb ed="#B" n="82" break="no"/>meticus, &amp; geometricus. Verum opinio 
+      <lb ed="#B" n="83"/>nem, uel fidem extenso nomine habere 
+      <lb ed="#B" n="84"/>potest de his, quae traduntur in musica, 
+      <lb ed="#B" n="85"/>&amp; perspectiua: quae praesupponit 
+      princi<lb ed="#B" n="86" break="no"/>pia absque hoc, quod sciat arithmeticam, &amp; 
+      <lb ed="#B" n="87"/>geometriam. off] Vnde nihil est dicere, ego 
+      <lb ed="#B" n="88"/>scio conclusiones aliquas: quia tum scis 
+      prin<lb ed="#B" n="89" break="no"/>cipia, quibus ego credo, quia tu scis ea: 
+      <lb ed="#B" n="90"/>quia de eisdem potest esse fides opinio, &amp; 
+      scien<lb ed="#B" n="91" break="no"/>tia: sed non simul in eodem: &amp; ideo quam 
+      <lb ed="#B" n="92"/>tumcunque theologia viatorum subalter 
+      <lb ed="#B" n="93"/>netur theologiae beatorum, in qua 
+      princi<lb ed="#B" n="94" break="no"/>pia theologiae uiatorum sunt euidentia, 
+      <lb ed="#B" n="95"/>puta deus est trinus, &amp; unus, quia tamen 
+      <lb ed="#B" n="96"/>uiatori de communi lege non sunt euidem 
+      <lb ed="#B" n="97"/>tia: non potest ei theologia esse scientia, ut  
+      <lb ed="#B" n="98"/>opinatur beatus Tho.
+    </p>
+            <p xml:id="gbs333-h58121-d1e272">
+      ¶ Sedo notandum 
+      <!--268.xml-->
+      <pb ed="#B" n="237"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>circa obiectum fidei: quod quia 
+      generali<lb ed="#B" n="2" break="no"/>ter idem est obiectu actus, &amp; habitus ad 
+      <lb ed="#B" n="3"/>ipsum inclinantis: aliter loquendum est de 
+      <lb ed="#B" n="4"/>objecto fidei acquisitae, &amp; infusae. Nam 
+      <lb ed="#B" n="5"/>quia fides acquisita non est eadem respectu 
+      <lb ed="#B" n="6"/>diuersorum articulorum, seu credibilium 
+      <lb ed="#B" n="7"/>fidei acquisitae: non est unum tantum 
+      obie<lb ed="#B" n="8" break="no"/>ctum: sed tot objecta, quot sunt 
+      credi<lb ed="#B" n="9" break="no"/>bilia: nam objectum fidei nihil aliud est, quam 
+      <lb ed="#B" n="10"/>ueritas credita: sicut obiectum scientiae 
+      <lb ed="#B" n="11"/>est ueritas scita: licet inter illa unum 
+      pos<lb ed="#B" n="12" break="no"/>set dici primum obiectum, quod est qua 
+      <lb ed="#B" n="13"/>si principium, ex quo alia inferuntur: 
+      <lb ed="#B" n="14"/>quale est hoc complexum, omne reuela 
+      <lb ed="#B" n="15"/>tum a deo est uerum in sensu, in quo est, 
+      <lb ed="#B" n="16"/>reuelatum. Illud, enim potest esse praemissa, &amp; 
+      <lb ed="#B" n="17"/>principium partiale inferens omnem 
+      ar<lb ed="#B" n="18" break="no"/>ticulum in speciali. Potest enim sic arguire, 
+      <lb ed="#B" n="19"/>sgectu cuiuslibet articuli: omne 
+      reuela<lb ed="#B" n="20" break="no"/>tua deo in sensu, in quo est reuelatum, 
+      <lb ed="#B" n="21"/>est uerum: sed deum esse trinum, &amp; unum est 
+      <lb ed="#B" n="22"/>reuelatum &amp;c. ergo est uerum.
+    </p>
+            <p xml:id="gbs333-h58121-d1e329">
+      ¶ Sed de 
+      fi<lb ed="#B" n="23" break="no"/>de infusa, si tenetur opinio saecunda 
+      su<lb ed="#B" n="24" break="no"/>perius recitata dil. praecedenti, quod tanquam 
+      <lb ed="#B" n="25"/>causa uniuersalis immediate inclinat ad 
+      <lb ed="#B" n="26"/>omne articulum: dicendum est sicut de 
+      <lb ed="#B" n="27"/>fide acquisita, quod eius non est unum 
+      obie<lb ed="#B" n="28" break="no"/>ctum immediatum: sed tot, quot sunt 
+      cre<lb ed="#B" n="29" break="no"/>dibilia. Non, enim secundum illam positionem 
+      <lb ed="#B" n="30"/>inclinat ad unum credibile propter aliud: 
+      <lb ed="#B" n="31"/>sed ad quodlibet imediate.
+    </p>
+            <p xml:id="gbs333-h58121-d1e351">
+      ¶ Sed si 
+      tene<lb ed="#B" n="32" break="no"/>tur prima opinio: sic fidei infusae est unum 
+      <lb ed="#B" n="33"/>objectum immediatum scilicet haec propositio.  
+      <lb ed="#B" n="34"/>Omne reuelatu a deo &amp;c. ad cuius actum 
+      <lb ed="#B" n="35"/>adhaesiuum primo, &amp; immediate 
+      incli<lb ed="#B" n="36" break="no"/>nat: concurrente tamen fide acquisita: 
+      <lb ed="#B" n="37"/>&amp; mediate inclinat ad alia obiecta 
+      spe<lb ed="#B" n="38" break="no"/>cialium articulorum pro quanto ex illo 
+      <lb ed="#B" n="39"/>objecto primo inferri possunt: &amp; ita 
+      ar<lb ed="#B" n="40" break="no"/>ticuli speciales sunt obiecta mediata. 
+      <lb ed="#B" n="41"/>de hoc distin. praecedenti latius dictum 
+      <lb ed="#B" n="42"/>est.
+    </p>
+            <p xml:id="gbs333-h58121-d1e377">
+      ¶ Tertio notandum, quod sub fide non 
+      so<lb ed="#B" n="43" break="no"/>lum cadunt propositiones contingentes: 
+      <lb ed="#B" n="44"/>sed etiam ueritates necessariae demonstra 
+      <lb ed="#B" n="45"/>biles. Patet per apostolum ad Heb. xj. dicem 
+      <lb ed="#B" n="46"/>tem. Credere oportet accedentem ad deu, 
+      <lb ed="#B" n="47"/>quia est: &amp; quod inquirentibus se 
+      remune<lb ed="#B" n="48" break="no"/>rator sit. Prima: deus est, necessaria est, 
+      <lb ed="#B" n="49"/>&amp; demonstrabilis. Secunda: deus inquirem 
+      <lb ed="#B" n="50"/>tibus se remunerator est: est contingens. 
+      <lb ed="#B" n="51"/>Vnde oes articuli fidei aliquid enuntiates 
+      <!--268.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>de deo intrinsecum deo: ut deus est 
+      tri<lb ed="#B" n="53" break="no"/>nus, &amp; unus. Verbum est a patre, aeterna 
+      <lb ed="#B" n="54"/>liter genitum. spiritus sanctus procedit 
+      <lb ed="#B" n="55"/>ab utroque. Deus est aeternus, sapiens, 
+      iu<lb ed="#B" n="56" break="no"/>stus, omnipotens, bonus: &amp; sic de alijs 
+      <lb ed="#B" n="57"/>attributis, sunt necessariae, quarum 
+      mul<lb ed="#B" n="58" break="no"/>tae sunt demonstrabiles, &amp; naturaliter  
+      <lb ed="#B" n="59"/>notae. Quaedam tantum supernaturaliter 
+      co<lb ed="#B" n="60" break="no"/>gnoscibiles: &amp; dumtaxat in theologia 
+      <lb ed="#B" n="61"/>beatorum demonstrabiles. Articuli uero, 
+      <lb ed="#B" n="62"/>qui aliquid enuntiant de deo per respectum 
+      <lb ed="#B" n="63"/>adextra ad creaturam: ut quod est incarna 
+      <lb ed="#B" n="64"/>tus: quod est passus. Iudex futurus uiuorum, 
+      <lb ed="#B" n="65"/>&amp; mortuorum, beatificator electorum, &amp; 
+      <lb ed="#B" n="66"/>similes, contingentes sunt, &amp; per 
+      con<lb ed="#B" n="67" break="no"/>sequens in demonstrabiles: &amp; per 
+      con<lb ed="#B" n="68" break="no"/>sequens non sunt scibiles: licet sint eui 
+      <lb ed="#B" n="69"/>denter cognoscibiles ex notitia 
+      intuiti<lb ed="#B" n="70" break="no"/>ua terminorum: sed non nisi objectis. Siqui  
+      <lb ed="#B" n="71"/>dem intuitiua notitia dei est beatifica. Et  
+      <lb ed="#B" n="72"/>licet quaedam propositiones sunt 
+      neces<lb ed="#B" n="73" break="no"/>sariae, ut dictum est, &amp; demonstrabiles: 
+      <lb ed="#B" n="74"/>possunt tamen credi similiter, &amp; 
+      opina<lb ed="#B" n="75" break="no"/>ri: nam qui eis assentit inductus leui per 
+      <lb ed="#B" n="76"/>suasione, opinatur eas, qui uero assentit 
+      <lb ed="#B" n="77"/>inductus auctoritate reuclantis, credit.  
+      <lb ed="#B" n="78"/>eas; cui autem demonstrantur, iam nec 
+      <lb ed="#B" n="79"/>opinat: nec credit: sed euidenter noscit 
+      <lb ed="#B" n="80"/>eas: eisque scientia proprie dicta firmiter 
+      <lb ed="#B" n="81"/>assentit.
+    </p>
+            <p xml:id="gbs333-h58121-d1e468">
+      ¶ Quantum ad secundum articulum 
+      <lb ed="#B" n="82"/>est prima coclusio.
+    </p>
+            <p xml:id="gbs333-h58121-d1e474">
+      ¶ Quorundam 
+      credi<lb ed="#B" n="83" break="no"/>bilium potest esse scientia, &amp; apud 
+      uiato<lb ed="#B" n="84" break="no"/>res, &amp; apud beatos. Quorundam tantum 
+      <lb ed="#B" n="85"/>apud beatos. Quorundam nec apud illos, 
+      <lb ed="#B" n="86"/>nec istos. Prima pars patet: nam deum 
+      <lb ed="#B" n="87"/>esse est credibile: ut patet per 
+      aposto<lb ed="#B" n="88" break="no"/>lum supra allegatum: &amp; tamen est ratio 
+      <lb ed="#B" n="89"/>ne naturali demonstrabile.
+    </p>
+            <p xml:id="gbs333-h58121-d1e492">
+      ¶ Praererea: 
+      <lb ed="#B" n="90"/>plura attributa: ut quod est intelligens, 
+      pu<lb ed="#B" n="91" break="no"/>rus actus &amp;c. philosophus demonstrat 
+      <lb ed="#B" n="92"/>de deo: &amp; tamen omnia illa simplex 
+      fi<lb ed="#B" n="93" break="no"/>delis credit, tanquam reuelata.
+    </p>
+            <p xml:id="gbs333-h58121-d1e503">
+      ¶ Quod 
+      <lb ed="#B" n="94"/>etiam apud beatos patebit ex secunda 
+      <lb ed="#B" n="95"/>parte conclusionis, quae sic probatur:  
+      <lb ed="#B" n="96"/>quia propositio illa, deus est trinus, &amp; 
+      <lb ed="#B" n="97"/>unus, quam format uiator, est quoddam 
+      <lb ed="#B" n="98"/>credibile: &amp; tamen, est demonstrabile 
+      <lb ed="#B" n="99"/>apud beatos, quod patet: quia illa 
+      pro<lb ed="#B" n="100" break="no"/>positio, quam format uiator ex 
+      conce<lb ed="#B" n="101" break="no"/>ptibus complexis, uel communibus, ac 
+      <lb ed="#B" n="102"/>indistinctis deum repsentantibus, et necessa 
+      <!--269.xml-->
+      <pb ed="#B" n="238"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ria, &amp; non per se nota: ergo deducibilis 
+      ex<lb ed="#B" n="2" break="no"/>per se notis: &amp; ita demonstrabilis per 
+      prio<lb ed="#B" n="3" break="no"/>rem. haec autem prior propositio est, qui 
+      <lb ed="#B" n="4"/>componitur ex conceptibus 
+      simpli<lb ed="#B" n="5" break="no"/>cibus, &amp; propriis deo: hoc enim est 
+      eui<lb ed="#B" n="6" break="no"/>dens ex terminis: &amp; tales conceptus 
+      pos<lb ed="#B" n="7" break="no"/>sunt esse medium demonstrandi eam, 
+      <lb ed="#B" n="8"/>quam format uiator. Gratia exempli: 
+      sub<lb ed="#B" n="9" break="no"/>ordinetur ly a, conceptui simplici 
+      pro<lb ed="#B" n="10" break="no"/>prio, &amp; distincto dei: tunc illa: a, est 
+      tri<lb ed="#B" n="11" break="no"/>nus, &amp; unus, est per se nota ei, qui habet  
+      <lb ed="#B" n="12"/>correspondentem conceptum a. tunc 
+      <lb ed="#B" n="13"/>arguendo. Omnis a, est trinus, &amp; unus: 
+      <lb ed="#B" n="14"/>deus est a: ergo deus est trinus, &amp; unus: 
+      <lb ed="#B" n="15"/>&amp; uolo, quod ly deus subordinetur 
+      conce<lb ed="#B" n="16" break="no"/>ptui, quem formet uiator est, bona 
+      de<lb ed="#B" n="17" break="no"/>monstratio. Procedit enim ex 
+      necessa<lb ed="#B" n="18" break="no"/>rijs prioribus, &amp; notioribus 
+      conclusio<lb ed="#B" n="19" break="no"/>ne: nam praemissae sunt euidentes ex 
+      ter<lb ed="#B" n="20" break="no"/>minis: non sic conclusio. Praemissas autem 
+      <lb ed="#B" n="21"/>non potest formare secundum legem nisi 
+      <lb ed="#B" n="22"/>beatus: quia nulla est cognitio distincta, 
+      <lb ed="#B" n="23"/>&amp; simplex dei: nisi intuitiua, aut 
+      abstra<lb ed="#B" n="24" break="no"/>ctiua praesupponens intuitiuam. Illae 
+      <lb ed="#B" n="25"/>autem soli beato sunt possibiles: &amp; per 
+      <lb ed="#B" n="26"/>consequens solus beatus potest illam de 
+      <lb ed="#B" n="27"/>mostrare: de hoc latius in primo patuit.  
+      </p>
+            <p xml:id="gbs333-h58121-d1e590">
+               <lb ed="#B" n="28"/>¶ Praeterea Paulus post raptum habuit 
+      <lb ed="#B" n="29"/>euidentem notitiam de illa: deus est 
+      tri<lb ed="#B" n="30" break="no"/>nus, &amp; unus: quia habuit in se notitiam 
+      <lb ed="#B" n="31"/>abstractiuam distinctam dei. Poteratent 
+      <lb ed="#B" n="32"/>formare illam: deus est trinus, &amp; unus, 
+      <lb ed="#B" n="33"/>quam caeteri viatores formant: quia 
+      in<lb ed="#B" n="34" break="no"/>fidelis contradixit sibi de illa 
+      proposi<lb ed="#B" n="35" break="no"/>tione: ergo qualem propositionem 
+      for<lb ed="#B" n="36" break="no"/>mauit infidelis: tale formare poterat, &amp; 
+      <lb ed="#B" n="37"/>Paulus: alias sibi non contradicerent. II 
+      <lb ed="#B" n="38"/>lam ergo ineuidentem viatorum, deus 
+      <lb ed="#B" n="39"/>est trinus, &amp; unus: potuit Paulus demon 
+      <lb ed="#B" n="40"/>strare ex euidentii, quam ipse formauit  
+      <lb ed="#B" n="41"/>per notitias distinctas abstractiuas: licet  
+      <lb ed="#B" n="42"/>illius demonstrationis purus uiator non 
+      <lb ed="#B" n="43"/>fuit capax.
+    </p>
+            <p xml:id="gbs333-h58121-d1e627">
+      ¶ Tertia pars 
+      conclusio<lb ed="#B" n="44" break="no"/>nis patet de ueritatibus credibilibus con 
+      <lb ed="#B" n="45"/>tingentibus, quarum non potest esse scien 
+      <lb ed="#B" n="46"/>tia secundum acceptionem scientiae 
+      sup<lb ed="#B" n="47" break="no"/>positam: licet possint euidenter cogno 
+      <lb ed="#B" n="48"/>sei ab habentibus notitias intuitiuas ex 
+      <lb ed="#B" n="49"/>tremorem.
+    </p>
+            <p xml:id="gbs333-h58121-d1e643">
+      ¶ Secunda conclusio. Habitus 
+      fi<lb ed="#B" n="50" break="no"/>dei infusus potest stare in eodem 
+      respe<lb ed="#B" n="51" break="no"/>ctu eiusdem credibilis cum actu scientiae, 
+      <!--269.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>&amp; clarae uisionis. Probatur: quia ut 
+      supra<lb ed="#B" n="53" break="no"/>habitum est quistione praecedenti dubio. 
+      <lb ed="#B" n="54"/>ij. Non est maior repugnantia inter 
+      il<lb ed="#B" n="55" break="no"/>la, nec tanta: quanta est inter actum 
+      er<lb ed="#B" n="56" break="no"/>randi, &amp; habitum scientiae circa eandem 
+      <lb ed="#B" n="57"/>conclusionem. Similiter inter habitun 
+      tempe<lb ed="#B" n="58" break="no"/>rantiae, &amp; actum intemperantiae: sed nonlin 
+      <lb ed="#B" n="59"/>cludit contradictionem, quod respectu 
+      eius<lb ed="#B" n="60" break="no"/>dem sit habitus scientiae &amp; act errandi: &amp; 
+      si<lb ed="#B" n="61" break="no"/>militer, quod in eodem habitus temperantiae, est 
+      <lb ed="#B" n="62"/>actus intemperantiae: ergo. Assumptum 
+      pro<lb ed="#B" n="63" break="no"/>batur: quia ponamus, quod aliquis habuerit 
+      <lb ed="#B" n="64"/>demonstrationem alicuius 
+      conclusio<lb ed="#B" n="65" break="no"/>nis geometricae: &amp; tamen de hoc non 
+      re<lb ed="#B" n="66" break="no"/>cordetur, ille potest elicere aliquem actum 
+      <lb ed="#B" n="67"/>circa conclusionem istam: non autem 
+      <lb ed="#B" n="68"/>actum sciendi, quia actus sciendi non est 
+      <lb ed="#B" n="69"/>sine actu principiorum: igitur potest 
+      eli<lb ed="#B" n="70" break="no"/>cere actum credendi, uel dubitandi: &amp; 
+      <lb ed="#B" n="71"/>eodem modo actum errandi: &amp; 
+      tamen<lb ed="#B" n="72" break="no"/>ille habet habitum scientiae, quia post 
+      ea<lb ed="#B" n="73" break="no"/>magis inclinatus ad actus scientiae, quam 
+      <lb ed="#B" n="74"/>ante habitum: ergo eodem mono habens 
+      <lb ed="#B" n="75"/>habitum temperantiae potest elicere 
+      ali<lb ed="#B" n="76" break="no"/>quem actum intemperatum. Sic in 
+      pro<lb ed="#B" n="77" break="no"/>posito habitus fidei infusae, &amp; actus 
+      scien<lb ed="#B" n="78" break="no"/>tiae, uel uisionis clarae poterunt simulsta 
+      <lb ed="#B" n="79"/>re.
+    </p>
+            <p xml:id="gbs333-h58121-d1e716">
+      ¶ Tertia conclusio. In eodem 
+      respe<lb ed="#B" n="80" break="no"/>ctu eiusdem articuli stare potest fides in 
+      <lb ed="#B" n="81"/>fusa, &amp; simul scientia per 
+      demonstratio<lb ed="#B" n="82" break="no"/>nem, aut experientiam acquisita. 
+      Pro<lb ed="#B" n="83" break="no"/>batur: quia ex praecedenti conclusione 
+      <lb ed="#B" n="84"/>fides infusapotest stare cum actu 
+      scien<lb ed="#B" n="85" break="no"/>tiae citra conclusionem credibilem 
+      ne<lb ed="#B" n="86" break="no"/>cessariam: &amp; cum habitus scientiae genera 
+      <lb ed="#B" n="87"/>tur ex actibus: ergo, &amp; cum habitum.
+    </p>
+            <p xml:id="gbs333-h58121-d1e736">
+      ¶ 
+      Prae<lb ed="#B" n="88" break="no"/>terea: potest quis habere fidem infusam 
+      <lb ed="#B" n="89"/>respectu huius. Omne reuelatum a deo 
+      <lb ed="#B" n="90"/>est uerum: &amp; habere scientiam respectu 
+      <lb ed="#B" n="91"/>illius: deus est uiuens. Sed habendo fidem 
+      <lb ed="#B" n="92"/>infusam respectu illius: omne reuelatum a 
+      <lb ed="#B" n="93"/>deo &amp;c. habent fidem respectu olum 
+      arti<lb ed="#B" n="94" break="no"/>culorum, seu credibilium: cum tantum sit. 
+      <lb ed="#B" n="95"/>una fides infusa inclinans ad omnia 
+      cre<lb ed="#B" n="96" break="no"/>dibilia: ergo etiam ad illam: deus est 
+      ui<lb ed="#B" n="97" break="no"/>uens.
+    </p>
+            <p xml:id="gbs333-h58121-d1e760">
+      ¶ Quarta conclusio. Non potest in 
+      <lb ed="#B" n="98"/>eodem subjecto, &amp; respectu eiusdem 
+      ue<lb ed="#B" n="99" break="no"/>ritatis simulstare habitus fidei 
+      acqui<lb ed="#B" n="100" break="no"/>sitae, &amp; habitus scientiae per 
+      demonstra<lb ed="#B" n="101" break="no"/>tionem genitae. Probatur: quia 
+      impos<lb ed="#B" n="102" break="no"/>sibile est actus eorum simulstare: cum in¬ 
+      <!--270.xml-->
+      <pb ed="#B" n="239"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cludant rationes oppositas: actus scilicet  
+      <lb ed="#B" n="2"/>scientiae euidentiam: &amp; actus fidei 
+      ine<lb ed="#B" n="3" break="no"/>uidentiam, &amp; obscuritatem: ergo, &amp; 
+      ha<lb ed="#B" n="4" break="no"/>bitus: quia ut dictum est praecedenti quae 
+      <lb ed="#B" n="5"/>stione: habitus actuum contrariorum sunt 
+      <lb ed="#B" n="6"/>contrarij, sicut habitus scientiae, &amp; erro 
+      <lb ed="#B" n="7"/>ris, temperantiae, &amp; intemperantiae. Vir 
+      <lb ed="#B" n="8"/>tus, enim est in medio duorum uitiorum, &amp; 
+      <lb ed="#B" n="9"/>utrique extremo contrariatur: ut docet 
+      <lb ed="#B" n="10"/>philosophus. ij. Ethic. cap. x. &amp; non ex 
+      <lb ed="#B" n="11"/>alia causa: nisi quia horum habituum 
+      a<lb ed="#B" n="12" break="no"/>ctus contrariantur.
+    </p>
+            <p xml:id="gbs333-h58121-d1e806">
+      ¶ Si di. habitus non 
+      <lb ed="#B" n="13"/>generantur instantanee, sed successiue: 
+      <lb ed="#B" n="14"/>sic nec corrumpitur instantance. Pono, 
+      <lb ed="#B" n="15"/>tespectu alicuius articuli 
+      demonstrati<lb ed="#B" n="16" break="no"/>generetur unus gradus habitus scientiae, 
+      <lb ed="#B" n="17"/>ille non corrumpit subito fidei habitum 
+      <lb ed="#B" n="18"/>ex multis gradibus constitutum: ergo 
+      <lb ed="#B" n="19"/>stabunt simul habitus scietiae, &amp; fidei ac 
+      <lb ed="#B" n="20"/>quisitae. Respondetur: si tenetur, quod 
+      qua<lb ed="#B" n="21" break="no"/>litates contrariae non (nisi excedant 
+      me<lb ed="#B" n="22" break="no"/>dium latitudinis) repugnent: sed in 
+      gra<lb ed="#B" n="23" break="no"/>dibus remissis non cotrariantur, sed stent 
+      <lb ed="#B" n="24"/>simul: cum dicitur, quod sic non contrariam 
+      <lb ed="#B" n="25"/>tur in gradibus remissis: nisi excedant 
+      me<lb ed="#B" n="26" break="no"/>dium latitudinis: ita nec gradus 
+      remissi<lb ed="#B" n="27" break="no"/>citra medium latitudinis faciunt habitum: 
+      <lb ed="#B" n="28"/>ut supra dictum est. q. i. praecedenti dist. 
+      <lb ed="#B" n="29"/>in iiij. dubip. Si uero tenetur oppositum 
+      <lb ed="#B" n="30"/>quod qualitates contrariae in nullo 
+      gradu<lb ed="#B" n="31" break="no"/>simul stant: tunc dicitur, quod actus frequem 
+      <lb ed="#B" n="32"/>tati scientiae incasu primo remirtunt 
+      ha<lb ed="#B" n="33" break="no"/>bitum fidei, donec corrumpatur: &amp; tunc 
+      <lb ed="#B" n="34"/>primo introducunt habitum scientiae: 
+      u<lb ed="#B" n="35" break="no"/>de de hoc Ocham. q. viij. tertii. Quinta 
+      <lb ed="#B" n="36"/>conclusio. Fidelis legens literaliter canc 
+      <lb ed="#B" n="37"/>nem bibliae, &amp; capiens eius sensum, 
+      ac<lb ed="#B" n="38" break="no"/>quiritplures fidei habitus, &amp; nullum 
+      scien<lb ed="#B" n="39" break="no"/>tificum. Patet: quia canon bibliae non est 
+      <lb ed="#B" n="40"/>traditus per modum scientiae 
+      demon<lb ed="#B" n="41" break="no"/>stratiuae: ut ex principiis euidentibus de 
+      <lb ed="#B" n="42"/>ducantur conclusiones, quibus assentia 
+      <lb ed="#B" n="43"/>tur propter principia, ex quibus 
+      dedu<lb ed="#B" n="44" break="no"/>cantur: ergolegens non acquirit habitum 
+      <lb ed="#B" n="45"/>scientiae. Et si quandoque ex una ueritate 
+      <lb ed="#B" n="46"/>alia infertur, sicut apostolus id i.t Corint. 
+      <lb ed="#B" n="47"/>xv. uidetur concludere resurrectionem 
+      <lb ed="#B" n="48"/>mortuorum ex resurrectione christi. An 
+      <lb ed="#B" n="49"/>guit enim: si resurrectio mortuorum non 
+      <lb ed="#B" n="50"/>est: neque christus resurrexit: si christus 
+      <lb ed="#B" n="51"/>non resurtexit: inanis est fides nostra. 
+      <!--270.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Sed non est fides inanis, &amp; christus 
+      re<lb ed="#B" n="53" break="no"/>surrexit: ergo resurrectio est mortuorum: 
+      <lb ed="#B" n="54"/>&amp; sic inuenitur in aliis scripturae 
+      passi<lb ed="#B" n="55" break="no"/>bus. Sed non est ille processus demostra 
+      <lb ed="#B" n="56"/>tiuus: quia principia non sunt euidentia; 
+      <lb ed="#B" n="57"/>sed tantum credita, puta, quod christus 
+      re<lb ed="#B" n="58" break="no"/>surrexit: quod fides non est inanis, quod est 
+      re<lb ed="#B" n="59" break="no"/>uelata a deo: ergo haec principia non 
+      ge<lb ed="#B" n="60" break="no"/>nerant nisi fidem de conclusione.
+    </p>
+            <p xml:id="gbs333-h58121-d1e917">
+      ¶ Prae 
+      <lb ed="#B" n="61"/>terea legens bibliam: si est fidelis, 
+      imme<lb ed="#B" n="62" break="no"/>diate assentit omnibus, &amp; singulis ibi 
+      tra<lb ed="#B" n="63" break="no"/>ditis: quia credit omnia reuelata a deo: 
+      <lb ed="#B" n="64"/>nec uni plus, quam alteri: nec uni 
+      pro<lb ed="#B" n="65" break="no"/>pter alterum: quinimino cuilibet ibi 
+      tra<lb ed="#B" n="66" break="no"/>dito assentit: etiam si caetera non essent tra 
+      <lb ed="#B" n="67"/>dita: &amp; hoc propter auctoritatem dei 
+      sin<lb ed="#B" n="68" break="no"/>gula, &amp; omnia reuelantis. Et secundum 
+      <lb ed="#B" n="69"/>hoc tot acquirit habitus fidei distinctos, 
+      <lb ed="#B" n="70"/>quot sunt distictae ueritates traditae, quo 
+      <lb ed="#B" n="71"/>rum quilibet immediate assentit suae 
+      ue<lb ed="#B" n="72" break="no"/>ritat, unde genitus est, Habet tamen, &amp; 
+      <lb ed="#B" n="73"/>unum habitum infusum, quo omnibus, 
+      <lb ed="#B" n="74"/>&amp; cuilibet ueritati ibi traditae immedia 
+      <lb ed="#B" n="75"/>te assentit: uel ad minus cuilibet aeque 
+      as<lb ed="#B" n="76" break="no"/>sentit: licet mediante illo principio: 
+      om<lb ed="#B" n="77" break="no"/>ne reuelatum a deo est uerum &amp;c. cui 
+      <lb ed="#B" n="78"/>immediate assentit: non tamen sine 
+      fi<lb ed="#B" n="79" break="no"/>de acquisita. De hoc loquitur beatus 
+      <lb ed="#B" n="80"/>Augu. xvii. de ciui. dei. e. xli. ponens 
+      dif<lb ed="#B" n="81" break="no"/>ferentiam inter scripturam sacram, &amp; 
+      <lb ed="#B" n="82"/>dogmata philosophorum di. Quicunque  
+      <lb ed="#B" n="83"/>scilicet prophetarum, &amp; scriptorum 
+      ca<lb ed="#B" n="84" break="no"/>nonis sapuit, &amp; uixit: non secundum 
+      homi<lb ed="#B" n="85" break="no"/>nem, sed secundum deum, qui per eos 
+      lo<lb ed="#B" n="86" break="no"/>cutus est sapuit, &amp; uixit. Ibi si 
+      prohibi<lb ed="#B" n="87" break="no"/>tum est sacrilegium, deus prohibuit. Si 
+      <lb ed="#B" n="88"/>dictum est. Honora patrem tuum, &amp; 
+      ma<lb ed="#B" n="89" break="no"/>trem tuam: deus iussit. Sidictum est. Non 
+      <lb ed="#B" n="90"/>mechaberis: non homicidium facies: non 
+      <lb ed="#B" n="91"/>furaberis, quod caetera huiusmodi: non 
+      haec<lb ed="#B" n="92" break="no"/>ora humana: sed oracula diuina 
+      fude<lb ed="#B" n="93" break="no"/>runt. Quicquidphilosophi quidam 
+      inter<lb ed="#B" n="94" break="no"/>falsa, quae pinati sunt, uerum uidere 
+      po<lb ed="#B" n="95" break="no"/>tuerunt. &amp; laboriosis disputationibus 
+      <lb ed="#B" n="96"/>persuadere moliti sunt: quod mundum istum 
+      <lb ed="#B" n="97"/>fecerit deus: cumque ipse 
+      prouidentissi<lb ed="#B" n="98" break="no"/>mus administret: de honestate uirtutum, 
+      <lb ed="#B" n="99"/>de amore patriae: de fide amicitiae: de 
+      bo<lb ed="#B" n="100" break="no"/>nis operibus, atque omnibus ad mores, 
+      pro<lb ed="#B" n="101" break="no"/>bos pertinentibus rebus: quamuis 
+      ne<lb ed="#B" n="102" break="no"/>scientes ad quem finem, &amp; quo nam modo 
+      <!--271.xml-->
+      <pb ed="#B" n="240"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>essent ista omnia referenda sunt 
+      prophe<lb ed="#B" n="2" break="no"/>ticis, hoc est diuinis uocibus quamuis 
+      <lb ed="#B" n="3"/>per homines in illa ciuitate, scilicet 
+      ec<lb ed="#B" n="4" break="no"/>clesia populo commendata sunt, non 
+      ar<lb ed="#B" n="5" break="no"/>gumentationum concertationibus 
+      in<lb ed="#B" n="6" break="no"/>culcata, ut non hominis ingeniuni, sed  
+      <lb ed="#B" n="7"/>dei eloquium contemnere formidaret, 
+      <lb ed="#B" n="8"/>qui illa cognosceret. haec August. Vbi 
+      <lb ed="#B" n="9"/>expresse innuit processum scripturae non 
+      <lb ed="#B" n="10"/>esse argumentatiuum: sed magis tanquam 
+      <lb ed="#B" n="11"/>ex ore dei plane reuelatum.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1041">
+      ¶ Sexta 
+      con<lb ed="#B" n="12" break="no"/>clusio. Maiores in ecclesia per studium 
+      <lb ed="#B" n="13"/>theologicum praeter acquisitam sidem, 
+      <lb ed="#B" n="14"/>quam augmentant: &amp; circa quaedam 
+      cre<lb ed="#B" n="15" break="no"/>dibilia de nono acquirunt multos 
+      apprae<lb ed="#B" n="16" break="no"/>hensiuos, &amp; adhaesiuos habitus 
+      conse<lb ed="#B" n="17" break="no"/>quentiarum, opinionum, &amp; scientiarum 
+      <lb ed="#B" n="18"/>in seipsis producunt. Probatur: quia 
+      ta<lb ed="#B" n="19" break="no"/>les inquirendo, &amp; exponendo 
+      scriptu<lb ed="#B" n="20" break="no"/>ras, nunc unam per aliam fidem prius 
+      ac<lb ed="#B" n="21" break="no"/>quisitam augmentant: dum quod in una 
+      <lb ed="#B" n="22"/>parte scripturae obscurius: in alia parte 
+      <lb ed="#B" n="23"/>clarius, uel multiplicius affirmatum 
+      in<lb ed="#B" n="24" break="no"/>ueniunt. Dum quoque quaedam 
+      affirma<lb ed="#B" n="25" break="no"/>ta conspiciunt, quae prius ignorabant: 
+      <lb ed="#B" n="26"/>fidem illorum de nono acquirunt. Quan 
+      <lb ed="#B" n="27"/>do etiam ad intellectum scripturarum 
+      <lb ed="#B" n="28"/>alias scientias, puta metaphysicam, 
+      natu<lb ed="#B" n="29" break="no"/>ralem philosophiam, &amp; moralem 
+      immi<lb ed="#B" n="30" break="no"/>scent (ad quod ultimo doc. deuenerunt) 
+      <lb ed="#B" n="31"/>acquirunt multas nouas notitias 
+      apprae<lb ed="#B" n="32" break="no"/>hensiuas terminorum, propositionum, 
+      <lb ed="#B" n="33"/>&amp; adhaesiuas principiorum, conclusionum, 
+      <lb ed="#B" n="34"/>argumentorum, consequentiarum 
+      ge<lb ed="#B" n="35" break="no"/>nerantium quandoque opinionem, quan 
+      <lb ed="#B" n="36"/>doque etiam scientiam, tam actualem, quod 
+      <lb ed="#B" n="37"/>habitualem: quas etiam in aliis scientijs 
+      <lb ed="#B" n="38"/>possunt acquirere: etiam quasdam, quae 
+      <lb ed="#B" n="39"/>ad nullas naturales scientias pertiuent, 
+      <lb ed="#B" n="40"/>Per quas etiam credita possunt ab 
+      im<lb ed="#B" n="41" break="no"/>pugnatoribus defendere: &amp; contraria 
+      <lb ed="#B" n="42"/>dissoluere: &amp; rationem reddere de ea, 
+      <lb ed="#B" n="43"/>quae in eis fide: ut Petrus ait. i. Pet. iii. 
+      <lb ed="#B" n="44"/>Et quaecunque per theologicum studium 
+      <lb ed="#B" n="45"/>acquirere potest fidelis: etiam potest 
+      hae<lb ed="#B" n="46" break="no"/>reticus, aut infidelis. praeter fidem 
+      eius<lb ed="#B" n="47" break="no"/>que augmentum: tamen respectu pure 
+      <lb ed="#B" n="48"/>credibilium, etiam fideles scientiam 
+      ac<lb ed="#B" n="49" break="no"/>quirere non possunt: quia 
+      quantumcun<lb ed="#B" n="50" break="no"/>que illa probare nituntur: semper 
+      assu<lb ed="#B" n="51" break="no"/>munt aliqua credita: &amp; sic notitia con¬ 
+      <!--271.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>clusionis ad euidentiam scientiae 
+      perue<lb ed="#B" n="53" break="no"/>nire non potest: quia semper 
+      conclusio<lb ed="#B" n="54" break="no"/>sequitur partem infirmiorem: ita quod 
+      nun<lb ed="#B" n="55" break="no"/>quam conclusio poterit esse euidentior, 
+      <lb ed="#B" n="56"/>quam praemissa minus euidens ad eius 
+      <lb ed="#B" n="57"/>probationem inducta. Et de hoc 
+      loqui<lb ed="#B" n="58" break="no"/>tur Beatus August. xi. de ciui. dei. c xix. 
+      <lb ed="#B" n="59"/>Quamuis itaque diuini sermonis 
+      obscu<lb ed="#B" n="60" break="no"/>ritas etiam ad hoc sit utilis, quod plures sem 
+      <lb ed="#B" n="61"/>tentias ueritatis parit: &amp; in lucem 
+      no<lb ed="#B" n="62" break="no"/>titiae producit: dum alius eum sic 
+      intelli<lb ed="#B" n="63" break="no"/>git: alius sic: ita tamen quod in obscuro 
+      <lb ed="#B" n="64"/>loco intelligitur: uel attestatione rerum 
+      <lb ed="#B" n="65"/>manifestarum: uel aliis locis minime 
+      du<lb ed="#B" n="66" break="no"/>biis asseratur. Siue cum multa tractatur:  
+      <lb ed="#B" n="67"/>ad id quoque per ueniatur, quod sensit 
+      il<lb ed="#B" n="68" break="no"/>le, qui scripsit, siue id lateat: sed ex 
+      occa<lb ed="#B" n="69" break="no"/>sione tractandae profundae obscuritatis, 
+      <lb ed="#B" n="70"/>alia quaedam uera dicuntur: non 
+      mihi<lb ed="#B" n="71" break="no"/>uidetur ab operibus dei absurda 
+      senten<lb ed="#B" n="72" break="no"/>tia haec ille.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1181">
+      ¶ Septima conclusio. 
+      Pro<lb ed="#B" n="73" break="no"/>phetae, apostoli. &amp; sancti, qui 
+      reuelatio<lb ed="#B" n="74" break="no"/>nem ueritatum scripturae immediate a 
+      <lb ed="#B" n="75"/>deo receperunt, creduntur notitias 
+      tan<lb ed="#B" n="76" break="no"/>tae certitudinis, &amp; euidentiae habuisse, 
+      <lb ed="#B" n="77"/>quem omnem dubitationis motum 
+      pe<lb ed="#B" n="78" break="no"/>nitus excluserunt. Haec conclusio in 
+      ef<lb ed="#B" n="79" break="no"/>fectu est doc. subtilis distin. praesenti, quae 
+      <lb ed="#B" n="80"/>sic declaratur. Nam omnem effectum, 
+      <lb ed="#B" n="81"/>quem deus facere potest cum causa 
+      se<lb ed="#B" n="82" break="no"/>cunda effectiua potest facere 
+      immedia<lb ed="#B" n="83" break="no"/>te: sed si res ipsae, de quibus scriptura 
+      tra<lb ed="#B" n="84" break="no"/>ctat, essent clare appraehensae, &amp; 
+      intuiti<lb ed="#B" n="85" break="no"/>uae: generarent notitiam certam absque  
+      <lb ed="#B" n="86"/>omni dubitatione, &amp; euidentem non 
+      mi<lb ed="#B" n="87" break="no"/>nus, quam scientificam: ergo deus sine 
+      <lb ed="#B" n="88"/>omni motione obiecti potest causare 
+      <lb ed="#B" n="89"/>talem notitiam, quam creditur 
+      prophe<lb ed="#B" n="90" break="no"/>tis, &amp; caeteris, quibus primo reuelauit, in 
+      <lb ed="#B" n="91"/>fudisse. Et per consequens illa 
+      conclusio<lb ed="#B" n="92" break="no"/>uera. Illa tamen certitudo non fuit eui 
+      <lb ed="#B" n="93"/>dens ex euidentia rei causata per demo 
+      <lb ed="#B" n="94"/>strationem: fuit tamen ita firma sicut  
+      <lb ed="#B" n="95"/>certitudo scientialis, qua causatur ex 
+      priu<lb ed="#B" n="96" break="no"/>cipiis notis ex euidentia terminorum: 
+      <lb ed="#B" n="97"/>sed a deo immediate reuelante: &amp; ideo 
+      <lb ed="#B" n="98"/>non fuit scientia. Fuit tamen euidentia 
+      <lb ed="#B" n="99"/>idest certitudo maior, quam fidei: 
+      im<lb ed="#B" n="100" break="no"/>mo aequalis scientiae: quia fides non 
+      ex<lb ed="#B" n="101" break="no"/>cludit omnem motum seuem 
+      dubitatio<lb ed="#B" n="102" break="no"/>nis: sed dubitationem pertinacem: ut pa¬ 
+      <!--272.xml-->
+      <pb ed="#B" n="241"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tuit quaestione praecedente in ij. dubio. 
+      <lb ed="#B" n="2"/>Haec de secundo articulo.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1259">
+      ¶ Quantum 
+      <lb ed="#B" n="3"/>ad tertium articulum dubitatur primo: 
+      <lb ed="#B" n="4"/>utrum audiens praedicationem articulo 
+      <lb ed="#B" n="5"/>rum fidei: &amp; uidens miracula fieri, 
+      ac<lb ed="#B" n="6" break="no"/>quirat aliquem habitum distinctum a fide. Quid 
+      <lb ed="#B" n="7"/>sic uidetur: quia audiens praedicationem 
+      <lb ed="#B" n="8"/>sine miraculis acquirit habitum fidei: 
+      se<lb ed="#B" n="9" break="no"/>cundum illud apostoli ad Rom. x. Fides 
+      <lb ed="#B" n="10"/>ex auditu est: ergo audiens praedicatio  
+      <lb ed="#B" n="11"/>nem simul, &amp; uidens miracula aliquid plus 
+      <lb ed="#B" n="12"/>acquirit. Respondetur post Ocham iiii. 
+      <lb ed="#B" n="13"/>quodlibet q. x. quod audiens praedicationem 
+      <lb ed="#B" n="14"/>articulorum: &amp; uidens fieri miracula, 
+      <lb ed="#B" n="15"/>non acquirit notitiam euidentem 
+      arti<lb ed="#B" n="16" break="no"/>culorum: sed solum acquirit fidem: licet  
+      <lb ed="#B" n="17"/>intensiorem, qua firmius assentiat 
+      prae<lb ed="#B" n="18" break="no"/>dicationi, &amp; praedicatori propter 
+      testi<lb ed="#B" n="19" break="no"/>monium miraculorum. Non tamen 
+      ha<lb ed="#B" n="20" break="no"/>bet notitiam euidentem; quod 
+      proba<lb ed="#B" n="21" break="no"/>tur: quia nullus actus euidens est 
+      respe<lb ed="#B" n="22" break="no"/>ctu falsi Nunc autem Saracenus 
+      praedi<lb ed="#B" n="23" break="no"/>cans legem Machometi facere potest 
+      <lb ed="#B" n="24"/>miratula apparentia, cuius tamen legis 
+      <lb ed="#B" n="25"/>articuli sunt falsi: sicut Antichristus 
+      fa<lb ed="#B" n="26" break="no"/>ciet apparentia miratula approbatione. 
+      <lb ed="#B" n="27"/>falsae doctrinae. Sicut ergo audiens 
+      illo<lb ed="#B" n="28" break="no"/>tum falsam praedicatione, &amp; uidens 
+      mi<lb ed="#B" n="29" break="no"/>racula apparentia, non acquirit notitiam 
+      <lb ed="#B" n="30"/>euidentem. Ita nec audiens praedicatio  
+      <lb ed="#B" n="31"/>nem ueram articulorum fidei: &amp; uidens 
+      <lb ed="#B" n="32"/>miraculauera, acquirit notitia 
+      euiden<lb ed="#B" n="33" break="no"/>tem: praesertim cum non facile 
+      discer<lb ed="#B" n="34" break="no"/>nitur inter miracula uera, &amp; falsa.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1331">
+      ¶ Sed 
+      <lb ed="#B" n="35"/>dist. uoluntas imperat uirtuose 
+      intelle<lb ed="#B" n="36" break="no"/>ctui, quod assentiat articulis fidei: ergo 
+      uir<lb ed="#B" n="37" break="no"/>tuose imperando praesupponit rationem 
+      <lb ed="#B" n="38"/>rectam dictantem, quod sic est imperandum: 
+      <lb ed="#B" n="39"/>alias non esset uirtuosa: ut patet ex sup. 
+      <lb ed="#B" n="40"/>dictis distinct. xxiij. q. i.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1347">
+      ¶ Quaero, anil 
+      <lb ed="#B" n="41"/>lud dictame rationis est euidens: an non 
+      <lb ed="#B" n="42"/>Si sic, habetur propositum: quia si est eui 
+      <lb ed="#B" n="43"/>dens, quod sic est assentiendum iam 
+      assen<lb ed="#B" n="44" break="no"/>sus erit notitia euidens. Si non: ergo 
+      <lb ed="#B" n="45"/>uoluntas adhaeret illi, quia uult: ergo 
+      il<lb ed="#B" n="46" break="no"/>la uolitio potest esse uirtuosa: ergo 
+      <lb ed="#B" n="47"/>praesupponit rationem rectam aliam a 
+      <lb ed="#B" n="48"/>priori. De illa quaero, ut prius: aut est 
+      <lb ed="#B" n="49"/>euidens: &amp; habetur propositum. Aut 
+      <lb ed="#B" n="50"/>non: &amp; sic aut proceditur in 
+      infini<lb ed="#B" n="51" break="no"/>tum: aut fiet status ad dictamen ratio¬ 
+      <!--272.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nis euidens.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1380">
+      ¶ Praeterea: si unus 
+      praedi<lb ed="#B" n="53" break="no"/>caret legem Machometi: alius 
+      legem<lb ed="#B" n="54" break="no"/>Christi alicui gentili totaliter 
+      indiffe<lb ed="#B" n="55" break="no"/>renti: &amp; aequaliter facerent miracula 
+      <lb ed="#B" n="56"/>quantum ad apparentiam. Ille gentilis 
+      <lb ed="#B" n="57"/>non teneretur legi christianae assentire 
+      <lb ed="#B" n="58"/>plus, quam legi Saracenorum, ex quo 
+      prae<lb ed="#B" n="59" break="no"/>dicatio, &amp; uera miracula non facerent 
+      <lb ed="#B" n="60"/>euidentiam plus, quam apparentia, id est fal 
+      <lb ed="#B" n="61"/>sa miracula.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1402">
+      ¶ Ad primum respondetur 
+      <lb ed="#B" n="62"/>uno modo distinguendo de audiente: 
+      <lb ed="#B" n="63"/>quia aut scit soluere argumenta facta 
+      <lb ed="#B" n="64"/>pro fide, &amp; consequentias factas 
+      infe<lb ed="#B" n="65" break="no"/>rentes articulos fidei, aut etiam 
+      miracu<lb ed="#B" n="66" break="no"/>la: aut non. Si non: tunc talis 
+      neces<lb ed="#B" n="67" break="no"/>sario adhaeret articulis: quia 
+      argumen<lb ed="#B" n="68" break="no"/>ta sibi concludunt: non tamen propter 
+      <lb ed="#B" n="69"/>euidentiam assentit: sed magis propter  
+      <lb ed="#B" n="70"/>gnorantiam: quia nescit soluere 
+      ratio<lb ed="#B" n="71" break="no"/>nes: &amp; talis assensus non est uirtuosus: 
+      <lb ed="#B" n="72"/>quia non est in potestate uoluntatis. Si 
+      <lb ed="#B" n="73"/>scit soluere: tunc assentit contingenter: 
+      <lb ed="#B" n="74"/>&amp; illum assensum potest uoluntas 
+      uir<lb ed="#B" n="75" break="no"/>tuose imperare: ut intellectus conseruet 
+      <lb ed="#B" n="76"/>adhaesionem fidei iam causatam 
+      respe<lb ed="#B" n="77" break="no"/>ctu articulorum ndei: sed non potest 
+      <lb ed="#B" n="78"/>uirtuose imperare, ut illi articulo de 
+      no<lb ed="#B" n="79" break="no"/>uo assentiat: quia non potest uirtuose 
+      <lb ed="#B" n="80"/>imperare saltem meritorie nisi ex 
+      cha<lb ed="#B" n="81" break="no"/>ritate imperet, quae charitas 
+      praesuppo<lb ed="#B" n="82" break="no"/>nit fidem.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1451">
+      ¶ Sed loquendo de imperio  
+      <lb ed="#B" n="83"/>uirtuoso moraliter: ut philosophus 
+      lo<lb ed="#B" n="84" break="no"/>quitur de uirtute, quae non 
+      praesuppo<lb ed="#B" n="85" break="no"/>nit charitatem: tunc conceditur, quod potest 
+      <lb ed="#B" n="86"/>uirtuose imperare. Et quod illa uolitio 
+      im<lb ed="#B" n="87" break="no"/>perans praesupponit rationem rectam 
+      <lb ed="#B" n="88"/>dictantem, quod sic est imperandum: licet  
+      <lb ed="#B" n="89"/>non praesupponit dictamen euidens 
+      ra<lb ed="#B" n="90" break="no"/>tionis: sed dictamen probabile, cui 
+      con<lb ed="#B" n="91" break="no"/>formiter imperat. Sufficit enim, quod 
+      ra<lb ed="#B" n="92" break="no"/>tio ita dictet assentiendo sic esse 
+      uo<lb ed="#B" n="93" break="no"/>lendum. Et cum quaeritur: utrum 
+      ra<lb ed="#B" n="94" break="no"/>tio praesupponit actum uoluntatis, ut  
+      <lb ed="#B" n="95"/>ctedat articulis: Potest dici uno 
+      mo<lb ed="#B" n="96" break="no"/>do, quod non: quia quamuis sciat rationes 
+      <lb ed="#B" n="97"/>soluere: quia tame rationes sunt multum 
+      <lb ed="#B" n="98"/>apparentes: nec hent aliquas rones in 
+      con<lb ed="#B" n="99" break="no"/>trarium: &amp; reputat illos articulos ueros 
+      <lb ed="#B" n="100"/>esse pro eo, quod nullam falsitatem reperit 
+      <lb ed="#B" n="101"/>in eis: &amp; uidet praedicationem per 
+      mi<lb ed="#B" n="102" break="no"/>racula confirmari. Omnia illa simul 
+      <!--273.xml-->
+      <pb ed="#B" n="242"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sine actu uoluntatis causant illud 
+      dicta<lb ed="#B" n="2" break="no"/>men: quod assensus respectu articulorum est 
+      <lb ed="#B" n="3"/>imperandus.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1510">
+      ¶ Vel aliter potest dici: quo 
+      <lb ed="#B" n="4"/>ratio praesupponit actum uoluntatis, 
+      no<lb ed="#B" n="5" break="no"/>respectu huius complexi, quod sic est 
+      di<lb ed="#B" n="6" break="no"/>ctandum: sed actum uoluntatis, quo 
+      im<lb ed="#B" n="7" break="no"/>perat assensum respectu talium comple 
+      <lb ed="#B" n="8"/>xorum: ita praedicatio est uera. Ista sut 
+      <lb ed="#B" n="9"/>uera miracula, ex quibus statim 
+      causa<lb ed="#B" n="10" break="no"/>tur assensus respectu huius complexi: As 
+      <lb ed="#B" n="11"/>sensus articulorum est dictandus: actus 
+      <lb ed="#B" n="12"/>tamen uoluntatis, quo imperat primum 
+      <lb ed="#B" n="13"/>actum credendi in toto processu, non 
+      <lb ed="#B" n="14"/>potest esse uirtuosus: quia ille non 
+      praesup<lb ed="#B" n="15" break="no"/>ponit dictamen rationis rectae, &amp; per hoc  
+      <lb ed="#B" n="16"/>patet solutio ad formam replicae. 
+      Con<lb ed="#B" n="17" break="no"/>ceditur, quod uoluntas imperat uirtuose 
+      mo<lb ed="#B" n="18" break="no"/>raliter non meritorie, quod assentiat 
+      arti<lb ed="#B" n="19" break="no"/>culis: &amp; ista praesupponit dictamen 
+      ratio<lb ed="#B" n="20" break="no"/>nis &amp;c. &amp; cum arguitur. Et illud dictamen 
+      <lb ed="#B" n="21"/>potest imperare uirtuose: &amp; sic 
+      procedi<lb ed="#B" n="22" break="no"/>tur in infinitum. negetur: quia primum 
+      <lb ed="#B" n="23"/>uoluntatis imperium non est uirtuosum: 
+      <lb ed="#B" n="24"/>ergo illud praesupponit dictamen 
+      secun<lb ed="#B" n="25" break="no"/>dum ostensione rationis. Vel dicitur, quo 
+      <lb ed="#B" n="26"/>ratio potest assentire sine imperio 
+      uo<lb ed="#B" n="27" break="no"/>luntatis.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1565">
+      ¶ Adsecundum dicitur, quod in 
+      ca<lb ed="#B" n="28" break="no"/>su argumenti: deus, qui nunquam 
+      de<lb ed="#B" n="29" break="no"/>serit rationalem creaturam sine 
+      auxilio<lb ed="#B" n="30" break="no"/>opportuno inspiraret tali, cuius 
+      praedi<lb ed="#B" n="31" break="no"/>catio esset uera, &amp; cuius falsa. 
+      Facienti<lb ed="#B" n="32" break="no"/>enim quod in se est nulli de est dominus 
+      <lb ed="#B" n="33"/>in necessarijs ad salutem: alioquin in 
+      ca<lb ed="#B" n="34" break="no"/>su neutri teneretur credere.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1583">
+      ¶ Secundo 
+      <lb ed="#B" n="35"/>dubitatur circa. vij. conclusionem, utrum 
+      <lb ed="#B" n="36"/>deus potest eausare in viatore notitiam 
+      <lb ed="#B" n="37"/>euidentem de credibilibus sine uisione 
+      <lb ed="#B" n="38"/>dei intuitiua: Respondetur post 
+      Ockan<lb ed="#B" n="39" break="no"/>v. quodlibet. q. iiij. quod dubium illud 
+      po<lb ed="#B" n="40" break="no"/>test habere duplicem intellectum. 
+      <lb ed="#B" n="41"/>Vnum, utrum deus potest causare in via 
+      <lb ed="#B" n="42"/>tore notitiam abstractiuam distinctam 
+      <lb ed="#B" n="43"/>terminorum id est articulorum fidei sine ui 
+      <lb ed="#B" n="44"/>sione intuitiua dei, quae abstractiua 
+      po<lb ed="#B" n="45" break="no"/>stea naturaliter causaret notitiam 
+      eui<lb ed="#B" n="46" break="no"/>dentem articulorum sine uisione dei in 
+      <lb ed="#B" n="47"/>tuitiuae Ad modum quo notitiae 
+      abstracti<lb ed="#B" n="48" break="no"/>uae propositionum per se notarum (
+      si<lb ed="#B" n="49" break="no"/>causarentur a solo deo) causarent 
+      natu<lb ed="#B" n="50" break="no"/>naliter notitiam euidentem principiorum, &amp; 
+      <lb ed="#B" n="51"/>per principia conclusionum. Et ficut oculus 
+      <!--273.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>miraculose datus causat naturaliter actum 
+      <lb ed="#B" n="53"/>uidendi. Alius intellectus: utrum deus 
+      po<lb ed="#B" n="54" break="no"/>test se solo immediate causare in 
+      intel<lb ed="#B" n="55" break="no"/>lectu vuiatoris notitiam euidentem 
+      arti<lb ed="#B" n="56" break="no"/>culorum: siue praesupponatur notitia ab 
+      <lb ed="#B" n="57"/>stractiua, siue non: ita quod illam immedia 
+      <lb ed="#B" n="58"/>te infundat:
+    </p>
+            <p xml:id="gbs333-h58121-d1e1642">
+      ¶ Quoad primum 
+      intelle<lb ed="#B" n="59" break="no"/>lectum dico, quod ueritas contingens de 
+      <lb ed="#B" n="60"/>deo, puta deus est homo: non potest eui 
+      <lb ed="#B" n="61"/>denter cognosciper quamcunque 
+      noti<lb ed="#B" n="62" break="no"/>tiam dei abstractiuam distincta dei sine 
+      <lb ed="#B" n="63"/>intuitiua uisione dei: ita notitia 
+      ta<lb ed="#B" n="64" break="no"/>lis abstractiua a deo supernaturaliter in 
+      <lb ed="#B" n="65"/>fusa, causaret naturaliter notitiam illius 
+      <lb ed="#B" n="66"/>articuli euidentem. Patet: quia 
+      contin<lb ed="#B" n="67" break="no"/>gens ueritas euidenter nosci non potest, 
+      <lb ed="#B" n="68"/>nisi per notitiam intuitiua extremorum 
+      <lb ed="#B" n="69"/>ii. rerum adextra, quae significantur per 
+      <lb ed="#B" n="70"/>extrema: ut patuit in prologo Ockam, 
+      </p>
+            <p xml:id="gbs333-h58121-d1e1671">
+               <lb ed="#B" n="71"/>¶ Secundum dico, quod ueritas necessaria de 
+      <lb ed="#B" n="72"/>deo composita ex terminis 
+      connotati<lb ed="#B" n="73" break="no"/>uis, quae naturaliter non cognoscitur eui 
+      <lb ed="#B" n="74"/>denter, nisi per cognitionem euidentem 
+      <lb ed="#B" n="75"/>alicuius contingentis: non potest euidem 
+      <lb ed="#B" n="76"/>ter cognosci sine intuitiua uisione dei, 
+      <lb ed="#B" n="77"/>sicut illa: deus est incarnabilis: quae non 
+      <lb ed="#B" n="78"/>cognoscitur euidenter naturaliter nisi 
+      <lb ed="#B" n="79"/>per illam deus est incarnatus euidenter 
+      <lb ed="#B" n="80"/>cognitam. Illa autem contingens: deus 
+      <lb ed="#B" n="81"/>est incarnatus: non potest euidenter 
+      co<lb ed="#B" n="82" break="no"/>gnosci sine uisione deitatis: quia uisio 
+      <lb ed="#B" n="83"/>creaturae non sufficit: ergo nec illa 
+      ne<lb ed="#B" n="84" break="no"/>cessaria potest sic cognosei.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1705">
+      ¶ Tertio 
+      <lb ed="#B" n="85"/>dico, quod articulus fidei de deo 
+      neces<lb ed="#B" n="86" break="no"/>sarius, cuius notitia cuidens non 
+      de<lb ed="#B" n="87" break="no"/>pendet ex notitia euidenti 
+      contin<lb ed="#B" n="88" break="no"/>gentis: puta quae est de deo, per 
+      ter<lb ed="#B" n="89" break="no"/>minos non importantes respectum ad 
+      <lb ed="#B" n="90"/>creaturas, quales sunt illae. Deus est 
+      ui<lb ed="#B" n="91" break="no"/>uens, intelligens, bonus, unus trinus &amp;c. 
+      <lb ed="#B" n="92"/>sciri potest euidenter a uiatore naturaliter  
+      <lb ed="#B" n="93"/>per notitiam abstractiuam distincta dei 
+      <lb ed="#B" n="94"/>causatam a solo deo sine uisione dei. 
+      Pa<lb ed="#B" n="95" break="no"/>tet: quia talis propositio est per se nota 
+      <lb ed="#B" n="96"/>habenti terminos talis propositionis (
+      si<lb ed="#B" n="97" break="no"/>cut illa: albedo est color) ei, qui habet 
+      <lb ed="#B" n="98"/>notitias abstractiuas extremorum 
+      di<lb ed="#B" n="99" break="no"/>stinctas: etiam si actu non uideat albedem 
+      <lb ed="#B" n="100"/>nem.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1742">
+      ¶ Si uero dubium intelligitur secundo 
+      <lb ed="#B" n="101"/>modo: respondetur simpliciter 
+      affirma<lb ed="#B" n="102" break="no"/>tiue, quod deus potest immediate causare no 
+      <!--274.xml-->
+      <pb ed="#B" n="243"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>titiam euidentem cuiuscunque articuli 
+      fi<lb ed="#B" n="2" break="no"/>dei, siue contingentis, sive necessarij 
+      si<lb ed="#B" n="3" break="no"/>ne uisione deitatis intuitius. Probatur:  
+      <lb ed="#B" n="4"/>quia notitia euidens articuli est qualitas 
+      <lb ed="#B" n="5"/>absoluta, quam potest causare cum 
+      ui<lb ed="#B" n="6" break="no"/>sione deitatis in genere efficientis 
+      cau<lb ed="#B" n="7" break="no"/>sae partialiter concurrentis: ergo potest 
+      <lb ed="#B" n="8"/>eam causare sine uisione. Tenet 
+      conse<lb ed="#B" n="9" break="no"/>quentia: quia causa prima potest 
+      supple<lb ed="#B" n="10" break="no"/>re omnem causalitatem effectiuam 
+      cau<lb ed="#B" n="11" break="no"/>sae secundae: ita quod quicquid potest cum 
+      se<lb ed="#B" n="12" break="no"/>cunda effectiue: potest se sola causare: 
+      <lb ed="#B" n="13"/>nec talis notitia a deo causata erit 
+      mi<lb ed="#B" n="14" break="no"/>nus euidens sine uisione, quam si 
+      causare<lb ed="#B" n="15" break="no"/>tur cum uisione: quia illa eamdem, quam 
+      po<lb ed="#B" n="16" break="no"/>test causare cum uisione, causare potest 
+      <lb ed="#B" n="17"/>sine uisione: licet naturaliter hoc feri 
+      <lb ed="#B" n="18"/>non posset.
+    </p>
+            <p xml:id="gbs333-h58121-d1e1794">
+      ¶ Tertio dubitatur, quid sit 
+      <lb ed="#B" n="19"/>articulus fidei. Dimissis difficultatibus: 
+      <lb ed="#B" n="20"/>dico, quod articulus fidei est ueritas 
+      re<lb ed="#B" n="21" break="no"/>uelata in se, uel suo antecedente, 
+      <lb ed="#B" n="22"/>pertinens ad religionem. &amp; ita omnis 
+      <lb ed="#B" n="23"/>ueritas credenda est articulus fidei. Et  
+      <lb ed="#B" n="24"/>dicitur articulus ab artando: quia artat  
+      <lb ed="#B" n="25"/>nos ad credendum explicite, vel 
+      impli<lb ed="#B" n="26" break="no"/>cite. Tenetur enim quilibet fidelis 
+      impli<lb ed="#B" n="27" break="no"/>cite credere omnem ueritatem fidei: quia 
+      <lb ed="#B" n="28"/>tenetur credere principia, ex qubus 
+      quae<lb ed="#B" n="29" break="no"/>libet ueritas fidei infertur: ut dicetur 
+      <lb ed="#B" n="30"/>distinct. sequent.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

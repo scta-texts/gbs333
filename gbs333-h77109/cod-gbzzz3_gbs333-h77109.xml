@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="313"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h77109"> <!-- l3d34prae -->
+            <head xml:id="gbs333-h77109-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h77109-d1e102">
+               <lb ed="#B" n="80"/>TRACTATVSDEDONIS. 
+      <lb ed="#B" n="81"/>Distinctio. xxxiiij. 
+      <lb ed="#B" n="82"/>EGIT Magister de uir 
+      <lb ed="#B" n="83" break="no"/>tutibus theologicis, 
+      <lb ed="#B" n="84"/>&amp; cardinalibus: 
+      con<lb ed="#B" n="85" break="no"/>sequenter 
+      determi<lb ed="#B" n="86" break="no"/>nat de donis spiritus. 
+      <lb ed="#B" n="87"/>sancti: &amp; circa hoc  
+      <lb ed="#B" n="88"/>tria facit. Primo agit 
+      <lb ed="#B" n="89"/>de donis in genere: &amp; de dono timoris, 
+      <lb ed="#B" n="90"/>in specie. Secundo de quorundam 
+      do<lb ed="#B" n="91" break="no"/>norum, quae magis conuenire uidentur: 
+      <lb ed="#B" n="92"/>distinct. xxxv. Tertio de donorum, ac
+      <lb ed="#B" n="93"/>uirtutum connexione, &amp; 
+      aequalita<lb ed="#B" n="94" break="no"/>te distinct. xxxvi. Et potest 
+      senten<lb ed="#B" n="95" break="no"/>tia tex. in tribus conclusionibus 
+      qua<lb ed="#B" n="96" break="no"/>si summatim abbreuiari, quarum 
+      pri<lb ed="#B" n="97" break="no"/>ma conclusio haec est.
+    </p>
+            <p xml:id="gbs333-h77109-d1e144">
+      ¶ Dona septem. 
+      <lb ed="#B" n="98"/>sancti spiritus uere sunt uirtutes 
+      ele<lb ed="#B" n="99" break="no"/>ctos in patria: sicut animam christi in
+      <lb ed="#B" n="100"/>uia: secundum certum usum perficientes.
+    </p>
+            <p xml:id="gbs333-h77109-d1e153">
+      <!--345.xml-->
+               <pb ed="#B" n="314"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>¶ Secunda conclusio. Timor in 
+      munda<lb ed="#B" n="2" break="no"/>num, siue humanum, in seruilem, 
+      initia<lb ed="#B" n="3" break="no"/>lem, &amp; castum, uel filialem 
+      quadriparti<lb ed="#B" n="4" break="no"/>tur, quorum solus filialis cum 
+      perfe<lb ed="#B" n="5" break="no"/>cta charitate tam in <unclear>quia</unclear>, quam in 
+      pa<lb ed="#B" n="6" break="no"/>tria manere conceditur.
+    </p>
+            <p xml:id="gbs333-h77109-d1e178">
+      ¶ Tertia 
+      con<lb ed="#B" n="7" break="no"/>lusio. In christo fuit timor poenae alius 
+      <lb ed="#B" n="8"/>a praedictis: qui dici potuit timor 
+      natu<lb ed="#B" n="9" break="no"/>ralis. Has latius prosequitur magister 
+      <lb ed="#B" n="10"/>in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

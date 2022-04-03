@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="183"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h44702"> <!-- l3d21prae -->
+            <head xml:id="gbs333-h44702-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h44702-d1e102">
+      <!--214.xml-->
+               <pb ed="#B" n="183"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XXI. 
+      <lb ed="#B" n="2"/>RIORIRVS 
+      di<lb ed="#B" n="3" break="no"/>stinctionibus 
+      magi<lb ed="#B" n="4" break="no"/>ster egit de 
+      passio<lb ed="#B" n="5" break="no"/>ne dominica 
+      quan<lb ed="#B" n="6" break="no"/>tum ad eius initium, 
+      <lb ed="#B" n="7"/>&amp; progressum. In se 
+      <lb ed="#B" n="8"/>quentibus duabus 
+      di<lb ed="#B" n="9" break="no"/>stinctionibus agit de ipsa quantum ad 
+      <lb ed="#B" n="10"/>eius terminum. Et quia in morte christi 
+      <lb ed="#B" n="11"/>consummata est eius pascio: mors autem 
+      <lb ed="#B" n="12"/>separatio: est animae a corpore. Ideo 
+      <lb ed="#B" n="13"/>primo agit de animae corporis, ac deita 
+      <lb ed="#B" n="14"/>tis separatione dist praesenti. Secundo 
+      <lb ed="#B" n="15"/>de separatorum consequenti denominatio  
+      <lb ed="#B" n="16"/>ne dist. xxij. Colligtur autem sententia 
+      <lb ed="#B" n="17"/>textus in his tribus subnotatis 
+      conclu<lb ed="#B" n="18" break="no"/>sionibus.
+    </p>
+            <p xml:id="gbs333-h44702-d1e150">
+      ¶ Prima conclusio. In 
+      morte<lb ed="#B" n="19" break="no"/>christi ab humanitate separauit se 
+      diui<lb ed="#B" n="20" break="no"/>nitas foris ad defensionem: non tamen 
+      <lb ed="#B" n="21"/>intus defuit ad unionis solutionem.
+    </p>
+            <p xml:id="gbs333-h44702-d1e159">
+      ¶ Se 
+      <lb ed="#B" n="22"/>cunda conclusio. Potentia deitatis 
+      ani<lb ed="#B" n="23" break="no"/>ma diuisa est a carne; sed neutrum a 
+      uer<lb ed="#B" n="24" break="no"/>bo dei in christi morte.
+    </p>
+            <p xml:id="gbs333-h44702-d1e169">
+      ¶ Tertia 
+      conclu<lb ed="#B" n="25" break="no"/>sio. Quicquid patitur caro unita uerbo, 
+      <lb ed="#B" n="26"/>debet dici deus pati: licet uerbum nec mo 
+      <lb ed="#B" n="27"/>ti, nec corrumpi potuerit, nec mutari. Ex 
+      <lb ed="#B" n="28"/>hac conclusione elicit, &amp; infert, quod sane 
+      <lb ed="#B" n="29"/>dici potest: deus est mortuus, &amp; non mor 
+      <lb ed="#B" n="30"/>tuus: passus est dei filius, &amp; non passus: 
+      <lb ed="#B" n="31"/>sed secundum alteram naturam passus: 
+      <lb ed="#B" n="32"/>sec undum alteram impassibilis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

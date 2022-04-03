@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h65532"> <!-- l3d27prae -->
+            <head xml:id="gbs333-h65532-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h65532-d1e102">
+               <lb ed="#B" n="56"/>DISTINCTIO XXVII. 
+      <lb ed="#B" n="57"/>DETERMINATO 
+      <lb ed="#B" n="58"/>de duabus 
+      theologi<lb ed="#B" n="59" break="no"/>cis uirtutibus: 
+      fide<lb ed="#B" n="60" break="no"/>scilicet, &amp; spe: 
+      conse<lb ed="#B" n="61" break="no"/>quenter in sex dist. 
+      <lb ed="#B" n="62"/>sequentibus agitur de 
+      <lb ed="#B" n="63"/>&amp; tertia, quae est 
+      chari<lb ed="#B" n="64" break="no"/>tas, hoc ordine. Nam primo determina 
+      <lb ed="#B" n="65"/>tur de charitate secundum se, &amp; eius 
+      prae<lb ed="#B" n="66" break="no"/>cepto Secundo dist xxviii. de charitatis 
+      <lb ed="#B" n="67"/>objecto. Tertio. dist xxix. de charitatis 
+      <lb ed="#B" n="68"/>ordine. Quarto dist. xxx. de charitatis 
+      <lb ed="#B" n="69"/>amicorum, &amp; iimicorum adinuicem in 
+      <lb ed="#B" n="70"/>meriti comparatione. Quinto dist. xxxi. 
+      <lb ed="#B" n="71"/>de charitatis creatae permanentia. 
+      Sex<lb ed="#B" n="72" break="no"/>to de charitatis increatae sufficientia, 
+      <lb ed="#B" n="73"/>Summatur autem sententia textus 
+      praesen<lb ed="#B" n="74" break="no"/>tis distinctionis in his tribus 
+      conclusio<lb ed="#B" n="75" break="no"/>nibus.
+    </p>
+            <p xml:id="gbs333-h65532-d1e148">
+      ¶ Prima conclusio. Charitas, quae 
+      <lb ed="#B" n="76"/>est dilectio una, qua deus propter se, ac 
+      <lb ed="#B" n="77"/>in deo, &amp; propter deum proximus 
+      dili<lb ed="#B" n="78" break="no"/>gitur in duobus scripturae praeceptis 
+      se<lb ed="#B" n="79" break="no"/>cundum diuersa dilio ibilia 
+      commenda<lb ed="#B" n="80" break="no"/>tur.
+    </p>
+            <p xml:id="gbs333-h65532-d1e161">
+      ¶ Secunda conclusio. De diligendi 
+      <lb ed="#B" n="81"/>modo regula praescribitur diuinitus: ut 
+      <lb ed="#B" n="82"/>a nobis toto corde deus: &amp; ad idem, quid 
+      <lb ed="#B" n="83"/>amamur nosipsi: diligatur proximus. 
+      </p>
+            <p xml:id="gbs333-h65532-d1e171">
+               <lb ed="#B" n="84"/>¶ Tertia conclusio. Primo praecepto, quod 
+      <lb ed="#B" n="85"/>secundum includit: &amp; in secundo 
+      inclu<lb ed="#B" n="86" break="no"/>ditur charitatis perfectio, qua deum 
+      te<lb ed="#B" n="87" break="no"/>nemur diligere insinuatur: quod 
+      tamen<lb ed="#B" n="88" break="no"/>non in uita praesenti: sed in futura 
+      ple<lb ed="#B" n="89" break="no"/>nissime consummatur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

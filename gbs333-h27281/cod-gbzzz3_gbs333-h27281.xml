@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="111"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h27281"> <!-- l3d12q1 -->
+            <head xml:id="gbs333-h27281-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h27281-d1e102">
+               <lb ed="#B" n="88"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="89"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="90"/>quaeritur utrum assumpta 
+      na<lb ed="#B" n="91" break="no"/>tura, uel persona Christi: qud 
+      <lb ed="#B" n="92"/>uerus est deus, &amp; homo: 
+      po<lb ed="#B" n="93" break="no"/>eb¬ 
+      <lb ed="#B" n="94"/>tuit subiacere peccato.
+    </p>
+            <p xml:id="gbs333-h27281-d1e120">
+      ¶ Quaestio haec 
+      trib<lb ed="#B" n="95" break="no"/>articulis consueto more absoluetur. 
+      </p>
+            <p xml:id="gbs333-h27281-d1e125">
+               <lb ed="#B" n="96"/>¶ Quo ad primum articulum notandum, o ut A 
+      <lb ed="#B" n="97"/>tagit magi, aliter rndendum, &amp; loquedum 
+      <!--143.xml-->
+      <pb ed="#B" n="112"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>erit de Christo secundum personam, &amp; 
+      <lb ed="#B" n="2"/>naturam diuiram: &amp; aliter secundum 
+      na<lb ed="#B" n="3" break="no"/>turam assumptam. Item aliter de natura 
+      <lb ed="#B" n="4"/>assumpta: ut est haec natura in se: aliter 
+      <lb ed="#B" n="5"/>ut est unita naturae diuinae tam persona 
+      <lb ed="#B" n="6"/>li, quam beatifica unione. Aliter 
+      secun<lb ed="#B" n="7" break="no"/>dum potentiam ordinaram, aliter secun 
+      <lb ed="#B" n="8"/>dum absolutam.
+    </p>
+            <p xml:id="gbs333-h27281-d1e157">
+      ¶ Secundo notandum, 
+      <lb ed="#B" n="9"/>ut habitum est lib. ij. dist. xxxv. Peccare 
+      <lb ed="#B" n="10"/>nihil aliud est, quam agere, uel omitrere 
+      <lb ed="#B" n="11"/>contra dictamen rectae rationis. Est 
+      au<lb ed="#B" n="12" break="no"/>tem ratio recta, quae est conformis 
+      diui<lb ed="#B" n="13" break="no"/>nae uoluntati. Rectitudinis enim omnium 
+      <lb ed="#B" n="14"/>contingentium prima regula est 
+      uolun<lb ed="#B" n="15" break="no"/>tas diuina: unde impossibile est rationem 
+      <lb ed="#B" n="16"/>rectam discordare a diuina uoluntate, iu 
+      <lb ed="#B" n="17"/>dicando aliquid esse non rectum, quod 
+      <lb ed="#B" n="18"/>est a deouolitum. Eo ipso enim, quod 
+      ali<lb ed="#B" n="19" break="no"/>quid est uolitum ipsum est rectum: unde 
+      <lb ed="#B" n="20"/>manifestum est, quod impossibile est deum 
+      <lb ed="#B" n="21"/>peccare: ut latius probatum est lib. ij. dist. 
+      <lb ed="#B" n="22"/>xxxvij. Et quia materia haec ibidem est 
+      <lb ed="#B" n="23"/>satis declarata: igitur breuiter hic 
+      tran<lb ed="#B" n="24" break="no"/>seo.
+    </p>
+            <p xml:id="gbs333-h27281-d1e194">
+      ¶ His praemissis, quo ad articulum 
+      <lb ed="#B" n="25"/>primum, haec est conclusio prima quo 
+      <lb ed="#B" n="26"/>ad articulum secundum.
+    </p>
+            <p xml:id="gbs333-h27281-d1e201">
+      ¶ Personam 
+      Chri<lb ed="#B" n="27" break="no"/>sti secundum naturam diuinam 
+      pecca<lb ed="#B" n="28" break="no"/>re penitus est impossibile. Patet satis 
+      <lb ed="#B" n="29"/>ex ultimo notabili: &amp; ex dictis distinct. 
+      <lb ed="#B" n="30"/>xxxvij. secundi.
+    </p>
+            <p xml:id="gbs333-h27281-d1e212">
+      ¶ Secunda conclusio.  
+      <lb ed="#B" n="31"/>Natura assumpta in se considerata 
+      po<lb ed="#B" n="32" break="no"/>tuit admittere peccata. Patet per 
+      ma<lb ed="#B" n="33" break="no"/>gistrum in textu: nam natura assumpta 
+      <lb ed="#B" n="34"/>potuit a uerbi dimitti ipsa in esse 
+      con<lb ed="#B" n="35" break="no"/>seruata: &amp; tunc sicut alius homo 
+      pecca<lb ed="#B" n="36" break="no"/>re potuit: quia nullam repugnantiam 
+      <lb ed="#B" n="37"/>habuisset ad peccatum propter 
+      uolun<lb ed="#B" n="38" break="no"/>tatis libertatem: &amp; per consequens non 
+      <lb ed="#B" n="39"/>plus, quam alius homo fuisset 
+      impecca<lb ed="#B" n="40" break="no"/>bilis.
+    </p>
+            <p xml:id="gbs333-h27281-d1e236">
+      ¶ Tertia conclusio. Natura 
+      huma<lb ed="#B" n="41" break="no"/>na a uerbo assumpta non dimissa 
+      pecca<lb ed="#B" n="42" break="no"/>re non potuit de potentia dei 
+      ordina<lb ed="#B" n="43" break="no"/>ta. Probatur: quia natura illa fuit, &amp; est 
+      <lb ed="#B" n="44"/>in beatitudine confirmata, cui repugnat  
+      <lb ed="#B" n="45"/>omnepeccatum, quae beatitudo 
+      tolli<lb ed="#B" n="46" break="no"/>non potest de potentia ordinata: sicut  
+      <lb ed="#B" n="47"/>nec ab angelis confirmatis, &amp; alijs 
+      bea<lb ed="#B" n="48" break="no"/>tis: de quo supralib. ij. distinct. vij. 
+      <lb ed="#B" n="49"/>Vtrum autem natura assumpta 
+      pecca<lb ed="#B" n="50" break="no"/>re possit manens unita. Et an natura 
+      <lb ed="#B" n="51"/>peccatrix assumi possit de potentia ab¬ 
+      <!--143.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>soluta: tractatum est secundum duas 
+      o<lb ed="#B" n="53" break="no"/>priniones contrarias distin. i. huius 
+      ter<lb ed="#B" n="54" break="no"/>tij. q. ij. Secundum has igitur opi. 
+      ponen<lb ed="#B" n="55" break="no"/>dae essent conclusiones oppositae: 
+      uide<lb ed="#B" n="56" break="no"/>libidem. Quantum ad articulum tertium, 
+      <lb ed="#B" n="57"/>est primum dubium contra conclusionem pri 
+      <lb ed="#B" n="58"/>mam. Deus secundum naturam diuinam 
+      <lb ed="#B" n="59"/>potest peccare. Probatur: quia potest 
+      menti<lb ed="#B" n="60" break="no"/>ri, &amp; decipere: ergo potest peccare 
+      Te<lb ed="#B" n="61" break="no"/>net consequentia. quia omne mendacium 
+      <lb ed="#B" n="62"/>est peccatn: similiter omnis deceptio. 
+      An<lb ed="#B" n="63" break="no"/>tecedens probatur: nam deus potest 
+      di<lb ed="#B" n="64" break="no"/>cere falsum scitum esse tale: nam Ioan. 
+      <lb ed="#B" n="65"/>viij. ait. Si dixero, non nouieum: ero 
+      si<lb ed="#B" n="66" break="no"/>milis uobis mendax. Potuitautem hoc  
+      <lb ed="#B" n="67"/>dicere, nam dixit totam illam 
+      oratio<lb ed="#B" n="68" break="no"/>nem: ergo potuit dicere partem: scilicet  
+      <lb ed="#B" n="69"/>non noui patrem: &amp; ita mentiri. Item 
+      <lb ed="#B" n="70"/>iij. Regum ulti. quaerenti domino. Quis 
+      <lb ed="#B" n="71"/>decipiet Achab: cum respondisset spitus 
+      <lb ed="#B" n="72"/>apostata. Ego decipiam, egrediar, &amp; ero 
+      <lb ed="#B" n="73"/>spiritus mendax in ore omnium 
+      prophe<lb ed="#B" n="74" break="no"/>tarum eius. Dixit dominus. Decipies, &amp; 
+      <lb ed="#B" n="75"/>praeualebis. Egredere, &amp; fac ita. Et sequi 
+      <lb ed="#B" n="76"/>tur. Dedit dominus spiritum mendaci pj 
+      <lb ed="#B" n="77"/>in ore omnium prophetarum suorum. 
+      <lb ed="#B" n="78"/>Ecce dominus mandauit spiritui, ut 
+      de<lb ed="#B" n="79" break="no"/>ciperet Achab: sed qui mandat aliquem 
+      <lb ed="#B" n="80"/>decipi, ipse censetur decipere. Et si 
+      di<lb ed="#B" n="81" break="no"/>citur ad primum, licet posset 
+      profer<lb ed="#B" n="82" break="no"/>re orationem falsam: non tamen posset 
+      <lb ed="#B" n="83"/>eam asserere: ut soluit Scotus. Contra. 
+      <lb ed="#B" n="84"/>Deus potest falsum aliquod reuelare 
+      ali<lb ed="#B" n="85" break="no"/>cui: quia potest propositionem falsam 
+      <lb ed="#B" n="86"/>creare in intellectu alicuius, ut talis 
+      as<lb ed="#B" n="87" break="no"/>sentiat: immo assensum ipsum creare 
+      <lb ed="#B" n="88"/>potest in mente alicuius. Est enim 
+      no<lb ed="#B" n="89" break="no"/>titia a ppraehensiua similiter, &amp; adhaesiua 
+      <lb ed="#B" n="90"/>quaedam entitas positiua, quia qualitas 
+      <lb ed="#B" n="91"/>absoluta: &amp; per consequens potest deus 
+      <lb ed="#B" n="92"/>illam in intellectu, quo uoluerit creare; &amp; 
+      <lb ed="#B" n="93"/>per consequens mentiri, &amp; ita peccare. 
+      </p>
+            <p xml:id="gbs333-h27281-d1e358">
+               <lb ed="#B" n="94"/>¶ Adistam rationem dicitur breuiter, quod 
+      <lb ed="#B" n="95"/>impossibile est deum peccare: quia 
+      impos<lb ed="#B" n="96" break="no"/>sibile est deuma se auerti: impossibile 
+      <lb ed="#B" n="97"/>est etiam deum contra suam uoluntatem 
+      <lb ed="#B" n="98"/>uelle, uel agere, ut ostensum est loco in 
+      <lb ed="#B" n="99"/>conclusione prima allegato. Sed an deus 
+      <lb ed="#B" n="100"/>possit reuelare falsum, non uideo, 
+      quin<lb ed="#B" n="101" break="no"/>possit, prout argutum est. Potest enim 
+      <lb ed="#B" n="102"/>omnem actum peccati positiuum face¬ 
+      <!--144.xml-->
+      <pb ed="#B" n="113"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>re: non tamen ideo peccare: ut dictum 
+      <lb ed="#B" n="2"/>est dist. xxxvij. secundi libri. Et si men 
+      <lb ed="#B" n="3"/>tiri simpliciter est dicere, asserere, uel re 
+      <lb ed="#B" n="4"/>uelare falsum: non uideo, quin deus hoc 
+      <lb ed="#B" n="5"/>possit de potentia absoluta: non 
+      tamen<lb ed="#B" n="6" break="no"/>sic omes mendacium erit peccatum: sed solum men 
+      <lb ed="#B" n="7"/>dacium a creatura contra lege prolatum. 
+      De<lb ed="#B" n="8" break="no"/>illo loquitur Aug. libro contra 
+      menda<lb ed="#B" n="9" break="no"/>cium sicut sup. dictum est de angelorum 
+      <lb ed="#B" n="10"/>obstinatione. Quod probabile est 
+      dice<lb ed="#B" n="11" break="no"/>re, quod deus tamquam causa totalis 
+      produ<lb ed="#B" n="12" break="no"/>cit, uel conseruat odium sui, in 
+      uolun<lb ed="#B" n="13" break="no"/>tate angeli apostatae. Nec hoc 
+      facien<lb ed="#B" n="14" break="no"/>do peccat: quia demeruit angelus 
+      apo<lb ed="#B" n="15" break="no"/>stata habere semper in uoluntate sua 
+      <lb ed="#B" n="16"/>odium dei in poenam peccati sui. Nec hoc  
+      <lb ed="#B" n="17"/>repugnat primae, &amp; summae, ac essentia 
+      <lb ed="#B" n="18"/>li ueritati: nec illud summae bonitati, 
+      re<lb ed="#B" n="19" break="no"/>pugnaret autem primae ueritati error in 
+      <lb ed="#B" n="20"/>mente diuina. Sic impossibile est deum 
+      <lb ed="#B" n="21"/>errare: sic repugnat primae, &amp; summae 
+      bo<lb ed="#B" n="22" break="no"/>nitati odium dei in uoluntate diuina. 
+      Si<lb ed="#B" n="23" break="no"/>cut enim deus errare non potest: ita 
+      <lb ed="#B" n="24"/>nec se odire potest: secus in creatura: nam 
+      <lb ed="#B" n="25"/>si creatura errat, si deum odit, ertorem 
+      <lb ed="#B" n="26"/>illum, &amp; odium causat deus, ut causa 
+      partia<lb ed="#B" n="27" break="no"/>lis in mente, &amp; affectu errantis, &amp; 
+      odien<lb ed="#B" n="28" break="no"/>tis. Quicquid autem deus causat; ut 
+      cau<lb ed="#B" n="29" break="no"/>sa partialis: potest causare ut causa tota 
+      <lb ed="#B" n="30"/>lis in genere causae efficientis. Si autem 
+      <lb ed="#B" n="31"/>mentiri, &amp; decipere includunt 
+      deformi<lb ed="#B" n="32" break="no"/>tatem: manifestum est eam non posse 
+      con<lb ed="#B" n="33" break="no"/>uenire deo. Et ita communiter accipitur 
+      <lb ed="#B" n="34"/>mentiri, &amp; decipere. Huic responsioni 
+      <lb ed="#B" n="35"/>concordat Petius de aliaco q. xij. 
+      pri<lb ed="#B" n="36" break="no"/>mi sen. art. iij. prope finem. Haec dico 
+      <lb ed="#B" n="37"/>nihil asserendo: sed tantum recitando 
+      <lb ed="#B" n="38"/>desiderans in hoc informati, &amp; 
+      subijci<lb ed="#B" n="39" break="no"/>sententiae maiorum meorum. Verum 
+      il<lb ed="#B" n="40" break="no"/>lud, quod allegatum est ex Ioanne, non 
+      <lb ed="#B" n="41"/>respicit christum secundum naturam 
+      di<lb ed="#B" n="42" break="no"/>uinam: sed humanam, secundum quam uoca 
+      <lb ed="#B" n="43"/>liter loquebatur: &amp; dicere poterat 
+      fal<lb ed="#B" n="44" break="no"/>sum, tanquam partem orationis uerae: sed  
+      <lb ed="#B" n="45"/>non potuit asserete illud falsum: quia in 
+      <lb ed="#B" n="46"/>beatitudine confirmatus fuit: licet etiam 
+      <lb ed="#B" n="47"/>quod allegatur ex iij. Reg. ulti. 
+      exponi<lb ed="#B" n="48" break="no"/>potest, quod uerba sonantia in praeceptum, 
+      <lb ed="#B" n="49"/>accipienda sunt, ut dicant permissionem: 
+      <lb ed="#B" n="50"/>ut illa. Egredere, &amp; fac ita: ut tantum 
+      ua<lb ed="#B" n="51" break="no"/>leat: permitro, ut egrediaris, &amp; ita fa¬ 
+      <!--144.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cias: ut exponit Nico. de Iyra. Tamen 
+      <lb ed="#B" n="53"/>quicumque positiua deus permitrit: haec &amp; 
+      fa<lb ed="#B" n="54" break="no"/>cit: cum (ut alias dictum est) sine deo 
+      <lb ed="#B" n="55"/>cooperante nihil positiuum fieri potest 
+      </p>
+            <p xml:id="gbs333-h27281-d1e511">
+               <lb ed="#B" n="56"/>¶ Secundo dubitatur iuxta litteram 
+      tex<lb ed="#B" n="57" break="no"/>tus. Vtrum decuit deum assumere naturam 
+      <lb ed="#B" n="58"/>humanam de massa perditionis de gne,cilic 
+      <lb ed="#B" n="59"/>Adam: &amp; non magis aliunde. Respondetur 
+      <lb ed="#B" n="60"/>secundum sanctum Bona. dist praesenti. licet  
+      <lb ed="#B" n="61"/>filius deipotuit assumere naturam huma 
+      <lb ed="#B" n="62"/>nam aliunde, quae de genere Adam: 
+      congruen<lb ed="#B" n="63" break="no"/>tius tamen illam assumpsit de genere ipsius 
+      <lb ed="#B" n="64"/>Adam. Tum primo propter seruandam rectitu 
+      <lb ed="#B" n="65"/>dinem iustitiae: ut scilicet eiusdem generis esset 
+      <lb ed="#B" n="66"/>satis factor, cuius erat praeuaricator. 
+      Iu<lb ed="#B" n="67" break="no"/>ste siquidem ab eo exigitur emenda, in quo 
+      <lb ed="#B" n="68"/>reperta est offensa. Secundo propter 
+      ma<lb ed="#B" n="69" break="no"/>nifestandum dulcorem misericordiae, quae 
+      ma<lb ed="#B" n="70" break="no"/>xime apparet in tantae misericordiae 
+      con<lb ed="#B" n="71" break="no"/>descensione: quod contemptus ab aduersario: 
+      <lb ed="#B" n="72"/>ut cum redimeret suo generi personaliter  
+      <lb ed="#B" n="73"/>uniretur. Tertio ad declarandum ordinem 
+      sa<lb ed="#B" n="74" break="no"/>pientiae, quae sic decreuit: ut omnes 
+      homi<lb ed="#B" n="75" break="no"/>nes descenderent ab uno: ad 
+      repraesenta<lb ed="#B" n="76" break="no"/>dum illud uniuersale principium, quod deus 
+      <lb ed="#B" n="77"/>est, aquo sunt oia. Quarto ad conseruandum 
+      <lb ed="#B" n="78"/>altitudinem humanae naturae, quan deus in 
+      tan<lb ed="#B" n="79" break="no"/>ta dignitate creauerat: ut nulli alterius 
+      <lb ed="#B" n="80"/>gnis esset obnoxia. Obquam est causam 
+      <lb ed="#B" n="81"/>deus ipse uoluit esse redemptor, qui 
+      crea<lb ed="#B" n="82" break="no"/>uit: quia non minus est redimere, quam 
+      crea<lb ed="#B" n="83" break="no"/>re.
+    </p>
+            <p xml:id="gbs333-h27281-d1e574">
+      ¶ Tertio dubitatur: cum duns 
+      assumere<lb ed="#B" n="84" break="no"/>uoluit naturam de massa perditionis: qua 
+      <lb ed="#B" n="85"/>re non assumpsitnatura indiuidualem 
+      ip<lb ed="#B" n="86" break="no"/>sius Adam, qui fuit causa perditionis. 
+      Re<lb ed="#B" n="87" break="no"/>spondet idem: quod non decuit deum assumere 
+      ip<lb ed="#B" n="88" break="no"/>sum Adam, secundum naturam indiuiduale: 
+      <lb ed="#B" n="89"/>aliam tamen ab Adam descendentem: quia non 
+      con<lb ed="#B" n="90" break="no"/>ueniebat, ut persona dei assumeret 
+      natu<lb ed="#B" n="91" break="no"/>ram peccatoris: cum ipse in forma assumpta 
+      <lb ed="#B" n="92"/>debet iudicare peccatores. Et qui alios de 
+      <lb ed="#B" n="93"/>eccto iudicat: ipse non debet argui dpecto. 
+      <lb ed="#B" n="94"/>Neque conuenit homini redimedo: quia 
+      si<lb ed="#B" n="95" break="no"/>ille homo, qui satis fecit, esset penae debitor 
+      <lb ed="#B" n="96"/>non esset eius satis factiua passio ita deo 
+      <lb ed="#B" n="97"/>grata, sicut hominis innocentis. Vix enim 
+      <lb ed="#B" n="98"/>nocem sufficere satis facere pro se: immo 
+      <lb ed="#B" n="99"/>nec per se: quia non acceptat opus nisi 
+      ope<lb ed="#B" n="100" break="no"/>rans sit acceptus: sed nocens, &amp; peccator. 
+      <lb ed="#B" n="101"/>deo patri acceptus non est: igit nec opus 
+      <lb ed="#B" n="102"/>eius. Si dicis: iuste qupeccauit poenas sol 
+      <!--145.xml-->
+      <pb ed="#B" n="114"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uit non innocens. Respondetur, quod 
+      ue<lb ed="#B" n="2" break="no"/>rum est de poenam ultionis: non autem de 
+      <lb ed="#B" n="3"/>poens placationis. Illa magis est 
+      acce<lb ed="#B" n="4" break="no"/>pta, si ab eo sponte exhibetur, qui 
+      gra<lb ed="#B" n="5" break="no"/>tus est, &amp; placens. Propter eandem causam 
+      <lb ed="#B" n="6"/>non acceptauit naturam humanam ab 
+      <lb ed="#B" n="7"/>utroque sexu per commixtionem seminum 
+      <lb ed="#B" n="8"/>quia illa non sit sine peccati trans fusic 
+      <lb ed="#B" n="9"/>ne, si res dimittantur suis naturalibus 
+      <lb ed="#B" n="10"/>conditionibus. Sed nec naturam huma 
+      <lb ed="#B" n="11"/>nam assumpsit de uiro: sed de faemina 
+      uir<lb ed="#B" n="12" break="no"/>gine: ut qui in caelis habuit patrem sine 
+      <lb ed="#B" n="13"/>matre: in terris haberet matrem sine 
+      pa<lb ed="#B" n="14" break="no"/>tre: ne paternum nomen confunderetur, si 
+      <lb ed="#B" n="15"/>alius esset pater christi in tertis, alius in 
+      <lb ed="#B" n="16"/>eaelis. Vt quoque compleretur perfectio 
+      <lb ed="#B" n="17"/>uniuersitatis in modo producendi 
+      homi<lb ed="#B" n="18" break="no"/>nem in esse. Productus enim erat primus 
+      <lb ed="#B" n="19"/>homo sine uiro, &amp; muliere: secundus a 
+      <lb ed="#B" n="20"/>uiro sine muliere: caeteri a uiro simul, &amp; 
+      <lb ed="#B" n="21"/>muliere: restabat productio hominis a 
+      <lb ed="#B" n="22"/>muliere fine uiro. Etiam ne dum omnia fie 
+      <lb ed="#B" n="23"/>rent miraculose nulla relinqueretur 
+      co<lb ed="#B" n="24" break="no"/>operatio naturae: &amp; per haec occasio da 
+      <lb ed="#B" n="25"/>retur erroris ueritatem naturae assumptae 
+      <lb ed="#B" n="26"/>negantis. Etiam propter alias causas, quas 
+      <lb ed="#B" n="27"/>ponunt coninter doct. Assumpsit autem 
+      se<lb ed="#B" n="28" break="no"/>xum uirilem: quia caput futurus etat 
+      ec<lb ed="#B" n="29" break="no"/>clesiae: quod non conuenit faeminae: sed 
+      <lb ed="#B" n="30"/>uiro, qui caput est mulieris: ne quoque 
+      in<lb ed="#B" n="31" break="no"/>assumptione peruerteret ordinem 
+      insti<lb ed="#B" n="32" break="no"/>tutum. Si enim sexum faemineum assum 
+      <lb ed="#B" n="33"/>psisset, iam faeminas uiris praetulisset: &amp; 
+      <lb ed="#B" n="34"/>uiros sua naturali dignitate priuasset: 
+      <lb ed="#B" n="35"/>nunc autem utrumque dignificauit: quia 
+      <lb ed="#B" n="36"/>ipse naturam in sexu uirili assumpsit: &amp; 
+      <lb ed="#B" n="37"/>eam de uirgine matre accepit. Tantum 
+      <lb ed="#B" n="38"/>de ista quaestione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

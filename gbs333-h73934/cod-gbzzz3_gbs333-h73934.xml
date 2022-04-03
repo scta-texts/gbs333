@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="300"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h73934"> <!-- l3d31q1 -->
+            <head xml:id="gbs333-h73934-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h73934-d1e102">
+               <lb ed="#B" n="87"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="88"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="89"/>quaeritur utrum in patria 
+      si<lb ed="#B" n="90" break="no"/>ne imperfectione maneant  
+      <lb ed="#B" n="91"/>QOTXV uirtutes theologicae.
+    </p>
+            <p xml:id="gbs333-h73934-d1e115">
+      ¶ Per 
+      <lb ed="#B" n="92"/>tres articulos, quorum primo terminitibi 
+      <lb ed="#B" n="93"/>declarabuntur: secundo conclusiones 
+      <lb ed="#B" n="94"/>subiungentur; tertio dubia 
+      monebun<lb ed="#B" n="95" break="no"/>tur: haec descindetur quaestio.
+    </p>
+            <p xml:id="gbs333-h73934-d1e126">
+      ¶ Quantum 
+      <lb ed="#B" n="96"/>ad primum: notandum, quod ad 
+      inuestigan<lb ed="#B" n="97" break="no"/>dum, unde surgat repugnantia habituum 
+      <lb ed="#B" n="98"/>manendi in patria, uidendum est primo 
+      <!--332.xml-->
+      <pb ed="#B" n="301"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>de actibus: &amp; per haec de habitibus. 
+      Vi<lb ed="#B" n="2" break="no"/>dendum igitur est de actu fidei, &amp; 
+      uisio<lb ed="#B" n="3" break="no"/>nis, &amp; spei, &amp; tentionis, seu habitionis 
+      <lb ed="#B" n="4"/>Notandum igitur, quod actus fidei, &amp; uisio 
+      <lb ed="#B" n="5"/>nis eiusdem obiecti scilicet dei, 
+      circus<lb ed="#B" n="6" break="no"/>scripta omni distinctione in obiecto: 
+      dif<lb ed="#B" n="7" break="no"/>ferunt specie: &amp; sunt adinuicem 
+      oppo<lb ed="#B" n="8" break="no"/>siti. Primum patet: quia eiusdem 
+      obie<lb ed="#B" n="9" break="no"/>cti: &amp; sub eadem ratione formali obiecti 
+      <lb ed="#B" n="10"/>possunt esse multi actus in eadem 
+      poten<lb ed="#B" n="11" break="no"/>tia specie distincti: ut de eodem objecto 
+      <lb ed="#B" n="12"/>habetur cognitio intuitiua, &amp; 
+      abstracti<lb ed="#B" n="13" break="no"/>ua, quae subeadem ratione reptaesentant. 
+      <lb ed="#B" n="14"/>objectum: &amp; tamen differunt specie 
+      pro<lb ed="#B" n="15" break="no"/>pter diuersam a pproximationem 
+      obie<lb ed="#B" n="16" break="no"/>cti: ut. q. i. prologi patuit. Cum, enim 
+      perfe<lb ed="#B" n="17" break="no"/>ctio actus sit a duobus scilicet potentia, &amp; 
+      obie<lb ed="#B" n="18" break="no"/>cto: quando uariantur in se: uel in 
+      conjun<lb ed="#B" n="19" break="no"/>ctione cum reliqua causa: siue in 
+      appro<lb ed="#B" n="20" break="no"/>ximatione ad reliquam causam: tunc 
+      <lb ed="#B" n="21"/>quia minus perfecte agunt causae partia 
+      <lb ed="#B" n="22"/>les respectu effectus; quando non sunt 
+      <lb ed="#B" n="23"/>sufficienter appro ximatae, &amp; coniunctae 
+      <lb ed="#B" n="24"/>uariabitur perfectio actionis, &amp; effectus. 
+      <lb ed="#B" n="25"/>Et ita in proposito respectu actus 
+      uisio<lb ed="#B" n="26" break="no"/>nis deus est in se praesens in ratione 
+      uisi<lb ed="#B" n="27" break="no"/>bilis intellectui. Respectu actus 
+      creden<lb ed="#B" n="28" break="no"/>di non est in se, praesens, hoc modo: sed  
+      <lb ed="#B" n="29"/>in enigmate: &amp; per consequens actus 
+      cre<lb ed="#B" n="30" break="no"/>dendi est imperfectior, &amp; alterius specier 
+      <lb ed="#B" n="31"/>ab actu uisionis. Sic respectu actus 
+      ten<lb ed="#B" n="32" break="no"/>tionis, obiectum est in se praesens 
+      uolun<lb ed="#B" n="33" break="no"/>tati: respectu actus desiderii absens. Et  
+      <lb ed="#B" n="34"/>quia actus desiderii, seu spei est actus 
+      obie<lb ed="#B" n="35" break="no"/>cti, ut absentis: sicut &amp; actus fidei est actus 
+      <lb ed="#B" n="36"/>objecti non apparentis: erit alterius 
+      spe<lb ed="#B" n="37" break="no"/>ciei ab actu tentionis, qui est objecti ut  
+      <lb ed="#B" n="38"/>habiti: &amp; actu uisionis, qui est obiecti, ut  
+      <lb ed="#B" n="39"/>in se praesentis. Non propter alia rationem 
+      <lb ed="#B" n="40"/>in obiecto, nec in potentia: sed propter  
+      <lb ed="#B" n="41"/>aliam approximationem obiecti ad 
+      reli<lb ed="#B" n="42" break="no"/>quam partialem causam. i potentiam, quae 
+      suf<lb ed="#B" n="43" break="no"/>ficit ad distinguendum speciem effectuum: 
+      <lb ed="#B" n="44"/>ut si aliquis effectus sequeretur solem 
+      pra<lb ed="#B" n="45" break="no"/>cise, ut est praesens secundum radium rectum: 
+      <lb ed="#B" n="46"/>&amp; aliquis effectus, ut est praesens praecise 
+      <lb ed="#B" n="47"/>secundum radium refsexum: illi effectus 
+      <lb ed="#B" n="48"/>distinguerentur specie.
+    </p>
+            <p xml:id="gbs333-h73934-d1e247">
+      ¶ Ex quo 
+      sequi<lb ed="#B" n="49" break="no"/>tur primo, quod imperfectio non 
+      apparen<lb ed="#B" n="50" break="no"/>tiae est de essentia actus fidei: 
+      simili<lb ed="#B" n="51" break="no"/>ter imperfectio absentiae obiecti in se 
+      <!--332.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>est de essentia actus spei: ita quod actus 
+      <lb ed="#B" n="53"/>fidei, &amp; actus uisionis, non solum 
+      distin<lb ed="#B" n="54" break="no"/>guuntur specie accidentali: sed 
+      specie<lb ed="#B" n="55" break="no"/>essentiali: sic de actibus spei, &amp; tensionis. 
+      </p>
+            <p xml:id="gbs333-h73934-d1e269">
+               <lb ed="#B" n="56"/>¶ Ex quo sequitur secundo, quod actus 
+      illi<lb ed="#B" n="57" break="no"/>formaliter adinuicem repugnant.
+    </p>
+            <p xml:id="gbs333-h73934-d1e276">
+      ¶ Ter 
+      <lb ed="#B" n="58"/>tio sequitur, quod actus fidei, &amp; spei non 
+      <lb ed="#B" n="59"/>possunt perfici manentes in se secundum 
+      <lb ed="#B" n="60"/>essentiam: quia si stante actu fidei in 
+      in<lb ed="#B" n="61" break="no"/>tellectu respectu obiecti non apparentis, 
+      <lb ed="#B" n="62"/>si obiectum apparuerit &amp; ita sui uisionem 
+      <lb ed="#B" n="63"/>causabit: iam actus fidei eiusdem objecti 
+      <lb ed="#B" n="64"/>praeexistens non solum desinit esse fides: 
+      <lb ed="#B" n="65"/>sed simpliciter desinit esse: nam non 
+      ap<lb ed="#B" n="66" break="no"/>parentia obiecti est de essentia actus 
+      fi<lb ed="#B" n="67" break="no"/>dei. Similiter si stante actu spei 
+      respe<lb ed="#B" n="68" break="no"/>ctu desiderati desideratum fiat praesens 
+      <lb ed="#B" n="69"/>speranti: &amp; in eo causabit sui 
+      fruitio<lb ed="#B" n="70" break="no"/>nem in sperante, iam non solum 
+      a<lb ed="#B" n="71" break="no"/>ctus desiderij praeexistens desinit esse 
+      <lb ed="#B" n="72"/>spei actus: sed simpliciter desinit esse. 
+      </p>
+            <p xml:id="gbs333-h73934-d1e311">
+               <lb ed="#B" n="73"/>¶ Ex quibus manifestum est, quod cum 
+      <lb ed="#B" n="74"/>uisione non potest stare actus fidei 
+      eius<lb ed="#B" n="75" break="no"/>dem objecti: nec cum actu tensionis 
+      a<lb ed="#B" n="76" break="no"/>ctus eiusdem objecti: quia non potest idem 
+      <lb ed="#B" n="77"/>cognosci euidenter, &amp; obscure: nec idem 
+      <lb ed="#B" n="78"/>teneri ut praesens, &amp; desiderari ut absens, 
+      </p>
+            <p xml:id="gbs333-h73934-d1e327">
+               <lb ed="#B" n="79"/>¶ Licet autem actus illi sic sint oppositi, &amp; 
+      <lb ed="#B" n="80"/>similiter eorum habitus: ut dictum est 
+      <lb ed="#B" n="81"/>dist. xxiii. tamen habitus no opponuntur 
+      <lb ed="#B" n="82"/>actibus oppositi habitus. Gratia 
+      exem<lb ed="#B" n="83" break="no"/>pli. Habitus fidei non repugnat uisioni: 
+      <lb ed="#B" n="84"/>nec habitus spei actibus desiderandi: 
+      si<lb ed="#B" n="85" break="no"/>cut in simili. Licet actus 
+      temperan<lb ed="#B" n="86" break="no"/>tiae, &amp; actus intemperantiae circa idem 
+      <lb ed="#B" n="87"/>objectum opponantur: tamen habitus 
+      <lb ed="#B" n="88"/>temperantiae stat cum actu 
+      intempe<lb ed="#B" n="89" break="no"/>rantiae: &amp; actus uirtuosus cum habitu 
+      ui<lb ed="#B" n="90" break="no"/>tioso: ut patet in nouiter conuersis. 
+      <lb ed="#B" n="91"/>De quolatius supra dist. xxiiij.
+    </p>
+            <p xml:id="gbs333-h73934-d1e358">
+      ¶ Circa 
+      <lb ed="#B" n="92"/>illud, quod apostolus assignat pro ratione: 
+      <lb ed="#B" n="93"/>cur fides, &amp; spes non manent: quia scilicet sunt  
+      <lb ed="#B" n="94"/>ex parte. Quaeratio posset uideri eodem 
+      <lb ed="#B" n="95"/>mo militare contra charitatem: quia &amp; 
+      cha<lb ed="#B" n="96" break="no"/>ritas uiae est imperfecta: &amp; ita est ex 
+      par<lb ed="#B" n="97" break="no"/>te.
+    </p>
+            <p xml:id="gbs333-h73934-d1e375">
+      ¶ Ideo notandum secundo, Quo aliter 
+      <lb ed="#B" n="98"/>fides, &amp; spes dicuntur esse ex parte, 
+      ali<lb ed="#B" n="99" break="no"/>ter charitas. Nam fides, &amp; spes in suis 
+      <lb ed="#B" n="100"/>actibus includunt imperfectionem 
+      es<lb ed="#B" n="101" break="no"/>sentialiter scilicet ineuidentia, &amp; objecti 
+      <lb ed="#B" n="102"/>absentia: ita uod si notitia fuerit euides: ia 
+      <!--333.xml-->
+      <pb ed="#B" n="302"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>non est actus fidei. Similiter amor si 
+      fue<lb ed="#B" n="2" break="no"/>rit respectu praesentis, &amp; habiti: iam non 
+      <lb ed="#B" n="3"/>est actus spei: ut statim dictum est. Non 
+      <lb ed="#B" n="4"/>sic de charitate: quia charitas non deter 
+      <lb ed="#B" n="5"/>minat sibi necessario imperfectionem: 
+      <lb ed="#B" n="6"/>neque in habitu: neque in actu. 
+      Chari<lb ed="#B" n="7" break="no"/>tas enim, quae est habitus inclinans ad 
+      di<lb ed="#B" n="8" break="no"/>ligendum deum, ut bonum summum in 
+      <lb ed="#B" n="9"/>se amore amicitiae: non determinat 
+      sibi<lb ed="#B" n="10" break="no"/>aliquem certum gradum intensionis in 
+      <lb ed="#B" n="11"/>habitu, uel actu: sed neque imperfectionem 
+      <lb ed="#B" n="12"/>in objiecto. Vnde actus intensissimus 
+      di<lb ed="#B" n="13" break="no"/>ligendi deum est actus charitatis, &amp; 
+      ha<lb ed="#B" n="14" break="no"/>bitus diligendi quantumcunque perfectus 
+      <lb ed="#B" n="15"/>non exit rationem charitatis: unde 
+      cha<lb ed="#B" n="16" break="no"/>ritas patriae est charitas: &amp; fruitio 
+      beati<lb ed="#B" n="17" break="no"/>fica est actus charitatis, ideo charitas non 
+      <lb ed="#B" n="18"/>est ex parte essentialiter includens 
+      im<lb ed="#B" n="19" break="no"/>perfectionem essentialiter in actu suo. 
+      <lb ed="#B" n="20"/>Sed charitas uiae potest esse ex parte quam 
+      <lb ed="#B" n="21"/>tum ad intensionem habitus similiter, &amp; 
+      <lb ed="#B" n="22"/>actus: hoc autem non est sibi essentiale: 
+      <lb ed="#B" n="23"/>ut dictum est.
+    </p>
+            <p xml:id="gbs333-h73934-d1e445">
+      ¶ Sed di. Contra actus 
+      cha<lb ed="#B" n="24" break="no"/>ritatis uiae essentialiter includit 
+      imperfe<lb ed="#B" n="25" break="no"/>ctionem: ergo est ex parte essentialiter  
+      <lb ed="#B" n="26"/>sicut fides. Consequentia nota. 
+      Antece<lb ed="#B" n="27" break="no"/>dens probatur: quia actus charitatis in 
+      <lb ed="#B" n="28"/>quia, specie differt ab actu charitatis 
+      pa<lb ed="#B" n="29" break="no"/>triae, &amp; tanquam species inferior, siue 
+      <lb ed="#B" n="30"/>imperfectior a specie superiori, &amp; 
+      perfe<lb ed="#B" n="31" break="no"/>ctiori: ergo actus charitatis uiae includit  
+      <lb ed="#B" n="32"/>essentialiter imperfectionem: quia carentiam 
+      <lb ed="#B" n="33"/>perfectionis illius, in qua praecise actus 
+      <lb ed="#B" n="34"/>charitatis patriae excedit dilectionem 
+      uiae<lb ed="#B" n="35" break="no"/>Antecedens patet, sicut supra probatum 
+      <lb ed="#B" n="36"/>est de fide: quia propter diuersam 
+      prae<lb ed="#B" n="37" break="no"/>sentiam obiecti, elicitur alius actus 
+      spe<lb ed="#B" n="38" break="no"/>cie distinctus. Est autem deus in patria in 
+      <lb ed="#B" n="39"/>rationei obiecti psens in se: in uia tantum 
+      <lb ed="#B" n="40"/>praesens in conceptu, uel specie 
+      Respon<lb ed="#B" n="41" break="no"/>detur, quod ratio illa bene procedit de actu 
+      <lb ed="#B" n="42"/>charitatis fidei: illi enim specie 
+      distin<lb ed="#B" n="43" break="no"/>guuntur a fruitione patriae: ut probat  
+      <lb ed="#B" n="44"/>ratio: sed non probat de charitate 
+      maxi<lb ed="#B" n="45" break="no"/>me infusa, quae manet eadem in patria 
+      <lb ed="#B" n="46"/>essentialiter, quae in uia, licet in patria sit 
+      <lb ed="#B" n="47"/>perfectior: sicut qualitas quae 
+      intendi<lb ed="#B" n="48" break="no"/>tur, est eadem numero post intensionem, 
+      <lb ed="#B" n="49"/>quae fuit ante intensionem.
+    </p>
+            <p xml:id="gbs333-h73934-d1e504">
+      ¶ De 
+      habi<lb ed="#B" n="50" break="no"/>tu charitatis acquisito uidetur dicendum, 
+      <lb ed="#B" n="51"/>si fruitio uiae, &amp; fruitio patriae specie 
+      <!--333.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>differunt: charitas acquisita uiae non esti 
+      <lb ed="#B" n="53"/>eadem cum acquisita patriae: quia (ut 
+      fre<lb ed="#B" n="54" break="no"/>quenter dictum est) habitus acquisiti 
+      di<lb ed="#B" n="55" break="no"/>stinguuntur secundum distinctionem actuum, 
+      ex<lb ed="#B" n="56" break="no"/>quibus generantur. Verum, quod ratio 
+      chari<lb ed="#B" n="57" break="no"/>tatis etiam acquisitae non includit impr 
+      <lb ed="#B" n="58"/>fectionem: quiain genere significat 
+      habitu<lb ed="#B" n="59" break="no"/>nclinantem ad diligendum deum in se, 
+      <lb ed="#B" n="60"/>siue habitum, siue habendum: &amp; ideo tam 
+      <lb ed="#B" n="61"/>fruitio uiae, quam patriae sunt actus 
+      cha<lb ed="#B" n="62" break="no"/>ritatis.
+    </p>
+            <p xml:id="gbs333-h73934-d1e539">
+      ¶ Aliter respondet sanctus 
+      Bona<lb ed="#B" n="63" break="no"/>uent, quod dupliciter aliquid dicitur ex par 
+      <lb ed="#B" n="64"/>te. Vno modo, quia deficit a 
+      perfectio<lb ed="#B" n="65" break="no"/>ne alicuius perfecti, ad quod habet quam 
+      <lb ed="#B" n="66"/>dam dispositionem perquam est in 
+      po<lb ed="#B" n="67" break="no"/>tentia ad perfectiorem: sic qualitas 
+      re<lb ed="#B" n="68" break="no"/>missa est in potentia ad qualitatem 
+      in<lb ed="#B" n="69" break="no"/>tensam. Alio modo, quia deficit a 
+      perfe<lb ed="#B" n="70" break="no"/>ctione alterius, ad quod est dispositio 
+      qua<lb ed="#B" n="71" break="no"/>dam cum suioppositione, sicut tepidum 
+      <lb ed="#B" n="72"/>ad calidum. Est enim tepidum dispositio  
+      <lb ed="#B" n="73"/>ad calidum: &amp; tamen opponitur calido: 
+      <lb ed="#B" n="74"/>quia idem non est calidum, &amp; tepidum: 
+      <lb ed="#B" n="75"/>&amp; intrante calidita te expellitur 
+      tepidi<lb ed="#B" n="76" break="no"/>tas. Primo modo charitas uiae dicitur 
+      es<lb ed="#B" n="77" break="no"/>se ex parte: &amp; quid sic e ex parte: non 
+      tolli<lb ed="#B" n="78" break="no"/>tur in patria: sed perficitur. Secundo 
+      mo<lb ed="#B" n="79" break="no"/>do fides, &amp; spes sunt ex parte, &amp; quod  
+      <lb ed="#B" n="80"/>sic est ex parte: tollitur in patria. Et de 
+      <lb ed="#B" n="81"/>secundo modo loquitur apostolus. 
+      Cun<lb ed="#B" n="82" break="no"/>uenerit, quod perfectum est: euacuabitur, 
+      <lb ed="#B" n="83"/>quod ex parte est. Haec responsio de 
+      cha<lb ed="#B" n="84" break="no"/>ritate infusa sustineri potest: sed de 
+      acqui<lb ed="#B" n="85" break="no"/>sita prior responsio uidetur uerior.
+    </p>
+            <p xml:id="gbs333-h73934-d1e591">
+      ¶ 
+      Quan<lb ed="#B" n="86" break="no"/>tum ad articulum secundum, est 
+      conclu<lb ed="#B" n="87" break="no"/>sio prima. Neque fides infusa, neque acqui  
+      <lb ed="#B" n="88"/>sita manet cum aperta uisione in patria. 
+      <lb ed="#B" n="89"/>Et similis conclusio per omnia 
+      ponen<lb ed="#B" n="90" break="no"/>da est de spe. Probatur utraque 
+      conclusion<lb ed="#B" n="91" break="no"/>per Apostolum. i. Corin. xiij. &amp; alijs 
+      plu<lb ed="#B" n="92" break="no"/>ribus locis. Et persuadetur ratione 
+      secun<lb ed="#B" n="93" break="no"/>dum Sco. Nullus habitus ponendus est 
+      <lb ed="#B" n="94"/>in patria frustra permanere. Frustra id est 
+      <lb ed="#B" n="95"/>absque hoc, quod inclinet ad actum proprium: 
+      <lb ed="#B" n="96"/>sed frustra est habitus, cuius 
+      inclinatio<lb ed="#B" n="97" break="no"/>ad actum proprium est incompossibilis 
+      <lb ed="#B" n="98"/>beatitudini pro statu illo in patris: 
+      er<lb ed="#B" n="99" break="no"/>go talis habitus non est ponendus in 
+      pa<lb ed="#B" n="100" break="no"/>tria: tunc ultra fides, &amp; spes sunt tales 
+      ha<lb ed="#B" n="101" break="no"/>bitus: ergo ponendi non sunt in patria. 
+      <lb ed="#B" n="102"/>Antecedens probatur: quia fidei actus 
+      <!--334.xml-->
+      <pb ed="#B" n="303"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est credereuerum non apparens: &amp; actus 
+      <lb ed="#B" n="2"/>speidesiderare bonum absens: ut patet 
+      <lb ed="#B" n="3"/>ex dictis. Hiautem non sunt 
+      beatitudi<lb ed="#B" n="4" break="no"/>gi compossibiles: ubi omnia 
+      cognoscun<lb ed="#B" n="5" break="no"/>tur euidenter: &amp; nihil desideratum est 
+      <lb ed="#B" n="6"/>absens.
+    </p>
+            <p xml:id="gbs333-h73934-d1e650">
+      ¶ Verum ratio illa non conuincit 
+      <lb ed="#B" n="7"/>sed persuasio est. Probat enim, quod quan 
+      <lb ed="#B" n="8"/>tum ad hunc effectum, qui est inclinare 
+      <lb ed="#B" n="9"/>ad actus proprios: frustra ponitur: tamen 
+      <lb ed="#B" n="10"/>non ideo simpliciter est frustra: quia est 
+      <lb ed="#B" n="11"/>spiritualis ornatus animae: sicut 
+      probabi<lb ed="#B" n="12" break="no"/>le est, quod in corporibus sanctorum 
+      mar<lb ed="#B" n="13" break="no"/>tyrum in resurrectio ne reseruantur 
+      ci<lb ed="#B" n="14" break="no"/>catrices pro singulari ornatu, &amp; gloria 
+      <lb ed="#B" n="15"/>corporis: ita dici posset, quod manet fides, 
+      <lb ed="#B" n="16"/>&amp; spes, quibus triumpharunt contra in 
+      <lb ed="#B" n="17"/>sidias daemonum. Iuxta illud. Heb. xj. 
+      <lb ed="#B" n="18"/>Sanctiper fidem uicerunt regna, &amp; hoc 
+      <lb ed="#B" n="19"/>pro gloria, &amp; ornatu animae: sed propter 
+      <lb ed="#B" n="20"/>aucto. Apostoli, &amp; sanctorum 
+      tenend<lb ed="#B" n="21" break="no"/>est conclusio magis, quam propter 
+      ra<lb ed="#B" n="22" break="no"/>tionem.
+    </p>
+            <p xml:id="gbs333-h73934-d1e688">
+      ¶ Secunda conclusio. Charitas, 
+      <lb ed="#B" n="23"/>quae viatori infunditur, eadem numero 
+      <lb ed="#B" n="24"/>inbeatitudine conseruatur. Probatur per 
+      <lb ed="#B" n="25"/>Apostolum. i. Corint. xiij. Charitas 
+      nun<lb ed="#B" n="26" break="no"/>quam excidet. Et probatur ratione, 
+      nul<lb ed="#B" n="27" break="no"/>la uirtus, quae non includit essentialiter  
+      <lb ed="#B" n="28"/>imperfectionem, euacuabitur in patria: 
+      <lb ed="#B" n="29"/>sed charitas est uirtus non includens 
+      im<lb ed="#B" n="30" break="no"/>perfectionem essentialiter: ergo. 
+      Con<lb ed="#B" n="31" break="no"/>sequentia nota: &amp; maior patet: quia hanc 
+      <lb ed="#B" n="32"/>solam causam euacuationis assignat 
+      apo<lb ed="#B" n="33" break="no"/>stolus fidei, &amp; spei: quia sunt ex parte: ut 
+      <lb ed="#B" n="34"/>supra habitum est Maior probata est in 
+      <lb ed="#B" n="35"/>primo articulo.
+    </p>
+            <p xml:id="gbs333-h73934-d1e719">
+      ¶ Tertia conclusio. 
+      Pro<lb ed="#B" n="36" break="no"/>babile est charitatem acquisitam uiae in 
+      <lb ed="#B" n="37"/>patria non manere. Probatur sicut de 
+      <lb ed="#B" n="38"/>spe, &amp; fide. Nam charitas uiae essentiali  
+      <lb ed="#B" n="39"/>ter includit imperfectionem repugnantem 
+      <lb ed="#B" n="40"/>patriae, nam inclinat ad diligendum deum 
+      <lb ed="#B" n="41"/>amore amicitiae non praesentem: sed ab 
+      <lb ed="#B" n="42"/>sentem in ratione obiecti: ut statim de 
+      <lb ed="#B" n="43"/>claratum est. Nec potest habere actum 
+      <lb ed="#B" n="44"/>in patria: cum ibi non diligatur, ut ab 
+      <lb ed="#B" n="45"/>sens: sed ut praesens in se ipso, ut in 
+      artici<lb ed="#B" n="46" break="no"/>lo primo latius dictum est. Item 
+      proba<lb ed="#B" n="47" break="no"/>bile est fruitionem uiae specie 
+      distingui<lb ed="#B" n="48" break="no"/>a fruitione patriae: quo posito 
+      proce<lb ed="#B" n="49" break="no"/>dit conclusio, &amp; non alias &amp;c.
+    </p>
+            <p xml:id="gbs333-h73934-d1e752">
+      ¶ 
+      Quan<lb ed="#B" n="50" break="no"/>tum ad tertium articulum dubitatur 
+      pri<lb ed="#B" n="51" break="no"/>mo: utrum fidei euacuatae in patria suc 
+      <!--334.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cedat aliquis habitus inclinans ad actum 
+      <lb ed="#B" n="53"/>uisionis succedentem actui credendi 
+      <lb ed="#B" n="54"/>Similiter utrum spei succedat habitus 
+      <lb ed="#B" n="55"/>aliquis inclinans ad actum tensionis in 
+      <lb ed="#B" n="56"/>patria. Respondetur post Sco. dist. 
+      prae<lb ed="#B" n="57" break="no"/>senti. quod dictis habitibus uie non 
+      succe<lb ed="#B" n="58" break="no"/>dunt alij habitus proprie loquendo de 
+      <lb ed="#B" n="59"/>habitu: ut est qualitas quaedam distincta 
+      <lb ed="#B" n="60"/>ab actu inclinatiua ad actum &amp;c. Nam 
+      <lb ed="#B" n="61"/>non oportet ponere aliquem habitum 
+      <lb ed="#B" n="62"/>distinctum in anima beati (saltem alium 
+      <lb ed="#B" n="63"/>a charitate) qui sit principium uidendi, 
+      <lb ed="#B" n="64"/>&amp; tendendi in obiectum: quia habitus non 
+      <lb ed="#B" n="65"/>ponitur in potentia, nisi ad facilitandum 
+      <lb ed="#B" n="66"/>&amp; habilitandum potentiam: ad eliciendum 
+      <lb ed="#B" n="67"/>actum prompte, &amp; delectabiliter: uel sal 
+      <lb ed="#B" n="68"/>tem, ut per habitum objectum fiat 
+      prae<lb ed="#B" n="69" break="no"/>sens, eo modo, quo potentia nata est 
+      cir<lb ed="#B" n="70" break="no"/>ca ipsum elicere actum: ut contingit in 
+      <lb ed="#B" n="71"/>intellectualibus: ut supra dist. xxiij. dictum 
+      <lb ed="#B" n="72"/>est. Sed in beatitudine obiectum est 
+      sem<lb ed="#B" n="73" break="no"/>per praesens potentiae in ratione 
+      obie<lb ed="#B" n="74" break="no"/>cti: &amp; potentia est summe inclinata, &amp; 
+      fa<lb ed="#B" n="75" break="no"/>cilitata. Nec potest assuefieri ad contra 
+      <lb ed="#B" n="76"/>rium. Et omnis ratio ponendi habitum 
+      <lb ed="#B" n="77"/>in potentia cessat in beatitudine: ergo 
+      <lb ed="#B" n="78"/>&amp;c. Item cognitiones, quibus deus 
+      co<lb ed="#B" n="79" break="no"/>gnoscitur: &amp; caetera in deo sunt 
+      cogni<lb ed="#B" n="80" break="no"/>tiones intuitiuae: sed respectu intuitiuae 
+      <lb ed="#B" n="81"/>cognitionis non ponitur habitus: ut 
+      o<lb ed="#B" n="82" break="no"/>stensum est. Similiter si uisio beatifica, &amp; 
+      <lb ed="#B" n="83"/>actus tensionis est a solo deo, sicut 
+      prae<lb ed="#B" n="84" break="no"/>mium a solo praemiante: ut quidam 
+      <lb ed="#B" n="85"/>probabiliter tenent: ut patuit in. j. dist. i. 
+      <lb ed="#B" n="86"/>non est necessarius habitus ad 
+      infusio<lb ed="#B" n="87" break="no"/>nem actus a deo: quoniam etsi ponitur 
+      <lb ed="#B" n="88"/>habitus infusus respectu actus eliciendi 
+      <lb ed="#B" n="89"/>a potentia: non tamen ponitur habitus 
+      <lb ed="#B" n="90"/>respectu actus infusi a deo. Non enim 
+      <lb ed="#B" n="91"/>deus indiget instrumento ad creandum 
+      <lb ed="#B" n="92"/>aliquem actum in potentia.
+    </p>
+            <p xml:id="gbs333-h73934-d1e852">
+      ¶ Secundo 
+      <lb ed="#B" n="93"/>dubitatur contra conclusionem tertiam. 
+      <lb ed="#B" n="94"/>Nam ratio charitatis acquisitae, &amp; etiam 
+      <lb ed="#B" n="95"/>fruitionis uiae non includit aliquam im 
+      <lb ed="#B" n="96"/>perfectionem essentialiter: ergo potest 
+      <lb ed="#B" n="97"/>manere in patria. Consequentia nota ex 
+      <lb ed="#B" n="98"/>dictis. Antecedens probatur: nam 
+      intel<lb ed="#B" n="99" break="no"/>lectus potest ostendere obiectum, 
+      scili<lb ed="#B" n="100" break="no"/>cet deum, ut summum amabile in se: &amp; neque  
+      <lb ed="#B" n="101"/>ut praesens, neque ut absens. Et circa 
+      ob<lb ed="#B" n="102" break="no"/>lectum sic ostensum uoluntas potest cu¬ 
+      <!--335.xml-->
+      <pb ed="#B" n="304"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cere actum diligendi deum in se, &amp; 
+      pro<lb ed="#B" n="2" break="no"/>pter se: &amp; neque ut praesentem, neque ut 
+      ab<lb ed="#B" n="3" break="no"/>sentem: lle actus nullam includit imper 
+      <lb ed="#B" n="4"/>fectionem: &amp; ideo manebit in patria. Et  
+      <lb ed="#B" n="5"/>per consequens etiam habitus ad ipsum 
+      <lb ed="#B" n="6"/>inclinans: nam ubi ponitur actus, ibi &amp; 
+      <lb ed="#B" n="7"/>habitus eius: saltem si respectu eius 
+      po<lb ed="#B" n="8" break="no"/>terit esse habitus. Et similiter posset 
+      ar<lb ed="#B" n="9" break="no"/>gui de actu diligendi deum, ut summum 
+      <lb ed="#B" n="10"/>commodum diligenti, quo tendit poten 
+      <lb ed="#B" n="11"/>tia in obiectum: nec ut praesens, nec ut  
+      <lb ed="#B" n="12"/>absens: &amp; ille potest manere: in patria: 
+      <lb ed="#B" n="13"/>immo talis actus tensionis potest 
+      elici<lb ed="#B" n="14" break="no"/>in patria &amp; ille erit actus spei: quiaamor 
+      <lb ed="#B" n="15"/>concupiscentiae: &amp; sic spes, &amp; eius actus 
+      <lb ed="#B" n="16"/>manere possunt in patria: quod est 
+      con<lb ed="#B" n="17" break="no"/>tra conclusionem prima de spe. Ad illa 
+      <lb ed="#B" n="18"/>respondetur, quod fruitio uiae non est eiusdem 
+      <lb ed="#B" n="19"/>speciei cum fruitione patriae; quod sic 
+      <lb ed="#B" n="20"/>probatur: quia si essent eiusdem speciei: non 
+      <lb ed="#B" n="21"/>differrent nisi secundum intensum, &amp; 
+      remis<lb ed="#B" n="22" break="no"/>sum: quia cum sint eiusdem objecti 
+      se<lb ed="#B" n="23" break="no"/>cundum eandem rationem, nulla alia 
+      dif<lb ed="#B" n="24" break="no"/>ferentia assignari potest. Sed consequens 
+      <lb ed="#B" n="25"/>falsum: quia si differrent tantum 
+      secun<lb ed="#B" n="26" break="no"/>dum intensionem, &amp; remissionem: 
+      pos<lb ed="#B" n="27" break="no"/>set in tantum habitus charitatis in uia 
+      <lb ed="#B" n="28"/>per actuum frequentiam intendi: quod aequa 
+      <lb ed="#B" n="29"/>retur habitui charitatis in patria: quia cum 
+      <lb ed="#B" n="30"/>solum differunt secundum intensionem, 
+      <lb ed="#B" n="31"/>differunt non infinite: sed secundum de 
+      <lb ed="#B" n="32"/>terminatum gradum, &amp; proportionem, 
+      <lb ed="#B" n="33"/>Sit ergo (exempli causa) secundum 
+      du<lb ed="#B" n="34" break="no"/>plam proportionem excessus charitatis 
+      <lb ed="#B" n="35"/>patriae: poterit charitas uiae in duplo 
+      au<lb ed="#B" n="36" break="no"/>geri: &amp; sic aequabitur charitati patriae: &amp; 
+      <lb ed="#B" n="37"/>per consequens poterit esse principium 
+      <lb ed="#B" n="38"/>eliciendi actus in duplo intensiores: &amp; 
+      <lb ed="#B" n="39"/>ita eiusdem perfectionis cum actu 
+      beati<lb ed="#B" n="40" break="no"/>fico: quod est impossibile.
+    </p>
+            <p xml:id="gbs333-h73934-d1e969">
+      ¶ Et si dicitur, 
+      <lb ed="#B" n="41"/>perfectio actus eliciti non tantum de 
+      <lb ed="#B" n="42"/>pendet ab habitu: sed etiam a potentia, 
+      <lb ed="#B" n="43"/>&amp; objecto praesente per actualem 
+      intelle<lb ed="#B" n="44" break="no"/>ctionem. Et quanto est perfectius praesens per 
+      <lb ed="#B" n="45"/>intellectionem: tanto etiam uoluntas elicit 
+      <lb ed="#B" n="46"/>actum perfectiorem. Et quia uiatori ob 
+      <lb ed="#B" n="47"/>jectum beatificum non sit praesens per 
+      <lb ed="#B" n="48"/>intellectionem intuitiuam: sequitur, quod 
+      <lb ed="#B" n="49"/>licet habitus charitatis uiae esset aeque 
+      <lb ed="#B" n="50"/>perfectus cum habitu patriae: non tamen 
+      <lb ed="#B" n="51"/>erit principium actus eiusdem perfe¬ 
+      <!--335.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ctionis: quia deficit aliqua causa 
+      partia<lb ed="#B" n="53" break="no"/>lis. potentia scilicet, &amp; objectum.
+    </p>
+            <p xml:id="gbs333-h73934-d1e1004">
+      ¶ Sed  
+      <lb ed="#B" n="54"/>ista replica non obstat: quia fruitio uiae, 
+      <lb ed="#B" n="55"/>si differt tantum secundum intensionem, 
+      <lb ed="#B" n="56"/>&amp; non secundum speciem a fruitione 
+      <lb ed="#B" n="57"/>patriae: potest fruitio uiae per solam 
+      in<lb ed="#B" n="58" break="no"/>tensionem eius ascendere ad perfectio 
+      <lb ed="#B" n="59"/>nem fruitionis patriae: cum solum 
+      fini<lb ed="#B" n="60" break="no"/>te excedat. Nam potest habitus uiae 
+      in<lb ed="#B" n="61" break="no"/>tendi ultra perfectionem habitus patriag 
+      <lb ed="#B" n="62"/>intantum, quod potest esse principium actus 
+      <lb ed="#B" n="63"/>eiusdem perfectionis cum fruitione 
+      pa<lb ed="#B" n="64" break="no"/>triae. Item potest deus intendere 
+      huius<lb ed="#B" n="65" break="no"/>modi actum uiae ad aequalitatem fruitio 
+      <lb ed="#B" n="66"/>nis patriae: &amp; cunc illa fruitione sic 
+      inten<lb ed="#B" n="67" break="no"/>sa habens eam erit beatus absque notitia 
+      <lb ed="#B" n="68"/>intuitiua diuinitatis: quid est 
+      impossibi<lb ed="#B" n="69" break="no"/>le: ideo necesse est dicere fruitionem 
+      pa<lb ed="#B" n="70" break="no"/>triae non solum secundum intensionem: 
+      <lb ed="#B" n="71"/>sed speciem differre a fruitione uiae: &amp; 
+      <lb ed="#B" n="72"/>hoc propter aliam applicationem, &amp; 
+      prae<lb ed="#B" n="73" break="no"/>sentiam specie obiecti: quod est causa 
+      <lb ed="#B" n="74"/>partialis actus fruitionis utriusque. 
+      Di<lb ed="#B" n="75" break="no"/>stinguitur enim specie praesentia obiecti 
+      <lb ed="#B" n="76"/>per cognitionem, intuitiuam propriam 
+      <lb ed="#B" n="77"/>a praesentia per cognitionem solum 
+      con<lb ed="#B" n="78" break="no"/>fusam, aut in conceptu, uel specie. Hoc 
+      <lb ed="#B" n="79"/>ergo supposito, ad rationem dubij 
+      respon<lb ed="#B" n="80" break="no"/>detur, concedendo si ratio dicit 
+      conce<lb ed="#B" n="81" break="no"/>ptum, quod ratio charitatis in genere 
+      pro<lb ed="#B" n="82" break="no"/>ut extendit se ad charitatem uiae, &amp; 
+      cha<lb ed="#B" n="83" break="no"/>ritate patriae, non includit imperfectionem: 
+      <lb ed="#B" n="84"/>Sed tamen roio specialis charitatis uiae 
+      inclu<lb ed="#B" n="85" break="no"/>dit imperfectionem sicut ens in gnre non 
+      <lb ed="#B" n="86"/>dicit imperfectionem: sed ens creatum, uel de 
+      <lb ed="#B" n="87"/>pedens dicit imperfectionem. Et cum arguit: 
+      <lb ed="#B" n="88"/>intellectus potest ostendere obiectum:, &amp; nec 
+      <lb ed="#B" n="89"/>ut praesens, necut absens. Posset illa 
+      ne<lb ed="#B" n="90" break="no"/>gari quantum ad notitiam intuitiuam, 
+      <lb ed="#B" n="91"/>quam praesupponit actus fruitionis 
+      pa<lb ed="#B" n="92" break="no"/>triae: quia per notitiam intuitiuam 
+      sem<lb ed="#B" n="93" break="no"/>per cognoscitur praesentia obiecti: sed  
+      <lb ed="#B" n="94"/>quantum ad ostensionem uiae, potest 
+      con<lb ed="#B" n="95" break="no"/>cedi, quod potest praesentari obiectum: puta 
+      <lb ed="#B" n="96"/>deus, ut summe diligendum, siue psens 
+      <lb ed="#B" n="97"/>siue absens: sed illa ostensio non est 
+      ui<lb ed="#B" n="98" break="no"/>sio patriae: sed cognitio uiae: &amp; fruitio 
+      <lb ed="#B" n="99"/>sequens est fruitio uiae, &amp; non patriae, &amp; 
+      <lb ed="#B" n="100"/>per consequens imperfecta, &amp; specierin 
+      <lb ed="#B" n="101"/>ferioris ad fruitionem patriae: &amp; ita non 
+      <lb ed="#B" n="102"/>manet in patria: neque habitus eius: &amp; 
+      <!--336.xml-->
+      <pb ed="#B" n="305"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ideo licet posset apprehendideus, ut sum 
+      <lb ed="#B" n="2"/>mum diligibile generaliter: &amp; non ut prae 
+      <lb ed="#B" n="3"/>sens, uel absens, &amp; ut sic diligi: illa tamer 
+      <lb ed="#B" n="4"/>dilectio est imperfecta: &amp; deficit a 
+      frui<lb ed="#B" n="5" break="no"/>tione beatifica: &amp; ideo non manet in 
+      pa<lb ed="#B" n="6" break="no"/>tria.
+    </p>
+            <p xml:id="gbs333-h73934-d1e1133">
+      ¶ Dubitatur tertio. Vtrum scientia 
+      <lb ed="#B" n="7"/>euacuetur in patria. Respondetur 
+      secun<lb ed="#B" n="8" break="no"/>dum sanctos Tho &amp; Bonauem, quod scientia 
+      <lb ed="#B" n="9"/>non euacuatur in patria, quantum ad 
+      hab<lb ed="#B" n="10" break="no"/>tum: sed bene quantum ad sciendimodum. 
+      Pri<lb ed="#B" n="11" break="no"/>mum patet: quia habitus scientiae facit ad 
+      <lb ed="#B" n="12"/>animae decorem: &amp; non repugnat 
+      cogni<lb ed="#B" n="13" break="no"/>tioni actuali beati. Secundum probatur:  
+      <lb ed="#B" n="14"/>quia licet ibi sit cognitio rerum in 
+      pro<lb ed="#B" n="15" break="no"/>prio genere: non tamen est ibi ille, modus 
+      <lb ed="#B" n="16"/>qui nunc, quoniam hic omnis scientia, &amp; 
+      <lb ed="#B" n="17"/>cognitio intellectiua oritur ex 
+      sensiti<lb ed="#B" n="18" break="no"/>ua. Et secundum philosophum nihilest in 
+      in<lb ed="#B" n="19" break="no"/>tellectu, quid non fuerit in sensu. In patria 
+      <lb ed="#B" n="20"/>uero intellectus immediate exit in actum 
+      <lb ed="#B" n="21"/>praesente intelligibili: nec praerequirit 
+      <lb ed="#B" n="22"/>phantasmata, aut ministerium uirium 
+      sensi<lb ed="#B" n="23" break="no"/>tiuarum: de quo magis uidendum est in quar 
+      <lb ed="#B" n="24"/>to. de hoc etiam uide sup. dist. xiiii. Sed  
+      <lb ed="#B" n="25"/>licet habitus scientiae uiae non repugnat  
+      <lb ed="#B" n="26"/>actuali cognitioni patriae: sicut habitus 
+      <lb ed="#B" n="27"/>fidei, &amp; spei non repugnat uisioni, &amp; 
+      ten<lb ed="#B" n="28" break="no"/>sioni: quia tamen in patria actum habere non 
+      <lb ed="#B" n="29"/>potest, &amp; apostolus plane dicit: siue 
+      scien<lb ed="#B" n="30" break="no"/>tia destruetur: ideo uidetur probabilius 
+      <lb ed="#B" n="31"/>dicendum esse de scientia uiae, sicut de spe, 
+      <lb ed="#B" n="32"/>&amp; fide: nec oportet ponere in anima 
+      bti<lb ed="#B" n="33" break="no"/>omne, quod fuit ornatus, uel perfectio 
+      <lb ed="#B" n="34"/>in uia: qumo ornatus ille includit 
+      imperfe<lb ed="#B" n="35" break="no"/>ctionem: alioquin oportet ponere in 
+      ani<lb ed="#B" n="36" break="no"/>ma beati omnem cognitionem actualem uiae: 
+      <lb ed="#B" n="37"/>cum omnis cognitio sit perfectio 
+      cogno<lb ed="#B" n="38" break="no"/>scentis. Et tantum de illa quaestione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

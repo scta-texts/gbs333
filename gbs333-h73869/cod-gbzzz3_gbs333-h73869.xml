@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h73869"> <!-- l3d31prae -->
+            <head xml:id="gbs333-h73869-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h73869-d1e102">
+               <lb ed="#B" n="64"/>DISTINCTIO XXXI. 
+      <lb ed="#B" n="65"/>SIT magister de con 
+      <lb ed="#B" n="66"/>paratione charitatis 
+      <lb ed="#B" n="67"/>amicorum, &amp; 
+      inimi<lb ed="#B" n="68" break="no"/>corum in merito. In 
+      <lb ed="#B" n="69"/>hac dist. xxxj. 
+      prose<lb ed="#B" n="70" break="no"/>quitur de eius 
+      dura<lb ed="#B" n="71" break="no"/>tione, &amp; permanendi 
+      <lb ed="#B" n="72"/>termino. Et eliciuntur ex textu tres 
+      con<lb ed="#B" n="73" break="no"/>clusiones textus sententiam 
+      includen<lb ed="#B" n="74" break="no"/>tes
+    </p>
+            <p xml:id="gbs333-h73869-d1e128">
+      ¶ Quarum prima est charitas in uia 
+      <lb ed="#B" n="75"/>haberi potest a damnandis: &amp; amitti 
+      po<lb ed="#B" n="76" break="no"/>test a temporaliter praedestinatis.
+    </p>
+            <p xml:id="gbs333-h73869-d1e135">
+      ¶ 
+      Se<lb ed="#B" n="77" break="no"/>cunda conclusio. Charitas neque quo ad 
+      <lb ed="#B" n="78"/>habitum; neque quo ad actum: neque quo 
+      <lb ed="#B" n="79"/>ad modum excidit in patria: sed 
+      perfici<lb ed="#B" n="80" break="no"/>tur. Fides, &amp; spes paenitus euacuabuntur:  
+      <lb ed="#B" n="81"/>scientia uero non secundum essentiam: 
+      <lb ed="#B" n="82"/>sed secundum actum, &amp; modum 
+      aufere<lb ed="#B" n="83" break="no"/>tur.
+    </p>
+            <p xml:id="gbs333-h73869-d1e154">
+      ¶ Tertia conclusio. Christus, in quo 
+      <lb ed="#B" n="84"/>fuit charitas secundum modum patriae 
+      <lb ed="#B" n="85"/>eiusdem ordinem in diligendo seruauit: &amp; non 
+      <lb ed="#B" n="86"/>quiae. Harum declaratio patet in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

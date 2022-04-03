@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="138"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h33755"> <!-- l3d15prae -->
+            <head xml:id="gbs333-h33755-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h33755-d1e102">
+      <!--169.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>DESACRAMENTO DoA 
+      <lb ed="#B" n="52"/>minicae passionis. 
+      <lb ed="#B" n="53"/>DISTINCTIO Xv. 
+      <lb ed="#B" n="54"/>TOST QVAM 
+      ma<lb ed="#B" n="55" break="no"/>gister egit de 
+      myste<lb ed="#B" n="56" break="no"/>rio incarnationis: 
+      con<lb ed="#B" n="57" break="no"/>sequenter in octo 
+      se<lb ed="#B" n="58" break="no"/>quentibus 
+      distinctio<lb ed="#B" n="59" break="no"/>nibus agit de 
+      sacra<lb ed="#B" n="60" break="no"/>mento dominicae 
+      <lb ed="#B" n="61"/>passionis. Et circa hoc duo facit. Primo 
+      <lb ed="#B" n="62"/>agit de passione quantum ad eius initium, 
+      <lb ed="#B" n="63"/>&amp; progressum. Secundo quantum ad eius 
+      <lb ed="#B" n="64"/>terminum distinct. xxj. GCirca primum 
+      <lb ed="#B" n="65"/>primo de passione agit quantum ad eius 
+      <lb ed="#B" n="66"/>ueritatem. Secundo quantum ad eius 
+      <lb ed="#B" n="67"/>congruitatem distinct. xx. Circa 
+      pri<lb ed="#B" n="68" break="no"/>mum adhuc duo facit. Primo agit de 
+      pas<lb ed="#B" n="69" break="no"/>sione in se, inuestigando eius 
+      possibili<lb ed="#B" n="70" break="no"/>tatem, &amp; necessitatem. Secundo 
+      quan<lb ed="#B" n="71" break="no"/>tum ad eius effectum, inquirendo eius 
+      <lb ed="#B" n="72"/>meritum, &amp; utilitatem distinct. xvij. 
+      Pri<lb ed="#B" n="73" break="no"/>ma in duas: quia primo inuestigat 
+      passio<lb ed="#B" n="74" break="no"/>nis possibilitatem. Secundo eius necessita 
+      <lb ed="#B" n="75"/>tem distinct. xvj. In hac ergo distinct. 
+      <lb ed="#B" n="76"/>xv. possibilitatem passionis Christi ex 
+      <lb ed="#B" n="77"/>eo probat: quia corpus uere passibile 
+      as<lb ed="#B" n="78" break="no"/>sumpsit. Vnde huius distinct. sententia 
+      <lb ed="#B" n="79"/>his tribus conclusionibus summarie 
+      no<lb ed="#B" n="80" break="no"/>tatur.
+    </p>
+            <p xml:id="gbs333-h33755-d1e174">
+      ¶ Prima. Christus ueram 
+      na<lb ed="#B" n="81" break="no"/>turam hominis, animam scilicet passibilem, 
+      <lb ed="#B" n="82"/>&amp; corpus passibile accepit, cum 
+      paenali<lb ed="#B" n="83" break="no"/>bus utriusque defectibus: quos ipsum 
+      su<lb ed="#B" n="84" break="no"/>scipere decuit: &amp; nostrae saluti 
+      expedi<lb ed="#B" n="85" break="no"/>uit.
+    </p>
+            <p xml:id="gbs333-h33755-d1e187">
+      ¶ Secunda. Sicut asserere Christum 
+      ho<lb ed="#B" n="86" break="no"/>minis similitudinem, non ueritatem 
+      as<lb ed="#B" n="87" break="no"/>sumpsisse est haereticum: ita dicere ipsum 
+      <lb ed="#B" n="88"/>in passione dolorem in carne, &amp; in 
+      ani<lb ed="#B" n="89" break="no"/>mo tristitiam ueram non sensisse est a 
+      <lb ed="#B" n="90"/>ueritate deuium.
+    </p>
+            <p xml:id="gbs333-h33755-d1e201">
+      ¶ Tertia conclusio.  
+      <lb ed="#B" n="91"/>Christus defectus poenales quos 
+      assum<lb ed="#B" n="92" break="no"/>psit non secundum passionem: sed pro 
+      passio<lb ed="#B" n="93" break="no"/>nem uolens sustinuit. Pro passionem 
+      uo<lb ed="#B" n="94" break="no"/>cat magister post beatum Hieronv. super. 
+      <lb ed="#B" n="95"/>Matth. dum quis ita timore, uel tristitia 
+      <lb ed="#B" n="96"/>aut dolore afficitur, ut mens inde a 
+      re<lb ed="#B" n="97" break="no"/>ctitudine, aut de contemplatione non 
+      <lb ed="#B" n="98"/>moueatur. Passio uero dicitur cum mens 
+      <lb ed="#B" n="99"/>turbatione uicta a rectitudine declinat  
+      <!--170.xml-->
+      <pb ed="#B" n="139"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Hane Christus non habuit, qui sicut non 
+      <lb ed="#B" n="2"/>circa diuina, &amp; aeterna uolenda, &amp; 
+      dili<lb ed="#B" n="3" break="no"/>peccare: ita nec a rectitudine, aut 
+      per<lb ed="#B" n="4" break="no"/>genda uersatur, tanquam circa obiecta 
+      <lb ed="#B" n="5"/>fectissima dei contemplatione 
+      declina<lb ed="#B" n="6" break="no"/>tantum. Large capitur pro portione quae 
+      <lb ed="#B" n="7"/>re potuit. Has conclusiones multis 
+      au<lb ed="#B" n="8" break="no"/>uersatur circa aeterna, uel temporalia in 
+      <lb ed="#B" n="9"/>ctori corroborat &amp; ad contrarium 
+      so<lb ed="#B" n="10" break="no"/>ordine ad aeterna tanquam circa sua 
+      obie<lb ed="#B" n="11" break="no"/>nantes aucto. Augu. &amp; Hila. exponit. 
+      <lb ed="#B" n="12"/>cta. Per oppositum dicitur de portione. 
+      <lb ed="#B" n="13"/>inferiore. Primo modo ad portionem 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="314"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h77200"> <!-- l3d34q1 -->
+            <head xml:id="gbs333-h77200-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h77200-d1e102">
+               <lb ed="#B" n="11"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="12"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="13"/>xxxiiij. quaeritur: utrum ne¬ 
+      <lb ed="#B" n="14" break="no"/>cessarium est ponere dona, 
+      <lb ed="#B" n="15"/>fructus, &amp; beatitudines a 
+      uir<lb ed="#B" n="16" break="no"/>tutibus theologicis, &amp; moralibus 
+      reali<lb ed="#B" n="17" break="no"/>ter differentes.
+    </p>
+            <p xml:id="gbs333-h77200-d1e120">
+      ¶ Per tres articulos 
+      pro<lb ed="#B" n="18" break="no"/>cedit ad quaestionis solutionem. Primus 
+      <lb ed="#B" n="19"/>praemittet terminorum declarationem, 
+      <lb ed="#B" n="20"/>Secundus subiunget conclusiuam 
+      respon<lb ed="#B" n="21" break="no"/>sionem. Tertius addet mouendorum dubiorum 
+      <lb ed="#B" n="22"/>solutionem.
+    </p>
+            
+            <!--   <head>Articulus 1</head>-->
+               <p xml:id="gbs333-h77200-d1e136">
+      ¶ Quantum ad primum: quamuis 
+      <lb ed="#B" n="23"/>uarie loquuntur sancti, &amp; doct. de distin. 
+      <lb ed="#B" n="24"/>donorum, beatitudinum, &amp; fructuum: tamen ad 
+      ui<lb ed="#B" n="25" break="no"/>tandum prolixitatem, sequor in hac parte <name xml:id="gbs333-h77200-Nd1e144">doc. 
+      <lb ed="#B" n="26"/>subtilem</name>, cui concordat <name xml:id="gbs333-h77200-Nd1e149">Ocham</name>.
+    </p>
+               <p xml:id="gbs333-h77200-d1e152">
+      ¶ Dimis<lb ed="#B" n="27" break="no"/>sis uariarum opinionum recitationibus, primo 
+      no<lb ed="#B" n="28" break="no"/>tandum, quod uirtutes, dona, beatitudines, 
+      <lb ed="#B" n="29"/>&amp; fructus ponuntur habitus quidam 
+      na<lb ed="#B" n="30" break="no"/>turales, uel supernaturales: animam 
+      quan<lb ed="#B" n="31" break="no"/>tum ad actus suos in via perficientes: aut 
+      <lb ed="#B" n="32"/>passiones, puta gaudium, uel delectatio 
+      <lb ed="#B" n="33"/>actus consequentes: quod additur quo 
+      <lb ed="#B" n="34"/>ad fructus aliquos
+    </p>
+               <p xml:id="gbs333-h77200-d1e172">
+      <!-- break in modern edition --> Probatur: quia cum
+      <lb ed="#B" n="35"/>haec sint aliquid in anima, in qua secundum 
+      <lb ed="#B" n="36"/>philosophum non sunt nisi potentia, &amp; habitus, &amp; 
+      <lb ed="#B" n="37"/>passiones, qui sunt actus: aut qualitates actus 
+      <lb ed="#B" n="38"/>naturaliter consequentes: ut <ref xml:id="gbs333-h77200-Rd1e185">supra habitum 
+      <lb ed="#B" n="39"/>est dist. xxiij. q. i</ref>. Et non sunt potentiae: quia 
+      <lb ed="#B" n="40"/>illae identificantur animae: ut <ref xml:id="gbs333-h77200-Rd1e192">habitum est in 
+      <lb ed="#B" n="41"/>ij</ref>. nec actus eliciti: quia manent 
+      transeun<lb ed="#B" n="42" break="no"/>te actu. Sunt enim in anima actu non 
+      cogno<lb ed="#B" n="43" break="no"/>scente, uel appetente, ut puta in 
+      dormien<lb ed="#B" n="44" break="no"/>te: ergo sunt habitus, uel passiones actus 
+      <lb ed="#B" n="45"/>consequentes. Passiones ad solos 
+      fru<lb ed="#B" n="46" break="no"/>ctus pertinent, habitus ad caeteras 
+      po<lb ed="#B" n="47" break="no"/>tentias circa actus, &amp; passiones 
+      dirigen<lb ed="#B" n="48" break="no"/>tes, &amp; hoc tanquam principium ab 
+      om<lb ed="#B" n="49" break="no"/>nibus concessum supponatur.
+    </p>
+               <p xml:id="gbs333-h77200-d1e215">
+      ¶ Secundo 
+      <!--345.xml-->
+      <cb ed="#B" n="b"/>
+                  <lb ed="#B" n="50"/>notandum pro generali habituum animae 
+      poten<lb ed="#B" n="51" break="no"/>tias perficientium distinctione, quod habitus 
+      <lb ed="#B" n="52"/>est quoddam genus subalternum de 
+      gene<lb ed="#B" n="53" break="no"/>re qualitatis habens sub se multa genera 
+      <lb ed="#B" n="54"/>subalterna, quibus descenditur ad 
+      specia<lb ed="#B" n="55" break="no"/>lissimas: Habitus ergo siue uirtus diuidi 
+      <lb ed="#B" n="56"/>potest: primo in intellectuale, &amp; moralem: 
+      <lb ed="#B" n="57"/>&amp; consequenter utrumque membrum in 
+      infu<lb ed="#B" n="58" break="no"/>sum, &amp; acquisitum. Vel primo diuidi potest 
+      <lb ed="#B" n="59"/>habitus in infusum, &amp; acquisitum ac 
+      de<lb ed="#B" n="60" break="no"/>inde quodlibet membrorum in intellectualem, 
+      <lb ed="#B" n="61"/>&amp; moralem siue appetitiuum: &amp; nihil 
+      in<lb ed="#B" n="62" break="no"/>terest ad propositum, an sic, uel sic 
+      diui<lb ed="#B" n="63" break="no"/>datur.
+    </p>
+               <p xml:id="gbs333-h77200-d1e252">
+      ¶ Habitus ergo siue acquisitus, siue 
+      <lb ed="#B" n="64"/>infusus intellectualis diuiditur in 
+      practi<lb ed="#B" n="65" break="no"/>cum, &amp; speculatiuum.
+    </p>
+               <p xml:id="gbs333-h77200-d1e259">
+      <!-- break in modern here --> Speculatiuus 
+      di<lb ed="#B" n="66" break="no"/>uidi potest in mathematicum naturalem 
+      <lb ed="#B" n="67"/>&amp; metaphysicum seu diuinum, ut 
+      loqui<lb ed="#B" n="68" break="no"/>tur <ref xml:id="gbs333-h77200-Rd1e269">philosophus v. Meta</ref>, &amp; quodlibet horum 
+      <lb ed="#B" n="69"/>membrorum ultra uariis modis subdiuidi 
+      <lb ed="#B" n="70"/>potest: donec ueniatur ad specialissimas 
+      <lb ed="#B" n="71"/>Sed illis dimissis: quia scientia 
+      specula<lb ed="#B" n="72" break="no"/>tiua non perficit hominem ad bene 
+      mo<lb ed="#B" n="73" break="no"/>raliter uidendum: procedo ad 
+      diuisio<lb ed="#B" n="74" break="no"/>nem habitus practici.
+    </p>
+               <p xml:id="gbs333-h77200-d1e286">
+      <!--- break in modern --> Habitus practicus 
+      <lb ed="#B" n="75"/>intellectualis diuiditur in eum, qui est circa 
+      <lb ed="#B" n="76"/>agibile, &amp; circa factibile. Qui est circa 
+      <lb ed="#B" n="77"/>factibile, dicitur ars: &amp; potest subdiuidi per
+      <lb ed="#B" n="78" break="no"/>plures diuisiones, quousque ueniatur ad 
+      spe<lb ed="#B" n="79" break="no"/>cialissimas, &amp; artes speciales 
+      mechani<lb ed="#B" n="80" break="no"/>cas. Similiter &amp; habitus practicus circa 
+      <lb ed="#B" n="81"/>agibile multipliciter subdiuiditur: quia 
+      <lb ed="#B" n="82"/>neque scientia practica: neque prudentia est 
+      <lb ed="#B" n="83"/>una circa omnia agibilia. Diuersorum, enim 
+      <lb ed="#B" n="84"/>agibilium, tanquam diuersorum objectorum 
+      <lb ed="#B" n="85"/>diuersi sunt habitus: immo ut infra 
+      dice<lb ed="#B" n="86" break="no"/>tur: quilibet uirtus moralis habet specialem 
+      <lb ed="#B" n="87"/>prudentiam sibi connexam. Siquidem alia 
+      <lb ed="#B" n="88"/>pecie est prudentia circa obiecta 
+      forti<lb ed="#B" n="89" break="no"/>tudinis: alia circa obiecta temperantiae: 
+      <lb ed="#B" n="90"/>alia circa obiecta iustitiae. Ideo secundum 
+      di<lb ed="#B" n="91" break="no"/>uisionem uirtutum moralium posset 
+      subdi<lb ed="#B" n="92" break="no"/>uidi prudentia. Vnde de tota diuisione 
+      <lb ed="#B" n="93"/>habitus intellectiui practici in numero 
+      <lb ed="#B" n="94"/>uirtutum, non recipitur nisi fides, &amp; 
+      pruden<lb ed="#B" n="95" break="no"/>tia.
+    </p>
+               <p xml:id="gbs333-h77200-d1e336">
+      <!-- modern break -->
+      Habitus appetitiuus, siue moralis 
+      po<lb ed="#B" n="96" break="no"/>test diuidi primo in habitum bene 
+      dispo<lb ed="#B" n="97" break="no"/>nentem appetitum circa deum, uel 
+      cir<lb ed="#B" n="98" break="no"/>ca creaturam. 
+    </p>
+               <p xml:id="gbs333-h77200-d1e347">
+       <!-- modern break-->
+      Primus est duplex scilicet  
+      <lb ed="#B" n="99"/>spes, &amp; charitas. Charitas est circa deum, 
+      <lb ed="#B" n="100"/>ut diligibilem in se. Spes, ut diligibilem tan¬ 
+      <!--346.xml-->
+      <pb ed="#B" n="315"/>
+                  <cb ed="#B" n="a"/>
+                  <lb ed="#B" n="1" break="no"/>quam commodum mihi: ut ex 
+      supradi<lb ed="#B" n="2" break="no"/>ctis patet.
+    </p>
+               <p xml:id="gbs333-h77200-d1e367">
+      ¶ Appetitiuus habitus circa 
+      <lb ed="#B" n="3"/>creaturam, aut disponit appetitum 
+      be<lb ed="#B" n="4" break="no"/>ne ad seipsum, aut quoad alterum. Secun 
+      <lb ed="#B" n="5" break="no"/>dus scilicet bene disponens quoad alterum 
+      uo<lb ed="#B" n="6" break="no"/>catur uno communi nomine iustitia: sed primus, 
+      <lb ed="#B" n="7"/>qui bene disponit appetitum quoad seipsum, 
+      <lb ed="#B" n="8"/>non habet nomen commune. Et forte propter hoc  
+      <lb ed="#B" n="9"/>in annumeratione uirtutum cardinalium, 
+      <lb ed="#B" n="10"/>non statur in illa diuisione bimembri: sed  
+      <lb ed="#B" n="11"/>ultra proceditur sub illa ad species 
+      pro<lb ed="#B" n="12" break="no"/>ximas.
+    </p>
+               <p xml:id="gbs333-h77200-d1e391">
+      <!-- no modern break here -->
+      ¶ Appetibilium enim ad seipsum, 
+      <lb ed="#B" n="13"/>quaedam sunt appetibilia ex se, quae secun 
+      <lb ed="#B" n="14" break="no"/>dum se nata sunt conuenire statim 
+      appe<lb ed="#B" n="15" break="no"/>titui. Et sic quaedam sunt fugibilia, quae 
+      <lb ed="#B" n="16"/>nata sunt statim ex se disconuenire. Alia 
+      <lb ed="#B" n="17"/>sunt nisi primo appetibilia, nec primo 
+      <lb ed="#B" n="18"/>fugibilia: sed quasi secundario propter 
+      <lb ed="#B" n="19"/>illa primo appetenda, uel fugienda. Et  
+      <lb ed="#B" n="20"/>habitus, qui disponit circa prima 
+      appe<lb ed="#B" n="21" break="no"/>tibilia, uel fugibilia in communi, dicitur 
+      <lb ed="#B" n="22"/>temperantia. Qui uero circa secunda di 
+      <lb ed="#B" n="23" break="no"/>citur fortitudo, &amp; prima appetibilia 
+      pro<lb ed="#B" n="24" break="no"/>prie pertinent ad concupiscibilem, &amp; se 
+      <lb ed="#B" n="25" break="no"/>cunda ad irascibilem
+    </p>
+               <p xml:id="gbs333-h77200-d1e424">
+      <!-- modern break -->Sic ergo in 
+      connu<lb ed="#B" n="26" break="no"/>meratione uirtutum omnium solum sunt tres 
+      <lb ed="#B" n="27"/>theologicae, &amp; quatuor cardinales. 
+      De<lb ed="#B" n="28" break="no"/>theologicis habetur. <ref xml:id="gbs333-h77200-Rd1e434">j. Cor. xiij.</ref> De 
+      car<lb ed="#B" n="29" break="no"/>dinalibus <ref xml:id="gbs333-h77200-Rd1e439">Sap. viij.</ref> ut <ref xml:id="gbs333-h77200-Rd1e441">supra allegatum est</ref>. 
+      </p>
+               <p xml:id="gbs333-h77200-d1e445">
+      <!-- notabile 3 -->
+                  <lb ed="#B" n="30"/>¶ Vlterius subdiuidendo notandum, quod tres 
+      <lb ed="#B" n="31"/>uirtutes morales acquisitae scilicet iustitia, 
+      for<lb ed="#B" n="32" break="no"/>titudo, &amp; temperantia, sunt genera inter 
+      me<lb ed="#B" n="33" break="no"/>dia, siue subalterna. 
+    </p>
+               <p xml:id="gbs333-h77200-d1e458">
+        <!-- modern break -->
+      Nam primo concupi 
+      <lb ed="#B" n="34" break="no"/>scibilia sunt duo. honor scilicet, &amp; dele 
+      <lb ed="#B" n="35" break="no"/>ctatio: quia omne quo aliquid primo est 
+      <lb ed="#B" n="36"/>bonum idest conueniens, aut est 
+      hone<lb ed="#B" n="37" break="no"/>stum, uel delectabile. Vtile enim: quia 
+      con<lb ed="#B" n="38" break="no"/>cupiscitur propter aliud, non potest esse 
+      pri<lb ed="#B" n="39" break="no"/>mum motiuum ad concupiscendum. Vnde 
+        <lb ed="#B" n="40"/>utile in auct. <ref xml:id="gbs333-h77200-Rd1e477">j. Io. ii</ref>. <quote xml:id="gbs333-h77200-Qd1e479" source="http://scta.info/resource/Iio2_16@2-15">Omne, quod est in 
+      mun<lb ed="#B" n="41" break="no"/>do, aut concupiscentia carnis est, &amp; 
+      concu<lb ed="#B" n="42" break="no"/>piscentia oculorum, &amp; superbia uite</quote>: 
+      innui<lb ed="#B" n="43" break="no"/>tur in concupiscentia oculorum. Nam 
+      concu<lb ed="#B" n="44" break="no"/>piscentia oculorum, quae respicit diuitias: non 
+      <lb ed="#B" n="45"/>potest esse primum concupitum, loquendo de 
+      di<lb ed="#B" n="46" break="no"/>uitiis, ut sunt bonum utile, non ut bonum 
+      <lb ed="#B" n="47"/>delectabile: quod intelligitur per 
+      concu<lb ed="#B" n="48" break="no"/>piscentiam carnis. Quod si loquamur de 
+      di<lb ed="#B" n="49" break="no"/>uitiis, inquantum sunt pulchrae: &amp; sic bonum 
+      <lb ed="#B" n="50"/>delectabile: sic possunt primo 
+      concupi<lb ed="#B" n="51" break="no"/>sci, sicut aliud pulchrum uisibile. Sic ergo 
+      <!--346.xml-->
+      <cb ed="#B" n="b"/>
+                  <lb ed="#B" n="52"/>ut dictum est, primo concupiscentia a 
+      natu<lb ed="#B" n="53" break="no"/>ra rationali sunt duo: honor, &amp; delectatio
+      </p>
+               <p xml:id="gbs333-h77200-d1e515">
+        <!-- modern break -->
+                  <lb ed="#B" n="54"/>Et secundum hoc temperantia, quae generaliter 
+      di<lb ed="#B" n="55" break="no"/>ligit appetitum circa concupiscibilia: duas 
+      <lb ed="#B" n="56"/>habet species immediatas. Illa, qui mode 
+      <lb ed="#B" n="57"/>ratur circa honores uocatur humilitas. 
+      <lb ed="#B" n="58"/>Quae uero circa uoluptates: retinet no 
+      <lb ed="#B" n="59"/>men generale generis, scilicet temperan 
+      <lb ed="#B" n="60" break="no"/>tiae. Et quot possunt esse uoluptates 
+      di<lb ed="#B" n="61" break="no"/>stinctae, ad quas uoluntas inclinatur, &amp; 
+      <lb ed="#B" n="62"/>quas moderari potest temperantia: tot 
+      <lb ed="#B" n="63"/>sunt species temperantiae. puta altera 
+      cit<lb ed="#B" n="64" break="no"/>ta gustabilia: altera circa tangibilia. Et  
+      <lb ed="#B" n="65"/>non solum circa uoluptates sensuum, de 
+      <lb ed="#B" n="66"/>quibus delectatur uoluntas coniuncta: 
+      <lb ed="#B" n="67"/>sed etiam uoluptates propriae 
+      uolunta<lb ed="#B" n="68" break="no"/>tis, ut uoluntas est. Quoniam &amp; uoluntas 
+      an<lb ed="#B" n="69" break="no"/>geli <sic>apperere</sic> potest delectabile: licet non 
+      <lb ed="#B" n="70"/>habeat appetitum sensitiuum. Et quod illae 
+      <lb ed="#B" n="71"/>temperantiae sint species distinctae, patet  
+      <lb ed="#B" n="72"/>per separationem, quia potest aliquis tem 
+      <lb ed="#B" n="73" break="no"/>peratus esse circa uenerea nolens uti 
+      ni<lb ed="#B" n="74" break="no"/>si sua: aut nolens simpliciter continere 
+      <lb ed="#B" n="75"/>&amp; intemperatus esse circa gustabilia 
+      uo<lb ed="#B" n="76" break="no"/>lens comedere non comedenda: uel no 
+      <lb ed="#B" n="77" break="no"/>lens comedere comedenda. Potest etiam 
+      <lb ed="#B" n="78"/>aliquis esse temperatus circa sensibilia: 
+      <lb ed="#B" n="79"/>&amp; intemperatus circa speculabilia. puta 
+      <lb ed="#B" n="80"/>si uoluntas sua immoderata delectetur 
+      <lb ed="#B" n="81"/>in hoc intelligibili speculando: quod secundum
+      <lb ed="#B" n="82"/>se non est ita utile, nec honestum sicut aliud. 
+      <lb ed="#B" n="83"/>Haec delectatio secundum se est immoderata: 
+      <lb ed="#B" n="84"/>sicut delectatio nimia circa notitiam 
+      <lb ed="#B" n="85"/>curiosam astrorum caeli, &amp; motuum eius 
+      <lb ed="#B" n="86"/>impediens studium rerum salutarium, &amp; 
+      <lb ed="#B" n="87"/>necessariarum: &amp; ideo moderanda est: cum 
+      <lb ed="#B" n="88"/>secundum se sit inordinata. Et secundum 
+      <lb ed="#B" n="89"/>multiplicitatem delectationum 
+      spiritua<lb ed="#B" n="90" break="no"/>lium moderamine indigentium, 
+      multiplican<lb ed="#B" n="91" break="no"/>tur partes temperantiae.
+    </p>
+               <p xml:id="gbs333-h77200-d1e604">
+      ¶ Species fortitudinis
+      <lb ed="#B" n="92"/>possunt etiam esse duae immediate, quarum una 
+      <lb ed="#B" n="93"/>est fortiter sustinere terribilia, quae no 
+      <lb ed="#B" n="94"/>catur patientia: quae est nobilissima 
+      forti<lb ed="#B" n="95" break="no"/>tudo. Haec est, quae inclinat ad non 
+      repellen<lb ed="#B" n="96" break="no"/>dum tristia, seu terribilia: &amp; illud non 
+      re<lb ed="#B" n="97" break="no"/>pellere est quidem actus positiuus 
+      scili<lb ed="#B" n="98" break="no"/>cet uelle non impedire: quod est nolle 
+      <lb ed="#B" n="99"/>impedire aduersa terribilia, seu uelle 
+      pa<lb ed="#B" n="100" break="no"/>ti talia. Alia est fortitudo in 
+      aggredien<lb ed="#B" n="101" break="no"/>do, &amp; repellendo terribilia, &amp; aduersa: 
+      <lb ed="#B" n="102"/>quae retinet nomen fortitudinis. utraque 
+      <!--347.xml-->
+      <pb ed="#B" n="316"/>
+                  <cb ed="#B" n="a"/>
+                  <lb ed="#B" n="1"/>uincit: sed longe nobilius patientia, quam 
+      <lb ed="#B" n="2"/>repellens fortitudo.
+    </p>
+               <p xml:id="gbs333-h77200-d1e641">
+      <!-- modern break-->
+      Iustitia etiam subdi 
+      <lb ed="#B" n="3" break="no"/>uiditur: cum enim iustitia sit uirtus 
+      di<lb ed="#B" n="4" break="no"/>rigens appetitum, ut se bene habeat: in 
+      <lb ed="#B" n="5"/>ordine ad alterum. Potest autem qui: 
+      <lb ed="#B" n="6"/>bene se habere ad alterum dupliciter, 
+      <lb ed="#B" n="7"/>Primo communicando se alteri quantum 
+      <lb ed="#B" n="8"/>potest se illi communicare. Sedo communicando 
+      <lb ed="#B" n="9"/>illi aliquid aliud, quam se, ut communicando 
+      <lb ed="#B" n="10"/>sua: uirtus inclinans ad primum actum 
+      di<lb ed="#B" n="11" break="no"/>citur amicitia, qua quis seipsum dat 
+      pro<lb ed="#B" n="12" break="no"/>ximo, quantum potest se dare; &amp; 
+      quan<lb ed="#B" n="13" break="no"/>tum proximus potest eum here: &amp; haec est 
+      per<lb ed="#B" n="14" break="no"/>fectissima uirtus moralis: quia uirtus 
+      iu<lb ed="#B" n="15" break="no"/>stitiae simpliciter est perfectior uirtute 
+      be<lb ed="#B" n="16" break="no"/>ne ordinante hominem ad seipsum: &amp; haec 
+      <lb ed="#B" n="17"/>amicitia est perfectissima species iustitiae 
+      <lb ed="#B" n="18"/>Si autem communicet proximo aliud a se: 
+      <lb ed="#B" n="19"/>aut ergo bona extrinseca, uel bona 
+      in<lb ed="#B" n="20" break="no"/>trinsecam: aut bona pertinentia ad 
+      conui<lb ed="#B" n="21" break="no"/>ctum humanum, siue ad uitam humanam. 
+      Iu<lb ed="#B" n="22" break="no"/>stitia ordinans circa bona extrinseca: 
+      <lb ed="#B" n="23"/>quibus homines indigent communicatione, 
+      di<lb ed="#B" n="24" break="no"/>citur iustitia communicatiua: &amp; frequentius 
+      <lb ed="#B" n="25"/>dicitur iustitia per tanto, ea, quae sic 
+      commincan<lb ed="#B" n="26" break="no"/>tur: commutantur illi, quid communicat in 
+      ali<lb ed="#B" n="27" break="no"/>quod aequiualens. Si autem communicet aliquid 
+      <lb ed="#B" n="28"/>necessarium ad conuictum id est ad simul in 
+      <lb ed="#B" n="29"/>aliqua communitate ciuili, uel domestica 
+      <lb ed="#B" n="30"/>uiuendum: aut ergo est regimen: &amp; hoc  
+      <lb ed="#B" n="31"/>conuenit praesidenti: &amp; haec species est 
+      <lb ed="#B" n="32"/>innominata, posset tamen dici praesiden 
+      <lb ed="#B" n="33" break="no"/>tia, uel dominatio iusta: aut communicat ei
+      <lb ed="#B" n="34"/>subjectionem iustam: haec nominatur 
+      obe<lb ed="#B" n="35" break="no"/>dientia.
+    </p>
+               <p xml:id="gbs333-h77200-d1e717">
+      ¶ Vlteriores uirtutum 
+      cardina<lb ed="#B" n="36" break="no"/>lium subdiuisiones rescinduntur: quia 
+      <lb ed="#B" n="37"/>illae, quae dictae sunt, sufficiunt ad 
+      propo<lb ed="#B" n="38" break="no"/>situm.
+    </p>
+               <p xml:id="gbs333-h77200-d1e727">
+      <!-- notabile 4 -->
+      ¶ Consequenter notandum pro 
+      intel<lb ed="#B" n="39" break="no"/>lectu terminorum beatitudinis donorum, 
+      <lb ed="#B" n="40"/>&amp; fructuum: quod nomina beatitudinum, quae 
+      <lb ed="#B" n="41"/>nominantur, siue numerantur Matt. v. sunt, 
+      <lb ed="#B" n="42"/>nomina habituum uirtuosorum secundum aliquos 
+      <lb ed="#B" n="43"/>heroicorum, aut tensione perfectorum: 
+      <lb ed="#B" n="44"/>Enumerantur autem quinque species specia 
+      <lb ed="#B" n="45"/>liores uirtutum, quam numerantur in 
+      sep<lb ed="#B" n="46" break="no"/>tenario uirtutum prius assignato. Duas 
+      <lb ed="#B" n="47"/>quippe species temperantiae enumerat  
+      <lb ed="#B" n="48"/>saluator inter beatitudines. Vna est 
+      hu<lb ed="#B" n="49" break="no"/>militas, quae moderatur circa primum 
+      <lb ed="#B" n="50"/>delectabile, quod est honor: &amp; hanc 
+      ex<lb ed="#B" n="51" break="no"/>primitibi. Beati pauperes spum. vn. Aug. 
+      <!--347.xml-->
+      <cb ed="#B" n="b"/>
+                  <lb ed="#B" n="52"/>Recte hic intelliguntur paupes spum: 
+      hu<lb ed="#B" n="53" break="no"/>miles ac timentes deum id est non habentes 
+      <lb ed="#B" n="54"/>inflatum spiritum. Aliam speciem moderantem 
+      <lb ed="#B" n="55"/>uoluptatem in communi exprimit per hoc; 
+      <lb ed="#B" n="56"/>Beati mundo corde. Munditia enisi 
+      con<lb ed="#B" n="57" break="no"/>dis est immunitas uoluntatis ab 
+      omni<lb ed="#B" n="58" break="no"/>inordinata delectatione: tam ratione sui, 
+      <lb ed="#B" n="59"/>quam ratione appetitus sensitiui, cui 
+      coniun<lb ed="#B" n="60" break="no"/>gitur. Forritudinem exprimit in sua per 
+      <lb ed="#B" n="61"/>fectissma specie, quae est ipsa patientia: 
+      <lb ed="#B" n="62"/>ibi. Beati, qui persecutionem patiuntur 
+      <lb ed="#B" n="63"/>propter iustitiam &amp;c. Iustitiae exprimis 
+      <lb ed="#B" n="64"/>tres species. Vnam, que est in 
+      communican<lb ed="#B" n="65" break="no"/>do seipsum per amicitiam: cum dicit. 
+      Bea<lb ed="#B" n="66" break="no"/>ti mites. insinuat, quamuis enim amicitia 
+      <lb ed="#B" n="67"/>sit plus, quam beneuolentia: secundum 
+      phil<lb ed="#B" n="68" break="no"/>viij. Ethi. latente in contrapassis. Et bene 
+      <lb ed="#B" n="69"/>uolentia secundum philoso. plus sit, quam 
+      mi<lb ed="#B" n="70" break="no"/>titas: quia mites sunt, qui non offendunt, 
+      <lb ed="#B" n="71"/>nec resistunt in malo: tamen per hoc 
+      mi<lb ed="#B" n="72" break="no"/>nimum, quod est quasi infimum in 
+      amici<lb ed="#B" n="73" break="no"/>tia: exprimit illam, qua quis seipsum 
+      con<lb ed="#B" n="74" break="no"/>municat proximo. Aliam speciem sustitiae, quae 
+      <lb ed="#B" n="75"/>scilicet diuiditur in dominationem iustam 
+      <lb ed="#B" n="76"/>&amp; obedientiam: exprimit per hoc, odicit  
+      <lb ed="#B" n="77"/>beati pacifici. Pax enim in hoc seruatur, quod 
+      <lb ed="#B" n="78"/>praesidens recte regit: &amp; subditus recte 
+      <lb ed="#B" n="79"/>obedit. Tertia species iustitiae, quae est 
+      <lb ed="#B" n="80"/>quantum ad exteriora, ex primitur ibi. 
+      Bea<lb ed="#B" n="81" break="no"/>ti misericordes. Nullo enim alio modo 
+      <lb ed="#B" n="82"/>potest quis esse perfectus circa 
+      exterio<lb ed="#B" n="83" break="no"/>ra, communicando se proximo, quam ut 
+      <lb ed="#B" n="84"/>sit miserieors, qui sua communicat: non 
+      <lb ed="#B" n="85"/>ut rehabeat: necut prius beneficiatus 
+      <lb ed="#B" n="86"/>ab eo, cui communicat. Liberalis enim 
+      <lb ed="#B" n="87"/>etsi communicat amico aliqua: tamen 
+      <lb ed="#B" n="88"/>potest esse liberalitas aliqua inferior, o&amp; 
+      <lb ed="#B" n="89"/>sit misericordia: expectat enim 
+      quan<lb ed="#B" n="90" break="no"/>doque ipse liberalis gratitudinem pro 
+      be<lb ed="#B" n="91" break="no"/>nefactis: &amp; ita liberalitas est imperfectios 
+      <lb ed="#B" n="92"/>species institiae, quam misericordia. Hanc 
+      <lb ed="#B" n="93"/>igitur iustitiam, quae est circa temporalia, 
+      <lb ed="#B" n="94"/>exprimit deus in specie: Beati misericor 
+      <lb ed="#B" n="95"/>des. Et ita habentur tres uirtutes moras 
+      <lb ed="#B" n="96"/>les expresse in suis speciebus, uel in se. 
+      </p>
+               <p xml:id="gbs333-h77200-d1e862">
+                  <lb ed="#B" n="97"/>¶ Theologicas duas exprimit, ibi. 
+      Bea<lb ed="#B" n="98" break="no"/>ti, qui esuriunt, &amp; sitiunt iustitiam. 
+      Esu<lb ed="#B" n="99" break="no"/>rire enim non est sine misericordia: sed  
+      <lb ed="#B" n="100"/>habitus, quo elicitur, est charitas. 
+      <lb ed="#B" n="101"/>Proprijssime enim charitas uiae est 
+      ha<lb ed="#B" n="102" break="no"/>bitus, quo esurimus iustitiam: &amp; dili¬ 
+      <!--348.xml-->
+      <pb ed="#B" n="317"/>
+                  <cb ed="#B" n="a"/>
+                  <lb ed="#B" n="1"/>gere deum in se quae est quaedam 
+      dile<lb ed="#B" n="2" break="no"/>ctio: est uera iustitia. Spem uero 
+      expri<lb ed="#B" n="3" break="no"/>mit per illam. Beati qui lugent: Luctus 
+      <lb ed="#B" n="4"/>enim est habitus desiderandi. Sic ergo 
+      <lb ed="#B" n="5"/>in octo beatitudinibus exprimuntur duae 
+      <lb ed="#B" n="6"/>uirtutes appetitiuae theologicae, &amp; 
+      tres<lb ed="#B" n="7" break="no"/>morales. Fortitudo in se: &amp; 
+      temperan<lb ed="#B" n="8" break="no"/>tia in duabus speciebus: &amp; iustitia in 
+      tri<lb ed="#B" n="9" break="no"/>bus speciebus. Duae autem uirtutes 
+      intel<lb ed="#B" n="10" break="no"/>lectuales: theologica scilicet fides: &amp; 
+      car<lb ed="#B" n="11" break="no"/>dinales, quae est prudentia; non exprimum 
+      <lb ed="#B" n="12"/>tur in se, nec in suis speciebus: sed 
+      dan<lb ed="#B" n="13" break="no"/>tur satis intelligi per appetitiuas: quia 
+      <lb ed="#B" n="14"/>non est uoluntas satis disposita sine 
+      uir<lb ed="#B" n="15" break="no"/>tute in intellectu correspondente.
+    </p>
+               <p xml:id="gbs333-h77200-d1e917">
+      ¶ Quod 
+      <lb ed="#B" n="16"/>etiam dicuntur beatitudines, non est in 
+      <lb ed="#B" n="17"/>telligendum, quod habitus illi, uel actus eo 
+      <lb ed="#B" n="18"/>rum sint beatifici in re: sed in merito: quia 
+      <lb ed="#B" n="19"/>per actus eorum meremur beatitudinem: 
+      <lb ed="#B" n="20"/>sicut in plerisque locis loquitur scriptura 
+      <lb ed="#B" n="21"/>de beatitudine in specie, siue in merito: 
+      <lb ed="#B" n="22"/>ut ibi. Beatus, qui intelligit super egenum, 
+      <lb ed="#B" n="23"/>&amp; pauperem.
+    </p>
+               <p xml:id="gbs333-h77200-d1e937">
+      ¶ Sic de donis 
+      intelligen<lb ed="#B" n="24" break="no"/>dum, quod ibi numerantur quatuor 
+      uirtu<lb ed="#B" n="25" break="no"/>tes cardinales: &amp; tres theologicae. 
+      Pru<lb ed="#B" n="26" break="no"/>dentia per illud. Spiritus consilij. Nam 
+      <lb ed="#B" n="27"/>prudentia proprie est habitus 
+      consilia<lb ed="#B" n="28" break="no"/>tiuus: quia est habitus syllogizandi 
+      pra<lb ed="#B" n="29" break="no"/>ctice: &amp; sic syllogizare est consiliari. 
+      <lb ed="#B" n="30"/>Vnde habitus, quo quis est 
+      consilia<lb ed="#B" n="31" break="no"/>tiuus, est prudentiae. Fortitudo 
+      expri<lb ed="#B" n="32" break="no"/>mitur nomine suo inter dona. timor est 
+      <lb ed="#B" n="33"/>species temperantiae. Idem enim est 
+      om<lb ed="#B" n="34" break="no"/>ninotimor, quod humilitas: licet 
+      alio<lb ed="#B" n="35" break="no"/>nomine nominetur. Vnde Augu. 
+      su<lb ed="#B" n="36" break="no"/>per illud. Beati pauperes spiritu. Quod 
+      <lb ed="#B" n="37"/>icriptura ftequenter commendat 
+      ti<lb ed="#B" n="38" break="no"/>morem dei initium dei sapientiae: nihil 
+      <lb ed="#B" n="39"/>aliud est, quam quod humilitas est initium 
+      <lb ed="#B" n="40"/>uirtutum. Quodetiam inter dona nume 
+      <lb ed="#B" n="41"/>ratur pietas, haec est misericordia: &amp; illa: 
+      <lb ed="#B" n="42"/>ut dictum est: species est iustitiae. 
+      Chari<lb ed="#B" n="43" break="no"/>tas autem exprimitur per illud. Spiritus 
+      <lb ed="#B" n="44"/>sapientiae. Vbique enim in scriptura per 
+      sa<lb ed="#B" n="45" break="no"/>pientiam charitas intelligitur. 
+      Sapien<lb ed="#B" n="46" break="no"/>tia enim est habitus, quo sapit 
+      haben<lb ed="#B" n="47" break="no"/>ui obiectum, quod est in se sapidum: 
+      <lb ed="#B" n="48"/>quo scilicet mihi placet illud bonum in 
+      <lb ed="#B" n="49"/>se: &amp; illud uolo mihi: &amp; ita in ilio dono 
+      <lb ed="#B" n="50"/>eriam includitur spes. Nam habitus, quo 
+      <lb ed="#B" n="51"/>sapit mihi bonum in se: est charitas: 
+      <!--348.xml-->
+      <cb ed="#B" n="b"/>
+                  <lb ed="#B" n="52"/>&amp; habitus, quo bonum in se sapit mihi 
+      <lb ed="#B" n="53"/>tanquam bonum mihi, est habitus spei: 
+      <lb ed="#B" n="54"/>&amp; utrumque pertinet ad sapientiam. 
+      Fi<lb ed="#B" n="55" break="no"/>des autem exprimitur per duodona, 
+      sci<lb ed="#B" n="56" break="no"/>licet intellectum, &amp; scientiam. Non 
+      <lb ed="#B" n="57"/>enim illa duo circumloquuntur duos 
+      ha<lb ed="#B" n="58" break="no"/>bitus specie distinctos: sed unum 
+      tan<lb ed="#B" n="59" break="no"/>tum secundum perfectum, &amp; 
+      imperfe<lb ed="#B" n="60" break="no"/>ctum, quorum imperfectus esse potest 
+      <lb ed="#B" n="61"/>sine perfecto: &amp; non econuerso. Sicut  
+      <lb ed="#B" n="62"/>enim in naturalibus intellectus dicitur  
+      <lb ed="#B" n="63"/>esse principium, &amp; scientia 
+      conclusio<lb ed="#B" n="64" break="no"/>nis explicite ex principijs illatae: &amp; 
+      in<lb ed="#B" n="65" break="no"/>tellectus, quia notitia uniuersalior, est 
+      <lb ed="#B" n="66"/>imperfectiorscientia, quae est notitia 
+      pat<lb ed="#B" n="67" break="no"/>ticularior: quia conclusionis illatae. Ita 
+      <lb ed="#B" n="68"/>per intellectum accipitur notitia 
+      articu<lb ed="#B" n="69" break="no"/>lorum primorum, quae sunt quasi 
+      princi<lb ed="#B" n="70" break="no"/>pia caererorum credibilium: &amp; scientia 
+      <lb ed="#B" n="71"/> notitia explicita articulorum specialium: 
+      <lb ed="#B" n="72"/>quasi conclusionum ex prioribus illatarum. 
+      <lb ed="#B" n="73"/>Et potest scientia dici fides perfecta: 
+      intel<lb ed="#B" n="74" break="no"/>lectus uero fides imperfecta, quia est 
+      prin<lb ed="#B" n="75" break="no"/>cipiorum: scientia uero conclusionum, 
+      <lb ed="#B" n="76"/>Sic ergo in donis numerantur tres 
+      uir<lb ed="#B" n="77" break="no"/>tutes theologicae: &amp; quantuor 
+      cardina<lb ed="#B" n="78" break="no"/>les. Charitas, &amp; spes in sapientia: fides in 
+      <lb ed="#B" n="79"/>intellectu, &amp; scientia. Prudentia 
+      intelli<lb ed="#B" n="80" break="no"/>gitur per consilium: iustitia in sua specie, 
+      <lb ed="#B" n="81"/>scilicet pietate, quae est misericordia. 
+      Ten<lb ed="#B" n="82" break="no"/>perantia similiter in sua specie scilicet 
+      timo<lb ed="#B" n="83" break="no"/>re, quae est humilitas. Fortitudo in 
+      nomi<lb ed="#B" n="84" break="no"/>ne proprio.
+    </p>
+               <p xml:id="gbs333-h77200-d1e1076">
+      ¶ Dedifferentia tamen 
+      particu<lb ed="#B" n="85" break="no"/>lariori sapientiae, intellectus, &amp; scientiae, 
+      <lb ed="#B" n="86"/>clarius dicetur in dis. sequenti.
+    </p>
+               <p xml:id="gbs333-h77200-d1e1083">
+      ¶ Fructus 
+      <lb ed="#B" n="87"/>autem spiritus annumerat apostolus ad 
+      <lb ed="#B" n="88"/>Gal. v. Fructus spiritus (inquit) est 
+      cha<lb ed="#B" n="89" break="no"/>ritas, gaudium, pax, patientia, 
+      benigni<lb ed="#B" n="90" break="no"/>tas, bonitas, longanimitas, mansuetudo, 
+      <lb ed="#B" n="91"/>fides, modestia, continentia, castitas. 
+      Ho<lb ed="#B" n="92" break="no"/>rum duodecim fructuum quidam sunt 
+      uir<lb ed="#B" n="93" break="no"/>tutes de numero septem uirtutum. Qui  
+      <lb ed="#B" n="94"/>dam sunt species uirtutum numeratarum: 
+      <lb ed="#B" n="95"/>Quidam neque sic, neque sic: sed sunt 
+      delecta<lb ed="#B" n="96" break="no"/>tiones consequentes uirtutum actus. uerbi 
+      <lb ed="#B" n="97"/>gratia: charitas ibi exprimitur nomine 
+      <lb ed="#B" n="98"/>proprio: similiter &amp; fides. Spes autem 
+      in<lb ed="#B" n="99" break="no"/>hoc, quod dicitur longanimitas. Dicitur enim 
+      <lb ed="#B" n="100"/>longanimis, quasi in logum animose 
+      ex<lb ed="#B" n="101" break="no"/>pectans. Exprimuntur est morales ibi. 
+      For<lb ed="#B" n="102" break="no"/>titudo, inhoc, quod dicitur patientia, quae est 
+      <!--349.xml-->
+      <pb ed="#B" n="318"/>
+                  <cb ed="#B" n="a"/>
+                  <lb ed="#B" n="1"/>principalior species fortitudinis. 
+      Iusti<lb ed="#B" n="2" break="no"/>tia exprimitur in tribus speciebus. In 
+      <lb ed="#B" n="3"/>misericordia, quae in fructibus dicitur  
+      <lb ed="#B" n="4"/>bonitas, communiter enim, bonus 
+      dici<lb ed="#B" n="5" break="no"/>tur, qui communicat se in aliquo 
+      proxi<lb ed="#B" n="6" break="no"/>mo. In amicitia, quae dicitur benignitas, 
+      <lb ed="#B" n="7"/>quae est beneuolentia: nam benignus 
+      di<lb ed="#B" n="8" break="no"/>citur quasi bene ignitus. In tertia 
+      spe<lb ed="#B" n="9" break="no"/>cie, quae pertinet ad regimen, &amp; 
+      subie<lb ed="#B" n="10" break="no"/>ctionem, quae dicitur mansuetudo: uel 
+      <lb ed="#B" n="11"/>per mansuetudinem specialiter 
+      exprimi<lb ed="#B" n="12" break="no"/>tur obedientia. Mansuetus enim 
+      exequi<lb ed="#B" n="13" break="no"/>tur omnia sine murmure. Temperantia 
+      <lb ed="#B" n="14"/>exprimitur in duabus speciebus suis scilicet 
+      con<lb ed="#B" n="15" break="no"/>tinentia, &amp; castitate: in placet dicere 
+      conti<lb ed="#B" n="16" break="no"/>nentia esse circa alia delectabilia, &amp; 
+      ca<lb ed="#B" n="17" break="no"/>stitatem circa uenerea. Per haec duo potest 
+      <lb ed="#B" n="18"/>intelligi una species circa quaecunque 
+      <lb ed="#B" n="19"/>delectabilia. Prudentia exprimitur ibi: 
+      <lb ed="#B" n="20"/>modestia Modestus enim est, qui 
+      debi<lb ed="#B" n="21" break="no"/>tum, &amp; rectum modum tenet in agendis, &amp; 
+      <lb ed="#B" n="22"/>prudentiae est debitum modum, in 
+      actio<lb ed="#B" n="23" break="no"/>ne inuenire, praefigere, &amp; determinare. 
+      <lb ed="#B" n="24"/>Sic habemus tres theologicas uirtutes 
+      <lb ed="#B" n="25"/>in se. Fortitudinem in una specie scilicet 
+      pa<lb ed="#B" n="26" break="no"/>tientia: iustitia in tribus speciebus: 
+      tempe<lb ed="#B" n="27" break="no"/>rantiam in una, uel duabus speciebus: 
+      <lb ed="#B" n="28"/>prudentiam in una specie. Et ita in 
+      fructi<lb ed="#B" n="29" break="no"/>bus habentur omnes septem uirtutes 
+      theo<lb ed="#B" n="30" break="no"/>logicae, &amp; cardinales. Numerantur etiam 
+      <lb ed="#B" n="31"/>lib quaedam, quae sunt delectationes 
+      con<lb ed="#B" n="32" break="no"/>comitantes, uel cosequentes, actus 
+      uirtu<lb ed="#B" n="33" break="no"/>tum gaudium scilicet, &amp; pax. Gaudium 
+      <lb ed="#B" n="34"/>enim proprie est delectatio in 
+      uolunta<lb ed="#B" n="35" break="no"/>te. Et pax est securitas habendi 
+      obie<lb ed="#B" n="36" break="no"/>ctum sine impugnatione
+    </p>
+               <p xml:id="gbs333-h77200-d1e1206">
+      <!-- notabile 5 -->
+      ¶ Vltimo 
+      no<lb ed="#B" n="37" break="no"/>tandum, quod habitus illi uirtutum scilicet 
+      beatitu<lb ed="#B" n="38" break="no"/>dines, fructus, &amp; dona, <sic>que</sic> omnia hic in 
+      <lb ed="#B" n="39"/>cluduntur: dicuntur dona spiritus sancti 
+      dupli<lb ed="#B" n="40" break="no"/>citer.
+    </p>
+               <p xml:id="gbs333-h77200-d1e1222">
+      <!-- modern break -->
+      Vno modo: quia immediate 
+      infun<lb ed="#B" n="41" break="no"/>duntur a spiritus sancto, &amp; nec illi, nec aliqui  
+      <lb ed="#B" n="42"/>habitus eiusdem speciei cum illis circa 
+      <lb ed="#B" n="43"/>eadem objecta possunt acquiri per naturam 
+      <lb ed="#B" n="44"/>sicut <ref xml:id="gbs333-h77200-Rd1e1235">supra dictum</ref> est de fide infusa, quae 
+      <lb ed="#B" n="45"/>est alterius speciei cum fide acquisita: quia 
+      <lb ed="#B" n="46"/>habitus acquisitus potest esse sufficiens 
+      <lb ed="#B" n="47"/>principium cum potentia, &amp; objecto ad 
+      <lb ed="#B" n="48"/>eliciendum actum, ad quem infusus non est 
+      <lb ed="#B" n="49"/>sufficiens principium cum potentia, &amp; 
+      <lb ed="#B" n="50"/>objecto. Nam habitus infusus nunquam  
+      <lb ed="#B" n="51"/>inclinat ad actum sine habitu, uel actu eius 
+      <!--349.xml-->
+      <cb ed="#B" n="b"/>
+                  <lb ed="#B" n="52"/>acquisito: ut supra dictum est de fide acquisitas 
+      <lb ed="#B" n="53"/>&amp; infusa.
+    </p>
+               <p xml:id="gbs333-h77200-d1e1261">
+      <!-- modern break -->
+      Secundo modo dicuntur dona 
+      <lb ed="#B" n="54"/>spiritus sancti: quia licet infundantur a spiritus 
+      san<lb ed="#B" n="55" break="no"/>cto: possunt tamen ipsi, uel alij eiusdem rationis 
+      <lb ed="#B" n="56"/>naturaliter acquiri. Et ijdem sunt 
+      eius<lb ed="#B" n="57" break="no"/>dem rationis cum acquisitis: &amp; possunt 
+      im<lb ed="#B" n="58" break="no"/>mediate inclinare ad eosdem actus, ad 
+      <lb ed="#B" n="59"/>quos habitus acquisiti sine, acquisitis. 
+      Si<lb ed="#B" n="60" break="no"/>cut donum linguarum datum apostolis 
+      <lb ed="#B" n="61"/>in die pentecostes fuit habitus, per quem 
+      <lb ed="#B" n="62"/>poterant, intelligere, &amp; loqui omnia 
+      lin<lb ed="#B" n="63" break="no"/>guarum genera, qui potuisset 
+      natura<lb ed="#B" n="64" break="no"/>liter acquiri per usum, &amp; doctrinam: Et 
+      <lb ed="#B" n="65"/>ita de dono scientiae &amp; intellectus, quo 
+      <lb ed="#B" n="66"/>nouerunt omnem ueritatem necessariam ad 
+      <lb ed="#B" n="67"/>salutem, &amp; scripturarum intellectum, qui  
+      <lb ed="#B" n="68"/>habitus licet poterant acquiri per studium, 
+      <lb ed="#B" n="69"/>&amp; doctrinam longi temporis, &amp; exercitij: 
+      <lb ed="#B" n="70"/>tamen de facto infundebantur a spiritu sancto. 
+      <lb ed="#B" n="71"/>Sed tales habitus uirtutum non 
+      infun<lb ed="#B" n="72" break="no"/>duntur regulariter cuilibet baptizato: 
+      <lb ed="#B" n="73"/>sicut docet experientia. Non enim 
+      in<lb ed="#B" n="74" break="no"/>funduntur sine speciali, &amp; nouo 
+      miracu<lb ed="#B" n="75" break="no"/>lo. Et forte de his secundo modo dictis 
+      <lb ed="#B" n="76"/>habitibus loquitur apostolus, dum uult 
+      do<lb ed="#B" n="77" break="no"/>na gratiae, &amp; spiritus sancti non omnia 
+      sin<lb ed="#B" n="78" break="no"/>gulis infundi: sed esse diuisiones 
+      gratia<lb ed="#B" n="79" break="no"/>rum, &amp; unum spiritum diuidentem 
+      <quote xml:id="gbs333-h77200-Qd1e1321" source="http://scta.info/resource/Icor12_11@10-12">sin<lb ed="#B" n="80" break="no"/>gulis prout uult</quote>. <ref xml:id="gbs333-h77200-Rd1e1326">j. Cor. xij.</ref> Ex quo 
+      uide<lb ed="#B" n="81" break="no"/>tur sequi, si dona spiritus sancti 
+      infun<lb ed="#B" n="82" break="no"/>duntur cuilibet baptizato una cum 
+      cha<lb ed="#B" n="83" break="no"/>ritate, spe &amp; fide: quod illi habitus non sunt 
+      <lb ed="#B" n="84"/>eiusdem rationis cum habitibus infusis 
+      <lb ed="#B" n="85"/>apostolis, &amp; prophetis, qui statim sine 
+      <lb ed="#B" n="86"/>acquisitis poterant per habitus infusos 
+      <lb ed="#B" n="87"/>elicere actus: quod non possunt 
+      regu<lb ed="#B" n="88" break="no"/>lariter baptizati: ut patet per 
+      experien<lb ed="#B" n="89" break="no"/>tiam, &amp; ostensum est supra de fide.
+    </p>
+            
+            <!--<div>
+      <head>Articulus 2</head>-->
+            <p xml:id="gbs333-h77200-d1e1351">
+      ¶ 
+      Quan<lb ed="#B" n="90" break="no"/>tum ad secundum articulum est 
+      conclu<lb ed="#B" n="91" break="no"/>sio prima. Viator suffcienter perficitur 
+      <lb ed="#B" n="92"/>per habitus septem uirtutum, ad 
+      quosli<lb ed="#B" n="93" break="no"/>bet actus saluti necessarios eliciendum. 
+      <lb ed="#B" n="94"/>Et intelligenda est conclusio de 
+      habi<lb ed="#B" n="95" break="no"/>tibus infusis, &amp; acquisitis. Probatur 
+      con<lb ed="#B" n="96" break="no"/>clusio post Sco. Soli habitus ponendi 
+      <lb ed="#B" n="97"/>sunt in viatore, quibus uiator perficitur 
+      <lb ed="#B" n="98"/>circa omne obiectum quantum ad actus 
+      <lb ed="#B" n="99"/>eliciendos, circa quod perfici potest in 
+      <lb ed="#B" n="100"/>quia: huiusmodi habitus sunt septem 
+      <lb ed="#B" n="101"/>uirtutes in genere: tres theologicae, &amp; 
+      <lb ed="#B" n="102"/>quatuor cardinales: ergo praeter illos 
+      <!--350.xml-->
+      <pb ed="#B" n="319"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>septem alij non sunt ponendi. 
+      Conse<lb ed="#B" n="2" break="no"/>quentia nota cum maiore. Minor 
+      pro<lb ed="#B" n="3" break="no"/>batur: quia omne obiectum, circa quod 
+      <lb ed="#B" n="4"/>perfici potest uiator: aut est deus: aut 
+      crea<lb ed="#B" n="5" break="no"/>tura. Sed circa deum sufficienter 
+      perfi<lb ed="#B" n="6" break="no"/>citur tribus uirtutibus theologicis in 
+      <lb ed="#B" n="7"/>summo: quantum perfici potest uiator 
+      per<lb ed="#B" n="8" break="no"/>fectissime: si illi tres habitus sunt 
+      perfe<lb ed="#B" n="9" break="no"/>ctissimid est si habet eas in habitu multum 
+      <lb ed="#B" n="10"/>intenso: secundum hoc enim dicuntur 
+      <lb ed="#B" n="11"/>perfectissimi. Circa creaturam uero 
+      suf<lb ed="#B" n="12" break="no"/>ficienter perficitur per quatuor uirtutes 
+      <lb ed="#B" n="13"/>cardinales, si: sint perfectissimae: ideo. 
+      <lb ed="#B" n="14"/>Minor uera. Antecedens probatur. 
+      Suf<lb ed="#B" n="15" break="no"/>ficienter perficitur uiator quoad deum, 
+      <lb ed="#B" n="16"/>si perficiatur quoad eum, ut 
+      intelligen<lb ed="#B" n="17" break="no"/>dum, &amp; bonum in se diligibile: &amp; ut 
+      con<lb ed="#B" n="18" break="no"/>modum uiatori: quia alios actus 
+      ordina<lb ed="#B" n="19" break="no"/>tos circa deum habere non potest, quam 
+      <lb ed="#B" n="20"/>intelligere, &amp; diligere deum in se: &amp; 
+      ap<lb ed="#B" n="21" break="no"/>petere deum, ut bonum commodum 
+      uia<lb ed="#B" n="22" break="no"/>tori. Sed quantum ad primum 
+      sufficien<lb ed="#B" n="23" break="no"/>ter perficitur per fidem: quia omnis 
+      co<lb ed="#B" n="24" break="no"/>gnitio dei viatoris est cognitio fidei. 
+      <lb ed="#B" n="25"/>Quoad secundum per charitatem: quo ad 
+      <lb ed="#B" n="26"/>tertium per spem: ut patet ex dictis. Et qui  
+      <lb ed="#B" n="27"/>dem perfectissime, si dictae uirtutes sunt, 
+      <lb ed="#B" n="28"/>perfectissimae, secundum capacitatem uiatoris: 
+      <lb ed="#B" n="29"/>uel secundum se secundum diuersas opiniones. Se 
+      <lb ed="#B" n="30"/>cunda pars antecedentis similiter patet: 
+      <lb ed="#B" n="31"/>quia quoad alia a deo sufficienter perficit 
+      <lb ed="#B" n="32"/>intellectus per prudentiam: quia per illam 
+      <lb ed="#B" n="33"/>si sit perfectissima) nouit omnia 
+      agi<lb ed="#B" n="34" break="no"/>bilia circa creaturas quantum ad omnem 
+      <lb ed="#B" n="35"/>conditionem agibilis. Similiter 
+      appeti<lb ed="#B" n="36" break="no"/>tus perficitur quantum ad se, &amp; ad 
+      alte<lb ed="#B" n="37" break="no"/>rum appetendum, diligendum, uel 
+      fu<lb ed="#B" n="38" break="no"/>giendum per tres uirtutes morales: 
+      tem<lb ed="#B" n="39" break="no"/>perantiam, &amp; fortitudinem tam 
+      quo<lb ed="#B" n="40" break="no"/>ad concupiscibilem, quam quoad 
+      irasci<lb ed="#B" n="41" break="no"/>bilem quoad se: &amp; per iustitia quoad 
+      alte<lb ed="#B" n="42" break="no"/>rum: ut dictum est in primo arti. &amp; hoc  
+      <lb ed="#B" n="43"/>quantum possibile est perfici, si sint 
+      perfe<lb ed="#B" n="44" break="no"/>ctisasmae. Et dicitur notanter quoad 
+      a<lb ed="#B" n="45" break="no"/>ctus ad salutem necessarios: quia 
+      prae<lb ed="#B" n="46" break="no"/>ter illos septem habitus, plures, sunt 
+      ha<lb ed="#B" n="47" break="no"/>bitus speculatiui, &amp; practici ut 
+      meta<lb ed="#B" n="48" break="no"/>physicales, mathematicales, &amp; 
+      natura<lb ed="#B" n="49" break="no"/>les: &amp; similiter habitus factiui artium 
+      <lb ed="#B" n="50"/>mechanicarum: sed horum actus non 
+      <lb ed="#B" n="51"/>sunt necessarij ad salutem.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1499">
+      ¶ Secunda con¬ 
+      <!--350.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>clusio. Beatitudines, &amp; dona 
+      sanctispi<lb ed="#B" n="53" break="no"/>ritus non distinguuntur realiter a dictis 
+      <lb ed="#B" n="54"/>septem uirtutibus. Probatur 
+      conclu<lb ed="#B" n="55" break="no"/>sio: quia dona, &amp; beatitudines sunt: 
+      ha<lb ed="#B" n="56" break="no"/>bitus quidam perficientes animae 
+      po<lb ed="#B" n="57" break="no"/>tentias, quantum ad ea, quae pertinent. 
+      <lb ed="#B" n="58"/>ad animae salutem. Sed omnes tales 
+      ha<lb ed="#B" n="59" break="no"/>bitus compraehenduntur sub his septem 
+      <lb ed="#B" n="60"/>uirtutibus: ergo non distinguuntur ab 
+      <lb ed="#B" n="61"/>eis realiter. Consequentia nota. 
+      Ma<lb ed="#B" n="62" break="no"/>ior patet: quia sunt perfectiones 
+      acci<lb ed="#B" n="63" break="no"/>dentales animae permanentes 
+      inclinan<lb ed="#B" n="64" break="no"/>tes animam ad actus uirtuosos: &amp; ita 
+      <lb ed="#B" n="65"/>sunt aliquid in anima, &amp; non potentiae 
+      <lb ed="#B" n="66"/>manifestum est. Nec passiones: quia non 
+      <lb ed="#B" n="67"/>actus, nec actum requirentes: alioquin 
+      <lb ed="#B" n="68"/>non essent in dormientes ergo habitus. 
+      <lb ed="#B" n="69"/>tenet consequentia per philo. ij. Ethic.  
+      <lb ed="#B" n="70"/>simili forma probantem uirtutes esse 
+      ha<lb ed="#B" n="71" break="no"/>bitus. Minor probata est conclusione 
+      <lb ed="#B" n="72"/>praecedenti. Item probatur ex 
+      diffini<lb ed="#B" n="73" break="no"/>tione uirtutis. Sunt enim qualitates 
+      per<lb ed="#B" n="74" break="no"/>manentes, quae habentem perficiunt, &amp; 
+      <lb ed="#B" n="75"/>opus eius bonum reddunt, ergo 
+      uirtu<lb ed="#B" n="76" break="no"/>tes: &amp; per consequens aliquae ex his 
+      se<lb ed="#B" n="77" break="no"/>ptem, ad quas (ut dictum est) omnes aliae 
+      <lb ed="#B" n="78"/>reducuntur tam infusae, quam acquisite. 
+      Pos<lb ed="#B" n="79" break="no"/>set idem probari descendendo ad 
+      singu<lb ed="#B" n="80" break="no"/>la particularia, &amp; uirtutes: ut patuit in 
+      <lb ed="#B" n="81"/>primo arti.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1572">
+      ¶ Tertia coclusio. Perfectio 
+      <lb ed="#B" n="82"/>donorum, &amp; beatitudinum non mutat 
+      <lb ed="#B" n="83"/>peciem uirtutum: probatur: quia perfectio 
+      <lb ed="#B" n="84"/>habituum respectu eorundem objectorum, 
+      <lb ed="#B" n="85"/>&amp; eorundem actuum specie, &amp; ab eadem 
+      <lb ed="#B" n="86"/>causa procedentium attenditur poenes 
+      <lb ed="#B" n="87"/>intensionem gradualem eorundem: sed  
+      <lb ed="#B" n="88"/>intensio gradualis non mutat speciem: 
+      <lb ed="#B" n="89"/>ergo habitus secundum solam perfectionem 
+      <lb ed="#B" n="90"/>intensionalem distincti sunt eiusdem 
+      spe<lb ed="#B" n="91" break="no"/>ciei. Consequentia nota. Maior patet, 
+      <lb ed="#B" n="92"/>Perfectio habituum, uel attenditur 
+      ex<lb ed="#B" n="93" break="no"/>perfectione obiectorum, aut actuum ad 
+      <lb ed="#B" n="94"/>quos inclinant: aut causarum, a quibus 
+      <lb ed="#B" n="95"/>producuntur: aut ex intensione, 
+      gradua<lb ed="#B" n="96" break="no"/>li; quia nihil aliud ab his assignari potnest, 
+      <lb ed="#B" n="97"/>Nam finis, &amp; circunstantiae sunt obiecta: 
+      <lb ed="#B" n="98"/>ut dictum est supradis. xxiij. q. i. Vbi 
+      er<lb ed="#B" n="99" break="no"/>go est idem objectum actus, &amp; causa: 
+      ha<lb ed="#B" n="100" break="no"/>bitus perfectio attendi non potest, nisi 
+      <lb ed="#B" n="101"/>penes intensionem. Minor probatur:  
+      <lb ed="#B" n="102"/>quia qualitates intensa, &amp; remissa sunt eius¬ 
+      <!--351.xml-->
+      <pb ed="#B" n="320"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dem speciei: sicut summa caliditas: &amp; cali 
+      <lb ed="#B" n="2"/>ditas sunt eiusdem speciei. Similiter summa 
+      <lb ed="#B" n="3"/>charitas: &amp; charitas sunt eiusdem 
+      spe<lb ed="#B" n="4" break="no"/>ciei. In obibus enim gradibus qualitatis 
+      <lb ed="#B" n="5"/>saluatur ro speciei. Quilibet enim 
+      gra<lb ed="#B" n="6" break="no"/>dus albedinis est albedo: &amp; quilibet 
+      gra<lb ed="#B" n="7" break="no"/>dus gratiae est gratia, &amp; sic de alijs.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1642">
+      ¶ 
+      Vl<lb ed="#B" n="8" break="no"/>tra habitus donorum, &amp; beatitudinum sunt, 
+      <lb ed="#B" n="9"/>eiusdem objecti, &amp; eorundem actuum, cuius 
+      <lb ed="#B" n="10"/>&amp; quorum sunt uirtutes: ut patet ex 
+      pri<lb ed="#B" n="11" break="no"/>mo arti. &amp; ab eadem causa: quia a deo 
+      <lb ed="#B" n="12"/>infundente: sicut enim dona, &amp; 
+      beatitu<lb ed="#B" n="13" break="no"/>dines sunt habitus infusi: ita etiam 
+      uir<lb ed="#B" n="14" break="no"/>tutes sunt infusae. Patet de theologicis, 
+      <lb ed="#B" n="15"/>&amp; cardinalibus: licet praeter infusos etiam 
+      <lb ed="#B" n="16"/>sint uirtutes acquisitae eiusdem 
+      nume<lb ed="#B" n="17" break="no"/>ri: ergo si differunt dona, &amp; 
+      beatitudi<lb ed="#B" n="18" break="no"/>nes in perfectione, non differunt, nisi se 
+      <lb ed="#B" n="19"/>cundum intensionem a uirtutibus: sed  
+      <lb ed="#B" n="20"/>perfectio intensionalis non tollit 
+      ra<lb ed="#B" n="21" break="no"/>tionem uirtutis. Summa enim charitas, est 
+      <lb ed="#B" n="22"/>charitas, &amp; uirtus: &amp; sic de alijs. Quare 
+      <lb ed="#B" n="23"/>propter perfectionem dona, &amp; 
+      beatitudi<lb ed="#B" n="24" break="no"/>nes non distinguuntur a uirtut bus.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1681">
+      ¶ 
+      Co<lb ed="#B" n="25" break="no"/>rollarium. Distinctio, quam beatus Tho. &amp; 
+      <lb ed="#B" n="26"/>sanctus Bona. assignant inter uirtutes: &amp; 
+      <lb ed="#B" n="27"/>dona, &amp; beatitudines, non tollit 
+      ratio<lb ed="#B" n="28" break="no"/>nem uirtutis. Patet: quia illa distinctio 
+      acci<lb ed="#B" n="29" break="no"/>pitur penes minorem perfectionem habituum 
+      <lb ed="#B" n="30"/>eorundem obiectorum, &amp; actuum specie: ut 
+      <lb ed="#B" n="31"/>patet diligenter eorum scripta intuenti, &amp; il 
+      <lb ed="#B" n="32"/>la non tollit rationem speciei. Summa enim 
+      <lb ed="#B" n="33"/>charitas est charitis: &amp; omnis charitas 
+      <lb ed="#B" n="34"/>est uirtus theologica: etiam summa 
+      om<lb ed="#B" n="35" break="no"/>nium perfectionum habitualium, tam uiae, 
+      <lb ed="#B" n="36"/>quam patriae est charitas: secundum 
+      Apo<lb ed="#B" n="37" break="no"/>stolum, &amp; Aug. quae tamen est uirtus: 
+      er<lb ed="#B" n="38" break="no"/>go dona, &amp; beatitudines non sunt 
+      perfectio<lb ed="#B" n="39" break="no"/>res uirtute. Similiter nec illa differentia, 
+      <lb ed="#B" n="40"/>quam ponit Henricus de Ganda, qua 
+      di<lb ed="#B" n="41" break="no"/>cit uirtutes persicere hominem modo 
+      <lb ed="#B" n="42"/>humano: dona modo superhumano: 
+      bea<lb ed="#B" n="43" break="no"/>titudines modo inhumano, &amp; quasi 
+      di<lb ed="#B" n="44" break="no"/>uino (sicut faciunt uirtutes fieroicae)N 
+      <lb ed="#B" n="45"/>excludit rationem uirtutis. Nam &amp; 
+      uir<lb ed="#B" n="46" break="no"/>tus heroica est uirtus: ut infra dicetur  
+      <lb ed="#B" n="47"/>de connexione uirtutum, &amp; charitas 
+      <lb ed="#B" n="48"/>perfectissima Comnia caetera excellens: 
+      <lb ed="#B" n="49"/>est uirtus, ut iam dictum est: ergo &amp;c. 
+      <lb ed="#B" n="50"/>Hanc opi. Henrici da Ganda. 
+      sufficien<lb ed="#B" n="51" break="no"/>ter impugnat Sco.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1742">
+      ¶ Quarta conclusio:  
+      <!--351.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quamuis res significatae, quae sunt 
+      reali<lb ed="#B" n="53" break="no"/>ter dona. &amp; beatitudines non distinguam 
+      <lb ed="#B" n="54"/>tur a a reali uirtute: differunt tamen haec 
+      <lb ed="#B" n="55"/>nomina, donum, beatitudo, uirtus: idem 
+      au<lb ed="#B" n="56" break="no"/>tem a se ipso non distinguitur. Secundum 
+      <lb ed="#B" n="57"/>probatur: quia ro inferioris distinguitur 
+      <lb ed="#B" n="58"/>a ratione sui superioris: sicut ratio hoins 
+      <lb ed="#B" n="59"/>a ratione animalis. Sed dona, &amp; 
+      beatitu<lb ed="#B" n="60" break="no"/>dines sunt inferiora ad uirtutem: nam 
+      <lb ed="#B" n="61"/>nomen uirtutis importat omnem 
+      ha<lb ed="#B" n="62" break="no"/>bitum inclinantem ad actum uirtuosum, 
+      <lb ed="#B" n="63"/>siue infusum, siue acquisitum: donum autem 
+      <lb ed="#B" n="64"/>tantum habitum infusum beatitudo (ut hic 
+      ca<lb ed="#B" n="65" break="no"/>pitur) habitum infusum, &amp; perfectum. Neque  
+      <lb ed="#B" n="66"/>in omnibus illis oportet distinctionem 
+      qu<lb ed="#B" n="67" break="no"/>rere reale, quae scriptura diuersis 
+      nomi<lb ed="#B" n="68" break="no"/>minibus exprimit. Frequenter enim scriptu 
+      <lb ed="#B" n="69"/>ra (ait Sco. peadem realiter exprimens 
+      <lb ed="#B" n="70"/>exprimit illa sub alijs uerbis: nunc 
+      quae<lb ed="#B" n="71" break="no"/>dam omittens, &amp; alibi explicans sic 
+      omis<lb ed="#B" n="72" break="no"/>sa: &amp; ideo numerus octo beatitudinum 
+      <lb ed="#B" n="73"/>non uariat, nec importat realem 
+      distin<lb ed="#B" n="74" break="no"/>ctionem earum a septenario nunero 
+      uir<lb ed="#B" n="75" break="no"/>tutum.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1801">
+      ¶ Quinta conclusio. Fructuum quidam 
+      <lb ed="#B" n="76"/>sunt uirtutes: quidam sunt passiones 
+      uir<lb ed="#B" n="77" break="no"/>tutum actus consequentes. Sedm patet de 
+      <lb ed="#B" n="78"/>gaudio, &amp; pace. Primum patet de caeteris 
+      <lb ed="#B" n="79"/>tructibus: ut declaratum est in arti. i. 
+      no<lb ed="#B" n="80" break="no"/>ta. penult.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1814">
+      ¶ Quantum. ad articulum ter 
+      <lb ed="#B" n="81"/>tium, dubitatur primo de ordine 
+      dono<lb ed="#B" n="82" break="no"/>rum: qui secundum beatum Aug. in de 
+      <lb ed="#B" n="83"/>sermoneduni in mote uariatur apud 
+      Esa<lb ed="#B" n="84" break="no"/>iam, &amp; apud Matrhae. nam Esa. xj. 
+      enume<lb ed="#B" n="85" break="no"/>rationem donorum incipit a sapientia 
+      <lb ed="#B" n="86"/>descendendo usque ad timorem. 
+      Quan<lb ed="#B" n="87" break="no"/>doque econuerso a rimore 
+      ascendendo<lb ed="#B" n="88" break="no"/>ad sapientiam: ut Mat. v. Beati pauperes 
+      <lb ed="#B" n="89"/>piritu. Pauperes sunt humiles deum 
+      ti<lb ed="#B" n="90" break="no"/>nentes: ut exponit Beatus Augu. Nam 
+      <lb ed="#B" n="91"/>&amp; beatitudines dona sunt 
+      sanctispiri<lb ed="#B" n="92" break="no"/>tus: ut habetur in glos. Matth. v. 
+      Re<lb ed="#B" n="93" break="no"/>spondetur, quod ordo donorum 
+      quan<lb ed="#B" n="94" break="no"/>doque sumitur ab ordine generationis, 
+      <lb ed="#B" n="95"/>secundum quem posteriora prioribus 
+      <lb ed="#B" n="96"/>sunt perfectiora. Alio modo secundum 
+      <lb ed="#B" n="97"/>ordiuem perfectionis, quo digniora 
+      <lb ed="#B" n="98"/>sunt priora. Primo modo primum 
+      do<lb ed="#B" n="99" break="no"/>num est timor: qui est initium 
+      sapien<lb ed="#B" n="100" break="no"/>tiae: de quo sequentibus distin. dicitur.  
+      <lb ed="#B" n="101"/>Ab eo ascenditur usque ad sapientiam, 
+      <lb ed="#B" n="102"/>quae est perfectissimum donorum: quia 
+      <!--352.xml-->
+      <pb ed="#B" n="321"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ut dictum est: sapientia ipsa est charitas 
+      <lb ed="#B" n="2"/>summa uirtutum. Secundo modo, ubi  
+      <lb ed="#B" n="3"/>proceditur a perfectissimo, &amp; 
+      dignissi<lb ed="#B" n="4" break="no"/>mo econuerso descendendo ad minus 
+      <lb ed="#B" n="5"/>perfectum: in hoc ordine primum est 
+      <lb ed="#B" n="6"/>sapientia, &amp; ultimum timor: quae 
+      intelli<lb ed="#B" n="7" break="no"/>genda sunt de timore seruili, 
+      mercena<lb ed="#B" n="8" break="no"/>rio, seu initiali: non de filiali, aut casto, 
+      <lb ed="#B" n="9"/>qui includit sapientia, quia ille procedit 
+      <lb ed="#B" n="10"/>ex charitate, qua diligitur deus propter 
+      <lb ed="#B" n="11"/>deum: ideo ille non est initium sapientie, 
+      <lb ed="#B" n="12"/>&amp; charitatis: sed eam praesupponit: aut 
+      coe<lb ed="#B" n="13" break="no"/>xigit. Vnum ordinem tenet propheta scilicet 
+      <lb ed="#B" n="14"/>secundum: alium tenet euangelista, 
+      pu<lb ed="#B" n="15" break="no"/>ta primum.
+    </p>
+            <p xml:id="gbs333-h77200-d1e1904">
+      ¶ Secundo dubitatur, utrum 
+      <lb ed="#B" n="16"/>dona maneant in patria. Respondetur  
+      <lb ed="#B" n="17"/>secundum sanctum Bona. quod dona mane 
+      <lb ed="#B" n="18"/>bunt in patria, sicut fuerunt in 
+      Chri<lb ed="#B" n="19" break="no"/>sto, qui semper fuit beatus, &amp; 
+      compraehe<lb ed="#B" n="20" break="no"/>sor uerus. Vnde dona fuissent in statu in 
+      <lb ed="#B" n="21"/>nocentiae: in statu naturae lapsae, &amp; in sta 
+      <lb ed="#B" n="22"/>tu naturae glorificatae. In statu 
+      innocen<lb ed="#B" n="23" break="no"/>tiae fuissent ad sanitatem animae 
+      seruan<lb ed="#B" n="24" break="no"/>dam tanquam medicina praeseruatiua: 
+      <lb ed="#B" n="25"/>in statu naturae lapsae ad sanandum, tanquam 
+      <lb ed="#B" n="26"/>medicina curatiua: in slatu gloriae ad 
+      sa<lb ed="#B" n="27" break="no"/>nitatem perpetuandam. Erunt autem 
+      in<lb ed="#B" n="28" break="no"/>beatitudine quantum ad habitus: 
+      simili<lb ed="#B" n="29" break="no"/>ter quantum ad actus: non tamen ad 
+      om<lb ed="#B" n="30" break="no"/>nes: nec omnino eisdem modis sicut in 
+      <lb ed="#B" n="31"/>quia; non enim manebunt dona, quae perficiunt 
+      <lb ed="#B" n="32"/>in uia actiua quantum ad actus, quos habent  
+      <lb ed="#B" n="33"/>in uia circa propriam materiam, uel cum 
+      <lb ed="#B" n="34"/>imperfectione. Non enim erit ibi timor quam 
+      <lb ed="#B" n="35"/>tum ad actum, qui est recedere a malo, siue re 
+      <lb ed="#B" n="36"/>trahere a noxiis, quae nulla ibi sunt: sed 
+      ma<lb ed="#B" n="37" break="no"/>net ibi quantum ad actum reuerentiae quoad  
+      <lb ed="#B" n="38"/>deum. Sic fortitudo non facit sustinere 
+      dif<lb ed="#B" n="39" break="no"/>ficilia: sed facit adhaerere deo. Pietas non 
+      <lb ed="#B" n="40"/>ad condo lendum prximo: sed ad 
+      congauden<lb ed="#B" n="41" break="no"/>dum sibi, similiter beato. Consilium non quan 
+      <lb ed="#B" n="42"/>tum ad discussionem dubiorum: sed quantum ad 
+      <lb ed="#B" n="43"/>electionem bonorum. Intellectus non quantum 
+      <lb ed="#B" n="44"/>ad inquisitionis discursum: sed quantum ad 
+      <lb ed="#B" n="45"/>simplicem aspectum. Scientia non quam 
+      <lb ed="#B" n="46"/>tum ad cognitionem bene 
+      conuersan<lb ed="#B" n="47" break="no"/>di in medio nationis prauae: sed ut sciat  
+      <lb ed="#B" n="48"/>unusquisque, quomodo ad alterum 
+      de<lb ed="#B" n="49" break="no"/>beat se habere. Donum sapientiae, sicut  
+      <lb ed="#B" n="50"/>&amp; charitas manet quantum ad proprium 
+      <lb ed="#B" n="51"/>actum: quia est respectu dei, quiibi per 
+      <!--352.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>fectissime, &amp; clare uidebitur, &amp; 
+      frui<lb ed="#B" n="53" break="no"/>tione perfecte gustabitur, &amp; sapietur.  
+      <lb ed="#B" n="54"/>De hoc similiter dictum est quaestione 
+      <lb ed="#B" n="55"/>praecedenti de uirtutibus cardinalibus, 
+      <lb ed="#B" n="56"/>&amp; siue de theologicis, quae similiter hic 
+      <lb ed="#B" n="57"/>locum habent: quia dona ab his non 
+      di<lb ed="#B" n="58" break="no"/>stinguuntur. Possent etiam plura 
+      moue<lb ed="#B" n="59" break="no"/>ri dubia scilicet de prioritate donorum de 
+      habi<lb ed="#B" n="60" break="no"/>tudine donorum ad beatitudines, &amp; fructi 
+      <lb ed="#B" n="61"/>sed attento, quod dona non distinguunt, a uir 
+      <lb ed="#B" n="62"/>tutibus; sed sunt uirtutes infusae. Similiter 
+      <lb ed="#B" n="63"/>&amp; beatitudines, &amp; fructus ptergaudium, &amp; 
+      <lb ed="#B" n="64"/>pacem, quae sunt passiones, actus uirtutum 
+      <lb ed="#B" n="65"/>consequentes, ut praemissum est: iam 
+      pa<lb ed="#B" n="66" break="no"/>ter horum dubiorum solutio. Nam 
+      eius<lb ed="#B" n="67" break="no"/>dem ad seipsum nulla est prioritas: nec 
+      <lb ed="#B" n="68"/>excellentia: nec alteritatis habitudo. Si 
+      <lb ed="#B" n="69"/>tamen fiat comparatio donorum ad uir 
+      <lb ed="#B" n="70"/>tutes acquisitas: dicitur, quod dona sunt 
+      pera<lb ed="#B" n="71" break="no"/>fectiora acquisitis uirtutibus: sicut 
+      infu<lb ed="#B" n="72" break="no"/>sum immediate a deo perfectius est 
+      ac<lb ed="#B" n="73" break="no"/>quisito. De timore dicetur quaestione, &amp; 
+      <lb ed="#B" n="74"/>di stinctione sequenti.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

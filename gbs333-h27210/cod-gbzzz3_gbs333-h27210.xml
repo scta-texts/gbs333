@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h27210"> <!-- l3d12prae -->
+            <head xml:id="gbs333-h27210-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h27210-d1e102">
+               <lb ed="#B" n="62"/>DISTINCTIO XI. 
+      <lb ed="#B" n="63"/>CIT de hoc 
+      idio<lb ed="#B" n="64" break="no"/>mate creatura, quid 
+      <lb ed="#B" n="65"/>sonat 
+      indefectibili<lb ed="#B" n="66" break="no"/>tatem conuenientem 
+      <lb ed="#B" n="67"/>personae ratione na 
+      <lb ed="#B" n="68"/>turae. In hac dist. xij. 
+      <lb ed="#B" n="69"/>agit de caeteris, 
+      sci<lb ed="#B" n="70" break="no"/>licet de inceptione alterius naturae 
+      as<lb ed="#B" n="71" break="no"/>sumptibilitate, atque peccabilitate, &amp; 
+      <lb ed="#B" n="72"/>secundum haec continetur sententia tex 
+      <lb ed="#B" n="73"/>tus in tribus conclusionibus summariae: 
+      <lb ed="#B" n="74"/>quarum prima est.
+    </p>
+            <p xml:id="gbs333-h27210-d1e133">
+      ¶ Si ad personam 
+      <lb ed="#B" n="75"/>Christi respicias, dic hominem illum 
+      <lb ed="#B" n="76"/>semper fuisse: si ad naturam hominis, 
+      con<lb ed="#B" n="77" break="no"/>cede eum cepisse.
+    </p>
+            <p xml:id="gbs333-h27210-d1e142">
+      ¶ Secunda: quamuis 
+      <lb ed="#B" n="78"/>deus naturam humanam aliunde 
+      assu<lb ed="#B" n="79" break="no"/>mere potuit, quam ab ea, quae 
+      peccaue<lb ed="#B" n="80" break="no"/>rat, congruebat tamen ipsam ab Adam 
+      <lb ed="#B" n="81"/>assumi, ut uinceretur inimicus peream, 
+      <lb ed="#B" n="82"/>quam uicerat.
+    </p>
+            <p xml:id="gbs333-h27210-d1e156">
+      ¶ Tertia. Neque Christi 
+      <lb ed="#B" n="83"/>persona: nec natura uerbo unita 
+      pec<lb ed="#B" n="84" break="no"/>care potuit: quam licet in foemineo 
+      ua<lb ed="#B" n="85" break="no"/>luit, in uirili tamen sexu assumere 
+      uo<lb ed="#B" n="86" break="no"/>luit. Harum declarationem textus 
+      pro<lb ed="#B" n="87" break="no"/>sequitur latius.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

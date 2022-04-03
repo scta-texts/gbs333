@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h23378"> <!-- l3d8prae -->
+            <head xml:id="gbs333-h23378-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h23378-d1e102">
+               <lb ed="#B" n="33"/>DISTINCTIO VIII. 
+      <lb ed="#B" n="34"/>CIT magister de 
+      i<lb ed="#B" n="35" break="no"/>diomatum 
+      commu<lb ed="#B" n="36" break="no"/>nicatione quantum 
+      <lb ed="#B" n="37"/>ad propositiones, quaed 
+      <lb ed="#B" n="38"/>unionem exprimum:: 
+      <lb ed="#B" n="39"/>Consequenter agit 
+      <lb ed="#B" n="40"/> de eodem quantum ad 
+      <lb ed="#B" n="41"/>eas, quae consequentia unionem concet 
+      <lb ed="#B" n="42"/>nunt: iscilicet quantum ad proprietates 
+      <lb ed="#B" n="43"/>quasdam unionem consequentes. Et circa 
+      <lb ed="#B" n="44"/>hoc duo facit. Primo dterminat de his, 
+      <lb ed="#B" n="45"/>quae naturis ratione unionis conueniunt. 
+      <lb ed="#B" n="46"/>Sedo dist. x. de his, quai personam ratione naturae 
+      <lb ed="#B" n="47"/>humanae respiciunt. Circa primum duo 
+      fa<lb ed="#B" n="48" break="no"/>cit. Primo agit de his, quae concernunt 
+      <lb ed="#B" n="49"/>naturam diuinam ratione naturae as¬ 
+      <!--127.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>sumptae. Secundo distin. ix de his, quae 
+      <lb ed="#B" n="51"/>conueniuntnaturae humanae ratione 
+      as<lb ed="#B" n="52" break="no"/>sumentis personae. In hac ergo. viij. dis. 
+      <lb ed="#B" n="53"/>inquirit. An natura diuina propter eius 
+      <lb ed="#B" n="54"/>unionem ad humanam, debeat dici 
+      na<lb ed="#B" n="55" break="no"/>ta ex uirgine. Et colligitur sententia 
+      <lb ed="#B" n="56"/>magistri in his tribus conclusionibus. 
+      </p>
+            <p xml:id="gbs333-h23378-d1e161">
+               <lb ed="#B" n="57"/>¶ Prima conclusio: quamuis persona 
+      <lb ed="#B" n="58"/>filij, quae deus est, uere dicatur de 
+      uir<lb ed="#B" n="59" break="no"/>gine nata: non tamen hoc conceditur de 
+      na<lb ed="#B" n="60" break="no"/>tura diuina.
+    </p>
+            <p xml:id="gbs333-h23378-d1e172">
+      ¶ Secunda conclusio. 
+      Dupli<lb ed="#B" n="61" break="no"/>cem in Christo consitemur natiuitatem: 
+      <lb ed="#B" n="62"/>unam ex patre aeternam: alteram ex 
+      uir<lb ed="#B" n="63" break="no"/>gine temporalem.
+    </p>
+            <p xml:id="gbs333-h23378-d1e182">
+      ¶ Tertia conclusio.  
+      <lb ed="#B" n="64"/>Propter duas natiuitates, quibus 
+      con<lb ed="#B" n="65" break="no"/>cedimus genitum esse Christum, 
+      eun<lb ed="#B" n="66" break="no"/>dem affirmamus bis: aeternaliter semel, 
+      <lb ed="#B" n="67"/>&amp; semel temporaliter esse natum. 
+      Qua<lb ed="#B" n="68" break="no"/>rum declaratio requiratur in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

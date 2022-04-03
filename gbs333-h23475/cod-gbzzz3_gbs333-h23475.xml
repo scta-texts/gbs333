@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="96"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h23475"> <!-- l3d8q1 -->
+            <head xml:id="gbs333-h23475-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h23475-d1e102">
+               <lb ed="#B" n="69"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="70"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="71"/>quaeritur: utrum filiatio in 
+      <lb ed="#B" n="72"/> Christo, qua aeternaliter 
+      ge<lb ed="#B" n="73" break="no"/>aSN nitus est a patre: &amp; filiatio,  
+      <lb ed="#B" n="74"/>qua genitus est temporaliter a matre, 
+      <lb ed="#B" n="75"/>unt relationes reales abinuicem 
+      reali<lb ed="#B" n="76" break="no"/>liter distinctae.
+    </p>
+            <p xml:id="gbs333-h23475-d1e122">
+      ¶ Praemisiis quibusdam 
+      <lb ed="#B" n="77"/>suppositionibus pro articulo primo: ad 
+      <lb ed="#B" n="78"/>dentur conclusiones pro secundo: &amp; sub 
+      <lb ed="#B" n="79"/>iungentur dubia pro articulo tertio¬ 
+      </p>
+            <p xml:id="gbs333-h23475-d1e131">
+               <lb ed="#B" n="80"/>¶ Quantum ad primum articulum 
+      sup<lb ed="#B" n="81" break="no"/>nitur hic: quod filiatio aeterna est res 
+      rela<lb ed="#B" n="82" break="no"/>tiua, &amp; proprietas positiua a patre quae 
+      <lb ed="#B" n="83"/>dam, &amp; spiritu sancto realiter: a filio autem 
+      <lb ed="#B" n="84"/>&amp; essentia diuina formaliter tantum, 
+      <lb ed="#B" n="85"/>non realiter distincta, quae cum 
+      essen<lb ed="#B" n="86" break="no"/>tia, &amp; spiratione actiua constituit 
+      per<lb ed="#B" n="87" break="no"/>sonam filij, de quo latius uidendum est 
+      <lb ed="#B" n="88"/>in. i. lib. per diuersas distinctiones.
+    </p>
+            <p xml:id="gbs333-h23475-d1e154">
+      ¶ 
+      Se<lb ed="#B" n="89" break="no"/>cundo notandum, quod de distinctione 
+      re<lb ed="#B" n="90" break="no"/>lationum ab absolutis in creaturis 
+      ua<lb ed="#B" n="91" break="no"/>riae sunt opiniones. Quidam ponunt 
+      om<lb ed="#B" n="92" break="no"/>nes relationes distingui ab absolutis: ita 
+      <lb ed="#B" n="93"/>quod cuilibet abstracto relatiui 
+      correspon<lb ed="#B" n="94" break="no"/>det res quaedam relatiua, quae non est 
+      <lb ed="#B" n="95"/>res absoinuta. Alia opinio huic contraria, 
+      <lb ed="#B" n="96"/>quae tenet, quod nulla sit relatio distincta 
+      <lb ed="#B" n="97"/>ib absolutis: sed quicquid est in 
+      creatu<lb ed="#B" n="98" break="no"/>ris, est res absoluta. Tertia ponit ali¬ 
+      <!--128.xml-->
+      <pb ed="#B" n="97"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quas relationes extrinsecas distingui ab 
+      <lb ed="#B" n="2"/>absolutis, aliquas nisi in creaturis. De qu 
+      <lb ed="#B" n="3"/>bus uisum est q. i secundi: &amp; latius dist. xxx. 
+      <lb ed="#B" n="4"/>primi. Hactenus autem secuti sumus opi. se 
+      <lb ed="#B" n="5"/>cundam: quae caeteris mihi uidetur esse 
+      probabi<lb ed="#B" n="6" break="no"/>lior.
+    </p>
+            <p xml:id="gbs333-h23475-d1e198">
+      ¶ Tertio notandum, quod filiatio secundum 
+      <lb ed="#B" n="7"/>prima opi. in creaturis dicit respectum 
+      rea<lb ed="#B" n="8" break="no"/>lem filio inhaerentem, terminatum ad 
+      paren<lb ed="#B" n="9" break="no"/>tem ratione cuius filius dicitur filius: sicut ab 
+      <lb ed="#B" n="10"/>albedine dicitur albus. Secundum alias 
+      <lb ed="#B" n="11"/>duas opin filiatio non dicit, quid unum: sed  
+      <lb ed="#B" n="12"/>bia illa, quae requiruntur ad hoc, ut 
+      ali<lb ed="#B" n="13" break="no"/>quis dicat filius. Dicit igit parentem, &amp; 
+      <lb ed="#B" n="14"/>ulium existentes actu: &amp; actum, productionis 
+      <lb ed="#B" n="15"/>pteritum. An autem oila illa dicat in substra 
+      <lb ed="#B" n="16"/>cto id est pro illis omnibus simul supponat: 
+      <lb ed="#B" n="17"/>an solum pro filio: &amp; reliqua connotet: sunt 
+      <lb ed="#B" n="18"/>opi. duae recitatae q. i. dist. i. lib. ij. Ibidem 
+      <lb ed="#B" n="19"/>etiam dicium est, quid intelligitur per 
+      relatio<lb ed="#B" n="20" break="no"/>ne realem: ibi uideatur
+    </p>
+            <p xml:id="gbs333-h23475-d1e231">
+      ¶ Quantum ad 
+      secun<lb ed="#B" n="21" break="no"/>dum articulum est conclusio prima. 
+      Accipien<lb ed="#B" n="22" break="no"/>do filiationem in creaturis: ut supponit 
+      <lb ed="#B" n="23"/>p aggregato ex omnibus his requisitis ad 
+      <lb ed="#B" n="24"/>hoc, quod aliquid dicat filius: filiatio, qua 
+      <lb ed="#B" n="25"/>chius aeternaliter geniti est a patre, 
+      rea<lb ed="#B" n="26" break="no"/>liter distinguitu a filiatione, qua tem 
+      pora<lb ed="#B" n="27" break="no"/>liter natus est a matre. Probatur: quia 
+      <lb ed="#B" n="28"/>filiatio aeterna est proprietas relatiua 
+      reali<lb ed="#B" n="29" break="no"/>ter distincta ab omni creatura, &amp; ab 
+      om<lb ed="#B" n="30" break="no"/>ni aggregato ex creatore, &amp; creatura: 
+      <lb ed="#B" n="31"/>sed filiatio:t pealisest aggregatum, ex creato 
+      <lb ed="#B" n="32"/>re, &amp; creatura: ergo relatio aeterna disti 
+      <lb ed="#B" n="33"/>guit ab ea. Consequentia nota: quia facile 
+      <lb ed="#B" n="34"/>reducibilis ad syllogismum. Maior nota: 
+      <lb ed="#B" n="35"/>quia uihil increatum in deo est aggregatum 
+      <lb ed="#B" n="36"/>ex creatore, &amp; creatura. Minor patet: 
+      <lb ed="#B" n="37"/>quia filiatio christi temporalis est uirgo 
+      ma<lb ed="#B" n="38" break="no"/>ter, &amp; uerbum genitum ex matre; ergo 
+      <lb ed="#B" n="39"/>aggregatum ex creatura, &amp; creatore.
+    </p>
+            <p xml:id="gbs333-h23475-d1e275">
+      ¶ Se 
+      <lb ed="#B" n="40"/>cunda coclusio. Accipiendo filiationem 
+      <lb ed="#B" n="41"/>in creaturis prout supponit pro 
+      supposi<lb ed="#B" n="42" break="no"/>to filij, connotando parentem, &amp; actum 
+      <lb ed="#B" n="43"/>generandi praeteritum: filiatio aeternia 
+      <lb ed="#B" n="44"/>non distinguitur a filiatione, qua 
+      geni<lb ed="#B" n="45" break="no"/>tus est christus a matre realiter: 
+      distin<lb ed="#B" n="46" break="no"/>guitur tamen ab ea formaliter. 
+      Proba<lb ed="#B" n="47" break="no"/>tur illa conclusio: quia filiatio aeterna 
+      <lb ed="#B" n="48"/>est realiter filius: non formaliter: quia 
+      <lb ed="#B" n="49"/>constituens non est formaliter 
+      consti<lb ed="#B" n="50" break="no"/>tutum: sed realiter. Filiatio autem 
+      con<lb ed="#B" n="51" break="no"/>stituit falium: filiatio autem, qua chri¬ 
+      <!--128.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>stus genitus est ex matre, est idem 
+      fi<lb ed="#B" n="53" break="no"/>lius: quia Iy filiatio supponit pro filio: &amp; 
+      <lb ed="#B" n="54"/>connotat parentem, &amp; actum 
+      generan<lb ed="#B" n="55" break="no"/>di praeteritum. Nunc autem idem est 
+      fi<lb ed="#B" n="56" break="no"/>lius genitus a patre aeternaliter, &amp; a 
+      ma<lb ed="#B" n="57" break="no"/>tre temporaliter: ergo conclusio uera. 
+      <lb ed="#B" n="58"/>Cum enim secundum hunc modum 
+      lo<lb ed="#B" n="59" break="no"/>quendi filiatio temporalis sit realiter 
+      fi<lb ed="#B" n="60" break="no"/>lius patris: eo modo distinguitur 
+      filia<lb ed="#B" n="61" break="no"/>tio aeterna a filiatione temporali: quo 
+      <lb ed="#B" n="62"/>distinguitur a filio uerbo.
+    </p>
+            <p xml:id="gbs333-h23475-d1e332">
+      ¶ Corollarium: 
+      <lb ed="#B" n="63"/>sic accipiendo terminos, filiatio 
+      aeter<lb ed="#B" n="64" break="no"/>na est filiatio temporalis. Probatur: quia 
+      <lb ed="#B" n="65"/>filiatio aeterna est filius patris realiter, 
+      <lb ed="#B" n="66"/>&amp; non formaliter: &amp; filiatio temporalis 
+      <lb ed="#B" n="67"/>est filius matris genitus ex tempore: &amp; 
+      <lb ed="#B" n="68"/>idem est filius patris, &amp; uirginis. Et 
+      po<lb ed="#B" n="69" break="no"/>test argui expositorie denominando 
+      <lb ed="#B" n="70"/>christum seu uerbum: hoc est filiatio 
+      aeter<lb ed="#B" n="71" break="no"/>na: &amp; hoc est filiatio temporalis: ergo 
+      <lb ed="#B" n="72"/>filiatio aeterna est temporalis. Nec 
+      se<lb ed="#B" n="73" break="no"/>quitur, quod aeternum est temporale: quia ten 
+      <lb ed="#B" n="74"/>porale hic aequiuocatur: quia quando 
+      <lb ed="#B" n="75"/>ponitur sine addito, supponit pro re, 
+      <lb ed="#B" n="76"/>quae incepit esse in tempore. Sed quando 
+      <lb ed="#B" n="77"/>addit terminus connotatiuus, supponit pr 
+      <lb ed="#B" n="78"/>re, quae incepit esse in tem pore non 
+      simpli<lb ed="#B" n="79" break="no"/>citer: sed secundum illud, quod comnotatur 
+      <lb ed="#B" n="80"/>per terminum additum: sicut uerbum est 
+      crea<lb ed="#B" n="81" break="no"/>tor temporalis: quia creator ex tempore: 
+      se<lb ed="#B" n="82" break="no"/>cundum magistrum dil. xxx. primi non tamen est 
+      <lb ed="#B" n="83"/>temporale.
+    </p>
+            <p xml:id="gbs333-h23475-d1e380">
+      ¶ Tertia coclusio. Tenendo, quod 
+      <lb ed="#B" n="84"/>filiatio in creaturis sit res 
+      respectiuadi<lb ed="#B" n="85" break="no"/>stincta ab absolutis, filiatioae terna 
+      distin<lb ed="#B" n="86" break="no"/>guitur realiter a tem porali. Probatur: quia 
+      <lb ed="#B" n="87"/>alius est respectus, quo uerbum dicitur  
+      <lb ed="#B" n="88"/>filius aeterni patris, &amp; alius respectus 
+      <lb ed="#B" n="89"/>quo dicitur filius matris. Probatur: quia 
+      <lb ed="#B" n="90"/>respectus, quo dicitur filius matris 
+      <lb ed="#B" n="91"/>est entitas temporalis, &amp; non aeterna: 
+      <lb ed="#B" n="92"/>creatura, &amp; non deus, ergo Minor 
+      pro<lb ed="#B" n="93" break="no"/>batur: quia filiatio, qua uerbum est filius 
+      <lb ed="#B" n="94"/>matris, est eiusdem rationis cum filiatione 
+      <lb ed="#B" n="95"/>aliorum filiorum respectu suarum matrum: 
+      alio<lb ed="#B" n="96" break="no"/>quin uerbum non esset uere filius matris: 
+      <lb ed="#B" n="97"/>sed respectus huiusmodi in alijs filijs 
+      <lb ed="#B" n="98"/>matium est realis, temporalis, &amp; creatura: 
+      <lb ed="#B" n="99"/>ergo &amp; ille, quo uerbum est filius matris. 
+      </p>
+            <p xml:id="gbs333-h23475-d1e418">
+               <lb ed="#B" n="100"/>¶ Praeterea etiam ratione Sco. cuius est 
+      <lb ed="#B" n="101"/>haec conclusio. Filiatio non plus respicit 
+      <lb ed="#B" n="102"/>suppositum, quam generatio: quia filiatioem 
+      <!--129.xml-->
+      <pb ed="#B" n="98"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>habitudo pro ducti naturaliter similis 
+      <lb ed="#B" n="2"/>producenti in natura intelligibili uel 
+      sen<lb ed="#B" n="3" break="no"/>sitiua. Hic autem in illa diffinitione nihil 
+      <lb ed="#B" n="4"/>respicit suppositum nisi productio: sed 
+      il<lb ed="#B" n="5" break="no"/>la indifferenter respicit tam naturam, quam 
+      <lb ed="#B" n="6"/>suppositum: sed productio (quae in 
+      pro<lb ed="#B" n="7" break="no"/>posito est generatio) plurificatur in 
+      <lb ed="#B" n="8"/>Christo secundum pluralitatem naturarum 
+      <lb ed="#B" n="9"/>in Christo per generationem acceptarum: ut 
+      <lb ed="#B" n="10"/>dicit Dam. Duas generationes in 
+      Chri<lb ed="#B" n="11" break="no"/>sto ueneramur. ergo duae filiationes. 
+      Il<lb ed="#B" n="12" break="no"/>la on uidetur deficere maior non est 
+      ue<lb ed="#B" n="13" break="no"/>ra: quia filiatio respicit suppositum, nihil 
+      <lb ed="#B" n="14"/>enim dicitur filius, nisi sit suppositum; ut 
+      di<lb ed="#B" n="15" break="no"/>ctum est dist. iiij. 
+    </p>
+            <p xml:id="gbs333-h23475-d1e466">
+      ¶ Praeterea; quaecunque  
+      <lb ed="#B" n="16"/>pprietas personalis in deo eque non 
+      respi<lb ed="#B" n="17" break="no"/>cit creaturam pro termino: sed respicit 
+      <lb ed="#B" n="18"/>suos terminos adintra. Sicut ergo pater 
+      <lb ed="#B" n="19"/>nitas aeterna non potest esse relatio, qua 
+      di<lb ed="#B" n="20" break="no"/>ceret filius si fuisset incarnatus: ita nec 
+      <lb ed="#B" n="21"/>filiatio aeterna.
+    </p>
+            <p xml:id="gbs333-h23475-d1e482">
+      ¶ Quartacoclusio. 
+      Ge<lb ed="#B" n="22" break="no"/>neratio, seu filiatio tam aeterna, quam 
+      tempo<lb ed="#B" n="23" break="no"/>ralis est relatio realis. De aeterna patet 
+      <lb ed="#B" n="24"/>ex dictis lib. i. De filiatione temporali 
+      <lb ed="#B" n="25"/>probatur: quia relatio realis est qua 
+      de<lb ed="#B" n="26" break="no"/>nominatio relatiua conuenit alicui circum 
+      <lb ed="#B" n="27"/>scripta quacumque operatione intellectus: 
+      <lb ed="#B" n="28"/>talis est filiatio: igitur est realis. Minor 
+      <lb ed="#B" n="29"/>probatur: quia uerbum non dicitur filius 
+      ma<lb ed="#B" n="30" break="no"/>tris per operationem intellectus matris: 
+      <lb ed="#B" n="31"/>sed per generationem carnale, non per 
+      se<lb ed="#B" n="32" break="no"/>xuum commixtionem secundum talem quae 
+      supra<lb ed="#B" n="33" break="no"/>dicta est, per quam uirgo uera est mater 
+      <lb ed="#B" n="34"/>Christi.
+    </p>
+            <p xml:id="gbs333-h23475-d1e513">
+      ¶ Quantum ad tertium articulum 
+      du<lb ed="#B" n="35" break="no"/>bitatur contra conclusionem tertiam (quae 
+      li<lb ed="#B" n="36" break="no"/>cet non sit secundum opinionem, quam 
+      teneo<lb ed="#B" n="37" break="no"/>potest tamen etiam contra alias 
+      conclusio<lb ed="#B" n="38" break="no"/>nes reduci, quas credo ueras) Si in 
+      Chri<lb ed="#B" n="39" break="no"/>sto sunt duae filiationes: ergo est duo 
+      fi<lb ed="#B" n="40" break="no"/>lij. Consequens est falsum. Probatur 
+      con<lb ed="#B" n="41" break="no"/>sequentia: quia sicut filiatio filium, ita 
+      filia<lb ed="#B" n="42" break="no"/>tiones concludunt filios.
+    </p>
+            <p xml:id="gbs333-h23475-d1e533">
+      ¶ Praetera: sicut  
+      <lb ed="#B" n="43"/>saluatur, quod deus est creator, &amp; diuns 
+      crea<lb ed="#B" n="44" break="no"/>turae, non ponendo in eo relationem realen 
+      <lb ed="#B" n="45"/>aliam ab aeterna: ita per solam 
+      relatio<lb ed="#B" n="46" break="no"/>nem rationis saluari potest uerbum 
+      es<lb ed="#B" n="47" break="no"/>se filium uirginis sine nona relatione 
+      <lb ed="#B" n="48"/>reali.
+    </p>
+            <p xml:id="gbs333-h23475-d1e549">
+      ¶ Praeterea duo accidentia 
+      eius<lb ed="#B" n="49" break="no"/>dem rationis non possunt simulinesse 
+      <lb ed="#B" n="50"/>eidem subjecto: sed duae filiationes si 
+      es<lb ed="#B" n="51" break="no"/>sent in eodem subjecto, essent eiusdem 
+      <!--129.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>speciei. ergo. Maior probatur. Tum quia 
+      <lb ed="#B" n="53"/>actiua non habent diuisionem, &amp; 
+      distin<lb ed="#B" n="54" break="no"/>ctionem realem nisi a subjectis. Tum quia 
+      po<lb ed="#B" n="55" break="no"/>tentia est per se ad formam in 
+      commu<lb ed="#B" n="56" break="no"/>ni non ad hanc formam, uel ad illam: &amp; ideo 
+      <lb ed="#B" n="57"/>ubi est idem subjectum, non erit distinctio 
+      <lb ed="#B" n="58"/>formatum.
+    </p>
+            <p xml:id="gbs333-h23475-d1e579">
+      ¶ Ad illa respondetur ad 
+      pri<lb ed="#B" n="59" break="no"/>mum dicendum, quod sicut supposita non 
+      plu<lb ed="#B" n="60" break="no"/>rificantur secundum pluritatem formarum 
+      <lb ed="#B" n="61"/>(quia idem suppositum est album, &amp; dulce: 
+      <lb ed="#B" n="62"/>ita nec concreta plurificantur ad 
+      plurifi<lb ed="#B" n="63" break="no"/>cationem abstractorum: potest enim unus sciens 
+      <lb ed="#B" n="64"/>habere multas scientias.
+    </p>
+            <p xml:id="gbs333-h23475-d1e595">
+      ¶ Ad secundum 
+      <lb ed="#B" n="65"/>dicitur: quod deus non dicitur creator, &amp; duns 
+      <lb ed="#B" n="66"/>sine relatione reali, quae est in creatura: 
+      <lb ed="#B" n="67"/>licet sine reali, quae est in deo: sic est in 
+      <lb ed="#B" n="68"/>proposito. Verbum dicitur filius Mariae: 
+      <lb ed="#B" n="69"/>non per relationem realem inexistentem uer 
+      <lb ed="#B" n="70"/>bo: sed perrelationem realem inhaerentem 
+      <lb ed="#B" n="71"/>naturae humanae assumptae: &amp; non per 
+      re<lb ed="#B" n="72" break="no"/>lationem rationis: quia circumscripto 
+      <lb ed="#B" n="73"/>omni actu rationis, posita relatione 
+      fi<lb ed="#B" n="74" break="no"/>liationis in natura assumpta a uerbo: uer 
+      <lb ed="#B" n="75"/>pum uere est filius uirginis.
+    </p>
+            <p xml:id="gbs333-h23475-d1e621">
+      ¶ Secundum 
+      <lb ed="#B" n="76"/>aliam opinionem similiter dicitur, sicut 
+      po<lb ed="#B" n="77" break="no"/>sita creatura a deo productam omnibus 
+      <lb ed="#B" n="78"/>alijs circumscriptis: deus uere, &amp; 
+      reali<lb ed="#B" n="79" break="no"/>ter est creator, &amp; duns sine quacunque 
+      re<lb ed="#B" n="80" break="no"/>latione distincta. Ita positis matre, &amp; 
+      na<lb ed="#B" n="81" break="no"/>tura ab eo genita, ac eius assumptionea 
+      <lb ed="#B" n="82"/>uerbo sine quacumque alia re, uerbum est 
+      fi<lb ed="#B" n="83" break="no"/>lius uirginis: &amp; non per relationem rationis, 
+      <lb ed="#B" n="84"/>nec reale.
+    </p>
+            <p xml:id="gbs333-h23475-d1e643">
+      ¶ Ad tertium falsum est, quid 
+      assumi<lb ed="#B" n="85" break="no"/>tur: nam si Ioannes haberet sex filios: 
+      Ioan<lb ed="#B" n="86" break="no"/>nes haberet sex paternitates secundum illam 
+      <lb ed="#B" n="87"/>opinionem: alioquin mortuo uno filio 
+      ad<lb ed="#B" n="88" break="no"/>huc esset paternitas eiusdem mortui: quia 
+      <lb ed="#B" n="89"/>maneret paternitas, qui prius denomina 
+      <lb ed="#B" n="90"/>bat eum patrem illius filij: ergo adhuc 
+      <lb ed="#B" n="91"/>manet pater: quia manente forma 
+      ma<lb ed="#B" n="92" break="no"/>net eius denominatio. Sic plures 
+      gra<lb ed="#B" n="93" break="no"/>dus eiusdem qualitatis sunt simul in eo 
+      <lb ed="#B" n="94"/>dem subjecto. Sic duae similitudines ad 
+      <lb ed="#B" n="95"/>plures albos sunt in uno albo.
+    </p>
+            <p xml:id="gbs333-h23475-d1e669">
+      ¶ Ad aliam 
+      <lb ed="#B" n="96"/>probationem falsum est quod assumitur: 
+      <lb ed="#B" n="97"/>quia accidentia formae habent 
+      distin<lb ed="#B" n="98" break="no"/>ctionem non a subjectis, sed ex natura 
+      <lb ed="#B" n="99"/>propria. Nam si non essent in subjecto: 
+      <lb ed="#B" n="100"/>essent distinctae seipsis: sic &amp; in 
+      subie<lb ed="#B" n="101" break="no"/>ctis sunt seipsis distinctae. Similiter falsum 
+      <lb ed="#B" n="102"/>est, quod potentia est per se ad formam in con¬ 
+      <!--130.xml-->
+      <pb ed="#B" n="99"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>muni: sed omnis potentia actiua est 
+      per<lb ed="#B" n="2" break="no"/>se ad formam, &amp; formas sine ulares: quia 
+      <lb ed="#B" n="3"/>non potest producere nisi formam 
+      fin<lb ed="#B" n="4" break="no"/>gularem.
+    </p>
+            <p xml:id="gbs333-h23475-d1e702">
+      ¶ Secundo dubitatur. An 
+      uer<lb ed="#B" n="5" break="no"/>bum in triduo mortis fuit filius Mariae. 
+      <lb ed="#B" n="6"/>Similiter an nunc post resurrectionem 
+      <lb ed="#B" n="7"/>sit filius Mariae eadem filiatione, qua 
+      <lb ed="#B" n="8"/>prius.
+    </p>
+            <p xml:id="gbs333-h23475-d1e714">
+      ¶ Pro responsione est aduertendum: 
+      <lb ed="#B" n="9"/>qod siliatio nihil aliud dicit, nisi 
+      supposi<lb ed="#B" n="10" break="no"/>tum actu subsistens in natura producta 
+      in<lb ed="#B" n="11" break="no"/>tellectuali, uel sensitiua, ab alio eiusdem 
+      <lb ed="#B" n="12"/>rationis, actu existente: siue 
+      supposi<lb ed="#B" n="13" break="no"/>tum istud habuerit illam naturam, quam 
+      <lb ed="#B" n="14"/>per productionem accepit continue, 
+      si<lb ed="#B" n="15" break="no"/>ue cum interruptione. Per hoc patet, 
+      <lb ed="#B" n="16"/>uerbum in triduo mortis non fuit 
+      <lb ed="#B" n="17"/>filius uirginis: quia tunc non subsistebat  
+      <lb ed="#B" n="18"/>in natura hamana: quia tunc non fuit 
+      <lb ed="#B" n="19"/>natura humana christi: quia anima 
+      chri<lb ed="#B" n="20" break="no"/>sti non fuit unita carni, sine qua 
+      unio<lb ed="#B" n="21" break="no"/>ne non est natura humana.
+    </p>
+            <p xml:id="gbs333-h23475-d1e745">
+      ¶ Patet se 
+      <lb ed="#B" n="22"/>cundo: quod post resurrectionem, est nunc 
+      <lb ed="#B" n="23"/>&amp; filius Mariae, &amp; idem filius, qui prius 
+      <lb ed="#B" n="24"/>supposito, quod beata uirgo sit gloriosa in 
+      <lb ed="#B" n="25"/>corpore &amp; anima: quia idem uerbum, 
+      <lb ed="#B" n="26"/>eadem natura, eadem mater, &amp; uirgo: 
+      <lb ed="#B" n="27"/>licet natura similiter, &amp; mater fuerit 
+      <lb ed="#B" n="28"/>interrumpta: unde post finalem 
+      resurre<lb ed="#B" n="29" break="no"/>ctionem, Ioan. erit filius Tachariae, 
+      si<lb ed="#B" n="30" break="no"/>cut fuit ante mortem utriusque: &amp; 
+      ea<lb ed="#B" n="31" break="no"/>dem filiatione: quia idem uerbum, 
+      ea<lb ed="#B" n="32" break="no"/>dem natura humana, eadem mater. Nec 
+      <lb ed="#B" n="33"/>impedit, quod nunc uerbum est homo 
+      per<lb ed="#B" n="34" break="no"/>nouam productionem humanitatis 
+      re<lb ed="#B" n="35" break="no"/>suscitatae.
+    </p>
+            <p xml:id="gbs333-h23475-d1e778">
+      ¶ Siquidem resuscitatio 
+      pro<lb ed="#B" n="36" break="no"/>ductio est resuscitati: &amp; illa non tollit 
+      ge<lb ed="#B" n="37" break="no"/>nerationeni praeteritam. Non enim 
+      <lb ed="#B" n="38"/>tollit, quando eadem natura olim fuit 
+      <lb ed="#B" n="39"/>accepta per generationem ex uirgine. 
+      <lb ed="#B" n="40"/>Illa tamen filiatio non est aliquid 
+      di<lb ed="#B" n="41" break="no"/>stinctum respectiuum ab his absolutis 
+      <lb ed="#B" n="42"/>inhaerens naturae humanae.
+    </p>
+            <p xml:id="gbs333-h23475-d1e796">
+      ¶ Verum est, 
+      <lb ed="#B" n="43"/>si tenetur opin. tertiae conclusionis 
+      di<lb ed="#B" n="44" break="no"/>ceretur. Si in resuscitatione 
+      reprodu<lb ed="#B" n="45" break="no"/>citur relatio filiat onis, quae fuit ante 
+      <lb ed="#B" n="46"/>mortem christi filij ad matrem: uerbum 
+      <lb ed="#B" n="47"/>est filius matris eadem filiatione: nec 
+      <lb ed="#B" n="48"/>est inconueniens, quod idem numero 
+      repro<lb ed="#B" n="49" break="no"/>ducitus. Si uero filiatio non reproduce 
+      <lb ed="#B" n="50"/>retur (quod uidetur possibile: cum non 
+      <lb ed="#B" n="51"/>ut essentialis naturae reproductae) uide 
+      <!--130.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tur, quod runc post resurrectionem, etsifuit, &amp; 
+      <lb ed="#B" n="53"/>est idem homo, qui prius: non tamen filius 
+      <lb ed="#B" n="54"/>Mariae sicut prius. Reproducitur autem 
+      <lb ed="#B" n="55"/>filiatio prior: &amp; ita manet in aeternum 
+      <lb ed="#B" n="56"/>filius Mariae. Et licet in resuscitatione 
+      <lb ed="#B" n="57"/>sit noua supernaturalis productio, ex 
+      <lb ed="#B" n="58"/>qua secundum illam opinionem oritur 
+      <lb ed="#B" n="59"/>noua relatio ad deum resuscitantem; 
+      il<lb ed="#B" n="60" break="no"/>la tamen non tollit filiationem reproductam: 
+      <lb ed="#B" n="61"/>sicut in prima generatione christi 
+      ex<lb ed="#B" n="62" break="no"/>uirgine, praeter filiationem orta est alia 
+      <lb ed="#B" n="63"/>relatio ad prima causam efficientem, quae 
+      <lb ed="#B" n="64"/>non fuit filiatio; quia natura genita 
+      hu<lb ed="#B" n="65" break="no"/>mana non fuit eiusdem rationis cum deo 
+      <lb ed="#B" n="66"/>producente, ut prima causa.
+    </p>
+            <p xml:id="gbs333-h23475-d1e855">
+      ¶ 
+      Tertiodu<lb ed="#B" n="67" break="no"/>bitatur. Vtrum concedendum sit, quod 
+      natu<lb ed="#B" n="68" break="no"/>ra diuina sit nata ex uirgine. Et 
+      argui<lb ed="#B" n="69" break="no"/>tur quod sic: quia quicquid non dicens 
+      sup<lb ed="#B" n="70" break="no"/>positum in recto praedicatur de uerbo: 
+      <lb ed="#B" n="71"/>etiam praedicatur de essentia, siue natura 
+      <lb ed="#B" n="72"/>diuina. Sed esse natum ex uirgine non 
+      di<lb ed="#B" n="73" break="no"/>cit suppositum: quia conuenit naturae 
+      <lb ed="#B" n="74"/>humane, &amp; praedicatur de uerbo: ergo 
+      <lb ed="#B" n="75"/>etiam de natura diuina.
+    </p>
+            <p xml:id="gbs333-h23475-d1e877">
+      ¶ Praeterea in 
+      <lb ed="#B" n="76"/>filio dei non est accipere nisi essentiam, 
+      <lb ed="#B" n="77"/>&amp; proprietatem: sed non dicitur 
+      na<lb ed="#B" n="78" break="no"/>tus ratione proprietatis: ergo ratione. 
+      <lb ed="#B" n="79"/>essentiae.
+    </p>
+            <p xml:id="gbs333-h23475-d1e889">
+      ¶ Ad hoc dubium supra dist. 
+      <lb ed="#B" n="80"/>iiij. responsum est: ubi etiam dictum est 
+      <lb ed="#B" n="81"/>quae sit differentia inter generari seu 
+      <lb ed="#B" n="82"/>nasci: quae conueniunt tam naturae, quam 
+      <lb ed="#B" n="83"/>supposito: &amp; esse filium, quod soli 
+      sup<lb ed="#B" n="84" break="no"/>po sito conuenit. Dictum estibi, quod 
+      uir<lb ed="#B" n="85" break="no"/>go Maria non est mater deitatis: nec dei 
+      <lb ed="#B" n="86"/>tas est filia uirginis: quia non est 
+      suppo<lb ed="#B" n="87" break="no"/>situm formaliter. Mater autem &amp; filia: 
+      <lb ed="#B" n="88"/>pater &amp; filius, nomina sunt suppositorum 
+      <lb ed="#B" n="89"/>de eodem dis. v. conclusione vi.
+    </p>
+            <p xml:id="gbs333-h23475-d1e913">
+      ¶ Per 
+      <lb ed="#B" n="90"/>haec ad dubium dicitur: quod non est 
+      con<lb ed="#B" n="91" break="no"/>cedendum, quod natura diuina sit nata ex 
+      <lb ed="#B" n="92"/>uirgine: quia illud dicitur nasci 
+      tempora<lb ed="#B" n="93" break="no"/>liter, quid de nouo producitur, aut subsistit 
+      <lb ed="#B" n="94"/>in natura de nono producta. Nunc autem 
+      <lb ed="#B" n="95"/>natura diuina non producitur a nouo: 
+      <lb ed="#B" n="96"/>nec subsistit in natura humana de 
+      nono<lb ed="#B" n="97" break="no"/>producta: quia subsistere est suppositi. 
+      <lb ed="#B" n="98"/>Natura autem diuina non est 
+      supposi<lb ed="#B" n="99" break="no"/>tum saltem formaliter, nasci uero, &amp; 
+      <lb ed="#B" n="100"/>generarinon praedicantur nisi 
+      formali<lb ed="#B" n="101" break="no"/>ter. Si tamen ex suppositione praedicarem 
+      <lb ed="#B" n="102"/>tur identice natura diuina esset nata de 
+      <!--131.xml-->
+      <pb ed="#B" n="100"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uirgine: esset etiam filia uirginis: quia 
+      <lb ed="#B" n="2"/>aliquid, cui natura diuina est eadem realiter 
+      <lb ed="#B" n="3"/>ilicet suppositum uerbi, est genitum de 
+      uir<lb ed="#B" n="4" break="no"/>gine, &amp; filius uirginis.
+    </p>
+            <p xml:id="gbs333-h23475-d1e959">
+      ¶ Adrationes 
+      du<lb ed="#B" n="5" break="no"/>bij. Ad prima neget maior uniuersaliter 
+      <lb ed="#B" n="6"/>quia licet praedicata diuina (hoc est 
+      con<lb ed="#B" n="7" break="no"/>uenientia deo ratione alicuius 
+      intrinse<lb ed="#B" n="8" break="no"/>ci in deo, non rationc creaturae, quae non in 
+      <lb ed="#B" n="9"/>portant suppositum) dicta de persona etiam 
+      <lb ed="#B" n="10"/>dicuntur de essentia: secus tamen est de 
+      ten<lb ed="#B" n="11" break="no"/>poralibus. Nam habere animam rationale, 
+      uo<lb ed="#B" n="12" break="no"/>luntatem hum anam intellectum, concedit de uer 
+      <lb ed="#B" n="13"/>bo, &amp; non de diuina natura: &amp; ita non 
+      di<lb ed="#B" n="14" break="no"/>cunt suppositum. Ad secundum dicitur: quod 
+      fi<lb ed="#B" n="15" break="no"/>lius dei neque ratione essentiae diuine; neque  
+      <lb ed="#B" n="16"/>ratione proprietatis, dicitur natus ex 
+      uirgi<lb ed="#B" n="17" break="no"/>ne: sed ratione naturae humanae ad unitatem 
+      <lb ed="#B" n="18"/>sui suppositi assumpti: hoc autem conuenit 
+      <lb ed="#B" n="19"/>naturae non diuinae: cum non sit suppositum. 
+      </p>
+            <p xml:id="gbs333-h23475-d1e994">
+               <lb ed="#B" n="20"/>¶ Et si dicitur, essentia diuina est incarnata: 
+      <lb ed="#B" n="21"/>gitur ex uirgine nata: quia propter hoc uer 
+      <lb ed="#B" n="22"/>bum conceditur ex uirgine natum: quia 
+      incar<lb ed="#B" n="23" break="no"/>natum. Rndetur negando consequentia: antece 
+      <lb ed="#B" n="24"/>dens, enim concessum est sup. dis. v. conclusione 
+      <lb ed="#B" n="25"/>v. &amp; ibi declaratum, in quo sensu natura 
+      di<lb ed="#B" n="26" break="no"/>uina concedit incarnata: &amp; et in quo 
+      ne<lb ed="#B" n="27" break="no"/>gatur. Ad probationem dicitur: quod uerbum non 
+      <lb ed="#B" n="28"/>non dicitur natum ex uirgine; quia incarnatum id est 
+      <lb ed="#B" n="29"/>carni unitum: sed quia subsistit in natura 
+      hu<lb ed="#B" n="30" break="no"/>mana ex uirgine nata: hoc autem non 
+      <lb ed="#B" n="31"/>conuenit naturae diuinae: ut etiam ibidem 
+      <lb ed="#B" n="32"/>declaratum est conclusione lexta.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

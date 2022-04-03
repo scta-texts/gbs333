@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h19934"> <!-- l3d7prae -->
+            <head xml:id="gbs333-h19934-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h19934-d1e102">
+               <lb ed="#B" n="24"/>DISTINCTIO. VII. 
+      <lb ed="#B" n="25"/>CIRCA quaestiones 
+      <lb ed="#B" n="26"/>d propositionibus 
+      unio<lb ed="#B" n="27" break="no"/>nis naturarum 
+      huma<lb ed="#B" n="28" break="no"/>nae, &amp; diuinae motas 
+      <lb ed="#B" n="29"/>opin. tres recitauit. 
+      <lb ed="#B" n="30"/>In hac dist. vij. easdem 
+      <lb ed="#B" n="31"/>ad propositum 
+      appli<lb ed="#B" n="32" break="no"/>cans magister, ostendit quomodo quaeli 
+      <lb ed="#B" n="33"/>bet harum intellectum propositionum 
+      <lb ed="#B" n="34"/>determinauit. sunt propositiones illae: 
+      <lb ed="#B" n="35"/>deus factus est homo: homo factus est 
+      <lb ed="#B" n="36"/>deus.
+    </p>
+            <p xml:id="gbs333-h19934-d1e133">
+      ¶ Potest autem sententia huius dist. 
+      <lb ed="#B" n="37"/>ad tres conclusiones reduci, quarum prima 
+      <lb ed="#B" n="38"/>est. Dictarum propositionum intellectum 
+      <lb ed="#B" n="39"/>prima opinio sic explicat: quod deus caepit 
+      <lb ed="#B" n="40"/>esse substantia rationalis quae ante non 
+      <lb ed="#B" n="41"/>fuerat. Et illa substantia caepit esse deus: 
+      <lb ed="#B" n="42"/> gratia, non natura, nec meritis 
+      ha<lb ed="#B" n="43" break="no"/>buerat. Addit, quod christus inquantum 
+      ho<lb ed="#B" n="44" break="no"/>mo recte dicitur praedestinatus esse filius 
+      <lb ed="#B" n="45"/>dei.
+    </p>
+            <p xml:id="gbs333-h19934-d1e155">
+      ¶ Secunda conclusio. Deus secundum 
+      <lb ed="#B" n="46"/>opin. secundam caepit esse subsistens ex 
+      <lb ed="#B" n="47"/>duabus naturis, &amp; tribi substantijs incar 
+      <lb ed="#B" n="48"/>patus, &amp; inquantum sic subsistens, &amp; inquam 
+      <lb ed="#B" n="49"/>tum homo est praedestinatus.
+    </p>
+            <p xml:id="gbs333-h19934-d1e167">
+      ¶ Tertia 
+      <!--113.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>conclusio. Deus factus homo dicitur  
+      <lb ed="#B" n="51"/>secundum opinionem tertiam: quia deus 
+      ho<lb ed="#B" n="52" break="no"/>minem accepit, &amp; dus est homo: &amp; homo 
+      <lb ed="#B" n="53"/>factus est deus: quia homo assumptem est 
+      <lb ed="#B" n="54"/>a deo, &amp; homo est deus: quia habens 
+      ho<lb ed="#B" n="55" break="no"/>minem est deus. In hoc uero 
+      praedestina<lb ed="#B" n="56" break="no"/>tus: quia praedestinatum est, ut christus 
+      <lb ed="#B" n="57"/>ens homo sit dei filius: nec tamen 
+      dicen<lb ed="#B" n="58" break="no"/>dus est homo dominicus. Has prosequi  
+      <lb ed="#B" n="59"/>tur magister cum expositione aucto. ad 
+      <lb ed="#B" n="60"/>propositum alicuius eorum sonantium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

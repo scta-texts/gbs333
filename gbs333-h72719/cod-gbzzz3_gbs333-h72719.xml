@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="295"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h72719"> <!-- l3d30q1 -->
+            <head xml:id="gbs333-h72719-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h72719-d1e102">
+               <lb ed="#B" n="86"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="87"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="88"/>quaeritur, utrum dilectio 
+      gra<lb ed="#B" n="89" break="no"/>QOo tuita, quae de necessitate 
+      <lb ed="#B" n="90"/>Q¶ praecepti impenditur 
+      inimi<lb ed="#B" n="91" break="no"/>co: sit magis meritoria, quam ea, quae 
+      <lb ed="#B" n="92"/>redditur amico.
+    </p>
+            <p xml:id="gbs333-h72719-d1e120">
+      ¶ Quaestio haec: quae 
+      <lb ed="#B" n="93"/>unum praesumit scilicet, quod dilectio 
+      gra<lb ed="#B" n="94" break="no"/>tuita inimici sit de necessitate 
+      praece<lb ed="#B" n="95" break="no"/>pti. &amp; quaerit, an sit magis meritoria, quam 
+      <lb ed="#B" n="96"/>dilectio amici: determinabitur 
+      tamen<lb ed="#B" n="97" break="no"/>tribus articulis quorum primus 
+      praemit<lb ed="#B" n="98" break="no"/>tet terminorum declarationes. Secun¬ 
+      <!--327.xml-->
+      <pb ed="#B" n="296"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dus subiunget responsiuas conclusiones. 
+      <lb ed="#B" n="2"/>Tertius mouebit aliquas dubitationes, 
+      <lb ed="#B" n="3"/>Quantum ad primum notandum, quod ly 
+      <lb ed="#B" n="4"/>inimico in titulo quaestionis non accipi 
+      <lb ed="#B" n="5"/>tur, ut appellet suam rationem: licet 
+      se<lb ed="#B" n="6" break="no"/>quatur uerbum, impenditur: quod in 
+      pro<lb ed="#B" n="7" break="no"/>posito importat actum animi 
+      interio<lb ed="#B" n="8" break="no"/>rem: quia ualet tantum, quae 
+      impendi<lb ed="#B" n="9" break="no"/>tur inimico id est qua diligit inimicus. Non 
+      <lb ed="#B" n="10"/>enim quaerit quaestio utrum dilectio 
+      ini<lb ed="#B" n="11" break="no"/>mici sub ratione inimici, uel inquantum 
+      <lb ed="#B" n="12"/>inimicus est: sit diligendus de necessita 
+      <lb ed="#B" n="13"/>te praecepti. Certum enim est, quod 
+      inimi<lb ed="#B" n="14" break="no"/>cus sub illa ratione non est diligendus: 
+      <lb ed="#B" n="15"/>quia malum non est diligendum. In 
+      mi<lb ed="#B" n="16" break="no"/>cus autem, ut talis, malus est non tantum 
+      <lb ed="#B" n="17"/>priuatione boni: sed habitu positino ui 
+      <lb ed="#B" n="18"/>tij: sicut iniustus non tantum dicitur, qui  
+      <lb ed="#B" n="19"/>caret habitu iustitiae: sed qui habet 
+      habi<lb ed="#B" n="20" break="no"/>pum iniustitiae contrarium habitui 
+      iusti<lb ed="#B" n="21" break="no"/>tiae causatum ex actibus iniustis: ut 
+      ha<lb ed="#B" n="22" break="no"/>betur ex commen. Boe. super 
+      praedica<lb ed="#B" n="23" break="no"/>menta qualitatis: &amp; hoc modo sicut 
+      ami<lb ed="#B" n="24" break="no"/>citia connotat bonum uirtutis in 
+      ama<lb ed="#B" n="25" break="no"/>to conueniens actui uirtutis in amante: 
+      <lb ed="#B" n="26"/>sic inimicitia connotat malum uitiosum 
+      <lb ed="#B" n="27"/>in inimico disconueniens bono, quod 
+      <lb ed="#B" n="28"/>est in eo, cui est inimicus. hoc est dictu: 
+      <lb ed="#B" n="29"/>amicus connotat actum uirtutis scilicet 
+      dile<lb ed="#B" n="30" break="no"/>ctionem in amante, quo tendit in 
+      ama<lb ed="#B" n="31" break="no"/>tum propter uirtutem amati. Inimicus 
+      <lb ed="#B" n="32"/>connotat actum odij uitiosum 
+      inimi<lb ed="#B" n="33" break="no"/>co, quo odit eum, cui est inimicus propter 
+      <lb ed="#B" n="34"/>bonum uirtutis, quod est in eo: nam qui  
+      <lb ed="#B" n="35"/>odit uitium alterius, non est inimicus. 
+      <lb ed="#B" n="36"/>Inimicus ergo inquantum talis est 
+      ma<lb ed="#B" n="37" break="no"/>lus, &amp; uitiosus: &amp; per consequens nullo 
+      <lb ed="#B" n="38"/>modo ut sic diligendus. hoc enim modo 
+      <lb ed="#B" n="39"/>uirtuose odiuit inimicum, qui dixit. 
+      De<lb ed="#B" n="40" break="no"/>ficiant peccatores a terra: &amp; iniqui, 
+      <lb ed="#B" n="41"/>ita ut non sint. Et qui dixit. Verte 
+      im<lb ed="#B" n="42" break="no"/>pios, &amp; non erunt. Prouer. xij. Sed quae 
+      <lb ed="#B" n="43"/>rit de inimico secundum rationem alia: 
+      <lb ed="#B" n="44"/>id est quaerit de homine, qui 
+      inimi<lb ed="#B" n="45" break="no"/>cus est: an necessario sit diligendus, non 
+      <lb ed="#B" n="46"/>ut inimicus: sed ut homo.
+    </p>
+            <p xml:id="gbs333-h72719-d1e242">
+      ¶ Secundo, 
+      <lb ed="#B" n="47"/>notandum, quod de praecepto dilectionis 
+      <lb ed="#B" n="48"/>dupliciter possumus loqui, scilicet 
+      posi<lb ed="#B" n="49" break="no"/>tiue: &amp; per modum actus eliciendi: uel 
+      <lb ed="#B" n="50"/>quasi prohibitiue per modum actus 
+      con<lb ed="#B" n="51" break="no"/>tatijarcendi. Praecepta autem affirma¬ 
+      <!--327.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tiua magis obligant, ne contraria eis 
+      <lb ed="#B" n="53"/>siant, quam quod actus positiui circa 
+      prae<lb ed="#B" n="54" break="no"/>cepti materiam eliciantur. Gratia 
+      exem<lb ed="#B" n="55" break="no"/>pli. Praeceptum de parentum honore 
+      ma<lb ed="#B" n="56" break="no"/>gis obligat, ne parentes inhonorentur,  
+      <lb ed="#B" n="57"/>seu blasphementur, quam quod actus hono 
+      <lb ed="#B" n="58"/>rationis eis impendatur: quia ad primum 
+      <lb ed="#B" n="59"/>obligant semper, &amp; pro semper. Non sic 
+      <lb ed="#B" n="60"/>ad secundum: sed tantum pro aliquando, 
+      <lb ed="#B" n="61"/>Loquendo igitur de primo intellectu: ut  
+      <lb ed="#B" n="62"/>diligere accipitur pro non odire: duplex 
+      <lb ed="#B" n="63"/>bonum est, quod possum non odire 
+      ini<lb ed="#B" n="64" break="no"/>mico scilicet bonum spirituale, quo natus est 
+      at<lb ed="#B" n="65" break="no"/>tingere deum, uel bonum. Aliud est 
+      in<lb ed="#B" n="66" break="no"/>differens, quod potest ad illud ordinari: 
+      <lb ed="#B" n="67"/>&amp; etiam potest ad oppositum ordinari. 
+      <lb ed="#B" n="68"/>De primo genere sunt actus amoris dei 
+      <lb ed="#B" n="69"/>amicitiae: ut est in se bonum honestum: 
+      <lb ed="#B" n="70"/>etiam concupiscere, ut deum, ut bonum 
+      con<lb ed="#B" n="71" break="no"/>modum sibi. Item uiuere uita spirituali.  
+      <lb ed="#B" n="72"/>licet uita gratiae. Item audire praedicationes, 
+      <lb ed="#B" n="73"/>correptiones instructiones, per quas 
+      con<lb ed="#B" n="74" break="no"/>uertatur ad Deum diligendum, &amp; similia. 
+      <lb ed="#B" n="75"/>De secundo genere sunt uiuere uita 
+      cor<lb ed="#B" n="76" break="no"/>porali, sanum esse, diuitem esse, fortem 
+      <lb ed="#B" n="77"/>esse, potentem &amp;c. Valentetiam ad 
+      propo<lb ed="#B" n="78" break="no"/>situm dicta dist. xv. huius. q. i. de 
+      uolun<lb ed="#B" n="79" break="no"/>tate simpliciter &amp; conditionata: hic tamen 
+      <lb ed="#B" n="80"/>ppter breuitatem non repetuntur.
+    </p>
+            <p xml:id="gbs333-h72719-d1e323">
+      ¶ Tes 
+      <lb ed="#B" n="81"/>tio notandum, Quod actum esse meritorium 
+      <lb ed="#B" n="82"/>ex duobus dependet: ut dictum est in 
+      ij<lb ed="#B" n="83" break="no"/>dist xxvij scilicet a gratia &amp; libe. arb. hoc est a 
+      <lb ed="#B" n="84"/>uolutate libere secundum inclinationem 
+      <lb ed="#B" n="85"/>gratiae actum eliciente. Sic &amp; quantitas 
+      <lb ed="#B" n="86"/>meriti ex eisdem dependet scilicet ex 
+      <lb ed="#B" n="87"/>quantitate gratiae, &amp; conatus libe. 
+      ar<lb ed="#B" n="88" break="no"/>bi. Quanto enim maiori conatu, &amp; 
+      feruo<lb ed="#B" n="89" break="no"/>re uoluntas elicit actum secundum 
+      in<lb ed="#B" n="90" break="no"/>clinationem gratiae, tanto actus erit 
+      in<lb ed="#B" n="91" break="no"/>tensior: &amp; ex hac parte magis 
+      merito<lb ed="#B" n="92" break="no"/>rius: sic etiam quanto elicitur ab 
+      inten<lb ed="#B" n="93" break="no"/>siori gtatia: tanto ex alia parte est magis 
+      <lb ed="#B" n="94"/>meritorius. Nec tamen intensio gratiae, &amp; in 
+      <lb ed="#B" n="95"/>tensio actus meritorij necessario se 
+      conse<lb ed="#B" n="96" break="no"/>quuntur: quia gratia sicut &amp; qulibet alius 
+      <lb ed="#B" n="97"/>habitus: licet inclinent uoluntatem: non tamen 
+      <lb ed="#B" n="98"/>eam necessitant: sed sicut est in libertate 
+      ar<lb ed="#B" n="99" break="no"/>pitrij actum elicere sudm inclinationem 
+      grae<lb ed="#B" n="100" break="no"/>uel non: ita est est in eius libertate elicere 
+      <lb ed="#B" n="101"/>actum tanto, uel maiori, aut minori conatu, 
+      <lb ed="#B" n="102"/>seu feruore: &amp; ita intensum, uel remissum: si¬ 
+      <!--328.xml-->
+      <pb ed="#B" n="297"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cut enim actus quantum ad substantia 
+      <lb ed="#B" n="2"/>eius dependet a sola uoluntate: ita etiam 
+      <lb ed="#B" n="3"/>quantum ad eius intensionem: licet 
+      qua<lb ed="#B" n="4" break="no"/>tum ad rationem meriti dependet exutroque  
+      <lb ed="#B" n="5"/>gratia scilicet &amp; uoluntate libere secundum 
+      <lb ed="#B" n="6"/>inclinationem gratiae actum eliciente: 
+      <lb ed="#B" n="7"/>licet principalius a gratia, quam a 
+      uolun<lb ed="#B" n="8" break="no"/>tate: ut ibi supradictum est. Ideo si duo 
+      <lb ed="#B" n="9"/>actus eiusdem intensionis dependent a 
+      di<lb ed="#B" n="10" break="no"/>sparibus gratijs quatum ad gratiae 
+      inten<lb ed="#B" n="11" break="no"/>sionem: ilie erit magis meritorius, qui 
+      de<lb ed="#B" n="12" break="no"/>pendet abintensiori gratia. Similiter 
+      si<lb ed="#B" n="13" break="no"/>abeadem gratia elitiuntur inclinatiue actus 
+      <lb ed="#B" n="14"/>diuersae intensionis: actus intensior erit 
+      <lb ed="#B" n="15"/>magis meritorius propter maiorem uolun 
+      <lb ed="#B" n="16"/>tatis conatum in eliciendo actum 
+      secun<lb ed="#B" n="17" break="no"/>dum inclinationem gratiae, &amp; charitatis. 
+      <lb ed="#B" n="18"/>Sit actus remissior assistente intensiore. 
+      <lb ed="#B" n="19"/>gratia, alius intensior cum minore gratia: 
+      <lb ed="#B" n="20"/>illi actus habent se adinuicem, ut 
+      exce<lb ed="#B" n="21" break="no"/>dentia, &amp; excessa: ita quod quilibet ex 
+      ali<lb ed="#B" n="22" break="no"/>qua parte excedit alium: &amp; ab alio ex 
+      par<lb ed="#B" n="23" break="no"/>te alia exceditur. Ex parte gratiae 
+      exce<lb ed="#B" n="24" break="no"/>dit, qui ex maiori gratia elicitur. Ex 
+      par<lb ed="#B" n="25" break="no"/>te conatus libe. arbi. quae fuerit gradua 
+      <lb ed="#B" n="26"/>liter intensior.
+    </p>
+            <p xml:id="gbs333-h72719-d1e436">
+      ¶ Quantum ad articulum 
+      <lb ed="#B" n="27"/>secundum, est conclusio prima. 
+      Dilectio<lb ed="#B" n="28" break="no"/>gratuita primo modo pro non odire 
+      ac<lb ed="#B" n="29" break="no"/>cepta quantum ad bona primi generis 
+      <lb ed="#B" n="30"/>est inimico de necessitate praecepti 
+      im<lb ed="#B" n="31" break="no"/>pendenda. Probatur: quia non possum 
+      <lb ed="#B" n="32"/>sine praecepti transgressione nolle 
+      inimi<lb ed="#B" n="33" break="no"/>eo dilectionem dei: neque in uia: neque in 
+      <lb ed="#B" n="34"/>termino: &amp; per consequens nec alia ad 
+      <lb ed="#B" n="35"/>diligendum deum necessaria: ergo 
+      conclu<lb ed="#B" n="36" break="no"/>sio uera. Antecedens probatur: quia non 
+      <lb ed="#B" n="37"/>stat cum dilectione dei nobis praecepta, 
+      <lb ed="#B" n="38"/>nolle eum condiligi ab alio, cuius 
+      dile<lb ed="#B" n="39" break="no"/>ctio nescitur ei displicere: &amp; hoc 
+      condi<lb ed="#B" n="40" break="no"/>ligi, siue in ratione honesti siue propter 
+      <lb ed="#B" n="41"/>se, siue in ratione boni commodi eius. 
+      Item<lb ed="#B" n="42" break="no"/>inimicus est proximus noster: ergo 
+      te<lb ed="#B" n="43" break="no"/>nemur eum diligere ad eadem bona, ad 
+      <lb ed="#B" n="44"/>quae nosipsos diligimus. Et per 
+      con<lb ed="#B" n="45" break="no"/>lequens non possumus ei uelle 
+      contra<lb ed="#B" n="46" break="no"/>ria. Quod autem inimicus noster sit 
+      <lb ed="#B" n="47"/>noster proximus: patet sup. distinct. 
+      <lb ed="#B" n="48"/>xxviij. possumus enim sibi 
+      impende<lb ed="#B" n="49" break="no"/>re bona: &amp; est capax nobiscum 
+      aeter<lb ed="#B" n="50" break="no"/>nae beatitudinis.
+    </p>
+            <p xml:id="gbs333-h72719-d1e491">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="51" break="no"/>sio. Dilectio inimici gratuita primo mo¬ 
+      <!--328.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>do accepta quantum ad bona indifferem 
+      <lb ed="#B" n="53"/>tia non est ad salutem necessaria. 
+      Pro<lb ed="#B" n="54" break="no"/>batur conclusio: quia possum illa bona 
+      <lb ed="#B" n="55"/>indifferentia secundi generis nolle 
+      ini<lb ed="#B" n="56" break="no"/>mico: ergo. Consequentia nota. 
+      An<lb ed="#B" n="57" break="no"/>tecedens probatur: quia ordinate 
+      pos<lb ed="#B" n="58" break="no"/>sum talia odire siue nolle mihi: multo 
+      <lb ed="#B" n="59"/>ergo magis inimico. Item inimicus potest 
+      <lb ed="#B" n="60"/>ordinate illa nolle sibi: quaecunque autem 
+      <lb ed="#B" n="61"/>potest ordinate nolle sibi: etiam egopossum 
+      <lb ed="#B" n="62"/>eadem ordinate nolle sibi. Assumpta 
+      <lb ed="#B" n="63"/>patent: quia possum mihi nolle 
+      diui<lb ed="#B" n="64" break="no"/>tias, uel sanitatem, &amp; necessaria 
+      om<lb ed="#B" n="65" break="no"/>nia ad uitam corporalem. Et hoc 
+      or<lb ed="#B" n="66" break="no"/>dinate dupliciter. Vel 
+      contemnendo<lb ed="#B" n="67" break="no"/>ea uoluntate propter deum. Vel 
+      uolunta<lb ed="#B" n="68" break="no"/>te antecedente uolendo deum ea 
+      in<lb ed="#B" n="69" break="no"/>iligere mihi propter peccata mea. Vel 
+      <lb ed="#B" n="70"/>uoluntate consequente (si fuerit 
+      mihi<lb ed="#B" n="71" break="no"/>inflicta) acceptando ea, &amp; gaudendo de 
+      <lb ed="#B" n="72"/>eis inflictis. Tot modis possum etiam 
+      alij<lb ed="#B" n="73" break="no"/>uelle talia mala. Vnde possum uelle 
+      ini<lb ed="#B" n="74" break="no"/>mico paupertatem uoluntariam: &amp; ita 
+      <lb ed="#B" n="75"/>uelle eum carere diuitijs. Item possum uel 
+      <lb ed="#B" n="76"/>le mala temporalia sibi infligia a deo 
+      per<lb ed="#B" n="77" break="no"/>tinentia ad eius correctione, &amp; emendatio  
+      <lb ed="#B" n="78"/>nem. Si ent sint infficta, possum uelle ea, 
+      ap<lb ed="#B" n="79" break="no"/>probando iudicium diuinum, &amp; congaudendo 
+      <lb ed="#B" n="80"/>eis. Et generaliter si credo eum per 
+      commoda<lb ed="#B" n="81" break="no"/>extrinieca temporalia peccata continuare: 
+      <lb ed="#B" n="82"/>ac peccatum peccato superaddere: possum 
+      <lb ed="#B" n="83"/>illa sibi odire, &amp; nolle: &amp; opposita ei uel 
+      <lb ed="#B" n="84"/>le, per quae emendetur: &amp; quantum ad hoc  
+      <lb ed="#B" n="85"/>pari formiter dicendum est de bonis 
+      for<lb ed="#B" n="86" break="no"/>tunae, &amp; bonis corporis. Haec omnia Sco. 
+      <lb ed="#B" n="87"/>Tertia conclusio. Non est uolenda inimi d 
+      <lb ed="#B" n="88"/>co simpliciter, &amp; sine conditione 
+      extin<lb ed="#B" n="89" break="no"/>ctio corporalis uitae. Probatur: quia 
+      nul<lb ed="#B" n="90" break="no"/>lus potest uelle inimico oblationem facul 
+      <lb ed="#B" n="91"/>tatis poenitentiae: uel diligendi deum, &amp; 
+      con<lb ed="#B" n="92" break="no"/>uersionis uitae: quia hoc esset nolle ei 
+      spi<lb ed="#B" n="93" break="no"/>ritualia bona: contra conclusionem prima 
+      <lb ed="#B" n="94"/>Sed uolens inimico extinctionem uitae, &amp; 
+      <lb ed="#B" n="95"/>mortem corporalem: uult adeptionem 
+      facul<lb ed="#B" n="96" break="no"/>tatis poenitentiae &amp;c. ergo. Consequentia 
+      <lb ed="#B" n="97"/>nota cum maiore Minor patet: quia post 
+      <lb ed="#B" n="98"/>mortem non est poenitentiae locus: nec 
+      <lb ed="#B" n="99"/>conuersio ad diligendum deum, &amp; ad 
+      emenda<lb ed="#B" n="100" break="no"/>tionem peccatorum: sicut post ablationem 
+      sa<lb ed="#B" n="101" break="no"/>nitatis, &amp; bonorum fortunae, quorum 
+      abla<lb ed="#B" n="102" break="no"/>tio nonumquam est occasio conuersionis, &amp; 
+      <!--329.xml-->
+      <pb ed="#B" n="298"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>paenitentiae. Nunquam autem 
+      ablatio<lb ed="#B" n="2" break="no"/>uitae corporalis, per quam simpliciter ex 
+      <lb ed="#B" n="3"/>cluditur a possibilitate conuersionis, &amp; 
+      <lb ed="#B" n="4"/>diligendi deum. Dictum est notanter in 
+      <lb ed="#B" n="5"/>conclusione uolenda simpliciter sine 
+      <lb ed="#B" n="6"/>conditione; quia cum conditione: siue 
+      <lb ed="#B" n="7"/>uoluntate conditionata potest quis uel 
+      <lb ed="#B" n="8"/>le mortem inimici: immo etiam non 
+      of<lb ed="#B" n="9" break="no"/>fendentis proximi: talem mali puta si 
+      <lb ed="#B" n="10"/>credat finaliter eum futurum malum: &amp; 
+      <lb ed="#B" n="11"/>tunc potest sibi optare mortem: uel ut 
+      <lb ed="#B" n="12"/>det locum sanctis, quos impedit; uel 
+      ne<lb ed="#B" n="13" break="no"/>addat peccata peccatis, propter quae post 
+      <lb ed="#B" n="14"/>mortem acrius puniatur. Hae duae 
+      cau<lb ed="#B" n="15" break="no"/>sae colliguntur ex legenda beatae Anasta 
+      <lb ed="#B" n="16"/>siae, qui scriput sancto Crisogono de uiro 
+      <lb ed="#B" n="17"/>suo Publio: ut si deus praeuideret eum in 
+      <lb ed="#B" n="18"/>infidelitate sua finaliter permansurum: 
+      <lb ed="#B" n="19"/>iuberet eum dare locum sanctis. Haec quo 
+      <lb ed="#B" n="20"/>ad primum. Et sequitur, quo ad secundum: 
+      <lb ed="#B" n="21"/>quia melius est ei animam exhalare, quam 
+      <lb ed="#B" n="22"/>filium dei blasphemare.
+    </p>
+            <p xml:id="gbs333-h72719-d1e665">
+      ¶ Sed forte quis 
+      <lb ed="#B" n="23"/>replicaret: Iudex in causa criminali 
+      po<lb ed="#B" n="24" break="no"/>test iuste sententiare contra criminosum 
+      <lb ed="#B" n="25"/>Et similiter actor in eadem causa potest 
+      <lb ed="#B" n="26"/>licite agere contra eum. Vterque ergo 
+      <lb ed="#B" n="27"/>potest uelle effectum illius sententiae, ec 
+      <lb ed="#B" n="28"/>est occisio rei ut posset ex canonibus 
+      <lb ed="#B" n="29"/>deduci. Similiter si quis impediat 
+      eccle<lb ed="#B" n="30" break="no"/>siam dei: uel quantum in ipso est, 
+      impe<lb ed="#B" n="31" break="no"/>diat bonum commune: quia pacem 
+      ec<lb ed="#B" n="32" break="no"/>clesiae. Et quia bonum commune magis 
+      <lb ed="#B" n="33"/>est diligendum, quam bonum priuatum 
+      <lb ed="#B" n="34"/>unius personae: ergo si non possunt stare 
+      <lb ed="#B" n="35"/>simul: uolendum est bonum priuatum non 
+      <lb ed="#B" n="36"/>esse: ut saluetur bonum commune. Nam 
+      <lb ed="#B" n="37"/>delictum personae non debet in 
+      detrimen<lb ed="#B" n="38" break="no"/>tum ecclesiae redundare. de re. iur. lib. vi. 
+      <lb ed="#B" n="39"/> Respondet ad illa Sco. dist. praesenti quod 
+      <lb ed="#B" n="40"/>in omnibus istis casibus illud, propter 
+      <lb ed="#B" n="41"/>quod mors inimici esset aliquantulum 
+      <lb ed="#B" n="42"/>uolita, est simuliciter nolitum Tenetur 
+      <lb ed="#B" n="43"/>enim iudex in causa: &amp; similiter actor, 
+      <lb ed="#B" n="44"/>nolle eum esse reum. Et uelle eum non punire 
+      <lb ed="#B" n="45"/>quantum est ex se: quia si faciat hoc 
+      ex<lb ed="#B" n="46" break="no"/>libidine, uel odio, aut sponte, peccat mor 
+      <lb ed="#B" n="47"/>taliter. Vnde Augu. in lib. retractat. &amp; 
+      <lb ed="#B" n="48"/>est in textu praecedentis dist. Duo, inquit,  
+      <lb ed="#B" n="49"/>sunt diligenda in homine, natura, &amp; 
+      uir<lb ed="#B" n="50" break="no"/>tus: uitium uero, &amp; peccatum odiendum 
+      <lb ed="#B" n="51"/>Parentes ergo inquantum mali odiendi 
+      <!--329.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sunt, &amp; inimici diligendi inquantum 
+      ho<lb ed="#B" n="53" break="no"/>mines. Diligamus ergo inimicos 
+      lucran<lb ed="#B" n="54" break="no"/>dos regnodei: &amp; odiamus in propinquis 
+      <lb ed="#B" n="55"/>si impeciant nos a regno dei: &amp; in 
+      om<lb ed="#B" n="56" break="no"/>nibus communiter naturam diligamus, 
+      <lb ed="#B" n="57"/>quam fecit deus. Non ergo potest odiri 
+      <lb ed="#B" n="58"/>natura: &amp; per hoc ex odio, uel libidine 
+      <lb ed="#B" n="59"/>extingui sine trans gressione praecepti: 
+      <lb ed="#B" n="60"/>&amp; per consequens sine mortali. Sic in 
+      a<lb ed="#B" n="61" break="no"/>lio casu tenetur patiens persecutionem 
+      <lb ed="#B" n="62"/>tyrannicam nolle esse tyrannum 
+      con<lb ed="#B" n="63" break="no"/>tra ecclesiam: &amp; quantum in se est 
+      nol<lb ed="#B" n="64" break="no"/>le eum simpliciter esse reprobum. Et ideo 
+      <lb ed="#B" n="65"/>si ponitur oppositum istorum nolitorum 
+      <lb ed="#B" n="66"/>ex suppositione huiusmodi oppositorum, 
+      <lb ed="#B" n="67"/>potest uelle ei mortem cum tristitia 
+      qua<lb ed="#B" n="68" break="no"/>dam: quod est uelle non simpliciter 
+      uo<lb ed="#B" n="69" break="no"/>luntarium, sed conditionatum, quod 
+      ta<lb ed="#B" n="70" break="no"/>men sufficit ad causandum tristitiam: ut 
+      <lb ed="#B" n="71"/>supra dictum est dist. xv.
+    </p>
+            <p xml:id="gbs333-h72719-d1e778">
+      ¶ Verum de 
+      ty<lb ed="#B" n="72" break="no"/>ranno quidam aliter dicunt: quia 
+      tyran<lb ed="#B" n="73" break="no"/>nus non potest facere persecutionem 
+      <lb ed="#B" n="74"/>nisi exteriorem, iuxta illud saluatoris 
+      <lb ed="#B" n="75"/>Mat. x. Nolite timere eos, qui occidunt 
+      <lb ed="#B" n="76"/>corpus: animam autem non possunt 
+      oen<lb ed="#B" n="77" break="no"/>cidere: quia post oecisionem corporis 
+      <lb ed="#B" n="78"/>non habent amplius, quid faciant Talis 
+      <lb ed="#B" n="79"/>autem persecutio exterior frequenter 
+      <lb ed="#B" n="80"/>est electis materia proficiendi in 
+      uirtu<lb ed="#B" n="81" break="no"/>tibus: &amp; praecipue in patentia, qua 
+      secun<lb ed="#B" n="82" break="no"/>dum beatum Iacobum opus perfectum 
+      <lb ed="#B" n="83"/>habet. Iaco. i. Hoc enim modo 
+      ecclesia<lb ed="#B" n="84" break="no"/>profecit, &amp; creuit: &amp; ideo in casu illo 
+      <lb ed="#B" n="85"/>non uidetur, liceat tyranno optare. 
+      <lb ed="#B" n="86"/>mortem temporalem: nisi forte esset 
+      ali<lb ed="#B" n="87" break="no"/>quis, a quo mors esset sibi iuste 
+      infligen<lb ed="#B" n="88" break="no"/>da propter peccata sua: tunc posset opta 
+      <lb ed="#B" n="89"/>re, quod a tali iudice fieret iustitia, tamen 
+      <lb ed="#B" n="90"/>cum tristitia: quia semper debet nolle eun 
+      <lb ed="#B" n="91"/>eisse dignum talipena.
+    </p>
+            <p xml:id="gbs333-h72719-d1e824">
+      ¶ Quarta 
+      conclu<lb ed="#B" n="92" break="no"/>sio. Non est simpliciter necessarium a 
+      <lb ed="#B" n="93"/>ctu positiuo quantum ad bona 
+      spiritua<lb ed="#B" n="94" break="no"/>lia diligere inimicum. Probatur: quia non 
+      <lb ed="#B" n="95"/>tenetur quis cogitare de inimico; ergo 
+      <lb ed="#B" n="96"/>nec circa illum actum dilectionis elicere. 
+      <lb ed="#B" n="97"/>Consequentia tenet: quia actus dilectionis 
+      <lb ed="#B" n="98"/>praesupponit appraehensione obiecti. 
+      An<lb ed="#B" n="99" break="no"/>tecedens patet: quia absque 
+      cogitatio<lb ed="#B" n="100" break="no"/>ne de inimico potest quis habere actus 
+      <lb ed="#B" n="101"/>ordinatos circa finem: &amp; circa ea, quae 
+      <lb ed="#B" n="102"/>sunt necessaria ad finem consequendum: 
+      <!--330.xml-->
+      <pb ed="#B" n="299"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ergo non est necessaria cogitatio de 
+      ini<lb ed="#B" n="2" break="no"/>mico. Consequentia nota. Antecedens 
+      <lb ed="#B" n="3"/>similiter patet. Et posset poni similis 
+      con<lb ed="#B" n="4" break="no"/>clusio de dilectio ne quantum ad bona 
+      <lb ed="#B" n="5"/>corporis, &amp; exteriora.
+    </p>
+            <p xml:id="gbs333-h72719-d1e869">
+      ¶ Quinta 
+      conclu<lb ed="#B" n="6" break="no"/>sio. In casu necessitatis tenetur 
+      quili<lb ed="#B" n="7" break="no"/>bet inimicum suum quantum ad bona 
+      <lb ed="#B" n="8"/>temporalia, uel spiritualia actu positiuo 
+      <lb ed="#B" n="9"/>(si potest) diligere: nisi adsit alius 
+      para<lb ed="#B" n="10" break="no"/>tus illa praestare. Probatur, quia dicit 
+      bea<lb ed="#B" n="11" break="no"/>tus Ioan. &amp; supra patuit. Si quis habet  
+      <lb ed="#B" n="12"/>substantiam huius mundi, &amp; uidet fratrem 
+      <lb ed="#B" n="13"/>suum enm h. &amp; clau. v. i. ab eo. qcdm. 
+      ince<lb ed="#B" n="14" break="no"/>j. Io. iij. Sedinimicus frater est, &amp; 
+      pro<lb ed="#B" n="15" break="no"/>ximus: ergo Et si hoc uerum est de substam 
+      <lb ed="#B" n="16"/>tia huius mundi quantum ad bona 
+      exte<lb ed="#B" n="17" break="no"/>riora: multo magis uerum est quantum 
+      <lb ed="#B" n="18"/>ad bona spiritualia immediatius ad 
+      sa<lb ed="#B" n="19" break="no"/>lutem necessaria. Vnde si appareat 
+      ali<lb ed="#B" n="20" break="no"/>qua necessitas inimici euidens in 
+      spiri<lb ed="#B" n="21" break="no"/>tualibus, propter quorum carentiam non 
+      <lb ed="#B" n="22"/>posset attingere ad diligendum deum: ut 
+      <lb ed="#B" n="23"/>si fuerit infidelis indigens doctrina, per 
+      <lb ed="#B" n="24"/>quai conuerti posset ad ueritatem: si potest: 
+      <lb ed="#B" n="25"/>ille, cuius est immicus praestare doctrinam 
+      <lb ed="#B" n="26"/>nec sit alius, qui informet: &amp; ipse 
+      inimi<lb ed="#B" n="27" break="no"/>cus informationem recipere uelit: 
+      tene<lb ed="#B" n="28" break="no"/>tur non solum uelle, sed etiam efficaci 
+      <lb ed="#B" n="29"/>ter eam tradere. Sic de correctione fra 
+      <lb ed="#B" n="30"/>terna alijque pluribus ad uitam aeternam 
+      <lb ed="#B" n="31"/>requisitis. Et specialiter quantum ad hoc,  
+      <lb ed="#B" n="32"/>quod quilibet tenetur orare deum pro se, 
+      <lb ed="#B" n="33"/>&amp; tota ecclesia dei: &amp; in illa oratione 
+      <lb ed="#B" n="34"/>tenetur uelle ualere eam cum ilibet bono 
+      <lb ed="#B" n="35"/>&amp; malo ad bonum spirituale. Sicut enim 
+      <lb ed="#B" n="36"/>malus esset stomachus: quinollet 
+      susten<lb ed="#B" n="37" break="no"/>tationem suam ualere sustentationi 
+      ma<lb ed="#B" n="38" break="no"/>nus: ita non est bonum membrum in ec 
+      <lb ed="#B" n="39"/>clesia, qui nollet bonum actum suum, quem 
+      <lb ed="#B" n="40"/>habet: ualere omni membro ecclesiae 
+      pro<lb ed="#B" n="41" break="no"/>quanto deus illud acceptat: &amp; pro 
+      quan<lb ed="#B" n="42" break="no"/>to potest sibi, &amp; alijs ualere. Sic de 
+      bo<lb ed="#B" n="43" break="no"/>nis corporis, &amp; fortunae: nam de uita 
+      <lb ed="#B" n="44"/>corporalitenetur uelle quantum ad 
+      a<lb ed="#B" n="45" break="no"/>ctum interiorem eam inimico, &amp; quan 
+      <lb ed="#B" n="46"/>tum ad actum exteriorem (si posset) 
+      tene<lb ed="#B" n="47" break="no"/>tur eum saluare: dum non sit alius 
+      po<lb ed="#B" n="48" break="no"/>tens, &amp; uolens adiuuare: puta si esset mo 
+      <lb ed="#B" n="49"/>riturus fame: uel in flumine: &amp; nullus 
+      es<lb ed="#B" n="50" break="no"/>set, qui posset, uel uellet eum cibare, &amp; 
+      <lb ed="#B" n="51"/>eripere de aqua tenetur eum cibare, &amp; 
+      <!--330.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>eripere. secundum illud Amb. Fame 
+      pa<lb ed="#B" n="53" break="no"/>sce morientem: si non pauisti, occidisti. 
+      <lb ed="#B" n="54"/>Inimicus autem est frater, &amp; proximus: 
+      <lb ed="#B" n="55"/>ut patuit: ideo non minori charitate 
+      te<lb ed="#B" n="56" break="no"/>neor diligere inmmicum, quam proximum 
+      <lb ed="#B" n="57"/>quantum ad ea, quae sunt de 
+      necessita<lb ed="#B" n="58" break="no"/>te salutis: secus in alijs. Extra autem 
+      ca<lb ed="#B" n="59" break="no"/>sum necessitatis nullus tenetur uelle 
+      ini<lb ed="#B" n="60" break="no"/>mico: immo nec proximo diuitias, 
+      sa<lb ed="#B" n="61" break="no"/>nitate &amp;c. Numquam enim tenetur aliquis 
+      <lb ed="#B" n="62"/>uelle simpliciter: cuius oppositum potest 
+      <lb ed="#B" n="63"/>bene uelle. Possumus autemopposita scilicet 
+      pau<lb ed="#B" n="64" break="no"/>pertatem. infirmitatem nobis, &amp; alijs 
+      <lb ed="#B" n="65"/>bene uelle: ergo.
+    </p>
+            <p xml:id="gbs333-h72719-d1e1006">
+      ¶ Sexta conclusio. 
+      Ali<lb ed="#B" n="66" break="no"/>qua dilectione inimicorum magis 
+      meri<lb ed="#B" n="67" break="no"/>toria est amicorum dilectio: 
+      aliquami<lb ed="#B" n="68" break="no"/>nus meritoris: aliqua aeque meritoria: &amp; 
+      <lb ed="#B" n="69"/>econuerso. Probatur conclusio: quia 
+      <lb ed="#B" n="70"/>stat, quod ex eadem charitate, procedit 
+      dilectio<lb ed="#B" n="71" break="no"/>amicorum, &amp; inimicorum eadem: dico 
+      <lb ed="#B" n="72"/>secundum intensionem: &amp; tunc 
+      dilectio<lb ed="#B" n="73" break="no"/>nes illae amicorum, &amp; inimicorum, uel sunt  
+      <lb ed="#B" n="74"/>aequalis intensionis, quo ad gradum: aut 
+      <lb ed="#B" n="75"/>una excedit aliam. Si primum sic sunt 
+      <lb ed="#B" n="76"/>aeque meritoriae: quia ab aequali 
+      charita<lb ed="#B" n="77" break="no"/>te, &amp; aequo conatu uoluntatis aibae sunt, 
+      <lb ed="#B" n="78"/>elicitae, &amp; per consequens aeque merito 
+      <lb ed="#B" n="79"/>riae
+    </p>
+            <p xml:id="gbs333-h72719-d1e1039">
+      ¶ Tenet consequentia: quia ex his 
+      <lb ed="#B" n="80"/>duobus attenditur, &amp; ratio meriti, &amp; 
+      ra<lb ed="#B" n="81" break="no"/>tio quantitatis eiusdem: ut dictum est in 
+      <lb ed="#B" n="82"/>ulti. notabi. arti. i. Si uero illorum 
+      duo<lb ed="#B" n="83" break="no"/>rum actuum dilectionis unus excedit 
+      <lb ed="#B" n="84"/>alium: tunc excedens erit minoris 
+      me<lb ed="#B" n="85" break="no"/>riti: siue sit dilectio amici, siue inimici. 
+      <lb ed="#B" n="86"/>Sic etiam si amores illi fuerint eiusdem 
+      <lb ed="#B" n="87"/>intensionis, &amp; non a gratia eiusdem 
+      per<lb ed="#B" n="88" break="no"/>fectionis, sed unus a perfectiore: alius a 
+      <lb ed="#B" n="89"/>minus perfecta: tunc ille amor est 
+      perfe<lb ed="#B" n="90" break="no"/>ctior, qui procedit a perfectiore 
+      chari<lb ed="#B" n="91" break="no"/>tate, seu gratia, siue sit amici, siue 
+      inimi<lb ed="#B" n="92" break="no"/>ci. Si uero amores differunt, &amp; quo ad in 
+      <lb ed="#B" n="93"/>tensionem actus, &amp; quo ad perfectionem 
+      <lb ed="#B" n="94"/>gratiae: autintensior est a perfectiore 
+      <lb ed="#B" n="95"/>gratia, &amp; remissior a gratia minus 
+      per<lb ed="#B" n="96" break="no"/>fecta: aut amor intensior enta gra minus per 
+      <lb ed="#B" n="97"/>fecta: &amp; amor remissior a gratia 
+      perfe<lb ed="#B" n="98" break="no"/>ctiore. Siprimum: manifestum est, quod a 
+      <lb ed="#B" n="99"/>mor intensior est melior duplici 
+      ratio<lb ed="#B" n="100" break="no"/>ne: &amp; quia intensior, &amp; quia a gratia 
+      per<lb ed="#B" n="101" break="no"/>fectiore. Si secundum: tuc habent se 
+      ad<lb ed="#B" n="102" break="no"/>inuicem sicut excedentia, &amp; excessa: qie  
+      <!--331.xml-->
+      <pb ed="#B" n="300"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unus excedit alium in merito quantum 
+      <lb ed="#B" n="2"/>ad gratiam perfectiorem, a qua procedit: 
+      <lb ed="#B" n="3"/>exceditur autem quantum ad actus: sim 
+      <lb ed="#B" n="4"/>pliciter tamen ille uidetur perfectior, 
+      <lb ed="#B" n="5"/>qui procedit a gratia perfectiore: quia 
+      <lb ed="#B" n="6"/>ab ipsa gratia meritum principalius 
+      pen<lb ed="#B" n="7" break="no"/>det, quam a conatu uoluntatis: unde 
+      se<lb ed="#B" n="8" break="no"/>quitur intensio actus. Difficultas uero in 
+      <lb ed="#B" n="9"/>eliciendo amorem inimici nihil facit ad 
+      <lb ed="#B" n="10"/>rationem meriti: nisi pro quanto exigit 
+      <lb ed="#B" n="11"/>maiorem conatum liberi arbi. &amp; sic actum 
+      <lb ed="#B" n="12"/>intensiorem. Alioquin actus quanto 
+      ma<lb ed="#B" n="13" break="no"/>gis procedit a uirtute, quae reddit 
+      elicio<lb ed="#B" n="14" break="no"/>nem actus facilem: tanto minus esset 
+      me<lb ed="#B" n="15" break="no"/>ritorius; quod est absurdum.
+    </p>
+            <p xml:id="gbs333-h72719-d1e1130">
+      ¶ Quantum 
+      <lb ed="#B" n="16"/>ad articulum tertium, dubitatur utrum 
+      <lb ed="#B" n="17"/>dilectio prximi sit magis meritoria, quam 
+      <lb ed="#B" n="18"/>dilectio dei: &amp; uidetur quod sic: quia amor 
+      <lb ed="#B" n="19"/>proximi est magis fructuosus: quia 
+      per<lb ed="#B" n="20" break="no"/>tinet ad uitam actiuam, quae fructuosior 
+      <lb ed="#B" n="21"/>dicitur: &amp; ideo per Lyam foecundam de 
+      <lb ed="#B" n="22"/>signatur. Dilectio autem dei ad uitam 
+      <lb ed="#B" n="23"/>pertinet contemplatiuam: quae per 
+      Ra<lb ed="#B" n="24" break="no"/>chel infecundam figuratur. In 
+      oppo<lb ed="#B" n="25" break="no"/>situm: dilectio dei est fruitio: dilectio 
+      pro<lb ed="#B" n="26" break="no"/>ximi est usus. Fruitio autem perfectior 
+      <lb ed="#B" n="27"/>est: &amp; ita magis meritoria. Respondetur. 
+      <lb ed="#B" n="28"/>breuiter, quod dilectio dei ordinata sicut est 
+      <lb ed="#B" n="29"/>perfectior intensiue, &amp; extensiue 
+      dile<lb ed="#B" n="30" break="no"/>ctione quacunque creaturae: ita etiam 
+      ma<lb ed="#B" n="31" break="no"/>gis meritoria. Similiter proximus 
+      diligen<lb ed="#B" n="32" break="no"/>dus est propter deum dilectum: ut patet 
+      <lb ed="#B" n="33"/>ex supradictis: ergo deus est magis 
+      dili<lb ed="#B" n="34" break="no"/>gendus: per regulam topicam. Propter  
+      <lb ed="#B" n="35"/>quod unum quodque tale, &amp; ipsum magis. 
+      <lb ed="#B" n="36"/>Et de hoc satis dictum est dist. xxvij.
+    </p>
+            <p xml:id="gbs333-h72719-d1e1178">
+      ¶ Sed 
+      <lb ed="#B" n="37"/>ad rationem motam dicendum, quod uita 
+      <lb ed="#B" n="38"/>contemplatiua simpliciter est 
+      excellen<lb ed="#B" n="39" break="no"/>tior actiua: secundum illud Lucae. x. 
+      Ma<lb ed="#B" n="40" break="no"/>ria optimam partem elegit &amp;c. &amp; ita 
+      ma<lb ed="#B" n="41" break="no"/>gis meritoria. Quod uero actiua dicitur  
+      <lb ed="#B" n="42"/>magis fructuosa, non est uerum quantum 
+      <lb ed="#B" n="43"/>ad ipsum actiuum: sed quantum ad eos, 
+      <lb ed="#B" n="44"/>quibus beneficia exteriora impendit.  
+      <lb ed="#B" n="45"/>Sed de hoc alibi.
+    </p>
+            <p xml:id="gbs333-h72719-d1e1200">
+      ¶ Secundo dubitatur:  
+      <lb ed="#B" n="46"/>utrum quis teneatur dimittere signa ran 
+      <lb ed="#B" n="47"/>coris. Respondet sanctus Bonauentu. 
+      <lb ed="#B" n="48"/>in dubiis literalibus praesentis dist. quod 
+      a<lb ed="#B" n="49" break="no"/>liud est dimittere rancorem: &amp; aliud 
+      signa<lb ed="#B" n="50" break="no"/>rancoris. Ramcorem dimittere omnes 
+      tenen<lb ed="#B" n="51" break="no"/>tur: siue inimicus maneat inimicus, siue 
+      <!--331.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>non. Signa uero rancoris dimittere. ut  
+      <lb ed="#B" n="53"/>nolle loqui, &amp; similia facere cum 
+      inimi<lb ed="#B" n="54" break="no"/>co: haec quidem deponere perfectionis 
+      <lb ed="#B" n="55"/>est. Nec ad hoc tenetur homo: nisi quam 
+      <lb ed="#B" n="56"/>do inimicus humiliter, &amp; deuote 
+      postu<lb ed="#B" n="57" break="no"/>lauerit facto, uel signo: tunc tenetur 
+      ei<lb ed="#B" n="58" break="no"/>loqu, &amp; respondere &amp; similia. Sed de hoc  
+      <lb ed="#B" n="59"/>dubio, &amp; multis similibus: ut reconcilia 
+      <lb ed="#B" n="60"/>tione cum inimico, oratione pro eo, 
+      la<lb ed="#B" n="61" break="no"/>tius dixi in lectura canonis lcone. Ixxvi. 
+      <lb ed="#B" n="62"/>ideo hic rescindo. Et tantum 
+      dehac<lb ed="#B" n="63" break="no"/>quaestione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

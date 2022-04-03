@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="179"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h43884"> <!-- l3d20q1 -->
+            <head xml:id="gbs333-h43884-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h43884-d1e102">
+               <lb ed="#B" n="56"/>QVAESTIO VNICAn. 
+      <lb ed="#B" n="57"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="58"/>quaeritur, utrum 
+      reparatio<lb ed="#B" n="59" break="no"/>generis humani necessario 
+      <lb ed="#B" n="60"/>facta fuit per passionem 
+      ho<lb ed="#B" n="61" break="no"/>minis Christi.
+    </p>
+            <p xml:id="gbs333-h43884-d1e118">
+      ¶ Insolutione huius quae 
+      <lb ed="#B" n="62"/>stionis tres erunt articuli. Primus nota 
+      <lb ed="#B" n="63"/>bilium pro declarationibus terminorum. 
+      <lb ed="#B" n="64"/>Secundus conclusionum ad quaestionem 
+      <lb ed="#B" n="65"/>respondentium. Tertius dubiorum 
+      soluen<lb ed="#B" n="66" break="no"/>dorum.
+    </p>
+            <p xml:id="gbs333-h43884-d1e131">
+      ¶ Quantum ad primum nota, quod 
+      <lb ed="#B" n="67"/>beatus Ansel. can. archieps, hanc quaestio 
+      <lb ed="#B" n="68"/>nem soluendo in duobus libris. Cur deus 
+      <lb ed="#B" n="69"/>homo, quatuor per ordinem ostendere 
+      <lb ed="#B" n="70"/>nititur, per quae quaestio illa soluitur. Pri 
+      <lb ed="#B" n="71"/>mum, quod hominem ad beatitudinem 
+      crea<lb ed="#B" n="72" break="no"/>tum, &amp; a iustitia lapsum necesse fuit 
+      re<lb ed="#B" n="73" break="no"/>parari: nedeus in suo opere frustraret: 
+      <lb ed="#B" n="74"/>&amp; in uanum fecerit, quod de tam 
+      subli<lb ed="#B" n="75" break="no"/>mi natura facere cepit. lib. ij. e. iiij. 
+      Sece<lb ed="#B" n="76" break="no"/>dum, quod homo sine satis factione redim 
+      <lb ed="#B" n="77"/>non potuit: quia peccando honorem deo 
+      <lb ed="#B" n="78"/>abstulit, quem ut satis faciendo pro 
+      pec<lb ed="#B" n="79" break="no"/>cato redderet, debitor fuit: quadiu igit 
+      <lb ed="#B" n="80"/>non satisfecit, in cuspa fuit. Item deum 
+      <lb ed="#B" n="81"/>relinquere peccatum impunitum, 
+      inju<lb ed="#B" n="82" break="no"/>sium est, &amp; indecens. Si autem sine satis 
+      fa<lb ed="#B" n="83" break="no"/>ctione peccatum dimitteretur: impunitum 
+      <lb ed="#B" n="84"/>relinqueret Haec lib. j. ca. xj. &amp; 
+      sequenti<lb ed="#B" n="85" break="no"/>praesertim. c. xix. Nec impotentia satis 
+      fa<lb ed="#B" n="86" break="no"/>ciendi hominem excusat: quia sua 
+      spon<lb ed="#B" n="87" break="no"/>te in illam impotentiam cecidit. Nec 
+      sola<lb ed="#B" n="88" break="no"/>misericordia remittere potest sine satis 
+      fa<lb ed="#B" n="89" break="no"/>ctione; quia tunc dimitteretur peccatum 
+      <lb ed="#B" n="90"/>inordinatum: cum nihil aliud sit peccatum 
+      <lb ed="#B" n="91"/>sine satis factione ordinare, quamipsum 
+      <lb ed="#B" n="92"/>punire. In regno autem suo nihil potest inor 
+      <lb ed="#B" n="93"/>dinatum dimittere. Tertium, quod satis factio 
+      il<lb ed="#B" n="94" break="no"/>la fieri non potest nisi per hominem deum: 
+      <lb ed="#B" n="95"/>quia satis factio fieri non potest, nisi red 
+      <lb ed="#B" n="96"/>datur maius, quam sit illud, pro quo non 
+      <lb ed="#B" n="97"/>debuit peccate. Non debuit autem 
+      pro<lb ed="#B" n="98" break="no"/>tota creatura peccare: igitur maius 
+      <!--211.xml-->
+      <pb ed="#B" n="180"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aliquod tota creatura reddendum erat: 
+      <lb ed="#B" n="2"/>illud esse non potest nisi deus: nec de 
+      <lb ed="#B" n="3"/>buit nisi homo: igitur necesse est, ut 
+      ean<lb ed="#B" n="4" break="no"/>faciat deus homo: ut tangitc. xxi. lib. i. &amp; 
+      <lb ed="#B" n="5"/>lib. ij. c. v. &amp; vi. Quartu, oportuit deum 
+      <lb ed="#B" n="6"/>hominem satis facere per passionem, &amp; mor 
+      <lb ed="#B" n="7"/>tem: quia quiper suauitatem peccauit: per 
+      aspe<lb ed="#B" n="8" break="no"/>ritatem satis facere debet: ut lib. 13.c. 
+      <lb ed="#B" n="9"/>xi. &amp;c. xix. late quomodo ablatio uitae 
+      <lb ed="#B" n="10"/>sanctissimae per mortem, quam sponte 
+      pro<lb ed="#B" n="11" break="no"/>honore patris sustinuit; pro omnium 
+      pec<lb ed="#B" n="12" break="no"/>catis sufficientissime satisfecit.
+    </p>
+            <p xml:id="gbs333-h43884-d1e236">
+      ¶ Sed  
+      <lb ed="#B" n="13"/>quamuis rationes illae beati Ansel. 
+      de<lb ed="#B" n="14" break="no"/>uotae sint, &amp; apparentes: tamen nisi 
+      proce<lb ed="#B" n="15" break="no"/>dant ex ordinatione diuina 
+      praesuppo<lb ed="#B" n="16" break="no"/>sita, nihil probant. Dum autem ex illa 
+      <lb ed="#B" n="17"/>procedunt, inferunt quidem 
+      necessi<lb ed="#B" n="18" break="no"/>tatem consequentiae non consequentis: 
+      <lb ed="#B" n="19"/>quia sequitur, deus ita praeordinauit 
+      ho<lb ed="#B" n="20" break="no"/>mine redimi: ergo sic est redemptus. 
+      <lb ed="#B" n="21"/>Cum quanecessitate consequentiae stat  
+      <lb ed="#B" n="22"/>contingentia antecedentis, &amp; consequentis. 
+      <lb ed="#B" n="23"/>sicut necesse, est me moueri, si curro: quia 
+      <lb ed="#B" n="24"/>sequitur curro, igit moueor: &amp; tamen 
+      antece<lb ed="#B" n="25" break="no"/>deus est contingens similiter, &amp; 
+      conse<lb ed="#B" n="26" break="no"/>quens: non autem probant necessitatem 
+      <lb ed="#B" n="27"/>simpliciter dictam: neque redemptionis, 
+      <lb ed="#B" n="28"/>neque modi redimendi, cuius oppositum 
+      <lb ed="#B" n="29"/>includit contradictionem. off] Vnde quo ad 
+      <lb ed="#B" n="30"/>primum articulum non fuit simpliciter 
+      <lb ed="#B" n="31"/>necesse hominem reparari, sicut non fuit 
+      <lb ed="#B" n="32"/>necesse hominem creari.
+    </p>
+            <p xml:id="gbs333-h43884-d1e282">
+      ¶ Praeterea deus 
+      <lb ed="#B" n="33"/>potuit, &amp; posset omne rationalem 
+      crea<lb ed="#B" n="34" break="no"/>turam, siue beata, siue uiatrice, siue 
+      da<lb ed="#B" n="35" break="no"/>natam anibilare: nam sicut contingenter 
+      <lb ed="#B" n="36"/>creauit: ita contingenter conseruat. 
+      Po<lb ed="#B" n="37" break="no"/>test igit non conseruare, &amp; ita anihilare. 
+      <lb ed="#B" n="38"/>Et argumentum, quod fundatur in hoc,  
+      <lb ed="#B" n="39"/>ne deus in suo frustraret opere, &amp;c. ita 
+      <lb ed="#B" n="40"/>potest fieri de angelis apostatis, &amp; 
+      quo<lb ed="#B" n="41" break="no"/>libet prae cito. Nam cum quaelibet creatura 
+      <lb ed="#B" n="42"/>rationalis facta est a deo, ut beate 
+      uiue<lb ed="#B" n="43" break="no"/>ret cundeo: in his, quae beatitudinem non 
+      <lb ed="#B" n="44"/>attingunt, frustratur deus: non quantum ad 
+      <lb ed="#B" n="45"/>uoluntatem beneplaciti consequentem: 
+      secun<lb ed="#B" n="46" break="no"/>dum quam deus fecit, quaecunque uoluit in 
+      <lb ed="#B" n="47"/>caelo, &amp; in terta: sed quantum ad uoluntatem 
+      <lb ed="#B" n="48"/>antecedentem, secundum quam praecedentia 
+      <lb ed="#B" n="49"/>ad salutem contulit: qui quia praesciti ac 
+      <lb ed="#B" n="50"/>ceptare noluerunt, salutem 
+      consecuti<lb ed="#B" n="51" break="no"/>non sunt. Non ergo plus arguit illa ra¬ 
+      <!--211.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tio de toto genere humano, quam de 
+      <lb ed="#B" n="53"/>uno praescito: nec plus de specie, quam de 
+      <lb ed="#B" n="54"/>indiuiduo.
+    </p>
+            <p xml:id="gbs333-h43884-d1e337">
+      ¶ Similiter ratio quoad 
+      se<lb ed="#B" n="55" break="no"/>cundum non probat: nam sine satifactio 
+      <lb ed="#B" n="56"/>ne per solam non imputationem 
+      pec<lb ed="#B" n="57" break="no"/>catum remitti potuit: secundum illud. 
+      <lb ed="#B" n="58"/>Beatus uir, cui non imputauit dius peccatum 
+      <lb ed="#B" n="59"/>Nec perpeccatum aliquid in deo existens 
+      au<lb ed="#B" n="60" break="no"/>tertu: nec honor diuinus in se minuitur: 
+      <lb ed="#B" n="61"/>itaque non est, quod restitui potest deo: 
+      <lb ed="#B" n="62"/>sicut nihil auferri. Vnde non oportet 
+      <lb ed="#B" n="63"/>peccatorem in culpa manere, donec 
+      sa<lb ed="#B" n="64" break="no"/>tis faciat: sed donec deus satis 
+      factio<lb ed="#B" n="65" break="no"/>nem sibi, quae facienda esset, remittat: 
+      <lb ed="#B" n="66"/>nec si gratis temitteret peccatum sine 
+      <lb ed="#B" n="67"/>satis factione, aliquod inordinatum 
+      es<lb ed="#B" n="68" break="no"/>set in uniuerso: tuc enim aliquod 
+      inor<lb ed="#B" n="69" break="no"/>dinatum esset in uniuerso: quando 
+      ali<lb ed="#B" n="70" break="no"/>quid fieret, aut esset contra uoluntatem 
+      <lb ed="#B" n="71"/>dei beneplaciti. Sola enim uoluntas 
+      <lb ed="#B" n="72"/>dei est regula omnis ordinis, &amp; iustitiae: 
+      <lb ed="#B" n="73"/>ut uult Aug. iij. de trinit. &amp; ideo nihil 
+      <lb ed="#B" n="74"/>potest esse inordinatum in uniuerso: 
+      <lb ed="#B" n="75"/>quia nihilibi esse potest contra uoluntatem 
+      <lb ed="#B" n="76"/>dei. Et quod nunc peccatum uerius peccator 
+      <lb ed="#B" n="77"/>per poenam ordinatur, ita est: quia sic deo 
+      <lb ed="#B" n="78"/>placuit, &amp; hunc ordinem instituit, quem 
+      <lb ed="#B" n="79"/>tamen mutare posset.
+    </p>
+            <p xml:id="gbs333-h43884-d1e394">
+      ¶ Etiam esto, quod 
+      sa<lb ed="#B" n="80" break="no"/>tis factio poenalis esset necessaria ad pec- 
+      <lb ed="#B" n="81"/>cati remissionem: non tamen probatur, quod illa 
+      ne<lb ed="#B" n="82" break="no"/>cessario fieret per deum hominem: ut in 
+      ter<lb ed="#B" n="83" break="no"/>tio argumento probare nititur: nam non 
+      <lb ed="#B" n="84"/>fuit absolute necessarium, quod satis factio 
+      <lb ed="#B" n="85"/>fieret per hominem: licet solus ho debitor 
+      <lb ed="#B" n="86"/>fuit: quia qui non est debitor, potest 
+      pro<lb ed="#B" n="87" break="no"/>alio satis sacere. Nam &amp; christus satis 
+      fe<lb ed="#B" n="88" break="no"/>cit, qui non fuit debitor: &amp; ita si 
+      placuis<lb ed="#B" n="89" break="no"/>set deo, potuit unus angelus bonus 
+      sa<lb ed="#B" n="90" break="no"/>tis fecisse, osterendo deo aliquod 
+      placi<lb ed="#B" n="91" break="no"/>tum pro nobis, quod acceptasset pro 
+      om<lb ed="#B" n="92" break="no"/>nibus peccatis: cum (ut praecedenti dist. 
+      <lb ed="#B" n="93"/>dictum est) tanta acceptabile est 
+      om<lb ed="#B" n="94" break="no"/>ne donum bonum, pro quanto deus 
+      <lb ed="#B" n="95"/>uoluerit accepaare. Sic &amp; purus homo, 
+      <lb ed="#B" n="96"/>quem deus sine peccato cum summa 
+      gra<lb ed="#B" n="97" break="no"/>tia produxisset, latis facere potuisset: nec 
+      <lb ed="#B" n="98"/>propter hoc obligarentur redempti tamen 
+      <lb ed="#B" n="99"/>ei, sicut deo: immo simpliciter obligarem 
+      <lb ed="#B" n="100"/>tur deo: quia quod ipse haberet, esset 
+      to<lb ed="#B" n="101" break="no"/>tum a deo. Obligaremur tamen multum sibi, 
+      si<lb ed="#B" n="102" break="no"/>cut obligamur beatae uirgini, &amp; alijs 
+      <!--212.xml-->
+      <pb ed="#B" n="181"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sanctis, quimeruerunt nobis: &amp; sanctis 
+      <lb ed="#B" n="2"/>angelis, qui nos custodiunt, semper 
+      ta<lb ed="#B" n="3" break="no"/>men finaliter, &amp; summe obligamur deo 
+      <lb ed="#B" n="4"/>tanquam ei, a quo omnia bona aliorum 
+      <lb ed="#B" n="5"/>prouenerunt.
+    </p>
+            <p xml:id="gbs333-h43884-d1e464">
+      ¶ Item de possibili quilibet  
+      <lb ed="#B" n="6"/>satis facere potuit pro se, si data fuisset 
+      <lb ed="#B" n="7"/>prima gratia sine merito: sicut data 
+      <lb ed="#B" n="8"/>est Christo sine merito proprio, &amp; 
+      a<lb ed="#B" n="9" break="no"/>lieno: quia licet modo quilibet 
+      fue<lb ed="#B" n="10" break="no"/>rit filius irae: dat tamen primam 
+      gra<lb ed="#B" n="11" break="no"/>tia sine merito proprio, qua habita 
+      me<lb ed="#B" n="12" break="no"/>retur beatitudinem; ergo potuit &amp; 
+      me<lb ed="#B" n="13" break="no"/>ruisse delet onem culpae, ut arguit Sco. 
+      <lb ed="#B" n="14"/>Sed hic dici posset, quod per actum elicitum 
+      <lb ed="#B" n="15"/>a gratia nullus meretur deletionem cul 
+      <lb ed="#B" n="16"/>pae: quia infusione gratiae culpa deletur: 
+      <lb ed="#B" n="17"/>etiam nullo adhuc actu elicito. Et quod 
+      <lb ed="#B" n="18"/>dicit beatus Ansel. quod non satis sit deo, 
+      <lb ed="#B" n="19"/>nisi offseratur aliquid maius, quam tota 
+      <lb ed="#B" n="20"/>creatura: quia quam sit illud, pro quo pec- 
+      <lb ed="#B" n="21"/>care non debuit. Si illud intelligitur de 
+      <lb ed="#B" n="22"/>maiori bono formaliter secundum 
+      per<lb ed="#B" n="23" break="no"/>fectionem: sic satis fuisset offerre maius 
+      <lb ed="#B" n="24"/>bonum deo in acceptatione eius: quam 
+      <lb ed="#B" n="25"/>fuisset malum illius hominis peccantis: 
+      <lb ed="#B" n="26"/>ita oblata satis factio magis 
+      placuis<lb ed="#B" n="27" break="no"/>set, quam peccatum displicuisset. Vnde 
+      si<lb ed="#B" n="28" break="no"/>Adam per gratiam datam, &amp; charitatem 
+      ha<lb ed="#B" n="29" break="no"/>buisset unum, uel multos actus 
+      diligen<lb ed="#B" n="30" break="no"/>di deum propter se ex maiori conatu li 
+      <lb ed="#B" n="31"/>beri arbitrij, quam fuit conatus in pec- 
+      <lb ed="#B" n="32"/>cando: talis conatus suffecisset ad 
+      remis<lb ed="#B" n="33" break="no"/>sionem peccati: nam sicut pro amore 
+      crea<lb ed="#B" n="34" break="no"/>turae ut obiecti diligibilis peccauit: quod 
+      <lb ed="#B" n="35"/>pro tota creatura facere non debuit: ita 
+      <lb ed="#B" n="36"/>offerendo aliquid maius objectiue, quam 
+      <lb ed="#B" n="37"/>sit tota creatura, scilicet amorem dei 
+      pro<lb ed="#B" n="38" break="no"/>pter se: qui excedit obiectiue totius 
+      crea<lb ed="#B" n="39" break="no"/>turae amorem (sicut deus creaturam) 
+      sa<lb ed="#B" n="40" break="no"/>tis facere potuit. Vnde sicut peccauit per 
+      <lb ed="#B" n="41"/>amorem obiecti in infinitum ignobilio 
+      <lb ed="#B" n="42"/>ris: ita potuit fatis facere per amorem 
+      <lb ed="#B" n="43"/>objecti in infinitum nobilioris: &amp; hoc  
+      <lb ed="#B" n="44"/>acceptari potuisset a deo, ut sufficiens 
+      <lb ed="#B" n="45"/>fatis factio, si ita deo placuisset: &amp; tamen 
+      <lb ed="#B" n="46"/>ille amor dei non fuisset maior 
+      omni<lb ed="#B" n="47" break="no"/>creatura: sicut nec amor Christi, quo 
+      <lb ed="#B" n="48"/>nobis meruit salutem, fuit maior 
+      omni<lb ed="#B" n="49" break="no"/>creatura: quia non maior humanitate 
+      <lb ed="#B" n="50"/>christi, quae fuit creatura nec maior 
+      <lb ed="#B" n="51"/>gratia Christi; nec maior seipso amo¬ 
+      <!--212.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>re, qui fuit creatura. Ex eodem patet, 
+      <lb ed="#B" n="53"/>quodquartum non probat: quia sicut suaui  
+      <lb ed="#B" n="54"/>tas in peccato fuit finita: ita per 
+      ama<lb ed="#B" n="55" break="no"/>ritudinem finitam compensare potuit  
+      <lb ed="#B" n="56"/>uoluptatem, quamtamen non oportuit 
+      <lb ed="#B" n="57"/>esse summam: sicut nec delectatio in pec- 
+      <lb ed="#B" n="58"/>cando fuit summa, &amp; sicut peccando suam 
+      <lb ed="#B" n="59"/>uoluntatem praetulit uoluntati diuinae 
+      <lb ed="#B" n="60"/>praeceptiue: ita mortificando 
+      uolunta<lb ed="#B" n="61" break="no"/>tem suam per plenam uoluntatem 
+      uolun<lb ed="#B" n="62" break="no"/>tati diuinae potuisset satis facere de 
+      pos<lb ed="#B" n="63" break="no"/>sibili. Et ita patet, quod rationes beati 
+      An<lb ed="#B" n="64" break="no"/>sel. non demonstrant simpliciter: sed tam 
+      <lb ed="#B" n="65"/>tum stante lege aeterna, qua ab aeterno 
+      <lb ed="#B" n="66"/>ordinauit hominem casurum sic debere 
+      <lb ed="#B" n="67"/>reparari: quae tamen ordinatio, sicut &amp; 
+      <lb ed="#B" n="68"/>praedestinatio non fuit simpliciter 
+      ne<lb ed="#B" n="69" break="no"/>cessaria: sed mere contingens dependens 
+      <lb ed="#B" n="70"/>ex libera uoluntate dei, cui licet, quod  
+      <lb ed="#B" n="71"/>uult facere.
+    </p>
+            <p xml:id="gbs333-h43884-d1e614">
+      ¶ Quantum ad articulum 
+      <lb ed="#B" n="72"/>secundum est conclusio prima. Sicut  
+      <lb ed="#B" n="73"/>non fuit necessaria reparatio 
+      humani<lb ed="#B" n="74" break="no"/>generis: ita nec modus ille 
+      redemptio<lb ed="#B" n="75" break="no"/>nis. Primum patet: quia nullum opus dei 
+      <lb ed="#B" n="76"/>ad extra est simpliciter necessarium: cum 
+      <lb ed="#B" n="77"/>de us ad extra nonisi contingenter agit: 
+      <lb ed="#B" n="78"/>sed reparatio fuit opus ad extra: ergo. 
+      <lb ed="#B" n="79"/>Praeterea deus potuit genus humanum 
+      <lb ed="#B" n="80"/>non redimere, sicut potuit non creare: 
+      <lb ed="#B" n="81"/>ergo. Secunda pars probatur per beatum 
+      <lb ed="#B" n="82"/>Augustinum, &amp; Leonempapam 
+      dicen<lb ed="#B" n="83" break="no"/>tes, quod alius modus redimendi hominem 
+      <lb ed="#B" n="84"/>non defuit deo: ut patet in textu. Et 
+      sa<lb ed="#B" n="85" break="no"/>tis patet probatio utriusque partis 
+      conclu<lb ed="#B" n="86" break="no"/>sionis ex improbatione rationum 
+      bea<lb ed="#B" n="87" break="no"/>ti Anselmi episcopi.
+    </p>
+            <p xml:id="gbs333-h43884-d1e652">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="88" break="no"/>sio. Modus redemptionis per unigeniti 
+      <lb ed="#B" n="89"/>passionem fuit congruentissimus 
+      om<lb ed="#B" n="90" break="no"/>nium modorum, quibus redimi potuit  
+      <lb ed="#B" n="91"/>humanum genus. Probatur: quia ille mo 
+      <lb ed="#B" n="92"/>dus praeuisus est, &amp; praeordinatus ab 
+      in<lb ed="#B" n="93" break="no"/>finita sapientia trinitatis, &amp; ex nimia 
+      di<lb ed="#B" n="94" break="no"/>lectione hoins: sicut dicit apos. Ephes. ij. 
+      <lb ed="#B" n="95"/>Deus, qui diues est in misericordia 
+      pro<lb ed="#B" n="96" break="no"/>pter nimiam charitatem suam, 
+      quadi<lb ed="#B" n="97" break="no"/>lexit nos, cum essemus mortui peccatis 
+      <lb ed="#B" n="98"/>comuiuificauit nos in Christo, cuius 
+      gra<lb ed="#B" n="99" break="no"/>tia estis saluati. Ideo eum modum, 
+      or<lb ed="#B" n="100" break="no"/>dinauit, qui magis homini profuit; &amp; 
+      <lb ed="#B" n="101"/>congruentior fuit. Huius autem 
+      con<lb ed="#B" n="102" break="no"/>gruentiae uarias causas ponunt sancti, 
+      <!--213.xml-->
+      <pb ed="#B" n="182"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quarum aliquas, &amp; bene notabiles ponit 
+      <lb ed="#B" n="2"/>magister in textu, alias quoque adducunt  
+      <lb ed="#B" n="3"/>doctores, sanctus Tho. sanctus Bonauem. 
+      <lb ed="#B" n="4"/>Alex. &amp; caeteri. Et tantum de illo 
+      arti<lb ed="#B" n="5" break="no"/>culo.
+    </p>
+            <p xml:id="gbs333-h43884-d1e704">
+      ¶ Quantum ad articulum tertium est 
+      <lb ed="#B" n="6"/>dubium, quomodo Christus nos sua 
+      pas<lb ed="#B" n="7" break="no"/>sione, &amp; morte redemit. Respondetur se 
+      <lb ed="#B" n="8"/>cundum Sco. quod Christus sponte animam 
+      <lb ed="#B" n="9"/>suam obtulit pro iustitia ad patris 
+      ho<lb ed="#B" n="10" break="no"/>norem pro nobis, quam oblationem, pater 
+      <lb ed="#B" n="11"/>acceptauit, tanqua satis factionem 
+      pro<lb ed="#B" n="12" break="no"/>omnium peccatis. Vidit enim Christus 
+      <lb ed="#B" n="13"/>mala iudaeorum, quae fecerunt, pro 
+      qui<lb ed="#B" n="14" break="no"/>bus eos arguit: &amp; quomodo 
+      inordina<lb ed="#B" n="15" break="no"/>ta, &amp; distorta affectione afficiebantur ad 
+      <lb ed="#B" n="16"/>legem dei: ut quod suam statuerunt in 
+      frau<lb ed="#B" n="17" break="no"/>dem diuinae legis: ut patet de honore 
+      <lb ed="#B" n="18"/>parentum, &amp; iuramento in atrio templi: 
+      <lb ed="#B" n="19"/>nec permitrebant hominem curari in sab 
+      <lb ed="#B" n="20"/>bato: cum ipsi extraherent bouem 
+      depu<lb ed="#B" n="21" break="no"/>teo in sabbato: &amp; multa alia. Christus 
+      er<lb ed="#B" n="22" break="no"/>go uoluit eos ab illo errore reuocare 
+      <lb ed="#B" n="23"/>per opera, &amp; sermonem: unde ait. Si 
+      ue<lb ed="#B" n="24" break="no"/>ritatem dico uobis: quare non crediti, 
+      <lb ed="#B" n="25"/>mihi. Io. viij. spsosque in fide errantes, &amp; 
+      <lb ed="#B" n="26"/>scripturas male intelligentes instruere; 
+      <lb ed="#B" n="27"/>quod audire nolebant. Et cum ueritas 
+      <lb ed="#B" n="28"/>eis protunc erat dicenda, maluit mori, 
+      <lb ed="#B" n="29"/>quam tacere. Dicendo autem eis 
+      con<lb ed="#B" n="30" break="no"/>tra eorum uota in iusta: mortale odium 
+      <lb ed="#B" n="31"/>eorum incurrit, &amp; mortem sustinuit. Hoc 
+      <lb ed="#B" n="32"/>ergo uelle mortem pro iustitia, &amp; patris 
+      <lb ed="#B" n="33"/>obedientia, libere ordinauit pro nobis. 
+      <lb ed="#B" n="34"/>i. uoluit, ut trinitas hanc suam 
+      obedien<lb ed="#B" n="35" break="no"/>tiam, patientiam, &amp; mortis uoluntariam 
+      <lb ed="#B" n="36"/>sustinentiam acceptaret pro satis 
+      factio<lb ed="#B" n="37" break="no"/>nepeccatorum niunium in se 
+      creden<lb ed="#B" n="38" break="no"/>tium, &amp; legem dei obseruatium: ut sic 
+      tri<lb ed="#B" n="39" break="no"/>nitatis honor: &amp; laus ex hominibus, 
+      <lb ed="#B" n="40"/>&amp; in terris, &amp; perpetuo in beatitudine 
+      <lb ed="#B" n="41"/>impleretur. Hanc Christi oblationem 
+      tri<lb ed="#B" n="42" break="no"/>nitas sic acceptauit pro omnium 
+      pecca<lb ed="#B" n="43" break="no"/>tis remittendis quantum eunque 
+      graui<lb ed="#B" n="44" break="no"/>bus, &amp; multis: etiam pro peccato 
+      cru<lb ed="#B" n="45" break="no"/>cifigentium: quoniam ex maiori 
+      cha<lb ed="#B" n="46" break="no"/>ritate processit Christi actus, &amp; 
+      obla<lb ed="#B" n="47" break="no"/>tio; quam fuerit odium Iudaeorum 
+      cru<lb ed="#B" n="48" break="no"/>cifigentium. Et feruentior, atque 
+      in<lb ed="#B" n="49" break="no"/>tensior fuit conuetsio animae 
+      Christi<lb ed="#B" n="50" break="no"/>pen actualem amorem in deum, quam 
+      <lb ed="#B" n="51"/>audesio Iudaeorum, &amp; quotumcunque  
+      <!--213.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>peccatorum per amorem sui a deo. 
+      Ma<lb ed="#B" n="53" break="no"/>iorque reuerentia Christi, quam contem 
+      <lb ed="#B" n="54"/>ptus transgressorum. &amp; ideo magis deo 
+      <lb ed="#B" n="55"/>placuit actus Christi, &amp; oblatio in 
+      bo<lb ed="#B" n="56" break="no"/>no quam displicuerunt sibi peccata 
+      om<lb ed="#B" n="57" break="no"/>nium hominum in malo.
+    </p>
+            <p xml:id="gbs333-h43884-d1e824">
+      ¶ Secundo 
+      du<lb ed="#B" n="58" break="no"/>bitatur contra secundam conclusionem, 
+      <lb ed="#B" n="59"/>Nam non uidetur, quod ille modus fuit 
+      con<lb ed="#B" n="60" break="no"/>gruentissimus quia ille uidetur 
+      cogrue<lb ed="#B" n="61" break="no"/>tissimus, propter quem magis deo 
+      obli<lb ed="#B" n="62" break="no"/>gati fuissemus: sed si non fuisset alius 
+      mo<lb ed="#B" n="63" break="no"/>dus redemptionis possibilis: nec per alium: 
+      <lb ed="#B" n="64"/>tunc magis deo obligaremur. Si enim 
+      <lb ed="#B" n="65"/>aliquis bonum aliquod acceptum ab 
+      <lb ed="#B" n="66"/>uno posset etiam ab alijs recepisse: 
+      mi<lb ed="#B" n="67" break="no"/>nus obligaretur illi, a quo accepit: quam 
+      <lb ed="#B" n="68"/>si ab eo solo recipere potuisset: sic etiam 
+      <lb ed="#B" n="69"/>de modo redemptionis. Respondetur, quod 
+      <lb ed="#B" n="70"/>ratio illa magis est ad oppositum: nam 
+      <lb ed="#B" n="71"/>multo magis tenemur deo: eo qod Christi 
+      <lb ed="#B" n="72"/>stus alio modo redimere potuit: &amp; hunc 
+      <lb ed="#B" n="73"/>poenale modum redimendi propter nos 
+      <lb ed="#B" n="74"/>elegit, quo magis ad fructum 
+      redem<lb ed="#B" n="75" break="no"/>ptionis aptaremur: cum tamen alio 
+      mi<lb ed="#B" n="76" break="no"/>nus paenali modo nos potuisset 
+      redime<lb ed="#B" n="77" break="no"/>re: nam per hunc modum, quo nobis 
+      <lb ed="#B" n="78"/>palam ostendit amorem suum per hoc, 
+      <lb ed="#B" n="79"/>in nullo pater filio pepercit: sed nec 
+      <lb ed="#B" n="80"/>filius sibi ipsi nos ualidissime ad suum 
+      amo<lb ed="#B" n="81" break="no"/>rem allexit, sine quo amore nihil nobis 
+      <lb ed="#B" n="82"/>prodesset eius redemptio: unde nihil 
+      ma<lb ed="#B" n="83" break="no"/>gis indiguit ad amandum, quam amor 
+      <lb ed="#B" n="84"/>praeueniens: ut pulchre ostendit Aug. in 
+      <lb ed="#B" n="85"/>de cathe. rudibus. Vnde durissimus est, 
+      <lb ed="#B" n="86"/>quem redamare piget prius amantem. 
+      <lb ed="#B" n="87"/>Denique etsi per alium potuit fieri 
+      reden<lb ed="#B" n="88" break="no"/>ptio: tamen in hoc magis tenetur 
+      ho<lb ed="#B" n="89" break="no"/>mo deo: quia facta est per deum. ut non 
+      <lb ed="#B" n="90"/>spter sui redemptionem homo tenere 
+      <lb ed="#B" n="91"/>tur alteri, licet principaliter non 
+      pos<lb ed="#B" n="92" break="no"/>set redimi nisi a deo: quia redemptio 
+      <lb ed="#B" n="93"/>principaliter consistit in acceptione 
+      <lb ed="#B" n="94"/>operis tanquam meriti salutis 
+      om<lb ed="#B" n="95" break="no"/>nium: quae acceptatio solius 
+      <lb ed="#B" n="96"/>dei est. Et tantum de 
+      <lb ed="#B" n="97"/>illa 
+      quaestio<lb ed="#B" n="98" break="no"/>ne. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

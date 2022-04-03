@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h26470"> <!-- l3d11prae -->
+            <head xml:id="gbs333-h26470-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h26470-d1e102">
+               <lb ed="#B" n="67"/>DISTINCTIO XI. 
+      <lb ed="#B" n="68"/>CTERMINaTO de 
+      <lb ed="#B" n="69"/>idiomatibus (quantum 
+      <lb ed="#B" n="70"/>ad ea, quae conueniunt 
+      <lb ed="#B" n="71"/>personae ratione 
+      na<lb ed="#B" n="72" break="no"/>turae) dicentibus 
+      di<lb ed="#B" n="73" break="no"/>gnitatem. 
+      Conse<lb ed="#B" n="74" break="no"/>quenter agit de his, 
+      <lb ed="#B" n="75"/>quae sonant in defectum: quae uidelicet im 
+      <lb ed="#B" n="76"/>portant inceptionem, uel 
+      peccabilita<lb ed="#B" n="77" break="no"/>tem inquirens an talia attribuenda sint  
+      <lb ed="#B" n="78"/>personae Christi. Et primo quantum ad 
+      <lb ed="#B" n="79"/>hoc idioma, quod est creatura dilic. 
+      prae<lb ed="#B" n="80" break="no"/>senti. Deinde quantum ad alia defectum 
+      <lb ed="#B" n="81"/>importantia distin. xij. Sententia autem 
+      <lb ed="#B" n="82"/>huius distin. his conclusionibus 
+      conti<lb ed="#B" n="83" break="no"/>netur.
+    </p>
+            <p xml:id="gbs333-h26470-d1e141">
+      ¶ Prima. Simpliciter, &amp; absque 
+      <lb ed="#B" n="84"/>determinatione non est concedendum 
+      <lb ed="#B" n="85"/>Christum esse creaturam, factum, uel 
+      <lb ed="#B" n="86"/>creatum.
+    </p>
+            <p xml:id="gbs333-h26470-d1e150">
+      ¶ Secunda. Christum esse 
+      crea<lb ed="#B" n="87" break="no"/>turam asseruit Arrij perfidia: ideo 
+      cre<lb ed="#B" n="88" break="no"/>puit medius:, &amp; eius effusa sunt uiscera. 
+      </p>
+            <p xml:id="gbs333-h26470-d1e158">
+               <lb ed="#B" n="89"/>¶ Tertia. Christum secundum humanam 
+      <lb ed="#B" n="90"/>naturam, creaturam existere 
+      concedi<lb ed="#B" n="91" break="no"/>poterit catholice. Declaratio 
+      remitti<lb ed="#B" n="92" break="no"/>tur ad textum.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

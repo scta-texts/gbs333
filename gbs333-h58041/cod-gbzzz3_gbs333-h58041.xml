@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="236"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h58041"> <!-- l3d24prae -->
+            <head xml:id="gbs333-h58041-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h58041-d1e102">
+      <!--267.xml-->
+               <pb ed="#B" n="236"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XXIm. 
+      <lb ed="#B" n="2"/>IN superiori 
+      distin<lb ed="#B" n="3" break="no"/>ctione magister egit 
+      <lb ed="#B" n="4"/>de fide quantum ad 
+      <lb ed="#B" n="5"/>eius substantiam, 
+      ha<lb ed="#B" n="6" break="no"/>bitum scilicet &amp; actum. 
+      <lb ed="#B" n="7"/>In hac dist. xxiiij. agit 
+      <lb ed="#B" n="8"/>de eadem quantum 
+      <lb ed="#B" n="9"/>ad objectum: hoc est quantum ad ipsa 
+      <lb ed="#B" n="10"/>credibilia. Vnde inquirit; an de uisis, &amp; 
+      <lb ed="#B" n="11"/>cognitis possit esset fides. Et stat 
+      senten<lb ed="#B" n="12" break="no"/>tia textus in his tribus conclusionibus. 
+      </p>
+            <p xml:id="gbs333-h58041-d1e137">
+               <lb ed="#B" n="13"/>¶ Prima. Licet fides improprie accepta. 
+      <lb ed="#B" n="14"/>qua non aedificamur in christo, sit de 
+      <lb ed="#B" n="15"/>uisis: proprie tamen tantum est de non 
+      <lb ed="#B" n="16"/>apparentibus: nec euidenter cognitis. 
+      </p>
+            <p xml:id="gbs333-h58041-d1e148">
+               <lb ed="#B" n="17"/>¶ Secunda. Petrus fide non cognouit 
+      <lb ed="#B" n="18"/>hominem christum pati, quem 
+      morio<lb ed="#B" n="19" break="no"/>culis uidit: sed deum fore, qui passus est, 
+      <lb ed="#B" n="20"/>fide credidit: quod corporis sensibus 
+      <lb ed="#B" n="21"/>non percipit.
+    </p>
+            <p xml:id="gbs333-h58041-d1e162">
+      ¶ Tertia, sunt quaedam, quae 
+      <lb ed="#B" n="22"/>sciri, &amp; intelligi non possunt: nisi prius 
+      <lb ed="#B" n="23"/>credantur: &amp; sunt, quae credi non possunt: 
+      <lb ed="#B" n="24"/>nisi prius intelligantur. Intelligantur 
+      di<lb ed="#B" n="25" break="no"/>cit ex parte, non perfecte: quia quod 
+      pe<lb ed="#B" n="26" break="no"/>nitus ignoratur, credi non potest. Has 
+      <lb ed="#B" n="27"/>conclusiones latius prosequitur in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

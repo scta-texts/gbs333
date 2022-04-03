@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="158"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h38768"> <!-- l3d17prae -->
+            <head xml:id="gbs333-h38768-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h38768-d1e102">
+               <lb ed="#B" n="81"/>DISTINCTIO XVIi. 
+      <lb ed="#B" n="82"/>¶ POstquam magister egit 
+      <lb ed="#B" n="83"/>de passione in se quam 
+      <lb ed="#B" n="84"/>tum ad eius possibi 
+      <lb ed="#B" n="85"/>litatem, &amp; ueritatem. 
+      <lb ed="#B" n="86"/>Consequenter 
+      de<lb ed="#B" n="87" break="no"/>terminat de eadem 
+      <lb ed="#B" n="88"/>uantum ad eius 
+      ef<lb ed="#B" n="89" break="no"/>fectum: inquirendo eius meritum, &amp; 
+      uti<lb ed="#B" n="90" break="no"/>litatem. Et circa hoc duo facit. Primo 
+      <lb ed="#B" n="91"/>de uoluntate, quae est merendi 
+      princi<lb ed="#B" n="92" break="no"/>pium inuestigat dist. praesenti. Secundo 
+      <lb ed="#B" n="93"/>de ipso merito passionis christi 
+      determi<lb ed="#B" n="94" break="no"/>nat dist. xviij. Sententia autem huius 
+      <lb ed="#B" n="95"/>dist. in his tribus abbreuiatur 
+      conclusio<lb ed="#B" n="96" break="no"/>nibus.
+    </p>
+            <p xml:id="gbs333-h38768-d1e139">
+      ¶ Prima secundum duas naturas 
+      <lb ed="#B" n="97"/>in christo plures sunt uoluntates in eo. 
+      </p>
+            <p xml:id="gbs333-h38768-d1e144">
+               <lb ed="#B" n="98"/>¶ Secunda coclusio. Christus affectu 
+      ra<lb ed="#B" n="99" break="no"/>tionis, idem quod diuina uoluntate scilicet 
+      <lb ed="#B" n="100"/>pati, &amp; mori uolebat: sed affectu sensuali  
+      <!--190.xml-->
+      <pb ed="#B" n="159"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tatis haec noluit: immo refugpiebat.  
+      </p>
+            <p xml:id="gbs333-h38768-d1e163">
+               <lb ed="#B" n="2"/>¶ Tertia conclusio. Vt membris formam 
+      <lb ed="#B" n="3"/>praeberet imminente turbatione clamam 
+      <lb ed="#B" n="4"/>di ad dominum, christus pro eo orauit  
+      <lb ed="#B" n="5"/>ad patrem: quod illum nouerat non 
+      factu<lb ed="#B" n="6" break="no"/>rum. Has prosequitur latius in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

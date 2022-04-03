@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="289"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h71171"> <!-- l3d29q1 -->
+            <head xml:id="gbs333-h71171-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h71171-d1e102">
+               <lb ed="#B" n="56"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="57"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="58"/>quaeritur, utrum ordinis ob 
+      <lb ed="#B" n="59" break="no"/>seruatio circa diligibilia 
+      dile<lb ed="#B" n="60" break="no"/>ctione gratuita sit ad salutem 
+      <lb ed="#B" n="61"/>consequendam necessaria.
+    </p>
+            <p xml:id="gbs333-h71171-d1e118">
+      ¶ Tribus 
+      ar<lb ed="#B" n="62" break="no"/>ticulis haec quaestio absoluetur. Primus 
+      <lb ed="#B" n="63"/>terminos declavabit. Secundus per 
+      con<lb ed="#B" n="64" break="no"/>clusiones respondebit. Tertius dubia 
+      <lb ed="#B" n="65"/>monebit.
+    </p>
+            <p xml:id="gbs333-h71171-d1e129">
+      ¶ Quantum ad primum, 
+      no<lb ed="#B" n="66" break="no"/>tandum, ordo charitatis, quo illud 
+      <lb ed="#B" n="67"/>primo: istud secundo &amp;c. diligitur: in 
+      <lb ed="#B" n="68"/>proposito non dicit ordinem 
+      tempo<lb ed="#B" n="69" break="no"/>ris: sed perfectionis. Potest autem 
+      per<lb ed="#B" n="70" break="no"/>fectio illa dupliciter attendi: scilices 
+      <lb ed="#B" n="71"/>quantum ad charitatis affectum idest 
+      <lb ed="#B" n="72"/>actum charitatis elicitum, uel 
+      delecta<lb ed="#B" n="73" break="no"/>tionem consequentem: uel quantum 
+      <lb ed="#B" n="74"/>ad effectum id est quantum ad actum 
+      impe<lb ed="#B" n="75" break="no"/>ratum, quo effectus alicui beneficij im 
+      <lb ed="#B" n="76"/>penditur amato: &amp; illa se non 
+      necessa<lb ed="#B" n="77" break="no"/>rio consequuntur: quia potest aliquis 
+      <lb ed="#B" n="78"/>actu multum intenso alicui impendere 
+      <lb ed="#B" n="79"/>modicum bonum, qualia sunt bona 
+      con<lb ed="#B" n="80" break="no"/>potis, &amp; fortunae, quae minima sunt 
+      se<lb ed="#B" n="81" break="no"/>cundum beatum Augu. Et potest quis 
+      <lb ed="#B" n="82"/>affectu remisso alicui uelle impendi 
+      maxi<lb ed="#B" n="83" break="no"/>ma bona scilicet beatitudinem, &amp; 
+      gra<lb ed="#B" n="84" break="no"/>tiam. Hic tamen notentur dicta su 
+      pra<lb ed="#B" n="85" break="no"/>dist. xxvij de excessu amoris unius super 
+      <lb ed="#B" n="86"/>alium: quia perfectio actus charitatis 
+      <lb ed="#B" n="87"/>non debet hic artendi secundum 
+      inten<lb ed="#B" n="88" break="no"/>sionem actus gradualem simpliciter: sed  
+      <lb ed="#B" n="89"/>magis secundum appraeciationem actus: 
+      <lb ed="#B" n="90"/>uel quia fortior, &amp; firmior: &amp; est penc 
+      <lb ed="#B" n="91"/>idem: ut dictum est loco, quo supra.
+    </p>
+            <p xml:id="gbs333-h71171-d1e189">
+      ¶ Se 
+      <lb ed="#B" n="92"/>cundo notandum, quod secundum beatum 
+      <lb ed="#B" n="93"/>Amb. ut tangit magister in textu: ordo 
+      <lb ed="#B" n="94"/>diligendorum sic assignatur. Ait enim super 
+      <lb ed="#B" n="95"/>Can. c. ii. super illud. Ordinauit in me 
+      cha<lb ed="#B" n="96" break="no"/>ritatem. Multorum charitas inordinata c 
+      <lb ed="#B" n="97"/>est: quod in primo est, ponunt tertio, uel 
+      <lb ed="#B" n="98"/>q uarto. Primo deus diligendus est. Se¬ 
+      <!--321.xml-->
+      <pb ed="#B" n="290"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cundo parentes: inde filij; post 
+      domesti<lb ed="#B" n="2" break="no"/>ci, qui si sint bom: malis filijs sunt 
+      prae<lb ed="#B" n="3" break="no"/>ponendi. Hoc in euangelio ad 
+      cuiusti<lb ed="#B" n="4" break="no"/>bet dilectionem proprium ponit. Diliges 
+      <lb ed="#B" n="5"/>dominum deum tuum ex toto corde 
+      <lb ed="#B" n="6"/>tuo, &amp; ex tota anima tua, &amp; ex omnibus 
+      <lb ed="#B" n="7"/>uiribus tuis; &amp; proximum tuum sicut 
+      te<lb ed="#B" n="8" break="no"/>ipsum. Et inimicos non ex tota uirtute: 
+      <lb ed="#B" n="9"/>non sicut teipsum; sed simpliciter: 
+      suffi<lb ed="#B" n="10" break="no"/>cit enim, quod diligamus: &amp; non odio 
+      ha<lb ed="#B" n="11" break="no"/>beamus. Haec Amb. Quae auctoritas 
+      per<lb ed="#B" n="12" break="no"/>conclusiones infra positas est 
+      declaran<lb ed="#B" n="13" break="no"/>da.
+    </p>
+            <p xml:id="gbs333-h71171-d1e241">
+      ¶ Tertio notandum post sanctum 
+      Bo<lb ed="#B" n="14" break="no"/>na, quod dilectio gratuita non semper 
+      con<lb ed="#B" n="15" break="no"/>cordat dilectioni naturali: nam gratia quam 
+      <lb ed="#B" n="16"/>doque currit cum natura, uia consona, quam 
+      <lb ed="#B" n="17"/>doque uia opposita: quandoque uia 
+      diuer<lb ed="#B" n="18" break="no"/>sa. In hoc enim; quod homo pius diligit se, 
+      <lb ed="#B" n="19"/>quam proximum: concordat naturae 
+      gra<lb ed="#B" n="20" break="no"/>tia. In hoc, quod plus diligit se, quam deu 
+      na<lb ed="#B" n="21" break="no"/>turae repugnat gratia. In hoc, oplus 
+      dili<lb ed="#B" n="22" break="no"/>git filium, quam patrem, currit natura 
+      di<lb ed="#B" n="23" break="no"/>uersa uia a gratia: hoc est, quod gratia adue 
+      <lb ed="#B" n="24"/>niens in primo affectu, seu dilectione, 
+      <lb ed="#B" n="25"/>quo homo plus se, quam proximum 
+      dili<lb ed="#B" n="26" break="no"/>git: ordinem saluat. In secundo 
+      simpli<lb ed="#B" n="27" break="no"/>citer mutat, &amp; facit hominem deum 
+      prae<lb ed="#B" n="28" break="no"/>ponere sibi. In tertiouero nouum 
+      ordi<lb ed="#B" n="29" break="no"/>nem dat: quia facit teplus diligere 
+      pa<lb ed="#B" n="30" break="no"/>rentem, quam filium: &amp; tamen illum 
+      affe<lb ed="#B" n="31" break="no"/>ctum ad filium non exterminat. Credo enim 
+      <lb ed="#B" n="32"/>ait sanctus Bona.) quod aliquis, qui habet 
+      <lb ed="#B" n="33"/>parentes, &amp; filios dum mouetur affectu 
+      <lb ed="#B" n="34"/>gratuite dilectio, magis desiderat parem 
+      <lb ed="#B" n="35"/>tum salutem: &amp; tamen affectu naturae 
+      ma<lb ed="#B" n="36" break="no"/>gis desiderat filij sanitatem. Ex illo sequi  
+      <lb ed="#B" n="37"/>tur, quod inclinatio naturalis non est 
+      sem<lb ed="#B" n="38" break="no"/>per recta: neque uoluntas conformans 
+      se<lb ed="#B" n="39" break="no"/>inclinationi naturali, est semper recta. 
+      <lb ed="#B" n="40"/>Inclinatio enim naturalis est ad 
+      conser<lb ed="#B" n="41" break="no"/>uationem suppositi: etiam in tempore 
+      <lb ed="#B" n="42"/>persecutionis, dum pro christi nomine 
+      <lb ed="#B" n="43"/>moriendum est: &amp; uoluntas tunc se 
+      con<lb ed="#B" n="44" break="no"/>formans naturali inclinationi distorta 
+      <lb ed="#B" n="45"/>est: &amp; non recta. Item appetitus sensitiuus 
+      <lb ed="#B" n="46"/>naturalis est: quia non liber: &amp; 
+      tamen<lb ed="#B" n="47" break="no"/>manifestum est, quod uoluntas se illi 
+      con<lb ed="#B" n="48" break="no"/>formans frequenter est uitiosa, &amp; non 
+      <lb ed="#B" n="49"/>recta; sed uoluntas conformans se 
+      se<lb ed="#B" n="50" break="no"/>gi naturae: hoc est principiis practicis 
+      <lb ed="#B" n="51"/>per se notis, quae secundum apostolum 
+      <!--321.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ad Roman. ij. scripta est in cordibus 
+      ho<lb ed="#B" n="53" break="no"/>minum, illa est recta. Et ad hunc sensum 
+      <lb ed="#B" n="54"/>oportet trahere dictum, beati Tho. 
+      dis<lb ed="#B" n="55" break="no"/>praesenti. iij. scripto: qui eum uoluerit sal 
+      <lb ed="#B" n="56"/>uare: &amp; per hoc multa argumenta 
+      cau<lb ed="#B" n="57" break="no"/>tus lector soluere potest. De hoc latius 
+      <lb ed="#B" n="58"/>dictum est dist. vj. libri. ij.
+    </p>
+            <p xml:id="gbs333-h71171-d1e345">
+      ¶ Quantum ad 
+      <lb ed="#B" n="59"/>articulum secundum est conclusio 
+      pri<lb ed="#B" n="60" break="no"/>ma. Ordo debitus charitatis requiritur 
+      <lb ed="#B" n="61"/>necessitate salutis. Probatur: quia 
+      dili<lb ed="#B" n="62" break="no"/>gens non diligenda: aut aeque diligens, 
+      <lb ed="#B" n="63"/>quod minus, uel amplius diligendum est: 
+      <lb ed="#B" n="64"/>aut minus, uel amplius: quod aeque 
+      dili<lb ed="#B" n="65" break="no"/>gendum est: contra ordinem diligit: ut 
+      <lb ed="#B" n="66"/>dicit Aug. &amp; per consequens contra 
+      le<lb ed="#B" n="67" break="no"/>gem charitatis peccat. Tenet consequem 
+      <lb ed="#B" n="68"/>tia: quia lex, siue praeceptum charitatis 
+      <lb ed="#B" n="69"/>est maximum praeceptorum, a quo caete 
+      <lb ed="#B" n="70"/>ra dependent: &amp; ideo transgressio eius 
+      <lb ed="#B" n="71"/>est culpa mortalis. Antecedens probatur:  
+      <lb ed="#B" n="72"/>quia non solum actus charitatis: sed etiam 
+      <lb ed="#B" n="73"/>&amp; ordo, &amp; modus est in praecepto. Vnde 
+      <lb ed="#B" n="74"/>dicitur. Diliges dominum deum tuum 
+      ex<lb ed="#B" n="75" break="no"/>toto corde tuo &amp;c. &amp; proximum tuum 
+      <lb ed="#B" n="76"/>sicut teipsum. Item probatur 
+      conclusio<lb ed="#B" n="77" break="no"/>auctoritate magistri in textu. Peccat, in 
+      <lb ed="#B" n="78"/>quit, qui praepostere agit, nam scire, quid 
+      <lb ed="#B" n="79"/>facias: &amp; nescire ordinem faciendi: non 
+      <lb ed="#B" n="80"/>est perfectae cognitionis. Ordinis namque  
+      <lb ed="#B" n="81"/>gnorantia conturbat meritorum 
+      for<lb ed="#B" n="82" break="no"/>mam. Item secundum Diony. &amp; 
+      philoso<lb ed="#B" n="83" break="no"/>phum. Bonum est ex causa integra: 
+      ma<lb ed="#B" n="84" break="no"/>lum autem unifariam. Ideo cuiuscunque  
+      <lb ed="#B" n="85"/>defectus circumstantiae inesse debitae red 
+      <lb ed="#B" n="86"/>dit actum uitiosum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e408">
+      ¶ Secunda conclusio.  
+      <lb ed="#B" n="87"/>Deus primo, &amp; prae omnibus affectiue &amp; 
+      <lb ed="#B" n="88"/>effectiue est diligendus. Haec 
+      conclusio<lb ed="#B" n="89" break="no"/>latis probata est supra. dist. xxvii. Item 
+      <lb ed="#B" n="90"/>in deo est ratio bonitatis plenissima: 
+      <lb ed="#B" n="91"/>quia bonitas infinita, cui nulla ratio 
+      bo<lb ed="#B" n="92" break="no"/>nitatis creaturae comparari potest: ut 
+      po<lb ed="#B" n="93" break="no"/>te infinite excedens omnem bonitatem 
+      <lb ed="#B" n="94"/>creatam: ita etiam nullus actus ordinatus 
+      di<lb ed="#B" n="95" break="no"/>ligendi creaturam, potest adaequare in 
+      <lb ed="#B" n="96"/>perfectione dilectionem dei 
+      charitati<lb ed="#B" n="97" break="no"/>uam. Est ergo diligendus super omnem 
+      <lb ed="#B" n="98"/>creaturam.
+    </p>
+            <p xml:id="gbs333-h71171-d1e437">
+      ¶ Tertia conclusio. 
+      Om<lb ed="#B" n="99" break="no"/>nia ex charitate diligenda citra deum: 
+      <lb ed="#B" n="100"/>aeque sunt diligenda quantum ad 
+      obie<lb ed="#B" n="101" break="no"/>ctum principale dilecto uolendum. 
+      <lb ed="#B" n="102"/>Probatur conclusio: quia &amp; nobis, 
+      <!--322.xml-->
+      <pb ed="#B" n="291"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; proximis, amicis, &amp; inimicis 
+      luolen<lb ed="#B" n="2" break="no"/>dum est, ut beatifice possideant deum. 
+      <lb ed="#B" n="3"/>Optanda est omnibus gloria, &amp; gratia. 
+      <lb ed="#B" n="4"/>ut uult beatus August. Allegans illud 
+      <lb ed="#B" n="5"/>apostoli. Volo omnes uos homines esse: 
+      <lb ed="#B" n="6"/>sicut meipsum j. Corinth. vij. Et dix 
+      <lb ed="#B" n="7"/>notanter quantum ad objectum 
+      princi<lb ed="#B" n="8" break="no"/>pale: quia non ita oportet de obiectis 
+      <lb ed="#B" n="9"/>secundariis, scilicet medijs ad finem: 
+      <lb ed="#B" n="10"/>quia quantum ad huiusmodi particula 
+      <lb ed="#B" n="11"/>ria bona possunt plus, uel minus uelle 
+      <lb ed="#B" n="12"/>uni, quam alteri: ut uni conuersionem a 
+      <lb ed="#B" n="13"/>malo: alteri conseruationem in bono. 
+      </p>
+            <p xml:id="gbs333-h71171-d1e483">
+               <lb ed="#B" n="14"/>¶ Quarta conclusio. Quilibet charita 
+      <lb ed="#B" n="15"/>tiue diligens plus debet diligere seipsum 
+      <lb ed="#B" n="16"/>charitate affectiua, &amp; effectiua, quam quae 
+      <lb ed="#B" n="17"/>cumque alia creata. Probatur secundum 
+      <lb ed="#B" n="18"/>sanctum Bonauent. quia secundum 
+      re<lb ed="#B" n="19" break="no"/>ctum rationis iudicium, magis 
+      diligen<lb ed="#B" n="20" break="no"/>da est salus propria, quam aliena: &amp; 
+      bo<lb ed="#B" n="21" break="no"/>num proprium, quam proximi: ergo &amp;c. 
+      <lb ed="#B" n="22"/>Consequentia nota. Antecedens 
+      pro<lb ed="#B" n="23" break="no"/>batur: quia una quaeque res magis 
+      appe<lb ed="#B" n="24" break="no"/>tit perfectionem in se ipsa, qua in suo si 
+      <lb ed="#B" n="25"/>mili: &amp; ideo habens charitatem per 
+      ean<lb ed="#B" n="26" break="no"/>plus appetit deum uniri sibi: &amp; se in 
+      ip<lb ed="#B" n="27" break="no"/>sum per charitatem tendere: &amp; in eo 
+      <lb ed="#B" n="28"/>quiescere: quam hoc appetat in alio.
+    </p>
+            <p xml:id="gbs333-h71171-d1e519">
+      ¶ Si 
+      <lb ed="#B" n="29"/>dicis: charitas non quaerit, quae sua sunt se 
+      <lb ed="#B" n="30"/>cundum apostolum j. Corinth. x. &amp; 
+      <lb ed="#B" n="31"/>xiij. Dicendum uerum est tantum se 
+      <lb ed="#B" n="32"/>cundum glos. hoc est: nemo quaerit, quae 
+      <lb ed="#B" n="33"/>sua sunt cum iactura, aut scandalo cete 
+      <lb ed="#B" n="34"/>rorum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e535">
+      ¶ Aliter probat Scotus hanc 
+      <lb ed="#B" n="35"/>conclusionem: quia ubi plures 
+      concur<lb ed="#B" n="36" break="no"/>runt rationes dilectionis: maior esse de 
+      <lb ed="#B" n="37"/>bet dilectio: sed principales rationes 
+      di<lb ed="#B" n="38" break="no"/>lectionis sunt unitas, &amp; bonitas. In 
+      seip<lb ed="#B" n="39" break="no"/>so autem post rationem bonitatis 
+      infi<lb ed="#B" n="40" break="no"/>nitae, in quo perfectissima ratio bonita 
+      <lb ed="#B" n="41"/>tis concurrit: est alia ratio maxima, 
+      sci<lb ed="#B" n="42" break="no"/>licet unitatis quae est perfecta identitas. 
+      <lb ed="#B" n="43"/>Quilibet enim naturaliter inclinatur 
+      <lb ed="#B" n="44"/>ad suiipsius dilectionem post bonum in 
+      <lb ed="#B" n="45"/>finitum: in quo est perfectissima 
+      ratio<lb ed="#B" n="46" break="no"/>bonitatis.
+    </p>
+            <p xml:id="gbs333-h71171-d1e564">
+      ¶ Aliter probat. Nam 
+      cha<lb ed="#B" n="47" break="no"/>ritas ex hoc, quod est principium immedia 
+      <lb ed="#B" n="48"/>tum tendendi in deum actu recto: est 
+      <lb ed="#B" n="49"/>principium uolendi cuilibet 
+      uoluntati<lb ed="#B" n="50" break="no"/>potenti diligere deum, quod diligat deum: 
+      <lb ed="#B" n="51"/>&amp; in hoc est principsum reflectendi su¬ 
+      <!--322.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>per actus illos, quibus tenditur in deum: 
+      <lb ed="#B" n="53"/>&amp; in hoc principium uolendi cuilibet  
+      <lb ed="#B" n="54"/>potenti diligere deum, quod diligat deum: 
+      <lb ed="#B" n="55"/>cuius amor est sibi gratus, uel non 
+      displi<lb ed="#B" n="56" break="no"/>cens: &amp; in hoc est principium 
+      diligendi<lb ed="#B" n="57" break="no"/>proximum: nam idem est habitus, qui est 
+      <lb ed="#B" n="58"/>principium actus recti, &amp; reflexi. Inter 
+      <lb ed="#B" n="59"/>omnes autem actus eiusdem rationis 
+      tem<lb ed="#B" n="60" break="no"/>dentes in deum, principium 
+      immedia<lb ed="#B" n="61" break="no"/>tissimum reffectendisuper actum, quem 
+      <lb ed="#B" n="62"/>elicit: est ille actus, quo habens 
+      chari<lb ed="#B" n="63" break="no"/>tatem diligit deum: ergo post deum: 
+      <lb ed="#B" n="64"/>immediate uult quis ex charitate 
+      il<lb ed="#B" n="65" break="no"/>lud diligere, quo tendit in deum 
+      <lb ed="#B" n="66"/>sine quo uult se diligere deum. In 
+      uo<lb ed="#B" n="67" break="no"/>lendo se diligere deum diligit seipsum 
+      <lb ed="#B" n="68"/>ex charitate: quia uult sibi bonum 
+      iusti<lb ed="#B" n="69" break="no"/>tiae: ergo immediate post dilectionem dei 
+      <lb ed="#B" n="70"/>diligit se ex charitate. Haec Scot. Sed  
+      <lb ed="#B" n="71"/>dictum illud Sco. si intelligitur de 
+      habi<lb ed="#B" n="72" break="no"/>tu infuso sustineri potest: quia ut 
+      praedi<lb ed="#B" n="73" break="no"/>ctum est: unus est habitus infusus 
+      cha<lb ed="#B" n="74" break="no"/>ritatis respectu omnium recte 
+      diligibi<lb ed="#B" n="75" break="no"/>lium: siue actus diligendi se, &amp; proximum 
+      <lb ed="#B" n="76"/>sit actus refsexus, siue rectus. Possum. enim 
+      <lb ed="#B" n="77"/>meritorie diligere proximum 
+      uolendo<lb ed="#B" n="78" break="no"/>sibi remissionem peccatorum: uolendo 
+      si<lb ed="#B" n="79" break="no"/>bi gratiam, ac caetera dona gratuita: 
+      im<lb ed="#B" n="80" break="no"/>mo &amp; bona temporalia, sanitatem, 
+      di<lb ed="#B" n="81" break="no"/>uitias, uita, ordinando in finem ultimum 
+      <lb ed="#B" n="82"/>actu recto: &amp; ad talem dilectionem 
+      in<lb ed="#B" n="83" break="no"/>clinat habitus infusus mediate; uel 
+      im<lb ed="#B" n="84" break="no"/>mediate secundum duas uias sup. dist. 
+      pro<lb ed="#B" n="85" break="no"/>xima positas.
+    </p>
+            <p xml:id="gbs333-h71171-d1e655">
+      ¶ Si uero intelligitur de 
+      <lb ed="#B" n="86"/>habitu acquisito: sic dictum suum no uidet 
+      <lb ed="#B" n="87"/>habere ueritatem: quoniam uniuersaliter 
+      <lb ed="#B" n="88"/>habitus diuersorum actuum specie distincto 
+      <lb ed="#B" n="89"/>rum etiam specie distinguuntur. Actus autem 
+      <lb ed="#B" n="90"/>rectus, &amp; reflexus specie distinguuntur: 
+      <lb ed="#B" n="91"/>cum sint obiectorum specie 
+      distincto<lb ed="#B" n="92" break="no"/>rum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e673">
+      ¶ Verum quia actus rectus est tam 
+      <lb ed="#B" n="93"/>actus reffexi, sicut obiectum 
+      cognitio<lb ed="#B" n="94" break="no"/>nis suae: ita nabitus actus recti: quia est 
+      <lb ed="#B" n="95"/>causa causae (puta actus recti, qui est 
+      cau<lb ed="#B" n="96" break="no"/>sa actus refsexi) aliquo modo est causa 
+      <lb ed="#B" n="97"/>mediata actus reflexi: nihilominus 
+      a<lb ed="#B" n="98" break="no"/>ctus reffexus frequentatus generat 
+      ha<lb ed="#B" n="99" break="no"/>bitum immediate ad actum refsexum 
+      in<lb ed="#B" n="100" break="no"/>clinantem specie distinctum ab 
+      habitu<lb ed="#B" n="101" break="no"/>actus recti.
+    </p>
+            <p xml:id="gbs333-h71171-d1e695">
+      ¶ Quinta conclusio. 
+      Se<lb ed="#B" n="102" break="no"/>cundum ordinem gratuitae dilectionis 
+      <!--323.xml-->
+      <pb ed="#B" n="292"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>praeponendi sunt parentes filiis: &amp; quam 
+      <lb ed="#B" n="2"/>tum ad amorem affectiuum simul, &amp; 
+      ef<lb ed="#B" n="3" break="no"/>fectiuum. Intelligenda est autem haec 
+      <lb ed="#B" n="4"/>conclusio, sicut &amp; praecedens, caeteris 
+      <lb ed="#B" n="5"/>paribus quantum ad effectiuum amorem 
+      <lb ed="#B" n="6"/>scilicet beneficij exhibitionem. Nam 
+      <lb ed="#B" n="7"/>in casu necessitatis extraneus 
+      praeferen<lb ed="#B" n="8" break="no"/>dus est sibi ipsi, parentibus, filiis, &amp; 
+      pro<lb ed="#B" n="9" break="no"/>pinquis. Probatur conclusio: quia 
+      me<lb ed="#B" n="10" break="no"/>moria beneficiorum receptorum 
+      pro<lb ed="#B" n="11" break="no"/>pter uirtutem gratitudinis auget 
+      amo<lb ed="#B" n="12" break="no"/>rem gratuitum. Nam uirrutes morales 
+      <lb ed="#B" n="13"/>non opponuntur charitati: sed magis 
+      <lb ed="#B" n="14"/>per eam formantur: &amp; actum charitatis 
+      <lb ed="#B" n="15"/>reddunt perfectiorem. Nam actus a 
+      plu<lb ed="#B" n="16" break="no"/>ribus uirtutibus procedens perfectior 
+      <lb ed="#B" n="17"/>est: quam si ab una sola procederet: sed 
+      <lb ed="#B" n="18"/>plura beneficia accipiunt filij a 
+      parenti<lb ed="#B" n="19" break="no"/>bus, &amp; maiora, quam econuerso: quia esse 
+      <lb ed="#B" n="20"/>naturale nutritionem, &amp; disciplinam, 
+      <lb ed="#B" n="21"/>quae parentes non recipiunt a filiis: 
+      er<lb ed="#B" n="22" break="no"/>go &amp;c. Nec impedit, quod filiinaturaliter 
+      <lb ed="#B" n="23"/>plus diliguntur a parentibus: quia sunt 
+      <lb ed="#B" n="24"/>quasi aliquid parentum: quia (ut dictum 
+      <lb ed="#B" n="25"/>est notabili ii) dilectio naturalis non 
+      <lb ed="#B" n="26"/>semper concordat dilectioni gratuitae. 
+      </p>
+            <p xml:id="gbs333-h71171-d1e764">
+               <lb ed="#B" n="27"/>¶ Sexta conclusio. Dilectione 
+      gratuita<lb ed="#B" n="28" break="no"/>magis diligendi sunt propinqui caeteris 
+      <lb ed="#B" n="29"/>paribus quam remoti. Probatur: quia ubi  
+      <lb ed="#B" n="30"/>plures concurrunt rationes diligedi, uel 
+      <lb ed="#B" n="31"/>potiores: ibi dilectio debet esse maior: 
+      <lb ed="#B" n="32"/>sed in propinquis concurrit maior 
+      con<lb ed="#B" n="33" break="no"/>iunctio, &amp; unio, quam remotis: tum quia 
+      <lb ed="#B" n="34"/>intensius secundum appraeciationem 
+      di<lb ed="#B" n="35" break="no"/>liguntur: tum quia pluribus rationibus 
+      di<lb ed="#B" n="36" break="no"/>liguntur: ergo caeteris paribus magis sunt, 
+      <lb ed="#B" n="37"/>diligendi isti, quam illi.
+    </p>
+            <p xml:id="gbs333-h71171-d1e790">
+      ¶ Ad 
+      intelligen<lb ed="#B" n="38" break="no"/>dum in particularioribus charitatis 
+      or<lb ed="#B" n="39" break="no"/>dinem aduertendum, quod multae sunt 
+      ra<lb ed="#B" n="40" break="no"/>tiones diligenai. Prima &amp; 
+      principalis<lb ed="#B" n="41" break="no"/>sima est bonitas rei, quae perfectissima 
+      <lb ed="#B" n="42"/>est in deo: quia infinita: ideo deus 
+      sim<lb ed="#B" n="43" break="no"/>pliciter super omnia diligendus: ut 
+      di<lb ed="#B" n="44" break="no"/>ctum est: sine hac ratione nihil est 
+      dili<lb ed="#B" n="45" break="no"/>gibile: ideo communiter ponitur 
+      bo<lb ed="#B" n="46" break="no"/>num esse objectum uoluntatis. Poss 
+      <lb ed="#B" n="47"/>hanc potior ratio est unitas amantis ac 
+      <lb ed="#B" n="48"/>amatum. Et haec multiplex. Quaedam 
+      <lb ed="#B" n="49"/>identitatis: &amp; haec perfectissima in 
+      <lb ed="#B" n="50"/>amante ad seipsum: ideo seipsum plus 
+      <lb ed="#B" n="51"/>aliis diligit. Quaedam originis: quia 
+      <!--323.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>unus ab alio: sicut filius, &amp; pater: uel 
+      <lb ed="#B" n="53"/>ab eodem tertio, sicut caeteri 
+      consan<lb ed="#B" n="54" break="no"/>guinei. Quaedam 
+      communicabilita<lb ed="#B" n="55" break="no"/>tis secundum uarias species 
+      commu<lb ed="#B" n="56" break="no"/>nicationis in natura, in una patria, in 
+      <lb ed="#B" n="57"/>una domo, in uno officio, in una 
+      so<lb ed="#B" n="58" break="no"/>cietate, in uirtute, in gratia, in 
+      expe<lb ed="#B" n="59" break="no"/>ctata beatitudine: &amp; sic de alijs quam 
+      <lb ed="#B" n="60"/>plurimis. Et secundum quod plures, uel 
+      <lb ed="#B" n="61"/>potiores rationes communitatis simul 
+      <lb ed="#B" n="62"/>concurrunt in uno diligibili: 
+      secun<lb ed="#B" n="63" break="no"/>dum hoc magis diligendum est 
+      affecti<lb ed="#B" n="64" break="no"/>ue. Et quia maiorem affectum 
+      sequi<lb ed="#B" n="65" break="no"/>tur maior beneficentiae effectus caeteris 
+      <lb ed="#B" n="66"/>paribus id est si fuerit aequa necessitas non 
+      <lb ed="#B" n="67"/>maior in uno, quam in alio etiam magis 
+      <lb ed="#B" n="68"/>diligendum est effectiue. Nec sola 
+      uni<lb ed="#B" n="69" break="no"/>tas amantis, &amp; amati: sed etiam unitas 
+      <lb ed="#B" n="70"/>alicuius ad amatum ratio est diligendi: 
+      <lb ed="#B" n="71"/>unde diligens amicum, diligit omnia 
+      <lb ed="#B" n="72"/>coniuncta amico: &amp; secundum hoc 
+      gra<lb ed="#B" n="73" break="no"/>tia, per quam quis unitur deo summe 
+      dile<lb ed="#B" n="74" break="no"/>cto: ratio est gratuitae dilectionis. Et  
+      <lb ed="#B" n="75"/>quia fiae rationes sunt etiam rationes 
+      <lb ed="#B" n="76"/>naturalis dilectionis: &amp; in his gratia non 
+      <lb ed="#B" n="77"/>discordat naturae: ideo sunt etiam cum 
+      gra<lb ed="#B" n="78" break="no"/>tia rationes gratuitae dilectionis: &amp; 
+      secun<lb ed="#B" n="79" break="no"/>dum hoc dilectiones habent se ut 
+      exce<lb ed="#B" n="80" break="no"/>dens, &amp; excessa: ut quandoque dilectio 
+      pro<lb ed="#B" n="81" break="no"/>pinquorum excedit dilectionem 
+      extraneo<lb ed="#B" n="82" break="no"/>rum. Quandoque excedit: ut quamdo in 
+      extra<lb ed="#B" n="83" break="no"/>neis aliae rationes concurrut, quae non 
+      in<lb ed="#B" n="84" break="no"/>ueniuntur in propinquis: ut bonitas 
+      iusti<lb ed="#B" n="85" break="no"/>tiae: secundum quod Amb. dicit: quod domestici 
+      <lb ed="#B" n="86"/>si sint boni: malis filijs sunt 
+      praeponen<lb ed="#B" n="87" break="no"/>di. Et secundum hoc pletique, cum quae 
+      <lb ed="#B" n="88"/>ritur: quis quo magis sit diligendus: sub 
+      <lb ed="#B" n="89"/>distinctione respondent: maxime dum 
+      <lb ed="#B" n="90"/>in his, quae adinuicem comparantur: 
+      di<lb ed="#B" n="91" break="no"/>uersae rationes diligendi reperiuntur.  
+      <lb ed="#B" n="92"/>Queadmodum regulariter tenet beatus 
+      <lb ed="#B" n="93"/>Tho. unde ii. ii. q. xxvi. art. vii. ubi satis 
+      <lb ed="#B" n="94"/>clare materiam hanc prosequitu, quaerit: 
+      <lb ed="#B" n="95"/>utrum magis diligendi sint 
+      coniunctio<lb ed="#B" n="96" break="no"/>res, quam meliores. Respondet in 
+      ef<lb ed="#B" n="97" break="no"/>fectu, quod actus diligendi proportionari 
+      <lb ed="#B" n="98"/>debet obiecto, &amp; agenti. Obiectum 
+      cha<lb ed="#B" n="99" break="no"/>ritatiuae dilectionis est deus: agens est 
+      <lb ed="#B" n="100"/>diligens. Actus ergo charitatis 
+      quan<lb ed="#B" n="101" break="no"/>tum ad objectum sequitui 
+      compara<lb ed="#B" n="102" break="no"/>tionem eius, quoad deum, ut scilicet ei, qui est 
+      <!--324.xml-->
+      <pb ed="#B" n="293"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>deo propinquior maius bonum ex 
+      cha<lb ed="#B" n="2" break="no"/>ritate uelimus: &amp; hoc ad charitatem 
+      <lb ed="#B" n="3"/>pertinet: ut uelit iustitiam dei 
+      serua<lb ed="#B" n="4" break="no"/>re, secundum quam meliores 
+      perfe<lb ed="#B" n="5" break="no"/>ctius beatitudinem participant. Sed  
+      <lb ed="#B" n="6"/>intensio dilectionis est attendenda per 
+      <lb ed="#B" n="7"/>comparationem ad ipsum hominem, 
+      <lb ed="#B" n="8"/>qui diligit: &amp; secundum hoc illos, qui  
+      <lb ed="#B" n="9"/>sunt sibi propinquiores intensiori 
+      asse<lb ed="#B" n="10" break="no"/>ctu diligit ad illud bonum, ad quod 
+      om<lb ed="#B" n="11" break="no"/>nes diligit, quam meliores ad maius 
+      ho<lb ed="#B" n="12" break="no"/>num.
+    </p>
+            <p xml:id="gbs333-h71171-d1e970">
+      ¶ Septima conclusio. Gratuita. 
+      <lb ed="#B" n="13"/>dilectione magis sunt diligendi 
+      extra<lb ed="#B" n="14" break="no"/>nei boni, quam propinqui mali: secus 
+      <lb ed="#B" n="15"/>tamen dilectione naturali. Probatur  
+      <lb ed="#B" n="16"/>conclusio prima parte: quia ratio 
+      dile<lb ed="#B" n="17" break="no"/>ctionis gratuitae magis locum habet in 
+      <lb ed="#B" n="18"/>extraneis bonis, quam propinquis 
+      ma<lb ed="#B" n="19" break="no"/>lis: ergo. Consequentia nota. &amp; 
+      ante<lb ed="#B" n="20" break="no"/>cedens probatur: quia tota ratio 
+      diligen<lb ed="#B" n="21" break="no"/>di creatura gratuite est: quia deus uult 
+      <lb ed="#B" n="22"/>eas a nobis diligi: ut sup. dist. 
+      praeceden<lb ed="#B" n="23" break="no"/>ti (de obiecto adaequato charitatis, quid 
+      <lb ed="#B" n="24"/>est deus: &amp; quicquid deus uult propter 
+      <lb ed="#B" n="25"/>se a nobis diligi natum participare 
+      no<lb ed="#B" n="26" break="no"/>biscum in beatitudine) dictum est. Sed 
+      <lb ed="#B" n="27"/>deus magis uult a nobis diligi, quos 
+      ip<lb ed="#B" n="28" break="no"/>se magis diligit: magis autem diligit 
+      <lb ed="#B" n="29"/>bonos, quam malos. Major patet: 
+      <lb ed="#B" n="30"/>quia uult nos sibi conformate in 
+      uoli<lb ed="#B" n="31" break="no"/>to nobis noto: sed notum est, quod 
+      bo<lb ed="#B" n="32" break="no"/>num magis diligit, quam malum. Hoc 
+      <lb ed="#B" n="33"/>ergo uolendo, magis diligimus bonum, 
+      <lb ed="#B" n="34"/>quam malum: quia maius bonum eis 
+      <lb ed="#B" n="35"/>nolumus, dilectionem scilicet dei, qui  
+      <lb ed="#B" n="36"/>est sibi maximum bonum. Item bonus 
+      <lb ed="#B" n="37"/>extraneus est coniunctior deo, quam 
+      <lb ed="#B" n="38"/>malus propinquus: ergo &amp;c. Tenet 
+      <lb ed="#B" n="39"/>consequentia: quia magis unitus 
+      dile<lb ed="#B" n="40" break="no"/>cto, magis est diligendus propter deum. 
+      <lb ed="#B" n="41"/>Antecedens est manifestum. Pro 
+      se<lb ed="#B" n="42" break="no"/>cunda parte probatur: quia maior est 
+      <lb ed="#B" n="43"/>unio propinqui ad diligendum, quam 
+      <lb ed="#B" n="44"/>extranei. Dilectio autem naturalis ut  
+      <lb ed="#B" n="45"/>plurimum sequitur unionem amati ad 
+      <lb ed="#B" n="46"/>amatum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1046">
+      ¶ Octaua conclusio. Magis 
+      <lb ed="#B" n="47"/>diligendus est proximus, quam proprium 
+      <lb ed="#B" n="48"/>nostrum corpus. Probatur conclusio:  
+      <lb ed="#B" n="49"/>quia illud magis est ex charitate 
+      diligen<lb ed="#B" n="50" break="no"/>dum, in quo est plenior ratio 
+      diligibi<lb ed="#B" n="51" break="no"/>lis. Consociatio autem in beatitudi¬ 
+      <!--324.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nis participatione est partialis ratio 
+      di<lb ed="#B" n="53" break="no"/>lectionis charitatiuae. Et ista est plenior 
+      <lb ed="#B" n="54"/>in proximo, quam corpore nostro 
+      pro<lb ed="#B" n="55" break="no"/>prio. Et caetera sunt paria: cum 
+      cor<lb ed="#B" n="56" break="no"/>pus non sit efficax beatitudinis, nisi per 
+      <lb ed="#B" n="57"/>redundantiam. Proximus uero capax 
+      <lb ed="#B" n="58"/>est beatitudinis formaliter: ut sup. dictum 
+      <lb ed="#B" n="59"/>est dist. proxima.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1081">
+      ¶ Vltima conclusio.  
+      <lb ed="#B" n="60"/>Necessitas obseruantiae ordinis in 
+      dile<lb ed="#B" n="61" break="no"/>ctione gratuita secundum 
+      conclusio<lb ed="#B" n="62" break="no"/>nes praemissas est moderanda.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1090">
+      ¶ 
+      Quan<lb ed="#B" n="63" break="no"/>tum ad tertium articulum est primum 
+      <lb ed="#B" n="64"/>dubium utrum ordo ille charitatis 
+      rema<lb ed="#B" n="65" break="no"/>neat in patria. Respondetur breuiter 
+      se<lb ed="#B" n="66" break="no"/>cundum beatum Thom. ii. ii. q. xxvi. ar. 
+      <lb ed="#B" n="67"/>xiij. per aliquas propositiones 
+      senten<lb ed="#B" n="68" break="no"/>tiam suam summando.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1107">
+      ¶ Prima. 
+      Neces<lb ed="#B" n="69" break="no"/>se est, ordo charitatis maneat in 
+      pa<lb ed="#B" n="70" break="no"/>tria quantum ad dilectionem dei prae 
+      <lb ed="#B" n="71"/>omnibus, &amp; super omnia: ita quod deus plus 
+      <lb ed="#B" n="72"/>se ipso, &amp; omnibus diligatur, quantum ad 
+      <lb ed="#B" n="73"/>bona ipsi uolita: &amp; quantum ad actus 
+      dili<lb ed="#B" n="74" break="no"/>gendi appraeciationem, firmitatem, 
+      es<lb ed="#B" n="75" break="no"/>sentialem perfectionem, &amp; intensionem. 
+      <lb ed="#B" n="76"/>Probatio: quia ibi praeceptum 
+      dilectio<lb ed="#B" n="77" break="no"/>nis dei super omnia quantum ad omnes 
+      <lb ed="#B" n="78"/>conditiones, perfectissime implebitur: &amp; 
+      <lb ed="#B" n="79"/>beatus perfecte eo fruetur: &amp; sic 
+      arctissi<lb ed="#B" n="80" break="no"/>mo amore sibi unietur. Hic autem actus 
+      <lb ed="#B" n="81"/>dilectionis intensissimus est 
+      graduali<lb ed="#B" n="82" break="no"/>ter: perfectissimus essentialiter: 
+      firmis<lb ed="#B" n="83" break="no"/>simus &amp; summe appraeciatus 
+      compa<lb ed="#B" n="84" break="no"/>rando eum ad actus dilectionis cuiuscumque  
+      <lb ed="#B" n="85"/>alterius a deo, scilicet suiipsius siue 
+      alte<lb ed="#B" n="86" break="no"/>rius: non ad actus fruitionis aliorum 
+      bea<lb ed="#B" n="87" break="no"/>torum: quia ilii in diuersis beatis non 
+      <lb ed="#B" n="88"/>sunt eiusdem intensionis. In domo, enim 
+      <lb ed="#B" n="89"/>pa. mei man. mul. sunt, id est diversitas 
+      prae<lb ed="#B" n="90" break="no"/>miorum: essentiale autem praemium. 
+      <lb ed="#B" n="91"/>sunt uisio, &amp; fruitio.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1159">
+      ¶ Secunda 
+      proposi<lb ed="#B" n="92" break="no"/>tio. Licet beatus quilibet plus se ipsum 
+      <lb ed="#B" n="93"/>diligat, quam proximum quantum ad actus 
+      di<lb ed="#B" n="94" break="no"/>ligedi intensionem: magis tamen diligit 
+      bea<lb ed="#B" n="95" break="no"/>tiorem se quantum ad essentialis 
+      beatitudi<lb ed="#B" n="96" break="no"/>nis, &amp; bonorum patriae participationem. 
+      <lb ed="#B" n="97"/>Prima pars probatur: quia intensio 
+      <lb ed="#B" n="98"/>actus dilectionis prouenit ex parte 
+      subie<lb ed="#B" n="99" break="no"/>cti diligentis: &amp; ad hoc confertur a deo 
+      <lb ed="#B" n="100"/>unicuique donum charitatis: ut primo 
+      qui<lb ed="#B" n="101" break="no"/>dem mentem suam in deum ordinet: quid 
+      <lb ed="#B" n="102"/>pertinet ad dilectionem suiipsius. Secun¬ 
+      <!--325.xml-->
+      <pb ed="#B" n="294"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dario uero uelit ordinem aliorum in deum: 
+      <lb ed="#B" n="2"/>intensius ergo uult beatitudinem propriam, 
+      <lb ed="#B" n="3"/>per quam unitur deo, quam beatitudinem 
+      <lb ed="#B" n="4"/>alterius beati. Pars secunda probatur: quia 
+      <lb ed="#B" n="5"/>beatus plus diligit meliores se, quam 
+      seip<lb ed="#B" n="6" break="no"/>sum: &amp; minus, minus bonos. Volet enim 
+      <lb ed="#B" n="7"/>quilibet beatus unumquemque habere, quod 
+      <lb ed="#B" n="8"/>sibi debetur secundum diuinam iustitiam, 
+      <lb ed="#B" n="9"/>propter perfectam conformitatem uolun 
+      <lb ed="#B" n="10"/>tatis beatorum cum uoluntate diuina. Nec 
+      <lb ed="#B" n="11"/>tunc erit tempus proficiendi per meritum 
+      <lb ed="#B" n="12"/>ad maius praemium: sicut nunc accidit, 
+      <lb ed="#B" n="13"/>quamo homo potest melioris uirtutem, &amp; 
+      prae<lb ed="#B" n="14" break="no"/>mium desiderare: sed tunc uoluntas 
+      unius<lb ed="#B" n="15" break="no"/>cuiusque sistet infra hoc, quod est 
+      deter<lb ed="#B" n="16" break="no"/>minatum diuinitus. Volendo autem 
+      bea<lb ed="#B" n="17" break="no"/>to cuilibet gradum beatitudinis suae quan 
+      <lb ed="#B" n="18"/>tum ad bonum uolitum, plus diligit 
+      beatio<lb ed="#B" n="19" break="no"/>rem, quam se ipsum, &amp; minus beatum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1233">
+      ¶ 
+      Ter<lb ed="#B" n="20" break="no"/>tia propositio. Quantum ad ordinem 
+      proxi<lb ed="#B" n="21" break="no"/>morum adinuicem simpliciter quis 
+      ma<lb ed="#B" n="22" break="no"/>gi, diligit meliorem. Probatur: quia tota 
+      <lb ed="#B" n="23"/>u tam beata consistit in ordinatione 
+      men<lb ed="#B" n="24" break="no"/>tis in deum: unde totus ordo dilectionis 
+      <lb ed="#B" n="25"/>obseruabitur per comparationem ad deum: ut 
+      <lb ed="#B" n="26"/>ilicet ille magis diligatur, &amp; propinquior 
+      si<lb ed="#B" n="27" break="no"/>bi habeatur ab unoquoque, qui est deo 
+      prae<lb ed="#B" n="28" break="no"/>pinquior. Cessabit enim tunc prouisio, 
+      <lb ed="#B" n="29"/>quae est in praesenti uita necessaria, qua 
+      <lb ed="#B" n="30"/>quisque tenetur magis sibi coniunctis 
+      <lb ed="#B" n="31"/>prouidere de uitae necessarijs, 
+      doctrina<lb ed="#B" n="32" break="no"/>uel disciplinis; quam non coniunctis: 
+      ratio<lb ed="#B" n="33" break="no"/>ne cuius in hac uita ex ipsa 
+      inclina<lb ed="#B" n="34" break="no"/>tione charitatis, homo plus diligit sibi 
+      <lb ed="#B" n="35"/>coniunctum, cui magis tenetui impende¬ 
+      </p>
+            <p xml:id="gbs333-h71171-d1e1270">
+               <lb ed="#B" n="36"/>¶ re charitatis affectum
+    </p>
+            <p xml:id="gbs333-h71171-d1e1275">
+      ¶ Quarta 
+      proposi<lb ed="#B" n="37" break="no"/>tio. Beatus in patria pluribus modis 
+      dili<lb ed="#B" n="38" break="no"/>get coniunctum, quam extraneum. 
+      Pro<lb ed="#B" n="39" break="no"/>batur: quia non cessabunt ab animo 
+      beati<lb ed="#B" n="40" break="no"/>honestae dilectionis causae: quales sunt per 
+      <lb ed="#B" n="41"/>pinquitas generis &amp;c. in comparabiliter 
+      <lb ed="#B" n="42"/>tamen praefertur ratio dilectionis, quae 
+      su<lb ed="#B" n="43" break="no"/>mitur ex propinquitate ad deum.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1293">
+      ¶ 
+      Secun<lb ed="#B" n="44" break="no"/>do dubitatur de tribus gradibus 
+      charita<lb ed="#B" n="45" break="no"/>tis, quos ponit magister in fine 
+      distin<lb ed="#B" n="46" break="no"/>quomodo inter se distinguantur: 
+      hi<lb ed="#B" n="47" break="no"/>sunt charitas incipiens: charitas 
+      profi<lb ed="#B" n="48" break="no"/>ciens: &amp; charitas perfecta.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1307">
+      ¶ Pro 
+      respon<lb ed="#B" n="49" break="no"/>sione notandum, quod gradus isti 
+      chari<lb ed="#B" n="50" break="no"/>tatis accipiuntur secundum 
+      augmen<lb ed="#B" n="51" break="no"/>tum charitatis. Nam charitas, &amp; quae¬ 
+      <!--325.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>libet uirtus (non statim nata) perfecta 
+      <lb ed="#B" n="53"/>est: nam secundum beatum Greg. homil. 
+      <lb ed="#B" n="54"/>xv. super Exech. Nemo repente sit sum 
+      <lb ed="#B" n="55"/>mus; sed in bona conuersatione 
+      animi<lb ed="#B" n="56" break="no"/>unusquisque inchoat, ut ad magna 
+      perue<lb ed="#B" n="57" break="no"/>niat. Alia enim sunt uirtutum exordia: 
+      <lb ed="#B" n="58"/>aliud perfectus: aliud perfectio. Et beatus 
+      <lb ed="#B" n="59"/>Aug. suprepistolam Io. &amp; habetur in litera. 
+      <lb ed="#B" n="60"/>Numquid mox, ut nascitur charitas, 
+      perfe<lb ed="#B" n="61" break="no"/>cta est: immo ut perficiatur, nascitur: cum 
+      <lb ed="#B" n="62"/>fuerit nata, nutritur: cum fuerit nutrita, 
+      <lb ed="#B" n="63"/>roboratur: cunfuerit roborata, perficitur:  
+      <lb ed="#B" n="64"/>non autem distinguuntur illi gradus, quasi in 
+      <lb ed="#B" n="65"/>ter eos non sit medium, inter initium, 
+      <lb ed="#B" n="66"/>medium &amp; finem. Nam charitas tendens 
+      <lb ed="#B" n="67"/>ad perfectionem continue per suninten 
+      <lb ed="#B" n="68"/>sionem crescit: &amp; semper temporesui 
+      cre<lb ed="#B" n="69" break="no"/>menti pro quolibet posteriori 
+      instanti<lb ed="#B" n="70" break="no"/>maior est, quam in priori. Sed 
+      distingui<lb ed="#B" n="71" break="no"/>tur in ordine ad certos effectus 
+      princi<lb ed="#B" n="72" break="no"/>pales, quos operatur in habenteeam, dum 
+      <lb ed="#B" n="73"/>tendit ad perfectionem: nec sit quantum 
+      <lb ed="#B" n="74"/>ad illos effectus tantum: quin in 
+      quoli<lb ed="#B" n="75" break="no"/>bet gradu etiam aliquid officij alterius 
+      <lb ed="#B" n="76"/>gradus quadoque exerceatur: licet minus 
+      <lb ed="#B" n="77"/>principaliter. Et secundum hos gradus 
+      <lb ed="#B" n="78"/>etiam triplex status hominum deo 
+      placen<lb ed="#B" n="79" break="no"/>tium, &amp; seruientium nominantur: 
+      quo<lb ed="#B" n="80" break="no"/>rum alia, &amp; alia sunt officia, &amp; studia 
+      con<lb ed="#B" n="81" break="no"/>uersandi. Hisunt status incipientium, 
+      pro<lb ed="#B" n="82" break="no"/>ficientium, &amp; perfectorum. Incipienti cum 
+      in<lb ed="#B" n="83" break="no"/>eo nalcitur charitas: incumbit principa 
+      <lb ed="#B" n="84"/>liter a peccato recedere: &amp; eius reliquis 
+      <lb ed="#B" n="85"/>scilicet uitiosis habitibus, &amp; 
+      concupiscen<lb ed="#B" n="86" break="no"/>tiis (quae adhuc militant in eo: &amp; in 
+      con<lb ed="#B" n="87" break="no"/>trariu charitatis fortiter mouent) 
+      dili<lb ed="#B" n="88" break="no"/>genter resistere: ne acquisita charitas 
+      <lb ed="#B" n="89"/>corrumpatur: sed soueatur, &amp; 
+      nutria<lb ed="#B" n="90" break="no"/>tur. Hoc autem sit operibus paenitentiae. 
+      <lb ed="#B" n="91"/>contritione, confessione, &amp; satis 
+      factio<lb ed="#B" n="92" break="no"/>ne: quia &amp; status incipientium est status 
+      <lb ed="#B" n="93"/>paenitentium: &amp; licet sic agendo etiam 
+      <lb ed="#B" n="94"/>crescant per huiusmodi opera in uirtute: 
+      <lb ed="#B" n="95"/>principalis tamen eorum solicitudoes: non quomodo 
+      <lb ed="#B" n="96"/>crescant: sed quomo peccatis resistant. Et hic  
+      <lb ed="#B" n="97"/>labor praecipit incipientibus Hiere. iiij. No 
+      <lb ed="#B" n="98"/>uate uobis nouale, &amp; nolite serere super 
+      <lb ed="#B" n="99"/>spinas. Circuncidimini, &amp; auferte 
+      praepu<lb ed="#B" n="100" break="no"/>tia cordium uestrorum. Nouatur noualeper 
+      <lb ed="#B" n="101"/>contritionem: euelluntur spinae per 
+      con<lb ed="#B" n="102" break="no"/>fessionem: auferuntur cordis praeputia u. 
+      <!--326.xml-->
+      <pb ed="#B" n="295"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tiorum per satis factionem. Ad idem est 
+      <lb ed="#B" n="2"/>illud Eccle. xvij. Conuertere ad dominum, 
+      <lb ed="#B" n="3"/>&amp; relinque peccata tua per ueram 
+      con<lb ed="#B" n="4" break="no"/>tritionem: precare ante faciem domini, 
+      <lb ed="#B" n="5"/>per puram confessionem: &amp; minue 
+      offen<lb ed="#B" n="6" break="no"/>dicula per diligentem satis factionem.
+    </p>
+            <p xml:id="gbs333-h71171-d1e1450">
+      ¶ Prius 
+      <lb ed="#B" n="7"/>quam autem aliquantulum creuit 
+      chari<lb ed="#B" n="8" break="no"/>tas: &amp; decreuerunt concupiscentiae, &amp; 
+      <lb ed="#B" n="9"/>uitia impugnantes: ut iam non sic 
+      acri<lb ed="#B" n="10" break="no"/>ter, fortiterque impugnent: succedit 
+      se<lb ed="#B" n="11" break="no"/>cundum studium, &amp; cura ad hoc 
+      princi<lb ed="#B" n="12" break="no"/>paliter tendens, ut perficiat in gra, &amp; 
+      uirtuti<lb ed="#B" n="13" break="no"/>bus: &amp; hoc pficientium est: non tamen ita prficien 
+      <lb ed="#B" n="14"/>tes uirtutu profectum intendunt: ut contra 
+      <lb ed="#B" n="15"/>daemonum oppugnationes defensionis 
+      gla<lb ed="#B" n="16" break="no"/>dium deponat. Sicut figuratum est in 
+      aedifi<lb ed="#B" n="17" break="no"/>catione Hierusalem ab Esdra, &amp; Torobabel 
+      <lb ed="#B" n="18"/>de quibus seribitur Neemiae. iiij. quo una 
+      <lb ed="#B" n="19"/>manum aedificabant, &amp; altera tenebant 
+      gla<lb ed="#B" n="20" break="no"/>dium: principalius opus fuit aedificare: 
+      te<lb ed="#B" n="21" break="no"/>nebatur tamen gladius ad obuiandum 
+      impugna<lb ed="#B" n="22" break="no"/>tionibus inimicorum. Horum ergo 
+      solicitu<lb ed="#B" n="23" break="no"/>do est, popera uirtutum acquirere 
+      uirtu<lb ed="#B" n="24" break="no"/>tes, &amp; ornare asam suam in templum benepla 
+      <lb ed="#B" n="25"/>cens domino
+    </p>
+            <p xml:id="gbs333-h71171-d1e1494">
+      ¶ Fortificata uero sic 
+      chari<lb ed="#B" n="26" break="no"/>tate, ac uirtutibus roboratis, quibus 
+      li<lb ed="#B" n="27" break="no"/>gantur passiones: &amp; humanus quietatur 
+      <lb ed="#B" n="28"/>animus: succedit tertium mentis studium 
+      <lb ed="#B" n="29"/>ad hoc principaliter intendens: ut 
+      di<lb ed="#B" n="30" break="no"/>missis creaturis, soli deo inhaereat 
+      con<lb ed="#B" n="31" break="no"/>templatione, &amp; amore quantum uitae, 
+      <lb ed="#B" n="32"/>praesentis necessitas patitur, &amp; 
+      admit<lb ed="#B" n="33" break="no"/>tit. Et quaedam alij duo gradus pro 
+      obie<lb ed="#B" n="34" break="no"/>cto habuere creaturas. Primus uitia 
+      ex<lb ed="#B" n="35" break="no"/>pugnanda: secundus uirtutes acquiren 
+      <lb ed="#B" n="36"/>das: ambo deum finem. Sed gradus 
+      il<lb ed="#B" n="37" break="no"/>le tertius, qui solum perfectorum est: 
+      ha<lb ed="#B" n="38" break="no"/>bet deum nedum profine, sicut duo 
+      prio<lb ed="#B" n="39" break="no"/>res: sed etiam pro obiecto immediato: 
+      <lb ed="#B" n="40"/>quia eorum opus est contemplari 
+      diui<lb ed="#B" n="41" break="no"/>nas perfectiones: &amp; feruentissimo amo 
+      <lb ed="#B" n="42"/>re soli deo inhaerere cum contemptu 
+      om<lb ed="#B" n="43" break="no"/>nium temporalium, &amp; terrenorum. Nec 
+      <lb ed="#B" n="44"/>tamen ita quiete possunt his inhaerere: 
+      <lb ed="#B" n="45"/>quin licet non a carne, uel mundo 
+      om<lb ed="#B" n="46" break="no"/>nino non tententur uelmodice: tamen 
+      ma<lb ed="#B" n="47" break="no"/>lignorum inuidia spirituum &amp; llos attenter 
+      <lb ed="#B" n="48"/>illaqueare, ad cuius fraudes, &amp; ipsi 
+      ha<lb ed="#B" n="49" break="no"/>bent attendere: sicut in Abraam 
+      signifi<lb ed="#B" n="50" break="no"/>catum est Gene. xv. Hic tamquam perfectus 
+      na<lb ed="#B" n="51" break="no"/>tale solum reliquit: domino perfecte 
+      <!--326.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>adhaesit. Hic in signum perfectionis 
+      <lb ed="#B" n="53"/>utriusque uitae, actiuae, &amp; contemplatiuae, 
+      <lb ed="#B" n="54"/>sacrificium domino ex terrestribus 
+      ani<lb ed="#B" n="55" break="no"/>malibus, &amp; caeli uolucribus iunxit: sed 
+      di<lb ed="#B" n="56" break="no"/>uisis hostiis descenderunt uolucres ad 
+      sa<lb ed="#B" n="57" break="no"/>crificiorum rapinam: improbas scilicet  
+      <lb ed="#B" n="58"/>cogitationes suggerentes, &amp; 
+      immissio<lb ed="#B" n="59" break="no"/>nes per angelos malos, quos Abraa 
+      abi<lb ed="#B" n="60" break="no"/>gebat. Quemadmodum latius declarat  
+      <lb ed="#B" n="61"/>uenerabilis Hugo inlibel. de triplici 
+      ho<lb ed="#B" n="62" break="no"/>locausto. Et per hoc patet responsio ad 
+      <lb ed="#B" n="63"/>dubium.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

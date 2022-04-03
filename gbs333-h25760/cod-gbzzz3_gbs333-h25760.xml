@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="105"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h25760"> <!-- l3d10q1 -->
+            <head xml:id="gbs333-h25760-Hd1e100">Quaestio 1</head>
+            <p xml:id="gbs333-h25760-d1e102">
+               <lb ed="#B" n="83"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="84"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="85"/>quaeritur: utrum christo 
+      se<lb ed="#B" n="86" break="no"/>cundum quod homo 
+      conue<lb ed="#B" n="87" break="no"/>V mat filia: is dei adoptio: quid 
+      <lb ed="#B" n="88"/>est quaerere: utrum christus secundum 
+      <lb ed="#B" n="89"/>d homo est filius dei adoptiuus. 
+      Prae<lb ed="#B" n="90" break="no"/>missis notabilibus sequuntur 
+      conclu<lb ed="#B" n="91" break="no"/>siones cum dubitationibus.
+    </p>
+            <p xml:id="gbs333-h25760-d1e124">
+      ¶ 
+      Quan<lb ed="#B" n="92" break="no"/>tum ad primum, aduertendum, quod 
+      so<lb ed="#B" n="93" break="no"/>lutio huius quaestionis dependet ex dictis 
+      <lb ed="#B" n="94"/>supra dist. vij de reduplicatiuis: &amp; specia 
+      <lb ed="#B" n="95"/>liter de Iy secundum, &amp; secundum: quod quae hic 
+      <lb ed="#B" n="96"/>supponuntur.
+    </p>
+            <p xml:id="gbs333-h25760-d1e137">
+      ¶ Secundo notandum, quod 
+      <lb ed="#B" n="97"/>dicit Sco. praesenti dil. quod uocabulum istud: s 
+      <lb ed="#B" n="98"/>filius adoptionis, trans iatum est a iuristis,: 
+      <!--137.xml-->
+      <pb ed="#B" n="106"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>qui filium adoptiuum dicunt illum, qui  
+      <lb ed="#B" n="2"/>non est naturaliter genitus ab aliquo 
+      cer<lb ed="#B" n="3" break="no"/>to homine: nec ex naturali 
+      generatio<lb ed="#B" n="4" break="no"/>ne habet ius succedendi in haereditate 
+      <lb ed="#B" n="5"/>eius: sed ex gratia praeordinatur: ut 
+      ha<lb ed="#B" n="6" break="no"/>beat ius succedendi, ita quod illa tria 
+      con<lb ed="#B" n="7" break="no"/>currunt ad rationem adoptionis. 
+      Extra<lb ed="#B" n="8" break="no"/>neitas ex generatione naturali: &amp; 
+      gra<lb ed="#B" n="9" break="no"/>tia, quae est gratuita uoluntas 
+      adoptan<lb ed="#B" n="10" break="no"/>tis: &amp; bonum, ad quod praeordinatur ex ista 
+      <lb ed="#B" n="11"/>gratia scilicet haereditas, ad quam habetius suc 
+      <lb ed="#B" n="12"/>cedendi ex adoptione. Hoc est primo 
+      re<lb ed="#B" n="13" break="no"/>quiritur ad hoc, quod aliquis sit filius 
+      ado<lb ed="#B" n="14" break="no"/>ptiuus alicuius: quod sit ei extraneus id est non 
+      <lb ed="#B" n="15"/>sit eius naturalis filius, cui ex conditio 
+      <lb ed="#B" n="16"/>ne naturalis generationis conueniatius 
+      <lb ed="#B" n="17"/>successionis in haereditate adoptantis. 
+      <lb ed="#B" n="18"/>Secundo requiritur uoluntas gratiosa 
+      <lb ed="#B" n="19"/>adoptantis, qua uult tale sibi succedere, 
+      <lb ed="#B" n="20"/>&amp; esse haeredem suum. Tertio, quod sit aliqua 
+      <lb ed="#B" n="21"/>haereditas, in qua possit succedere in re, 
+      <lb ed="#B" n="22"/>uel in spe.
+    </p>
+            <p xml:id="gbs333-h25760-d1e199">
+      ¶ Ex quo sequitur primo: quod 
+      <lb ed="#B" n="23"/>angeli beati sunt filij adoptiui etiam 
+      si<lb ed="#B" n="24" break="no"/>fuissent in gratia creati: quia non sunt 
+      <lb ed="#B" n="25"/>naturales filij dei. sunt tamen 
+      praeordi<lb ed="#B" n="26" break="no"/>nati per gratiosam dei uoluntatem, ut  
+      <lb ed="#B" n="27"/>beatitudine fruantur aeterna: quae non 
+      <lb ed="#B" n="28"/>conuenit eis ex naturali eorum 
+      produ<lb ed="#B" n="29" break="no"/>ctione, sed per gratiam: est etiam ibi haere 
+      <lb ed="#B" n="30"/>ditas, scilicet beatitudo.
+    </p>
+            <p xml:id="gbs333-h25760-d1e219">
+      ¶ Secundo 
+      se<lb ed="#B" n="31" break="no"/>quitur, quod nulla cteatura irrationalis 
+      di<lb ed="#B" n="32" break="no"/>ci potest filia adoptiua: quia non est 
+      on<lb ed="#B" n="33" break="no"/>dinabilis ad haereditatem aeternam, quae 
+      <lb ed="#B" n="34"/>est beatitudo.
+    </p>
+            <p xml:id="gbs333-h25760-d1e230">
+      ¶ Tertio sequitur, quod 
+      prae<lb ed="#B" n="35" break="no"/>sciti non sunt filij adoptiui: patet, quia 
+      <lb ed="#B" n="36"/>non sunt per uoluntatem dei ad 
+      haere<lb ed="#B" n="37" break="no"/>ditatem praeordinati.
+    </p>
+            <p xml:id="gbs333-h25760-d1e239">
+      ¶ Tertio 
+      notan<lb ed="#B" n="38" break="no"/>dum, quod multum refert dicere: Christus 
+      <lb ed="#B" n="39"/>secundum quod homo est filius dei adoptiuus: 
+      <lb ed="#B" n="40"/>&amp; dicere Christus secundum humanam 
+      <lb ed="#B" n="41"/>naturam est filius adoptiuus. Patet 
+      dif<lb ed="#B" n="42" break="no"/>ferentia ex dictis supra di. vij.
+    </p>
+            <p xml:id="gbs333-h25760-d1e252">
+      ¶ 
+      Quan<lb ed="#B" n="43" break="no"/>tum ad ssecundum articulum est prima 
+      <lb ed="#B" n="44"/>conclusio. Verbum dei homo Christus 
+      <lb ed="#B" n="45"/>non est filius dei adoptiuus. Probatur,  
+      <lb ed="#B" n="46"/>quia nullus filius dei naturalis est 
+      fi<lb ed="#B" n="47" break="no"/>lius adoptiuus: uerbum dei homo 
+      chri<lb ed="#B" n="48" break="no"/>stus est filius dei naturalis: ergo non 
+      <lb ed="#B" n="49"/>adoptiuus. Consequentia est in 
+      quar<lb ed="#B" n="50" break="no"/>to primae. Maior patet ex notabili 
+      se<lb ed="#B" n="51" break="no"/>cundo. Minor ex praedictis est mani¬ 
+      <!--137.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>festa: cum idem sit uerbum, &amp; homo 
+      <lb ed="#B" n="53"/>christus. uerbum autem est filius 
+      natu<lb ed="#B" n="54" break="no"/>ralis ergo.
+    </p>
+            <p xml:id="gbs333-h25760-d1e285">
+      ¶ Secunda conclusio. Haec 
+      <lb ed="#B" n="55"/>propositio, christus secundum quod homo, 
+      <lb ed="#B" n="56"/>est filius adoptiuus, non est uera: neque  
+      <lb ed="#B" n="57"/>secundum sermonis proprietatem 
+      ca<lb ed="#B" n="58" break="no"/>tholice concedenda. Probatur: quia 
+      <lb ed="#B" n="59"/>siue Iy secundum quod, accipiatur 
+      redu<lb ed="#B" n="60" break="no"/>plicatiue siue specificatiue semper prae 
+      <lb ed="#B" n="61"/>supponit suam praeiacentem: ut supra 
+      di<lb ed="#B" n="62" break="no"/>ctum est distinct. vii. de reduplicatiuis: 
+      <lb ed="#B" n="63"/>sed praeiacens est falsa, scilicet christus est 
+      <lb ed="#B" n="64"/>filius dei adoptiuus ex conclusione 
+      pri<lb ed="#B" n="65" break="no"/>ma; igitur.
+    </p>
+            <p xml:id="gbs333-h25760-d1e312">
+      ¶ Tertia conclusio. Quia 
+      <lb ed="#B" n="66"/>humananatura in christo non est 
+      sup<lb ed="#B" n="67" break="no"/>positum, nec persona: ideo haec 
+      proposi<lb ed="#B" n="68" break="no"/>tio: christus secundum humanam 
+      na<lb ed="#B" n="69" break="no"/>turam est filius dei adoptiuus, non est 
+      <lb ed="#B" n="70"/>concedenda. Probatur: quia si 
+      conce<lb ed="#B" n="71" break="no"/>deretur maxime prout Iy secundum 
+      es<lb ed="#B" n="72" break="no"/>set signum distrahens, uel diminuens: sed  
+      <lb ed="#B" n="73"/>sic praesupponeret ueritatem illius, 
+      hu<lb ed="#B" n="74" break="no"/>mana natura est filius adoptiuus, sed 
+      il<lb ed="#B" n="75" break="no"/>la est falsa: quoniam etsi humana 
+      na<lb ed="#B" n="76" break="no"/>tura sit adoptata (accipiendo 
+      adopta<lb ed="#B" n="77" break="no"/>re large pro ordinare ad uitam) siue 
+      <lb ed="#B" n="78"/>sit persona, siue natura: quo modo 
+      ta<lb ed="#B" n="79" break="no"/>men non capitur ab aucto, &amp; per 
+      gra<lb ed="#B" n="80" break="no"/>tiam ad regni haereditatem 
+      praeordi<lb ed="#B" n="81" break="no"/>nata: non tamen est filius, uel filia: 
+      <lb ed="#B" n="82"/>quia filius est nomen personae non 
+      na<lb ed="#B" n="83" break="no"/>turae a persona distinctae: ut supra 
+      di<lb ed="#B" n="84" break="no"/>ctum est. Maior patet: quia sic 
+      cape<lb ed="#B" n="85" break="no"/>retur reduplicatiue, uel specificatiue, 
+      <lb ed="#B" n="86"/>esset falsa secundum conclusionem 
+      se<lb ed="#B" n="87" break="no"/>cundam.
+    </p>
+            <p xml:id="gbs333-h25760-d1e362">
+      ¶ Et sic sequitur: quod illa: 
+      chri<lb ed="#B" n="88" break="no"/>stus est filius adoptiuus: nullo modo est, 
+      <lb ed="#B" n="89"/>concedenda, nec simpliciter, nec cum 
+      <lb ed="#B" n="90"/>quacunque determinatione: ne 
+      com<lb ed="#B" n="91" break="no"/>municemus cum haereticis in uerbis: 
+      <lb ed="#B" n="92"/>aut ne detur occasio probandi christum 
+      <lb ed="#B" n="93"/>esse creaturam: ad quod haeretici 
+      labo<lb ed="#B" n="94" break="no"/>rabant: ideo sancti hanc propositionem 
+      <lb ed="#B" n="95"/>negabant.
+    </p>
+            <p xml:id="gbs333-h25760-d1e382">
+      ¶ Sed diceres contra 
+      con<lb ed="#B" n="96" break="no"/>clusionem primam: illa est uera: 
+      chri<lb ed="#B" n="97" break="no"/>stus est filius dei adoptiuus. Probatur:  
+      <lb ed="#B" n="98"/>quia christus est filius dei subsistens in 
+      <lb ed="#B" n="99"/>natura adoptata: ergo est filius 
+      adopti<lb ed="#B" n="100" break="no"/>uus. Tenet consequentia: quia sic 
+      conce<lb ed="#B" n="101" break="no"/>dimus illam: christus est homo: christus 
+      <lb ed="#B" n="102"/>est filius uirginis: quia christus subsistitin¬ 
+      <!--138.xml-->
+      <pb ed="#B" n="107"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>natura humana: &amp; Christus filius 
+      sub<lb ed="#B" n="2" break="no"/>stitit in natura genita a uirgine.
+    </p>
+            <p xml:id="gbs333-h25760-d1e411">
+      ¶ Ad 
+      <lb ed="#B" n="3"/>illam dicitur, quod illa, Christus est filius 
+      <lb ed="#B" n="4"/>adoptiuus, non ualet illam: Christus 
+      fi<lb ed="#B" n="5" break="no"/>lius subsistit in natura adoptata large 
+      lo<lb ed="#B" n="6" break="no"/>quendo de adoptato: nec est simile de 
+      <lb ed="#B" n="7"/>illis: Christus est homo: Christus est 
+      fi<lb ed="#B" n="8" break="no"/>lius uirginis, nec simili modo sunt 
+      resol<lb ed="#B" n="9" break="no"/>uendae, quia non habent simile quid 
+      no<lb ed="#B" n="10" break="no"/>minis: filius enim adoptiuus est filius, cui  
+      <lb ed="#B" n="11"/>non per naturam, sed tantum per gratiam 
+      <lb ed="#B" n="12"/>debetur haereditas. Sed filius uirginis est 
+      <lb ed="#B" n="13"/>persona subsistens in natura genita a 
+      uir<lb ed="#B" n="14" break="no"/>gine. Diuersitas autem quid nominis 
+      per<lb ed="#B" n="15" break="no"/>uenit ex impositione terminorum, quae 
+      <lb ed="#B" n="16"/>colligitur ex sanctorum aucto. bene in 
+      <lb ed="#B" n="17"/>tellectis, &amp; usu loquentium.
+    </p>
+            <p xml:id="gbs333-h25760-d1e446">
+      ¶ Quantum 
+      <lb ed="#B" n="18"/>ad articulum tertium, dubitatur iuxta 
+      <lb ed="#B" n="19"/>primam conclusionem textuale utrum illa 
+      <lb ed="#B" n="20"/>sit concedenda: Christus inquantum homo est 
+      <lb ed="#B" n="21"/>persona. Idem de illa: Christus secundum quod 
+      <lb ed="#B" n="22"/>homo est persona. Et uidet magi 
+      declina<lb ed="#B" n="23" break="no"/>re ad parte negatiua. Rndet breuiter, quod 
+      <lb ed="#B" n="24"/>capiendo eam ut reduplicatiuam exponi 
+      <lb ed="#B" n="25"/>bilem, concomitanter est uera, quia sic 
+      <lb ed="#B" n="26"/>exponitur, Christus est persona, &amp; 
+      Chri<lb ed="#B" n="27" break="no"/>stus est homo, &amp; omnis homo est persona, &amp; 
+      si<lb ed="#B" n="28" break="no"/>aliquid est homo, ipsum est persona: quiomnes 
+      <lb ed="#B" n="29"/>sunt uerae. Accipiendo autem ly quantum 
+      <lb ed="#B" n="30"/>causaliter, tunc est falsa, quia homo non 
+      <lb ed="#B" n="31"/>significat illud, quod est causa inhaerentiae 
+      <lb ed="#B" n="32"/>praedicati ad subjectum. Significat enim 
+      <lb ed="#B" n="33"/>naturam humanam formaliter, quae non 
+      <lb ed="#B" n="34"/>est causa, propter quam Christus est per 
+      <lb ed="#B" n="35"/>sona, &amp; propter eadem rationem uidetur esse 
+      <lb ed="#B" n="36"/>falsa, si Iy secundum, quod accipitur specificati  
+      <lb ed="#B" n="37"/>ue sic enim importat, quod illud, quod 
+      signifi<lb ed="#B" n="38" break="no"/>cat homo, sit illud ratione cuius praedicatum  
+      <lb ed="#B" n="39"/>conuenit subjecto: quod non ita est in 
+      pro<lb ed="#B" n="40" break="no"/>posito: quia homo non significat illud, 
+      rone<lb ed="#B" n="41" break="no"/>cuius Christus est persona: &amp; ita u detur 
+      <lb ed="#B" n="42"/>dicere sanctus Bona. &amp; etiam magister. 
+      </p>
+            <p xml:id="gbs333-h25760-d1e503">
+               <lb ed="#B" n="43"/>¶ Secundo dubitatur utrum Christus secundum 
+      <lb ed="#B" n="44"/>quod homo sit praedestinatus esse filius dei
+    </p>
+            <p xml:id="gbs333-h25760-d1e511">
+      ¶ 
+      Sup<lb ed="#B" n="45" break="no"/>ponitur hoc ex primo dis. xij. quod 
+      pdesti<lb ed="#B" n="46" break="no"/>natio est praeordinatio alicuius ad 
+      glo<lb ed="#B" n="47" break="no"/>riam principaliter: &amp; ad alia in ordine 
+      <lb ed="#B" n="48"/>ad gloriam. Hoc est, praedestinatio 
+      ni<lb ed="#B" n="49" break="no"/>hil aliud est, quam deus uolens alicui  
+      <lb ed="#B" n="50"/>dare gloriam, &amp; alia ipsum ad gloriam 
+      <lb ed="#B" n="51"/>aliquo modo ordinantia, uel promouen¬ 
+      <!--138.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tia: ut sunt gratia, &amp; merita.
+    </p>
+            <p xml:id="gbs333-h25760-d1e535">
+      ¶ Ex quo 
+      <lb ed="#B" n="53"/>patet, quod unio naturae humanae cum 
+      diui<lb ed="#B" n="54" break="no"/>na in persona uerbi cadit sub 
+      praedesti<lb ed="#B" n="55" break="no"/>natione. Gratia enim unionis: ut 
+      su<lb ed="#B" n="56" break="no"/>pra dictum est: uel est gratia gratum faciens 
+      <lb ed="#B" n="57"/>aut eam praesupponit: uel secundum 
+      a<lb ed="#B" n="58" break="no"/>lios, ei inseparabiliter annexa, de facto 
+      <lb ed="#B" n="59"/>saltem: per quam disponitur humana 
+      na<lb ed="#B" n="60" break="no"/>tura in Christo ad gloriam, &amp; 
+      excellen<lb ed="#B" n="61" break="no"/>tiorem gloriae gradum.
+    </p>
+            <p xml:id="gbs333-h25760-d1e557">
+      ¶ Secundo 
+      ad<lb ed="#B" n="62" break="no"/>uertendum, quod praedestinatio non solun 
+      <lb ed="#B" n="63"/>respicit personam: sed omne 
+      beatifica<lb ed="#B" n="64" break="no"/>bileper gratiam. Non enim solum 
+      Pe<lb ed="#B" n="65" break="no"/>trus: sed &amp; anima Petri praedestinata est, 
+      <lb ed="#B" n="66"/>ad gloriam, quae tamen non est 
+      perso<lb ed="#B" n="67" break="no"/>na. Ex illo patet, quod non est idem adoptio, 
+      <lb ed="#B" n="68"/>&amp; praedestinatio: quia adoptio dicit per 
+      <lb ed="#B" n="69"/>sonam: quia filiationem, quae non est nisi 
+      per<lb ed="#B" n="70" break="no"/>sona. Praedestinatio uero conuenit tan 
+      <lb ed="#B" n="71"/>naturae, quam personae: per hoc dicitur ac 
+      <lb ed="#B" n="72"/>dubium, quod Christus secundum hominem 
+      praede<lb ed="#B" n="73" break="no"/>stinatus est esse filius dei. Hoc probatur 
+      <lb ed="#B" n="74"/>per Apostolum Ro. i. dicentem de filio.  
+      <lb ed="#B" n="75"/>qui scilicet filius factus est ei scilicet patri 
+      ex<lb ed="#B" n="76" break="no"/>semine Dauid secundum carnem, qui 
+      praedesti<lb ed="#B" n="77" break="no"/>natus est filius dei in uirtute. Probatur  
+      <lb ed="#B" n="78"/>ratione, nam natura humana praedestinata est 
+      <lb ed="#B" n="79"/>uniri deo, per quam unionem uerbum 
+      fa<lb ed="#B" n="80" break="no"/>ctum. est homo, &amp; homo est deus, &amp; filius 
+      <lb ed="#B" n="81"/>dei, &amp; sic uerbum uel Christus 
+      praedesti<lb ed="#B" n="82" break="no"/>natum, uel praedestinatus est secundum hominem 
+      <lb ed="#B" n="83"/>esse filius dei.
+    </p>
+            <p xml:id="gbs333-h25760-d1e607">
+      ¶ Sed di. contra: aut Iy se 
+      <lb ed="#B" n="84"/>cundum accipitur reduplicatiue, aut 
+      spe<lb ed="#B" n="85" break="no"/>cificatiue: &amp; utroque modo est falsa, quia 
+      <lb ed="#B" n="86"/>praeiacens est falsa, scilicet Christus prae 
+      <lb ed="#B" n="87"/>destinatus est filius dei. Nam praedestina 
+      <lb ed="#B" n="88"/>tio praecedit illud respectu cuius est, sed  
+      <lb ed="#B" n="89"/>nihil praecessit Christum seu uerbum, ut 
+      <lb ed="#B" n="90"/>supra patuit. cum sit persona aeterna: 
+      igi<lb ed="#B" n="91" break="no"/>tur falsum est, quod Christus praedestina. 
+      <lb ed="#B" n="92"/>tus est esse filius dei, quia ab aeterno fuit 
+      <lb ed="#B" n="93"/>filius dei: nec accipitur, ut est dictio 
+      di<lb ed="#B" n="94" break="no"/>strahens, uel diminuens: sicut aethiops est 
+      <lb ed="#B" n="95"/>albus secundum dentes, tum quia additur  
+      <lb ed="#B" n="96"/>etum quia etiam sic est falsa: quia humana 
+      <lb ed="#B" n="97"/>natura non est predestinata esse filius dei: 
+      <lb ed="#B" n="98"/>cum humana natura non sit filius dei, 
+      <lb ed="#B" n="99"/>Respondetur, quod Iy secundum quod, 
+      impro<lb ed="#B" n="100" break="no"/>prie accipitur: ut est dicti distrahens, 
+      <lb ed="#B" n="101"/>uel diminuens. ad hunc sensum christus 
+      <lb ed="#B" n="102"/>secundum quod homo est praedestinatus filius 
+      <!--139.xml-->
+      <pb ed="#B" n="108"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dei id est humana natura praedestinata est 
+      uni<lb ed="#B" n="2" break="no"/>ri uerbo: unde factumest, ut homo ille est deus, 
+      <lb ed="#B" n="3"/>&amp; filius dei: &amp; deus homo. Et haec 
+      uide<lb ed="#B" n="4" break="no"/>tur intentio Sco. dicentis. Sicut prdestina 
+      <lb ed="#B" n="5"/>tum est hanc naturam uniri uerbo, ita 
+      per<lb ed="#B" n="6" break="no"/>destinatum est uerbum esse hominem, &amp; hunc 
+      <lb ed="#B" n="7"/>hominem esse uerbum. Et ita exponit 
+      <lb ed="#B" n="8"/>Havmo in glos. ad Rom. i. Humanitas, 
+      <lb ed="#B" n="9"/>quae non erat antea, praedestinata est 
+      sci<lb ed="#B" n="10" break="no"/>licet, ut uniretur uerbo. Et Beatus Aug. 
+      <lb ed="#B" n="11"/>in glos. ibidem. Praedestinata est 
+      huma<lb ed="#B" n="12" break="no"/>nae nature tanta, &amp; tam excelsa, &amp; sum 
+      <lb ed="#B" n="13"/>ma subjectio: ut quo attolleretur, ulte 
+      <lb ed="#B" n="14"/>rius, non haberet: sic pro nobis ipsa diui 
+      <lb ed="#B" n="15"/>nitas quousque se deponeret humilie non 
+      <lb ed="#B" n="16"/>habuit, quam suscepta hominis natura 
+      cum<lb ed="#B" n="17" break="no"/>infirmitate carnis usque ad mortem 
+      cru<lb ed="#B" n="18" break="no"/>cis. sic &amp; praepositiuus sensit. 
+      Praedesti<lb ed="#B" n="19" break="no"/>natum est inquit: ut haec persona 
+      secun<lb ed="#B" n="20" break="no"/>dum humanitatem sit filius dei: non tamen 
+      <lb ed="#B" n="21"/>pdestinatum est, ut illa personasit filius dei; 
+      <lb ed="#B" n="22"/>quia non est filius dei per gratiam, sed per na 
+      <lb ed="#B" n="23"/>turam.
+    </p>
+            <p xml:id="gbs333-h25760-d1e707">
+      ¶ Et nota, quod ibi secundum 
+      humani<lb ed="#B" n="24" break="no"/>tatem, non determinat Iy filius dei: sed Iy 
+      <lb ed="#B" n="25"/>persona: ut sit sensus. Haec persona 
+      secundum<lb ed="#B" n="26" break="no"/>humanitatem, id est haec persona 
+      subsi<lb ed="#B" n="27" break="no"/>stens in humanitate, in qua non fuit 
+      sem<lb ed="#B" n="28" break="no"/>per subsistens, Huicuidet satis 
+      concorda<lb ed="#B" n="29" break="no"/>re Aug. super Io. trac. cv. &amp; habetur ubi 
+      <lb ed="#B" n="30"/>supra in glos cum inquit. Recte dicitur  
+      <lb ed="#B" n="31"/>filius dei praedestinatus non secundum id, 
+      <lb ed="#B" n="32"/>d est uerbum dei: deus apud deum, ut quid 
+      <lb ed="#B" n="33"/>enim pdestinaretur: cum ia esset, quod erat  
+      <lb ed="#B" n="34"/>sine initio, &amp; sine termino sempiternus: 
+      <lb ed="#B" n="35"/>illud enim praedestinandum erat, uod nondum 
+      <lb ed="#B" n="36"/>erat: ut sic suo tempore fieret, quem 
+      admo<lb ed="#B" n="37" break="no"/>dum ante omnia tempora praedestinatum 
+      <lb ed="#B" n="38"/>erat, ut fieret. Quisquis ergo filium dei per 
+      <lb ed="#B" n="39"/>destinatum negat, hunc eundem filium 
+      <lb ed="#B" n="40"/>hominis negat. Haecilse. Praedestinatus est 
+      <lb ed="#B" n="41"/>ergo Iesus: ut qui futurus est secundum 
+      <lb ed="#B" n="42"/>carne filius Dauid, esset in uirtute filius 
+      <lb ed="#B" n="43"/>dei. in uirtute scilicet deitatis. Ecce si bene, &amp; 
+      <lb ed="#B" n="44"/>caute intelligunt omnes aucto, ad hoc  
+      <lb ed="#B" n="45"/>tendunt, quod illud praedestinatur, quod non 
+      <lb ed="#B" n="46"/>erat, illud, quod futurum esse praedestinatur, 
+      <lb ed="#B" n="47"/>Humana ergo natura, quae non semper 
+      <lb ed="#B" n="48"/>fuit unita uerbo: praedestinata est uniri, 
+      <lb ed="#B" n="49"/>ex quo etiam praedestinatum est, quod 
+      <lb ed="#B" n="50"/>uerbum in tempore factum est homo. Prae 
+      <lb ed="#B" n="51"/>destinatum est etiam, quod homo ille est deus: 
+      <!--139.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>non quod ille homo factus est deus: quia ille 
+      <lb ed="#B" n="53"/>homo aeternaliter erat deus. 
+      Praedesti<lb ed="#B" n="54" break="no"/>natum tamen est, &amp; factum est, quod ille homo 
+      <lb ed="#B" n="55"/>est deus, ut praedestinatum, &amp; factum de 
+      <lb ed="#B" n="56"/>terminant complexionem Factum enim est, 
+      <lb ed="#B" n="57"/>quod haec est uera: ille homo est deus: non 
+      <lb ed="#B" n="58"/>enim semper fuit uera: quia non ante incar 
+      <lb ed="#B" n="59"/>nationem: sic ergo praedestinatum est, quod 
+      il<lb ed="#B" n="60" break="no"/>se homo est filius dei, quae non semper fuit  
+      <lb ed="#B" n="61"/>uera. Et ad hunc sensum illa conceditur: 
+      <lb ed="#B" n="62"/>Christus secundum hominem est 
+      praede<lb ed="#B" n="63" break="no"/>stinatus filias dei: ita uidetur mihi 
+      pro<lb ed="#B" n="64" break="no"/>punc esse dicendum, non tamen meo 
+      <lb ed="#B" n="65"/>sensui innitor: sed humiliter cedo 
+      ue<lb ed="#B" n="66" break="no"/>rius sentienti.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

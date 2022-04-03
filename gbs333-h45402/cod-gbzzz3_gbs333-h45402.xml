@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-04-03">April 03, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-04-03" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="185"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-h45402"> <!-- l3d22prae -->
+            <head xml:id="gbs333-h45402-Hd1e100">Praeambulum</head>
+            <p xml:id="gbs333-h45402-d1e102">
+               <lb ed="#B" n="82"/>DISTINCTIO. XXm. 
+      <lb ed="#B" n="83"/>GIT magister de 
+      <lb ed="#B" n="84"/>animae Christi, &amp; 
+      <lb ed="#B" n="85"/>corporis eius 
+      sepa<lb ed="#B" n="86" break="no"/>ratione. In hac dist. 
+      <lb ed="#B" n="87"/>xxij. agit de 
+      conse<lb ed="#B" n="88" break="no"/>quente separationis 
+      <lb ed="#B" n="89"/>I denominatione: in 
+      <lb ed="#B" n="90"/>uestigat enim, an Christus in triduo 
+      <lb ed="#B" n="91"/>mortis fuit homo. Et colligitur 
+      senten<lb ed="#B" n="92" break="no"/>tia magistri in hac dist. in tribus 
+      con<lb ed="#B" n="93" break="no"/>clusionibus quae sequuntur.
+    </p>
+            <p xml:id="gbs333-h45402-d1e131">
+      ¶ Prima. In 
+      <lb ed="#B" n="94"/>mortis triduo Christus fuit homo 
+      ue<lb ed="#B" n="95" break="no"/>rus, &amp; rationalis: non mortalis, nec 
+      im<lb ed="#B" n="96" break="no"/>mortalis.
+    </p>
+            <p xml:id="gbs333-h45402-d1e140">
+      ¶ Secunda conclusio. 
+      Chri<lb ed="#B" n="97" break="no"/>stus in triduo fuit ubique secundum 
+      di<lb ed="#B" n="98" break="no"/>uinitatem: non autem ubique fuit 
+      ho<lb ed="#B" n="99" break="no"/>mo: sed tantum in inferno, &amp; in sepal¬ 
+      <!--217.xml-->
+      <pb ed="#B" n="186"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cro secundum humanitatem.
+    </p>
+            <p xml:id="gbs333-h45402-d1e159">
+      ¶ 
+      Ter<lb ed="#B" n="2" break="no"/>tia conclusio. Christus totus, &amp; 
+      perfe<lb ed="#B" n="3" break="no"/>ctus eodem tempore fuit in inferno 
+      to<lb ed="#B" n="4" break="no"/>tus: tetus in sepulchro: totus in caelo. non 
+      <lb ed="#B" n="5"/>tamen totum deus fuit, nec totum homo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
