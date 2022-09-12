@@ -1,128 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="300"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a75979"> <!-- l1d35prae -->
-            <head xml:id="gbs333-a75979-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a75979-d1e104">
-      <!--387.xml-->
-               <pb ed="#B" n="300"/>
-               <cb ed="#B" n="a"/>
-               <!-- missing line break; line coord error -->DISTINCTIO XXXV
-      <lb ed="#B" n="1"/>De attributis diuinis. 
-      <lb ed="#B" n="2"/>
-      ACTENVSma<lb ed="#B" n="3" break="no"/>gister egit de trinita 
-      <lb ed="#B" n="4"/>te benedicta quantum 
-      <lb ed="#B" n="5"/>ad se &amp; sibi intrinse- 
-      <lb ed="#B" n="6"/>ca. Hic consequenter 
-      <lb ed="#B" n="7"/>usque in finem agit de 
-      <lb ed="#B" n="8"/>ipsa quantum ad quem 
-      <lb ed="#B" n="9"/>dam attributa, secundum quae est 
-      princi<lb ed="#B" n="10" break="no"/>pium creaturae: quae sunt sapientia, 
-      poten<lb ed="#B" n="11" break="no"/>tia &amp; bonitas. Quae in agentibus 
-      secun<lb ed="#B" n="12" break="no"/>dum propositum) non per necessitatem 
-      <lb ed="#B" n="13"/>naturae) ponuntur operationum 
-      princi<lb ed="#B" n="14" break="no"/>pia. Primo ergo determinans de 
-      sapien<lb ed="#B" n="15" break="no"/>tia in distinctionibus septen. De ea agit 
-      <lb ed="#B" n="16"/>primo in generali quo ad se dist. 
-      praesen<lb ed="#B" n="17" break="no"/>ti. Secundo, prout res scitas continet in 
-      <lb ed="#B" n="18"/>se obiectiue dis. xxxvj. Tertio quomodo 
-      <lb ed="#B" n="19"/>ipsa est in obiectis scitis di. xxxvij. 
-      Quar<lb ed="#B" n="20" break="no"/>to de ea prout se habet causaliter ad res 
-      <lb ed="#B" n="21"/>cognitas dist. xxxviij. Quinto quantum 
-      <lb ed="#B" n="22"/>ad immutabilitatem eius ad res 
-      mutabi<lb ed="#B" n="23" break="no"/>les scitas distinctio. xxxix. Sexto specia 
-      <lb ed="#B" n="24"/>liter de una eius specie, quae est 
-      praedesti<lb ed="#B" n="25" break="no"/>natio quantum ad effectum eius dist. xl. 
-      <lb ed="#B" n="26"/>Septimo, de eius causa dist. xli.
-    </p>
-            <p xml:id="gbs333-a75979-d1e172">
-      ¶ Et 
-      po<lb ed="#B" n="27" break="no"/>test sententia textus sic summari.
-    </p>
-            <p xml:id="gbs333-a75979-d1e177">
-      ¶ 
-      Con<lb ed="#B" n="28" break="no"/>clusio prima. Licet sapientia, &amp; scientia 
-      <lb ed="#B" n="29"/>in deo sit una simplex diuina essentia 
-      <lb ed="#B" n="30"/>fortitur tamen uaria nomina in ordine 
-      <lb ed="#B" n="31"/>ad scita. Hoc ostendit. Nam dicitur non 
-      <lb ed="#B" n="32"/>solum scientia: sed etiam praescientia, &amp; 
-      <lb ed="#B" n="33"/>praeuidentia, dispositio; praedestinatio,  
-      <lb ed="#B" n="34"/>prouidentia. Praeuidentia, &amp; praescientia 
-      <lb ed="#B" n="35"/>sunt de futuris. Dispositio de faciendis 
-      <lb ed="#B" n="36"/>Praedestinatio de saluandis. Prouidentia 
-      <lb ed="#B" n="37"/>idem est, quod dispositio. Scientia autem 
-      <lb ed="#B" n="38"/>&amp; sapientia de omnibus aeternis, &amp; tem 
-      <lb ed="#B" n="39"/>poralibus, praeteritis, praesentibus, &amp; 
-      fu<lb ed="#B" n="40" break="no"/>ris. Sed tunc est dubium, an in deo 
-      fuis<lb ed="#B" n="41" break="no"/>set pscientia si nulla fuissent futura.
-    </p>
-            <p xml:id="gbs333-a75979-d1e211">
-      ¶ Pro 
-      <lb ed="#B" n="42"/>quo est haec conclusio secunda. In deo 
-      fuis<lb ed="#B" n="43" break="no"/>pet id, quod nunc est praescientia id est 
-      essen<lb ed="#B" n="44" break="no"/>tia diuina qua nunc scit futura: sed non 
-      <lb ed="#B" n="45"/>fuisset tunc dicta praescientia propter 
-      <lb ed="#B" n="46"/>defectum connotati.
-    </p>
-            <p xml:id="gbs333-a75979-d1e224">
-      ¶ Tertia conclusio. 
-      <lb ed="#B" n="47"/>Quia omnia nouit deus: omnia: dicunt 
-      <lb ed="#B" n="48"/>esse in deo: &amp; fuisse in eo ab aeterno: 
-      <lb ed="#B" n="49"/>&amp; in eo fuisse uita. Haec latius habentur 
-      <lb ed="#B" n="50"/>in textu. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="300"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a75979"> <!-- l1d35prae -->
+        <head xml:id="gbs333-a75979-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a75979-d1e104">
+          <!--387.xml-->
+          <pb ed="#B" n="300"/>
+          <cb ed="#B" n="a"/>
+          <!-- missing line break; line coord error -->DISTINCTIO XXXV
+          <lb ed="#B" n="1"/>De attributis diuinis. 
+          <lb ed="#B" n="2"/>
+          ACTENVSma<lb ed="#B" n="3" break="no"/>gister egit de trinita 
+          <lb ed="#B" n="4"/>te benedicta quantum 
+          <lb ed="#B" n="5"/>ad se &amp; sibi intrinse- 
+          <lb ed="#B" n="6"/>ca. Hic consequenter 
+          <lb ed="#B" n="7"/>usque in finem agit de 
+          <lb ed="#B" n="8"/>ipsa quantum ad quem 
+          <lb ed="#B" n="9"/>dam attributa, secundum quae est 
+          princi<lb ed="#B" n="10" break="no"/>pium creaturae: quae sunt sapientia, 
+          poten<lb ed="#B" n="11" break="no"/>tia &amp; bonitas. Quae in agentibus 
+          secun<lb ed="#B" n="12" break="no"/>dum propositum) non per necessitatem 
+          <lb ed="#B" n="13"/>naturae) ponuntur operationum 
+          princi<lb ed="#B" n="14" break="no"/>pia. Primo ergo determinans de 
+          sapien<lb ed="#B" n="15" break="no"/>tia in distinctionibus septen. De ea agit 
+          <lb ed="#B" n="16"/>primo in generali quo ad se dist. 
+          praesen<lb ed="#B" n="17" break="no"/>ti. Secundo, prout res scitas continet in 
+          <lb ed="#B" n="18"/>se obiectiue dis. xxxvj. Tertio quomodo 
+          <lb ed="#B" n="19"/>ipsa est in obiectis scitis di. xxxvij. 
+          Quar<lb ed="#B" n="20" break="no"/>to de ea prout se habet causaliter ad res 
+          <lb ed="#B" n="21"/>cognitas dist. xxxviij. Quinto quantum 
+          <lb ed="#B" n="22"/>ad immutabilitatem eius ad res 
+          mutabi<lb ed="#B" n="23" break="no"/>les scitas distinctio. xxxix. Sexto specia 
+          <lb ed="#B" n="24"/>liter de una eius specie, quae est 
+          praedesti<lb ed="#B" n="25" break="no"/>natio quantum ad effectum eius dist. xl. 
+          <lb ed="#B" n="26"/>Septimo, de eius causa dist. xli.
+        </p>
+        <p xml:id="gbs333-a75979-d1e172">
+          ¶ Et 
+          po<lb ed="#B" n="27" break="no"/>test sententia textus sic summari.
+        </p>
+        <p xml:id="gbs333-a75979-d1e177">
+          ¶ 
+          Con<lb ed="#B" n="28" break="no"/>clusio prima. Licet sapientia, &amp; scientia 
+          <lb ed="#B" n="29"/>in deo sit una simplex diuina essentia 
+          <lb ed="#B" n="30"/>fortitur tamen uaria nomina in ordine 
+          <lb ed="#B" n="31"/>ad scita. Hoc ostendit. Nam dicitur non 
+          <lb ed="#B" n="32"/>solum scientia: sed etiam praescientia, &amp; 
+          <lb ed="#B" n="33"/>praeuidentia, dispositio; praedestinatio,  
+          <lb ed="#B" n="34"/>prouidentia. Praeuidentia, &amp; praescientia 
+          <lb ed="#B" n="35"/>sunt de futuris. Dispositio de faciendis 
+          <lb ed="#B" n="36"/>Praedestinatio de saluandis. Prouidentia 
+          <lb ed="#B" n="37"/>idem est, quod dispositio. Scientia autem 
+          <lb ed="#B" n="38"/>&amp; sapientia de omnibus aeternis, &amp; tem 
+          <lb ed="#B" n="39"/>poralibus, praeteritis, praesentibus, &amp; 
+          fu<lb ed="#B" n="40" break="no"/>ris. Sed tunc est dubium, an in deo 
+          fuis<lb ed="#B" n="41" break="no"/>set pscientia si nulla fuissent futura.
+        </p>
+        <p xml:id="gbs333-a75979-d1e211">
+          ¶ Pro 
+          <lb ed="#B" n="42"/>quo est haec conclusio secunda. In deo 
+          fuis<lb ed="#B" n="43" break="no"/>pet id, quod nunc est praescientia id est 
+          essen<lb ed="#B" n="44" break="no"/>tia diuina qua nunc scit futura: sed non 
+          <lb ed="#B" n="45"/>fuisset tunc dicta praescientia propter 
+          <lb ed="#B" n="46"/>defectum connotati.
+        </p>
+        <p xml:id="gbs333-a75979-d1e224">
+          ¶ Tertia conclusio. 
+          <lb ed="#B" n="47"/>Quia omnia nouit deus: omnia: dicunt 
+          <lb ed="#B" n="48"/>esse in deo: &amp; fuisse in eo ab aeterno: 
+          <lb ed="#B" n="49"/>&amp; in eo fuisse uita. Haec latius habentur 
+          <lb ed="#B" n="50"/>in textu. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

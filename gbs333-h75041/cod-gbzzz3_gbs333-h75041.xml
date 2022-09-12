@@ -1,121 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-04-03">April 03, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-04-03" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-h75041"> <!-- l3d32prae -->
-            <head xml:id="gbs333-h75041-Hd1e100">Praeambulum</head>
-            <p xml:id="gbs333-h75041-d1e102">
-               <lb ed="#B" n="39"/>DISTINCTIO. XXXII. 
-      <lb ed="#B" n="40"/>CIT de charitate 
-      <lb ed="#B" n="41"/>creata, qua a nobis 
-      <lb ed="#B" n="42"/>deus diligit, &amp; 
-      proxi<lb ed="#B" n="43" break="no"/>mus. In hac distin. 
-      <lb ed="#B" n="44"/>xxxii. prosequitur de 
-      <lb ed="#B" n="45"/>charitate increata, 
-      <lb ed="#B" n="46"/>qua nos diligit deus. 
-      <lb ed="#B" n="47"/>Et colligitur sententia textus in 
-      tri<lb ed="#B" n="48" break="no"/>bus sequentibus conclusionibus.
-    </p>
-            <p xml:id="gbs333-h75041-d1e126">
-      ¶ 
-      Pri<lb ed="#B" n="49" break="no"/>ma conclusio. Eadem est charitas: 
-      <!--336.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="50"/>&amp; haec increata, qua nos diligit deus, 
-      <lb ed="#B" n="51"/>&amp; qua nos deum diligimus. In hac 
-      ta<lb ed="#B" n="52" break="no"/>men conclusione communiter negatur 
-      <lb ed="#B" n="53"/>magister: eo quod charitas, qua nos diligit 
-      <lb ed="#B" n="54"/>deus, increata est scilicet spiritus sanctus, siue 
-      <lb ed="#B" n="55"/>diuina essentia. Et charitas, qua nos 
-      <lb ed="#B" n="56"/>diligimus deum, est habitus quidam aut 
-      <lb ed="#B" n="57"/>forma accidentalis, &amp; creatura 
-      uolunta<lb ed="#B" n="58" break="no"/>tem diligentis realiter informans, &amp; per 
-      <lb ed="#B" n="59"/>ficiens. Potest tamen magister facile sal 
-      <lb ed="#B" n="60"/>uari. Non enim loquitur de charitate, qua 
-      <lb ed="#B" n="61"/>nos formaliter diligimus deum: sed de 
-      <lb ed="#B" n="62"/>ea, quae est simpliciter necessaria, ut 
-      dili<lb ed="#B" n="63" break="no"/>gamus deum meritorie. &amp; haec est 
-      spiri<lb ed="#B" n="64" break="no"/>tus sanctus: nam simpliciter necessarium est 
-      <lb ed="#B" n="65"/>ad hoc, quod dilectio nostra (qua 
-      diligi<lb ed="#B" n="66" break="no"/>mus deum, nos, uel proximu) sit 
-      meri<lb ed="#B" n="67" break="no"/>toria: quod perspiritum inhabitantem accepter  
-      <lb ed="#B" n="68"/>ad praemium retribuendum: ita 
-      opposi<lb ed="#B" n="69" break="no"/>tum includit contradictionem: &amp; ita 
-      spiri<lb ed="#B" n="70" break="no"/>tus sanctus est, quo diligimus deum 
-      merito<lb ed="#B" n="71" break="no"/>rie non formaliter: quia ipse est, qui 
-      acce<lb ed="#B" n="72" break="no"/>ptando nostram dilectionem reddit ipsam 
-      <lb ed="#B" n="73"/>meritoriam; de quo magister dist. xvij. 
-      <lb ed="#B" n="74"/>primi.
-    </p>
-            <p xml:id="gbs333-h75041-d1e189">
-      ¶ Secunda conclusio. Dilectio 
-      <lb ed="#B" n="75"/>ne una, eademque quantum ad essentiam 
-      <lb ed="#B" n="76"/>deus ab aeterno omnia creata 
-      aequali<lb ed="#B" n="77" break="no"/>ter dilexit, &amp; immutabiliter: sed 
-      secun<lb ed="#B" n="78" break="no"/>dum efficientiam boni in dilectis plus 
-      <lb ed="#B" n="79"/>creaturas rationales: &amp; inter illas 
-      ma<lb ed="#B" n="80" break="no"/>gis sua membra: maxime autem suum 
-      <lb ed="#B" n="81"/>unigenitum secundum hominem amauit  
-      <lb ed="#B" n="82"/>temporaliter.
-    </p>
-            <p xml:id="gbs333-h75041-d1e210">
-      ¶ Tertia conclusio. De 
-      <lb ed="#B" n="83"/>solis electis, non de reprobis concedendum 
-      <lb ed="#B" n="84"/>est simpliciter loquendo, quod deus eos 
-      di<lb ed="#B" n="85" break="no"/>lexerit ab aeterno: siquidem praoesciti ab 
-      <lb ed="#B" n="86"/>aeterno oditi sunt, &amp; reprobati: licet 
-      tan<lb ed="#B" n="87" break="no"/>quam opera quaedam a deo dilecti.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-04-03">April 03, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="305"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-h75041"> <!-- l3d32prae -->
+        <head xml:id="gbs333-h75041-Hd1e100">Praeambulum</head>
+        <p xml:id="gbs333-h75041-d1e102">
+          <lb ed="#B" n="39"/>DISTINCTIO. XXXII. 
+          <lb ed="#B" n="40"/>CIT de charitate 
+          <lb ed="#B" n="41"/>creata, qua a nobis 
+          <lb ed="#B" n="42"/>deus diligit, &amp; 
+          proxi<lb ed="#B" n="43" break="no"/>mus. In hac distin. 
+          <lb ed="#B" n="44"/>xxxii. prosequitur de 
+          <lb ed="#B" n="45"/>charitate increata, 
+          <lb ed="#B" n="46"/>qua nos diligit deus. 
+          <lb ed="#B" n="47"/>Et colligitur sententia textus in 
+          tri<lb ed="#B" n="48" break="no"/>bus sequentibus conclusionibus.
+        </p>
+        <p xml:id="gbs333-h75041-d1e126">
+          ¶ 
+          Pri<lb ed="#B" n="49" break="no"/>ma conclusio. Eadem est charitas: 
+          <!--336.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="50"/>&amp; haec increata, qua nos diligit deus, 
+          <lb ed="#B" n="51"/>&amp; qua nos deum diligimus. In hac 
+          ta<lb ed="#B" n="52" break="no"/>men conclusione communiter negatur 
+          <lb ed="#B" n="53"/>magister: eo quod charitas, qua nos diligit 
+          <lb ed="#B" n="54"/>deus, increata est scilicet spiritus sanctus, siue 
+          <lb ed="#B" n="55"/>diuina essentia. Et charitas, qua nos 
+          <lb ed="#B" n="56"/>diligimus deum, est habitus quidam aut 
+          <lb ed="#B" n="57"/>forma accidentalis, &amp; creatura 
+          uolunta<lb ed="#B" n="58" break="no"/>tem diligentis realiter informans, &amp; per 
+          <lb ed="#B" n="59"/>ficiens. Potest tamen magister facile sal 
+          <lb ed="#B" n="60"/>uari. Non enim loquitur de charitate, qua 
+          <lb ed="#B" n="61"/>nos formaliter diligimus deum: sed de 
+          <lb ed="#B" n="62"/>ea, quae est simpliciter necessaria, ut 
+          dili<lb ed="#B" n="63" break="no"/>gamus deum meritorie. &amp; haec est 
+          spiri<lb ed="#B" n="64" break="no"/>tus sanctus: nam simpliciter necessarium est 
+          <lb ed="#B" n="65"/>ad hoc, quod dilectio nostra (qua 
+          diligi<lb ed="#B" n="66" break="no"/>mus deum, nos, uel proximu) sit 
+          meri<lb ed="#B" n="67" break="no"/>toria: quod perspiritum inhabitantem accepter  
+          <lb ed="#B" n="68"/>ad praemium retribuendum: ita 
+          opposi<lb ed="#B" n="69" break="no"/>tum includit contradictionem: &amp; ita 
+          spiri<lb ed="#B" n="70" break="no"/>tus sanctus est, quo diligimus deum 
+          merito<lb ed="#B" n="71" break="no"/>rie non formaliter: quia ipse est, qui 
+          acce<lb ed="#B" n="72" break="no"/>ptando nostram dilectionem reddit ipsam 
+          <lb ed="#B" n="73"/>meritoriam; de quo magister dist. xvij. 
+          <lb ed="#B" n="74"/>primi.
+        </p>
+        <p xml:id="gbs333-h75041-d1e189">
+          ¶ Secunda conclusio. Dilectio 
+          <lb ed="#B" n="75"/>ne una, eademque quantum ad essentiam 
+          <lb ed="#B" n="76"/>deus ab aeterno omnia creata 
+          aequali<lb ed="#B" n="77" break="no"/>ter dilexit, &amp; immutabiliter: sed 
+          secun<lb ed="#B" n="78" break="no"/>dum efficientiam boni in dilectis plus 
+          <lb ed="#B" n="79"/>creaturas rationales: &amp; inter illas 
+          ma<lb ed="#B" n="80" break="no"/>gis sua membra: maxime autem suum 
+          <lb ed="#B" n="81"/>unigenitum secundum hominem amauit  
+          <lb ed="#B" n="82"/>temporaliter.
+        </p>
+        <p xml:id="gbs333-h75041-d1e210">
+          ¶ Tertia conclusio. De 
+          <lb ed="#B" n="83"/>solis electis, non de reprobis concedendum 
+          <lb ed="#B" n="84"/>est simpliciter loquendo, quod deus eos 
+          di<lb ed="#B" n="85" break="no"/>lexerit ab aeterno: siquidem praoesciti ab 
+          <lb ed="#B" n="86"/>aeterno oditi sunt, &amp; reprobati: licet 
+          tan<lb ed="#B" n="87" break="no"/>quam opera quaedam a deo dilecti.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

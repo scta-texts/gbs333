@@ -1,101 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a74597"> <!-- l1d32prae -->
-            <head xml:id="gbs333-a74597-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a74597-d1e104">
-               <lb ed="#B" n="70"/>DISTIRCTIO XXXII. 
-      <lb ed="#B" n="71"/>CIRCA praedicta in 
-      <lb ed="#B" n="72"/>distinct. xxxj. 
-      magi<lb ed="#B" n="73" break="no"/>ster dubia absoluit 
-      di<lb ed="#B" n="74" break="no"/>stin. praesenti quae est 
-      <lb ed="#B" n="75"/>xxxij.
-    </p>
-            <p xml:id="gbs333-a74597-d1e120">
-      ¶ Dubium 
-      pri<lb ed="#B" n="76" break="no"/>mum. Ex quo 
-      spiri<lb ed="#B" n="77" break="no"/>tussanctus est amor: 
-      <lb ed="#B" n="78"/>utrum pater, &amp; filius diligunt se spiritu 
-      <lb ed="#B" n="79"/>sancto. Ad hoc est responsio 
-      affirma<lb ed="#B" n="80" break="no"/>tiua, &amp; est conclusio prima textualis 
-      <lb ed="#B" n="81"/>Pater, &amp; filius diligunt se spiritusancto, 
-      <lb ed="#B" n="82"/>licet etiam sese diligunt dilectione, que 
-      <lb ed="#B" n="83"/>est essentia: nam diligere includit 
-      essen<lb ed="#B" n="84" break="no"/>tiale, &amp; notionale. Vnde ualet tantum: 
-      <lb ed="#B" n="85"/>diligendo se amore essentiali, spirant 
-      spi<lb ed="#B" n="86" break="no"/>ritum sanctum.
-    </p>
-            <p xml:id="gbs333-a74597-d1e146">
-      ¶ Secundum dubium. 
-      <lb ed="#B" n="87"/>Vtrum pater sit sapiens sapientia 
-      geni<lb ed="#B" n="88" break="no"/>ta. Responsio negatiua, &amp; est 
-      conclu<lb ed="#B" n="89" break="no"/>sio textualis secunda. Pater est sapiens 
-      <lb ed="#B" n="90"/>sua essentia, quae est sapientia non 
-      ge<lb ed="#B" n="91" break="no"/>nita. Nec est simile de sapientia, &amp; 
-      <lb ed="#B" n="92"/>dilectione: quia sapientia est purum 
-      es<lb ed="#B" n="93" break="no"/>sentiale: diligere uero includit 
-      essen<lb ed="#B" n="94" break="no"/>tialia, &amp; notionale.
-    </p>
-            <p xml:id="gbs333-a74597-d1e167">
-      ¶ Tertia 
-      conclusio<lb ed="#B" n="95" break="no"/>Eilius est sapiens sapientia 
-      ingeni<lb ed="#B" n="96" break="no"/>ta necatiue, idest sapiens 
-      <lb ed="#B" n="97"/>essentia, quae non 
-      <lb ed="#B" n="98"/>est 
-      geni<lb ed="#B" n="99" break="no"/>ta. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="294"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a74597"> <!-- l1d32prae -->
+        <head xml:id="gbs333-a74597-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a74597-d1e104">
+          <lb ed="#B" n="70"/>DISTIRCTIO XXXII. 
+          <lb ed="#B" n="71"/>CIRCA praedicta in 
+          <lb ed="#B" n="72"/>distinct. xxxj. 
+          magi<lb ed="#B" n="73" break="no"/>ster dubia absoluit 
+          di<lb ed="#B" n="74" break="no"/>stin. praesenti quae est 
+          <lb ed="#B" n="75"/>xxxij.
+        </p>
+        <p xml:id="gbs333-a74597-d1e120">
+          ¶ Dubium 
+          pri<lb ed="#B" n="76" break="no"/>mum. Ex quo 
+          spiri<lb ed="#B" n="77" break="no"/>tussanctus est amor: 
+          <lb ed="#B" n="78"/>utrum pater, &amp; filius diligunt se spiritu 
+          <lb ed="#B" n="79"/>sancto. Ad hoc est responsio 
+          affirma<lb ed="#B" n="80" break="no"/>tiua, &amp; est conclusio prima textualis 
+          <lb ed="#B" n="81"/>Pater, &amp; filius diligunt se spiritusancto, 
+          <lb ed="#B" n="82"/>licet etiam sese diligunt dilectione, que 
+          <lb ed="#B" n="83"/>est essentia: nam diligere includit 
+          essen<lb ed="#B" n="84" break="no"/>tiale, &amp; notionale. Vnde ualet tantum: 
+          <lb ed="#B" n="85"/>diligendo se amore essentiali, spirant 
+          spi<lb ed="#B" n="86" break="no"/>ritum sanctum.
+        </p>
+        <p xml:id="gbs333-a74597-d1e146">
+          ¶ Secundum dubium. 
+          <lb ed="#B" n="87"/>Vtrum pater sit sapiens sapientia 
+          geni<lb ed="#B" n="88" break="no"/>ta. Responsio negatiua, &amp; est 
+          conclu<lb ed="#B" n="89" break="no"/>sio textualis secunda. Pater est sapiens 
+          <lb ed="#B" n="90"/>sua essentia, quae est sapientia non 
+          ge<lb ed="#B" n="91" break="no"/>nita. Nec est simile de sapientia, &amp; 
+          <lb ed="#B" n="92"/>dilectione: quia sapientia est purum 
+          es<lb ed="#B" n="93" break="no"/>sentiale: diligere uero includit 
+          essen<lb ed="#B" n="94" break="no"/>tialia, &amp; notionale.
+        </p>
+        <p xml:id="gbs333-a74597-d1e167">
+          ¶ Tertia 
+          conclusio<lb ed="#B" n="95" break="no"/>Eilius est sapiens sapientia 
+          ingeni<lb ed="#B" n="96" break="no"/>ta necatiue, idest sapiens 
+          <lb ed="#B" n="97"/>essentia, quae non 
+          <lb ed="#B" n="98"/>est 
+          geni<lb ed="#B" n="99" break="no"/>ta. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

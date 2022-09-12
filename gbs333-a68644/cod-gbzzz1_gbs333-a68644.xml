@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a68644"> <!-- l1d28prae -->
-            <head xml:id="gbs333-a68644-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a68644-d1e104">
-               <lb ed="#B" n="14"/>DISTINCTIO XVIII. 
-      <lb ed="#B" n="15"/>AGITmagister de re 
-      <lb ed="#B" n="16"/>lationibus aeternis, &amp; 
-      <lb ed="#B" n="17"/>personalibus: hic de 
-      <lb ed="#B" n="18"/>aeternis, &amp; non perso 
-      <lb ed="#B" n="19"/>nalibus. Et in dis. 
-      pri<lb ed="#B" n="20" break="no"/>senti de relatione 
-      ae<lb ed="#B" n="21" break="no"/>dl terna non personali 
-      <lb ed="#B" n="22"/>negatiua, quae est innascibilitas.
-    </p>
-            <p xml:id="gbs333-a68644-d1e126">
-      ¶ Ponst 
-      <lb ed="#B" n="23"/>autem sententia textus his 
-      conclusioni<lb ed="#B" n="24" break="no"/>bus summari.
-    </p>
-            <p xml:id="gbs333-a68644-d1e133">
-      ¶ Prima conclusio. 
-      Prae<lb ed="#B" n="25" break="no"/>ter praedictas tres notiones sunt, &amp; aliae 
-      <lb ed="#B" n="26"/>aliis nominibus significatae hanc 
-      decla<lb ed="#B" n="27" break="no"/>rat: quia pater dicitur pater, secundum pre 
-      <lb ed="#B" n="28"/>prietatem generationis seu 
-      generatio<lb ed="#B" n="29" break="no"/>ne, &amp; dicitur ingenitus innascibilitate 
-      <lb ed="#B" n="30"/>Et si per impossibile non generaret: 
-      ad<lb ed="#B" n="31" break="no"/>huc esset innascibilis, &amp; ingenitus.
-    </p>
-            <p xml:id="gbs333-a68644-d1e152">
-      ¶ 
-      Se<lb ed="#B" n="32" break="no"/>eunda conclusio. Solus pater dicitur in 
-      <lb ed="#B" n="33"/>genitus non spiritussanctus: de quo supr: 
-      <lb ed="#B" n="34"/>dist. xiij. Ex quo magister elicit, quod non est 
-      <lb ed="#B" n="35"/>idem ingenitus, &amp; non genitus.
-    </p>
-            <p xml:id="gbs333-a68644-d1e163">
-      ¶ 
-      Ter<lb ed="#B" n="36" break="no"/>tia conclusio. Sicut filius solus dicitur 
-      <lb ed="#B" n="37"/>uerbum, uel imago: ita solus dicitur 
-      sapien<lb ed="#B" n="38" break="no"/>tia genita. Haec &amp; alia patent ex textu.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="271"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a68644"> <!-- l1d28prae -->
+        <head xml:id="gbs333-a68644-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a68644-d1e104">
+          <lb ed="#B" n="14"/>DISTINCTIO XVIII. 
+          <lb ed="#B" n="15"/>AGIT magister de re 
+          <lb ed="#B" n="16"/>lationibus aeternis, &amp; 
+          <lb ed="#B" n="17"/>personalibus: hic de 
+          <lb ed="#B" n="18"/>aeternis, &amp; non perso 
+          <lb ed="#B" n="19"/>nalibus. Et in dis. 
+          pri<lb ed="#B" n="20" break="no"/>senti de relatione 
+          ae<lb ed="#B" n="21" break="no"/>dl terna non personali 
+          <lb ed="#B" n="22"/>negatiua, quae est innascibilitas.
+        </p>
+        <p xml:id="gbs333-a68644-d1e126">
+          ¶ Ponst 
+          <lb ed="#B" n="23"/>autem sententia textus his 
+          conclusioni<lb ed="#B" n="24" break="no"/>bus summari.
+        </p>
+        <p xml:id="gbs333-a68644-d1e133">
+          ¶ Prima conclusio. 
+          Prae<lb ed="#B" n="25" break="no"/>ter praedictas tres notiones sunt, &amp; aliae 
+          <lb ed="#B" n="26"/>aliis nominibus significatae hanc 
+          decla<lb ed="#B" n="27" break="no"/>rat: quia pater dicitur pater, secundum pre 
+          <lb ed="#B" n="28"/>prietatem generationis seu 
+          generatio<lb ed="#B" n="29" break="no"/>ne, &amp; dicitur ingenitus innascibilitate 
+          <lb ed="#B" n="30"/>Et si per impossibile non generaret: 
+          ad<lb ed="#B" n="31" break="no"/>huc esset innascibilis, &amp; ingenitus.
+        </p>
+        <p xml:id="gbs333-a68644-d1e152">
+          ¶ 
+          Se<lb ed="#B" n="32" break="no"/>eunda conclusio. Solus pater dicitur in 
+          <lb ed="#B" n="33"/>genitus non spiritussanctus: de quo supr: 
+          <lb ed="#B" n="34"/>dist. xiij. Ex quo magister elicit, quod non est 
+          <lb ed="#B" n="35"/>idem ingenitus, &amp; non genitus.
+        </p>
+        <p xml:id="gbs333-a68644-d1e163">
+          ¶ 
+          Ter<lb ed="#B" n="36" break="no"/>tia conclusio. Sicut filius solus dicitur 
+          <lb ed="#B" n="37"/>uerbum, uel imago: ita solus dicitur 
+          sapien<lb ed="#B" n="38" break="no"/>tia genita. Haec &amp; alia patent ex textu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

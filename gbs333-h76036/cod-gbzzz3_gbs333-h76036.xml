@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-04-03">April 03, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-04-03" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-h76036"> <!-- l3d33prae -->
-            <head xml:id="gbs333-h76036-Hd1e100">Praeambulum</head>
-            <p xml:id="gbs333-h76036-d1e102">
-               <lb ed="#B" n="38"/>DISTINCTIO. XXXIiI. 
-      <lb ed="#B" n="39"/>OST tractatum de 
-      <lb ed="#B" n="40"/>theologicis 
-      uirtuti<lb ed="#B" n="41" break="no"/>bus sequitur 
-      doctri<lb ed="#B" n="42" break="no"/>na de uirtutibus 
-      car<lb ed="#B" n="43" break="no"/>dinalibus. Et 
-      colligi<lb ed="#B" n="44" break="no"/>tur sententia tex. in 
-      <lb ed="#B" n="45"/>tribus 
-      conclusioni<lb ed="#B" n="46" break="no"/>bus quae sequuntur.
-    </p>
-            <p xml:id="gbs333-h76036-d1e124">
-      ¶ Prima 
-      conclu<lb ed="#B" n="47" break="no"/>sio. Quatuor sunt uirtutes cardinales, quod 
-      <lb ed="#B" n="48"/>bus in praesenti bene uiuit: &amp; post ad aeter 
-      <!--340.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="49"/>nam uitam peruenitur. Hae secundum 
-      bea<lb ed="#B" n="50" break="no"/>tum Aug. sunt. Iustitia in subueniendo 
-      <lb ed="#B" n="51"/>miseris: prudentia in cauendis insidijs: 
-      <lb ed="#B" n="52"/>fortitudo in perferendis molestijs: 
-      tem<lb ed="#B" n="53" break="no"/>perantia in coercendis delectationibus 
-      <lb ed="#B" n="54"/>prauis. Secunda conclusio. Hae uirtutes 
-      <lb ed="#B" n="55"/>in christo fuerunt plenissimae secundum 
-      <lb ed="#B" n="56"/>usum, quem habent in patria: &amp; usum 
-      <lb ed="#B" n="57"/>circa passiones ab extrinseco illatas, 
-      <lb ed="#B" n="58"/>quem habent in uia.
-    </p>
-            <p xml:id="gbs333-h76036-d1e157">
-      ¶ Tertia 
-      conclu<lb ed="#B" n="59" break="no"/>sio. Virtutes cardinales non cessabunt in 
-      <lb ed="#B" n="60"/>patria quantum ad habitum: licet alium ibi,  
-      <lb ed="#B" n="61"/>quam in uia habebunt operationis usum.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-04-03">April 03, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="309"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-h76036"> <!-- l3d33prae -->
+        <head xml:id="gbs333-h76036-Hd1e100">Praeambulum</head>
+        <p xml:id="gbs333-h76036-d1e102">
+          <lb ed="#B" n="38"/>DISTINCTIO. XXXIiI. 
+          <lb ed="#B" n="39"/>OST tractatum de 
+          <lb ed="#B" n="40"/>theologicis 
+          uirtuti<lb ed="#B" n="41" break="no"/>bus sequitur 
+          doctri<lb ed="#B" n="42" break="no"/>na de uirtutibus 
+          car<lb ed="#B" n="43" break="no"/>dinalibus. Et 
+          colligi<lb ed="#B" n="44" break="no"/>tur sententia tex. in 
+          <lb ed="#B" n="45"/>tribus 
+          conclusioni<lb ed="#B" n="46" break="no"/>bus quae sequuntur.
+        </p>
+        <p xml:id="gbs333-h76036-d1e124">
+          ¶ Prima 
+          conclu<lb ed="#B" n="47" break="no"/>sio. Quatuor sunt uirtutes cardinales, quod 
+          <lb ed="#B" n="48"/>bus in praesenti bene uiuit: &amp; post ad aeter 
+          <!--340.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="49"/>nam uitam peruenitur. Hae secundum 
+          bea<lb ed="#B" n="50" break="no"/>tum Aug. sunt. Iustitia in subueniendo 
+          <lb ed="#B" n="51"/>miseris: prudentia in cauendis insidijs: 
+          <lb ed="#B" n="52"/>fortitudo in perferendis molestijs: 
+          tem<lb ed="#B" n="53" break="no"/>perantia in coercendis delectationibus 
+          <lb ed="#B" n="54"/>prauis. Secunda conclusio. Hae uirtutes 
+          <lb ed="#B" n="55"/>in christo fuerunt plenissimae secundum 
+          <lb ed="#B" n="56"/>usum, quem habent in patria: &amp; usum 
+          <lb ed="#B" n="57"/>circa passiones ab extrinseco illatas, 
+          <lb ed="#B" n="58"/>quem habent in uia.
+        </p>
+        <p xml:id="gbs333-h76036-d1e157">
+          ¶ Tertia 
+          conclu<lb ed="#B" n="59" break="no"/>sio. Virtutes cardinales non cessabunt in 
+          <lb ed="#B" n="60"/>patria quantum ad habitum: licet alium ibi,  
+          <lb ed="#B" n="61"/>quam in uia habebunt operationis usum.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

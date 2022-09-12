@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a61707"> <!-- l1d24prae -->
-            <head xml:id="gbs333-a61707-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a61707-d1e104">
-               <lb ed="#B" n="68"/>DISTINCTIO XXIIII. 
-      <lb ed="#B" n="69"/>QNSQVENTEI 
-      <lb ed="#B" n="70"/>agit de essentialibus 
-      <lb ed="#B" n="71"/>numeralibus: de deo, 
-      <lb ed="#B" n="72"/>&amp; personis 
-      dicibili<lb ed="#B" n="73" break="no"/>bus. Et potest 
-      senten<lb ed="#B" n="74" break="no"/>tia textus his 
-      strin<lb ed="#B" n="75" break="no"/>gi conclusionibus 
-      </p>
-            <p xml:id="gbs333-a61707-d1e124">
-               <lb ed="#B" n="76"/>¶ Prima. Nomina numeralia, &amp; 
-      distin<lb ed="#B" n="77" break="no"/>ctionem importantia, magis introducta 
-      <lb ed="#B" n="78"/>sunt ad remouendum a diuina 
-      simplici<lb ed="#B" n="79" break="no"/>tate, quae ibi non sunt: quam ad 
-      ponen<lb ed="#B" n="80" break="no"/>dum aliquid.
-    </p>
-            <p xml:id="gbs333-a61707-d1e137">
-      ¶ Secunda conclusio. 
-      Di<lb ed="#B" n="81" break="no"/>ctum magistri cum uidetur uelle: quod 
-      ter<lb ed="#B" n="82" break="no"/>mini numerales in diuinis sunt 
-      priuatiui<lb ed="#B" n="83" break="no"/>tamen, &amp; nihil ponunt: communiter non 
-      <lb ed="#B" n="84"/>acceptatur.
-    </p>
-            <p xml:id="gbs333-a61707-d1e149">
-      ¶ Tertia conclusio Dictum 
-      <lb ed="#B" n="85"/>magistri posset saluari; dicendo illos 
-      ter<lb ed="#B" n="86" break="no"/>minos non ponere id est non positiue 
-      impor<lb ed="#B" n="87" break="no"/>tare distinctum aliquid ab essentia, &amp; 
-      per<lb ed="#B" n="88" break="no"/>sonis. Suo modo dici potest de terminis 
-      <lb ed="#B" n="89"/>distinctionem importantibus. 
-      Declara<lb ed="#B" n="90" break="no"/>tio patet ex textu. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="243"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a61707"> <!-- l1d24prae -->
+        <head xml:id="gbs333-a61707-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a61707-d1e104">
+          <lb ed="#B" n="68"/>DISTINCTIO XXIIII. 
+          <lb ed="#B" n="69"/>QNSQVENTEI 
+          <lb ed="#B" n="70"/>agit de essentialibus 
+          <lb ed="#B" n="71"/>numeralibus: de deo, 
+          <lb ed="#B" n="72"/>&amp; personis 
+          dicibili<lb ed="#B" n="73" break="no"/>bus. Et potest 
+          senten<lb ed="#B" n="74" break="no"/>tia textus his 
+          strin<lb ed="#B" n="75" break="no"/>gi conclusionibus 
+        </p>
+        <p xml:id="gbs333-a61707-d1e124">
+          <lb ed="#B" n="76"/>¶ Prima. Nomina numeralia, &amp; 
+          distin<lb ed="#B" n="77" break="no"/>ctionem importantia, magis introducta 
+          <lb ed="#B" n="78"/>sunt ad remouendum a diuina 
+          simplici<lb ed="#B" n="79" break="no"/>tate, quae ibi non sunt: quam ad 
+          ponen<lb ed="#B" n="80" break="no"/>dum aliquid.
+        </p>
+        <p xml:id="gbs333-a61707-d1e137">
+          ¶ Secunda conclusio. 
+          Di<lb ed="#B" n="81" break="no"/>ctum magistri cum uidetur uelle: quod 
+          ter<lb ed="#B" n="82" break="no"/>mini numerales in diuinis sunt 
+          priuatiui<lb ed="#B" n="83" break="no"/>tamen, &amp; nihil ponunt: communiter non 
+          <lb ed="#B" n="84"/>acceptatur.
+        </p>
+        <p xml:id="gbs333-a61707-d1e149">
+          ¶ Tertia conclusio Dictum 
+          <lb ed="#B" n="85"/>magistri posset saluari; dicendo illos 
+          ter<lb ed="#B" n="86" break="no"/>minos non ponere id est non positiue 
+          impor<lb ed="#B" n="87" break="no"/>tare distinctum aliquid ab essentia, &amp; 
+          per<lb ed="#B" n="88" break="no"/>sonis. Suo modo dici potest de terminis 
+          <lb ed="#B" n="89"/>distinctionem importantibus. 
+          Declara<lb ed="#B" n="90" break="no"/>tio patet ex textu. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,90 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a62920"> <!-- l1d25prae -->
-            <head xml:id="gbs333-a62920-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a62920-d1e104">
-               <lb ed="#B" n="57"/>DSTINCTIO XXV. 
-      <lb ed="#B" n="58"/>MAGISTER 
-      regre<lb ed="#B" n="59" break="no"/>ditur ad nomen 
-      per<lb ed="#B" n="60" break="no"/>sona, quaerens, quomo 
-      <lb ed="#B" n="61"/>dicitur secundum sub 
-      <lb ed="#B" n="62"/>stantiam: cum sint 
-      plu<lb ed="#B" n="63" break="no"/>res personae: &amp; non 
-      plu<lb ed="#B" n="64" break="no"/>res substantiae.
-    </p>
-            <p xml:id="gbs333-a62920-d1e124">
-      ¶ 
-      Con<lb ed="#B" n="65" break="no"/>clusio prima. Nomen dicitur secundum 
-      <lb ed="#B" n="66"/>substantiam. quia est absolutum, &amp; non 
-      <lb ed="#B" n="67"/>relatiuum: licet significet rem relatiuam. 
-      <lb ed="#B" n="68"/>Vel quia primo, &amp; formaliter significat  
-      <lb ed="#B" n="69"/>substantiam, siue essentiam.
-    </p>
-            <p xml:id="gbs333-a62920-d1e137">
-      ¶ Secunda 
-      <lb ed="#B" n="70"/>conclusio. Persona primo, &amp; formaliter  
-      <lb ed="#B" n="71"/>ignificat hypostasim, &amp; nec essentiam: 
-      <lb ed="#B" n="72"/>nec relationem: sed constitutum ex his. 
-      </p>
-            <p xml:id="gbs333-a62920-d1e147">
-               <lb ed="#B" n="73"/>¶ Tertia conclusio. Persona dicitur 
-      se<lb ed="#B" n="74" break="no"/>cundum substantiam primo modo, &amp; non 
-      se<lb ed="#B" n="75" break="no"/>cundo modo. Haec po summario textus: 
-      <lb ed="#B" n="76"/>&amp; ules 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="248"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a62920"> <!-- l1d25prae -->
+        <head xml:id="gbs333-a62920-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a62920-d1e104">
+          <lb ed="#B" n="57"/>DSTINCTIO XXV. 
+          <lb ed="#B" n="58"/>MAGISTER 
+          regre<lb ed="#B" n="59" break="no"/>ditur ad nomen 
+          per<lb ed="#B" n="60" break="no"/>sona, quaerens, quomo 
+          <lb ed="#B" n="61"/>dicitur secundum sub 
+          <lb ed="#B" n="62"/>stantiam: cum sint 
+          plu<lb ed="#B" n="63" break="no"/>res personae: &amp; non 
+          plu<lb ed="#B" n="64" break="no"/>res substantiae.
+        </p>
+        <p xml:id="gbs333-a62920-d1e124">
+          ¶ 
+          Con<lb ed="#B" n="65" break="no"/>clusio prima. Nomen dicitur secundum 
+          <lb ed="#B" n="66"/>substantiam. quia est absolutum, &amp; non 
+          <lb ed="#B" n="67"/>relatiuum: licet significet rem relatiuam. 
+          <lb ed="#B" n="68"/>Vel quia primo, &amp; formaliter significat  
+          <lb ed="#B" n="69"/>substantiam, siue essentiam.
+        </p>
+        <p xml:id="gbs333-a62920-d1e137">
+          ¶ Secunda 
+          <lb ed="#B" n="70"/>conclusio. Persona primo, &amp; formaliter  
+          <lb ed="#B" n="71"/>ignificat hypostasim, &amp; nec essentiam: 
+          <lb ed="#B" n="72"/>nec relationem: sed constitutum ex his. 
+        </p>
+        <p xml:id="gbs333-a62920-d1e147">
+          <lb ed="#B" n="73"/>¶ Tertia conclusio. Persona dicitur 
+          se<lb ed="#B" n="74" break="no"/>cundum substantiam primo modo, &amp; non 
+          se<lb ed="#B" n="75" break="no"/>cundo modo. Haec po summario textus: 
+          <lb ed="#B" n="76"/>&amp; ules 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

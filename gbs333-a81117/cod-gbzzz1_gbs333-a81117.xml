@@ -1,104 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a81117"> <!-- l1d36prae -->
-            <head xml:id="gbs333-a81117-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a81117-d1e104">
-               <lb ed="#B" n="26"/>DISTINCTIO XXXVI. 
-      <lb ed="#B" n="27"/>QVITde scientia dei 
-      <lb ed="#B" n="28"/>in genere quoad se. 
-      <lb ed="#B" n="29"/>Nunc de eadem 
-      con<lb ed="#B" n="30" break="no"/>paratiue ad scita. Et  
-      <lb ed="#B" n="31"/>primo ut res scitas 
-      <lb ed="#B" n="32"/>in se continet 
-      obie<lb ed="#B" n="33" break="no"/>ctiue. Secundo ut eas 
-      <lb ed="#B" n="34"/>
-      s<lb ed="#B" n="35" break="no"/>inhabitat sanctificatiue distin. sequenti. 
-      </p>
-            <p xml:id="gbs333-a81117-d1e128">
-               <lb ed="#B" n="36"/>¶ Conclusio prima textus haec est. Licet 
-      <lb ed="#B" n="37"/>omnia sint in deicognitione: non 
-      ta<lb ed="#B" n="38" break="no"/>men conceditur omnia esse in dei 
-      essen<lb ed="#B" n="39" break="no"/>tia: ne creaturae intelligantur esse 
-      eius<lb ed="#B" n="40" break="no"/>dem essentiae, cum deo.
-    </p>
-            <p xml:id="gbs333-a81117-d1e141">
-      ¶ Vbi nota, quod 
-      <lb ed="#B" n="41"/>omnia dicuntur esse in deo obiectiue 
-      <lb ed="#B" n="42"/>uirtualiter, &amp; eminenter. Obiectiue: 
-      <lb ed="#B" n="43"/>quia sunt obiecta cognita. 
-      Virtuali<lb ed="#B" n="44" break="no"/>ter: quia sunt effectus producti. 
-      Emi<lb ed="#B" n="45" break="no"/>nenter: quia sunt minus perfecti.
-    </p>
-            <p xml:id="gbs333-a81117-d1e155">
-      ¶ 
-      Se<lb ed="#B" n="46" break="no"/>cunda concl. Licet mala sunt a deo 
-      co<lb ed="#B" n="47" break="no"/>gnita: non tamen secundum magistrum 
-      dicun<lb ed="#B" n="48" break="no"/>tur esse in deo: quia non sunt cognita 
-      <lb ed="#B" n="49"/>approbationis notitia.
-    </p>
-            <p xml:id="gbs333-a81117-d1e166">
-      ¶ Tertia concl. 
-      <!--407.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="50"/>Si esse in deo obiectiue dicit solum 
-      cogno<lb ed="#B" n="51" break="no"/>sci a deo: mala sunt in deo obiectiue, 
-      <lb ed="#B" n="52"/>non autem uirtualiter, nec eminenter, 
-      <lb ed="#B" n="53"/>saltem secundum rationem mali. Vide 
-      <lb ed="#B" n="54"/>latius in textu.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="320"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a81117"> <!-- l1d36prae -->
+        <head xml:id="gbs333-a81117-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a81117-d1e104">
+          <lb ed="#B" n="26"/>DISTINCTIO XXXVI. 
+          <lb ed="#B" n="27"/>QVITde scientia dei 
+          <lb ed="#B" n="28"/>in genere quoad se. 
+          <lb ed="#B" n="29"/>Nunc de eadem 
+          con<lb ed="#B" n="30" break="no"/>paratiue ad scita. Et  
+          <lb ed="#B" n="31"/>primo ut res scitas 
+          <lb ed="#B" n="32"/>in se continet 
+          obie<lb ed="#B" n="33" break="no"/>ctiue. Secundo ut eas 
+          <lb ed="#B" n="34"/>
+          s<lb ed="#B" n="35" break="no"/>inhabitat sanctificatiue distin. sequenti. 
+        </p>
+        <p xml:id="gbs333-a81117-d1e128">
+          <lb ed="#B" n="36"/>¶ Conclusio prima textus haec est. Licet 
+          <lb ed="#B" n="37"/>omnia sint in deicognitione: non 
+          ta<lb ed="#B" n="38" break="no"/>men conceditur omnia esse in dei 
+          essen<lb ed="#B" n="39" break="no"/>tia: ne creaturae intelligantur esse 
+          eius<lb ed="#B" n="40" break="no"/>dem essentiae, cum deo.
+        </p>
+        <p xml:id="gbs333-a81117-d1e141">
+          ¶ Vbi nota, quod 
+          <lb ed="#B" n="41"/>omnia dicuntur esse in deo obiectiue 
+          <lb ed="#B" n="42"/>uirtualiter, &amp; eminenter. Obiectiue: 
+          <lb ed="#B" n="43"/>quia sunt obiecta cognita. 
+          Virtuali<lb ed="#B" n="44" break="no"/>ter: quia sunt effectus producti. 
+          Emi<lb ed="#B" n="45" break="no"/>nenter: quia sunt minus perfecti.
+        </p>
+        <p xml:id="gbs333-a81117-d1e155">
+          ¶ 
+          Se<lb ed="#B" n="46" break="no"/>cunda concl. Licet mala sunt a deo 
+          co<lb ed="#B" n="47" break="no"/>gnita: non tamen secundum magistrum 
+          dicun<lb ed="#B" n="48" break="no"/>tur esse in deo: quia non sunt cognita 
+          <lb ed="#B" n="49"/>approbationis notitia.
+        </p>
+        <p xml:id="gbs333-a81117-d1e166">
+          ¶ Tertia concl. 
+          <!--407.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="50"/>Si esse in deo obiectiue dicit solum 
+          cogno<lb ed="#B" n="51" break="no"/>sci a deo: mala sunt in deo obiectiue, 
+          <lb ed="#B" n="52"/>non autem uirtualiter, nec eminenter, 
+          <lb ed="#B" n="53"/>saltem secundum rationem mali. Vide 
+          <lb ed="#B" n="54"/>latius in textu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-04-03">April 03, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-04-03" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-h87979"> <!-- l3d38prae -->
-            <head xml:id="gbs333-h87979-Hd1e100">Praeambulum</head>
-            <p xml:id="gbs333-h87979-d1e102">
-      <!--389.xml-->
-               <cb ed="#B" n="b"/>
-               <lb ed="#B" n="13"/>DISTINCTIO. XXXVIII. 
-      <lb ed="#B" n="14"/>
-      RAECEDEN<lb ed="#B" n="15" break="no"/>ti distinctione 
-      ma<lb ed="#B" n="16" break="no"/>gister egit de octo 
-      <lb ed="#B" n="17"/>primis praeceptis 
-      ge<lb ed="#B" n="18" break="no"/>neraliter: consequen 
-      <lb ed="#B" n="19"/>ter aliquas 
-      difficul<lb ed="#B" n="20" break="no"/>tates tractat circa se 
-      <lb ed="#B" n="21"/>ptimum praeceptum specialiter. Et quo 
-      <lb ed="#B" n="22"/>niam falsum testimonium dupliciter 
-      per<lb ed="#B" n="23" break="no"/>hiberi potest: quandoque simplici menda 
-      <lb ed="#B" n="24"/>cio: quandoque etiam addito periurio: 
-      <lb ed="#B" n="25"/>Ideo primum agit de mendacio 
-      distin<lb ed="#B" n="26" break="no"/>praesenti. xxxviij. Secundo de periurio.  
-      <lb ed="#B" n="27"/>dist. xxxix. Sententia uero huius dist. in 
-      <lb ed="#B" n="28"/>tribus conclusionibus abbreuiatur, quae se 
-      <lb ed="#B" n="29"/>quuntur.
-    </p>
-            <p xml:id="gbs333-h87979-d1e146">
-      ¶ Prima. Tribus mendaciorum 
-      <lb ed="#B" n="30"/>generibus officioso, iocoso, &amp; pernicio 
-      <lb ed="#B" n="31"/>lo, in octo species subdiuisis existentibus, 
-      <lb ed="#B" n="32"/>prima duo imperfectis sunt uenialia: per 
-      <lb ed="#B" n="33"/>fectis uero omnia: &amp; omnibus pernicio 
-      <lb ed="#B" n="34"/>sa sunt mortalia.
-    </p>
-            <p xml:id="gbs333-h87979-d1e159">
-      ¶ Secunda conclusio. 
-      Dif<lb ed="#B" n="35" break="no"/>ferunt mentiri, &amp; mendacium dicere: 
-      <lb ed="#B" n="36"/>quia absque falsitate primum: secundum 
-      ue<lb ed="#B" n="37" break="no"/>ro nequaquam potest existere.
-    </p>
-            <p xml:id="gbs333-h87979-d1e169">
-      ¶ Tertia 
-      <lb ed="#B" n="38"/>Error a mendacio distinguitur, qui 
-      ali<lb ed="#B" n="39" break="no"/>quando cum peccato: quandoque sine: 
-      immo<lb ed="#B" n="40" break="no"/>cunerrantis bono inuenitur: ultimum uero 
-      <lb ed="#B" n="41"/>est in uia pedum non morum: dicit 
-      magi<lb ed="#B" n="42" break="no"/>ster ex Aug. in enchi. cap. xvj.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-04-03">April 03, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="358"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-h87979"> <!-- l3d38prae -->
+        <head xml:id="gbs333-h87979-Hd1e100">Praeambulum</head>
+        <p xml:id="gbs333-h87979-d1e102">
+          <!--389.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="13"/>DISTINCTIO. XXXVIII. 
+          <lb ed="#B" n="14"/>
+          RAECEDEN<lb ed="#B" n="15" break="no"/>ti distinctione 
+          ma<lb ed="#B" n="16" break="no"/>gister egit de octo 
+          <lb ed="#B" n="17"/>primis praeceptis 
+          ge<lb ed="#B" n="18" break="no"/>neraliter: consequen 
+          <lb ed="#B" n="19"/>ter aliquas 
+          difficul<lb ed="#B" n="20" break="no"/>tates tractat circa se 
+          <lb ed="#B" n="21"/>ptimum praeceptum specialiter. Et quo 
+          <lb ed="#B" n="22"/>niam falsum testimonium dupliciter 
+          per<lb ed="#B" n="23" break="no"/>hiberi potest: quandoque simplici menda 
+          <lb ed="#B" n="24"/>cio: quandoque etiam addito periurio: 
+          <lb ed="#B" n="25"/>Ideo primum agit de mendacio 
+          distin<lb ed="#B" n="26" break="no"/>praesenti. xxxviij. Secundo de periurio.  
+          <lb ed="#B" n="27"/>dist. xxxix. Sententia uero huius dist. in 
+          <lb ed="#B" n="28"/>tribus conclusionibus abbreuiatur, quae se 
+          <lb ed="#B" n="29"/>quuntur.
+        </p>
+        <p xml:id="gbs333-h87979-d1e146">
+          ¶ Prima. Tribus mendaciorum 
+          <lb ed="#B" n="30"/>generibus officioso, iocoso, &amp; pernicio 
+          <lb ed="#B" n="31"/>lo, in octo species subdiuisis existentibus, 
+          <lb ed="#B" n="32"/>prima duo imperfectis sunt uenialia: per 
+          <lb ed="#B" n="33"/>fectis uero omnia: &amp; omnibus pernicio 
+          <lb ed="#B" n="34"/>sa sunt mortalia.
+        </p>
+        <p xml:id="gbs333-h87979-d1e159">
+          ¶ Secunda conclusio. 
+          Dif<lb ed="#B" n="35" break="no"/>ferunt mentiri, &amp; mendacium dicere: 
+          <lb ed="#B" n="36"/>quia absque falsitate primum: secundum 
+          ue<lb ed="#B" n="37" break="no"/>ro nequaquam potest existere.
+        </p>
+        <p xml:id="gbs333-h87979-d1e169">
+          ¶ Tertia 
+          <lb ed="#B" n="38"/>Error a mendacio distinguitur, qui 
+          ali<lb ed="#B" n="39" break="no"/>quando cum peccato: quandoque sine: 
+          immo<lb ed="#B" n="40" break="no"/>cunerrantis bono inuenitur: ultimum uero 
+          <lb ed="#B" n="41"/>est in uia pedum non morum: dicit 
+          magi<lb ed="#B" n="42" break="no"/>ster ex Aug. in enchi. cap. xvj.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

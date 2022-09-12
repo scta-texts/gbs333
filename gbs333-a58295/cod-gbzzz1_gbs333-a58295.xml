@@ -1,98 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a58295"> <!-- l1d19prae -->
-            <head xml:id="gbs333-a58295-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a58295-d1e104">
-               <lb ed="#B" n="58"/>PISTINCTIOxIx 
-      <lb ed="#B" n="59"/>N praecedentibus 
-      ma<lb ed="#B" n="60" break="no"/>gister egit de proprie 
-      <lb ed="#B" n="61"/>tatibus tam essentiae, 
-      <lb ed="#B" n="62"/>quam personarum diuisim 
-      <lb ed="#B" n="63"/>a dist. viij. Nunc con 
-      <lb ed="#B" n="64"/>sequenter agit de 
-      pro<lb ed="#B" n="65" break="no"/>n prietate earundem 
-      co<lb ed="#B" n="66" break="no"/>iunctim. Et hoc dupliciter. Nam primu 
-      <lb ed="#B" n="67"/>peritatem daeterminat quantum ad aeter 
-      <lb ed="#B" n="68"/>nitatem dist. psenti: &amp; quantum ad 
-      poten<lb ed="#B" n="69" break="no"/>tiam dist. xx. Dehinc circa ea dubia 
-      ab<lb ed="#B" n="70" break="no"/>oluit dist. xxj.
-    </p>
-            <p xml:id="gbs333-a58295-d1e135">
-      ¶ Sententia textus in his 
-      <lb ed="#B" n="71"/>stat conclusionibus.
-    </p>
-            <p xml:id="gbs333-a58295-d1e140">
-      ¶ Prima. Pides 
-      ca<lb ed="#B" n="72" break="no"/>tholica asserit personas nedum 
-      coaeter<lb ed="#B" n="73" break="no"/>na: sed etiam secundum magnitudinem 
-      <lb ed="#B" n="74"/>equales.
-    </p>
-            <p xml:id="gbs333-a58295-d1e150">
-      ¶ Secunda. una persona non est 
-      <lb ed="#B" n="75"/>maior alia: nec plures simul sunt aliquid 
-      <lb ed="#B" n="76"/>maius una: quia sunt una indiuidua, &amp; 
-      <lb ed="#B" n="77"/>simplex essentia, quae est in omnibus tota¬ 
-      </p>
-            <p xml:id="gbs333-a58295-d1e159">
-               <lb ed="#B" n="78"/>¶ Tertia. In personarum 
-      magnitudipeae<lb ed="#B" n="79" break="no"/>qualitas ostenditur ex naturae unitate 
-      <lb ed="#B" n="80"/>ois inaequalitatis remotione, naturae 
-      di<lb ed="#B" n="81" break="no"/>uinae simplicitate. Declaratio, &amp; 
-      exten<lb ed="#B" n="82" break="no"/>sio harum propositionum patet ex textu. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="230"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a58295"> <!-- l1d19prae -->
+        <head xml:id="gbs333-a58295-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a58295-d1e104">
+          <lb ed="#B" n="58"/>PISTINCTIOxIx 
+          <lb ed="#B" n="59"/>N praecedentibus 
+          ma<lb ed="#B" n="60" break="no"/>gister egit de proprie 
+          <lb ed="#B" n="61"/>tatibus tam essentiae, 
+          <lb ed="#B" n="62"/>quam personarum diuisim 
+          <lb ed="#B" n="63"/>a dist. viij. Nunc con 
+          <lb ed="#B" n="64"/>sequenter agit de 
+          pro<lb ed="#B" n="65" break="no"/>n prietate earundem 
+          co<lb ed="#B" n="66" break="no"/>iunctim. Et hoc dupliciter. Nam primu 
+          <lb ed="#B" n="67"/>peritatem daeterminat quantum ad aeter 
+          <lb ed="#B" n="68"/>nitatem dist. psenti: &amp; quantum ad 
+          poten<lb ed="#B" n="69" break="no"/>tiam dist. xx. Dehinc circa ea dubia 
+          ab<lb ed="#B" n="70" break="no"/>oluit dist. xxj.
+        </p>
+        <p xml:id="gbs333-a58295-d1e135">
+          ¶ Sententia textus in his 
+          <lb ed="#B" n="71"/>stat conclusionibus.
+        </p>
+        <p xml:id="gbs333-a58295-d1e140">
+          ¶ Prima. Pides 
+          ca<lb ed="#B" n="72" break="no"/>tholica asserit personas nedum 
+          coaeter<lb ed="#B" n="73" break="no"/>na: sed etiam secundum magnitudinem 
+          <lb ed="#B" n="74"/>equales.
+        </p>
+        <p xml:id="gbs333-a58295-d1e150">
+          ¶ Secunda. una persona non est 
+          <lb ed="#B" n="75"/>maior alia: nec plures simul sunt aliquid 
+          <lb ed="#B" n="76"/>maius una: quia sunt una indiuidua, &amp; 
+          <lb ed="#B" n="77"/>simplex essentia, quae est in omnibus tota¬ 
+        </p>
+        <p xml:id="gbs333-a58295-d1e159">
+          <lb ed="#B" n="78"/>¶ Tertia. In personarum 
+          magnitudipeae<lb ed="#B" n="79" break="no"/>qualitas ostenditur ex naturae unitate 
+          <lb ed="#B" n="80"/>ois inaequalitatis remotione, naturae 
+          di<lb ed="#B" n="81" break="no"/>uinae simplicitate. Declaratio, &amp; 
+          exten<lb ed="#B" n="82" break="no"/>sio harum propositionum patet ex textu. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

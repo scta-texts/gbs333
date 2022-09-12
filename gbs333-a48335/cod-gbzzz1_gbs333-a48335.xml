@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a48335"> <!-- l1d14prae -->
-            <head xml:id="gbs333-a48335-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a48335-d1e104">
-               <lb ed="#B" n="60"/>PISTINETIOxIIII. 
-      <lb ed="#B" n="61"/>VPRA magister 
-      <lb ed="#B" n="62"/>egit de personarum 
-      <lb ed="#B" n="63"/>emanatione 
-      adin<lb ed="#B" n="64" break="no"/>tra: numc specialiter 
-      <lb ed="#B" n="65"/>de processione spiri 
-      <lb ed="#B" n="66"/>cussancti adextra, 
-      <lb ed="#B" n="67"/>Non autem de 
-      mis<lb ed="#B" n="68" break="no"/>sione filij saltem principaliter: quia eius 
-      <lb ed="#B" n="69"/>missio incarnatio est: de qua in. iij. Hoc  
-      <lb ed="#B" n="70"/>ergo facit in quinque distinctionibus. 
-      <lb ed="#B" n="71"/>Et hoc tripliciter scilicet quo ad principium 
-      <lb ed="#B" n="72"/>a quo in distin. praesenti. &amp; xv. Quo ad 
-      <lb ed="#B" n="73"/>modum in distin. xvj. &amp; xvij. Quoad 
-      <lb ed="#B" n="74"/>proprietatem, in distin. xviij. Quo ad 
-      <lb ed="#B" n="75"/>principium, a quodupliciter scilicet distinctum, 
-      <lb ed="#B" n="76"/>quod est pater, &amp; filius. Indistinctum, 
-      <lb ed="#B" n="77"/>quod est ipsemet spiritussanctus. Modus 
-      <lb ed="#B" n="78"/>similiter duplex est. Visibilis: distinctio. 
-      <lb ed="#B" n="79"/>xvj. Proprietas uero est: quia procedit 
-      <lb ed="#B" n="80"/>ut donum: distin. xviij.
-    </p>
-            <p xml:id="gbs333-a48335-d1e152">
-      ¶ Sententia 
-      li<lb ed="#B" n="81" break="no"/>terae his complectitur conclusionibus. 
-      <lb ed="#B" n="82"/>Prima. Spiritussanctus apatre, &amp; 
-      filio<lb ed="#B" n="83" break="no"/>dupliciter procedit: scilicet 
-      processio<lb ed="#B" n="84" break="no"/>ne aeterna, &amp; processione temporali, 
-      <lb ed="#B" n="85"/>pro creaturae, cui sanctificatiue illabi 
-      <lb ed="#B" n="86"/>tur gratificatione.
-    </p>
-            <p xml:id="gbs333-a48335-d1e168">
-      ¶ Secunda 
-      conclu<lb ed="#B" n="87" break="no"/>sio. Spiritussancti temporalis 
-      proces<lb ed="#B" n="88" break="no"/>sio est eius missio, qua mittitur non 
-      <lb ed="#B" n="89"/>tantum in dono creato gratiae: sed in 
-      <lb ed="#B" n="90"/>seipso.
-    </p>
-            <p xml:id="gbs333-a48335-d1e180">
-      ¶ Tertia conclusio. Spiritum. 
-      <lb ed="#B" n="91"/>sanctum non dant uiri sancti 
-      au<lb ed="#B" n="92" break="no"/>ctoritatiue: sed 
-      ministeria<lb ed="#B" n="93" break="no"/>liter, &amp; impetratiue. 
-      <lb ed="#B" n="94"/>Vide latius 
-      <lb ed="#B" n="95"/>in 
-      tex<lb ed="#B" n="96" break="no"/>tu. 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="192"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a48335"> <!-- l1d14prae -->
+        <head xml:id="gbs333-a48335-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a48335-d1e104">
+          <lb ed="#B" n="60"/>PISTINETIOxIIII. 
+          <lb ed="#B" n="61"/>VPRA magister 
+          <lb ed="#B" n="62"/>egit de personarum 
+          <lb ed="#B" n="63"/>emanatione 
+          adin<lb ed="#B" n="64" break="no"/>tra: numc specialiter 
+          <lb ed="#B" n="65"/>de processione spiri 
+          <lb ed="#B" n="66"/>cussancti adextra, 
+          <lb ed="#B" n="67"/>Non autem de 
+          mis<lb ed="#B" n="68" break="no"/>sione filij saltem principaliter: quia eius 
+          <lb ed="#B" n="69"/>missio incarnatio est: de qua in. iij. Hoc  
+          <lb ed="#B" n="70"/>ergo facit in quinque distinctionibus. 
+          <lb ed="#B" n="71"/>Et hoc tripliciter scilicet quo ad principium 
+          <lb ed="#B" n="72"/>a quo in distin. praesenti. &amp; xv. Quo ad 
+          <lb ed="#B" n="73"/>modum in distin. xvj. &amp; xvij. Quoad 
+          <lb ed="#B" n="74"/>proprietatem, in distin. xviij. Quo ad 
+          <lb ed="#B" n="75"/>principium, a quodupliciter scilicet distinctum, 
+          <lb ed="#B" n="76"/>quod est pater, &amp; filius. Indistinctum, 
+          <lb ed="#B" n="77"/>quod est ipsemet spiritussanctus. Modus 
+          <lb ed="#B" n="78"/>similiter duplex est. Visibilis: distinctio. 
+          <lb ed="#B" n="79"/>xvj. Proprietas uero est: quia procedit 
+          <lb ed="#B" n="80"/>ut donum: distin. xviij.
+        </p>
+        <p xml:id="gbs333-a48335-d1e152">
+          ¶ Sententia 
+          li<lb ed="#B" n="81" break="no"/>terae his complectitur conclusionibus. 
+          <lb ed="#B" n="82"/>Prima. Spiritussanctus apatre, &amp; 
+          filio<lb ed="#B" n="83" break="no"/>dupliciter procedit: scilicet 
+          processio<lb ed="#B" n="84" break="no"/>ne aeterna, &amp; processione temporali, 
+          <lb ed="#B" n="85"/>pro creaturae, cui sanctificatiue illabi 
+          <lb ed="#B" n="86"/>tur gratificatione.
+        </p>
+        <p xml:id="gbs333-a48335-d1e168">
+          ¶ Secunda 
+          conclu<lb ed="#B" n="87" break="no"/>sio. Spiritussancti temporalis 
+          proces<lb ed="#B" n="88" break="no"/>sio est eius missio, qua mittitur non 
+          <lb ed="#B" n="89"/>tantum in dono creato gratiae: sed in 
+          <lb ed="#B" n="90"/>seipso.
+        </p>
+        <p xml:id="gbs333-a48335-d1e180">
+          ¶ Tertia conclusio. Spiritum. 
+          <lb ed="#B" n="91"/>sanctum non dant uiri sancti 
+          au<lb ed="#B" n="92" break="no"/>ctoritatiue: sed 
+          ministeria<lb ed="#B" n="93" break="no"/>liter, &amp; impetratiue. 
+          <lb ed="#B" n="94"/>Vide latius 
+          <lb ed="#B" n="95"/>in 
+          tex<lb ed="#B" n="96" break="no"/>tu. 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

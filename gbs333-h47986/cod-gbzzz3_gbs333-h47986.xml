@@ -1,132 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-04-03">April 03, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-04-03" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-h47986"> <!-- l3d23prae -->
-            <head xml:id="gbs333-h47986-Hd1e100">Praeambulum</head>
-            <p xml:id="gbs333-h47986-d1e102">
-               <lb ed="#B" n="15"/>DISTINCTIO. XXII. 
-      <lb ed="#B" n="16"/>VIA in 
-      praeceden<lb ed="#B" n="17" break="no"/>tibus xxij. dist. 
-      magi<lb ed="#B" n="18" break="no"/>ster determinauit de 
-      <lb ed="#B" n="19"/>solo capite Christo¬ 
-      <lb ed="#B" n="20"/> nostro redemptore. 
-      <lb ed="#B" n="21"/>In sequentibus xviij. 
-      <lb ed="#B" n="22"/>ll. dist. prosequitur de 
-      <lb ed="#B" n="23"/>eodem simul &amp; membris, quantum ad 
-      <lb ed="#B" n="24"/>perfectiones uirtutum, &amp; donorum, &amp; 
-      <lb ed="#B" n="25"/>gratiae. Et quoniam harum 
-      perfectio<lb ed="#B" n="26" break="no"/>num quaedam se habent ut habitus: quae 
-      <lb ed="#B" n="27"/>dam ut actus. Primo agit de habitibus, 
-      <lb ed="#B" n="28"/>donis scilicet, &amp; uirtutibus. Secundo de 
-      <lb ed="#B" n="29"/>praeceptis a domino actibus, dist. xxxvij. 
-      <lb ed="#B" n="30"/>Prima in duas. Primo determinat de 
-      <lb ed="#B" n="31"/>uirtutibus. Secundo de donis spiritus 
-      san<lb ed="#B" n="32" break="no"/>cti, dist. xxxiiij. Circa primum: primo 
-      <lb ed="#B" n="33"/>de uirtutibus theologalibus tractatum 
-      prae<lb ed="#B" n="34" break="no"/>mittit. Secundo de cardinalibus 
-      do<lb ed="#B" n="35" break="no"/>ctrinam annectit. dist. xxxiij. Prima in 
-      <lb ed="#B" n="36"/>tres, secundum tres theologicas 
-      uirtu<lb ed="#B" n="37" break="no"/>tes Primo namque agit de fide. 
-      Secun<lb ed="#B" n="38" break="no"/>do de spe, dist. xxvi. Tertio de 
-      charita<lb ed="#B" n="39" break="no"/>te, dist. xxvij.
-    </p>
-            <p xml:id="gbs333-h47986-d1e159">
-      ¶ De fide determinat 
-      pri<lb ed="#B" n="40" break="no"/>mo secundum se quantum ad fidei habitum 
-      <lb ed="#B" n="41"/>simul, &amp; actum. Secundo quantum ad 
-      <lb ed="#B" n="42"/>objectum. Tertio quantum ad 
-      subie<lb ed="#B" n="43" break="no"/>ctum, dist. xxv. In hac ergo dist, 
-      magi<lb ed="#B" n="44" break="no"/>ster agit de fide secundum se: &amp; 
-      quan<lb ed="#B" n="45" break="no"/>tum ad eius substantiam, seu 
-      quiddita<lb ed="#B" n="46" break="no"/>tem. Nam determinat de eius 
-      diffini<lb ed="#B" n="47" break="no"/>tione, formatione, unitate, &amp; 
-      ordi<lb ed="#B" n="48" break="no"/>ne siue prioritate. Cuius sententia ab¬ 
-      <!--227.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="49"/>breuiari potest tribus conclusionibus, 
-      <lb ed="#B" n="50"/>quae sequuntur.
-    </p>
-            <p xml:id="gbs333-h47986-d1e190">
-      ¶ Prima. Fide accepta 
-      <lb ed="#B" n="51"/>pro habitu, quae uirtus est, qua 
-      credun<lb ed="#B" n="52" break="no"/>tur ad religionem pertinentia, quae non 
-      <lb ed="#B" n="53"/>uidentur: ac quae est fundamentum, &amp; 
-      <lb ed="#B" n="54"/>substantia rerum sperandarum 
-      argu<lb ed="#B" n="55" break="no"/>mentum non apparentium: nom 
-      so<lb ed="#B" n="56" break="no"/>lum creditur deus aut deo: quod etiam 
-      <lb ed="#B" n="57"/>daemonum est, &amp; malorum: &amp; sed in deum 
-      <lb ed="#B" n="58"/>cum charitate firma: quod uerorum 
-      <lb ed="#B" n="59"/>tantum est Christianorum.
-    </p>
-            <p xml:id="gbs333-h47986-d1e213">
-      ¶ Secunda 
-      <lb ed="#B" n="60"/>conclusio. Vtrumque dici potest sine 
-      pe<lb ed="#B" n="61" break="no"/>riculo: &amp; quod fides informis accedente 
-      <lb ed="#B" n="62"/>charitate transeat: &amp; quod manente 
-      cha<lb ed="#B" n="63" break="no"/>ritas superueniens formet, &amp; 
-      perfi<lb ed="#B" n="64" break="no"/>ciat.
-    </p>
-            <p xml:id="gbs333-h47986-d1e226">
-      ¶ Tertia conclusio. Et si fides 
-      <lb ed="#B" n="65"/>multipliciter accipitur: una tamen est 
-      <lb ed="#B" n="66"/>non numero, sed genere: &amp; quantum 
-      <lb ed="#B" n="67"/>ad objectum, &amp; quantum ad habitum: 
-      <lb ed="#B" n="68"/>primaque uirtutum naturali ordine. Has 
-      <lb ed="#B" n="69"/>conclusiones quantum ad singulas fui 
-      <lb ed="#B" n="70"/>clausulas late declarat magister in 
-      tex<lb ed="#B" n="71" break="no"/>tu.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-04-03">April 03, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz3">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-04-03" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="196"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-h47986"> <!-- l3d23prae -->
+        <head xml:id="gbs333-h47986-Hd1e100">Praeambulum</head>
+        <p xml:id="gbs333-h47986-d1e102">
+          <lb ed="#B" n="15"/>DISTINCTIO. XXII. 
+          <lb ed="#B" n="16"/>VIA in 
+          praeceden<lb ed="#B" n="17" break="no"/>tibus xxij. dist. 
+          magi<lb ed="#B" n="18" break="no"/>ster determinauit de 
+          <lb ed="#B" n="19"/>solo capite Christo¬ 
+          <lb ed="#B" n="20"/> nostro redemptore. 
+          <lb ed="#B" n="21"/>In sequentibus xviij. 
+          <lb ed="#B" n="22"/>ll. dist. prosequitur de 
+          <lb ed="#B" n="23"/>eodem simul &amp; membris, quantum ad 
+          <lb ed="#B" n="24"/>perfectiones uirtutum, &amp; donorum, &amp; 
+          <lb ed="#B" n="25"/>gratiae. Et quoniam harum 
+          perfectio<lb ed="#B" n="26" break="no"/>num quaedam se habent ut habitus: quae 
+          <lb ed="#B" n="27"/>dam ut actus. Primo agit de habitibus, 
+          <lb ed="#B" n="28"/>donis scilicet, &amp; uirtutibus. Secundo de 
+          <lb ed="#B" n="29"/>praeceptis a domino actibus, dist. xxxvij. 
+          <lb ed="#B" n="30"/>Prima in duas. Primo determinat de 
+          <lb ed="#B" n="31"/>uirtutibus. Secundo de donis spiritus 
+          san<lb ed="#B" n="32" break="no"/>cti, dist. xxxiiij. Circa primum: primo 
+          <lb ed="#B" n="33"/>de uirtutibus theologalibus tractatum 
+          prae<lb ed="#B" n="34" break="no"/>mittit. Secundo de cardinalibus 
+          do<lb ed="#B" n="35" break="no"/>ctrinam annectit. dist. xxxiij. Prima in 
+          <lb ed="#B" n="36"/>tres, secundum tres theologicas 
+          uirtu<lb ed="#B" n="37" break="no"/>tes Primo namque agit de fide. 
+          Secun<lb ed="#B" n="38" break="no"/>do de spe, dist. xxvi. Tertio de 
+          charita<lb ed="#B" n="39" break="no"/>te, dist. xxvij.
+        </p>
+        <p xml:id="gbs333-h47986-d1e159">
+          ¶ De fide determinat 
+          pri<lb ed="#B" n="40" break="no"/>mo secundum se quantum ad fidei habitum 
+          <lb ed="#B" n="41"/>simul, &amp; actum. Secundo quantum ad 
+          <lb ed="#B" n="42"/>objectum. Tertio quantum ad 
+          subie<lb ed="#B" n="43" break="no"/>ctum, dist. xxv. In hac ergo dist, 
+          magi<lb ed="#B" n="44" break="no"/>ster agit de fide secundum se: &amp; 
+          quan<lb ed="#B" n="45" break="no"/>tum ad eius substantiam, seu 
+          quiddita<lb ed="#B" n="46" break="no"/>tem. Nam determinat de eius 
+          diffini<lb ed="#B" n="47" break="no"/>tione, formatione, unitate, &amp; 
+          ordi<lb ed="#B" n="48" break="no"/>ne siue prioritate. Cuius sententia ab¬ 
+          <!--227.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="49"/>breuiari potest tribus conclusionibus, 
+          <lb ed="#B" n="50"/>quae sequuntur.
+        </p>
+        <p xml:id="gbs333-h47986-d1e190">
+          ¶ Prima. Fide accepta 
+          <lb ed="#B" n="51"/>pro habitu, quae uirtus est, qua 
+          credun<lb ed="#B" n="52" break="no"/>tur ad religionem pertinentia, quae non 
+          <lb ed="#B" n="53"/>uidentur: ac quae est fundamentum, &amp; 
+          <lb ed="#B" n="54"/>substantia rerum sperandarum 
+          argu<lb ed="#B" n="55" break="no"/>mentum non apparentium: nom 
+          so<lb ed="#B" n="56" break="no"/>lum creditur deus aut deo: quod etiam 
+          <lb ed="#B" n="57"/>daemonum est, &amp; malorum: &amp; sed in deum 
+          <lb ed="#B" n="58"/>cum charitate firma: quod uerorum 
+          <lb ed="#B" n="59"/>tantum est Christianorum.
+        </p>
+        <p xml:id="gbs333-h47986-d1e213">
+          ¶ Secunda 
+          <lb ed="#B" n="60"/>conclusio. Vtrumque dici potest sine 
+          pe<lb ed="#B" n="61" break="no"/>riculo: &amp; quod fides informis accedente 
+          <lb ed="#B" n="62"/>charitate transeat: &amp; quod manente 
+          cha<lb ed="#B" n="63" break="no"/>ritas superueniens formet, &amp; 
+          perfi<lb ed="#B" n="64" break="no"/>ciat.
+        </p>
+        <p xml:id="gbs333-h47986-d1e226">
+          ¶ Tertia conclusio. Et si fides 
+          <lb ed="#B" n="65"/>multipliciter accipitur: una tamen est 
+          <lb ed="#B" n="66"/>non numero, sed genere: &amp; quantum 
+          <lb ed="#B" n="67"/>ad objectum, &amp; quantum ad habitum: 
+          <lb ed="#B" n="68"/>primaque uirtutum naturali ordine. Has 
+          <lb ed="#B" n="69"/>conclusiones quantum ad singulas fui 
+          <lb ed="#B" n="70"/>clausulas late declarat magister in 
+          tex<lb ed="#B" n="71" break="no"/>tu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

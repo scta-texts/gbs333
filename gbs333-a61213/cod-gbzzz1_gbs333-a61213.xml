@@ -1,321 +1,321 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Quaestio 1 
-      Utrum nomen persona sit terminus primae vel secundae intentionis
-    </title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Quaestio 1 
-      Utrum nomen persona sit terminus primae vel secundae intentionis
-    </title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="241"/>
-            <cb ed="#B" n="b"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a61213">
-            <head xml:id="gbs333-a61213-Hd1e100">Quaestio 1</head>
-            <head xml:id="gbs333-a61213-Hd1e102" type="questio-title">
-      Utrum nomen persona sit terminus primae vel secundae intentionis
-    </head>
-            <p xml:id="gbs333-a61213-d1e105">
-               <lb ed="#B" n="76"/>unica 
-      <lb ed="#B" n="77"/>VVTRVM hoc nomen 
-      per<lb ed="#B" n="78" break="no"/>sona sit nomen primae 
-      in<lb ed="#B" n="79" break="no"/>tentionis, uel secundae.
-    </p>
-            <p xml:id="gbs333-a61213-d1e116">
-      ¶ Ter 
-      <lb ed="#B" n="80"/>nario articulorum numero 
-      <lb ed="#B" n="81"/>resoluetur quaestio.
-    </p>
-            <p xml:id="gbs333-a61213-d1e123">
-      ¶ Pro 
-      as<lb ed="#B" n="82" break="no"/>ticulo primo, uidendum primo quid 
-      si<lb ed="#B" n="83" break="no"/>persona: secundo, quid terminus primae 
-      <lb ed="#B" n="84"/>uel secundae intentionis. Doct. primum 
-      <lb ed="#B" n="85"/>recitat, &amp; impugnat opi. Egidij, &amp; 
-      Hen<lb ed="#B" n="86" break="no"/>rici similiter, &amp; Sco. distin. praesenti. 
-      di<lb ed="#B" n="87" break="no"/>cuius opi. &amp; dictis latius patuit. quaest 
-      <lb ed="#B" n="88"/>distin. j. in tertio: ubi plura habentur, quae 
-      <lb ed="#B" n="89"/>intellectui quaestionis huius deseruiunt 
-      </p>
-            <p xml:id="gbs333-a61213-d1e144">
-               <lb ed="#B" n="90"/>¶ Notandum itaque, quod indiuiduum, sup 
-      <lb ed="#B" n="91"/>positum, persona, sunt tres termini 
-      ha<lb ed="#B" n="92" break="no"/>bentes se ut superius, &amp; inferius: non 
-      ta<lb ed="#B" n="93" break="no"/>men uniformiter: quia indiuiduum non 
-      <lb ed="#B" n="94"/>est superius per se primo modo id est 
-      essen<lb ed="#B" n="95" break="no"/>tialiter ad suppositum quia suppositum 
-      <lb ed="#B" n="96"/>connotat super ipsum: sed suppositum est 
-      <lb ed="#B" n="97"/>per se primo modo superius ad personam. 
-      <lb ed="#B" n="98"/>unde quod est indiuiduum in omni na¬ 
-      <!--329.xml-->
-      <pb ed="#B" n="242"/>
-               <cb ed="#B" n="a"/>
-               <lb ed="#B" n="1"/>tura: hoc est suppositum in natura per se 
-      <lb ed="#B" n="2"/>subsistente substantiali, &amp; persona in 
-      na<lb ed="#B" n="3" break="no"/>tura intellectuali.
-    </p>
-            <p xml:id="gbs333-a61213-d1e179">
-      ¶ Indiuiduum ergo 
-      <lb ed="#B" n="4"/>est res singularis, siue totalis, siue per se 
-      <lb ed="#B" n="5"/>subsistens, siue alteri innitens. 
-      Corolla<lb ed="#B" n="6" break="no"/>rium. Quaelibet res existens est 
-      indiui<lb ed="#B" n="7" break="no"/>duum: quia quaelibet est singularis. Nam 
-      <lb ed="#B" n="8"/>uniuersale, aut est ens rationis tamen: 
-      aut<lb ed="#B" n="9" break="no"/>si est ens reale: est singularis res: licet 
-      si<lb ed="#B" n="10" break="no"/>gnificando, &amp; praedicando sit conis: ut 
-      su<lb ed="#B" n="11" break="no"/>pra dist. ij. probatum est.
-    </p>
-            <p xml:id="gbs333-a61213-d1e199">
-      ¶ Suppositum es 
-      <lb ed="#B" n="12"/>ens completum non constituens aliquiad 
-      <lb ed="#B" n="13"/>ens unum: nec natum inhaerere alteri: 
-      <lb ed="#B" n="14"/>nec ab alio sustentatum. Ens completum 
-      <lb ed="#B" n="15"/>dicitur ens, quod non est natum esse pars 
-      <lb ed="#B" n="16"/>componens alterius &amp;c. ut. quaestio. i. 
-      <lb ed="#B" n="17"/>distinctio.
-    </p>
-            <p xml:id="gbs333-a61213-d1e215">
-      ¶ libri tertij latius patet.
-    </p>
-            <p xml:id="gbs333-a61213-d1e217">
-      ¶ Co 
-      <lb ed="#B" n="18"/>rollarium. Natura humana in Christo 
-      <lb ed="#B" n="19"/>est ens completum: quia non est pars 
-      con<lb ed="#B" n="20" break="no"/>ponens personam Christi. Non enim e 
-      <lb ed="#B" n="21"/>persona uerbi composita ex natura assum 
-      <lb ed="#B" n="22"/>pta: licet eam sustentet. Per primum scilicet 
-      <lb ed="#B" n="23"/>ens completum, excluditur entitas 
-      par<lb ed="#B" n="24" break="no"/>tialis siue actualiter componat, siue non: 
-      <lb ed="#B" n="25"/>quia nihil quod potest esse pars, est ens 
-      <lb ed="#B" n="26"/>completum: sed tamen ens partiale. Et ita 
-      <lb ed="#B" n="27"/>includitur anima eriam separata: &amp; 
-      om<lb ed="#B" n="28" break="no"/>nis forma substantialis: &amp; materia.
-    </p>
-            <p xml:id="gbs333-a61213-d1e243">
-      ¶ 
-      Per<lb ed="#B" n="29" break="no"/>secundam particulam: non constituens &amp;c 
-      <lb ed="#B" n="30"/>excluditur diuina essentia: &amp; quaelibet 
-      <lb ed="#B" n="31"/>relatio diuina: quia quamuis sit ens com 
-      <lb ed="#B" n="32"/>pletum: tamen constituit personam.
-    </p>
-            <p xml:id="gbs333-a61213-d1e255">
-      ¶ Et  
-      <lb ed="#B" n="33"/>nota, quod dicitur: non constituens, 
-      di<lb ed="#B" n="34" break="no"/>cit actum id est actu non constituens: 
-      quo<lb ed="#B" n="35" break="no"/>niam si diceret aptitudinem: nulla 
-      natu<lb ed="#B" n="36" break="no"/>ra assumptibilis esset suppositum: quia 
-      <lb ed="#B" n="37"/>quaelibet nata est constituere unum 
-      sup<lb ed="#B" n="38" break="no"/>positum cum assumente. Et ita nullum 
-      <lb ed="#B" n="39"/>suppositum creatum esset suppositum: 
-      <lb ed="#B" n="40"/>quia quodlibet est assumptibile: ut nunc 
-      <lb ed="#B" n="41"/>supponitur.
-    </p>
-            <p xml:id="gbs333-a61213-d1e277">
-      ¶ Sed hoc non uidetur 
-      ue<lb ed="#B" n="42" break="no"/>rum: quia nulla natura creata 
-      assumpti<lb ed="#B" n="43" break="no"/>bilis constituit unam personam cum 
-      as<lb ed="#B" n="44" break="no"/>sumente: quia persona assumens licet 
-      sub<lb ed="#B" n="45" break="no"/>fistat in natura assumpta: ut persona 
-      uer<lb ed="#B" n="46" break="no"/>bi in natura humana: non tamen 
-      consti<lb ed="#B" n="47" break="no"/>tuitur ex natura humana: sed ab aeterno 
-      <lb ed="#B" n="48"/>est constituta ex essentia, &amp; 
-      generatio<lb ed="#B" n="49" break="no"/>ne passiua: sicut album non constituitur 
-      <lb ed="#B" n="50"/>ex albedine: licet subsistat in albedine 
-      <lb ed="#B" n="51"/>Per primam ergo, &amp; secundam particu¬ 
-      <!--329.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="52"/>lam importatur aptitudo: per tertiam. 
-      <lb ed="#B" n="53"/>&amp; quartam, actualitas. Per tertiam 
-      parti<lb ed="#B" n="54" break="no"/>culam excluditur quodlibet accidens, 
-      <lb ed="#B" n="55"/>siue in actu inhaereat: siue sit separatum 
-      <lb ed="#B" n="56"/>a subjecto: ut accidens in sacramento 
-      al<lb ed="#B" n="57" break="no"/>taris: quia omne accidens natum est 
-      in<lb ed="#B" n="58" break="no"/>haerere. Per quartam particulam 
-      exclu<lb ed="#B" n="59" break="no"/>ditur natura assumpta uerbo non assum 
-      <lb ed="#B" n="60"/>ptibilis. De hoc in tertio dist. i. q. i. latius 
-      <lb ed="#B" n="61"/>habetur.
-    </p>
-            <p xml:id="gbs333-a61213-d1e327">
-      ¶ Persona est suppositum 
-      intel<lb ed="#B" n="62" break="no"/>lectuale. Et patet declaratio ex 
-      praece<lb ed="#B" n="63" break="no"/>dentibus. Et haec diffinitio quid 
-      nomi<lb ed="#B" n="64" break="no"/>nis personae concordat cum diffinitione 
-      <lb ed="#B" n="65"/>Boe. dicentis. Persona est rationalis 
-      na<lb ed="#B" n="66" break="no"/>turae indiuidua substantia. Nam per 
-      ra<lb ed="#B" n="67" break="no"/>tionalis, intelligit intellectualis: per 
-      indi<lb ed="#B" n="68" break="no"/>uidua intelligit suppositum: scilicet ens 
-      <lb ed="#B" n="69"/>completum &amp;c. Similiter concordat, 
-      <lb ed="#B" n="70"/>cum quid nominis Rich. dicentis. 
-      Per<lb ed="#B" n="71" break="no"/>sona est intellectualis naturae 
-      incommu<lb ed="#B" n="72" break="no"/>nicabilis existentia. Pert 
-      incommunica<lb ed="#B" n="73" break="no"/>bilis, intelligit, quod non potest conmuni 
-      <lb ed="#B" n="74"/>cari alteri, ut pars toti: constituens 
-      con<lb ed="#B" n="75" break="no"/>stituto: uel accidens subjecto, uel 
-      susten<lb ed="#B" n="76" break="no"/>tatum sustentanti intelligendo: ut 
-      supra<lb ed="#B" n="77" break="no"/>Et per hoc inipugnantur diffinitiones 
-      <lb ed="#B" n="78"/>Sco. taniquam insufficientes.
-    </p>
-            <p xml:id="gbs333-a61213-d1e366">
-      ¶ Circa 
-      se<lb ed="#B" n="79" break="no"/>cundum nota. Differentia est inter 
-      in<lb ed="#B" n="80" break="no"/>tentionem primam, &amp; secundam ex una:, 
-      <lb ed="#B" n="81"/>&amp; nomen primae intentionis, uel secun, 
-      <lb ed="#B" n="82"/>dae intentionis ex altera. Nam 
-      intentio<lb ed="#B" n="83" break="no"/>dicitur illud, quod imponens terminum 
-      <lb ed="#B" n="84"/>intendit significare per terminum. Est 
-      er<lb ed="#B" n="85" break="no"/>go intentio (ut hic capitur) significatum. 
-      <lb ed="#B" n="86"/>termini: &amp; intentio prima, est res 
-      reali<lb ed="#B" n="87" break="no"/>ter existens. Intentio secunda est 
-      ali<lb ed="#B" n="88" break="no"/>quid in anima praedicabile de 
-      nomini<lb ed="#B" n="89" break="no"/>bus rerum. &amp; omne tale est signum. 
-      No<lb ed="#B" n="90" break="no"/>men ergo primae intentionis, est nomem 
-      <lb ed="#B" n="91"/>repraesentans rem realem, non per 
-      mo<lb ed="#B" n="92" break="no"/>dum signi. Nomen secundae 
-      intentio<lb ed="#B" n="93" break="no"/>nis, est nomen repraesentans signum per 
-      <lb ed="#B" n="94"/>modum signi: siue illud sit res aliqua, uel 
-      <lb ed="#B" n="95"/>tantum ens rationis: non habens esse 
-      <lb ed="#B" n="96"/>reale: sed tantum esse obiectiuum in 
-      a<lb ed="#B" n="97" break="no"/>nima.
-    </p>
-            <p xml:id="gbs333-a61213-d1e410">
-      ¶ Quantum ad articulum 
-      secun<lb ed="#B" n="98" break="no"/>dum est conclusio responsalis. Nomen 
-      <lb ed="#B" n="99"/>persona acceptum personaliter, est 
-      no<lb ed="#B" n="100" break="no"/>men primae intentionis, &amp; non 
-      secun<lb ed="#B" n="101" break="no"/>dae intentionis. Patet: quia significat  
-      <lb ed="#B" n="102"/>rem non per modum signi. Nec impe¬ 
-      <!--330.xml-->
-      <pb ed="#B" n="243"/>
-               <cb ed="#B" n="a"/>
-               <lb ed="#B" n="1"/>dit, quod in eius diffinitione (secundum Boe.) 
-      <lb ed="#B" n="2"/>ponitur indiuiduum: quia indiuiduum, 
-      <lb ed="#B" n="3"/>ntibi accipitur: non est terminus 
-      secutn<lb ed="#B" n="4" break="no"/>dae intentionis: sed primae intentionis. 
-      <lb ed="#B" n="5"/>Etiam non oportet terminum esse 
-      secun<lb ed="#B" n="6" break="no"/>dae intentionis: in cuius quid nominis 
-      po<lb ed="#B" n="7" break="no"/>nitur terminus secundae intentionis. Quia 
-      <lb ed="#B" n="8"/>res fingularis posset describi: est res 
-      fi<lb ed="#B" n="9" break="no"/>gnificata, uel significabilis per 
-      indiui<lb ed="#B" n="10" break="no"/>duum, aut terminum singularem: ubi 
-      po<lb ed="#B" n="11" break="no"/>nitur terminus secundae intentionis, &amp; 
-      <lb ed="#B" n="12"/>tamen res singularis non est terminus se 
-      <lb ed="#B" n="13"/>cundae intentionis.
-    </p>
-            <p xml:id="gbs333-a61213-d1e458">
-      ¶ Quantum ad arti 
-      <lb ed="#B" n="14"/>culum tertium est dubium primum. 
-      Si<lb ed="#B" n="15" break="no"/>enim quae dicta sunt starent, sequeretur, 
-      <lb ed="#B" n="16"/>quod persona non esset unum per se. 
-      Inclu<lb ed="#B" n="17" break="no"/>dit enim plures negationes: sed negatio 
-      <lb ed="#B" n="18"/>tantum facit unum per se cum 
-      positiuo<lb ed="#B" n="19" break="no"/>Respondetur, quod persona est unum 
-      per<lb ed="#B" n="20" break="no"/>se eo modo sicut album per se est homo. 
-      <lb ed="#B" n="21"/>Attamen eius diffinitio (quae est quid 
-      no<lb ed="#B" n="22" break="no"/>minis, non quid rei siue quidditatiua) 
-      <lb ed="#B" n="23"/>non significat praecise aliquid unum. 
-      im<lb ed="#B" n="24" break="no"/>portat enim plures negationes: nec 
-      o<lb ed="#B" n="25" break="no"/>portet, quod quicquid ponitur in diffinitio 
-      <lb ed="#B" n="26"/>ne quid nominis sit aliquid rei diffinitae 
-      <lb ed="#B" n="27"/>Secus in diffinitione quidditatiua. 
-      Al<lb ed="#B" n="28" break="no"/>bum enim diffinit, quod est res habens in se 
-      <lb ed="#B" n="29"/>albedinem, &amp; tamen albedo non est de 
-      <lb ed="#B" n="30"/>essentia Ioannis, qui est albus. Et de 
-      <lb ed="#B" n="31"/>hoc latius in tertio dist. i. q. i.
-    </p>
-            <p xml:id="gbs333-a61213-d1e501">
-      ¶ 
-      Secun<lb ed="#B" n="32" break="no"/>dum dubium. In diffinitione 
-      indiui<lb ed="#B" n="33" break="no"/>duiponitur intentio: ergo indiuiduum 
-      <lb ed="#B" n="34"/>est secundae, intentionis: quae indiuiduum 
-      <lb ed="#B" n="35"/>est, quod praedicatur de uno solo. 
-      praedi<lb ed="#B" n="36" break="no"/>cari autem est secundae intentionis. 
-      Re<lb ed="#B" n="37" break="no"/>spondetur, quod illud non est quid nominis 
-      <lb ed="#B" n="38"/>indiuidui: sed terminorum singularium, 
-      <lb ed="#B" n="39"/>qui dicuntur indiuiduum: sed ens quid 
-      <lb ed="#B" n="40"/>nominis in suppositione personali est 
-      <lb ed="#B" n="41"/>ens completum &amp;c. Nec etiam 
-      sequi<lb ed="#B" n="42" break="no"/>tur: nomen secundae intentionis 
-      poni<lb ed="#B" n="43" break="no"/>tur in eius diffinitione: ergo est 
-      nomen<lb ed="#B" n="44" break="no"/>secundae intentionis. Sicut non 
-      sequi<lb ed="#B" n="45" break="no"/>tur aliquod nomen primae intentionis 
-      <lb ed="#B" n="46"/>ponitur in diffinitione speciei: ergo 
-      ip<lb ed="#B" n="47" break="no"/>sum est primae intentionis.
-    </p>
-            <p xml:id="gbs333-a61213-d1e538">
-      ¶ Tertium 
-      <lb ed="#B" n="48"/>dubium. Album nigrum, &amp; similes 
-      ter<lb ed="#B" n="49" break="no"/>mini dicuntur accidentales: licet 
-      suppo<lb ed="#B" n="50" break="no"/>uant pro substantia: ergo eadem 
-      ratio<lb ed="#B" n="51" break="no"/>ae suppositum, &amp; persona (licet suppo¬ 
-      <!--330.xml-->
-      <cb ed="#B" n="b"/>
-               <lb ed="#B" n="52"/>nant pro rebus) possunt esse termini se 
-      <lb ed="#B" n="53"/>cundae intentionis. Ad illud dicitur, 
-      con<lb ed="#B" n="54" break="no"/>cesso quod sunt termini accidentales: quia 
-      <lb ed="#B" n="55"/>principaliter. (hoc est formaliter) 
-      im<lb ed="#B" n="56" break="no"/>portant accidentia. supponunt enim 
-      <lb ed="#B" n="57"/>re habente albedinem. Secus est de 
-      no<lb ed="#B" n="58" break="no"/>mine persona, &amp; suppositum &amp;c.
-    </p>
-            <p xml:id="gbs333-a61213-d1e569">
-      ¶ Quat 
-      <lb ed="#B" n="59"/>tum dubium: quot modis dicitur unum 
-      <lb ed="#B" n="60"/>oppositorum, &amp; reliquum: sed 
-      uniuer<lb ed="#B" n="61" break="no"/>sale, &amp; singulare sunt opposita, &amp; 
-      uni<lb ed="#B" n="62" break="no"/>uersale est secundae intentionis: ergo, &amp; 
-      <lb ed="#B" n="63"/>singulare. Respondetur negando assum 
-      <lb ed="#B" n="64"/>ptum uniuersaliter: quamuis posset esse 
-      <lb ed="#B" n="65"/>uerum de oppositis contrarijs: a 
-      quo<lb ed="#B" n="66" break="no"/>rum uno possit aliquis transmutari ad 
-      re<lb ed="#B" n="67" break="no"/>liquum 
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Quaestio 1 
+          Utrum nomen persona sit terminus primae vel secundae intentionis
+        </title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Quaestio 1 
+            Utrum nomen persona sit terminus primae vel secundae intentionis
+          </title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="241"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a61213">
+        <head xml:id="gbs333-a61213-Hd1e100">Quaestio 1</head>
+        <head xml:id="gbs333-a61213-Hd1e102" type="questio-title">
+          Utrum nomen persona sit terminus primae vel secundae intentionis
+        </head>
+        <p xml:id="gbs333-a61213-d1e105">
+          <lb ed="#B" n="76"/>unica 
+          <lb ed="#B" n="77"/>VTRVM hoc nomen 
+          per<lb ed="#B" n="78" break="no"/>sona sit nomen primae 
+          in<lb ed="#B" n="79" break="no"/>tentionis, uel secundae.
+        </p>
+        <p xml:id="gbs333-a61213-d1e116">
+          ¶ Ter 
+          <lb ed="#B" n="80"/>nario articulorum numero 
+          <lb ed="#B" n="81"/>resoluetur quaestio.
+        </p>
+        <p xml:id="gbs333-a61213-d1e123">
+          ¶ Pro 
+          as<lb ed="#B" n="82" break="no"/>ticulo primo, uidendum primo quid 
+          si<lb ed="#B" n="83" break="no"/>persona: secundo, quid terminus primae 
+          <lb ed="#B" n="84"/>uel secundae intentionis. Doct. primum 
+          <lb ed="#B" n="85"/>recitat, &amp; impugnat opi. Egidij, &amp; 
+          Hen<lb ed="#B" n="86" break="no"/>rici similiter, &amp; Sco. distin. praesenti. 
+          di<lb ed="#B" n="87" break="no"/>cuius opi. &amp; dictis latius patuit. quaest 
+          <lb ed="#B" n="88"/>distin. j. in tertio: ubi plura habentur, quae 
+          <lb ed="#B" n="89"/>intellectui quaestionis huius deseruiunt 
+        </p>
+        <p xml:id="gbs333-a61213-d1e144">
+          <lb ed="#B" n="90"/>¶ Notandum itaque, quod indiuiduum, sup 
+          <lb ed="#B" n="91"/>positum, persona, sunt tres termini 
+          ha<lb ed="#B" n="92" break="no"/>bentes se ut superius, &amp; inferius: non 
+          ta<lb ed="#B" n="93" break="no"/>men uniformiter: quia indiuiduum non 
+          <lb ed="#B" n="94"/>est superius per se primo modo id est 
+          essen<lb ed="#B" n="95" break="no"/>tialiter ad suppositum quia suppositum 
+          <lb ed="#B" n="96"/>connotat super ipsum: sed suppositum est 
+          <lb ed="#B" n="97"/>per se primo modo superius ad personam. 
+          <lb ed="#B" n="98"/>unde quod est indiuiduum in omni na¬ 
+          <!--329.xml-->
+          <pb ed="#B" n="242"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B" n="1"/>tura: hoc est suppositum in natura per se 
+          <lb ed="#B" n="2"/>subsistente substantiali, &amp; persona in 
+          na<lb ed="#B" n="3" break="no"/>tura intellectuali.
+        </p>
+        <p xml:id="gbs333-a61213-d1e179">
+          ¶ Indiuiduum ergo 
+          <lb ed="#B" n="4"/>est res singularis, siue totalis, siue per se 
+          <lb ed="#B" n="5"/>subsistens, siue alteri innitens. 
+          Corolla<lb ed="#B" n="6" break="no"/>rium. Quaelibet res existens est 
+          indiui<lb ed="#B" n="7" break="no"/>duum: quia quaelibet est singularis. Nam 
+          <lb ed="#B" n="8"/>uniuersale, aut est ens rationis tamen: 
+          aut<lb ed="#B" n="9" break="no"/>si est ens reale: est singularis res: licet 
+          si<lb ed="#B" n="10" break="no"/>gnificando, &amp; praedicando sit conis: ut 
+          su<lb ed="#B" n="11" break="no"/>pra dist. ij. probatum est.
+        </p>
+        <p xml:id="gbs333-a61213-d1e199">
+          ¶ Suppositum es 
+          <lb ed="#B" n="12"/>ens completum non constituens aliquiad 
+          <lb ed="#B" n="13"/>ens unum: nec natum inhaerere alteri: 
+          <lb ed="#B" n="14"/>nec ab alio sustentatum. Ens completum 
+          <lb ed="#B" n="15"/>dicitur ens, quod non est natum esse pars 
+          <lb ed="#B" n="16"/>componens alterius &amp;c. ut. quaestio. i. 
+          <lb ed="#B" n="17"/>distinctio.
+        </p>
+        <p xml:id="gbs333-a61213-d1e215">
+          ¶ libri tertij latius patet.
+        </p>
+        <p xml:id="gbs333-a61213-d1e217">
+          ¶ Co 
+          <lb ed="#B" n="18"/>rollarium. Natura humana in Christo 
+          <lb ed="#B" n="19"/>est ens completum: quia non est pars 
+          con<lb ed="#B" n="20" break="no"/>ponens personam Christi. Non enim e 
+          <lb ed="#B" n="21"/>persona uerbi composita ex natura assum 
+          <lb ed="#B" n="22"/>pta: licet eam sustentet. Per primum scilicet 
+          <lb ed="#B" n="23"/>ens completum, excluditur entitas 
+          par<lb ed="#B" n="24" break="no"/>tialis siue actualiter componat, siue non: 
+          <lb ed="#B" n="25"/>quia nihil quod potest esse pars, est ens 
+          <lb ed="#B" n="26"/>completum: sed tamen ens partiale. Et ita 
+          <lb ed="#B" n="27"/>includitur anima eriam separata: &amp; 
+          om<lb ed="#B" n="28" break="no"/>nis forma substantialis: &amp; materia.
+        </p>
+        <p xml:id="gbs333-a61213-d1e243">
+          ¶ 
+          Per<lb ed="#B" n="29" break="no"/>secundam particulam: non constituens &amp;c 
+          <lb ed="#B" n="30"/>excluditur diuina essentia: &amp; quaelibet 
+          <lb ed="#B" n="31"/>relatio diuina: quia quamuis sit ens com 
+          <lb ed="#B" n="32"/>pletum: tamen constituit personam.
+        </p>
+        <p xml:id="gbs333-a61213-d1e255">
+          ¶ Et  
+          <lb ed="#B" n="33"/>nota, quod dicitur: non constituens, 
+          di<lb ed="#B" n="34" break="no"/>cit actum id est actu non constituens: 
+          quo<lb ed="#B" n="35" break="no"/>niam si diceret aptitudinem: nulla 
+          natu<lb ed="#B" n="36" break="no"/>ra assumptibilis esset suppositum: quia 
+          <lb ed="#B" n="37"/>quaelibet nata est constituere unum 
+          sup<lb ed="#B" n="38" break="no"/>positum cum assumente. Et ita nullum 
+          <lb ed="#B" n="39"/>suppositum creatum esset suppositum: 
+          <lb ed="#B" n="40"/>quia quodlibet est assumptibile: ut nunc 
+          <lb ed="#B" n="41"/>supponitur.
+        </p>
+        <p xml:id="gbs333-a61213-d1e277">
+          ¶ Sed hoc non uidetur 
+          ue<lb ed="#B" n="42" break="no"/>rum: quia nulla natura creata 
+          assumpti<lb ed="#B" n="43" break="no"/>bilis constituit unam personam cum 
+          as<lb ed="#B" n="44" break="no"/>sumente: quia persona assumens licet 
+          sub<lb ed="#B" n="45" break="no"/>fistat in natura assumpta: ut persona 
+          uer<lb ed="#B" n="46" break="no"/>bi in natura humana: non tamen 
+          consti<lb ed="#B" n="47" break="no"/>tuitur ex natura humana: sed ab aeterno 
+          <lb ed="#B" n="48"/>est constituta ex essentia, &amp; 
+          generatio<lb ed="#B" n="49" break="no"/>ne passiua: sicut album non constituitur 
+          <lb ed="#B" n="50"/>ex albedine: licet subsistat in albedine 
+          <lb ed="#B" n="51"/>Per primam ergo, &amp; secundam particu¬ 
+          <!--329.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="52"/>lam importatur aptitudo: per tertiam. 
+          <lb ed="#B" n="53"/>&amp; quartam, actualitas. Per tertiam 
+          parti<lb ed="#B" n="54" break="no"/>culam excluditur quodlibet accidens, 
+          <lb ed="#B" n="55"/>siue in actu inhaereat: siue sit separatum 
+          <lb ed="#B" n="56"/>a subjecto: ut accidens in sacramento 
+          al<lb ed="#B" n="57" break="no"/>taris: quia omne accidens natum est 
+          in<lb ed="#B" n="58" break="no"/>haerere. Per quartam particulam 
+          exclu<lb ed="#B" n="59" break="no"/>ditur natura assumpta uerbo non assum 
+          <lb ed="#B" n="60"/>ptibilis. De hoc in tertio dist. i. q. i. latius 
+          <lb ed="#B" n="61"/>habetur.
+        </p>
+        <p xml:id="gbs333-a61213-d1e327">
+          ¶ Persona est suppositum 
+          intel<lb ed="#B" n="62" break="no"/>lectuale. Et patet declaratio ex 
+          praece<lb ed="#B" n="63" break="no"/>dentibus. Et haec diffinitio quid 
+          nomi<lb ed="#B" n="64" break="no"/>nis personae concordat cum diffinitione 
+          <lb ed="#B" n="65"/>Boe. dicentis. Persona est rationalis 
+          na<lb ed="#B" n="66" break="no"/>turae indiuidua substantia. Nam per 
+          ra<lb ed="#B" n="67" break="no"/>tionalis, intelligit intellectualis: per 
+          indi<lb ed="#B" n="68" break="no"/>uidua intelligit suppositum: scilicet ens 
+          <lb ed="#B" n="69"/>completum &amp;c. Similiter concordat, 
+          <lb ed="#B" n="70"/>cum quid nominis Rich. dicentis. 
+          Per<lb ed="#B" n="71" break="no"/>sona est intellectualis naturae 
+          incommu<lb ed="#B" n="72" break="no"/>nicabilis existentia. Pert 
+          incommunica<lb ed="#B" n="73" break="no"/>bilis, intelligit, quod non potest conmuni 
+          <lb ed="#B" n="74"/>cari alteri, ut pars toti: constituens 
+          con<lb ed="#B" n="75" break="no"/>stituto: uel accidens subjecto, uel 
+          susten<lb ed="#B" n="76" break="no"/>tatum sustentanti intelligendo: ut 
+          supra<lb ed="#B" n="77" break="no"/>Et per hoc inipugnantur diffinitiones 
+          <lb ed="#B" n="78"/>Sco. taniquam insufficientes.
+        </p>
+        <p xml:id="gbs333-a61213-d1e366">
+          ¶ Circa 
+          se<lb ed="#B" n="79" break="no"/>cundum nota. Differentia est inter 
+          in<lb ed="#B" n="80" break="no"/>tentionem primam, &amp; secundam ex una:, 
+          <lb ed="#B" n="81"/>&amp; nomen primae intentionis, uel secun, 
+          <lb ed="#B" n="82"/>dae intentionis ex altera. Nam 
+          intentio<lb ed="#B" n="83" break="no"/>dicitur illud, quod imponens terminum 
+          <lb ed="#B" n="84"/>intendit significare per terminum. Est 
+          er<lb ed="#B" n="85" break="no"/>go intentio (ut hic capitur) significatum. 
+          <lb ed="#B" n="86"/>termini: &amp; intentio prima, est res 
+          reali<lb ed="#B" n="87" break="no"/>ter existens. Intentio secunda est 
+          ali<lb ed="#B" n="88" break="no"/>quid in anima praedicabile de 
+          nomini<lb ed="#B" n="89" break="no"/>bus rerum. &amp; omne tale est signum. 
+          No<lb ed="#B" n="90" break="no"/>men ergo primae intentionis, est nomem 
+          <lb ed="#B" n="91"/>repraesentans rem realem, non per 
+          mo<lb ed="#B" n="92" break="no"/>dum signi. Nomen secundae 
+          intentio<lb ed="#B" n="93" break="no"/>nis, est nomen repraesentans signum per 
+          <lb ed="#B" n="94"/>modum signi: siue illud sit res aliqua, uel 
+          <lb ed="#B" n="95"/>tantum ens rationis: non habens esse 
+          <lb ed="#B" n="96"/>reale: sed tantum esse obiectiuum in 
+          a<lb ed="#B" n="97" break="no"/>nima.
+        </p>
+        <p xml:id="gbs333-a61213-d1e410">
+          ¶ Quantum ad articulum 
+          secun<lb ed="#B" n="98" break="no"/>dum est conclusio responsalis. Nomen 
+          <lb ed="#B" n="99"/>persona acceptum personaliter, est 
+          no<lb ed="#B" n="100" break="no"/>men primae intentionis, &amp; non 
+          secun<lb ed="#B" n="101" break="no"/>dae intentionis. Patet: quia significat  
+          <lb ed="#B" n="102"/>rem non per modum signi. Nec impe¬ 
+          <!--330.xml-->
+          <pb ed="#B" n="243"/>
+          <cb ed="#B" n="a"/>
+          <lb ed="#B" n="1"/>dit, quod in eius diffinitione (secundum Boe.) 
+          <lb ed="#B" n="2"/>ponitur indiuiduum: quia indiuiduum, 
+          <lb ed="#B" n="3"/>ntibi accipitur: non est terminus 
+          secutn<lb ed="#B" n="4" break="no"/>dae intentionis: sed primae intentionis. 
+          <lb ed="#B" n="5"/>Etiam non oportet terminum esse 
+          secun<lb ed="#B" n="6" break="no"/>dae intentionis: in cuius quid nominis 
+          po<lb ed="#B" n="7" break="no"/>nitur terminus secundae intentionis. Quia 
+          <lb ed="#B" n="8"/>res fingularis posset describi: est res 
+          fi<lb ed="#B" n="9" break="no"/>gnificata, uel significabilis per 
+          indiui<lb ed="#B" n="10" break="no"/>duum, aut terminum singularem: ubi 
+          po<lb ed="#B" n="11" break="no"/>nitur terminus secundae intentionis, &amp; 
+          <lb ed="#B" n="12"/>tamen res singularis non est terminus se 
+          <lb ed="#B" n="13"/>cundae intentionis.
+        </p>
+        <p xml:id="gbs333-a61213-d1e458">
+          ¶ Quantum ad arti 
+          <lb ed="#B" n="14"/>culum tertium est dubium primum. 
+          Si<lb ed="#B" n="15" break="no"/>enim quae dicta sunt starent, sequeretur, 
+          <lb ed="#B" n="16"/>quod persona non esset unum per se. 
+          Inclu<lb ed="#B" n="17" break="no"/>dit enim plures negationes: sed negatio 
+          <lb ed="#B" n="18"/>tantum facit unum per se cum 
+          positiuo<lb ed="#B" n="19" break="no"/>Respondetur, quod persona est unum 
+          per<lb ed="#B" n="20" break="no"/>se eo modo sicut album per se est homo. 
+          <lb ed="#B" n="21"/>Attamen eius diffinitio (quae est quid 
+          no<lb ed="#B" n="22" break="no"/>minis, non quid rei siue quidditatiua) 
+          <lb ed="#B" n="23"/>non significat praecise aliquid unum. 
+          im<lb ed="#B" n="24" break="no"/>portat enim plures negationes: nec 
+          o<lb ed="#B" n="25" break="no"/>portet, quod quicquid ponitur in diffinitio 
+          <lb ed="#B" n="26"/>ne quid nominis sit aliquid rei diffinitae 
+          <lb ed="#B" n="27"/>Secus in diffinitione quidditatiua. 
+          Al<lb ed="#B" n="28" break="no"/>bum enim diffinit, quod est res habens in se 
+          <lb ed="#B" n="29"/>albedinem, &amp; tamen albedo non est de 
+          <lb ed="#B" n="30"/>essentia Ioannis, qui est albus. Et de 
+          <lb ed="#B" n="31"/>hoc latius in tertio dist. i. q. i.
+        </p>
+        <p xml:id="gbs333-a61213-d1e501">
+          ¶ 
+          Secun<lb ed="#B" n="32" break="no"/>dum dubium. In diffinitione 
+          indiui<lb ed="#B" n="33" break="no"/>duiponitur intentio: ergo indiuiduum 
+          <lb ed="#B" n="34"/>est secundae, intentionis: quae indiuiduum 
+          <lb ed="#B" n="35"/>est, quod praedicatur de uno solo. 
+          praedi<lb ed="#B" n="36" break="no"/>cari autem est secundae intentionis. 
+          Re<lb ed="#B" n="37" break="no"/>spondetur, quod illud non est quid nominis 
+          <lb ed="#B" n="38"/>indiuidui: sed terminorum singularium, 
+          <lb ed="#B" n="39"/>qui dicuntur indiuiduum: sed ens quid 
+          <lb ed="#B" n="40"/>nominis in suppositione personali est 
+          <lb ed="#B" n="41"/>ens completum &amp;c. Nec etiam 
+          sequi<lb ed="#B" n="42" break="no"/>tur: nomen secundae intentionis 
+          poni<lb ed="#B" n="43" break="no"/>tur in eius diffinitione: ergo est 
+          nomen<lb ed="#B" n="44" break="no"/>secundae intentionis. Sicut non 
+          sequi<lb ed="#B" n="45" break="no"/>tur aliquod nomen primae intentionis 
+          <lb ed="#B" n="46"/>ponitur in diffinitione speciei: ergo 
+          ip<lb ed="#B" n="47" break="no"/>sum est primae intentionis.
+        </p>
+        <p xml:id="gbs333-a61213-d1e538">
+          ¶ Tertium 
+          <lb ed="#B" n="48"/>dubium. Album nigrum, &amp; similes 
+          ter<lb ed="#B" n="49" break="no"/>mini dicuntur accidentales: licet 
+          suppo<lb ed="#B" n="50" break="no"/>uant pro substantia: ergo eadem 
+          ratio<lb ed="#B" n="51" break="no"/>ae suppositum, &amp; persona (licet suppo¬ 
+          <!--330.xml-->
+          <cb ed="#B" n="b"/>
+          <lb ed="#B" n="52"/>nant pro rebus) possunt esse termini se 
+          <lb ed="#B" n="53"/>cundae intentionis. Ad illud dicitur, 
+          con<lb ed="#B" n="54" break="no"/>cesso quod sunt termini accidentales: quia 
+          <lb ed="#B" n="55"/>principaliter. (hoc est formaliter) 
+          im<lb ed="#B" n="56" break="no"/>portant accidentia. supponunt enim 
+          <lb ed="#B" n="57"/>re habente albedinem. Secus est de 
+          no<lb ed="#B" n="58" break="no"/>mine persona, &amp; suppositum &amp;c.
+        </p>
+        <p xml:id="gbs333-a61213-d1e569">
+          ¶ Quat 
+          <lb ed="#B" n="59"/>tum dubium: quot modis dicitur unum 
+          <lb ed="#B" n="60"/>oppositorum, &amp; reliquum: sed 
+          uniuer<lb ed="#B" n="61" break="no"/>sale, &amp; singulare sunt opposita, &amp; 
+          uni<lb ed="#B" n="62" break="no"/>uersale est secundae intentionis: ergo, &amp; 
+          <lb ed="#B" n="63"/>singulare. Respondetur negando assum 
+          <lb ed="#B" n="64"/>ptum uniuersaliter: quamuis posset esse 
+          <lb ed="#B" n="65"/>uerum de oppositis contrarijs: a 
+          quo<lb ed="#B" n="66" break="no"/>rum uno possit aliquis transmutari ad 
+          re<lb ed="#B" n="67" break="no"/>liquum 
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

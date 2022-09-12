@@ -1,97 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a87405"> <!-- l1d39prae -->
-            <head xml:id="gbs333-a87405-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a87405-d1e104">
-               <lb ed="#B" n="6"/>DISTINCTIO XXXIX. 
-      <lb ed="#B" n="7"/>EGIT de praescientis 
-      <lb ed="#B" n="8"/>causalitate, nunc de 
-      <lb ed="#B" n="9"/>eius immutabilitate: 
-      <lb ed="#B" n="10"/>quaerens. An scientia 
-      <lb ed="#B" n="11"/>dei possit augeri, uel 
-      <lb ed="#B" n="12"/>sminui. Et potest textus 
-      <lb ed="#B" n="13"/>M sic trium 
-      conclusio<lb ed="#B" n="14" break="no"/>num numero summari.
-    </p>
-            <p xml:id="gbs333-a87405-d1e126">
-      ¶ Prima 
-      con<lb ed="#B" n="15" break="no"/>clusio. Deus simul, &amp; immutabiliter, &amp; 
-      <lb ed="#B" n="16"/>ab aeterno scit ona, praesentia, praeterita, 
-      <lb ed="#B" n="17"/>&amp; sutura, bona, &amp; mala: nec scientia sua 
-      <lb ed="#B" n="18"/>augeri potest, uel minui.
-    </p>
-            <p xml:id="gbs333-a87405-d1e137">
-      ¶ Secunda 
-      con<lb ed="#B" n="19" break="no"/>clusio. Deus potest aliqua scire, quae non 
-      <lb ed="#B" n="20"/>scit, &amp; aliqua non scire, quae scit: 
-      pro<lb ed="#B" n="21" break="no"/>quanto res se aliter habere praesent, quam 
-      <lb ed="#B" n="22"/>habent.
-    </p>
-            <p xml:id="gbs333-a87405-d1e149">
-      ¶ Tertia conclusio. Deus non 
-      <lb ed="#B" n="23"/>potest incipere scire aliquid de nouo, uel 
-      <lb ed="#B" n="24"/>desinere scire, quod sciuit: capiendo scire 
-      <lb ed="#B" n="25"/>pro cognoscere uerum. Non tamen potest 
-      <lb ed="#B" n="26"/>scire plura, quam scit illo modo: quia semper 
-      <lb ed="#B" n="27"/>altera pars contradictionis est uera. Et  
-      <lb ed="#B" n="28"/>ita semper tot sunt uera, quot falsa, 
-      se<lb ed="#B" n="29" break="no"/>cus si scire capitur generaliter pro 
-      co<lb ed="#B" n="30" break="no"/>gnoscere. Declarationem latiorem 
-      ui<lb ed="#B" n="31" break="no"/>de in textu.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="345"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a87405"> <!-- l1d39prae -->
+        <head xml:id="gbs333-a87405-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a87405-d1e104">
+          <lb ed="#B" n="6"/>DISTINCTIO XXXIX. 
+          <lb ed="#B" n="7"/>EGIT de praescientis 
+          <lb ed="#B" n="8"/>causalitate, nunc de 
+          <lb ed="#B" n="9"/>eius immutabilitate: 
+          <lb ed="#B" n="10"/>quaerens. An scientia 
+          <lb ed="#B" n="11"/>dei possit augeri, uel 
+          <lb ed="#B" n="12"/>sminui. Et potest textus 
+          <lb ed="#B" n="13"/>M sic trium 
+          conclusio<lb ed="#B" n="14" break="no"/>num numero summari.
+        </p>
+        <p xml:id="gbs333-a87405-d1e126">
+          ¶ Prima 
+          con<lb ed="#B" n="15" break="no"/>clusio. Deus simul, &amp; immutabiliter, &amp; 
+          <lb ed="#B" n="16"/>ab aeterno scit ona, praesentia, praeterita, 
+          <lb ed="#B" n="17"/>&amp; sutura, bona, &amp; mala: nec scientia sua 
+          <lb ed="#B" n="18"/>augeri potest, uel minui.
+        </p>
+        <p xml:id="gbs333-a87405-d1e137">
+          ¶ Secunda 
+          con<lb ed="#B" n="19" break="no"/>clusio. Deus potest aliqua scire, quae non 
+          <lb ed="#B" n="20"/>scit, &amp; aliqua non scire, quae scit: 
+          pro<lb ed="#B" n="21" break="no"/>quanto res se aliter habere praesent, quam 
+          <lb ed="#B" n="22"/>habent.
+        </p>
+        <p xml:id="gbs333-a87405-d1e149">
+          ¶ Tertia conclusio. Deus non 
+          <lb ed="#B" n="23"/>potest incipere scire aliquid de nouo, uel 
+          <lb ed="#B" n="24"/>desinere scire, quod sciuit: capiendo scire 
+          <lb ed="#B" n="25"/>pro cognoscere uerum. Non tamen potest 
+          <lb ed="#B" n="26"/>scire plura, quam scit illo modo: quia semper 
+          <lb ed="#B" n="27"/>altera pars contradictionis est uera. Et  
+          <lb ed="#B" n="28"/>ita semper tot sunt uera, quot falsa, 
+          se<lb ed="#B" n="29" break="no"/>cus si scire capitur generaliter pro 
+          co<lb ed="#B" n="30" break="no"/>gnoscere. Declarationem latiorem 
+          ui<lb ed="#B" n="31" break="no"/>de in textu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

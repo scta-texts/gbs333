@@ -1,95 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a92405"> <!-- l1d46prae -->
-            <head xml:id="gbs333-a92405-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a92405-d1e104">
-               <lb ed="#B" n="30"/>DISTIRCTIOxIVI 
-      <lb ed="#B" n="31"/>da Ot. dixtiOIIS 
-      <lb ed="#B" n="32"/>E voluntate diuina in 
-      <lb ed="#B" n="33"/>se nunc actum est: conse- 
-      <lb ed="#B" n="34"/>quenter magister 
-      agi<lb ed="#B" n="35" break="no"/>de ea conparatiue ad 
-      <lb ed="#B" n="36"/>effectus, ostendens quando 
-      <lb ed="#B" n="37"/>oia siunt, que uult. &amp; 
-      <lb ed="#B" n="38"/>&amp; in hac distinctione 
-      <lb ed="#B" n="39"/>plurimas recitas opi.
-    </p>
-            <p xml:id="gbs333-a92405-d1e128">
-      ¶ Potest ergo 
-      sen<lb ed="#B" n="40" break="no"/>tentia textus breuiter sic summari 
-      con<lb ed="#B" n="41" break="no"/>clusionibus tribus.
-    </p>
-            <p xml:id="gbs333-a92405-d1e135">
-      ¶ Prima 
-      conclusio<lb ed="#B" n="42" break="no"/>Voluntas dei beneplaciti non potest 
-      cau<lb ed="#B" n="43" break="no"/>sari.
-    </p>
-            <p xml:id="gbs333-a92405-d1e143">
-      ¶ Secunda conclusio. Deus non est 
-      <lb ed="#B" n="44"/>auctor malorum: sed permissor.
-    </p>
-            <p xml:id="gbs333-a92405-d1e148">
-      ¶ Tertia 
-      <lb ed="#B" n="45"/>conclusio. De auctore non sit homo de 
-      <lb ed="#B" n="46"/>terior. Vide eorundem intellectum, 
-      <lb ed="#B" n="47"/>&amp; explicationem latius 
-      <lb ed="#B" n="48"/>in textu
-      <lb ed="#B" n="49"/>
-               <!-- line error -->
-            </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="364"/>
+        <cb ed="#B" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a92405"> <!-- l1d46prae -->
+        <head xml:id="gbs333-a92405-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a92405-d1e104">
+          <lb ed="#B" n="30"/>DISTIRCTIOxIVI 
+          <lb ed="#B" n="31"/>da Ot. dixtiOIIS 
+          <lb ed="#B" n="32"/>E voluntate diuina in 
+          <lb ed="#B" n="33"/>se nunc actum est: conse- 
+          <lb ed="#B" n="34"/>quenter magister 
+          agi<lb ed="#B" n="35" break="no"/>de ea conparatiue ad 
+          <lb ed="#B" n="36"/>effectus, ostendens quando 
+          <lb ed="#B" n="37"/>oia siunt, que uult. &amp; 
+          <lb ed="#B" n="38"/>&amp; in hac distinctione 
+          <lb ed="#B" n="39"/>plurimas recitas opi.
+        </p>
+        <p xml:id="gbs333-a92405-d1e128">
+          ¶ Potest ergo 
+          sen<lb ed="#B" n="40" break="no"/>tentia textus breuiter sic summari 
+          con<lb ed="#B" n="41" break="no"/>clusionibus tribus.
+        </p>
+        <p xml:id="gbs333-a92405-d1e135">
+          ¶ Prima 
+          conclusio<lb ed="#B" n="42" break="no"/>Voluntas dei beneplaciti non potest 
+          cau<lb ed="#B" n="43" break="no"/>sari.
+        </p>
+        <p xml:id="gbs333-a92405-d1e143">
+          ¶ Secunda conclusio. Deus non est 
+          <lb ed="#B" n="44"/>auctor malorum: sed permissor.
+        </p>
+        <p xml:id="gbs333-a92405-d1e148">
+          ¶ Tertia 
+          <lb ed="#B" n="45"/>conclusio. De auctore non sit homo de 
+          <lb ed="#B" n="46"/>terior. Vide eorundem intellectum, 
+          <lb ed="#B" n="47"/>&amp; explicationem latius 
+          <lb ed="#B" n="48"/>in textu
+          <lb ed="#B" n="49"/>
+          <!-- line error -->
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>

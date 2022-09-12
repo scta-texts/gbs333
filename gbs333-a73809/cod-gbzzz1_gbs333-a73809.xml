@@ -1,102 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Praeambulum</title>
-            <author ref="#GabrielBiel">Gabriel Biel</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Praeambulum</title>
-               <date when="2022-09-12">September 12, 2022</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2022-09-12" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#B" n="NaN"/>
-            <cb ed="#B" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="gbs333-a73809"> <!-- l1d31prae -->
-            <head xml:id="gbs333-a73809-Hd1e102">Praeambulum</head>
-            <p xml:id="gbs333-a73809-d1e104">
-               <lb ed="#B" n="62"/>DISTINCTIOxxxI 
-      <lb ed="#B" n="63"/>N praecedentibus 
-      ma<lb ed="#B" n="64" break="no"/>gister egit de 
-      rela<lb ed="#B" n="65" break="no"/>tiuis propriis, 
-      aeter<lb ed="#B" n="66" break="no"/>nis, &amp; 
-      temporali<lb ed="#B" n="67" break="no"/>bus: consequenter 
-      <lb ed="#B" n="68"/>agit de 
-      appropria<lb ed="#B" n="69" break="no"/>tis communibus, 
-      sci<lb ed="#B" n="70" break="no"/>licet aequalis, similis. Et primo 
-      ueri<lb ed="#B" n="71" break="no"/>tatem ostendit. Secunda dubia 
-      ab<lb ed="#B" n="72" break="no"/>soluit: distinctio. sequenti.
-    </p>
-            <p xml:id="gbs333-a73809-d1e130">
-      ¶ 
-      Con<lb ed="#B" n="73" break="no"/>clusio prima textualis haec est. 
-      Per<lb ed="#B" n="74" break="no"/>sonae sunt sibi aequales, &amp; similes 
-      pro<lb ed="#B" n="75" break="no"/>pter unitatem diuinae essentiae.
-    </p>
-            <p xml:id="gbs333-a73809-d1e139">
-      ¶ 
-      Se<lb ed="#B" n="76" break="no"/>cunda conclusio. Aequalis similis 
-      <lb ed="#B" n="77"/>sunt nomina relatiua: non tamen 
-      im<lb ed="#B" n="78" break="no"/>portantia realem relationem in 
-      diui<lb ed="#B" n="79" break="no"/>nis: quae ibi non est nisi originis. 
-      Im<lb ed="#B" n="80" break="no"/>portant uero substantiam relatiue: 
-      si<lb ed="#B" n="81" break="no"/>cut pater, &amp; filius in creaturis 
-      sub<lb ed="#B" n="82" break="no"/>stantia important relatiue. Est ergo 
-      <lb ed="#B" n="83"/>tantum appellatio relatiua, &amp; idem 
-      <lb ed="#B" n="84"/>important in deo aequalitas, &amp; 
-      simili<lb ed="#B" n="85" break="no"/>tudo.
-    </p>
-            <p xml:id="gbs333-a73809-d1e164">
-      ¶ Tertia conclusio. 
-      Appro<lb ed="#B" n="86" break="no"/>priatur patri aeternitas: species filio: 
-      <lb ed="#B" n="87"/>usus spirituisancto. Patriunitas: 
-      <lb ed="#B" n="88"/>filio aequalitas: concordia 
-      <lb ed="#B" n="89"/>spirituisancto. Harum 
-      <lb ed="#B" n="90"/>declaratio 
-      profu<lb ed="#B" n="91" break="no"/>sior patet ex 
-      <lb ed="#B" n="92"/>textu.
-    </p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Praeambulum</title>
+        <author ref="#GabrielBiel">Gabriel Biel</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Praeambulum</title>
+          <date when="2022-09-12">September 12, 2022</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2022-09-12" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#B" n="291"/>
+        <cb ed="#B" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="gbs333-a73809"> <!-- l1d31prae -->
+        <head xml:id="gbs333-a73809-Hd1e102">Praeambulum</head>
+        <p xml:id="gbs333-a73809-d1e104">
+          <lb ed="#B" n="62"/>DISTINCTIOxxxI 
+          <lb ed="#B" n="63"/>N praecedentibus 
+          ma<lb ed="#B" n="64" break="no"/>gister egit de 
+          rela<lb ed="#B" n="65" break="no"/>tiuis propriis, 
+          aeter<lb ed="#B" n="66" break="no"/>nis, &amp; 
+          temporali<lb ed="#B" n="67" break="no"/>bus: consequenter 
+          <lb ed="#B" n="68"/>agit de 
+          appropria<lb ed="#B" n="69" break="no"/>tis communibus, 
+          sci<lb ed="#B" n="70" break="no"/>licet aequalis, similis. Et primo 
+          ueri<lb ed="#B" n="71" break="no"/>tatem ostendit. Secunda dubia 
+          ab<lb ed="#B" n="72" break="no"/>soluit: distinctio. sequenti.
+        </p>
+        <p xml:id="gbs333-a73809-d1e130">
+          ¶ 
+          Con<lb ed="#B" n="73" break="no"/>clusio prima textualis haec est. 
+          Per<lb ed="#B" n="74" break="no"/>sonae sunt sibi aequales, &amp; similes 
+          pro<lb ed="#B" n="75" break="no"/>pter unitatem diuinae essentiae.
+        </p>
+        <p xml:id="gbs333-a73809-d1e139">
+          ¶ 
+          Se<lb ed="#B" n="76" break="no"/>cunda conclusio. Aequalis similis 
+          <lb ed="#B" n="77"/>sunt nomina relatiua: non tamen 
+          im<lb ed="#B" n="78" break="no"/>portantia realem relationem in 
+          diui<lb ed="#B" n="79" break="no"/>nis: quae ibi non est nisi originis. 
+          Im<lb ed="#B" n="80" break="no"/>portant uero substantiam relatiue: 
+          si<lb ed="#B" n="81" break="no"/>cut pater, &amp; filius in creaturis 
+          sub<lb ed="#B" n="82" break="no"/>stantia important relatiue. Est ergo 
+          <lb ed="#B" n="83"/>tantum appellatio relatiua, &amp; idem 
+          <lb ed="#B" n="84"/>important in deo aequalitas, &amp; 
+          simili<lb ed="#B" n="85" break="no"/>tudo.
+        </p>
+        <p xml:id="gbs333-a73809-d1e164">
+          ¶ Tertia conclusio. 
+          Appro<lb ed="#B" n="86" break="no"/>priatur patri aeternitas: species filio: 
+          <lb ed="#B" n="87"/>usus spirituisancto. Patriunitas: 
+          <lb ed="#B" n="88"/>filio aequalitas: concordia 
+          <lb ed="#B" n="89"/>spirituisancto. Harum 
+          <lb ed="#B" n="90"/>declaratio 
+          profu<lb ed="#B" n="91" break="no"/>sior patet ex 
+          <lb ed="#B" n="92"/>textu.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
