@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="151"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a38184"> <!-- l1d8q2 -->
+            <head xml:id="gbs333-a38184-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a38184-Hd1e104" type="question-title">Utrum aliquod simpliciter simplex possit esse in genere</head>
+            <p xml:id="gbs333-a38184-d1e107">
+      <!--238.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>QVAESTIO II 
+      <lb ed="#B" n="52"/>VVTRVM aliquod simplici 
+      <lb ed="#B" n="53"/>ter simplex possit esse in 
+      <lb ed="#B" n="54"/>in genere.
+    </p>
+            <p xml:id="gbs333-a38184-d1e123">
+      ¶ Nota 
+      simpli<lb ed="#B" n="55" break="no"/>citer simplex dicitur 
+      per<lb ed="#B" n="56" break="no"/>carentiam cuiuslibet compositionis in 
+      <lb ed="#B" n="57"/>trinsecae: ut angelus.
+    </p>
+            <p xml:id="gbs333-a38184-d1e133">
+      ¶ Secundo 
+      notan<lb ed="#B" n="58" break="no"/>dum, adhoc, quod aliquid sit genus: tres 
+      re<lb ed="#B" n="59" break="no"/>quiruntur conditiones, secundum Ockam: 
+      <lb ed="#B" n="60"/>licet oppositum superius sit ostensum. 
+      <lb ed="#B" n="61"/>q. praecedenti. Prima, quod sit praedicabile 
+      <lb ed="#B" n="62"/>in quid de pluribus plus, quam numero 
+      <lb ed="#B" n="63"/>differentibus. Per hoc excluditur 
+      spe<lb ed="#B" n="64" break="no"/>cies specialissima: ut conceptus 
+      deno<lb ed="#B" n="65" break="no"/>minatiuus respectu eius, de quo 
+      deno<lb ed="#B" n="66" break="no"/>minatiue praedicatur. Secunda, quod ea, de 
+      <lb ed="#B" n="67"/>quibus praedicatur, habeant certam 
+      pro<lb ed="#B" n="68" break="no"/>portionem secundum perfectionem 
+      in<lb ed="#B" n="69" break="no"/>ter se. Per hanc excluditur omnis 
+      con<lb ed="#B" n="70" break="no"/>ceptus praedicabilis de deo, &amp; creatura 
+      <lb ed="#B" n="71"/>secundum opi. Ockam: &amp; ideo licet 
+      con<lb ed="#B" n="72" break="no"/>ceptus entis, &amp; quidam alij praedicentur 
+      <lb ed="#B" n="73"/>uniuoce in quid de deo, &amp; creatura: 
+      ta<lb ed="#B" n="74" break="no"/>men nullus talis est genus, pro eo, quod 
+      dei<lb ed="#B" n="75" break="no"/>ad creaturam (tamquam finiti ad infinitum 
+      <lb ed="#B" n="76"/>nulla est perfectionis proportio. Tertia, 
+      <lb ed="#B" n="77"/>quod ea, de quibus praedicantur, non sint 
+      <lb ed="#B" n="78"/>partes essentiales alicuius per se unius. 
+      <lb ed="#B" n="79"/>Ideo quamuis anima praedicetur in quid 
+      <lb ed="#B" n="80"/>de omnibus animabus, &amp; forma de 
+      om<lb ed="#B" n="81" break="no"/>nibus formis, &amp; materia de omnibus 
+      <lb ed="#B" n="82"/>materiebus: quia tamen illa possunt esse 
+      <lb ed="#B" n="83"/>partes essentiales aliquorum, quorum 
+      <lb ed="#B" n="84"/>quodlibet est per se unum: non sunt 
+      ge<lb ed="#B" n="85" break="no"/>nera secundum opin. Ockam.
+    </p>
+            <p xml:id="gbs333-a38184-d1e196">
+      ¶ 
+      Con<lb ed="#B" n="86" break="no"/>clusio responsalis. Simpliciter simplex 
+      <lb ed="#B" n="87"/>est in genere. Patet: quia sibi conditio 
+      <lb ed="#B" n="88"/>nes supradictae conueniunt. Patet de 
+      an<lb ed="#B" n="89" break="no"/>gelo: non tamen omne simplex: quia non 
+      <lb ed="#B" n="90"/>forma substantialis indiuisibilis. Ita 
+      sen<lb ed="#B" n="91" break="no"/>tit, &amp; tenet doctor in scripto suo.
+    </p>
+            <p xml:id="gbs333-a38184-d1e212">
+      ¶ 
+      Cir<lb ed="#B" n="92" break="no"/>ca hoc mouetur duo dubia. Primum, utrum 
+      <lb ed="#B" n="93"/>qualitati, &amp; quantitati sit aliquod 
+      ge<lb ed="#B" n="94" break="no"/>nus commune. Et uidetur, quod sic ex 
+      om<lb ed="#B" n="95" break="no"/>nibus conditionibus praedictis. 
+      Respon<lb ed="#B" n="96" break="no"/>det doc. secundum cuius mentem fere 
+      <lb ed="#B" n="97"/>omnia ponuntur in hac qaone abbreuia 
+      <lb ed="#B" n="98"/>ta. Supposito, quod quantitas non 
+      distin<lb ed="#B" n="99" break="no"/>guatur a re quanta, &amp; accipiendo 
+      ge<lb ed="#B" n="100" break="no"/>nus prohis, quae significant res absolute, 
+      <!--239.xml-->
+      <pb ed="#B" n="152"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; sine connoratione, tantum tria sunt 
+      <lb ed="#B" n="2"/>generalissima, scilicet substantia, 
+      quali<lb ed="#B" n="3" break="no"/>tas, &amp; relatio, supposito quod respectus 
+      di<lb ed="#B" n="4" break="no"/>stinguatur a fundamento, &amp; termino. 
+      <lb ed="#B" n="5"/>Si uero genus accipitur pro quolibet  
+      <lb ed="#B" n="6"/>termino prędicabile de alijs plus 
+      nume<lb ed="#B" n="7" break="no"/>ro differentibus primo modo dicendi 
+      <lb ed="#B" n="8"/>per se in abstracto: tunc sunt decem 
+      ge<lb ed="#B" n="9" break="no"/>neralissima scilicet tria absoluta, quae dicta 
+      <lb ed="#B" n="10"/>sunt, &amp; septem connotatiua. Sed de hoc  
+      <lb ed="#B" n="11"/>clarius in logica.
+    </p>
+            <p xml:id="gbs333-a38184-d1e264">
+      ¶ Per hoc posset 
+      re<lb ed="#B" n="12" break="no"/>sponderi ad dubium, quod non: quia nullum 
+      <lb ed="#B" n="13"/>commune praedicatur in quid de 
+      quali<lb ed="#B" n="14" break="no"/>tate, &amp; quantitate: quia aut illud esset 
+      <lb ed="#B" n="15"/>absolutum: &amp; sic non praedicatur in quid 
+      <lb ed="#B" n="16"/>de quantitate, quod est connotatiuum: 
+      <lb ed="#B" n="17"/>aut erit connotatiuum: &amp; sic non 
+      prae<lb ed="#B" n="18" break="no"/>dicatur in quid de qualitate, quod ex 
+      ab<lb ed="#B" n="19" break="no"/>solutum.
+    </p>
+            <p xml:id="gbs333-a38184-d1e284">
+      ¶ Item tale commune esset 
+      tran<lb ed="#B" n="20" break="no"/>scendens sicut ens, &amp; ita non esset 
+      ge<lb ed="#B" n="21" break="no"/>mus, cum deficit secunda conditio.
+    </p>
+            <p xml:id="gbs333-a38184-d1e291">
+      ¶ 
+      Se<lb ed="#B" n="22" break="no"/>cundum dubium, utrum quaelibet duae 
+      <lb ed="#B" n="23"/>pecies habent unum genus eis adaequa 
+      <lb ed="#B" n="24"/>tum: &amp; arguitur, quod sic. Aqualibet conue 
+      <lb ed="#B" n="25"/>nientia maiori, qua scilicet aliqua plus inter se 
+      <lb ed="#B" n="26"/>conueniunt, quam cum alijs, potest 
+      ab<lb ed="#B" n="27" break="no"/>strahi conceptus adaequatus illis sic 
+      con<lb ed="#B" n="28" break="no"/>ienientibus, qui est genus eorum, saltenm 
+      <lb ed="#B" n="29"/>si conuententia differunt plus, quam 
+      nu<lb ed="#B" n="30" break="no"/>mero. Sed quaecunque duae species (id 
+      <lb ed="#B" n="31"/>est indiuidua duarum specierum) habent 
+      <lb ed="#B" n="32"/>aliquam determinatam conuententiam 
+      <lb ed="#B" n="33"/>inter se: non habent cum alijs: ergo ab 
+      <lb ed="#B" n="34"/>strahibilis est conceptus eis adaequatus: 
+      <lb ed="#B" n="35"/>&amp; hic erit genus ad ea.
+    </p>
+            <p xml:id="gbs333-a38184-d1e325">
+      ¶ Ad illud dubium 
+      <lb ed="#B" n="36"/>dector recitat solum absque assertione 
+      <lb ed="#B" n="37"/>quacunque uarias responsiones. Vna 
+      <lb ed="#B" n="38"/>concedit dubium: nec reputat 
+      incon<lb ed="#B" n="39" break="no"/>ueniens tot esse genera, etiam non sibi 
+      <lb ed="#B" n="40"/>subalternata inter genus animal, &amp; 
+      spe<lb ed="#B" n="41" break="no"/>cies eius specialissimas. Aristotelem 
+      ue<lb ed="#B" n="42" break="no"/>ro, qui non tot ponit: dicit solum de his 
+      <lb ed="#B" n="43"/>generibus locutum, quorum diuisiones 
+      <lb ed="#B" n="44"/>necessariae sunt ad inuestigationes 
+      diffi<lb ed="#B" n="45" break="no"/>nitionis alicuius speciei, &amp; talia non sunt 
+      <lb ed="#B" n="46"/>multa: ut patet in arbore porphuriana, 
+      <lb ed="#B" n="47"/>Item declarat, quomodo aliqua sunt 
+      ge<lb ed="#B" n="48" break="no"/>nera a necessitate: &amp; aliqua a natura 
+      sa<lb ed="#B" n="49" break="no"/>tis bene.
+    </p>
+            <p xml:id="gbs333-a38184-d1e358">
+      ¶ Alia responsio dicit, quod non a 
+      <lb ed="#B" n="50"/>qualibet conuenientia maiori potest 
+      ab<lb ed="#B" n="51" break="no"/>strabi conceptus adaequatus sic conue¬ 
+      <!--239.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nientibus. Sed quare ab illa, potest, &amp; non 
+      <lb ed="#B" n="53"/>ab alia: non potest assignari ratio nisi ex 
+      <lb ed="#B" n="54"/>perientia.
+    </p>
+            <p xml:id="gbs333-a38184-d1e376">
+      ¶ Alia responsio, quod nullus 
+      co<lb ed="#B" n="55" break="no"/>ceptus potest abstrahi absolutus &amp;c. 
+      nisi<lb ed="#B" n="56" break="no"/>conceptus entis, &amp; speciei specialissimae: 
+      <lb ed="#B" n="57"/>in generibus uero semper erunt multae 
+      <lb ed="#B" n="58"/>aequiuocationes: posset tamen formari 
+      <lb ed="#B" n="59"/>conceptus connotatiuus accidentium 
+      <lb ed="#B" n="60"/>eiusdem speciei illorum sic 
+      conuenten<lb ed="#B" n="61" break="no"/>tium.
+    </p>
+            <p xml:id="gbs333-a38184-d1e394">
+      ¶ Alia responsio, quod conceptus 
+      <lb ed="#B" n="62"/>quidditatiuus indiuiduorum plus 
+      nume<lb ed="#B" n="63" break="no"/>ro differentium, non est adaequatus 
+      il<lb ed="#B" n="64" break="no"/>lis: sed semper etiam significat omnia 
+      <lb ed="#B" n="65"/>alia indiuidua minus differentia: ut 
+      si<lb ed="#B" n="66" break="no"/>plus differunt homo, &amp; musca, quam homo, 
+      <lb ed="#B" n="67"/>&amp; asinus: capra, &amp; bos &amp;c. Quicunque 
+      <lb ed="#B" n="68"/>conceptus quidditatiuus abstrahitur ab 
+      <lb ed="#B" n="69"/>homine, &amp; musca: etiam praedicabitur in 
+      <lb ed="#B" n="70"/>quid de homine, &amp; asino, &amp; boue &amp;c. 
+      <lb ed="#B" n="71"/>Et ita non a quibuscunque indiuiduis 
+      di<lb ed="#B" n="72" break="no"/>uersarum specierum potest 
+      abstrahicon<lb ed="#B" n="73" break="no"/>reptus quidditatiuus: sed tantum ab 
+      il<lb ed="#B" n="74" break="no"/>lis, inter quae apptaehenditur 
+      conuenten<lb ed="#B" n="75" break="no"/>tia essentialis eis praecise adaequata: ita 
+      <lb ed="#B" n="76"/>quod in aliquo conueniunt, in quo cum 
+      nul<lb ed="#B" n="77" break="no"/>lis aliis indiuiduis alterius speciei 
+      conue<lb ed="#B" n="78" break="no"/>niunt. Ille ultimus modus uidetur 
+      pro<lb ed="#B" n="79" break="no"/>pabilior, &amp; secundum hoc potest 
+      dici<lb ed="#B" n="80" break="no"/>de conceptu uniuoco qualitati, &amp; quan 
+      <lb ed="#B" n="81"/>titati. Item ostendit auctor: quod genus non 
+      <lb ed="#B" n="82"/>est pars rei: neque differentia: sed sunt 
+      <lb ed="#B" n="83"/>partes diffinitionis proprie dictae. Item 
+      <lb ed="#B" n="84"/>genus est pars formae id est diffinitionis. Item 
+      <lb ed="#B" n="85"/>species est pars generis, suo modo 
+      intel<lb ed="#B" n="86" break="no"/>igitur. Item genus, &amp; species sunt 
+      par<lb ed="#B" n="87" break="no"/>tes diffiniti: id est significant.
+    </p>
+            <p xml:id="gbs333-a38184-d1e453">
+      ¶ Et 
+      se<lb ed="#B" n="88" break="no"/>cundum hoc exponendi sunt auctores 
+      <lb ed="#B" n="89"/>Pe. &amp; commen. quod per songum 
+      de<lb ed="#B" n="90" break="no"/>clarat, ponens duas regulas pro 
+      intelle<lb ed="#B" n="91" break="no"/>ctu auctoritatum diuersarum.
+    </p>
+            <p xml:id="gbs333-a38184-d1e464">
+      ¶ Prima, 
+      <lb ed="#B" n="92"/>frequenter per actum exercitum 
+      intel<lb ed="#B" n="93" break="no"/>ligitur actus signatus: hoc est frequenter 
+      <lb ed="#B" n="94"/>est, accipitur pro significat: ut cum 
+      dici<lb ed="#B" n="95" break="no"/>tur: differentia est forma rei: ualet 
+      diffe<lb ed="#B" n="96" break="no"/>rentia significat formam rei. Prequenter 
+      <lb ed="#B" n="97"/>enim, quae signatorum sunt, 
+      attribuun<lb ed="#B" n="98" break="no"/>tur signis, &amp; econuerso.
+    </p>
+            <p xml:id="gbs333-a38184-d1e483">
+      ¶ Secunda 
+      fre<lb ed="#B" n="99" break="no"/>quenter per res intelliguntur nomina 
+      <lb ed="#B" n="100"/>rerum: quod est dictum. Erequenter 
+      no<lb ed="#B" n="101" break="no"/>mina rerum scilicet primae intentiones 
+      acci<lb ed="#B" n="102" break="no"/>piuntur non pro rebus: sed pro ipsimet 
+      <!--240.xml-->
+      <pb ed="#B" n="153"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>nominibus: ut cum dicitur. Qualitas 
+      ac<lb ed="#B" n="2" break="no"/>cidentaliter praedicatur de subjecto: hoc  
+      <lb ed="#B" n="3"/>est concretum significans qualitatem ac. 
+      <lb ed="#B" n="4"/>cidentaliter praedicatur de nomine sub 
+      <lb ed="#B" n="5"/>iecti: ut hic homo est qualis. Et hoc fre 
+      <lb ed="#B" n="6"/>quenter contingit, quando praedicatum 
+      <lb ed="#B" n="7"/>est secundae impositionis. Et per has duas 
+      <lb ed="#B" n="8"/>regulas multae auctoritates, quae alias 
+      es<lb ed="#B" n="9" break="no"/>sent de rigore uerborum, falsae saluantur. 
+      </p>
+            <p xml:id="gbs333-a38184-d1e520">
+               <lb ed="#B" n="10"/>¶ Et posset addi tertia: quod nonnunquam 
+      <lb ed="#B" n="11"/>nomina rerum attribuuntur signis qua 
+      <lb ed="#B" n="12"/>si metaphorice propter aliquas 
+      similitu<lb ed="#B" n="13" break="no"/>dines proportionales repertas signorum 
+      <lb ed="#B" n="14"/>adsigna, quae est rerum ad res. Sic 
+      ali<lb ed="#B" n="15" break="no"/>quando genus dicitur materia: quia 
+      si<lb ed="#B" n="16" break="no"/>tur materia una diuersis formis 
+      infor<lb ed="#B" n="17" break="no"/>matur, cum quibus facit unum: ita unum 
+      <lb ed="#B" n="18"/>genus per differentias determinatur: cum 
+      <lb ed="#B" n="19"/>quibus constituit unam diffinitionem. 
+      <lb ed="#B" n="20"/>E
+    </p>
+            <p xml:id="gbs333-a38184-d1e546">
+      ¶ Circa responsionem auctoris, ad 
+      secun<lb ed="#B" n="21" break="no"/>siso dum dubium statim post doc. motum, &amp; 
+      <lb ed="#B" n="22"/>recitatum solum, quod arguit: quod 
+      quo<lb ed="#B" n="23" break="no"/>rumcunque indiuiduorum diuersarum 
+      <lb ed="#B" n="24"/>specierum possit dari conceptus 
+      gene<lb ed="#B" n="25" break="no"/>ris eis adaequatus: &amp; ita quod sint tot 
+      gene<lb ed="#B" n="26" break="no"/>ra sub animali sibi non subalternata: 
+      <lb ed="#B" n="27"/>quot sunt indiuidua diuersarum specie 
+      <lb ed="#B" n="28"/>rum. immo multo plura, quam indiuidua 
+      <lb ed="#B" n="29"/>specie differentia: ut gratia exempli. sint 
+      <lb ed="#B" n="30"/>a. b. e. d.e. quinque indiuidua specie 
+      dif<lb ed="#B" n="31" break="no"/>ferentia: tunc datur conceptus 
+      signifi<lb ed="#B" n="32" break="no"/>ficans praecise. a. &amp; b. secundus 
+      signifi<lb ed="#B" n="33" break="no"/>cas adequate. a. &amp; c. tertius. a. &amp;. d. quar 
+      <lb ed="#B" n="34"/>tus a. &amp;. e: quintus. b. &amp; c. sextus. b. &amp;. d. 
+      <lb ed="#B" n="35"/>septimus. b. &amp;. e. octauus.c. &amp;. d. nonus. 
+      <lb ed="#B" n="36"/>e, &amp;: edecimus d. &amp;. e. Ecce quinque in 
+      <lb ed="#B" n="37"/>diuiduorum erunt decem conceptus 
+      con<lb ed="#B" n="38" break="no"/>munes &amp;c. Auctor respondendo ponit 
+      <lb ed="#B" n="39"/>quinquemodos: nullum tamen determinas. 
+      <lb ed="#B" n="40"/>Potest dici probabiliter fugiendo 
+      tan<lb ed="#B" n="41" break="no"/>tam multiplicationem conceptuum quid 
+      <lb ed="#B" n="42"/>ditatiuorum: quod non quibuslibet duobius 
+      <lb ed="#B" n="43"/>indiuiduis eiusdem speciei, po: est 
+      dari<lb ed="#B" n="44" break="no"/>conceptus specificus quidditatiuus id est ab 
+      <lb ed="#B" n="45"/>solutus. Nec quibuslibet duobus 
+      indi<lb ed="#B" n="46" break="no"/>uidui, differentiarum specierum dari 
+      po<lb ed="#B" n="47" break="no"/>test conceptus generis quidditatiuus. 
+      </p>
+            <p xml:id="gbs333-a38184-d1e607">
+               <lb ed="#B" n="48"/>¶ Pro cuius intellectu aliqua 
+      supponen<lb ed="#B" n="49" break="no"/>da sunt secundum praemissa in 
+      distin<lb ed="#B" n="50" break="no"/>ctio. iij. qeiij. huius collect.
+    </p>
+            <p xml:id="gbs333-a38184-d1e616">
+      ¶ Primum, 
+      <lb ed="#B" n="51"/>quod a qualibet conuententia rerum ab¬ 
+      <!--240.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>strahi potest conceptus communis. Honc 
+      <lb ed="#B" n="53"/>patet: quia ab aliqua est abstrahibilis: ut  
+      <lb ed="#B" n="54"/>dictum est. q.ij. prologi in doct. ergo a 
+      <lb ed="#B" n="55"/>qualibet. Tenet consequentia: quia 
+      nul<lb ed="#B" n="56" break="no"/>la potest assignari ratio diuersitatis.
+    </p>
+            <p xml:id="gbs333-a38184-d1e636">
+      ¶ 
+      Se<lb ed="#B" n="57" break="no"/>cundum, conceptus communis 
+      abstra<lb ed="#B" n="58" break="no"/>ctus a conuenientia adaequatus est 
+      om<lb ed="#B" n="59" break="no"/>nibus sic contenientibus id est aeque 
+      signi<lb ed="#B" n="60" break="no"/>ficat omnia sic conuenientia. Patet: 
+      <lb ed="#B" n="61"/>quia qua ratione significat aliqua sic 
+      <lb ed="#B" n="62"/>conuenientia: eadem ratione omnia 
+      ta<lb ed="#B" n="63" break="no"/>lia. Si enim conuententia est causa ab 
+      <lb ed="#B" n="64"/>stractionis: igitur propter 
+      conuenien<lb ed="#B" n="65" break="no"/>tiam significat: ubi autem ponitur 
+      cau<lb ed="#B" n="66" break="no"/>sa: ponitur effectus.
+    </p>
+            <p xml:id="gbs333-a38184-d1e661">
+      ¶ Tertium, si 
+      con<lb ed="#B" n="67" break="no"/>ceptus comunis a conuententia abstra 
+      <lb ed="#B" n="68"/>ctus significat res aliquas determinatas. 
+      <lb ed="#B" n="69"/>sic quod non omnes: necesse est, ut 
+      conue<lb ed="#B" n="70" break="no"/>nientia illa sit maior id est quod illa conueniem 
+      <lb ed="#B" n="71"/>tia (in ablatiuo) praecise conueniant 
+      om<lb ed="#B" n="72" break="no"/>nia per conceptum significata, &amp; nulla 
+      <lb ed="#B" n="73"/>alia. Et ita illa plus conueniant res 
+      signi<lb ed="#B" n="74" break="no"/>ficatae per conceptum inter se, quae cum 
+      <lb ed="#B" n="75"/>alijs: sic enim non conueniunt cum alijs. 
+      <lb ed="#B" n="76"/>Et hoc intelligitur per conuenientiam 
+      <lb ed="#B" n="77"/>maiorem.
+    </p>
+            <p xml:id="gbs333-a38184-d1e687">
+      ¶ Quartum, quod conuenientia 
+      <lb ed="#B" n="78"/>rum aliqua dicitur essentialis, aliqua ac 
+      <lb ed="#B" n="79"/>cidentalis. Essentialis rebus dicitur illa, 
+      <lb ed="#B" n="80"/>quae est de essentia rerum: ita quod non stat 
+      <lb ed="#B" n="81"/>res illas esse, &amp; non sic conuenire: ut esse 
+      <lb ed="#B" n="82"/>rationale hominibus. Accidentalis 
+      per<lb ed="#B" n="83" break="no"/>oppositum: ut esse calidum lapidi.
+    </p>
+            <p xml:id="gbs333-a38184-d1e703">
+      ¶ 
+      Quin<lb ed="#B" n="84" break="no"/>tum, a conuententia essentiali potest ab 
+      <lb ed="#B" n="85"/>strahi conceptus quidditatiuus, &amp; 
+      abso<lb ed="#B" n="86" break="no"/>lutus, &amp; etiam connotatiuus: tam 
+      essen<lb ed="#B" n="87" break="no"/>tialiter, quam accidentaliter. Exemplum: 
+      <lb ed="#B" n="88"/>ut conceptus subiecti differentiae, &amp; 
+      pro<lb ed="#B" n="89" break="no"/>prij: puta conceptus hominis rationalis 
+      <lb ed="#B" n="90"/>risibilis abstrahuntur a conuenientia 
+      es<lb ed="#B" n="91" break="no"/>sentiali. Primi duo ab eadem 
+      conuenien<lb ed="#B" n="92" break="no"/>tia: scilicet habere animam intellectiuam 
+      <lb ed="#B" n="93"/>essentialem sui partem. Tertius a con 
+      <lb ed="#B" n="94"/>conuenientiahabere animam potentem 
+      <lb ed="#B" n="95"/>quantum est ex parte sui producere 
+      a<lb ed="#B" n="96" break="no"/>ctum ridendi: utraque est homini 
+      essen<lb ed="#B" n="97" break="no"/>tialis. Et primus conceptus est 
+      absolu<lb ed="#B" n="98" break="no"/>tus: secundus essentialiter 
+      connotati<lb ed="#B" n="99" break="no"/>uus, tertius accidentaliter 
+      connotati<lb ed="#B" n="100" break="no"/>uus. A conuenientia autem 
+      acciden<lb ed="#B" n="101" break="no"/>tali non potest abstrahinisi 
+      accidenta<lb ed="#B" n="102" break="no"/>liter connotatiuus: quia conceptus quid 
+      <!--241.xml-->
+      <pb ed="#B" n="154"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ditatiuus non negatur de eo, cuius est 
+      <lb ed="#B" n="2"/>ipso ex istente. Sed conceptus a 
+      conue<lb ed="#B" n="3" break="no"/>nientia accidentali abstractus, potest 
+      ne<lb ed="#B" n="4" break="no"/>gari ab aliquo sic conueniente: quia 
+      ip<lb ed="#B" n="5" break="no"/>sum potest non sic conuemre: ex quo 
+      ac<lb ed="#B" n="6" break="no"/>cidentaliter sic conuenit: &amp; tunc talis 
+      <lb ed="#B" n="7"/>conceptus non repraesentabit illud.
+    </p>
+            <p xml:id="gbs333-a38184-d1e768">
+      ¶ Et  
+      <lb ed="#B" n="8"/>per hoc patet responsio: nam non 
+      qui<lb ed="#B" n="9" break="no"/>buscunque; indiuiduis specie differentibus 
+      <lb ed="#B" n="10"/>dabilis est conuenientia maior essentia 
+      <lb ed="#B" n="11"/>lis eis adaequata, &amp; per consequens nec 
+      <lb ed="#B" n="12"/>conceptus absolutus eis adae quatus. 
+      An<lb ed="#B" n="13" break="no"/>tecedens patet exemplariter: quia 
+      homi<lb ed="#B" n="14" break="no"/>nis, &amp; mulcae non datur talis 
+      conuenien<lb ed="#B" n="15" break="no"/>tia eis adaequata. Nam quocunque 
+      essen<lb ed="#B" n="16" break="no"/>tialiter conuenit homo cum mulca: eo 
+      <lb ed="#B" n="17"/>dem modo conuenit cum equo, aut 
+      si<lb ed="#B" n="18" break="no"/>mia: quod sic patet: quia conuenientiae 
+      <lb ed="#B" n="19"/>accidentales rerum arguuntur a nobis: 
+      <lb ed="#B" n="20"/>&amp; cognoscuntur arguitiue ex operibus, 
+      <lb ed="#B" n="21"/>&amp; accidentibus proprijs specierum. Ex 
+      <lb ed="#B" n="22"/>his enim arguitur conuenientia 
+      essen<lb ed="#B" n="23" break="no"/>tialis naturae rerum: &amp; ex eorum 
+      diuersi<lb ed="#B" n="24" break="no"/>tate diuersitas specifica. Modo nulla 
+      <lb ed="#B" n="25"/>operatio specifica uitalis, aut sensitiua: 
+      <lb ed="#B" n="26"/>&amp; multo minus non uitalis, considerari 
+      <lb ed="#B" n="27"/>potest conuenire uniformiter homini, 
+      <lb ed="#B" n="28"/>&amp; muscae: quin omnino conformis 
+      con<lb ed="#B" n="29" break="no"/>ueniat: aut conuenire possit equo, &amp; 
+      si<lb ed="#B" n="30" break="no"/>miae: uel alicui alteri animali, puta alteri 
+      <lb ed="#B" n="31"/>uolatili. Ideo quicunque conceptus 
+      essen<lb ed="#B" n="32" break="no"/>tialis significat hominem, &amp; muscam: 
+      si<lb ed="#B" n="33" break="no"/>gnificabit etiam equum, &amp; simiam, uel 
+      <lb ed="#B" n="34"/>aliud uolatise: &amp; ita non dabitur genus 
+      <lb ed="#B" n="35"/>adaequatum homini, &amp; mulcae. Non 
+      ta<lb ed="#B" n="36" break="no"/>men negandum est, quin dabile sit 
+      ge<lb ed="#B" n="37" break="no"/>nus medium inter animal, &amp; species 
+      spe<lb ed="#B" n="38" break="no"/>cialissimas animalis. Vt. a. si absolute 
+      si<lb ed="#B" n="39" break="no"/>gnificaret omnia gressibilia. b. omnia 
+      <lb ed="#B" n="40"/>uolatilia. c. omnia reptilia: &amp; sic de alijs: 
+      <lb ed="#B" n="41"/>quia in hac conuenientia posse uolare: 
+      <lb ed="#B" n="42"/>quae essentialis est, &amp; naturam 
+      consequi<lb ed="#B" n="43" break="no"/>tur: sicut posse ridere potest abstrahi 
+      con<lb ed="#B" n="44" break="no"/>ceptus absolutus adaequatus uolatilibus: 
+      <lb ed="#B" n="45"/>&amp; cum uolatilia differunt multiplici 
+      spe<lb ed="#B" n="46" break="no"/>cie: talis conceptus erit genus: sicut &amp; 
+      <lb ed="#B" n="47"/>conceptus constitutus per differentiam 
+      <lb ed="#B" n="48"/>irrationale: scilicet brutum, non est 
+      <lb ed="#B" n="49"/>pecies specialissima: sed genus 
+      subalter<lb ed="#B" n="50" break="no"/>num.
+    </p>
+            <p xml:id="gbs333-a38184-d1e864">
+      ¶ Non tamen per hoc oportet: 
+      <lb ed="#B" n="51"/>quod conceptus significans aliqua plus dis¬ 
+      <!--241.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ferentia: significet omnia minus 
+      diffe<lb ed="#B" n="53" break="no"/>rentia. Sicut econuerso non oportet, quod 
+      <lb ed="#B" n="54"/>conceptus significans aliqua minus 
+      con<lb ed="#B" n="55" break="no"/>uenientia: significent omnia plus 
+      con<lb ed="#B" n="56" break="no"/>uenientia: quia homo non plus 
+      conue<lb ed="#B" n="57" break="no"/>nit cum sua forma: anima scilicet ratio 
+      <lb ed="#B" n="58"/>nali in gradu perfectionis essentialis, quam 
+      <lb ed="#B" n="59"/>cum lapide: tanquam intelligens cum 
+      <lb ed="#B" n="60"/>intelligente: quam intelligens cum non 
+      <lb ed="#B" n="61"/>uiuente: &amp; tamen corpus (prout est 
+      <lb ed="#B" n="62"/>pecies substantiae) significat hominem, 
+      <lb ed="#B" n="63"/>&amp; lapidem: &amp; non significat formam 
+      ra<lb ed="#B" n="64" break="no"/>tionalem. Sed conceptus communis 
+      si<lb ed="#B" n="65" break="no"/>gnificans aliqua ratione conuententiae, 
+      <lb ed="#B" n="66"/>a qua abstrahitur: significat omnia sic 
+      <lb ed="#B" n="67"/>conuenientia, &amp; nulla alia: siue alia 
+      in<lb ed="#B" n="68" break="no"/>alijs conuenientijs cum suis significatis 
+      <lb ed="#B" n="69"/>plus, uel minus conueniant, quod etiam 
+      <lb ed="#B" n="70"/>manifestum est in connotatiuis. Album 
+      <lb ed="#B" n="71"/>enim significat hominem album, &amp; 
+      lapi<lb ed="#B" n="72" break="no"/>dem album: &amp; non hominem nigrum, 
+      <lb ed="#B" n="73"/>licet homo albus, &amp; niger plus 
+      conue<lb ed="#B" n="74" break="no"/>niant, quam homo albus, &amp; lapis albus, 
+      <lb ed="#B" n="75"/>sed non plus conueniunt in albedine, a 
+      <lb ed="#B" n="76"/>qua conuenientia sumitur conceptus al 
+      <lb ed="#B" n="77"/>bi.
+    </p>
+            <p xml:id="gbs333-a38184-d1e929">
+      ¶ Loquendo autem de 
+      conuenten<lb ed="#B" n="78" break="no"/>tia accidentali: non uidetur 
+      inconue<lb ed="#B" n="79" break="no"/>niens, quod quibuscunque; indiuiduis sit 
+      ali<lb ed="#B" n="80" break="no"/>qua conuenientia eis adaequata. quod etiam 
+      <lb ed="#B" n="81"/>ab eo potest abstrahi conceptus 
+      acciden<lb ed="#B" n="82" break="no"/>talis eis adaequatus. Talis enim 
+      conce<lb ed="#B" n="83" break="no"/>ptus accidentales multiplicari possunt 
+      <lb ed="#B" n="84"/>in infinitum: non solum diuersorum 
+      <lb ed="#B" n="85"/>indiuiduorum: sed etiam eorundem 
+      di<lb ed="#B" n="86" break="no"/>uersimode uariatorum: ut patet de 
+      ha<lb ed="#B" n="87" break="no"/>bitudinibus praedicamenti situs respectu 
+      <lb ed="#B" n="88"/>duorum hominum situatorum, qui 
+      pos<lb ed="#B" n="89" break="no"/>sunt infinities (suncathegorematice) 
+      <lb ed="#B" n="90"/>uariari secundum situm: uniformiter 
+      <lb ed="#B" n="91"/>tamen &amp; toties repraesentabuntur per alia 
+      <lb ed="#B" n="92"/>speciem praedicamentis situs. Sic de 
+      ha<lb ed="#B" n="93" break="no"/>bitudinibus praedicamenti 
+      habi<lb ed="#B" n="94" break="no"/>tus: ubi: quando: &amp; aliorum: 
+      <lb ed="#B" n="95"/>quantitatis: 
+      quali<lb ed="#B" n="96" break="no"/>tatis 
+      relatio<lb ed="#B" n="97" break="no"/>nis &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

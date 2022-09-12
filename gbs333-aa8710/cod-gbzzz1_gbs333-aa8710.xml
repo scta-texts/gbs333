@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 12</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 12</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="35"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-aa8710"> <!-- l1prolq12 -->
+            <head xml:id="gbs333-aa8710-Hd1e102">Quaestio 12</head>
+            <head xml:id="gbs333-aa8710-Hd1e104" type="question-title">Utrum habitus theologicus sit practicus vel speculativus</head>
+            <p xml:id="gbs333-aa8710-d1e107">
+               <lb ed="#B" n="67"/>QVAESTIO xII. 
+      <lb ed="#B" n="68"/>VTRVM theologicus 
+      ha<lb ed="#B" n="69" break="no"/>bitus sit practicus, uel 
+      spe<lb ed="#B" n="70" break="no"/>culatiuus &amp;c.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e118">
+      ¶ 
+      Supponi<lb ed="#B" n="71" break="no"/>tur ex prioribus: quod 
+      theolo<lb ed="#B" n="72" break="no"/>gia non est habitus unus: sed  
+      <lb ed="#B" n="73"/>aggregatum ex multis notitijs non 
+      so<lb ed="#B" n="74" break="no"/>lum numero: sed etiam specie distinctis. 
+      <lb ed="#B" n="75"/>Nam omnis notitia theologicae 
+      uerita<lb ed="#B" n="76" break="no"/>tis pertinet ad theologiam. Omnis 
+      ue<lb ed="#B" n="77" break="no"/>ritas necessaria ad salutem, est ueritas 
+      <lb ed="#B" n="78"/>theologica: ut dictum est. q. i. prologi. 
+      <lb ed="#B" n="79"/>Haeautem multae sunt: ut notum est: 
+      </p>
+            <p xml:id="gbs333-aa8710-d1e141">
+               <lb ed="#B" n="80"/>¶ Sunt autem de quaestionis materia 
+      <lb ed="#B" n="81"/>opi. contrariae, quarum una ponit: quod 
+      <lb ed="#B" n="82"/>theologia est simpliciter speculatiua: 
+      <lb ed="#B" n="83"/>alia quod simpliciter est practica.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e152">
+      ¶ 
+      Con<lb ed="#B" n="84" break="no"/>tra quas est haec responsio auctoris. 
+      Ali<lb ed="#B" n="85" break="no"/>qua notitia theologica est simpliciter 
+      <lb ed="#B" n="86"/>speculatiua, &amp; aliqua simpliciter 
+      practi<lb ed="#B" n="87" break="no"/>ca. Patet: quia aliqua est notitia 
+      con<lb ed="#B" n="88" break="no"/>clusionis directiuae ad opus, seu ad 
+      ope<lb ed="#B" n="89" break="no"/>rationem: alia non. Exemplum primi: 
+      <lb ed="#B" n="90"/>ut notitiae illarum: deus est diligendus 
+      <lb ed="#B" n="91"/>ex toto corde: sabbatum est 
+      sanctifican<lb ed="#B" n="92" break="no"/>dum: orandum est pro loco, &amp; 
+      tem<lb ed="#B" n="93" break="no"/>pore. Exemplum secundi. Deus est 
+      tri<lb ed="#B" n="94" break="no"/>nus, &amp; unus: pater generat filium: 
+      per<lb ed="#B" n="95" break="no"/>sonarum diuinarum una est substantia, 
+      <lb ed="#B" n="96"/>aequalis gloria, coaeterna maiestas.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e183">
+      ¶ Sed 
+      <lb ed="#B" n="97"/>est dubium: quando conclusio 
+      practi<lb ed="#B" n="98" break="no"/>ca deducitur ex principiis speculatiuis: 
+      <lb ed="#B" n="99"/>an habitus totius demonstrationis sit  
+      <!--123.xml-->
+      <pb ed="#B" n="36"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>practicus, uel speculatiuus. Solu. 
+      Aequi<lb ed="#B" n="2" break="no"/>ualenter est simul practicus, &amp; speculat  
+      <lb ed="#B" n="3"/>uus non formaliter: sed aequiualenter: 
+      <lb ed="#B" n="4"/>quia aequiualet habitui principij, &amp; 
+      con<lb ed="#B" n="5" break="no"/>clusionis: quorum ex hipothesi alter est 
+      <lb ed="#B" n="6"/>speculatiuus: alter practicus.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e212">
+      ¶ Ex quo 
+      <lb ed="#B" n="7"/>sequitur: quod speculatiuum, &amp; practicum 
+      <lb ed="#B" n="8"/>non immediate opponuntur, quia datur 
+      <lb ed="#B" n="9"/>medium.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e221">
+      ¶ Vel dicendum: quod cum 
+      scien<lb ed="#B" n="10" break="no"/>tia diuisione immediata diuiditur in 
+      spe<lb ed="#B" n="11" break="no"/>culatiuam, &amp; practicam. Scientia acc 
+      <lb ed="#B" n="12"/>pitur pro notitia unius complexi 
+      pro<lb ed="#B" n="13" break="no"/>positionalis tantum, &amp; non totius 
+      discur<lb ed="#B" n="14" break="no"/>sus &amp;c.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e234">
+      ¶ Dubitatur primo. An habitus 
+      <lb ed="#B" n="15"/>theologicus pertincat ad aliquem de 
+      quin<lb ed="#B" n="16" break="no"/>que, quos ponit philosophus. vj. Et hico 
+      <lb ed="#B" n="17"/>rum. Solutio. Philosophus ibi solum 
+      lo<lb ed="#B" n="18" break="no"/>quitur de habitibus euidentibus. 
+      Multi<lb ed="#B" n="19" break="no"/>autem sunt habitus theologici incuiden 
+      <lb ed="#B" n="20"/>tes, scilicet ueritatum tantum credita 
+      <lb ed="#B" n="21"/>rum, &amp; illi non pertinent ad aliquem 
+      il<lb ed="#B" n="22" break="no"/>lorum quinque &amp;c. Multi etiam sunt 
+      <lb ed="#B" n="23"/>habitus euidentes: &amp; si sunt principiorum 
+      <lb ed="#B" n="24"/>per se, uel per experientiam notorum: 
+      <lb ed="#B" n="25"/>pertinent ad intellectum. Si uero 
+      con<lb ed="#B" n="26" break="no"/>clusionum demonstratarum, &amp; sunt 
+      pra<lb ed="#B" n="27" break="no"/>ctici pertinent adprudentiam. Si 
+      specu<lb ed="#B" n="28" break="no"/>latiui pertinent ad scientiam. Si totius 
+      <lb ed="#B" n="29"/>demonstrationis pertinent ad 
+      sapien<lb ed="#B" n="30" break="no"/>t tiam &amp;c.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e272">
+      ¶ Dubitatur secundo. Vtrum 
+      <lb ed="#B" n="31"/>a habitus theologicus debeat poni in 
+      in<lb ed="#B" n="32" break="no"/>tellectu practico, uel speculatiuo. 
+      Re<lb ed="#B" n="33" break="no"/>sponsio. Si practicum, &amp; speculatiuum 
+      <lb ed="#B" n="34"/>respectu intellectus dicunt non solum 
+      <lb ed="#B" n="35"/>actum, sed aptitudinem: omnis intelle¬ 
+      <!--123.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="36"/>ctus est practicus, &amp; speculatiuus: quia 
+      <lb ed="#B" n="37"/>omnis intellectus potest in se habere 
+      <lb ed="#B" n="38"/>notitiam practicam, &amp; speculatiuam. 
+      <lb ed="#B" n="39"/>Et per hoc dicitur: quod habitus 
+      theologi<lb ed="#B" n="40" break="no"/>cus est in intellectu practico, &amp; 
+      specula<lb ed="#B" n="41" break="no"/>tiuo: quia in intellectu. Si uero dicunt  
+      <lb ed="#B" n="42"/>tantum actum, ut intellectus practicus 
+      di<lb ed="#B" n="43" break="no"/>catur intellectus habens in se actu 
+      noti<lb ed="#B" n="44" break="no"/>tiam practicam, &amp; sic de speculatiuo: tumc 
+      <lb ed="#B" n="45"/>habitus theologicus practicus est in in 
+      <lb ed="#B" n="46"/>tellectu practico: habitus theologicus 
+      <lb ed="#B" n="47"/>speculatiuus est in intellectu 
+      speculati<lb ed="#B" n="48" break="no"/>uo. Stat tamen: quod intellectus practicus 
+      <lb ed="#B" n="49"/>sit in intellectu speculatiuo, &amp; 
+      specula<lb ed="#B" n="50" break="no"/>tiuus in intellectu practico: si 
+      intelle<lb ed="#B" n="51" break="no"/>ctus habeat simul habitum practicum, &amp; Dub. 
+      <lb ed="#B" n="52"/>speculatiuum.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e326">
+      ¶ Dubitatur tertio: quis 
+      <lb ed="#B" n="53"/>illorum habituum sit mobilior, 
+      specula<lb ed="#B" n="54" break="no"/>tiuus, an practicus. Solutio. Aliquis 
+      pra<lb ed="#B" n="55" break="no"/>cticus est nobilior speculatiuo, &amp; aliques 
+      <lb ed="#B" n="56"/>speculatiuus est nobilior practico 
+      secun<lb ed="#B" n="57" break="no"/>dum differentiam obiectorum, &amp; 
+      certi<lb ed="#B" n="58" break="no"/>tudinis, ex quibus arguitur nobilitas 
+      a<lb ed="#B" n="59" break="no"/>ctuum, &amp; habituum.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e344">
+      ¶ Multa alia 
+      tan<lb ed="#B" n="60" break="no"/>guntur in solutionibus rationum pro 
+      <lb ed="#B" n="61"/>opinionibus &amp;c. 
+      </p>
+            <p xml:id="gbs333-aa8710-d1e351">
+               <lb ed="#B" n="62"/>¶ Einem habet in his notatis, quam 
+      <lb ed="#B" n="63"/>breuiter, &amp; succincte epitoma 
+      prologi<lb ed="#B" n="64" break="no"/>admodum diffusi, uenerabilis 
+      incepto<lb ed="#B" n="65" break="no"/>ris Guil. Ockam. ubi ffudiosus lector 
+      la<lb ed="#B" n="66" break="no"/>tius inuenire potest, quod hic trunmcatim 
+      <lb ed="#B" n="67"/>proponitur, paucis adiectis, &amp; 
+      quibus<lb ed="#B" n="68" break="no"/>dam mutatis. 
+      <!--124.xml-->
+      <pb ed="#B" n="37"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>primus 
+      <lb ed="#B" n="2"/>liber 
+      sen<lb ed="#B" n="3" break="no"/>tenarnm 
+      <lb ed="#B" n="4"/>
+      diuidi<lb ed="#B" n="5" break="no"/>tur in 
+      <!--124.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="6"/>A 
+      <lb ed="#B" n="7"/>quo ostendit generale obiectum theologici, &amp; totius operis procedendi modum dist. i. 
+      <lb ed="#B" n="8"/>Veritatem credenda de essentiae vnitate, &amp; personarum trinitate proponit. distin. ij. 
+      <lb ed="#B" n="9"/>Proemium 
+      <lb ed="#B" n="10"/>Intelligentiam creditorum rationibus planis, &amp; similitudinibus congruis aperit. dist. iij. 
+      <lb ed="#B" n="11"/>Concreta. utrum deus generet deum. dist. iiij. 
+      <lb ed="#B" n="12"/>S 
+      <lb ed="#B" n="13"/>Terminum per nonta 
+      <lb ed="#B" n="14"/>labstracta: utrum essentia generet, vel generetur dist. v. 
+      <lb ed="#B" n="15"/>Dubia soluit 
+      <lb ed="#B" n="16"/>Vtrum pater generet necessitate, Vel voluntate. dist. vi. 
+      <lb ed="#B" n="17"/>Modum 
+      <lb ed="#B" n="18"/>citca gnationis 
+      <lb ed="#B" n="19"/>Vtrum potentia generandi sit in filio. dist. vij. 
+      <lb ed="#B" n="20"/>Principium 
+      <lb ed="#B" n="21"/>Quae sunt actualitans, simplicitas, imutabilitas. dist. viij. 
+      <lb ed="#B" n="22"/>Essentiae 
+      <lb ed="#B" n="23"/>per generationes coaternitate dist. ix. 
+      <lb ed="#B" n="24"/>filij 
+      <lb ed="#B" n="25"/>Personam procedentem. distin. x. 
+      <lb ed="#B" n="26"/>Emana. 
+      <lb ed="#B" n="27"/>Principium, a quo procedit. distin. xj. 
+      <lb ed="#B" n="28"/>isilicet quan 
+      <lb ed="#B" n="29"/>tionem ad 
+      <lb ed="#B" n="30"/>Spirantium habitudinem. distin. xij. 
+      <lb ed="#B" n="31"/>tum ad 
+      <lb ed="#B" n="32"/>
+      intra<lb ed="#B" n="33" break="no"/>Comparationem ad generationem. dist. xiij. 
+      <lb ed="#B" n="34"/>personae 
+      re<lb ed="#B" n="35" break="no"/>distinctum. distin. xiiij. 
+      <lb ed="#B" n="36"/>spicientes 
+      <lb ed="#B" n="37"/>principium a 
+      quo<lb ed="#B" n="38" break="no"/>indistinctum. distin. xv. 
+      <lb ed="#B" n="39"/>uisibilem distin. xvj. 
+      <lb ed="#B" n="40"/>
+      Processio<lb ed="#B" n="41" break="no"/>Proprietates 
+      <lb ed="#B" n="42"/>Modum 
+      <lb ed="#B" n="43"/>ne sililicet ad ex 
+      <lb ed="#B" n="44"/>inuisibilem distin. xvij. 
+      <lb ed="#B" n="45"/>tra quantum 
+      <lb ed="#B" n="46"/>Proprietatem, secundum quam natus est procedere scilicet 
+      <lb ed="#B" n="47"/>ad 
+      <lb ed="#B" n="48"/>donum. distin. xviij. 
+      <lb ed="#B" n="49"/>aeternitatem, &amp; magnitudinem. 
+      <lb ed="#B" n="50"/>Verit atem 
+      deter<lb ed="#B" n="51" break="no"/>(distin. xix. 
+      <lb ed="#B" n="52"/>minat quan. 
+      <lb ed="#B" n="53"/>potentiam. distin. xx. 
+      <lb ed="#B" n="54"/>tum ad 
+      <lb ed="#B" n="55"/>cis 
+      <lb ed="#B" n="56"/>hubia absoluit quantum ad 
+      praedicatio<lb ed="#B" n="57" break="no"/>rtriusque  
+      <lb ed="#B" n="58"/>nem personarum cum signo exclusiuo 
+      so<lb ed="#B" n="59" break="no"/>lus. distin. xxj. 
+      <lb ed="#B" n="60"/>nomina dist. xxij. 
+      <lb ed="#B" n="61"/>In genere distinguens diuersa 
+      <lb ed="#B" n="62"/>non numeralia sc iliede nomne persona dist. xxiij. 
+      <lb ed="#B" n="63"/>Toquendi 
+      mo<lb ed="#B" n="64" break="no"/>numeralia. distin. xxiiij. 
+      <lb ed="#B" n="65"/>Essentialia 
+      <lb ed="#B" n="66"/>dum de ea 
+      <lb ed="#B" n="67"/>regreditur ad nomen persona. dist. xxv. 
+      <lb ed="#B" n="68"/>ut sunt inssingulis 
+      perso<lb ed="#B" n="69" break="no"/>In specie 
+      <lb ed="#B" n="70"/>nis. distin. xxvj. 
+      <lb ed="#B" n="71"/>quantum ad 
+      <lb ed="#B" n="72"/>psonalibus 
+      <lb ed="#B" n="73"/>ut exprimuntur nomnibus 
+      <lb ed="#B" n="74"/>nomina 
+      <lb ed="#B" n="75"/>uarijs. distin. xxvij. 
+      <lb ed="#B" n="76"/>Acterna 
+      <lb ed="#B" n="77"/>non personalibe innascibilitate. dist. xxvlij. 
+      <lb ed="#B" n="78"/>Propria 
+      <lb ed="#B" n="79"/>conmuni spiratione. dist. xxix. 
+      <lb ed="#B" n="80"/>rractatum, quo 
+      <lb ed="#B" n="81"/>secundum 
+      se<lb ed="#B" n="82" break="no"/>agit, de trinitate 
+      <lb ed="#B" n="83"/>distin. xxx. 
+      <lb ed="#B" n="84"/>
+      rpali<lb ed="#B" n="85" break="no"/>bndicta quo ad 
+      <lb ed="#B" n="86"/>Veritatem ostendit 
+      <lb ed="#B" n="87"/>distin. xxxj. 
+      <lb ed="#B" n="88"/>appropriata 
+      <lb ed="#B" n="89"/>Helatiua 
+      <lb ed="#B" n="90"/>
+      e<lb ed="#B" n="91" break="no"/>Dubia soluit. dist. xxxij. 
+      <lb ed="#B" n="92"/>Proprietates ed pesonas. xxxiij. 
+      <lb ed="#B" n="93"/>&amp; essentiam. distin. xxxiiij. 
+      <lb ed="#B" n="94"/>Comparatiuem comparando 
+      <lb ed="#B" n="95"/>Secundum se dist. xxxv. 
+      <lb ed="#B" n="96"/>Eas continet obiectiuem. distin. xxxvj. 
+      <lb ed="#B" n="97"/>in 
+      generali<lb ed="#B" n="98" break="no"/>Eas inhabitat sanctificatiue  
+      <lb ed="#B" n="99"/>distin. xxxvij. 
+      <lb ed="#B" n="100"/>quo ad rec 
+      co<lb ed="#B" n="101" break="no"/>gnitas prout 
+      <lb ed="#B" n="102"/>Sapientia, qua res 
+      <lb ed="#B" n="103"/>casualiter. dist. xxxviij. 
+      <lb ed="#B" n="104"/>se habet 
+      <lb ed="#B" n="105"/>extra cognoscit 
+      <lb ed="#B" n="106"/>immutabiliter. dist. xxxix. 
+      <lb ed="#B" n="107"/>ad eas 
+      <lb ed="#B" n="108"/>distin. xl. 
+      <lb ed="#B" n="109"/>effectum. 
+      <lb ed="#B" n="110"/>in speciali quo ad eius 
+      <lb ed="#B" n="111"/>causam. dist. 
+      xli<lb ed="#B" n="112" break="no"/>Aributa 
+      <lb ed="#B" n="113"/>attenditur distin. xlij. 
+      <lb ed="#B" n="114"/>omni potentia, qua ad onia pducit 
+      <lb ed="#B" n="115"/>quae sunt 
+      <lb ed="#B" n="116"/>quousque protenditur. dist. xliij. 
+      <lb ed="#B" n="117"/>ostendens penes quid 
+      <lb ed="#B" n="118"/>quomodo ea operetur dist. xliiij. 
+      <lb ed="#B" n="119"/>Se. dist. xlu. 
+      <lb ed="#B" n="120"/>opiniones recitado dist. xlvj. 
+      <lb ed="#B" n="121"/>Iffectum 
+      <lb ed="#B" n="122"/>veritatem elucidando. dist. xlvij. 
+      <lb ed="#B" n="123"/>roluntas, de qua determinat quo ad 
+      <lb ed="#B" n="124"/>Affectum, seu uoluntatem humana m. dist. xlviij. 
+      <lb ed="#B" n="125"/>Gab. Biel. 
+      <lb ed="#B" n="126"/>Cca 
+      <!--125.xml-->
+      <pb ed="#B" n="38"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>
+      ROIOOOut<lb ed="#B" n="2" break="no"/>cumque terminato: 
+      <lb ed="#B" n="3"/>suadet ratio: ut ac 
+      <lb ed="#B" n="4"/>quaestiones circa 
+      sin<lb ed="#B" n="5" break="no"/>gulas distinctiones 
+      <lb ed="#B" n="6"/>per doc. motas 
+      ocu<lb ed="#B" n="7" break="no"/>ium dirigamus: pra 
+      <lb ed="#B" n="8"/>misso semper textus summario, tribus 
+      <lb ed="#B" n="9"/>conclusionibus partiendo. Vt autem in 
+      <lb ed="#B" n="10"/>genere pateat, de quibus magister in 
+      <lb ed="#B" n="11"/>hoc primo pertractat: considerandum 
+      <lb ed="#B" n="12"/>est, quod totus ille liberprimus diuiditur in 
+      <lb ed="#B" n="13"/>proemium, &amp; tractatum. In 
+      proemio<lb ed="#B" n="14" break="no"/>quasi in genere, &amp; proemialiter 
+      tangit<lb ed="#B" n="15" break="no"/>omnium quatuor librorum materiam: 
+      <lb ed="#B" n="16"/>cum hoc aperiens determinandi modum: 
+      <lb ed="#B" n="17"/>&amp; hoc facit dist. i. In tractatu uero 
+      inte<lb ed="#B" n="18" break="no"/>tum prosequitur: agens de deo secundum 
+      <lb ed="#B" n="19"/>rationem naturalis perfectionis.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e700">
+      ¶ 
+      Siue<lb ed="#B" n="20" break="no"/>breuius in tractatu agit de trinitate 
+      su<lb ed="#B" n="21" break="no"/>per benedicta quo ad se, &amp; quo ad 
+      quae<lb ed="#B" n="22" break="no"/>dam attributa, quam sibi conueniunt 
+      respectu<lb ed="#B" n="23" break="no"/>creaturae a dist. xxxv. &amp; deinceps usque 
+      in<lb ed="#B" n="24" break="no"/>finem. Quo ad se, &amp; sibi intrinseca 
+      tripli<lb ed="#B" n="25" break="no"/>citer scilicet quo ad se a dist. ij. usque ad 
+      septi<lb ed="#B" n="26" break="no"/>mam. Quo ad proprietates personae, &amp; 
+      <lb ed="#B" n="27"/>essentiae diuisim, &amp; coniunctim a 
+      distin<lb ed="#B" n="28" break="no"/>viij. usque ad xxj. inclusiue. Quo ad 
+      mo<lb ed="#B" n="29" break="no"/>dum loquendi de ea in genere, &amp; in 
+      spe<lb ed="#B" n="30" break="no"/>cie a dist. xxij. vsque ad. xxxiiij. Haec 
+      uolen<lb ed="#B" n="31" break="no"/>te domino in processu latius patebunt. 
+      </p>
+            <p xml:id="gbs333-aa8710-d1e729">
+               <lb ed="#B" n="32"/>¶ Sententia textus his subnotatis 
+      com<lb ed="#B" n="33" break="no"/>plectitur conclusionibus.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e737">
+      ¶ Prima. Totius 
+      <lb ed="#B" n="34"/>theologiae tam ueteris, quam nouae legis 
+      <lb ed="#B" n="35"/>daeterminatio circa res uersatur, &amp; 
+      si<lb ed="#B" n="36" break="no"/>gna.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e746">
+      ¶ Secunda. Aliquae res sunt, quibus 
+      <lb ed="#B" n="37"/>fruendum est: aliae, quibus utendum: 
+      <lb ed="#B" n="38"/>aliae uero utuntur, &amp; fruuntur.
+    </p>
+            <p xml:id="gbs333-aa8710-d1e753">
+      ¶ 
+      Ter<lb ed="#B" n="39" break="no"/>tia. Res, quibus fruendum est, nos 
+      beati<lb ed="#B" n="40" break="no"/>ficant: quibus utendum est, ad 
+      beatitu<lb ed="#B" n="41" break="no"/>dinis consecutionem adiuuant. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="290"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a73494"> <!-- l1d30q5 -->
+            <head xml:id="gbs333-a73494-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-a73494-Hd1e104" type="question-title">
+    Utrum relatio temporalis Dei ad creaturam sit relatio realis
+  </head>
+            <p xml:id="gbs333-a73494-d1e107">
+               <lb ed="#B" n="40"/>QVAESTIOV 
+      <lb ed="#B" n="41"/>VTRVM relatio 
+      tempo<lb ed="#B" n="42" break="no"/>ralis dei ad creaturam sit re 
+      <lb ed="#B" n="43"/>latio realis.
+  </p>
+            <p xml:id="gbs333-a73494-d1e118">
+    Tractata, &amp; 
+      im<lb ed="#B" n="44" break="no"/>pugnata opi. Ioann. 
+      dicen<lb ed="#B" n="45" break="no"/>tis. quaest. j. distinctio. huius, 
+      <lb ed="#B" n="46"/>Dei ad creaturam esse relationem 
+      ra<lb ed="#B" n="47" break="no"/>tionis: quodque non omnis relatio est 
+      <!--377.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>mutua. Respondet doct. ad quaestione 
+      <lb ed="#B" n="49"/>per tres conclusiones. Pro quarum 
+      in<lb ed="#B" n="50" break="no"/>tellectu praemittendum quae sit 
+      differem<lb ed="#B" n="51" break="no"/>tia inter relationem rationis, &amp; 
+      relatio<lb ed="#B" n="52" break="no"/>nem realem.
+    </p>
+            <p xml:id="gbs333-a73494-d1e145">
+      ¶ Relatio realis est quando 
+      <lb ed="#B" n="53"/>res significata per relationem siue 
+      con<lb ed="#B" n="54" break="no"/>cretum relationis est talis: qualis 
+      impor<lb ed="#B" n="55" break="no"/>tatur esse per tale concretum sine 
+      ope<lb ed="#B" n="56" break="no"/>ratione intellectus: ut relatio simi 
+      situ<lb ed="#B" n="57" break="no"/>dinis est realis. Non quod similitudo sit 
+      re<lb ed="#B" n="58" break="no"/>spectus ab omnibus absolutis distinctus: 
+      <lb ed="#B" n="59"/>sed quia sortes potest esse similis 
+      Plato<lb ed="#B" n="60" break="no"/>ni circumscripta quacunque operatione 
+      <lb ed="#B" n="61"/>intellectus. Sed relatio rationis est quando 
+      <lb ed="#B" n="62"/>res non est talis qualis significatur 
+      per<lb ed="#B" n="63" break="no"/>relationem sine operatione intellectus. 
+      <lb ed="#B" n="64"/>Sicut relatio praedicati ad subiectum: 
+      si<lb ed="#B" n="65" break="no"/>gni instituti ad signatum: praecij ad 
+      ap<lb ed="#B" n="66" break="no"/>praeciatum. Quia nihil dici posset 
+      prae<lb ed="#B" n="67" break="no"/>dicatum: signum praecium sine operatio 
+      <lb ed="#B" n="68"/>ne intellectus. Intellectus enim est 
+      qui<lb ed="#B" n="69" break="no"/>praedicat unum de altero, qui signa 
+      in<lb ed="#B" n="70" break="no"/>stituit. qui praecium rei constituit. Et in 
+      <lb ed="#B" n="71"/>telligitur etiam sub intellectu uoluntas 
+      </p>
+            <p xml:id="gbs333-a73494-d1e189">
+               <lb ed="#B" n="72"/>¶ Si quaeritur: an relatio realis sit ad non 
+      <lb ed="#B" n="73"/>ens: hoc est. An aliquid referatur ad 
+      <lb ed="#B" n="74"/>non ens: gratia exempli. Materia ad 
+      <lb ed="#B" n="75"/>formam ad quam est in potentia. 
+      Re<lb ed="#B" n="76" break="no"/>spondetur: quod illud stat in quid nominis 
+      <lb ed="#B" n="77"/>terminorum. Nam uocando relationem 
+      <lb ed="#B" n="78"/>realem praecise illam quae importat uera 
+      <lb ed="#B" n="79"/>rem existentem, &amp; aliam sibi 
+      correspon<lb ed="#B" n="80" break="no"/>dentem in actu: sic materiae ad formam, 
+      <lb ed="#B" n="81"/>ad quam est in potentia. non est 
+      rela<lb ed="#B" n="82" break="no"/>tio realis: eo quod forma talis non est actu 
+      <lb ed="#B" n="83"/>Si uero realis dicitur quae importat unam 
+      <lb ed="#B" n="84"/>rem existentem, &amp; aliam siue actu sit 
+      <lb ed="#B" n="85"/>siue esse possit: tunc praedicta relatio est 
+      <lb ed="#B" n="86"/>realis. Nullo modo tamen relatio 
+      ma<lb ed="#B" n="87" break="no"/>teriae ad formam, ad quam est in 
+      poten<lb ed="#B" n="88" break="no"/>tia: est relatio rationis: quia materia 
+      <lb ed="#B" n="89"/>est in potentia ad formam non 
+      habi<lb ed="#B" n="90" break="no"/>tam: circumscripto quocunque 
+      habi<lb ed="#B" n="91" break="no"/>tu intellectus. Et ita tenendo primum 
+      <lb ed="#B" n="92"/>modum: oportet ponere relationem 
+      <lb ed="#B" n="93"/>mediam inter relationem realem, &amp; 
+      ra<lb ed="#B" n="94" break="no"/>tionis: quam aliqui nominant 
+      poten<lb ed="#B" n="95" break="no"/>tialem.
+    </p>
+            <p xml:id="gbs333-a73494-d1e244">
+      ¶ Si quaeritur de termino 
+      re<lb ed="#B" n="96" break="no"/>lationis. An sit aliquod absolutum uel 
+      <lb ed="#B" n="97"/>relatiuum: dicitur quod secundum Pet. 
+      <lb ed="#B" n="98"/>terminus proprie nihil aliud est, quaui¬ 
+      <!--378.xml-->
+      <pb ed="#B" n="291"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cortelatiuum: hoc est concretum 
+      rela<lb ed="#B" n="2" break="no"/>tiuum ad quod refertur relatiuum sub 
+      <lb ed="#B" n="3"/>habitudine obliqui casus. Vt terminus 
+      <lb ed="#B" n="4"/>relationis paternitatis: est ille 
+      termi<lb ed="#B" n="5" break="no"/>nus filius: quia pater est filij pater: 
+      at<lb ed="#B" n="6" break="no"/>tamen terminus ille significat rem ab 
+      <lb ed="#B" n="7"/>solutam: unde terminus illius 
+      relatiui<lb ed="#B" n="8" break="no"/>creatura: est ille terminus creans deus 
+      <lb ed="#B" n="9"/>tamen qui significatur per creans est 
+      <lb ed="#B" n="10"/>absolutum. Et uocatur quandoque res 
+      <lb ed="#B" n="11"/>x illa absoluta terminus licet improprie. 
+      </p>
+            <p xml:id="gbs333-a73494-d1e283">
+               <lb ed="#B" n="12"/>¶ Secundo notandum, quod relatio 
+      <lb ed="#B" n="13"/>realis accipitur tripliciter. Primo 
+      mo<lb ed="#B" n="14" break="no"/>do per relationem realem intelligitur 
+      <lb ed="#B" n="15"/>respectus qui est res una distincta ab ab 
+      <lb ed="#B" n="16"/>solutis. Alio modo accipitur relatio 
+      <lb ed="#B" n="17"/>realis pro multis rebus absolutis 
+      rela<lb ed="#B" n="18" break="no"/>tiue significatis: ut numerus qui est 
+      <lb ed="#B" n="19"/>multae unitates. Et significatur per illa 
+      <lb ed="#B" n="20"/>relatiua duplum tripsum &amp;c. Tertio 
+      mo<lb ed="#B" n="21" break="no"/>do accipitur pro termino relatiuo: 
+      qui<lb ed="#B" n="22" break="no"/>secundum se, uel suum concretum 
+      prae<lb ed="#B" n="23" break="no"/>dicatur de rebus ueris: taliter quod res 
+      <lb ed="#B" n="24"/>ipsae tales sunt quales fignificant circum 
+      <lb ed="#B" n="25"/>scripto quocunque opere intellectus. 
+      <lb ed="#B" n="26"/>Illo modo similitudo, similis: illi 
+      ter<lb ed="#B" n="27" break="no"/>: 
+      <lb ed="#B" n="28"/>mini sunt relationes reales.
+    </p>
+            <p xml:id="gbs333-a73494-d1e322">
+      ¶ 
+      Notan<lb ed="#B" n="29" break="no"/>dum tertio, quod dupliciter aliquid 
+      di<lb ed="#B" n="30" break="no"/>citur temporale: uel quia est res aliqua 
+      <lb ed="#B" n="31"/>incipiens esse in tempore: uel quia est 
+      <lb ed="#B" n="32"/>praedicabile de aliquo ex tempore. Et  
+      <lb ed="#B" n="33"/>sic relatio dupliciter dicitur 
+      aeterna<lb ed="#B" n="34" break="no"/>Vel quia est aliqua res aeterna. Vel quia 
+      <lb ed="#B" n="35"/>uerum est dicere: quod ab aeterno res 
+      <lb ed="#B" n="36"/>tuit talis qualis significatur per 
+      no<lb ed="#B" n="37" break="no"/>t. men relatiuum.
+    </p>
+            <p xml:id="gbs333-a73494-d1e344">
+      ¶ Conclusio prima, 
+      <lb ed="#B" n="38"/>il. i Dei ad creaturam nulla est relatio 
+      rea<lb ed="#B" n="39" break="no"/>Tlis, primo modo accipiendo relatio 
+      <lb ed="#B" n="40"/>realis. Patet: quia nihil reale 
+      addi<lb ed="#B" n="41" break="no"/>tur deo: per hoc quod refertur ad 
+      <lb ed="#B" n="42"/>il. x. creaturam creando, uel 
+      conseruan<lb ed="#B" n="43" break="no"/>do.
+    </p>
+            <p xml:id="gbs333-a73494-d1e361">
+      ¶ Secunda conclusio. Relatio.  
+      <lb ed="#B" n="44"/>dei ad creaturam secundo, uel tertio 
+      <lb ed="#B" n="45"/>iij. modis est realis: patet ex notabili. 
+      </p>
+            <p xml:id="gbs333-a73494-d1e368">
+               <lb ed="#B" n="46"/>¶ Tertia conclusio. Relatio 
+      tempo<lb ed="#B" n="47" break="no"/>ralis dei ad creaturam: accipiendo tem 
+      <lb ed="#B" n="48"/>porale secundo modo, est realis 
+      ter<lb ed="#B" n="49" break="no"/>tio modo accipiendo relationem 
+      rea<lb ed="#B" n="50" break="no"/>lem. Patet: quia creans praedicatur 
+      <lb ed="#B" n="51"/>de deo ex tempore. Et ad hoc, quod  
+      <lb ed="#B" n="52"/>deus sit creans, nihil facit noster in¬ 
+      <!--378.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="53"/>tellectus.
+    </p>
+            <p xml:id="gbs333-a73494-d1e392">
+      ¶ Siquaeritur ad quem 
+      mo<lb ed="#B" n="54" break="no"/>dum relatiuorum pertinent illi 
+      termi<lb ed="#B" n="55" break="no"/>ni, creans, gubernans, conseruans, 
+      <lb ed="#B" n="56"/>iustificans, beatificans, puniens, &amp; 
+      fi<lb ed="#B" n="57" break="no"/>miles. Dicitur: quod pertinent ad 
+      <lb ed="#B" n="58"/>secundum modum, &amp; non ad tertium. 
+      </p>
+            <p xml:id="gbs333-a73494-d1e405">
+               <lb ed="#B" n="59"/>¶ De relatione rationis plura uide 
+      in<lb ed="#B" n="60" break="no"/>fra quaestio. iiiij. distinct. xxxv. Et 
+      tan<lb ed="#B" n="61" break="no"/>tum de summatio quaestionis huius. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

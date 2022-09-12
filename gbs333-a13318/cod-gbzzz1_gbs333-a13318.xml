@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="53"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a13318"> <!-- l1d1q5 -->
+            <head xml:id="gbs333-a13318-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-a13318-Hd1e104" type="question-title">Utrum voluntas possit frui essentia non fruendo persona et econtra</head>
+            <p xml:id="gbs333-a13318-d1e107">
+               <lb ed="#B" n="84"/>QVAESTIO V 
+      <lb ed="#B" n="85"/>QVINTO quaeritur utrum 
+      <lb ed="#B" n="86"/>uoluntas pos sit frui aliquo, 
+      <lb ed="#B" n="87"/>&amp; quod est realiter deus: non 
+      u<lb ed="#B" n="88" break="no"/>e habendo fruitionem 
+      respe<lb ed="#B" n="89" break="no"/>ctu alicuius, quod est realiter deus id est 
+      anf<lb ed="#B" n="90" break="no"/>uoluntas possit frui essentia, non 
+      fruen<lb ed="#B" n="91" break="no"/>do persona, sapientia, uel uoluntate, aut  
+      <lb ed="#B" n="92"/>una persona sine alia.
+    </p>
+            <!-- article 1 -->
+            <p xml:id="gbs333-a13318-d1e132">
+      ¶ Pro articulo 
+      pri<lb ed="#B" n="93" break="no"/>mo notandum, quod sunt opi. circa hanc 
+      <lb ed="#B" n="94"/>quaestionem contrariae scilicet <name xml:id="gbs333-a13318-Nd1e138">Sco.</name> distin. ij. q. 
+      <lb ed="#B" n="95"/>ij. tenentis partem affirmatiuam: <name xml:id="gbs333-a13318-Nd1e142">Ockam</name>, 
+      <lb ed="#B" n="96"/>
+               <name xml:id="gbs333-a13318-Nd1e147">Orta</name>, <name xml:id="gbs333-a13318-Nd1e149">Holktot</name>, <name xml:id="gbs333-a13318-Nd1e151">Camerac.</name>
+               <name xml:id="gbs333-a13318-Nd1e153">Thomae 
+      Ar<lb ed="#B" n="97" break="no"/>genti.</name>
+               <name xml:id="gbs333-a13318-Nd1e158">Adam</name>, <name xml:id="gbs333-a13318-Nd1e161">Elephat</name>, <name xml:id="gbs333-a13318-Nd1e163">Brinbel</name> &amp; aliorum 
+      <lb ed="#B" n="98"/>tenentium partem negatiuam: quae 
+      ma<lb ed="#B" n="99" break="no"/>gis uidentur in modo loquendi diuerse, 
+      <lb ed="#B" n="100"/>quam in re ipsa. Et uidetur <name xml:id="gbs333-a13318-Nd1e171">Heinrico de 
+      <!--141.xml-->
+      <pb ed="#B" n="54"/>
+                  <cb ed="#B" n="a"/>
+                  <lb ed="#B" n="1"/>Opta</name>. q.iij. in principio quaestionis: quod 
+      <lb ed="#B" n="2"/>neutra earum sufficienter potest 
+      proba<lb ed="#B" n="3" break="no"/>ri ex scriptura contra proteruientemi: 
+      <lb ed="#B" n="4"/>ideo difficile est aliquam earum 
+      sufficien<lb ed="#B" n="5" break="no"/>ter uel ex ratione, uel scriptura 
+      impro<lb ed="#B" n="6" break="no"/>bare. Nam quantum ad rem certum est: 
+      <lb ed="#B" n="7"/>ut &amp; infra distin. ij. in conclusionibus 
+      <lb ed="#B" n="8"/>literalibus amplius explanabitur: &amp; 
+      par<lb ed="#B" n="9" break="no"/>tim supra patuit in pro logo. q. ij. quod 
+      om<lb ed="#B" n="10" break="no"/>nia, quam sunt realiter in diuinis, sunt una 
+      <lb ed="#B" n="11"/>simplicissima, &amp; singularissima res: 
+      scili<lb ed="#B" n="12" break="no"/>cet essentia diuina: licet cum hoc aliqua 
+      <lb ed="#B" n="13"/>realiter distinguantur inter se ad 
+      sen<lb ed="#B" n="14" break="no"/>sum infra exprimendum ut personae, &amp; 
+      <lb ed="#B" n="15"/>relationes oppositae. Aliqua formaliter 
+      <lb ed="#B" n="16"/>ut essentia, &amp; persona: uel (scilicet personae, 
+      <lb ed="#B" n="17"/>quam constituit) relatio. Et per conse- 
+      <lb ed="#B" n="18"/>quens quicunque fruitur aliquo, quod 
+      <lb ed="#B" n="19"/>est in diuinis, fruitur illo, quod est 
+      reali<lb ed="#B" n="20" break="no"/>ter essentia. Et quicunque fruitur 
+      es<lb ed="#B" n="21" break="no"/>sentia: fruitur illo, quod est personae uel 
+      <lb ed="#B" n="22"/>persona, &amp; relatio &amp;c. Nam essentia 
+      di<lb ed="#B" n="23" break="no"/>uina identificat sibi omnia: quae uere &amp; 
+      <lb ed="#B" n="24"/>realiter sunt in diuinis: quicquid enim 
+      <lb ed="#B" n="25"/>in deo est, deus est: &amp; ita diuina essentia. 
+      <lb ed="#B" n="26"/>Sic etiam quisquis appraehendit, seu 
+      co<lb ed="#B" n="27" break="no"/>gnoscit distincte, uel confuse essentiam: 
+      <lb ed="#B" n="28"/>appraehendit, &amp; cognoscit etiam id, quod  
+      <lb ed="#B" n="29"/>est persona, &amp; relatio &amp;c. Et qui cogno 
+      <lb ed="#B" n="30"/>scit personam quamcunque, uel 
+      relatio<lb ed="#B" n="31" break="no"/>nem cognoscit id, quod est essentia. Et  
+      <lb ed="#B" n="32"/>suo modo de alijs, quae in deo nominantur: 
+      <lb ed="#B" n="33"/>siue sint attributa, siue quaecunque haec 
+      <lb ed="#B" n="34"/>de re.
+    </p>
+            <p xml:id="gbs333-a13318-d1e255">
+      ¶ Sed de modo loquendi est uidem 
+      <lb ed="#B" n="35"/>dum: an sicut conceditur, quod fruens 
+      essen<lb ed="#B" n="36" break="no"/>tia fruitur eo, quod est persona, &amp; fruen 
+      <lb ed="#B" n="37"/>una persona: fruitur eo, quod est alia perso 
+      <lb ed="#B" n="38"/>na. Ita similiter concedendum sit, quod 
+      <lb ed="#B" n="39"/>omnis fruens essentia fruatur qualibet 
+      <lb ed="#B" n="40"/>persona, &amp; fruens una persona fruatur 
+      es<lb ed="#B" n="41" break="no"/>sentia, &amp; etiam qualibet alia persona. 
+      <lb ed="#B" n="42"/>Et similiter de intelligere, uidere, appra 
+      <lb ed="#B" n="43"/>hendere: ut appraehendens uidens, siue 
+      <lb ed="#B" n="44"/>intelligens essentiam intelligit 
+      quamli<lb ed="#B" n="45" break="no"/>bet personam.
+    </p>
+            <p xml:id="gbs333-a13318-d1e281">
+      ¶ Et circa hoc auctor 
+      po<lb ed="#B" n="46" break="no"/>nit illam propositionem tanquam 
+      prin<lb ed="#B" n="47" break="no"/>cipium, uel maximam. Quicquid 
+      praedi<lb ed="#B" n="48" break="no"/>catur de aliquo, praedicatur de 
+      quoli<lb ed="#B" n="49" break="no"/>bet, quod cum illo est una res 
+      singula<lb ed="#B" n="50" break="no"/>rissima, &amp; simplicissima: nisi oppositum 
+      <lb ed="#B" n="51"/>teneat fides catholica: quia contradi¬ 
+      <!--141.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ctoria non debent concedi de eadem 
+      re<lb ed="#B" n="53" break="no"/>simplicissima: nisi fides hoc est 
+      scriptu<lb ed="#B" n="54" break="no"/>ra canonica: ecclesiae daeterminatio, uel 
+      <lb ed="#B" n="55"/>quae ex his sequuntur in consequentia 
+      <lb ed="#B" n="56"/>euidenti, &amp; necessaria compossant. Et  
+      <lb ed="#B" n="57"/>per hoc dicit, quod qui fruitur. aliquo in 
+      di<lb ed="#B" n="58" break="no"/>uinis: fruitur quolibet, quod ex deus: hoc  
+      <lb ed="#B" n="59"/>est essentia relatione, &amp; qualibet 
+      perso<lb ed="#B" n="60" break="no"/>na.
+    </p>
+            <p xml:id="gbs333-a13318-d1e320">
+      ¶ Et si hic dicitur cum una persona 
+      <lb ed="#B" n="61"/>realiter distinguitur ab alia, uidetur, quod 
+      <lb ed="#B" n="62"/>quaelibet persona possit terminare actu 
+      <lb ed="#B" n="63"/>intelligendi, &amp; fruendi sine alia non 
+      mi<lb ed="#B" n="64" break="no"/>nus, quam dependentiam naturae assumptae, 
+      <lb ed="#B" n="65"/>quam solum uerbum terminat, &amp; non pa 
+      <lb ed="#B" n="66"/>ter, nec spiritussanctus.
+    </p>
+            <p xml:id="gbs333-a13318-d1e336">
+      ¶ Potest dici: quo 
+      <lb ed="#B" n="67"/>aliquid terminare actum intelligendi du 
+      <lb ed="#B" n="68"/>pliciter accipit. Vel pro illo, quod 
+      quo<lb ed="#B" n="69" break="no"/>cunque modo illo actu intelligitur siue 
+      <lb ed="#B" n="70"/>talis actus de eo praedicetur siue non 
+      <lb ed="#B" n="71"/>Vel secundo: quia de illo praecise, &amp; non 
+      <lb ed="#B" n="72"/>de aliquo ab eo quomodocunque; 
+      distin<lb ed="#B" n="73" break="no"/>cto praedicatur talis conceptus, uel actus 
+      <lb ed="#B" n="74"/>intelligendi, &amp; hoc praedicatione forma 
+      <lb ed="#B" n="75"/>li: sed non identica.
+    </p>
+            <p xml:id="gbs333-a13318-d1e358">
+      ¶ Primo modo 
+      ac<lb ed="#B" n="76" break="no"/>cipiendo omnem actum intelligendi 
+      <lb ed="#B" n="77"/>deum, uel aliquid in deo, terminat tam 
+      <lb ed="#B" n="78"/>essentia, quam persona: quia quolibet 
+      ta<lb ed="#B" n="79" break="no"/>li actu intelligitur deus, &amp; aliquo modo 
+      <lb ed="#B" n="80"/>quicquid est deus.
+    </p>
+            <p xml:id="gbs333-a13318-d1e372">
+      ¶ Secundo modo una 
+      <lb ed="#B" n="81"/>persona potest terminare aliquem actum 
+      <lb ed="#B" n="82"/>intelligendi, seu conceptum &amp; non alia: 
+      <lb ed="#B" n="83"/>siam conceptus relatiuus patris 
+      forma<lb ed="#B" n="84" break="no"/>liter prędicatur de solopatre, &amp; non de 
+      <lb ed="#B" n="85"/>filio: neque de essentia.
+    </p>
+            <p xml:id="gbs333-a13318-d1e385">
+      ¶ Sed licet illo 
+      <lb ed="#B" n="86"/>modo sola patris persona conceptum 
+      re<lb ed="#B" n="87" break="no"/>latiuum patris terminet: non tamen 
+      so<lb ed="#B" n="88" break="no"/>lus pater intelligitur illo conceptu, 
+      inimo<lb ed="#B" n="89" break="no"/>necessario intelligitur, &amp; correlatiuum, 
+      <lb ed="#B" n="90"/>scilicet filius, &amp; illud absolutu, quod est 
+      <lb ed="#B" n="91"/>ad se (id est essentia diuina) quod cum 
+      <lb ed="#B" n="92"/>relatione patrem constituit. De quo 
+      <lb ed="#B" n="93"/>beatus Aug. Si pater non est aliquid 
+      <lb ed="#B" n="94"/>ad se, non est aliquid quod ad alterum 
+      <lb ed="#B" n="95"/>dicatur.
+    </p>
+            <p xml:id="gbs333-a13318-d1e409">
+      ¶ Sed uidetur: quod illa 
+      conclusio<lb ed="#B" n="96" break="no"/>posset facilius logice determinari 
+      con<lb ed="#B" n="97" break="no"/>cordando aliqualiter ambas opinio. 
+      Io<lb ed="#B" n="98" break="no"/>ann. &amp; Ockam. Pro quo suppono 
+      pri<lb ed="#B" n="99" break="no"/>mo; quod de deo possunt haberi conceptus 
+      <lb ed="#B" n="100"/>plures non synonvmi inter se realiter 
+      <lb ed="#B" n="101"/>distincti, &amp; ab inuicem separabiles: 
+      <lb ed="#B" n="102"/>quorum nunc uno nunc alio cognoscim: 
+      <!--142.xml-->
+      <pb ed="#B" n="55"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>deum: &amp; secundum hoc imponi possunt 
+      <lb ed="#B" n="2"/>distincta signa uocalia; quorum unum sub 
+      <lb ed="#B" n="3"/>ordinatur synonvme uni conceptui, &amp; 
+      <lb ed="#B" n="4"/>no alij.
+    </p>
+            <p xml:id="gbs333-a13318-d1e442">
+      ¶ Secundo suppono: quod licet quiibet 
+      <lb ed="#B" n="5"/>horum conceptiuum significet deum, &amp; ita 
+      <lb ed="#B" n="6"/>diuinam essentiam, &amp; per consequens id, quod 
+      <lb ed="#B" n="7"/>realiter est, quicquid ex in deo, &amp; ita eo 
+      <lb ed="#B" n="8"/>intelligitur quicquid deus est, non tamen 
+      <lb ed="#B" n="9"/>quilibet eorum upponit pro quolibet, quod 
+      <lb ed="#B" n="10"/>est deus, quia conceptus patris non 
+      sup<lb ed="#B" n="11" break="no"/>ponit pro filio.
+    </p>
+            <p xml:id="gbs333-a13318-d1e460">
+      ¶ Tertio supponendum 
+      <lb ed="#B" n="12"/>est ex logica, quod uerba significantia actum 
+      <lb ed="#B" n="13"/>potentiae rationalis intelloctus, seu 
+      uolun<lb ed="#B" n="14" break="no"/>tatis faciunt terminum se sequontem 
+      signi<lb ed="#B" n="15" break="no"/>ficantem id, quod aliquo modo terminat 
+      <lb ed="#B" n="16"/>huiusmodi actum appellare suam rationem: 
+      <lb ed="#B" n="17"/>ita quod ad ueritatem illius propositionis 
+      re<lb ed="#B" n="18" break="no"/>quiritur, quod potentia feratur in rem 
+      si<lb ed="#B" n="19" break="no"/>gnificatam per talem terminum 
+      sequen<lb ed="#B" n="20" break="no"/>tem: non per quemcunque conceptum, uel 
+      <lb ed="#B" n="21"/>actum: sed per conceptum proprium illi 
+      <lb ed="#B" n="22"/>termino correspondentem: uel per actum 
+      <lb ed="#B" n="23"/>simodo conceptum proprium posupponentem, quod 
+      <lb ed="#B" n="24"/>dicitur upter actum uoluntatis, quae non 
+      di<lb ed="#B" n="25" break="no"/>citur coceptus pprie, sed actus ut 
+      distin<lb ed="#B" n="26" break="no"/>guitur contra conceptum, non autem sic si 
+      ta<lb ed="#B" n="27" break="no"/>lis terminus praecedit, tumc no non 
+      appel<lb ed="#B" n="28" break="no"/>lat suam rationem, unde si praecedit sufficit 
+      <lb ed="#B" n="29"/>ad ueritatem propositionis, quod ipsa 
+      poten<lb ed="#B" n="30" break="no"/>tia feratur in rem significatam peripsum 
+      ter<lb ed="#B" n="31" break="no"/>minum: eam scilicet intelligendo, uel amando, 
+      <lb ed="#B" n="32"/>aut audiendo: secundum quemcunque 
+      conce<lb ed="#B" n="33" break="no"/>ptum siue proprium illius termini, siue alium. 
+      </p>
+            <p xml:id="gbs333-a13318-d1e510">
+               <lb ed="#B" n="34"/>¶ Et per hoc ponitur differentia inter 
+      <lb ed="#B" n="35"/>illas: cognosco uenientem, &amp; uenientem 
+      <lb ed="#B" n="36"/>cognosco. Amo uenientem, &amp; 
+      uenien<lb ed="#B" n="37" break="no"/>tem amo. Et per hoc ad propositum 
+      di<lb ed="#B" n="38" break="no"/>citur, quod refert dicere: intelligo 
+      essen<lb ed="#B" n="39" break="no"/>tiam, intelligo personam: &amp; dicere 
+      es<lb ed="#B" n="40" break="no"/>sentiam intelligo, personam intelligo. Nam 
+      <lb ed="#B" n="41"/>posito, quod habeam in me conceptum es 
+      <lb ed="#B" n="42"/>sentiae, &amp; non conceptum relatiuum 
+      pe<lb ed="#B" n="43" break="no"/>sonae: haec est uera, personam intelligo: &amp; 
+      <lb ed="#B" n="44"/>haec salsa, intelligo personam. Prima 
+      ua<lb ed="#B" n="45" break="no"/>set tantum personam intelligo, idest rem, quam 
+      <lb ed="#B" n="46"/>est persona intelligo: quae uera est in 
+      ca<lb ed="#B" n="47" break="no"/>su: quia essentiam intelligo, quae est prsonam, 
+      <lb ed="#B" n="48"/>non curando quocunque conceptu 
+      intelli<lb ed="#B" n="49" break="no"/>ga. Sed secunda est falsa intelligo 
+      perso<lb ed="#B" n="50" break="no"/>nam: quia ualet illam, intelligo personam 
+      <lb ed="#B" n="51"/>conceptu relatiuo, &amp; pprio personae siue 
+      <!--142.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>correspondente ad hoc nomen persona. 
+      </p>
+            <p xml:id="gbs333-a13318-d1e559">
+               <lb ed="#B" n="53"/>¶ Similiter differunt, essentia fruor, &amp; 
+      <lb ed="#B" n="54"/>fruor essentia: persona fruor, &amp; fruor 
+      <lb ed="#B" n="55"/>persona. INam illae essentia fruor: perso 
+      <lb ed="#B" n="56"/>na fruor uerae sunt, si diligo deum 
+      tan<lb ed="#B" n="57" break="no"/>quam summum: etiam quocunque 
+      conce<lb ed="#B" n="58" break="no"/>ptu cognito. Sed illa fruor essentia non 
+      <lb ed="#B" n="59"/>est uera, uisi diligam deum conceptu 
+      pro<lb ed="#B" n="60" break="no"/>prio essentiae appraehensum. Similiter 
+      <lb ed="#B" n="61"/>illa non est uera: fruor persona, nisi 
+      ap<lb ed="#B" n="62" break="no"/>praehendam personam sub conceptu 
+      pro<lb ed="#B" n="63" break="no"/>prio personae scilicet relatiuo.
+    </p>
+            <p xml:id="gbs333-a13318-d1e585">
+      ¶ Tunc possunt 
+      <lb ed="#B" n="64"/>pro articulo secundo poni duae 
+      conclu<lb ed="#B" n="65" break="no"/>siones. Prima impossibileen essentia frui. 
+      <lb ed="#B" n="66"/>&amp; non persona frui. Patet: quia qui 
+      es<lb ed="#B" n="67" break="no"/>sentia fruitur, diligit quicquid est diuina 
+      <lb ed="#B" n="68"/>essentia super omnia, &amp; ita personas: &amp; 
+      <lb ed="#B" n="69"/>per consequens personis fruitur.
+    </p>
+            <p xml:id="gbs333-a13318-d1e601">
+      ¶ 
+      Se<lb ed="#B" n="70" break="no"/>cunda conclusior. Potest quis frui 
+      es<lb ed="#B" n="71" break="no"/>sentia, &amp; non frui persona, &amp; frui una 
+      <lb ed="#B" n="72"/>persona, &amp; frui non alia. Patet: quia 
+      si<lb ed="#B" n="73" break="no"/>quis habet conceptum absolutum 
+      essen<lb ed="#B" n="74" break="no"/>tiae, &amp; non conceptum relatiuum perso 
+      <lb ed="#B" n="75"/>nae fruitur essentia, quia diligit deu 
+      co<lb ed="#B" n="76" break="no"/>gnitum secundum rantionem propriam 
+      <lb ed="#B" n="77"/>essentiae, &amp; non fruitur persona, quia etsi 
+      <lb ed="#B" n="78"/>diligit personas: non tamen cognitas 
+      con<lb ed="#B" n="79" break="no"/>ceptu relatiuo proprio: ut ponit casus 
+      <lb ed="#B" n="80"/>similiter si habuero in me conceptum 
+      <lb ed="#B" n="81"/>patris proprium, &amp; non filij: fruor 
+      pa<lb ed="#B" n="82" break="no"/>tre, &amp; non fruor filio, quia non diligo 
+      <lb ed="#B" n="83"/>filium ut summum cognitum sub 
+      con<lb ed="#B" n="84" break="no"/>ceptu proprio filij, &amp; hoc uidentur 
+      in<lb ed="#B" n="85" break="no"/>tendere ambae opiniones. Et nota, quod in 
+      <lb ed="#B" n="86"/>dictis auctoritatibus excludenda est 
+      ap<lb ed="#B" n="87" break="no"/>pellatio rationis: quia illam non 
+      atten<lb ed="#B" n="88" break="no"/>dit in modum loquendi, neque ea usus 
+      <lb ed="#B" n="89"/>est.
+    </p>
+            <p xml:id="gbs333-a13318-d1e647">
+      ¶ Nota etiam: quod accipit significare 
+      <lb ed="#B" n="90"/>stricte pro supponere, ita quod terminus 
+      so<lb ed="#B" n="91" break="no"/>lum illa dicat, significare, pro quibus 
+      sup<lb ed="#B" n="92" break="no"/>ponit, siue de quibus uere praedicat, &amp; non 
+      <lb ed="#B" n="93"/>illa quae connotat, &amp; sic retert aliquid 
+      si<lb ed="#B" n="94" break="no"/>gnificari, &amp; aliquid intelligi.
+    </p>
+            <p xml:id="gbs333-a13318-d1e660">
+      ¶ Pro istis 
+      <lb ed="#B" n="95"/>dictis facit auctoritas. Bona. in homil. 
+      <lb ed="#B" n="96"/>quintae dominicae post. Pasca, ubi ait. 
+      <lb ed="#B" n="97"/>Nec rursus aestimandum: quia filius 
+      si<lb ed="#B" n="98" break="no"/>ne patre, aut spiritussanctus ualeat  
+      <lb ed="#B" n="99"/>amari, uel credi. Pacit ad idem 
+      bea<lb ed="#B" n="100" break="no"/>tus Augusti. vij. de trinita. cap. 
+      ulti<lb ed="#B" n="101" break="no"/>mo. prope finem. Item, primo de 
+      trin<lb ed="#B" n="102" break="no"/>c. viij. ait. Siue audiamus, ostende no¬ 
+      <!--143.xml-->
+      <pb ed="#B" n="56"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>bis filium: siue ostende nobis patrem. 
+      tan<lb ed="#B" n="2" break="no"/>tundem ualet: quia neuter sine altero 
+      po<lb ed="#B" n="3" break="no"/>test ostendi: unum quippe sunt. Item 
+      <lb ed="#B" n="4"/>Ioan. xiiij. ubi Philippo dicenti ad 
+      Chri<lb ed="#B" n="5" break="no"/>stum. Ostende nobis patrem. Respondit 
+      <lb ed="#B" n="6"/>Christus Philippo. Qui uidet, me uidet 
+      <lb ed="#B" n="7"/>&amp; patrem. Et sequitur. Quomodo tu 
+      di<lb ed="#B" n="8" break="no"/>cis. Ostende nobis patrem. Non 
+      cre<lb ed="#B" n="9" break="no"/>dis: quia ego in patre, &amp; pater in me est. 
+      <lb ed="#B" n="10"/>Ex quo sumi potest, quod haec est conse- 
+      <lb ed="#B" n="11"/>quentia bona, &amp; necessaria. pater est in 
+      <lb ed="#B" n="12"/>filio, &amp; filius in patre per 
+      circuminces<lb ed="#B" n="13" break="no"/>sionem. ergo: qui uidet patrem, uidet 
+      <lb ed="#B" n="14"/>&amp; filium. Alias enim probatio Christi 
+      <lb ed="#B" n="15"/>non ualeret, quando dixit. Non credis: 
+      <lb ed="#B" n="16"/>quia ego &amp;c.
+    </p>
+            <p xml:id="gbs333-a13318-d1e721">
+      ¶ Ex hoc etiam sequitur: 
+      <lb ed="#B" n="17"/>quod illa est consequentia bona: quia pater 
+      <lb ed="#B" n="18"/>est in filio, &amp; filius in patre: ergo qui 
+      ui<lb ed="#B" n="19" break="no"/>det patrem, uidet &amp; filium: uidet &amp; 
+      essen<lb ed="#B" n="20" break="no"/>tiam &amp;c. Quid enim est patrem esse in 
+      <lb ed="#B" n="21"/>filio: nisi filium esse consubstantialem 
+      <lb ed="#B" n="22"/>patri. Et idem de spiritu sancto: idem 
+      <lb ed="#B" n="23"/>denique de fruitione sicut de uisione. 
+      <lb ed="#B" n="24"/>Sequitur ergo bene. Nunc formatae 
+      con<lb ed="#B" n="25" break="no"/>sequentiae bonae sunt: ergo impossibile 
+      <lb ed="#B" n="26"/>est, quod patre quis fruatur, &amp; non filio, aut  
+      <lb ed="#B" n="27"/>patrem uideat, &amp; non filium uideat. 
+      Si<lb ed="#B" n="28" break="no"/>milem rationem format beatus Augu. i. 
+      <lb ed="#B" n="29"/>de trinit. c. viij. ut supra allegatum est: 
+      <lb ed="#B" n="30"/>Siue audiamus &amp;c.
+    </p>
+            <p xml:id="gbs333-a13318-d1e755">
+      ¶ Si dicis: dictum 
+      <lb ed="#B" n="31"/>Christi intelligitur de facto, non de 
+      pos<lb ed="#B" n="32" break="no"/>sibili. Solutio. Tunc Christus frustra 
+      ap<lb ed="#B" n="33" break="no"/>posuisset probationes consequentiae, quae 
+      <lb ed="#B" n="34"/>non ex ordinatione facti: sed ex natura 
+      <lb ed="#B" n="35"/>rei procedit. Sic etiam de ratione, quam 
+      <lb ed="#B" n="36"/>format Aug. Vnde si ex hoc, quod pater, 
+      <lb ed="#B" n="37"/>&amp; filius sunt unum, sufficit probare, quod 
+      <lb ed="#B" n="38"/>patrem uidens &amp; filium uidet: igitur cum 
+      <lb ed="#B" n="39"/>antecedens sit simpliciter necessarium, 
+      <lb ed="#B" n="40"/>&amp; impossibile aliter se habere: quam 
+      per<lb ed="#B" n="41" break="no"/>ipsum significatur per consequens. Haec 
+      <lb ed="#B" n="42"/>ratio potissima uidetur, quam etiam 
+      prae<lb ed="#B" n="43" break="no"/>caeteris plus ponderat. Ovta.
+    </p>
+            <p xml:id="gbs333-a13318-d1e786">
+      ¶ Quantum 
+      <lb ed="#B" n="44"/>ad articulum tertium mouenda sunt 
+      du<lb ed="#B" n="45" break="no"/>bia, &amp; soluenda. Primum, quod magis ut  
+      <lb ed="#B" n="46"/>get, non est contradictio dicere unam 
+      <lb ed="#B" n="47"/>personam esse incarnatam sine alia, ut  
+      <lb ed="#B" n="48"/>fides habet. ergo pari lege concedi 
+      po<lb ed="#B" n="49" break="no"/>test saltem per uerbum potest, quod una 
+      per<lb ed="#B" n="50" break="no"/>sona possit cognosci, uel diligi sine alia: 
+      <lb ed="#B" n="51"/>cumnon possit dari ratio diuersitatis, quem 
+      <!--143.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>satisfaciat philosopho credenti tres per 
+      <lb ed="#B" n="53"/>sonas esse unam naturam diuinam, &amp; quod 
+      <lb ed="#B" n="54"/>nihilominus una sit incarnata sine alia: 
+      <lb ed="#B" n="55"/>seu quod aliqua possit cognosci, uel 
+      diligi<lb ed="#B" n="56" break="no"/>fine alia.
+    </p>
+            <p xml:id="gbs333-a13318-d1e821">
+      ¶ Secundo, nisi una persona 
+      pos<lb ed="#B" n="57" break="no"/>set coli, &amp; uenerari sine alia: frustra de 
+      <lb ed="#B" n="58"/>personis diuinis distincta fierent festa in 
+      <lb ed="#B" n="59"/>dei ecclesia, cum hoc esset dare 
+      occalio<lb ed="#B" n="60" break="no"/>nem erroris, &amp; possent simplicis ex hoc 
+      <lb ed="#B" n="61"/>concipere personas esse singulatim 
+      co<lb ed="#B" n="62" break="no"/>lendas, &amp; uenerandas: &amp; forte unam 
+      per<lb ed="#B" n="63" break="no"/>sonam plus alia. Ad hoc enim alludunt 
+      <lb ed="#B" n="64"/>diuersae cerimoniae ecclesiarum in festis 
+      <lb ed="#B" n="65"/>diuinarum personarum.
+    </p>
+            <p xml:id="gbs333-a13318-d1e843">
+      ¶ Tertio ad quid 
+      <lb ed="#B" n="66"/>orationes, nunc ad patrem, nunc ad 
+      fi<lb ed="#B" n="67" break="no"/>lium, nunc ad spiritum sanctum 
+      dirigun<lb ed="#B" n="68" break="no"/>tur, si non coluntur distincte.
+    </p>
+            <p xml:id="gbs333-a13318-d1e852">
+      ¶ Quarto. 
+      <lb ed="#B" n="69"/>Philosophicognouerunt deum, uel 
+      es<lb ed="#B" n="70" break="no"/>sentiam: ut habet apostolus ad 
+      Roma<lb ed="#B" n="71" break="no"/>nos: &amp; tamen ignorarunt personas. Item 
+      <lb ed="#B" n="72"/>aliqui dixerunt filium, aut spiritum 
+      san<lb ed="#B" n="73" break="no"/>ctum creaturas.
+    </p>
+            <p xml:id="gbs333-a13318-d1e865">
+      ¶ Quinto, filius est 
+      ho<lb ed="#B" n="74" break="no"/>mo factus: &amp; soluit in carne delicta. ergo 
+      <lb ed="#B" n="75"/>in eo est causa uenerationis singularis: 
+      <lb ed="#B" n="76"/>quae non est in alijs personis: solus enim 
+      <lb ed="#B" n="77"/>flius incarnatus est.
+    </p>
+            <p xml:id="gbs333-a13318-d1e877">
+      ¶ Sexto. Ad quid 
+      <lb ed="#B" n="78"/>habentur diuersi articuli fidei de 
+      singu<lb ed="#B" n="79" break="no"/>lis personis, si non possunt singulatim 
+      <lb ed="#B" n="80"/>concipi, &amp; diligi.
+    </p>
+            <p xml:id="gbs333-a13318-d1e886">
+      ¶ Septimo. quomodo 
+      <lb ed="#B" n="81"/>intelligitur dictum doctoris: quod nunquam 
+      <lb ed="#B" n="82"/>debent contradictoria de aliquo 
+      conce<lb ed="#B" n="83" break="no"/>di: nisi fides ad hoc compellat: hoc enim 
+      <lb ed="#B" n="84"/>dicere est finem exponere derisioni 
+      in<lb ed="#B" n="85" break="no"/>fidelium: quia praedicata uere 
+      contradi<lb ed="#B" n="86" break="no"/>ctoria de eodem simpliciter pro eadem 
+      <lb ed="#B" n="87"/>re uerificare est simuluerificare 
+      proposi<lb ed="#B" n="88" break="no"/>tiones contradictorias.
+    </p>
+            <p xml:id="gbs333-a13318-d1e906">
+      ¶ Ad primum 
+      re<lb ed="#B" n="89" break="no"/>spondetur humili cum submissione, quod 
+      <lb ed="#B" n="90"/>aliqui nituntur hic ponere rationem 
+      di<lb ed="#B" n="91" break="no"/>uersitatis de incarnatione uerbi, &amp; 
+      ui<lb ed="#B" n="92" break="no"/>sione &amp;c. per solam rationem naturalem 
+      <lb ed="#B" n="93"/>ussignantes pro causa naturam rei. Sed 
+      <lb ed="#B" n="94"/>clarum est: quod nisi fides oppositum 
+      dice<lb ed="#B" n="95" break="no"/>ret: ita diceremus patrem incarnatum, 
+      <lb ed="#B" n="96"/>&amp; spiritum sanctum sicut filium, cum sint 
+      <lb ed="#B" n="97"/>una simplicissima essentia.
+    </p>
+            <p xml:id="gbs333-a13318-d1e928">
+      ¶ Praeterea: 
+      <lb ed="#B" n="98"/>quotquot tales rationes dari possunt, sta 
+      <lb ed="#B" n="99"/>tim sunt solubiles, &amp; non cogunt:: nec 
+      <lb ed="#B" n="100"/>cogit: ut uidetur ratio Ockam, quae 
+      di<lb ed="#B" n="101" break="no"/>cit unum fore ex determinatione 
+      Eccle<lb ed="#B" n="102" break="no"/>siae: sed aecclesia secundum Oyta ubi su¬ 
+      <!--144.xml-->
+      <pb ed="#B" n="57"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>pra saltem aliquam habuit rationem 
+      <lb ed="#B" n="2"/>pro determinatione fidei de 
+      incarna<lb ed="#B" n="3" break="no"/>tione uerbi solum, quod si non 
+      po<lb ed="#B" n="4" break="no"/>test dari cogens ratio dissimilitudinis 
+      <lb ed="#B" n="5"/>alicui philosopho, sequitur 
+      cogentera<lb ed="#B" n="6" break="no"/>tione: quod sicut una persona potest 
+      incar<lb ed="#B" n="7" break="no"/>nari fine alia, ita uideri, &amp; diligi sine alia. 
+      <lb ed="#B" n="8"/>Et hoc uerum est; dummodo fides, uel 
+      <lb ed="#B" n="9"/>scriptura aut ex his deductum non 
+      obsi<lb ed="#B" n="10" break="no"/>stat: aut ecclesiae determinatio: hic autem 
+      <lb ed="#B" n="11"/>in proposito obsistit dictum Christi 
+      Ioan<lb ed="#B" n="12" break="no"/>xiiij. &amp; argumentatio eiusdem. 
+      Recur<lb ed="#B" n="13" break="no"/>rendum ergo est ad hoc dictum Christi: 
+      <lb ed="#B" n="14"/>&amp; ubi ratio non habetur, acceptanda est 
+      <lb ed="#B" n="15"/>auctoritas Christi, quae etiam sine 
+      ratio<lb ed="#B" n="16" break="no"/>ne alia ab ea, quia ipse ponit: sufficit 
+      no<lb ed="#B" n="17" break="no"/>bis ad asserendum non esse simile hic, &amp; 
+      <lb ed="#B" n="18"/>ibi: ideo unum ex Christi dicto, 
+      conce<lb ed="#B" n="19" break="no"/>ditur, aliud non conceditur. Haec salua 
+      <lb ed="#B" n="20"/>reuerentia maiorum dicta sunt.
+    </p>
+            <p xml:id="gbs333-a13318-d1e991">
+      ¶ Ad 
+      se<lb ed="#B" n="21" break="no"/>cundum: negetur illa: pater colitur sine 
+      <lb ed="#B" n="22"/>filio: spiritussunctus ueneratur sine 
+      pa<lb ed="#B" n="23" break="no"/>tre. Verum quia supposita uerborum 
+      <lb ed="#B" n="24"/>passiuorum importantium actum 
+      inte<lb ed="#B" n="25" break="no"/>riorem animae intellectus, uel 
+      uolunta<lb ed="#B" n="26" break="no"/>tis appellant suas rationes dummodo 
+      ta<lb ed="#B" n="27" break="no"/>men sequuntur illa uerba passiua: ideo 
+      <lb ed="#B" n="28"/>propter appellationem rationum ista 
+      for<lb ed="#B" n="29" break="no"/>te posset concedi. Colitur pater sine 
+      fi<lb ed="#B" n="30" break="no"/>lio. diligitur a me iustus: ostenditur a 
+      me<lb ed="#B" n="31" break="no"/>pater sine filio: est enim secundum 
+      prae<lb ed="#B" n="32" break="no"/>mista sensus. Colitur pater sub conce- 
+      <lb ed="#B" n="33"/>ptu proprio, &amp; relatiuo, supponente 
+      pro<lb ed="#B" n="34" break="no"/>patre non pro filio. Sensus autem 
+      alte<lb ed="#B" n="35" break="no"/>rius scilicet pater colitur fine filio est res, quae 
+      <lb ed="#B" n="36"/>est pater colitur absque hoc, quod filius 
+      co<lb ed="#B" n="37" break="no"/>latur. Si autem alium habet sensum ex 
+      <lb ed="#B" n="38"/>usu utentium citra rigorem logicum, 
+      ali<lb ed="#B" n="39" break="no"/>ter est dicendum. Cum subiungitur, quod 
+      <lb ed="#B" n="40"/>frustra fierent distincta festa negetur: 
+      <lb ed="#B" n="41"/>quia ecclesia in his regitur spiritusancto 
+      <lb ed="#B" n="42"/>pro filiorum eruditione inhis, quae sunt 
+      <lb ed="#B" n="43"/>fidei circa mysterium trinitatis quo ad 
+      <lb ed="#B" n="44"/>personarum essentialem identitatem 
+      et<lb ed="#B" n="45" break="no"/>earundem realem non essentialem 
+      di<lb ed="#B" n="46" break="no"/>stinctionem: nec per hoc datur 
+      occasio<lb ed="#B" n="47" break="no"/>erroris: sed in festis diuinarum 
+      persona<lb ed="#B" n="48" break="no"/>rum catholica ueritas secundum 
+      perso<lb ed="#B" n="49" break="no"/>narum attribura, &amp; propria aperitur. 
+      <lb ed="#B" n="50"/> Ad tertium potest dici, sicut dicitur de 
+      <lb ed="#B" n="51"/>attributis personarum pro populi erudi 
+      <!--144.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tione, pro deuotionis inslammatione, 
+      <lb ed="#B" n="53"/>pro fidei uocali confessione secundum 
+      <lb ed="#B" n="54"/>apostolum. Corde creditur ad iustitiam: 
+      <lb ed="#B" n="55"/>ore autem confessio sit ad salutem &amp;c. 
+      <lb ed="#B" n="56"/>Sicut ergo diuinae personae non 
+      separan<lb ed="#B" n="57" break="no"/>tur festinatione: ita nec ueneratione, &amp; 
+      <lb ed="#B" n="58"/>ad eas fusa oratione: quamuis orans 
+      ha<lb ed="#B" n="59" break="no"/>bito conceptu proprio relatiuo patris 
+      <lb ed="#B" n="60"/>non cogitat sic concipiendo de filio, &amp; 
+      <lb ed="#B" n="61"/>spiritusancto: immo peccaret quis, si in 
+      <lb ed="#B" n="62"/>oratione ad patrem fusa, alias personas 
+      <lb ed="#B" n="63"/>actu excludere uellet: hinc secundum Sco. 
+      <lb ed="#B" n="64"/>in. ij dist. xliiij. Non potest quis diligere 
+      <lb ed="#B" n="65"/>actualiter unam personam: quin diligat  
+      <lb ed="#B" n="66"/>aliam uirtualiter. Quod autem unasine 
+      <lb ed="#B" n="67"/>alia colinonpossit: patet etiam 
+      auctori<lb ed="#B" n="68" break="no"/>tate Aug. vij. de trinit. c. ulti.
+    </p>
+            <p xml:id="gbs333-a13318-d1e1102">
+      ¶ Ad quar 
+      <lb ed="#B" n="69"/>tum respondetur: quod quicunque 
+      cogno<lb ed="#B" n="70" break="no"/>scit essentiam diuinam, cognoscit, quic 
+      <lb ed="#B" n="71"/>quid est essentia diuina, &amp; ita personas 
+      <lb ed="#B" n="72"/>&amp; econuerso. Poterant tamen 
+      philoso<lb ed="#B" n="73" break="no"/>phi unam propositionem scire de Deo, 
+      <lb ed="#B" n="74"/>&amp; aliam dubitare: licet termini utrarumque;  
+      <lb ed="#B" n="75"/>supponerent pro eodem: quia hoc 
+      igno<lb ed="#B" n="76" break="no"/>rabant: ut si idem sit scultetus &amp; 
+      magi<lb ed="#B" n="77" break="no"/>ster ciuium: siue Sixtus, &amp; papa: tunc idem 
+      <lb ed="#B" n="78"/>est Sixtus &amp; papa, &amp; quicquid scitur de 
+      <lb ed="#B" n="79"/>Sixto, scitur de papa, &amp; econuerso: licet  
+      <lb ed="#B" n="80"/>aliquis potest scire illam propositionem. 
+      <lb ed="#B" n="81"/>Papa est uicarius Christi, &amp; ionorare 
+      il<lb ed="#B" n="82" break="no"/>lam: Sixtus est uicarius Christi: 
+      quiaigno<lb ed="#B" n="83" break="no"/>rat, quod Sixtus, &amp; papa supponunt pro 
+      eo<lb ed="#B" n="84" break="no"/>dem: sic philosphiquocunque conceptu 
+      <lb ed="#B" n="85"/>nouerunt deum, eodem &amp; personas: eo, 
+      <lb ed="#B" n="86"/>quod conceptus, quos habuerunt de deo 
+      <lb ed="#B" n="87"/>cuilibet personae conueniunt. 
+      Cogno<lb ed="#B" n="88" break="no"/>uerunt enim de deo, quod est ens infinitum 
+      <lb ed="#B" n="89"/>incorruptibile &amp;c. &amp; illi conceptus aequa 
+      <lb ed="#B" n="90"/>liter supponunt pro personis sicut 
+      pro<lb ed="#B" n="91" break="no"/>essentia, &amp; tamen poterant scire deum, 
+      <lb ed="#B" n="92"/>uel essentiam diuinam esse infinitum, sum 
+      <lb ed="#B" n="93"/>mum &amp;c. &amp; ignorare illam. Pater in 
+      di<lb ed="#B" n="94" break="no"/>uinis est infinitus summus: quia ignora 
+      <lb ed="#B" n="95"/>bant diuinam essentiam esse patrem, &amp; 
+      <lb ed="#B" n="96"/>filium &amp;c. Et huic uidetur consonare 
+      <lb ed="#B" n="97"/>uerbum Christi ad Philippum. Qui 
+      ui<lb ed="#B" n="98" break="no"/>det me, uidet &amp; patrem meum. Cuius 
+      <lb ed="#B" n="99"/>ratio est consubstantialitas. Ideo sequitur. 
+      <lb ed="#B" n="100"/>An non credis: quia ego in patre, &amp; 
+      pa<lb ed="#B" n="101" break="no"/>ter in me est. Ex unitate igitur ostendit: 
+      <lb ed="#B" n="102"/>quod unus non potest ostendi sine alio, &amp; 
+      <!--145.xml-->
+      <pb ed="#B" n="58"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ita nec cognosci, nec amari &amp;c. Nec ob 
+      <lb ed="#B" n="2"/>stat quod pater, &amp; filius sunt distinctae res 
+      si<lb ed="#B" n="3" break="no"/>ue personae distinctae: quia nihilominus 
+      <lb ed="#B" n="4"/>sunt una singularis, &amp; simplicissima 
+      es<lb ed="#B" n="5" break="no"/>sentia. Late, haec prosequitur auctor: et 
+      <lb ed="#B" n="6"/>de signis prioritatis, quae ponit Sco. de 
+      <lb ed="#B" n="7"/>quibus dicetur de dist. ix.
+    </p>
+            <p xml:id="gbs333-a13318-d1e1201">
+      ¶ Ad quintum: 
+      <lb ed="#B" n="8"/>Concesso antecedente negetur conse- 
+      <lb ed="#B" n="9"/>quentia.
+    </p>
+            <p xml:id="gbs333-a13318-d1e1208">
+      ¶ De ratione uero diligibilita 
+      <lb ed="#B" n="10"/>tis diuinarum personarum uidetur in. iij. 
+      <lb ed="#B" n="11"/>dist. xvij. dub vij. personae enim diuinae 
+      <lb ed="#B" n="12"/>praecise diliguntur: quia sunt una 
+      natu<lb ed="#B" n="13" break="no"/>ra simplicissiia, &amp; tres res relatiuae. Vn 
+      <lb ed="#B" n="14"/>de notat hic aliquas propositiones 
+      Pe<lb ed="#B" n="15" break="no"/>trus de Aliaco. q.ij. art ij. post Holtor 
+      <lb ed="#B" n="16"/>q. iiij. quas uide ibi: quia clarae sunt, &amp; 
+      ua<lb ed="#B" n="17" break="no"/>lent ad propositum.
+    </p>
+            <p xml:id="gbs333-a13318-d1e1228">
+      ¶ Ad sextum: de d 
+      <lb ed="#B" n="18"/>stinctione articulorum fidei dicitur, quod 
+      <lb ed="#B" n="19"/>sufficit distinctio signorum: &amp; conceptuum 
+      <lb ed="#B" n="20"/>pro personis singulis supponentium: 
+      li<lb ed="#B" n="21" break="no"/>cet nomina possunt imponi ad 
+      distin<lb ed="#B" n="22" break="no"/>ctius significandum res, quam possint a 
+      <lb ed="#B" n="23"/>nobis concipi. ut habetur. infra dist. xxij. 
+      </p>
+            <p xml:id="gbs333-a13318-d1e1244">
+               <lb ed="#B" n="24"/>¶ Ad septimum dicitur: quod non est 
+      inten<lb ed="#B" n="25" break="no"/>tio sic loquentium dicere: quod fides admit 
+      <lb ed="#B" n="26"/>tat contradictoria, cum sit certissima, 
+      <lb ed="#B" n="27"/>&amp; ab omni contradictione prorsus 
+      alie<lb ed="#B" n="28" break="no"/>na: sed uolunt, quod nihil, quod concedit 
+      <lb ed="#B" n="29"/>de aliquo, negandum est de eo, quod illi 
+      <lb ed="#B" n="30"/>identificatur realiter, uel essentialiter: 
+      <lb ed="#B" n="31"/>nisi hoc habeatur ex fide, uel scriptura 
+      <lb ed="#B" n="32"/>canonica: aut determinatione ecclesiae: 
+      <lb ed="#B" n="33"/>aut nisi inferatur ex huiusmodi in conse- 
+      <lb ed="#B" n="34"/>quentia formali, cum hoc sit difficile in 
+      <lb ed="#B" n="35"/>tellectu, &amp; uidetur alicui proximum 
+      con<lb ed="#B" n="36" break="no"/>tradictioni: uidetur enim difficile 
+      intel<lb ed="#B" n="37" break="no"/>lectu, quod pater generat, &amp; essentia 
+      nonge<lb ed="#B" n="38" break="no"/>nerat: quae tamen est eadem patri, &amp; realiter, 
+      <lb ed="#B" n="39"/>&amp; essentialiter: nunquam tamen de quacunque  
+      <lb ed="#B" n="40"/>persona tantum: uel essentia tantum: 
+      <lb ed="#B" n="41"/>uel proprietate relatiua :antum, &amp; 
+      prae<lb ed="#B" n="42" break="no"/>cise dicuntur praedicata 
+      contradictio<lb ed="#B" n="43" break="no"/>nis. Non enim conceditur, pater 
+      gene<lb ed="#B" n="44" break="no"/>rat: pater non generat: sed essentia non 
+      <lb ed="#B" n="45"/>generat: Item pater genuit filium: 
+      es<lb ed="#B" n="46" break="no"/>sentia non genuit filium: pater uero, &amp; 
+      <lb ed="#B" n="47"/>essentia formaliter distinguuntur. erge 
+      <lb ed="#B" n="48"/>illa praedicata non dicuntur de eodem 
+      <lb ed="#B" n="49"/>praecise, &amp; simpliciter: sed de 
+      forma<lb ed="#B" n="50" break="no"/>liter distinctis, quae sunt una res 
+      simpli<lb ed="#B" n="51" break="no"/>cissima. Pleraque alia per doctorem in 
+      <!--145.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quaestione tanguntur utilia: uide ibi: 
+      <lb ed="#B" n="53"/>quia ualent ad sequentia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

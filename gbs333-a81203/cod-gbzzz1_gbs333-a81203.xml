@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="320"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a81203"> <!-- l1d36q1 -->
+            <head xml:id="gbs333-a81203-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a81203-Hd1e104" type="question-title">Utrum perfectiones creaturarum in Deo 
+    contentae ab aeterno distinguantur inter se realiter 
+    et a divina essentia</head>
+            <p xml:id="gbs333-a81203-d1e107">
+               <lb ed="#B" n="55"/>unica. 
+      <lb ed="#B" n="56"/>VTRVM perfectiones crea 
+      <lb ed="#B" n="57"/>turarum in deo contentae 
+      <lb ed="#B" n="58"/>ab aeterno distinguantur 
+      <lb ed="#B" n="59"/>inter se realiter, &amp; a diuina 
+      <lb ed="#B" n="60"/>essentia.
+    </p>
+            <p xml:id="gbs333-a81203-d1e123">
+      ¶ In ista distinctione doct. 
+      pri<lb ed="#B" n="61" break="no"/>mum recitat opin. communem, tenen.i 
+      <lb ed="#B" n="62"/>tem, quod perfectiones creaturarum conti¬
+      s<lb ed="#B" n="63" break="no"/>nentur in deo perfectionaliter, &amp; 
+      emi<lb ed="#B" n="64" break="no"/>nenter: exemplariter &amp; intelligibiliter, 
+      <lb ed="#B" n="65"/>uirtualiter, &amp; causaliter. Sed dictum hoc I 
+      <lb ed="#B" n="66"/>a diuersis multipliciter exponitur. Vn¬I 
+      <lb ed="#B" n="67"/>de dicunt quidam perfectiones 
+      creatura<lb ed="#B" n="68" break="no"/>rum secundum quod continentur in deo 
+      per<lb ed="#B" n="69" break="no"/>fectionaliter, &amp; secundum esse 
+      intelligi<lb ed="#B" n="70" break="no"/>bile: non distinguuntur a diuina essentia: 
+      <lb ed="#B" n="71"/>nec inter se: sed prout continentur 
+      uir<lb ed="#B" n="72" break="no"/>tualiter in deo: distinguuntur inter se, &amp; 
+      <lb ed="#B" n="73"/>a deo secundum perfectionem 
+      conten<lb ed="#B" n="74" break="no"/>tam: sed secundum perfectionem dei 
+      con<lb ed="#B" n="75" break="no"/>tinentis, non distinguuntur inter se, nec 
+      <lb ed="#B" n="76"/>a deo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e161">
+      ¶ Isti pro se allegant illud Ioan.i 
+      <lb ed="#B" n="77"/>Quod factum est in ipso uita erat. non 
+      <lb ed="#B" n="78"/>autem uita creaturae: sed uita diuina, 
+      <lb ed="#B" n="79"/>Item Exod. xxxiij. dicitur movsi 
+      petenti<lb ed="#B" n="80" break="no"/>pidere deum. Ego ostendam tibi omne 
+      <lb ed="#B" n="81"/>bonum. sed ostendendo seipsum, non 
+      osten<lb ed="#B" n="82" break="no"/>deret sibi dicimdns omne bonum, nisi ipse 
+      es<lb ed="#B" n="83" break="no"/>set omnis boni plenitudo. Item Dioni. 
+      <lb ed="#B" n="84"/>in de diui. no. c. v. hoc nititur ostendere 
+      <lb ed="#B" n="85"/>uarijs exemplis, &amp; c. j. dicit. Deus est 
+      ui<lb ed="#B" n="86" break="no"/>tentium uita: substantiarum substantia: 
+      ui<lb ed="#B" n="87" break="no"/>tae omnis, ac substantiae initium, &amp; 
+      cau<lb ed="#B" n="88" break="no"/>sa. Ans. etiam uult, quod creatura in deo 
+      <lb ed="#B" n="89"/>non est nisi creatrix essentia. Aug. etiam 
+      <lb ed="#B" n="90"/>super Io homil. iij. &amp; in de uerbis 
+      dumnin<lb ed="#B" n="91" break="no"/>sermo. iiij. dicit. Quae hic uaria quaeris: 
+      <lb ed="#B" n="92"/>pse tibiunus omnia erit. Ratione etiam 
+      <lb ed="#B" n="93"/>probant intentum: praesertim de esse in 
+      <lb ed="#B" n="94"/>telligibili, siue cognito. Nam omnis 
+      <lb ed="#B" n="95"/>entitas positiua non dependens ab 
+      ani<lb ed="#B" n="96" break="no"/>ma est entitas realis. Esse repraesentatum 
+      <lb ed="#B" n="97"/>est entitas positiua, &amp; non dependetab 
+      <!--408.xml-->
+      <pb ed="#B" n="321"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>anima: quia species repraesentaret etiam, 
+      <lb ed="#B" n="2"/>si nulla anima esset: ergo esse re 
+      praesen<lb ed="#B" n="3" break="no"/>tatum est entitas realis, &amp; non nisi deus: 
+      <lb ed="#B" n="4"/>cum nihil reale a deo sit aeternum.
+    </p>
+            <p xml:id="gbs333-a81203-d1e224">
+      ¶ Item 
+      <lb ed="#B" n="5"/>quicquid necessitate naturali sequitur 
+      <lb ed="#B" n="6"/>necessario entitatem realem: est entitas 
+      <lb ed="#B" n="7"/>realis: sed ad formam repraesentantem 
+      <lb ed="#B" n="8"/>necessitate naturalisequitur esse reprae 
+      <lb ed="#B" n="9"/>sentatum, &amp; ad cognitionem esse 
+      co<lb ed="#B" n="10" break="no"/>gnitum: ergo. Plura alia solent adduci, 
+      <lb ed="#B" n="11"/>quae tangit docto. in scripto.
+    </p>
+            <p xml:id="gbs333-a81203-d1e242">
+      ¶ Sed illa 
+      <lb ed="#B" n="12"/>opi. uidetur nimis extranea, &amp; ad eam 
+      <lb ed="#B" n="13"/>sequuntur multae abusiuae locutiones: 
+      <lb ed="#B" n="14"/>uidelicet, quod esse creabile creaturae sit 
+      <lb ed="#B" n="15"/>deus, &amp; esse possibile creaturae sit idem 
+      <lb ed="#B" n="16"/>realiter cum deo: &amp; per consequens pos 
+      <lb ed="#B" n="17"/>sibile esse creaturae esset necesse esse: 
+      si<lb ed="#B" n="18" break="no"/>militer esse dealbabile corporis eent deus 
+      <lb ed="#B" n="19"/>&amp; esse damnabile daemonis esset deus 
+      <lb ed="#B" n="20"/>Et breuiter de quolibet complexo ex 
+      in<lb ed="#B" n="21" break="no"/>finitiuo esse, &amp; passione: quod 
+      necessa<lb ed="#B" n="22" break="no"/>tio praedicatur de aliquo: uere diceretur 
+      <lb ed="#B" n="23"/>esse deum. Probatur rationibus eorum: 
+      <lb ed="#B" n="24"/>quia esse creabile: esse damnabile: est 
+      en<lb ed="#B" n="25" break="no"/>titas positiua, sicut esse intelligibile, &amp; 
+      <lb ed="#B" n="26"/>non dependet ab anima: quia deus 
+      po<lb ed="#B" n="27" break="no"/>test creare, &amp; damnare si nulla anima 
+      <lb ed="#B" n="28"/>esset: saltem deus non croat, uel damnat 
+      <lb ed="#B" n="29"/>per actum alicuius animae: ergo est enti 
+      <lb ed="#B" n="30"/>tas realis, &amp; non creatura: quia ab 
+      aeterno<lb ed="#B" n="31" break="no"/>est esse creabile &amp;c. ergo deus. 
+      Simili<lb ed="#B" n="32" break="no"/>ter esse creabile: esse damnabile &amp;c. 
+      ne<lb ed="#B" n="33" break="no"/>cessitate naturali sequitur entitatem rea 
+      <lb ed="#B" n="34"/>lem, scilicet deum creatiuum: deum dam 
+      <lb ed="#B" n="35"/>natiuum. Necessario enim sequitur. 
+      <lb ed="#B" n="36"/>Deus est creatiuus: ergo creatura est 
+      <lb ed="#B" n="37"/>creabilis, &amp; sic de alijs. Ideo modus 
+      il<lb ed="#B" n="38" break="no"/>lesoquendi aliis non placet. Quare 
+      alij<lb ed="#B" n="39" break="no"/>aliter dicunt: secundum quos 
+      respon<lb ed="#B" n="40" break="no"/>dendum est ad quaestionem.
+    </p>
+            <p xml:id="gbs333-a81203-d1e307">
+      ¶ Tres 
+      ar<lb ed="#B" n="41" break="no"/>ticuli erunt in quaestione illa. Primus 
+      <lb ed="#B" n="42"/>quomodo perfectiones creaturarum con 
+      <lb ed="#B" n="43"/>tiuentur in deo. Secundus, quomodo 
+      <lb ed="#B" n="44"/>distinguuntur ab aeterno. Tertius, 
+      quae<lb ed="#B" n="45" break="no"/>dam principia praeambula ponet pro 
+      ar<lb ed="#B" n="46" break="no"/>gumentorum: solutione.
+    </p>
+            <p xml:id="gbs333-a81203-d1e323">
+      ¶ Quantum 
+      <lb ed="#B" n="47"/>ad articulum primum notandum: quod 
+      per<lb ed="#B" n="48" break="no"/>fectio creaturae (saltem essentialis, &amp; 
+      <lb ed="#B" n="49"/>non partialis) non distinguitur a 
+      crea<lb ed="#B" n="50" break="no"/>tura. Posset hoc probari: quia cum quem 
+      <lb ed="#B" n="51"/>libet creatura sit perfecta saltem in suo 
+      <!--408.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>genere: secundum illud Gen. j. Vidit 
+      <lb ed="#B" n="53"/>deus cuncta quae fecerat, &amp; erant ualde 
+      <lb ed="#B" n="54"/>bona. esset processus in infinitum: 
+      nisi<lb ed="#B" n="55" break="no"/>daretur aliqua creatura, quae esset perfe 
+      <lb ed="#B" n="56"/>cta non per aliquid superadditum. Et  
+      <lb ed="#B" n="57"/>qua ratione una eadem ratione 
+      quaeli<lb ed="#B" n="58" break="no"/>bet alia.
+    </p>
+            <p xml:id="gbs333-a81203-d1e356">
+      ¶ Dicitur notanter essentialis, 
+      <lb ed="#B" n="59"/>&amp; non partialis: quia uirtus est perfectio 
+      <lb ed="#B" n="60"/>hominis accidentalis, &amp; forma 
+      substan<lb ed="#B" n="61" break="no"/>tialis est perfectio hominis essentialis, 
+      <lb ed="#B" n="62"/>&amp; tamen distinguitur ab homine.
+    </p>
+            <p xml:id="gbs333-a81203-d1e368">
+      ¶ Ex illo 
+      <lb ed="#B" n="63"/>sequitur: quod idem est dicere perfectionem 
+      <lb ed="#B" n="64"/>creaturarum contineri in deo, &amp; 
+      crea<lb ed="#B" n="65" break="no"/>turam contineri in deo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e377">
+      ¶ Conclusio 
+      <lb ed="#B" n="66"/>prima. Sicut non creaturae, ita nec crea 
+      <lb ed="#B" n="67"/>turarum perfectiones continentur in 
+      <lb ed="#B" n="68"/>deo formaliter, subiectiue, &amp; 
+      essentiali<lb ed="#B" n="69" break="no"/>ter. Oppositum huius argueret 
+      multi<lb ed="#B" n="70" break="no"/>plicitatem, &amp; destrueret simplicitatem 
+      <lb ed="#B" n="71"/>dei.
+    </p>
+            <p xml:id="gbs333-a81203-d1e393">
+      ¶ Secunda conclusio. Creaturae, &amp; 
+      <lb ed="#B" n="72"/>earum perfectiones continentur in deo 
+      <lb ed="#B" n="73"/>obiectiue uirtualiter, &amp; eminenter. 
+      Pa<lb ed="#B" n="74" break="no"/>tet terminis declaratis. Nam contine 
+      <lb ed="#B" n="75"/>ri obiectiue in deo, est esse obiectum 
+      di<lb ed="#B" n="76" break="no"/>uinae cognitionis: quod nihil aliud est, 
+      <lb ed="#B" n="77"/>quam cognosci a deo. Sic lapis est in 
+      <lb ed="#B" n="78"/>deo: non quod sit deus: sed quod cognoscitur 
+      <lb ed="#B" n="79"/>a deo. Et ita si usitatum esset: 
+      concedi<lb ed="#B" n="80" break="no"/>posset, quod albedo in pariete esset, seu 
+      con<lb ed="#B" n="81" break="no"/>tineretur in oculo: quia uidetur ab 
+      ocu<lb ed="#B" n="82" break="no"/>lo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e419">
+      ¶ Contineri in deo uirtualiter, est 
+      <lb ed="#B" n="83"/>contineri in deo sicut effectus 
+      produci<lb ed="#B" n="84" break="no"/>bilis continetur in sua causa: quod est 
+      <lb ed="#B" n="85"/>produci, uel posse produci a deo. Et sic 
+      <lb ed="#B" n="86"/>lapis productus, uel producibilis a deo, 
+      <lb ed="#B" n="87"/>cui repugnat esse deum: est uirtualiter 
+      <lb ed="#B" n="88"/>in deo. Contineri in deo eminenter, 
+      <lb ed="#B" n="89"/>est deum esse perfectiorem eo, quod 
+      con<lb ed="#B" n="90" break="no"/>tinetur. Illo modo nihil, quod est 
+      for<lb ed="#B" n="91" break="no"/>maliter. &amp; subiectiue in deo: 
+      contine<lb ed="#B" n="92" break="no"/>tur in deo: sed tantum creaturae 
+      imper<lb ed="#B" n="93" break="no"/>fectiores deo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e445">
+      ¶ Ex illo sequitur: quod 
+      ni<lb ed="#B" n="94" break="no"/>hil potest contineri in deo uirtualiter, 
+      <lb ed="#B" n="95"/>uel eminenter: nisi id, quod non est deus: 
+      <lb ed="#B" n="96"/>aliquod tamen contentum obiectiue 
+      <lb ed="#B" n="97"/>in deo est deus: ut diuina essentia 
+      rela<lb ed="#B" n="98" break="no"/>tiones, &amp; personae.
+    </p>
+            <p xml:id="gbs333-a81203-d1e458">
+      ¶ Ex illis sequitur 
+      con<lb ed="#B" n="99" break="no"/>clusio tertia. Nihil quod continetur in 
+      <lb ed="#B" n="100"/>deo uirtualiter, uel eminenter: est idem 
+      <lb ed="#B" n="101"/>deo realiter. Patet: quia deus non est 
+      <lb ed="#B" n="102"/>causa sui: nec se perfectior.
+    </p>
+            <p xml:id="gbs333-a81203-d1e470">
+      ¶ Ex illo pa¬ 
+      <!--409.xml-->
+      <pb ed="#B" n="322"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ter, quid importat esse in, cum sancti di 
+      <lb ed="#B" n="2"/>cunt omnia esse in deo: quia ualet 
+      tan<lb ed="#B" n="3" break="no"/>tum i. e. cognosci: uel esse producibile: uel 
+      <lb ed="#B" n="4"/>esse imperfectius. Et ita saepius tantum 
+      <lb ed="#B" n="5"/>ualet esse in, sicut esse ab. Et ita idem 
+      si<lb ed="#B" n="6" break="no"/>gnificatur pr illa tria apostoli: ex ipso, per 
+      <lb ed="#B" n="7"/>ipsum, &amp; in ipso sunt omnia id est ab eo: ut  
+      <lb ed="#B" n="8"/>patet clare in textu dist. xxxv. &amp; paesenti. 
+      </p>
+            <p xml:id="gbs333-a81203-d1e496">
+               <lb ed="#B" n="9"/>¶ Quantum ad articulum secundum 
+      quin<lb ed="#B" n="10" break="no"/>que ponuntur conclusiones. Prima. Pet 
+      <lb ed="#B" n="11"/>fectiones creaturarum nunquam fuerunt  
+      <lb ed="#B" n="12"/>idem realiter cum deo. Patet ex 
+      praemis<lb ed="#B" n="13" break="no"/>sis. Nihil quod continetur uirtualiter, 
+      <lb ed="#B" n="14"/>aut eminenter in deo: est idem deo: 
+      crea<lb ed="#B" n="15" break="no"/>turae continentur &amp;c. ergo Maior, &amp; 
+      <lb ed="#B" n="16"/>minor patent ex praecedenti art. Aliter 
+      <lb ed="#B" n="17"/>probatur: quicquid potest esse non idem 
+      <lb ed="#B" n="18"/>realiter cum aliquo: nunquam est idem 
+      <lb ed="#B" n="19"/>realiter cum illo: quia impossibile est, quod 
+      <lb ed="#B" n="20"/>aliquid fiat aliud a se: sed perfectiones 
+      <lb ed="#B" n="21"/>creaturae extra productae non sunt idem 
+      <lb ed="#B" n="22"/>realiter cum deo: ergo nunquam sunt 
+      <lb ed="#B" n="23"/>idem realiter cum deo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e531">
+      ¶ Secunda 
+      con<lb ed="#B" n="24" break="no"/>clusio. Perfectiones creaturarum non 
+      <lb ed="#B" n="25"/>distinguebantur ab aeterno realiter a deo. 
+      <lb ed="#B" n="26"/>Patet quia quod non est aliquid reale: 
+      <lb ed="#B" n="27"/>a nullo distinguitur realiter: sed creatu 
+      <lb ed="#B" n="28"/>rae non fuerunt ab aeterno aliquid 
+      rea<lb ed="#B" n="29" break="no"/>liter: ergo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e547">
+      ¶ Tertia conclusio. 
+      Perfe<lb ed="#B" n="30" break="no"/>ctiones creaturarum non 
+      distingueban<lb ed="#B" n="31" break="no"/>tur realiter inter se ab aeterno. Patet: 
+      <lb ed="#B" n="32"/>quia non fuerunt ab aeterno.
+    </p>
+            <p xml:id="gbs333-a81203-d1e556">
+      ¶ Quarta 
+      <lb ed="#B" n="33"/>conclusio. Perfectiones differentiarum 
+      <lb ed="#B" n="34"/>creaturarum nunquam fuerunt idem in 
+      <lb ed="#B" n="35"/>ter se realiter. Probatur: quia 
+      quaecun<lb ed="#B" n="36" break="no"/>que pro quocunque instanti possunt 
+      di<lb ed="#B" n="37" break="no"/>stingui realiter: nunquam sunt idem 
+      rea<lb ed="#B" n="38" break="no"/>liter: sed perfectiones creiturarum quando 
+      <lb ed="#B" n="39"/>producuntur extra a deo distinguuntur 
+      <lb ed="#B" n="40"/>ealiter: ergo.
+    </p>
+            <p xml:id="gbs333-a81203-d1e576">
+      ¶ Quinta conclusio, &amp; 
+      <lb ed="#B" n="41"/>responsalis ad quaestionem. 
+      Perfectio<lb ed="#B" n="42" break="no"/>nes creaturarum contentae in deo non 
+      <lb ed="#B" n="43"/>distinguebantur ab aeterno realiter: nec 
+      <lb ed="#B" n="44"/>a deo: nec inter se: nec unquam fuerunt 
+      <lb ed="#B" n="45"/>idem realiter cum deo, nec inter se. 
+      Pa<lb ed="#B" n="46" break="no"/>ter ex praemissis.
+    </p>
+            <p xml:id="gbs333-a81203-d1e593">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="47" break="no"/>culum tertium notandum: quod esse 
+      ca<lb ed="#B" n="48" break="no"/>pitur tripliciter. Vno modo 
+      syncathe<lb ed="#B" n="49" break="no"/>gorematice: ut est actus complexus 
+      <lb ed="#B" n="50"/>uniens extrema. Alio modo 
+      cathego<lb ed="#B" n="51" break="no"/>rematice, &amp; hoc dupliciter. Primo mo¬ 
+      <!--409.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>do ut significat esse existentiaed est rema 
+      <lb ed="#B" n="53"/>ctualiter existentem. Alio modo ut 
+      si<lb ed="#B" n="54" break="no"/>gnificat esse possibile, ut scilicet conuertitur 
+      <lb ed="#B" n="55"/>cum ente, cui non repugnat esse in rerum 
+      <lb ed="#B" n="56"/>natura: licet sic non usitate accipitur. 
+      </p>
+            <p xml:id="gbs333-a81203-d1e621">
+               <lb ed="#B" n="57"/>¶ Item esse quandoque constriuitur cum 
+      <lb ed="#B" n="58"/>genitiuo ut esse creaturae, &amp; sic capitur 
+      <lb ed="#B" n="59"/>semper cathegorematice pro esse existe 
+      <lb ed="#B" n="60"/>re, uel possibile, idest quod potest esse. 
+      <lb ed="#B" n="61"/>uque construitur cum accusatiuo 
+      se<lb ed="#B" n="62" break="no"/>quente, &amp; tunc requirit actum 
+      prosup<lb ed="#B" n="63" break="no"/>posito, quae si non ponitur 
+      subintelligi<lb ed="#B" n="64" break="no"/>tur, ut esse animal: subintelligitur al quiad 
+      <lb ed="#B" n="65"/>esse animali homo uel asinus. Et si 
+      poni<lb ed="#B" n="66" break="no"/>tur respectu modi uerum, possibile, 
+      ne<lb ed="#B" n="67" break="no"/>cessarium &amp;c. propositio erit distinguem 
+      <lb ed="#B" n="68"/>da secundum compositionem, &amp; 
+      diui<lb ed="#B" n="69" break="no"/>sionem. In sensu composito est semper 
+      <lb ed="#B" n="70"/>pars dicti: quod accipitur materialiter.  
+      <lb ed="#B" n="71"/>Et est uniformiter dicendum, ac si esset 
+      <lb ed="#B" n="72"/>uerbum adiectiuum: ut si dicerem 
+      Ioan<lb ed="#B" n="73" break="no"/>nem esse a nimal est necessarium. Simili 
+      <lb ed="#B" n="74"/>ter dicendum sicut de illa: hominem 
+      ui<lb ed="#B" n="75" break="no"/>uere est necessarium: si tamen eiadditur 
+      ac<lb ed="#B" n="76" break="no"/>cusatiuus adiectiualis, &amp; propositio 
+      ac<lb ed="#B" n="77" break="no"/>cipitur in sensu diuiso: tunc esse habet 
+      <lb ed="#B" n="78"/>se ut determinabile, &amp; adiectiuum ut  
+      <lb ed="#B" n="79"/>determinatio: ut esse album potest esse 
+      <lb ed="#B" n="80"/>homo: tunc ad ueritatem eius 
+      requiri<lb ed="#B" n="81" break="no"/>tur idem, quod ad ueritatem illius: 
+      exi<lb ed="#B" n="82" break="no"/>stens albu. potest esse homo. Item quando 
+      <lb ed="#B" n="83"/>aliquid esse a, sequitur aliud praedicatum 
+      <lb ed="#B" n="84"/>mediante est: tunc aliquid esse a 
+      capi<lb ed="#B" n="85" break="no"/>tur materialiter: ut Petrum esse 
+      homi<lb ed="#B" n="86" break="no"/>nem est deus. ualet haec propositio 
+      ali<lb ed="#B" n="87" break="no"/>quid est homo: est deus. Secus si non 
+      prae<lb ed="#B" n="88" break="no"/>cedit accusatiuus: quia tunc esse non 
+      po<lb ed="#B" n="89" break="no"/>test esse pars dicti: nec unit extrema: 
+      er<lb ed="#B" n="90" break="no"/>go dicit esse existere, uel possibile.
+    </p>
+            <p xml:id="gbs333-a81203-d1e697">
+      ¶ Ex 
+      <lb ed="#B" n="91"/>quo patet, quod in ista esse repraeentatum 
+      <lb ed="#B" n="92"/>creaturae est idem cum deo. Iy esse dicit 
+      <lb ed="#B" n="93"/>esse exiffere. Et quia additur 
+      adiecti<lb ed="#B" n="94" break="no"/>uum, scilicet repraesentatum ipsum 
+      de<lb ed="#B" n="95" break="no"/>terminans: ad eius ueritatem requiritur 
+      <lb ed="#B" n="96"/>ueritas harum trium secundum doctor. 
+      <lb ed="#B" n="97"/>dist. v. q. i scilicet esse creaturae est repraesenta 
+      <lb ed="#B" n="98"/>tum: esse creaturae est idem cum deo, &amp; 
+      <lb ed="#B" n="99"/>reprae sentatum est idem cum deo. Et  
+      <lb ed="#B" n="100"/>quia illa est falsa, esse creaturae est idem 
+      <lb ed="#B" n="101"/>cum deo: illa erit falsa. Esse 
+      repraesenta<lb ed="#B" n="102" break="no"/>tum est idem cum deo ab aeterno: tum quia 
+      <!--410.xml-->
+      <pb ed="#B" n="323"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>non fuit ab aeterno, &amp; ita non fuit deus 
+      <lb ed="#B" n="2"/>abaeter no:tum quia esse existere 
+      creatu<lb ed="#B" n="3" break="no"/>rae, uel est creatura ipsa: uel aliquid in 
+      <lb ed="#B" n="4"/>creatura: &amp; neutrum illorum est deus 
+      </p>
+            <p xml:id="gbs333-a81203-d1e741">
+               <lb ed="#B" n="5"/>¶ Patet etiam quod esse repraesentatum, &amp; 
+      <lb ed="#B" n="6"/>re praesentatum, similiter esse cognitum, 
+      <lb ed="#B" n="7"/>&amp; cognitum idem sunt. Nec esse 
+      intelli<lb ed="#B" n="8" break="no"/>gibile est aliud quam res intelligibilis: 
+      <lb ed="#B" n="9"/>neque per hoc, quod res intelligitur rei 
+      ali<lb ed="#B" n="10" break="no"/>quod esse diminutum acquiritur: sicut  
+      <lb ed="#B" n="11"/>nec colori in pariete per hoc, quod ab 
+      ocu<lb ed="#B" n="12" break="no"/>lo uidetur. Sicut ergo adhoc, quod 
+      cogni<lb ed="#B" n="13" break="no"/>tio est uel cognoscens, aut repraesentans 
+      <lb ed="#B" n="14"/>non sequitur, quod repraesentatum est, uel 
+      <lb ed="#B" n="15"/>cognitum: ita nec sequitur, quod esse 
+      co<lb ed="#B" n="16" break="no"/>gnitum est: neque esse cognitum 
+      conue<lb ed="#B" n="17" break="no"/>nit creaturae ab aeterno: licet creatura 
+      <lb ed="#B" n="18"/>cognoscatur ab aeterno. Et si dicitur 
+      es<lb ed="#B" n="19" break="no"/>se cognitum ab aeterno, uel est aliquid, 
+      <lb ed="#B" n="20"/>uel nihil. Si aliquid, &amp; non creatura, quae 
+      <lb ed="#B" n="21"/>non est ab aeterno: ergo deus. Si nihil: 
+      er<lb ed="#B" n="22" break="no"/>go deus nihil aliud a se intelligit ab aeter 
+      <lb ed="#B" n="23"/>no. Dicitur, quod argumentum nihil ualet: 
+      <lb ed="#B" n="24"/>quia arguo a simili: deus ab aeterno 
+      co<lb ed="#B" n="25" break="no"/>gnouit creaturam secundum esse 
+      pro<lb ed="#B" n="26" break="no"/>prium ab aeterno est aliquid, uel nihil. 
+      <lb ed="#B" n="27"/>Si aliquid, &amp; nihil nisi deus est ab 
+      ae<lb ed="#B" n="28" break="no"/>terno: ergo creatura secundum esse 
+      pro<lb ed="#B" n="29" break="no"/>prium est deus. Sinihil: ergo ab 
+      aeterno<lb ed="#B" n="30" break="no"/>nihil a se cognouit deus. Vnde ad 
+      argu<lb ed="#B" n="31" break="no"/>mentum dicitur, quod esse cognitum ab 
+      ae<lb ed="#B" n="32" break="no"/>terno, nec est aliquid, nec est nihil. Nec 
+      <lb ed="#B" n="33"/>illa diuisio est immediata: quia non 
+      exi<lb ed="#B" n="34" break="no"/>stens: ut Adam, uel Antichristus nec est 
+      <lb ed="#B" n="35"/>aliquid, nec est nihil: quia nili il sequens 
+      <lb ed="#B" n="36"/>copulam includit negationem 
+      infinitan<lb ed="#B" n="37" break="no"/>tem. Nunc autem de termino non 
+      sup<lb ed="#B" n="38" break="no"/>ponente negatur tam terminus finitus, 
+      <lb ed="#B" n="39"/>quam eius infinitus: sed esse cognitum 
+      <lb ed="#B" n="40"/>nihil est ab aeterno id est non est aliquid ab 
+      <lb ed="#B" n="41"/>eterno. Et cum infertur: ergo deus 
+      ni<lb ed="#B" n="42" break="no"/>fila se intellexit ab aeterno. Non 
+      se<lb ed="#B" n="43" break="no"/>quitur: quia ibi nihil ampliatur. Et ualet, 
+      <lb ed="#B" n="44"/>nihil quod est, uel erit, uel potest esse, 
+      <lb ed="#B" n="45"/>uel imaginari, intellexit. Non ergo 
+      se<lb ed="#B" n="46" break="no"/>quitur. Intellectum nihil est. eigo 
+      ni<lb ed="#B" n="47" break="no"/>hil est intellectum; quia arguitur a non 
+      <lb ed="#B" n="48"/>amplo ad amplum negatiue, siue cum 
+      di<lb ed="#B" n="49" break="no"/>stributione ampli, quae consequentia non 
+      <lb ed="#B" n="50"/>ualet de forma. Et illa solutio est 
+      faci<lb ed="#B" n="51" break="no"/>ior, quam soluere per distinctionem hu¬ 
+      <!--410.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>us termini nihil; quomodo auctor 
+      po<lb ed="#B" n="53" break="no"/>nit, quia sicut uerba sonant, illa non est 
+      <lb ed="#B" n="54"/>uera. Angelus ab aeterno fuit nihil; quia 
+      <lb ed="#B" n="55"/>ualet tamen, ab aeterno fuit ens, quod non 
+      <lb ed="#B" n="56"/>fuit ens. Item est affirmatiua, cuius 
+      prae<lb ed="#B" n="57" break="no"/>dicatum scilicet nihil non supponit; sed auctor 
+      <lb ed="#B" n="58"/>per eam intelligit negatiuam scilicet illam, 
+      <lb ed="#B" n="59"/>Angelus ab aeterno nihil fuit id est non fuit 
+      <lb ed="#B" n="60"/>aliquid ab aeterno, &amp; ista est uera.
+    </p>
+            <p xml:id="gbs333-a81203-d1e869">
+      ¶ Item 
+      <lb ed="#B" n="61"/>notandum: quod sancti saepe loquuntur me 
+      <lb ed="#B" n="62"/>tapiorice: quaelocutiones non sunt 
+      in<lb ed="#B" n="63" break="no"/>telligendae secundum proprietatem 
+      uer<lb ed="#B" n="64" break="no"/>borum, ut cum deus dicitur uitis, agnus, 
+      <lb ed="#B" n="65"/>seo, lapis &amp;c. secundum Aug. sic etiam 
+      <lb ed="#B" n="66"/>Ansel. cum dicit. Creatura in deo est 
+      <lb ed="#B" n="67"/>creatrix essentia: capit creaturam in deo 
+      <lb ed="#B" n="68"/>pro causa productiua creaturae, &amp; ista 
+      <lb ed="#B" n="69"/>est essentia creatrix omnium: sic deua 
+      <lb ed="#B" n="70"/>est uita uiuentium: omnis boni plenitu 
+      <lb ed="#B" n="71"/>do, omnia in omnibus causaliter. Et his 
+      pa<lb ed="#B" n="72" break="no"/>tet multorum argumentorum solutio, 
+      <lb ed="#B" n="73"/>&amp; multarum auctoritatum pia, &amp; 
+      catho<lb ed="#B" n="74" break="no"/>lica expositio.
+    </p>
+            <p xml:id="gbs333-a81203-d1e902">
+      ¶ Per hoc ad 
+      auctorita<lb ed="#B" n="75" break="no"/>tes, quas opi. illa pro se adducit, quarum 
+      <lb ed="#B" n="76"/>aliquae tactae sunt dist. praecedenti. q.ult. 
+      <lb ed="#B" n="77"/>&amp; nunc aliquae habentur in doct. Ad 
+      au<lb ed="#B" n="78" break="no"/>ctoritatem Ioan. j. dicitur. Quod factum 
+      <lb ed="#B" n="79"/>est in ipso uita erat id est causa productiua, 
+      <lb ed="#B" n="80"/>&amp; cognitiua rei factae adextra: est in deo 
+      <lb ed="#B" n="81"/>intransitiue, &amp; est diuina essentia. Ista 
+      <lb ed="#B" n="82"/>ergo scientia dei, qua nouit omne 
+      pro<lb ed="#B" n="83" break="no"/>ducibile productum, &amp; est essentia 
+      diui<lb ed="#B" n="84" break="no"/>na est uita dei.
+    </p>
+            <p xml:id="gbs333-a81203-d1e927">
+      ¶ Itaque quae facta sunt, 
+      <lb ed="#B" n="85"/>non uiuunt formaliter in deo: sed sunt  
+      <lb ed="#B" n="86"/>in dei cognitione, &amp; recipiunt uitam 
+      es<lb ed="#B" n="87" break="no"/>fectiue a deo. Hoc probat doct. multis 
+      <lb ed="#B" n="88"/>auctoritatibus.
+    </p>
+            <p xml:id="gbs333-a81203-d1e938">
+      ¶ Sic omnia sunt in deo 
+      <lb ed="#B" n="89"/>intelligibiliter. idest cognita a deo, siue 
+      <lb ed="#B" n="90"/>producibilia ab eo. Item quae hic 
+      ua<lb ed="#B" n="91" break="no"/>rie quaeris: ipse tibi omnia erit. 
+      ue<lb ed="#B" n="92" break="no"/>rum est causaliter: quia est causa 
+      om<lb ed="#B" n="93" break="no"/>nium, &amp; continet eminenter 
+      perfectio<lb ed="#B" n="94" break="no"/>nes omnium. Item ostendam tibi 
+      om<lb ed="#B" n="95" break="no"/>ne bonum id est causam omnis boni: uel 
+      lar<lb ed="#B" n="96" break="no"/>gitorem omnis boni: effectorem omnis 
+      bo<lb ed="#B" n="97" break="no"/>ni. Item ego ero onia, quaecunque ab 
+      ho<lb ed="#B" n="98" break="no"/>minibus honeste desiderantur. i sine 
+      me<lb ed="#B" n="99" break="no"/>nihil habet homo. Ame est omnebonum 
+      <lb ed="#B" n="100"/>effectiue, &amp; causaliter.
+    </p>
+            <p xml:id="gbs333-a81203-d1e967">
+      ¶ item unitiue 
+      <lb ed="#B" n="101"/>omnia continentur in deo: quia deus 
+      esprin<lb ed="#B" n="102" break="no"/>cipium effectiuum onium, aut sua perfectio¬ 
+      <!--411.xml-->
+      <pb ed="#B" n="324"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>eminenter transcendit perfectiones 
+      om<lb ed="#B" n="2" break="no"/>nium. Item numeri sunt in monade non 
+      <lb ed="#B" n="3"/>realiter: sed ut in principio omnis 
+      nu<lb ed="#B" n="4" break="no"/>meri. Monas enim id est unum, est 
+      princi<lb ed="#B" n="5" break="no"/>pium omnis numeri. Item creaturae sunt 
+      <lb ed="#B" n="6"/>in deo non realiter, nec essentialiter: 
+      <lb ed="#B" n="7"/>sed causaliter, intelligibiliter, &amp; 
+      cogni<lb ed="#B" n="8" break="no"/>tiue.
+    </p>
+            <p xml:id="gbs333-a81203-d1e998">
+      ¶ Item sineae uniuntur in centro 
+      <lb ed="#B" n="9"/>non realiter: sed quia centrum est 
+      termi<lb ed="#B" n="10" break="no"/>nus, uel principium eatum.
+    </p>
+            <p xml:id="gbs333-a81203-d1e1005">
+      ¶ Item deus 
+      <lb ed="#B" n="11"/>est uita uiuentium causaliter, &amp; effectiue. 
+      </p>
+            <p xml:id="gbs333-a81203-d1e1010">
+               <lb ed="#B" n="12"/>¶ Ad Ansel. dicitur quod ipse, &amp; ceteri 
+      san<lb ed="#B" n="13" break="no"/>cti saepe loquuntur metaphorice. Non 
+      <lb ed="#B" n="14"/>sine causa: unde cum inquit. Creatura 
+      <lb ed="#B" n="15"/>in deo est creatrix essentia: illa de 
+      rigo<lb ed="#B" n="16" break="no"/>re est falsa: sed hoc complexum, 
+      creatu<lb ed="#B" n="17" break="no"/>ra in deo, ualet causa productiua 
+      creatu<lb ed="#B" n="18" break="no"/>re, quae est in deo: est creatrix essentia. 
+      <lb ed="#B" n="19"/>Vtuntur autem sancti huiusmodi meta 
+      <lb ed="#B" n="20"/>phorica locutione, ut homines quandoque 
+      <lb ed="#B" n="21"/>ad dei laudem alliciant: utque in nullo 
+      a<lb ed="#B" n="22" break="no"/>lio a deo quaerant delectationem, 
+      con<lb ed="#B" n="23" break="no"/>solationem, &amp; auxilium, quod solus est 
+      cau<lb ed="#B" n="24" break="no"/>sa fontalis omnium delectabilium, 
+      uti<lb ed="#B" n="25" break="no"/>lium, a quo omnia sunt expectanda; quando 
+      <lb ed="#B" n="26"/>ipse immediate (&amp; nullo alio si placet 
+      <lb ed="#B" n="27"/>concurrente) omnia potest, quae defidem 
+      <lb ed="#B" n="28"/>rari honeste ualent tribuere. Ideo dicit 
+      <lb ed="#B" n="29"/>ubi supra Aug. In creatura deest, quod  
+      <lb ed="#B" n="30"/>laudamus: in creatore nihil deesse 
+      po<lb ed="#B" n="31" break="no"/>test; laudent ergo creatorem: totum 
+      <lb ed="#B" n="32"/>ibi est (scilicet causaliter) quod ex 
+      par<lb ed="#B" n="33" break="no"/>tibus singulis inuenitur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

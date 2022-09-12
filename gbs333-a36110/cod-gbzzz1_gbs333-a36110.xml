@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="143"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a36110"> <!-- l1d7q1 -->
+            <head xml:id="gbs333-a36110-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a36110-Hd1e104" type="question-title">Utrum potentia generandi in patre sit aliquod absolutum, vel respectivum</head>
+            <p xml:id="gbs333-a36110-d1e107">
+               <lb ed="#B" n="41"/>QVAESTIO I 
+      <lb ed="#B" n="42"/>TRVM potentia 
+      gene<lb ed="#B" n="43" break="no"/>randi in patre sit aliquod  
+      <lb ed="#B" n="44"/>absolutum, uel respectiuum. 
+      </p>
+            <p xml:id="gbs333-a36110-d1e118">
+               <lb ed="#B" n="45"/>¶ Primum recitatur, &amp; 
+      im<lb ed="#B" n="46" break="no"/>pugnatur a doctore opin. sancti Tho. i. 
+      <lb ed="#B" n="47"/>par. sum. q. xij. art. v. Et in disputatis de 
+      <!--230.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>potentia artic. ij. quae tenet: quod potentia 
+      <lb ed="#B" n="49"/>generandi non est relatio: sed natura 
+      <lb ed="#B" n="50"/>diuina. similiter &amp; opinio Petri 
+      aureo<lb ed="#B" n="51" break="no"/>li.
+    </p>
+            <p xml:id="gbs333-a36110-d1e141">
+      ¶ Quibus dimissis notandum est 
+      pro<lb ed="#B" n="52" break="no"/>articulo primo quaestionis: quod potentia 
+      <lb ed="#B" n="53"/>generandi est, quo generans generat: 
+      <lb ed="#B" n="54"/>sicut generaliter potentia agendi est id 
+      <lb ed="#B" n="55"/>quo agens agit. Et ita idem 
+      intelligi<lb ed="#B" n="56" break="no"/>tur per potentiam generandi, &amp; per 
+      prin<lb ed="#B" n="57" break="no"/>cipium elicitiuum generandi, quod 
+      per<lb ed="#B" n="58" break="no"/>rationem producendi. seu generandi 
+      so<lb ed="#B" n="59" break="no"/>set intelligi.
+    </p>
+            <p xml:id="gbs333-a36110-d1e161">
+      ¶ Secundo notandum: quod 
+      <lb ed="#B" n="60"/>illi termini elicitum, &amp; elicitiuum non 
+      <lb ed="#B" n="61"/>fuerunt apud sanctos, aut philosophos 
+      <lb ed="#B" n="62"/>in usu, sed apud moderniores 
+      schola<lb ed="#B" n="63" break="no"/>sticos doctores ad usum theologorum 
+      <lb ed="#B" n="64"/>deuenerunt, &amp; ita apud diuersos uarie 
+      <lb ed="#B" n="65"/>accipiuntur.
+    </p>
+            <p xml:id="gbs333-a36110-d1e177">
+      ¶ Est autem principium 
+      <lb ed="#B" n="66"/>elicitiuum productionis actiuae illud, 
+      <lb ed="#B" n="67"/>quod necessario, &amp; per se requiritur ad 
+      <lb ed="#B" n="68"/>productionem, &amp; non est ipsa productio 
+      <lb ed="#B" n="69"/>nec constitutum ex ipsa productione 
+      <lb ed="#B" n="70"/>uel producto id est quod non est 
+      formali<lb ed="#B" n="71" break="no"/>ter nec ipsa productio: nec 
+      constitu<lb ed="#B" n="72" break="no"/>tum ex productione.
+    </p>
+            <p xml:id="gbs333-a36110-d1e195">
+      ¶ Elicitum autem 
+      <lb ed="#B" n="73"/>accipitur aliquando pro illo, quod uere 
+      <lb ed="#B" n="74"/>producitur: sicut aliquando dicitur, quod 
+      <lb ed="#B" n="75"/>calor elicitur ab igne: quamuis 
+      commu<lb ed="#B" n="76" break="no"/>nius concedatur, quod ignis producat ignem 
+      <lb ed="#B" n="77"/>&amp; quod elicit actum producendi ignem, quod 
+      <lb ed="#B" n="78"/>quod ignis elicit ignem. Et sic non 
+      acci<lb ed="#B" n="79" break="no"/>pitur hic: quia sic non posset concedi, 
+      <lb ed="#B" n="80"/>quod generatio actiua esset elicita: quia 
+      <lb ed="#B" n="81"/>non est producta. Alio modo, &amp; ad pro 
+      <lb ed="#B" n="82"/>positum accipitur elicitum pro illo, quod  
+      <lb ed="#B" n="83"/>formaliter denominat aliquid 
+      produce<lb ed="#B" n="84" break="no"/>re aliud. Sic calefactio dicitur elici ab 
+      <lb ed="#B" n="85"/>igne, &amp; non calor: quia ignis 
+      calefa<lb ed="#B" n="86" break="no"/>ctione formaliter dicitur calefacere, &amp; 
+      <lb ed="#B" n="87"/>non calore: quia posset ignis habere 
+      ca<lb ed="#B" n="88" break="no"/>lorem in se, &amp; non calefacere: si 
+      diuini<lb ed="#B" n="89" break="no"/>tus suspenderetur actio, ut in pueris in 
+      <lb ed="#B" n="90"/>fornace. Dan. iij.
+    </p>
+            <p xml:id="gbs333-a36110-d1e237">
+      ¶ Ex quo patet primo, 
+      <lb ed="#B" n="91"/>quod non quicquid elicitur, poducitur, nec 
+      <lb ed="#B" n="92"/>econuerso. Primum patet: quia 
+      generatio<lb ed="#B" n="93" break="no"/>actiua elicitur: &amp; tamen non producitur. 
+      <lb ed="#B" n="94"/>Secundum patet: quia calor ab 
+      ignepdu<lb ed="#B" n="95" break="no"/>citur: &amp; tamen non elicitur.
+    </p>
+            <p xml:id="gbs333-a36110-d1e250">
+      ¶ Secundo patet: quod 
+      <lb ed="#B" n="96"/>illud, quid elicit, non denoiat formaliter 
+      <lb ed="#B" n="97"/>principium elicitiuum producere aliud: quia 
+      <lb ed="#B" n="98"/>principium elicitiuum non est, quid product: 
+      <!--231.xml-->
+      <pb ed="#B" n="144"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sed quo suppositum producit: &amp; ita est 
+      <lb ed="#B" n="2"/>principium productiuum non quod, sed  
+      <lb ed="#B" n="3"/>quo.
+    </p>
+            <p xml:id="gbs333-a36110-d1e273">
+      ¶ Supponitur etiam: quod nihil est in 
+      <lb ed="#B" n="4"/>diuinis nisi absolutum, quod est essentia, 
+      <lb ed="#B" n="5"/>&amp; relatio, &amp; constitutum ex essentia, &amp; 
+      <lb ed="#B" n="6"/>relatione.
+    </p>
+            <p xml:id="gbs333-a36110-d1e282">
+      ¶ Pro articulo secundo est 
+      <lb ed="#B" n="7"/>conclusio prima. Proprietas personalis, 
+      <lb ed="#B" n="8"/>ut paternitas non est principium 
+      elici<lb ed="#B" n="9" break="no"/>tiuum generationis actiuae. Patet: 
+      qui<lb ed="#B" n="10" break="no"/>nihil est principium suiipsius: paternitas 
+      <lb ed="#B" n="11"/>autem, &amp; generatio actiua idem sunt 
+      <lb ed="#B" n="12"/>omnibus modis ut. infra. ostendetur 
+      er<lb ed="#B" n="13" break="no"/>go &amp;c. Ponit doctor persuasionem 
+      pu<lb ed="#B" n="14" break="no"/>chram huius dicti: uide in scripto suo¬ 
+      </p>
+            <p xml:id="gbs333-a36110-d1e302">
+               <lb ed="#B" n="15"/>¶ Concl. ij. Proprietas personalis non est 
+      <lb ed="#B" n="16"/>principium elicitiuum papsiuaegnationis 
+      <lb ed="#B" n="17"/>Patet: quia idem est principium elicitiuum 
+      ge<lb ed="#B" n="18" break="no"/>nerationis actiuae, &amp; passiuae: sed 
+      pro<lb ed="#B" n="19" break="no"/>prietas personalis non est principium 
+      <lb ed="#B" n="20"/>elicitiuum generationis actiuae ex con 
+      <lb ed="#B" n="21"/>clusione prima. ergo nec passiuae.
+    </p>
+            <p xml:id="gbs333-a36110-d1e320">
+      ¶ 
+      Con<lb ed="#B" n="22" break="no"/>clusio tertia. Nullus respectus potest 
+      es<lb ed="#B" n="23" break="no"/>se principium elicitiuum generationis 
+      <lb ed="#B" n="24"/>actiuae uel passiuae. Probatur. non 
+      ratio<lb ed="#B" n="25" break="no"/>nis: quia nullus talis potest esse 
+      princi<lb ed="#B" n="26" break="no"/>pium elicitiuum realis productionis (prae 
+      <lb ed="#B" n="27"/>sertim ubi non praerequiritur cognitio 
+      <lb ed="#B" n="28"/>productionis ante ipsam productionem: 
+      <lb ed="#B" n="29"/>Nec respectus realis: quia ille esset 
+      pro<lb ed="#B" n="30" break="no"/>prietas personalis: sed proprietas 
+      perso<lb ed="#B" n="31" break="no"/>nalis (ut patuit ex conclusionibus 
+      prae<lb ed="#B" n="32" break="no"/>cedentibus) non potest esse principium 
+      <lb ed="#B" n="33"/>elicitiuum.
+    </p>
+            <p xml:id="gbs333-a36110-d1e349">
+      ¶ Conclusio quarta. 
+      Sup<lb ed="#B" n="34" break="no"/>positum non est principium elicitiuum 
+      <lb ed="#B" n="35"/>generationis actiuae. Patet: quia non sup 
+      <lb ed="#B" n="36"/>positum filij: nec spiritussancti 
+      manife<lb ed="#B" n="37" break="no"/>stum est. Nec patris, quia suppositum 
+      pa<lb ed="#B" n="38" break="no"/>tris constituitur generatione actiua: sed 
+      <lb ed="#B" n="39"/>nihil est principium elicitiuum sui 
+      con<lb ed="#B" n="40" break="no"/>stituentis.
+    </p>
+            <p xml:id="gbs333-a36110-d1e367">
+      ¶ Conclusio quinta. Abso 
+      <lb ed="#B" n="41"/>lutum aliquod est principium elicitiuum 
+      <lb ed="#B" n="42"/>generationis actiuae. Patet: quia nullus 
+      <lb ed="#B" n="43"/>respectus ex conclusione tertia. Nec 
+      <lb ed="#B" n="44"/>suppositum ex quarta. ergo absolutum 
+      <lb ed="#B" n="45"/>quia alia non sunt in diuinis: ut pater 
+      <lb ed="#B" n="46"/>ex suppositione ultima.
+    </p>
+            <p xml:id="gbs333-a36110-d1e384">
+      ¶ Conclusic 
+      <lb ed="#B" n="47"/>sexta. Essentia diuina est principium esi 
+      <lb ed="#B" n="48"/>citiuum generationis actiuae. Patet: quia 
+      <lb ed="#B" n="49"/>absolutum ex conclusione quinta. Et  
+      <lb ed="#B" n="50"/>omne absolutum est essentia diuina 
+      om<lb ed="#B" n="51" break="no"/>nibus modis: ergo. Tenet consequentia 
+      <!--231.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>in disamis. Et praemissae patent.
+    </p>
+            <p xml:id="gbs333-a36110-d1e404">
+      ¶ Ex 
+      il<lb ed="#B" n="53" break="no"/>lis possunt inferri aliqua corollaria¬ 
+      </p>
+            <p xml:id="gbs333-a36110-d1e409">
+               <lb ed="#B" n="54"/>¶ Primum. Licet generatio actiua, siue s 
+      <lb ed="#B" n="55"/>generare sit elicita: non tamen est 
+      pro<lb ed="#B" n="56" break="no"/>ducta. Patet primum: quia est illud, 
+      quo<lb ed="#B" n="57" break="no"/>pater dicitur formaliter generare, &amp; 
+      <lb ed="#B" n="58"/>hoc est esse elicitum. Claret secundum, 
+      <lb ed="#B" n="59"/>quod non est producta: cum hoc sit 
+      forma<lb ed="#B" n="60" break="no"/>liter suppositi, seu personae.
+    </p>
+            <p xml:id="gbs333-a36110-d1e427">
+      ¶ Secundum. 
+      <lb ed="#B" n="61"/>Licet essentia sit principium elicitiuum, 
+      <lb ed="#B" n="62"/>&amp; ita eliciens: non tamen est 
+      princi<lb ed="#B" n="63" break="no"/>pium productiuum producens: quia non 
+      <lb ed="#B" n="64"/>producit, nec generat, nec generatur, 
+      <lb ed="#B" n="65"/>ex distinctione quinta. Est tamen 
+      prin<lb ed="#B" n="66" break="no"/>cipium productiuum quo: quia 
+      princi<lb ed="#B" n="67" break="no"/>pium elicitiuum, &amp; principium 
+      producti<lb ed="#B" n="68" break="no"/>uum, quo idem sunt. Et sicut non est 
+      <lb ed="#B" n="69"/>idem: principium productiuum, quod &amp; 
+      <lb ed="#B" n="70"/>principium elicitiuum: sic non est 
+      <lb ed="#B" n="71"/>idem producere, &amp; elicere. Nam in 
+      <lb ed="#B" n="72"/>principio : elicitiuo non distinguitur, 
+      <lb ed="#B" n="73"/>quod, &amp; quo: quia principium 
+      elici<lb ed="#B" n="74" break="no"/>tiuum est, quo producens producit: &amp; 
+      <lb ed="#B" n="75"/>sic elicere non est producere: sed est esse, 
+      <lb ed="#B" n="76"/>quo producens producit: principium 
+      er<lb ed="#B" n="77" break="no"/>go elicitiuum elicit, sed non producit. 
+      </p>
+            <p xml:id="gbs333-a36110-d1e466">
+               <lb ed="#B" n="78"/>¶ Tertium. Licet omne principium 
+      pro<lb ed="#B" n="79" break="no"/>ductiuum, siue producens realiter 
+      distin<lb ed="#B" n="80" break="no"/>guatur a principiato scilicet producto: non 
+      ta<lb ed="#B" n="81" break="no"/>men principium elicitiuum realiter 
+      di<lb ed="#B" n="82" break="no"/>stinguitur ab elicito. Primum patet: quia 
+      <lb ed="#B" n="83"/>nihil producit. Secuudum patet: quia 
+      <lb ed="#B" n="84"/>essentia, quae est principium elicitiuum 
+      <lb ed="#B" n="85"/>a nullo, quod est realiter in diuinis, 
+      di<lb ed="#B" n="86" break="no"/>stinguitur realiter.
+    </p>
+            <p xml:id="gbs333-a36110-d1e488">
+      ¶ Corollatium quar 
+      <lb ed="#B" n="87"/>tum. Idem elicit se: idem intellige 
+      reali<lb ed="#B" n="88" break="no"/>ter, sed non formaliter. Patet: quia 
+      es<lb ed="#B" n="89" break="no"/>sentia elicit generationem actiua quo: 
+      <lb ed="#B" n="90"/>tamen non distinguitur realiter: sed 
+      tan<lb ed="#B" n="91" break="no"/>tum formaliter ab essentia. Sicut enim 
+      <lb ed="#B" n="92"/>essentia est fundamentum relationis a 
+      <lb ed="#B" n="93"/>qua: tamen relatio non distinguitur rea 
+      <lb ed="#B" n="94"/>liter, &amp; sic idem fundat se(Et licet 
+      essen<lb ed="#B" n="95" break="no"/>tia sit fundamentum relationis: non 
+      ta<lb ed="#B" n="96" break="no"/>men refertur ipsa relatione: sed 
+      consti<lb ed="#B" n="97" break="no"/>tutum ex ipsa, &amp; relatione) ita essentia 
+      <lb ed="#B" n="98"/>est principium elicitiuum id est ratio 
+      pro<lb ed="#B" n="99" break="no"/>ducendi, &amp; tamen non denominatur 
+      ip<lb ed="#B" n="100" break="no"/>sa productione: sed constitutum ex ipsa, 
+      <lb ed="#B" n="101"/>&amp; productione id est pater.
+    </p>
+            <p xml:id="gbs333-a36110-d1e524">
+      ¶ Corollarium 
+      <lb ed="#B" n="102"/>quintum. Productio actiua non deno¬ 
+      <!--232.xml-->
+      <pb ed="#B" n="145"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>minat formaliter essentiam: sed 
+      supposi<lb ed="#B" n="2" break="no"/>tum. uel personam. Non enim essentia 
+      <lb ed="#B" n="3"/>producit, uel generat: sed persona scilicet 
+      pa<lb ed="#B" n="4" break="no"/>ter: dlicet essentia eliciat productionem, 
+      <lb ed="#B" n="5"/>&amp; productio eliciatur: quod nihil aliud 
+      <lb ed="#B" n="6"/>est dicere: quam essentia elicit id est 
+      necessa<lb ed="#B" n="7" break="no"/>rio requiritur ad productionem, &amp; non 
+      <lb ed="#B" n="8"/>est ipsa productio: nec constituta ex 
+      pro<lb ed="#B" n="9" break="no"/>ductione, uel producto.
+    </p>
+            <p xml:id="gbs333-a36110-d1e555">
+      ¶ Et esse 
+      elici<lb ed="#B" n="10" break="no"/>tum nihil aliud est, quam esse aliud, a 
+      quo<lb ed="#B" n="11" break="no"/>formaliter aliquid dicitur producere 
+      a<lb ed="#B" n="12" break="no"/>liud. Et dicitur aliquid non eliciens: 
+      <lb ed="#B" n="13"/>quia eliciens non denominatur a pro- 
+      <lb ed="#B" n="14"/>ductione: sed persona constituta ex 
+      eli<lb ed="#B" n="15" break="no"/>ciente, &amp; elicito.
+    </p>
+            <p xml:id="gbs333-a36110-d1e571">
+      ¶ Pro articulo 
+      tertio<lb ed="#B" n="16" break="no"/>sunt hic duo dubia. Primum: an genera 
+      <lb ed="#B" n="17"/>tio passiua sit producta. Pro 
+      responsio<lb ed="#B" n="18" break="no"/>ne nota, quod productum dupliciter 
+      acci<lb ed="#B" n="19" break="no"/>pitur. Vno modo pro illo, quod est ter 
+      <lb ed="#B" n="20"/>minus productionis, &amp; denominatur 
+      <lb ed="#B" n="21"/>formaliter a productione: sic 
+      generatio<lb ed="#B" n="22" break="no"/>passiua non est producta: licet per 
+      pro<lb ed="#B" n="23" break="no"/>ductionem, siue generationem actiuam 
+      <lb ed="#B" n="24"/>recipiat esse in filio: non sic essentia: nec 
+      <lb ed="#B" n="25"/>spiratio actio in filio recipit esse: ita quod 
+      si<lb ed="#B" n="26" break="no"/>per impossibile filius de nouo 
+      genera<lb ed="#B" n="27" break="no"/>retur: nec essentia, nec spiratio actiua 
+      <lb ed="#B" n="28"/>produceretur: quia sunt in patre. Alio 
+      <lb ed="#B" n="29"/>modo accipitur productum pro illo, quod  
+      <lb ed="#B" n="30"/>est idem realiter cum termino 
+      produ<lb ed="#B" n="31" break="no"/>ctionis: &amp; distinguitur realiter a 
+      produ<lb ed="#B" n="32" break="no"/>cente, &amp; sic generatio passiua potest 
+      di<lb ed="#B" n="33" break="no"/>ciproducta: sed non essentia nec 
+      spira<lb ed="#B" n="34" break="no"/>tio actiua.
+    </p>
+            <p xml:id="gbs333-a36110-d1e615">
+      ¶ Secundum dubium. Vtrum 
+      <lb ed="#B" n="35"/>relatio sit principium determinatiuum 
+      <lb ed="#B" n="36"/>essentiae pro eo, quod essentia de se uidetur 
+      <lb ed="#B" n="37"/>indeterminate ad eliciendum 
+      genera<lb ed="#B" n="38" break="no"/>tionem, &amp; spirationem. Responsio: non 
+      <lb ed="#B" n="39"/>sunt ponendi huiusmodi respectus 
+      de<lb ed="#B" n="40" break="no"/>terminatiui: quia superssue ponerentur: 
+      <lb ed="#B" n="41"/>quia cum respectus ibi essent plures: 
+      es<lb ed="#B" n="42" break="no"/>sentia etiam esset indeterminata ad 
+      il<lb ed="#B" n="43" break="no"/>los, &amp; ita indigeret alio determinante: 
+      <lb ed="#B" n="44"/>&amp; sic produceretur in infinitum. Illa 
+      <lb ed="#B" n="45"/>duo dubia latius determinantur a 
+      do<lb ed="#B" n="46" break="no"/>ctore in. q. cum eo: an paternitas 
+      <lb ed="#B" n="47"/>sit principium elicitiuum 
+      ge<lb ed="#B" n="48" break="no"/>nerationis passiuae scilicet 
+      fi<lb ed="#B" n="49" break="no"/>liationis: quaere 
+      <lb ed="#B" n="50"/>ibi. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

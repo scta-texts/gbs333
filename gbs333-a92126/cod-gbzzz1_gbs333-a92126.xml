@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a92126"> <!-- l1d45prae -->
+            <head xml:id="gbs333-a92126-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a92126-d1e104">
+               <lb ed="#B" n="27"/>DISTINOTIO XLV 
+      <lb ed="#B" n="28"/>VPRMagister egit 
+      <lb ed="#B" n="29"/>de omnipotentia: 
+      con<lb ed="#B" n="30" break="no"/>sequenter agit de 
+      uo<lb ed="#B" n="31" break="no"/>luntate diuina in 
+      di<lb ed="#B" n="32" break="no"/>stinct. iiij. finalius. 
+      <lb ed="#B" n="33"/>Primo quoad se. dist. 
+      <lb ed="#B" n="34"/>praesenti. Secundo 
+      <lb ed="#B" n="35"/>de ea comparatiue. 
+      <lb ed="#B" n="36"/>quantum ad affectum opiniones 
+      pertra<lb ed="#B" n="37" break="no"/>ctando distinct. xlij. Tertio idem 
+      osten<lb ed="#B" n="38" break="no"/>dit ueritatem clarius explicando distinct. 
+      <lb ed="#B" n="39"/>penult. Quarto comparatiue ad 
+      uolun<lb ed="#B" n="40" break="no"/>iatem humanam distinct. finali. In hac 
+      <lb ed="#B" n="41"/>distinctione ostendit primo, quid sit 
+      uo<lb ed="#B" n="42" break="no"/>luntas diuina secundum propriam 
+      uolun<lb ed="#B" n="43" break="no"/>tatis acceptionem. Secundo, quid 
+      nomi<lb ed="#B" n="44" break="no"/>ne uoluntatis accipitur secundum 
+      sigura<lb ed="#B" n="45" break="no"/>tiuam locutionem.
+    </p>
+            <p xml:id="gbs333-a92126-d1e148">
+      ¶ Et potest textus sum 
+      <lb ed="#B" n="46"/>mati his conclusionibus.
+    </p>
+            <p xml:id="gbs333-a92126-d1e153">
+      ¶ Conclusio 
+      <lb ed="#B" n="47"/>prima. Voluntas, siue uolens de eo se¬ 
+      <!--450.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>cundum essentiam dicitur: quia non est es 
+      <lb ed="#B" n="49"/>aliud uelle, aliud esse.
+    </p>
+            <p xml:id="gbs333-a92126-d1e167">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="50" break="no"/>sio. Haec sumnme bona diuina uoluntas 
+      <lb ed="#B" n="51"/>causa est omnium, quae naturaliter siunt 
+      <lb ed="#B" n="52"/>facta, aut futura sunt: quius capsa quaeren- 
+      <lb ed="#B" n="53"/>da non est: cum immutabilis sit, &amp; 
+      aetor<lb ed="#B" n="54" break="no"/>na.
+    </p>
+            <p xml:id="gbs333-a92126-d1e180">
+      ¶ Tertia conclusio. Voluntas 
+      aliquan<lb ed="#B" n="55" break="no"/>do accipitur pro effectu, uel signo 
+      uolun<lb ed="#B" n="56" break="no"/>tatis: ut ualet tantum id est praeceptio, 
+      prohi<lb ed="#B" n="57" break="no"/>bitio, consilium; operatio; permissio: 
+      <lb ed="#B" n="58"/>quae non sunt ipsa uoluntas proprie 
+      di<lb ed="#B" n="59" break="no"/>cta: quae dicitur utrum uoluntas 
+      bene<lb ed="#B" n="60" break="no"/>piaciti: sicut alia dicitur uoluntas 
+      signi<lb ed="#B" n="61" break="no"/>neque omnia siunt, quae deus uult fieri 
+      uo<lb ed="#B" n="62" break="no"/>luntate signi id est quae deus praecipit, 
+      con<lb ed="#B" n="63" break="no"/>sulit, uel prohibet. Vide latius in 
+      tex<lb ed="#B" n="64" break="no"/>tu 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

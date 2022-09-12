@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="176"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a44634"> <!-- l1d11q1 -->
+            <head xml:id="gbs333-a44634-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a44634-Hd1e104" type="question-title">Utrum Spiritus Sanctus procedit a patre et filio</head>
+            <p xml:id="gbs333-a44634-d1e107">
+               <lb ed="#B" n="85"/>QVAESTIO I 
+      <lb ed="#B" n="86"/>VTRVM spiritus sanctus po 
+      <lb ed="#B" n="87"/>cedat a patre &amp; filio.
+    </p>
+            <p xml:id="gbs333-a44634-d1e116">
+      ¶ Ista 
+      <lb ed="#B" n="88"/>quaestio mouetur propter c 
+      <lb ed="#B" n="89"/>graecos, qui licet concedent per 
+      <lb ed="#B" n="90"/>spiritum sanctum esse spiritum filij, &amp; pret 
+      <lb ed="#B" n="91"/>dere a patre per filium: non tamen 
+      con<lb ed="#B" n="92" break="no"/>cedunt eum procedere a patre, &amp; filio. 
+      <lb ed="#B" n="93"/>Contra quos de determinatio ecclesiae 
+      <lb ed="#B" n="94"/>inc. firmiter. extra de summa tri, &amp; fide 
+      <lb ed="#B" n="95"/>cath. ubi dicitur. Pater a nullo: filius a 
+      <lb ed="#B" n="96"/>patre solo: ac spiritussanctus pariter ab 
+      <lb ed="#B" n="97"/>utroque. Et lib. vj. co. tit. Tideli, ac de¬ 
+      <!--264.xml-->
+      <pb ed="#B" n="177"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uota professione fatemur: quod spunssanctus 
+      <lb ed="#B" n="2"/>aternaliter ex pre, &amp; filio: non tamquam ex duo 
+      <lb ed="#B" n="3"/>ba principiis, sed tamquam ex uno principio, 
+      <lb ed="#B" n="4"/>non duabus spirationibus: sed unica spira 
+      <lb ed="#B" n="5"/>tione praecedit. Item in sumbolo athanasij. 
+      <lb ed="#B" n="6"/>Spussanctus a patre, &amp; filio.
+    </p>
+            <p xml:id="gbs333-a44634-d1e161">
+      ¶ Itaque con 
+      <lb ed="#B" n="7"/>clusio certa est: quam tamen aliqui probare 
+      <lb ed="#B" n="8"/>nituntur: quorum probationes recitat  
+      <lb ed="#B" n="9"/>doctor: easque ad hoc propositum 
+      insuf<lb ed="#B" n="10" break="no"/>ficientes ostendit: ut puta beatus Tho. i. 
+      <lb ed="#B" n="11"/>ij. q. xxxvj. art. ij. Et Sco. dist. praesentis. 
+      <lb ed="#B" n="12"/>q. i. Sed eorum rationes doc. impugnat  
+      <lb ed="#B" n="13"/>tanquam insufficientes ad probandum 
+      <lb ed="#B" n="14"/>conclusionem, quam fides astruit scilicet 
+      Spi<lb ed="#B" n="15" break="no"/>ritussanctus prcedit aeternaliter a patre, 
+      <lb ed="#B" n="16"/>l &amp; filio.
+    </p>
+            <p xml:id="gbs333-a44634-d1e185">
+      ¶ Haec conclusio est fidei, &amp; de 
+      <lb ed="#B" n="17"/>terminationis ecclesiae: ideo inconcusse 
+      <lb ed="#B" n="18"/>tenenda. Potest tamen adduci persuasio, quam 
+      <lb ed="#B" n="19"/>ponit doct. quae non procedit ex fallis 
+      <lb ed="#B" n="20"/>sicut caeterae rationes aliorum: quae ut  
+      <lb ed="#B" n="21"/>uidentur: falsa accipiunt: quamuis forte 
+      <lb ed="#B" n="22"/>contra graecos non sufficiat, si 
+      proter<lb ed="#B" n="23" break="no"/>uire uellent. Non enim est 
+      demonstra<lb ed="#B" n="24" break="no"/>tiua, &amp; est ista. Quicquid competit 
+      pa<lb ed="#B" n="25" break="no"/>tri cuilibet personae alteri attribuendum 
+      <lb ed="#B" n="26"/>est: nisi contrarium sit expressum in 
+      sa<lb ed="#B" n="27" break="no"/>cra scriptura: uel ab ecclesia determina 
+      <lb ed="#B" n="28"/>tum: uel euidenter sequatur ex 
+      praemis<lb ed="#B" n="29" break="no"/>sis in sacra scriptura expressis: uel 
+      per<lb ed="#B" n="30" break="no"/>se, uel mediantibus propositionibus 
+      per<lb ed="#B" n="31" break="no"/>se notis. Sed omnes graeci pariter, &amp; omnes 
+      <lb ed="#B" n="32"/>catholici habent concedere, quod 
+      spiritus<lb ed="#B" n="33" break="no"/>sanctus procedit a patre. Nec aliquo 
+      prae<lb ed="#B" n="34" break="no"/>dictorum modorum inuenitur: quod 
+      spiri<lb ed="#B" n="35" break="no"/>fustanctus non procedit a filio: immo 
+      <lb ed="#B" n="36"/>magis uidetur scriptura sacra hoc 
+      innue<lb ed="#B" n="37" break="no"/>re, &amp; dicere: quod scilicet procedat a 
+      filio<lb ed="#B" n="38" break="no"/>ergo graeci sentientes oppositum 
+      ha<lb ed="#B" n="39" break="no"/>bent dicere, quod spiritussanctus procedit a 
+      <lb ed="#B" n="40"/>filio. Maior uidetur esse manifesta: quia 
+      <lb ed="#B" n="41"/>quandocunque aliqua sunt una res 
+      nu<lb ed="#B" n="42" break="no"/>mero simplicissima, &amp; inuisibilis: 
+      quie<lb ed="#B" n="43" break="no"/>quid dicitur de una, dicetur, &amp; de alia: 
+      <lb ed="#B" n="44"/>nisi contrarium aliquo praedictorum 
+      mo<lb ed="#B" n="45" break="no"/>dorum habeatur. Minor deduciposset 
+      <lb ed="#B" n="46"/>ex nultis passibus scripturae. Haec est 
+      ra<lb ed="#B" n="47" break="no"/>tio Ansel. ut dicit doc. in lib. de proces. 
+      <lb ed="#B" n="48"/>spiritustancti, &amp; colligit eam ex dictis suis. 
+      <lb ed="#B" n="49"/>C¶ In solutionibus rationum primae 
+      opi<lb ed="#B" n="50" break="no"/>lpdu octendit doctor, quod ad productionem amo 
+      <lb ed="#B" n="51"/>ut ris non requiritur uerbum: sed sufficit 
+      <!--264.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>obiectum, potentia, &amp;cognitio obiecti, quod 
+      <lb ed="#B" n="53"/>non est uerbum.
+    </p>
+            <p xml:id="gbs333-a44634-d1e272">
+      ¶ In solutione rationum. 
+      <lb ed="#B" n="54"/>Sco. ostendit, quod intellectus, &amp; uoluntas 
+      <lb ed="#B" n="55"/>in deo non sunt duo principia producti 
+      <lb ed="#B" n="56"/>ua: nec habent ordinem inter se. Quod  
+      <lb ed="#B" n="57"/>que ex ordine effectuum non potest 
+      con<lb ed="#B" n="58" break="no"/>cludi similis ordo in causis, ut et supra 
+      <lb ed="#B" n="59"/>pstensum fuit.
+    </p>
+            <p xml:id="gbs333-a44634-d1e288">
+      ¶ Item quod illa 
+      propositio<lb ed="#B" n="60" break="no"/>saecunditas uoluntatis prius conicatur 
+      fi<lb ed="#B" n="61" break="no"/>lio, quam producitur spiritussanctus: est 
+      <lb ed="#B" n="62"/>simpliciter falsa: aut nihil ad propositum. 
+      <lb ed="#B" n="63"/>de signis uero naturae patuit distin. ix q. 
+      <lb ed="#B" n="64"/>iij.
+    </p>
+            <p xml:id="gbs333-a44634-d1e301">
+      ¶ Item quod non oportet esse tantam 
+      <lb ed="#B" n="65"/>distinctionem in relatiuis, sicut in corre 
+      <lb ed="#B" n="66"/>latiuis. Nam generatio actio, &amp; 
+      spira<lb ed="#B" n="67" break="no"/>tio actio, non distinguuntur realiter, &amp; 
+      <lb ed="#B" n="68"/>tamen generatio passio, &amp; spiratio 
+      passio<lb ed="#B" n="69" break="no"/>realiter distinguuntur. Ostendit etiam: 
+      <lb ed="#B" n="70"/>quod intellectus, &amp; uoluntas non sunt in 
+      <lb ed="#B" n="71"/>deo potentiae operatiuae: sed in creatura 
+      <lb ed="#B" n="72"/>sunt operatiuae, &amp; productiuae. Operati 
+      <lb ed="#B" n="73"/>uae actuum immanentium: intellectionis, 
+      <lb ed="#B" n="74"/>&amp; uolitionis, &amp; productione aliquorum 
+      <lb ed="#B" n="75"/>exteriorum: non tamen similis est ordo 
+      pro<lb ed="#B" n="76" break="no"/>ductorum, &amp; operatorum.
+    </p>
+            <p xml:id="gbs333-a44634-d1e330">
+      ¶ Sed dice- 
+      <lb ed="#B" n="77"/>ret aliquis contra praedicta. Nam dicit 
+      <lb ed="#B" n="78"/>sanctus Hiero. in explanatione 
+      sumboli<lb ed="#B" n="79" break="no"/>Credimus, &amp; in spiritum sanctum deum 
+      ue<lb ed="#B" n="80" break="no"/>rum ex patre procedentem, aequalem 
+      per<lb ed="#B" n="81" break="no"/>omnia patri, filioque uoluntate, potesta 
+      <lb ed="#B" n="82"/>te, aeternitate, substantia. Nec est 
+      pror<lb ed="#B" n="83" break="no"/>sus aliquis in trinitate gradus &amp;c. ubi 
+      di<lb ed="#B" n="84" break="no"/>cit spiritum sanctum procedere ex pitre: 
+      <lb ed="#B" n="85"/>non dicit ex patre, &amp; filio procedentem. 
+      <lb ed="#B" n="86"/>Item in sumbolo constantinopositanae 
+      <lb ed="#B" n="87"/>IVnodi: sic legitur. ut recitat sanctus 
+      <lb ed="#B" n="88"/>Thom. ubi supra. j. ij. q. xxxvj. artic. ij. 
+      <lb ed="#B" n="89"/>Credimus in spiritum sanctum dominu, 
+      <lb ed="#B" n="90"/>&amp; uiuificantem ex patre procedentem 
+      <lb ed="#B" n="91"/>cum patre, &amp; filio adorandum &amp;c. Et  
+      <lb ed="#B" n="92"/>in decreto distinctio. xv. canones. S 
+      se<lb ed="#B" n="93" break="no"/>cunda svnodus habetur: quod in hoc 
+      <lb ed="#B" n="94"/>concilio data fuit Iymboliforma, quam 
+      <lb ed="#B" n="95"/>tota latinorum, &amp; graecorum 
+      profes<lb ed="#B" n="96" break="no"/>sio in ecclesijs praedicat. Ergo si 
+      spi<lb ed="#B" n="97" break="no"/>ritussanctus procedit ab utroque: cur 
+      <lb ed="#B" n="98"/>non fuit tunc ex praessum: immo 
+      ui<lb ed="#B" n="99" break="no"/>detur, quod in Iymbolo nostro non 
+      de<lb ed="#B" n="100" break="no"/>buit addi, quod procedat, &amp; a filio: 
+      <lb ed="#B" n="101"/>sed uidentur esse anathematis rei, 
+      qui<lb ed="#B" n="102" break="no"/>hoc addiderunt: aut concilium concilio¬ 
+      <!--265.xml-->
+      <pb ed="#B" n="178"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>n his, quae fidei sunt contradicit.
+    </p>
+            <p xml:id="gbs333-a44634-d1e399">
+      ¶ Ad 
+      <lb ed="#B" n="2"/>idem dicendum: quod concilia temporis 
+      suc<lb ed="#B" n="3" break="no"/>cessu ueritatem catholicam expresserunt. 
+      <lb ed="#B" n="4"/>
+               <lb ed="#B" n="5"/>
+               <lb ed="#B" n="6"/>concilium aliud edidit symboium contra 
+      <lb ed="#B" n="7"/>rium priori: sed nunquam ueritatem 
+      <lb ed="#B" n="8"/>prius non sufficienter expressam expres 
+      <lb ed="#B" n="9"/>sit, &amp; declarauit. Qunque uero ueritatem 
+      <lb ed="#B" n="10"/>nunc: sed non prius impugnatam 
+      defen<lb ed="#B" n="11" break="no"/>dit, dilucidauit &amp;c. Et ubi ueritas non 
+      <lb ed="#B" n="12"/>fuit impugnata: uel forte actu non 
+      cogi<lb ed="#B" n="13" break="no"/>tata, transijtsilentio: parum uel nihil de 
+      <lb ed="#B" n="14"/>hoc determinans, aut scribens. Quia 
+      igi<lb ed="#B" n="15" break="no"/>tur in tempore antiquorum conciliorum 
+      <lb ed="#B" n="16"/>nondum exortus fuerat error dicentium 
+      <lb ed="#B" n="17"/>spiritumsanctum non procedere a 
+      filio<lb ed="#B" n="18" break="no"/>non fuit necessarium, quod hoc explicite 
+      <lb ed="#B" n="19"/>poneretur. Sed postea insurgente erro 
+      <lb ed="#B" n="20"/>re quorundam in quodam concilio in 
+      oc<lb ed="#B" n="21" break="no"/>cidentalibus patribus congregato: ex 
+      <lb ed="#B" n="22"/>pressum fuit auctoritate Romani 
+      ponti<lb ed="#B" n="23" break="no"/>ficis, cuius auctoritate antiqua 
+      concilia<lb ed="#B" n="24" break="no"/>congregabantur: &amp; confirmabantur. 
+      <lb ed="#B" n="25"/>Continebatur tamen implicite in hoc 
+      <lb ed="#B" n="26"/>ipso, quod dicebatur spiritum sanctum 
+      pro<lb ed="#B" n="27" break="no"/>cedere a patre. Haec est sententia 
+      san<lb ed="#B" n="28" break="no"/>ctiTho. ubi supra
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a75891"> <!-- l1d34q1 -->
+            <head xml:id="gbs333-a75891-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a75891-Hd1e104" type="question-title">Utrum persona sit realiter essentia divina</head>
+            <p xml:id="gbs333-a75891-d1e107">
+               <lb ed="#B" n="65"/>unicas 
+      <lb ed="#B" n="66"/>VTRVM persona sit rea 
+      <lb ed="#B" n="67"/>liter essentia diuina.
+    </p>
+            <p xml:id="gbs333-a75891-d1e116">
+      ¶ Ad 
+      <lb ed="#B" n="68"/>istam quaestionem patet 
+      re<lb ed="#B" n="69" break="no"/>sponsio ex praecedenti 
+      qua<lb ed="#B" n="70" break="no"/>stione. Vnde est conclusio 
+      <lb ed="#B" n="71"/>una responsalis, &amp; ista.
+    </p>
+            <p xml:id="gbs333-a75891-d1e128">
+      ¶ Persona 
+      diui<lb ed="#B" n="72" break="no"/>na est realiter diuina essentia. Patet ex 
+      <lb ed="#B" n="73"/>praedictis. Et probatur. Quando 
+      con<lb ed="#B" n="74" break="no"/>stituentia sunt idem realiter inter se, con 
+      <lb ed="#B" n="75"/>stitutum est realiter quodlibet 
+      consti<lb ed="#B" n="76" break="no"/>tuentium: sic est in proposito: ergo &amp;c. 
+      <lb ed="#B" n="77"/>Maior patet: quia sicut ex reali 
+      distin<lb ed="#B" n="78" break="no"/>ctione constituentium inter se infertur 
+      <lb ed="#B" n="79"/>distinctio realis constituti a quolibet  
+      <lb ed="#B" n="80"/>constituentium: ita ex identitate 
+      consti<lb ed="#B" n="81" break="no"/>tuentium inter se, infertur identitas 
+      con<lb ed="#B" n="82" break="no"/>stituti cum quolibet constituentium. 
+      </p>
+            <p xml:id="gbs333-a75891-d1e154">
+               <lb ed="#B" n="83"/>¶ Item ostensum est dist. praecedenti, quod 
+      <lb ed="#B" n="84"/>paternitas est eadem realiter cum 
+      per<lb ed="#B" n="85" break="no"/>sona: ergo similiter essentia est eadem 
+      <lb ed="#B" n="86"/>cum persona realiter: licet 
+      distinguan<lb ed="#B" n="87" break="no"/>tur formaliter: propter quam formalem 
+      <lb ed="#B" n="88"/>distinctionem non quicquid de uno 
+      prae<lb ed="#B" n="89" break="no"/>dicatur; etiam praedicatur de alio. Ideo 
+      <lb ed="#B" n="90"/>multiplicato uno scilicet persona, non oportet 
+      <lb ed="#B" n="91"/>multiplicare essentiam. Nec sequitur, 
+      <lb ed="#B" n="92"/>Essentia, &amp; persona distinguuntur 
+      for<lb ed="#B" n="93" break="no"/>maliter: ergo sapientia, &amp; bonitas 
+      distin<lb ed="#B" n="94" break="no"/>guuntur formaliter. Cuius ratio patuit. 
+      <lb ed="#B" n="95"/>supra dist. ij. quaest. j. Haec est sententia 
+      <lb ed="#B" n="96"/>contentorum in quaest. doct.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

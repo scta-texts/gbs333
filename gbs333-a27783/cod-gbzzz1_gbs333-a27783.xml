@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="110"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a27783"> <!-- l1d3q4 -->
+            <head xml:id="gbs333-a27783-Hd1e102">Quaestio 4</head>
+            <head xml:id="gbs333-a27783-Hd1e104" type="question-title">Utrum Deum esse sit per notum</head>
+            <p xml:id="gbs333-a27783-d1e107">
+               <lb ed="#B" n="92"/>QVAESTIO IIII. 
+      <lb ed="#B" n="93"/>VTRVM deum esse sit per se 
+      <lb ed="#B" n="94"/>notum. Tribus articulis 
+      quae<lb ed="#B" n="95"/>stio terminabitur.
+    </p>
+            <p xml:id="gbs333-a27783-d1e118">
+      ¶ Pro 
+      ar<lb ed="#B" n="96" break="no"/>ticulo primo notandum 
+      pri<lb ed="#B" n="97" break="no"/>mo: quod cum dicitur propositio per se 
+      no<lb ed="#B" n="98" break="no"/>ta: per se notum non primo conuenit 
+      <lb ed="#B" n="99"/>rei: sed propositioni: ut habet doctor. &amp; 
+      <lb ed="#B" n="100"/>post eum <ref xml:id="gbs333-a27783-Rd1e131" target="http://scta.info/resource/qweqwe-e27323-Dd1e3053"><!--target could be more precise; currently at article level -->
+                  <name xml:id="gbs333-a27783-Nd1e134">Petrus de Alia.</name> q. iij. artic. ij.</ref>
+               <!--198.xml-->
+               <pb ed="#B" n="111"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>contra <ref xml:id="gbs333-a27783-Rd1e145">
+                  <name xml:id="gbs333-a27783-Nd1e147">Grego.</name> dist ij. quaest. i. art. j.</ref> 
+      qui<lb ed="#B" n="2" break="no"/>ponit complexe significabilia: &amp; esse 
+      per<lb ed="#B" n="3" break="no"/>se notum attribuit tam propositioni, quod 
+      <lb ed="#B" n="4"/>rei significatae per eam: magis tamen rei, 
+      <lb ed="#B" n="5"/>quam propositioni. utriulque opinionem 
+      <lb ed="#B" n="6"/>recitat <ref xml:id="gbs333-a27783-Rd1e161">
+                  <name xml:id="gbs333-a27783-Nd1e163">Orta.</name> qeiiij. artic. ij.</ref>
+            </p>
+            <p xml:id="gbs333-a27783-d1e168">
+      ¶ 
+      Notan<lb ed="#B" n="7" break="no"/>dum secundo, cum dicitur propositio per 
+      <lb ed="#B" n="8"/>se nota: non excluditur notitia 
+      termino<lb ed="#B" n="9" break="no"/>rum: nec notitia terminorum est causa 
+      <lb ed="#B" n="10"/>sufficiens respectu talis notitiae: sed cum 
+      <lb ed="#B" n="11"/>terminorum notitia, etiam requiritur 
+      <lb ed="#B" n="12"/>formatio propositionis, &amp; ex conse- 
+      <lb ed="#B" n="13"/>quenti uoluntas imperans intellectui, 
+      <lb ed="#B" n="14"/>ut intelligat. Non tamen idem est 
+      pro<lb ed="#B" n="15" break="no"/>positio contingens euidens: &amp; 
+      proposi<lb ed="#B" n="16" break="no"/>tio per se nota: ut patuit. quaest. j 
+      prolo<lb ed="#B" n="17" break="no"/>gi. Nec idem sufficit, &amp; requiritur ad 
+      <lb ed="#B" n="18"/>utrunque ut patuitibidem. at. j. Sed ad hoc, 
+      <lb ed="#B" n="19"/>quod propositio sit per se nota, requiritur: 
+      <lb ed="#B" n="20"/>quod quaecuque terminorum illorum notitia, 
+      <lb ed="#B" n="21"/>siue perfecta, siue impfecta, siue 
+      confu<lb ed="#B" n="22" break="no"/>sa, siue distincta, siue intuitiua, siue 
+      ab<lb ed="#B" n="23" break="no"/>stractiua sufficiat cum propositionis 
+      for<lb ed="#B" n="24" break="no"/>matione ad causandum notitiam euidem 
+      <lb ed="#B" n="25"/>tem talis propositionis. Et dictum est 
+      <lb ed="#B" n="26"/>notanter illorum, &amp; non aliorum 
+      termi<lb ed="#B" n="27" break="no"/>norum: quia non sufficit, nec requiritur 
+      <lb ed="#B" n="28"/>notitia terminorum in uniuersali ad pro-¬ 
+      <lb ed="#B" n="29"/>positionem per se notam proprie 
+      di<lb ed="#B" n="30" break="no"/>ctam. Attamen propositio per se nota 
+      <lb ed="#B" n="31"/>aliquando capitur improprie: ad cuius scilicet 
+      <lb ed="#B" n="32"/>notitiam non sufficit notitia termino 
+      <lb ed="#B" n="33"/>rum incomplexa cum formatione 
+      pro<lb ed="#B" n="34" break="no"/>positionis: sed requiritur aliquid aliud, 
+      <lb ed="#B" n="35"/>Non tamen syllogismus: nec 
+      experien<lb ed="#B" n="36" break="no"/>tia aliqua alicuius extrinseci realis: sed  
+      <lb ed="#B" n="37"/>sufficit sola exemplificatio. Sic illa 
+      dici<lb ed="#B" n="38" break="no"/>tur per se nota ex duabus uniuersalibus 
+      <lb ed="#B" n="39"/>dispositis in modo, &amp; figura sequitur 
+      <lb ed="#B" n="40"/>uniuersalis. Sic quaedam principia 
+      scien<lb ed="#B" n="41" break="no"/>tiarum dicuntur per se nota, quae tamen 
+      <lb ed="#B" n="42"/>non sunt simpliciter euidentia. 
+      Suppo<lb ed="#B" n="43" break="no"/>nitur etiam: quod alius est terminus uniuer 
+      <lb ed="#B" n="44"/>salis: &amp; alius quodlibet sub eo 
+      conten<lb ed="#B" n="45" break="no"/>tum. Item alius diffinitio: alius 
+      diffini<lb ed="#B" n="46" break="no"/>tum. Item alius terminus in propositio 
+      <lb ed="#B" n="47"/>ne deus est, quam format beatus cogno 
+      <lb ed="#B" n="48"/>scens deum in se, &amp; quam nos pro statu 
+      <lb ed="#B" n="49"/>isto formamus: pro quo deum in se non 
+      <lb ed="#B" n="50"/>cognoscimus, nequedistincte: de quo. q. 
+      <lb ed="#B" n="51"/>j. prologi. distin. ij. huius colle.
+    </p>
+            <p xml:id="gbs333-a27783-d1e268">
+      ¶ Tertio 
+      <!--198.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>notandum post dicta in doct. j. prologi. 
+      <lb ed="#B" n="53"/>&amp; in collec. isto ibidem. arti. j. &amp; dub. ij. 
+      <lb ed="#B" n="54"/>quod in descriptione propositionis per se 
+      <lb ed="#B" n="55"/>notae: auctor per terminos (cum dicit: quod 
+      <lb ed="#B" n="56"/>propositio per se nota est, ad cuius 
+      noti<lb ed="#B" n="57" break="no"/>tiam causandum sufficit notitia suorum 
+      <lb ed="#B" n="58"/>terminorum &amp;c.) intelligit quandoque 
+      <lb ed="#B" n="59"/>obiectum repraesentatum per extrema 
+      <lb ed="#B" n="60"/>propositionis, i illud, ad quod termina 
+      <lb ed="#B" n="61"/>tur cognitio subiecti, &amp; praedicati: siue 
+      <lb ed="#B" n="62"/>sit conceptus habens esse obiectiuum: 
+      <lb ed="#B" n="63"/>siue res adextra terminans cognitionem: 
+      <lb ed="#B" n="64"/>siue etiam intelligitur per terminos 
+      co<lb ed="#B" n="65" break="no"/>gnitio, aut intellectio ipsa, unde forma 
+      <lb ed="#B" n="66"/>tur propositio mentalis: ut in dub. ij. q.i. 
+      <lb ed="#B" n="67"/>prologi huius collect. latius patuit. Et  
+      <lb ed="#B" n="68"/>ita ad hoc, quod propositio sit per se nota: 
+      <lb ed="#B" n="69"/>requiritur, quod sit nota apptaehendenti ea 
+      <lb ed="#B" n="70"/>dem obiecta praecise: per quascunque 
+      no<lb ed="#B" n="71" break="no"/>titias siue intuitiuas, siue abstractiuas. 
+      <lb ed="#B" n="72"/>Vnde patet: quod in propositione, quam 
+      <lb ed="#B" n="73"/>format beatus de deo, &amp; quam nos 
+      for<lb ed="#B" n="74" break="no"/>mamus: quia non est idem obiectum in 
+      <lb ed="#B" n="75"/>utrisque ideo non sunt ijdem termini: 
+      <lb ed="#B" n="76"/>quia obiectum propositionis beati est 
+      <lb ed="#B" n="77"/>deus in se, causans distinctam sui 
+      cogni<lb ed="#B" n="78" break="no"/>tionem, quae non repraesentat aliquid  
+      <lb ed="#B" n="79"/>distinctum a deo, saltem unius extremi: 
+      <lb ed="#B" n="80"/>non sic propositionis nostrae (ut ex 
+      prae<lb ed="#B" n="81" break="no"/>ceden. patet) cuius termini, uel saltem 
+      <lb ed="#B" n="82"/>unus est conceptus communis, uel 
+      co<lb ed="#B" n="83" break="no"/>gnitio indistincta.
+    </p>
+            <p xml:id="gbs333-a27783-d1e344">
+      ¶ Quarto notandum, 
+      <lb ed="#B" n="84"/>quod propositio per se nota posset breuius 
+      <lb ed="#B" n="85"/>sic describi. Est propositio necessaria 
+      <lb ed="#B" n="86"/>non dubitabilis. Vel sic. Est propositio 
+      <lb ed="#B" n="87"/>necessaria nota ex terminis suis proprijs 
+      <lb ed="#B" n="88"/>ex quibus componitur. Intelligendo per 
+      <lb ed="#B" n="89"/>terminum cognitionem mentis, uel sibi 
+      <lb ed="#B" n="90"/>subordinatum. per Iy necessarium 
+      ex<lb ed="#B" n="91" break="no"/>cluditur propositio contingens: per id, 
+      <lb ed="#B" n="92"/>quod sequitur propositio dubitabilis. 
+      </p>
+            <p xml:id="gbs333-a27783-d1e366">
+               <lb ed="#B" n="93"/>¶ Pro articulo secundo ponendae sunt 
+      <lb ed="#B" n="94"/>conclusiones, quae potissimum proce- 
+      <lb ed="#B" n="95"/>dunt secundum primam descriptionem 
+      <lb ed="#B" n="96"/>doct. tacta. supra q. j. prologi.
+    </p>
+            <p xml:id="gbs333-a27783-d1e377">
+      ¶ 
+      Con<lb ed="#B" n="97" break="no"/>clusio prima, quam etiam tenet Pet. &amp; 
+      <lb ed="#B" n="98"/>Opta ubi supra est. Propositio deus est. 
+      <lb ed="#B" n="99"/>quam pro statu isto formamus: non est 
+      <lb ed="#B" n="100"/>per se nota. Probatur: quia est 
+      dubita<lb ed="#B" n="101" break="no"/>bilis. Dixit enim insipiens in corde suo: 
+      <lb ed="#B" n="102"/>non est deus. Psal. liij.
+    </p>
+            <p xml:id="gbs333-a27783-d1e393">
+      ¶ Conclusio se¬ 
+      <!--199.xml-->
+      <pb ed="#B" n="112"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cunda, cuius contrarium tenet Grego. 
+      <lb ed="#B" n="2"/>sed Oyta utranque partem habet 
+      proba<lb ed="#B" n="3" break="no"/>bilem: ubi supra. Propositio deus est, qua 
+      <lb ed="#B" n="4"/>format beatus cognoscens diuinam 
+      es<lb ed="#B" n="5" break="no"/>sentiam in se, est per se nota. Probatur:  
+      <lb ed="#B" n="6"/>quia beatus eam formans necessario ei 
+      <lb ed="#B" n="7"/>assentit. Non enim potest dubitare deum 
+      <lb ed="#B" n="8"/>esse, qui habet notitiam dei intuitiuam, 
+      <lb ed="#B" n="9"/>siue abstractiuam.
+    </p>
+            <p xml:id="gbs333-a27783-d1e423">
+      ¶ Conclusio tertia. 
+      <lb ed="#B" n="10"/>Propositio deus est, quam nos habemus: 
+      <lb ed="#B" n="11"/>est demonstrabilis per illam, quam habet 
+      <lb ed="#B" n="12"/>beatus: praedicando in maiori conceptum 
+      <lb ed="#B" n="13"/>esse de conceptu dei, quem format 
+      bea<lb ed="#B" n="14" break="no"/>tus: &amp; subjiciendo respectu eiusdem 
+      con<lb ed="#B" n="15" break="no"/>ceptum dei, quem nos habemus in 
+      mi<lb ed="#B" n="16" break="no"/>nori: &amp; inferendo illam, quam nos 
+      ha<lb ed="#B" n="17" break="no"/>bemus, deus est. Hic enim 
+      conclu<lb ed="#B" n="18" break="no"/>sio dubitabilis infertur ex praemissis per 
+      <lb ed="#B" n="19"/>se notis. Sed quaeritur, cui est 
+      syllogis<lb ed="#B" n="20" break="no"/>mus ille demonstratio: non beato: quia 
+      <lb ed="#B" n="21"/>ille non dubitat conclusionem: nec 
+      uia<lb ed="#B" n="22" break="no"/>tori: quia ille non habet praemissas. 
+      Di<lb ed="#B" n="23" break="no"/>cendum: quod est demonstratio beato: &amp; 
+      <lb ed="#B" n="24"/>licet non dubiter conclusionem: tamen 
+      <lb ed="#B" n="25"/>est dubitabilis sibi, &amp; alijs: quia si beatus 
+      <lb ed="#B" n="26"/>desineret esse beatus: ita quod perderet 
+      no<lb ed="#B" n="27" break="no"/>titiam distinctam diuinae essentiae: posset 
+      <lb ed="#B" n="28"/>eam dubitare: nec oportet ad hoc, quod 
+      <lb ed="#B" n="29"/>syllogismus sit demonstratio: quod 
+      conclu<lb ed="#B" n="30" break="no"/>sio actu dubitetur: sed sufficit: quod sit 
+      dubi<lb ed="#B" n="31" break="no"/>tabilis: ut in doct. habetur in prologo. 
+      </p>
+            <p xml:id="gbs333-a27783-d1e473">
+               <lb ed="#B" n="32"/>¶ Quantum ad articulum tertium est 
+      du<lb ed="#B" n="33" break="no"/>bium contra primas duas conclusiones 
+      <lb ed="#B" n="34"/>Nam illa propositio deus est, quam nos 
+      <lb ed="#B" n="35"/>formamus, est synonyma illi: deus est: 
+      <lb ed="#B" n="36"/>quam beatus format: ergo si una est per 
+      <lb ed="#B" n="37"/>se nota, etiam alia. Antecedens 
+      proba<lb ed="#B" n="38" break="no"/>tur: quia extrema sunt synonyma: nam 
+      <lb ed="#B" n="39"/>utrobique subijcitur ille terminus deus 
+      <lb ed="#B" n="40"/>&amp; utrobique praedicatur uerbum est: uel 
+      <lb ed="#B" n="41"/>participium ens inclusum: &amp; neuter 
+      ae<lb ed="#B" n="42" break="no"/>quiuocatur: ergo sunt synonymi: quia 
+      <lb ed="#B" n="43"/>omne idem signum non aequiuocatum  
+      <lb ed="#B" n="44"/>est sibi synonymum. Nec refert: quod 
+      bea<lb ed="#B" n="45" break="no"/>tus formans illam deus est: uidet 
+      intui<lb ed="#B" n="46" break="no"/>tiue deum: &amp; non uiator eandem 
+      for<lb ed="#B" n="47" break="no"/>mans: quoniam haec propositio Ioannes 
+      <lb ed="#B" n="48"/>currit, eadem est formata a uidente 
+      Ioan<lb ed="#B" n="49" break="no"/>nem currere: &amp; a non uidente. Alioquin 
+      <lb ed="#B" n="50"/>si illa, quae formatur a uidente Ioannem 
+      <lb ed="#B" n="51"/>currere, esset alia: esset per se nota: quia 
+      <!--199.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>omni formanti eam indubitabilis est, &amp; 
+      <lb ed="#B" n="53"/>euidenter nota: quod tamen falsum est: 
+      <lb ed="#B" n="54"/>quia est contingens.
+    </p>
+            <p xml:id="gbs333-a27783-d1e530">
+      ¶ Ad hoc dicendum: 
+      <lb ed="#B" n="55"/>propositio deus est, quam nos 
+      for<lb ed="#B" n="56" break="no"/>mamus non est synonyma ei, quam 
+      bea<lb ed="#B" n="57" break="no"/>tus format: neque extrema sunt 
+      syno<lb ed="#B" n="58" break="no"/>nyma: quia alius conceptus subijcitur in 
+      <lb ed="#B" n="59"/>propositione beati scilicet simplex &amp; 
+      absolu<lb ed="#B" n="60" break="no"/>tus deitatis: &amp; distinctus: &amp; alius in 
+      no<lb ed="#B" n="61" break="no"/>stra: in nostra enim subjicitur conceptus, 
+      <lb ed="#B" n="62"/>uel communis uel connotatiuus, uel 
+      <lb ed="#B" n="63"/>complexus: qui non est synonymus 
+      sub<lb ed="#B" n="64" break="no"/>iecto beati.
+    </p>
+            <p xml:id="gbs333-a27783-d1e554">
+      ¶ Si dicis: deus est terminus 
+      <lb ed="#B" n="65"/>absolutus: &amp; uolo, quod sic accipiatur in 
+      no<lb ed="#B" n="66" break="no"/>stra propositione. Dicendum: quod illa uox 
+      <lb ed="#B" n="67"/>deus potest esse absoluta pro quanto sub 
+      <lb ed="#B" n="68"/>ordinatur conceptui absoluto: sed illum 
+      <lb ed="#B" n="69"/>non potest formare uiator: sed 
+      inquan<lb ed="#B" n="70" break="no"/>tum subordinatur conceptui, quem 
+      for<lb ed="#B" n="71" break="no"/>mat uiator non est absoluta: sed uel 
+      com<lb ed="#B" n="72" break="no"/>plexa uel connotatiua.
+    </p>
+            <p xml:id="gbs333-a27783-d1e574">
+      ¶ Et per hoc ad 
+      <lb ed="#B" n="73"/>illud, quod additur: non refert quod beatus 
+      <lb ed="#B" n="74"/>uidet intuitiue deum &amp;c. Negetur illud: 
+      <lb ed="#B" n="75"/>immo multum refert. Nam propter hoc,  
+      <lb ed="#B" n="76"/>quia beatus uidet: format conceptum 
+      <lb ed="#B" n="77"/>specie distinctum ab eo, quem nos 
+      for<lb ed="#B" n="78" break="no"/>mamus. Et ad probationem ista Ioannes 
+      <lb ed="#B" n="79"/>currit, est eadem: siue formetur a 
+      uiden<lb ed="#B" n="80" break="no"/>ter Ioannem, siue a non uidente. 
+      Re<lb ed="#B" n="81" break="no"/>spondetur uocando easdem 
+      propositio<lb ed="#B" n="82" break="no"/>ne, propositiones synonymas: distinguo: 
+      <lb ed="#B" n="83"/>quia uel non uidens Ioannem currere: 
+      <lb ed="#B" n="84"/>aliquando uidit Ioannem currere: licet  
+      <lb ed="#B" n="85"/>nunc non uideat: &amp; ita ad prolationem 
+      <lb ed="#B" n="86"/>uocis Ioannes format nunc notitiam 
+      <lb ed="#B" n="87"/>abstractiuam distinctam Ioanni: tunc sunt  
+      <lb ed="#B" n="88"/>synonymi. Et licet notitia intuitiua 
+      Io<lb ed="#B" n="89" break="no"/>an. in uidente eum: &amp; abstractiua in non 
+      <lb ed="#B" n="90"/>uidente eum specie differant: sunt tamen 
+      <lb ed="#B" n="91"/>synonymae: ut supra. q. j. prologi. Si uero 
+      <lb ed="#B" n="92"/>non uidens Ioann. currere: nunquam 
+      <lb ed="#B" n="93"/>uidit Ioan. licet formet eandem 
+      uoca<lb ed="#B" n="94" break="no"/>lem Ioannes currit: tamen non eandem 
+      <lb ed="#B" n="95"/>mentalem. Non conceptus, quem ipse 
+      <lb ed="#B" n="96"/>format de Ioanne, non est synonymus 
+      <lb ed="#B" n="97"/>illi, quem format uidens Ioan. 
+      <lb ed="#B" n="98"/>est enim uel 
+      comple<lb ed="#B" n="99" break="no"/>xus, uel 
+      conno<lb ed="#B" n="100" break="no"/>tatiuus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="360"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a91508"> <!-- l1d44prae -->
+            <head xml:id="gbs333-a91508-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a91508-d1e104">
+               <lb ed="#B" n="82"/>DISTINCTIO XLIIII. 
+      <lb ed="#B" n="83"/>HABITUM est a 
+      <lb ed="#B" n="84"/>magistro de 
+      omni<lb ed="#B" n="85" break="no"/>potentia unde 
+      atten<lb ed="#B" n="86" break="no"/>datur, &amp; usquequo 
+      <lb ed="#B" n="87"/>protendatur: nunc 
+      <lb ed="#B" n="88"/>uidendum 
+      quomo<lb ed="#B" n="89" break="no"/>do ea deus 
+      opere<lb ed="#B" n="90" break="no"/>tur. Et possunt colligi conclusiones 
+      i<lb ed="#B" n="91" break="no"/>terales numero tres.
+    </p>
+            <p xml:id="gbs333-a91508-d1e128">
+      ¶ Prima 
+      conclu<lb ed="#B" n="92" break="no"/>sio. Deus melius aliquid facere potest 
+      <lb ed="#B" n="93"/>quam facit, &amp; alio modo facere potest 
+      <lb ed="#B" n="94"/>quam facit.
+    </p>
+            <p xml:id="gbs333-a91508-d1e137">
+      ¶ Secunda conclusio. Deus 
+      <lb ed="#B" n="95"/>semper potest facere quae olim potuit: 
+      <lb ed="#B" n="96"/>uel facta consetuare eadem potentia 
+      <lb ed="#B" n="97"/>qua fecit.
+    </p>
+            <p xml:id="gbs333-a91508-d1e147">
+      ¶ Tertia conclusio. Licet deus 
+      <!--448.xml-->
+      <pb ed="#B" n="361"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>non possit mundum de nouo creare, 
+      po<lb ed="#B" n="2" break="no"/>test tamen eum olim de nouo creatum 
+      <lb ed="#B" n="3"/>lemper conseruare. Declarationes 
+      earun<lb ed="#B" n="4" break="no"/>dem uberiores uide in textu
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

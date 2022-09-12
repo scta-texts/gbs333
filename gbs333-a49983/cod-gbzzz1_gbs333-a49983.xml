@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="198"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a49983"> <!-- l1d16q1 -->
+            <head xml:id="gbs333-a49983-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a49983-Hd1e104" type="question-title">Utrum persona divina visibiliter mittatur</head>
+            <p xml:id="gbs333-a49983-d1e107">
+               <lb ed="#B" n="4"/>unicas 
+      <lb ed="#B" n="5"/>VTRVM persona diuina 
+      <lb ed="#B" n="6"/>uisibiliter mittatur. Tribus 
+      <lb ed="#B" n="7"/>articulis more consueto, 
+      <lb ed="#B" n="8"/>quaestio consummabitur. 
+      </p>
+            <p xml:id="gbs333-a49983-d1e120">
+               <lb ed="#B" n="9"/>¶ Primo ergo pro articulo 
+      <lb ed="#B" n="10"/>primo notandum, quod est duplex spiritus 
+      <lb ed="#B" n="11"/>sancti processio: aeterna, scilicet &amp; 
+      tem<lb ed="#B" n="12" break="no"/>poralis ad sensum expressum distinctio. 
+      <lb ed="#B" n="13"/>xiiij. quaest. i. Aeterna est spiritussancti 
+      <lb ed="#B" n="14"/>a patre, &amp; filio tanquam ab uno spirandi 
+      <lb ed="#B" n="15"/>principio aeterna spiratio. Temporalis 
+      <lb ed="#B" n="16"/>uero notificata est ibidem. Et est 
+      breui<lb ed="#B" n="17" break="no"/>ter productio personae adintra: &amp; 
+      gra<lb ed="#B" n="18" break="no"/>tuita eius existentia in creatura 
+      ratio<lb ed="#B" n="19" break="no"/>nali. Et est duplex sumendo pro eodem 
+      <lb ed="#B" n="20"/>missionem temporalem, &amp; 
+      processio<lb ed="#B" n="21" break="no"/>nem temporalem, scilicet uisibilis, &amp; in 
+      <lb ed="#B" n="22"/>uisibilis. Visibilis est apparitio aliquarum 
+      <lb ed="#B" n="23"/>rerum corporalium circa creaturam 
+      ra<lb ed="#B" n="24" break="no"/>tionalem humanam missionem inuisibi 
+      <lb ed="#B" n="25"/>lem diuine personae eidem creaturae 
+      fa<lb ed="#B" n="26" break="no"/>ctam repraesentans.
+    </p>
+            <p xml:id="gbs333-a49983-d1e163">
+      ¶ Dicitur apparitio 
+      <lb ed="#B" n="27"/>rerum corporalium, idest sensibilium. 
+      Ali<lb ed="#B" n="28" break="no"/>ter enim non posset esse uisibilis diuina 
+      <lb ed="#B" n="29"/>persona.
+    </p>
+            <p xml:id="gbs333-a49983-d1e172">
+      ¶ Dicitur circa creaturam 
+      ra<lb ed="#B" n="30" break="no"/>tionalem: quia non sit missio nisi ad 
+      san<lb ed="#B" n="31" break="no"/>ctificationem creaturae: ut dictum est dist. 
+      <lb ed="#B" n="32"/>xiiij. haec autem solius creaturae 
+      ratio<lb ed="#B" n="33" break="no"/>nalis est.
+    </p>
+            <p xml:id="gbs333-a49983-d1e183">
+      ¶ Dicitur repraesentans &amp;c. ubi 
+      <lb ed="#B" n="34"/>tangitur causa finalis missionis uisibilis. 
+      <lb ed="#B" n="35"/>Inuisibilis uero spiritussancti missio est 
+      <lb ed="#B" n="36"/>hominis per gratiam gratum facientem 
+      <lb ed="#B" n="37"/>adoptatio sine signi alicuius fensibilis 
+      <lb ed="#B" n="38"/>ostensione: quando scilicet 
+      spiritussan<lb ed="#B" n="39" break="no"/>ctus per gratiam: quam inuisibiter 
+      ani<lb ed="#B" n="40" break="no"/>mae infundit: eam illapsu 
+      sanctificati<lb ed="#B" n="41" break="no"/>uo acceptat ad uitam: &amp; in filium 
+      re<lb ed="#B" n="42" break="no"/>gni ac haeredem dei adoptat. Talis 
+      mo<lb ed="#B" n="43" break="no"/>di inuisibilis gratiae collatio, &amp; hominis 
+      <lb ed="#B" n="44"/>per gratiam adoptatio dicitur missio in 
+      <lb ed="#B" n="45"/>uisibilis.
+    </p>
+            <p xml:id="gbs333-a49983-d1e212">
+      ¶ Quomodo autem, &amp; ad quem 
+      <lb ed="#B" n="46"/>sensum haemissiones spiritussancti (
+      uisi<lb ed="#B" n="47" break="no"/>bilis scilicet quae sit signo uisibili: quod tamen 
+      <!--285.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>non est spiritussanctus, &amp; inuisibilis 
+      quae<lb ed="#B" n="49" break="no"/>sit occulte, &amp; sine signo sensibili) 
+      dican<lb ed="#B" n="50" break="no"/>tur duae: sum: potest ex dictis in distinct. 
+      <lb ed="#B" n="51"/>xiiij. q. i.
+    </p>
+            <p xml:id="gbs333-a49983-d1e232">
+      ¶ Secundo notandum, quod  
+      <lb ed="#B" n="52"/>missio uisibilis quandoque sit per reale 
+      <lb ed="#B" n="53"/>assumptionem nature creatae uisibilis in 
+      <lb ed="#B" n="54"/>unitatem personae. Haec missio est filij 
+      <lb ed="#B" n="55"/>incarnatio: de qua lib. iij. Alio modo fic 
+      <lb ed="#B" n="56"/>sine tali assumptione, &amp; de illa est 
+      quae<lb ed="#B" n="57" break="no"/>stio.
+    </p>
+            <p xml:id="gbs333-a49983-d1e248">
+      ¶ Tertio notandum: quod in huiusmo 
+      <lb ed="#B" n="58"/>di signorum sensibilium apparitione seu 
+      <lb ed="#B" n="59"/>inuisibilis spiritussancti missione, non 
+      <lb ed="#B" n="60"/>semper significatur inuisibilis missio tunmc 
+      <lb ed="#B" n="61"/>fieri primo, dum apparent res 
+      corpora<lb ed="#B" n="62" break="no"/>les: sed simpliciter tunc fieri, aut prius 
+      <lb ed="#B" n="63"/>facta fuisse, &amp; adhuc permanere. Vnde 
+      <lb ed="#B" n="64"/>dum uisa est columba de caelo 
+      descen<lb ed="#B" n="65" break="no"/>dere, &amp; super christum manere. 
+      Matth<lb ed="#B" n="66" break="no"/>iij. non tunc primo recepit christus 
+      gra<lb ed="#B" n="67" break="no"/>tiam: neque gratiae augmentum: quam 
+      se<lb ed="#B" n="68" break="no"/>cundum omnem plenitudinem habuit 
+      <lb ed="#B" n="69"/>ab instanti conceptionis suae. Suo 
+      mo<lb ed="#B" n="70" break="no"/>do apostoli in die pentecostes, dum 
+      su<lb ed="#B" n="71" break="no"/>per eapita eorum appatuit ignis, iam 
+      <lb ed="#B" n="72"/>ante habuerunt gratiam: licet tunc 
+      re<lb ed="#B" n="73" break="no"/>ceperint gratiae augmentum.
+    </p>
+            <p xml:id="gbs333-a49983-d1e286">
+      ¶ Quarto 
+      <lb ed="#B" n="74"/>notandum: quod christus tantum 
+      semelui<lb ed="#B" n="75" break="no"/>sibiliter missus est in incarnatione sua, 
+      <lb ed="#B" n="76"/>qua non solum apparuit: sed humanam 
+      <lb ed="#B" n="77"/>naturam in unitatem suppositi nunquam 
+      <lb ed="#B" n="78"/>derelinquendam assumpsit: unde uere 
+      fa<lb ed="#B" n="79" break="no"/>ctus est homo. Spiritussanctus autem 
+      in<lb ed="#B" n="80" break="no"/>quadrumplici specie uisibiliter missus est: 
+      <lb ed="#B" n="81"/>icilicet in specie columbae super 
+      christi<lb ed="#B" n="82" break="no"/>baptixatum apparente in iordane. Mat. 
+      <lb ed="#B" n="83"/>iij. In specie nubis lucidae: in trans 
+      sigu<lb ed="#B" n="84" break="no"/>ratione. Matth. xvij. In specie flatus 
+      sup<lb ed="#B" n="85" break="no"/>stante christo resurgente, &amp; dicente, 
+      <lb ed="#B" n="86"/>Accipite spiritum sanctum: quorum 
+      re<lb ed="#B" n="87" break="no"/>miseritis peccata. Ioann. xx. In specie 
+      <lb ed="#B" n="88"/>ignis, siue linguaeigneae: in die 
+      penteco<lb ed="#B" n="89" break="no"/>stes. Actuum. ij.
+    </p>
+            <p xml:id="gbs333-a49983-d1e323">
+      ¶ In his autem 
+      qua<lb ed="#B" n="90" break="no"/>tuor speciebus missus est: ut signatetur 
+      <lb ed="#B" n="91"/>effectus aliquis specialis per 
+      spiritum<lb ed="#B" n="92" break="no"/>sanctum causatus in receptiuo.
+    </p>
+            <p xml:id="gbs333-a49983-d1e332">
+      ¶ In 
+      <lb ed="#B" n="93"/>specie quidem columbae: columbina 
+      <lb ed="#B" n="94"/>christi significabatur simplicitas, atque 
+      <lb ed="#B" n="95"/>humilitas. In specie nubis lucidae: 
+      esu<lb ed="#B" n="96" break="no"/>cidanda ueritas. In specie ignis: 
+      fer<lb ed="#B" n="97" break="no"/>uida charitas. In figura linguarum, 
+      do<lb ed="#B" n="98" break="no"/>centium praedicatorum integritas. In 
+      <!--286.xml-->
+      <pb ed="#B" n="199"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>specie flatus, affectus uiuacitas. Tlatus 
+      <lb ed="#B" n="2"/>namque de interiori uitae principio 
+      pro<lb ed="#B" n="3" break="no"/>cedit signumque est inexistentis uitae 
+      </p>
+            <p xml:id="gbs333-a49983-d1e361">
+               <lb ed="#B" n="4"/>¶ Quinto notandum, quod 
+      huiusmo<lb ed="#B" n="5" break="no"/>diuisibiles missiones spiritussancti 
+      tan<lb ed="#B" n="6" break="no"/>tum in noua lege factae sunt christo, 
+      di<lb ed="#B" n="7" break="no"/>scipulis, ac credentibus: &amp; non in 
+      ue<lb ed="#B" n="8" break="no"/>teri lege:licet in illa uisiones multae, &amp; 
+      <lb ed="#B" n="9"/>apparitiones patribus, ac populo legun 
+      <lb ed="#B" n="10"/>tur factae: ut nubes protegens filios 
+      Il<lb ed="#B" n="11" break="no"/>rae in deserto a calore solis: atque 
+      i<lb ed="#B" n="12" break="no"/>gnis lucens eis per noctem. ut habetur 
+      <lb ed="#B" n="13"/>Exodi. xiij. Illa tamen non apparue- 
+      <lb ed="#B" n="14"/>runt ad repraesentandum spiritum 
+      san<lb ed="#B" n="15" break="no"/>ctum inuisibiliter missum per donum 
+      <lb ed="#B" n="16"/>charitatis: sed ad alios effectus.
+    </p>
+            <p xml:id="gbs333-a49983-d1e392">
+      ¶ 
+      Ra<lb ed="#B" n="17" break="no"/>tiones autem assignari possunt: quia 
+      <lb ed="#B" n="18"/>non decuit signum plenitudinis gratiae 
+      <lb ed="#B" n="19"/>exhiberi uisibiliter ante rempus 
+      plenitudi<lb ed="#B" n="20" break="no"/>nis gratiae: quod ad Christi aduentum in 
+      <lb ed="#B" n="21"/>cepit: ut uult apost. ad Gal. iiij. Curisto 
+      <lb ed="#B" n="22"/>uero adueniente, missus est 
+      spiritussan<lb ed="#B" n="23" break="no"/>ctus uisibiliter christo, &amp; apostolis. 
+      Chri<lb ed="#B" n="24" break="no"/>sto non in instanti conceptionis, 
+      quo<lb ed="#B" n="25" break="no"/>recepit spiritussancti plenitudinem; sed  
+      <lb ed="#B" n="26"/>dumiam se manifestare tricesimo aeta 
+      <lb ed="#B" n="27"/>tis suae anno incepisset. Et apostolis, 
+      <lb ed="#B" n="28"/>dum statim mittendi erant ad 
+      afferen<lb ed="#B" n="29" break="no"/>dum ministerialiter salutem mundo, 
+      <lb ed="#B" n="30"/>Cuius rationem assignat Durandus in 
+      <lb ed="#B" n="31"/>suo primo distinctio. xvj. Nam 
+      missio<lb ed="#B" n="32" break="no"/>uisibilis sit principaliter ad 
+      significan<lb ed="#B" n="33" break="no"/>dum plenitudinem gratiae christi in eo 
+      <lb ed="#B" n="34"/>cui sit. &amp; hoc secundum, quod potest 
+      <lb ed="#B" n="35"/>in alios redundare.
+    </p>
+            <p xml:id="gbs333-a49983-d1e436">
+      ¶ Gratia christi in 
+      <lb ed="#B" n="36"/>caeteros redundabat tripliciter. 
+      Effe<lb ed="#B" n="37" break="no"/>ctiue principaliter inquantum deus: sed  
+      <lb ed="#B" n="38"/>sic ad eum non sit missio, sed magis sic 
+      <lb ed="#B" n="39"/>mittit: meritorie inquantum homo, 
+      <lb ed="#B" n="40"/>&amp; ministerialiter. Meritorie 
+      redun<lb ed="#B" n="41" break="no"/>dabat in sacramentorum 
+      collationi<lb ed="#B" n="42" break="no"/>bus, quibus efficaciam meruit: ideo 
+      <lb ed="#B" n="43"/>in baptismate (ubi tactu sanctissimae 
+      <lb ed="#B" n="44"/>suae carnis a quis uim contulit re 
+      gene<lb ed="#B" n="45" break="no"/>retiuam: ut dicit Beda) missus est ad 
+      <lb ed="#B" n="46"/>cum spiritussanctus in specie 
+      colum<lb ed="#B" n="47" break="no"/>bae: quod est animal faecundum. In 
+      <lb ed="#B" n="48"/>sua praedicatione redundabat gratia 
+      <lb ed="#B" n="49"/>ministerialiter: quia per eam 
+      homi<lb ed="#B" n="50" break="no"/>num corda ad gratiam disponebantur: 
+      <lb ed="#B" n="51"/>ideo tunc missus fuit spiritussanctus in 
+      <!--286.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>specie nubis lucidae, cuius est 
+      lucent<lb ed="#B" n="53" break="no"/>receptam spargere: quo modo 
+      praedi<lb ed="#B" n="54" break="no"/>catores doctrinam.
+    </p>
+            <p xml:id="gbs333-a49983-d1e485">
+      ¶ Ab apostolis 
+      <lb ed="#B" n="55"/>autem gratia solum redundabat 
+      mini<lb ed="#B" n="56" break="no"/>sterialiter, &amp; hoc uel per 
+      sacramen<lb ed="#B" n="57" break="no"/>torum administrationem: uel uerbi 
+      <lb ed="#B" n="58"/>praedicationem. Propter primum fuit 
+      <lb ed="#B" n="59"/>missus ad eos spiritussanctus in specie 
+      <lb ed="#B" n="60"/>flatus, quando dominus (dicens. Ac 
+      <lb ed="#B" n="61"/>cipite spiritumsanctum: quorum 
+      re<lb ed="#B" n="62" break="no"/>miseritis peccata remittuntur eis) com 
+      <lb ed="#B" n="63"/>misit eis dispensationem facramenta 
+      <lb ed="#B" n="64"/>poenitentiae: quod est magis 
+      necessa<lb ed="#B" n="65" break="no"/>rium sacramentum post baptismum. 
+      <lb ed="#B" n="66"/>&amp; caet. Elatus nihil est eius, qui ssat, 
+      <lb ed="#B" n="67"/>uel spirat. Et in facramentorum 
+      col<lb ed="#B" n="68" break="no"/>latione ministeriali: nihil ex 
+      mini<lb ed="#B" n="69" break="no"/>stri bonitate, uel malitia contrahit 
+      <lb ed="#B" n="70"/>effectus sacramenti. Propter 
+      secun<lb ed="#B" n="71" break="no"/>dum missus est in die pentecostes in 
+      <lb ed="#B" n="72"/>specie linguarum ignitarum, ut 
+      es<lb ed="#B" n="73" break="no"/>sent prossui uerbis, &amp; feruidi 
+      charita<lb ed="#B" n="74" break="no"/>te: atque ad suam, &amp; aliorum salur 
+      <lb ed="#B" n="75"/>tem xelosi.
+    </p>
+            <p xml:id="gbs333-a49983-d1e533">
+      ¶ Pro articulo socundo 
+      <lb ed="#B" n="76"/>est conclusio una. Missio uisibilis 
+      spi<lb ed="#B" n="77" break="no"/>ritussancti, quae inuisibilem eius 
+      missio<lb ed="#B" n="78" break="no"/>nem gratuitam repraesentat: facta est 
+      <lb ed="#B" n="79"/>dumtaxat, in noua lege, Christo 
+      apo<lb ed="#B" n="80" break="no"/>stolis, &amp; credentibus. Patet ex 
+      euan<lb ed="#B" n="81" break="no"/>gelio, &amp; actibus apostolorum Matth. 
+      <lb ed="#B" n="82"/>tertio. Actuum secundo. Gal. quarto. 
+      <lb ed="#B" n="83"/>Et quamuis apparitiones factae sint 
+      pa<lb ed="#B" n="84" break="no"/>tribus in ueteri testamento: non 
+      ta<lb ed="#B" n="85" break="no"/>men principaliter ad significandum 
+      spi<lb ed="#B" n="86" break="no"/>ritussancti missionem inuisibilem: sed  
+      <lb ed="#B" n="87"/>ad alia significanda: ut de igne in 
+      <lb ed="#B" n="88"/>monte Oreb: &amp; de cornuta facie 
+      <lb ed="#B" n="89"/>Mopsi.
+    </p>
+            <p xml:id="gbs333-a49983-d1e566">
+      ¶ Pro articulo tertio 
+      du<lb ed="#B" n="90" break="no"/>bitatur: an ista signa puta colum 
+      <lb ed="#B" n="91"/>ba, ignis, fuerint uere res, uel 
+      appa<lb ed="#B" n="92" break="no"/>ritiones tantum. Dicitur, quod 
+      fue<lb ed="#B" n="93" break="no"/>runt uere ies: sed an tales, quales 
+      <lb ed="#B" n="94"/>apparuerunt, idest an columba 
+      ui<lb ed="#B" n="95" break="no"/>uens; an res habens similia 
+      acciden<lb ed="#B" n="96" break="no"/>tia, &amp; apparentiam columbae: 
+      du<lb ed="#B" n="97" break="no"/>bium est. utrumque esse potuit, &amp; hoc  
+      <lb ed="#B" n="98"/>fuit quod dumo placuit. In illis autem 
+      <lb ed="#B" n="99"/>rebus uisibilibus inuisibile mitti dicitur 
+      <lb ed="#B" n="100"/>non in se: sed in aliquo instituto ad ipsum 
+      <lb ed="#B" n="101"/>significandum, propter aliquas eius 
+      na<lb ed="#B" n="102" break="no"/>turales proprietates. Licet ergo angelo 
+      <!--287.xml-->
+      <pb ed="#B" n="200"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rum ministerio factae fuerint res illae: 
+      <lb ed="#B" n="2"/>non tamen significabant angelum: sed 
+      <lb ed="#B" n="3"/>personam spiritussancti. Et cum non 
+      <lb ed="#B" n="4"/>fuerint assumptae ad agendum aliquid 
+      <lb ed="#B" n="5"/>(sicut huma nitas Christi: qua fuit 
+      hypo<lb ed="#B" n="6" break="no"/>statice assumpta: non sic res illae 
+      uisi<lb ed="#B" n="7" break="no"/>biles) sed ad indicandum solum: non 
+      <lb ed="#B" n="8"/>oportuit, quod durarent diutius, quam 
+      <lb ed="#B" n="9"/>habebant explere suum officium: ita 
+      <lb ed="#B" n="10"/>sentit sanctus Thom. j. ij. quaestio. xliiij. 
+      <lb ed="#B" n="11"/>artic. vij.
+    </p>
+            <p xml:id="gbs333-a49983-d1e627">
+      ¶ Secundum dubium. Ex quo 
+      <lb ed="#B" n="12"/>uisibilis spiritussancti missio, inuisibilem 
+      <lb ed="#B" n="13"/>missionem repraesentat: &amp; non datur 
+      <lb ed="#B" n="14"/>nisi ad repraesentationem missionis 
+      in<lb ed="#B" n="15" break="no"/>uisibilis nunc, uel prius factae, &amp; adhuc 
+      <lb ed="#B" n="16"/>existentis: ergo cui non est facta 
+      mis<lb ed="#B" n="17" break="no"/>sio uisibilis: nec est facta inuisibilis: nec 
+      <lb ed="#B" n="18"/>potest dari ratio, cur non omnibus, 
+      qui<lb ed="#B" n="19" break="no"/>bus datur spiritussanctus inuisibiliter: 
+      si<lb ed="#B" n="20" break="no"/>ue in noua, siue in ueteri lege etiam 
+      <lb ed="#B" n="21"/>datur uisibiliter. Ad hoc dicitur 
+      ne<lb ed="#B" n="22" break="no"/>gando consequentiam. Credimus enim 
+      <lb ed="#B" n="23"/>firmiter multis in ueteri, &amp; noua 
+      lege<lb ed="#B" n="24" break="no"/>inuisibiliter datum spiritum sanctum. 
+      <lb ed="#B" n="25"/>Negatur etiam: quod non sit ratio 
+      di<lb ed="#B" n="26" break="no"/>uersitatis. Nam non est de necessitate 
+      <lb ed="#B" n="27"/>inuisibilis missionis: ut semper 
+      mani<lb ed="#B" n="28" break="no"/>festetur per aliquod signum uisibile ex 
+      <lb ed="#B" n="29"/>terius: sed sicut dicitur. j. Corinth. xij. 
+      <lb ed="#B" n="30"/>Manifestatio spiritus dat alicui ad utili 
+      <lb ed="#B" n="31"/>tatem, scilicet ecclesiae: quaequidem 
+      uti<lb ed="#B" n="32" break="no"/>litas est, ut per huiusmodi uisibilia signa 
+      <lb ed="#B" n="33"/>fides confirmetur, &amp; propagetur. Quod 
+      <lb ed="#B" n="34"/>quidem principaliter factum est per 
+      Chri<lb ed="#B" n="35" break="no"/>stum, &amp; per apostolos: secundum illud 
+      <lb ed="#B" n="36"/>Hebr. ij. Cum initium accepisset 
+      enar<lb ed="#B" n="37" break="no"/>rari per dominum ab eis, qui 
+      audie<lb ed="#B" n="38" break="no"/>runt, in nos confirmata est. Et ideo 
+      spe<lb ed="#B" n="39" break="no"/>cialiter debuit fieri missio uisibilis 
+      spiri<lb ed="#B" n="40" break="no"/>tussancti ad christum, &amp; ad apostolos, 
+      <lb ed="#B" n="41"/>&amp; ad aliquos primitiuos sanctos, in 
+      qui<lb ed="#B" n="42" break="no"/>bus quodammodo ecclesia fundabatur. 
+      <lb ed="#B" n="43"/>Ita tamen, quod uisibilis missio facta 
+      <lb ed="#B" n="44"/>ad christum, demonstraret missionem 
+      <lb ed="#B" n="45"/>inuisibilem: non tunc, sed in 
+      <lb ed="#B" n="46"/>principio suae 
+      conceptio<lb ed="#B" n="47" break="no"/>nis ad eum 
+      fa<lb ed="#B" n="48" break="no"/>ctam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="123"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a30900"> <!-- l1d3q9 -->
+            <head xml:id="gbs333-a30900-Hd1e102">Quaestio 9</head>
+            <head xml:id="gbs333-a30900-Hd1e104" type="question-title">Utrum in omni creatura sit vestigium trinitatis</head>
+            <p xml:id="gbs333-a30900-d1e107">
+               <lb ed="#B" n="7"/>QVAESTIO IX
+      <lb ed="#B" n="8"/>VTRVM in omni creatura 
+      <lb ed="#B" n="9"/>sit uestigium trinitatis.
+    </p>
+            <p xml:id="gbs333-a30900-d1e116">
+      ¶ 
+      Ter<lb ed="#B" n="10" break="no"/>minorum declaratione, 
+      con<lb ed="#B" n="11" break="no"/>clusionum illatione, &amp; 
+      du<lb ed="#B" n="12" break="no"/>biorum solutione 
+      quaestio<lb ed="#B" n="13" break="no"/>ti. I. terminabitur.
+    </p>
+            <p xml:id="gbs333-a30900-d1e128">
+      ¶ Pro articulo primo: quia 
+      <lb ed="#B" n="14"/>Aomnes transferentes secundum aliquam 
+      <lb ed="#B" n="15"/>similitudinem se transferunt: uidendum 
+      <lb ed="#B" n="16"/>est primo de uestigio &amp; imagine in cor 
+      <lb ed="#B" n="17"/>poribus, in quibus proprie inueniuntur 
+      <lb ed="#B" n="18"/>Secundo modo, quomodo 
+      transferun<lb ed="#B" n="19" break="no"/>tur respectu dei: ex quibus omnibus 
+      po<lb ed="#B" n="20" break="no"/>terit elici eorundem notificatio; &amp; de 
+      <lb ed="#B" n="21"/>i. i scriptio.
+    </p>
+            <p xml:id="gbs333-a30900-d1e148">
+      ¶ Est ergo primo notandum: 
+      <lb ed="#B" n="22"/>quod uestigium, &amp; imago in quibusdam 
+      con<lb ed="#B" n="23" break="no"/>ueniunt: in quibusdam differunt.
+    </p>
+            <p xml:id="gbs333-a30900-d1e155">
+      ¶ 
+      Con<lb ed="#B" n="24" break="no"/>ueniunt in tribus. Primo, quia utrunque 
+      <lb ed="#B" n="25"/>distinguitur ab eo, cuius est imago, uel 
+      <lb ed="#B" n="26"/>uestigium. Secundo: quia utrunque 
+      na<lb ed="#B" n="27" break="no"/>tum est ducere in notitiam illius, cuius 
+      <lb ed="#B" n="28"/>est uestigium, aut imago.
+    </p>
+            <p xml:id="gbs333-a30900-d1e168">
+      ¶ Procuius in 
+      <lb ed="#B" n="29"/>tellectu considerandum: quod aliqud dupliciter 
+      <lb ed="#B" n="30"/>ducit in notitiam alterius. Vno modo 
+      im<lb ed="#B" n="31" break="no"/>mediate id est sine alia notitia media, sic 
+      ui<lb ed="#B" n="32" break="no"/>intellectus tanquam causa ducit in notitiam 
+      <lb ed="#B" n="33"/>cuiuslibet intelligibilis: sic spens 
+      intellig<lb ed="#B" n="34" break="no"/>biles secundum ponentes eas: &amp; obiectum 
+      <lb ed="#B" n="35"/>in notitiam sui intuitiua. Alio modo 
+      me<lb ed="#B" n="36" break="no"/>diate scilicet mediante sui notitia, ita 
+      <lb ed="#B" n="37"/>quod sua notitia est causa notitiae alterius. 
+      <lb ed="#B" n="38"/>Et hoc contingit dupliciter. Vel enim 
+      <lb ed="#B" n="39"/>ducit in primam notitiam alterius: sic 
+      <lb ed="#B" n="40"/>ressingularis mediante sua notitia 
+      sin<lb ed="#B" n="41" break="no"/>gulari est causa primae notitiae, 
+      uniuer<lb ed="#B" n="42" break="no"/>ialis: &amp; praemissae, causant notitiam 
+      con<lb ed="#B" n="43" break="no"/>clusionis. Et illo modo notitia unius 
+      <lb ed="#B" n="44"/>rei incomplexa nunquam est causa 
+      suf<lb ed="#B" n="45" break="no"/>ficiens cum intellectu: &amp; his, quae 
+      <lb ed="#B" n="46"/>ex parte potentiae requiruntur notitiae 
+      <lb ed="#B" n="47"/>incomplexae alterius. Secundo modo 
+      ali<lb ed="#B" n="48" break="no"/>quid ducit in notitiam alterius 
+      reme<lb ed="#B" n="49" break="no"/>nioratiuam rei habitualiter notae, &amp; hoc  
+      <lb ed="#B" n="50"/>modo tantum uestigium, &amp; imago du¬ 
+      <!--210.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>cunt in notitiam eius, cuius sunt 
+      uesti<lb ed="#B" n="52" break="no"/>gium, &amp; imago: licet ergo utrumque 
+      du<lb ed="#B" n="53" break="no"/>cat in cognitionem eius, cuius est 
+      ima<lb ed="#B" n="54" break="no"/>go, uel uestigium: non tamen immediate 
+      <lb ed="#B" n="55"/>sicut notitia praemissarum in notitiam 
+      con<lb ed="#B" n="56" break="no"/>clusionis: uel species intelligibiles in 
+      no<lb ed="#B" n="57" break="no"/>titiam rei, quam repraesentant: sed 
+      me<lb ed="#B" n="58" break="no"/>diante sui notitia primo obiectiuae 
+      co<lb ed="#B" n="59" break="no"/>gnitae. Nec in notitiam primam 
+      uesti<lb ed="#B" n="60" break="no"/>giati, uel rei, cuius est imago: quia nunquam 
+      <lb ed="#B" n="61"/>unius rei notitia est causa respectu prime 
+      <lb ed="#B" n="62"/>notitiae alterius rei incomplexae.
+    </p>
+            <p xml:id="gbs333-a30900-d1e249">
+      ¶ Etiam 
+      <lb ed="#B" n="63"/>experientia docet: quantumcumque quis 
+      ui<lb ed="#B" n="64" break="no"/>derit uestigium pantherae quam prius 
+      nun<lb ed="#B" n="65" break="no"/>quam nouit. uel statuam Caesaris, quem 
+      <lb ed="#B" n="66"/>nunquam uidit: non per hoc ducetur in 
+      no<lb ed="#B" n="67" break="no"/>titiam pantherae, uel Caesaris. Ducunt 
+      er<lb ed="#B" n="68" break="no"/>go notitiam reiiam habitualiter 
+      notaere<lb ed="#B" n="69" break="no"/>memoratiuam, ita quod notitia habitualis 
+      <lb ed="#B" n="70"/>concurrit in ratione causae partialis.
+    </p>
+            <p xml:id="gbs333-a30900-d1e269">
+      ¶ 
+      Ter<lb ed="#B" n="71" break="no"/>tia conditio conuenientiae imaginis, &amp; 
+      <lb ed="#B" n="72"/>uestigij est: quod tam uestigium, quam imago 
+      <lb ed="#B" n="73"/>ex natura sua non plus repraesentant unum 
+      <lb ed="#B" n="74"/>indiuiduum, quam aliud sibi simillimum 
+      <lb ed="#B" n="75"/>Vnde si essent sortes, &amp; praelato in 
+      cor<lb ed="#B" n="76" break="no"/>poralibus dispositionibus simillimi: non 
+      <lb ed="#B" n="77"/>plus repraesentaret statua sortem quam 
+      <lb ed="#B" n="78"/>Platonem. immo si aliquis uidisset 
+      Pla<lb ed="#B" n="79" break="no"/>tonem, &amp; non sortem, uisa statua sortis 
+      <lb ed="#B" n="80"/>duceretur in rememorationem 
+      Plato<lb ed="#B" n="81" break="no"/>nis. Quod ergo imago ducit frequenter 
+      <lb ed="#B" n="82"/>in notitiam certi indiuidui: ex eo est, quod 
+      <lb ed="#B" n="83"/>raro reperiuntur indiuidua sibi similli 
+      <lb ed="#B" n="84"/>ma: sicut si aliques bos haberet peden alijs 
+      <lb ed="#B" n="85"/>dissimilem: uestigium etiam 
+      repraesenta<lb ed="#B" n="86" break="no"/>ret hunc bouem, &amp; non alios:
+    </p>
+            <p xml:id="gbs333-a30900-d1e307">
+      ¶ 
+      Diffe<lb ed="#B" n="87" break="no"/>runt similiter in tribus. Nam de ratione 
+      <lb ed="#B" n="88"/>uestigij est, quod sit causatumab eo, cuius 
+      <lb ed="#B" n="89"/>est: ideo si artifex describeret pedem 
+      bo<lb ed="#B" n="90" break="no"/>uis in puluere: non esset uestigium bouis: 
+      <lb ed="#B" n="91"/>non aunt de ratione imaginis.
+    </p>
+            <p xml:id="gbs333-a30900-d1e320">
+      ¶ Secundo: quia 
+      <lb ed="#B" n="92"/>uestigium non solum ducit in cognitionem 
+      <lb ed="#B" n="93"/>incomplexam uestigiati: sed etiam natum est 
+      <lb ed="#B" n="94"/>ducere in cognitionem alicuius 
+      complexi<lb ed="#B" n="95" break="no"/>propotinnis scilicet contingentis significantis 
+      cauam<lb ed="#B" n="96" break="no"/>suam ibi fuisse, uel transisse, aut similis. Vn 
+      <lb ed="#B" n="97"/>uidens uestigium bouis non solum recor 
+      <lb ed="#B" n="98"/>datur bouis prius habitualiter noti¬: 
+      <lb ed="#B" n="99"/>sed etiam assentit huic, bos hic 
+      tran<lb ed="#B" n="100" break="no"/>siuit: imago uero non sic.
+    </p>
+            <p xml:id="gbs333-a30900-d1e342">
+      ¶ Tertio 
+      diffe<lb ed="#B" n="101" break="no"/>runt: quia uestigium proprie captum est impssio¬ 
+      <!--211.xml-->
+      <pb ed="#B" n="124"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>partis: &amp; ita primo in memoriam partis 
+      <lb ed="#B" n="2"/>ducit: &amp; mediante illa in notitiam 
+      to<lb ed="#B" n="3" break="no"/>tius: non dico arguitiuem: sed imago, cum 
+      <lb ed="#B" n="4"/>sit quaedam configuratio totius, primo 
+      <lb ed="#B" n="5"/>ducit in notitiam totius: &amp; non in 
+      noti<lb ed="#B" n="6" break="no"/>tiam alicuius certae partis primo.
+    </p>
+            <p xml:id="gbs333-a30900-d1e366">
+      ¶ 
+      Se<lb ed="#B" n="7" break="no"/>cundo notandum: quod uestigium in 
+      crea<lb ed="#B" n="8" break="no"/>turis tripliciter capitur. Vno modo 
+      lar<lb ed="#B" n="9" break="no"/>ge: &amp; sic est effectus derelictus ex aliqua 
+      <lb ed="#B" n="10"/>causa rememoratiuus ipsius ducens 
+      ex<lb ed="#B" n="11" break="no"/>commum lege in adhaesionem alicuius 
+      <lb ed="#B" n="12"/>propositionis contingentis enunciantis 
+      <lb ed="#B" n="13"/>esse, fuisse: uel aliquid tale de causa ista, 
+      <lb ed="#B" n="14"/>Hoc modo fuimus, uel adustio derelicta 
+      <lb ed="#B" n="15"/>ex igne, dicitur ueltigium ignis: &amp; odor 
+      <lb ed="#B" n="16"/>aliquando derelictus ex animali 
+      tran<lb ed="#B" n="17" break="no"/>seunte dicitur uestigium eius.
+    </p>
+            <p xml:id="gbs333-a30900-d1e392">
+      ¶ Secundo 
+      <lb ed="#B" n="18"/>modo capitur magis stricte pro 
+      impres<lb ed="#B" n="19" break="no"/>sione alicuius, in aliquod sibi cedens, 
+      re<lb ed="#B" n="20" break="no"/>manens in sui absentia, ducens &amp;c. Hoc 
+      <lb ed="#B" n="21"/>modo in cera relinquitur sigilli 
+      uesti<lb ed="#B" n="22" break="no"/>gium: &amp; in luto, quo sus totus se 
+      uolue<lb ed="#B" n="23" break="no"/>rat uestigium porci. Verum quod 
+      impres<lb ed="#B" n="24" break="no"/>sio sigilli in cera dicitur imago:licet non 
+      <lb ed="#B" n="25"/>propriissime capiendo imaginem.
+    </p>
+            <p xml:id="gbs333-a30900-d1e412">
+      ¶ Ter 
+      <lb ed="#B" n="26"/>tio modo capitur strictissime &amp; proprie: 
+      <lb ed="#B" n="27"/>sic est impraessio partis alicuius totius in 
+      <lb ed="#B" n="28"/>aliquod sibi cedens, remanens in 
+      absen<lb ed="#B" n="29" break="no"/>tia cius, rememoratiuum eius &amp;c. ut 
+      su<lb ed="#B" n="30" break="no"/>pra. Et patent in hac descriptione 
+      con<lb ed="#B" n="31" break="no"/>ditiones prius positae.
+    </p>
+            <p xml:id="gbs333-a30900-d1e429">
+      ¶ Tertio notandum 
+      <lb ed="#B" n="32"/>quod imago dicitur quasi imitago. Et 
+      secun<lb ed="#B" n="33" break="no"/>dum quod reperitur in creaturis tripliciter 
+      <lb ed="#B" n="34"/>accipitur. Vno modo propriissime pro 
+      <lb ed="#B" n="35"/>substantia formata ab artifice ad 
+      simili<lb ed="#B" n="36" break="no"/>tudinem alterius secundum aliqua 
+      acci<lb ed="#B" n="37" break="no"/>dentia eiusdem speciei cum 
+      accidenti<lb ed="#B" n="38" break="no"/>bus eius, ad cuius imitationem formatur: 
+      <lb ed="#B" n="39"/>ducens in notitiam rememoratiuam eius 
+      <lb ed="#B" n="40"/>magis distinctam, qua scilicet 
+      repraesen<lb ed="#B" n="41" break="no"/>tatur ut distinctum ab aliis talia 
+      acciden<lb ed="#B" n="42" break="no"/>tia non habentibus. Vel sic est 
+      substan<lb ed="#B" n="43" break="no"/>tia formata abartifice ad similitudinem 
+      <lb ed="#B" n="44"/>alterius secundum aliqua accidentia 
+      con<lb ed="#B" n="45" break="no"/>formia: &amp; eiusdem speciei cum 
+      acciden<lb ed="#B" n="46" break="no"/>tibus eius, adcuius similitudinem 
+      for<lb ed="#B" n="47" break="no"/>matur distincte ipsum ab aliis in 
+      aliqui<lb ed="#B" n="48" break="no"/>bus accidentibus dissimilibus 
+      repraesen<lb ed="#B" n="49" break="no"/>tans. Particulae patent.
+    </p>
+            <p xml:id="gbs333-a30900-d1e471">
+      ¶ Ex illa 
+      descri<lb ed="#B" n="50" break="no"/>scriptione sequitur: quod imago non est 
+      pri<lb ed="#B" n="51" break="no"/>mo similitudo totius: sed est primo simi¬ 
+      <!--211.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>litudo accidentium: quia accidentia in 
+      ima<lb ed="#B" n="53" break="no"/>gine, &amp; prototypo sunt eiusdem rationis 
+      <lb ed="#B" n="54"/>non substantiae, saltem non oportet: ut  
+      <lb ed="#B" n="55"/>patet de statua herculis, quae quantum 
+      <lb ed="#B" n="56"/>ad figuram, &amp; colo em est eiusdem 
+      ra<lb ed="#B" n="57" break="no"/>tionis cum hercuse: non quantum ad sub 
+      <lb ed="#B" n="58"/>iectum.
+    </p>
+            <p xml:id="gbs333-a30900-d1e497">
+      ¶ Secundo sequitur: quod hoc 
+      mo<lb ed="#B" n="59" break="no"/>do capiendo imaginem, de ratione eius 
+      <lb ed="#B" n="60"/>est, quod fiat ad imitationem prototypi¬ 
+      </p>
+            <p xml:id="gbs333-a30900-d1e504">
+               <lb ed="#B" n="61"/>¶ Secundo modo capitur imago pro 
+      ta<lb ed="#B" n="62" break="no"/>li formato: siue fiat ad imitationem 
+      alte<lb ed="#B" n="63" break="no"/>rius, siue non,. quo modo duo homines 
+      <lb ed="#B" n="64"/>multum similes dicuntur alter alterius 
+      <lb ed="#B" n="65"/>imago.
+    </p>
+            <p xml:id="gbs333-a30900-d1e517">
+      ¶ Tertio modo capitur pro 
+      uni<lb ed="#B" n="66" break="no"/>uoce producto ab alio: quod secundum 
+      <lb ed="#B" n="67"/>rationem suae productionis producitur, 
+      <lb ed="#B" n="68"/>ut simile. Illo modo filius dicitur imago 
+      <lb ed="#B" n="69"/>patris.
+    </p>
+            <p xml:id="gbs333-a30900-d1e528">
+      ¶ Nunc pro secunda parte 
+      arti<lb ed="#B" n="70" break="no"/>culi primi uidendum est: quomodo haec 
+      <lb ed="#B" n="71"/>dicuntur respectu dei. Pro quo 
+      notan<lb ed="#B" n="72" break="no"/>dum quarto: quod trinitatem in diuinis 
+      du<lb ed="#B" n="73" break="no"/>pliciter concipimus. Quandoque mul 
+      <lb ed="#B" n="74"/>tum imperfecte per conceptus 
+      commu<lb ed="#B" n="75" break="no"/>nes omnibus personis qui tamen 
+      appto<lb ed="#B" n="76" break="no"/>prianturplus uni personae: quam alteri: 
+      <lb ed="#B" n="77"/>ut conceptus potentic patri: sapientiae 
+      <lb ed="#B" n="78"/>filio: bonitatis spirituisancto: quilibet 
+      ta<lb ed="#B" n="79" break="no"/>men supponit pro qualibet persona. 
+      In<lb ed="#B" n="80" break="no"/>telligimus, ergo per hos trinitatem: sed  
+      <lb ed="#B" n="81"/>multum confuse pro quanto 
+      approprian<lb ed="#B" n="82" break="no"/>tur distinctis personis. Alio modo 
+      ma<lb ed="#B" n="83" break="no"/>gis perfecte intelligimus trinitatem 
+      per<lb ed="#B" n="84" break="no"/>conceptus proprios, &amp; relatiuos, quorum 
+      <lb ed="#B" n="85"/>unus est proprius uni personae, &amp; non 
+      <lb ed="#B" n="86"/>supponit pro alia: ut conceptus patris, &amp; 
+      <lb ed="#B" n="87"/>filij, &amp; spiritussancti. Item generantis 
+      ge<lb ed="#B" n="88" break="no"/>niti procedentis. Item producentis non 
+      <lb ed="#B" n="89"/>producti, producti ab uno tantum: 
+      pro<lb ed="#B" n="90" break="no"/>ducti a duobus: his tribus intelligimus 
+      <lb ed="#B" n="91"/>tres personas realiter distinctas.
+    </p>
+            <p xml:id="gbs333-a30900-d1e579">
+      ¶ 
+      Pos<lb ed="#B" n="92" break="no"/>sumus ergo in creatura considerare quaem 
+      <lb ed="#B" n="93"/>dam, quibus ducimur in notitiam 
+      reme<lb ed="#B" n="94" break="no"/>moratiuam appropriatorum diuinorum. 
+      <lb ed="#B" n="95"/>In perfectioribus uero creaturis, 
+      possu<lb ed="#B" n="96" break="no"/>mus considerare aliqua, quibus possumus 
+      <lb ed="#B" n="97"/>duci in notitiam rememoratiuam 
+      pro<lb ed="#B" n="98" break="no"/>priorum. idest aliqua distincta, quorum 
+      <lb ed="#B" n="99"/>unum producit, non producitur: aliud 
+      <lb ed="#B" n="100"/>ab illo uno producitur: tertium ab utro 
+      <lb ed="#B" n="101"/>que: ut mens, notitia, amor, quae quia 
+      <lb ed="#B" n="102"/>sunt simul in eodem habent aliquam 
+      <!--212.xml-->
+      <pb ed="#B" n="125"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>consubstantialitate. Et ita ducunt in 
+      me<lb ed="#B" n="2" break="no"/>moriam propriorum id est patris non 
+      produ<lb ed="#B" n="3" break="no"/>sti: filij a solo patre geniti: &amp; 
+      spiritussan<lb ed="#B" n="4" break="no"/>cti procedentis ab utroque: qui sunt 
+      ue<lb ed="#B" n="5" break="no"/>re consubstantiales: quia una eadem que 
+      <lb ed="#B" n="6"/>essentia. Primum in creatura dicitur 
+      ue<lb ed="#B" n="7" break="no"/>stigium. Secundum imago. Quae tunc 
+      <lb ed="#B" n="8"/>magis proprie dicitur imago, quando ea, 
+      <lb ed="#B" n="9"/>quae in ea considerantur, habent ordinem 
+      <lb ed="#B" n="10"/>ad diuina: ita quod per ea creatura potest 
+      <lb ed="#B" n="11"/>capere deum intelligendo, &amp; amando. 
+      <lb ed="#B" n="12"/>Et sic proprie non inuenitur nisi in crea 
+      <lb ed="#B" n="13"/>tura rationali, &amp; eius parte excessentiori. 
+      <lb ed="#B" n="14"/>idest rationis superiori parte, quae capax 
+      <lb ed="#B" n="15"/>est aeternorum.
+    </p>
+            <p xml:id="gbs333-a30900-d1e644">
+      ¶ Ex his potest colligi 
+      <lb ed="#B" n="16"/>notificatio ut riusque tam uestigij, quam 
+      <lb ed="#B" n="17"/>maginis. Remotiores enim 
+      similitudi<lb ed="#B" n="18" break="no"/>nes creaturae ad deum dicuntur uestigium 
+      <lb ed="#B" n="19"/>propinquiores uero imago.
+    </p>
+            <p xml:id="gbs333-a30900-d1e655">
+      ¶ Est ergo 
+      <lb ed="#B" n="20"/>uestigium similitudo dei imperfecta 
+      re<lb ed="#B" n="21" break="no"/>perta in creatura nata ducere in 
+      cogni<lb ed="#B" n="22" break="no"/>tionem recordatiuam appropriatorum, 
+      <lb ed="#B" n="23"/>uel alicuius proprij: sed non propriorum 
+      <lb ed="#B" n="24"/>trium personarum. Patet descriptio ex 
+      <lb ed="#B" n="25"/>dictis, &amp; praesertim quantum ad hoc, quod 
+      <lb ed="#B" n="26"/>dicitur uel proprij. Nam creatura 
+      cons<lb ed="#B" n="27" break="no"/>derata ut de se generat sibi simile in 
+      na<lb ed="#B" n="28" break="no"/>tura praecise, ducit in notitiam 
+      genera<lb ed="#B" n="29" break="no"/>tionis actiue in diuinis, quae est 
+      proprie<lb ed="#B" n="30" break="no"/>tas personalis patris: &amp; tamen ut sic est 
+      <lb ed="#B" n="31"/>uestigium: quia non imago: ergo 
+      uesti<lb ed="#B" n="32" break="no"/>gium. Tenet consequentia: quia omne 
+      <lb ed="#B" n="33"/>ducens in notitiam dei uel est imago, uel 
+      <lb ed="#B" n="34"/>uestigium.
+    </p>
+            <p xml:id="gbs333-a30900-d1e690">
+      ¶ Iinago sic potest 
+      notifica<lb ed="#B" n="35" break="no"/>ri: est similtudo dei reperta in creaturis 
+      <lb ed="#B" n="36"/>nata ducere in cognitionem 
+      recordati<lb ed="#B" n="37" break="no"/>uam propriorum distinguentium perso 
+      <lb ed="#B" n="38"/>nas, &amp; unitatis essentiae cum quadam 
+      sui<lb ed="#B" n="39" break="no"/>imitatione prout id in sermonibus de 
+      <lb ed="#B" n="40"/>festo trinitatis latius, &amp; clarius 
+      expres<lb ed="#B" n="41" break="no"/>si.
+    </p>
+            <p xml:id="gbs333-a30900-d1e708">
+      ¶ Quantum ad articulum secundum 
+      <lb ed="#B" n="42"/>est conclusio prima. Quaelibet creatura 
+      <lb ed="#B" n="43"/>potest aliquo modo esse uestigium 
+      trini<lb ed="#B" n="44" break="no"/>tatis. Probatur: quia cuiuslibet 
+      creatu<lb ed="#B" n="45" break="no"/>rae appropriata perducunt in notitiam 
+      <lb ed="#B" n="46"/>recordatiuam appropriatorum diuinis 
+      <lb ed="#B" n="47"/>personis. Verbigratia. Habens in se con 
+      <lb ed="#B" n="48"/>ceptum pulchritudinis abstractum a 
+      spe<lb ed="#B" n="49" break="no"/>cie sine pulchritudine creaturae (quae est 
+      <lb ed="#B" n="50"/>appropriatum diuinae personae) dum 
+      oc<lb ed="#B" n="51" break="no"/>turrit pulchra creatura: incipit intelle¬ 
+      <!--212.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ctus cogitare de pulchritudine diuina. 
+      </p>
+            <p xml:id="gbs333-a30900-d1e739">
+               <lb ed="#B" n="53"/>¶ Secunda conclusio. Proprie 
+      loquen<lb ed="#B" n="54" break="no"/>do nulla creatura est uestigium 
+      trinita<lb ed="#B" n="55" break="no"/>tis: sed solum improprie metaphorice, 
+      <lb ed="#B" n="56"/>aut transsumptiue, quia conuenit cum 
+      <lb ed="#B" n="57"/>uestigio corporali in multis. Primo: quia 
+      <lb ed="#B" n="58"/>ducit in notitiam recordatiuam alicuius 
+      <lb ed="#B" n="59"/>appropriati diuinae personae. Secundo: 
+      <lb ed="#B" n="60"/>quia sicut uestigium corporale tantum 
+      <lb ed="#B" n="61"/>est ab eocuius est uestigium: ita 
+      creatu<lb ed="#B" n="62" break="no"/>ra causata est a deo. Tertio sicut 
+      uesti<lb ed="#B" n="63" break="no"/>gium corporale ducit in notitiam 
+      con<lb ed="#B" n="64" break="no"/>tingentis ueritatis complexe: ita creatu 
+      <lb ed="#B" n="65"/>ra ducit in notitiam ueritatis 
+      contingen<lb ed="#B" n="66" break="no"/>tis de deo scilicet quod deus creauit &amp;c. Quarto: 
+      <lb ed="#B" n="67"/>quia sicut uestigium conuenit cum uesti 
+      <lb ed="#B" n="68"/>giato quantum ad aliqua accidentia &amp; 
+      <lb ed="#B" n="69"/>nunquam quantum ad omnia: ita 
+      creatu<lb ed="#B" n="70" break="no"/>ra uniuocatur cum deo in aliquibus 
+      con<lb ed="#B" n="71" break="no"/>ceptibus conmunibus &amp; in aliquibus non 
+      <lb ed="#B" n="72"/>scilicet proprijs. Quinto: quia sicut uestigium 
+      <lb ed="#B" n="73"/>corporale est aliqualis similitudo &amp; non 
+      <lb ed="#B" n="74"/>omnimodauestigiata: ita creatura 
+      respe<lb ed="#B" n="75" break="no"/>ctu dei.
+    </p>
+            <p xml:id="gbs333-a30900-d1e792">
+      ¶ Pro articulo tertio dubitatur 
+      <lb ed="#B" n="76"/>in qubus proprietatibus quae sunt in crea 
+      <lb ed="#B" n="77"/>tura consistit ratio uestigij. Respondet: 
+      <lb ed="#B" n="78"/>quod aliquando in realiter distinctis: quia 
+      <lb ed="#B" n="79"/>aliquando substantia aliqua rei alicuius 
+      <lb ed="#B" n="80"/>significat appropriatum patri, quomoque aliqua 
+      <lb ed="#B" n="81"/>qualitas uel unum accidens speciali 
+      mo<lb ed="#B" n="82" break="no"/>dore praesentat appropriatum filio: &amp; aliud  
+      <lb ed="#B" n="83"/>accidens alia ratione repsentat appropriatum 
+      <lb ed="#B" n="84"/>spiritui lancto. Sic considerando in crea 
+      <lb ed="#B" n="85"/>tura unitatem substantiae, speciem &amp; 
+      ordi<lb ed="#B" n="86" break="no"/>nem: quibus in recordationem uenit 
+      <lb ed="#B" n="87"/>unitas principij quae attribuitur patri: 
+      <lb ed="#B" n="88"/>species, uel pulchritudo, quae attribuitur 
+      <lb ed="#B" n="89"/>filio: ordo ad operationem summam quae 
+      <lb ed="#B" n="90"/>est beatitudo: &amp; haec attribuitur 
+      spiritui<lb ed="#B" n="91" break="no"/>sancto. Haec autem secundum 
+      declara<lb ed="#B" n="92" break="no"/>tionem beati Aug. unitas, species, ordo 
+      <lb ed="#B" n="93"/>in creatura dicunt substantiam &amp; 
+      distin<lb ed="#B" n="94" break="no"/>cta accidentia. Aliquando autem 
+      par<lb ed="#B" n="95" break="no"/>tes uestigij in creatura non 
+      distinguun<lb ed="#B" n="96" break="no"/>tur realiter: sed unum aliquod in 
+      creatu<lb ed="#B" n="97" break="no"/>ra fortitur diuersa nomina ex quibus in 
+      <lb ed="#B" n="98"/>tellectus potest rememorari diuersa 
+      ap<lb ed="#B" n="99" break="no"/>propriata siue praedicabilia de personis 
+      <lb ed="#B" n="100"/>diuinis. Sic considerando in creaturis 
+      <lb ed="#B" n="101"/>quod est unum uerum, bonum (quae 
+      ta<lb ed="#B" n="102" break="no"/>men non distinguuntur realiter in crea¬ 
+      <!--213.xml-->
+      <pb ed="#B" n="126"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>turis) ducimus in memoriam unitatis, 
+      <lb ed="#B" n="2"/>quae in diuinisappropriatur patri: ueritatis 
+      <lb ed="#B" n="3"/>quae appropriatur filio, &amp; bonitatis quae 
+      <lb ed="#B" n="4"/>appropriatur spirituisancto. Et illo 
+      mo<lb ed="#B" n="5" break="no"/>do potest uestigium inueniti in qualibet 
+      <lb ed="#B" n="6"/>creatura quantumlibet simplici: non 
+      au<lb ed="#B" n="7" break="no"/>tem primo modo.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

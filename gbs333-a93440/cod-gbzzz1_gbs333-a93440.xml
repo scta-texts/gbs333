@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="368"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a93440"> <!-- l1d48q1 -->
+            <head xml:id="gbs333-a93440-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a93440-Hd1e104" type="question-title">Utrum quaelibet 
+    voluntas creata teneatur se 
+    conformare divinae voluntati</head>
+            <p xml:id="gbs333-a93440-d1e107">
+      <!--455.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>unica. 
+      <lb ed="#B" n="49"/>VTRVM quaelibet 
+      uolun<lb ed="#B" n="50" break="no"/>tas creata teneatur se 
+      con<lb ed="#B" n="51" break="no"/>formare diuinae uoluntati. 
+      </p>
+            <p xml:id="gbs333-a93440-d1e123">
+               <lb ed="#B" n="52"/>¶ De hoc late in expo. 
+      ca<lb ed="#B" n="53" break="no"/>no. sec. Ixviij. &amp; Ixix. ideo 
+      <lb ed="#B" n="54"/>duntaxat hic abbreuianda sunt dicta 
+      do<lb ed="#B" n="55" break="no"/>ctoris.
+    </p>
+            <p xml:id="gbs333-a93440-d1e135">
+      ¶ Notandum ergo pro articulo 
+      <lb ed="#B" n="56"/>primo, quod uoluntas creata potest 
+      secon<lb ed="#B" n="57" break="no"/>formare uoluntati diuinae tripliciter: 
+      <lb ed="#B" n="58"/>In uolito, uolendo uolitum. In actu 
+      <lb ed="#B" n="59"/>scilicet uolendi, uolendo id, quod deus 
+      <lb ed="#B" n="60"/>uult ipsum uelle. In modo: quia eodem 
+      <lb ed="#B" n="61"/>modo uult quo deus uult.
+    </p>
+            <p xml:id="gbs333-a93440-d1e151">
+      ¶ Et potest 
+      <lb ed="#B" n="62"/>illa conformitas esse actualis: actu scilicet 
+      <lb ed="#B" n="63"/>elicito nunc inexistente. Vel 
+      habitua<lb ed="#B" n="64" break="no"/>lis, &amp; hoc dupliciter. Vel per habitum 
+      <lb ed="#B" n="65"/>immediate inclinantem: ut quia genitus 
+      <lb ed="#B" n="66"/>est ex actibus circa aliquod conformiter 
+      <lb ed="#B" n="67"/>uolitum: uel per habitum mediate 
+      in<lb ed="#B" n="68" break="no"/>clinantem: quo modo habitus 
+      princi<lb ed="#B" n="69" break="no"/>piorum mediante actu proprio inclinat  
+      <lb ed="#B" n="70"/>ad assensum conclusionis. Sic habitus 
+      <lb ed="#B" n="71"/>circa illam, conformandum se est 
+      di<lb ed="#B" n="72" break="no"/>uinae uoluntati: non inclinat ad 
+      ali<lb ed="#B" n="73" break="no"/>quid particulare uolitum immediate: 
+      <lb ed="#B" n="74"/>sed requiritur actus, quo ostendatur 
+      il<lb ed="#B" n="75" break="no"/>lud particulare esse uolitum.
+    </p>
+            <p xml:id="gbs333-a93440-d1e184">
+      ¶ Item 
+      <lb ed="#B" n="76"/>quaedam sunt a deo absolute uolita: non 
+      <lb ed="#B" n="77"/>propter praecedens aliquod: quaedam 
+      <lb ed="#B" n="78"/>propter aliquod praecedens. Primo 
+      <lb ed="#B" n="79"/>modo uult omnia bona: quae nec sunt 
+      <lb ed="#B" n="80"/>mala penae, nec culpae. Secundo 
+      mo<lb ed="#B" n="81" break="no"/>do uult mala paenae.
+    </p>
+            <p xml:id="gbs333-a93440-d1e200">
+      ¶ Quantum ad 
+      as<lb ed="#B" n="82" break="no"/>ticulum secundum est conclusio 
+      prima<lb ed="#B" n="83" break="no"/>Quaelibet uoluntas creata uiatoris, uel 
+      <lb ed="#B" n="84"/>beati tenetur se conformare 
+      habitua<lb ed="#B" n="85" break="no"/>liter mediate diuinae uoluntati 
+      bene<lb ed="#B" n="86" break="no"/>placiti: quantum ad uolita primo 
+      mo<lb ed="#B" n="87" break="no"/>do absolute ea uolendo, non uolendo 
+      <lb ed="#B" n="88"/>oppositum sub conditione. Patent 
+      con<lb ed="#B" n="89" break="no"/>ditiones oppositae. Nam quia in 
+      quo<lb ed="#B" n="90" break="no"/>libet habente usum rationis, deum 
+      co<lb ed="#B" n="91" break="no"/>gnoscente, debet esse uoluntas: qua 
+      ha<lb ed="#B" n="92" break="no"/>bitualiter sibi complacet omne 
+      uoli<lb ed="#B" n="93" break="no"/>tum a deo: quamuis non immediate: 
+      <lb ed="#B" n="94"/>quia non tenetur scire omne 
+      uoli<lb ed="#B" n="95" break="no"/>tum.
+    </p>
+            <p xml:id="gbs333-a93440-d1e233">
+      ¶ Secunda conclusio. Volitaa 
+      <lb ed="#B" n="96"/>deo secundo modo tenet uiator, &amp; comprae 
+      <!--456.xml-->
+      <pb ed="#B" n="369"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>fensor simpliciter uelle: potest tamen 
+      <lb ed="#B" n="2"/>ex conditione nolle habitualiter: 
+      me<lb ed="#B" n="3" break="no"/>diate, uel immediate: tenetur enim 
+      sim<lb ed="#B" n="4" break="no"/>pliciter uelle iniustum finaliter puniri a 
+      <lb ed="#B" n="5"/>deo: licet cum conditione posset uelle 
+      <lb ed="#B" n="6"/>eum non puniri, si non peccasset.
+    </p>
+            <p xml:id="gbs333-a93440-d1e257">
+      ¶ 
+      Ter<lb ed="#B" n="7" break="no"/>tia conclusio. Non quilibet tenetur 
+      <lb ed="#B" n="8"/>praedictis modis seconformare habitua 
+      <lb ed="#B" n="9"/>liter immediate d uinae uoluntati. 
+      Pa<lb ed="#B" n="10" break="no"/>ter: quia non semper tenetur eam scire 
+      <lb ed="#B" n="11"/>teneretur tamen, si sciret.
+    </p>
+            <p xml:id="gbs333-a93440-d1e271">
+      ¶ Quarta 
+      <lb ed="#B" n="12"/>conclusio. Quilibet tenetur se 
+      confor<lb ed="#B" n="13" break="no"/>mate uoluntati diuinae signi 
+      praecepti<lb ed="#B" n="14" break="no"/>ue, uel prohibitiue habitualiter sibi 
+      <lb ed="#B" n="15"/>notae: prohibitiue simpliciter: 
+      praece<lb ed="#B" n="16" break="no"/>ptiue pro loco, &amp; tempore.
+    </p>
+            <p xml:id="gbs333-a93440-d1e284">
+      ¶ Quinta 
+      <lb ed="#B" n="17"/>conclusio. Non tepetur: se conforma 
+      <lb ed="#B" n="18"/>re uoluntati signi, quae est confilium: 
+      <lb ed="#B" n="19"/>patet.
+    </p>
+            <p xml:id="gbs333-a93440-d1e293">
+      ¶ Sexta conclusio. Tenetur 
+      se<lb ed="#B" n="20" break="no"/>conformare uoluntati diuinae uolendo 
+      <lb ed="#B" n="21"/>id, quod uult eam uelle uoluntate 
+      be<lb ed="#B" n="22" break="no"/>naeplaciti, uel praecepti: secus de 
+      uolun<lb ed="#B" n="23" break="no"/>tate consiiij.
+    </p>
+            <p xml:id="gbs333-a93440-d1e304">
+      ¶ De tertia conformitate 
+      <lb ed="#B" n="24"/>pertiuet ad tertium: quia includit, 
+      an<lb ed="#B" n="25" break="no"/>teneatur ex charitate, &amp; meritorie uel 
+      <lb ed="#B" n="26"/>se: ubi sunt plures difficultates.
+    </p>
+            <p xml:id="gbs333-a93440-d1e313">
+      ¶ 
+      Quan<lb ed="#B" n="27" break="no"/>tum ad articulum tertium est dubium 
+      <lb ed="#B" n="28"/>primum: per quid innotescit nobis 
+      uo<lb ed="#B" n="29" break="no"/>luntas beneplaciticonsequens.
+    </p>
+            <p xml:id="gbs333-a93440-d1e322">
+      ¶ 
+      Secun<lb ed="#B" n="30" break="no"/>dum dubium: an &amp; quomodo nobis d 
+      <lb ed="#B" n="31"/>bent placere incendia, &amp; caerera 
+      dau<lb ed="#B" n="32" break="no"/>na temporalia, &amp; an iliceat se contra¬¬ 
+      <lb ed="#B" n="33"/>huiusmodi munire. Tertium dubium: 
+      <lb ed="#B" n="34"/>anquis debeat uelle suam damnationem: 
+      <lb ed="#B" n="35"/>si sibi reuelatur a deo, quod sit praescitus. 
+      </p>
+            <p xml:id="gbs333-a93440-d1e339">
+               <lb ed="#B" n="36"/>¶ Quartum dubium: an uoluntas 
+      be<lb ed="#B" n="37" break="no"/>neplaciti sit regula sua conformitate 
+      <!--456.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="38"/>nostram uoluntatem regulans.
+    </p>
+            <p xml:id="gbs333-a93440-d1e352">
+      ¶ 
+      Quin<lb ed="#B" n="39" break="no"/>tum dubium. Vtrum sancti in caelo 
+      pos<lb ed="#B" n="40" break="no"/>sint se diuinae uoluntati difformare. 
+      De<lb ed="#B" n="41" break="no"/>his omnibus uide in expo. ca. lec. Ixviij. 
+      <lb ed="#B" n="42"/>&amp; Ixix. &amp; multa alia.
+    </p>
+            <p xml:id="gbs333-a93440-d1e363">
+      ¶ Si dicis: quid de 
+      <lb ed="#B" n="43"/>uoluntate operationis, uel 
+      permissio<lb ed="#B" n="44" break="no"/>nis potest dici: cum operatio sit signum 
+      <lb ed="#B" n="45"/>diuinae uoluntatis beneplaciti: sine quo 
+      <lb ed="#B" n="46"/>nihilspositiuum sit. Dicendum est 
+      si<lb ed="#B" n="47" break="no"/>cut in conclusione prima, &amp; secunda. 
+      <lb ed="#B" n="48"/>Permissio enim est mali a deo non 
+      pro<lb ed="#B" n="49" break="no"/>hibiti, &amp; quantum ad actum positiuum 
+      <lb ed="#B" n="50"/>in malo culiae: dicendum erit sicut de 
+      <lb ed="#B" n="51"/>operat ione quantum ad id, quod est 
+      ne<lb ed="#B" n="52" break="no"/>gatiuiui: sed defectus circumstantiae de 
+      <lb ed="#B" n="53"/>bitae in esse non est uolendum: quia nec 
+      <lb ed="#B" n="54"/>hoc deus uult: siquidem negatio est in 
+      <lb ed="#B" n="55"/>re nihil, &amp; ita non uolita a deo.
+    </p>
+            <p xml:id="gbs333-a93440-d1e394">
+      ¶ Haec 
+      <lb ed="#B" n="56"/>de uoluntate breuiter terigisse sufficiat: 
+      <lb ed="#B" n="57"/>eo quod dehac materia in expositione 
+      ca<lb ed="#B" n="58" break="no"/>nonis missae latius disputauimus. Et in 
+      <lb ed="#B" n="59"/>hoc finem impgnere placuit. huic ab, 
+      <lb ed="#B" n="60"/>breuiaturae primrscripti Guij. Ockam: 
+      <lb ed="#B" n="61"/>cuius sententiam saepe insecuti sumus, 
+      <lb ed="#B" n="62"/>&amp; nonnunquam uerba recitauimus. 
+      <lb ed="#B" n="63"/>placuit tamen quandoque, &amp; ex alijs 
+      <lb ed="#B" n="64"/>doctoribus aliquid in medium adduce- 
+      <lb ed="#B" n="65"/>re pro clariori dicendorum 
+      elucidatio<lb ed="#B" n="66" break="no"/>ne: ut scholasticae palestrae mos habet. 
+      <lb ed="#B" n="67"/>Anjmaduertat itaque lector studiosus, 
+      <lb ed="#B" n="68"/>quapdo ipsius doct. sententiam 
+      recita<lb ed="#B" n="69" break="no"/>uimus, &amp; quando aliquid ex alijs: uel 
+      <lb ed="#B" n="70"/>pro ingenioli tenuitate 
+      superaddidi<lb ed="#B" n="71" break="no"/>mus humili cum submissione pro 
+      dei<lb ed="#B" n="72" break="no"/>gtatia, &amp; fidei orthodoxae 
+      illustratio<lb ed="#B" n="73" break="no"/>ne maiorum sententia 
+      sem<lb ed="#B" n="74" break="no"/>per salua. 
+   </p>
+         </div>
+      </body>
+   </text>
+</TEI>

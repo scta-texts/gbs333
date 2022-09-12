@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7 Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7 Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="22"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-aa5457"> <!-- l1prolq7 -->
+            <head xml:id="gbs333-aa5457-Hd1e102">Quaestio 7</head>
+            <head xml:id="gbs333-aa5457-Hd1e104" type="question-title">Utrum theologia quae de communi lege habetur a theologis sit scientia proprie dicta</head>
+            <p xml:id="gbs333-aa5457-d1e107">
+               <lb ed="#B" n="81"/>QVAESTIO VII 
+      <lb ed="#B" n="82"/>TRVM Theologia, quae 
+      <lb ed="#B" n="83"/>de communi lege habetur 
+      <lb ed="#B" n="84"/>a theologis: si scientia 
+      pro<lb ed="#B" n="85" break="no"/>prie dicta.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e120">
+      ¶ Notandum 
+      pri<lb ed="#B" n="86" break="no"/>mo: quod auctor circa hanc quae 
+      <lb ed="#B" n="87"/>stionem recitat quinque opin. tres ad 
+      <lb ed="#B" n="88"/>partem affirmatiuam: &amp; duas ad partem 
+      <lb ed="#B" n="89"/>negatiuam.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e132">
+      ¶ Sunt enim, qui tenent: 
+      <lb ed="#B" n="90"/>quod habita fide, principiorum 
+      theo<lb ed="#B" n="91" break="no"/>logiae, quorum non est scientia, nec 
+      no<lb ed="#B" n="92" break="no"/>titia euidens: in nobis acquiritur 
+      no<lb ed="#B" n="93" break="no"/>titia conclusionum euidens, &amp; ita 
+      noti<lb ed="#B" n="94" break="no"/>tia conclusionum est proprie scientia: 
+      <lb ed="#B" n="95"/>licet principia, ex quibus inferuntur, 
+      <lb ed="#B" n="96"/>non sint euidenter nota: sicut mullca 
+      <lb ed="#B" n="97"/>credit sua principia ex aritimetica. Et  
+      <lb ed="#B" n="98"/>perspectiua ex geometria: &amp; tamen tam 
+      <!--110.xml-->
+      <pb ed="#B" n="23"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>mulica, quam perspectiua est ueram 
+      scien<lb ed="#B" n="2" break="no"/>tia.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e165">
+      ¶ Alij dicunt: quod habita fide 
+      princi<lb ed="#B" n="3" break="no"/>piorum theologiae, intellectus uirtute 
+      <lb ed="#B" n="4"/>illius fidei, &amp; intellectus agentis, 
+      acqui<lb ed="#B" n="5" break="no"/>rit scientiam illorum principiorum: quia 
+      <lb ed="#B" n="6"/>theologia non est fides secundum 
+      Au<lb ed="#B" n="7" break="no"/>gust. Hac scientia non possent plurimi: 
+      <lb ed="#B" n="8"/>sicet ipsa fide posseant plurimi: nec est 
+      <lb ed="#B" n="9"/>intellectus ars, aut prudentia. ergo 
+      scien<lb ed="#B" n="10" break="no"/>tia &amp;c.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e185">
+      ¶ Tertij dicunt hoc idem, quod  
+      <lb ed="#B" n="11"/>secundi: sed dicunt, quod hoc non est 
+      pos<lb ed="#B" n="12" break="no"/>sibile in lumine fidei, nec naturali: sed in 
+      <lb ed="#B" n="13"/>sumine superiori: quod est medium 
+      in<lb ed="#B" n="14" break="no"/>ter sumen gloriae, &amp; fidei: quo clarius 
+      co<lb ed="#B" n="15" break="no"/>gnoscuntur ueritates, quam per solam 
+      <lb ed="#B" n="16"/>udem: &amp; minus clare, quam in patria, 
+      <lb ed="#B" n="17"/>Nunc ergo theologus clariorem habet 
+      <lb ed="#B" n="18"/>notitiam credendorum, quam fidels non 
+      <lb ed="#B" n="19"/>theologus.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e207">
+      ¶ Tenentium partem 
+      nega<lb ed="#B" n="20" break="no"/>tiuam primi, &amp; in ordine quarti dicunt, 
+      <lb ed="#B" n="21"/>ut philosophi, quod ad omnem scientiam 
+      <lb ed="#B" n="22"/>nobis possibile possumus naturaliter at 
+      <lb ed="#B" n="23"/>tingere. Et ideo nullum mere 
+      credibi<lb ed="#B" n="24" break="no"/>se potest a nobis sciri euidenter. contra 
+      <lb ed="#B" n="25"/>hanc sunt sanctorum auctoritates.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e223">
+      ¶ 
+      Se<lb ed="#B" n="26" break="no"/>cundi sunt: &amp; quinti in ordine, cum 
+      qui<lb ed="#B" n="27" break="no"/>bus auctor tenet hanc conclusionent. 
+      <lb ed="#B" n="28"/>Quamuis credibilia possunt euidenter 
+      <lb ed="#B" n="29"/>sciri: non tamen a nobis pro statu illo 
+      <lb ed="#B" n="30"/>secundum communem legem. Et ideo 
+      <lb ed="#B" n="31"/>theologia secundum quod communiter eam 
+      <lb ed="#B" n="32"/>addiscimus: non est scientia proprie 
+      di<lb ed="#B" n="33" break="no"/>cta &amp;c.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e243">
+      ¶ Ad cuius euidentiam notandum 
+      <lb ed="#B" n="34"/>secundo, quod omnem habitum praeter 
+      fi<lb ed="#B" n="35" break="no"/>dem, quem acquirit theologus fidelis 
+      <lb ed="#B" n="36"/>re spectu credibilium, potest acquirere 
+      <lb ed="#B" n="37"/>infidelis. Patet: quia nullus habitus est 
+      <lb ed="#B" n="38"/>ponendus: nisi qui ex actibus generatur 
+      <lb ed="#B" n="39"/>aut quem scripturae auctoritas cogit 
+      <lb ed="#B" n="40"/>ponere. Sed nulla auctoritas scriptu 
+      <lb ed="#B" n="41"/>rae cogit ad ponendum aliquem habitum 
+      <lb ed="#B" n="42"/>respectu credibilium, praeter habitum 
+      fi<lb ed="#B" n="43" break="no"/>dei. Et omnem, quem habet fidelis circa 
+      <lb ed="#B" n="44"/>credibilia, praeter credendi actum: 
+      po<lb ed="#B" n="45" break="no"/>test habere infidelis nutritus inter 
+      fi<lb ed="#B" n="46" break="no"/>deles theologos. Patet inductiue &amp;c. 
+      </p>
+            <p xml:id="gbs333-aa5457-d1e275">
+               <lb ed="#B" n="47"/>¶ Si quaeris, quem actum uel habitum 
+      <lb ed="#B" n="48"/>acquirit studens theologiae. Respondetur 
+      <lb ed="#B" n="49"/>quod theologus per studium theologiae 
+      au<lb ed="#B" n="50" break="no"/>gmentat habitum fidei acquisitae si 
+      prae<lb ed="#B" n="51" break="no"/>fuit: aut acquitit si non praefuit. Ibi namque;  
+      <!--110.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>credenda recitant, &amp; hic habitus non est 
+      <lb ed="#B" n="53"/>in infideli: quoniam qui habet hunc 
+      ha<lb ed="#B" n="54" break="no"/>bitum, credit, &amp; itaiam fidelis est. Praeter 
+      <lb ed="#B" n="55"/>haec, tam fidelis, quam infidelis acquirit 
+      <lb ed="#B" n="56"/>multos scientiales habitus, qui etiam in 
+      <lb ed="#B" n="57"/>alijs scientijs acquiri possunt. Et praeter 
+      <lb ed="#B" n="58"/>illos acquirit multos habitus scientiales 
+      <lb ed="#B" n="59"/>consequentiarum propriarum 
+      theolo<lb ed="#B" n="60" break="no"/>giae. Etiam acquirit opin. circa 
+      uerita<lb ed="#B" n="61" break="no"/>tes probabiliter ostensas. Item multos 
+      <lb ed="#B" n="62"/>habitus appraehensiuos tam terminorum 
+      <lb ed="#B" n="63"/>quam propositionum, &amp; mediantibus 
+      il<lb ed="#B" n="64" break="no"/>lis potest habere omnes actus possibiles 
+      <lb ed="#B" n="65"/>theologo, praeter solum actum credendi: 
+      <lb ed="#B" n="66"/>quibus mediantibus potest praedicare, 
+      do<lb ed="#B" n="67" break="no"/>cere, roborare, &amp; caetera omnia talia, 
+      <lb ed="#B" n="68"/>quae pertinent ad theologum: nihil 
+      au<lb ed="#B" n="69" break="no"/>tem horum, ad quae requiritur fides: est 
+      <lb ed="#B" n="70"/>scientia proprie dicta. Et cum nulli 
+      cre<lb ed="#B" n="71" break="no"/>dibilium potest assentire sine fide 
+      secun<lb ed="#B" n="72" break="no"/>dum omnes: sequitur: quod de credibilibus non 
+      <lb ed="#B" n="73"/>est scientia proprie dicta.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e340">
+      ¶ Vnde 
+      breui<lb ed="#B" n="74" break="no"/>ter, nullus habet scientiam alicuius 
+      ueri<lb ed="#B" n="75" break="no"/>tatis: nisi euidenter noscat principia, 
+      <lb ed="#B" n="76"/>seu praemissas, ex quibus infertur. Neque  
+      <lb ed="#B" n="77"/>musicus, neque perspectiuus habet 
+      scien<lb ed="#B" n="78" break="no"/>tiam suarum conclusionum: nisi 
+      euiden<lb ed="#B" n="79" break="no"/>ter noscat principia. Non ergo credit 
+      <lb ed="#B" n="80"/>principia: sed euidenter noscit: quamuis 
+      <lb ed="#B" n="81"/>illam euidentem notitiam in eo 
+      causa<lb ed="#B" n="82" break="no"/>rnnt demonstrationes geometriae, uel 
+      <lb ed="#B" n="83"/>arithmeticae: impossib.le est enim 
+      maio<lb ed="#B" n="84" break="no"/>rem esse euidentiam conclusionis, quam 
+      <lb ed="#B" n="85"/>praemissarum: ideo ubi praemissae enimi 
+      cre<lb ed="#B" n="86" break="no"/>duntur: conclusio creditur, &amp; non scit. 
+      </p>
+            <p xml:id="gbs333-aa5457-d1e371">
+               <lb ed="#B" n="87"/>¶ Notandum etiam est pro intellectu doc. 
+      <lb ed="#B" n="88"/>quod in solutione unius rationis, quae 
+      tan<lb ed="#B" n="89" break="no"/>git, quo intellectus noster distinguit in 
+      <lb ed="#B" n="90"/>ter deum, &amp; creaturam. Res pondet sic 
+      <lb ed="#B" n="91"/>quod per conceptum compositum proprium 
+      <lb ed="#B" n="92"/>deo: ut cum per discursum concludit aliqud 
+      <lb ed="#B" n="93"/>ens esse infinitum, primum, &amp; summum: 
+      ha<lb ed="#B" n="94" break="no"/>bet hunc conceptum: ens infinitum, &amp; 
+      sun<lb ed="#B" n="95" break="no"/>mnmi, qui est proprius deo. Et quia scit 
+      <lb ed="#B" n="96"/>nullam creaturam esse huiusmodi: ideo 
+      <lb ed="#B" n="97"/>distinguit illud ens ab omni creatura. 
+      <lb ed="#B" n="98"/>Nec alius conceptus deo proprius est 
+      <lb ed="#B" n="99"/>nobis possibilis in uia. Et si quaeritur, 
+      <lb ed="#B" n="100"/>ad quid terminatur ille actus 
+      intelli<lb ed="#B" n="101" break="no"/>gendi: dicitur quod ad conceptum 
+      il<lb ed="#B" n="102" break="no"/>lum, si conceptus habet tamen esse obiectiuum 
+      <!--111.xml-->
+      <pb ed="#B" n="24"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>si uero conceptus ipse est actus 
+      intelli<lb ed="#B" n="2" break="no"/>gendi: tunc terminatur ad deum: quia 
+      il<lb ed="#B" n="3" break="no"/>lo conceptu composito nihil intelligit, 
+      <lb ed="#B" n="4"/>nisi deus: quia supponit solum pro deo: 
+      <lb ed="#B" n="5"/>licet partes eius supponant tam pro deo: 
+      <lb ed="#B" n="6"/>quam pro creatura.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e428">
+      ¶ Sed contra illud, 
+      <lb ed="#B" n="7"/>quod nunc dictum est: &amp; habet doctor in 
+      <lb ed="#B" n="8"/>responsione ad secundam probationem 
+      <lb ed="#B" n="9"/>secundae opinionis, scilicet quod non potest 
+      <lb ed="#B" n="10"/>haberi conceptus simplex proprius de 
+      <lb ed="#B" n="11"/>deo Videtur enim: quod ab illo extremo 
+      <lb ed="#B" n="12"/>complexo, ens infinitum: seu ens 
+      sum<lb ed="#B" n="13" break="no"/>mum (quod esse probatur per 
+      discut<lb ed="#B" n="14" break="no"/>sum) possit formari conceptus 
+      incom<lb ed="#B" n="15" break="no"/>plexus: significans tale ens summum, uel 
+      <lb ed="#B" n="16"/>infinitum: &amp; ille erit conceptus simplex 
+      <lb ed="#B" n="17"/>&amp; proprius deo. Nam si cognosco 
+      per<lb ed="#B" n="18" break="no"/>discursum, quod illud, quo formaliter aliqud 
+      <lb ed="#B" n="19"/>dicitur album, est qualitas distincta a sub 
+      <lb ed="#B" n="20"/>iecto albo: statim possum formare 
+      con<lb ed="#B" n="21" break="no"/>ceptum, &amp; absolutum proprium talis qua 
+      <lb ed="#B" n="22"/>litatis, qui est conceptus albedinis: igit 
+      <lb ed="#B" n="23"/>sic erit in proposito. Et confirmatur de 
+      <lb ed="#B" n="24"/>quocunque possum cognoscere: quod est 
+      <lb ed="#B" n="25"/>aliquid uerum ab alijs discretum: de illo 
+      <lb ed="#B" n="26"/>possum formare conceptum simplicem, 
+      <lb ed="#B" n="27"/>illam rem unam praecise significantem: 
+      <lb ed="#B" n="28"/>sed de deo cognoscimus per fidem; quod 
+      <lb ed="#B" n="29"/>est ens unum, ab omni creatura 
+      distin<lb ed="#B" n="30" break="no"/>ctum: ergo de deo possumus formare 
+      con<lb ed="#B" n="31" break="no"/>ceptum implicem praecise deum reprae 
+      <lb ed="#B" n="32"/>sentantem. Item possumus imponere 
+      uo<lb ed="#B" n="33" break="no"/>cem ad incomplexé, &amp; distincte deum 
+      <lb ed="#B" n="34"/>significandum: qualis est uox deus: quae 
+      <lb ed="#B" n="35"/>absolute, &amp; praecise significat deum &amp; 
+      <lb ed="#B" n="36"/>distincte: sed uox non nisi mediante 
+      con<lb ed="#B" n="37" break="no"/>ceptu correspondente: nec aliter quam 
+      <lb ed="#B" n="38"/>conceptus correspondens: quia est 
+      syno<lb ed="#B" n="39" break="no"/>nyma conceptui. Et ideo conceptus sibi 
+      <lb ed="#B" n="40"/>correspondens significat deum 
+      incom<lb ed="#B" n="41" break="no"/>plexe absolute, &amp; distincte.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e506">
+      ¶ Pro 
+      so<lb ed="#B" n="42" break="no"/>lutione est notandum: quod conceptus rei 
+      <lb ed="#B" n="43"/>absolute, &amp; proprius formari non potest: 
+      <lb ed="#B" n="44"/>nisi res illa fuerit in se, &amp; intuitiue 
+      cogni<lb ed="#B" n="45" break="no"/>ta: quia nisi sic, caecus posset habere con 
+      <lb ed="#B" n="46"/>ceptum absolutum, &amp; proprium coloris, 
+      <lb ed="#B" n="47"/>&amp; albedinis: quod posset esse falsum. Et  
+      <lb ed="#B" n="48"/>ideo conceptum absolutum, &amp; proprium 
+      <lb ed="#B" n="49"/>de deo habere non possumus. Sed quid 
+      <lb ed="#B" n="50"/>de connotatiuo: nam uidetur: quod 
+      pos<lb ed="#B" n="51" break="no"/>um formare conceptum significantem 
+      <!--111.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>substractiue rem connotando eam esse 
+      <lb ed="#B" n="53"/>principium omnium, siue summam &amp;c. 
+      <lb ed="#B" n="54"/>Ille erit proprius deo, &amp; simplex 
+      quali<lb ed="#B" n="55" break="no"/>tas: sicut notitia intuitiua sensibilis, est 
+      <lb ed="#B" n="56"/>qualitas simplex, non composita ex 
+      par<lb ed="#B" n="57" break="no"/>tibus diuersarum rationum: liceat 
+      ha<lb ed="#B" n="58" break="no"/>beat plures modos significandi. Quod  
+      <lb ed="#B" n="59"/>si uerum est pro saluando auctore, 
+      po<lb ed="#B" n="60" break="no"/>test conuenienter dici: quod conceptus 
+      sim<lb ed="#B" n="61" break="no"/>plex dupliciter accipitur. Vno modo lar 
+      <lb ed="#B" n="62"/>ge, pro conceptu, qui est unaqualitas 
+      <lb ed="#B" n="63"/>non composita ex partibus diuersarum 
+      <lb ed="#B" n="64"/>rationum: non curando an tantum 
+      ha<lb ed="#B" n="65" break="no"/>bet unum modum significandi, uel 
+      plu<lb ed="#B" n="66" break="no"/>res. Alio modo stricte pro conceptu, 
+      <lb ed="#B" n="67"/>qui est simplex qualitas: &amp; non habet 
+      nisi<lb ed="#B" n="68" break="no"/>inum modum significandi: &amp; sic solus 
+      <lb ed="#B" n="69"/>conceptus absolutus dicitur simplex: quo 
+      <lb ed="#B" n="70"/>niam etsi connotatiuus fuerit simplex 
+      <lb ed="#B" n="71"/>qualitatiue: non tamen est simplex 
+      re<lb ed="#B" n="72" break="no"/>praesentatiue: quiaaequalet suo quid 
+      no<lb ed="#B" n="73" break="no"/>minis: quod significat aliquid in recto, &amp; 
+      <lb ed="#B" n="74"/>aliquid in obliquo: &amp; ita uirtualiter est 
+      <lb ed="#B" n="75"/>compositus.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e587">
+      ¶ Per hoc ad rationes 
+      di<lb ed="#B" n="76" break="no"/>citur: quod potest formari conceptus 
+      sim<lb ed="#B" n="77" break="no"/>plex primo modo, ab extremo 
+      comple<lb ed="#B" n="78" break="no"/>xo: sed ille erit connotatiuus, &amp; ita 
+      uir<lb ed="#B" n="79" break="no"/>tualiter compositus. Et ad probationem 
+      <lb ed="#B" n="80"/>de formatione conceptus absoluti 
+      al<lb ed="#B" n="81" break="no"/>bedinis. Dicendum: quod conceptus 
+      abiso<lb ed="#B" n="82" break="no"/>lutus albedinis formari non posset 
+      nisi<lb ed="#B" n="83" break="no"/>puia eius cognitione intuitiua: &amp; ideo 
+      <lb ed="#B" n="84"/>quantumcunque caeco persuadetur: quod al 
+      <lb ed="#B" n="85"/>pedo est qualitas quaedam realiter 
+      distin<lb ed="#B" n="86" break="no"/>cta ab eo, quod dicitur album: tamen 
+      <lb ed="#B" n="87"/>nunquam potest formare conceptum 
+      <lb ed="#B" n="88"/>absolutum albedinis. Ad 
+      confirmatio<lb ed="#B" n="89" break="no"/>nem conceditur: quod de eo, quod 
+      cogno<lb ed="#B" n="90" break="no"/>scimus esse unum &amp;c. possumus formare 
+      <lb ed="#B" n="91"/>conceptum simplicem large: sed non 
+      stri<lb ed="#B" n="92" break="no"/>cte. Auctor autem loquitur de 
+      proprio<lb ed="#B" n="93" break="no"/>simplici stricte &amp;c. Ad secundam 
+      con<lb ed="#B" n="94" break="no"/>firmationem dicitur: quod uox potest 
+      im<lb ed="#B" n="95" break="no"/>poni ad significandum rem distinctius, 
+      <lb ed="#B" n="96"/>quam possit a nobis intelligi: de quo 
+      tra<lb ed="#B" n="97" break="no"/>ctatur clare dist. xxij.
+    </p>
+            <p xml:id="gbs333-aa5457-d1e638">
+      ¶ Item quaeritur, 
+      <lb ed="#B" n="98"/>utrum per studium theologicum etiam 
+      <lb ed="#B" n="99"/>possit acquiri opinio credibilis. 
+      Dicen<lb ed="#B" n="100" break="no"/>dum: quod de credito non potest: quia si 
+      cre<lb ed="#B" n="101" break="no"/>ditum persuadetur fides augetur: non 
+      <lb ed="#B" n="102"/>noua adhaesio generatur: sed si ad ali¬ 
+      <!--112.xml-->
+      <pb ed="#B" n="25"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quod credibile nondum explicite 
+      credi<lb ed="#B" n="2" break="no"/>tum adducantur persuasiones: illae 
+      pos<lb ed="#B" n="3" break="no"/>sunt generare opinionem. Hinc 
+      opi<lb ed="#B" n="4" break="no"/>niones multae doctorum in theologia de 
+      <lb ed="#B" n="5"/>credibilibus: licet nondum ab 
+      ecclesia<lb ed="#B" n="6" break="no"/>tamquam credibilia determinatis. Alia 
+      <lb ed="#B" n="7"/>ad hoc dubium necessaria patent ex 
+      prae<lb ed="#B" n="8" break="no"/>cedentibus quaestionibus. Et uide hic 
+      Pe<lb ed="#B" n="9" break="no"/>trum de Aliaco, qui latius hanc materiam 
+      <lb ed="#B" n="10"/>prosequitur, &amp; aliquo modo distinctius. 
+      <lb ed="#B" n="11"/>q. i. art. ij. &amp; iij. Item quomodo fides est 
+      <lb ed="#B" n="12"/>notitia certissima: quamuis non sit 
+      eui<lb ed="#B" n="13" break="no"/>dens: habes. infra in tertio distin. xxiij. 
+      <lb ed="#B" n="14"/>quaest. ij. arti. j. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

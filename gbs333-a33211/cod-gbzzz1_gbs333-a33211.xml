@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a33211"> <!-- l1d4q2 -->
+            <head xml:id="gbs333-a33211-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a33211-Hd1e104" type="question-title">An haec sit vera: Deus est pater, et filius, et spiritus sanctus: et per totam questionem</head>
+            <p xml:id="gbs333-a33211-d1e107">
+               <lb ed="#B" n="5"/>QVESTIO II 
+      <lb ed="#B" n="6"/>VTRVM haec sit 
+      conce<lb ed="#B" n="7" break="no"/>denda: deus est pater &amp; 
+      fi<lb ed="#B" n="8" break="no"/>lius &amp; spiritus sanctus.
+    </p>
+            <p xml:id="gbs333-a33211-d1e118">
+      ¶ 
+      Re<lb ed="#B" n="9" break="no"/>t citatur opinio Scori dist. 
+      <lb ed="#B" n="10"/>iij. q.ij. &amp; impugnatur.
+    </p>
+            <p xml:id="gbs333-a33211-d1e126">
+      ¶ Responsio 
+      con<lb ed="#B" n="11" break="no"/>clusiua est haec. Haec est concedenda: deus 
+      <lb ed="#B" n="12"/>est pater &amp; filius &amp; spiritussanctus. Pro 
+      <lb ed="#B" n="13"/>batur: quia deus hic supponit pro 
+      essen<lb ed="#B" n="14" break="no"/>tia diuina: quae est tres personae: ergo &amp; 
+      <lb ed="#B" n="15"/>deus est tres personae. Antecedens pater 
+      <lb ed="#B" n="16"/>ex dictis praecedentis quaestionis.
+    </p>
+            <p xml:id="gbs333-a33211-d1e142">
+      ¶ 
+      Si<lb ed="#B" n="17" break="no"/>dicitur: quandocunque aliquod 
+      praedica<lb ed="#B" n="18" break="no"/>tum a quolibet supposito termini 
+      nega<lb ed="#B" n="19" break="no"/>tur: illud etiam negatur uniuersaliter de 
+      <lb ed="#B" n="20"/>tali termino: sicut angelus negatur de 
+      <lb ed="#B" n="21"/>Ioan. Pe. &amp;c. ergo ab omni homine: sed  
+      <lb ed="#B" n="22"/>esse patrem &amp; filium &amp; spiritum sanctum 
+      <lb ed="#B" n="23"/>negatur a quolibetisupposito diuino, ut  
+      <lb ed="#B" n="24"/>supra ergo ab hoc termino deus. Sol. 
+      <lb ed="#B" n="25"/>maior est uera quando terminus 
+      suppo<lb ed="#B" n="26" break="no"/>nit praecise pro suppositis, &amp; non pro 
+      ali<lb ed="#B" n="27" break="no"/>quo formaliter a suppositis distincto: 
+      <lb ed="#B" n="28"/>modo deus non solum supponit pro 
+      sup<lb ed="#B" n="29" break="no"/>positis diuinis: sed etiam pro diuina 
+      es<lb ed="#B" n="30" break="no"/>sentia: quae formaliter distinguitur a 
+      sup<lb ed="#B" n="31" break="no"/>positis.
+    </p>
+            <p xml:id="gbs333-a33211-d1e177">
+      ¶ Vel potest dici: quod in illa 
+      maio<lb ed="#B" n="32" break="no"/>re suppositum non accipitur propersona: 
+      <lb ed="#B" n="33"/>sed pro illo pro quo terminus supponit: 
+      <lb ed="#B" n="34"/>siue sit natura siue persona. Et sic 
+      acci<lb ed="#B" n="35" break="no"/>piendo maior est uera: sed minor scilicet esse 
+      <lb ed="#B" n="36"/>patrem &amp; filium &amp; spiritum sanctum: 
+      ne<lb ed="#B" n="37" break="no"/>gatur a quolibet supposito huius 
+      termi<lb ed="#B" n="38" break="no"/>ni deus (si sic accipitur) falsa est: quia 
+      <lb ed="#B" n="39"/>non negatur ab essentia diuina: pro qua 
+      <lb ed="#B" n="40"/>tamen supponit deus. Si autem minor 
+      <lb ed="#B" n="41"/>sic accipitur, scilicet esse patrem &amp; 
+      fi<lb ed="#B" n="42" break="no"/>lium &amp; spiritum sanctum: negatur de 
+      <lb ed="#B" n="43"/>quolibet suppositodiuino: 
+      consequen<lb ed="#B" n="44" break="no"/>Ctia non ualet: quia suppositum in 
+      ante<lb ed="#B" n="45" break="no"/>cedenteaequiuocatur. Sidicitur: 
+      om<lb ed="#B" n="46" break="no"/>ne praedicatum, quod conuenit 
+      pluri<lb ed="#B" n="47" break="no"/>bus, conuenit alicui primo: quid ergo 
+      <!--219.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>est id cui primo conuenit esse patrem, 
+      <lb ed="#B" n="49"/>&amp; filium &amp;c. Solutio: si conuenire 
+      rea<lb ed="#B" n="50" break="no"/>liter intelligitur: sic assumptum falsum 
+      <lb ed="#B" n="51"/>est: sicut ridere nulli hominum primo 
+      <lb ed="#B" n="52"/>conuenit: sed aeque cuilibet. Si 
+      intel<lb ed="#B" n="53" break="no"/>ligitur conuenire per praedicationem, 
+      <lb ed="#B" n="54"/>sic uerum est: sed illud primum siue cui 
+      <lb ed="#B" n="55"/>primo conuenit non est res aliqua: sed  
+      <lb ed="#B" n="56"/>illud commune cum quo conuertitur: 
+      <lb ed="#B" n="57"/>&amp; illud est hoc commune deus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

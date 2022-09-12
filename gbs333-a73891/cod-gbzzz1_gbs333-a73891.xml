@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="292"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a73891"> <!-- l1d31q1 -->
+            <head xml:id="gbs333-a73891-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a73891-Hd1e104" type="question-title">
+      Utrum identitas, similitudo, et aequalitas 
+      in divinis sit relatio realis
+    </head>
+            <p xml:id="gbs333-a73891-d1e107">
+      <!--379.xml-->
+               <pb ed="#B" n="292"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unica 
+      <lb ed="#B" n="2"/>VTRVM identitas 
+      simili<lb ed="#B" n="3" break="no"/>tudo, &amp; aequalitas in 
+      diui<lb ed="#B" n="4" break="no"/>nis sit relatio realis. Tribus 
+      <lb ed="#B" n="5"/>articulis quaestio 
+      termina<lb ed="#B" n="6" break="no"/>bit.
+    </p>
+            <p xml:id="gbs333-a73891-d1e129">
+      ¶ Pro articulo primo, supponuntur 
+      <lb ed="#B" n="7"/>dicta in dist. xix. q.ij. Confiderandum 
+      <lb ed="#B" n="8"/>quoque est, quod relationes communes in 
+      <lb ed="#B" n="9"/>deo dicuntur identitas, equalitas, &amp; 
+      si<lb ed="#B" n="10" break="no"/>militudo, quae sunt personarum ad se: 
+      <lb ed="#B" n="11"/>non ad creaturam. Et ideo communes 
+      <lb ed="#B" n="12"/>appellantur: quia sunt omnium perso 
+      <lb ed="#B" n="13"/>narum, &amp; cuiuslibet respectu 
+      singula<lb ed="#B" n="14" break="no"/>rium. Quaelibet enim est idem 
+      essen<lb ed="#B" n="15" break="no"/>tialiter similis, &amp; aequalis omnib simul 
+      <lb ed="#B" n="16"/>&amp; cuilibet sigillatim: ut dictum est dist. 
+      <lb ed="#B" n="17"/>xix.
+    </p>
+            <p xml:id="gbs333-a73891-d1e156">
+      ¶ Secundo supponuntur dicta de 
+      <lb ed="#B" n="18"/>relatione reali, &amp; relatione rationis ex 
+      <lb ed="#B" n="19"/>dist. xxx. q. v. Et quod relatio realis 
+      tripli<lb ed="#B" n="20" break="no"/>citer accipitur: ut ibidem patuit.
+    </p>
+            <p xml:id="gbs333-a73891-d1e165">
+      ¶ Ter 
+      <lb ed="#B" n="21"/>tio notandum, qud identitas, similitudo 
+      <lb ed="#B" n="22"/>aequalitas in deo non distinguuntur, 
+      <lb ed="#B" n="23"/>maxime accipiendo essentialiter. Quod 
+      <lb ed="#B" n="24"/>uero illi termini non sunt synonymi: 
+      ra<lb ed="#B" n="25" break="no"/>tio est: quia sunt conmunes deo, &amp; 
+      crea<lb ed="#B" n="26" break="no"/>turae. In creaturis non supponunt 
+      pro<lb ed="#B" n="27" break="no"/>eodem: quia in creaturis nihil idem sibi 
+      <lb ed="#B" n="28"/>est aequale, uel simile sibi, &amp; quae sunt 
+      <lb ed="#B" n="29"/>aequalia secundam quantitatem possunt 
+      <lb ed="#B" n="30"/>esse dissimilia secundum qualitatem. 
+      Si<lb ed="#B" n="31" break="no"/>autem imponetentur ad significandum 
+      <lb ed="#B" n="32"/>praecise illud, quod in diuinis 
+      significa<lb ed="#B" n="33" break="no"/>tur per illos terminos identitas, 
+      simili<lb ed="#B" n="34" break="no"/>tudo, aequalitas: non connotando 
+      crea<lb ed="#B" n="35" break="no"/>turam secundum se, uel suas partes: 
+      es<lb ed="#B" n="36" break="no"/>sent Iynonymiinter se, &amp; cum illo 
+      ter<lb ed="#B" n="37" break="no"/>mino essentia diuina: sic &amp; sapientia si 
+      <lb ed="#B" n="38"/>praecise significaret illud, quod in deo 
+      <lb ed="#B" n="39"/>est sapientia: esset synonymum cum es 
+      <lb ed="#B" n="40"/>sentia. Ideo namque personae diuinae 
+      di<lb ed="#B" n="41" break="no"/>cuntur idem naturaliter: dicuntur &amp; 
+      si<lb ed="#B" n="42" break="no"/>miles, ac aequales: quia sunt una eadem 
+      <lb ed="#B" n="43"/>que essentia.
+    </p>
+            <p xml:id="gbs333-a73891-d1e217">
+      ¶ Quantum ad articulum 
+      <lb ed="#B" n="44"/>secundum est conclusio prima. 
+      Identi<lb ed="#B" n="45" break="no"/>tas, similitudo, aequalitas, non sunt rela 
+      <lb ed="#B" n="46"/>tiones rationis. Patet: quia non 
+      impor<lb ed="#B" n="47" break="no"/>tant actum rationis: &amp; res ex natura 
+      rei<lb ed="#B" n="48" break="no"/>est eadem similis, &amp; aequalis 
+      circumscri<lb ed="#B" n="49" break="no"/>pto omni opere intellectus: igitur &amp;c. 
+      <lb ed="#B" n="50"/>Patet consequentia ex dictis. q. praeced¬ 
+      <!--379.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-a73891-d1e239">
+               <lb ed="#B" n="51"/>¶ Conclusio secunda. Identitas, similit 
+      u<lb ed="#B" n="52" break="no"/>do, aequalitas, non sunt relationes reales 
+      <lb ed="#B" n="53"/>quam sint res aliquae in deo subiectiue 
+      <lb ed="#B" n="54"/>existentes quocunque distinctae ab esse a 
+      <lb ed="#B" n="55"/>tia, relationibus originis, &amp; constitutis. 
+      <lb ed="#B" n="56"/>Patet: quia posita eadem essentia in 
+      pa<lb ed="#B" n="57" break="no"/>tre, &amp; filio, pater est similis, aequalis, &amp; 
+      <lb ed="#B" n="58"/>idem essentialiter filio omnibus alijs 
+      cir<lb ed="#B" n="59" break="no"/>cumscriptis: ideo frustra poneretur talis 
+      <lb ed="#B" n="60"/>res relatiua superaddita.
+    </p>
+            <p xml:id="gbs333-a73891-d1e263">
+      ¶ Item talis non 
+      <lb ed="#B" n="61"/>ponitur in creaturis: ergo multo minus 
+      <lb ed="#B" n="62"/>ponenda est in diuinis. Antecedens patet ex dist. 
+      <lb ed="#B" n="63"/>praeced.
+    </p>
+            <p xml:id="gbs333-a73891-d1e272">
+      ¶ Tertia conclusio. Identitas, 
+      <lb ed="#B" n="64"/>similitudo, aequalitas, in deo est relatio 
+      <lb ed="#B" n="65"/>realis: eo modo, quo dictum est relatione. 
+      <lb ed="#B" n="66"/>dei ad creaturam esse realem. Patet: qui a 
+      <lb ed="#B" n="67"/>pater ex natura rei similis est filio 
+      cir<lb ed="#B" n="68" break="no"/>cumscripta quacunque operatione 
+      intel<lb ed="#B" n="69" break="no"/>lectus: ergo est relatio realis.
+    </p>
+            <p xml:id="gbs333-a73891-d1e289">
+      ¶ Pro 
+      ar<lb ed="#B" n="70" break="no"/>ticulo tertio dubitatur primo. Quid est 
+      <lb ed="#B" n="71"/>illa relatio realis, quam est similitudo, aequa 
+      <lb ed="#B" n="72"/>litas aut identitas in diuinis. Et uidetur: 
+      <lb ed="#B" n="73"/>quod non sit essentia diuina: quia sic non 
+      <lb ed="#B" n="74"/>essent relationes, nec personae similes, 
+      <lb ed="#B" n="75"/>&amp; aequales: quia tunc essent plures 
+      quali<lb ed="#B" n="76" break="no"/>tates, sicut plures personae. Coatra quid 
+      <lb ed="#B" n="77"/>in symbolo dicitur Athan. Si patris, &amp; 
+      <lb ed="#B" n="78"/>filij, &amp; spiritussancti una est diuinitas, 
+      <lb ed="#B" n="79"/>aequalis gloria, &amp; ita etiam una aequalitas. 
+      <lb ed="#B" n="80"/>Item August. j. de doctrina christiana. 
+      <lb ed="#B" n="81"/>Aequalitas attribuitur filio, cum sit una 
+      <lb ed="#B" n="82"/>omnium, &amp; habetur in tex. Potest ad 
+      <lb ed="#B" n="83"/>hoc dici correspondenter ad dicta dist. 
+      <lb ed="#B" n="84"/>xxx q. i. &amp; dist. i. q.i. secundi colle. quod est 
+      <lb ed="#B" n="85"/>realiter pater, &amp; filius, &amp; essentia diuina 
+      <lb ed="#B" n="86"/>&amp; nihil superadditum. Aut est 
+      intentio<lb ed="#B" n="87" break="no"/>mentis, uel signum subordinatum 
+      secun<lb ed="#B" n="88" break="no"/>dum duplicem modum loquendi de ab 
+      <lb ed="#B" n="89"/>stractis relatiuis.
+    </p>
+            <p xml:id="gbs333-a73891-d1e335">
+      ¶ Aliter &amp; in 
+      proposi<lb ed="#B" n="90" break="no"/>to posset dici: quod similitudo, identitas, 
+      <lb ed="#B" n="91"/>aequalitas realiter est ipsa essentia, 
+      pro<lb ed="#B" n="92" break="no"/>pter cuius identitatem in tribus 
+      perso<lb ed="#B" n="93" break="no"/>nis ipsae dicuntur aequales.
+    </p>
+            <p xml:id="gbs333-a73891-d1e346">
+      ¶ Ad illud 
+      <lb ed="#B" n="94"/>quod arguitur, tunc non essent relatio 
+      <lb ed="#B" n="95"/>nes. Dicendum est, quod nomina illa, 
+      iden<lb ed="#B" n="96" break="no"/>titas &amp; caetera sunt relationes 
+      inquan<lb ed="#B" n="97" break="no"/>tum sunt conceptus in anima: quibus 
+      <lb ed="#B" n="98"/>intellectus res ad se comparat, uel 
+      te<lb ed="#B" n="99" break="no"/>fert secundum unam opin. de abstractis 
+      <lb ed="#B" n="100"/>relatiuorum. Illud tamen realiter quod 
+      no<lb ed="#B" n="101" break="no"/>minat non oportet esse relatione: sicut si¬ 
+      <!--380.xml-->
+      <pb ed="#B" n="293"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cmilitudo fortis ad Platonem, realiter 
+      <lb ed="#B" n="2"/>nahil nominat nisi sortem, &amp; Platonem 
+      <lb ed="#B" n="3"/>albos, &amp; nihil horum est relatio: sed 
+      no<lb ed="#B" n="4" break="no"/>men similitudo proprie est relatio. Et  
+      <lb ed="#B" n="5"/>hoc est quod dicit August. v. de trini. &amp; 
+      <lb ed="#B" n="6"/>habetur in textu. Est ergo appellatio 
+      <lb ed="#B" n="7"/>tantum relatiua: similitudo uero : st in 
+      <lb ed="#B" n="8"/>diuinis essentialiter. Et sequit. 
+      Aequa<lb ed="#B" n="9" break="no"/>lis est, &amp; similis secundum substantiam. 
+      <lb ed="#B" n="10"/>Nec ex illo sequitur: quod pater non sit rea 
+      <lb ed="#B" n="11"/>liter similis filio: aut sortes Platoni 
+      si<lb ed="#B" n="12" break="no"/>sint albi: licet non referantur ad se actua 
+      <lb ed="#B" n="13"/>liter nisi mediante conceptu mentis. 
+      <lb ed="#B" n="14"/>Si tamen non referantur actualiter: 
+      ni<lb ed="#B" n="15" break="no"/>hilominus realiter sortes albus est 
+      simi<lb ed="#B" n="16" break="no"/>lis Platoni albo. Ex illis sequitur: quod est 
+      <lb ed="#B" n="17"/>abusiuus modus loquendi dicere, quod 
+      re<lb ed="#B" n="18" break="no"/>lationes nunc tactae: puta identitas, 
+      simi<lb ed="#B" n="19" break="no"/>situdo &amp;c. oriantur ex natura rei in 
+      di<lb ed="#B" n="20" break="no"/>uinis: seu quod pullulant in essentia diuina: 
+      <lb ed="#B" n="21"/>quia nihil oritur in deo ex natura rei: 
+      <lb ed="#B" n="22"/>nec pullulat in diuina essentia: nisi quad 
+      <lb ed="#B" n="23"/>est ibi realiter, &amp; uere: nihil autem reali 
+      <lb ed="#B" n="24"/>ter est in deo intransitiue nisi diuina 
+      <lb ed="#B" n="25"/>essentia, relationes originis, &amp; personae 
+      <lb ed="#B" n="26"/>constitutae: ideo illae relationes identita 
+      <lb ed="#B" n="27"/>tis, aequalitatis &amp; similitudinis: secundum 
+      <lb ed="#B" n="28"/>quod sunt relationes quomodocunque; 
+      di<lb ed="#B" n="29" break="no"/>stinctae a praedictis, nullo modo oriuntur 
+      <lb ed="#B" n="30"/>ibi nec pullulant.
+    </p>
+            <p xml:id="gbs333-a73891-d1e437">
+      ¶ Secundo dubitatur: 
+      <lb ed="#B" n="31"/>quomodo illae relationes, identitas, aequa 
+      <lb ed="#B" n="32"/>litas, similitudo distinguuntur: ad hoc  
+      <lb ed="#B" n="33"/>b. et patuitnotabili tertio.
+    </p>
+            <p xml:id="gbs333-a73891-d1e446">
+      ¶ Tertio dubita 
+      <lb ed="#B" n="34"/>Dtur. Vtrum identitas numeralis sit 
+      rela<lb ed="#B" n="35" break="no"/>tio realis ex natura rei sine omni 
+      ope<lb ed="#B" n="36" break="no"/>ratione intellectus. Ad hoc dubium 
+      re<lb ed="#B" n="37" break="no"/>spondetur affirmatiue, quod sic ad mentem 
+      <lb ed="#B" n="38"/>conclusionis tertiae.
+    </p>
+            <p xml:id="gbs333-a73891-d1e459">
+      ¶ Et si dicitur, quod 
+      <lb ed="#B" n="39"/>extrema relationis realis debent essent 
+      <lb ed="#B" n="40"/>distincta: sic non est in identitate 
+      nume<lb ed="#B" n="41" break="no"/>rali. Dicendum quod extrema proprie 
+      lo<lb ed="#B" n="42" break="no"/>quendo sunt termini, scilicet relatiuum, 
+      <lb ed="#B" n="43"/>&amp; correlatiuum, qui &amp; uocantur 
+      termi<lb ed="#B" n="44" break="no"/>ni relationum: ut dictum est. quaest. 
+      prae<lb ed="#B" n="45" break="no"/>cedenti.
+    </p>
+            <p xml:id="gbs333-a73891-d1e478">
+      ¶ Accipiuntur tamen 
+      aliquan<lb ed="#B" n="46" break="no"/>do pro rebus, pro quibus relatiuum, &amp; 
+      <lb ed="#B" n="47"/>correlatiuum supponunt loquendo 
+      pri<lb ed="#B" n="48" break="no"/>mo modo extrema sunt distincta: uel 
+      <lb ed="#B" n="49"/>ad minus unum bis sumptum: sed 
+      intel<lb ed="#B" n="50" break="no"/>ligendo per extrema res: tunc 
+      frequen<lb ed="#B" n="51" break="no"/>ter extrema relationes realis sunt idem: 
+      <!--380.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quia in multis relationibus relatiua 
+      sup<lb ed="#B" n="53" break="no"/>ponunt pro eodem: ut mouens motum, 
+      <lb ed="#B" n="54"/>quando aliquid mouet se: intelligens in 
+      <lb ed="#B" n="55"/>tellectum, amans amatum, dum quis 
+      in<lb ed="#B" n="56" break="no"/>telligit, &amp; amat se.
+    </p>
+            <p xml:id="gbs333-a73891-d1e509">
+      ¶ Quarto 
+      dubita<lb ed="#B" n="57" break="no"/>tur, an relatio &amp; relatiuum supponant 
+      <lb ed="#B" n="58"/>pro terminis uel rebus. Solutio 
+      secun<lb ed="#B" n="59" break="no"/>dum philosophum. Relatio &amp; relatiuum 
+      <lb ed="#B" n="60"/>sunt signa relatiua, uel conceptus 
+      rela<lb ed="#B" n="61" break="no"/>tiui.
+    </p>
+            <p xml:id="gbs333-a73891-d1e522">
+      ¶ Sed contra hoc arguitur. 
+      Om<lb ed="#B" n="62" break="no"/>nia praedicamenta accidentium in 
+      con<lb ed="#B" n="63" break="no"/>creto praedicantur de substantia: ut sub 
+      <lb ed="#B" n="64"/>stantia est qualis, quanta, agens &amp;c. Et  
+      <lb ed="#B" n="65"/>go similiter haec erit uera: homo est ad 
+      <lb ed="#B" n="66"/>aliquid homo est relatiuum.
+    </p>
+            <p xml:id="gbs333-a73891-d1e535">
+      ¶ Item 
+      si<lb ed="#B" n="67" break="no"/>cut sequitur: homo est paternitas: ergo 
+      <lb ed="#B" n="68"/>est relatio. Ita sequitur: homo est pater: 
+      <lb ed="#B" n="69"/>ergo homo est relatiuum, &amp; per conse- 
+      <lb ed="#B" n="70"/>quens relatiuum praedicatur de re.
+    </p>
+            <p xml:id="gbs333-a73891-d1e546">
+      ¶ Item 
+      <lb ed="#B" n="71"/>nisi sic: aliquid esset aequale sine 
+      aequali<lb ed="#B" n="72" break="no"/>tate: sed hoc est impossibile: sicut 
+      im<lb ed="#B" n="73" break="no"/>possibile est, quod homo sit albus sine 
+      albe<lb ed="#B" n="74" break="no"/>dine.
+    </p>
+            <p xml:id="gbs333-a73891-d1e557">
+      ¶ Ad primum dicendum, quod quam 
+      <lb ed="#B" n="75"/>do habetur concretum impositum 
+      prae<lb ed="#B" n="76" break="no"/>dicamenti accidentis: tunc contingit 
+      <lb ed="#B" n="77"/>ipsum praedicari de substantia: sed non 
+      <lb ed="#B" n="78"/>semper habetur concretum impositum: 
+      <lb ed="#B" n="79"/>sicut in praedicamento quando &amp; ubi: 
+      <lb ed="#B" n="80"/>ideo non dicitur: substantia est quando: 
+      <lb ed="#B" n="81"/>substantia est ubi. Si singerentur 
+      con<lb ed="#B" n="82" break="no"/>creta, praedicarentur de substantia: ut 
+      si<lb ed="#B" n="83" break="no"/>diceretur: substantia est ubitata: 
+      substan<lb ed="#B" n="84" break="no"/>tia est quandalis, uel similia. Sic ad 
+      ali<lb ed="#B" n="85" break="no"/>quid, &amp; relatiuum secundum, quod 
+      uteba<lb ed="#B" n="86" break="no"/>tur philosophus: non sunt concreta: sed  
+      <lb ed="#B" n="87"/>sunt nomina significantia conceptus 
+      <lb ed="#B" n="88"/>relatiuos.
+    </p>
+            <p xml:id="gbs333-a73891-d1e591">
+      ¶ Differunt tamen ad aliqud 
+      <lb ed="#B" n="89"/>&amp; relatio: quia ad aliquid significat 
+      con<lb ed="#B" n="90" break="no"/>creta relatiua: sed relatio significat 
+      ab<lb ed="#B" n="91" break="no"/>stracta relatiua.
+    </p>
+            <p xml:id="gbs333-a73891-d1e600">
+      ¶ Corollarium: ad 
+      ali<lb ed="#B" n="92" break="no"/>quid, &amp; relatiuum sunt synonyma.
+    </p>
+            <p xml:id="gbs333-a73891-d1e605">
+      ¶ 
+      Ve<lb ed="#B" n="93" break="no"/>rum enim non omne concretum de 
+      <lb ed="#B" n="94"/>praedicamento accidentium praedicatur  
+      <lb ed="#B" n="95"/>de substantia: ut intensum: remissum, 
+      <lb ed="#B" n="96"/>contrarium, inhaerens accidentaliter, 
+      <lb ed="#B" n="97"/>&amp; similia praedicantur tamen de termino 
+      <lb ed="#B" n="98"/>absoluto.
+    </p>
+            <p xml:id="gbs333-a73891-d1e621">
+      ¶ Ad secundum dicitur, quod 
+      co<lb ed="#B" n="99" break="no"/>sequentia non ualet: homo est pater: 
+      er<lb ed="#B" n="100" break="no"/>go homo est relatiuum: quia relatiuum 
+      <lb ed="#B" n="101"/>non supponit nisi pro terminis; pater 
+      <lb ed="#B" n="102"/>autem pro rebus: nec relatiuum est supe¬ 
+      <!--381.xml-->
+      <pb ed="#B" n="294"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rius ad pater. Sequitur tamen: homo 
+      <lb ed="#B" n="2"/>est paternitas: ergo homo est 
+      relatio<lb ed="#B" n="3" break="no"/>quia paternitas non supponit nisi 
+      pro<lb ed="#B" n="4" break="no"/>conceptu mentis.  Et ideo sicut conse- 
+      <lb ed="#B" n="5"/>quens est falsum: ita &amp; antecedens.
+    </p>
+            <p xml:id="gbs333-a73891-d1e650">
+      ¶ Ad 
+      <lb ed="#B" n="6"/>tertium conceditur: quod aliquid est aequale 
+      <lb ed="#B" n="7"/>fine aequalitate; quia sine conceptu 
+      men<lb ed="#B" n="8" break="no"/>tis. Nec est simile de albus albedine. 
+      <lb ed="#B" n="9"/>quia albedo est quaedam qualitas, &amp; 
+      for<lb ed="#B" n="10" break="no"/>ma realis: quae non denominat album 
+      nisi<lb ed="#B" n="11" break="no"/>actu inhaerens. Verum ut supra dictum 
+      <lb ed="#B" n="12"/>est distin. xxx. quaest. j. Item in secundo 
+      <lb ed="#B" n="13"/>distin. i. quaest. j. abstracta relatio 
+      aliquan<lb ed="#B" n="14" break="no"/>do accipiuntur, ut supponunt pro rebus 
+      <lb ed="#B" n="15"/>simul sumptis, ut similitudo pro 
+      simili<lb ed="#B" n="16" break="no"/>libus, &amp; qualitate, in qua sunt similia. Et  
+      <lb ed="#B" n="17"/>sic impossibile est aliqua esse similia sine 
+      <lb ed="#B" n="18"/>similitudine, &amp; aequalia sine aequalitate. 
+      <lb ed="#B" n="19"/>Et secundum hunc modum oportet 
+      mu<lb ed="#B" n="20" break="no"/>tare responsionem ad dubium. Et ille 
+      <lb ed="#B" n="21"/>secundus modus uidetur facilior. Mul 
+      <lb ed="#B" n="22"/>ta hic possent moueri dubia, quae 
+      perti<lb ed="#B" n="23" break="no"/>nent ad logicam.
+    </p>
+            <p xml:id="gbs333-a73891-d1e692">
+      ¶ Quinto dubitatur. 
+      <lb ed="#B" n="24"/>An haec sit concedenda: aequalitas est in 
+      <lb ed="#B" n="25"/>patre ad filium. Respondetur proprie 
+      <lb ed="#B" n="26"/>loquendo non debet concedi, sed de 
+      <lb ed="#B" n="27"/>bet concedi, quod concretum illius 
+      abstra<lb ed="#B" n="28" break="no"/>cti praedicatur de patre, &amp; ita intelligunt 
+      <lb ed="#B" n="29"/>omnes sancti in hac materia. Hoc est 
+      <lb ed="#B" n="30"/>summatium horum, quae tractantur a 
+      <lb ed="#B" n="31"/>doct. in corpore quaestionis.
+    </p>
+            <p xml:id="gbs333-a73891-d1e713">
+      ¶ Sexto 
+      <lb ed="#B" n="32"/>dubitatur de illa appropriatione, quam 
+      <lb ed="#B" n="33"/>Hila. facit: ut patuit in propositione ter 
+      <lb ed="#B" n="34"/>tia textuali, qua patri attribuit aeternita 
+      <lb ed="#B" n="35"/>tem: filio speciem, &amp; spirituisancto (
+      qui<lb ed="#B" n="36" break="no"/>&amp; munus est, siue donum) usum: quae non 
+      <lb ed="#B" n="37"/>sunt propria: sed appropriata personarum. 
+      <lb ed="#B" n="38"/>Non enim appropriatur patri aeternitas, 
+      <lb ed="#B" n="39"/>quasi magis realiter conueniat, quam 
+      <lb ed="#B" n="40"/>filio, aut spirituisancto: sed quia aeter 
+      <lb ed="#B" n="41"/>nitas magis uidetur habere (saltem 
+      ap<lb ed="#B" n="42" break="no"/>parentem) similitudinem cum 
+      proprio<lb ed="#B" n="43" break="no"/>patris, quod est non esse ab alio 
+      princi<lb ed="#B" n="44" break="no"/>pio: quam cum proprio filij, uel 
+      spiritus<lb ed="#B" n="45" break="no"/>sancti. Qui licet non habent initiale 
+      <lb ed="#B" n="46"/>principium sicut patet: habent tamen 
+      <lb ed="#B" n="47"/>principium originale. Sicut species (quod 
+      <lb ed="#B" n="48"/>dicit speciositatem, uel pulchritudinem) 
+      <lb ed="#B" n="49"/>licet omnibus conueniat: tamen 
+      quan<lb ed="#B" n="50" break="no"/>dam similitudinem habet cum 
+      imagi<lb ed="#B" n="51" break="no"/>ne, quae expresse repraesentat patrem, 
+      <!--381.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cui est perfecte aequalis, &amp; similis. Vsus 
+      <lb ed="#B" n="53"/>uutem est actus amoris: ideo 
+      spirituisan<lb ed="#B" n="54" break="no"/>cto, qui amor est patris, &amp; filij 
+      appto<lb ed="#B" n="55" break="no"/>priatur: sicut omnia, quae ad amore 
+      per<lb ed="#B" n="56" break="no"/>tinent.
+    </p>
+            <p xml:id="gbs333-a73891-d1e774">
+      ¶ Secunda appropriatio est 
+      bea<lb ed="#B" n="57" break="no"/>ti August. quaepatri appropriat unitatem, 
+      <lb ed="#B" n="58"/>filio aequalitatem, &amp; spirituisancto 
+      con<lb ed="#B" n="59" break="no"/>cordiam. Vnitas patri attribuitur: quia 
+      <lb ed="#B" n="60"/>sicut unitas principium dicitur numeri: 
+      <lb ed="#B" n="61"/>sic pater est principium filij, &amp; 
+      spiritul<lb ed="#B" n="62" break="no"/>sancti. Aequalitas uero filio: quia filius 
+      <lb ed="#B" n="63"/>est perfecta patris imago, de cuius 
+      ra<lb ed="#B" n="64" break="no"/>tione est, ut sit aequalis ei, cuius est 
+      ima<lb ed="#B" n="65" break="no"/>go: alioquin non esset perfecta. Et etiam 
+      <lb ed="#B" n="66"/>quia filius: ideo aequalis, &amp; similis ex 
+      mo<lb ed="#B" n="67" break="no"/>do productionis gignendi. Concordia 
+      <lb ed="#B" n="68"/>spirituisancto: quia ipse est amor, &amp; 
+      ne<lb ed="#B" n="69" break="no"/>xus patris, &amp; filij: ut in textuclaret.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

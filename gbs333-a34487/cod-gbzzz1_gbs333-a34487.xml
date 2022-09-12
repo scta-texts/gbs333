@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="137"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a34487"> <!-- l1d5q2 -->
+            <head xml:id="gbs333-a34487-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a34487-Hd1e104" type="question-title">Utrum filius generetur de substantia patris</head>
+            <p xml:id="gbs333-a34487-d1e107">
+               <lb ed="#B" n="16"/>QVAESTIO II 
+      <lb ed="#B" n="17"/>VTRVM filius generetur 
+      <lb ed="#B" n="18"/>de substantia patris.
+    </p>
+            <p xml:id="gbs333-a34487-d1e116">
+      ¶ Pro 
+      <lb ed="#B" n="19"/>articulo primo notandum: 
+      <lb ed="#B" n="20"/>quod illa quaestio pro tanto 
+      mo<lb ed="#B" n="21" break="no"/>uetur: quia inconueniens est 
+      <lb ed="#B" n="22"/>dicere, filium esse de nihilo: secundum 
+      <lb ed="#B" n="23"/>beatum Aug. ut patet in textu. Oportet 
+      <lb ed="#B" n="24"/>ergo aliquid assignare, de quo sit filius: 
+      <lb ed="#B" n="25"/>siue de quo generetur: quia si nihiltale 
+      <lb ed="#B" n="26"/>assignatur: erit de nihilo.
+    </p>
+            <p xml:id="gbs333-a34487-d1e137">
+      ¶ Videndum 
+      <lb ed="#B" n="27"/>ergo est: quid sit esse, uel produci de 
+      ni<lb ed="#B" n="28" break="no"/>hilo: &amp; potest dici, quod produci de 
+      ni<lb ed="#B" n="29" break="no"/>hilo, non est produci post nihilid est post. 
+      <lb ed="#B" n="30"/>quam non fuit: quia sic forma educta 
+      <lb ed="#B" n="31"/>de potentia materiae produceretur de 
+      ni<lb ed="#B" n="32" break="no"/>hilo: quia ante eius productionem nihil 
+      <lb ed="#B" n="33"/>fuit, secundum probabilem opinionem. 
+      <lb ed="#B" n="34"/>Sic enim quaestio nullum haberet dubium 
+      <lb ed="#B" n="35"/>supposita filij aeternitate: sed produci de 
+      <lb ed="#B" n="36"/>nihilo est produci non de potentia sub 
+      <lb ed="#B" n="37"/>iecti: &amp; quod nihil ipsius sit: quod non 
+      acci<lb ed="#B" n="38" break="no"/>piat esse simpliciter illa productione, 
+      <lb ed="#B" n="39"/>Quandocunque enim aliquid ipsius non 
+      <lb ed="#B" n="40"/>capit esse illa productione: iam non est 
+      <lb ed="#B" n="41"/>de nihilo: eo quod aliquid ipsius (quod scilice 
+      <lb ed="#B" n="42"/>non capit esse illa productione) 
+      quodan<lb ed="#B" n="43" break="no"/>modo praesupponitur. Ita quod si per 
+      impos<lb ed="#B" n="44" break="no"/>sibile, illa productio non esset: 
+      nihilo<lb ed="#B" n="45" break="no"/>minus tale esset.
+    </p>
+            <p xml:id="gbs333-a34487-d1e181">
+      ¶ Corolllarium. 
+      Bor<lb ed="#B" n="46" break="no"/>ma naturaliter genita non est de nihilo: 
+      <lb ed="#B" n="47"/>quia licet secundum se, &amp; quodlibet sui, 
+      <lb ed="#B" n="48"/>capit esse illa generatione: tamen 
+      pro<lb ed="#B" n="49" break="no"/>ducitur de potentia subiecti: secus de 
+      <lb ed="#B" n="50"/>anima intellectiua: quae quia creatur, de 
+      <!--224.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>nihilo producitur: licet in materia: non 
+      <lb ed="#B" n="52"/>tam en de potentia materiae: siquidem 
+      <lb ed="#B" n="53"/>qucquid creatur, de nihilo producitur. 
+      </p>
+            <p xml:id="gbs333-a34487-d1e205">
+               <lb ed="#B" n="54"/>¶ Corollarium secundum. Homo non 
+      <lb ed="#B" n="55"/>producitur de nihilo: licet eius forma 
+      <lb ed="#B" n="56"/>creetur.
+    </p>
+            <p xml:id="gbs333-a34487-d1e214">
+      ¶ Corollarium tertium. Si sub 
+      <lb ed="#B" n="57"/>forma praeexistente de nihilo 
+      produca<lb ed="#B" n="58" break="no"/>tur materia: compositum ex hac 
+      mate<lb ed="#B" n="59" break="no"/>tia non est de nihilo. Nec creatur 
+      pro<lb ed="#B" n="60" break="no"/>ter partem, formam scilicet praeexistentem: 
+      <lb ed="#B" n="61"/>licet materia creetur unde compositum, 
+      <lb ed="#B" n="62"/>cuius altera pars siue materia, siue 
+      for<lb ed="#B" n="63" break="no"/>ma praesupponitur: non est de nihilo¬ 
+      </p>
+            <p xml:id="gbs333-a34487-d1e232">
+               <lb ed="#B" n="64"/>¶ Corollarium quartum. Si angelus ab 
+      <lb ed="#B" n="65"/>aeterno produceretur: uere esset de 
+      ni<lb ed="#B" n="66" break="no"/>hilo, &amp; uere crearetur. Patet: quia nihil 
+      <lb ed="#B" n="67"/>ipsius est, quod non capiat esse sua 
+      pro<lb ed="#B" n="68" break="no"/>ductione aeterna: si esset possibilis. Cum 
+      <lb ed="#B" n="69"/>ergo filius in diuinis sic generatur ex 
+      <lb ed="#B" n="70"/>patre: quod non quodlibet sui capit esse 
+      il<lb ed="#B" n="71" break="no"/>la generatione (quia essentia, quae est 
+      ali<lb ed="#B" n="72" break="no"/>quid filij) uerius est ipse filius: licet non 
+      <lb ed="#B" n="73"/>formaliter non capit esse illa 
+      generatio<lb ed="#B" n="74" break="no"/>ne: quia est in patre circumscripta 
+      gene<lb ed="#B" n="75" break="no"/>ratione, &amp; ideo non est de nihilo: quia 
+      <lb ed="#B" n="76"/>substantia, quam nascendo accipit: eadem 
+      <lb ed="#B" n="77"/>est in generante, &amp; non capit esse 
+      simpli<lb ed="#B" n="78" break="no"/>citer per generationem filij. Est ergo 
+      <lb ed="#B" n="79"/>de substantia patris id est de patre suam sub 
+      <lb ed="#B" n="80"/>stantiam generando filio 
+      communican<lb ed="#B" n="81" break="no"/>te. Non dissonat a nunc dictis Grego. 
+      <lb ed="#B" n="82"/>dist. praesenti. q.ij. art. j.
+    </p>
+            <p xml:id="gbs333-a34487-d1e276">
+      ¶ Isto supposito, 
+      <lb ed="#B" n="83"/>&amp; omissa recitatione, &amp; impugnatione 
+      <lb ed="#B" n="84"/>opinionis ut aestimo Henrici &amp; Durandi 
+      <lb ed="#B" n="85"/>tenentium, quod omni perfectione 
+      postpo<lb ed="#B" n="86" break="no"/>sita, cum dicitur filius de substantia 
+      pa<lb ed="#B" n="87" break="no"/>tris. de: dicit circunstantiam causae 
+      mate<lb ed="#B" n="88" break="no"/>rialis, uel quasi materialis: ut recitat 
+      <lb ed="#B" n="89"/>Tho. Argen. dist. praesenti.
+    </p>
+            <p xml:id="gbs333-a34487-d1e295">
+      ¶ Est pro 
+      ar<lb ed="#B" n="90" break="no"/>ticulo secundo conclusio prima. Tilius 
+      <lb ed="#B" n="91"/>est genitus de substantia patris. Patet: 
+      <lb ed="#B" n="92"/>quia secundum magistrum non est de 
+      ni<lb ed="#B" n="93" break="no"/>hilo: ergo de aliquo: &amp; tamen non de 
+      alio<lb ed="#B" n="94" break="no"/>nisi de substantia patris tergo &amp;c. ad hoc  
+      <lb ed="#B" n="95"/>allegantur auctoritates in textu.
+    </p>
+            <p xml:id="gbs333-a34487-d1e311">
+      ¶ 
+      Secun<lb ed="#B" n="96" break="no"/>da conclusio. Pilius non est de 
+      substan<lb ed="#B" n="97" break="no"/>tia patris, tanquam de materia, uel 
+      quasi<lb ed="#B" n="98" break="no"/>materia. Patet: quia in diuinis nihil est 
+      <lb ed="#B" n="99"/>ponendum imperfectionis, &amp; per conse 
+      <lb ed="#B" n="100"/>sequens non est ibiponenda 
+      generatio<lb ed="#B" n="101" break="no"/>sub ratione mutationis uel quasi muta¬ 
+      <!--225.xml-->
+      <pb ed="#B" n="138"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tionis: quia mutatio dicit 
+      imperfectio<lb ed="#B" n="2" break="no"/>nem in mutabili: quia potentialiter, &amp; 
+      con<lb ed="#B" n="3" break="no"/>comitanter imperfectionem in mutante 
+      <lb ed="#B" n="4"/>pro quanto necessario requirit causam 
+      <lb ed="#B" n="5"/>concausantem. Est enim mutatio qua 
+      ali<lb ed="#B" n="6" break="no"/>quod subjectum de priuatione transit ad 
+      <lb ed="#B" n="7"/>formam. vj. physic. Est autem ponenda 
+      <lb ed="#B" n="8"/>generatio in diuinis, tantum sub 
+      ratio<lb ed="#B" n="9" break="no"/>ne productionis, inquantum scilicet aliquid per 
+      <lb ed="#B" n="10"/>eam capit esse. Et ideo generationi in 
+      <lb ed="#B" n="11"/>diuinis non assignabitur materia, uel 
+      <lb ed="#B" n="12"/>quasi materia: sed tamen termin: formalis. 
+      <lb ed="#B" n="13"/>Alias pbationes adducit auct. in suo 
+      scri<lb ed="#B" n="14" break="no"/>pto.
+    </p>
+            <p xml:id="gbs333-a34487-d1e363">
+      ¶ Tertia conclusio. Filius est de 
+      sub<lb ed="#B" n="15" break="no"/>stantia patris, sicut de aliquo, quod est 
+      <lb ed="#B" n="16"/>sibi consubstantiale id est de patre, qui est de 
+      <lb ed="#B" n="17"/>filio consubstantialis. Itaque praepositio 
+      <lb ed="#B" n="18"/>de duo dicit scilicet originationem, &amp; 
+      consub<lb ed="#B" n="19" break="no"/>stantialitatem &amp; neutrum solum. Si enim 
+      <lb ed="#B" n="20"/>solam originationem diceret: tunc 
+      crea<lb ed="#B" n="21" break="no"/>turae essent de substantia dei. Si solam 
+      con<lb ed="#B" n="22" break="no"/>substantialitatem, tunc pater esset de 
+      <lb ed="#B" n="23"/>substantia filij: unde filius est de 
+      substan<lb ed="#B" n="24" break="no"/>tia patris: tantum est dicere: filius est 
+      ori<lb ed="#B" n="25" break="no"/>ginatus a patre, &amp; consubstantialis 
+      ei<lb ed="#B" n="26" break="no"/>Dicit ergo de, originationem: non quid 
+      <lb ed="#B" n="27"/>est in proprio casuali: sed in illo, quod  
+      <lb ed="#B" n="28"/>reoitur a proprio casuali ad bonum 
+      in<lb ed="#B" n="29" break="no"/>tellectum: quia filius non est originatus 
+      <lb ed="#B" n="30"/>a substantia: sed a patre, qui est eadem 
+      <lb ed="#B" n="31"/>substantia cum filio. Vel de, potest dice 
+      <lb ed="#B" n="32"/>re consubstantialitatem in proprio 
+      ca<lb ed="#B" n="33" break="no"/>suali: &amp; originationem in recto a suo 
+      ca<lb ed="#B" n="34" break="no"/>suali: ut dicit Scor. Consonat nunc 
+      di<lb ed="#B" n="35" break="no"/>ctis Greg. dist. v. q.ij. art. i.
+    </p>
+            <p xml:id="gbs333-a34487-d1e411">
+      ¶ Verum quia 
+      <lb ed="#B" n="36"/>doct. succincte procedit in hac 
+      quaestio<lb ed="#B" n="37" break="no"/>ne, temittens ad doc. subtilem cum quo 
+      <lb ed="#B" n="38"/>hic concordat in conclusione 
+      principa<lb ed="#B" n="39" break="no"/>li: licet in quibusdam lateralibus non 
+      <lb ed="#B" n="40"/>concordet (hinc recitatis 
+      difficultati<lb ed="#B" n="41" break="no"/>bus, quas ponit praefatus doctor. q.ij. 
+      di<lb ed="#B" n="42" break="no"/>stinct. praesentis, respondet ad easdem) 
+      <lb ed="#B" n="43"/>potest circa easdem difficultates hoc  
+      <lb ed="#B" n="44"/>breue moueri dubium: pro articulo 
+      ter<lb ed="#B" n="45" break="no"/>tio. Ex quo secundum communem 
+      mo<lb ed="#B" n="46" break="no"/>dum loquendi doct. persona 
+      constitui<lb ed="#B" n="47" break="no"/>tur ex essentia &amp; relatione. Cum 
+      essen<lb ed="#B" n="48" break="no"/>tia non habet se ut actus respectu 
+      rela<lb ed="#B" n="49" break="no"/>tionis: habebit se ut potentia: quia quam 
+      <lb ed="#B" n="50"/>docunque ad constitutionem unius, duo 
+      <lb ed="#B" n="51"/>alterius rationis concurrunt: unum ha¬ 
+      <!--225.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>bet se ut potentia: aliud ut actus. 
+      Re<lb ed="#B" n="53" break="no"/>spondeo: quod potentia, &amp; actus competunt 
+      <lb ed="#B" n="54"/>nisi rebus realiter distinctis. Ideo sicut  
+      <lb ed="#B" n="55"/>in diuinis non est ponenda 
+      compositio<lb ed="#B" n="56" break="no"/>uel quasi compositio: ita nec ponenda 
+      <lb ed="#B" n="57"/>est ibi potentia, &amp; actus unius respectu 
+      <lb ed="#B" n="58"/>alterius, propter identitatem realem eo 
+      <lb ed="#B" n="59"/>rundem. Per hoc patet: quod essentia non 
+      <lb ed="#B" n="60"/>habet se ut potentia respectu relationis: 
+      <lb ed="#B" n="61"/>nec ut actus.
+    </p>
+            <p xml:id="gbs333-a34487-d1e474">
+      ¶ Similiter dicitur: quod licet 
+      <lb ed="#B" n="62"/>relatio proprie distinguit personas, qui  
+      <lb ed="#B" n="63"/>bus essentia est communis: non tamen 
+      <lb ed="#B" n="64"/>ideo est actus essentiae: quia est eadem 
+      <lb ed="#B" n="65"/>realiter ipsi essentiae. Sic fundamentum 
+      <lb ed="#B" n="66"/>relationis in proposito, quod est 
+      essen<lb ed="#B" n="67" break="no"/>tia: non est potentia respectu relationis: 
+      <lb ed="#B" n="68"/>sed eadem relationi: nec essentia conicatur 
+      <lb ed="#B" n="69"/>filio tamquam praeexistenti: sed 
+      commu<lb ed="#B" n="70" break="no"/>nicatur filio: quia filius per productionem 
+      <lb ed="#B" n="71"/>habet eandem essentiam cum patre. 
+      </p>
+            <p xml:id="gbs333-a34487-d1e498">
+               <lb ed="#B" n="72"/>¶ Secundum dubium uidetur pro 
+      defen<lb ed="#B" n="73" break="no"/>sione opinionis superius recitatae, 
+      te<lb ed="#B" n="74" break="no"/>nentis, quod materia sic ponatur in diuinis, 
+      <lb ed="#B" n="75"/>ne filius sit de nihilo, uel de aliena 
+      sub<lb ed="#B" n="76" break="no"/>stantia. Remouendo, &amp; separando 
+      pror<lb ed="#B" n="77" break="no"/>sus materiae potentialitatem in 
+      genera<lb ed="#B" n="78" break="no"/>tione substantiae. Item potentialitatem 
+      <lb ed="#B" n="79"/>subiecti in alteratione, &amp; in genere quic 
+      <lb ed="#B" n="80"/>quid imperfectionis est &amp;c. uidetur eim: 
+      <lb ed="#B" n="81"/>quod illud non est absonum dicere: 
+      uiden<lb ed="#B" n="82" break="no"/>tur namque haec omnia posse 
+      conueni<lb ed="#B" n="83" break="no"/>re diuinae essentiae. Respondetur: quam 
+      <lb ed="#B" n="84"/>uis forte aliquis dicere posset, quod 
+      con<lb ed="#B" n="85" break="no"/>certatio illa magis est de nomine, quam 
+      <lb ed="#B" n="86"/>de re: nihilominus non uidetur ille 
+      mo<lb ed="#B" n="87" break="no"/>dus loquendi fore admittendus: quia 
+      pos<lb ed="#B" n="88" break="no"/>set simplices ducere in multiplicem 
+      er<lb ed="#B" n="89" break="no"/>rorem. Et licet in causarum naturalium 
+      <lb ed="#B" n="90"/>communi productione praesupponitur 
+      <lb ed="#B" n="91"/>materia: tamen respectu potentiae 
+      diui<lb ed="#B" n="92" break="no"/>nae plus inffuentis in omnem effectum, 
+      <lb ed="#B" n="93"/>quam quaecunque causa secunda, non 
+      <lb ed="#B" n="94"/>plus praesupponitur materia, quam forma: 
+      <lb ed="#B" n="95"/>quam sicut deus producit formam in mate 
+      <lb ed="#B" n="96"/>ria praeexistente: ita posset creare mate 
+      <lb ed="#B" n="97"/>riam sub forma naturali praeexistente. Et  
+      <lb ed="#B" n="98"/>sicut admitteret: quod essentia se haberet: 
+      <lb ed="#B" n="99"/>quasi materia: eo quod posupponitur in 
+      pa<lb ed="#B" n="100" break="no"/>tre: ne dicatur filius esse de nihilo remo 
+      <lb ed="#B" n="101"/>uendo quicquid imperfectionis est, &amp; 
+      <lb ed="#B" n="102"/>attribuendo, quod prfectionis. Ita posset 
+      <!--226.xml-->
+      <pb ed="#B" n="139"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dici, quod relatio est quasi forma, &amp; 
+      perso<lb ed="#B" n="2" break="no"/>na quasi compositum ex essentia, &amp; 
+      re<lb ed="#B" n="3" break="no"/>latione separato omni eo, quod est 
+      im<lb ed="#B" n="4" break="no"/>o perfectionis &amp;c. quae sunt absurda.
+    </p>
+            <p xml:id="gbs333-a34487-d1e584">
+      ¶ Et  
+      <lb ed="#B" n="5"/>i pro ratione diuersitatis, &amp; euasiue 
+      di<lb ed="#B" n="6" break="no"/>ceretur, quod aliqua, quae sunt imperfectio 
+      <lb ed="#B" n="7"/>nis in composito separari non 
+      pos<lb ed="#B" n="8" break="no"/>sunt: ideo compositio non potest esse 
+      <lb ed="#B" n="9"/>in deo. Ita dicam pariformiter, quod  
+      <lb ed="#B" n="10"/>illa, quae imperfectionis sunt in 
+      ma<lb ed="#B" n="11" break="no"/>teria, uel quasi in materia, 
+      insepara<lb ed="#B" n="12" break="no"/>bilia sunt. Et ideo esse quasi materiam 
+      <lb ed="#B" n="13"/>nulliattribui potest, nisi cui potest 
+      attri<lb ed="#B" n="14" break="no"/>bui aliquid imperfectionis: sicut enim 
+      <lb ed="#B" n="15"/>materia dicit imperfectionem: ita quas 
+      <lb ed="#B" n="16"/>materia dicit quasi imperfectionem: sicut  
+      <lb ed="#B" n="17"/>ergo non est concedendum: quod essentia 
+      <lb ed="#B" n="18"/>est quasi imperfectio: ita non est 
+      conce<lb ed="#B" n="19" break="no"/>dendum, quod essentia sit quasi materia, 
+      </p>
+            <p xml:id="gbs333-a34487-d1e619">
+               <lb ed="#B" n="20"/>¶ Si dicitur: essentia habet tantum suum 
+      <lb ed="#B" n="21"/>esse sibi proprium in patre prius origine, 
+      <lb ed="#B" n="22"/>quod sit in filio. Hoc dupliciter potest 
+      intel<lb ed="#B" n="23" break="no"/>ligi: uel quod est tota in patre, qui genuit 
+      fi<lb ed="#B" n="24" break="no"/>lium: &amp; hoc est uerum: sed tame ex hoc  
+      <lb ed="#B" n="25"/>non potest inferri, quod sit quasi materia: 
+      <lb ed="#B" n="26"/>uel quod ipsamet essentia sit prior origine 
+      <lb ed="#B" n="27"/>filio: &amp; hoc est falsum: quia tunc filius 
+      es<lb ed="#B" n="28" break="no"/>set ab essentia productus. Et si hoc 
+      conce<lb ed="#B" n="29" break="no"/>deretur: adhuc nihil faceret ad 
+      proposi<lb ed="#B" n="30" break="no"/>tum, quod diceretur quasi materia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

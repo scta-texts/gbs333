@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="324"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a82229"> <!-- l1d37q1 -->
+            <head xml:id="gbs333-a82229-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a82229-Hd1e104" type="question-title">Utrum esse ubique et in omnibus rebus per essentiam, praesentiam, potentiam, sit proprium soli Deo</head>
+            <p xml:id="gbs333-a82229-d1e107">
+               <lb ed="#B" n="55"/>unica.  
+      <lb ed="#B" n="56"/>VTRVM esse ubique; &amp; in 
+      <lb ed="#B" n="57"/>omnibus rebus per essentiam, 
+      prae<lb ed="#B" n="58" break="no"/>ea sentiam, potentiam, sit 
+      pro<lb ed="#B" n="59" break="no"/>prium soli deo.
+    </p>
+            <p xml:id="gbs333-a82229-d1e120">
+      ¶ Prout 
+      con<lb ed="#B" n="60" break="no"/>suetum est tres erunt quaestionis articuli. 
+      <lb ed="#B" n="61"/>Quoad primum, notandum, quod 
+      conclusio<lb ed="#B" n="62" break="no"/>est certa apud theologos scilicet quod proprium est 
+      <lb ed="#B" n="63"/>soli deo esse in omnibus rebus existentibus, 
+      <lb ed="#B" n="64"/>&amp; possibilibus, si, ponantur per essentiam, 
+      <lb ed="#B" n="65"/>praesentiam, &amp; potentiam. Sed est una 
+      dif<lb ed="#B" n="66" break="no"/>ficultas specialis: an ex hoc, quod deus est in 
+      <lb ed="#B" n="67"/>omnibus rebus per potentiam (ita scilicet quod est 
+      caus<lb ed="#B" n="68" break="no"/>immediata oim rerum) sequatur igsum 
+      <lb ed="#B" n="69"/>ubique esse per essentiam.
+    </p>
+            <p xml:id="gbs333-a82229-d1e145">
+      ¶ Secundo notan<lb ed="#B" n="70" break="no"/>dum: quod magister ex sanctorum 
+      auctori<lb ed="#B" n="71" break="no"/>tatibus colligit triplicem dei in 
+      creatu<lb ed="#B" n="72" break="no"/>ris existentiam: qudam est gnalis: alia 
+      spe<lb ed="#B" n="73" break="no"/>cialis: tertia singularis. Generali inexi- 
+      <lb ed="#B" n="74"/>stentia omnes creaturas conseruat. 
+      Specia<lb ed="#B" n="75" break="no"/>li assistentia animas sanctas inhabitat. 
+      <lb ed="#B" n="76"/>Singulari praesentia naturam humanam 
+      as<lb ed="#B" n="77" break="no"/>sumens in unitatem suppositi sibi copulat: 
+      <lb ed="#B" n="78"/>de ista aunt in iij. lib dicendum erit. De se 
+      <lb ed="#B" n="79"/>cunda uero dictum est. supra dis. xix. 
+      De<lb ed="#B" n="80" break="no"/>prima modo erit sermo.
+    </p>
+            <p xml:id="gbs333-a82229-d1e171">
+      ¶ Tertio notan<lb ed="#B" n="81" break="no"/>dum, quod unum inesse alteri tripliciter con pr 
+      <lb ed="#B" n="82"/>tingit: per potentiam scilicet psentiam, &amp; 
+      essen<lb ed="#B" n="83" break="no"/>tiam. Per potentiam res inest alteri, quam 
+      <lb ed="#B" n="84"/>habet suae subiectam potentiae: quo modo 
+      <lb ed="#B" n="85"/>et in corporalibus aliquid inesse potest 
+      <lb ed="#B" n="86"/>alteri: ab eo tamen localiter distanti: sicut: 
+      <lb ed="#B" n="87"/>sol per potentiam suam in istis inferioribus, 
+      <lb ed="#B" n="88"/>&amp; rex in regni sui terris, &amp; hominibus. 
+      <lb ed="#B" n="89"/>Qui tamen modus loquendi apud 
+      philoso<lb ed="#B" n="90" break="no"/>phos non satis est usitatus. Per psentiam 
+      <lb ed="#B" n="91"/>aliquid dicitur esse in alio dupliciter. Vno modo 
+      <lb ed="#B" n="92"/>per praesentiam cognitionis: quod scilicet st 
+      <lb ed="#B" n="93"/>ufficienter praesens, ut cognoscat aliad, 
+      <lb ed="#B" n="94"/>uel cognoscatur ab alio: quo modo 
+      obie<lb ed="#B" n="95" break="no"/>ctum dicitur esse in potentia cognitiua: 
+      <lb ed="#B" n="96"/>quando actualiter cognoscitur, licet ab 
+      eo<lb ed="#B" n="97" break="no"/>realiter distet. Secundo per praesntiam 
+      indi<lb ed="#B" n="98" break="no"/>stantiae: quand scilicet unum non distatlocaliter 
+      <!--412.xml-->
+      <pb ed="#B" n="325"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ab alio. Et isto modo locus dicitur esse 
+      <lb ed="#B" n="2"/>in locato, &amp; econuerso locatum in 
+      lo<lb ed="#B" n="3" break="no"/>to. Qui modus loquendi satis usitatus 
+      <lb ed="#B" n="4"/>est apud philosophos, quantum ad loca 
+      <lb ed="#B" n="5"/>tum illo modo esse in loco: licet non 
+      e<lb ed="#B" n="6" break="no"/>conuerso sit ita frequentatus. Vnde non 
+      <lb ed="#B" n="7"/>nunquam terminus in aliquis secundum 
+      <lb ed="#B" n="8"/>suum generale quid nominis conuentens 
+      <lb ed="#B" n="9"/>equaliter multis: tamen usitatius attribuitur 
+      <lb ed="#B" n="10"/>aliquibus ex illis, quam alijs. Sicut animal, 
+      <lb ed="#B" n="11"/>uel esse animal, quamuis aequaliter 
+      con<lb ed="#B" n="12" break="no"/>uenit rationalibus, &amp; brutis: tamen secundum 
+      <lb ed="#B" n="13"/>conmuniorem modum loquendi (maxi- 
+      <lb ed="#B" n="14"/>me plebis) plus attribuitur brutis, quam 
+      ho<lb ed="#B" n="15" break="no"/>minibus, &amp; ita in multis alijs. Sic etiam 
+      <lb ed="#B" n="16"/>in proposito.
+    </p>
+            <p xml:id="gbs333-a82229-d1e254">
+      ¶ Sed esse in alio per 
+      es<lb ed="#B" n="17" break="no"/>sentiam est esse in aliquo, &amp; non ab eo, 
+      <lb ed="#B" n="18"/>neque aliquo sibi intrinseco distare, 
+      quin<lb ed="#B" n="19" break="no"/>sit ubicunque est ipsum: aut aliquid ipsis. 
+      <lb ed="#B" n="20"/>Et illo modo forma dicitur esse in mate 
+      <lb ed="#B" n="21"/>ria per essentiam: quia ubicumque est 
+      ma<lb ed="#B" n="22" break="no"/>teria, uel pars materiae: ibi est forma. Illo 
+      <lb ed="#B" n="23"/>modo locatum non est in loco: nec 
+      econ<lb ed="#B" n="24" break="no"/>uerso: cum locatum secundum aliquid 
+      <lb ed="#B" n="25"/>sui distat ab aliquo ipsius loci, &amp; 
+      econ<lb ed="#B" n="26" break="no"/>uerso: ut satis patet.
+    </p>
+            <p xml:id="gbs333-a82229-d1e278">
+      ¶ Veruntamen 
+      per<lb ed="#B" n="27" break="no"/>essentiam quandoque ualet tamen id est per se, 
+      <lb ed="#B" n="28"/>Quo modo dicimus: quod homo per 
+      essen<lb ed="#B" n="29" break="no"/>tiam est animal, &amp; rationalis: quia haec 
+      <lb ed="#B" n="30"/>est necessaria, &amp; per se: homo est animal 
+      <lb ed="#B" n="31"/>uel etiam ualet tantum i. est immediate: quo 
+      <lb ed="#B" n="32"/>anima dicitur per essentiam disciplina 
+      <lb ed="#B" n="33"/>bilis: quia essentia eius est illud, cui 
+      im<lb ed="#B" n="34" break="no"/>mediate conuenit esse disciplinabile: 
+      il<lb ed="#B" n="35" break="no"/>lis tamen modis non capitur in 
+      proposito<lb ed="#B" n="36" break="no"/>sed modo praeexposito.
+    </p>
+            <p xml:id="gbs333-a82229-d1e302">
+      ¶ Supponitur 
+      <lb ed="#B" n="37"/>etiam ex textu: quod aliquid tripliciter 
+      con<lb ed="#B" n="38" break="no"/>tingit esse in loco scilicet commensuratiue 
+      <lb ed="#B" n="39"/>siue circumscriptiue: cuius scilicet partes 
+      con<lb ed="#B" n="40" break="no"/>mensuratur partibus loci: quo modo cor 
+      <lb ed="#B" n="41"/>pus quantitatiue est in loco. Secundo 
+      <lb ed="#B" n="42"/>modo terminatiue, siue diffinitiue: quid 
+      <lb ed="#B" n="43"/>scilicet est realiter ubi est locus: non natum 
+      <lb ed="#B" n="44"/>simul esse alibi indifferenter: siue quod 
+      <lb ed="#B" n="45"/>sic certo loco terminatur, quod existens in 
+      <lb ed="#B" n="46"/>illo, non simulaptum natum esse in 
+      alio<lb ed="#B" n="47" break="no"/>loco distanti ab illo. Dicitur notanter 
+      <lb ed="#B" n="48"/>aptum natum: quia etsi corpus, uel 
+      spiri<lb ed="#B" n="49" break="no"/>tus per potentiam dei possit replicari in 
+      <lb ed="#B" n="50"/>diuersis locis: ut corpus Christi in sacra 
+      <lb ed="#B" n="51"/>mento: hoc tamen non est secundum propriam 
+      <!--412.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>aptitudinem: quia potentia 
+      supernatu<lb ed="#B" n="53" break="no"/>ralis non confert aptitudinem in 
+      natu<lb ed="#B" n="54" break="no"/>ra. Hoc modo spiritus angelici, &amp; animae 
+      <lb ed="#B" n="55"/>rationales sunt inloco. Et iste modus est 
+      <lb ed="#B" n="56"/>superior ad primum. Tertio modo 
+      repleti<lb ed="#B" n="57" break="no"/>ue: quod: selicet realiter sit in certo 
+      loco<lb ed="#B" n="58" break="no"/>per instantiam: non tamen terminatur illo 
+      <lb ed="#B" n="59"/>loco: quinsimulsit in oni alio loco: etiam 
+      <lb ed="#B" n="60"/>secundum propriam naturam. Quod 
+      al<lb ed="#B" n="61" break="no"/>tero primorum duorum modorum est in 
+      <lb ed="#B" n="62"/>loco, dicitur locale, &amp; secundum 
+      locun<lb ed="#B" n="63" break="no"/>mutabile: sed non quod est in loco 
+      ter<lb ed="#B" n="64" break="no"/>tio modo.
+    </p>
+            <!-- article 2 -->
+            <p xml:id="gbs333-a82229-d1e373">
+      ¶ Quantum ad articulum 
+      secun<lb ed="#B" n="65" break="no"/>dum est conclusio prima. Deus est in 
+      om<lb ed="#B" n="66" break="no"/>nibus rebus per potentiam. Probatur 
+      <lb ed="#B" n="67"/>conclusio: quia deus est causa omnium, 
+      <lb ed="#B" n="68"/>ut nunc supponitur: ergo est in omniba 
+      <lb ed="#B" n="69"/>potentialiter. Tenet consequentia: quia 
+      <lb ed="#B" n="70"/>hoc est esse in alio per potentiam: posse 
+      <lb ed="#B" n="71"/>producere, uelconseruare, siue agere in 
+      <lb ed="#B" n="72"/>aliud, ut patet ex notabili tertio.
+    </p>
+            <p xml:id="gbs333-a82229-d1e393">
+      ¶ 
+      Se<lb ed="#B" n="73" break="no"/>cunda conclusio. Deus est in omnibus 
+      <lb ed="#B" n="74"/>per praesentiam, utroque modo praeexpo 
+      <lb ed="#B" n="75"/>sito. Patet: nam ipse distincte noscit 
+      om<lb ed="#B" n="76" break="no"/>nia, ut supra dictum est. dist. xxxv. Etiam 
+      <lb ed="#B" n="77"/>a nullo distat. Quod probatur ratione. 
+      <lb ed="#B" n="78"/>Aug. in litera: uel. n.m nulli rei praesens est 
+      <lb ed="#B" n="79"/>illo modo, uel alicui, &amp; alicui nontuel 
+      om<lb ed="#B" n="80" break="no"/>nibus. Non primum: quia nulla res 
+      exi<lb ed="#B" n="81" break="no"/>stens est dabilis, quam nusquam est, &amp; ab 
+      om<lb ed="#B" n="82" break="no"/>ni alia re distet. Nec secundum: quia 
+      si<lb ed="#B" n="83" break="no"/>alicui rei praesens est &amp; non alteri: 
+      quaeri<lb ed="#B" n="84" break="no"/>tur, an sit finitus ad illam: uel non. Non 
+      <lb ed="#B" n="85"/>primum: cum sit illimitatus, &amp; infinitus: 
+      <lb ed="#B" n="86"/>&amp; ita non determinabilis ad quamcumque;  
+      <lb ed="#B" n="87"/>rem. Si secundum, ergo potest esse etiam 
+      <lb ed="#B" n="88"/>alteri existenti praesens cui modo non 
+      <lb ed="#B" n="89"/>est praesens, &amp; tunc posset mutari de 
+      lo<lb ed="#B" n="90" break="no"/>co ad locum: quod est impossibile.
+    </p>
+            <p xml:id="gbs333-a82229-d1e435">
+      ¶ 
+      Ter<lb ed="#B" n="91" break="no"/>tia conclusio. Deus est ubique, &amp; in 
+      om<lb ed="#B" n="92" break="no"/>nibus per suam essentiam. Probatur: quia 
+      <lb ed="#B" n="93"/>sic omnibus est praesens, quod a nullo distat 
+      <lb ed="#B" n="94"/>ut dictum est: prperquod dicitur Hier. xxiij. 
+      Ce<lb ed="#B" n="95" break="no"/>lum, &amp; terram ego impleo. Est etiam illa 
+      <lb ed="#B" n="96"/>conclusio fide credita: ut multis aucto 
+      <lb ed="#B" n="97"/>ritatibus deducit magister.
+    </p>
+            <p xml:id="gbs333-a82229-d1e453">
+      ¶ Quarta 
+      con<lb ed="#B" n="98" break="no"/>clusio. Deus est in omniloco repletiue, non 
+      <lb ed="#B" n="99"/>localiter, nec diffinitiue, uel 
+      conmensu<lb ed="#B" n="100" break="no"/>ratiue, aut mobiliter. Patet: quia nullo 
+      <lb ed="#B" n="101"/>loco abesse potest: nec aliquo terminati, 
+      <lb ed="#B" n="102"/>uel circunscribi, &amp; per consequens est in 
+      <!--413.xml-->
+      <pb ed="#B" n="326"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>loco repletiue, &amp; non socaliter: neque 
+      mo<lb ed="#B" n="2" break="no"/>biliter: quod nio moueri potest ad locum, 
+      <lb ed="#B" n="3"/>uel de loco: alicui loco desse potest.
+    </p>
+            <p xml:id="gbs333-a82229-d1e479">
+      ¶ V 
+      <lb ed="#B" n="4"/>rum licet conclusio certa sit ex fide apud 
+      <lb ed="#B" n="5"/>theologos scilicet quod deus est ubique, ut 
+      habe<lb ed="#B" n="6" break="no"/>tur ex pe. Quo ibo a spiritu tuo. sunt 
+      <lb ed="#B" n="7"/>tamen inter caeteras hae duae difficultates d 
+      <lb ed="#B" n="8"/>artic. tertio. Prima, an ex hoc, quod deus 
+      <lb ed="#B" n="9"/>est in omnibus rebus per potentiam: ita 
+      <lb ed="#B" n="10"/>scilicet quod est causa immediata omnium rerum, 
+      <lb ed="#B" n="11"/>sequitur ipsum esse ubique per essentiam. 
+      <lb ed="#B" n="12"/>Et dicunt aliqui, quod sic: ut habet sanctus 
+      <lb ed="#B" n="13"/>Tho. par. j. q. ix. art. iij. Quiinter 
+      caete<lb ed="#B" n="14" break="no"/>ra ait, quod est in omnibus per essentiam. 
+      <lb ed="#B" n="15"/>inquantum adest omnibus, ut causa 
+      es<lb ed="#B" n="16" break="no"/>sendi: quia probant auct philo. quia 
+      opor<lb ed="#B" n="17" break="no"/>ter mouens, &amp; motum esse simul.vij. 
+      Phy<lb ed="#B" n="18" break="no"/>Sed illud non ui uerum: nam non opos 
+      <lb ed="#B" n="19"/>ter uniuersaliter omne mouens esse simul 
+      <lb ed="#B" n="20"/>cum motu: nec in agentibus corporalibus: 
+      <lb ed="#B" n="21"/>nec agentibuper intellectum, &amp; uoluntatum. 
+      <lb ed="#B" n="22"/>Probat. n. Ockam dist. praesenti, quod sol 
+      <lb ed="#B" n="23"/>immediate causat lumen in istis 
+      inferio<lb ed="#B" n="24" break="no"/>ribus: &amp; etiam Sco. Similiter de agentu 
+      <lb ed="#B" n="25"/>per intellectum uidetur latis manifestum: 
+      <lb ed="#B" n="26"/>Si enim uelle meum esset rem 
+      produce<lb ed="#B" n="27" break="no"/>re: tunc sicut manens Tubingae possum 
+      <lb ed="#B" n="28"/>rem aliquam uelle esse Stugardiae: ita 
+      <lb ed="#B" n="29"/>possem eam producere. Et ita dato, quod 
+      <lb ed="#B" n="30"/>deus non esset praesens per essentiam 
+      es<lb ed="#B" n="31" break="no"/>fectui: sed quod esset in uno loco 
+      determi<lb ed="#B" n="32" break="no"/>nato in caelo: adhuc posset in omnia 
+      in<lb ed="#B" n="33" break="no"/>ferius producere, &amp; conseruare sicut 
+      mo<lb ed="#B" n="34" break="no"/>do.
+    </p>
+            <p xml:id="gbs333-a82229-d1e549">
+      ¶ Ad philosophum uero. vij. sliv. 
+      di<lb ed="#B" n="35" break="no"/>citur, quod loquitur de agente phasico: quiad 
+      <lb ed="#B" n="36"/>agit per qualitates actiuas, &amp; pasimas: &amp; 
+      <lb ed="#B" n="37"/>quod agit per contactum productiuum 
+      <lb ed="#B" n="38"/>effectus eiusdem rationis in termino, &amp; 
+      <lb ed="#B" n="39"/>medio. Et de illo amplius patebit in 
+      se<lb ed="#B" n="40" break="no"/>cundo.
+    </p>
+            <p xml:id="gbs333-a82229-d1e566">
+      ¶ Hinc doctor ponit illam con 
+      <lb ed="#B" n="41"/>clusionem. Non ideo praecise deus est 
+      <lb ed="#B" n="42"/>in omnibus per essentiam: quia est causa 
+      <lb ed="#B" n="43"/>omnium: sic intelligendo, quod sit conse- 
+      <lb ed="#B" n="44"/>quentia formalis: hoc agit in hoc: ergo 
+      <lb ed="#B" n="45"/>hoc est in hoc, uel est praesens huic.
+    </p>
+            <p xml:id="gbs333-a82229-d1e579">
+      ¶ 
+      Se<lb ed="#B" n="46" break="no"/>cunda difficultas. An illud sit proprium 
+      <lb ed="#B" n="47"/>deo. Pro illo notandum, quod esse in 
+      om<lb ed="#B" n="48" break="no"/>nibus rebus creatis alijsa se, per 
+      poten<lb ed="#B" n="49" break="no"/>tiam, praesentiam &amp; essentiam, 
+      duplici<lb ed="#B" n="50" break="no"/>ter intelligitur alicui comperere. Vno 
+      <lb ed="#B" n="51"/>modo simpliciter, ut uerba sonant: quia 
+      <!--413.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>scilicet ipsum certo casu posito, uel 
+      per<lb ed="#B" n="53" break="no"/>certam potentiam: est in omnibus &amp;c. 
+      <lb ed="#B" n="54"/>uel quia esse in omnibus existentibus &amp;c. 
+      <lb ed="#B" n="55"/>necessario sequitur ad suum esse: ita quod 
+      <lb ed="#B" n="56"/>repugnat ipsum esse, &amp; non esse in 
+      om<lb ed="#B" n="57" break="no"/>nibus existentibus. Et econuerso, 
+      repu<lb ed="#B" n="58" break="no"/>gnat aliquid esse, in quoipsum non est 
+      </p>
+            <p xml:id="gbs333-a82229-d1e614">
+               <lb ed="#B" n="59"/>¶ Quo praemisso est conclusio ista 
+      pri<lb ed="#B" n="60" break="no"/>ma. Esse in omnibus creatis per 
+      poten<lb ed="#B" n="61" break="no"/>tiam, praesentiam, &amp; essentiam primo 
+      mo<lb ed="#B" n="62" break="no"/>do non est proprium deo. Probatur: 
+      <lb ed="#B" n="63"/>quia hoc per potentiam diuinam potest 
+      <lb ed="#B" n="64"/>alicui creaturae communicari. Nihil. 
+      n<lb ed="#B" n="65" break="no"/>implicat aliquam intelligentiam 
+      con<lb ed="#B" n="66" break="no"/>currere ad productionem, &amp; 
+      conserua<lb ed="#B" n="67" break="no"/>tionem omnium creatorum, quibus 
+      co<lb ed="#B" n="68" break="no"/>assistit: &amp; solum talia esse: quo posito erit 
+      <lb ed="#B" n="69"/>in omnibus creatis existentibus per 
+      po<lb ed="#B" n="70" break="no"/>tentiam &amp;c.
+    </p>
+            <p xml:id="gbs333-a82229-d1e643">
+      ¶ Item deus posset 
+      replica<lb ed="#B" n="71" break="no"/>re corpus ad diuersa ubi: &amp; sicut ad 
+      di<lb ed="#B" n="72" break="no"/>uersa ita ad omnia: ut diffuse ostendit 
+      <lb ed="#B" n="73"/>in lect. xlvi. in expositione canonis, 
+      </p>
+            <p xml:id="gbs333-a82229-d1e652">
+               <lb ed="#B" n="74"/>¶ Praeterea si nihil esset in mundo 
+      nifi<lb ed="#B" n="75" break="no"/>ssolus homo: tuc eius anima est ubi 
+      que<lb ed="#B" n="76" break="no"/>Omnia denique sunt sibi subiecta puta 
+      <lb ed="#B" n="77"/>partes corporis: est etiam intime 
+      prae<lb ed="#B" n="78" break="no"/>sens. corpori.
+    </p>
+            <p xml:id="gbs333-a82229-d1e665">
+      ¶ Secunda conclusio
+      <lb ed="#B" n="79"/>Esse in omnibus creatis per potentiam, 
+      <lb ed="#B" n="80"/>essentiam, &amp; praesentiam secundo 
+      mo<lb ed="#B" n="81" break="no"/>do intelligendo, solidaeum est proprium. 
+      <lb ed="#B" n="82"/>Patet manifeste: quia nulla creatura 
+      ne<lb ed="#B" n="83" break="no"/>cessario in omnibus aliis a se, &amp; hoc 
+      mo<lb ed="#B" n="84" break="no"/>do locuti sunt sanctus Ambr. in litera, 
+      <lb ed="#B" n="85"/>&amp; alij sancti cum esse in omnibus modo 
+      <lb ed="#B" n="86"/>dicto soli deo appropriant. Sic etiam 
+      po<lb ed="#B" n="87" break="no"/>test saluari dictum sancti Tho, cum pat.¬ 
+      <lb ed="#B" n="88"/>j. q.viij. art iiij. dicit. Esse ubique 
+      pri<lb ed="#B" n="89" break="no"/>mo &amp; per se proprium soli deo. Tertio 
+      du<lb ed="#B" n="90" break="no"/>bitatur contra conclusionem secundam 
+      <lb ed="#B" n="91"/>secundae difficultatis: quod conuenitali 
+      <lb ed="#B" n="92"/>cuiper essentiam, conuenit sibi 
+      necessa<lb ed="#B" n="93" break="no"/>rio, &amp; semper: sed esse in omnibus non 
+      <lb ed="#B" n="94"/>conuenit deo necessario &amp; semper: quia 
+      <lb ed="#B" n="95"/>non ante mundi constitutionem.
+    </p>
+            <p xml:id="gbs333-a82229-d1e705">
+      ¶ Item 
+      <lb ed="#B" n="96"/>si sic, deus esset in loco. Consequens 
+      <lb ed="#B" n="97"/>falsum: quia sicut se habet informabile 
+      <lb ed="#B" n="98"/>qualitate ad id, quod habet qualitatem: 
+      <lb ed="#B" n="99"/>ita se habet esse in loco ad id, quod 
+      ha<lb ed="#B" n="100" break="no"/>bet locum: sed quod est informatum qua 
+      <lb ed="#B" n="101"/>litate, necessario est alterabile secundum 
+      <lb ed="#B" n="102"/>illam qualitatem: ergo quod est in loco¬ 
+      <!--414.xml-->
+      <pb ed="#B" n="327"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>necessario est mobile secundum locum. 
+      <lb ed="#B" n="2"/>deus autem secundum locum mobili 
+      <lb ed="#B" n="3"/>non est: ergo. Quod etiam non sit 
+      pre<lb ed="#B" n="4" break="no"/>prium deo probatur: quia conuenit 
+      un<lb ed="#B" n="5" break="no"/>uersali: uniuersale enim est ubique per 
+      es<lb ed="#B" n="6" break="no"/>sentiam, &amp; per consequens etiam per 
+      po<lb ed="#B" n="7" break="no"/>tentiam eo modo, quo habet potentiam. 
+      </p>
+            <p xml:id="gbs333-a82229-d1e744">
+               <lb ed="#B" n="8"/>¶ Ad illa dicitur. Ad primum, quod esse in 
+      <lb ed="#B" n="9"/>omnibus per essentiam non capitur 
+      pro<lb ed="#B" n="10" break="no"/>esse in omnibus necessario, &amp; semter 
+      <lb ed="#B" n="11"/>non enim deus est in illis, quae non sunt: 
+      <lb ed="#B" n="12"/>&amp; ita ante mundi constitutionem in 
+      <lb ed="#B" n="13"/>nulla creaturafuit: sed capitur ut dictum 
+      <lb ed="#B" n="14"/>est.
+    </p>
+            <p xml:id="gbs333-a82229-d1e762">
+      ¶ Ad secundum patet: quomodo est 
+      <lb ed="#B" n="15"/>in loco non mutabiliter, nec similitudo 
+      <lb ed="#B" n="16"/>de qualitate adducta est conueniens: 
+      ci<lb ed="#B" n="17" break="no"/>illud, quod habet qualitatem, recipit in 
+      <lb ed="#B" n="18"/>se inhaesiue formam accidentalem a se 
+      <lb ed="#B" n="19"/>distinctam, per cuius receptionem alte 
+      <lb ed="#B" n="20"/>ratur. Quod uero est in loco, nihil 
+      in<lb ed="#B" n="21" break="no"/>se recipit: &amp; si potest non moueri: a 
+      lo<lb ed="#B" n="22" break="no"/>co ipso manente (sicut in proposito) 
+      <lb ed="#B" n="23"/>non oportet ipsum esse mobile secundum 
+      <lb ed="#B" n="24"/>locum: nihilautem recipiens in se 
+      qua<lb ed="#B" n="25" break="no"/>litatem potest non perdere eam: cum 
+      <lb ed="#B" n="26"/>omnia distincta deus potest separare. 
+      </p>
+            <p xml:id="gbs333-a82229-d1e791">
+               <lb ed="#B" n="27"/>¶ Ad tertium dicitur: quod uniuersale non 
+      <lb ed="#B" n="28"/>est ubique: nec hoc intedit philosophus: 
+      <lb ed="#B" n="29"/>sed uult. quod de commum, quod est 
+      uni<lb ed="#B" n="30" break="no"/>uersale praedicatur esse ubicunque 
+      praedi<lb ed="#B" n="31" break="no"/>catur de singulari contento sub ipso: quia 
+      <lb ed="#B" n="32"/>ubicunque est singularis humo, ibi est 
+      <lb ed="#B" n="33"/>hoo: non tamen oportet, quod hoc com 
+      <lb ed="#B" n="34"/>munc homo sit ubique &amp;
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

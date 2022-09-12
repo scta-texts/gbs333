@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="230"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a58368"> <!-- l1d19q1 -->
+            <head xml:id="gbs333-a58368-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a58368-Hd1e104" type="question-title">Utrum personae divinae sint secundum magnitudinem perfecte aequales</head>
+            <p xml:id="gbs333-a58368-d1e107">
+               <lb ed="#B" n="83"/>QVAESTIOI 
+      <lb ed="#B" n="84"/>VTRVM personae diuinae 
+      <lb ed="#B" n="85"/>sunt secundum 
+      magnitudi<lb ed="#B" n="86" break="no"/>dinem perfecte aequales. 
+      </p>
+            <p xml:id="gbs333-a58368-d1e118">
+               <lb ed="#B" n="87"/>¶ Recitantur, &amp; 
+      impugnan<lb ed="#B" n="88" break="no"/>tur a doct opi. duae: quarum 
+      <lb ed="#B" n="89"/>secunda est Sco q. i. dis. praesentis: quibus 
+      dimis<lb ed="#B" n="90" break="no"/>sis more solito trifariè terminabitur qua 
+      <lb ed="#B" n="91"/>stio.
+    </p>
+            <p xml:id="gbs333-a58368-d1e132">
+      ¶ Circa art. primum notandum quod 
+      ma<lb ed="#B" n="92" break="no"/>gnitudo: uel magnum quadrupliciter 
+      acci<lb ed="#B" n="93" break="no"/>pitur. Vno modo largissime: &amp; sic est idem 
+      <lb ed="#B" n="94"/>quod perfectio, uel perfectum. Sic dicitj 
+      <lb ed="#B" n="95"/>Aug. vj. de trin. quod in his, quam non mole 
+      ma<lb ed="#B" n="96" break="no"/>gna sunt: est idem melius esse, quod maius 
+      <lb ed="#B" n="97"/>esse. Et illo modo qlibet res est magna, 
+      uel<lb ed="#B" n="98" break="no"/>magnitudo qudam Secundo modo capitur 
+      <lb ed="#B" n="99"/>large pro omni continente plura, siut sit 
+      <!--318.xml-->
+      <pb ed="#B" n="231"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unum per se: siue tamen aggregatiue quo 
+      <lb ed="#B" n="2"/>mo do numerus populus, exercitus, &amp; 
+      <lb ed="#B" n="3"/>morus magnus dicitur. Isto modo capit 
+      <lb ed="#B" n="4"/>Aug. cum dicit, quod anima est maior 
+      seip<lb ed="#B" n="5" break="no"/>sa, quando recipit uirtures. Tertio modo 
+      capi<lb ed="#B" n="6" break="no"/>tur pro aliquo continente plura eiusdem 
+      <lb ed="#B" n="7"/>rationis facientia unum per se, siue illa 
+      plu<lb ed="#B" n="8" break="no"/>ra distinguantur loco, &amp; situ: siue non. 
+      <lb ed="#B" n="9"/>lo modo charitas intensa est magna, &amp; 
+      ma<lb ed="#B" n="10" break="no"/>ior charitate remissa. Quarto modo 
+      accipi<lb ed="#B" n="11" break="no"/>tur strictis sime pro aliquo continente 
+      <lb ed="#B" n="12"/>plura eiusdem rationis, facientia per se 
+      <lb ed="#B" n="13"/>onum distincta loco &amp; situ: &amp; haec dicitur 
+      <lb ed="#B" n="14"/>magnitudo dimensiua. Et haec est 
+      spe<lb ed="#B" n="15" break="no"/>cies immediata quantitatis: quae est 
+      prae<lb ed="#B" n="16" break="no"/>dicamentum, distincta contra 
+      multitu<lb ed="#B" n="17" break="no"/>dinem. Hoc modo loquitur Aug. v. de 
+      tri<lb ed="#B" n="18" break="no"/>&amp; allegat magister dist. viij. cum dicit: quo 
+      <lb ed="#B" n="19"/>deus est sine qualitate bonus: sine quat  
+      <lb ed="#B" n="20"/>tate magnus. Sic etiam quantitas 
+      quadru<lb ed="#B" n="21" break="no"/>pliciter distinguitur. Est. nioe quantitas 
+      uis<lb ed="#B" n="22" break="no"/>turis, durationis, discretiua, &amp; quantitas 
+      <lb ed="#B" n="23"/>molis. Quae mebra ex dictis satis patent 
+      </p>
+            <p xml:id="gbs333-a58368-d1e208">
+               <lb ed="#B" n="24"/>¶ Secundo notandum, quod cum secundum 
+      <lb ed="#B" n="25"/>magnitudinem, siue quantitatem aliqo 
+      <lb ed="#B" n="26"/>dicitur aequale, uel inaequale: quoties 
+      ali<lb ed="#B" n="27" break="no"/>quid dicitur magnum: toties, &amp; aequale in 
+      <lb ed="#B" n="28"/>aequale. Primo modo res dicitur alter 
+      <lb ed="#B" n="29"/>aequalis: quia est aeque perfecta. Secundo 
+      <lb ed="#B" n="30"/>modo numerus dicitur aequalis alteri, it 
+      <lb ed="#B" n="31"/>quo sunt tot, quot in alio: ut numerus 
+      <lb ed="#B" n="32"/>trium equorum numero trium hominum 
+      <lb ed="#B" n="33"/>Tertio modo albedines aeque intensae sunt 
+      <lb ed="#B" n="34"/>aequales: quis una sit in maiori subjecto. 
+      <lb ed="#B" n="35"/>quam altera secundum extensionem: Quarto 
+      <lb ed="#B" n="36"/>modo, unum extensiuum non excedens al 
+      <lb ed="#B" n="37"/>terum: nec excessum secundum extensionem 
+      <lb ed="#B" n="38"/>equale dicitur alieri
+    </p>
+            <p xml:id="gbs333-a58368-d1e243">
+      ¶ Est tamen differe 
+      <lb ed="#B" n="39"/>tia inter istos modos magni, &amp; aequalis. 
+      <lb ed="#B" n="40"/>Nam modi magni uel magnitudinis 
+      or<lb ed="#B" n="41" break="no"/>dinantur secundum superius, &amp; inferius: 
+      si<lb ed="#B" n="42" break="no"/>ue per se siue per accidens. Ideo quod 
+      <lb ed="#B" n="43"/>est magnum quarto modo: est etiam 
+      ma<lb ed="#B" n="44" break="no"/>nens tribu primis modis: &amp; non 
+      econ<lb ed="#B" n="45" break="no"/>uerso. Et quod est magnum tertio modo: 
+      <lb ed="#B" n="46"/>est etiam magnum primo modo: &amp; non 
+      <lb ed="#B" n="47"/>econuerso. Non autem sic ordinantu 
+      <lb ed="#B" n="48"/>modi aequalis, &amp; inaequalis. Potest enim 
+      <lb ed="#B" n="49"/>aliquid esse aequale alteri quarto modo 
+      <lb ed="#B" n="50"/>secundum extensionem: &amp; nullo trium 
+      <lb ed="#B" n="51"/>primorum modorum: ut patet de albedi 
+      <!--318.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ne, &amp; substantia composita alba. Et ita 
+      <lb ed="#B" n="53"/>habent se adinuicem quasi termini 
+      im<lb ed="#B" n="54" break="no"/>pertinentes.
+    </p>
+            <p xml:id="gbs333-a58368-d1e285">
+      ¶ Tertio notandum: quod 
+      secun<lb ed="#B" n="55" break="no"/>dum opin. tenentem relationes 
+      distingui<lb ed="#B" n="56" break="no"/>in creaturis a rebus absolutis, aequalitas 
+      <lb ed="#B" n="57"/>in creaturis est accidens superadditum 
+      si<lb ed="#B" n="58" break="no"/>ue in angelis: siue in rebus materialibus: 
+      <lb ed="#B" n="59"/>quia utrobique; est eadem ratio scilicet 
+      insepa<lb ed="#B" n="60" break="no"/>rabilitatis: secundum aliam opi. nihil 
+      di<lb ed="#B" n="61" break="no"/>cit distinctum a rebus absolutis in 
+      crea<lb ed="#B" n="62" break="no"/>turis.
+    </p>
+            <p xml:id="gbs333-a58368-d1e305">
+      ¶ Quarto notandum: quod secundum 
+      <lb ed="#B" n="63"/>usum sanctorum, magnitudo quandoque 
+      ac<lb ed="#B" n="64" break="no"/>cipitur in diuinis ut est mere absolutum: 
+      <lb ed="#B" n="65"/>sicut sapientia, perfectio: &amp; sic nullo modo 
+      <lb ed="#B" n="66"/>distinguitur ab essentia. Et illo modo 
+      <lb ed="#B" n="67"/>personae dicuntur aequales propter 
+      essen<lb ed="#B" n="68" break="no"/>tiam unam in eis. Et sic sicut pater non 
+      <lb ed="#B" n="69"/>est formaliter essentia: ita nec est forma 
+      <lb ed="#B" n="70"/>liter magnitudo. Et sic paternitas ex se 
+      <lb ed="#B" n="71"/>siue formaliter, nec est aequalis, nec 
+      in<lb ed="#B" n="72" break="no"/>aequalis filiationi: sed tantum ratione 
+      e<lb ed="#B" n="73" break="no"/>sentiae; quae est eadem utrique, paternita 
+      <lb ed="#B" n="74"/>ti scilicet &amp; filiationi. Et sic conceditur: quod re 
+      <lb ed="#B" n="75"/>latio nec est formaliter finita, nec infini 
+      <lb ed="#B" n="76"/>ta: nec perfecta, nec imperfecta, sicut non 
+      <lb ed="#B" n="77"/>est formaliter magna nec formaliter 
+      di<lb ed="#B" n="78" break="no"/>uina essentia. Alio modo accipitur 
+      ma<lb ed="#B" n="79" break="no"/>gnitudo pro omni realitate positiua 
+      si<lb ed="#B" n="80" break="no"/>ue absoluta, siue relatiua. Isto modo 
+      pa<lb ed="#B" n="81" break="no"/>ternitas ex se, &amp; formaliter est quaedam 
+      <lb ed="#B" n="82"/>magnitudo: sicut ex se est quaedam 
+      enti<lb ed="#B" n="83" break="no"/>tas realis: &amp; ex se est perfecta &amp; 
+      perfe<lb ed="#B" n="84" break="no"/>ctior omni creatura: eique ex se repiignat  
+      <lb ed="#B" n="85"/>omnis imperfectio.
+    </p>
+            <p xml:id="gbs333-a58368-d1e357">
+      ¶ Quinto notandum: 
+      <lb ed="#B" n="86"/>quod identitas, similitudo aequalitas, 
+      nullan<lb ed="#B" n="87" break="no"/>d: stinctionem important in diuinis: 
+      ni<lb ed="#B" n="88" break="no"/>si distinctionem personarum, &amp; 
+      pro<lb ed="#B" n="89" break="no"/>prietatum: ideo nulla est distinctio 
+      inte<lb ed="#B" n="90" break="no"/>identitatem, aequalitatem, &amp; 
+      similitudi<lb ed="#B" n="91" break="no"/>nem.
+    </p>
+            <p xml:id="gbs333-a58368-d1e374">
+      ¶ Pro articulo secundo est 
+      con<lb ed="#B" n="92" break="no"/>clusio prima. Personae diuinae sunt aequa 
+      <lb ed="#B" n="93"/>les secundum magnitudinem primo 
+      mo<lb ed="#B" n="94" break="no"/>do accipiendo magnitudinem, &amp; 
+      aequa<lb ed="#B" n="95" break="no"/>litatem. Patet: quia sunt aeque 
+      perfe<lb ed="#B" n="96" break="no"/>cte, &amp; neutra perfectior alia.
+    </p>
+            <p xml:id="gbs333-a58368-d1e387">
+      ¶ 
+      Secun<lb ed="#B" n="97" break="no"/>da conclusio. Capiendo 
+      magnitudi<lb ed="#B" n="98" break="no"/>nem, &amp; aequalitatem secundo, tertio, &amp; 
+      <lb ed="#B" n="99"/>quarto modis, personae diuinae, non 
+      <lb ed="#B" n="100"/>sunt secundum magnitudinem 
+      aequa<lb ed="#B" n="101" break="no"/>les. Patet: quia sic non sunt magnae. 
+      </p>
+            <p xml:id="gbs333-a58368-d1e400">
+               <lb ed="#B" n="102"/>¶ Tertia conclusio. Capiendo magni¬ 
+      <!--319.xml-->
+      <pb ed="#B" n="232"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tudinem coniter: ut dicit indifferenter 
+      om<lb ed="#B" n="2" break="no"/>nem magnitudinem absolutam, uel 
+      rela<lb ed="#B" n="3" break="no"/>tiuam: personae diuinae sunt aequales secun 
+      <lb ed="#B" n="4"/>dum magnitudinem tam essentialem, quo 
+      <lb ed="#B" n="5"/>relatiuam. Patet: quia licet aliae sunt 
+      re<lb ed="#B" n="6" break="no"/>lationes non tamen est una perfectior, aut  
+      <lb ed="#B" n="7"/>imperfectior alia.
+    </p>
+            <p xml:id="gbs333-a58368-d1e426">
+      ¶ Dubitatur circa 
+      pra<lb ed="#B" n="8" break="no"/>dicta pro articulo tertio. Personae non 
+      <lb ed="#B" n="9"/>sunt eaedem secundum magnitudinem: 
+      <lb ed="#B" n="10"/>ergo nec aequales. Tenet consequentia 
+      <lb ed="#B" n="11"/>quia idem est aequalitas &amp; identitas in 
+      di<lb ed="#B" n="12" break="no"/>uinis: ut in notabili quinto. Respondetr 
+      <lb ed="#B" n="13"/>quod ibi equalitas, &amp; magnitudo 
+      accipiun<lb ed="#B" n="14" break="no"/>tur essentialiter, &amp; primo modo, &amp; non 
+      <lb ed="#B" n="15"/>generaliter: ut magnitudo dicat omnem 
+      <lb ed="#B" n="16"/>realitatem positiuam siue absolutam 
+      si<lb ed="#B" n="17" break="no"/>ue relatiuam. Sic enim non est identitas, 
+      <lb ed="#B" n="18"/>&amp; aequalitas: quia personae non sunt 
+      eae<lb ed="#B" n="19" break="no"/>dem personae: licet sint aequales personae: 
+      <lb ed="#B" n="20"/>sunt tamen eadem essentia.
+    </p>
+            <p xml:id="gbs333-a58368-d1e457">
+      ¶ Secundo dubi 
+      <lb ed="#B" n="21"/>tatur. An una persona dicatur aequalis 
+      <lb ed="#B" n="22"/>alteri propter unitatem essentiae uel 
+      pro<lb ed="#B" n="23" break="no"/>pter realitatem relationis. Ad hoc 
+      du<lb ed="#B" n="24" break="no"/>bium dicitur: ut habetur in notabiliquat  
+      <lb ed="#B" n="25"/>to
+    </p>
+            <p xml:id="gbs333-a58368-d1e470">
+      ¶ Tertio dubitatur. Quo illa 
+      aequali<lb ed="#B" n="26" break="no"/>tas distinguatur a similitudine 
+      persona<lb ed="#B" n="27" break="no"/>rum: &amp; identitate. Randetur: quod illa 
+      no<lb ed="#B" n="28" break="no"/>mina similitudo, aequalitas, identitas, 
+      nil<lb ed="#B" n="29" break="no"/>aliud dicunt seu important, quad personas 
+      <lb ed="#B" n="30"/>habentes eandem essentiam numero 
+      pro<lb ed="#B" n="31" break="no"/>pter quod etiam dicuntur similes, &amp; aequa 
+      <lb ed="#B" n="32"/>les. Et sic nilaliud dicunt quae distinctionem 
+      <lb ed="#B" n="33"/>personarum &amp; proprietatum, &amp; nullam 
+      <lb ed="#B" n="34"/>rem distinctam a personis, uel proprieta 
+      <lb ed="#B" n="35"/>tibus personarum: ut patuit in 
+      notabili<lb ed="#B" n="36" break="no"/>tertio.
+    </p>
+            <p xml:id="gbs333-a58368-d1e497">
+      ¶ Dubitatur quarto. An 
+      aequali<lb ed="#B" n="37" break="no"/>tas sit relatio fundata in unitate: ut 
+      ui<lb ed="#B" n="38" break="no"/>detur innuere philosophus. v. 
+      metaphy<lb ed="#B" n="39" break="no"/>Ad hoc dubium doct. late, &amp; clare 
+      re<lb ed="#B" n="40" break="no"/>spondet, quod non: &amp; quod illa auctoritas 
+      ma<lb ed="#B" n="41" break="no"/>le allegatur: uide in doct.
+    </p>
+            <p xml:id="gbs333-a58368-d1e510">
+      ¶ Dubitatur 
+      <lb ed="#B" n="42"/>quinto. Nam aliqua magnitudo est in p 
+      <lb ed="#B" n="43"/>sona quae non est in alia: ergo non sunt 
+      <lb ed="#B" n="44"/>aequales secundum magnitudinem. Ad 
+      <lb ed="#B" n="45"/>hoc dubium dicitur post dicta in 
+      notabi<lb ed="#B" n="46" break="no"/>li quarto, quod accipiendo magnitudinem 
+      <lb ed="#B" n="47"/>pro aliquo absoluto: sicut omnium per 
+      <lb ed="#B" n="48"/>sonarum est una essentia, &amp; ita una ma 
+      <lb ed="#B" n="49"/>gnitudo. Si uero sumitur pro proprieta 
+      <lb ed="#B" n="50"/>te relatiua: tunc sicut conceditur, quod 
+      pro<lb ed="#B" n="51" break="no"/>prietas patris est m patre, &amp; non in filio; 
+      <!--319.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>filiatio in filio, &amp; non in patre. Ita potest 
+      <lb ed="#B" n="53"/>concedi unam magnitudinem esse in una 
+      <lb ed="#B" n="54"/>persona &amp; non in alia: &amp; nihilominus 
+      <lb ed="#B" n="55"/>quaelibet persona est aequalis alteri: quia 
+      <lb ed="#B" n="56"/>quaelibet proprietas relatiua est essentia 
+      <lb ed="#B" n="57"/>diuina, &amp; ita perfecta sicut alia. Nec 
+      re<lb ed="#B" n="58" break="no"/>pugnat aequalitati distinctio magnitudim 
+      <lb ed="#B" n="59"/>num sicut nec proprietatum personalium 
+      <lb ed="#B" n="60"/>realiter distinctarum. Nec potest 
+      infer<lb ed="#B" n="61" break="no"/>ri, quod plures relationes sint in una 
+      perso<lb ed="#B" n="62" break="no"/>na, quasi in alia: quia spiratio actiua, &amp; patel 
+      <lb ed="#B" n="63"/>nitas licet formaliter distinguantur: non 
+      <lb ed="#B" n="64"/>tamen sunt plures relationes: ut infra 
+      <lb ed="#B" n="65"/>patebit 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="192"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a48431"> <!-- l1d14q1 -->
+            <head xml:id="gbs333-a48431-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a48431-Hd1e104" type="question-title">Utrum Spiritui Sancto competat duplex processio temporalis et aeterna</head>
+            <p xml:id="gbs333-a48431-d1e107">
+      <!--279.xml-->
+               <pb ed="#B" n="192"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>QVAESTIO I 
+      <lb ed="#B" n="2"/>VTRVM spiritui sancto 
+      con<lb ed="#B" n="3" break="no"/>petat duplex processio: 
+      tem<lb ed="#B" n="4" break="no"/>poralis, scilicet &amp; aeterna. 
+      <lb ed="#B" n="5"/>QArticulus primus certas 
+      ha<lb ed="#B" n="6" break="no"/>bet suppositiones. Secundus subiunget  
+      <lb ed="#B" n="7"/>conclusiones.
+    </p>
+            <p xml:id="gbs333-a48431-d1e131">
+      ¶ Quantum ad primum 
+      <lb ed="#B" n="8"/>considerandum est, quod difficultas huius 
+      <lb ed="#B" n="9"/>quaestionis, &amp; duarum sequentium quaem 
+      <lb ed="#B" n="10"/>stionum magis in terminis consistit, quae 
+      <lb ed="#B" n="11"/>in re: ideo primo de re. Secundo de 
+      mo<lb ed="#B" n="12" break="no"/>do loquendi tractandum. Supponitur 
+      <lb ed="#B" n="13"/>itaque primo, quod quaelibet persona 
+      di<lb ed="#B" n="14" break="no"/>uina est causa efficiens, &amp; finalis 
+      euiusli<lb ed="#B" n="15" break="no"/>bet creaturae: quia opera trinitatis adex 
+      <lb ed="#B" n="16"/>tra sunt indiuisa. Secundo, duae sunt 
+      per<lb ed="#B" n="17" break="no"/>sonae producentes, pater, &amp; filius: duae 
+      <lb ed="#B" n="18"/>productae, filius, &amp; spiritussanctus. 
+      Ter<lb ed="#B" n="19" break="no"/>tio, quaelibet persona potest esse causa 
+      <lb ed="#B" n="20"/>gratiae gratis datae, &amp; gratum facientis 
+      <lb ed="#B" n="21"/>in creatura rationali. Quarto solus 
+      fi<lb ed="#B" n="22" break="no"/>lius incarnatus est, &amp; non alia persona 
+      <lb ed="#B" n="23"/>diuina. Quinto: quaelibet persona para 
+      <lb ed="#B" n="24"/>ta esse potest ad faciendum, quicquid ab 
+      <lb ed="#B" n="25"/>ea rationabiliter perit creatura rationa 
+      <lb ed="#B" n="26"/>lis. Omnia ista manifesta sunt, &amp; 
+      conces<lb ed="#B" n="27" break="no"/>sa ab omni catholico: &amp; patent 
+      partim<lb ed="#B" n="28" break="no"/>ex dictis.
+    </p>
+            <p xml:id="gbs333-a48431-d1e180">
+      ¶ Secundo notandum: quod 
+      pro<lb ed="#B" n="29" break="no"/>cedere (secundum usum sanctorum) 
+      di<lb ed="#B" n="30" break="no"/>cit aliquid, uel aliqua praedictorum: 
+      un<lb ed="#B" n="31" break="no"/>de processio quandoque accipitur 
+      pro<lb ed="#B" n="32" break="no"/>productione passiua unius personae ab 
+      <lb ed="#B" n="33"/>altera. &amp; haec processio dicitur 
+      proces<lb ed="#B" n="34" break="no"/>sio aeterna. Et haec processio aeterna, &amp; 
+      <lb ed="#B" n="35"/>productio passiua idem sunt. 
+      Aliquan<lb ed="#B" n="36" break="no"/>do accipitur, ut imperat talem 
+      produ<lb ed="#B" n="37" break="no"/>ctionem: &amp; connotat personam 
+      proceden<lb ed="#B" n="38" break="no"/>tem, ut de nouo existentem in creatura 
+      <lb ed="#B" n="39"/>rationali secundum modum aliquem de 
+      <lb ed="#B" n="40"/>terminatum infra dicendum. Et haec 
+      <lb ed="#B" n="41"/>dicitur processio temporalis.
+    </p>
+            <p xml:id="gbs333-a48431-d1e211">
+      ¶ Et si 
+      es<lb ed="#B" n="42" break="no"/>set modus loquendi sanctorum: quod 
+      pro<lb ed="#B" n="43" break="no"/>cedere importaret productionem 
+      per<lb ed="#B" n="44" break="no"/>sonae ab alia, &amp; nouam existentiam in 
+      <lb ed="#B" n="45"/>creatura: non propter nouitatem dei, 
+      <lb ed="#B" n="46"/>sed creaturae: concedendum esset, quod 
+      spi<lb ed="#B" n="47" break="no"/>ritussanctus procederet temporaliter, 
+      <lb ed="#B" n="48"/>quandocunque creatura crearetur. 
+      Si<lb ed="#B" n="49" break="no"/>cut modo dicitur temporaliter proce- 
+      <!--279.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>dere: quia datur creaturae rationali ad 
+      ip<lb ed="#B" n="51" break="no"/>sam sanctificandam. Est ergo 
+      processio<lb ed="#B" n="52" break="no"/>aeterna: productio adintra. Processio 
+      ue<lb ed="#B" n="53" break="no"/>ro temporalis est productio personae ad 
+      <lb ed="#B" n="54"/>intra, &amp; noua existentia eius in 
+      creatu<lb ed="#B" n="55" break="no"/>ra rationali secundum modum 
+      determi<lb ed="#B" n="56" break="no"/>natum. Ex quo patet: odlicet pater est 
+      <lb ed="#B" n="57"/>de nouo in creatura rationali, quam 
+      san<lb ed="#B" n="58" break="no"/>ctificat: quia non uenit spiritussanctus, 
+      <lb ed="#B" n="59"/>aut filius ad sanctificandum creaturam 
+      <lb ed="#B" n="60"/>sine patre: tamen pater non procedit 
+      ten<lb ed="#B" n="61" break="no"/>poraliter: quia non producitur adintra. 
+      <lb ed="#B" n="62"/>Supponitur etiam, quod supra dictum est 
+      <lb ed="#B" n="63"/>de abstractis connotatiuis. qeiij. prolo. 
+      <lb ed="#B" n="64"/>pro quo supponunt: quia secundum 
+      ali<lb ed="#B" n="65" break="no"/>quos non supponunt pro una sola re: 
+      <lb ed="#B" n="66"/>sed simul pro omnibus, quae significant, 
+      <lb ed="#B" n="67"/>Sic creatio non supponit pro aliquo uno: 
+      <lb ed="#B" n="68"/>sed simul pro deo, &amp; creatura de 
+      nouo<lb ed="#B" n="69" break="no"/>producta: secundum alios supponunt 
+      pro<lb ed="#B" n="70" break="no"/>eisdem, pro quibus concreta, &amp; caetera 
+      <lb ed="#B" n="71"/>connotant, &amp; sic creatio esset deus 
+      cre<lb ed="#B" n="72" break="no"/>ans, &amp; actio actiuem agens: passio passiue 
+      <lb ed="#B" n="73"/>patiens. Connotaret tamen 
+      creatio<lb ed="#B" n="74" break="no"/>actiue creaturam productam. Creatio  
+      <lb ed="#B" n="75"/>uero passiue supponit pro creatura 
+      con<lb ed="#B" n="76" break="no"/>notando creatorem.
+    </p>
+            <p xml:id="gbs333-a48431-d1e294">
+      ¶ Tertio 
+      conside<lb ed="#B" n="77" break="no"/>randum: quod quidam solent sic notificare 
+      <lb ed="#B" n="78"/>processionem temporalem. Proces sio 
+      <lb ed="#B" n="79"/>temporalis est illapsus quidam, quo 
+      per<lb ed="#B" n="80" break="no"/>sona aeternaliter procedens, uel 
+      produ<lb ed="#B" n="81" break="no"/>cta illabitur menti creatae per sua dona: 
+      <lb ed="#B" n="82"/>aut substantiam suaepersonae adsistendo 
+      <lb ed="#B" n="83"/>si bi specialissimae ad actum bonum 
+      meri<lb ed="#B" n="84" break="no"/>torium exequendum.
+    </p>
+            <p xml:id="gbs333-a48431-d1e314">
+      ¶ Dicitur primo 
+      <lb ed="#B" n="85"/>est illapsus. Est autem illapsus intima 
+      <lb ed="#B" n="86"/>praesentialitas cum praefidentia eius, quod  
+      <lb ed="#B" n="87"/>illabitur: &amp; perfecta cognitione omnium 
+      <lb ed="#B" n="88"/>que sunt in illo illapso: ut dicetur lib. ij. 
+      <lb ed="#B" n="89"/>distin. viij. q.ij. Et quamuis omni 
+      crea<lb ed="#B" n="90" break="no"/>turae maxime intimus sit deus: dicitur 
+      <lb ed="#B" n="91"/>tamen specialiter tunc illabi menti 
+      hu<lb ed="#B" n="92" break="no"/>manae: cum ei praesidet ipsam specialiter 
+      <lb ed="#B" n="93"/>regendo: ac ei inffuendo unde 
+      merito<lb ed="#B" n="94" break="no"/>rie possit agere, ac digna fieriuita aeter 
+      <lb ed="#B" n="95"/>na: quomodo non adsistit menti 
+      creatu<lb ed="#B" n="96" break="no"/>rae rationalis se a deo auertenti: ac 
+      obi<lb ed="#B" n="97" break="no"/>cem (ne illabatur deus) per mortale 
+      pec<lb ed="#B" n="98" break="no"/>catum ponenti.
+    </p>
+            <p xml:id="gbs333-a48431-d1e347">
+      ¶ Quod sequitur: 
+      quo<lb ed="#B" n="99" break="no"/>persona aeternaliter producta &amp;c. innuit 
+      <lb ed="#B" n="100"/>quod processio temporalis praesupponit aeter¬ 
+      <!--280.xml-->
+      <pb ed="#B" n="193"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>nam: ita quod duo includit: scilicet 
+      proces<lb ed="#B" n="2" break="no"/>sionem aeternam adintra: &amp; nouum 
+      mo<lb ed="#B" n="3" break="no"/>dum existendi in aliqua rationali 
+      creatu<lb ed="#B" n="4" break="no"/>ra adextra.
+    </p>
+            <p xml:id="gbs333-a48431-d1e369">
+      ¶ Ex quo sequitur: quod pro 
+      <lb ed="#B" n="5"/>cessio dicit aliquid notionale, &amp; aliquid 
+      <lb ed="#B" n="6"/>e ssentiale. Notionale quantum ad con 
+      <lb ed="#B" n="7"/>ditionem personae procedentis. 
+      Essen<lb ed="#B" n="8" break="no"/>tiale quantum ad illabi menti rationali. 
+      <lb ed="#B" n="9"/>Ideo que nec est purum essentiale: nec 
+      <lb ed="#B" n="10"/>purum notionale: sed essentiale conno 
+      <lb ed="#B" n="11"/>tans notionale.
+    </p>
+            <p xml:id="gbs333-a48431-d1e388">
+      ¶ Quod uero sequitur. 
+      <lb ed="#B" n="12"/>Per sua dona, aut substantiam suae perso 
+      <lb ed="#B" n="13"/>nae; innuit personam procedentis 
+      dupli<lb ed="#B" n="14" break="no"/>citer adsiftere menti rationali scilicet in 
+      do<lb ed="#B" n="15" break="no"/>no formaliter. Donum enim datum 
+      <lb ed="#B" n="16"/>creaturae, charitas scilicet &amp; sapientia, forma 
+      <lb ed="#B" n="17"/>liter inhaeret ei: quibus mens ipsa 
+      for<lb ed="#B" n="18" break="no"/>maliter deum cognoscit, &amp; amat. In se 
+      <lb ed="#B" n="19"/>uero effectiue, cum nostrum diligere, &amp; 
+      <lb ed="#B" n="20"/>cognoscere ipse efficit.
+    </p>
+            <p xml:id="gbs333-a48431-d1e410">
+      ¶ Et quia dona 
+      <lb ed="#B" n="21"/>creaturae data dantur principaliter, ut 
+      <lb ed="#B" n="22"/>reuocetur ad principium suum, unde 
+      exi<lb ed="#B" n="23" break="no"/>uit per creationem. Reducitur autem 
+      <lb ed="#B" n="24"/>rationalis creatura ad deum per 
+      actio<lb ed="#B" n="25" break="no"/>nes intellectus, &amp; uoluntatis. Ideo 
+      du<lb ed="#B" n="26" break="no"/>plicia sunt dona, in quibus procedere 
+      di<lb ed="#B" n="27" break="no"/>citur persona diuina temporaliter, 
+      sci<lb ed="#B" n="28" break="no"/>licet dona intellectus, &amp; affectus. Et  
+      <lb ed="#B" n="29"/>quamuis non illabitur una persona fine 
+      <lb ed="#B" n="30"/>alia: sed simul omnes tres mentem 
+      ra<lb ed="#B" n="31" break="no"/>tionalem sanctificando inhabitant: 
+      se<lb ed="#B" n="32" break="no"/>cundum illud Ioann. xiiij. Si quis 
+      dili<lb ed="#B" n="33" break="no"/>git me sermonem meum seruabit &amp; 
+      pa<lb ed="#B" n="34" break="no"/>ter meus diliget eum: &amp; ad eum 
+      uenie<lb ed="#B" n="35" break="no"/>mus: &amp; mansionem apud eum faciemus 
+      <lb ed="#B" n="36"/>Quia tamen dona, quae pertinent ad illumi 
+      <lb ed="#B" n="37"/>nationem intellectus appropriantur 
+      fi<lb ed="#B" n="38" break="no"/>lio, qui adintra procedit per modum in 
+      <lb ed="#B" n="39"/>tellectus. unde &amp; uerbum est patris: ideo 
+      <lb ed="#B" n="40"/>ineis specialiter dicitur prcedere filius. 
+      <lb ed="#B" n="41"/>Ideo orauit sapiens Sapien. ix. Mitte 
+      <lb ed="#B" n="42"/>domine sapientiam de caelis sanctis tuis: 
+      <lb ed="#B" n="43"/>&amp; de sede magnitudinis tuae: ut mecum 
+      <lb ed="#B" n="44"/>sit, &amp; mecum laboret: ut sciam, quid 
+      <lb ed="#B" n="45"/>atce itum sit coram te omni 
+      tempo<lb ed="#B" n="46" break="no"/>re. Et dona uoluntatis, quibus 
+      recti<lb ed="#B" n="47" break="no"/>ficatur affectus, appropriantur 
+      spiri<lb ed="#B" n="48" break="no"/>tui sancto procedenti per modum amo 
+      <lb ed="#B" n="49"/>ris: ideo in eis dicitur procedere 
+      spi<lb ed="#B" n="50" break="no"/>ritussanctus: iuxta illud ad Roman. v. 
+      <lb ed="#B" n="51"/>Charitas dei diffusa est in cordibus no¬ 
+      <!--280.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>stris per spiritum sanctum, qui datus est 
+      <lb ed="#B" n="53"/>nobis.
+    </p>
+            <p xml:id="gbs333-a48431-d1e488">
+      ¶ Mittitur enim tunc 
+      unicui<lb ed="#B" n="54" break="no"/>que personadiuina: cum a quoque 
+      co<lb ed="#B" n="55" break="no"/>gnoscitur, atque percipitur quantum 
+      <lb ed="#B" n="56"/>cognosci, &amp; percipi potest. Ait Augu. 
+      <lb ed="#B" n="57"/>iiij. de trinit. Et quia in dono 
+      appro<lb ed="#B" n="58" break="no"/>priato magis cognoscitur persona, quam 
+      <lb ed="#B" n="59"/>non appropriato: ideo in illo magis 
+      di<lb ed="#B" n="60" break="no"/>citur mitti illa persona cui donum 
+      ip<lb ed="#B" n="61" break="no"/>sum appropriatur. Er Richar. Missio 
+      <lb ed="#B" n="62"/>est personae emanantis per effectum sibi 
+      <lb ed="#B" n="63"/>appropriatum manifestatio.
+    </p>
+            <p xml:id="gbs333-a48431-d1e512">
+      ¶ Quod 
+      <lb ed="#B" n="64"/>uero additur ultimo specialissime 
+      adsi<lb ed="#B" n="65" break="no"/>stendo ad bonum meritorium: innuitur, 
+      <lb ed="#B" n="66"/>quod non in quibuslibet donis proce- 
+      <lb ed="#B" n="67"/>dit filius, aut spiritussanctus: non enim 
+      <lb ed="#B" n="68"/>in donis naturalibus tantum: nec 
+      gra<lb ed="#B" n="69" break="no"/>tis datis tantum: sed in dono gratum 
+      <lb ed="#B" n="70"/>faciente, quod est charitas: quo dono 
+      <lb ed="#B" n="71"/>(ut August. ait. v. de trinit.) nihil est 
+      <lb ed="#B" n="72"/>excellentius.
+    </p>
+            <p xml:id="gbs333-a48431-d1e534">
+      ¶ Et quia charitas 
+      appro<lb ed="#B" n="73" break="no"/>priatur spirituisancto, ut dictum est: 
+      si<lb ed="#B" n="74" break="no"/>ne qua nulla persona procedit 
+      tempo<lb ed="#B" n="75" break="no"/>raliter: ideoque processio 
+      tempora<lb ed="#B" n="76" break="no"/>lis spirtuisancto appropriatur. Et  
+      <lb ed="#B" n="77"/>etiam quia processio temporalis 
+      ui<lb ed="#B" n="78" break="no"/>detur esse quaedam liberalis donatio 
+      per<lb ed="#B" n="79" break="no"/>modum muneris liberi, &amp; gloriosi: ideo 
+      <lb ed="#B" n="80"/>spirituisancto appropriatur, qui 
+      proce<lb ed="#B" n="81" break="no"/>dit per modum doni.
+    </p>
+            <p xml:id="gbs333-a48431-d1e556">
+      ¶ Ex quo hoc 
+      se<lb ed="#B" n="82" break="no"/>quitur: quod non in quolibet dono 
+      in<lb ed="#B" n="83" break="no"/>tellectus dicitur procedere filius, aut  
+      <lb ed="#B" n="84"/>spiritussanctus. Patet: quia non 
+      pro<lb ed="#B" n="85" break="no"/>cessit in dono prophetiae collato 
+      Cay<lb ed="#B" n="86" break="no"/>phae. de quo Ioannes. xi. quia tali 
+      do<lb ed="#B" n="87" break="no"/>no non fuit sanctificatus, neque deo 
+      <lb ed="#B" n="88"/>charus. Mittitur autem in dono 
+      ue<lb ed="#B" n="89" break="no"/>rae sapientiae, quae includit 
+      charita<lb ed="#B" n="90" break="no"/>tem: quae sapientia est cum amore 
+      no<lb ed="#B" n="91" break="no"/>titia. de qua Sapien. j. Sapientia non 
+      <lb ed="#B" n="92"/>habitat in corpore subdito peccatis. 
+      </p>
+            <p xml:id="gbs333-a48431-d1e583">
+               <lb ed="#B" n="93"/>¶ Secundo sequitur: quod ad, eas 
+      crea<lb ed="#B" n="94" break="no"/>turas neque procedit, neque mittitur 
+      <lb ed="#B" n="95"/>filius aut spiritussanctus: quas non 
+      san<lb ed="#B" n="96" break="no"/>ctificant neque sanctificatas inhabitant: 
+      <lb ed="#B" n="97"/>ut fuere nubes, columba, linguae igneae. 
+      <lb ed="#B" n="98"/>Et sic patet quid processione 
+      tempora<lb ed="#B" n="99" break="no"/>li accipiendum sit.
+    </p>
+            <p xml:id="gbs333-a48431-d1e601">
+      ¶ Pro articulo 
+      se<lb ed="#B" n="100" break="no"/>cundo, &amp; quantum ad modum 
+      loquen<lb ed="#B" n="101" break="no"/>di est conclusio prima. Tenendo 
+      pri<lb ed="#B" n="102" break="no"/>mum modum loquendi de abstractis: non 
+      <!--281.xml-->
+      <pb ed="#B" n="194"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est concedendum de uirture sermonis: 
+      <lb ed="#B" n="2"/>quod spiritussancti sit duplex processio: uel 
+      <lb ed="#B" n="3"/>quod spiritussancti sunt duae processiones. 
+      <lb ed="#B" n="4"/>Patet: quia secundum hunc modum 
+      lo<lb ed="#B" n="5" break="no"/>quendi processio temporalis 
+      spiritussan<lb ed="#B" n="6" break="no"/>cti non est res una: quia neque res 
+      abso<lb ed="#B" n="7" break="no"/>luta: nec res respectiua: quia nec relatio 
+      <lb ed="#B" n="8"/>realis: nec rationis. Si ergo 
+      processio<lb ed="#B" n="9" break="no"/>temporalis non est res aliqua una: ergo 
+      <lb ed="#B" n="10"/>cum processione aeterna non constituit 
+      <lb ed="#B" n="11"/>dualitatis numerum.
+    </p>
+            <p xml:id="gbs333-a48431-d1e640">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="12" break="no"/>sio. tenendo secundum modum loquendi: 
+      <lb ed="#B" n="13"/>non sunt duae processiones 
+      spiritussan<lb ed="#B" n="14" break="no"/>cti. Probatur: quia sic processio 
+      spiri<lb ed="#B" n="15" break="no"/>tussancti, est spiritustanctus procedens: 
+      <lb ed="#B" n="16"/>non sunt autem duo spiritussancti 
+      proce<lb ed="#B" n="17" break="no"/>dentes.
+    </p>
+            <p xml:id="gbs333-a48431-d1e656">
+      ¶ Tertia conclusio: secundum 
+      <lb ed="#B" n="18"/>intentionem sanctorum est duplex 
+      pro<lb ed="#B" n="19" break="no"/>cessio id est spiritussanctus dupliciter 
+      proce<lb ed="#B" n="20" break="no"/>dit aeternaliter, scilicet &amp; temporaliter. 
+      <lb ed="#B" n="21"/>Vnde notandum est. quod quando duo 
+      <lb ed="#B" n="22"/>de nominatiua sic se habent. quod unum 
+      de<lb ed="#B" n="23" break="no"/>nominare potest alio non denominante: 
+      <lb ed="#B" n="24"/>tunc secundum consuetudinem 
+      loquen<lb ed="#B" n="25" break="no"/>di conceditur pluralitas praedicari de ab 
+      <lb ed="#B" n="26"/>stractis illorum denominantium: licet 
+      il<lb ed="#B" n="27" break="no"/>sa abstracta non importent rem unam 
+      <lb ed="#B" n="28"/>tantum: sed res plures. Sic in 
+      proposito<lb ed="#B" n="29" break="no"/>procedere aeternaliter denominat s isilicet 
+      <lb ed="#B" n="30"/>quando non denominat temporaliter 
+      <lb ed="#B" n="31"/>procedere: &amp; sic conceditur, quod est 
+      du<lb ed="#B" n="32" break="no"/>plex processio spiritussancti: siue quod duae 
+      <lb ed="#B" n="33"/>sunt processiones scililicet per quas tamen 
+      ni<lb ed="#B" n="34" break="no"/>hil aliud intelligendum est, nisi quod 
+      spiri<lb ed="#B" n="35" break="no"/>tussanctus dupliciter procedit: scilicet 
+      ten<lb ed="#B" n="36" break="no"/>poraliter, &amp; aeternaliter. Et secundum 
+      <lb ed="#B" n="37"/>eundem intellectum cencedi potest: quod 
+      <lb ed="#B" n="38"/>utraque processio est realis. De aeterna 
+      <lb ed="#B" n="39"/>manifestum est. De temporali patet: 
+      <lb ed="#B" n="40"/>quia sicut conceditur, quod 
+      spiritussan<lb ed="#B" n="41" break="no"/>ctus realiter procedit ex tempore: ita 
+      con<lb ed="#B" n="42" break="no"/>cedi potest, quod processio temporalis est 
+      <lb ed="#B" n="43"/>realis. Quia nihil aliud est processionem 
+      <lb ed="#B" n="44"/>spiritussancti esse realem: quam scililicet 
+      reali<lb ed="#B" n="45" break="no"/>ter procedere: sicut deus realiter creat: 
+      <lb ed="#B" n="46"/>realiter denominatur. Et ita 
+      creatio<lb ed="#B" n="47" break="no"/>dei est realis: &amp; dominium est reale: ut  
+      <lb ed="#B" n="48"/>dicetur infra. Non tamen propter hoc  
+      <lb ed="#B" n="49"/>processio temporalis est aliqua res 
+      rela<lb ed="#B" n="50" break="no"/>tiua, uel absoluta deo superaddita: sicut  
+      <lb ed="#B" n="51"/>nec creatio. Nec respectus rationis: quia 
+      <!--281.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>operatio intellectus nihil facit ad hoc, 
+      <lb ed="#B" n="53"/>ut sit creatio. Importat autem 
+      proces<lb ed="#B" n="54" break="no"/>sio temporalis nouum modum existendi 
+      <lb ed="#B" n="55"/>spiritumsanctum in creatura, rationali &amp;c. 
+      <lb ed="#B" n="56"/>Et quia nomen processio temporalis 
+      im<lb ed="#B" n="57" break="no"/>portat creaturam, quam non importat  
+      <lb ed="#B" n="58"/>processio aeterna: concedunt multi, quod 
+      <lb ed="#B" n="59"/>processio temporalis realiter 
+      distingui<lb ed="#B" n="60" break="no"/>tur ab aeterna. Quod utique uerum est, 
+      <lb ed="#B" n="61"/>si processio temporalis supponit pro 
+      om<lb ed="#B" n="62" break="no"/>nibus, quae significat id est pro spiritulancto 
+      <lb ed="#B" n="63"/>producto, &amp; creatura, in qua de no 
+      o<lb ed="#B" n="64" break="no"/>existit secundum determinatum 
+      modu<lb ed="#B" n="65" break="no"/>Hoc totum autem differt realiter a 
+      spi<lb ed="#B" n="66" break="no"/>ritusancto, qui est processio aeterna, 
+      </p>
+            <p xml:id="gbs333-a48431-d1e769">
+               <lb ed="#B" n="67"/>¶ Proarticulo tertio moueri possent du 
+      Arti<lb ed="#B" n="68" break="no"/>biarscilicet an de uirtute sermonis 
+      pos<lb ed="#B" n="69" break="no"/>sit concedi, quod duplex est processio 
+      spi<lb ed="#B" n="70" break="no"/>ritussancti. Item an processio 
+      tempo<lb ed="#B" n="71" break="no"/>ralis sit realis. Et si sic: an res absoluta, 
+      <lb ed="#B" n="72"/>uel relatiua. Item antemporalis 
+      proces<lb ed="#B" n="73" break="no"/>sio differt ab aeterna. Sed studiosus 
+      se<lb ed="#B" n="74" break="no"/>ctor haec omnia in dictis pro 
+      conclusio<lb ed="#B" n="75" break="no"/>ne tertia clare inueniet. Ideo hic rescim 
+      <lb ed="#B" n="76"/>duntur: quia plana sunt. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 9</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 9</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="90"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a22549"> <!-- l1d2q9 -->
+            <head xml:id="gbs333-a22549-Hd1e102">Quaestio 9</head>
+            <head xml:id="gbs333-a22549-Hd1e104" type="question-title">Utrum aliquod universale sit univocum deo et creaturae</head>
+            <p xml:id="gbs333-a22549-d1e107">
+               <lb ed="#B" n="24"/>QVAESTIO IX 
+      <lb ed="#B" n="25"/>UTRVM aliquod 
+      uniuer<lb ed="#B" n="26" break="no"/>ed sale sit uniuocum deo, &amp; 
+      <lb ed="#B" n="27"/>creaturis. Recitat opi. Sco. 
+      <lb ed="#B" n="28"/>I.j. dist. iij. qeiij. &amp; dist. viij. 
+      <lb ed="#B" n="29"/>impugnantis eos, qui tenent partem 
+      quae<lb ed="#B" n="30" break="no"/>stionis negatiuam: qui duo dicit. Primum, 
+      <lb ed="#B" n="31"/>quod aliquod est uniuocum deo, &amp; 
+      crea<lb ed="#B" n="32" break="no"/>turis scilicet ens, siue conceptus entis. 
+      Secun<lb ed="#B" n="33" break="no"/>dum, quod ens non est uniuocum dictum in 
+      <lb ed="#B" n="34"/>quid de passionibus suis proprijs: nec de 
+      <lb ed="#B" n="35"/>ultimis differentijs. Et licet auctor in 
+      <lb ed="#B" n="36"/>primo dicto concordee cum Ioanne: 
+      ta<lb ed="#B" n="37" break="no"/>men rationes suas impugnat tanquam 
+      <lb ed="#B" n="38"/>insufficientes.
+    </p>
+            <p xml:id="gbs333-a22549-d1e142">
+      ¶ Verum cum quaestio ista 
+      <lb ed="#B" n="39"/>querit de uniuoco, auctor declarat, quic 
+      <lb ed="#B" n="40"/>sit uniuocum, &amp; aequiuocum: quid 
+      deno<lb ed="#B" n="41" break="no"/>minatiuum, &amp; quia haec logicalia sunt: 
+      <lb ed="#B" n="42"/>ideo breuius hic sumantur.
+    </p>
+            <p xml:id="gbs333-a22549-d1e154">
+      ¶ Notat 
+      <lb ed="#B" n="43"/>ergo doct. quod licet uniuocum proprie 
+      so<lb ed="#B" n="44" break="no"/>lum uoci attribuatur, scilicet qui unicomn 
+      <lb ed="#B" n="45"/>ceptui subordinatur: sic enim uocabulum 
+      <lb ed="#B" n="46"/>sonat uniuocum, quasi uox uni conceptui 
+      <lb ed="#B" n="47"/>subordinatum (sicut aequiuocum dicitur 
+      <lb ed="#B" n="48"/>uox una diuersis conceptibus 
+      subordina<lb ed="#B" n="49" break="no"/>ta) largius tamen etiam conceptus dici
+      <!--177.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50" break="no"/>tur uniuocus: quia unius, uel uno modo 
+      <lb ed="#B" n="51"/>significatiuus: unde omnis conceptus 
+      <lb ed="#B" n="52"/>est uniuocus, &amp; non aequiuocus, respectu 
+      <lb ed="#B" n="53"/>illorum, quorum est conceptus. ist quorum 
+      <lb ed="#B" n="54"/>est naturaliter significatiuus. Accipitur 
+      <lb ed="#B" n="55"/>autem aliquando, ut distinguitur contra 
+      <lb ed="#B" n="56"/>conceptum proprium, &amp; sic duntaxat 
+      con<lb ed="#B" n="57" break="no"/>ceptus communis pluribus est uniuocus, 
+      <lb ed="#B" n="58"/>&amp; non conceptus singularis, &amp; sic acce- 
+      <lb ed="#B" n="59"/>prum est in titulis praecedentium 
+      quae<lb ed="#B" n="60" break="no"/>stionum: ubi quaesitum est de uniuersali, 
+      <lb ed="#B" n="61"/>&amp; uniuoco. Alio modo ut distinguitur 
+      <lb ed="#B" n="62"/>contra conceptum denominatiuum, &amp; 
+      <lb ed="#B" n="63"/>sic solus conceptus comunis absolutus, 
+      <lb ed="#B" n="64"/>dicitur uniuocus sic de signis ad placitum 
+      <lb ed="#B" n="65"/>institutis.
+    </p>
+            <p xml:id="gbs333-a22549-d1e211">
+      ¶ Vniuocum aliquando 
+      distin<lb ed="#B" n="66" break="no"/>guitur contra aequiuocum: ut sit omne 
+      <lb ed="#B" n="67"/>signum uni conceptui in significando 
+      <lb ed="#B" n="68"/>subordinatum. Alio modo distinguitur 
+      <lb ed="#B" n="69"/>contra aequiuocum simul, &amp; denomina 
+      <lb ed="#B" n="70"/>tiuum: &amp; sic uox connotatiua (licet 
+      uni<lb ed="#B" n="71" break="no"/>conceptui subordinata) non dicitur 
+      uni<lb ed="#B" n="72" break="no"/>uoca. Adhuc distinguitur de uniuoco 
+      <lb ed="#B" n="73"/>ut conuenit tam conceptibus, quam 
+      uo<lb ed="#B" n="74" break="no"/>cibus. Vno modo ut accipitur proeo, 
+      <lb ed="#B" n="75"/>quod praedicatur de pluribus sibi 
+      similli<lb ed="#B" n="76" break="no"/>mis: quae non sunt una res realiter, &amp; sic 
+      <lb ed="#B" n="77"/>sola species specialissima esset 
+      uniuoca<lb ed="#B" n="78" break="no"/>Secundo modo pro eo, quod prędicatur 
+      <lb ed="#B" n="79"/>in quid de pluribus etiam non simillimis: 
+      <lb ed="#B" n="80"/>quae non sunt una res, &amp; sic genus etiam 
+      <lb ed="#B" n="81"/>est uniuocum. Tertio dicitur, quod 
+      prae<lb ed="#B" n="82" break="no"/>dicatur de pluribus, quae tamen sunt una 
+      <lb ed="#B" n="83"/>res: sic relatio dicitur uniuoce de 
+      rela<lb ed="#B" n="84" break="no"/>tionibus diuinis, quae sunt uera essentia. 
+      </p>
+            <p xml:id="gbs333-a22549-d1e255">
+               <lb ed="#B" n="85"/>¶ Ex quibus patet: quod uniuocum nihil ex 
+      <lb ed="#B" n="86"/>uniuocatorum: nec de eorum essentia, nec 
+      <lb ed="#B" n="87"/>pars, nec accidens eorum, quia uniuoca 
+      <lb ed="#B" n="88"/>sunt signa: uniuocata uero res 
+      significa<lb ed="#B" n="89" break="no"/>taelicet signum nihil est rei significatae, 
+      </p>
+            <p xml:id="gbs333-a22549-d1e268">
+               <lb ed="#B" n="90"/>¶ His praemissis est conclusio prima 
+      re<lb ed="#B" n="91" break="no"/>spondens ad quaestionem. Dabilis est 
+      con<lb ed="#B" n="92" break="no"/>ceptus unus communis deo &amp; creaturae, 
+      <lb ed="#B" n="93"/>praedicabilis de eis in quid, &amp; per se 
+      pri<lb ed="#B" n="94" break="no"/>mo modo. Probatur conclusio: quia deua 
+      <lb ed="#B" n="95"/>potest a nobis cognosci, &amp; non in se: nec 
+      <lb ed="#B" n="96"/>in conceptu simplici proprio sibi: ergo 
+      <lb ed="#B" n="97"/>in aliquo conceptu comuni sibi, &amp; 
+      crea<lb ed="#B" n="98" break="no"/>turis: talis autem conceptus poterit esse 
+      <lb ed="#B" n="99"/>quidditatiuus. ergo &amp;e. Consequentia 
+      <lb ed="#B" n="100"/>ultima nota: &amp; prima consequentia te¬ 
+      <!--178.xml-->
+      <pb ed="#B" n="91"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>net a sufficienti diuisione. Et prima pars 
+      <lb ed="#B" n="2"/>antecedentis scilicet quod non cognoscitur a 
+      no<lb ed="#B" n="3" break="no"/>bis in se: quia omnis talis cognitio rei 
+      <lb ed="#B" n="4"/>in se est intuitiua, uel abstractiua: ut 
+      pa<lb ed="#B" n="5" break="no"/>ter ex prologo. q. i. Deus autem a nobis 
+      <lb ed="#B" n="6"/>non potest cognosci intuitiue in uia: quia 
+      <lb ed="#B" n="7"/>illa cognitio est beatifica. nec 
+      abstracti<lb ed="#B" n="8" break="no"/>ue: quia illa praesupponit intuitiuam.
+    </p>
+            <p xml:id="gbs333-a22549-d1e318">
+      ¶ 
+      Se<lb ed="#B" n="9" break="no"/>cunda pars: quod etiam non in aliquo 
+      con<lb ed="#B" n="10" break="no"/>ceptu simplici proprio: quia nihil sic 
+      in<lb ed="#B" n="11" break="no"/>telligitur. nisi prius in secognoscatur: 
+      a<lb ed="#B" n="12" break="no"/>lioquin color posset a caeco cognosci in 
+      <lb ed="#B" n="13"/>conceptu proprio coloris: quod patet 
+      <lb ed="#B" n="14"/>falsum. Si dicis: quod diuisio non est 
+      suffi<lb ed="#B" n="15" break="no"/>ciens: quia potest cognosci in 
+      conceptu<lb ed="#B" n="16" break="no"/>complexo proprio. Dicitur, quod 
+      conce<lb ed="#B" n="17" break="no"/>ptus complexus proprius deo: quia non 
+      <lb ed="#B" n="18"/>potest componi ex simplicibus deo 
+      pro<lb ed="#B" n="19" break="no"/>prijs: necessario componitur ex 
+      simpli<lb ed="#B" n="20" break="no"/>cibus communibus deo, &amp; creaturis. 
+      </p>
+            <p xml:id="gbs333-a22549-d1e347">
+               <lb ed="#B" n="21"/>¶ Quod uero posset esse quidditatiuus 
+      <lb ed="#B" n="22"/>probatur: quia si non: tunc erit denom 
+      <lb ed="#B" n="23"/>natiuus. Sed ille praesupponit conceptum 
+      <lb ed="#B" n="24"/>cui sua denominatio attribuitur: gratia 
+      <lb ed="#B" n="25"/>exempli. Creatiuum est denominatiuum: 
+      <lb ed="#B" n="26"/>ideo praesupponit conceptum 
+      significan<lb ed="#B" n="27" break="no"/>tem rem, cui attribuitur.
+    </p>
+            <p xml:id="gbs333-a22549-d1e366">
+      ¶ Resoluitur. 
+      n<lb ed="#B" n="28" break="no"/>denominatiuum in duos conceptus unum 
+      <lb ed="#B" n="29"/>rei, quae denominatur, &amp; eius quo 
+      deno<lb ed="#B" n="30" break="no"/>minatur: sic creatiuum ens potens 
+      crea<lb ed="#B" n="31" break="no"/>re. Aut ergo ille conceptus, cui de 
+      no<lb ed="#B" n="32" break="no"/>minatio attribuitur, est quidditatiuus, 
+      <lb ed="#B" n="33"/>aut denominatiuus. Si primum: habetur 
+      <lb ed="#B" n="34"/>propositum. Si secundum: quaero de illo 
+      <lb ed="#B" n="35"/>sicut deprimo denominatiuo, &amp; uel erit 
+      <lb ed="#B" n="36"/>processus ininfinitum: aut stab tur ad 
+      con<lb ed="#B" n="37" break="no"/>reptum quidditatiuum.
+    </p>
+            <p xml:id="gbs333-a22549-d1e390">
+      ¶ Secunda 
+      con<lb ed="#B" n="38" break="no"/>clusio. Conceptus entis est communis, 
+      <lb ed="#B" n="39"/>uniuocus omnibus existentibus realiter 
+      <lb ed="#B" n="40"/>extra animam: praedicabilis de eis in qud 
+      <lb ed="#B" n="41"/>per se primo modo. Probatur: quia cum 
+      <lb ed="#B" n="42"/>sit uniuocus deo &amp; creaturis, erit uniue 
+      <lb ed="#B" n="43"/>cus omnibus creaturis. Plus enim 
+      con<lb ed="#B" n="44" break="no"/>ueniunt quaecunque creatura inter se: &amp; 
+      <lb ed="#B" n="45"/>quaelibet cum qualibet creatura, quam 
+      <lb ed="#B" n="46"/>aliqua creatura cum deo. Quod uero 
+      <lb ed="#B" n="47"/>praedicatur in quid, probatur eadem 
+      ra<lb ed="#B" n="48" break="no"/>tione, qua conclusio praecedens quantum 
+      <lb ed="#B" n="49"/>ad hanc partem.
+    </p>
+            <p xml:id="gbs333-a22549-d1e419">
+      ¶ Verum si uniuocum 
+      <lb ed="#B" n="50"/>acciperetur stricte pro conceptu 
+      praedi<lb ed="#B" n="51" break="no"/>cabili de pluribus simillimis, siue perse¬ 
+      <!--178.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ctam similitudinem ad inuicem 
+      haben<lb ed="#B" n="53" break="no"/>tibus: tunc nullus conceptus esset uniuo 
+      <lb ed="#B" n="54"/>cus deo, &amp; creaturis: quia nihilem in 
+      crea<lb ed="#B" n="55" break="no"/>tura, quod sit pfecte simile alicui, quod  
+      <lb ed="#B" n="56"/>est deus: &amp; hoc modo sancti negauersit 
+      <lb ed="#B" n="57"/>uniuocationem dei, &amp; creaturae.
+    </p>
+            <p xml:id="gbs333-a22549-d1e443">
+      ¶ 
+      Ad<lb ed="#B" n="58" break="no"/>uertendum etiam: quodlicet ens est 
+      uniuo<lb ed="#B" n="59" break="no"/>cum praedicabile in qud de omnibus 
+      crea<lb ed="#B" n="60" break="no"/>turis: non tamen praedicatur quidditati 
+      <lb ed="#B" n="61"/>ue de omnibus conceptibus creaturarum, 
+      <lb ed="#B" n="62"/>quia non de denominatiuis. Haec enim 
+      <lb ed="#B" n="63"/>non est praedicatio quidditatiua, album 
+      <lb ed="#B" n="64"/>est ens: quantitas estens: supposito quod 
+      <lb ed="#B" n="65"/>quantitas non distingueretur a re 
+      quan<lb ed="#B" n="66" break="no"/>ta: eo quod in his subiectum connotat 
+      su<lb ed="#B" n="67" break="no"/>per praedicatum: praedicatur autem in 
+      <lb ed="#B" n="68"/>quid de omnibus conceptibus absolutis: 
+      <lb ed="#B" n="69"/>&amp; quaelibet res existens extra animam 
+      po<lb ed="#B" n="70" break="no"/>test significari conceptu absoluto.  
+      </p>
+            <p xml:id="gbs333-a22549-d1e474">
+               <lb ed="#B" n="71"/>¶ Supponendo autem quod uniuocum est 
+      <lb ed="#B" n="72"/>signum uni conceptui naturaliter 
+      pro<lb ed="#B" n="73" break="no"/>prie significanti subordinatum: uel 
+      ip<lb ed="#B" n="74" break="no"/>semet conceptus unus naturaliter 
+      pro<lb ed="#B" n="75" break="no"/>prie significatiuus. Aequiuocum uero 
+      <lb ed="#B" n="76"/>est signum pluribus conceptibus diuisim 
+      <lb ed="#B" n="77"/>subordinatum: &amp; sic naturaliter proprie 
+      <lb ed="#B" n="78"/>significantibus. Denominatiuum est ter 
+      <lb ed="#B" n="79"/>minus accidentaliter connotatiuus. Po 
+      <lb ed="#B" n="80"/>test totum summari breuius, &amp; clarius, 
+      <lb ed="#B" n="81"/>hac unica conclusione, quam etiam 
+      ha<lb ed="#B" n="82" break="no"/>bet doctor. v. quodlib. q. xiiij. Ens est 
+      uni<lb ed="#B" n="83" break="no"/>uocum deo, &amp; creaturis. Probatur: 
+      da<lb ed="#B" n="84" break="no"/>bilis est unus conceptus quidditatiuus 
+      <lb ed="#B" n="85"/>communis deo, &amp; creaturis: &amp; ille 
+      ma<lb ed="#B" n="86" break="no"/>xime erit conceptus entis. Minor 
+      nota<lb ed="#B" n="87" break="no"/>Maior patet: quia deus est aliquo modo 
+      <lb ed="#B" n="88"/>a nobis cognoscibilis, &amp; non 
+      conceptu<lb ed="#B" n="89" break="no"/>simplici proprio absoluto, siue quiddita 
+      <lb ed="#B" n="90"/>tiuo, quod idem est. (Nota doc. per 
+      con<lb ed="#B" n="91" break="no"/>ceptum simplicem intelligit conceptum 
+      <lb ed="#B" n="92"/>absolutum id est non connotatiuum) ergo 
+      <lb ed="#B" n="93"/>uel communi quidditatiuo, uel 
+      comple<lb ed="#B" n="94" break="no"/>xo. Assumptum pro prima parte notum 
+      <lb ed="#B" n="95"/>est quia nisi deus esset a nobis aliquo 
+      <lb ed="#B" n="96"/>modo cognoscibilis: de eo tanquam de 
+      <lb ed="#B" n="97"/>re simpliciter ignota, nec cogitare nec 
+      <lb ed="#B" n="98"/>loqui possemus. Secunda pars patet. quia 
+      <lb ed="#B" n="99"/>talis conceptus praesupponit notitiam 
+      <lb ed="#B" n="100"/>intuitiuam dei: quae nobis pro statu isto 
+      <lb ed="#B" n="101"/>non est possibilis: ut patuit in prologo. 
+      <lb ed="#B" n="102"/>&amp; infra dist. iij. magis patebit: quam tenet 
+      <!--179.xml-->
+      <pb ed="#B" n="92"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sufficienti diuisione, &amp; quodcunque 
+      il<lb ed="#B" n="2" break="no"/>larum dicitur: habetur proponsitum. 
+      De<lb ed="#B" n="3" break="no"/>primo membro patet: de secundo, &amp; 
+      ter<lb ed="#B" n="4" break="no"/>tio similiter: quoniam conceptus 
+      conno<lb ed="#B" n="5" break="no"/>tatiuus praesupponit conceptum substra 
+      <lb ed="#B" n="6"/>cti, quod denominat: &amp; ille, uel erit 
+      abso<lb ed="#B" n="7" break="no"/>lutus, uel connotatiuus. Siprimum: 
+      ha<lb ed="#B" n="8" break="no"/>betur propositum: quia non erit proprius 
+      <lb ed="#B" n="9"/>deo: ergo communis deo, &amp; creaturis 
+      <lb ed="#B" n="10"/>Si connotatiuus arguitur ut prius, &amp; uel 
+      <lb ed="#B" n="11"/>proceditur in infinitum, quod est 
+      impos<lb ed="#B" n="12" break="no"/>sibile: uel statur ad absolutum communen 
+      <lb ed="#B" n="13"/>deo, &amp; creaturis Similiter si fuerit com 
+      <lb ed="#B" n="14"/>plexus, quaeritur de partibus eius, si sunt 
+      <lb ed="#B" n="15"/>absoluti &amp; per consequens eommunes: 
+      si<lb ed="#B" n="16" break="no"/>connotatiui: &amp; arguitur, utiam argutum 
+      <lb ed="#B" n="17"/>est.
+    </p>
+            <p xml:id="gbs333-a22549-d1e589">
+      ¶ Item a qualibet conuententia 
+      es<lb ed="#B" n="18" break="no"/>sentiali potest abstrahi conceptus 
+      quid<lb ed="#B" n="19" break="no"/>ditatiuus communis sic conuententibus: 
+      <lb ed="#B" n="20"/>sed tam deus, quam creatura existunt 
+      rea<lb ed="#B" n="21" break="no"/>liter extra animam id est in esse subiectiuo: 
+      <lb ed="#B" n="22"/>&amp; sic esse est essentiale deo, &amp; creaturis: 
+      <lb ed="#B" n="23"/>ergo.
+    </p>
+            <p xml:id="gbs333-a22549-d1e606">
+      ¶ Item deus plus conuenit cum sub 
+      <lb ed="#B" n="24"/>stantijs creatis, quam cum accidentibus: 
+      <lb ed="#B" n="25"/>Item plus cum substantia intellectua 
+      <lb ed="#B" n="26"/>li, quam cum substantia non 
+      cognoscen<lb ed="#B" n="27" break="no"/>te.
+    </p>
+            <p xml:id="gbs333-a22549-d1e617">
+      ¶ Item plus cum spirituali, quam 
+      cor<lb ed="#B" n="28" break="no"/>porali: &amp; a qualibet earum 
+      conuenien<lb ed="#B" n="29" break="no"/>tiarum potest abstrahi conceptus 
+      abso<lb ed="#B" n="30" break="no"/>lutus: quia sunt essentiales. Similiter 
+      ni<lb ed="#B" n="31" break="no"/>si sic: nullum praedicatum conueniens 
+      na<lb ed="#B" n="32" break="no"/>turae secundum rationem suam formalem 
+      <lb ed="#B" n="33"/>posset attribui deo nisi metapsorice, &amp; 
+      <lb ed="#B" n="34"/>sic uel deus non esset uere uiuens: aut  
+      <lb ed="#B" n="35"/>anima non esset uere uiuens: similiter 
+      <lb ed="#B" n="36"/>uel deus, uel angelus non esset uere 
+      spi<lb ed="#B" n="37" break="no"/>ritus: &amp; sic non magis proprie deus 
+      dice<lb ed="#B" n="38" break="no"/>retur intelligens, quam diceretur lapis. 
+      </p>
+            <p xml:id="gbs333-a22549-d1e643">
+               <lb ed="#B" n="39"/>¶ Item tunc nullum praedicatum dicens 
+      <lb ed="#B" n="40"/>perfectionem simpliciter, uere dicere- 
+      <lb ed="#B" n="41"/>tur de creatura: quia cum tale 
+      conueni<lb ed="#B" n="42" break="no"/>ret deo: utique secundum rationem 
+      secun<lb ed="#B" n="43" break="no"/>dum quam dicit perfectionem 
+      simplici<lb ed="#B" n="44" break="no"/>ter: secundum illam non posset 
+      conue<lb ed="#B" n="45" break="no"/>nire creaturae: si non uniuoce 
+      conueni<lb ed="#B" n="46" break="no"/>ret utrique.
+    </p>
+            <p xml:id="gbs333-a22549-d1e663">
+      ¶ Consequenter dicitur: quod 
+      <lb ed="#B" n="47"/>ens acceptum ut significat absolute 
+      om<lb ed="#B" n="48" break="no"/>ne. quod realiter est: siue quod habet 
+      es<lb ed="#B" n="49" break="no"/>se subiectiuum praedicatur quidditatiue 
+      <lb ed="#B" n="50"/>de omnibus terminis absolutis: &amp; ita 
+      uni<lb ed="#B" n="51" break="no"/>uoce significat omnia existentia: non 
+      <!--179.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>
+               <lb ed="#B" n="53"/>terminis: quia non de connoratiuis. Prae 
+      <lb ed="#B" n="54"/>dicatur autem sic de omnibus absolutis: 
+      <lb ed="#B" n="55"/>&amp; quia quaelibet res potest per aliquem 
+      <lb ed="#B" n="56"/>terminum absolute significari, ut est ent 
+      <lb ed="#B" n="57"/>tale in se ens: potest quidditatiue 
+      praedi<lb ed="#B" n="58" break="no"/>cari de qualibet re: id est de cuiuslibet 
+      <lb ed="#B" n="59"/>rei termino eam absolute significante: 
+      <lb ed="#B" n="60"/>non autem de quolibet termino rem 
+      si<lb ed="#B" n="61" break="no"/>gnificante: non enim de non absoluto¬ 
+      </p>
+            <p xml:id="gbs333-a22549-d1e702">
+               <lb ed="#B" n="62"/>¶ De passionibus uero, &amp; differentijs 
+      si<lb ed="#B" n="63" break="no"/>ue ultimis, siue non ultimis tales no sunt 
+      <lb ed="#B" n="64"/>res distinguitur contra signum: sed 
+      signa<lb ed="#B" n="65" break="no"/>praedicabilia accidentaliter &amp; 
+      conuerti<lb ed="#B" n="66" break="no"/>biliter, uel essentialiter &amp; non 
+      quiddita<lb ed="#B" n="67" break="no"/>tiue: id est sunt signa connotatiua 
+      acci<lb ed="#B" n="68" break="no"/>dentaliter, ut passiones: essentialiter ut  
+      <lb ed="#B" n="69"/>differentiae &amp; ita de illis non praedicatur 
+      <lb ed="#B" n="70"/>ens quidditatiue: tamen de rebus 
+      signifi<lb ed="#B" n="71" break="no"/>catis per eas praedicatur quidditatiue 
+      se<lb ed="#B" n="72" break="no"/>cundum intellectum expressum: id est 
+      <lb ed="#B" n="73"/>de aliquibus terminis significantibus ab 
+      <lb ed="#B" n="74"/>solute ea, quae passiones, &amp; differentiae 
+      si<lb ed="#B" n="75" break="no"/>gnificant connotatiue. Haec sunt 
+      sum<lb ed="#B" n="76" break="no"/>marie, quae determinantur in hac 
+      quae<lb ed="#B" n="77" break="no"/>stione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

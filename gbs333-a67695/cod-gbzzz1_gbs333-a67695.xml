@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="267"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a67695"> <!-- l1d27q3 -->
+            <head xml:id="gbs333-a67695-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a67695-Hd1e104" type="question-title">Utrum solus filius sit verbum in divinis</head>
+            <p xml:id="gbs333-a67695-d1e107">
+               <lb ed="#B" n="42"/>VTRVM solus filius sit 
+      <lb ed="#B" n="43"/>uerbum in diuinis.
+    </p>
+            <p xml:id="gbs333-a67695-d1e114">
+      ¶ Pro 
+      <lb ed="#B" n="44"/>s <!-- line coord error -->
+      <lb ed="#B" n="45"/>articulo primo notandum 
+      <lb ed="#B" n="46"/>quod doct. in quaestione 
+      reci<lb ed="#B" n="47" break="no"/>tat opi. <name xml:id="gbs333-a67695-Nd1e127">Petri Aureoli</name>
+      te<lb ed="#B" n="48" break="no"/>nentis: quod in omni intellectione emanat 
+      <lb ed="#B" n="49"/>ipsa res cognita met in esse obiectiuo, 
+      <!--354.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>siue intentionali: secundum quod habet ter 
+      <lb ed="#B" n="51"/>minare intuitum intellectus, &amp; tale 
+      ob<lb ed="#B" n="52" break="no"/>iectum est uerbum: sic filius in diuinia 
+      <lb ed="#B" n="53"/>emanat in consimili esse conspicuo, &amp; 
+      <lb ed="#B" n="54"/>obiectiuo. Ita tamen, quod hac 
+      ema<lb ed="#B" n="55" break="no"/>natione accipit esse reale, &amp; ita est 
+      uer<lb ed="#B" n="56" break="no"/>bum. Primum scilicet: quod omnis 
+      co<lb ed="#B" n="57" break="no"/>gnitio tam sensitiua, quam intellectiua 
+      <lb ed="#B" n="58"/>ponat rem in esse intensibili: probat de 
+      <lb ed="#B" n="59"/>sensibili multis experientijs, scilicet 
+      mo<lb ed="#B" n="60" break="no"/>tus in naui, qui indicat arbores in 
+      litto<lb ed="#B" n="61" break="no"/>re moueri. Item in motu subito 
+      bacu<lb ed="#B" n="62" break="no"/>li in aere circulari: ubi apparet 
+      circu<lb ed="#B" n="63" break="no"/>lus. Item in haculo, cuius medietas est 
+      <lb ed="#B" n="64"/>in aqua, qui apparet fractus. Item 
+      ese<lb ed="#B" n="65" break="no"/>uato uno oculo apparent duae candelae. 
+      <lb ed="#B" n="66"/>Item in collo columbae apparent plures 
+      <lb ed="#B" n="67"/>colores. Item de imagine apparenti in 
+      <lb ed="#B" n="68"/>speculo. Item de quadam rotunditate 
+      <lb ed="#B" n="69"/>lucida, quae apparet postuisionem solis. 
+      <lb ed="#B" n="70"/>Item de rubedine apparente: uel 
+      cances<lb ed="#B" n="71" break="no"/>latione post uisa multa rubea, uel 
+      can<lb ed="#B" n="72" break="no"/>cellata. In omnibus his aliquid uidetur: 
+      <lb ed="#B" n="73"/>&amp; non realis: sed solum res existens in 
+      <lb ed="#B" n="74"/>esse apparenti siue intentionali. 
+      Ad<lb ed="#B" n="75" break="no"/>ducit ad idem alias quasdam rationes. 
+      <lb ed="#B" n="76"/>Inter quas arguit de rosa: quaerens cum 
+      <lb ed="#B" n="77"/>rosa intelligitur, quid sit obiectum 
+      in<lb ed="#B" n="78" break="no"/>tellectus. Non species informans 
+      in<lb ed="#B" n="79" break="no"/>tellectum: nec actus intelligendi: nec 
+      <lb ed="#B" n="80"/>res aliqua constituta in esse reali 
+      per<lb ed="#B" n="81" break="no"/>intellectum. nec res subbstens praeter in 
+      <lb ed="#B" n="82"/>tellectum: ergo est omnes rolae 
+      existen<lb ed="#B" n="83" break="no"/>tes extra positae in esse intentionali, &amp; 
+      <lb ed="#B" n="84"/>apparenti, quasi una rola totalis. 
+      </p>
+            <p xml:id="gbs333-a67695-d1e215">
+               <lb ed="#B" n="85"/>¶ Contra istam opinio. ponit auctor 
+      <lb ed="#B" n="86"/>tres conclusiones. Prima: quod in 
+      <lb ed="#B" n="87"/>nulla notitia intuitiua: siue sensitiua, 
+      <lb ed="#B" n="88"/>siue intellectiua ponitur res in 
+      quo<lb ed="#B" n="89" break="no"/>cunque esse medio inter rem 
+      cogni<lb ed="#B" n="90" break="no"/>tam, &amp; actum cognoscendi. Patet: 
+      <lb ed="#B" n="91"/>quia in cognitione intuitiua res in se 
+      <lb ed="#B" n="92"/>immediate appraehenditur, &amp; nihil est 
+      <lb ed="#B" n="93"/>medium inter rem, &amp; actum 
+      cogno<lb ed="#B" n="94" break="no"/>scendi: non plus, quam ponitur 
+      me<lb ed="#B" n="95" break="no"/>dium inter deum croantem, &amp; 
+      crea<lb ed="#B" n="96" break="no"/>turam, a quo formaliter diceretur 
+      <lb ed="#B" n="97"/>creans.
+    </p>
+            <p xml:id="gbs333-a67695-d1e246">
+      ¶ Secunda conclusio. Per 
+      <lb ed="#B" n="98"/>notitiam abstractiuam immediate 
+      se<lb ed="#B" n="99" break="no"/>quentem intuitiuam: similiter nihal est 
+      <lb ed="#B" n="100"/>medium inter ipsam, &amp; rem realiter exi¬ 
+      <!--355.xml-->
+      <pb ed="#B" n="268"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>stentem cognitam. Patet: quia idem 
+      to<lb ed="#B" n="2" break="no"/>taliter est subiectum notitiae intuitiuae, 
+      <lb ed="#B" n="3"/>&amp; abstractiuae ut habitum est. q. i. prologi.¬ 
+      <lb ed="#B" n="4"/>Tertia conclusio. Inter notitiam 
+      ab<lb ed="#B" n="5" break="no"/>stractiuam, quares uninersaliter 
+      cogno<lb ed="#B" n="6" break="no"/>scitur: &amp; rem extra potest esse medium: 
+      <lb ed="#B" n="7"/>non reale: sed conceptus, qui habet esse 
+      <lb ed="#B" n="8"/>obiectiuum tamen in mente secundum 
+      opi<lb ed="#B" n="9" break="no"/>hoc ponentem. De hoc distin. ij. quaest 
+      <lb ed="#B" n="10"/>viij. latius dictum est. Sed secundum 
+      opi<lb ed="#B" n="11" break="no"/>oppositam dicitur: quod nullum est medium: 
+      <lb ed="#B" n="12"/>sed ipsa cognitio uniuersalis est met 
+      ta<lb ed="#B" n="13" break="no"/>se uniuersale: quod terminatur immedia 
+      <lb ed="#B" n="14"/>te ad omnes res singulares, quibus est com 
+      <lb ed="#B" n="15"/>munis, &amp; ad eas aequam primo.
+    </p>
+            <p xml:id="gbs333-a67695-d1e294">
+      ¶ Quarta 
+      con<lb ed="#B" n="16" break="no"/>clusio. &amp; si poneretur huiusmodi esse 
+      <lb ed="#B" n="17"/>apparens non omne uerbum est tale: quia 
+      <lb ed="#B" n="18"/>quaelibet intellectio est uerbum: ut dictum 
+      <lb ed="#B" n="19"/>est. quaest. praecedenti.
+    </p>
+            <p xml:id="gbs333-a67695-d1e305">
+      ¶ Ad omnes 
+      expe<lb ed="#B" n="20" break="no"/>rientias, quas adducit: dicendum 
+      secun<lb ed="#B" n="21" break="no"/>dum doct. quod uera tes uidetur, &amp; non 
+      ali<lb ed="#B" n="22" break="no"/>quod apparens tantum: ut puta uerum 
+      <lb ed="#B" n="23"/>littus: uerae &amp; reales arbores: uerus 
+      ba<lb ed="#B" n="24" break="no"/>culus, &amp; utraque eius medietas. Similiter 
+      <lb ed="#B" n="25"/>baculus circulariter in aere motus: 
+      fa<lb ed="#B" n="26" break="no"/>cies speculo obiecta &amp;c. nec uidetur 
+      mo<lb ed="#B" n="27" break="no"/>tus: quia nullus est. Et sicut non 
+      sequi<lb ed="#B" n="28" break="no"/>tur: apparet motus realis: ergo est 
+      mo<lb ed="#B" n="29" break="no"/>tus realis: ita nec sequitur: apparet 
+      mo<lb ed="#B" n="30" break="no"/>tus: ergo est motus. Vnde dicitur, quod 
+      for<lb ed="#B" n="31" break="no"/>mantur diuersae cognitiones arboris, 
+      qui<lb ed="#B" n="32" break="no"/>bus intellectus inexpertus potest 
+      erran<lb ed="#B" n="33" break="no"/>do huic assentire: arbores mouentur, &amp; 
+      <lb ed="#B" n="34"/>illae diuersae cognitiones sensus possunt 
+      <lb ed="#B" n="35"/>esse principia mouentia sensum ad 
+      ali<lb ed="#B" n="36" break="no"/>quas operationes: sicut cognitio 
+      mo<lb ed="#B" n="37" break="no"/>tus. Vnde breuiter. Motus non est 
+      ap<lb ed="#B" n="38" break="no"/>paritio rei in alio, &amp; alio loco: sed realis 
+      <lb ed="#B" n="39"/>existentia rei continuo in alio, &amp; alio 
+      lo<lb ed="#B" n="40" break="no"/>co. VA sicut non sequitur apparet esse in 
+      <lb ed="#B" n="41"/>alio &amp; alio loco: ergo est in alio, &amp; 
+      alio<lb ed="#B" n="42" break="no"/>loco: ita non sequitur: apparet moueri: 
+      <lb ed="#B" n="43"/>ergo mouetur.
+    </p>
+            <p xml:id="gbs333-a67695-d1e360">
+      ¶ De coloribus dicit 
+      au<lb ed="#B" n="44" break="no"/>ctor, quod sunt colores ueri. Vtrum 
+      <lb ed="#B" n="45"/>autem sint in collo consumbae, uel in 
+      ae<lb ed="#B" n="46" break="no"/>re: remittit ad secundum librum; ubi 
+      <lb ed="#B" n="47"/>agendum erit de speciebus.
+    </p>
+            <p xml:id="gbs333-a67695-d1e371">
+      ¶ De 
+      ro<lb ed="#B" n="48" break="no"/>sa appraehensa dicitur, ut supra 
+      secun<lb ed="#B" n="49" break="no"/>dum diuersas opin. de conceptibus: ut  
+      <lb ed="#B" n="50"/>satis patet ex dictis. Patet etiam: quod 
+      <lb ed="#B" n="51"/>diuisio sua est insufficiens: quia datur 
+      <!--355.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>adhuc unum membrum: uidelicet, quod in 
+      <lb ed="#B" n="53"/>tellectus a ppraehendit conceptum 
+      uni<lb ed="#B" n="54" break="no"/>uersalem rosae: quae tantum habet esse 
+      <lb ed="#B" n="55"/>obiectiuum, &amp; nullam rosam singularem, 
+      <lb ed="#B" n="56"/>Vel secundum aliam opin. quod 
+      appraehen<lb ed="#B" n="57" break="no"/>dit omnes rosas particulares adextra: quad 
+      <lb ed="#B" n="58"/>tamen per hoc non ponuntur in aliquo 
+      <lb ed="#B" n="59"/>esse: secundum quod omnes rosae essent una 
+      <lb ed="#B" n="60"/>totalis rosa. Hoc enim fieri non potest 
+      <lb ed="#B" n="61"/>per quemcunque actum intellectus. Haec 
+      O<lb ed="#B" n="62" break="no"/>omnia late explicantur in doc. uide 
+      ibi<lb ed="#B" n="63" break="no"/>dem.
+    </p>
+            <p xml:id="gbs333-a67695-d1e414">
+      ¶ Verum pro quaestionis, &amp; 
+      dicen<lb ed="#B" n="64" break="no"/>dorum intellectu, suppositis his, quae 
+      di<lb ed="#B" n="65" break="no"/>cta sunt de uerbo. quaest. praecedenti, 
+      no<lb ed="#B" n="66" break="no"/>tabilibus ij. &amp; iij. est hic considerandum: 
+      <lb ed="#B" n="67"/>Ex quo conditiones praedictae de 
+      uerbo<lb ed="#B" n="68" break="no"/>uere, &amp; proprie reperiuntur in deo: 
+      ue<lb ed="#B" n="69" break="no"/>re, &amp; proprie est ibi uerbum: non 
+      trans<lb ed="#B" n="70" break="no"/>sumptiue. Est enim ibi sapientia, seu 
+      no<lb ed="#B" n="71" break="no"/>titia genita, patri similiima: &amp; omnis 
+      pa<lb ed="#B" n="72" break="no"/>teruae perfectionis expressiua, &amp; ita 
+      pro<lb ed="#B" n="73" break="no"/>prie uerbum. Vnde ad Heb. i. 
+      Nouissi<lb ed="#B" n="74" break="no"/>me deus pater locutus est nobis in 
+      filio<lb ed="#B" n="75" break="no"/>Et sequitur. Qui est splendor gloriae, &amp; 
+      <lb ed="#B" n="76"/>figura substantiae eius. Et ad Col. i. 
+      Ima<lb ed="#B" n="77" break="no"/>go inuisibilis dei. Et Sap. vij. de 
+      sapien<lb ed="#B" n="78" break="no"/>tia genita dicitur. Candor est sucis aeter 
+      <lb ed="#B" n="79"/>nae, &amp; speculum sine macula maiestatis 
+      <lb ed="#B" n="80"/>dei: &amp; imago bonitatis illius. Quia autem 
+      <lb ed="#B" n="81"/>in diuinis non omnis cognitio est 
+      pro<lb ed="#B" n="82" break="no"/>ducta: sed est ibi notitia, &amp; sapientia 
+      es<lb ed="#B" n="83" break="no"/>sentialis non producta: quae est omnibus 
+      <lb ed="#B" n="84"/>modis diuina sapientia, siue essentia 
+      ea<lb ed="#B" n="85" break="no"/>dem tribus. Non enim pater sapit 
+      sa<lb ed="#B" n="86" break="no"/>pientia genita. vij. de trinit. cap. j 
+      prope<lb ed="#B" n="87" break="no"/>finem. Siquidem nihil recipit pater a 
+      fi<lb ed="#B" n="88" break="no"/>lio. Ideo non omnis notitia diuina est 
+      <lb ed="#B" n="89"/>uerbum: sed solum notitia genita: &amp; ideo 
+      <lb ed="#B" n="90"/>solius filius est uerbun, qui solus est 
+      ge<lb ed="#B" n="91" break="no"/>nitus. Vnde Aug. vj. de trini. c. ij. uerbum 
+      <lb ed="#B" n="92"/>solus filius accipitur: non simulpater, &amp; 
+      <lb ed="#B" n="93"/>filius, tanquam ambo unum uerbum.
+    </p>
+            <p xml:id="gbs333-a67695-d1e482">
+      ¶ Est 
+      <lb ed="#B" n="94"/>autem generatio diuina inesfabilis, qua 
+      <lb ed="#B" n="95"/>a patre filio communicatur essentia, &amp; 
+      <lb ed="#B" n="96"/>sapientia: quae idem sunt. Coaeternitas 
+      <lb ed="#B" n="97"/>perfectissima similitudo, &amp; aequalitas: 
+      <lb ed="#B" n="98"/>ideo multis nominibus eandem rem non 
+      <lb ed="#B" n="99"/>synonume significantibus nominatur. 
+      <lb ed="#B" n="100"/>Nam ut ipsa generatio, seu natiuitas 
+      o<lb ed="#B" n="101" break="no"/>stendatur connaturalis patri, genitus 
+      <lb ed="#B" n="102"/>dicitur filius; ut ostendatur coaeternus, 
+      <!--356.xml-->
+      <pb ed="#B" n="269"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dicitur splendor patris: ut ostendatur 
+      <lb ed="#B" n="2"/>omnino similis, &amp; aequalis, dicitur 
+      ima<lb ed="#B" n="3" break="no"/>go patris: ut ostendatur immaterialiter 
+      <lb ed="#B" n="4"/>genitus, dicitur uerbum. Sapientia ergo 
+      <lb ed="#B" n="5"/>importat absolute essentiam: quia hoc 
+      <lb ed="#B" n="6"/>est illi esse, quod sapere. vij. de tri. c. j. 
+      I<lb ed="#B" n="7" break="no"/>lius generationem: imago similitudinem: 
+      <lb ed="#B" n="8"/>uerbum haec omnia dicit, &amp; addit 
+      expraes<lb ed="#B" n="9" break="no"/>sionem. Primum absolutum, &amp; conmunt 
+      <lb ed="#B" n="10"/>caetera relatiua sunt, &amp; propria secunda 
+      <lb ed="#B" n="11"/>personae. Haec de uerbo immanenti, &amp; 
+      <lb ed="#B" n="12"/>aeterno.
+    </p>
+            <p xml:id="gbs333-a67695-d1e537">
+      ¶ Est etiam uerbum transitorium 
+      <lb ed="#B" n="13"/>&amp; prolatum scilicet creatura a deo producta: 
+      <lb ed="#B" n="14"/>spiritus dei manifestatiua: ut dicit 
+      san<lb ed="#B" n="15" break="no"/>ctus Bonauen. Et sic capiendo uerbum, 
+      <lb ed="#B" n="16"/>est essentiale quantum ad terminum, a 
+      <lb ed="#B" n="17"/>quo producit: quia aequaliter a qualibet 
+      <lb ed="#B" n="18"/>persona producitur: &amp; aequaliter omnis 
+      <lb ed="#B" n="19"/>manifestat: sed de hoc nihil ad 
+      proposi<lb ed="#B" n="20" break="no"/>tum.
+    </p>
+            <p xml:id="gbs333-a67695-d1e557">
+      ¶ Et licet filius, &amp; imago importent 
+      <lb ed="#B" n="21"/>tantum respectum ad patrem, cuius est 
+      fi<lb ed="#B" n="22" break="no"/>lius, &amp; imago: uerbum tamen praeter 
+      respe<lb ed="#B" n="23" break="no"/>ctum, quem importat principaliter ad 
+      di<lb ed="#B" n="24" break="no"/>tentem patrem: etiam importat respecti 
+      <lb ed="#B" n="25"/>ue creaturam, quam exprimit, &amp; 
+      mani<lb ed="#B" n="26" break="no"/>festat. Nam &amp; nomen creaturae ponitur 
+      <lb ed="#B" n="27"/>in quid nominis uerbum. Est. n. uerbum 
+      <lb ed="#B" n="28"/>diuinum persona, seu notitia genita de 
+      <lb ed="#B" n="29"/>scientia dicentis: quae est dei, &amp; omnium 
+      <lb ed="#B" n="30"/>creaturarum tanquam obiectorum 
+      cogni<lb ed="#B" n="31" break="no"/>torum: sicut dicit Aug. in lib. Ixxxiij. q. 
+      <lb ed="#B" n="32"/>Innomine uerbisignificatur non solum 
+      <lb ed="#B" n="33"/>respectus ad patrem: sed ad illa, quae 
+      per<lb ed="#B" n="34" break="no"/>uerbum facta sunt operatiua potentia. 
+      <lb ed="#B" n="35"/>Connotatenim uerbum id, quod 
+      mani<lb ed="#B" n="36" break="no"/>festat: manifestat autem omne, quod in 
+      <lb ed="#B" n="37"/>telligitur. Vna autem diuina scientia, 
+      <lb ed="#B" n="38"/>de qua gignitur uerbum: omnia (deus &amp; 
+      <lb ed="#B" n="39"/>creaturae) intelliguntur: ideo connotat 
+      <lb ed="#B" n="40"/>respectiue creaturas.
+    </p>
+            <p xml:id="gbs333-a67695-d1e603">
+      ¶ Secundo 
+      notan<lb ed="#B" n="41" break="no"/>dum, quod dicere tripliciter inuenitur 
+      acci<lb ed="#B" n="42" break="no"/>pia sanctis, &amp; aucto. Quandoque pure es 
+      <lb ed="#B" n="43"/>sentialiter: &amp; sic ualet tantum id est 
+      intelli<lb ed="#B" n="44" break="no"/>gere, seu declarare. Sic accipit beatus 
+      <lb ed="#B" n="45"/>Ansel. in monol. Dicere summo 
+      spiri<lb ed="#B" n="46" break="no"/>tui nihil aliud est, quam cogitando intue 
+      <lb ed="#B" n="47"/>ri. Et iterum. Vnusquisque se in 
+      trini<lb ed="#B" n="48" break="no"/>tate dicit. Secundo modo accipitur 
+      pu<lb ed="#B" n="49" break="no"/>renotionaliter, &amp; sic nihil aliud est, quam 
+      <lb ed="#B" n="50"/>utrbum gignere. Et sic solus pater est 
+      <lb ed="#B" n="51"/>digens ut dicit Richar. Tertio modo ac 
+      <!--356.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cipitur nec pure essentialiter: nec pure 
+      <lb ed="#B" n="53"/>notionaliter: sed includit utrumque: quia 
+      <lb ed="#B" n="54"/>in eius quid nominis ponitur tam 
+      no<lb ed="#B" n="55" break="no"/>tionale, quam essentiale. Sic enim dicere est 
+      <lb ed="#B" n="56"/>notitia a se producta omne declarabile 
+      <lb ed="#B" n="57"/>declarare. Sic dicit Aug. xv. de trin.c. 
+      <lb ed="#B" n="58"/>xiiij. Proinde tamquam seipsum dicens: 
+      <lb ed="#B" n="59"/>pater genuit filium sibi aequalem per 
+      om<lb ed="#B" n="60" break="no"/>nia. Non enim seipsum integre, 
+      perfe<lb ed="#B" n="61" break="no"/>cteque dixisset: si aliquid minus, aut 
+      am<lb ed="#B" n="62" break="no"/>plius esset in eius uerbo, quam in ipso. 
+      <lb ed="#B" n="63"/>Dicens seid est uerbo genito declarans se¬. 
+      <lb ed="#B" n="64"/>Primo modo, quaelibet persona dicit 
+      se<lb ed="#B" n="65" break="no"/>ipsa formaliter: sicut intelligit seipsa 
+      for<lb ed="#B" n="66" break="no"/>maliter, &amp; non dicit alia persona. Dicit 
+      <lb ed="#B" n="67"/>autem sic omnia intelligibilia: quia 
+      quae<lb ed="#B" n="68" break="no"/>libet persona seipsa, &amp; sua intelligentia 
+      <lb ed="#B" n="69"/>intelligit omnia. Secundo modo, solus 
+      pa<lb ed="#B" n="70" break="no"/>ter dicit, &amp; solum uerbi personam non 
+      <lb ed="#B" n="71"/>aliam dicit: quia solum uerbum gignit, 
+      <lb ed="#B" n="72"/>&amp; sic non dicit uerbo: quia non gignit 
+      <lb ed="#B" n="73"/>uerbo: sed uerbum. Tertio modo solus 
+      <lb ed="#B" n="74"/>pater dicit: sed non solum uerbum: sed etiam 
+      <lb ed="#B" n="75"/>omne, quod uerbo a se genito declarat. 
+      <lb ed="#B" n="76"/>Sic. nio. dicere dicit duos actus scilicet gignere, 
+      <lb ed="#B" n="77"/>&amp; declarare: quorum unus terminatur 
+      so<lb ed="#B" n="78" break="no"/>lum ad personam uerbi, qui est gignere. 
+      <lb ed="#B" n="79"/>Alius ad omne declarabile, qui est 
+      decla<lb ed="#B" n="80" break="no"/>rari. Et secundum hoc potest dicere 
+      de<lb ed="#B" n="81" break="no"/>terminari per accusatiuum importantem 
+      <lb ed="#B" n="82"/>uerbum: uel accusariuum importantem 
+      <lb ed="#B" n="83"/>illud, quod relucet in uerbo. Et quando 
+      <lb ed="#B" n="84"/>ille accusatiuus additur: tunc nomen 
+      im<lb ed="#B" n="85" break="no"/>portans uerbum poni debet in ablatiuo: 
+      <lb ed="#B" n="86"/>ut pater dicit se uerbo. Et sic dicit 
+      Anl<lb ed="#B" n="87" break="no"/>in monol. Cum summus spiritus 
+      seip<lb ed="#B" n="88" break="no"/>sum dicit: dicit omnia, quae facta sunt: 
+      <lb ed="#B" n="89"/>haud dubium, quin eodem uerbo.
+    </p>
+            <p xml:id="gbs333-a67695-d1e716">
+      ¶ 
+      Pa<lb ed="#B" n="90" break="no"/>riformiter dicitur de dici, quod capitur 
+      pu<lb ed="#B" n="91" break="no"/>re essentialiter pro intelligi: ita dicitur 
+      <lb ed="#B" n="92"/>omne, quod intelligitur, siue essentia 
+      <lb ed="#B" n="93"/>diuina: siue persona, &amp; omnis creaturae 
+      <lb ed="#B" n="94"/>quia omnia hic intelliguntur. 
+      Secun<lb ed="#B" n="95" break="no"/>do modo pure notionaliter, &amp; sic est a 
+      <lb ed="#B" n="96"/>dicente gigni: sic solum uerbum 
+      dici<lb ed="#B" n="97" break="no"/>tur. Tertio modo ut includit notionale, 
+      <lb ed="#B" n="98"/>&amp; essentiale: &amp; sic est uerbo a dicente 
+      <lb ed="#B" n="99"/>genito declarari, &amp; sic dicitur: quicquid 
+      <lb ed="#B" n="100"/>uerbo genito declaratur.
+    </p>
+            <p xml:id="gbs333-a67695-d1e743">
+      ¶ His 
+      praemis<lb ed="#B" n="101" break="no"/>sis ponitur conclusio ad articulum 
+      se<lb ed="#B" n="102" break="no"/>cundum uniga, &amp; haec est. Solus filius 
+      <!--357.xml-->
+      <pb ed="#B" n="270"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est uerbum in diuinis. Patet: quia omni 
+      <lb ed="#B" n="2"/>uerbum est genitum: solus filius est 
+      geni<lb ed="#B" n="3" break="no"/>tus: ergo solus filius est uerbum. Tenet 
+      <lb ed="#B" n="4"/>consequentia in secunda figura affirma 
+      <lb ed="#B" n="5"/>tiue, medio distributo. Adducitur a 
+      do<lb ed="#B" n="6" break="no"/>ctore in scripto ad idem auctoritas Aug¬ 
+      </p>
+            <p xml:id="gbs333-a67695-d1e769">
+               <lb ed="#B" n="7"/>¶ Corollarium. uerbum est pure 
+      notio<lb ed="#B" n="8" break="no"/>nale in diuinis. Patet: quia conuenit se 
+      <lb ed="#B" n="9"/>li filio.
+    </p>
+            <p xml:id="gbs333-a67695-d1e778">
+      ¶ Pro articulo tertio. 
+      Supposi<lb ed="#B" n="10" break="no"/>to, quod solus filius sit uerbum: ita quod 
+      uer<lb ed="#B" n="11" break="no"/>bum dicatur notionaliter tantum, &amp; non 
+      <lb ed="#B" n="12"/>essentialiter: est dubium primum. An 
+      uer<lb ed="#B" n="13" break="no"/>bum connotet creaturam: seu an dicat  
+      <lb ed="#B" n="14"/>respectum aliquem ad creaturam, quale 
+      <lb ed="#B" n="15"/>nec dicit pater, nec spiritussanctus. Ad 
+      <lb ed="#B" n="16"/>hoc dubium praemisso notabili, quatuor 
+      <lb ed="#B" n="17"/>ponuntur conclusiones responsales. 
+      </p>
+            <p xml:id="gbs333-a67695-d1e798">
+               <lb ed="#B" n="18"/>¶ Notandum ergo primum est: uerbum 
+      <lb ed="#B" n="19"/>importare respectum ad creaturas, 
+      ue<lb ed="#B" n="20" break="no"/>includere, potest intelligi realiter, &amp; 
+      lo<lb ed="#B" n="21" break="no"/>gicaliter. Realiter, quod illud quod in 
+      diui<lb ed="#B" n="22" break="no"/>nis realiter est uerbum scilicet filius includat 
+      <lb ed="#B" n="23"/>respectum. Logicaliter, quod nomen 
+      uer<lb ed="#B" n="24" break="no"/>bum significet huiusmodi respectum 
+      </p>
+            <p xml:id="gbs333-a67695-d1e816">
+               <lb ed="#B" n="25"/>¶ Istis sic praemissis ponentur conclusio 
+      <lb ed="#B" n="26"/>nes.
+    </p>
+            <p xml:id="gbs333-a67695-d1e823">
+      ¶ Prima conclusio. Verbum, quod  
+      <lb ed="#B" n="27"/>in diuinis realiter est filius, nec 
+      inclu<lb ed="#B" n="28" break="no"/>dit: nec connotat respectum ad 
+      creatu<lb ed="#B" n="29" break="no"/>ram. Patet: quia uerbum est omnibus 
+      <lb ed="#B" n="30"/>modis filius, &amp; filius non includit 
+      respe<lb ed="#B" n="31" break="no"/>ctum nisi filiationem, &amp; spirationem 
+      acti<lb ed="#B" n="32" break="no"/>uam, quae non est ad creaturam nec con 
+      <lb ed="#B" n="33"/>notat: quia connotare non est rerum: 
+      <lb ed="#B" n="34"/>sed signorum.
+    </p>
+            <p xml:id="gbs333-a67695-d1e844">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="35"/>Nomen uerbum in diuinis connotat 
+      re<lb ed="#B" n="36" break="no"/>spectum ad creaturas. Patet: quia in 
+      <lb ed="#B" n="37"/>eius quid nominis ponitur terminus 
+      si<lb ed="#B" n="38" break="no"/>gnificans creaturam in aliquo. Est enim 
+      <lb ed="#B" n="39"/>hoc quid nominis uerbi in diuinis, 
+      se<lb ed="#B" n="40" break="no"/>cundum praedicta art. j. notabili. j. iuxta 
+      <lb ed="#B" n="41"/>finem. Verbum est persona genita de 
+      <lb ed="#B" n="42"/>scientia patris, quae est dei, &amp; creaturarum 
+      <lb ed="#B" n="43"/>tamquam obiectorum.
+    </p>
+            <p xml:id="gbs333-a67695-d1e866">
+      ¶ Tertia 
+      conclu<lb ed="#B" n="44" break="no"/>sio. Nomen filius non connotat 
+      respe<lb ed="#B" n="45" break="no"/>ctum ad creaturam. Patet per eius quid 
+      <lb ed="#B" n="46"/>nominis, quod est, Tilius est persona 
+      ge<lb ed="#B" n="47" break="no"/>nita de substantia patris, &amp; licet sit uere 
+      <lb ed="#B" n="48"/>&amp; realiter de patris scientia genitus: quem 
+      <lb ed="#B" n="49"/>est dei, &amp; omnium creaturarum: quia 
+      <lb ed="#B" n="50"/>omnibus modis filius est uerbum, &amp; 
+      econ<lb ed="#B" n="51" break="no"/>uerso: tamen nomen filius hic non con 
+      <!--357.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>notat: sed nomen uerbum. Cuius 
+      ratio<lb ed="#B" n="53" break="no"/>nulla alia est nisi uoluntatia 
+      impositio<lb ed="#B" n="54" break="no"/>terminorum. Et sicut sunt duo nomina 
+      <lb ed="#B" n="55"/>propria filio: quorum unum connotat 
+      <lb ed="#B" n="56"/>creaturam: aliud non: a imponi possunt 
+      <lb ed="#B" n="57"/>duo nomina patri, &amp; similiter duo 
+      spiri<lb ed="#B" n="58" break="no"/>tuisancto. Nam si a imponeretur ad 
+      si<lb ed="#B" n="59" break="no"/>gnificandum personam generantem 
+      a<lb ed="#B" n="60" break="no"/>liam personam de sua scientia, quae est 
+      <lb ed="#B" n="61"/>unica dei, &amp; omnium creaturarum 
+      tan<lb ed="#B" n="62" break="no"/>quam obiectorum: a esset proprium 
+      pa<lb ed="#B" n="63" break="no"/>tri, &amp; connotater creaturam, sic de C 
+      <lb ed="#B" n="64"/>spiritusancto.
+    </p>
+            <p xml:id="gbs333-a67695-d1e918">
+      ¶ Quarta conclusio. 
+      Quan<lb ed="#B" n="65" break="no"/>quam nullo modo distinguantur uerbum, 
+      <lb ed="#B" n="66"/>&amp; filius, horum tamen terminorum 
+      neu<lb ed="#B" n="67" break="no"/>ter est alteri synonymus. Prima pars 
+      pa<lb ed="#B" n="68" break="no"/>ter ex dictis. Secunda probatur, quia 
+      <lb ed="#B" n="69"/>nomen uerbum connotat creaturas, &amp; 
+      <lb ed="#B" n="70"/>non filius. Non dico id, quod in 
+      diui<lb ed="#B" n="71" break="no"/>nis est realiter uerbum, &amp; filius. Idem 
+      <lb ed="#B" n="72"/>nihil connotat: cum connotare sit pro- 
+      <lb ed="#B" n="73"/>prietas signorum ex conclusione prima: 
+      <lb ed="#B" n="74"/>sed signa ista siue mentalia, siue 
+      uoca<lb ed="#B" n="75" break="no"/>lia, uerbum filius: ergo non sunt 
+      syno<lb ed="#B" n="76" break="no"/>nyma. Tenet consequentia, quia 
+      termi<lb ed="#B" n="77" break="no"/>ni Iynonymisunt, qui significant, &amp; 
+      con<lb ed="#B" n="78" break="no"/>notant idem, &amp; eodem modo. 
+      Antece<lb ed="#B" n="79" break="no"/>dens patet: quia filius tantum 
+      conno<lb ed="#B" n="80" break="no"/>tat respectum ad patrem, uerbum autem 
+      <lb ed="#B" n="81"/>duplicem respectum importat, unum ad 
+      <lb ed="#B" n="82"/>dicentem patrem alium ad omnia 
+      intel<lb ed="#B" n="83" break="no"/>lecta, siue obiecta paternae intelligentiae, 
+      <lb ed="#B" n="84"/>quae per uerbum tanquam notitiam 
+      ge<lb ed="#B" n="85" break="no"/>nitam manifestantur ex conclusione 
+      se<lb ed="#B" n="86" break="no"/>cunda, &amp; tertia.
+    </p>
+            <p xml:id="gbs333-a67695-d1e968">
+      ¶ Secundum dubium. pr 
+      <lb ed="#B" n="87"/>Quare plus nomen secundae personae 
+      in<lb ed="#B" n="88" break="no"/>diuinis connotat creaturam, quam 
+      no<lb ed="#B" n="89" break="no"/>men alterius personae. Responsio ad hoc  
+      <lb ed="#B" n="90"/>dicendum patet in conclusione tertia 
+      <lb ed="#B" n="91"/>primi dubij. Ratio enim alia non est, 
+      <lb ed="#B" n="92"/>quam uoluntaria impositio termini: 
+      ui<lb ed="#B" n="93" break="no"/>deibi.
+    </p>
+            <p xml:id="gbs333-a67695-d1e986">
+      ¶ Tertium dubium dictum est qui 
+      <lb ed="#B" n="94"/>stione praecedenti, quod omnis intellectio 
+      <lb ed="#B" n="95"/>est uerbum: sed non solus filius est 
+      intel<lb ed="#B" n="96" break="no"/>lectio diuina: ergo non solus filius est 
+      uer<lb ed="#B" n="97" break="no"/>bum: quod est contra dicta artic. ij. ubi 
+      di<lb ed="#B" n="98" break="no"/>citur, quod uerbum soli filio conuenit. 
+      Re<lb ed="#B" n="99" break="no"/>spondetur non solus filius est uerbum, 
+      <lb ed="#B" n="100"/>sed solus filius est uerbum diuinum, de 
+      <lb ed="#B" n="101"/>quo hic loquimur.
+    </p>
+            <p xml:id="gbs333-a67695-d1e1006">
+      ¶ Item dictum est, quod 
+      <lb ed="#B" n="102"/>omnis intellectio est uerbum, nunc au¬ 
+      <!--358.xml-->
+      <pb ed="#B" n="271"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tem peter in diuinis est intellectio, &amp; 
+      si<lb ed="#B" n="2" break="no"/>militer spiritussanctus: ergo sunt uerbum 
+      <lb ed="#B" n="3"/>Respondetur: dictum est, quod omnis 
+      intel<lb ed="#B" n="4" break="no"/>lectio creaturae est uerbum: quia omni 
+      <lb ed="#B" n="5"/>intellectio creaturae est genita. secus in 
+      <lb ed="#B" n="6"/>diuinis, ubi intellectio essentialis non est 
+      <lb ed="#B" n="7"/>genita: sicut nec sapientia, qua pater 
+      sa<lb ed="#B" n="8" break="no"/>pit. Et ideo sola intellectio genita, quae 
+      <lb ed="#B" n="9"/>solus est filius, est uerbum.
+    </p>
+            <p xml:id="gbs333-a67695-d1e1038">
+      ¶ Et nota, quod 
+      <lb ed="#B" n="10"/>uerbum dei non nascitur de omnibus 
+      co<lb ed="#B" n="11" break="no"/>gnitis scientia patris: sed nascitur de 
+      scien<lb ed="#B" n="12" break="no"/>tia patris, quae est una omnium cognito 
+      <lb ed="#B" n="13"/>rum. Et haec est patris substantia
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

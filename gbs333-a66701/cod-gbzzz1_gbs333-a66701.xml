@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="263"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a66701"> <!-- l1d27q1 -->
+            <head xml:id="gbs333-a66701-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a66701-Hd1e104" type="question-title">Utrum in eadem persona sint plures proprietates</head>
+            <p xml:id="gbs333-a66701-d1e107">
+               <lb ed="#B" n="63"/>QVAESTIO I 
+      <lb ed="#B" n="64"/>VTRVM in eadem 
+      perso<lb ed="#B" n="65" break="no"/>na sint plures proprietates. 
+      </p>
+            <p xml:id="gbs333-a66701-d1e116">
+               <lb ed="#B" n="66"/>¶ Quaestio tribus articulis 
+      <lb ed="#B" n="67"/>breuibus absoluetur. Moue 
+      <lb ed="#B" n="68"/>tur. none propter paternitatem, 
+      <lb ed="#B" n="69"/>&amp; spirationem actiuam: &amp; propter 
+      pater<lb ed="#B" n="70" break="no"/>nitatem, &amp; generare: an scilicet aliquo modo 
+      di<lb ed="#B" n="71" break="no"/>stinguantur: &amp; an dici debeant plures 
+      <lb ed="#B" n="72"/>proprietates ex consequenti plures res. 
+      </p>
+            <p xml:id="gbs333-a66701-d1e135">
+               <lb ed="#B" n="73"/>¶ Pro articulo primo. Notandum: quia 
+      <lb ed="#B" n="74"/>unum, &amp; plura opponuntur: ideo non 
+      prae<lb ed="#B" n="75" break="no"/>dicantur de eodem in eodem sensu, quo 
+      <lb ed="#B" n="76"/>opponuntur. Secundo supponitur, &amp; est 
+      <lb ed="#B" n="77"/>diligenter (pro intellectu, &amp; saluatione. 
+      <lb ed="#B" n="78"/>multorum pdictorum de distinctione 
+      for<lb ed="#B" n="79" break="no"/>mali, &amp; personarum constitutione) con 
+      <lb ed="#B" n="80"/>siderandum: quod de nullis quae sunt idem 
+      <lb ed="#B" n="81"/>realiter: praedicantur plura: uel plures: est 
+      <lb ed="#B" n="82"/>cum quacumque determinatione saltem 
+      <lb ed="#B" n="83"/>cathegorematica. Patet: quia semper 
+      <lb ed="#B" n="84"/>infertur pluralitas realis, ut a, &amp; b, sunt 
+      <lb ed="#B" n="85"/>plura alba: ergo plures res sunt plures 
+      <lb ed="#B" n="86"/>quantitates, uel plures qualitater: 
+      uelplu<lb ed="#B" n="87" break="no"/>res relationes: ergo plures res.
+    </p>
+            <p xml:id="gbs333-a66701-d1e170">
+      ¶ Pro art. 
+      <lb ed="#B" n="88"/>secundo est conclu. j. Paternitas, &amp; spira 
+      <lb ed="#B" n="89"/>tio actiua non sunt plures relationes. 
+      Pro<lb ed="#B" n="90" break="no"/>batur: quia non sunt plures res: ergo nec 
+      <lb ed="#B" n="91"/>plures relationes. Tenet consequetia: quia 
+      <lb ed="#B" n="92"/>ex opposito consequentis seqtui oppositum 
+      <lb ed="#B" n="93"/>antis ex notabili. Antecedens prbatur: quia si spirae 
+      <lb ed="#B" n="94"/>tio actiua non esset pinitas: est non esset 
+      <lb ed="#B" n="95"/>pi, &amp; per consequens aliqud esset in patre, 
+      <lb ed="#B" n="96"/>quid non esset pater realiter. Consequens 
+      <lb ed="#B" n="97"/>falsum: quia qulibet pesona est quicquid 
+      ha<lb ed="#B" n="98" break="no"/>bet: excepta alia persona, quam habet, ad quaod 
+      <lb ed="#B" n="99"/>habet relatiuam oppositionem.
+    </p>
+            <p xml:id="gbs333-a66701-d1e199">
+      ¶ Item nisi sic 
+      <!--351.xml-->
+      <pb ed="#B" n="264"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>in patre esset uera compositio. Hoc enim 
+      <lb ed="#B" n="2"/>solo saluatur simplicitas personarum (ut  
+      <lb ed="#B" n="3"/>simplicitas distinguitur contra 
+      composi<lb ed="#B" n="4" break="no"/>tionem) quia constituentia personas sunt 
+      <lb ed="#B" n="5"/>idem realiter. Item si distinguerentur 
+      <lb ed="#B" n="6"/>realiter: cum non sint eiusdem rationis: 
+      <lb ed="#B" n="7"/>haberent se ut actus, &amp; potentia. Item 
+      <lb ed="#B" n="8"/>fi distinguerentur realiter: essent quatuor 
+      <lb ed="#B" n="9"/>personae. Probatur: quia quaelibet relatio 
+      <lb ed="#B" n="10"/>distincta realiter a qualibet alia 
+      relatio<lb ed="#B" n="11" break="no"/>ne, constituit personam realiter a qualibet 
+      <lb ed="#B" n="12"/>alia persona distinctam. Non enim est 
+      <lb ed="#B" n="13"/>maior ratio de una, quam de alia.
+    </p>
+            <p xml:id="gbs333-a66701-d1e236">
+      ¶ 
+      Coros<lb ed="#B" n="14" break="no"/>larium primum. Non semper distinctis 
+      <lb ed="#B" n="15"/>correlationibus correspondent distinctae 
+      <lb ed="#B" n="16"/>relationes: nec oportet tantam esse 
+      di<lb ed="#B" n="17" break="no"/>stinctionem inter relationes, sicut inter 
+      <lb ed="#B" n="18"/>correlationes psertim in diuinis. Patet: 
+      <lb ed="#B" n="19"/>quia paternitati, &amp; spirationi actiuae (quam 
+      <lb ed="#B" n="20"/>non distinguuntur realiter) 
+      correspon<lb ed="#B" n="21" break="no"/>dent filiatio; &amp; spiratio passiua, quae 
+      di<lb ed="#B" n="22" break="no"/>stinguuntur realiter. Ratio autem est: quia 
+      <lb ed="#B" n="23"/>stat relationem unam esse 
+      conmunicabi<lb ed="#B" n="24" break="no"/>sem: &amp; correlationem eius esse 
+      incom<lb ed="#B" n="25" break="no"/>municabilem: ut spiratio actio est 
+      conica<lb ed="#B" n="26" break="no"/>bilis: &amp; spiratio passio inconicabilis.
+    </p>
+            <p xml:id="gbs333-a66701-d1e267">
+      ¶ 
+      Se<lb ed="#B" n="27" break="no"/>cundum corollarium. In diuinis non sunt 
+      <lb ed="#B" n="28"/>quatuor relationes. Patet: quia non sunt 
+      <lb ed="#B" n="29"/>quatuor res: sunt tamen quatuor nomina 
+      si<lb ed="#B" n="30" break="no"/>gnificantia relationes inter se realiter, 
+      <lb ed="#B" n="31"/>uel formaliter distinctas: etiam quarum 
+      <lb ed="#B" n="32"/>quaelibet ab aliqua realiter distinguitur. 
+      <lb ed="#B" n="33"/>Et hoc uolunt dicentes in diuinis esse 
+      <lb ed="#B" n="34"/>quatuor relationes.
+    </p>
+            <p xml:id="gbs333-a66701-d1e287">
+      ¶ Corollarium 
+      ter<lb ed="#B" n="35" break="no"/>tium. Non est concedendum, quod in 
+      diui<lb ed="#B" n="36" break="no"/>nis essentia, &amp; paternitas sint duae res: 
+      <lb ed="#B" n="37"/>aut essentia, &amp; filiatio. Et ita generaliter 
+      <lb ed="#B" n="38"/>de alijs formaliter distinctis dicendum est. 
+      <lb ed="#B" n="39"/>Non enim sunt in diuinis quatuor res: 
+      <lb ed="#B" n="40"/>sed solum tres res relatiuae. Istud clarius, 
+      <lb ed="#B" n="41"/>&amp; latius habetur. infra dist. xxviij.
+    </p>
+            <p xml:id="gbs333-a66701-d1e306">
+      ¶ 
+      Se<lb ed="#B" n="42" break="no"/>cunda conclusio. Paternitas, &amp; 
+      spiratio<lb ed="#B" n="43" break="no"/>actiua non sunt idem formaliter. Patet: 
+      <lb ed="#B" n="44"/>quia de eis praedicantur contradicto. 
+      <lb ed="#B" n="45"/>ria: scilicet esse in filio: non esse in 
+      fi<lb ed="#B" n="46" break="no"/>lio. Item constituere filium: non 
+      con<lb ed="#B" n="47" break="no"/>stituere filium ergo cum sint idem 
+      reali<lb ed="#B" n="48" break="no"/>ter: distinguuntur formaliter. Conse- 
+      <lb ed="#B" n="49"/>quentia tenet ex quid nominis distinctio 
+      <lb ed="#B" n="50"/>nis formalis datae. supra dist. ij. quaestio. 
+      <lb ed="#B" n="51"/>xj. &amp; dist. xxviij.
+    </p>
+            <p xml:id="gbs333-a66701-d1e330">
+      ¶ Tertia conclusio. Pro 
+      <!--351.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>prietas, quam est generare: &amp; paternitas sunt  
+      <lb ed="#B" n="53"/>idem omnibus modis, &amp; non 
+      distinguun<lb ed="#B" n="54" break="no"/>tur aliquo modo ex natura rei.
+    </p>
+            <p xml:id="gbs333-a66701-d1e343">
+      ¶ Proat 
+      <lb ed="#B" n="55"/>ticulo tertio hoc breue mouetur 
+      dubiu<lb ed="#B" n="56" break="no"/>contra conclusionem tertiam. Si illa pro 
+      <lb ed="#B" n="57"/>positio esset uera: tunc essentia est 
+      gene<lb ed="#B" n="58" break="no"/>rare: sicut conceditur, quod essentia est 
+      pa<lb ed="#B" n="59" break="no"/>ternitas consequens falsum: quia 
+      sequi<lb ed="#B" n="60" break="no"/>tur bene: essentia est generare: ergo 
+      ge<lb ed="#B" n="61" break="no"/>nerat. consequens falsum: ergo &amp; 
+      ante<lb ed="#B" n="62" break="no"/>cedens. Dicendum quod illa concedi potest: 
+      <lb ed="#B" n="63"/>essentia est gnare: sicut illa, essetia es, prni 
+      <lb ed="#B" n="64"/>tas e pater est ganatio. Et negetur conse 
+      <lb ed="#B" n="65"/>quentia: ergo generat, propter diuersum 
+      <lb ed="#B" n="66"/>modum praedicandi, quia generat non 
+      <lb ed="#B" n="67"/>praedicatur nisi de eo, de quo 
+      formali<lb ed="#B" n="68" break="no"/>ter dicitur, sed generare, &amp; paternitas 
+      <lb ed="#B" n="69"/>etiam praedicantur identice: id est de 
+      il<lb ed="#B" n="70" break="no"/>lo, quod est idem realiter: licet non 
+      for<lb ed="#B" n="71" break="no"/>maliter de quo supra dist. v.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

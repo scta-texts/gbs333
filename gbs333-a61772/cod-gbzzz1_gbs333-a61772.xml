@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="243"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a61772"> <!-- l1d24q1 -->
+            <head xml:id="gbs333-a61772-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a61772-Hd1e104" type="question-title">Utrum unitas qua Deus dicitur unus sit aliquis additum Deo</head>
+            <p xml:id="gbs333-a61772-d1e107">
+               <lb ed="#B" n="91"/>QVAESTIO I 
+      <lb ed="#B" n="92"/>VTRVM unitas, qua deus 
+      di<lb ed="#B" n="93" break="no"/>citur unus: sit aliquid 
+      addi<lb ed="#B" n="94" break="no"/>tum deo.
+    </p>
+            <p xml:id="gbs333-a61772-d1e118">
+      ¶ Doct. recitat, &amp; 
+      <lb ed="#B" n="95"/>impugnat opi. sancti 
+      Tho<lb ed="#B" n="96" break="no"/>prima secundae. q. xj. ari. e. &amp;c. tenentis: quod 
+      <lb ed="#B" n="97"/>unum cum conuertitur cum ente, nihil addit 
+      su<lb ed="#B" n="98" break="no"/>pra ens. Sed cum est principium numeri: 
+      <!--331.xml-->
+      <pb ed="#B" n="244"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>addit aliquid supra ens ad genus 
+      quan<lb ed="#B" n="2" break="no"/>titatis pertinens. &amp; sic non praedicatur 
+      <lb ed="#B" n="3"/>de deo: sed solum de his, quae habent 
+      es<lb ed="#B" n="4" break="no"/>se in materia. Praemissis itaque aliquot 
+      <lb ed="#B" n="5"/>distinctionibus pro articulo primo: 
+      sub<lb ed="#B" n="6" break="no"/>iungentur conclusiones pro articulo 
+      se<lb ed="#B" n="7" break="no"/>cundo, &amp; pro tertio dubiorum 
+      solutio<lb ed="#B" n="8" break="no"/>nes.
+    </p>
+            <p xml:id="gbs333-a61772-d1e154">
+      ¶ Quantum ad primum notandum 
+      <lb ed="#B" n="9"/>quod unum negat onem multitudinem. Et 
+      secun<lb ed="#B" n="10" break="no"/>dum hoc multipliciter accipiturilicet proprie 
+      <lb ed="#B" n="11"/>&amp; improprie. Primo modo dupliciter 
+      acci<lb ed="#B" n="12" break="no"/>pitur. Nam quomoque negat onem multitudinem 
+      <lb ed="#B" n="13"/>partium realiter distinctarum, &amp; hoc modo 
+      <lb ed="#B" n="14"/>unum est, quod non includit 
+      multitudi<lb ed="#B" n="15" break="no"/>nem partium realiter distinctarum. 
+      Quo<lb ed="#B" n="16" break="no"/>modo angelus dicitur unus, &amp; similiter 
+      <lb ed="#B" n="17"/>anima intellectiua. Alio modo accipitur 
+      <lb ed="#B" n="18"/>ut non negat multitudinem partium 
+      eius<lb ed="#B" n="19" break="no"/>dem rationis, uel alterius quo modo qualitas 
+      <lb ed="#B" n="20"/>intensibilis est unum: quoad primum. Et  
+      <lb ed="#B" n="21"/>substantia composita ex materia, &amp; 
+      for<lb ed="#B" n="22" break="no"/>ma est una quoad secundum. Accipitur 
+      <lb ed="#B" n="23"/>etiam improprie pro uno aggregatiue: 
+      <lb ed="#B" n="24"/>de quo nullus conceptus, uel terminus 
+      as<lb ed="#B" n="25" break="no"/>solutus potest in singulari prdicari: 
+      quo<lb ed="#B" n="26" break="no"/>modo etiam regnum dicitur unum: &amp; populus 
+      <lb ed="#B" n="27"/>unus propter regem unum: &amp; unus 
+      mun<lb ed="#B" n="28" break="no"/>dus: &amp; tamen nullum ens est regnum: nec 
+      po<lb ed="#B" n="29" break="no"/>pulus: nec mundus. Sunt &amp; alij modis 
+      <lb ed="#B" n="30"/>sed illi nunc sufficiant ad propositum 
+      <lb ed="#B" n="31"/>Secundo notandum, quod accidens 
+      capi<lb ed="#B" n="32" break="no"/>tur dupliciter. Vno modo pro forma 
+      reali<lb ed="#B" n="33" break="no"/>alicui subjecto inhaerente ut albedo, 
+      ca<lb ed="#B" n="34" break="no"/>liditas. Alio modo pro termino 
+      acciden<lb ed="#B" n="35" break="no"/>taliter connotatiuo praedicabili de 
+      alio<lb ed="#B" n="36" break="no"/>contingenter. sic creare hoc modo 
+      dici<lb ed="#B" n="37" break="no"/>tur accidere deo: quia haec aliquando 
+      <lb ed="#B" n="38"/>est uera: deus creat: aliquando non. Et  
+      <lb ed="#B" n="39"/>ita creare contingenter praedicatur de 
+      <lb ed="#B" n="40"/>deo.
+    </p>
+            <p xml:id="gbs333-a61772-d1e226">
+      ¶ Pro articulo secundo est 
+      conclu<lb ed="#B" n="41" break="no"/>sio prima. Vnum primo modo acceptum 
+      <lb ed="#B" n="42"/>non importat rem aliquam absolutam, 
+      <lb ed="#B" n="43"/>uel relatiuam additam illi, quod dicitur 
+      <lb ed="#B" n="44"/>sic unum. Probatur: quia omni alia 
+      re<lb ed="#B" n="45" break="no"/>ab illa, quae sic unum dicitur 
+      circum<lb ed="#B" n="46" break="no"/>scripta, adhuc illa res est una: ergo. 
+      <lb ed="#B" n="47"/>Consequentia nota: &amp; antecedens 
+      pro<lb ed="#B" n="48" break="no"/>batur: quia omni alio quod non est 
+      an<lb ed="#B" n="49" break="no"/>gelus circumscripto: adhuc angelus est 
+      <lb ed="#B" n="50"/>unus: sic de anima. Item si esset unus 
+      <lb ed="#B" n="51"/>per aliquid superadditum: illad super: 
+      <!--331.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>additum esset unum: uel ergo seipso: uel 
+      <lb ed="#B" n="53"/>per aliquid aliud superadditum. Et ita 
+      <lb ed="#B" n="54"/>uel erit processus in infinitum: uel datur 
+      <lb ed="#B" n="55"/>status in aliquo, quod seipso est unum: 
+      <lb ed="#B" n="56"/>&amp; eadem ratione dabitur status in 
+      pri<lb ed="#B" n="57" break="no"/>mo, idest angelo. Isto ergo modo, ut  
+      <lb ed="#B" n="58"/>dicit sic unitatem per carentiam 
+      qua<lb ed="#B" n="59" break="no"/>rumcunque partium: non importat 
+      ali<lb ed="#B" n="60" break="no"/>quod reale additum rel uni: importat 
+      ta<lb ed="#B" n="61" break="no"/>men in suo quid nominis negationem 
+      <lb ed="#B" n="62"/>pluralitatis: sed illa pluralitas non est 
+      <lb ed="#B" n="63"/>rei, nec in re: sed in nomine. Vnde cum 
+      <lb ed="#B" n="64"/>quaeritur, quid est unum hoc modo. 
+      Re<lb ed="#B" n="65" break="no"/>spondetur: unum est ens: siue res quae 
+      <lb ed="#B" n="66"/>non est plura entia. Et sic uerum est, quod 
+      <lb ed="#B" n="67"/>unum non addit ultra ens, nisi negatio 
+      <lb ed="#B" n="68"/>nem diuisionis, uel multiplicatis. Addit 
+      <lb ed="#B" n="69"/>inquam ad sensum nunc tactum in suo 
+      <lb ed="#B" n="70"/>quid nominis: Et si dicitur hic. 
+      Nega<lb ed="#B" n="71" break="no"/>tio competit sibi: ergo saltem 
+      negatio<lb ed="#B" n="72" break="no"/>additur sibi. Respondetur, quod comperit 
+      <lb ed="#B" n="73"/>sibi per praedicationem affirmatiue, &amp; 
+      nega<lb ed="#B" n="74" break="no"/>tiue: non tamen conuenit sibi per realem in 
+      <lb ed="#B" n="75"/>existentiam: sed per praedicationem dum 
+      <lb ed="#B" n="76"/>taxat: sic enim a dicitur unum: quia a est 
+      <lb ed="#B" n="77"/>ens: &amp; a, non est b: necc, nec aliud ena 
+      <lb ed="#B" n="78"/>aba: nec alia essentia.
+    </p>
+            <p xml:id="gbs333-a61772-d1e315">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="79" break="no"/>sio. Vnum non est accidens rei, quae est 
+      <lb ed="#B" n="80"/>una per carentiam partium: nec primo 
+      <lb ed="#B" n="81"/>modo capiendo accidens nec secundo 
+      <lb ed="#B" n="82"/>modo. Quod non primo modo, pater 
+      <lb ed="#B" n="83"/>per conclusionem praecedentem. Quod 
+      <lb ed="#B" n="84"/>non secundo modo: quia unum non 
+      prae<lb ed="#B" n="85" break="no"/>dicatur contingenter de tali uno: 
+      quo<lb ed="#B" n="86" break="no"/>niam non potest talis res simplex esse, &amp; 
+      <lb ed="#B" n="87"/>non esse una. Verum, quod unus praedicatur 
+      <lb ed="#B" n="88"/>accidentaliter de termino significante 
+      <lb ed="#B" n="89"/>rem illo modo unam. Nam haec est 
+      praedi<lb ed="#B" n="90" break="no"/>catio accidentalis: angelus est unus: 
+      ani<lb ed="#B" n="91" break="no"/>ma est una: quia non est per se primo modo, 
+      </p>
+            <p xml:id="gbs333-a61772-d1e346">
+               <lb ed="#B" n="92"/>¶ Et notandum: quod non est idem 
+      praedica<lb ed="#B" n="93" break="no"/>ri accidentaliter, &amp; prdicari contingenter: 
+      </p>
+            <p xml:id="gbs333-a61772-d1e353">
+               <lb ed="#B" n="94"/>¶ Tertia conclusio. Vnum secundo modo Con 
+      <lb ed="#B" n="95"/>acceptum non importat aliquod absolu. 
+      D<lb ed="#B" n="96" break="no"/>tum adueniens illi, quod est sic unum. 
+      Pa<lb ed="#B" n="97" break="no"/>ter: quia diuiso continuo, quaelibet partium 
+      <lb ed="#B" n="98"/>est unum: &amp; tamen per diuisione continui nihi 
+      <lb ed="#B" n="99"/>est de nouo partibus additum: per quod 
+      <lb ed="#B" n="100"/>qlibet carum dicitur una. Item onialio 
+      distin<lb ed="#B" n="101" break="no"/>cto, manente continuo diuiso, qlibet pare 
+      <lb ed="#B" n="102"/>eius est una: ideo non per aliquod super¬ 
+      <!--332.xml-->
+      <pb ed="#B" n="245"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>additum.
+    </p>
+            <p xml:id="gbs333-a61772-d1e384">
+      ¶ Quarta conclusio. Vnum 
+      se<lb ed="#B" n="2" break="no"/>cundo mo acceptum, est accidens. 
+      secun<lb ed="#B" n="3" break="no"/>do mod id est accidentaliter prodicatur, &amp; con 
+      <lb ed="#B" n="4"/>tingenter de qualibet re una, habente 
+      <lb ed="#B" n="5"/>muitas partes realiter distinctas eiusdem 
+      <lb ed="#B" n="6"/>rationis. Patet: quia deus potest partes illas se 
+      <lb ed="#B" n="7"/>parare, &amp; separatim conseruare, &amp; tunc 
+      <lb ed="#B" n="8"/>res illa non erit una, quam prius ante separ: 
+      <lb ed="#B" n="9"/>tionem fuit una: ergo est contingenter 
+      <lb ed="#B" n="10"/>una. Addit auctor duas conclusiones 
+      <lb ed="#B" n="11"/>quas offert examinandas disputantibus, 
+      <lb ed="#B" n="12"/>non tamquam certas. Prima: compositum ex 
+      <lb ed="#B" n="13"/>partibus alterius rationis est unum accidi 
+      <lb ed="#B" n="14"/>taliter: quia contingenter, &amp; posset esse 
+      <lb ed="#B" n="15"/>non unum, per solam partium separationem, 
+      <lb ed="#B" n="16"/>fine corruptione cuiuscunque absoluti. 
+      <lb ed="#B" n="17"/>Secunda conclusio. unum addit respectum 
+      <lb ed="#B" n="18"/>rationis partium super illas partes, quae 
+      <lb ed="#B" n="19"/>sunt res absolutae: uel negat respectus 
+      di<lb ed="#B" n="20" break="no"/>stinctionis partium. Hoc doc. non asserit. 
+      <lb ed="#B" n="21"/>sed infra dist. xxx. q.ij. latius pertractat 
+      <lb ed="#B" n="22"/>&amp; opi. propriam explicat.
+    </p>
+            <p xml:id="gbs333-a61772-d1e433">
+      ¶ Conclusio 
+      <lb ed="#B" n="23"/>responsalis, &amp; ad formam quaonis. Vnitas, 
+      <lb ed="#B" n="24"/>qua deus dicitur unus: non est aliquid ab 
+      <lb ed="#B" n="25"/>solutum, uel respectiuum additum deo. 
+      <lb ed="#B" n="26"/>Clarius sic. Vnus concretiue, uel unitas 
+      <lb ed="#B" n="27"/>abstractiue dictum de deo, non 
+      impor<lb ed="#B" n="28" break="no"/>tat aliquod additum deo: nec absolutum 
+      <lb ed="#B" n="29"/>nec respectiuum. Patet; nam perhoc, quod 
+      <lb ed="#B" n="30"/>deus est ens, &amp; non entia: est proprijssi 
+      <lb ed="#B" n="31"/>me unus: circunscripto omni alio.
+    </p>
+            <p xml:id="gbs333-a61772-d1e455">
+      ¶ 
+      Cir<lb ed="#B" n="32" break="no"/>ca articulum tertium tria occurrunt 
+      du<lb ed="#B" n="33" break="no"/>bia. Primum, utrum unum pdicetur per se 
+      <lb ed="#B" n="34"/>primo modo, uel secundo modo de 
+      quali<lb ed="#B" n="35" break="no"/>bet re una. Rnsio: unum praedicatur 
+      ac<lb ed="#B" n="36" break="no"/>cidentaliter de quolibet ente uno: sed 
+      <lb ed="#B" n="37"/>non de quolibet contingenter. 
+      Pri<lb ed="#B" n="38" break="no"/>mum patet: quia connotat super quem 
+      <lb ed="#B" n="39"/>libet terminum absolutum aliquod ens 
+      <lb ed="#B" n="40"/>significantem, &amp; non essentialiter: 
+      er<lb ed="#B" n="41" break="no"/>go accidentaliter. Item includit 
+      nega<lb ed="#B" n="42" break="no"/>tionem. Secundum pater ex 
+      conclusio<lb ed="#B" n="43" break="no"/>ne secunda certa. An autem praedicetur 
+      <lb ed="#B" n="44"/>per se primo modo, uel tamen secundo 
+      mo<lb ed="#B" n="45" break="no"/>do: stat in quid nominis terminorum 
+      per<lb ed="#B" n="46" break="no"/>seprimo modo.
+    </p>
+            <p xml:id="gbs333-a61772-d1e490">
+      ¶ Secundum dubium: 
+      <lb ed="#B" n="47"/>utrum unum differt aliquo modo ab ente 
+      <lb ed="#B" n="48"/>Responsio capiendo terminos 
+      person<lb ed="#B" n="49" break="no"/>liter unum non differt ab ente: uerum 
+      <lb ed="#B" n="50"/>illae sunt concedendae: unum, &amp; ens 
+      dif<lb ed="#B" n="51" break="no"/>ferunt: unum, &amp; ens non differunt: quia 
+      <!--332.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sunt particulares: uel indiffinitae, &amp; 
+      sub<lb ed="#B" n="53" break="no"/>contrariae. Secundo dicitur capiendo 
+      <lb ed="#B" n="54"/>terminos materialiter, uel simpliciter, 
+      <lb ed="#B" n="55"/>unum differt ab ente: quia illi termini, uel 
+      <lb ed="#B" n="56"/>conceptus non sunt idem: licet dicant, 
+      <lb ed="#B" n="57"/>uel significent idem: sicut passio, &amp; 
+      sub<lb ed="#B" n="58" break="no"/>iectum non sunt idem: licet supponant 
+      pro<lb ed="#B" n="59" break="no"/>eodem.
+    </p>
+            <p xml:id="gbs333-a61772-d1e525">
+      ¶ Tertium dubium: quid 
+      im<lb ed="#B" n="60" break="no"/>portat nomen unum. Randetur post pro 
+      <lb ed="#B" n="61"/>missa, quod unum est terminus priuatiuus 
+      im<lb ed="#B" n="62" break="no"/>portans negationem negantem 
+      multi<lb ed="#B" n="63" break="no"/>plicationem rerum separatarum: &amp; 
+      illan<lb ed="#B" n="64" break="no"/>negationem non addit realiter rei, qua 
+      <lb ed="#B" n="65"/>est una. Illa enim negatio est in intelle 
+      <lb ed="#B" n="66"/>ctu: quis realiter circumscripto omni in 
+      <lb ed="#B" n="67"/>tellectu sit una: sicut homo realiter est 
+      <lb ed="#B" n="68"/>caecus: non per additionem negationis: 
+      <lb ed="#B" n="69"/>sed per remotionem uisus. Negatio aunt, 
+      <lb ed="#B" n="70"/>quam caecus importat, non est in re: sed  
+      <lb ed="#B" n="71"/>in mente. Sed non sequitur, 
+      circunscri<lb ed="#B" n="72" break="no"/>ptoomni intellectu homo realiter est 
+      <lb ed="#B" n="73"/>caecus: ergo circumscripto omni intelle 
+      <lb ed="#B" n="74"/>ctu caecus pdicatur de homine. In fine 
+      <lb ed="#B" n="75"/>huius dist. doctor soluendo quasdam 
+      ratio<lb ed="#B" n="76" break="no"/>nes examinat illam. Circumscribendo 
+      <lb ed="#B" n="77"/>omnem intellectum ex natura rei, cuili 
+      <lb ed="#B" n="78"/>bet competit alterum contradictoriorum 
+      <lb ed="#B" n="79"/>dicens, quod sit falsa: quia ad hoc, quod alterum 
+      <lb ed="#B" n="80"/>contradictoriorum alicui competat: 
+      re<lb ed="#B" n="81" break="no"/>quiritur, quod illud contradictoriorum sit 
+      fa<lb ed="#B" n="82" break="no"/>bricatum per intellectum: uel saltem sit 
+      <lb ed="#B" n="83"/>scriptum, aut prolatum: sed hoc non est 
+      <lb ed="#B" n="84"/>ad propositum: &amp; quod res ita se habeat, 
+      si<lb ed="#B" n="85" break="no"/>cut per ipsum significatur. Modo licet  
+      <lb ed="#B" n="86"/>res significata per conceptus non 
+      depen<lb ed="#B" n="87" break="no"/>deat in esse ab intellectu: tamen quod hoc, uel 
+      <lb ed="#B" n="88"/>illud comnpetat rei per praedicationem 
+      de<lb ed="#B" n="89" break="no"/>pendet ab intellectu. Sienim aliqua pars 
+      <lb ed="#B" n="90"/>contradictionis debet esse uera, uel fal 
+      <lb ed="#B" n="91"/>sa, necesse est eam esse. Si ergo nullus es 
+      <lb ed="#B" n="92"/>intellectus, qui formet eam: non dicitur 
+      <lb ed="#B" n="93"/>uera uel falsa cum non est: neciam 
+      ali<lb ed="#B" n="94" break="no"/>quid competit sibi per praedicationem. 
+      <lb ed="#B" n="95"/>Et si dicatur, quod circunscripto omni 
+      intel<lb ed="#B" n="96" break="no"/>lectu, aut homo est asinus: aut homo est 
+      <lb ed="#B" n="97"/>non asinus. Non potest dici: quod sit asinus 
+      <lb ed="#B" n="98"/>circumscripto omni intellectu: ergo 
+      ho<lb ed="#B" n="99" break="no"/>mo non est asinus. Sed si homo est non 
+      <lb ed="#B" n="100"/>asinus: non asinus conuenit sibi. Et 
+      per<lb ed="#B" n="101" break="no"/>consequens circumscripto omni intelle 
+      <lb ed="#B" n="102"/>ctu, non asinus competit homini: &amp; per¬ 
+      <!--333.xml-->
+      <pb ed="#B" n="246"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>consequens negatio. Respondeo: quod  
+      <lb ed="#B" n="2"/>circumscripto omni intellectu, homo 
+      e<lb ed="#B" n="3" break="no"/>non asinus: Sed non sequitur, 
+      circum<lb ed="#B" n="4" break="no"/>scripto omni intellectu, homo est non 
+      <lb ed="#B" n="5"/>asinus: ergo circumscripto omni intelle 
+      <lb ed="#B" n="6"/>ctu, non asinus competit homini: sicut  
+      <lb ed="#B" n="7"/>non sequitur secundum unum doctorem 
+      <lb ed="#B" n="8"/>circunscripto omni intellectu, homo est 
+      <lb ed="#B" n="9"/>non asinus: ergo circumscripto omni in 
+      <lb ed="#B" n="10"/>tellectu haec est uera: homo est non 
+      asi<lb ed="#B" n="11" break="no"/>nus: cum dependeat ab intellectu, quod haec 
+      <lb ed="#B" n="12"/>sit uera: homo est non asinus, ita licet non 
+      <lb ed="#B" n="13"/>dependeat ab intellectu, quod homo est non 
+      <lb ed="#B" n="14"/>asinus: tamen dependet ab intellectu, quod non 
+      <lb ed="#B" n="15"/>asinus competat homini: quia non potest 
+      <lb ed="#B" n="16"/>sibi competere nisi per praedicationem, 
+      <lb ed="#B" n="17"/>&amp; non realiter. Exemplum huius potest 
+      <lb ed="#B" n="18"/>poni: posito, quod heri nulla uox fuisset: &amp; 
+      <lb ed="#B" n="19"/>quod homo fuisset albus: hoc posito, haec per 
+      <lb ed="#B" n="20"/>positio in uoce, uel prolata: homo fuit 
+      heri<lb ed="#B" n="21" break="no"/>albus: est uera, &amp; proferendo uocem 
+      ue<lb ed="#B" n="22" break="no"/>rum dico, quod homo fuit heri albus. Et tamen 
+      <lb ed="#B" n="23"/>haec propositio prolata: homo est albus: 
+      <lb ed="#B" n="24"/>non fuit heri uera, quia propositio 
+      pro<lb ed="#B" n="25" break="no"/>lata non fuit heri per hupothesim. Et  
+      <lb ed="#B" n="26"/>consequens nulla propositio prolata fuit 
+      <lb ed="#B" n="27"/>heri uera. Similiter si nullus intellectus 
+      <lb ed="#B" n="28"/>esset: adhuc homo non esset lapis, &amp; tamen 
+      <lb ed="#B" n="29"/>haec non esset uera tunc, homo non est 
+      <lb ed="#B" n="30"/>lapis: quia nulla propositio esset tunc. 
+      <lb ed="#B" n="31"/>Et huius ratio est, quia ex re dependent 
+      <lb ed="#B" n="32"/>ueritas propositionis: quamuis no econ 
+      <lb ed="#B" n="33"/>uerso: immo ad hoc, quad homo sit asinus: 
+      <lb ed="#B" n="34"/>uel quod non sit asinus: nihil facit 
+      intelle<lb ed="#B" n="35" break="no"/>ctus: sed quod haec propositio: homo non est 
+      <lb ed="#B" n="36"/>asinus: sit uera non sufficit, quod homo 
+      <lb ed="#B" n="37"/>non sit asinus: sed requiritur, quod ista 
+      pro<lb ed="#B" n="38" break="no"/>positio homo non est asinus sit. Haec 
+      dis<lb ed="#B" n="39" break="no"/>fusius habentur in doct. sed hic summa 
+      <lb ed="#B" n="40"/>ric tanguntur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

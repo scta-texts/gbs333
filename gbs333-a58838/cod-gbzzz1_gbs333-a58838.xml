@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="232"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a58838"> <!-- l1d19q2 -->
+            <head xml:id="gbs333-a58838-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a58838-Hd1e104" type="question-title">Utrum quaelibet persona sit in alia
+  per circumincessionem</head>
+            <p xml:id="gbs333-a58838-d1e107">
+               <lb ed="#B" n="66"/>QVAESTIO II 
+      <lb ed="#B" n="67"/>VTRVM quaelibet persona 
+      <lb ed="#B" n="68"/>VR sit in alia per 
+      circuincessio<lb ed="#B" n="69" break="no"/>nem.
+    </p>
+            <p xml:id="gbs333-a58838-d1e118">
+      ¶ Pro articulo primo 
+      <lb ed="#B" n="70"/>&amp;notandum, quod tripliciter 
+      di<lb ed="#B" n="71" break="no"/>stingui potest inexistentia. Quaedam est 
+      <lb ed="#B" n="72"/>per continentiam: quo modo locatum est in 
+      <lb ed="#B" n="73"/>loco. Quaedam per intima praesentiam 
+      <lb ed="#B" n="74"/>cum carentia unipscuiusque distantiae: 
+      si<lb ed="#B" n="75" break="no"/>cut angelus est in loco: &amp; accidens in 
+      <lb ed="#B" n="76"/>subjecto: &amp; forma in materia. Tertio modo 
+      <lb ed="#B" n="77"/>per intimam praesentiam cum consubsta 
+      <lb ed="#B" n="78"/>tialitate: hoc modo inexistit alicui quod 
+      <lb ed="#B" n="79"/>est ei intime praesens, &amp; 
+      consubstan<lb ed="#B" n="80" break="no"/>tiale. Et hic modus inexistentiae uocatur 
+      <lb ed="#B" n="81"/>per circuincessionem.
+    </p>
+            <p xml:id="gbs333-a58838-d1e148">
+      ¶ Corollarium. 
+      <lb ed="#B" n="82"/>Quicquid inexistit alteri per 
+      circuninces<lb ed="#B" n="83" break="no"/>sionem, econuerso alterum inexistit sibi 
+      <lb ed="#B" n="84"/>Patet: quia si a, est intime praesens, &amp; 
+      co<lb ed="#B" n="85" break="no"/>substantiale ipsi b, econuerso b, est 
+      inti<lb ed="#B" n="86" break="no"/>me praesens, &amp; conubstantiale ipsia. 
+      Ne<lb ed="#B" n="87" break="no"/>que est hic aliqua repugnantia: quod  
+      <lb ed="#B" n="88"/>aliqua mutuo sibi inexistant: quia 
+      se<lb ed="#B" n="89" break="no"/>cundum philosophum: totum est in 
+      <lb ed="#B" n="90"/>suis partibus: &amp; econuerso. Similiter 
+      <lb ed="#B" n="91"/>genus est in specie: &amp; species in genere. 
+      </p>
+            <p xml:id="gbs333-a58838-d1e172">
+               <lb ed="#B" n="92"/>¶ Ad hoc ergo, quod per citcumincessionem 
+      <lb ed="#B" n="93"/>aliqua mutuo sibi inexistant tria 
+      requirsi<lb ed="#B" n="94" break="no"/>tur. Primum: quod distinguantur realiter. 
+      Se<lb ed="#B" n="95" break="no"/>cundo, quod sint sibi intime praesentia. 
+      Ter<lb ed="#B" n="96" break="no"/>tio: quod sint una simplex, &amp; singularis 
+      essen<lb ed="#B" n="97" break="no"/>tia. Et hunc modu essendi in, non est 
+      re<lb ed="#B" n="98" break="no"/>perire in creaturis: sed neque positus est 
+      <lb ed="#B" n="99"/>hic modus a philos. Patet discurrendo 
+      <lb ed="#B" n="100"/>omnes modos essendi in, qui in hoc uersu 
+      <!--320.xml-->
+      <pb ed="#B" n="233"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>complectuntur. Insunt pars totum, species, 
+      <lb ed="#B" n="2"/>genus, &amp; calor igni. Rex in regno, res in 
+      <lb ed="#B" n="3"/>fine, locusque locato. Nitebantur tamen aliquod 
+      <lb ed="#B" n="4"/>dare similitudines: sed nimis remotas: 
+      <lb ed="#B" n="5"/>cilicet illapsus dei in mentem rationalem, 
+      circun<lb ed="#B" n="6" break="no"/>scribendo manutenentiam: qua illabens 
+      <lb ed="#B" n="7"/>conseruat, &amp; regit id, cui illabitur. 
+      Simi<lb ed="#B" n="8" break="no"/>liter si anima, uel angelus non inhaerens 
+      <lb ed="#B" n="9"/>coassisteret corpori: uel si corpus 
+      glorio<lb ed="#B" n="10" break="no"/>sum coas sisteret corpori non glorioso. 
+      <lb ed="#B" n="11"/>Hic quidem est quaedam intimitas sed de 
+      <lb ed="#B" n="12"/>ficit consubstantialitas, quae si adesset: es 
+      <lb ed="#B" n="13"/>set satis simile declaratiuum. Et ideo 
+      di<lb ed="#B" n="14" break="no"/>cit Avl. &amp; habetur in textu: quod natura 
+      hu<lb ed="#B" n="15" break="no"/>manae intelligentiae dicti huius rationem 
+      <lb ed="#B" n="16"/>capere non potest: nec exemplum aliqud 
+      <lb ed="#B" n="17"/>diuinis rebus humana ratio postabit: sed qud 
+      <lb ed="#B" n="18"/>non est homini intelligibile: deo est 
+      pos<lb ed="#B" n="19" break="no"/>sibile
+    </p>
+            <p xml:id="gbs333-a58838-d1e242">
+      ¶ Pro articulo secundo est 
+      conclu<lb ed="#B" n="20" break="no"/>sio rmnialis. Quaelibet persona diuina est 
+      <lb ed="#B" n="21"/>in alia per circunncessionem. Patet ex 
+      no<lb ed="#B" n="22" break="no"/>tabili: &amp; Ioann. xiiij. An non credis. quia 
+      <lb ed="#B" n="23"/>ego in patre, &amp; pater in me est.
+    </p>
+            <p xml:id="gbs333-a58838-d1e253">
+      ¶ Possent 
+      <lb ed="#B" n="24"/>ad hoc adduci auct. sanctorum de quibus 
+      <lb ed="#B" n="25"/>habetur in textu. Posset et illa intimitas 
+      <lb ed="#B" n="26"/>persuaderi: quia si non: hoc esset uel 
+      pro<lb ed="#B" n="27" break="no"/>pter identitatem realem essentiae cum 
+      per<lb ed="#B" n="28" break="no"/>sona: uel quia non est sufficiens distinctio 
+      <lb ed="#B" n="29"/>inter personas: uel quia una non 
+      conti<lb ed="#B" n="30" break="no"/>netur, &amp; ambitur ab alia: &amp; econuerso. 
+      <lb ed="#B" n="31"/>Sed primum non impedit: quia totum est 
+      <lb ed="#B" n="32"/>in suis partibe, &amp; ecotra, &amp; genus in 
+      spen<lb ed="#B" n="33" break="no"/>Nec secundum quia totum, &amp; pars sunt 
+      <lb ed="#B" n="34"/>idem realiter, &amp; tamen unum est in alio Nec 
+      <lb ed="#B" n="35"/>tertium: quia personae realiter distinguum 
+      <lb ed="#B" n="36"/>tur. Nec quartum. quia non est de ratione 
+      il<lb ed="#B" n="37" break="no"/>lius, quod est in alio: quod ipsum ambiatur, 
+      <lb ed="#B" n="38"/>&amp; contineatur ab alio. Lac enum non am 
+      <lb ed="#B" n="39"/>bit duscedinem: nec totum partes: &amp; tamen 
+      <lb ed="#B" n="40"/>torum est in partibus, &amp; dulcedo in lacte. 
+      <lb ed="#B" n="41"/>Conclusio secunda. Nec essentia est 
+      <lb ed="#B" n="42"/>in persona: nec relatio in essentia: nec 
+      re<lb ed="#B" n="43" break="no"/>latio in persona per circumincessionem. 
+      <lb ed="#B" n="44"/>Patet: quia deficit hic realis distinctio, quod 
+      <lb ed="#B" n="45"/>est prima conditio requisita ad esse in 
+      <lb ed="#B" n="46"/>alio per circuincessionem.
+    </p>
+            <p xml:id="gbs333-a58838-d1e305">
+      ¶ 
+      Conclusio<lb ed="#B" n="47" break="no"/>tertia. Relationes oppositae non sunt in 
+      <lb ed="#B" n="48"/>seinuicem per circunincessionem. Haec 
+      <lb ed="#B" n="49"/>conclusio ab aliquibus ponitur, qui 
+      po<lb ed="#B" n="50" break="no"/>nunt aliam conditionem scilicet quod sintfor:ta 
+      <lb ed="#B" n="51"/>liter personae: quales non sunt relationes 
+      <!--320.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>constitutiue. Oppositum aut 
+      conclusio<lb ed="#B" n="53" break="no"/>nis illius coniter sustinetur, saluis triba 
+      con<lb ed="#B" n="54" break="no"/>ditionibus pratis.
+    </p>
+            <p xml:id="gbs333-a58838-d1e329">
+      ¶ Pro articulo 
+      tertio<lb ed="#B" n="55" break="no"/>iritur. an inexistentia per circuminces sio 
+      <lb ed="#B" n="56"/>nem conueniat personis ratione relationis 
+      <lb ed="#B" n="57"/>uel essentiae. Rfndetur: ratione utriusque; simul. 
+      <lb ed="#B" n="58"/>Nam ratione relationis conuenit eis 
+      perso<lb ed="#B" n="59" break="no"/>nalis distinctio: ratione essentiae 
+      consubstan<lb ed="#B" n="60" break="no"/>tialitas: ratione utriusque intima psentia. 
+      </p>
+            <p xml:id="gbs333-a58838-d1e346">
+               <lb ed="#B" n="61"/>¶ Si di. Si pater est in filio: principium est 
+      <lb ed="#B" n="62"/>in principiato, &amp; sic principium 
+      cape<lb ed="#B" n="63" break="no"/>ret aliquod esse per productionem 
+      prin<lb ed="#B" n="64" break="no"/>ripiati, &amp; ita pater non haberet onia a se. 
+      <lb ed="#B" n="65"/>Rndetur: quod habere aliquid per 
+      productio<lb ed="#B" n="66" break="no"/>nem alterius dupliciter intelligi potest. 
+      Pri<lb ed="#B" n="67" break="no"/>mo modo poprie: sic quod per talem productio 
+      <lb ed="#B" n="68"/>nuem recipiat aliquod nomen esse reale in 
+      <lb ed="#B" n="69"/>se, uel in aliquo, ipsum de nouo informam 
+      <lb ed="#B" n="70"/>te. Alio modo improprie: quia talipductio 
+      <lb ed="#B" n="71"/>ne aliqua denoiatio sibi de nouo 
+      adue<lb ed="#B" n="72" break="no"/>nit: sicut productione creaturae deus 
+      di<lb ed="#B" n="73" break="no"/>creator, &amp; diiudes. Primo modo, pater nullum 
+      <lb ed="#B" n="74"/>esse capit a suo principiato: sed secundo 
+      <lb ed="#B" n="75"/>modo: nec hoc est inconueniens: cum est sic 
+      ali<lb ed="#B" n="76" break="no"/>qua denoiatio de nouo sibi competit ex 
+      <lb ed="#B" n="77"/>tpe, ex pductione creaturae.
+    </p>
+            <p xml:id="gbs333-a58838-d1e385">
+      ¶ Ex dictis 
+      <lb ed="#B" n="78"/>sequitur, quod paternitas est in filio percit c 
+      <lb ed="#B" n="79"/>cumincessionem: sed non in patre. Nec tamen 
+      <lb ed="#B" n="80"/>ideo filius est pater: quia paternitas non 
+      <lb ed="#B" n="81"/>constituit filium. Sicut non sequitur: 
+      pa<lb ed="#B" n="82" break="no"/>ter est in filio: ergo filius est pater: sed  
+      <lb ed="#B" n="83"/>magis oppositum sequitur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

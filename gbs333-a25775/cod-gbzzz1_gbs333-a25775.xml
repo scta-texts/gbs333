@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="102"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a25775"> <!-- l1d3q1 -->
+            <head xml:id="gbs333-a25775-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a25775-Hd1e104" type="question-title">Utrum primum cognitum ab intellectu nostro sit divina essentia</head>
+            <p xml:id="gbs333-a25775-d1e107">
+               <lb ed="#B" n="88"/>QRESTIO I 
+      <lb ed="#B" n="89"/>VRCAistam distinctionem A 
+      <lb ed="#B" n="90"/>Qin qua tractat de cognitione De co 
+      <lb ed="#B" n="91"/>quod 
+      <lb ed="#B" n="92"/>c ex ipsis creaturis: quaeritur ne 
+      diui<lb ed="#B" n="93" break="no"/>primo: utrum primum copnitum ab in¬ nae 
+      uni<lb ed="#B" n="94" break="no"/>tellectu nostro sit diuina essentia.
+    </p>
+            <p xml:id="gbs333-a25775-d1e125">
+      ¶ Recitatis. 
+      <lb ed="#B" n="95"/>tata, &amp; impuguata opinione Henrici 
+      <lb ed="#B" n="96"/>Gandauen. propter cuius dicta mul¬ 
+      <!--190.xml-->
+      <pb ed="#B" n="103"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tum obscura, quaestio haec mouetur: 
+      li<lb ed="#B" n="2" break="no"/>cet eius intellectus sufficianter ex 
+      se<lb ed="#B" n="3" break="no"/>quentibus dependeat quaestionibus: 
+      prae<lb ed="#B" n="4" break="no"/>missis paucis notabilibus doctor 
+      respon<lb ed="#B" n="5" break="no"/>det ad quaesitum. Et licet multa hoc 
+      di<lb ed="#B" n="6" break="no"/>ei possint de notitiae, &amp; cognitionis 
+      <lb ed="#B" n="7"/>quidditate: quia tamen de hoc doctor. 
+      <lb ed="#B" n="8"/>hoc nihil loquitur: sed caeteriputa 
+      do<lb ed="#B" n="9" break="no"/>minus Cameracen. quaest. iij. artic. 
+      pri<lb ed="#B" n="10" break="no"/>mo, &amp; Gregor. distin. praesenti late haec 
+      <lb ed="#B" n="11"/>terigerunt: remitto ad eorum dicta 
+      sup<lb ed="#B" n="12" break="no"/>positis his, quae prius fuere tacta in 
+      pro<lb ed="#B" n="13" break="no"/>log. quaest. j. &amp; ij.
+    </p>
+            <p xml:id="gbs333-a25775-d1e168">
+      ¶ Iraque quaestio haec 
+      <lb ed="#B" n="14"/>duobus terminabitur articulis 
+      breuissi<lb ed="#B" n="15" break="no"/>mis.
+    </p>
+            <p xml:id="gbs333-a25775-d1e175">
+      ¶ Pro articulo primo notandum, 
+      <lb ed="#B" n="16"/>e aliquid esse obiectum primum 
+      intelle<lb ed="#B" n="17" break="no"/>ctus nostri potest intelligi tripliciter (
+      p<lb ed="#B" n="18" break="no"/>ut habet etiam doct. infra distin. xxxv. 
+      <lb ed="#B" n="19"/>quaest. iij. quaeres utrum essentia diuina 
+      <lb ed="#B" n="20"/>sit primum obiectum intellectus sui: ubi 
+      <lb ed="#B" n="21"/>latius, &amp; clarius, quam hic materiam 
+      prae<lb ed="#B" n="22" break="no"/>sentis quaestionis examinat.) Est enim 
+      <lb ed="#B" n="23"/>obiectum primum primitate originis, 
+      <lb ed="#B" n="24"/>uel generationis, quod scilicet 
+      termi<lb ed="#B" n="25" break="no"/>nat primum actum intellectus. Est 
+      pri<lb ed="#B" n="26" break="no"/>mum primitate adaequationis: &amp; hoc sub 
+      <lb ed="#B" n="27"/>diuidit loco nunc allegato: sed hic non 
+      <lb ed="#B" n="28"/>oportet: &amp; est, quod praedicatur de 
+      om<lb ed="#B" n="29" break="no"/>nibus a tali scientia appraehensibilibus. 
+      <lb ed="#B" n="30"/>Et est commissum inter omnia 
+      apprae<lb ed="#B" n="31" break="no"/>hensibilia ab illa potentia siue 
+      quodli<lb ed="#B" n="32" break="no"/>bet sub eo contentum, sit 
+      appraehensibi<lb ed="#B" n="33" break="no"/>se sub propria ratione, &amp; in 
+      particulari<lb ed="#B" n="34" break="no"/>siue non: de quo. supra quaest. iiij. dist. ij. 
+      <lb ed="#B" n="35"/>Item quaestio. iij. huius distinctionis 
+      pri<lb ed="#B" n="36" break="no"/>mum primitate perfectionis: est 
+      perfe<lb ed="#B" n="37" break="no"/>ctissimum appraehensibile a potentia. 
+      <lb ed="#B" n="38"/>Pro articulo secundo quatuor 
+      ponen<lb ed="#B" n="39" break="no"/>dae sunt conclusiones conformiter his, 
+      <lb ed="#B" n="40"/>quae infra ponuntur de deo disti. xxxv. 
+      <lb ed="#B" n="41"/>quaestio. iij. a doct.
+    </p>
+            <p xml:id="gbs333-a25775-d1e234">
+      ¶ Conclusio prima, 
+      <lb ed="#B" n="42"/>Deus non est primum cognitum a 
+      no<lb ed="#B" n="43" break="no"/>bis primitate generationis pro statu 
+      il<lb ed="#B" n="44" break="no"/>so. Probatur: quia aut deus 
+      cognosci<lb ed="#B" n="45" break="no"/>tur in se: aut in conceptu. Primo 
+      mo<lb ed="#B" n="46" break="no"/>do non cognoscitur a nobis pro 
+      statu<lb ed="#B" n="47" break="no"/>isto: quia omne sic cognitum 
+      cognosci<lb ed="#B" n="48" break="no"/>tur cognitione intuitiua, uel 
+      abstracti<lb ed="#B" n="49" break="no"/>ua: sed neutra est nobis possibilis pro 
+      <lb ed="#B" n="50"/>statu illo: ut patet ex prioribus. quaest. ij. 
+      <lb ed="#B" n="51"/>prologi. &amp; quaest. i. Et procedunt illae ra¬ 
+      <!--190.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tiones secundum opin. quae tenet 
+      con<lb ed="#B" n="53" break="no"/>ceptum esse distinctum ab intellectione. 
+      <lb ed="#B" n="54"/>Siim conceptu distincto ab 
+      intellectio<lb ed="#B" n="55" break="no"/>ne: tunc ille conceptus est primo (
+      secun<lb ed="#B" n="56" break="no"/>dum opin. de fictis) cognitus: aut aeque 
+      <lb ed="#B" n="57"/>repraesentat alia cum deo secundum 
+      se<lb ed="#B" n="58" break="no"/>totum, uel partes.
+    </p>
+            <p xml:id="gbs333-a25775-d1e278">
+      ¶ Item infra dicitur. 
+      <lb ed="#B" n="59"/>Primum cognitum nostri intellectus est 
+      <lb ed="#B" n="60"/>sensibile: sed deus non est sensibilis.
+    </p>
+            <p xml:id="gbs333-a25775-d1e285">
+      ¶ 
+      Si<lb ed="#B" n="61" break="no"/>autem ponatur conceptus mentis esse 
+      <lb ed="#B" n="62"/>realiter intellectio, tunc probandum est: 
+      <lb ed="#B" n="63"/>uod deus non cognoscitur cognitione pro 
+      <lb ed="#B" n="64"/>ria sibi, nec aequiualenti: ut supra 
+      osten<lb ed="#B" n="65" break="no"/>sum est in collectorio praesenti. quaest. ij. 
+      <lb ed="#B" n="66"/>&amp; similiter. quaestioid e. prologi. Et 
+      pate<lb ed="#B" n="67" break="no"/>pit amplius. quaestio. ij. huius 
+      distinctio<lb ed="#B" n="68" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a25775-d1e305">
+      ¶ Conclusio secunda. Deus non est 
+      <lb ed="#B" n="69"/>obiectum primum intellectus nostri 
+      pri<lb ed="#B" n="70" break="no"/>mitate adaequationis, prout hic 
+      loqui<lb ed="#B" n="71" break="no"/>mut de primitate adaequationis. Patet: 
+      <lb ed="#B" n="72"/>quia non praedicatur de omnibus 
+      intel<lb ed="#B" n="73" break="no"/>igibilibus. Nec sufficit: quod 
+      uirtuali<lb ed="#B" n="74" break="no"/>ter contineat omne cognoscibile ab 
+      in<lb ed="#B" n="75" break="no"/>tellectu nostro: quia sic diceretur: quod  
+      <lb ed="#B" n="76"/>persona in diuinis producta esset 
+      obie<lb ed="#B" n="77" break="no"/>ctum adaequatum uel terminus adaequa 
+      <lb ed="#B" n="78"/>tus potentiae productiuae patris: quia 
+      <lb ed="#B" n="79"/>uirtualiter continet omne producibile 
+      <lb ed="#B" n="80"/>a patre.
+    </p>
+            <p xml:id="gbs333-a25775-d1e335">
+      ¶ Conclusio tertia. Deus est 
+      <lb ed="#B" n="81"/>primum obiectum intellectus nostri 
+      pri<lb ed="#B" n="82" break="no"/>mitate perfectionis. Patet: quia deus 
+      <lb ed="#B" n="83"/>est ens perfectissimum: &amp; cum sit 
+      ali<lb ed="#B" n="84" break="no"/>quo modo a nobis cognoscibilis: 
+      pa<lb ed="#B" n="85" break="no"/>tet propositum.
+    </p>
+            <p xml:id="gbs333-a25775-d1e348">
+      ¶ Conclusio 
+      quar<lb ed="#B" n="86" break="no"/>ta. Deus est principium nostrae 
+      co<lb ed="#B" n="87" break="no"/>gnitionis tamquam causa efficiens: &amp; 
+      <lb ed="#B" n="88"/>non ut obiectum cognitum. Nec 
+      ob<lb ed="#B" n="89" break="no"/>stat: quod deus sit, &amp; esse debeat finis 
+      <lb ed="#B" n="90"/>nostrae cognitionis. Vltima enim 
+      per<lb ed="#B" n="91" break="no"/>fectio nostra est respectu dei in se: sed  
+      <lb ed="#B" n="92"/>non prima cognitio nostra est 
+      respe<lb ed="#B" n="93" break="no"/>ctu dei in se: uel saltem potest 
+      cogni<lb ed="#B" n="94" break="no"/>tio nostra non esse propria deo: 
+      <lb ed="#B" n="95"/>&amp; ideo non est simile. 
+      <lb ed="#B" n="96"/>De his uide latius 
+      <lb ed="#B" n="97"/>in 
+      docto<lb ed="#B" n="98" break="no"/>re,
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

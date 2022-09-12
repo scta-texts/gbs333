@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="73"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a18173"> <!-- l1d3q4 -->
+            <head xml:id="gbs333-a18173-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a18173-Hd1e104" type="question-title">Utrum aliquod reale possit distingui secundum rationem ab aliquo reali</head>
+            <p xml:id="gbs333-a18173-d1e107">
+               <lb ed="#B" n="43"/>QVAESTIO III. 
+      <lb ed="#B" n="44"/>O praedictorum euidentiam 
+      <lb ed="#B" n="45"/>quaeritur tertio. Vtrum 
+      ali<lb ed="#B" n="46" break="no"/>quod reale possit 
+      distingui<lb ed="#B" n="47" break="no"/>t ratione ab aliquo reali.
+    </p>
+            <p xml:id="gbs333-a18173-d1e120">
+      ¶ Hu<lb ed="#B" n="48" break="no"/>ius quaestionis materiam late pertractat 
+      <lb ed="#B" n="49"/>oreg. dist. viij. q.ij. art. j. plura ponens, 
+      <!--160.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>quae ualent pro intellectu dicendorum, 
+      </p>
+            <p xml:id="gbs333-a18173-d1e134">
+               <lb ed="#B" n="51"/>¶ Pro articulo primo suppositis his, quae 
+      <lb ed="#B" n="52"/>tacta fuere. q. i. huius distinctionis, notam 
+      <lb ed="#B" n="53"/>dum quod secundum doc. in. q.iij huius dist. 
+      <lb ed="#B" n="54"/>Idem &amp; destinctum sunt passiones 
+      imme<lb ed="#B" n="55" break="no"/>diate conuententes illi, cui conueniunt: 
+      <lb ed="#B" n="56"/>&amp; per consequens conueniunt eis 
+      om<lb ed="#B" n="57" break="no"/>ni alio circumscripto: unde sicut unum 
+      <lb ed="#B" n="58"/>quodque se habet adens: ita se habet ad 
+      <lb ed="#B" n="59"/>unum: &amp; per consequens ad esse 
+      distin<lb ed="#B" n="60" break="no"/>ctum, uel indistinctum. sicut ergo 
+      quod<lb ed="#B" n="61" break="no"/>libet existens seipso formaliter est ens: 
+      <lb ed="#B" n="62"/>&amp; non per aliud sibi extrinsecum: ita erit 
+      <lb ed="#B" n="63"/>uere unum, &amp; seipso formaliter &amp; 
+      imme<lb ed="#B" n="64" break="no"/>diate distinctum a quolibet, a quo 
+      distin<lb ed="#B" n="65" break="no"/>guitur. unde nihil distinctum ab alio 
+      di<lb ed="#B" n="66" break="no"/>stinguitur ab ipso formaliter per aliquod  
+      <lb ed="#B" n="67"/>sibi extrinsecum i.d et per aliquod, quod non 
+      <lb ed="#B" n="68"/>est de essentia sui. Vnde res non 
+      compo<lb ed="#B" n="69" break="no"/>sitae distinctae, uel etiam compositae, ex 
+      <lb ed="#B" n="70"/>omnibus partibus distinctis, seipsis 
+      distin<lb ed="#B" n="71" break="no"/>guuntur. Compositae uero ex partibus, 
+      <lb ed="#B" n="72"/>quarum aliquae distinguuntur, &amp; aliquae 
+      <lb ed="#B" n="73"/>non: ut manus, &amp; pes eiusdem hominis: 
+      <lb ed="#B" n="74"/>quae componuntur ex eadem anima, &amp; 
+      <lb ed="#B" n="75"/>distinctis materijs: distinguuntur per 
+      ma<lb ed="#B" n="76" break="no"/>teriam, &amp; non per formam: sic siduo 
+      ho<lb ed="#B" n="77" break="no"/>mines haberent eandem materiam 
+      nu<lb ed="#B" n="78" break="no"/>mero: illi distinguerentur per formam, 
+      <lb ed="#B" n="79"/>&amp; non per materiam. Simile est de aggre 
+      <lb ed="#B" n="80"/>gatis sicut aggregatum ex lacte, &amp; sua al 
+      <lb ed="#B" n="81"/>bedine, distinguitur ab aggregato ex eo 
+      <lb ed="#B" n="82"/>dem lacte, &amp; sua dulcedine per non 
+      sub<lb ed="#B" n="83" break="no"/>ctantiam lactis, quae est eadem in utroque  
+      <lb ed="#B" n="84"/>aggregato: sed per albedinem, &amp; dulce- 
+      <lb ed="#B" n="85"/>dinem. Et ideo nihil est quaerere per quid 
+      <lb ed="#B" n="86"/>aliqua distinguantur formaliter: sicut 
+      <lb ed="#B" n="87"/>nihil est quaerere per quid aliquid sit ens 
+      <lb ed="#B" n="88"/>formaliter (per quid dico 
+      extrinsecun<lb ed="#B" n="89" break="no"/>uerum causaliter sicut res facta est ens a 
+      <lb ed="#B" n="90"/>causa producente: ita est una, uel 
+      distin<lb ed="#B" n="91" break="no"/>cta a sua causa. Similiter arguitiue 
+      pos<lb ed="#B" n="92" break="no"/>sunt aliqua distingui per alia tanquam 
+      <lb ed="#B" n="93"/>per signa: quibus probatur distinctio. Sic 
+      <lb ed="#B" n="94"/>ex diuersitate circsnstantiarum arguitur 
+      <lb ed="#B" n="95"/>aliquando distinctiorerum, quas 
+      circun<lb ed="#B" n="96" break="no"/>stant: ut ex diuersitate locorum, 
+      tempe<lb ed="#B" n="97" break="no"/>ris, accidentium: operum &amp;c.
+    </p>
+            <p xml:id="gbs333-a18173-d1e238">
+      ¶ Secundo 
+      <lb ed="#B" n="98"/>notandum: quod de distinctione rationis 
+      <lb ed="#B" n="99"/>doctores diuersimodem loquuntur. 
+      Qui<lb ed="#B" n="100" break="no"/>dam dicunt eam tantum esse inter con¬ 
+      <!--161.xml-->
+      <pb ed="#B" n="74"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>conceptus mentis. Isti dicunt, quod nullae res 
+      <lb ed="#B" n="2"/>distinguuntur ratione: sed tantum con 
+      <lb ed="#B" n="3"/>ceptus, qui non habent esse subiectiuum 
+      <lb ed="#B" n="4"/>in aliquo: sed tantum esse obiectiuum in 
+      <lb ed="#B" n="5"/>intellectu. sicut ediuerso nulli conceptus 
+      <lb ed="#B" n="6"/>distinguuntur realiter: eo quod secundum 
+      il<lb ed="#B" n="7" break="no"/>los conceptus non sunt res aliquae. 
+      Si<lb ed="#B" n="8" break="no"/>uero conceptus habent esse subiectiuum 
+      <lb ed="#B" n="9"/>in intellectu: &amp; sunt res utputa qualita 
+      <lb ed="#B" n="10"/>tes realiter intellectui inhaerentes: tunc 
+      <lb ed="#B" n="11"/>aut secundum illos simpliciter negatur 
+      <lb ed="#B" n="12"/>distinctio rationis: aut dicitur: quod 
+      distin<lb ed="#B" n="13" break="no"/>ctio rationis est realis, est essentialis: 
+      im<lb ed="#B" n="14" break="no"/>mo quandoque; distinctio specifica, &amp; 
+      ge<lb ed="#B" n="15" break="no"/>nerica. Nam rationes, siue conceptus in 
+      <lb ed="#B" n="16"/>ter se distinguuntur realiter: quandoque  
+      <lb ed="#B" n="17"/>numero, ut conceptus synonvmi in 
+      di<lb ed="#B" n="18" break="no"/>uersis intellectibus. quandoque specie: ut non 
+      <lb ed="#B" n="19"/>synonumi in eodem intellectu: quomoque 
+      ge<lb ed="#B" n="20" break="no"/>nere: ut conceptus absolutus, &amp; 
+      conno<lb ed="#B" n="21" break="no"/>tatiuus: ut conceptus hominis, &amp; 
+      con<lb ed="#B" n="22" break="no"/>ceptus asimabsolutus.
+    </p>
+            <p xml:id="gbs333-a18173-d1e301">
+      ¶ Alij attribuunt 
+      <lb ed="#B" n="23"/>distinctionem rationis rebus extra 
+      ani<lb ed="#B" n="24" break="no"/>mam significatis per conceptus non 
+      sy<lb ed="#B" n="25" break="no"/>nonvmos in anima. Et hi dicunt rem 
+      si<lb ed="#B" n="26" break="no"/>biipsi omnibus modis eandem ex parte 
+      <lb ed="#B" n="27"/>rei id est circumscripta operatione 
+      intelle<lb ed="#B" n="28" break="no"/>ctus distingui a se ratione inquantum in 
+      <lb ed="#B" n="29"/>tellectus de eadem re format conceptus 
+      <lb ed="#B" n="30"/>non synonymos: sic homo risibilis 
+      distin<lb ed="#B" n="31" break="no"/>guitur ab homine rationali ratione. Vel 
+      <lb ed="#B" n="32"/>sic. Homo inquantum risibilis 
+      distingui<lb ed="#B" n="33" break="no"/>tur ratione a seipso inquantum rationalis 
+      <lb ed="#B" n="34"/>Et illa distinctio non fundatur in re ipsa 
+      <lb ed="#B" n="35"/>extra animam: sed in solis rationibus. i. 
+      <lb ed="#B" n="36"/>conceptibus mentis, per quos intellectus 
+      <lb ed="#B" n="37"/>eandem rem simpliciter comparat ad 
+      di<lb ed="#B" n="38" break="no"/>uersa. Vnde uerius illa distinctio attribui 
+      <lb ed="#B" n="39"/>tur conceptibus, quae rebus. Et ideo qui sunt 
+      <lb ed="#B" n="40"/>de prima opinione, magis proprie 
+      lo<lb ed="#B" n="41" break="no"/>quuntur: quia attribuunt cuilibet, quod  
+      <lb ed="#B" n="42"/>suum est: hoc est distinctionem rerum, 
+      <lb ed="#B" n="43"/>rebus, &amp; distinctionem conceptuum, 
+      con<lb ed="#B" n="44" break="no"/>ceptibus.
+    </p>
+            <p xml:id="gbs333-a18173-d1e351">
+      ¶ De opinione uero secunda: 
+      <lb ed="#B" n="45"/>quae satis communis est: magis 
+      impro<lb ed="#B" n="46" break="no"/>prie, &amp; confuse loquuntur: qui id quod 
+      <lb ed="#B" n="47"/>in conceptibus fundatur: rebus extra 
+      ani<lb ed="#B" n="48" break="no"/>mamattribuunt. Sed secundum illos at 
+      <lb ed="#B" n="49"/>tendendum: quod res distingui ratione 
+      ni<lb ed="#B" n="50" break="no"/>hil aliud est, quame rem concipi, uel significa 
+      <lb ed="#B" n="51"/>ri diuersis conceptibus non synonymis: 
+      <!--161.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ita quod illa distinctio nullam paenitus non 
+      <lb ed="#B" n="53"/>identitatem dicit in re: sed solum intelle 
+      <lb ed="#B" n="54"/>ctu.
+    </p>
+            <p xml:id="gbs333-a18173-d1e380">
+      ¶ Tertio notandum, ut habet 
+      Ockan<lb ed="#B" n="55" break="no"/>quodlib. iij. q.ij. Distingui ratione non 
+      <lb ed="#B" n="56"/>est aliud, quae habere diuersas 
+      diffinitio<lb ed="#B" n="57" break="no"/>nes, aut descriptiones. Et hoc contingit 
+      <lb ed="#B" n="58"/>dupliciter: secundum quod sic ratione 
+      distin<lb ed="#B" n="59" break="no"/>gui attribuitur diuersis, uel uni tantum, 
+      </p>
+            <p xml:id="gbs333-a18173-d1e393">
+               <lb ed="#B" n="60"/>¶ Primo modo distingui ratione 
+      conue<lb ed="#B" n="61" break="no"/>nit diuersis habentibus diuersas 
+      diffini<lb ed="#B" n="62" break="no"/>tiones, seu descriptiones: sic nomina 
+      di<lb ed="#B" n="63" break="no"/>uersa distinguuntur ratione: quia habent 
+      <lb ed="#B" n="64"/>diuersas descriptiones: ut homo, &amp; leo. 
+      <lb ed="#B" n="65"/>Et licet sic distinguantur ratione: possure 
+      <lb ed="#B" n="66"/>tamen etiam dici distingui realiter: 
+      in<lb ed="#B" n="67" break="no"/>telligo, id est sumpta significatiue, &amp; 
+      n<lb ed="#B" n="68" break="no"/>suppositione personali, supponunt 
+      pro<lb ed="#B" n="69" break="no"/>diuersis rebus. Et hoc sumi potest ex 
+      di<lb ed="#B" n="70" break="no"/>cto doctoris, cum inquit: dando 
+      intelle<lb ed="#B" n="71" break="no"/>ctum illius dicti, quod aliqua non distinguum 
+      <lb ed="#B" n="72"/>tur realiter: sed tamen ratione. Antiqui sic 
+      <lb ed="#B" n="73"/>intellexerunt hoc dictum: quod de 
+      aliqui<lb ed="#B" n="74" break="no"/>bus terminis significatiue sumptis 
+      prae<lb ed="#B" n="75" break="no"/>dicatur esse idem realiter, &amp; non 
+      distin<lb ed="#B" n="76" break="no"/>gui realiter, &amp; tamen de eisdem terminis 
+      dici<lb ed="#B" n="77" break="no"/>tur distingui ratione. Secundo 
+      distingui<lb ed="#B" n="78" break="no"/>ratione sumitur improprie, secundum qua 
+      <lb ed="#B" n="79"/>uni competit: licet enim proprie loque 
+      <lb ed="#B" n="80"/>do distingui sit respectu alrerius, a quo 
+      <lb ed="#B" n="81"/>quid distinguitur: tamen quandoque; 
+      distingui<lb ed="#B" n="82" break="no"/>est rei unius ad se sine quacunque 
+      uaria<lb ed="#B" n="83" break="no"/>tione, aut mutatione rei in se: &amp; sic res 
+      <lb ed="#B" n="84"/>una dicitur multiplex ratione cum 
+      ha<lb ed="#B" n="85" break="no"/>bet diuersas rationes, siue 
+      descriptio<lb ed="#B" n="86" break="no"/>nes.
+    </p>
+            <p xml:id="gbs333-a18173-d1e455">
+      ¶ Pro articulo secundo, praemissis 
+      <lb ed="#B" n="87"/>notabilibus est conclusio responsalis ista, 
+      <lb ed="#B" n="88"/>Nihil reale potest distingui ab aliquo 
+      <lb ed="#B" n="89"/>reali ratione: nec esse idem ratione cum 
+      <lb ed="#B" n="90"/>aliquo reali. Probatur: quia nihil 
+      distin<lb ed="#B" n="91" break="no"/>guitur ab aliquo per aliud sibi extrinse- 
+      <lb ed="#B" n="92"/>cum: sed ens rationis est extrinsecum 
+      enti<lb ed="#B" n="93" break="no"/>reali. ergo. Consequentia nota. Maior 
+      <lb ed="#B" n="94"/>patet ex notabili. Minor patet: quia 
+      ma<lb ed="#B" n="95" break="no"/>xime differunt ens reale rationis: eo quod 
+      <lb ed="#B" n="96"/>ens primodiuiditur in ens reale, &amp; rationis 
+      <lb ed="#B" n="97"/>&amp; ita ens rationis est maxime 
+      extrinsecun<lb ed="#B" n="98" break="no"/>enti reali.
+    </p>
+            <p xml:id="gbs333-a18173-d1e484">
+      ¶ Item res non distinguitur a 
+      se<lb ed="#B" n="99" break="no"/>ipsa propter quamcunque mutationem 
+      <lb ed="#B" n="100"/>realem circa ipsam factam, per quam 
+      <lb ed="#B" n="101"/>nihil essentiale, uel intrinsecum rei 
+      ac<lb ed="#B" n="102" break="no"/>quiritur, uel deperditur, uel mutatur. 
+      <!--162.xml-->
+      <pb ed="#B" n="75"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Gratia exempli. Petrus non distinguitur 
+      <lb ed="#B" n="2"/>a seipso propter hoc, quod calesit, uel 
+      fri<lb ed="#B" n="3" break="no"/>gesit: sed bene caliditas acquisita 
+      distin<lb ed="#B" n="4" break="no"/>guitur a frigiditate: ergo multo minus 
+      <lb ed="#B" n="5"/>res distinguitur a se propter diuersos 
+      a<lb ed="#B" n="6" break="no"/>ctus intelligendi circa ipsam rem ab 
+      in<lb ed="#B" n="7" break="no"/>tellectu fabricatos.
+    </p>
+            <p xml:id="gbs333-a18173-d1e517">
+      ¶ Item res omnino 
+      <lb ed="#B" n="8"/>eodem modo se habens ad seipsam prius, 
+      <lb ed="#B" n="9"/>&amp; posterius non aliter distinguitur a 
+      se<lb ed="#B" n="10" break="no"/>postquam prius: sed propter 
+      quamcun<lb ed="#B" n="11" break="no"/>que operationem intellectus: res non 
+      ali<lb ed="#B" n="12" break="no"/>ter se habet ad seipsam: ideo res quae a 
+      <lb ed="#B" n="13"/>seipsa nullo modo distinguitur sine 
+      ope<lb ed="#B" n="14" break="no"/>ratione intellectus: propter operationem 
+      <lb ed="#B" n="15"/>intellectus non distinguitur a se: licet 
+      <lb ed="#B" n="16"/>rationes, quas circa ipsam fabricat 
+      intel<lb ed="#B" n="17" break="no"/>lectus distinguantur ratione. Alias ratio 
+      <lb ed="#B" n="18"/>nes satis efficaces ponit auctor, &amp; soluit 
+      <lb ed="#B" n="19"/>plures replicas, &amp; auctoritates in 
+      oppo<lb ed="#B" n="20" break="no"/>situm sonantes exponit.
+    </p>
+            <p xml:id="gbs333-a18173-d1e548">
+      ¶ Quantum ad 
+      <lb ed="#B" n="21"/>E articulum tertium mouenda sunt dubia, 
+      <lb ed="#B" n="22"/>&amp; soluenda. Primo enim uidetur: quod 
+      ali<lb ed="#B" n="23" break="no"/>qua possunt esse eadem res, &amp; tamen 
+      di<lb ed="#B" n="24" break="no"/>stingui ratione. Probatur auctoritate 
+      <lb ed="#B" n="25"/>conmen. xij. Metaphy. commen. xxx. In 
+      <lb ed="#B" n="26"/>eis, quae sunt forma id est entia simplicia non 
+      <lb ed="#B" n="27"/>composita, dispositio &amp; dispositum 
+      re<lb ed="#B" n="28" break="no"/>ducitur ad unum in esse: &amp; in duo in 
+      con<lb ed="#B" n="29" break="no"/>sideratione.
+    </p>
+            <p xml:id="gbs333-a18173-d1e570">
+      ¶ Praeterea commen. ibidem. 
+      <lb ed="#B" n="30"/>Intellectus natus est diuidere adunata 
+      <lb ed="#B" n="31"/>in esse in ea, ex quibus componitur. 
+      er<lb ed="#B" n="32" break="no"/>go aliqua sunt unum in re &amp; tamen 
+      in<lb ed="#B" n="33" break="no"/>tellectus diuidit ea: quod non est 
+      possi<lb ed="#B" n="34" break="no"/>bile sine distinctione rationis.
+    </p>
+            <p xml:id="gbs333-a18173-d1e583">
+      ¶ Item 
+      <lb ed="#B" n="35"/>ibidem. Multiplicitas in deo non est 
+      nisi<lb ed="#B" n="36" break="no"/>in intellectu: non in esse: ergo in deo 
+      <lb ed="#B" n="37"/>sunt multa, quaesunt unum in esse: &amp; 
+      mul<lb ed="#B" n="38" break="no"/>ta in intellectu:
+    </p>
+            <p xml:id="gbs333-a18173-d1e595">
+      ¶ Item. iiij. 
+      Metaphysi<lb ed="#B" n="39" break="no"/>Ens, &amp; unum dicunt eandem rem. Item 
+      <lb ed="#B" n="40"/>uerum &amp; bonum: cursus &amp; currere: &amp; 
+      </p>
+            <p xml:id="gbs333-a18173-d1e602">
+               <lb ed="#B" n="41"/>¶ tamen aliquo modo distinguuntur, &amp; 
+      <lb ed="#B" n="42"/>non nisi ratione.
+    </p>
+            <p xml:id="gbs333-a18173-d1e609">
+      ¶ Ad primum 
+      dici<lb ed="#B" n="43" break="no"/>tur: quod commentator nihil aliud  
+      <lb ed="#B" n="44"/>uult nisi quod subiectum, &amp; 
+      praedica<lb ed="#B" n="45" break="no"/>tum dicunt eandem rem: hoc est 
+      sup<lb ed="#B" n="46" break="no"/>ponunt pro eadem re: &amp; tamen sunt 
+      <lb ed="#B" n="47"/>duo signa. Quod autem hoc uelit, 
+      po<lb ed="#B" n="48" break="no"/>test ostendi ex uerbis commentatoris, 
+      <lb ed="#B" n="49"/>quae doctor diffuse iecitat. Vel 
+      per<lb ed="#B" n="50" break="no"/>dispositum, &amp; dispositio non 
+      inten<lb ed="#B" n="51" break="no"/>dit commentator aliquid in deo rea¬ 
+      <!--162.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>liter: sed praedicatum &amp; subiectum in 
+      <lb ed="#B" n="53"/>suppositione personali, quae dicuntur 
+      <lb ed="#B" n="54"/>de deo: &amp; tamen unum non est aliud: 
+      <lb ed="#B" n="55"/>sed sunt diuersa signa.
+    </p>
+            <p xml:id="gbs333-a18173-d1e644">
+      ¶ Ad 
+      secun<lb ed="#B" n="56" break="no"/>dum conceditur: quod intellectus 
+      po<lb ed="#B" n="57" break="no"/>test compositi alicuius partes separatim 
+      <lb ed="#B" n="58"/>intelligere: hoc est uel materiam 
+      so<lb ed="#B" n="59" break="no"/>lum, uel formam solum uel accidens, 
+      <lb ed="#B" n="60"/>uel subiectum seorsum: &amp; illa 
+      distin<lb ed="#B" n="61" break="no"/>guuntur realiter a seipsis, &amp; habent 
+      di<lb ed="#B" n="62" break="no"/>uersas rationes. Ad aliud. In deo est 
+      <lb ed="#B" n="63"/>multiplicitas per praedicationem. hoc  
+      <lb ed="#B" n="64"/>est multa dicuntur de deo praedicata: non 
+      <lb ed="#B" n="65"/>autem est in eo multiplicitas realiter aut  
+      <lb ed="#B" n="66"/>per compositionem sicut est in 
+      creatu<lb ed="#B" n="67" break="no"/>ra: sic esse in alio est dici de alio.
+    </p>
+            <p xml:id="gbs333-a18173-d1e673">
+      ¶ Ad 
+      <lb ed="#B" n="68"/>aliud conceditur: quod illa nomina pro 
+      eo<lb ed="#B" n="69" break="no"/>dem supponunt: diuersa tamen connotat, &amp; 
+      <lb ed="#B" n="70"/>ita non habent idem quid nominis. Et  
+      <lb ed="#B" n="71"/>ita in suppositione personali secundum 
+      <lb ed="#B" n="72"/>modum loquendi doctoris potius sunt 
+      <lb ed="#B" n="73"/>una res, quam dicant eandem rem: puta 
+      <lb ed="#B" n="74"/>ens &amp; bonum. In suppositione uero sim 
+      <lb ed="#B" n="75"/>plici uel naturali sic non sunt una res, 
+      <lb ed="#B" n="76"/>nec una natura: sed plura signa. Hoc 
+      <lb ed="#B" n="77"/>probat auctoritate commentatoris sic. 
+      <lb ed="#B" n="78"/>bonum, &amp; uerum sunt idem in 
+      iio<lb ed="#B" n="79" break="no"/>positione personali non simplici: 
+      ho<lb ed="#B" n="80" break="no"/>est supponunt pro eodem: secus in 
+      sup<lb ed="#B" n="81" break="no"/>positione simplici uel materiali.
+    </p>
+            <p xml:id="gbs333-a18173-d1e706">
+      ¶ Sic 
+      <lb ed="#B" n="82"/>etiam non debet concedi: quod 
+      sor<lb ed="#B" n="83" break="no"/>tes in choro differt a se in theatro: 
+      <lb ed="#B" n="84"/>quia nihil differt a se: sic de lacte 
+      al<lb ed="#B" n="85" break="no"/>bo, &amp; lacte dulci.
+    </p>
+            <p xml:id="gbs333-a18173-d1e718">
+      ¶ Vtentes tamen 
+      il<lb ed="#B" n="86" break="no"/>lis propositionibus uolunt, quod per 
+      il<lb ed="#B" n="87" break="no"/>la nomina importantur diuersa. Nam 
+      <lb ed="#B" n="88"/>lac dulce dicit dulcedinem: album 
+      al<lb ed="#B" n="89" break="no"/>bedinem: &amp; theatrum non est chorus. 
+      </p>
+            <p xml:id="gbs333-a18173-d1e729">
+               <lb ed="#B" n="90"/>¶ Sic secundum philosophum sortes 
+      <lb ed="#B" n="91"/>puer differt a sene: quia aliam habet 
+      <lb ed="#B" n="92"/>conditionem in iuuenture, quam 
+      sene<lb ed="#B" n="93" break="no"/>ctute: &amp; ita tota res aggregata 
+      distingui<lb ed="#B" n="94" break="no"/>tur, &amp; non idem a seipso.
+    </p>
+            <p xml:id="gbs333-a18173-d1e742">
+      ¶ Eodem 
+      mo<lb ed="#B" n="95" break="no"/>do dicendum: quod omues tales 
+      proposi<lb ed="#B" n="96" break="no"/>tiones eadem res accepta sub una ratione. 
+      <lb ed="#B" n="97"/>distinguitur a seipsa aliter concepta, &amp; 
+      <lb ed="#B" n="98"/>consimiles fallae sunt simpliciter de 
+      ui<lb ed="#B" n="99" break="no"/>sermonis. Haec omnia, &amp; plura alia 
+      ui<lb ed="#B" n="100" break="no"/>de latius in doctore.
+    </p>
+            <p xml:id="gbs333-a18173-d1e758">
+      ¶ Vltimo dubitatur. 
+      <lb ed="#B" n="101"/>an aliquis sciens significationem 
+      nomi<lb ed="#B" n="102" break="no"/>num synony morum possit ignorare, si¬ 
+      <!--163.xml-->
+      <pb ed="#B" n="76"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unum synonymum possit de alio dici. 
+      </p>
+            <p xml:id="gbs333-a18173-d1e774">
+               <lb ed="#B" n="2"/>¶ Item deus, &amp; deitas non sunt nomini 
+      <lb ed="#B" n="3"/>IVnonyma: ergo important aliquam 
+      di<lb ed="#B" n="4" break="no"/>stinctionem in deo: sed inter deum, &amp; 
+      <lb ed="#B" n="5"/>deitatem non est distinctio rerum, uel 
+      <lb ed="#B" n="6"/>ex natura rei: ergo. Ad utrunque simul 
+      <lb ed="#B" n="7"/>respondetur.
+    </p>
+            <p xml:id="gbs333-a18173-d1e790">
+      ¶ Pro cuius intellectu 
+      no<lb ed="#B" n="8" break="no"/>tandum: quod dupliciter nomina dicuntur 
+      <lb ed="#B" n="9"/>IVnonyma. Vno modo: quia significant  
+      <lb ed="#B" n="10"/>idem conuertibiliter, &amp; eodem modo: 
+      <lb ed="#B" n="11"/>ita quod nihil significatur, uel connotatur 
+      <lb ed="#B" n="12"/>per unum, quin eodem modo significetur, uel 
+      <lb ed="#B" n="13"/>connotetur per reliquum: &amp; illo modo deus, 
+      <lb ed="#B" n="14"/>&amp; deitas sunt synonyma, similiter homo 
+      <lb ed="#B" n="15"/>humanitas: animal animalitas. Alio 
+      mo<lb ed="#B" n="16" break="no"/>do dicuntur Iynonyma, quae significant 
+      <lb ed="#B" n="17"/>idem: &amp; eodem modo ut supra. Et 
+      prae<lb ed="#B" n="18" break="no"/>ter hoc omnes tam imponentes, quam 
+      uten<lb ed="#B" n="19" break="no"/>tes intelligunt, quod simpliciter idem, &amp; eo 
+      <lb ed="#B" n="20"/>dem modo significant. Et hoc modo 
+      <lb ed="#B" n="21"/>deus, &amp; deitas, homo, &amp; humanitas non 
+      <lb ed="#B" n="22"/>sunt synonyma. Nam impositores 
+      im<lb ed="#B" n="23" break="no"/>posuerunt deus ad significandum 
+      simpli<lb ed="#B" n="24" break="no"/>citer id, qued est deus: &amp; homo id, quod  
+      <lb ed="#B" n="25"/>est homo &amp; deitas ad significandum id, 
+      <lb ed="#B" n="26"/>quo deus formaliter est deus, &amp; humani 
+      <lb ed="#B" n="27"/>tas d, quo homo formaliter est homo, 
+      <lb ed="#B" n="28"/>pelinquentes in dubio, an id, quo deus 
+      <lb ed="#B" n="29"/>formaliter est deus, sit deus: &amp; an id, 
+      <lb ed="#B" n="30"/>quo homo formaliter est homo, sit 
+      ip<lb ed="#B" n="31" break="no"/>semet homo. Et ita an illa sit uera, uel 
+      <lb ed="#B" n="32"/>falsa deus est deitas: homo est 
+      humani<lb ed="#B" n="33" break="no"/>tas. Imposita enim sunt illa nomina ad 
+      <lb ed="#B" n="34"/>similitudinem horum calidus, caliditas, 
+      <lb ed="#B" n="35"/>dignus, dignitas, quo calidum dicitur 
+      ca<lb ed="#B" n="36" break="no"/>lidum. Calidum enim est subiectum 
+      re<lb ed="#B" n="37" break="no"/>cipiens in se calorem. Caliditas autem 
+      <lb ed="#B" n="38"/>calor inhaerens calido.
+    </p>
+            <p xml:id="gbs333-a18173-d1e861">
+      ¶ De sy nonymis 
+      <lb ed="#B" n="39"/>secundo modo uerum est, quod nullus sciens 
+      <lb ed="#B" n="40"/>significationem nominum Iynonymo. 
+      <lb ed="#B" n="41"/>rum ignorare porest, an unum uere de 
+      <lb ed="#B" n="42"/>altero praedicetur: secus autem de 
+      syno<lb ed="#B" n="43" break="no"/>nymis primo modo: quia multiscientes 
+      <lb ed="#B" n="44"/>quid nominis terminorum synonymorum 
+      <lb ed="#B" n="45"/>ignorant, an importata per ea sint idem, 
+      <lb ed="#B" n="46"/>uel distincta: sicut patet de homo, 
+      hu<lb ed="#B" n="47" break="no"/>manitas: quantus, 
+      quan<lb ed="#B" n="48" break="no"/>titas: curuus, 
+      cur<lb ed="#B" n="49" break="no"/>uitas.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

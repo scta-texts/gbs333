@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="139"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a35033"> <!-- l1d5q3 -->
+            <head xml:id="gbs333-a35033-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a35033-Hd1e104" type="question-title">Utrum essentia divina sit terminus formalis generationis</head>
+            <p xml:id="gbs333-a35033-d1e107">
+               <lb ed="#B" n="31"/>QVESTIO III. 
+      <lb ed="#B" n="32"/>VTRVM essentia diuina sit 
+      <lb ed="#B" n="33"/>terminus formalis 
+      genera<lb ed="#B" n="34" break="no"/>tionis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e118">
+      ¶ Res huius 
+      quaestio<lb ed="#B" n="35" break="no"/>nis nota est ex fide: sed solum 
+      <lb ed="#B" n="36"/>quaeritur, quid intelligitur per terminum 
+      <lb ed="#B" n="37"/>formalem generationis: quo habito, 
+      ha<lb ed="#B" n="38" break="no"/>petur intellectus quaestionis. Stat ergo 
+      <lb ed="#B" n="39"/>difficultas huius quaestionis in quid 
+      no<lb ed="#B" n="40" break="no"/>minis termini formalis, &amp; quia alij 
+      ali<lb ed="#B" n="41" break="no"/>ter, &amp; aliter accipiunt: ideo 
+      diuersimo<lb ed="#B" n="42" break="no"/>de respondent ad quaestionem. 
+      Pri<lb ed="#B" n="43" break="no"/>mum itaque doctor in suo scripto 
+      reci<lb ed="#B" n="44" break="no"/>tat, &amp; impugnat opinio. Scot. distinct. 
+      <lb ed="#B" n="45"/>praesentis. quaestio. ij. tenentis, quod 
+      es<lb ed="#B" n="46" break="no"/>sentia diuina est terminus formalis 
+      ge<lb ed="#B" n="47" break="no"/>nerationis in diuinis. De hinc 
+      respon<lb ed="#B" n="48" break="no"/>surus secundum opinionem propriam 
+      <lb ed="#B" n="49"/>praemittit aliquas terminorum declara¬ 
+      <!--226.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>tiones.
+    </p>
+            <p xml:id="gbs333-a35033-d1e161">
+      ¶ Itaque pro articulo primo 
+      no<lb ed="#B" n="51" break="no"/>tandum: quod aliud est communicari 
+      per<lb ed="#B" n="52" break="no"/>productionem aliquam: &amp; aliud est esse 
+      <lb ed="#B" n="53"/>terminum formalem illius 
+      productio<lb ed="#B" n="54" break="no"/>nis. Spiratio enim actiua 
+      communi<lb ed="#B" n="55" break="no"/>catur filio per generationem, &amp; tamen 
+      <lb ed="#B" n="56"/>non est formalis terminus 
+      generatio<lb ed="#B" n="57" break="no"/>nis: quicquid enim habet filius 
+      nascen<lb ed="#B" n="58" break="no"/>do accipit a patre: ergo spirationem 
+      a<lb ed="#B" n="59" break="no"/>ctiuam accipit a patre: &amp; communica 
+      <lb ed="#B" n="60"/>tur sibi per generationem.
+    </p>
+            <p xml:id="gbs333-a35033-d1e185">
+      ¶ Secundo 
+      <lb ed="#B" n="61"/>notandum, quod communicariper 
+      produ<lb ed="#B" n="62" break="no"/>ctionem accipitur tripliciter. Primo 
+      <lb ed="#B" n="63"/>modo largissime &amp; improprie pro 
+      om<lb ed="#B" n="64" break="no"/>ni illo, quod habet aliquo modo esse 
+      <lb ed="#B" n="65"/>quo modo non haberet esse, sine 
+      cer<lb ed="#B" n="66" break="no"/>ta productione. Et illo modo tam 
+      pro<lb ed="#B" n="67" break="no"/>ductum, quam productio, quam quodlibet 
+      <lb ed="#B" n="68"/>quod est in producto communicatur, &amp; 
+      <lb ed="#B" n="69"/>ille est improprijssimus modus. 
+      Secun<lb ed="#B" n="70" break="no"/>do modo accipitur large pro quolibet, 
+      <lb ed="#B" n="71"/>quod habet esse in producto per ipsam 
+      <lb ed="#B" n="72"/>productionem, &amp; non est idem 
+      omni<lb ed="#B" n="73" break="no"/>bus modis cum productione, ex 
+      produ<lb ed="#B" n="74" break="no"/>cto: illo modo tam materia, quam forma 
+      con<lb ed="#B" n="75" break="no"/>municatur producto. Tertio modo, &amp; 
+      <lb ed="#B" n="76"/>stricte accipitur pro eo, quod habens 
+      <lb ed="#B" n="77"/>esse in generante, capit esse in 
+      genito<lb ed="#B" n="78" break="no"/>per productionem. Et illo modo 
+      essen<lb ed="#B" n="79" break="no"/>tia etiam, spiratio actiua communicatur  
+      <lb ed="#B" n="80"/>filio per generationem.
+    </p>
+            <p xml:id="gbs333-a35033-d1e231">
+      ¶ Tertio 
+      notan<lb ed="#B" n="81" break="no"/>dum conformiter ad doctorem, quod ter 
+      <lb ed="#B" n="82"/>minus acceptus ut est primae intentionis 
+      <lb ed="#B" n="83"/>generaliter dicitur illud, quod terminat, 
+      <lb ed="#B" n="84"/>uel quietat tendentiam, uel respectum 
+      <lb ed="#B" n="85"/>alicuius in aliquod, &amp; ideo secundum 
+      di<lb ed="#B" n="86" break="no"/>uersos modos tendendi aliud, &amp; aliud 
+      <lb ed="#B" n="87"/>est de ratione termini. Et ad propositum 
+      <lb ed="#B" n="88"/>alia est tendentia per productionem: 
+      <lb ed="#B" n="89"/>alia per transmutationem: alia per 
+      relatio<lb ed="#B" n="90" break="no"/>nem, ut talis est. Nam per productionem 
+      <lb ed="#B" n="91"/>producens tendit ad esse rei simpliciter. 
+      <lb ed="#B" n="92"/>Pet transmutationem, tendit transmutas 
+      <lb ed="#B" n="93"/>ad aliquale esse. Per relationem, 
+      relati<lb ed="#B" n="94" break="no"/>uum tendit, respicit, uel refertur ad suum 
+      <lb ed="#B" n="95"/>correlatiuum. Et secundum hoc terminus 
+      <lb ed="#B" n="96"/>productionis actiuae est, quod capit esse 
+      sim<lb ed="#B" n="97" break="no"/>pliciter tali productione distinctum aliquo 
+      <lb ed="#B" n="98"/>modo a productione. Terminus transmuta 
+      <lb ed="#B" n="99"/>tionis est quid capit aliquale esse, ut esse 
+      <lb ed="#B" n="100"/>in alio: uel esse quantum: aut esse quale &amp;c. 
+      <!--227.xml-->
+      <pb ed="#B" n="140"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Terminus relationis est correlatiuum. 
+      </p>
+            <p xml:id="gbs333-a35033-d1e286">
+               <lb ed="#B" n="2"/>¶ Sed adhuc manet difficultas, quomo 
+      <lb ed="#B" n="3"/>do differunt terminus formalis, &amp; 
+      to<lb ed="#B" n="4" break="no"/>talis. Ad quod dici potest pro notabili 
+      <lb ed="#B" n="5"/>quarto, salua semper sententia saniore, 
+      <lb ed="#B" n="6"/>quod terminus totalis productionis actius 
+      <lb ed="#B" n="7"/>est quod recipit esse simpliciter tali pro 
+      <lb ed="#B" n="8"/>ductione distinctum ab ea: &amp; non est 
+      <lb ed="#B" n="9"/>pars alterius illa productione producti: 
+      <lb ed="#B" n="10"/>ut in generatione compositi 
+      substan<lb ed="#B" n="11" break="no"/>tialis, totum compositum est 
+      termi<lb ed="#B" n="12" break="no"/>nus totalis: quia totum compositum 
+      <lb ed="#B" n="13"/>per illam generationem recipit esse 
+      sim<lb ed="#B" n="14" break="no"/>pliciter: quia circumscripta 
+      generatio<lb ed="#B" n="15" break="no"/>ne simpliciter non esset: licet non 
+      reci<lb ed="#B" n="16" break="no"/>piat esse secundum se, &amp; quodlibet sui: 
+      <lb ed="#B" n="17"/>quia non secundum materiam.
+    </p>
+            <p xml:id="gbs333-a35033-d1e323">
+      ¶ 
+      Corol<lb ed="#B" n="18" break="no"/>larium. In tali substantiali generatione. 
+      <lb ed="#B" n="19"/>forma non est terminus totalis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e330">
+      ¶ 
+      Co<lb ed="#B" n="20" break="no"/>rollarium secundum. In nutritione 
+      asi<lb ed="#B" n="21" break="no"/>ni: asinus partialis praecise per 
+      nutritio<lb ed="#B" n="22" break="no"/>nem genitus est terminus totalis: licet  
+      <lb ed="#B" n="23"/>sit pars totius asini: quia non est pars 
+      pro<lb ed="#B" n="24" break="no"/>ducti illa nutritione. Terminus autem 
+      <lb ed="#B" n="25"/>formalis productionis est, quod ipsa 
+      pro<lb ed="#B" n="26" break="no"/>ductione recipit esse simpliciter 
+      secun<lb ed="#B" n="27" break="no"/>dum se, &amp; quodlibet sui: ita quod nihil 
+      ip<lb ed="#B" n="28" break="no"/>sius sit: quod non recipit esse huiusmodi 
+      <lb ed="#B" n="29"/>productione.
+    </p>
+            <p xml:id="gbs333-a35033-d1e355">
+      ¶ Corollarium. Terminus 
+      <lb ed="#B" n="30"/>non dicitur formalis: quia est 
+      forma<lb ed="#B" n="31" break="no"/>Patet: quia in creatione materiae: mate 
+      <lb ed="#B" n="32"/>ria est terminus formalis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e364">
+      ¶ Corollarium 
+      <lb ed="#B" n="33"/>secundum. In productione rei 
+      simpli<lb ed="#B" n="34" break="no"/>cis idem est terminus totalis, &amp; formalis: 
+      <lb ed="#B" n="35"/>ut in creatione angeli patet.
+    </p>
+            <p xml:id="gbs333-a35033-d1e373">
+      ¶ Tertium 
+      <lb ed="#B" n="36"/>corollarium. Si compositum substantia 
+      <lb ed="#B" n="37"/>le crearetur secundum se, &amp; quodlibet  
+      <lb ed="#B" n="38"/>sui: hoc est materia, &amp; forma: tam 
+      ma<lb ed="#B" n="39" break="no"/>teria, quam forma, quam totum 
+      compo<lb ed="#B" n="40" break="no"/>situm esset terminus formalis. Nec est 
+      <lb ed="#B" n="41"/>inconueniens alicuius productionis: qua 
+      <lb ed="#B" n="42"/>plura producuntur: plures esse terminos 
+      <lb ed="#B" n="43"/>formales: licet sit tantum unus terminus 
+      <lb ed="#B" n="44"/>totalis, ratione cuius dicitur una 
+      crea<lb ed="#B" n="45" break="no"/>tio totalis: licet plures partiales.
+    </p>
+            <p xml:id="gbs333-a35033-d1e397">
+      ¶ 
+      Co<lb ed="#B" n="46" break="no"/>rollarium quartum. Terminus formalis 
+      <lb ed="#B" n="47"/>productionis non semper est id, quo 
+      pro<lb ed="#B" n="48" break="no"/>ductum recipit denominationem 
+      speci<lb ed="#B" n="49" break="no"/>uocam sibi ex productione 
+      conuenten<lb ed="#B" n="50" break="no"/>tem. Patet: quia si sub anima 
+      rationali<lb ed="#B" n="51" break="no"/>praeexistente crearetur materia: recipiens 
+      <!--227.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>in se formam praeexistelitem: totum illa 
+      <lb ed="#B" n="53"/>productione est homo ratione formae 
+      <lb ed="#B" n="54"/>non minus, quam si anima crearetur in 
+      <lb ed="#B" n="55"/>materia praeexistente: &amp; tamen anima 
+      <lb ed="#B" n="56"/>in casu non est terminus formalis illius 
+      <lb ed="#B" n="57"/>creationis: sed materia.
+    </p>
+            <p xml:id="gbs333-a35033-d1e430">
+      ¶ Corollarium 
+      <lb ed="#B" n="58"/>quintum. Si materia, &amp; forma creatae 
+      se<lb ed="#B" n="59" break="no"/>paratim postunirentur, ita quod ex eis 
+      con<lb ed="#B" n="60" break="no"/>stitueretur compositum: terminus 
+      for<lb ed="#B" n="61" break="no"/>malis huius productionis compositi 
+      es<lb ed="#B" n="62" break="no"/>set totum compositum recipiens esse 
+      <lb ed="#B" n="63"/>per illam productionem: licet nulla 
+      par<lb ed="#B" n="64" break="no"/>tium eius nec materia, nec forma 
+      reci<lb ed="#B" n="65" break="no"/>peret esse simpliciter illa productione- 
+      <lb ed="#B" n="66"/>compositi: tamen nihil esset compositi, 
+      <lb ed="#B" n="67"/>quod compositum non recipet illa productione. 
+      <lb ed="#B" n="68"/>Nam compositum per sui productionem 
+      <lb ed="#B" n="69"/>recipit materiam, &amp; formam 
+      praeexisten<lb ed="#B" n="70" break="no"/>tes.
+    </p>
+            <p xml:id="gbs333-a35033-d1e461">
+      ¶ Corollarium sextum. Quandoque  
+      <lb ed="#B" n="71"/>terminus formalis immutationis est ter 
+      <lb ed="#B" n="72"/>minus formalis productionis: quandoque 
+      <lb ed="#B" n="73"/>non. Exemplum primi. Vt quando simul 
+      <lb ed="#B" n="74"/>concurrunt mutatio, &amp; productio: ut in 
+      <lb ed="#B" n="75"/>calefactione, qua producitur noua 
+      cali<lb ed="#B" n="76" break="no"/>ditas: caliditas est terminus formalis 
+      mu<lb ed="#B" n="77" break="no"/>tationis: quia est illud, quod recipit esse 
+      <lb ed="#B" n="78"/>in alio ratione, cuius transmutatum 
+      for<lb ed="#B" n="79" break="no"/>maliter denominatur denominatione 
+      <lb ed="#B" n="80"/>sibi ratione immutationis huiusmodi 
+      con<lb ed="#B" n="81" break="no"/>ueniente. Exemplum secundi. Vt si 
+      cali<lb ed="#B" n="82" break="no"/>ditas praeexistens de nouo informaret  
+      <lb ed="#B" n="83"/>subiectum caliditas esset terminus 
+      for<lb ed="#B" n="84" break="no"/>malis calefactionis, &amp; ibi nullus esset 
+      ter<lb ed="#B" n="85" break="no"/>minus productionis, quia talis mutatio 
+      <lb ed="#B" n="86"/>non esset productio. Vnde in mutatione 
+      <lb ed="#B" n="87"/>llud, quod denominatur, mutatum, est 
+      <lb ed="#B" n="88"/>terminus formalis: ipsum uero, quod  
+      <lb ed="#B" n="89"/>transmutatur, potest dici terminus 
+      to<lb ed="#B" n="90" break="no"/>talis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e508">
+      ¶ Per hoc ad propositum potest 
+      <lb ed="#B" n="91"/>dici, quod productionis filij terminus 
+      for<lb ed="#B" n="92" break="no"/>malis non distinguitur a termino 
+      totali<lb ed="#B" n="93" break="no"/>Nam persona filij est terminus totalis: 
+      <lb ed="#B" n="94"/>quia producta, &amp; nullius est pars. Et est 
+      <lb ed="#B" n="95"/>terminus formalis: quia quicquid est, &amp; 
+      <lb ed="#B" n="96"/>habet, recipit per generationem 
+      secun<lb ed="#B" n="97" break="no"/>dum beatum Augustinum. Et licet non 
+      <lb ed="#B" n="98"/>quicquid est filij: recipit esse simpliciter 
+      <lb ed="#B" n="99"/>per productionem: eo quod essentia, quae est 
+      <lb ed="#B" n="100"/>filij seu filius: non recipit esse per 
+      pro<lb ed="#B" n="101" break="no"/>ductionem filij: quia est in patre: 
+      tamen<lb ed="#B" n="102" break="no"/>eam filius recipit per sui productionem. 
+      <!--228.xml-->
+      <pb ed="#B" n="141"/>
+               <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="gbs333-a35033-d1e543">
+               <lb ed="#B" n="1"/>¶ Et per hoc soluuntur rationes, quae 
+      <lb ed="#B" n="2"/>hinc inde arguuntur a pluribus: omnes 
+      <lb ed="#B" n="3"/>tamen fundantur in quid nominis 
+      ter<lb ed="#B" n="4" break="no"/>minorum. Patet etiam ex praedictis: quia 
+      <lb ed="#B" n="5"/>filius est terminus generationis, ut 
+      acti<lb ed="#B" n="6" break="no"/>uae relationis. Pater uero est terminu: 
+      <lb ed="#B" n="7"/>generatonis, ut relationis passiuae: 
+      qui<lb ed="#B" n="8" break="no"/>correlatiuum filij: sic esse terminum non 
+      <lb ed="#B" n="9"/>est accipere esse rei: sed est esse 
+      correla<lb ed="#B" n="10" break="no"/>tiuum.
+    </p>
+            <p xml:id="gbs333-a35033-d1e567">
+      ¶ Si dicis. In nutritione hom 
+      <lb ed="#B" n="11"/>nis, ubi anima praeexistens unitur mate 
+      <lb ed="#B" n="12"/>riae praeexistenti est productio: quia 
+      nu<lb ed="#B" n="13" break="no"/>tritio: quis ergo est terminus formalis 
+      <lb ed="#B" n="14"/>Etiam ibi producitur nouus homo 
+      par<lb ed="#B" n="15" break="no"/>tialis ex materia nutrimenti, &amp; anima 
+      <lb ed="#B" n="16"/>praeexistente, ipsam materiam de nouo 
+      <lb ed="#B" n="17"/>informante.
+    </p>
+            <p xml:id="gbs333-a35033-d1e585">
+      ¶ Solutio, quod in nutritione 
+      <lb ed="#B" n="18"/>hominis, homo partialis de nouo 
+      pro<lb ed="#B" n="19" break="no"/>ductus est terminus formalis. Et nec 
+      ma<lb ed="#B" n="20" break="no"/>teria, nec forma: quia nec materia, nec 
+      <lb ed="#B" n="21"/>forma capit esse simpliciter per 
+      mutatio<lb ed="#B" n="22" break="no"/>nem: eo quod utraque praefuerunt. Tamen 
+      <lb ed="#B" n="23"/>producitur ibi nouus homo partialis scilicet 
+      <lb ed="#B" n="24"/>illud praecise constitutum ex materia 
+      nu<lb ed="#B" n="25" break="no"/>trimenti, continuata materia hominis 
+      <lb ed="#B" n="26"/>nutriti &amp; forma: anima, scilicet rationa 
+      <lb ed="#B" n="27"/>li ipsam de nouo informante. Illud. nio 
+      <lb ed="#B" n="28"/>constitutum recipit esse simpliciter (quia 
+      <lb ed="#B" n="29"/>esse substantiale esse hominem) illa 
+      nu<lb ed="#B" n="30" break="no"/>tritione secundum se totum: licet nulla 
+      <lb ed="#B" n="31"/>pars essentialiter de nouo recipiat esse 
+      <lb ed="#B" n="32"/>Est etiam terminus totalis: quia non est 
+      <lb ed="#B" n="33"/>pars alterius illa productione producti: 
+      <lb ed="#B" n="34"/>licet sit pars totius hominis nutriti, &amp; 
+      <lb ed="#B" n="35"/>ita in nutritione hominis terminus 
+      <lb ed="#B" n="36"/>formalis non distinguitur a termino 
+      to<lb ed="#B" n="37" break="no"/>tali. Et est simile: si deus formam tota 
+      <lb ed="#B" n="38"/>lem existentem de nouo uniret mate 
+      <lb ed="#B" n="39"/>riae praeexistenti producendo sic totum 
+      <lb ed="#B" n="40"/>nouum hominem totalem: huius 
+      produ<lb ed="#B" n="41" break="no"/>ctionis idem esset terminus formalis, &amp; 
+      <lb ed="#B" n="42"/>toralis scilicet nouus homo productus. Et 
+      li<lb ed="#B" n="43" break="no"/>ter ille homo partialis non recipiat esse 
+      <lb ed="#B" n="44"/>secundum se, &amp; quodlibet sui: tamen quam 
+      <lb ed="#B" n="45"/>libet sui partem recipit per talem 
+      nutri<lb ed="#B" n="46" break="no"/>tionem, &amp; hoc sufficit, ut sit terminus 
+      <lb ed="#B" n="47"/>formalis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e653">
+      ¶ Ex omnibus illis sequitur: quod 
+      <lb ed="#B" n="48"/>terminus formalis est terminus superior 
+      <lb ed="#B" n="49"/>ad terminum totalem: quia omnis 
+      ter<lb ed="#B" n="50" break="no"/>minus totalis est formalis: eo quod nihil 
+      ip<lb ed="#B" n="51" break="no"/>fus est, quod non recipiat esse illa pro¬ 
+      <!--228.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ductione. Sed non econuerso: quia 
+      for<lb ed="#B" n="53" break="no"/>ma substantialis est terminus formalis 
+      <lb ed="#B" n="54"/>generationis substantialis, &amp; non 
+      tota<lb ed="#B" n="55" break="no"/>lis. &amp; hoc uerum est in productione: 
+      <lb ed="#B" n="56"/>secus in mutatione, seu alteratione ut  
+      <lb ed="#B" n="57"/>calefactione, cuius terminus totalis est 
+      <lb ed="#B" n="58"/>aggregatum ex subjecto, &amp; qualitate 
+      ac<lb ed="#B" n="59" break="no"/>quisita. Et hoc non est terminus 
+      for<lb ed="#B" n="60" break="no"/>malis, quia non quicquid habet recipit 
+      <lb ed="#B" n="61"/>illa mutatione: quia non materiam, nec 
+      <lb ed="#B" n="62"/>formam substantialem.
+    </p>
+            <p xml:id="gbs333-a35033-d1e692">
+      ¶ Ex istis 
+      no<lb ed="#B" n="63" break="no"/>tatis facile colligi possunt conclusiones 
+      <lb ed="#B" n="64"/>respon.
+    </p>
+            <p xml:id="gbs333-a35033-d1e700">
+      ¶ Pro art. secundo prima 
+      conclu<lb ed="#B" n="65" break="no"/>sio. Essentia non est terminus formalis 
+      <lb ed="#B" n="66"/>generationis: quia essentia non habet 
+      es<lb ed="#B" n="67" break="no"/>se simpliciter per generationem.
+    </p>
+            <p xml:id="gbs333-a35033-d1e709">
+      ¶ 
+      Secun<lb ed="#B" n="68" break="no"/>da conclusio. Relatio non est terminus 
+      <lb ed="#B" n="69"/>formalis generationis. Patet: quia nihil 
+      <lb ed="#B" n="70"/>est suiipsius terminus: sed relatio est ipsa 
+      <lb ed="#B" n="71"/>productio, ut patebit.
+    </p>
+            <p xml:id="gbs333-a35033-d1e720">
+      ¶ Tertia 
+      conclu<lb ed="#B" n="72" break="no"/>tio. Terminus formalis productionis in 
+      <lb ed="#B" n="73"/>diuinis est persona producta: non tamen 
+      <lb ed="#B" n="74"/>distinguendo terminum formalem 
+      to<lb ed="#B" n="75" break="no"/>tali. Patet ex dictis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e731">
+      ¶ Quarta conclusio. 
+      <lb ed="#B" n="76"/>Generationis diuinae idem est terminus 
+      <lb ed="#B" n="77"/>formalis, &amp; totalis. Patet satis ex nota 
+      <lb ed="#B" n="78"/>tis.
+    </p>
+            <p xml:id="gbs333-a35033-d1e740">
+      ¶ Quantum ad articulum tertium, 
+      <lb ed="#B" n="79"/>breue mouetur dubium. Nam diceret 
+      <lb ed="#B" n="80"/>forte aliquis motus auctoritate 
+      beati<lb ed="#B" n="81" break="no"/>Augustini: uidetur: quod persona non 
+      sim<lb ed="#B" n="82" break="no"/>pliciter capiat esse per generationem 
+      <lb ed="#B" n="83"/>Probatur: quia persona capit esse per id: 
+      <lb ed="#B" n="84"/>quo est: sed persona est essentia; &amp; non 
+      <lb ed="#B" n="85"/>generatione. Nam secundum beatum 
+      <lb ed="#B" n="86"/>Augustinum. Pilius eo est quo deus est: 
+      <lb ed="#B" n="87"/>sed est deus per essentiam. ergo.
+    </p>
+            <p xml:id="gbs333-a35033-d1e762">
+      ¶ 
+      Re<lb ed="#B" n="88" break="no"/>sponsio. Per, potest dicere 
+      circunstan<lb ed="#B" n="89" break="no"/>tiam illius, cui primo competit habere 
+      <lb ed="#B" n="90"/>esse, uel non esse, &amp; tale est essentia: 
+      es<lb ed="#B" n="91" break="no"/>sentia enim primo competit esse. Vel 
+      <lb ed="#B" n="92"/>potest dicere circunstantiam productio 
+      <lb ed="#B" n="93"/>nis qua aliquid producitur ab aliquo: set  
+      <lb ed="#B" n="94"/>qua accipit esse ab alio. Sicut in 
+      crea<lb ed="#B" n="95" break="no"/>turis per, aliquando dicit circumstantiam 
+      <lb ed="#B" n="96"/>ca usae formalis: aliquando 
+      circumstan<lb ed="#B" n="97" break="no"/>tiam causae efficientis. Et isto secundo 
+      <lb ed="#B" n="98"/>modo supra posito (ut dicit 
+      circumstan<lb ed="#B" n="99" break="no"/>tiam productionis) accipit Augustinus 
+      <lb ed="#B" n="100"/>cum ait: quod filius quicquid habet, 
+      nascen<lb ed="#B" n="101" break="no"/>do habet a patre, &amp; ita filius. esse quod  
+      <lb ed="#B" n="102"/>habet, accipit per generationem.
+    </p>
+            <p xml:id="gbs333-a35033-d1e798">
+      ¶ Ad 
+      <!--229.xml-->
+      <pb ed="#B" n="142"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uertendum tamen: quod filius ut patuit: non 
+      <lb ed="#B" n="2"/>est terminus formalis generationis 
+      pas<lb ed="#B" n="3" break="no"/>siuae: sed est illud, quod refertur illa 
+      ge<lb ed="#B" n="4" break="no"/>neratione passiua ad patrem: &amp; terminus 
+      <lb ed="#B" n="5"/>illius propositionis est pater: non tamen 
+      <lb ed="#B" n="6"/>pater dicitur generare illa generatione 
+      <lb ed="#B" n="7"/>sed dicitur esse illud, a quo filius genera 
+      <lb ed="#B" n="8"/>tur. Sicut enim pater refertur 
+      pater<lb ed="#B" n="9" break="no"/>nitate, seu generatione actiua ad filium: 
+      <lb ed="#B" n="10"/>&amp; non est terminus generationis 
+      acti<lb ed="#B" n="11" break="no"/>uae; sed filius: ita econuerso filius 
+      gene<lb ed="#B" n="12" break="no"/>ratione passiua refertur ad patrem, &amp; 
+      <lb ed="#B" n="13"/>non est terminus generationis 
+      passi<lb ed="#B" n="14" break="no"/>uae, sed pater. Sicut enim pater dicitur 
+      <lb ed="#B" n="15"/>generare filium, tanquam terminum 
+      <lb ed="#B" n="16"/>generationis actiuae: ita filius dicitur 
+      ge<lb ed="#B" n="17" break="no"/>nerari a patre tanquam a termino 
+      genae<lb ed="#B" n="18" break="no"/>rationis passiuae. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

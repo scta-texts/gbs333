@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="79"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a19813"> <!-- l1d2q6 -->
+            <head xml:id="gbs333-a19813-Hd1e102">Quaestio 6</head>
+            <head xml:id="gbs333-a19813-Hd1e104" type="question-title">Utrum aliquid quod est universale et univocum sit realiter extra animam ex natura rei distinctum ab individuo quamvis non realiter</head>
+            <p xml:id="gbs333-a19813-d1e107">
+               <lb ed="#B" n="65"/>QVAESTIO VI 
+      <lb ed="#B" n="66"/>VTRVM aliquid, quod est 
+      <lb ed="#B" n="67"/>uniuersale, &amp; uniuocum sit 
+      <lb ed="#B" n="68"/>realiter extra animam ex 
+      <lb ed="#B" n="69"/>natura rei distinctum ab 
+      in<lb ed="#B" n="70" break="no"/>diuiduo: quamuis non 
+      reali<lb ed="#B" n="71" break="no"/>ter.
+    </p>
+            <p xml:id="gbs333-a19813-d1e125">
+      In hac quaestione Scotus 
+      commen<lb ed="#B" n="72" break="no"/>datur a doctore iudicij subtilitate, &amp; 
+      <lb ed="#B" n="73"/>ideo eius opinionem de uniuersalibus 
+      <lb ed="#B" n="74"/>doctor latè recitat: colligens eam ex 
+      di<lb ed="#B" n="75" break="no"/>uersis scriptis eiusdem doctoris subulis 
+      </p>
+            <p xml:id="gbs333-a19813-d1e137">
+               <lb ed="#B" n="76"/>¶ Tenet haec opinio in summa, quod in qua 
+      <lb ed="#B" n="77"/>libet re extra animam siue totali, siue 
+      <lb ed="#B" n="78"/>partiali: puta materia uel forma est 
+      natu<lb ed="#B" n="79" break="no"/>ra &amp; differentia contrahens naturam ad 
+      <lb ed="#B" n="80"/>singularitatem: ut sit haec res, quam natura est 
+      <lb ed="#B" n="81"/>eadem realiter cum differentia contrahente 
+      <lb ed="#B" n="82"/>distincta tamen ab ea formaliter, &amp; prior ea 
+      <lb ed="#B" n="83"/>naturaliter. Et prior naturaliter non est de 
+      <lb ed="#B" n="84"/>se haec: sed de se indifferens ad esse hoc, 
+      ue<lb ed="#B" n="85" break="no"/>esse illud singulare.
+    </p>
+            <p xml:id="gbs333-a19813-d1e161">
+      ¶ Est tamen singularis per 
+      <lb ed="#B" n="86"/>aliquod additum, quod uocat 
+      differen<lb ed="#B" n="87" break="no"/>tiam indiuidualem contrahentem, quae 
+      <lb ed="#B" n="88"/>est haec seipsa formaliter: ipsa natura 
+      nul<lb ed="#B" n="89" break="no"/>libi est non contracta: quia ubicunque est, 
+      <lb ed="#B" n="90"/>siue in quocunque indiuiduo (nam non 
+      <lb ed="#B" n="91"/>potest esse separata extra indiuiduum 
+      <lb ed="#B" n="92"/>ibi contracta est, &amp; eadem realiter cum 
+      <lb ed="#B" n="93"/>contrahente: &amp; per consequens uere res 
+      <lb ed="#B" n="94"/>singularis, &amp; realiter alia, &amp; alia cum alio: 
+      <lb ed="#B" n="95"/>&amp; alio contrahente: hoc est in diuersis 
+      <lb ed="#B" n="96"/>indiuiduis: &amp; ita nunquam una numero 
+      <lb ed="#B" n="97"/>in diuersis indiuiduis: puta sorte, &amp; 
+      Pla<lb ed="#B" n="98" break="no"/>tone. Sed in quolibet indiuiduo est 
+      <!--167.xml-->
+      <pb ed="#B" n="80"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unum numero, non autem de se: sed qua 
+      <lb ed="#B" n="2"/>si denominatiue per differentiam con 
+      <lb ed="#B" n="3"/>trabentem. Haec autem differentia con 
+      <lb ed="#B" n="4"/>trabens non est negatio: neque 
+      acciden<lb ed="#B" n="5" break="no"/>talis existentia nec materia: sed est de 
+      <lb ed="#B" n="6"/>genere substantiae intrinsecum 
+      indiui<lb ed="#B" n="7" break="no"/>duo: &amp; ultima realitas entis, quod est ma 
+      <lb ed="#B" n="8"/>teria: &amp; entis, quod est forma, &amp; entis, 
+      <lb ed="#B" n="9"/>quod est compositum: ita quod quaelibet na 
+      <lb ed="#B" n="10"/>tura siue sit partialis, siue totalis 
+      quan<lb ed="#B" n="11" break="no"/>tumcunque; sit una res, potest distingui in 
+      <lb ed="#B" n="12"/>plures realitates formaliter distinctas scilice 
+      <lb ed="#B" n="13"/>realitatem naturae, ut prior differentia 
+      <lb ed="#B" n="14"/>contrahente. &amp; realitatem differentiae 
+      <lb ed="#B" n="15"/>contrabentis: quarum haec formaliter non 
+      <lb ed="#B" n="16"/>est illa: &amp; haec. i. differentia contrahens 
+      <lb ed="#B" n="17"/>formaliter est entitas singularis: &amp; illam. 
+      <lb ed="#B" n="18"/>est natura ut prior differentia contrabente 
+      <lb ed="#B" n="19"/>formaliter est entitas naturae conis. Nec 
+      <lb ed="#B" n="20"/>tamen illae realitates possunt esse res, &amp; res. 
+      <lb ed="#B" n="21"/>i. distinctae res: sed sunt realitas, &amp; 
+      reali<lb ed="#B" n="22" break="no"/>tas tamen una res.
+    </p>
+            <p xml:id="gbs333-a19813-d1e246">
+      ¶ Consequenter ponit: quod 
+      <lb ed="#B" n="23"/>licet natura de se sit communis: tamen 
+      <lb ed="#B" n="24"/>non est de se complete uniuersalis: sed  
+      <lb ed="#B" n="25"/>secundum quod habet esse in intellectu. Nam 
+      <lb ed="#B" n="26"/>ad hoc, quod aliquid sit commune: sufficit, 
+      <lb ed="#B" n="27"/>quod de se sit indeterminatum ad eem hoc, uel 
+      <lb ed="#B" n="28"/>hoc. daeterminabile tamen per additam 
+      diffe<lb ed="#B" n="29" break="no"/>rentiam, &amp; tale est natura. Ad hoc autem: 
+      <lb ed="#B" n="30"/>quod aliquid sit uniuersale: requiritur, quod sit 
+      <lb ed="#B" n="31"/>quidem commune. &amp; cum hoc sit unum 
+      <lb ed="#B" n="32"/>praedicabile de quolibet supposito 
+      praedi<lb ed="#B" n="33" break="no"/>catione dicente hoc esse illud: quia. j. 
+      <lb ed="#B" n="34"/>Posteriorum. Vniuersale est, quod est 
+      <lb ed="#B" n="35"/>unum in multis, &amp; unum de multis. 
+      Ni<lb ed="#B" n="36" break="no"/>hil autem in re est tale: quia licet aliquid 
+      <lb ed="#B" n="37"/>extra animam non sit de se hoc: ita quod 
+      <lb ed="#B" n="38"/>ex se non repugnat sibi esse in alia 
+      sin<lb ed="#B" n="39" break="no"/>gularitate, &amp; ita esse non hoc: omne tamen 
+      <lb ed="#B" n="40"/>extra animam est singulare &amp; hoc siue ex 
+      <lb ed="#B" n="41"/>se, siue ex superaddita contrabente 
+      dif<lb ed="#B" n="42" break="no"/>ferentia, cum qua tamen est idem 
+      reali<lb ed="#B" n="43" break="no"/>ter. Et per hoc nihil realiter existens 
+      <lb ed="#B" n="44"/>extra animam, potest praedicari de alio 
+      <lb ed="#B" n="45"/>singulariter praedicatione dicente hoc  
+      <lb ed="#B" n="46"/>esse hoc. Sed hoc solum est possibile de 
+      <lb ed="#B" n="47"/>aliquo, quod secundum considerationem 
+      <lb ed="#B" n="48"/>intellectus est idem: seu unum obiectum 
+      <lb ed="#B" n="49"/>numero: secundum quam unitatem: quad 
+      <lb ed="#B" n="50"/>habet ex consideratione intellectus 
+      po<lb ed="#B" n="51" break="no"/>test praedicari de multis singularibus prae¬ 
+      <!--167.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>dicatione dicente hoc est hoc. &amp; illa 
+      <lb ed="#B" n="53"/>uniuersalitas non conuenit rei extra 
+      ani<lb ed="#B" n="54" break="no"/>mam ex se: sed ex consideratione 
+      intel<lb ed="#B" n="55" break="no"/>lectus.
+    </p>
+            <p xml:id="gbs333-a19813-d1e324">
+      ¶ Hanc opinionem firmat 
+      qua<lb ed="#B" n="56" break="no"/>tuor rationibus, quas postea soluit eam 
+      <lb ed="#B" n="57"/>quoque de septem rationibus impugnat. 
+      </p>
+            <p xml:id="gbs333-a19813-d1e331">
+               <lb ed="#B" n="58"/>¶ Ad quaestionem est haec responsio 
+      au<lb ed="#B" n="59" break="no"/>ctoris.
+    </p>
+            <p xml:id="gbs333-a19813-d1e338">
+      ¶ Conclusio prima. Quaelibet  
+      <lb ed="#B" n="60"/>res singularis seipsa est singularis. Nam 
+      <lb ed="#B" n="61"/>singularitas, unitas, identitas immediate 
+      <lb ed="#B" n="62"/>conuenit rei omni alio circumscripto: 
+      <lb ed="#B" n="63"/>&amp; per consequens non per aliud.
+    </p>
+            <p xml:id="gbs333-a19813-d1e350">
+      ¶ 
+      Con<lb ed="#B" n="64" break="no"/>clusio secunda. Omnis res extra animam 
+      <lb ed="#B" n="65"/>est realiter singularis, &amp; una numero. 
+      Pa<lb ed="#B" n="66" break="no"/>ter ex prioribus: quia omnis res cum alia 
+      <lb ed="#B" n="67"/>re facit numerum: puta dualitatem: 
+      igi<lb ed="#B" n="68" break="no"/>tur quaelibet earum duarum est 
+      una<lb ed="#B" n="69" break="no"/>Coclusio tertia. Quaelibet res extra 
+      ani<lb ed="#B" n="70" break="no"/>mam seipsa est singularis. Patet ex 
+      prae<lb ed="#B" n="71" break="no"/>cedentibus duabus. Vnde quaelibet res 
+      <lb ed="#B" n="72"/>extra animam seipsa est haec: nec est quae 
+      <lb ed="#B" n="73"/>renda causa indiuiduationis nisi 
+      forte<lb ed="#B" n="74" break="no"/>extrinseca, uel intrinseca, si fuerit 
+      com<lb ed="#B" n="75" break="no"/>posita: sed quaelibet res eoipso quod est, est 
+      <lb ed="#B" n="76"/>haec res.
+    </p>
+            <p xml:id="gbs333-a19813-d1e381">
+      ¶ Conclusio quarta. Illud, quod  
+      <lb ed="#B" n="77"/>est uniuersale &amp; uniuocum: non est 
+      ali<lb ed="#B" n="78" break="no"/>quid realiter ex parte rei distinctum 
+      for<lb ed="#B" n="79" break="no"/>maliter ab indiuiduo. Probatur: quia alias 
+      <lb ed="#B" n="80"/>in praedicatione superioris idem pradicaret 
+      <lb ed="#B" n="81"/>de seipso. &amp; in prdicatione gnis de diuer 
+      <lb ed="#B" n="82"/>lis speciebus, esset sem paliud &amp; aliud prae 
+      <lb ed="#B" n="83"/>dicatum: non tamen numero: sed specie. 
+      facile<lb ed="#B" n="84" break="no"/>ostenditur.
+    </p>
+            <p xml:id="gbs333-a19813-d1e401">
+      ¶ Rationes pro opinione 
+      <lb ed="#B" n="85"/>Ioann. late adducuntur, &amp; sufficienter 
+      <lb ed="#B" n="86"/>soluuntur a doctore. Et licet auctor eas 
+      <lb ed="#B" n="87"/>liene soluat: nihilominus ut appareat  
+      <lb ed="#B" n="88"/>nullitas argumenti primae rationis. 
+      Sco<lb ed="#B" n="89" break="no"/>ti arguatur in simili sic. Quicquid 
+      con<lb ed="#B" n="90" break="no"/>uenit alicui ex sua ratione per se, inest &amp; 
+      <lb ed="#B" n="91"/>in quocunque: ergo si differentia 
+      indi<lb ed="#B" n="92" break="no"/>uidualis de se est haec: in quocunque esset 
+      <lb ed="#B" n="93"/>differentia indiuidualis, illud esset hic 
+      ho<lb ed="#B" n="94" break="no"/>mo: &amp; sic quilibet homo esset hic 
+      ho<lb ed="#B" n="95" break="no"/>mo scilicet Ioann. demonstratus: eo quod in quo 
+      <lb ed="#B" n="96"/>libet homine est differentia 
+      indiuidua<lb ed="#B" n="97" break="no"/>lis.
+    </p>
+            <p xml:id="gbs333-a19813-d1e432">
+      ¶ Solutio huius rationis est 
+      solutio<lb ed="#B" n="98" break="no"/>rationis Scori. quia est eadem ratio, 
+      ni<lb ed="#B" n="99" break="no"/>si quod loco dictionis natura, ponatur 
+      diffe<lb ed="#B" n="100" break="no"/>tentia indiuidualis. Ponatur ergo 
+      argu<lb ed="#B" n="101" break="no"/>mentum Stori ad formam 
+      syllogisticim<lb ed="#B" n="102" break="no"/>sic. Quicquid de se est hic homo: ubicun¬ 
+      <!--168.xml-->
+      <pb ed="#B" n="81"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>que est, est hic homo: natura humana de 
+      <lb ed="#B" n="2"/>se est hic homo: demonstrando sortem: 
+      <lb ed="#B" n="3"/>ergo ubicunque est natura humana, est 
+      <lb ed="#B" n="4"/>hic homo scilicet sortes. Respondetur: quod 
+      argu<lb ed="#B" n="5" break="no"/>nientum non ualet. Nam ambae praemis 
+      <lb ed="#B" n="6"/>sae sunt uerae: &amp; conclusio falsa: &amp; est 
+      fal<lb ed="#B" n="7" break="no"/>lacia accidentis: quia non est talis 
+      habi<lb ed="#B" n="8" break="no"/>tudo minoris extremitatis ad maiorem 
+      <lb ed="#B" n="9"/>extremitatem in conclusione: qualis fuit 
+      <lb ed="#B" n="10"/>medij ad eandem maiorem extremitatem 
+      <lb ed="#B" n="11"/>in maiore. Nam in maiore medium 
+      prao<lb ed="#B" n="12" break="no"/>tedit maiorem extremitatem: &amp; in 
+      con<lb ed="#B" n="13" break="no"/>clusione minor extremitas sequitur 
+      par<lb ed="#B" n="14" break="no"/>tem maioris extremitatis.
+    </p>
+            <p xml:id="gbs333-a19813-d1e482">
+      ¶ Et si dicitur 
+      <lb ed="#B" n="15"/>sola transpositio terminorum non 
+      ua<lb ed="#B" n="16" break="no"/>riat: neque ueritatem propositionum: 
+      <lb ed="#B" n="17"/>nec formam sullogisticam: quia nomina 
+      <lb ed="#B" n="18"/>&amp; uerba transposita idem significant  
+      <lb ed="#B" n="19"/>Respondet auctor: quod arguitur a 
+      supposi<lb ed="#B" n="20" break="no"/>tione determinata ad consusam tantum: 
+      <lb ed="#B" n="21"/>quia natura humana in minore 
+      suppo<lb ed="#B" n="22" break="no"/>nit determinate: &amp; in conclusione 
+      con<lb ed="#B" n="23" break="no"/>sus: tantum. Deberet ergo sic 
+      conclu<lb ed="#B" n="24" break="no"/>di. ergo natura humana in quocunque est 
+      <lb ed="#B" n="25"/>est hic homo. Et sic conclusio est uera 
+      <lb ed="#B" n="26"/>E sicut antecedens: ut clare ostendit.
+    </p>
+            <p xml:id="gbs333-a19813-d1e511">
+      ¶ Sed 
+      <lb ed="#B" n="27"/>contra. A suppositione determinata 
+      ali<lb ed="#B" n="28" break="no"/>cuius termini ad eundem supponentem 
+      <lb ed="#B" n="29"/>confuse tantum in affirmatiua est bona 
+      <lb ed="#B" n="30"/>consequentia, licet non econuerso: quia 
+      <lb ed="#B" n="31"/>bene sequitur. Omnis homo est aliquod  
+      <lb ed="#B" n="32"/>animal: ergo omnis homo est animal. 
+      er<lb ed="#B" n="33" break="no"/>go bene sequitur. Natura humana in 
+      <lb ed="#B" n="34"/>quocunque est, est hic homo: ergo in 
+      quo<lb ed="#B" n="35" break="no"/>cunque est natura humana est hic 
+      ho<lb ed="#B" n="36" break="no"/>mo. Dicendum finaliter: quod non sequitur 
+      <lb ed="#B" n="37"/>quia arguitur a non distributo ad 
+      distri<lb ed="#B" n="38" break="no"/>butum: unde in illa. In quocunque est 
+      <lb ed="#B" n="39"/>natura humana, est hic homo: natura 
+      <lb ed="#B" n="40"/>humana supponit confuse distributiue: 
+      <lb ed="#B" n="41"/>quia est determinatio termini distributi 
+      <lb ed="#B" n="42"/>ualet enim illam. In omni habente, seu 
+      <lb ed="#B" n="43"/>continente naturam humanam est hic 
+      ho<lb ed="#B" n="44" break="no"/>mo: uel. Omne animal ratioale est hic 
+      ho<lb ed="#B" n="45" break="no"/>mo. Vnde est haec regula. Omne signum 
+      <lb ed="#B" n="46"/>distribuens determinabile distribuit eius 
+      <lb ed="#B" n="47"/>determinationem distribuibilem 
+      se<lb ed="#B" n="48" break="no"/>quentem, siue immediatè determinet, 
+      <lb ed="#B" n="49"/>siue mediante relatiuo: ut hic. 
+      Om<lb ed="#B" n="50" break="no"/>ne animal, quod est rationale, est 
+      ho<lb ed="#B" n="51" break="no"/>mo: uel. Omne animal rationale est 
+      <!--168.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>hic homo. Vtrobique rationale 
+      distri<lb ed="#B" n="53" break="no"/>buitur. Similiter hic. Quicunque 
+      ui<lb ed="#B" n="54" break="no"/>det animal, uidet equum (q ualet illam 
+      <lb ed="#B" n="55"/>Oeuidens animaluidet equum) animal 
+      di<lb ed="#B" n="56" break="no"/>stribuitur. Vnde manifestum est: quod 
+      si<lb ed="#B" n="57" break="no"/>gna quaecunque quicquid: &amp; caetera 
+      di<lb ed="#B" n="58" break="no"/>stributiua includentia relatiuum, 
+      distri<lb ed="#B" n="59" break="no"/>buunt omnem terminum 
+      distribuibi<lb ed="#B" n="60" break="no"/>sem a patre eiusdem extremi 
+      sequen<lb ed="#B" n="61" break="no"/>tem.
+    </p>
+            <p xml:id="gbs333-a19813-d1e595">
+      ¶ Haec responsio uera est 
+      secun<lb ed="#B" n="62" break="no"/>dum opinionem Burid. tenentis: quod 
+      <lb ed="#B" n="63"/>signum uniuersale affirmatiuum 
+      distri<lb ed="#B" n="64" break="no"/>buens determinabile, etiam distribuit  
+      <lb ed="#B" n="65"/>determinationem sequentem, si fuerit 
+      <lb ed="#B" n="66"/>distribuibilis ut hic: quilibet asinus 
+      ho<lb ed="#B" n="67" break="no"/>minis currit: ubi tam asinus quam 
+      homi<lb ed="#B" n="68" break="no"/>nis distribuitur.
+    </p>
+            <p xml:id="gbs333-a19813-d1e613">
+      ¶ Siuero illa opinio non 
+      <lb ed="#B" n="69"/>tenetur sed generaliter quod obliquus 
+      me<lb ed="#B" n="70" break="no"/>diate sequens signum distributiuum, 
+      af<lb ed="#B" n="71" break="no"/>firmatiuum, supponit confuse tantum, 
+      <lb ed="#B" n="72"/>&amp; quod in praedicta hominis supponit 
+      con<lb ed="#B" n="73" break="no"/>fuse tantum, &amp; non distributiue: sicut I 
+      <lb ed="#B" n="74"/>uidetur uelle auctor. Dicendum: quod cont 
+      <lb ed="#B" n="75"/>sequentia suppositione determinata 
+      adr<lb ed="#B" n="76" break="no"/>confusam tantum, ualet quando 
+      suppo<lb ed="#B" n="77" break="no"/>sitio confusa tantum est determinatio st 
+      <lb ed="#B" n="78"/>termini distributi, &amp; sic est in proposito. 
+      <lb ed="#B" n="79"/>Et haec solutio est facilior, &amp; planior.s 
+      <lb ed="#B" n="80"/>Non enim facile saluatur: quod hominis 
+      <lb ed="#B" n="81"/>supponit confuse distributiue in illa:s 
+      <lb ed="#B" n="82"/>quilibet asinus hominis currit: cum non 
+      <lb ed="#B" n="83"/>ualeatsub eo descensus copulatiuus, quaem 
+      <lb ed="#B" n="84"/>ad logicam pertinent.
+    </p>
+            <p xml:id="gbs333-a19813-d1e650">
+      ¶ Alia etiam 
+      no<lb ed="#B" n="85" break="no"/>tat doctor consideratione digna 
+      insolu<lb ed="#B" n="86" break="no"/>tione aliarum rationum.
+    </p>
+            <p xml:id="gbs333-a19813-d1e657">
+      ¶ In ratione. 
+      <lb ed="#B" n="87"/>secunda ostendit hanc esse ueram. 
+      Na<lb ed="#B" n="88" break="no"/>turae repugnat multitudo numeralis, &amp; 
+      <lb ed="#B" n="89"/>uniuersaliter esse in multis secundum 
+      sup<lb ed="#B" n="90" break="no"/>positionem personalem: hoc est naturae 
+      <lb ed="#B" n="91"/>repugnat esse in alio, &amp; naturae repugnat  
+      <lb ed="#B" n="92"/>esse in multis.
+    </p>
+            <p xml:id="gbs333-a19813-d1e673">
+      ¶ Item quod in 
+      supposi<lb ed="#B" n="93" break="no"/>tione personali ita repugnat naturae 
+      prae<lb ed="#B" n="94" break="no"/>dicari de multis sic ut esse in multis. Sed 
+      <lb ed="#B" n="95"/>in suppositione simplici illud 
+      commu<lb ed="#B" n="96" break="no"/>ne natura, quod non est in re: sed in 
+      <lb ed="#B" n="97"/>mente potest praedicari de multis non 
+      <lb ed="#B" n="98"/>pro se, sed pro re.
+    </p>
+            <p xml:id="gbs333-a19813-d1e689">
+      ¶ In tertia ratione. 
+      <lb ed="#B" n="99"/>parum habet.
+    </p>
+            <p xml:id="gbs333-a19813-d1e695">
+      ¶ In quarta unitas 
+      sumi<lb ed="#B" n="100" break="no"/>tur multipliciter. Vno modo dicitur 
+      <lb ed="#B" n="101"/>unitas secundum, quod denominat 
+      prae<lb ed="#B" n="102" break="no"/>cise unum aliquid, &amp; non plura: nec 
+      <!--169.xml-->
+      <pb ed="#B" n="82"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unum comparatiue ad aliud: sic omnis 
+      <lb ed="#B" n="2"/>unitas realis est numeralis. Alio 
+      mo<lb ed="#B" n="3" break="no"/>do ut denominat plura indiuidua, uel 
+      u<lb ed="#B" n="4" break="no"/>num in ordine ad aliud, ut unitas 
+      ge<lb ed="#B" n="5" break="no"/>neris, uel speciuoca, &amp; haec non est 
+      nu<lb ed="#B" n="6" break="no"/>meralis. Nec tamen est distincta ab 
+      in<lb ed="#B" n="7" break="no"/>diuiduis: sed plurium indiuiduorum ut  
+      <lb ed="#B" n="8"/>unitas plurium contentorum subeadem 
+      <lb ed="#B" n="9"/>specie, uel eodem genere.
+    </p>
+            <p xml:id="gbs333-a19813-d1e730">
+      ¶ Aliqua sunt 
+      <lb ed="#B" n="10"/>idem specie id est continentur sub eadem 
+      <lb ed="#B" n="11"/>specie.
+    </p>
+            <p xml:id="gbs333-a19813-d1e737">
+      ¶ Ad primam probationem. In 
+      <lb ed="#B" n="12"/>omni genere est unum primum, quod est 
+      <lb ed="#B" n="13"/>metrum, &amp; mensura omnium aliorum 
+      <lb ed="#B" n="14"/>illius generisd est quandocunque 
+      mensu<lb ed="#B" n="15" break="no"/>ramus aliquod mensurabile: mensuramus 
+      <lb ed="#B" n="16"/>ipsum per aliquod minus, per cuius 
+      repli<lb ed="#B" n="17" break="no"/>cationem cognoscitur mensura maioris: 
+      <lb ed="#B" n="18"/>Haec est sententia philosophi, &amp; sui com 
+      <lb ed="#B" n="19"/>menta. x. metaph. In tertia probatione. 
+      <lb ed="#B" n="20"/>Comparatio sit inter ea, quorum unum 
+      <lb ed="#B" n="21"/>est intensius alio: sed quia intensio est 
+      <lb ed="#B" n="22"/>unio graduum eiusdem speciei 
+      specia<lb ed="#B" n="23" break="no"/>lis simae: ideo solum in specie atthoma sit 
+      <lb ed="#B" n="24"/>comparatio id est in illis, quae habent eandem 
+      <lb ed="#B" n="25"/>qualitatem secundum speciem 
+      specialis<lb ed="#B" n="26" break="no"/>simam.
+    </p>
+            <p xml:id="gbs333-a19813-d1e772">
+      ¶ In tertia probatione parum 
+      ha<lb ed="#B" n="27" break="no"/>bet.
+    </p>
+            <p xml:id="gbs333-a19813-d1e777">
+      ¶ In quarta quomodo intelligitur: 
+      <lb ed="#B" n="28"/>quod oppositionis tamen sunt duo extrema 
+      pri<lb ed="#B" n="29" break="no"/>ma: &amp; quomodo multa ad sensum praefa 
+      <lb ed="#B" n="30"/>tum in. q. iiij. de illa. Color est obiectum 
+      <lb ed="#B" n="31"/>adaequatum uisus: homo est primo 
+      risibi<lb ed="#B" n="32" break="no"/>lis. Item tantum unum uni est 
+      contra<lb ed="#B" n="33" break="no"/>rium. Philosophus loquitur de uno 
+      se<lb ed="#B" n="34" break="no"/>cundum speciem, non secundum nume 
+      <lb ed="#B" n="35"/>rum. Item unitas speciuoca est realis, 
+      <lb ed="#B" n="36"/>&amp; a parte rei id est aliqua plura continentur 
+      <lb ed="#B" n="37"/>sub eadem specie. Item contraria possunt 
+      <lb ed="#B" n="38"/>esse in eodem successiue. In quinta 
+      pro<lb ed="#B" n="39" break="no"/>batione: non est idem dicere potentia 
+      <lb ed="#B" n="40"/>appraehensiua cognoscit hoc distinctum 
+      <lb ed="#B" n="41"/>id est hoc distinctum id est illud quod est 
+      distin<lb ed="#B" n="42" break="no"/>ctum. Et cognoscit illud distingui id est: 
+      <lb ed="#B" n="43"/>quod distinguatur ab alio.
+    </p>
+            <p xml:id="gbs333-a19813-d1e814">
+      ¶ In sexta. 
+      Qua<lb ed="#B" n="44" break="no"/>re conceptus comunis potest abstrahi a 
+      <lb ed="#B" n="45"/>sorte, &amp; Platone, &amp; non a sorte, &amp; 
+      albe<lb ed="#B" n="46" break="no"/>dine cum tamen utrobique sit 
+      diuersi<lb ed="#B" n="47" break="no"/>tas numeralis. Ratio est natura rei: quia 
+      <lb ed="#B" n="48"/>uterque est homo sua substantia: &amp; sunt 
+      <lb ed="#B" n="49"/>simillimi.
+    </p>
+            <p xml:id="gbs333-a19813-d1e831">
+      ¶ Nec est concedendum: quod 
+      for<lb ed="#B" n="50" break="no"/>tes, &amp; Plato conueniant in aliquo puta 
+      <lb ed="#B" n="51"/>in natura: sed conueniunt aliquibus: quia 
+      <!--169.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>seipsis: utputa: quod uterque est homo.
+    </p>
+            <p xml:id="gbs333-a19813-d1e844">
+      ¶ Quique 
+      <lb ed="#B" n="53"/>tamen dicitur: quod coueniant in homine: hoc  
+      <lb ed="#B" n="54"/>uerum est in suppositione simplici: quia 
+      <lb ed="#B" n="55"/>homo praedicatur de quolibet. homo in 
+      <lb ed="#B" n="56"/>quam: ut est nomen commune, siue 
+      spe<lb ed="#B" n="57" break="no"/>cies. Sed in suppositione prsonali falsum 
+      <lb ed="#B" n="58"/>est: quia in nullo homine con conueniunt. 
+      </p>
+            <p xml:id="gbs333-a19813-d1e860">
+               <lb ed="#B" n="59"/>¶ In prima confirmatione, aliqua esse 
+      <lb ed="#B" n="60"/>primo diuersa sumitur dupliciter. Et quod 
+      <lb ed="#B" n="61"/>primo diuersa sunt proprie: non quae in 
+      <lb ed="#B" n="62"/>nullo conueniunt: sed quorum neutrum 
+      <lb ed="#B" n="63"/>differt ab alio per aliquod conmunis, a quo 
+      <lb ed="#B" n="64"/>alterum prius negatur.
+    </p>
+            <p xml:id="gbs333-a19813-d1e876">
+      ¶ Et quod longe 
+      re<lb ed="#B" n="65" break="no"/>fert aliqua esse diuersa: &amp; aliqua esse 
+      dif<lb ed="#B" n="66" break="no"/>ferentia: quod per longum ostendit.
+    </p>
+            <p xml:id="gbs333-a19813-d1e883">
+      ¶ 
+      Ae<lb ed="#B" n="67" break="no"/>quinitas est per se indifferens ad esse 
+      sin<lb ed="#B" n="68" break="no"/>gulare, &amp; uniuersale conceditur in actu 
+      <lb ed="#B" n="69"/>signato isto scilicet de equinitate potest 
+      in<lb ed="#B" n="70" break="no"/>differenter praedicari esse uniuersale, &amp; 
+      <lb ed="#B" n="71"/>singulare. Plura alia notatu digna in 
+      ea<lb ed="#B" n="72" break="no"/>dem quaestione tanguntur in solutione 
+      <lb ed="#B" n="73"/>rationum. Scoti. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

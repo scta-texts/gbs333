@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="45"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a11133"> <!-- l1d1q2 -->
+            <head xml:id="gbs333-a11133-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a11133-Hd1e104" type="question-title">Utrum frui sit actus solius voluntatis</head>
+            <p xml:id="gbs333-a11133-d1e107">
+               <lb ed="#B" n="38"/>QVAESTIO II 
+      <lb ed="#B" n="39"/>SEcundo quaeritur: utrum frui 
+      <lb ed="#B" n="40"/>sit actus solius uoluntatis.
+  </p>
+            <p xml:id="gbs333-a11133-d1e116">
+               <lb ed="#B" n="41"/>Tribus articulis quaestio 
+    ter<lb ed="#B" n="42" break="no"/>minabitur. In primo 
+      termi<lb ed="#B" n="43" break="no"/>ni quaestionis exponentur. Ii secundo 
+      <lb ed="#B" n="44"/>conclusiones annectentur. In tertio 
+      du<lb ed="#B" n="45" break="no"/>bia aperientur, &amp; soluentur.
+    </p>
+            <!-- article 1 -->
+            <p xml:id="gbs333-a11133-d1e132">
+      ¶ 
+      Quan<lb ed="#B" n="46" break="no"/>tum ad articulum primum notandum 
+      <lb ed="#B" n="47"/>secundum doct. quod frui dicitur a fructu: 
+      <lb ed="#B" n="48"/>fructus autem est ultimum: quod 
+      expe<lb ed="#B" n="49" break="no"/>ctatur culto agro, uel campo, uel in alia 
+      <!--132.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>re fructifera. Cum ergo actus 
+      uolunta<lb ed="#B" n="51" break="no"/>tis hominis sit ultimus: &amp; ab intellectu, 
+      <lb ed="#B" n="52"/>uel intellectione causatus: ergo frui erit 
+      <lb ed="#B" n="53"/>ultimus actus: &amp; ita uoluntatis. Verum 
+      <lb ed="#B" n="54"/>haec persuasio non cogit. &amp; utendum est 
+      <lb ed="#B" n="55"/>terminis, sicut eis utuntur aucto: qui 
+      no<lb ed="#B" n="56" break="no"/>minant frui esse actum uoluntatis ergo 
+      </p>
+            <p xml:id="gbs333-a11133-d1e163">
+               <lb ed="#B" n="57"/>¶ Item actus uoluntatis est quietatiuus 
+      <lb ed="#B" n="58"/>sed fruitione uoluntas delectata 
+      con<lb ed="#B" n="59" break="no"/>quiescit. Vnde Aug. x. de trinit. 
+      Erui<lb ed="#B" n="60" break="no"/>mur cognitis, in quibus propter seipsa 
+      <lb ed="#B" n="61"/>uoluntas delectata conquiescit. Item frui 
+      <lb ed="#B" n="62"/>est amore alicui inhaerere propter se: saed  
+      <lb ed="#B" n="63"/>ad solam uoluntatem pertinet alicui in 
+      <lb ed="#B" n="64"/>haerere per amorem.
+    </p>
+            <p xml:id="gbs333-a11133-d1e183">
+      ¶ Secundo 
+      notan<lb ed="#B" n="65" break="no"/>dum: licet multaeponantur acceptiones 
+      <lb ed="#B" n="66"/>frui, de quibus in alijs quaestionibus 
+      pa<lb ed="#B" n="67" break="no"/>tebit: hic tamen accipitur dupliciter. Vno 
+      <lb ed="#B" n="68"/>modo large pro omni actu, quo aliquid 
+      <lb ed="#B" n="69"/>assumitur in facultatem uoluntatis 
+      pro<lb ed="#B" n="70" break="no"/>pter se tanquam summum: siue sit 
+      prae<lb ed="#B" n="71" break="no"/>sens, siue ab:ens, siue habitum, siue non 
+      <lb ed="#B" n="72"/>habitum: sic uiatores fruuntur deo, &amp; 
+      di<lb ed="#B" n="73" break="no"/>citur fruitio uiae. Alio modo stricte 
+      ac<lb ed="#B" n="74" break="no"/>cipitur pro actu ultimo, &amp; beatifico, &amp; 
+      <lb ed="#B" n="75"/>sic fruuntur deo beati in caelo.
+    </p>
+            <p xml:id="gbs333-a11133-d1e209">
+      ¶ Tertio 
+      <lb ed="#B" n="76"/>notandum, quod cum quaeritur, utrum 
+      frui<lb ed="#B" n="77" break="no"/>sit actus solius uoluntatis. non excludit 
+      <lb ed="#B" n="78"/>ntellectus propter personarum 
+      identi<lb ed="#B" n="79" break="no"/>tatem: uerum cum intelligere, &amp; uelle 
+      <lb ed="#B" n="80"/>sunt actus realiter distincti: sicut etiam ap 
+      <lb ed="#B" n="81"/>petere, &amp; cognoscere, connotari per hos 
+      <lb ed="#B" n="82"/>terminos intellectus, &amp; uoluntas: qui 
+      li<lb ed="#B" n="83" break="no"/>cet pro eadem re supponant: connotant 
+      <lb ed="#B" n="84"/>tamen actus diuersos, in quos potest 
+      ani<lb ed="#B" n="85" break="no"/>ma: unde &amp; diuersa sortiuntur uocabula 
+      <lb ed="#B" n="86"/>diuersos actus connotantia. Ideo potius 
+      <lb ed="#B" n="87"/>sumuntur illa nomina pro connotato, 
+      <lb ed="#B" n="88"/>quam subtracto. unde quaerit quaestio, an frus 
+      <lb ed="#B" n="89"/>st actus cognitiuus, uel appetitiuus, 
+      seu<lb ed="#B" n="90" break="no"/>an frui sit cognoscere, uel uelle. Posset 
+      <lb ed="#B" n="91"/>n. de rigore concedi: quod frui est in 
+      in<lb ed="#B" n="92" break="no"/>tellectu: quia est in uoluntate, 
+      quaeidentifi<lb ed="#B" n="93" break="no"/>catur intellectu: licet frui non sit 
+      intelli<lb ed="#B" n="94" break="no"/>gere.
+    </p>
+            <p xml:id="gbs333-a11133-d1e253">
+      ¶ Quantum ad secundum 
+      arti<lb ed="#B" n="95" break="no"/>tulum est conclusio prima. Erui e actus 
+      <lb ed="#B" n="96"/>solius uoluntatis. Haec conclusio etiam 
+      <lb ed="#B" n="97"/>est Grego. quaest. ij. art. iij distinct. 
+      prae<lb ed="#B" n="98" break="no"/>sentis, ubi dicit. Omnis fruitio est actus 
+      <lb ed="#B" n="99"/>solius uoluntatis. &amp; Ovta. qua stio. ij. 
+      <lb ed="#B" n="100"/>artic. ij. Sed Holkor. quaest. iij. artic. v. 
+      <!--133.xml-->
+      <pb ed="#B" n="46"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tenet contrarium: &amp; similiter Adam 
+      di<lb ed="#B" n="2" break="no"/>centes, quod omnis uolitio est cognitio, quod 
+      <lb ed="#B" n="3"/>late pertractat, &amp; impugnat Greg. ubi 
+      <lb ed="#B" n="4"/>supra uide ibi. Probatur propositio: quia 
+      <lb ed="#B" n="5"/>omnis fruitio est amor: amor autem est 
+      <lb ed="#B" n="6"/>actus solius uoluntatis: frui etenim est 
+      <lb ed="#B" n="7"/>alicui amore inhaerere propter se.
+    </p>
+            <p xml:id="gbs333-a11133-d1e290">
+      ¶ 
+      Con<lb ed="#B" n="8" break="no"/>clusio secunda. Licet omnis fruitio sit 
+      <lb ed="#B" n="9"/>actus uoluntatis subiectiuem: non tamen 
+      <lb ed="#B" n="10"/>oportet quod sit a uoluntate effectiue. 
+      Pa<lb ed="#B" n="11" break="no"/>ter conclu. ex dicendis in conclus tertia, 
+      <lb ed="#B" n="12"/>Actus. nefruitionis beatificus secundum 
+      plu<lb ed="#B" n="13" break="no"/>res, non est a uoluntate actiue: sed solum 
+      <lb ed="#B" n="14"/>in ea passiue.
+    </p>
+            <p xml:id="gbs333-a11133-d1e309">
+      ¶ Conclusio tertia. Obie 
+      <lb ed="#B" n="15"/>cto fruibili ostenso per intellectum 
+      uo<lb ed="#B" n="16" break="no"/>suntati, siue clare, siue obscure, siue in 
+      <lb ed="#B" n="17"/>particulari, siue in uniuersali, potest 
+      uo<lb ed="#B" n="18" break="no"/>luntas circa ipsum actiue elicere actum 
+      <lb ed="#B" n="19"/>fruitionis etiam ex puris naturalibus. 
+      <lb ed="#B" n="20"/>Probatur: quia omni dictamini rationis 
+      <lb ed="#B" n="21"/>recte uoluntas se potest ex naturalibus 
+      <lb ed="#B" n="22"/>suis conformare. Sed potest ratio 
+      di<lb ed="#B" n="23" break="no"/>ctare, &amp; recte: quod huiusmodi obiectum sic 
+      <lb ed="#B" n="24"/>ostensum sit diligendum: ergo uoluntas 
+      <lb ed="#B" n="25"/>potest conformiter talem actum elice 
+      <lb ed="#B" n="26"/>re. Item omnis potentia libera potest 
+      <lb ed="#B" n="27"/>habere aliquem actum circa obiectum sibi 
+      <lb ed="#B" n="28"/>ostensum: sed uoluntas est potentia 
+      li<lb ed="#B" n="29" break="no"/>bera: ergo potest habere actum circa 
+      ta<lb ed="#B" n="30" break="no"/>le obiectum ostensum, &amp; non necessa 
+      <lb ed="#B" n="31"/>rio inordinatum: ergo ordinatum etiam 
+      <lb ed="#B" n="32"/>ex naturalibus suis: licet non meritorium: 
+      <lb ed="#B" n="33"/>quia ad hunc (stante lege) necesse est 
+      <lb ed="#B" n="34"/>concurrere actiue charitatem siue 
+      gra<lb ed="#B" n="35" break="no"/>tiam gratum facientem. Item non 
+      mi<lb ed="#B" n="36" break="no"/>nus capax est uoluntas beati quam 
+      uia<lb ed="#B" n="37" break="no"/>toris: sed uiator potest ex naturalibus 
+      <lb ed="#B" n="38"/>deum diligere: licet non meritorie: ergo 
+      <lb ed="#B" n="39"/>&amp; beatus hoc absolute potest. consonat 
+      <lb ed="#B" n="40"/>holkor. qeiiij.
+    </p>
+            <p xml:id="gbs333-a11133-d1e368">
+      ¶ Conclusio quarta. Actus 
+      <lb ed="#B" n="41"/>fruitionis beatificus non est a 
+      uolunta<lb ed="#B" n="42" break="no"/>te actiue, sed respectu eius se habet 
+      uo<lb ed="#B" n="43" break="no"/>luntas passiue. Probatur: quia quando 
+      <lb ed="#B" n="44"/>duo supernaturalia sic se habent, quod 
+      im<lb ed="#B" n="45" break="no"/>perfectius propter sui perfectionem est 
+      <lb ed="#B" n="46"/>a solo deo: perfectius etiam erit a solo 
+      <lb ed="#B" n="47"/>deo. Sed habitus charitatis &amp; lumen glo 
+      <lb ed="#B" n="48"/>riae sunt a solo deo, &amp; sunt 
+      imperfectio<lb ed="#B" n="49" break="no"/>ra fruitione &amp; uisione: ergo uisio &amp; 
+      frui<lb ed="#B" n="50" break="no"/>tio sunt a solo Deo. Secunda pars 
+      mi<lb ed="#B" n="51" break="no"/>noris patet; quia actus beatifici sunt om¬ 
+      <!--133.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nium perfectissimi.
+    </p>
+            <p xml:id="gbs333-a11133-d1e401">
+      ¶ Praeter ea cum 
+      uo<lb ed="#B" n="53" break="no"/>luntas sit omnino libera &amp; libere ac 
+      con<lb ed="#B" n="54" break="no"/>tingenter agat: posset sese facere non 
+      bea<lb ed="#B" n="55" break="no"/>tam: cessando ab actu beatifico: si esset 
+      <lb ed="#B" n="56"/>in eius potestare actus beatificus. Non 
+      <lb ed="#B" n="57"/>enim potest necessitari respectu 
+      cuius<lb ed="#B" n="58" break="no"/>cunque: licet forte quidam sentiant 
+      op<lb ed="#B" n="59" break="no"/>positum: ut patebit. q. vj. Has rationes 
+      <lb ed="#B" n="60"/>doctor adducit non ut insolubiles: sed  
+      <lb ed="#B" n="61"/>ut probabiles.
+    </p>
+            <p xml:id="gbs333-a11133-d1e423">
+      ¶ Corollarium. Respectu 
+      <lb ed="#B" n="62"/>actus beatifici: solus deus est causa 
+      esse<lb ed="#B" n="63" break="no"/>ctiua: uide ad hoc Sco. dist. xiiij. tertij. 
+      <lb ed="#B" n="64"/>&amp; dist. xiij.
+    </p>
+            <p xml:id="gbs333-a11133-d1e432">
+      ¶ Quantum ad articulum 
+      <lb ed="#B" n="65"/>tertium plura hic moueri possent 
+      du<lb ed="#B" n="66" break="no"/>bia: quia plures tanguntur difficultates: 
+      <lb ed="#B" n="67"/>sed dimisso dubiocirca propositionem 
+      <lb ed="#B" n="68"/>primam scilicet Vtrum uolitio sit cognitio: 
+      <lb ed="#B" n="69"/>quod prosequitur Grego. ubi supra. 
+      Vi<lb ed="#B" n="70" break="no"/>detur: quod conclusio tertia repugnet 
+      se<lb ed="#B" n="71" break="no"/>cundae: quia dicit, quod obiecto 
+      fruibilio<lb ed="#B" n="72" break="no"/>stenso, potest uolutas circa ipsum elice 
+      <lb ed="#B" n="73"/>re actum fruitionis, &amp; de hinc quod talis 
+      <lb ed="#B" n="74"/>non est beatificus.
+    </p>
+            <p xml:id="gbs333-a11133-d1e456">
+      ¶ Contra: intuitiua 
+      <lb ed="#B" n="75"/>dei uisio est beatifica: ut patet ex 
+      praece<lb ed="#B" n="76" break="no"/>dentibus: si ergo talem poterit uolutas 
+      <lb ed="#B" n="77"/>ex naturalibus elicere: poterit se ex 
+      na<lb ed="#B" n="78" break="no"/>turalibus facere beatam. Cuius contra 
+      <lb ed="#B" n="79"/>rium habetur inclemen. ad nostram 
+      de<lb ed="#B" n="80" break="no"/>bere. S. v. Et si non est beatifica: ut 
+      di<lb ed="#B" n="81" break="no"/>cit. iij. iiij. ergo est beatifica, &amp; non est 
+      <lb ed="#B" n="82"/>beatifica.
+    </p>
+            <p xml:id="gbs333-a11133-d1e477">
+      ¶ Item nobilius est agere, quam 
+      <lb ed="#B" n="83"/>pati: sed uoluntas in actu beatifico, 
+      no<lb ed="#B" n="84" break="no"/>biliori modo se habet: ergo hoc potest 
+      <lb ed="#B" n="85"/>ei competere: quod actu se habeat respectu 
+      <lb ed="#B" n="86"/>eiusdem.
+    </p>
+            <p xml:id="gbs333-a11133-d1e488">
+      ¶ Item praemium 
+      correspon<lb ed="#B" n="87" break="no"/>det merito, sed uoluntas actiue, sed 
+      ha<lb ed="#B" n="88" break="no"/>bet ad meritum, ergo &amp; adpraemium.
+    </p>
+            <p xml:id="gbs333-a11133-d1e495">
+      ¶ Ad 
+      <lb ed="#B" n="89"/>primum negetur assumptum. Ad 
+      proba<lb ed="#B" n="90" break="no"/>tionem. Intuitiua dei uisio est 
+      beatifi<lb ed="#B" n="91" break="no"/>ca: conceditur propter uerbum Christi. 
+      <lb ed="#B" n="92"/>Ioh. xvij. Haec est uita aeterna &amp;c. quia 
+      <lb ed="#B" n="93"/>stante lege nunquam datur alicui: nec 
+      <lb ed="#B" n="94"/>habetur ab aliquo, nisi sit in charitate, &amp; 
+      <lb ed="#B" n="95"/>gratia gratum faciente. Illa uero; quam 
+      <lb ed="#B" n="96"/>aliquis ex naturalibus de potentia 
+      abso<lb ed="#B" n="97" break="no"/>luta dei elicere posset: non esset 
+      beati<lb ed="#B" n="98" break="no"/>fica, propter sui imperfectionem, &amp; quia 
+      <lb ed="#B" n="99"/>non quietabit. Sed forte ad hoc aliquis 
+      <lb ed="#B" n="100"/>diceret: quod non minoris efficacie est 
+      ani<lb ed="#B" n="101" break="no"/>ma sine charitate respectu obiecti clare 
+      <lb ed="#B" n="102"/>uisi quam cum charitate ergo ex natu¬ 
+      <!--134.xml-->
+      <pb ed="#B" n="47"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ralibus eundem, &amp; aeque perfectum 
+      na<lb ed="#B" n="2" break="no"/>turaliter poterit actum elicere. Et si unus 
+      <lb ed="#B" n="3"/>de sui natura potest quietare, &amp; alius: cum 
+      <lb ed="#B" n="4"/>non possit dari (ut uidetur) ratio 
+      diuer<lb ed="#B" n="5" break="no"/>sitatis stantibus dictis doc. &amp; de potentia 
+      <lb ed="#B" n="6"/>absoluta dei: non tamen eliceret actum 
+      <lb ed="#B" n="7"/>meritorium, neque beatificum: patet ex 
+      <lb ed="#B" n="8"/>terminorum connotatu.
+    </p>
+            <p xml:id="gbs333-a11133-d1e552">
+      ¶ Hanc uero 
+      <lb ed="#B" n="9"/>rationem de efficacia animae sine 
+      gra<lb ed="#B" n="10" break="no"/>tia, &amp; cum gratia: refert Sco. in. iij. dist. 
+      <lb ed="#B" n="11"/>xiij. qeiiij. &amp; ualent eiusdem doc. dicta 
+      <lb ed="#B" n="12"/>ad propositum in q. iij. &amp; iiij. loco 
+      allega<lb ed="#B" n="13" break="no"/>to de fruitione animae Cfiristi. Ex 
+      con<lb ed="#B" n="14" break="no"/>sequenti posset dici secundum Ockam, 
+      <lb ed="#B" n="15"/>quod anima uidentis deum si beatus est: 
+      po<lb ed="#B" n="16" break="no"/>test elicere duplicem actum fruitionis: 
+      <lb ed="#B" n="17"/>beatificum, &amp; non beatificum. Vel 
+      si<lb ed="#B" n="18" break="no"/>hoc non placet: dici potest: quod 
+      praeuen<lb ed="#B" n="19" break="no"/>ta a deo non elicit actum fruitionis: sed  
+      <lb ed="#B" n="20"/>in se suscipit solum: sicut, &amp; corpore 
+      di<lb ed="#B" n="21" break="no"/>sposito creatur anima a deo in corpore 
+      <lb ed="#B" n="22"/>humano: nec propter hoc frustra praemit 
+      <lb ed="#B" n="23"/>tuntur pleraeque alterationes, 
+      dispositio<lb ed="#B" n="24" break="no"/>nes praeuiae quia placuit deo naturaliter 
+      <lb ed="#B" n="25"/>praeuenire, &amp; formam creare, ac creando 
+      <lb ed="#B" n="26"/>infundere. Intelligenda ergo est 
+      conclu<lb ed="#B" n="27" break="no"/>sio tertia de posse absolute, siue de 
+      ani<lb ed="#B" n="28" break="no"/>ma non praeuenta a deo.
+    </p>
+            <p xml:id="gbs333-a11133-d1e598">
+      ¶ Cum 
+      subiun<lb ed="#B" n="29" break="no"/>gitur: quod se posset facere beatam: negat  
+      <lb ed="#B" n="30"/>illud: quia sicut sine gratia gratum 
+      fa<lb ed="#B" n="31" break="no"/>ciente mereri non potest stante lege: 
+      <lb ed="#B" n="32"/>ita nec saluari.
+    </p>
+            <p xml:id="gbs333-a11133-d1e609">
+      ¶ Ad clementi. dicitur 
+      <lb ed="#B" n="33"/>concedendo: quod intellectualis natura non 
+      <lb ed="#B" n="34"/>est in se ipsa beata naturaliter: sed 
+      gra<lb ed="#B" n="35" break="no"/>tia deiuita aeterna. Rom. vj.
+    </p>
+            <p xml:id="gbs333-a11133-d1e619">
+      ¶ Sed de 
+      lu<lb ed="#B" n="36" break="no"/>mine gloriae, quo indiget anima, ut 
+      ele<lb ed="#B" n="37" break="no"/>uetur ad uidendum deum: dicitur uerum 
+      <lb ed="#B" n="38"/>est, quod indiget: sed non oportet illud 
+      lu<lb ed="#B" n="39" break="no"/>men gloriae dicere aliud a gratum 
+      facien<lb ed="#B" n="40" break="no"/>te, uel charitate: ut expresse tenet 
+      Pran<lb ed="#B" n="41" break="no"/>ciscus de Cabar. in clemen. praefata. Ad 
+      <lb ed="#B" n="42"/>hoc denique sonat totus apparatus, siue 
+      <lb ed="#B" n="43"/>glossatextus ibidem. Verum ad quid, &amp; 
+      <lb ed="#B" n="44"/>quomodo ponatur, uide Scotum 
+      distin<lb ed="#B" n="45" break="no"/>xiiij. tertij. Eorte posset allegari ad hoc  
+      <lb ed="#B" n="46"/>dictum prs. xxxv. In sumine tuo 
+      uidebi<lb ed="#B" n="47" break="no"/>mus sumen.
+    </p>
+            <p xml:id="gbs333-a11133-d1e648">
+      ¶ Ad aliud dicit. Non 
+      om<lb ed="#B" n="48" break="no"/>ne agere est nobilius pati: nam recipere 
+      <lb ed="#B" n="49"/>in se intellectionem est nobilius, quam 
+      <lb ed="#B" n="50"/>obiectiue eam producere: quod conue- 
+      <lb ed="#B" n="51"/>nit obiecto, &amp; nobilius est recipere cha¬ 
+      <!--134.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ritatem, quam producere calorem.
+    </p>
+            <p xml:id="gbs333-a11133-d1e666">
+      ¶ Ad 
+      <lb ed="#B" n="53"/>aliud conceditur: sed negetur: quod sit 
+      acti<lb ed="#B" n="54" break="no"/>ue a merente: sed de ratione meriti est, 
+      <lb ed="#B" n="55"/>quod sit actiuc a merente. De ratione 
+      ue<lb ed="#B" n="56" break="no"/>ro premij, quod sit actiue a praemiante, &amp; 
+      re<lb ed="#B" n="57" break="no"/>cipiatur passiue. a merente. Et cum 
+      dici<lb ed="#B" n="58" break="no"/>tur praemium datur propter meritum: pro 
+      <lb ed="#B" n="59"/>pter est nota consecutionis, &amp; non 
+      cau<lb ed="#B" n="60" break="no"/>salis secundum Petrum.
+    </p>
+            <p xml:id="gbs333-a11133-d1e686">
+      ¶ Posset etiam 
+      <lb ed="#B" n="61"/>hic moueri dubium. Si homo ex puris 
+      <lb ed="#B" n="62"/>naturalibus posset deum super omnia 
+      di<lb ed="#B" n="63" break="no"/>ligere &amp;c. uerum de illo infra latè 
+      habe<lb ed="#B" n="64" break="no"/>tur dist. xxviij. secundi. &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

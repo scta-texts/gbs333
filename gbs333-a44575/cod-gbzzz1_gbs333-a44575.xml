@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a44575"> <!-- l1d11prae -->
+            <head xml:id="gbs333-a44575-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a44575-d1e104">
+               <lb ed="#B" n="65"/>PISTINCTIO xI 
+      <lb ed="#B" n="66"/>praecedenti 
+      distin<lb ed="#B" n="67" break="no"/>ctione magister 
+      osten<lb ed="#B" n="68" break="no"/>dit conditionem 
+      per<lb ed="#B" n="69" break="no"/>sonae spiritussancti. 
+      <lb ed="#B" n="70"/>In hac agit de 
+      pro<lb ed="#B" n="71" break="no"/>cessionis ordine quam 
+      <lb ed="#B" n="72"/>&amp; tum ad principium, 
+      <lb ed="#B" n="73"/>a quo procedit. Et est conclusio prima, 
+      <lb ed="#B" n="74"/>&amp; principalis textus illa.
+    </p>
+            <p xml:id="gbs333-a44575-d1e128">
+      ¶ 
+      Spiritussan<lb ed="#B" n="75" break="no"/>ctus procedit a patre, &amp; filio: ut sacra 
+      te<lb ed="#B" n="76" break="no"/>statur scriptura: &amp; sanctorum patrum 
+      o<lb ed="#B" n="77" break="no"/>stendunt dogmata.
+    </p>
+            <p xml:id="gbs333-a44575-d1e137">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="78"/>Etrant graeci dicentes spiritum sanctum 
+      <lb ed="#B" n="79"/>a solo patre procedere.
+    </p>
+            <p xml:id="gbs333-a44575-d1e145">
+      ¶ Tertia 
+      con<lb ed="#B" n="80" break="no"/>clusio. Licet graeci confiteantur 
+      spiri<lb ed="#B" n="81" break="no"/>ritum sanctum esse spiritum filij: negant 
+      <lb ed="#B" n="82"/>tamen ipsum procedere a patre, &amp; filio: 
+      <lb ed="#B" n="83"/>sed confitentur ipsum procedere a 
+      pa<lb ed="#B" n="84" break="no"/>tre per filium. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

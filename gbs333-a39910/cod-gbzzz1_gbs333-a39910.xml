@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="158"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a39910"> <!-- l1d8q7 -->
+            <head xml:id="gbs333-a39910-Hd1e102">Quaestio 7</head>
+            <head xml:id="gbs333-a39910-Hd1e104" type="question-title">Utrum solus deus sit immutabilis</head>
+            <p xml:id="gbs333-a39910-d1e107">
+               <lb ed="#B" n="19"/>QVAESTIO VII 
+      <lb ed="#B" n="20"/>CONSEQVENTER 
+      uiden<lb ed="#B" n="21" break="no"/> dum est de secunda 
+      proprie<lb ed="#B" n="22" break="no"/> tate essentiae: scilicet de immuta 
+      <lb ed="#B" n="23"/>&amp; bilitate dei. Vtrum solus 
+      <lb ed="#B" n="24"/>deus sit immutabilis.
+    </p>
+            <p xml:id="gbs333-a39910-d1e123">
+      ¶ Nota aliquid 
+      <lb ed="#B" n="25"/>mutari accipitur tripliciter. Large, est 
+      <lb ed="#B" n="26"/>aliquid recipere esse post non esse: uel 
+      <lb ed="#B" n="27"/>econuerso. Stricte, est recipere aliquid, 
+      <lb ed="#B" n="28"/>quod prius non habuit: uel non habere, 
+      <lb ed="#B" n="29"/>quod prius habuit: siue maneat ante, &amp; 
+      <lb ed="#B" n="30"/>post siue non. Strictissime, est aliquid 
+      <lb ed="#B" n="31"/>manens secundum suam essentiam: 
+      ha<lb ed="#B" n="32" break="no"/>bens aliquid se informans, quod prius 
+      <lb ed="#B" n="33"/>non habuit. uel econuerso.
+    </p>
+            <p xml:id="gbs333-a39910-d1e146">
+      ¶ 
+      Conclusio<lb ed="#B" n="34" break="no"/>prima. Deus est immutabilis primo 
+      mo<lb ed="#B" n="35" break="no"/>do. Probatur: quia est necesse esse. ergo. 
+      <lb ed="#B" n="36"/>Consequentia nota. Antecedens 
+      pro<lb ed="#B" n="37" break="no"/>batur: quia si non: tunc esset aliquid prius 
+      <lb ed="#B" n="38"/>eo. quod posset ipsum facere esse post 
+      <lb ed="#B" n="39"/>non esse: &amp; per consequens non esset 
+      <lb ed="#B" n="40"/>deus.
+    </p>
+            <p xml:id="gbs333-a39910-d1e164">
+      ¶ Conclusio secunda. Deus est 
+      <lb ed="#B" n="41"/>immutabilis secundo, &amp; tertio modis. 
+      <lb ed="#B" n="42"/>Patet: quia est ens simpliciter infinitum: 
+      <lb ed="#B" n="43"/>ideo non potest perfici ex consequenti 
+      <lb ed="#B" n="44"/>non potest aliquid in se recipere.
+    </p>
+            <p xml:id="gbs333-a39910-d1e175">
+      ¶ 
+      Con<lb ed="#B" n="45" break="no"/>clusio tertia. Nihilaliud a deo est 
+      immu<lb ed="#B" n="46" break="no"/>tabile primo modo. Patet: quia omnia 
+      <lb ed="#B" n="47"/>alia a deo producta sunt de non esse ad 
+      <lb ed="#B" n="48"/>esse: quod fide creditur: etsi ratione 
+      na<lb ed="#B" n="49" break="no"/>turali non probetur.
+    </p>
+            <p xml:id="gbs333-a39910-d1e188">
+      ¶ Conclusio quar 
+      <lb ed="#B" n="50"/>ta. Aliqua creatura est immutabilis se¬ 
+      <!--245.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tundo, &amp; tertio modis. Patet: quia 
+      ali<lb ed="#B" n="52" break="no"/>qua creatura est, quae nullius est recepti 
+      <lb ed="#B" n="53"/>ua: sed tantum potest recipi: alias esset 
+      <lb ed="#B" n="54"/>processus in infinitum: si non daretur 
+      <lb ed="#B" n="55"/>status in aliqua, quae non reciperet aliam. 
+      </p>
+            <p xml:id="gbs333-a39910-d1e208">
+               <lb ed="#B" n="56"/>¶ Sed contra hoc dictum doc. ponitur 
+      <lb ed="#B" n="57"/>instantia inferius in notabili ultimo que 
+      <lb ed="#B" n="58"/>huius: non enim uidetur, quod hoc dictum 
+      <lb ed="#B" n="59"/>concludat.
+    </p>
+            <p xml:id="gbs333-a39910-d1e219">
+      ¶ Dubitatur primo: nam 
+      ui<lb ed="#B" n="60" break="no"/>detur, quod deus sit mutabilis. Siquidem 
+      <lb ed="#B" n="61"/>ut uidetur) deus mutatus est localiter. 
+      <lb ed="#B" n="62"/>quia creato loco cepit esse in loco, 
+      er<lb ed="#B" n="63" break="no"/>go mutatus. Quicquid enim est in 
+      ali<lb ed="#B" n="64" break="no"/>quo loco, in quo prius non fuit mutatur 
+      <lb ed="#B" n="65"/>localiter. Responsio: quod illa quicquid est 
+      <lb ed="#B" n="66"/>in loco &amp;c. non est uera: quia per 
+      nouan<lb ed="#B" n="67" break="no"/>productionem loci aliquid est in eo, in 
+      <lb ed="#B" n="68"/>quo prius non fuit sine mutatione sui: 
+      <lb ed="#B" n="69"/>sed per mutationem loci: sic est in 
+      pro<lb ed="#B" n="70" break="no"/>posito.
+    </p>
+            <p xml:id="gbs333-a39910-d1e246">
+      ¶ Dubitatur secundo: quomodo 
+      <lb ed="#B" n="71"/>differenter deus dicitur, &amp; est 
+      simplicis<lb ed="#B" n="72" break="no"/>simus: &amp; quomodo angelus dicitur 
+      sim<lb ed="#B" n="73" break="no"/>plex. Ad hoc respondetur breuiter: quod 
+      <lb ed="#B" n="74"/>simplex aliquando dicitur per carentiam 
+      <lb ed="#B" n="75"/>compositionis rei ex partibus: ipsum 
+      tan<lb ed="#B" n="76" break="no"/>quam totum intrinsece constituentibus: 
+      <lb ed="#B" n="77"/>sic angelus simplex est. Ita dicitur quod 
+      <lb ed="#B" n="78"/>angelus licet sit simplex simpliciter: est 
+      <lb ed="#B" n="79"/>tamen in genere. q. j. huius dist. Et 
+      di<lb ed="#B" n="80" break="no"/>citur simpliciter simplex per carentiam 
+      <lb ed="#B" n="81"/>cuiuscumque compositionis intrinsecae: hoc  
+      <lb ed="#B" n="82"/>est ex partibus essentialibus. Sic etiam 
+      <lb ed="#B" n="83"/>anima intellectiua dicitur simplex: &amp; 
+      si<lb ed="#B" n="84" break="no"/>militer accidentia intensiue, &amp; 
+      exten<lb ed="#B" n="85" break="no"/>siue indiuisibilia. Alio modo dicitur 
+      <lb ed="#B" n="86"/>simplex per carentiam omnis 
+      composi<lb ed="#B" n="87" break="no"/>tionis, &amp; componibilitatis intrinsece, &amp; 
+      <lb ed="#B" n="88"/>extrinsece: ita ut simplex dicitur: quod  
+      <lb ed="#B" n="89"/>non solum non componitur intrinsece 
+      <lb ed="#B" n="90"/>ex partibus: sed nec est componibilecum 
+      <lb ed="#B" n="91"/>aliquo extrinseco: quod non est pars 
+      <lb ed="#B" n="92"/>eius cum ipso constituendo unum per se, 
+      <lb ed="#B" n="93"/>uel unum per accidens: ut subiectum cum 
+      <lb ed="#B" n="94"/>accidente, hoc est, quod non habet 
+      par<lb ed="#B" n="95" break="no"/>tes, ex quibus componitur. Nec potest 
+      <lb ed="#B" n="96"/>subiectiue in se recipere aliud: nec in 
+      <lb ed="#B" n="97"/>alio recipi sicut in subjecto. Illo modo 
+      <lb ed="#B" n="98"/>nulla creatura est simplex: quia omnis 
+      <lb ed="#B" n="99"/>creatura est substantia, uel accidens. 
+      <lb ed="#B" n="100"/>Omnis substantia potest in se recipere 
+      <lb ed="#B" n="101"/>accidens sui perfectiuum: ut materia for¬ 
+      <!--246.xml-->
+      <pb ed="#B" n="159"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>mam: forma substantialis recipitur, &amp; 
+      re<lb ed="#B" n="2" break="no"/>cipit accidentia, similiter, &amp; angelus 
+      co<lb ed="#B" n="3" break="no"/>gnitionem scilicet &amp; amorem, similiter 
+      om<lb ed="#B" n="4" break="no"/>ne accidens recipitur in subjecto. Solus 
+      <lb ed="#B" n="5"/>ergo deus est isto modo simplex, &amp; ita 
+      sim<lb ed="#B" n="6" break="no"/>plicissims, &amp; maxime ac sume simplex. 
+      </p>
+            <p xml:id="gbs333-a39910-d1e335">
+               <lb ed="#B" n="7"/>¶ Tertio dubitatur: nam uidetr. quod angelus 
+      </p>
+            <p xml:id="gbs333-a39910-d1e340">
+               <lb ed="#B" n="8"/>¶ sit simplicior deo: aut accidens simplic 
+      <lb ed="#B" n="9"/>ter indiuisibile: immo quod deus non sit 
+      sim<lb ed="#B" n="10" break="no"/>plex: nam in deo est pluralitas aliquorum 
+      <lb ed="#B" n="11"/>realiter, aliquorum formaliter distincto 
+      <lb ed="#B" n="12"/>rum: qualis non est in angelo, uel 
+      acci<lb ed="#B" n="13" break="no"/>dentibus indiuisibilibus: ergo non est 
+      sim<lb ed="#B" n="14" break="no"/>plex: non enim potest stare pluralitas cum 
+      <lb ed="#B" n="15"/>summa simplicitate.
+    </p>
+            <p xml:id="gbs333-a39910-d1e360">
+      ¶ Item personae 
+      di<lb ed="#B" n="16" break="no"/>uinae realiter constituuntur ex essentia, 
+      <lb ed="#B" n="17"/>&amp; relatione: quae sunt quasi partes 
+      intrin<lb ed="#B" n="18" break="no"/>sece constituentes: ergo non sunt 
+      sim<lb ed="#B" n="19" break="no"/>pliciter nec summe simplices.
+    </p>
+            <p xml:id="gbs333-a39910-d1e371">
+      ¶ 
+      Solutio<lb ed="#B" n="20" break="no"/>non omnis pluralitas tollit 
+      simplicita<lb ed="#B" n="21" break="no"/>tem: sed pluralitas partium 
+      componen<lb ed="#B" n="22" break="no"/>tium. In deo autem nulla est 
+      compo<lb ed="#B" n="23" break="no"/>sitio, neque partes. Nam compositio 
+      exi<lb ed="#B" n="24" break="no"/>git distinctionem realem partium 
+      inte<lb ed="#B" n="25" break="no"/>se &amp; a toto. Simiiiter ad hoc, quod aliquae 
+      <lb ed="#B" n="26"/>dicantur partes compositi, requiritur, quod 
+      <lb ed="#B" n="27"/>sunt distinctae inter se realiter, &amp; 
+      essen<lb ed="#B" n="28" break="no"/>tialiter &amp; a toto. Nunc autem licet sit 
+      <lb ed="#B" n="29"/>in diuinis pluralitas personarum realiter 
+      <lb ed="#B" n="30"/>distinctarum in una essentia: quia tamen 
+      <lb ed="#B" n="31"/>sunt idem essentialiter, &amp; realiter ipsi 
+      es<lb ed="#B" n="32" break="no"/>sentiae non componunt essentiam. 
+      Si<lb ed="#B" n="33" break="no"/>mditer licet persona constituatur ex 
+      es<lb ed="#B" n="34" break="no"/>sentia, &amp; relatione: quia tamen essentia, 
+      <lb ed="#B" n="35"/>&amp; relatio idem sunt realiter inter se, &amp; 
+      <lb ed="#B" n="36"/>cum supposito: ideo neque sunt partes: 
+      <lb ed="#B" n="37"/>neque componunt suppositum. Et ita 
+      pro<lb ed="#B" n="38" break="no"/>pter perfectamidentitatem omnium quae 
+      <lb ed="#B" n="39"/>sunt in diuinis cum essentia: &amp; perfectam 
+      <lb ed="#B" n="40"/>identitatem omnium quae sunt in 
+      uno<lb ed="#B" n="41" break="no"/>supposito cum ipso supposito nulla est 
+      <lb ed="#B" n="42"/>omnino compositio in diuinis.
+    </p>
+            <p xml:id="gbs333-a39910-d1e423">
+      ¶ Possent 
+      <lb ed="#B" n="43"/>fortassis quae dicta sunt de 
+      immutabili<lb ed="#B" n="44" break="no"/>tate dei clarius, &amp; ordinatius dici. 
+      No<lb ed="#B" n="45" break="no"/>tandum itaque post praedicta circa acce- 
+      <lb ed="#B" n="46"/>ptionem mutabilis: qua accipitur large, 
+      <lb ed="#B" n="47"/>stricte, &amp; strictissime. Si enim illae acce- 
+      <lb ed="#B" n="48"/>ptiones sic ordinantur: ut prima sit 
+      su<lb ed="#B" n="49" break="no"/>perior ad secundam, &amp; secunda ad ter 
+      <lb ed="#B" n="50"/>tiam: oportet sic describere. Mutabile 
+      <lb ed="#B" n="51"/>large est, quod potest se aliter habere 
+      <!--246.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>prius, &amp; posterius secundum se, uel 
+      ali<lb ed="#B" n="53" break="no"/>quod extrinsecum. Secundum se: hoc 
+      <lb ed="#B" n="54"/>est suum esse: quia potest prius non esse, 
+      <lb ed="#B" n="55"/>&amp; posterius esse: uel econuerso. 
+      Secun<lb ed="#B" n="56" break="no"/>dum extrinsecum: quia potest aliquid prius 
+      <lb ed="#B" n="57"/>in se habitum, siue receptum posterius 
+      <lb ed="#B" n="58"/>perdere: uel prius non habere, &amp; 
+      poste<lb ed="#B" n="59" break="no"/>rius recipere. Mutabile secundo modo: 
+      <lb ed="#B" n="60"/>stricte scilicet dicitur illud, quod se habet 
+      ali<lb ed="#B" n="61" break="no"/>ter prius, &amp; posterius respectu alicuius 
+      <lb ed="#B" n="62"/>extrinseci recipiendo in se, quod 
+      prius<lb ed="#B" n="63" break="no"/>non habuit: uel perdendo, quod prius in 
+      <lb ed="#B" n="64"/>se habuit: siue secundum se maneat in 
+      <lb ed="#B" n="65"/>esse siue non: exempla patent. 
+      Mutabi<lb ed="#B" n="66" break="no"/>le strictissime est, quod se habet aliter 
+      <lb ed="#B" n="67"/>prius, &amp; posterius respectu extrinseci 
+      ma<lb ed="#B" n="68" break="no"/>nens sub utroque termino 
+      transmutatio<lb ed="#B" n="69" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a39910-d1e489">
+      ¶ Ex illis breuiter notatis potest 
+      for<lb ed="#B" n="70" break="no"/>mari haec propositio. Solus deus est 
+      im<lb ed="#B" n="71" break="no"/>mutabilis primo modo, sed secundo 
+      mo<lb ed="#B" n="72" break="no"/>do uidetur: quod aliqua creatura sit 
+      immu<lb ed="#B" n="73" break="no"/>tabilis creatura, quae nihil potest in se 
+      re<lb ed="#B" n="74" break="no"/>cipere.
+    </p>
+            <p xml:id="gbs333-a39910-d1e502">
+      ¶ Sed an illa sit dabilis, dubium 
+      <lb ed="#B" n="75"/>est. Nam non uidetur implicare: quod 
+      quae<lb ed="#B" n="76" break="no"/>libet creatura, &amp; quodlibet accidens 
+      ali<lb ed="#B" n="77" break="no"/>quid in se potest recipere per potentiam 
+      <lb ed="#B" n="78"/>dei: nec cogit ratio de processu in 
+      infi<lb ed="#B" n="79" break="no"/>nitum: quia ille non est impossibilis in 
+      <lb ed="#B" n="80"/>accidentaliter ordinatis: quamuis 
+      nun<lb ed="#B" n="81" break="no"/>quam per hoc ponatur infinitas rerum 
+      <lb ed="#B" n="82"/>actualis. Sicut in simili: post quanmcumque;  
+      <lb ed="#B" n="83"/>creaturam productam potest deus aliam 
+      <lb ed="#B" n="84"/>producere in infinitum: &amp; tamen 
+      nun<lb ed="#B" n="85" break="no"/>quam producentur infinitae actu: &amp; 
+      secun<lb ed="#B" n="86" break="no"/>dum hoc dicta doc. ueniunt 
+      moderan<lb ed="#B" n="87" break="no"/>da in conclusione. iiij. de processu in 
+      <lb ed="#B" n="88"/>infinitum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

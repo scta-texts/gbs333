@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a49581"> <!-- l1d15prae -->
+            <head xml:id="gbs333-a49581-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a49581-d1e104">
+               <lb ed="#B" n="58"/>DISTINCTIO XV. 
+      <lb ed="#B" n="59"/>VTENDIT 
+      Spiri<lb ed="#B" n="60" break="no"/>tum sanctum mitti a 
+      <lb ed="#B" n="61"/>patre, &amp; filio 
+      adex<lb ed="#B" n="62" break="no"/>tra: hic ostendit, quod 
+      <lb ed="#B" n="63"/>etiam a seipso mitta 
+      <lb ed="#B" n="64"/>tur. Et potest 
+      tex<lb ed="#B" n="65" break="no"/>èl tus summarium ex sub 
+      <lb ed="#B" n="66"/>notatis conligi conclusionibus.
+    </p>
+            <p xml:id="gbs333-a49581-d1e126">
+      ¶ 
+      Pri<lb ed="#B" n="67" break="no"/>ma. Spiritus sanctus nedum a patre, &amp; 
+      <lb ed="#B" n="68"/>filio: sed &amp; a seipso temporaliter 
+      mitti<lb ed="#B" n="69" break="no"/>tur.
+    </p>
+            <p xml:id="gbs333-a49581-d1e135">
+      ¶ Secunda conclusio. Pater mittit, 
+      <lb ed="#B" n="70"/>non mittitur: quia non producitur: sed  
+      <lb ed="#B" n="71"/>spiritus sanctus seipsum mittit, &amp; 
+      mitti<lb ed="#B" n="72" break="no"/>tur: quia aeternaliter a patre, &amp; filio 
+      spi<lb ed="#B" n="73" break="no"/>ratur: &amp; rationali creaturae gratuite 
+      do<lb ed="#B" n="74" break="no"/>natur.
+    </p>
+            <p xml:id="gbs333-a49581-d1e149">
+      ¶ Tertia conclusio. Semel 
+      tan<lb ed="#B" n="75" break="no"/>tum uisibiliter: frequenter autem 
+      inuisi<lb ed="#B" n="76" break="no"/>biliter mittitur filius: e regione semel in 
+      <lb ed="#B" n="77"/>uisibiliter: pluries uisibiliter missus 
+      legi<lb ed="#B" n="78" break="no"/>tur spiritus sanctus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

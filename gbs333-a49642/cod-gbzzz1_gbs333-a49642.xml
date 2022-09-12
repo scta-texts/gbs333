@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="196"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a49642"> <!-- l1d15q1 -->
+            <head xml:id="gbs333-a49642-Hd1e102">Quaestio 1</head>
+            <p xml:id="gbs333-a49642-d1e104">
+               <lb ed="#B" n="79"/>unicas 
+      <lb ed="#B" n="80"/>TRVM quaelibet 
+      perso<lb ed="#B" n="81" break="no"/>na possit mittere, &amp; mitti 
+      </p>
+            <p xml:id="gbs333-a49642-d1e113">
+               <lb ed="#B" n="82"/>¶ Solutio quaestionis stat in 
+      <lb ed="#B" n="83"/>quid nominis terminorum 
+      <lb ed="#B" n="84"/>Vnde mitti est personam 
+      <lb ed="#B" n="85"/>aliquam ab alia productam, per nouam 
+      <lb ed="#B" n="86"/>suam existentiam in aliqua 
+      creaturara<lb ed="#B" n="87" break="no"/>tionali secundum determinatum modum 
+      <lb ed="#B" n="88"/>existendi in ea manifestari produci¬ 
+      </p>
+            <p xml:id="gbs333-a49642-d1e131">
+               <lb ed="#B" n="89"/>¶ Mittere est personam aliquam 
+      produ<lb ed="#B" n="90" break="no"/>ctam per nouam existentiam in aliqua 
+      <lb ed="#B" n="91"/>creatura rationali secundum determina 
+      <lb ed="#B" n="92"/>tum modum existendi manifestare 
+      pro<lb ed="#B" n="93" break="no"/>duci.
+    </p>
+            <p xml:id="gbs333-a49642-d1e145">
+      ¶ Ex quo sequitur primo, quod mitti 
+      <lb ed="#B" n="94"/>dicit processionem temporalem, 
+      con<lb ed="#B" n="95" break="no"/>notando aeternam.
+    </p>
+            <p xml:id="gbs333-a49642-d1e152">
+      ¶ Secundo sequitur, 
+      <lb ed="#B" n="96"/>quod duae solum personae mittuntur: quia 
+      tam<lb ed="#B" n="97" break="no"/>tum duae personae producuntur. &amp; licet 
+      <lb ed="#B" n="98"/>cum mittitur filius, aut spiritussanctus et 
+      <!--284.xml-->
+      <pb ed="#B" n="197"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ueniat pater: &amp; nouo modo existat in 
+      <lb ed="#B" n="2"/>creatura rationali &amp;c. secundum illud 
+      <lb ed="#B" n="3"/>Ioan. xiiij. Ad eum ueniemus pater scilicet 
+      <lb ed="#B" n="4"/>ego filius: tamen pater non mitritur: quia 
+      <lb ed="#B" n="5"/>non est persona producta.
+    </p>
+            <p xml:id="gbs333-a49642-d1e178">
+      ¶ Tertio seque<lb ed="#B" n="6" break="no"/>tur: 
+      quia mittere non importat 
+      produ<lb ed="#B" n="7" break="no"/>ctionem mittentis: sed personae missae: sit 
+      <lb ed="#B" n="8"/>lu mitti.
+    </p>
+            <p xml:id="gbs333-a49642-d1e187">
+      ¶ Quarto sequitur: quod persona 
+      <lb ed="#B" n="9"/>mittit seipsam. Patet: quia persona 
+      pro<lb ed="#B" n="10" break="no"/>ducta potest de nouo existere in 
+      creatu<lb ed="#B" n="11" break="no"/>rarationali, secundum nouum modum 
+      <lb ed="#B" n="12"/>existendi in ea: &amp; in ea aliquid operari 
+      <lb ed="#B" n="13"/>unde manifestetur. Sic spiritussanctus 
+      <lb ed="#B" n="14"/>nouo modo existens in apostelis, &amp; 
+      pro<lb ed="#B" n="15" break="no"/>ducendo sonum, &amp; ignem super capita 
+      <lb ed="#B" n="16"/>spostolorum: manifestauit suam 
+      praesen<lb ed="#B" n="17" break="no"/>tiam: seipsum misit.
+    </p>
+            <p xml:id="gbs333-a49642-d1e209">
+      ¶ Quinto sequitur: 
+      <lb ed="#B" n="18"/>quod mittere est conetribus personis, sed mit 
+      <lb ed="#B" n="19"/>ti non: quia tantum duae sunt personae 
+      <lb ed="#B" n="20"/>productae.
+    </p>
+            <p xml:id="gbs333-a49642-d1e218">
+      ¶ Sexto sequitur: quod mittere, 
+      <lb ed="#B" n="21"/>&amp; mitti important respectum eundem 
+      <lb ed="#B" n="22"/>realem scilicet productionem passiuam perso 
+      <lb ed="#B" n="23"/>nae missae: &amp; nullum respectum rationis: 
+      <lb ed="#B" n="24"/>quia consideratio intellectus nostri, 
+      ni<lb ed="#B" n="25" break="no"/>hil operatur in huiusmodi, missionibus. 
+      <lb ed="#B" n="26"/>Omnium horum dictorum ratio est 
+      im<lb ed="#B" n="27" break="no"/>positio, &amp; usus terminorum: qui colligit 
+      <lb ed="#B" n="28"/>ex modo loquendi magistri, &amp; 
+      sancto<lb ed="#B" n="29" break="no"/>rum..
+    </p>
+            <p xml:id="gbs333-a49642-d1e241">
+      ¶ Ex his possunt formari aliquae 
+      <lb ed="#B" n="30"/>propositiones. Prima. Cum persona 
+      di<lb ed="#B" n="31" break="no"/>uina taliter procedit: quaelibet persona 
+      <lb ed="#B" n="32"/>eam mittit. Probatur: quia personam pro 
+      <lb ed="#B" n="33"/>cedentem quaelibet diuina persona 
+      crea<lb ed="#B" n="34" break="no"/>turae nouo modo unit, siue manifestat: 
+      <lb ed="#B" n="35"/>ergo quaelibet mittit. Tenet 
+      consequen<lb ed="#B" n="36" break="no"/>tia ex quid nominis mittere. 
+      Antece<lb ed="#B" n="37" break="no"/>dens patet: quia unire, uel manifestare 
+      <lb ed="#B" n="38"/>est operatio quaedam, adextra: sed ista esx 
+      <lb ed="#B" n="39"/>conis cuilibet personae, &amp; toti trinitati. 
+      </p>
+            <p xml:id="gbs333-a49642-d1e265">
+               <lb ed="#B" n="40"/>¶ Corollarium. Mittere non est dictio 
+      <lb ed="#B" n="41"/>notionalis: sed omnibus tribus personis 
+      <lb ed="#B" n="42"/>communis patet.
+    </p>
+            <p xml:id="gbs333-a49642-d1e274">
+      ¶ Secunda propositio
+      <lb ed="#B" n="43"/>Mitti non conuenit: patri. Patet: quia 
+      <lb ed="#B" n="44"/>mitti est personam productam creaturae 
+      <lb ed="#B" n="45"/>dari: sed pater non est persona 
+      produ<lb ed="#B" n="46" break="no"/>cta. Et patet auctoritate August. iiij. de 
+      <lb ed="#B" n="47"/>trinita. Si etiam pater uisibilis mundo 
+      <lb ed="#B" n="48"/>apparuisset: non nisi absurdissime a 
+      fi<lb ed="#B" n="49" break="no"/>lio, uel spiritusancto diceretur mitti¬ 
+      </p>
+            <p xml:id="gbs333-a49642-d1e292">
+               <lb ed="#B" n="50"/>¶ Corollarium. Mitti solum duabus 
+      per<lb ed="#B" n="51" break="no"/>sonis conuenit: scilicet productis.
+    </p>
+            <p xml:id="gbs333-a49642-d1e299">
+      ¶ Sed 
+      <!--284.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>diceres contra praemissa: mitti includit 
+      <lb ed="#B" n="53"/>produci: ergo mittere adintra includit 
+      <lb ed="#B" n="54"/>producere, sed non quaelibet persona pro 
+      <lb ed="#B" n="55"/>ducit adintra: ergo non quaelibet mittit. 
+      <lb ed="#B" n="56"/>Prima consequentia tenet: quia mitti, &amp; 
+      <lb ed="#B" n="57"/>mittere habent se ut actiuum, &amp; 
+      passi<lb ed="#B" n="58" break="no"/>uum: sed quicquid actiuum significat acti 
+      <lb ed="#B" n="59"/>ue: hoc idem passiuum significat 
+      passi<lb ed="#B" n="60" break="no"/>uc.
+    </p>
+            <p xml:id="gbs333-a49642-d1e325">
+      ¶ Ad hoc dicendum est: quod mittere 
+      <lb ed="#B" n="61"/>includit producere: non quidem quantum 
+      <lb ed="#B" n="62"/>ad personam mittentem: sed eo modo, 
+      quo<lb ed="#B" n="63" break="no"/>mittit. Nunc autem mitti ab aliquo, 
+      <lb ed="#B" n="64"/>non est produci ab aliquo: sed est illud, 
+      <lb ed="#B" n="65"/>quod productum est manifestare ab illo: 
+      <lb ed="#B" n="66"/>sic mittere est personam productam 
+      ma<lb ed="#B" n="67" break="no"/>nifestare. Iterum quod uerbum actiuum 
+      <lb ed="#B" n="68"/>principaliter significat actiue: hoc 
+      passi<lb ed="#B" n="69" break="no"/>uum significat passiue. Si tamen aliquid 
+      <lb ed="#B" n="70"/>connotat uerbum actiuum cum 
+      signifi<lb ed="#B" n="71" break="no"/>cato principali: hoc eodem modo 
+      con<lb ed="#B" n="72" break="no"/>notatur per uerbum passiuum: ut si a 
+      passi<lb ed="#B" n="73" break="no"/>uum significaret librum scriptum 
+      ligari<lb ed="#B" n="74" break="no"/>b actiuum significaret, non librum 
+      scri<lb ed="#B" n="75" break="no"/>bere, &amp; ligare: sed librum scriptum ligare.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

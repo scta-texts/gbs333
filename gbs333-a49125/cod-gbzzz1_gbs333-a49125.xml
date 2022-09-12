@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="194"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a49125"> <!-- l1d14q2 -->
+            <head xml:id="gbs333-a49125-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a49125-Hd1e104" type="question-title">Utrum spiritus sanctus detur in persona proprie, vel tantum secundum dona sua.</head>
+            <p xml:id="gbs333-a49125-d1e107">
+               <lb ed="#B" n="77"/>QVAESTIO II. 
+      <lb ed="#B" n="78"/>VTRVM Spiritus sanctus 
+      <lb ed="#B" n="79"/>detur in propria persona, 
+      <lb ed="#B" n="80"/>uel tantum secundum sua 
+      <lb ed="#B" n="81"/>dona.
+  </p>
+            <p xml:id="gbs333-a49125-d1e120">
+    Tribus articulis 
+    so<lb ed="#B" n="82" break="no"/>lito more terminabit 
+    quae<lb ed="#B" n="83" break="no"/>stio.
+    </p>
+            <p xml:id="gbs333-a49125-d1e128">
+      ¶ Pro articulo primo notandum 
+      <lb ed="#B" n="84"/>est: quod differentia est inter illos 
+      ter<lb ed="#B" n="85" break="no"/>minos, processio, missio, datio. 
+      Pro<lb ed="#B" n="86" break="no"/>cessio est in plus, quam missio. Et 
+      mis<lb ed="#B" n="87" break="no"/>sio in plus: nec minus datio; idest 
+      pro<lb ed="#B" n="88" break="no"/>cessio est superius ad Iy missio: &amp; 
+      missio<lb ed="#B" n="89" break="no"/>nec est superius, nec inferius ad Iy datio. 
+      <lb ed="#B" n="90"/>Primum patet: quia omnis persona, 
+      <lb ed="#B" n="91"/>quae mittitur procedit: sed non econuer 
+      <lb ed="#B" n="92"/>io. Aliqua enim persona procedit, 
+      sci<lb ed="#B" n="93" break="no"/>licet processione aeterna: &amp; tamen non 
+      <lb ed="#B" n="94"/>mittitur: licet missibilis sit, idest mitti 
+      <lb ed="#B" n="95"/>posset. Vnde persona missa ab aeterno 
+      <lb ed="#B" n="96"/>procedit: &amp; tamen non ab aeterno mittitur. 
+      <lb ed="#B" n="97"/>Secundum patet: quia non omne, quod  
+      <lb ed="#B" n="98"/>procedit, datur: filius, n. ab aeterno pro- 
+      <!--282.xml-->
+      <pb ed="#B" n="195"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cedit: &amp; tamen non ab aeterno datus est 
+      <lb ed="#B" n="2"/>&amp; aliquid datur, quod non procedit: 
+      sci<lb ed="#B" n="3" break="no"/>licet dona spiritussancti.
+    </p>
+            <p xml:id="gbs333-a49125-d1e176">
+      ¶ Secundo 
+      no<lb ed="#B" n="4" break="no"/>tandum: quod illud dicitur dari alicui: quan 
+      <lb ed="#B" n="5"/>ido potest illo uti ad agendum sicut 
+      pla<lb ed="#B" n="6" break="no"/>cer: sicut aliquis seipsum dicitur dare 
+      <lb ed="#B" n="7"/>alicui: quando offert seipsum illi ad 
+      fa<lb ed="#B" n="8" break="no"/>ciendum, quod illi placet. Illud uero 
+      di<lb ed="#B" n="9" break="no"/>citur dari in se: quod sic datur in 
+      pote<lb ed="#B" n="10" break="no"/>statem alterius omni alio dono circum 
+      <lb ed="#B" n="11"/>scripto. Et per oppositum potest 
+      notifi<lb ed="#B" n="12" break="no"/>caridari in alio, uel simul inse, &amp; in alio. 
+      <lb ed="#B" n="13"/>Clarius illud prosequitur doct. di. xvij. 
+      <lb ed="#B" n="14"/>ubi uult in effectu, quod spiritussanctus 
+      da<lb ed="#B" n="15" break="no"/>tursoli creaturae rationali, &amp; in se, &amp; 
+      <lb ed="#B" n="16"/>indonis suis: quod sic ineffectu 
+      dedu<lb ed="#B" n="17" break="no"/>cit. Res dicitur alicuidati in se: cum in 
+      <lb ed="#B" n="18"/>alterius dominium, uel quasi dominium 
+      <lb ed="#B" n="19"/>transfertur: ita quod illa alius uti potest, ut  
+      <lb ed="#B" n="20"/>libet ad agendum: hoc modo etiam mos 
+      <lb ed="#B" n="21"/>habet hominum, ut alter alteri se dare 
+      <lb ed="#B" n="22"/>dicat: cum adhoc se offert, quod paratus est 
+      <lb ed="#B" n="23"/>alterius parere uoluntati: facitque, quae 
+      <lb ed="#B" n="24"/>cunque alter rationabiliter ab eo fieri 
+      op<lb ed="#B" n="25" break="no"/>tabit. Cum ergo spiritus sanctus illapsu 
+      <lb ed="#B" n="26"/>suo sanctificatiuo hominem per gratiam 
+      <lb ed="#B" n="27"/>inhabitando, paratus est ipsum iuuare 
+      in<lb ed="#B" n="28" break="no"/>omni actione meritoria: &amp; tandem eum 
+      <lb ed="#B" n="29"/>in beatitudine sublimare: dicitur 
+      quo<lb ed="#B" n="30" break="no"/>dammodo uoluntati hominis obtem 
+      pe<lb ed="#B" n="31" break="no"/>rare. Stat enim ad ostium, &amp; pullat: 
+      si<lb ed="#B" n="32" break="no"/>quis aperit, ingreditur: &amp; nunquam 
+      ma<lb ed="#B" n="33" break="no"/>num suam subtrahit. Sic ergo hominem 
+      <lb ed="#B" n="34"/>acceptando per gratiam: &amp; in actione: 
+      me<lb ed="#B" n="35" break="no"/>ritoris modo singulari eum iuuando 
+      di<lb ed="#B" n="36" break="no"/>citur se homini dare. Possent ad hoc 
+      ali<lb ed="#B" n="37" break="no"/>quo modo aptari exempla Iosue. x. quam 
+      <lb ed="#B" n="38"/>do solisterit in caelo ad nutum 
+      homi<lb ed="#B" n="39" break="no"/>nis, ita ut nec antea, nec postea 
+      lon<lb ed="#B" n="40" break="no"/>gior dies fuerit. Exod. xxxij. cum 
+      ai<lb ed="#B" n="41" break="no"/>dominus Mou. Dimitte me, ut irascatur 
+      <lb ed="#B" n="42"/>furor meus contra eos &amp; deleam eos &amp;c. 
+      <lb ed="#B" n="43"/>Cum autem spiritussanctus sic sese 
+      ho<lb ed="#B" n="44" break="no"/>mini dat ueluti donum increatum: sem 
+      <lb ed="#B" n="45"/>per infundit etiam gratiam gratum 
+      fa<lb ed="#B" n="46" break="no"/>cientem donum creatum, quo anima 
+      <lb ed="#B" n="47"/>ornatur, &amp; in dei sponsam adoptatur. 
+      </p>
+            <p xml:id="gbs333-a49125-d1e274">
+               <lb ed="#B" n="48"/>¶ Quantum ad articulum secundum est 
+      <lb ed="#B" n="49"/>conclusio prima. Spiritus sanctus 
+      da<lb ed="#B" n="50" break="no"/>tur in se siue In persona propria. 
+      Pro<lb ed="#B" n="51" break="no"/>batur: quia spiritus sanctus potest esse pa¬ 
+      <!--282.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ratus facere, quicquid icre atura aliqu
+      <lb ed="#B" n="53"/>rationalis rationabiliter uel et neri, &amp; 
+      <lb ed="#B" n="54"/>hoc faciendo dat se creaturae rationali. 
+      <lb ed="#B" n="55"/>Ex notabili praemisso, potest etiam se sic 
+      <lb ed="#B" n="56"/>dare rationali creaturae: si nullum donum 
+      <lb ed="#B" n="57"/>creatum daret tali creaturae: ergo potest 
+      <lb ed="#B" n="58"/>sic se dare omni dono creato 
+      circum<lb ed="#B" n="59" break="no"/>scripto. Vnde ait. Ego sto ad ostium, 
+      <lb ed="#B" n="60"/>&amp; pulso.
+    </p>
+            <p xml:id="gbs333-a49125-d1e309">
+      ¶ Secunda conclusio. 
+      Spiri<lb ed="#B" n="61" break="no"/>tus sanctus datur in donis suis. 
+      Proba<lb ed="#B" n="62" break="no"/>tur: quia spiritus sanctus non datur in 
+      <lb ed="#B" n="63"/>se, nisi ad sanctificandum rationalem 
+      <lb ed="#B" n="64"/>creaturam. Hanc autem non sanctificat  
+      <lb ed="#B" n="65"/>sine donis suis: ut infra dicetur distinct. 
+      <lb ed="#B" n="66"/>xvij.
+    </p>
+            <p xml:id="gbs333-a49125-d1e325">
+      ¶ Item spiritum sanctum dari in do 
+      <lb ed="#B" n="67"/>nis suis, est ipsum dare dona sua pro 
+      san<lb ed="#B" n="68" break="no"/>ctificatione rationalis creaturae. 
+      Ambo<lb ed="#B" n="69" break="no"/>illi modi tanguntur inhocuerbo 
+      ange<lb ed="#B" n="70" break="no"/>li. Spiritussanctus superueniet in 
+      te<lb ed="#B" n="71" break="no"/>quo ad primum: &amp; uirtus altissimi obum 
+      <lb ed="#B" n="72"/>brabit tibi, quo ad secundum: quod est 
+      <lb ed="#B" n="73"/>datio doni. Item ad Roma. v. Charitas 
+      <lb ed="#B" n="74"/>dei diffusa est in cordibus nostris per 
+      spi<lb ed="#B" n="75" break="no"/>ritum sanctum &amp;c.
+    </p>
+            <p xml:id="gbs333-a49125-d1e347">
+      ¶ Tertia 
+      conclusio<lb ed="#B" n="76" break="no"/>Spiritussanctus non datur in dono 
+      crea<lb ed="#B" n="77" break="no"/>to, nisi in dono charitatis. Patet: quia 
+      <lb ed="#B" n="78"/>secundum usum loquendi sanctorum non 
+      <lb ed="#B" n="79"/>dicitur dari alicui: nisi quem per 
+      specia<lb ed="#B" n="80" break="no"/>lem acceptationem inhabitat tanquam 
+      <lb ed="#B" n="81"/>dignum uita aterna. Sed nullus sic 
+      acce<lb ed="#B" n="82" break="no"/>ptatur: nisi in quo est gratia gratum 
+      fa<lb ed="#B" n="83" break="no"/>ciens: quae est sola charitas. Ideo solun 
+      <lb ed="#B" n="84"/>datum in charitate tamquam in dono 
+      <lb ed="#B" n="85"/>creato.
+    </p>
+            <p xml:id="gbs333-a49125-d1e372">
+      ¶ Quantum ad articulum 
+      ter<lb ed="#B" n="86" break="no"/>tium. Cum deus sit ubique per essentiam: 
+      <lb ed="#B" n="87"/>praesentiam: &amp; potentiam: ut pulchre de 
+      <lb ed="#B" n="88"/>ducit doct. dist. xxxvij. quando dicitur 
+      <lb ed="#B" n="89"/>de nouo alicui dari. Ad id breuiter 
+      re<lb ed="#B" n="90" break="no"/>spondetur: supposito quid nominis dare, 
+      <lb ed="#B" n="91"/>ueldari: &amp; quod deus dicitur triplicittr esse 
+      <lb ed="#B" n="92"/>in aliquo generaliter: &amp; similiter specia 
+      <lb ed="#B" n="93"/>liter: per gratiam informantem: 
+      specia<lb ed="#B" n="94" break="no"/>lem acceptationem: &amp; 
+      hypostaticam<lb ed="#B" n="95" break="no"/>unionem: ut deducitur infraloco alle- 
+      <lb ed="#B" n="96"/>gato. Dicitur tamen in proposito 
+      stan<lb ed="#B" n="97" break="no"/>te lege, dari siue datus rationali 
+      crea<lb ed="#B" n="98" break="no"/>turae: tunc quando eam inhabitat 
+      gra<lb ed="#B" n="99" break="no"/>tuite per donum charitatis. Et quia 
+      dun<lb ed="#B" n="100" break="no"/>taxat bonos sic inhabitat, quos ad uitam 
+      <lb ed="#B" n="101"/>acceptat, &amp; non malos, ideo illis 
+      solun<lb ed="#B" n="102" break="no"/>dicitur dari: &amp; tunc dari: quando tale 
+      <!--283.xml-->
+      <pb ed="#B" n="196"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>donum infundit. &amp; abundantius dari: 
+      <lb ed="#B" n="2"/>quando maiorem confert gratiam.
+    </p>
+            <p xml:id="gbs333-a49125-d1e422">
+      ¶ 
+      Co<lb ed="#B" n="3" break="no"/>rollarie sequitur secundum hunc 
+      mo<lb ed="#B" n="4" break="no"/>dum loquendi. Deus est tantum in bo 
+      <lb ed="#B" n="5"/>nis, &amp; non in malis: eo quod solum 
+      ta<lb ed="#B" n="6" break="no"/>les per gratiam inhabitat. De hoc 
+      in<lb ed="#B" n="7" break="no"/>fra dicetur distinctio. xvij.
+    </p>
+            <p xml:id="gbs333-a49125-d1e435">
+      ¶ Secundum 
+      <lb ed="#B" n="8"/>dubium: in quibus donis datur 
+      spirirus<lb ed="#B" n="9" break="no"/>sanctus: &amp; quare magis in aliquibus 
+      do<lb ed="#B" n="10" break="no"/>nis, quam in alijs, cum omnia, quae 
+      ha<lb ed="#B" n="11" break="no"/>bet homo, dona dei sint. Ad hoc  
+      <lb ed="#B" n="12"/>bium dicitur primo post notata in 
+      <lb ed="#B" n="13"/>tio notabili quaestionis praeceder 
+      <lb ed="#B" n="14"/>illapsu sanctificatiuo: quod spiritussa 
+      <lb ed="#B" n="15"/>dicitur dari in donis, uelcum donis 
+      <lb ed="#B" n="16"/>quamuis absolutem sine eis possit 
+      dari<lb ed="#B" n="17" break="no"/>Nec datur alicui nisi rationali 
+      creatu<lb ed="#B" n="18" break="no"/>rae; quam acceptat ad uitam, &amp; 
+      sanctifi<lb ed="#B" n="19" break="no"/>cat. Nec etiam aliquem acceptat, uel 
+      <lb ed="#B" n="20"/>sanctificat lege stante sine gratiae 
+      gra<lb ed="#B" n="21" break="no"/>sum facientis datione. Quo ad aliud 
+      <lb ed="#B" n="22"/>uero dico: si ad hoc esset modus 
+      loquen<lb ed="#B" n="23" break="no"/>di sanctorum: ita bene posset dici, &amp; 
+      con<lb ed="#B" n="24" break="no"/>cedi spiritus sanctum dari in sapientia, 
+      <lb ed="#B" n="25"/>uel in fide, uel in spe sicut in charitate: 
+      <lb ed="#B" n="26"/>sed hoc non est usitatum apud sanctos. 
+      <lb ed="#B" n="27"/>similiter non dicitur dari, quamuis con 
+      <lb ed="#B" n="28"/>ferat alicui potestatem faciendi 
+      mira<lb ed="#B" n="29" break="no"/>cula fine charitate, uel gratia: quamuis 
+      <lb ed="#B" n="30"/>hoc posset dici: si sancti sic uterentur. 
+      </p>
+            <p xml:id="gbs333-a49125-d1e487">
+               <lb ed="#B" n="31"/>¶ Tertium dubium: contra primam 
+      con<lb ed="#B" n="32" break="no"/>clusionem, quae uidetur innuere, quod  
+      <lb ed="#B" n="33"/>spiritussancta possit dari sine dono 
+      crea<lb ed="#B" n="34" break="no"/>to: quia inse (ut dicit conclusio) 
+      im<lb ed="#B" n="35" break="no"/>possibile est transite de contradictorio 
+      <lb ed="#B" n="36"/>in contradictorium sine mutatione: 
+      <lb ed="#B" n="37"/>sed si spiritussanctus primo non datur: 
+      <lb ed="#B" n="38"/>postea datur: sit transitus, &amp; est 
+      muta<lb ed="#B" n="39" break="no"/>tio: non in spiritusancto: ergo in 
+      ali<lb ed="#B" n="40" break="no"/>quo dono creato de nouo dato. De 
+      <lb ed="#B" n="41"/>hoc dubio patebit infra distinctio. xvij. 
+      <lb ed="#B" n="42"/>quaestio. j. &amp; distinctio. xxx. quaestio. ij. 
+      <lb ed="#B" n="43"/>latius examinatur: ideo hic omittitur 
+      <lb ed="#B" n="44"/>responsio: licet Grego ipsum prosequa 
+      <lb ed="#B" n="45"/>tur praesenti distinctio. quaestio. j. arti. 
+      <lb ed="#B" n="46"/>j.
+    </p>
+            <p xml:id="gbs333-a49125-d1e524">
+      ¶ Quartum dubium. Prustra sit 
+      per<lb ed="#B" n="47" break="no"/>plura, quod posset fieri per pauciora: 
+      <lb ed="#B" n="48"/>sed sufficeret homini ad uitam dono 
+      <lb ed="#B" n="49"/>rum collatio: ergo frustra datur 
+      spiri<lb ed="#B" n="50" break="no"/>tussanctus in se. Respondetur: deus 
+      mul<lb ed="#B" n="51" break="no"/>ia agit per plura, quae posset facere per 
+      <!--283.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>pauciora: si uellet: &amp; licet illud dictum 
+      <lb ed="#B" n="53"/>communc habet ueritatem in causis 
+      na<lb ed="#B" n="54" break="no"/>turalibus, &amp; in causis uoluntarijs 
+      crea<lb ed="#B" n="55" break="no"/>tis: quae debent subesse causae primae: sed  
+      <lb ed="#B" n="56"/>non in deo a uctore naturae; cuius causa 
+      <lb ed="#B" n="57"/>uoluntas, &amp; bonitas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

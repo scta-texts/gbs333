@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="355"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a90101"> <!-- l1d42q1 -->
+            <head xml:id="gbs333-a90101-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a90101-Hd1e104" type="question-title">Utrum Deus possit
+    facere omne possibile fieri a creatura</head>
+            <p xml:id="gbs333-a90101-d1e107">
+               <lb ed="#B" n="33"/>unica 
+      <lb ed="#B" n="34"/>VTRVM deus possit 
+      face<lb ed="#B" n="35" break="no"/>re omne possibile fieri a 
+      <lb ed="#B" n="36"/>cratura.
+    </p>
+            <p xml:id="gbs333-a90101-d1e118">
+      ¶ Haec quaestio duas 
+      <lb ed="#B" n="37"/> alias quaestiones complect 
+      <lb ed="#B" n="38"/>tur. Prima: utrum deum facere omne 
+      <lb ed="#B" n="39"/>possibile creaturae sine cooperatione. 
+      <lb ed="#B" n="40"/>creaturae possit ratione naturali demodo 
+      <lb ed="#B" n="41"/>strari. Secundo: utrum hoc sit 
+      tenen<lb ed="#B" n="42" break="no"/>dum.
+    </p>
+            <p xml:id="gbs333-a90101-d1e135">
+      ¶ Quo ad primum recitat, &amp; 
+      impu<lb ed="#B" n="43" break="no"/>gnat opi. Sco. dist. praesenti.
+    </p>
+            <p xml:id="gbs333-a90101-d1e140">
+      ¶ 
+      Notan<lb ed="#B" n="44" break="no"/>dum pro articulo primo, quod omnipotens 
+      <lb ed="#B" n="45"/>dupliciter accipitur. Vno modo quia 
+      <lb ed="#B" n="46"/>est agens, quod potest in omne possibi¬ 
+      <!--442.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>le, mediate. Alio modo accipitur 
+      pro<lb ed="#B" n="48" break="no"/>prie theologice, pro illo, qui potest in 
+      <lb ed="#B" n="49"/>omnem effectum immediate, &amp; in 
+      <lb ed="#B" n="50"/>quodcunque possibile, quod non est ex 
+      <lb ed="#B" n="51"/>se necessarium, nec includit 
+      contradi<lb ed="#B" n="52" break="no"/>ctionem: ita inquam immediate, quod sine 
+      <lb ed="#B" n="53"/>omni cooperatione cuiuscumque alterius 
+      <lb ed="#B" n="54"/>causae agentis potest in quemlibet 
+      effe<lb ed="#B" n="55" break="no"/>ctum. De hoc latius uide post praedicta 
+      <lb ed="#B" n="56"/>in distin. xx. Cameracen. q. xiiij. art. j. 
+      </p>
+            <p xml:id="gbs333-a90101-d1e175">
+               <lb ed="#B" n="57"/>¶ Secundo notandum secundum sentem 
+      <lb ed="#B" n="58"/>tiam B. Ansel. de casu dia. c. j. Aliquis 
+      <lb ed="#B" n="59"/>dicitur facere dupliciter. Vno modo 
+      <lb ed="#B" n="60"/>positiue. Et hoc dupliciter, scilicet uel 
+      <lb ed="#B" n="61"/>de nouo efficiendo: uel factum conser 
+      <lb ed="#B" n="62"/>uando. Alio modo negatiue, non 
+      fa<lb ed="#B" n="63" break="no"/>ciendo oppositum, seu ipsum non 
+      pro<lb ed="#B" n="64" break="no"/>hibendo: cum tamen hoc posset. Et sit 
+      <lb ed="#B" n="65"/>dicitur deus aliquam rem, quae erat, 
+      fa<lb ed="#B" n="66" break="no"/>cere non esse: cum cessat facere eam 
+      es<lb ed="#B" n="67" break="no"/>se. Et similiter quae non sunt, potest 
+      <lb ed="#B" n="68"/>dici facere non esse: quia cum possit 
+      <lb ed="#B" n="69"/>ea facere esse: non producit ea, ut sint. 
+      <lb ed="#B" n="70"/>Hoc modo loquitur August. xij. lib. de 
+      <lb ed="#B" n="71"/>ciuit. dei. c. xvij. Res, quas deus 
+      con<lb ed="#B" n="72" break="no"/>didit, &amp; ut prius non essent egit, 
+      quan<lb ed="#B" n="73" break="no"/>diu non fuerunt, &amp; ut posterius essent, 
+      <lb ed="#B" n="74"/>quando esse ceperunt. Primo modo 
+      <lb ed="#B" n="75"/>sumitur proprie. Secundo modo 
+      impro<lb ed="#B" n="76" break="no"/>proprie. Tertio suppono dicta 
+      distin<lb ed="#B" n="77" break="no"/>xvij. de potentia dei absoluta, &amp; 
+      ordi<lb ed="#B" n="78" break="no"/>nata, quae uide clarius in Camera. quae 
+      <lb ed="#B" n="79"/>xiiij. art. j.
+    </p>
+            <p xml:id="gbs333-a90101-d1e227">
+      ¶ Istis praemissis est pro 
+      ar<lb ed="#B" n="80" break="no"/>ticulo secundo conclusio prima. 
+      Sup<lb ed="#B" n="81" break="no"/>posito. quod deus solus sit primum efficiens 
+      <lb ed="#B" n="82"/>probatur euidenter, quod est primo modo 
+      <lb ed="#B" n="83"/>omnipotens Probatur conclusio: quia 
+      <lb ed="#B" n="84"/>potentia actiua primi efficientis 
+      exten<lb ed="#B" n="85" break="no"/>dit se ad omnem effectum mediatum, 
+      <lb ed="#B" n="86"/>uel immediatum in ratione causae 
+      pro<lb ed="#B" n="87" break="no"/>ximae, uel remorae Nam quocunque esse 
+      <lb ed="#B" n="88"/>ctu signa: o, uel immediat: dependet a 
+      <lb ed="#B" n="89"/>deo uel ab alia causa. Et de ista 
+      quaeri<lb ed="#B" n="90" break="no"/>tur, unde dependet: cum non sit 
+      pri<lb ed="#B" n="91" break="no"/>ma, &amp; quia non est processus in 
+      infini<lb ed="#B" n="92" break="no"/>tum: est deuenire ad primam, quae deus 
+      <lb ed="#B" n="93"/>est.
+    </p>
+            <p xml:id="gbs333-a90101-d1e260">
+      ¶ Secunda conclusio. Deum esse 
+      <lb ed="#B" n="94"/>omnipotentem secundo modo non 
+      con<lb ed="#B" n="95" break="no"/>cludit naturalis ratio. Probatur: quia 
+      <lb ed="#B" n="96"/>non potest naturali ratione probari, quod 
+      <lb ed="#B" n="97"/>deus causat se solo omnia defacto: cum 
+      <!--443.xml-->
+      <pb ed="#B" n="356"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>
+               <lb ed="#B" n="2"/>
+               <lb ed="#B" n="3"/>potest probari, quod concurrat immediat: 
+      <lb ed="#B" n="4"/>effectiue ad effectum cuiuslibet causae 
+      <lb ed="#B" n="5"/>secundae: etiam supposito, quod sit 
+      infi<lb ed="#B" n="6" break="no"/>nitae uirtutis, &amp; continens 
+      eminen<lb ed="#B" n="7" break="no"/>tius causalitatem causae secundae. 
+      Pro<lb ed="#B" n="8" break="no"/>batur: quia philosophi non potuerunt 
+      <lb ed="#B" n="9"/>per rationem naturalem concludere 
+      <lb ed="#B" n="10"/>deum posse contingenter causare: ergo 
+      <lb ed="#B" n="11"/>muito minus poterant concludere deum 
+      <lb ed="#B" n="12"/>posse immediate in quemcunque 
+      effe<lb ed="#B" n="13" break="no"/>ctum causae secundae. Item ipsi habent 
+      <lb ed="#B" n="14"/>quasi pro principio, quod de nihilo nihil 
+      <lb ed="#B" n="15"/>sit, saltem in istis generalibus: ideo non 
+      <lb ed="#B" n="16"/>poterant concludere, quod deus aliquem 
+      <lb ed="#B" n="17"/>effectum sic totaliter posset producere 
+      <lb ed="#B" n="18"/>sine alia causa concurrente.
+    </p>
+            <p xml:id="gbs333-a90101-d1e317">
+      ¶ 
+      Praete<lb ed="#B" n="19" break="no"/>rea philosophi posuerunt deum 
+      neces<lb ed="#B" n="20" break="no"/>sario agentem, ut uidentur multi eorum 
+      <lb ed="#B" n="21"/>sensisse. Si ergo cum hoc posuissent 
+      <lb ed="#B" n="22"/>eum omnipotentem: haberent negare 
+      om<lb ed="#B" n="23" break="no"/>nem causalitatem cuiuscunque causae 
+      <lb ed="#B" n="24"/>secundae: quud maximum est inconue 
+      <lb ed="#B" n="25"/>niens apud eos.
+    </p>
+            <p xml:id="gbs333-a90101-d1e336">
+      ¶ Item omne agens 
+      <lb ed="#B" n="26"/>naturale, &amp; sufficiens si aequaliter 
+      respi<lb ed="#B" n="27" break="no"/>cit multa: uel producit quodlibet illo, 
+      <lb ed="#B" n="28"/>rum, uel nullum: ergo si deus sit agens 
+      <lb ed="#B" n="29"/>sufficiens, &amp; naturaliter causans, uel 
+      <lb ed="#B" n="30"/>causabit necessario omnia uel nulla: sed 
+      <lb ed="#B" n="31"/>non omnia: manifestum est: ergo nulla. 
+      <lb ed="#B" n="32"/>Cum ergo non potest probari ratione. 
+      <lb ed="#B" n="33"/>naturali, quod deus sit causa 
+      contingen<lb ed="#B" n="34" break="no"/>ter causans: non potest probari, quod 
+      <lb ed="#B" n="35"/>sit causa sufficiens se solo producere 
+      <lb ed="#B" n="36"/>omnem effectum producibilem. Et ideo 
+      <lb ed="#B" n="37"/>philosophi posuerunt causam secundam 
+      <lb ed="#B" n="38"/>necessario concurrere ad productionem, 
+      <lb ed="#B" n="39"/>quoniam uiderunt, quod causa secun- 
+      <lb ed="#B" n="40"/>da approximata sequebatur effectus, 
+      <lb ed="#B" n="41"/>&amp; ea remota non ponebatur. 
+      Verun<lb ed="#B" n="42" break="no"/>tamen sicut non probatur hoc modo 
+      <lb ed="#B" n="43"/>deum concurrere immediate ad 
+      cu<lb ed="#B" n="44" break="no"/>iu libet effectus productionem: sic 
+      op<lb ed="#B" n="45" break="no"/>positum eius etiam probari nequit.
+    </p>
+            <p xml:id="gbs333-a90101-d1e382">
+      ¶ 
+      Ter<lb ed="#B" n="46" break="no"/>tia conclusio. Deum esse 
+      omnipoten<lb ed="#B" n="47" break="no"/>tem est sola fide creditum. Propatur  
+      <lb ed="#B" n="48"/>auctoritate sanctorum, &amp; serpturae ac 
+      <lb ed="#B" n="49"/>sumboli. unde Ecclesia. j. dicitur. Vnus 
+      <lb ed="#B" n="50"/>est altissimus creator omniu:
+      omni<lb ed="#B" n="51" break="no"/>potens. rex potens, &amp; metuendus Io. j. 
+      <!--443.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Sine ipso factum est nihil &amp;c. Item 
+      ex<lb ed="#B" n="53" break="no"/>tra de sum. trinit. &amp; fide catho. 
+      fir<lb ed="#B" n="54" break="no"/>miter. Ipse est creator omnium 
+      uisibi<lb ed="#B" n="55" break="no"/>lium spiritualium, &amp; corporalium. 
+      Po<lb ed="#B" n="56" break="no"/>test nihilhominus rationabiliter 
+      per<lb ed="#B" n="57" break="no"/>suaderi: nam deus est causa omnium: 
+      <lb ed="#B" n="58"/>ergo omnipotens. Assumutum 
+      pro<lb ed="#B" n="59" break="no"/>batur: quia omnia essentialiter 
+      depen<lb ed="#B" n="60" break="no"/>dent a deo, &amp; per consequens est 
+      cau<lb ed="#B" n="61" break="no"/>sa omnium. Antecedens probatur: quia 
+      <lb ed="#B" n="62"/>omne aliud a deo non minus degendet 
+      <lb ed="#B" n="63"/>a deo, quam una creatura ab alia: sed  
+      <lb ed="#B" n="64"/>una creatura dependet ali alia: ergo &amp;c. 
+      </p>
+            <p xml:id="gbs333-a90101-d1e430">
+               <lb ed="#B" n="65"/>¶ Quarta, conclusio. Omnementita s 
+      <lb ed="#B" n="66"/>tem possibilem deus potest facere 
+      acu<lb ed="#B" n="67" break="no"/>cipiendo facere primo modo: pater ex 
+      <lb ed="#B" n="68"/>fide. Item cum sit una: omnia potest. 
+      <lb ed="#B" n="69"/>Sapien. vij. Item Sapien. xj. quomodo 
+      <lb ed="#B" n="70"/>posset aliquid permanere, nisi tu 
+      uo<lb ed="#B" n="71" break="no"/>suisses, &amp; similia multa.
+    </p>
+            <p xml:id="gbs333-a90101-d1e448">
+      ¶ Quinta cons 
+      <lb ed="#B" n="72"/>clusio. Omne possibile enuntiabile 
+      <lb ed="#B" n="73"/>deus potest facere esse uerum: 
+      accipien<lb ed="#B" n="74" break="no"/>do facere primo, &amp; secundo modo 
+      <lb ed="#B" n="75"/>Haec non potest probaris nisi auctorita 
+      <lb ed="#B" n="76"/>te. Ad hoc autem est expresta aucto. 
+      <lb ed="#B" n="77"/>titas Matth. xix. Apud deum omnia 
+      <lb ed="#B" n="78"/>possibilia sunt. Secundo per illud Lus 
+      <lb ed="#B" n="79"/>cae. i. Non erit impossibile apud deum 
+      <lb ed="#B" n="80"/>omne uerbum, idest omne enuntiabile 
+      <lb ed="#B" n="81"/>non implicans contradictionem. 
+      Ter<lb ed="#B" n="82" break="no"/>tio per illius Gen. xviij. Nunquid deo 
+      <lb ed="#B" n="83"/>quicquam est difficile.
+    </p>
+            <p xml:id="gbs333-a90101-d1e477">
+      ¶ Ex illis 
+      sequi<lb ed="#B" n="84" break="no"/>tur, quod deum esse omnipotentem est 
+      <lb ed="#B" n="85"/>fide creditum: quodque se solo potest 
+      <lb ed="#B" n="86"/>in omnem effectum positiuum sine 
+      co<lb ed="#B" n="87" break="no"/>operatione causaesecundae.
+    </p>
+            <p xml:id="gbs333-a90101-d1e488">
+      ¶ Hoc. n. 
+      <lb ed="#B" n="88"/>naturali ratione probari non potest, cu 
+      <lb ed="#B" n="89"/>ius Sco. quatuor ponit tationes quas 
+      <lb ed="#B" n="90"/>auctor pertractat. Quarum duas 
+      ap<lb ed="#B" n="91" break="no"/>probat: duas diciciniufficentes. Qued 
+      <lb ed="#B" n="92"/>uero naturali ratione probari non 
+      pos<lb ed="#B" n="93" break="no"/>sit, sic ostendit: quia non potest 
+      na<lb ed="#B" n="94" break="no"/>turali ratione de monstrati, quod deus 
+      de<lb ed="#B" n="95" break="no"/>facto omma se solo causat: quia hoc  
+      <lb ed="#B" n="96"/>falsum est: cum apud omnes 
+      philolo<lb ed="#B" n="97" break="no"/>phos, &amp; sa actos ponantur causae 
+      secun<lb ed="#B" n="98" break="no"/>dae. Secundo non potest probari, quod 
+      <lb ed="#B" n="99"/>deus contingenter agat, &amp; libere 
+      cau<lb ed="#B" n="100" break="no"/>set, quae causat: quia impossibile 
+      es<lb ed="#B" n="101" break="no"/>set ideum nomnia se solo producere, 
+      si<lb ed="#B" n="102" break="no"/>causaret naturaliter, &amp; non cuntiu¬ 
+      <!--444.xml-->
+      <pb ed="#B" n="357"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tingenter: quia si esset possibile, omnia 
+      <lb ed="#B" n="2"/>simul produceret. Est ergo conclusio 
+      <lb ed="#B" n="3"/>fide credita: de hoc latius uide Petrum 
+      <lb ed="#B" n="4"/>de Alia co. quaest. xiij. arti. j. &amp; Grego. 
+      <lb ed="#B" n="5"/>distinctio. praesenti. ¶. Quantum ad 
+      <lb ed="#B" n="6"/>c. articulum tertium, dubitatur contra 
+      <lb ed="#B" n="7"/>E conclusionem ultimam. Deus non 
+      po<lb ed="#B" n="8" break="no"/>test peccare, nec mori &amp;c. quod 
+      po<lb ed="#B" n="9" break="no"/>test creatura. ergo non potest 
+      quic<lb ed="#B" n="10" break="no"/>quid creatura potest.
+    </p>
+            <p xml:id="gbs333-a90101-d1e552">
+      ¶ Item non 
+      po<lb ed="#B" n="11" break="no"/>test producere relationem sine 
+      funda<lb ed="#B" n="12" break="no"/>mento, &amp; termino.
+    </p>
+            <p xml:id="gbs333-a90101-d1e559">
+      ¶ Item non potest 
+      <lb ed="#B" n="13"/>pducere odium dei: alioquin aliquis 
+      pos<lb ed="#B" n="14" break="no"/>tet sine peccato (immo cum merito) 
+      <lb ed="#B" n="15"/>odire deum, si in aliquo produceret 
+      o<lb ed="#B" n="16" break="no"/>dium.
+    </p>
+            <p xml:id="gbs333-a90101-d1e570">
+      ¶ Ad primum dicit magisser: ut  
+      <lb ed="#B" n="17"/>patuit in conclusionibus literalibus: 
+      <lb ed="#B" n="18"/>potest deus, quicquid posse potentia 
+      <lb ed="#B" n="19"/>est: nunc autem peccare, infirmati, 
+      <lb ed="#B" n="20"/>mori, deficere non est posse: sed est non 
+      <lb ed="#B" n="21"/>posse: quia est deficere. 
+      Veruntamen<lb ed="#B" n="22" break="no"/>quicquid positiuum est in peccato: deus 
+      <lb ed="#B" n="23"/>potest producere, &amp; sic omne 
+      positi<lb ed="#B" n="24" break="no"/>uum, quod potest producere 
+      creatu<lb ed="#B" n="25" break="no"/>ra: potest producere deus. Nec 
+      ta<lb ed="#B" n="26" break="no"/>men ideo sequitur, quod possit 
+      pec<lb ed="#B" n="27" break="no"/>care, mori, mentiri &amp;c.
+    </p>
+            <p xml:id="gbs333-a90101-d1e596">
+      ¶ Et si 
+      ar<lb ed="#B" n="28" break="no"/>guitur: Omne possibile fieri a 
+      creatu<lb ed="#B" n="29" break="no"/>ra potest deus: peccare est quoddam 
+      <lb ed="#B" n="30"/>possibile fieri a creatura: ergo peccare 
+      <lb ed="#B" n="31"/>potest deus. Respondetur, quod est 
+      <lb ed="#B" n="32"/>fallacia sigurae dictionis: quia sub 
+      ter<lb ed="#B" n="33" break="no"/>mino absoluto, uel minus 
+      connotati<lb ed="#B" n="34" break="no"/>uo subsumitur terminus magis 
+      conno<lb ed="#B" n="35" break="no"/>tatiuus: sicut quando sub termino 
+      pre<lb ed="#B" n="36" break="no"/>dicamenti substantiae subsumitur ter 
+      <lb ed="#B" n="37"/>minus praedicamenti accidentis. 
+      Si<lb ed="#B" n="38" break="no"/>cur non sequitur. Omnem rem 
+      ab<lb ed="#B" n="39" break="no"/>solutam potest facere deus: actus 
+      me<lb ed="#B" n="40" break="no"/>ritorius est res absoluta: ergo actum 
+      <lb ed="#B" n="41"/>meritorium potest facere deus. Vel 
+      <lb ed="#B" n="42"/>sic. Omne possibile potest deus: 
+      <lb ed="#B" n="43"/>mereri est possibile: ergo mereri 
+      po<lb ed="#B" n="44" break="no"/>test deus.
+    </p>
+            <p xml:id="gbs333-a90101-d1e635">
+      ¶ Sed diceres optinit 
+      se<lb ed="#B" n="45" break="no"/>quitur. Omnis homo est animal: 
+      <lb ed="#B" n="46"/>pater est homo: ergo pater est animal: 
+      <lb ed="#B" n="47"/>immo cuiuscunque praedicamenti ter 
+      <lb ed="#B" n="48"/>minus subsumitur sub Iy homo, ualebit 
+      <lb ed="#B" n="49"/>argumentum; nec uidetur posse 
+      dari<lb ed="#B" n="50" break="no"/>instantia. Ideo potest aliter dici, quod 
+      <lb ed="#B" n="51"/>argumentum est bonum si sub termino 
+      <!--444.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>absoluto subsumitur connotatiuus 
+      cae<lb ed="#B" n="53" break="no"/>teris paribus. Sed quando maior 
+      ex<lb ed="#B" n="54" break="no"/>tremitas est terminus connotatiuus, 
+      <lb ed="#B" n="55"/>qui in maiori connotat significatum 
+      <lb ed="#B" n="56"/>suum formale adiacere substracto 
+      sub<lb ed="#B" n="57" break="no"/>iecti, quod est medium: &amp; in 
+      conclu<lb ed="#B" n="58" break="no"/>sione appellat suum formale adiacere 
+      <lb ed="#B" n="59"/>formali minoris extremitatis: tunc 
+      <lb ed="#B" n="60"/>non ualet argumentum propter 
+      ua<lb ed="#B" n="61" break="no"/>riationem appellationis: &amp; est fallacia 
+      <lb ed="#B" n="62"/>figurae dictionis: &amp; aequiuocatio 
+      lar<lb ed="#B" n="63" break="no"/>ge: dum autem appellatio non 
+      uaria<lb ed="#B" n="64" break="no"/>tur, nec alia proprietas logicalis: est 
+      <lb ed="#B" n="65"/>bonum argumentum.
+    </p>
+            <p xml:id="gbs333-a90101-d1e687">
+      ¶ Pet hoc ad 
+      <lb ed="#B" n="66"/>argumentum primum dicitum:: quod 
+      si<lb ed="#B" n="67" break="no"/>in consequente peccare deus potest: 
+      <lb ed="#B" n="68"/>peccare determinat Iy potest, 
+      quan<lb ed="#B" n="69" break="no"/>tum ad suum formale: sicut 
+      secun<lb ed="#B" n="70" break="no"/>dum logicam ualet in illa: deus potest 
+      <lb ed="#B" n="71"/>peccare, quod discursus non ualet: quia 
+      <lb ed="#B" n="72"/>potest in maiori importat posse 
+      simpli<lb ed="#B" n="73" break="no"/>citer: in conclusione posse secundum 
+      <lb ed="#B" n="74"/>quid. Si autem in consequente 
+      pec<lb ed="#B" n="75" break="no"/>care determinaret Iy potest quantum 
+      <lb ed="#B" n="76"/>ad substractum: ut sit sensus. Id, quod  
+      <lb ed="#B" n="77"/>est peccare, hoc est actum positiuum, 
+      <lb ed="#B" n="78"/>qui dicitur peccatum potest produce- 
+      <lb ed="#B" n="79"/>re: sic posset consequens concedi: 
+      de<lb ed="#B" n="80" break="no"/>quo infra distinctio. xivj. Ad secundum. 
+      <lb ed="#B" n="81"/>Si nulla relatio in creaturis est quid 
+      di<lb ed="#B" n="82" break="no"/>stinctum ab absolutis: potest deus 
+      pro<lb ed="#B" n="83" break="no"/>ducere relationem, id est conceptum 
+      <lb ed="#B" n="84"/>relatiuum sine fundamento, &amp; 
+      termi<lb ed="#B" n="85" break="no"/>no. Siponitur relatio quid distinctum 
+      <lb ed="#B" n="86"/>ab absolutis: tunc non potest deus 
+      om<lb ed="#B" n="87" break="no"/>nem effectum se solo producere. Nec 
+      <lb ed="#B" n="88"/>hoc rotest creatura: potest tamen 
+      de<lb ed="#B" n="89" break="no"/>us omnem effectum absolutum se 
+      so<lb ed="#B" n="90" break="no"/>lo producere.
+    </p>
+            <p xml:id="gbs333-a90101-d1e745">
+      ¶ Ad tertium de odio 
+      <lb ed="#B" n="91"/>dei: non uidetur quin entitatem illam 
+      <lb ed="#B" n="92"/>absolutam, quam importat odium dei: 
+      <lb ed="#B" n="93"/>deus potest producere: sicut potest 
+      <lb ed="#B" n="94"/>eam in damnatis conseruare. An 
+      au<lb ed="#B" n="95" break="no"/>tem reliquis possit recipere talem qua 
+      <lb ed="#B" n="96"/>litatem, &amp; ea tendere in deum: alibi 
+      <lb ed="#B" n="97"/>uidendum in. iij. lib.
+    </p>
+            <p xml:id="gbs333-a90101-d1e763">
+      ¶ Plura alia 
+      mo<lb ed="#B" n="98" break="no"/>ueri possent dubia de causalitate dei, 
+      <lb ed="#B" n="99"/>de quibus uide in secundo distinctio. i. 
+      <lb ed="#B" n="100"/>quaestio. ij. Item sanctum Tho. de 
+      po<lb ed="#B" n="101" break="no"/>tentia. q. i. arti. vj. Item de malo. q. iij. 
+      <lb ed="#B" n="102"/>arti. ij. de causa peccati.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

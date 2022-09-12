@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="246"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a62387"> <!-- l1d24q2 -->
+            <head xml:id="gbs333-a62387-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a62387-Hd1e104" type="question-title">Utrum persona in divinis dicatur secundum substantiam ut relationem</head>
+            <p xml:id="gbs333-a62387-d1e107">
+               <lb ed="#B" n="41"/>QVAESTIO II 
+      <lb ed="#B" n="42"/>VTRVM trinitas 
+      perso<lb ed="#B" n="43" break="no"/>narum sit unus numerus. 
+      </p>
+            <p xml:id="gbs333-a62387-d1e116">
+               <lb ed="#B" n="44"/>¶ Hanc. q. doc. diffuse prose 
+      <lb ed="#B" n="45"/>quitur. Primo recitando 
+      <lb ed="#B" n="46"/>opi. conmunem: quametiam 
+      <lb ed="#B" n="47"/>tangit sanctus Tho. prina secundae. q. 
+      <!--333.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>xj: quae a multis amplectitur, quod numerus 
+      <lb ed="#B" n="49"/>(qui est species quatitatis) dicit aliquod  
+      <lb ed="#B" n="50"/>unum super additum rebus numeratis: per 
+      <lb ed="#B" n="51"/>quod constituitur certa species 
+      numeri<lb ed="#B" n="52" break="no"/>ped quid sit illud: plures sunt opi. quarum 
+      <lb ed="#B" n="53"/>quatuor recitat. Prima opi. est, quod est ul 
+      <lb ed="#B" n="54"/>tima unitas non simpliciter: sed ut habet 
+      <lb ed="#B" n="55"/>determinatam distantiam a prima unita 
+      <lb ed="#B" n="56"/>te. Secunda opi. dicit, quod est discretio: 
+      si<lb ed="#B" n="57" break="no"/>cut continuitas est forma continui, &amp; 
+      <lb ed="#B" n="58"/>cuiuslibet numeri est discretio una 
+      distin<lb ed="#B" n="59" break="no"/>cta a discretione alterius numeri: per quae 
+      <lb ed="#B" n="60"/>numerus habet suam unitatem, &amp; spenm. 
+      <lb ed="#B" n="61"/>Tertia opi. dicit, quod partium numeri non 
+      <lb ed="#B" n="62"/>est alia forma nisi forma continuitatis: 
+      <lb ed="#B" n="63"/>sub qua steterunt ando diuisionem 
+      conti<lb ed="#B" n="64" break="no"/>nui, uel sub qua stare posset naturaliter. 
+      <lb ed="#B" n="65"/>Quarta opi. dicit, quod numerus nihil 
+      ad<lb ed="#B" n="66" break="no"/>dit quantitati continuae nisi aliquid 
+      in<lb ed="#B" n="67" break="no"/>anima: quo anima numerat partes 
+      mul<lb ed="#B" n="68" break="no"/>titudinis extra. Impugnari possunt illae 
+      <lb ed="#B" n="69"/>opi. hac ratione generali: quam signo tres 
+      <lb ed="#B" n="70"/>res distinctas, puta tres homines, uel tres 
+      <lb ed="#B" n="71"/>angelos: quocunque alio 
+      circumscripto<lb ed="#B" n="72" break="no"/>adhuc illi homines sunt tres, &amp; 
+      angeli<lb ed="#B" n="73" break="no"/>sunt tres, &amp; ita ibi est numerus scilicetrinitas: 
+      <lb ed="#B" n="74"/>&amp; tamen nihil additum, uel distinctum 
+      <lb ed="#B" n="75"/>ab iliis hominibus, seu angelis. Et eadem 
+      <lb ed="#B" n="76"/>ratione, qua ipum probant, quod numerus 
+      es<lb ed="#B" n="77" break="no"/>sentialis (idi. rerum quae non sunt 
+      exten<lb ed="#B" n="78" break="no"/>sae, ut angelorum) nihil addit rebus 
+      nu<lb ed="#B" n="79" break="no"/>meratis: probatur: quia numerus retum 
+      <lb ed="#B" n="80"/>extensarum, quem uocant accidentale: 
+      <lb ed="#B" n="81"/>nihil addit rebus extensis numeratis. Est 
+      <lb ed="#B" n="82"/>ergo alia opinio (cui fauet auctor) &amp; est 
+      <lb ed="#B" n="83"/>tangit centilogio conclusione. Ixiiij. &amp; 
+      <lb ed="#B" n="84"/>de inceps: quod numerus non importat rem 
+      <lb ed="#B" n="85"/>aliquam superadditam rebus numeratis, 
+      <lb ed="#B" n="86"/>sed supponit pro rebus connotando eas 
+      <lb ed="#B" n="87"/>esse plures. Et sicut populus non 
+      suppo<lb ed="#B" n="88" break="no"/>nit pro re una: sed pro multis: ita 
+      nume<lb ed="#B" n="89" break="no"/>rus. Tamen conceptus numeri est unus: 
+      <lb ed="#B" n="90"/>&amp; unum genus habens sub se multas 
+      spe<lb ed="#B" n="91" break="no"/>cies: quarum quaelibet significat res 
+      plu<lb ed="#B" n="92" break="no"/>res: ut binatius, ternarius: non est 
+      nisi<lb ed="#B" n="93" break="no"/>duae res distinctae.
+    </p>
+            <p xml:id="gbs333-a62387-d1e232">
+      ¶ Et est numerus 
+      spe<lb ed="#B" n="94" break="no"/>cies praedicamenti quantitatis: licet 
+      si<lb ed="#B" n="95" break="no"/>gnificet substantias, &amp; qualitates. Nec 
+      <lb ed="#B" n="96"/>praęedicamenta distinguuntur secundum 
+      <lb ed="#B" n="97"/>res significatas: sed secundum modum 
+      fi<lb ed="#B" n="98" break="no"/>gnificandi signorum. Sid: eis tunc non 
+      <!--334.xml-->
+      <pb ed="#B" n="247"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>esset idem numerus. x. hominum. &amp; x. 
+      an<lb ed="#B" n="2" break="no"/>gelorum. Respondetur, quod est idem 
+      nu<lb ed="#B" n="3" break="no"/>merus specie: sed non idem numerus 
+      nu<lb ed="#B" n="4" break="no"/>mero: quia decem est species 
+      specialissi<lb ed="#B" n="5" break="no"/>ma. Et licet decem homines, &amp; decem 
+      <lb ed="#B" n="6"/>asini, non sunt eiusdem speciei 
+      essen<lb ed="#B" n="7" break="no"/>tialis, siue praedicamenti substantiae: 
+      ta<lb ed="#B" n="8" break="no"/>men sunt eiusdem speciei accidentalis 
+      </p>
+            <p xml:id="gbs333-a62387-d1e269">
+               <lb ed="#B" n="9"/>¶ Et nota primo, quod aliqui distinguunt 
+      <lb ed="#B" n="10"/>triplicem numerum scilicet essentialem, 
+      acci<lb ed="#B" n="11" break="no"/>dentalem, &amp; mathematicum. Numerums 
+      <lb ed="#B" n="12"/>essentialis est, qui necessario conuenit 
+      <lb ed="#B" n="13"/>rebus: ita quod ipsis manentibus illa species 
+      <lb ed="#B" n="14"/>numeri non potest uere de eis negari¬ 
+      </p>
+            <p xml:id="gbs333-a62387-d1e285">
+               <lb ed="#B" n="15"/>¶ Et est uerum, qui non possunt per se 
+      <lb ed="#B" n="16"/>facere unum, ut numerus trium angelo 
+      <lb ed="#B" n="17"/>rum. Numerus accidentalis est numerus 
+      <lb ed="#B" n="18"/>significatus per terminum numeralem, 
+      <lb ed="#B" n="19"/>qui potest uere affirmari, &amp; uere 
+      negari<lb ed="#B" n="20" break="no"/>de rebus ipsis manentibus in esse: ut 
+      nu<lb ed="#B" n="21" break="no"/>merus duarum aquarum separatarum, qud 
+      <lb ed="#B" n="22"/>sunt duae aquae, &amp; si conssuunt, uel 
+      con<lb ed="#B" n="23" break="no"/>iunguntur: non duae aquae: sed una 
+      dicun<lb ed="#B" n="24" break="no"/>tur. Numerus mathematicus superius 
+      <lb ed="#B" n="25"/>est ad utrumque.
+    </p>
+            <p xml:id="gbs333-a62387-d1e311">
+      ¶ Notandum secundo, 
+      <lb ed="#B" n="26"/>quod communiter duplex distinguitur 
+      nu<lb ed="#B" n="27" break="no"/>merus scilicet numerus numerans, &amp; numerus 
+      <lb ed="#B" n="28"/>numeratus. Numerus numerans est 
+      in<lb ed="#B" n="29" break="no"/>tellectus secernens partes multitudinis, 
+      <lb ed="#B" n="30"/>quas numerat: uel etiam conceptus, 
+      qui<lb ed="#B" n="31" break="no"/>bus numerat. Illo modo deus etiam est 
+      <lb ed="#B" n="32"/>numerus. unde in prs. Qui numerat 
+      mul<lb ed="#B" n="33" break="no"/>titudinem stellarum: de illo numero 
+      non<lb ed="#B" n="34" break="no"/>est ad propositum. Sed numerus nume 
+      <lb ed="#B" n="35"/>ratus est res numerata. Et ille capitur 
+      <lb ed="#B" n="36"/>dupliciter. Vno modo stricte, &amp; sic ad 
+      <lb ed="#B" n="37"/>istum tre: requiruntur conditiones, 
+      sci<lb ed="#B" n="38" break="no"/>licet quod sit multitudo quaedam una 
+      men<lb ed="#B" n="39" break="no"/>surata, &amp; ideo dicitur numerus multitu 
+      <lb ed="#B" n="40"/>do ex unitatibus profusa secundum Boe- 
+      <lb ed="#B" n="41"/>&amp; etiam Psal. secundo, quod talis numerus 
+      <lb ed="#B" n="42"/>sit qualibet sua ex parte maior. hanc 
+      <lb ed="#B" n="43"/>ponit Dion scilicet ulti. de diuinis no. 
+      Ter<lb ed="#B" n="44" break="no"/>tia, quod unitates inter se sint essentialiter 
+      <lb ed="#B" n="45"/>distinctae: ideo dicit Boe. de trinit. 
+      Vbi<lb ed="#B" n="46" break="no"/>nulla est diuersitas, scilicet essentialis: 
+      ib<lb ed="#B" n="47" break="no"/>nullus est numerus. Et secundum hoc 
+      po<lb ed="#B" n="48" break="no"/>test numerus describi sic. Est 
+      multi<lb ed="#B" n="49" break="no"/>tudo ex unitatibus essentialiter diuersis 
+      <lb ed="#B" n="50"/>profusa, quarum quaelibet minor est ea 
+      <lb ed="#B" n="51"/>Secundo modo capitur magis comuni¬ 
+      <!--334.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ter proqualibet pluralitate rerum 
+      distin<lb ed="#B" n="53" break="no"/>ctarum siue essentialiter, siue non.
+    </p>
+            <p xml:id="gbs333-a62387-d1e379">
+      ¶ 
+      Quan<lb ed="#B" n="54" break="no"/>tum ad articulum secundum, est haec 
+      con<lb ed="#B" n="55" break="no"/>clusio prima. In diuinis licet non 
+      sitni<lb ed="#B" n="56" break="no"/>merus captus stricte: est tamen ibi numerus 
+      <lb ed="#B" n="57"/>communiter acceptus, &amp; large. 
+      Prim<lb ed="#B" n="58" break="no"/>pars patet: quia non est ibi multitudo 
+      ali<lb ed="#B" n="59" break="no"/>quorum essentialiter diuersorum. Secunda 
+      <lb ed="#B" n="60"/>patet: quia ibi est pluralitas personarum 
+      <lb ed="#B" n="61"/>realiter distinctarum, ut nunc supponitur 
+      <lb ed="#B" n="62"/>ex fide: ergo numerus large. Tenet con 
+      <lb ed="#B" n="63"/>sequentia ex quid nominis numeri 
+      lar<lb ed="#B" n="64" break="no"/>ge accepti: ut in notabili tertio.
+    </p>
+            <p xml:id="gbs333-a62387-d1e405">
+      ¶ Con<lb ed="#B" n="65" break="no"/>clusio 
+      secunda. numerus in diuinis non 
+      <lb ed="#B" n="66"/>addit aliquid personis numeratis. Patet 
+      <lb ed="#B" n="67"/>quia numerus trium angelorum non ad 
+      <lb ed="#B" n="68"/>dit aliquid ipsis angelis cum omnibus alijs 
+      <lb ed="#B" n="69"/>circumscriptis, adhuc dicuntur tres 
+      an<lb ed="#B" n="70" break="no"/>geli: ergo multo minus in deo, siue 
+      di<lb ed="#B" n="71" break="no"/>uinis personis. Vnde trinitas in 
+      di<lb ed="#B" n="72" break="no"/>uinis nihil aliud importat, quam 
+      per<lb ed="#B" n="73" break="no"/>sonas patris, filijs, &amp; spiritussanctis 
+      <lb ed="#B" n="74"/>realiter distinctas.
+    </p>
+            <p xml:id="gbs333-a62387-d1e430">
+      ¶ Conclusio 
+      re<lb ed="#B" n="75" break="no"/>sponsalis ad quaestionem. Sicut 
+      concedi<lb ed="#B" n="76" break="no"/>tur: quod trinitas angelorum non est nume 
+      <lb ed="#B" n="77"/>rus: ita concedi potest, quod trinitas perso 
+      <lb ed="#B" n="78"/>natum non est numerus id est significatur per 
+      <lb ed="#B" n="79"/>unum terminum numeralem scilicet trinitas 
+      <lb ed="#B" n="80"/>Et ita trinitas personarum est unus 
+      nu<lb ed="#B" n="81" break="no"/>merus nihil aliud importans (utiam 
+      pa<lb ed="#B" n="82" break="no"/>tuit) nisi quod in diuinis sunt tres personaes 
+      <lb ed="#B" n="83"/>quarum una non est alia: licet sint eadem 
+      <lb ed="#B" n="84"/>essentia. Ille tamen terminus numeralis 
+      <lb ed="#B" n="85"/>trinitas, nihil ponit in deo, idest non 
+      im<lb ed="#B" n="86" break="no"/>portat aliquid superadditum, uel 
+      adue<lb ed="#B" n="87" break="no"/>niens deo, aut diuinis personis. Verum 
+      <lb ed="#B" n="88"/>si numerus solum praedicaretur de 
+      plu<lb ed="#B" n="89" break="no"/>ribus essentialiter distinctis: in deo non 
+      <lb ed="#B" n="90"/>esset numerus. Sic enim pater, &amp; filius, 
+      <lb ed="#B" n="91"/>spiritussanctus non distinguitur numero: 
+      <lb ed="#B" n="92"/>quia sunt una res numero 
+      singularissi<lb ed="#B" n="93" break="no"/>ma, &amp; simplicissima: si tamen accipitur 
+      <lb ed="#B" n="94"/>numerus, ut praedicatur de 
+      quibuscun<lb ed="#B" n="95" break="no"/>que pluribus realiter distinctis: &amp; sic 
+      ue<lb ed="#B" n="96" break="no"/>ra est conclusio.
+    </p>
+            <p xml:id="gbs333-a62387-d1e480">
+      ¶ Dubitatur circa 
+      prae<lb ed="#B" n="97" break="no"/>dicta pro articulo tertio. Omnis nume 
+      <lb ed="#B" n="98"/>rus est maior sua parte: sed trinitas non 
+      <lb ed="#B" n="99"/>est maior sua parte. tum quia non habet 
+      <lb ed="#B" n="100"/>partes: tum quia trinitas non est maior 
+      pa<lb ed="#B" n="101" break="no"/>tre, &amp; filio &amp;c.
+    </p>
+            <p xml:id="gbs333-a62387-d1e493">
+      ¶ Solutio: si hoc dictum scilicet 
+      <lb ed="#B" n="102"/>numerus est maioi sua parte, intelligit de 
+      <!--335.xml-->
+      <pb ed="#B" n="248"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>maioritate pluralitatis, non 
+      perfectio<lb ed="#B" n="2" break="no"/>nis, uel dignitatis: sic potest concedi: quod in 
+      <lb ed="#B" n="3"/>diuinis trinitas est maior una persona uel 
+      <lb ed="#B" n="4"/>duabus: quia hoc nihil aliud est dicere, 
+      <lb ed="#B" n="5"/>quam quod tres personae sunt plurales 
+      per<lb ed="#B" n="6" break="no"/>sonae: quam duae, ueluna. Si aute intelligitur 
+      <lb ed="#B" n="7"/>de maioritate dignitatis, aut 
+      perfectio<lb ed="#B" n="8" break="no"/>nis: sic trinitas non est maior prsona una, 
+      <lb ed="#B" n="9"/>uel duabus. Vide Ockam ubi supra. in 
+      <lb ed="#B" n="10"/>centilogio bene ad propositum, ubi con 
+      <lb ed="#B" n="11"/>cedit illas. Aliquis numerus non est 
+      plu<lb ed="#B" n="12" break="no"/>ra unitate numerali: patet de trinitate 
+      <lb ed="#B" n="13"/>personarum, &amp; essentia. Item aliquis est 
+      <lb ed="#B" n="14"/>numerus, cuius unitas e aequalis toti. Item 
+      <lb ed="#B" n="15"/>aliquis numerus est par, qui non potest 
+      <lb ed="#B" n="16"/>diuidi induo aequalia &amp;c.
+    </p>
+            <p xml:id="gbs333-a62387-d1e539">
+      ¶ Dubitatur 
+      se<lb ed="#B" n="17" break="no"/>cundo utrum opi. magistri sit uera, qua 
+      <lb ed="#B" n="18"/>dicit terminos numerales in diuinis 
+      ni<lb ed="#B" n="19" break="no"/>hil ponere: sed negare singularitatem, uel 
+      <lb ed="#B" n="20"/>solitudinem. Dicendum est: quod si opi. 
+      ma<lb ed="#B" n="21" break="no"/>gistri fuit haec, quod termini numerales non 
+      <lb ed="#B" n="22"/>ponunt aliquid in deo: hoc est, non 
+      signi<lb ed="#B" n="23" break="no"/>ficant aliquid adueniens deo: sicut 
+      acci<lb ed="#B" n="24" break="no"/>dens aduenit suo subjecto: sed remouent 
+      <lb ed="#B" n="25"/>a deo: hoc est significant, quod sunt ibi 
+      pa<lb ed="#B" n="26" break="no"/>ter, &amp; filius, &amp; ililicet modo praedicto: uera est 
+      <lb ed="#B" n="27"/>opi. magistri. Item si magister uult dice 
+      <lb ed="#B" n="28"/>re, quod termini numerales non ponant 
+      ali<lb ed="#B" n="29" break="no"/>quid in deo, quod est de ratione 
+      formali<lb ed="#B" n="30" break="no"/>numeri proprie capti scilicet diuersitatem 
+      essen<lb ed="#B" n="31" break="no"/>tialem, iterum uera est: non autem, quod ter 
+      <lb ed="#B" n="32"/>mini numerales in deo nihil positiue 
+      si<lb ed="#B" n="33" break="no"/>gnificent. Vnde dicit magister, quod 
+      nomen<lb ed="#B" n="34" break="no"/>ternarij in diuinis significat ibi esse 
+      pa<lb ed="#B" n="35" break="no"/>trem filium &amp;cililicet qui sunt res, &amp; personae, 
+      <lb ed="#B" n="36"/>maxime positiue: sed non ponit 
+      quanti<lb ed="#B" n="37" break="no"/>tatem numeri, &amp; diuersitatem scilicet essentia 
+      <lb ed="#B" n="38"/>lem inter illas personas. Vult ergo 
+      ma<lb ed="#B" n="39" break="no"/>gister dicere, quod termini numerales 
+      diui<lb ed="#B" n="40" break="no"/>nas personas significant, &amp; dicunt: sed  
+      <lb ed="#B" n="41"/>formaliter non ponunt aliquam 
+      diuersi<lb ed="#B" n="42" break="no"/>tatem essentialem inter eas: sed illam 
+      ma<lb ed="#B" n="43" break="no"/>gis priuant. Ponunt autem distinctionem 
+      <lb ed="#B" n="44"/>personalem: quae distinctio non 
+      nisiper<lb ed="#B" n="45" break="no"/>negationem exprimitur: qua dicitur haec 
+      <lb ed="#B" n="46"/>persona non esse illa: &amp; sic intelligendo 
+      <lb ed="#B" n="47"/>opi. magistri est uera. Si tamen (ut alijs 
+      <lb ed="#B" n="48"/>placet dicere) magister tenet terminos 
+      <lb ed="#B" n="49"/>numerales esse uere priuatiuos: quod tamen 
+      <lb ed="#B" n="50"/>ex uerbis eius sane intelligendum no 
+      ui<lb ed="#B" n="51" break="no"/>detur posse haberi: sic credo oppositum 
+      <!--335.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>fore probabilius. Et secundum hoc 
+      qui<lb ed="#B" n="53" break="no"/>dam hic recedunt a magistro. Plura alia 
+      <lb ed="#B" n="54"/>notatu digna doct. tangit in illa. q. satis 
+      <lb ed="#B" n="55"/>lucide, ideo poterur ibi uideri. Sufficiat  
+      <lb ed="#B" n="56"/>illa hic summatim perstrinxisse.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

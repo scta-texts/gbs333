@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="21"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-aa5112"> <!-- l1prolq5 -->
+            <head xml:id="gbs333-aa5112-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-aa5112-Hd1e104" type="question-title">Utrum in omni demonstratione diffinitio sit medium demonstrandi</head>
+            <p xml:id="gbs333-aa5112-d1e107">
+      <!--108.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>QVAESTIO V 
+      <lb ed="#B" n="53"/>VTRVM in omni 
+      demon<lb ed="#B" n="54" break="no"/>stratione diffinitio sit 
+      me<lb ed="#B" n="55" break="no"/>dium demonstrandi.
+    </p>
+            <p xml:id="gbs333-aa5112-d1e123">
+      ¶ No<lb ed="#B" n="56" break="no"/>tandum primo, quod 
+      quaestio<lb ed="#B" n="57" break="no"/>illa intelligenda est de demonstratione 
+      <lb ed="#B" n="58"/>potissima. Est autem demonstratio 
+      po<lb ed="#B" n="59" break="no"/>tissima, demonstratio propterquid, 
+      uni<lb ed="#B" n="60" break="no"/>uersalis: utraque uniuersalitate &amp; 
+      affir<lb ed="#B" n="61" break="no"/>matiua. Ex primo sequitur: quod ex per 
+      cau<lb ed="#B" n="62" break="no"/>sam id est medium causale. Ex secundo, quod 
+      <lb ed="#B" n="63"/>est in prima sigura, &amp; primo eius 
+      mo<lb ed="#B" n="64" break="no"/>do. Ex tertio, quod est ostensiua.
+    </p>
+            <p xml:id="gbs333-aa5112-d1e146">
+      ¶ Secun<lb ed="#B" n="65" break="no"/>do notandum: quod diffinitio est duple: 
+      <lb ed="#B" n="66"/>licet quid rei: &amp; quid nominis. Diffinitio 
+      <lb ed="#B" n="67"/>quid rei quandoque datur per causas in 
+      <lb ed="#B" n="68"/>trinsecas: siue per principia essentialia 
+      <lb ed="#B" n="69"/>diffinitid est rei significatae per diffinitum: 
+      <lb ed="#B" n="70"/>&amp; illa dicitur formalis: siue detur per 
+      <lb ed="#B" n="71"/>partem materialem: siue formalem: siue 
+      <lb ed="#B" n="72"/>utranque. Et illa diffinitio est solius 
+      con<lb ed="#B" n="73" break="no"/>positi substantialis: aut rei habentis 
+      par<lb ed="#B" n="74" break="no"/>tes distinctas eiusdem rationis: ut 
+      trian<lb ed="#B" n="75" break="no"/>gulus, qui componitur ex tribus lineis 
+      </p>
+            <p xml:id="gbs333-aa5112-d1e172">
+               <lb ed="#B" n="76"/>¶ Aliquando datur diffinitio per 
+      extrin<lb ed="#B" n="77" break="no"/>seca: &amp; illa dicitur materialis: quia 
+      fre<lb ed="#B" n="78" break="no"/>quenter datur per materiam d est subiectum. 
+      </p>
+            <p xml:id="gbs333-aa5112-d1e181">
+               <lb ed="#B" n="79"/>¶ Diffinitio quid nominis etiam 
+      dupli<lb ed="#B" n="80" break="no"/>citer accipitur. Vno modo pro 
+      oratio<lb ed="#B" n="81" break="no"/>ne, quam omnes intelligunt per 
+      nomen<lb ed="#B" n="82" break="no"/>Vel secundo pro oratione, cuius 
+      ueri<lb ed="#B" n="83" break="no"/>tas de diffinito sequitur ex priori &amp;c. 
+      </p>
+            <p xml:id="gbs333-aa5112-d1e194">
+               <lb ed="#B" n="84"/>¶ Conclusio prima. Demonstrationi 
+      <lb ed="#B" n="85"/>potissimae medium quandoque est 
+      diffin<lb ed="#B" n="86" break="no"/>tio: quandoque non: quia 
+      aliquandon<lb ed="#B" n="87" break="no"/>hil mediat inter diffinitionem, &amp; 
+      pas<lb ed="#B" n="88" break="no"/>sionem, &amp; tunc potest esse medium ut  
+      <lb ed="#B" n="89"/>habere tres: demonstratur de triangulo 
+      <lb ed="#B" n="90"/>per diffinitionem: quandoque aliquid 
+      <lb ed="#B" n="91"/>mediat, &amp; tunc non potest esse medium: 
+      <lb ed="#B" n="92"/>ut inter susceptiuum disciplinae, &amp; 
+      diffi<lb ed="#B" n="93" break="no"/>nitionem hominis mediat anima 
+      intel<lb ed="#B" n="94" break="no"/>lectiua: per quam potest passio 
+      demon<lb ed="#B" n="95" break="no"/>strari de diffinitione. Et ideo ppositio, 
+      <lb ed="#B" n="96"/>in qua passio demonstratur de diffinitio 
+      <lb ed="#B" n="97"/>ne, non est immediata: quia est 
+      demon<lb ed="#B" n="98" break="no"/>strabilis. Praemissae autem in demonstra 
+      <lb ed="#B" n="99"/>tione potissima debent esse immediate. 
+      </p>
+            <p xml:id="gbs333-aa5112-d1e231">
+               <lb ed="#B" n="100"/>¶ Conclusio secunda. Quando medium 
+      <lb ed="#B" n="101"/>in demonstratione potissima est diffi¬ 
+      <!--109.xml-->
+      <pb ed="#B" n="22"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>nitio: tunc debet esse diffinitio subiecti 
+      <lb ed="#B" n="2"/>&amp; non passionis. Probatur: quia medium 
+      <lb ed="#B" n="3"/>in tali demostratione debet tantum 
+      im<lb ed="#B" n="4" break="no"/>portare causas passionis, &amp; nihil aliud, 
+      <lb ed="#B" n="5"/>Diffinitio autem passionis importat ip 
+      <lb ed="#B" n="6"/>sam passionem: quae non est causa 
+      suiip<lb ed="#B" n="7" break="no"/>sius. Sed diffinitio subiecti importat sub 
+      <lb ed="#B" n="8"/>iectum, quod est causa materialis 
+      passio<lb ed="#B" n="9" break="no"/>nis: extendendo nomen materiae ad sub 
+      <lb ed="#B" n="10"/>iectum &amp;c. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

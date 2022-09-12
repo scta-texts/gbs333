@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="358"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a90842"> <!-- l1d43q1 -->
+            <head xml:id="gbs333-a90842-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a90842-Hd1e104" type="question-title">Utrum Deus possit aliqua facere, 
+  quae non fecit, nec faciet</head>
+            <p xml:id="gbs333-a90842-d1e107">
+               <lb ed="#B" n="21" break="no"/>QVAESTIO I 
+      <lb ed="#B" n="22"/>VTRVM deus possit 
+      ali<lb ed="#B" n="23" break="no"/>qua facere, quae non fecit, 
+      <lb ed="#B" n="24"/>nec faciet.
+    </p>
+            <p xml:id="gbs333-a90842-d1e118">
+      ¶ In ista 
+      quae<lb ed="#B" n="25" break="no"/>stione de quatuor 
+      uiden<lb ed="#B" n="26" break="no"/>dum. Primo 
+      supponen<lb ed="#B" n="27" break="no"/>dum est deum esse causam effectiuam 
+      <lb ed="#B" n="28"/>rerum. Secundo inquirendum, an 
+      ra<lb ed="#B" n="29" break="no"/>tione naturali probari possit deum esse 
+      <lb ed="#B" n="30"/>causam effectiuam liberam, &amp; non na 
+      <lb ed="#B" n="31"/>turalem. Tertio, an hoc sic secundum 
+      <lb ed="#B" n="32"/>ueritatem fidei tenendum. Quarto, 
+      <lb ed="#B" n="33"/>ex his ad quaestionem.
+    </p>
+            <p xml:id="gbs333-a90842-d1e141">
+      ¶ Articulus 
+      <lb ed="#B" n="34"/>primus satis habetur. q. ij. dist. j. secundi 
+      <lb ed="#B" n="35"/>collec.
+    </p>
+            <p xml:id="gbs333-a90842-d1e148">
+      ¶ Circa articulum secundum 
+      <lb ed="#B" n="36"/>duae adducuntur per doc. opi. &amp; 
+      impu<lb ed="#B" n="37" break="no"/>gnantur: qu (ut apparet nituntur) 
+      demon<lb ed="#B" n="38" break="no"/>strare: seu naturali ratione probare, 
+      <lb ed="#B" n="39"/>quod deus extra libere agat.
+    </p>
+            <p xml:id="gbs333-a90842-d1e159">
+      ¶ Prima 
+      <lb ed="#B" n="40"/>est sancti Thomae. quitenet de 
+      poten<lb ed="#B" n="41" break="no"/>tia. quaestio. prima. articulo 
+      quinto<lb ed="#B" n="42" break="no"/>quod impossibile est deum agere ex 
+      <lb ed="#B" n="43"/>necessit: te creaturae. Hinc adstruit 
+      <lb ed="#B" n="44"/>quatuor rationibus de porentia: in de 
+      <lb ed="#B" n="45"/>creatione. quaestio. iij. artic. xv.
+    </p>
+            <p xml:id="gbs333-a90842-d1e175">
+      ¶ Alia 
+      <!--445.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="46"/>est opinio. Sco. distinctio. ij. quaestiod e. 
+      <lb ed="#B" n="47"/>primi, &amp; in ratione secunda 
+      distinctio<lb ed="#B" n="48" break="no"/>viij. q.ult. Haec opi. sic arguit. Aliquid 
+      <lb ed="#B" n="49"/>causatur contingenter: ergo prima 
+      cau<lb ed="#B" n="50" break="no"/>sa contingenter agit. Tenet 
+      consequen<lb ed="#B" n="51" break="no"/>tia: quia quaelibet causa secunda agit in 
+      <lb ed="#B" n="52"/>quantum mouetur a prima. Si ergo 
+      pri<lb ed="#B" n="53" break="no"/>ma causa necessario mouet: quaelibet 
+      <lb ed="#B" n="54"/>alia nec essario mouetur, &amp; ita 
+      necessa<lb ed="#B" n="55" break="no"/>rio causat. Secundo. Ens summe 
+      neces<lb ed="#B" n="56" break="no"/>sarium non potest non esse quocunque 
+      <lb ed="#B" n="57"/>alio a e non existente: sed si 
+      necessa<lb ed="#B" n="58" break="no"/>riam haberet habitudinm ad primum 
+      <lb ed="#B" n="59"/>causatum: illo cautato non existente 
+      <lb ed="#B" n="60"/>non esset. Maior patet: quia ex minus 
+      <lb ed="#B" n="61"/>impossibili non sequitur maius, uel 
+      ma<lb ed="#B" n="62" break="no"/>gis impossibile. nec ex minus falso 
+      ma<lb ed="#B" n="63" break="no"/>ius falsum: ut si aliquod falsum habeat  
+      <lb ed="#B" n="64"/>duas causas falsitatis, &amp; mins falsum 
+      ha<lb ed="#B" n="65" break="no"/>beat uiiam cautam falsitatis: circuntseti 
+      <lb ed="#B" n="66"/>pta una causa falsitatis, utrobique; quod  
+      <lb ed="#B" n="67"/>erat minus falsum: iam et uerum quod 
+      <lb ed="#B" n="68"/>uero magis falsumerat: manet falium: 
+      </p>
+            <p xml:id="gbs333-a90842-d1e232">
+               <lb ed="#B" n="69"/>¶ Sed nec illae rationes concludunt 
+      co<lb ed="#B" n="70" break="no"/>tra philosophum. Nam dicit philo 
+      o<lb ed="#B" n="71" break="no"/>phus, quod contingentia effectus 
+      depen<lb ed="#B" n="72" break="no"/>det ex contingentia actionis alicuius 
+      <lb ed="#B" n="73"/>creaturae scilicet uoluntatis creatae 
+      necessatio<lb ed="#B" n="74" break="no"/>requisitae ad hoc. Et ideo cum secundum 
+      <lb ed="#B" n="75"/>eos, uoluntas creata necessario 
+      concur<lb ed="#B" n="76" break="no"/>rat ad multos effectus, &amp; ista simpliciter 
+      <lb ed="#B" n="77"/>contingenter causat, quantumcunque 
+      <lb ed="#B" n="78"/>aliae cauiae naturaliter causent, effectus 
+      <lb ed="#B" n="79"/>erit contingenter productus. Et quando 
+      <lb ed="#B" n="80"/>dicitur. Causa secunda non causat, 
+      nsi<lb ed="#B" n="81" break="no"/>inquantum mouetur a prima: illa potest 
+      <lb ed="#B" n="82"/>habere multiplicem intellectum, uel 
+      <lb ed="#B" n="83"/>nquantum mouetur a prima. t 
+      inquan<lb ed="#B" n="84" break="no"/>tum dependet a primae in suo esse, aut  
+      <lb ed="#B" n="85"/>in suo agere. ita quod non pos sit agere 
+      ni<lb ed="#B" n="86" break="no"/>si concurrente prima coactiue: uel quod 
+      <lb ed="#B" n="87"/>recipit aliquam inffuentiam a causa 
+      pri<lb ed="#B" n="88" break="no"/>ma, qua agat. Si primis duobus modis 
+      <lb ed="#B" n="89"/>intelligitur, consequentia nihil ualet. 
+      <lb ed="#B" n="90"/>Potest enim causa aliqua prior necessa 
+      <lb ed="#B" n="91"/>tio conseruare aliam, &amp; tamen eam non 
+      <lb ed="#B" n="92"/>necessitare ad agendum: ut si caelum, uel 
+      <lb ed="#B" n="93"/>angelus conseruaret uoluntatem 
+      huma<lb ed="#B" n="94" break="no"/>nam: non per hoc necessitarer ipsam ad 
+      <lb ed="#B" n="95"/>agendum similiter licet uoluntas non 
+      <lb ed="#B" n="96"/>possit producere uolitionem, nisi con¬ 
+      <!--446.xml-->
+      <pb ed="#B" n="359"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>currar cognitio, quae agit naturaliter: 
+      <lb ed="#B" n="2"/>non tamen ideo necessitatur ad 
+      uolen<lb ed="#B" n="3" break="no"/>dum, dum cognoscit. Si tertio modo 
+      <lb ed="#B" n="4"/>intelligitur: sic non oportet uoluntatem 
+      <lb ed="#B" n="5"/>accipere inffuentiam qua agar cum ex 
+      <lb ed="#B" n="6"/>se sit principium agendi. Et si 
+      re<lb ed="#B" n="7" break="no"/>ciperet infiuentiam, uel facultatem, 
+      <lb ed="#B" n="8"/>qua ageret: non tamen ideo 
+      neces<lb ed="#B" n="9" break="no"/>sitaretur, ut illa recepta necessario 
+      a<lb ed="#B" n="10" break="no"/>geret: quia etiamiam obiecto 
+      praesen<lb ed="#B" n="11" break="no"/>re uoluntati per cognitionem, 
+      ha<lb ed="#B" n="12" break="no"/>bet uoluntas facultiten uolendi 
+      il<lb ed="#B" n="13" break="no"/>lud: nec tamen necessitatur, quin possit 
+      <lb ed="#B" n="14"/>non uelle: immo sit probaretur, quod 
+      uo<lb ed="#B" n="15" break="no"/>suntas non aperet libere: quia non 
+      po<lb ed="#B" n="16" break="no"/>test agere nisi mota a d o tamen mouetur, 
+      <lb ed="#B" n="17"/>non potest non agere, essetque libertas 
+      <lb ed="#B" n="18"/>in sola uoluntate diuina, &amp; nulla 
+      inhu<lb ed="#B" n="19" break="no"/>mana.
+    </p>
+            <p xml:id="gbs333-a90842-d1e343">
+      ¶ Secunda ratio et ani non 
+      co<lb ed="#B" n="20" break="no"/>it: quia philosophi negarent maiorem 
+      <lb ed="#B" n="21"/>Dicerent enim, quod ad negationem 
+      alicu<lb ed="#B" n="22" break="no"/>ius alterius a prima causa, sequitur 
+      ne<lb ed="#B" n="23" break="no"/>gatio primae causae. Sicut ad positionem 
+      <lb ed="#B" n="24"/>causae primae, sequitur porstio alicuius 
+      <lb ed="#B" n="25"/>effectus, &amp; hoc propter naturalitatem 
+      <lb ed="#B" n="26"/>causae primae in agento.
+    </p>
+            <p xml:id="gbs333-a90842-d1e362">
+      ¶ Ad probatio 
+      <lb ed="#B" n="27"/>nem si sunt gradus in impossibilibus 
+      <lb ed="#B" n="28"/>(quod tamen non uidetur) tunc ex 
+      mi<lb ed="#B" n="29" break="no"/>nus impossibili sequitur magis 
+      impussi<lb ed="#B" n="30" break="no"/>bile: quia ab uno conuerribilium ad aliud 
+      <lb ed="#B" n="31"/>ualet consequentia affitratiue, &amp; 
+      nega<lb ed="#B" n="32" break="no"/>tiue. Et ideo sequitur: homo non est 
+      <lb ed="#B" n="33"/>risibilis: ergo homo non est homo, &amp; 
+      ta<lb ed="#B" n="34" break="no"/>men consequens est impossibilius 
+      ante<lb ed="#B" n="35" break="no"/>cedente. Similiter ex opposito 
+      con<lb ed="#B" n="36" break="no"/>clusionis sequitur oppositum 
+      princi<lb ed="#B" n="37" break="no"/>pij, &amp; tamen oppositum 
+      principi<lb ed="#B" n="38" break="no"/>est impossibilius opposito 
+      conclusio<lb ed="#B" n="39" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a90842-d1e393">
+      ¶ Ad probationem consequenter 
+      <lb ed="#B" n="40"/>dicitur: quod licet falium aliquod habet 
+      <lb ed="#B" n="41"/>duas causas falsitatis: non tamen potest 
+      <lb ed="#B" n="42"/>circumscribi falsitas antecedentis 
+      infe<lb ed="#B" n="43" break="no"/>rens hoc consequens: quia necessario 
+      <lb ed="#B" n="44"/>falsum, uel saltem circumscribi non 
+      po<lb ed="#B" n="45" break="no"/>test, quin circumscribantur ambae 
+      cause<lb ed="#B" n="46" break="no"/>falsitatis consequentis: nisi forte per in 
+      <lb ed="#B" n="47"/>tellectum, sed consiueratio intellectus 
+      <lb ed="#B" n="48"/>nihil facit ad propositionum ueritatem, 
+      <lb ed="#B" n="49"/>uel falsitatem. Qualitercunque n. onside 
+      <lb ed="#B" n="50"/>ret intellectus semper haec est falia: homo 
+      <lb ed="#B" n="51"/>estasinus, &amp; illa uera: homo est animal. 
+      <!--446.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-a90842-d1e426">
+               <lb ed="#B" n="52"/>¶ Istis sic praemislis uidenda est 
+      respon<lb ed="#B" n="53" break="no"/>sio doct. ad articulum istum. Prima 
+      con<lb ed="#B" n="54" break="no"/>clusio. Non potest naturali ratione p ro 
+      <lb ed="#B" n="55"/>bari, quin sicut ex perfectione solis 
+      na<lb ed="#B" n="56" break="no"/>turaliter sequuntur effectus multi: ita 
+      <lb ed="#B" n="57"/>ex perfectione naturae diuinae sequuntur 
+      <lb ed="#B" n="58"/>effectus multi quialiter esse non possunt 
+      </p>
+            <p xml:id="gbs333-a90842-d1e444">
+               <lb ed="#B" n="59"/>¶ Est itaque pro artic. iij. conclu. ista. 
+      <lb ed="#B" n="60"/>Eide tenendum est, quod deus 
+      contingen<lb ed="#B" n="61" break="no"/>ter, &amp; lipere causat eia alia a se. 
+      Proba<lb ed="#B" n="62" break="no"/>tur: quia fide creditur, quod deus est omni 
+      <lb ed="#B" n="63"/>potens: ut patuit. q. &amp; dist. praecedenti, 
+      <lb ed="#B" n="64"/>&amp; potens omnia producibilia se solo, &amp; 
+      <lb ed="#B" n="65"/>immediate producere, &amp; cum non 
+      pro<lb ed="#B" n="66" break="no"/>ducat omnia producibilia simul: sequitur. 
+      <lb ed="#B" n="67"/>quod non necessario, sed libere producit. 
+      <lb ed="#B" n="68"/>Tenet consequentia: quia posita 
+      caufa<lb ed="#B" n="69" break="no"/>naturaliter agente sufficienter eo 
+      modo<lb ed="#B" n="70" break="no"/>quo sufficit, necessario ponit effectus. 
+      <lb ed="#B" n="71"/>Siquidem supposito, quod deus possit 
+      om<lb ed="#B" n="72" break="no"/>nia se solo producere, &amp; quod non ind 
+      get<lb ed="#B" n="73" break="no"/>concursu eausae secundae: euidenter 
+      pro<lb ed="#B" n="74" break="no"/>batur eum producere contingenter, &amp; 
+      <lb ed="#B" n="75"/>libere. Nam si produceret 
+      naturalife<lb ed="#B" n="76" break="no"/>cessitate, omnia producibilia simul 
+      pro<lb ed="#B" n="77" break="no"/>duceret, cum sit causa sufficiens infinita, 
+      <lb ed="#B" n="78"/>&amp; non impedibilis.
+    </p>
+            <p xml:id="gbs333-a90842-d1e490">
+      ¶ Pro articulo quas 
+      <lb ed="#B" n="79"/>to est conclusio responsalis ad 
+      quaestio<lb ed="#B" n="80" break="no"/>nem. Deus potest facere aliquid, uel 
+      ali<lb ed="#B" n="81" break="no"/>qua quod non facit, &amp; aliter producere 
+      <lb ed="#B" n="82"/>quam producit. Patet: quia contingenter 
+      <lb ed="#B" n="83"/>causat: ergo potest causare. &amp; non 
+      cau<lb ed="#B" n="84" break="no"/>sare sic uel aliter.
+    </p>
+            <p xml:id="gbs333-a90842-d1e506">
+      ¶ Corollarium. 
+      <lb ed="#B" n="85"/>Deus potest aliquid facere quod non est 
+      <lb ed="#B" n="86"/>iustum fieri a deo; si tamen faceret, iussum 
+      <lb ed="#B" n="87"/>esset fieri. Vnde sola uoluntas diuina 
+      <lb ed="#B" n="88"/>est prima regula omnis iustitie, &amp; eo quod 
+      <lb ed="#B" n="89"/>uult aliquid fieri, iustum est fieri, &amp; 
+      eo<lb ed="#B" n="90" break="no"/>quod uult aliquid non fieri, non est iustum 
+      <lb ed="#B" n="91"/>fieri; unde quod non est iustum fieri, 
+      po<lb ed="#B" n="92" break="no"/>test esse iussum fieri sine tamen 
+      uolun<lb ed="#B" n="93" break="no"/>tatis mutatione aut noua uolitione, de 
+      <lb ed="#B" n="94"/>quo supra de scientia dei. Ad hoc 
+      plu<lb ed="#B" n="95" break="no"/>ra uide in Camerac. quaestio. xiij. artic. 
+      <lb ed="#B" n="96"/>ij. Et in Greg. distinct. praesenti. Item 
+      <lb ed="#B" n="97"/>in sancto Tho. quaest. j. de potentia art. 
+      <lb ed="#B" n="98"/>v. &amp; quaest. iij. de creatione. artic. xv. 
+      <lb ed="#B" n="99"/>&amp; xvj. ut ullegatum fuit.
+    </p>
+            <p xml:id="gbs333-a90842-d1e542">
+      ¶ Plura hic 
+      pos<lb ed="#B" n="100" break="no"/>sent moueri de infinitate potentiae 
+      di<lb ed="#B" n="101" break="no"/>uinae.
+    </p>
+            <p xml:id="gbs333-a90842-d1e549">
+      ¶ Posset enim quaeri, utrum 
+      de<lb ed="#B" n="102" break="no"/>us sit potentia uigoris infiniti siue in¬ 
+      <!--447.xml-->
+      <pb ed="#B" n="360"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>finite productiua. Hanc quaestionem 
+      <lb ed="#B" n="2"/>determinat Camerac. ubi supra arti. iij. 
+      <lb ed="#B" n="3"/>Et Ockam in quodlib. vij. in diuersis 
+      <lb ed="#B" n="4"/>quaestionibus late disputat hanc 
+      mate<lb ed="#B" n="5" break="no"/>tiam. Item utrum sit potentia alicuius 
+      <lb ed="#B" n="6"/>entis infiniti absolute productiua: de 
+      <lb ed="#B" n="7"/>hoc aliquid habetur in secundo. q. iij. 
+      <lb ed="#B" n="8"/>distin. j. de possibilitate infiniti 
+      cathe<lb ed="#B" n="9" break="no"/>gorematice: &amp; hanc possibilitatem pro 
+      <lb ed="#B" n="10"/>babiliter tenet Camerac. ubi supra uide 
+      <lb ed="#B" n="11"/>ad hoc Grego. dist. praesenti. Item de 
+      <lb ed="#B" n="12"/>hoc distinct. xxxviij. huius collect. de 
+      <lb ed="#B" n="13"/>hoc etiam habet doct. quaest. iiij. 
+      secun<lb ed="#B" n="14" break="no"/>di quodlib. &amp; quaest. viij. ij. sententiarum. 
+      <lb ed="#B" n="15"/>Sed quia in locis nunc allegatis &amp; etiam 
+      <lb ed="#B" n="16"/>supra dist. xxxvj. q. unica in dub. iiij. 
+      plu<lb ed="#B" n="17" break="no"/>ra de hoc disputatiue habentur: nunc 
+      <lb ed="#B" n="18"/>pro parte illa nunc pro alia: ideo hic 
+      <lb ed="#B" n="19"/>rescinduntur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

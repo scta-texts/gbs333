@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="295"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a74677"> <!-- l1d32q1 -->
+            <head xml:id="gbs333-a74677-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a74677-Hd1e104" type="question-title">Utrum pater sit sapiens sapientia genita</head>
+            <p xml:id="gbs333-a74677-d1e107">
+      <!--382.xml-->
+               <pb ed="#B" n="295"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>QVAESTIO I 
+      <lb ed="#B" n="2"/>TRVM pater sit sapiens 
+      <lb ed="#B" n="3"/>sapientia genita.
+    </p>
+            <p xml:id="gbs333-a74677-d1e123">
+      ¶ In 
+      tri<lb ed="#B" n="4" break="no"/>bus articulis stabit 
+      consue<lb ed="#B" n="5" break="no"/>to more resolutio 
+      quaestio<lb ed="#B" n="6" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a74677-d1e133">
+      ¶ Notandum ergo est 
+      <lb ed="#B" n="7"/>pariter, &amp; supponendum pro articulo 
+      <lb ed="#B" n="8"/>primo, quod sapientia, lumen, notitia, 
+      <lb ed="#B" n="9"/>&amp; similia: ut dicit magister distinctio 
+      <lb ed="#B" n="10"/>xxvij. secundum substantiam dicuntur, 
+      <lb ed="#B" n="11"/>&amp; non respectiue: sunt quoque essentia 
+      <lb ed="#B" n="12"/>ia: ideoque sicut est una essentia trium, 
+      <lb ed="#B" n="13"/>ita una sapientia. Trahitur tamen 
+      sin<lb ed="#B" n="14" break="no"/>gulum eorum quandoque ad 
+      supposi<lb ed="#B" n="15" break="no"/>tionem personalem: quando ponitur 
+      re<lb ed="#B" n="16" break="no"/>spectu praedicati personalis: uel 
+      quan<lb ed="#B" n="17" break="no"/>do sibi additur aliqua determinatio 
+      no<lb ed="#B" n="18" break="no"/>tionalis: ut sapientia de sapientia: 
+      lu<lb ed="#B" n="19" break="no"/>men de lumine. Vbi sapientia in sub 
+      <lb ed="#B" n="20"/>iecto capitur pro filio, &amp; in praedicato 
+      <lb ed="#B" n="21"/>ponitur pro patre. Exemplum secun¬- 
+      <lb ed="#B" n="22"/>di, ut cum dicimus sapientia ingenita 
+      <lb ed="#B" n="23"/>sapientia genita. Sapientia ingenita ca 
+      <lb ed="#B" n="24"/>pitur pro patre, &amp; hoc capiendo 
+      inge<lb ed="#B" n="25" break="no"/>nitum, ut est proprium patri: de quo 
+      su<lb ed="#B" n="26" break="no"/>pra distinctio. xxviij. Si autem 
+      cape<lb ed="#B" n="27" break="no"/>retur ingenitum negatiue pro non 
+      ge<lb ed="#B" n="28" break="no"/>nito: sapientia ingenita supponit 
+      essen<lb ed="#B" n="29" break="no"/>tialiter pro ipsa natura diuina, quae est 
+      <lb ed="#B" n="30"/>non genita: sapientia genita uero 
+      pro<lb ed="#B" n="31" break="no"/>filio.
+    </p>
+            <p xml:id="gbs333-a74677-d1e190">
+      ¶ Et ex illo patet defectus, &amp; 
+      fal<lb ed="#B" n="32" break="no"/>lacia, quae est in argumento sophistico, 
+      <lb ed="#B" n="33"/>quod prodit magister in litera, quo 
+      ar<lb ed="#B" n="34" break="no"/>guitur. In diuinis est sapientia 
+      ingeni<lb ed="#B" n="35" break="no"/>ta, &amp; etiam sapientia genita, &amp; 
+      sapien<lb ed="#B" n="36" break="no"/>tia ingenita non est sapientia genita: 
+      <lb ed="#B" n="37"/>ergo sunt duae sapientiae. Nam in 
+      con<lb ed="#B" n="38" break="no"/>sequente sapientia supponit 
+      essentiali<lb ed="#B" n="39" break="no"/>ter pro substantia diuina, &amp; in 
+      antece<lb ed="#B" n="40" break="no"/>dente, ubique supponit personaliter  
+      </p>
+            <p xml:id="gbs333-a74677-d1e212">
+               <lb ed="#B" n="41"/>¶ Secundo notandum: quod quando 
+      <lb ed="#B" n="42"/>praedicato importanti principaliter idem, 
+      <lb ed="#B" n="43"/>quod subiectum, uel eius partem, uel ac 
+      <lb ed="#B" n="44"/>cidens eius, uel constituens ipsum, 
+      ad<lb ed="#B" n="45" break="no"/>ditur ablatiuus: ad ueritatem talis 
+      pro<lb ed="#B" n="46" break="no"/>positionis requiritur, quod ablatiuus 
+      <lb ed="#B" n="47"/>importet idem, quod subjectum, uel 
+      <lb ed="#B" n="48"/>partem eius, uel accidens eius, aut 
+      ali<lb ed="#B" n="49" break="no"/>quid constituens ipsum, reddendo 
+      sin<lb ed="#B" n="50" break="no"/>gula singulis. Vnde haec non est ue¬ 
+      <!--382.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ra: homo est animal albedine, uel 
+      lapi<lb ed="#B" n="52" break="no"/>de, uel deo. Illae autem sunt uerae: 
+      <lb ed="#B" n="53"/>homo est animas animalitate: homo 
+      <lb ed="#B" n="54"/>est rationalis anima: homo est albus 
+      al<lb ed="#B" n="55" break="no"/>bedine: deus est pater paternitate. Haec 
+      <lb ed="#B" n="56"/>autem: deus est homo humanitate, est 
+      <lb ed="#B" n="57"/>spiritualis modus: quia ibi denotatur, 
+      <lb ed="#B" n="58"/>quod significatum principale praę
+      edica<lb ed="#B" n="59" break="no"/>ti, scilicet homo: quod est natura 
+      hu<lb ed="#B" n="60" break="no"/>mana sit unitum deo, &amp; istud sic unitum 
+      <lb ed="#B" n="61"/>importat ablatiuus humanitate, &amp; ideo 
+      <lb ed="#B" n="62"/>est uera. Veruntamen secundum 
+      men<lb ed="#B" n="63" break="no"/>tem Ioann. clarius potest dici: quod 
+      abla<lb ed="#B" n="64" break="no"/>tiuus adiunctus importat suum 
+      signifi<lb ed="#B" n="65" break="no"/>catum esse principium, quo subiectum 
+      <lb ed="#B" n="66"/>est tale, quale denominatur per 
+      praedi<lb ed="#B" n="67" break="no"/>catum principale: &amp; hoc formale, 
+      uel<lb ed="#B" n="68" break="no"/>principiatiuum, siue efficiens: capiendo 
+      <lb ed="#B" n="69"/>efficiens large. Sicut homo est albus 
+      <lb ed="#B" n="70"/>albedine, denotatur, quod albedo sit 
+      prin<lb ed="#B" n="71" break="no"/>cipium formale, quo homo est albus, &amp; 
+      <lb ed="#B" n="72"/>hic paries est niger sumo, ueligne, 
+      de<lb ed="#B" n="73" break="no"/>notatur, quod ignis, uel fumus sit 
+      prin<lb ed="#B" n="74" break="no"/>cipium efficiens, quo paries est denigra 
+      <lb ed="#B" n="75"/>tus.
+    </p>
+            <p xml:id="gbs333-a74677-d1e295">
+      ¶ Tertio notandum, quod 
+      domi<lb ed="#B" n="76" break="no"/>nus Cameracen. quaestio. xiij. primi art. 
+      <lb ed="#B" n="77"/>iij. fere idem loquitur. Vnde praemissa 
+      <lb ed="#B" n="78"/>quaedam dist. (ad mentem cuiusdam 
+      anti<lb ed="#B" n="79" break="no"/>qui, &amp; subtilis doc. dami Petri Pictauien. 
+      <lb ed="#B" n="80"/>lid j. summae suae. c. xix. qu dicit. Nihil foret 
+      <lb ed="#B" n="81"/>affirmandum, uel negandum in hac 
+      ma<lb ed="#B" n="82" break="no"/>teria sine distinctione: ne quis coram 
+      <lb ed="#B" n="83"/>sophisticis ridiculo exponatur) dicit: quod 
+      <lb ed="#B" n="84"/>ille terminus sapientia per se sumptus 
+      <lb ed="#B" n="85"/>est terminus essentialis: sed 
+      quando<lb ed="#B" n="86" break="no"/>que sumptus cum addito est 
+      persona<lb ed="#B" n="87" break="no"/>lis: ut sapientia genita. Et 
+      quan<lb ed="#B" n="88" break="no"/>do ponitur in ablatiuo casu, potest 
+      <lb ed="#B" n="89"/>exponi dupliciter: uel per a, uel 
+      per<lb ed="#B" n="90" break="no"/>istam praepositionem per..
+    </p>
+            <p xml:id="gbs333-a74677-d1e330">
+      ¶ Et 
+      se<lb ed="#B" n="91" break="no"/>cundum hoc quatuor ponit 
+      proposi<lb ed="#B" n="92" break="no"/>tiones ad mentem praefati doct.
+    </p>
+            <p xml:id="gbs333-a74677-d1e337">
+      ¶ Pri 
+      <lb ed="#B" n="93"/>ma. Ista propositio: pater est sapiens 
+      <lb ed="#B" n="94"/>sapientia genita: siue per a, 
+      resolua<lb ed="#B" n="95" break="no"/>tur, siue per per, falsa est. Patet: quia 
+      <lb ed="#B" n="96"/>sicut pater non est a filio: nec per 
+      fi<lb ed="#B" n="97" break="no"/>lium, qui est sapientia genita: sic 
+      <lb ed="#B" n="98"/>non est sapiens ab ipso, uel per 
+      ip<lb ed="#B" n="99" break="no"/>sum secundum beatum Augustinum. 
+      </p>
+            <p xml:id="gbs333-a74677-d1e356">
+               <lb ed="#B" n="100"/>¶ Secunda est. Ista propositio: pater 
+      <lb ed="#B" n="101"/>est sapiens sapientia ingenita: si per a re¬ 
+      <!--383.xml-->
+      <pb ed="#B" n="296"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>soluatur, falsa est: si per p,uera est. Patet 
+      <lb ed="#B" n="2"/>quia ficut pater non est a seipso: nec ab 
+      <lb ed="#B" n="3"/>essentia diuina proprie loquendo: sic 
+      <lb ed="#B" n="4"/>non est sapiens a sapientia ingenita, quem 
+      <lb ed="#B" n="5"/>est ipse, uel essentia diuina: sed tamen 
+      <lb ed="#B" n="6"/>est sapiens per seipsum, &amp; per essentiam 
+      <lb ed="#B" n="7"/>diuinam.
+    </p>
+            <p xml:id="gbs333-a74677-d1e385">
+      ¶ Tertia propositio. Ista pro 
+      <lb ed="#B" n="8"/>positio: filius est sapiens sapientia 
+      geni<lb ed="#B" n="9" break="no"/>ta: si per a resoluatur, falsa est: si per 
+      ue<lb ed="#B" n="10" break="no"/>ra est. Patet: quia sicut filius non est a 
+      <lb ed="#B" n="11"/>seipso: sic non est sapiens a seipso: sed a 
+      <lb ed="#B" n="12"/>patre, a quo est: sed tamen est sapiens a 
+      <lb ed="#B" n="13"/>seipso, &amp; per ipsum: sicut filius agit 
+      per<lb ed="#B" n="14" break="no"/>seipsum: licet non a se secundum 
+      Hila<lb ed="#B" n="15" break="no"/>Quarta propositio. Ista propositio, 
+      fi<lb ed="#B" n="16" break="no"/>lius est sapiens sapientia ingenita: siue 
+      <lb ed="#B" n="17"/>per a resoluatur, siue per per, uera est, 
+      <lb ed="#B" n="18"/>Patet: quia sicut filius est a patre, &amp; 
+      per<lb ed="#B" n="19" break="no"/>patrem: sic est sapiens ab ipso, &amp; per 
+      ip<lb ed="#B" n="20" break="no"/>sum, qui est sapientia ingenita. Et sicut 
+      <lb ed="#B" n="21"/>dictum est de filio: ita pariformiter 
+      dici<lb ed="#B" n="22" break="no"/>posset de spiritusancto quoad istam 
+      pro<lb ed="#B" n="23" break="no"/>positionem.
+    </p>
+            <p xml:id="gbs333-a74677-d1e422">
+      ¶ Si uero dicatur: quod 
+      secun<lb ed="#B" n="24" break="no"/>dum August. Idem est in deo sapere, &amp; 
+      <lb ed="#B" n="25"/>esse: ergo si filius est sapiens 
+      sapien<lb ed="#B" n="26" break="no"/>tia ingenita. sequitur, quod filius est 
+      sa<lb ed="#B" n="27" break="no"/>pientia ingenita: quod est falsum: quia 
+      <lb ed="#B" n="28"/>si esset sapientia ingenita: non esset 
+      sa<lb ed="#B" n="29" break="no"/>pientia genita.
+    </p>
+            <p xml:id="gbs333-a74677-d1e438">
+      ¶ Pro cuius intellectu 
+      <lb ed="#B" n="30"/>notandum quarto: quod sicut ingenitum 
+      <lb ed="#B" n="31"/>potest dupliciter accipi: sic etiam 
+      sapien<lb ed="#B" n="32" break="no"/>tia ingenita. Vno modo dicitur 
+      inge<lb ed="#B" n="33" break="no"/>nitum omne, quod non est genitum, &amp; 
+      <lb ed="#B" n="34"/>sic essentia diuina est sapientia 
+      inge<lb ed="#B" n="35" break="no"/>nita. Alio modo dicitur ingenitum, 
+      <lb ed="#B" n="36"/>quod est non genitum, &amp; est generans, 
+      <lb ed="#B" n="37"/>&amp; sic est proprietas soli patri 
+      conueni<lb ed="#B" n="38" break="no"/>ens, &amp; non filio. Primo modo 
+      conce<lb ed="#B" n="39" break="no"/>ditur: quod filius est sapientia ingenita 
+      <lb ed="#B" n="40"/>identice ad istum sensum: qudod filius 
+      <lb ed="#B" n="41"/>est diuina essentia, siue sapientia, quae est 
+      <lb ed="#B" n="42"/>ingenita: sed secundo modo filius non 
+      <lb ed="#B" n="43"/>est sapientia ingenita: quia ingenitum 
+      <lb ed="#B" n="44"/>hoc modo soli patri conuenit.
+    </p>
+            <p xml:id="gbs333-a74677-d1e473">
+      ¶ Istis sic 
+      <lb ed="#B" n="45"/>recitatis, &amp; ex aliorum dictis 
+      compor<lb ed="#B" n="46" break="no"/>tatis, &amp; extractis: ut &amp; aliorum doct. in 
+      <lb ed="#B" n="47"/>tentio non lateat. Respondendum est 
+      <lb ed="#B" n="48"/>ad quaestionem secundum mentem doc. Et  
+      <lb ed="#B" n="49"/>est pro arti. ij. conclu. i. Pater non est sa 
+      <lb ed="#B" n="50"/>piens sapientia genita. Patet: quia cum 
+      sa<lb ed="#B" n="51" break="no"/>pies importat idem, quod subjectum prin¬ 
+      <!--383.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cipaliter, uel saltem constituens ipsum: 
+      <lb ed="#B" n="53"/>quia sapientia, quae est essentia: 
+      sapien<lb ed="#B" n="54" break="no"/>tia aunt genita non importat illud, quod  
+      <lb ed="#B" n="55"/>subiectum: nec constituens ipsum: quia 
+      <lb ed="#B" n="56"/>sapientia genita non est pater, nec 
+      con<lb ed="#B" n="57" break="no"/>stituit patrem: sequitur ex notabili 
+      secun<lb ed="#B" n="58" break="no"/>do, quod sit falsa.
+    </p>
+            <p xml:id="gbs333-a74677-d1e510">
+      ¶ Secunda conclusio. Haec 
+      <lb ed="#B" n="59"/>est concedenda: filius est sapiens 
+      sapien<lb ed="#B" n="60" break="no"/>tia ingenita: capiendo ingenitum 
+      ne<lb ed="#B" n="61" break="no"/>gatiue, ut conuenit essentiae: secus si 
+      acci<lb ed="#B" n="62" break="no"/>peretur, ut dicit proprietatem patris. 
+      Pa<lb ed="#B" n="63" break="no"/>ter: quia filius est sapiens essentia: ergo 
+      <lb ed="#B" n="64"/>sapientia ingenita. Sapientia enim 
+      inge<lb ed="#B" n="65" break="no"/>nita constituit filium sicut essentia: cum 
+      <lb ed="#B" n="66"/>sint idem omnibus modis.
+    </p>
+            <p xml:id="gbs333-a74677-d1e531">
+      ¶ Tertia 
+      con<lb ed="#B" n="67" break="no"/>clusio. Eilius est sapientia ingenita in abia 
+      <lb ed="#B" n="68"/>tiuo casu. Patet: quia secundum Aug. idem 
+      <lb ed="#B" n="69"/>est illi sapere, quod esse: sed filius sapit 
+      sa<lb ed="#B" n="70" break="no"/>pientia ingenita ex conclusione secunda: 
+      <lb ed="#B" n="71"/>ergo est sapientia ingenita.
+    </p>
+            <p xml:id="gbs333-a74677-d1e544">
+      ¶ Quantum 
+      <lb ed="#B" n="72"/>ad articulum tertium est dubium. 
+      Quo<lb ed="#B" n="73" break="no"/>modo illa conceditur. Pater dicit 
+      uer<lb ed="#B" n="74" break="no"/>bo: &amp; non illa: pater sapit uerbo.
+    </p>
+            <p xml:id="gbs333-a74677-d1e553">
+      ¶ Pro 
+      <lb ed="#B" n="75"/>solutione notandum post praedicta 
+      dis<lb ed="#B" n="76" break="no"/>xxvij. quaestione. iij. quod dicere 
+      aliquan<lb ed="#B" n="77" break="no"/>do accipitur pure essentialiter: &amp; sic 
+      <lb ed="#B" n="78"/>ualet tantum, quod intelligere: 
+      secun<lb ed="#B" n="79" break="no"/>dum quam acceptionem Ansel. in mono. 
+      di<lb ed="#B" n="80" break="no"/>cit: quod pater, filius &amp; spiritussanctus sunt 
+      <lb ed="#B" n="81"/>unum dicens, sicut unum intelligens. 
+      Alio<lb ed="#B" n="82" break="no"/>modo pure notionaliter. Et sic dicere 
+      <lb ed="#B" n="83"/>nihil aliud est, quam uerbum gignere, 
+      <lb ed="#B" n="84"/>uel producere. Et sic secundum Rich. 
+      so<lb ed="#B" n="85" break="no"/>lus pater est dicens Tertio modo 
+      accipi<lb ed="#B" n="86" break="no"/>tur nec pure notionaliter, nec 
+      purees<lb ed="#B" n="87" break="no"/>sentialiter: sed ut includit utrumque; 
+      sci<lb ed="#B" n="88" break="no"/>licet in eius, quid nominis ponitur 
+      no<lb ed="#B" n="89" break="no"/>tionale, &amp; essentiale. Sic dicere est notitia 
+      <lb ed="#B" n="90"/>a se producta declarare omne 
+      declara<lb ed="#B" n="91" break="no"/>bile. Hae acceptiones supra habitae sunt 
+      <lb ed="#B" n="92"/>dist. xxvij. qeiij.
+    </p>
+            <p xml:id="gbs333-a74677-d1e595">
+      ¶ Per hoc dicitur 
+      capien<lb ed="#B" n="93" break="no"/>do dicere primo modo, quaelibet perso 
+      <lb ed="#B" n="94"/>na dicit seipsa formaliter: &amp; non dicit 
+      <lb ed="#B" n="95"/>alia ablatiue: quia quaelibet persona 
+      de<lb ed="#B" n="96" break="no"/>clarat sua intellligentia.
+    </p>
+            <p xml:id="gbs333-a74677-d1e606">
+      ¶ Secundo 
+      dici<lb ed="#B" n="97" break="no"/>tur: capiendo dicere pure notionaliter: 
+      <lb ed="#B" n="98"/>pr non dicit uerbo: sed dicit uerbum.
+    </p>
+            <p xml:id="gbs333-a74677-d1e613">
+      ¶ Ter 
+      <lb ed="#B" n="99"/>tio dicitur: capiendo dicere tertio 
+      mo<lb ed="#B" n="100" break="no"/>do, pater dicit uerbo non formaliter, 
+      <lb ed="#B" n="101"/>sed principiatiue id est producit uerbum, quo 
+      <lb ed="#B" n="102"/>declaratur omne declarabile.
+    </p>
+            <p xml:id="gbs333-a74677-d1e625">
+      ¶ Per hoc  
+      <!--384.xml-->
+      <pb ed="#B" n="297"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>patet ad dubium: quomodo conceditur, 
+      <lb ed="#B" n="2"/>pater dicit uerbo: illa autem nullo modo 
+      <lb ed="#B" n="3"/>conceditur: pater sapit sapientia 
+      geni<lb ed="#B" n="4" break="no"/>ta: quia sapit est purum essentiale. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

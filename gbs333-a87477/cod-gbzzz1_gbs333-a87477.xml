@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="345"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a87477"> <!-- l1d39q1 -->
+            <head xml:id="gbs333-a87477-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a87477-Hd1e104" type="question-title">Utrum Deus possit plura scire 
+    quam scit</head>
+            <p xml:id="gbs333-a87477-d1e107">
+               <lb ed="#B" n="32"/>unica. 
+      <lb ed="#B" n="33"/>VTRVM deus possit plura 
+      <lb ed="#B" n="34"/>scire, quam scit.
+    </p>
+            <p xml:id="gbs333-a87477-d1e116">
+      ¶ Tribus 
+      arti<lb ed="#B" n="35" break="no"/>suo culis absoluetur difficultas 
+      <lb ed="#B" n="36"/>quaestionis.
+    </p>
+            <p xml:id="gbs333-a87477-d1e124">
+      ¶ Pro articulo 
+      <lb ed="#B" n="37"/>primo suppono dicta in dubio. v. distin. 
+      <lb ed="#B" n="38"/>praecedentis. Quibus additur post. 
+      Oy<lb ed="#B" n="39" break="no"/>tam. q. viij. ar. ij. quod omnis notitia, seu 
+      scien<lb ed="#B" n="40" break="no"/>tia deiaut est simpliciter appraehensiua, 
+      <lb ed="#B" n="41"/>aut complexeé, siue propositionaliter iudi 
+      <lb ed="#B" n="42"/>catiua. Et istam diuisionem innuit 
+      brin<lb ed="#B" n="43" break="no"/>ckesubi supra saltem sententionaliter: 
+      <lb ed="#B" n="44"/>secundum Altisiodoren. lib. suo primo. 
+      <lb ed="#B" n="45"/>c. xlviij. dicens. quod scientia dei uno modo 
+      <lb ed="#B" n="46"/>sumitur pro notitia rerum: aliquo modo 
+      <!--432.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>pro notitia enuntiabilium, &amp; hoc idem 
+      <lb ed="#B" n="48"/>ponit Adam. q.ij. tertij. Scientia 
+      apprae<lb ed="#B" n="49" break="no"/>hensiua (quae &amp; dicitur rerum) ex diuersitate, 
+      <lb ed="#B" n="50"/>&amp; generalitate scitorum: respectu 
+      quo<lb ed="#B" n="51" break="no"/>rum scientia deidicitur multiplex: tria 
+      <lb ed="#B" n="52"/>sortitur nomina. Dicitur. n. quandoque sim 
+      <lb ed="#B" n="53"/>plicis intelligentiae: dicitur scientia 
+      ui<lb ed="#B" n="54" break="no"/>sionis: dicitur pscientia.
+    </p>
+            <p xml:id="gbs333-a87477-d1e170">
+      ¶ Scientia 
+      sim<lb ed="#B" n="55" break="no"/>plicis intelligentiae, quae etiam solet 
+      dici<lb ed="#B" n="56" break="no"/>scientia dei intuitiua: est in plus, siue 
+      re<lb ed="#B" n="57" break="no"/>spectu plurium, quam scientia uisionis: quia 
+      <lb ed="#B" n="58"/>est respectu omnium possibilium. Non 
+      <lb ed="#B" n="59"/>autem scientia uisionis: ut patuit dist. 
+      <lb ed="#B" n="60"/>praeced. in dub. v. x. Item praescientia 
+      <lb ed="#B" n="61"/>siue puisio est in minus, quam scientia uisio 
+      <lb ed="#B" n="62"/>nis: quia est solum respectu futuri.
+    </p>
+            <p xml:id="gbs333-a87477-d1e190">
+      ¶ Item 
+      <lb ed="#B" n="63"/>scientia dei siue cognitio dei, respectu 
+      <lb ed="#B" n="64"/>plurium est appraehensio, quasiudicium. 
+      Pa<lb ed="#B" n="65" break="no"/>tet: quia tam respectu complexorum: quaod 
+      <lb ed="#B" n="66"/>incomplexorum, tam falsorum, quam uero 
+      <lb ed="#B" n="67"/>rum est appraehensio, iudicium uero 
+      so<lb ed="#B" n="68" break="no"/>lum respectu uerorum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e206">
+      ¶ Secundo 
+      no<lb ed="#B" n="69" break="no"/>tandum secundum doct. quod scire aliquando 
+      <lb ed="#B" n="70"/>capitur large pro cognoscere, hoc modo 
+      <lb ed="#B" n="71"/>dicimus: deus scit onia complexa, &amp; 
+      in<lb ed="#B" n="72" break="no"/>complexa, necessaria, &amp; contingentia 
+      <lb ed="#B" n="73"/>uera, &amp; falsa, possibilia, &amp; impos sibilia: 
+      <lb ed="#B" n="74"/>id est cognoscit omnia. Secundo modo 
+      <lb ed="#B" n="75"/>accipitur strictius, pro cognoscere 
+      ue<lb ed="#B" n="76" break="no"/>rum: illo modo non scit falsum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e226">
+      ¶ 
+      Ter<lb ed="#B" n="77" break="no"/>tio notandum, quod aliud est quaerere: an 
+      <lb ed="#B" n="78"/>deus possit plura scire, quai scit, &amp; an deus 
+      <lb ed="#B" n="79"/>possit scire aliquid, quod non scit. 
+      </p>
+            <p xml:id="gbs333-a87477-d1e235">
+               <lb ed="#B" n="80"/>¶ Quarto notandum, quod aliqui 
+      distin<lb ed="#B" n="81" break="no"/>guentes scientiam dei in scientiam 
+      re<lb ed="#B" n="82" break="no"/>rum, &amp; enuntiabilium, dicunt, quod 
+      scien<lb ed="#B" n="83" break="no"/>tia rerum significat diuinam essentiam, 
+      <lb ed="#B" n="84"/>secundum quod deus simplex appraehensio 
+      <lb ed="#B" n="85"/>entitatem incomplexarum. Scientia 
+      <lb ed="#B" n="86"/>uero enuntiabilium significat diuinam 
+      <lb ed="#B" n="87"/>essentiam, secundum quod est simplex 
+      ap<lb ed="#B" n="88" break="no"/>praehensio propositionum, uel euidens 
+      <lb ed="#B" n="89"/>iudicium complexorum. ita quod scientia 
+      <lb ed="#B" n="90"/>enuntiabilium etiam possit dici 
+      scien<lb ed="#B" n="91" break="no"/>tia rerum. Sed alij ut puta Oyta &amp; 
+      cae<lb ed="#B" n="92" break="no"/>teri, scientiam enuntiabilium dicunt 
+      scien<lb ed="#B" n="93" break="no"/>tiam iudiciariam, siue iudicatiuam Aliam 
+      <lb ed="#B" n="94"/>uero nominant appraehensionem: cum 
+      <lb ed="#B" n="95"/>non est iudicium: non curando respectu, 
+      <lb ed="#B" n="96"/>cuius sit obiectiue, an respectu enuntia 
+      <lb ed="#B" n="97"/>tionis, uel rei distincte contra signum, 
+      <!--433.xml-->
+      <pb ed="#B" n="346"/>
+               <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="gbs333-a87477-d1e284">
+               <lb ed="#B" n="1"/>¶ Quinto notandum, quod terminorum 
+      si<lb ed="#B" n="2" break="no"/>inificantium dei scientiam, quidams 
+      <lb ed="#B" n="3"/>gnificant simpliciter, &amp; praecise apptae 
+      <lb ed="#B" n="4"/>hensionem dei, ut cognoscere, 
+      appraehe<lb ed="#B" n="5" break="no"/>dere, scire, saltem ut in plurimum: salua 
+      <lb ed="#B" n="6"/>dist. praemissa in notabili secundo. 
+      Qui<lb ed="#B" n="7" break="no"/>d am non solum significat diuinam 
+      essen<lb ed="#B" n="8" break="no"/>tiam, aut deum cognoscentem: sed 
+      con<lb ed="#B" n="9" break="no"/>notant effectus uarios in creaturis, 
+      pro<lb ed="#B" n="10" break="no"/>pter cuius connotati alietatem de 
+      sein<lb ed="#B" n="11" break="no"/>uicem saepe negantur: licet dicant unam 
+      <lb ed="#B" n="12"/>&amp; eandem essentiam cognoscentem, sed  
+      <lb ed="#B" n="13"/>cognitionem ueri iudicatiuam differe 
+      <lb ed="#B" n="14"/>ter tamen secundum diuersos effectus 
+      <lb ed="#B" n="15"/>quos connotant, ut praedestinare, siue 
+      <lb ed="#B" n="16"/>praedestinatio, praescientia, praecognitio 
+      <lb ed="#B" n="17"/>prouidentia, approbatio, reprobatio.  
+      </p>
+            <p xml:id="gbs333-a87477-d1e323">
+               <lb ed="#B" n="18"/>¶ Hinc praedestinatio dicit cognitionem 
+      <lb ed="#B" n="19"/>ueri iudicatiuam, qua deus uult alicui 
+      <lb ed="#B" n="20"/>dare gratiam in praesenti, &amp; gloriam in 
+      <lb ed="#B" n="21"/>futuro
+    </p>
+            <p xml:id="gbs333-a87477-d1e334">
+      ¶ Reprobatio dicit notitiam 
+      eui<lb ed="#B" n="22" break="no"/>dentem iudicatiuam, qua uult aliquem 
+      <lb ed="#B" n="23"/>non saluare, sed damnare perpetuo. Item 
+      <lb ed="#B" n="24"/>notitia cum uoluntate beneplaciti 
+      re<lb ed="#B" n="25" break="no"/>spectu sic cogniti potest dici scientia a 
+      <lb ed="#B" n="26"/>probationis.
+    </p>
+            <p xml:id="gbs333-a87477-d1e347">
+      ¶ Praecognitio dicit 
+      co<lb ed="#B" n="27" break="no"/>gnitionem ueri iudicatiuam futuri &amp;c. 
+      <lb ed="#B" n="28"/>sic de multis aliis nominibus: ut scientia 
+      <lb ed="#B" n="29"/>uisionis, quae est facti. Praescientia, quem 
+      <lb ed="#B" n="30"/>est futurorum, simplicis notitiae, quae c 
+      <lb ed="#B" n="31"/>in gne respectu onnium cognoscibilium. 
+      <lb ed="#B" n="32"/>Non tamen propter illa nomina 
+      multipli<lb ed="#B" n="33" break="no"/>cata imaginanda est multiplicitas in 
+      di<lb ed="#B" n="34" break="no"/>uina essentia: sed una, &amp; eadem simplex 
+      <lb ed="#B" n="35"/>diuina notitia tam diuersa sortitur 
+      no<lb ed="#B" n="36" break="no"/>mina propter alia, &amp; alia scita.
+    </p>
+            <p xml:id="gbs333-a87477-d1e371">
+      ¶ Ex 
+      l<lb ed="#B" n="37" break="no"/>sumipossunt aliqua corollaria, &amp; ex prae 
+      <lb ed="#B" n="38"/>missis in dist. praeced. &amp; xxxv. Deus 
+      om<lb ed="#B" n="39" break="no"/>nium rerum pariter, &amp; enuntiabilium est 
+      <lb ed="#B" n="40"/>appraehensiua notitia. Supponitur autem 
+      <lb ed="#B" n="41"/>in proposito, quod propositiones ut 
+      termi<lb ed="#B" n="42" break="no"/>nantia intellectione possunt dici res 
+      lar<lb ed="#B" n="43" break="no"/>go uocabulo.
+    </p>
+            <p xml:id="gbs333-a87477-d1e389">
+      ¶ Corollarium 
+      secun<lb ed="#B" n="44" break="no"/>dum. Deus omnium uirorum 
+      enuntia<lb ed="#B" n="45" break="no"/>bilium est uera scientia, seu uerum 
+      iudi<lb ed="#B" n="46" break="no"/>cium. seu cognitio ueri iudicatiua ut  
+      <lb ed="#B" n="47"/>alij loquuntur.
+    </p>
+            <p xml:id="gbs333-a87477-d1e401">
+      ¶ Corollarium ter 
+      <lb ed="#B" n="48"/>tium. Deum omnium uere 
+      enuntiabi<lb ed="#B" n="49" break="no"/>lium de praeterito, uel de praesenti, est 
+      no<lb ed="#B" n="50" break="no"/>titia uisionis.
+    </p>
+            <p xml:id="gbs333-a87477-d1e410">
+      ¶ Corollarium quartum. 
+      <lb ed="#B" n="51"/>Deus omnium enuntiabilium de futu¬ 
+      <!--433.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ro contingentium est notitia praeuisio 
+      <lb ed="#B" n="53"/>nis, &amp; quandoque dicitur large 
+      praescien<lb ed="#B" n="54" break="no"/>tia.
+    </p>
+            <p xml:id="gbs333-a87477-d1e426">
+      ¶ Corollarium quintum. Deus 
+      re<lb ed="#B" n="55" break="no"/>spectu eorum, quae bene siunt, est 
+      scien<lb ed="#B" n="56" break="no"/>tia approbationis: respectu eorum, quae 
+      <lb ed="#B" n="57"/>male siunt scientia reprobationis: ista 
+      <lb ed="#B" n="58"/>omnia, &amp; similia possunt colligi ex 
+      di<lb ed="#B" n="59" break="no"/>ctis.
+    </p>
+            <p xml:id="gbs333-a87477-d1e439">
+      ¶ Corollarium sextum: quamuis deus 
+      <lb ed="#B" n="60"/>omnium rerum, &amp; enuntiabilium 
+      neces<lb ed="#B" n="61" break="no"/>sario est appraehensio, siue appraehesius 
+      <lb ed="#B" n="62"/>cognitio: attamen respectu uerorum 
+      con<lb ed="#B" n="63" break="no"/>tingentium non necessario, sed 
+      contin<lb ed="#B" n="64" break="no"/>genter est uera scientia, seu iudicium: 
+      <lb ed="#B" n="65"/>Prima pars huius corollarij patuit, &amp; 
+      <lb ed="#B" n="66"/>ostendit. Oyta: quia cum deus sit 
+      noti<lb ed="#B" n="67" break="no"/>tia immensa: si alicuius posset non esse 
+      <lb ed="#B" n="68"/>scientia: hoc est appraehensio: tunc 
+      pos<lb ed="#B" n="69" break="no"/>set non esse appraehensio immensa: quod  
+      <lb ed="#B" n="70"/>est impossibile. Secunda pars patuit dub: 
+      <lb ed="#B" n="71"/>j. dist. praecedentis: sicut enim talia 
+      con<lb ed="#B" n="72" break="no"/>tingenter sunt uera: sic deus eorum est 
+      <lb ed="#B" n="73"/>contingenter iudicatiua scientia, seu 
+      <lb ed="#B" n="74"/>cognitio iudiciaria: cum non possit 
+      iu<lb ed="#B" n="75" break="no"/>dicare salsum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e476">
+      ¶ Corollarium septimum. 
+      <lb ed="#B" n="76"/>Essentia diuina aeque necessario est 
+      no<lb ed="#B" n="77" break="no"/>titia ac utrumlibet contingentium, 
+      si<lb ed="#B" n="78" break="no"/>cut necessariorum, &amp; aeque impossibilium: 
+      <lb ed="#B" n="79"/>sicut possibilium: patet ex praecedenti. 
+      </p>
+            <p xml:id="gbs333-a87477-d1e487">
+               <lb ed="#B" n="80"/>¶ Corollarium octauum. Vnica, &amp; 
+      sim<lb ed="#B" n="81" break="no"/>plex notitia simul est oppositorum sine 
+      <lb ed="#B" n="82"/>sui oppositione: falsorum sine sui falsita 
+      <lb ed="#B" n="83"/>te, &amp; impossibilium sine sui impossibili 
+      <lb ed="#B" n="84"/>tate.
+    </p>
+            <p xml:id="gbs333-a87477-d1e501">
+      ¶ Secunda pars patet ex praemissit, 
+      <lb ed="#B" n="85"/>quia notitia appraehensiua simplex est in 
+      <lb ed="#B" n="86"/>plus, quam scientia uisionis. Plura alia 
+      <lb ed="#B" n="87"/>corollaria possent formari qu uide apud 
+      <lb ed="#B" n="88"/>praefatos doct.
+    </p>
+            <p xml:id="gbs333-a87477-d1e512">
+      ¶ Vltimo supponitur, quod 
+      <lb ed="#B" n="89"/>semper est aequalis numerus uerorum. 
+      Pa<lb ed="#B" n="90" break="no"/>tet: quia semperaltera pars contradictio 
+      <lb ed="#B" n="91"/>nis est uera, &amp; nunquam ambae. Nec 
+      ali<lb ed="#B" n="92" break="no"/>quid est uerum, nisi sit contradictionis 
+      <lb ed="#B" n="93"/>altera pars: unde quandocunque aliqud 
+      <lb ed="#B" n="94"/>est uerum: oportet aliud scilicet suum contra 
+      <lb ed="#B" n="95"/>dictorium fieri falsum, &amp; econuerso: 
+      ma<lb ed="#B" n="96" break="no"/>net ergo semper aequalis numerus 
+      ue<lb ed="#B" n="97" break="no"/>rorum, &amp; falsorum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e534">
+      ¶ Istis praemissis pro 
+      <lb ed="#B" n="98"/>articulo primo est conclusio re 
+      ponsi<lb ed="#B" n="99" break="no"/>lis prima pro artic. ij. Accipiendo scire 
+      <lb ed="#B" n="100"/>large, deus non potest scire plura, quam 
+      <lb ed="#B" n="101"/>scit: nec scire aliquid, quod numc non scit. 
+      <lb ed="#B" n="102"/>Patet: quia nullius notitiam potest deno¬ 
+      <!--434.xml-->
+      <pb ed="#B" n="347"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uo acquirere.
+    </p>
+            <p xml:id="gbs333-a87477-d1e556">
+      ¶ Secunda conclusio. Ac 
+      <lb ed="#B" n="2"/>cipiendo scire secundomodo, deus non 
+      <lb ed="#B" n="3"/>patest scire plura quam sit. Probatio:  
+      <lb ed="#B" n="4"/>quia omni tempore aequalia sunt uera, 
+      <lb ed="#B" n="5"/>&amp; non plura uno tempore, quam alio, quia 
+      <lb ed="#B" n="6"/>semper altera pars contradictionis est 
+      <lb ed="#B" n="7"/>uera: licet non semper eadem sit 
+      uera<lb ed="#B" n="8" break="no"/>Et omne uerum scit deus.
+    </p>
+            <p xml:id="gbs333-a87477-d1e574">
+      ¶ Tertia con 
+      <lb ed="#B" n="9"/>clusio, Deus potest scire aliquid, quod non 
+      <lb ed="#B" n="10"/>scit, secundo modo capiendo Iy scire. 
+      <lb ed="#B" n="11"/>Patet. aliquod falsum potest fieri uerum 
+      <lb ed="#B" n="12"/>&amp; illud falsum deus necessario no scit: 
+      <lb ed="#B" n="13"/>quia modo non est uerum, &amp; solum uerum 
+      <lb ed="#B" n="14"/>isto modo scit deus: potest tamen esse uerum: 
+      <lb ed="#B" n="15"/>&amp; ita potest sciri a deo: hoc tamen non 
+      con<lb ed="#B" n="16" break="no"/>tingit propter mutationem alicuius in 
+      <lb ed="#B" n="17"/>deo: sed propter mutationem in 
+      creatu<lb ed="#B" n="18" break="no"/>ra. Et ideo scientia dei nec potest augt 
+      <lb ed="#B" n="19"/>ri, nec minui. Ex illo sequitur: quod scire 
+      il<lb ed="#B" n="20" break="no"/>lo modo non dicit aliquid absolutum in 
+      <lb ed="#B" n="21"/>deo praesciente: sed etiam creaturam scilicet 
+      ue<lb ed="#B" n="22" break="no"/>rum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e607">
+      ¶ Secundo sequitur, quod non est idem 
+      <lb ed="#B" n="23"/>scire sortem sedere: &amp; scire sortem 
+      se<lb ed="#B" n="24" break="no"/>disse: quia non est idem uerum, sortes 
+      se<lb ed="#B" n="25" break="no"/>det: &amp; sortes sedit: &amp; una potest esse 
+      ue<lb ed="#B" n="26" break="no"/>ra alia existente falsa.
+    </p>
+            <p xml:id="gbs333-a87477-d1e619">
+      ¶ Et quamuis deus 
+      <lb ed="#B" n="27"/>cognoscit omnia enuntiabilia: tamen deus 
+      <lb ed="#B" n="28"/>non cognoscit componendo, &amp; 
+      diuiden<lb ed="#B" n="29" break="no"/>do: sed unica simplici cognitione 
+      co<lb ed="#B" n="30" break="no"/>gnoscit omnia: de hoc in centilo. 
+      Ockan<lb ed="#B" n="31" break="no"/>conclusione. Ixxxiij. &amp; sequenti.
+    </p>
+            <p xml:id="gbs333-a87477-d1e632">
+      ¶ Ex his 
+      <lb ed="#B" n="32"/>multa formari possunt corollaria: 
+      atten<lb ed="#B" n="33" break="no"/>ta multiplici acceptione nominis 
+      scien<lb ed="#B" n="34" break="no"/>tia in ordine ad scita: ut ea multiplicant 
+      <lb ed="#B" n="35"/>doc. praefati in scriptis suis. Quantum ad 
+      <lb ed="#B" n="36"/>articulum tertium, dubitatur circa hoc 
+      <lb ed="#B" n="37"/>quod dictum est in conclosionibus. Nec 
+      <lb ed="#B" n="38"/>plura quomque nec pauciora: sed eadem 
+      sem<lb ed="#B" n="39" break="no"/>per cognoscit immutabiliter mens 
+      diui<lb ed="#B" n="40" break="no"/>na. Contra primam partem: deus potest 
+      <lb ed="#B" n="41"/>plura scire, quam scit: &amp; similiter 
+      paucio<lb ed="#B" n="42" break="no"/>ra: ergo potest plura cognoscere, quam 
+      co<lb ed="#B" n="43" break="no"/>gnoscit: &amp; similiter pauciora. Conse- 
+      <lb ed="#B" n="44"/>quentia tenet ab inferioriad superius. An 
+      <lb ed="#B" n="45"/>tecedens probatur: omnia uera potest 
+      <lb ed="#B" n="46"/>scire: sed plura quam scit, possunt esse 
+      ue<lb ed="#B" n="47" break="no"/>ra: ergo plura quam scit, potest scire. 
+      Co<lb ed="#B" n="48" break="no"/>sequentia est in datij. Maior nota. 
+      Mi<lb ed="#B" n="49" break="no"/>nor probatur: quia falsa contingentia 
+      <lb ed="#B" n="50"/>possunt esse uera, &amp; illa addita his, quem 
+      <lb ed="#B" n="51"/>scit sunt plura quasscit: ergo.
+    </p>
+            <p xml:id="gbs333-a87477-d1e678">
+      ¶ Contra se¬ 
+      <!--434.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cundam parte. Non sempereadem scit: 
+      er<lb ed="#B" n="53" break="no"/>go non semp eadem cognoscit. Tenet 
+      con<lb ed="#B" n="54" break="no"/>sequentia: quia in deo idem est scire, &amp; 
+      <lb ed="#B" n="55"/>cognoscere. Antecedens probatur non sem per 
+      <lb ed="#B" n="56"/>falia scit, &amp; eadem, quae nunc scit, 
+      quan<lb ed="#B" n="57" break="no"/>doque; sunt falsa: ergo non semper eadem 
+      <lb ed="#B" n="58"/>scit. Consequentia est in celarent. Ma 
+      <lb ed="#B" n="59"/>ior nota. Minor probatur: quia sortes 
+      <lb ed="#B" n="60"/>sedet: quam nunc scit, ut ponitur: quonmque  
+      <lb ed="#B" n="61"/>erit falsa. Item aliquando scit, quod nunc 
+      <lb ed="#B" n="62"/>non scit: ergo non immutabiliter scit. 
+      <lb ed="#B" n="63"/>Antecedens patet: quia solum uerum scit: 
+      <lb ed="#B" n="64"/>&amp; aliquando uerum est, quod nunc non est 
+      <lb ed="#B" n="65"/>uerum. Consequentia probatur: quia quod 
+      <lb ed="#B" n="66"/>nunc aliquid scit, quod quandoque non scit: 
+      <lb ed="#B" n="67"/>insciendo mutatur de cotradictorio in 
+      <lb ed="#B" n="68"/>contradictorium, ergo non 
+      immutabi<lb ed="#B" n="69" break="no"/>liter scit.
+    </p>
+            <p xml:id="gbs333-a87477-d1e724">
+      ¶ Ad primum dicitur, quod 
+      con<lb ed="#B" n="70" break="no"/>sequentia non ualet: quia cognoscere 
+      <lb ed="#B" n="71"/>generalius accipitur in hoc dicto. Cum 
+      <lb ed="#B" n="72"/>dicitur deum ota cognoscere, quam 
+      scien<lb ed="#B" n="73" break="no"/>tia. Et ad probationem ab inferiori. 
+      Di<lb ed="#B" n="74" break="no"/>citur, quod non ualet cum signo exponibi 
+      <lb ed="#B" n="75"/>li includente negationem, quale est 
+      con<lb ed="#B" n="76" break="no"/>paratiuus. Sicut non sequitur: 
+      frequen<lb ed="#B" n="77" break="no"/>tius currit: ergo frequentius mouetur. 
+      <lb ed="#B" n="78"/>Etiam antecedens est falsum: quia licet 
+      <lb ed="#B" n="79"/>potest scire, quod non scit: tamen non 
+      plu<lb ed="#B" n="80" break="no"/>ra quam scit: quia semper numerus uerorum 
+      <lb ed="#B" n="81"/>est aequalis, cum semper altera pars con 
+      <lb ed="#B" n="82"/>traditionis est uera, &amp; altera falsa. Et  
+      <lb ed="#B" n="83"/>ad probationem antecedentis negetur 
+      <lb ed="#B" n="84"/>minor: quod plura quam scit, possunt esse uera: 
+      <lb ed="#B" n="85"/>quia licet alia, tamen non plura quam sint 
+      <lb ed="#B" n="86"/>uera: possunt esse uera. Ad 
+      probatio<lb ed="#B" n="87" break="no"/>nem dicitur; si plura uera adduntur his, 
+      <lb ed="#B" n="88"/>quae nunc sunt uera, erunt quidem 
+      plu<lb ed="#B" n="89" break="no"/>ra: sed onplura uera, uel scita. Quia 
+      <lb ed="#B" n="90"/>quod adduntur numero uerorum, quae 
+      <lb ed="#B" n="91"/>nunc sunt uera, tot eorum, quae nunc 
+      <lb ed="#B" n="92"/>sunt uera, erunt falsa, quia quoties unum 
+      <lb ed="#B" n="93"/>contradictoriorum de nouo uerificatur, 
+      <lb ed="#B" n="94"/>tories suum contradictorium 
+      falsifi<lb ed="#B" n="95" break="no"/>catur.
+    </p>
+            <p xml:id="gbs333-a87477-d1e783">
+      ¶ Ad secundum dicitur 
+      negan<lb ed="#B" n="96" break="no"/>do consequentia. Ad probationem 
+      di<lb ed="#B" n="97" break="no"/>citur ut supra: licet idem sit in deo 
+      <lb ed="#B" n="98"/>scire, &amp; cognoscere, termini tamen non 
+      <lb ed="#B" n="99"/>sunt synonymi, sicut idem est in deo 
+      <lb ed="#B" n="100"/>creare, &amp; esse, &amp; tamen non sequitur, 
+      <lb ed="#B" n="101"/>est ergo creat.
+    </p>
+            <p xml:id="gbs333-a87477-d1e799">
+      ¶ Ad tertium negetur 
+      <lb ed="#B" n="102"/>consequaentia. Ad probationem neget: 
+      <!--435.xml-->
+      <pb ed="#B" n="348"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quod deus, qui nunc aliquid scit, quod prius 
+      <lb ed="#B" n="2"/>non scit, mutatur in sciendo; quia sua 
+      <lb ed="#B" n="3"/>scientia non mutatur: sit tamen transitus de 
+      <lb ed="#B" n="4"/>contradictorio in contradictorium, non 
+      <lb ed="#B" n="5"/>propter mutationem factam in scientia 
+      <lb ed="#B" n="6"/>dei: sed in objecto.
+    </p>
+            <p xml:id="gbs333-a87477-d1e824">
+      ¶ Finaliter circa 
+      ma<lb ed="#B" n="7" break="no"/>teriam harum duarum dist. Notandum 
+      <lb ed="#B" n="8"/>quod opus est plurimum quibusdam caute 
+      <lb ed="#B" n="9"/>lis in resolutione propositionum hic 
+      con<lb ed="#B" n="10" break="no"/>suetatum. Vna est: ut distinguantur 
+      se<lb ed="#B" n="11" break="no"/>cundum compositionem, &amp; diuisionem: 
+      <lb ed="#B" n="12"/>ut gratia exempli: possibile est 
+      contin<lb ed="#B" n="13" break="no"/>gens praeuisum non euenire; quae in 
+      sen<lb ed="#B" n="14" break="no"/>su composito ualet tamen, haec est possibi 
+      <lb ed="#B" n="15"/>lis, effectus contingens praeuisus non 
+      <lb ed="#B" n="16"/>eueniet, quae est falsa: nam haec 
+      simplici<lb ed="#B" n="17" break="no"/>ter est impossibilis immo sequitur 
+      ne<lb ed="#B" n="18" break="no"/>cessario necessitate consequentiae; non 
+      <lb ed="#B" n="19"/>consequentis. Effectus est praeuisus: 
+      er<lb ed="#B" n="20" break="no"/>go cueniet. In sensu uero diuiso ualet 
+      <lb ed="#B" n="21"/>tamen: effectus, qui est praeuisus potest non 
+      <lb ed="#B" n="22"/>euenire: quae uera est, proquanto 
+      effe<lb ed="#B" n="23" break="no"/>ctus ille potest non esse praeuisus.
+    </p>
+            <p xml:id="gbs333-a87477-d1e863">
+      ¶ 
+      Secun<lb ed="#B" n="24" break="no"/>da cautela est: quod frequenter in hac 
+      ma<lb ed="#B" n="25" break="no"/>teria ponitur oppositum concessi, uel 
+      <lb ed="#B" n="26"/>positi, &amp; tunc per artem obligisticam 
+      <lb ed="#B" n="27"/>oportet respondere. Vt cum dicitur: 
+      <lb ed="#B" n="28"/>pone, quod deus praeuidit effectum futurum: 
+      <lb ed="#B" n="29"/>Quaero. Vtrum a necessario eueniret, 
+      <lb ed="#B" n="30"/>uel non. Siprimum: non est contingens. 
+      <lb ed="#B" n="31"/>Si secundum: tunc potest non euenire: 
+      <lb ed="#B" n="32"/>ponatur, quod non eueniat: tunc 
+      praescien<lb ed="#B" n="33" break="no"/>tia dei est falsa. Dicendum est quod 
+      po<lb ed="#B" n="34" break="no"/>sito secundo, primum positum cedit: 
+      <lb ed="#B" n="35"/>quia secundum repugnat primo. 
+      Re<lb ed="#B" n="36" break="no"/>pugnat enim quod a, non sit 
+      uen<lb ed="#B" n="37" break="no"/>turum, &amp; quod deus ipsum praesciuit 
+      uen<lb ed="#B" n="38" break="no"/>tutum, admisso ergo quod non sit 
+      uentu<lb ed="#B" n="39" break="no"/>rus deus nunquam praesciuit eum 
+      uen<lb ed="#B" n="40" break="no"/>turum.
+    </p>
+            <p xml:id="gbs333-a87477-d1e902">
+      ¶ Tertia est. In positione 
+      pro<lb ed="#B" n="41" break="no"/>positionum de possibili in esse: ut in 
+      il<lb ed="#B" n="42" break="no"/>la praescitum potest non cuenire: 
+      mute<lb ed="#B" n="43" break="no"/>tur subiectum connotatiuum in 
+      prono<lb ed="#B" n="44" break="no"/>men demostratiuum, demonstras illud, 
+      <lb ed="#B" n="45"/>pro quo supponit subiectum 
+      proposi<lb ed="#B" n="46" break="no"/>tionis de possibili. Non enim praedicta 
+      <lb ed="#B" n="47"/>debet sic poni subiectum propositionis 
+      <lb ed="#B" n="48"/>de possibili. Non enim praedicta debet  
+      <lb ed="#B" n="49"/>sic poni in esse, praescitum non cueniet, 
+      <lb ed="#B" n="50"/>quia haec esset impossibilis sed sic, hoc  
+      <lb ed="#B" n="51"/>non cueniet demonstrando effectum con¬ 
+      <!--435.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tingentem proscitum, quae licet sit falsa, ex 
+      <lb ed="#B" n="53"/>tamen possibilis.
+    </p>
+            <p xml:id="gbs333-a87477-d1e937">
+      ¶ Quod sufficit ad 
+      uerita<lb ed="#B" n="54" break="no"/>tem propositionis de possibili.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

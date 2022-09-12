@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="364"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a92469"> <!-- l1d46q1 -->
+            <head xml:id="gbs333-a92469-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a92469-Hd1e104" type="question-title">
+      Utrum voluntas divina 
+      possit impediri per quamcumque 
+      potentiam creaturae
+    </head>
+            <p xml:id="gbs333-a92469-d1e107">
+      <!--451.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>QVAESTIO I 
+      <lb ed="#B" n="51"/>TRVM uoluntas diuina 
+      <lb ed="#B" n="52"/>possit impediri per quancumque 
+      <lb ed="#B" n="53"/>potentiam creaturae.
+    </p>
+            <p xml:id="gbs333-a92469-d1e123">
+      ¶ Quia 
+      <lb ed="#B" n="54"/>materiam hanc de 
+      uolunta<lb ed="#B" n="55" break="no"/>te diuina in expositione cano. late pro- 
+      <lb ed="#B" n="56"/>secuti sumus lect. Ixviij. &amp; Ixix. ideo 
+      pla<lb ed="#B" n="57" break="no"/>cuit lectorem ad dicta ibidem remittere: 
+      <lb ed="#B" n="58"/>ne frustra contingat idipsum crebrius 
+      mul<lb ed="#B" n="59" break="no"/>tiplicari: pauca itaque uel nulla adijciem: 
+      <lb ed="#B" n="60"/>in distinct. praesenti &amp; seq. dictis ibidem, 
+      </p>
+            <p xml:id="gbs333-a92469-d1e142">
+               <lb ed="#B" n="61"/>¶ Notandum ergo breuiter: quod uoluntas 
+      <lb ed="#B" n="62"/>diuina quandoque accipitur proprie 
+      pra<lb ed="#B" n="63" break="no"/>diuina essentia: qua uult de aliquid fieri 
+      <lb ed="#B" n="64"/>uel non fieri. Alio modo accipitur 
+      im<lb ed="#B" n="65" break="no"/>proprie pro aliquo habente aliquo 
+      mo<lb ed="#B" n="66" break="no"/>do ordinem ad diuinam uoluntatem: &amp; 
+      <lb ed="#B" n="67"/>secundum hoc communiter 
+      distingui<lb ed="#B" n="68" break="no"/>tur in uoluntatem beneplaciti, &amp; 
+      uolun<lb ed="#B" n="69" break="no"/>tatem signi. Voluntas beneplaciti est 
+      <lb ed="#B" n="70"/>duplex: antecedens, &amp; consequens. 
+      Vo<lb ed="#B" n="71" break="no"/>untas signi est quintuplex: scilicet 
+      pro<lb ed="#B" n="72" break="no"/>hibitio, praeceptio, consilium, operatio;  
+      <lb ed="#B" n="73"/>permissio. uersus. Praecipit, &amp; prohibet, 
+      <lb ed="#B" n="74"/>permittit, consulit, implet. Hoc est: ille 
+      <lb ed="#B" n="75"/>terminus uoluntas aliquando idem est 
+      <lb ed="#B" n="76"/>quod prohibitio: quandoque idem 
+      signi<lb ed="#B" n="77" break="no"/>ficat quod praeceptum &amp;c. Vnde patet 
+      <lb ed="#B" n="78"/>quod haec distinctio non est distinctio 
+      <lb ed="#B" n="79"/>rerum: sed est distinctio huius uocabuli 
+      <lb ed="#B" n="80"/>uoluntas: secundum diuersas suas 
+      signi<lb ed="#B" n="81" break="no"/>ficationes: quibus accipitur in scriptura: 
+      <lb ed="#B" n="82"/>ut uult magister. Secundo sequitur, quod 
+      <lb ed="#B" n="83"/>uoluntas proprie acccipiendo uocabus 
+      <lb ed="#B" n="84"/>lum dicit solum uoluntatem 
+      beneplaci<lb ed="#B" n="85" break="no"/>ti consequentem.
+    </p>
+            <p xml:id="gbs333-a92469-d1e199">
+      ¶ Secundo notans 
+      <lb ed="#B" n="86"/>dum, quod uoluntas dei antecedens: 
+      <lb ed="#B" n="87"/>non est aliquid in deo quomodocunque 
+      <lb ed="#B" n="88"/>distinctum a uoluntate consequente. Sed 
+      <lb ed="#B" n="89"/>illè terminus uoluntas antecedens, est ter 
+      <lb ed="#B" n="90"/>minus connotatiuus significans multa: 
+      <lb ed="#B" n="91"/>deum scilicet, &amp; creaturam. Et potest 
+      <lb ed="#B" n="92"/>sic describi. Voluntas antecedens est 
+      <lb ed="#B" n="93"/>uoluntas diuina dans alicui 
+      anteceden<lb ed="#B" n="94" break="no"/>tia ad consequendum aliquid: cum 
+      prae<lb ed="#B" n="95" break="no"/>cepto, &amp; confilio exequendi: sine 
+      re<lb ed="#B" n="96" break="no"/>uelatione contrarij parata ei, coagert 
+      <lb ed="#B" n="97"/>si uelit. Et uelle antecedenter, est 
+      seu<lb ed="#B" n="98" break="no"/>dicit deum dare antecedentia (hoc est 
+      <!--452.xml-->
+      <pb ed="#B" n="365"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>necessaria) ad aliquod praeceptum, 
+      <lb ed="#B" n="2"/>uel consil um exequendum.
+    </p>
+            <p xml:id="gbs333-a92469-d1e241">
+      ¶ 
+      Corol<lb ed="#B" n="3" break="no"/>larium. Deus antecedenter uult 
+      om<lb ed="#B" n="4" break="no"/>nes uiatores iuste uiuere. Patet: quia 
+      <lb ed="#B" n="5"/>dat potentiam intellectum, &amp; affectum. 
+      <lb ed="#B" n="6"/>cum praecepto &amp;c.
+    </p>
+            <p xml:id="gbs333-a92469-d1e252">
+      ¶ Secundum. Deus non 
+      <lb ed="#B" n="7"/>uult antecedenter aliquem peccare. 
+      Pa<lb ed="#B" n="8" break="no"/>ter: quia nec praecipit: nec consulit 
+      pec<lb ed="#B" n="9" break="no"/>care.
+    </p>
+            <p xml:id="gbs333-a92469-d1e261">
+      ¶ Tertium. Deus non uoluit 
+      Abraan<lb ed="#B" n="10" break="no"/>antecedenter immolare filium suum. 
+      Pa<lb ed="#B" n="11" break="no"/>ter: quia licet dederit potentiam 
+      im<lb ed="#B" n="12" break="no"/>molandi cum praecepto: tamen 
+      opposi<lb ed="#B" n="13" break="no"/>tum reuelauit.
+    </p>
+            <p xml:id="gbs333-a92469-d1e272">
+      ¶ Quartum. Deus uult 
+      an<lb ed="#B" n="14" break="no"/>tecedenter praescitos saluari. Patet 
+      trans<lb ed="#B" n="15" break="no"/>currendo omnes particulas.
+    </p>
+            <p xml:id="gbs333-a92469-d1e280">
+      ¶ Quintum: 
+      <lb ed="#B" n="16"/>Deus non uult daemones, uel damnatos 
+      <lb ed="#B" n="17"/>ialuari uoluntate antecedente. Patet: 
+      <lb ed="#B" n="18"/>quia non uult illis coagere ad opera 
+      me<lb ed="#B" n="19" break="no"/>ritoria, quibus consequantur salutem: neque  
+      <lb ed="#B" n="20"/>sine meritis conferre salutem.
+    </p>
+            <p xml:id="gbs333-a92469-d1e293">
+      ¶ Sextu. 
+      <lb ed="#B" n="21"/>Deus uult omnes homines uiatores sal 
+      <lb ed="#B" n="22"/>uos fieri uoluntate antecedente: quia 
+      <lb ed="#B" n="23"/>dedit potentiam merendi cum praecepto: 
+      <lb ed="#B" n="24"/>paratus coagere si uelint: nec reuelat 
+      <lb ed="#B" n="25"/>contrarium.
+    </p>
+            <p xml:id="gbs333-a92469-d1e306">
+      ¶ Quis autem sit 
+      intelle<lb ed="#B" n="26" break="no"/>ctus huius, quod uoluntas beneplaciti 
+      di<lb ed="#B" n="27" break="no"/>stinguitur in antecedentem, &amp; conse- 
+      <lb ed="#B" n="28"/>quentem uoluntatem, &amp; quid dicit 
+      sin<lb ed="#B" n="29" break="no"/>gulum eorum: uide in expo. cano lec. 
+      <lb ed="#B" n="30"/>lxviij.
+    </p>
+            <p xml:id="gbs333-a92469-d1e319">
+      ¶ Tertio considerandum, quod uolum 
+      <lb ed="#B" n="31"/>tatem diuinam posse impediri a crea. ura 
+      <lb ed="#B" n="32"/>non est aliud dicere, quam homo non 
+      <lb ed="#B" n="33"/>seruat praeceptum dei: uel homo non uiuit 
+      <lb ed="#B" n="34"/>uoluntati diuine: homo non sequitur 
+      di<lb ed="#B" n="35" break="no"/>uinum consilium.
+    </p>
+            <p xml:id="gbs333-a92469-d1e332">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="36" break="no"/>culum secundum est conclusio prima, 
+      <lb ed="#B" n="37"/>Voluntas dei signi non semper adimple 
+      <lb ed="#B" n="38"/>tur. Probatio: quia non semper sit, quod  
+      <lb ed="#B" n="39"/>deus praecipit fieri: nec semper non sit, 
+      <lb ed="#B" n="40"/>quod deus prohibet ne fiat: sed multa 
+      <lb ed="#B" n="41"/>siunt contra praecepta, &amp; prohibitiones 
+      <lb ed="#B" n="42"/>ac consilia, ut manifestum est. Vnde 
+      Aug<lb ed="#B" n="43" break="no"/>in de spiritu &amp; littera: Infideles (inqut) 
+      <!--452.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="44"/>neplaciti antecedens potest impediri. 
+      <lb ed="#B" n="45"/>Probatur: quia uoluntas illa impeditur 
+      <lb ed="#B" n="46"/>contra quam agitur: sed manifestum est, 
+      <lb ed="#B" n="47"/>quod deus dat cuilibet naturalia, quibus 
+      po<lb ed="#B" n="48" break="no"/>test consequi actum meritorium: &amp; para 
+      <lb ed="#B" n="49"/>tus est coagere cuilibet ad 
+      huiusmodi<lb ed="#B" n="50" break="no"/>actum: &amp; dat praeceptum, uel consilium 
+      <lb ed="#B" n="51"/>ut exequatur: &amp; tamen non quilibet 
+      eli<lb ed="#B" n="52" break="no"/>cit actum meritorium: immo multi 
+      eli<lb ed="#B" n="53" break="no"/>ciunt actus demeritorios: &amp; per conse- 
+      <lb ed="#B" n="54"/>quens tales faciunt contra uoluntatem 
+      <lb ed="#B" n="55"/>dei antecedentem.
+    </p>
+            <p xml:id="gbs333-a92469-d1e382">
+      ¶ Tertia 
+      conclusio<lb ed="#B" n="56" break="no"/>Voluntas dei beneplaciti consequens 
+      <lb ed="#B" n="57"/>non potest impediri. Probatur: quia 
+      uo<lb ed="#B" n="58" break="no"/>luntas omnipotens uolens efficaciter 
+      <lb ed="#B" n="59"/>aliquid non potest impediri: talis est 
+      uo<lb ed="#B" n="60" break="no"/>luntas dei beneplaciti consequens: 
+      er<lb ed="#B" n="61" break="no"/>go. Minor nunc supponitur: &amp; maior 
+      <lb ed="#B" n="62"/>patet: alias enim non esset omnipotens. 
+      <lb ed="#B" n="63"/>Praeterea illud, cuius uoluntas efficax 
+      <lb ed="#B" n="64"/>potest impediri, potest tristari: deus non 
+      <lb ed="#B" n="65"/>potest tristari: ergo eius uoluntas 
+      effi<lb ed="#B" n="66" break="no"/>cax non potest impediri: illa autem est 
+      <lb ed="#B" n="67"/>uoluntas beneplaciti consequens: ergo 
+      <lb ed="#B" n="68"/>&amp;c.
+    </p>
+            <p xml:id="gbs333-a92469-d1e414">
+      ¶ Ex conclusione sequitur, quod deus 
+      <lb ed="#B" n="69"/>non semper uult uoluntate efficaci 
+      il<lb ed="#B" n="70" break="no"/>lud, quod uult uoluntate signi, uel 
+      an<lb ed="#B" n="71" break="no"/>tecedente: immo quandoque uult 
+      oppo<lb ed="#B" n="72" break="no"/>situm. Patet: quia quod non sit: non 
+      <lb ed="#B" n="73"/>uult efficaciter: sed multa quae praecipit 
+      <lb ed="#B" n="74"/>&amp;c. non fiut: ergo. Patet etiam de obla 
+      <lb ed="#B" n="75"/>tione Isaac, quam praecipit Abraae: &amp; 
+      ta<lb ed="#B" n="76" break="no"/>men eam noluit fieri.
+    </p>
+            <p xml:id="gbs333-a92469-d1e434">
+      ¶ Quarta 
+      conclu<lb ed="#B" n="77" break="no"/>sio. Simpliciter loquendo, &amp; secundum, 
+      <lb ed="#B" n="78"/>proprietatem sermonis: non est 
+      conce<lb ed="#B" n="79" break="no"/>dendam, uoluntatem dei non impleri. 
+      <lb ed="#B" n="80"/>Patet: quia uoluntas dei (secundum 
+      pro<lb ed="#B" n="81" break="no"/>ptietatem sermonis) non significat nisi 
+      <lb ed="#B" n="82"/>uoluntatem deiefficacem, &amp; aeternam: 
+      <lb ed="#B" n="83"/>quae impediri non potest. Quod uero 
+      ac<lb ed="#B" n="84" break="no"/>cipitur pro uoluntate antecedente uel 
+      <lb ed="#B" n="85"/>guratiuam locutionem: ut dicit 
+      magi<lb ed="#B" n="86" break="no"/>signi, est secundum metaphoricam, &amp; fi¬ 
+      <!--453.xml-->
+      <pb ed="#B" n="366"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>re. Etiam potest creatura aliter agere: 
+      <lb ed="#B" n="2"/>ut patet ex praedictis de contingentia, 
+      <lb ed="#B" n="3"/>supra dist. xxxviij. Haec omnia latiu 
+      ha<lb ed="#B" n="4" break="no"/>bentur in expo. cano sec. I. viij.
+    </p>
+            <p xml:id="gbs333-a92469-d1e473">
+      ¶ 
+      Quan<lb ed="#B" n="5" break="no"/>tum ad articulum tertium est dubium. 
+      <lb ed="#B" n="6"/>Vtrum aliquid in uniuerso eueniat 
+      prae<lb ed="#B" n="7" break="no"/>ter uoluntatem dei: uidetur, quod sic: quia 
+      <lb ed="#B" n="8"/>aliqua deus permittit, quae tamen non 
+      <lb ed="#B" n="9"/>facit: ut mala culpae: &amp; ita fiunt praeter 
+      <lb ed="#B" n="10"/>uoluntatem eius. In oppositum, quod 
+      <lb ed="#B" n="11"/>sit secundum aliquem actum uoluntatis 
+      <lb ed="#B" n="12"/>positiuum: non sit praeter 
+      uolunta<lb ed="#B" n="13" break="no"/>tem: sed per missio est aliquis actus 
+      posi<lb ed="#B" n="14" break="no"/>tiuus uoluntatis: alioquin non plus 
+      per<lb ed="#B" n="15" break="no"/>mitteret, quae siunt, quam quae non fiunt: 
+      <lb ed="#B" n="16"/>cum respectu omnium quae non siunt: 
+      <lb ed="#B" n="17"/>etiam habet actum negatiuum.
+    </p>
+            <p xml:id="gbs333-a92469-d1e504">
+      ¶ Pro 
+      <lb ed="#B" n="18"/>solutione notandum, quod aliquid fieri se 
+      <lb ed="#B" n="19"/>cundum uoluntatem: contra uel praeter 
+      <lb ed="#B" n="20"/>accipi potest per similitudinem eius, quod  
+      <lb ed="#B" n="21"/>est natura. Natura autem aliquande 
+      <lb ed="#B" n="22"/>dat alicui inclinationem ad aliquid 
+      de<lb ed="#B" n="23" break="no"/>terminatum, ut graui ad locum deor 
+      <lb ed="#B" n="24"/>sum, &amp; ad descensum ad illum si fuerit 
+      <lb ed="#B" n="25"/>extra eum: &amp; quia dat talem 
+      inclinatio<lb ed="#B" n="26" break="no"/>nem: concomitanter dare dicitur 
+      ei<lb ed="#B" n="27" break="no"/>dem repugnantiam ad oppositum illius 
+      <lb ed="#B" n="28"/>ad quod determinatum est. Sic quia 
+      gra<lb ed="#B" n="29" break="no"/>ui naturaliter conuenit motus deorsum: 
+      <lb ed="#B" n="30"/>ideo ei repugnat motus sursum. Aliquam 
+      <lb ed="#B" n="31"/>do dat neutralitatem: sicut lignum ex 
+      na<lb ed="#B" n="32" break="no"/>tura est indifferens ad omnes figuras 
+      <lb ed="#B" n="33"/>artificiales: scilicet respectu arcae, 
+      do<lb ed="#B" n="34" break="no"/>mus, scamni &amp;c. Sic suo modo 
+      uolun<lb ed="#B" n="35" break="no"/>tas quandoque dererminat se ad aliquid, 
+      <lb ed="#B" n="36"/>uolendo aliquid, quod tunc sequitur. 
+      <lb ed="#B" n="37"/>Quandoque uero determinat se ad aliquid 
+      <lb ed="#B" n="38"/>nolendo illud: &amp; ideo ipsum fugit. 
+      Quan<lb ed="#B" n="39" break="no"/>doque se habet neutraliter respectu 
+      ali<lb ed="#B" n="40" break="no"/>cuius obiecti, non eliciendo aliquem actum 
+      <lb ed="#B" n="41"/>circa illud: neque determinans se ad pro 
+      <lb ed="#B" n="42"/>secutionem neque ad fugam. Sicut ergo 
+      <lb ed="#B" n="43"/>ex parte naturae. quando sit aliquid, ad 
+      <lb ed="#B" n="44"/>quod res habet inclinationem: fieri 
+      di<lb ed="#B" n="45" break="no"/>citur secundum naturam. Quando 
+      au<lb ed="#B" n="46" break="no"/>tem sit illud, ad quod habet 
+      repugnan<lb ed="#B" n="47" break="no"/>tiam, fieri dicitur contra naturam. Et  
+      <lb ed="#B" n="48"/>quando sit illud, ad quod se habet ne 
+      u<lb ed="#B" n="49" break="no"/>traliter: dicitur feri praeter naturam: 
+      <lb ed="#B" n="50"/>non secundum uel contra naturam. Ita 
+      <lb ed="#B" n="51"/>etiam ex parte uoluntatis, quando euenit 
+      <!--453.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>aliquid secundum determinationem 
+      uo<lb ed="#B" n="53" break="no"/>luntatis per actum uolendi dicitur fieri 
+      <lb ed="#B" n="54"/>secundum uoluntatem: quando uero 
+      ac<lb ed="#B" n="55" break="no"/>cidit, quod est contra determinationem 
+      <lb ed="#B" n="56"/>uoluntatis per actum uolendi dicitur 
+      il<lb ed="#B" n="57" break="no"/>lud accidere contra uoluntatem. Cum 
+      <lb ed="#B" n="58"/>autem hoc sit, ad quod uoluntas habet 
+      <lb ed="#B" n="59"/>se neutraliter dicitur fieri: non contra 
+      <lb ed="#B" n="60"/>uel secundum uoluntatem: sed praeter 
+      <lb ed="#B" n="61"/>uoluntatem.
+    </p>
+            <p xml:id="gbs333-a92469-d1e606">
+      ¶ Quo praemisso notabili, 
+      <lb ed="#B" n="62"/>est propositio ista prima. Nullum bonum 
+      <lb ed="#B" n="63"/>uniuersi cuenit praeter uoluntatem 
+      dei<lb ed="#B" n="64" break="no"/>Probatur propositio: quia omne bonum 
+      <lb ed="#B" n="65"/>sit secundum uoluntatem dei: ergo. An 
+      <lb ed="#B" n="66"/>tecedens est beati Aug. iij. de tri. 
+      dicen<lb ed="#B" n="67" break="no"/>tis. Voluntas dei est prima &amp; summa 
+      cau<lb ed="#B" n="68" break="no"/>sa omnium specierum atque motionum. 
+      <lb ed="#B" n="69"/>Nihil enim sit quod non de interiori 
+      <lb ed="#B" n="70"/>atque intelligibili aula summi Imperato 
+      <lb ed="#B" n="71"/>ris egrediatur secundum inesfabilem 
+      iu<lb ed="#B" n="72" break="no"/>stitia &amp;c.
+    </p>
+            <p xml:id="gbs333-a92469-d1e632">
+      ¶ Praeterea ad quaecunque; 
+      seex<lb ed="#B" n="73" break="no"/>tendit obiectum alicuius potentiae: ad 
+      <lb ed="#B" n="74"/>eadem extendit se uirtus illius potentiae: 
+      <lb ed="#B" n="75"/>sed obiectum diuinae uoluntatis est 
+      bo<lb ed="#B" n="76" break="no"/>num simpliciter: quod extendit se ad 
+      <lb ed="#B" n="77"/>omne bonum: ergo &amp; uirtus diuinae 
+      <lb ed="#B" n="78"/>uoluntatis extendit se ad omne 
+      bo<lb ed="#B" n="79" break="no"/>num. Quare nihil boni sit praeter 
+      uolun<lb ed="#B" n="80" break="no"/>tatem dei.
+    </p>
+            <p xml:id="gbs333-a92469-d1e653">
+      ¶ Secunda proposi. Malum 
+      ppo<lb ed="#B" n="81" break="no"/>culpae quantum ad formale, euenit in 
+      <lb ed="#B" n="82"/>uniuerso praeter uoluntatem dei. 
+      Pro<lb ed="#B" n="83" break="no"/>batur: quia respectu deficientiae; uel 
+      de<lb ed="#B" n="84" break="no"/>formitatis mali culpae, deus non 
+      ha<lb ed="#B" n="85" break="no"/>bet actum uoluntatis efficacem. Sicut  
+      <lb ed="#B" n="86"/>nec natura uniuersalis intendit 
+      mon<lb ed="#B" n="87" break="no"/>struositatem: nec ad hoc habet 
+      uo<lb ed="#B" n="88" break="no"/>luntatem: quia tunc nullo modo 
+      pos<lb ed="#B" n="89" break="no"/>set fieri actus aliquis: deformis. Et  
+      <lb ed="#B" n="90"/>per consequens sit praeter uoluntatem 
+      <lb ed="#B" n="91"/>dei: ita quod deus non habet respectu eius 
+      <lb ed="#B" n="92"/>actu positiuum: nec uelle: nec nolle: 
+      <lb ed="#B" n="93"/>sed non uelle. Haec est intentio 
+      ma<lb ed="#B" n="94" break="no"/>gistri distin. xIvj.
+    </p>
+            <p xml:id="gbs333-a92469-d1e686">
+      ¶ Per hoc ad 
+      argu<lb ed="#B" n="95" break="no"/>mentum in oppositum dicitur: quod 
+      per<lb ed="#B" n="96" break="no"/>missio non dicit actum positiuum, 
+      sci<lb ed="#B" n="97" break="no"/>licet uelle, uel nolle: sed negat actum 
+      <lb ed="#B" n="98"/>prohibitionis, siue nolle. Vnde deus 
+      <lb ed="#B" n="99"/>permittit, quod non uult prohibere: 
+      <lb ed="#B" n="100"/>sic ergo permissioni, quae est signum 
+      uo<lb ed="#B" n="101" break="no"/>luntatis: non cor espondet in deo actus 
+      <lb ed="#B" n="102"/>positiuus. sed tantum non uelle prohibere. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

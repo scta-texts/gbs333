@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="170"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a42923"> <!-- l1d10prae -->
+            <head xml:id="gbs333-a42923-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a42923-d1e104">
+      <!--257.xml-->
+               <pb ed="#B" n="170"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ntSTINETIO x 
+      <lb ed="#B" n="2"/>ISTINCTIONE 
+      <lb ed="#B" n="3"/>praecedenti egit de 
+      e<lb ed="#B" n="4" break="no"/>manatione filij 
+      adin<lb ed="#B" n="5" break="no"/>tra: idipsum hic facit 
+      <lb ed="#B" n="6"/>de emanatione 
+      spiri<lb ed="#B" n="7" break="no"/>tussancti adintra 
+      per<lb ed="#B" n="8" break="no"/>quatuor 
+      distinctio<lb ed="#B" n="9" break="no"/>nes. Primo distinctione praesenti de 
+      per<lb ed="#B" n="10" break="no"/>sona praecedente. Secundo, de 
+      proces<lb ed="#B" n="11" break="no"/>sionis origine dist xi. Tertio, de 
+      proces<lb ed="#B" n="12" break="no"/>fionis ordine quantum ad spirantes dist. 
+      <lb ed="#B" n="13"/>xij. Quarto, de processionis ad genera 
+      <lb ed="#B" n="14"/>tionem comparatione dist. xiiij. Vel sic: 
+      <lb ed="#B" n="15"/>Agit de proprietatibus personae spiritus 
+      <lb ed="#B" n="16"/>sancti quoad personam procedentem: 
+      <lb ed="#B" n="17"/>principium a quo procedit: habitudinem 
+      <lb ed="#B" n="18"/>spirantium, comparationem ad genera 
+      <lb ed="#B" n="19"/>tionem secundum ordinem. iiij. distinct. 
+      <lb ed="#B" n="20"/>Et potest textus sic summari 
+      conclu<lb ed="#B" n="21" break="no"/>sionibus tribus.
+    </p>
+            <p xml:id="gbs333-a42923-d1e159">
+      ¶ Prima conclusio. 
+      Li<lb ed="#B" n="22" break="no"/>cet accipiendo nomen charitas 
+      essen<lb ed="#B" n="23" break="no"/>tialiter, quaelibet personarum diuinarum 
+      <lb ed="#B" n="24"/>sit charitas, &amp; una charitas, sicut una 
+      sa<lb ed="#B" n="25" break="no"/>pientia: solus tamen spiritussanctus est 
+      <lb ed="#B" n="26"/>charitas procedens.
+    </p>
+            <p xml:id="gbs333-a42923-d1e172">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="27" break="no"/>sio. Charitas procedens non est pater, 
+      <lb ed="#B" n="28"/>nec filius: sed utriusque unio, &amp; 
+      commu<lb ed="#B" n="29" break="no"/>nio, &amp; nexus amorosus.
+    </p>
+            <p xml:id="gbs333-a42923-d1e182">
+      ¶ Tertia 
+      con<lb ed="#B" n="30" break="no"/>clusio. Licet pater sit sanctus, &amp; spiritus, 
+      <lb ed="#B" n="31"/>&amp; filius similiter: immo sanctusspiritus 
+      <lb ed="#B" n="32"/>essentialiter: non tamen personaliter. 
+      <lb ed="#B" n="33"/>Declarationem, &amp; probationem propo 
+      <lb ed="#B" n="34" break="no"/>sitionum uide in textu
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

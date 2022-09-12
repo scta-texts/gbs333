@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="148"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a37455"> <!-- l1d8q1 -->
+            <head xml:id="gbs333-a37455-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a37455-Hd1e104" type="question-title">Utrum divinae simplicitati repugnet esse in genere praedicamentali</head>
+            <p xml:id="gbs333-a37455-d1e107">
+               <lb ed="#B" n="52"/>QVAESTIO I 
+      <lb ed="#B" n="53"/>VTRVM diuinae 
+      simplici<lb ed="#B" n="54" break="no"/>tati repugnet esse in aliquo 
+      <lb ed="#B" n="55"/>ea genere praedicamentali.
+    </p>
+            <p xml:id="gbs333-a37455-d1e118">
+      ¶ 
+      Re<lb ed="#B" n="56" break="no"/>st citatis opi. sancti Tho. j. ij. 
+      <lb ed="#B" n="57"/>q. iij. at. v. &amp; doct. subtilis. q.ij. dist. 
+      prae<lb ed="#B" n="58" break="no"/>sentis: qui tenent eandem conclusionem 
+      <lb ed="#B" n="59"/>scilicet quod cum simplicitate dei stat, quod aliquis 
+      <lb ed="#B" n="60"/>sit conceptus conis deo, &amp; croaturis: non 
+      <lb ed="#B" n="61"/>tamen conceptus aliquis conis, ut generis: 
+      osten<lb ed="#B" n="62" break="no"/>dit doctor, quod esse in praedicamento non 
+      <lb ed="#B" n="63"/>raepugnat deo: nec propter eius 
+      simplici<lb ed="#B" n="64" break="no"/>tatem, nec propter infinitatem, nec 
+      pro<lb ed="#B" n="65" break="no"/>pter eius necessitatem: quia est necesse 
+      es<lb ed="#B" n="66" break="no"/>se: nec propter aliquam causam per 
+      tali<lb ed="#B" n="67" break="no"/>ter opinantes inductam. Verum ne ab eis, 
+      <lb ed="#B" n="68"/>&amp; eoru opinione discordet, quae fuerat  
+      <lb ed="#B" n="69"/>caonis etiam scholae. Oxonien. sequendo 
+      <lb ed="#B" n="70"/>opi. conem, tenet, quod deus non est in 
+      prae<lb ed="#B" n="71" break="no"/>dicamento: quod tamen dicit nulla ratione 
+      effica<lb ed="#B" n="72" break="no"/>pi probari posse. Et soluit sufficienter 
+      ra<lb ed="#B" n="73" break="no"/>tiones aliorum. Adducit autem 
+      persuasio<lb ed="#B" n="74" break="no"/>nes magis (ut ait) per uiam narrationis, 
+      <lb ed="#B" n="75"/>quam probationis.
+    </p>
+            <p xml:id="gbs333-a37455-d1e165">
+      ¶ Quarum prima est: quia 
+      <lb ed="#B" n="76"/>u deus esset sub aliquo genere, maxime 
+      <lb ed="#B" n="77"/>subente: sed ens non est genus. ergo. Ma 
+      <lb ed="#B" n="78"/>iorem probat: quia quicquid de creatura 
+      <lb ed="#B" n="79"/>praedicatur, &amp; de deo quidditatiue erit 
+      <lb ed="#B" n="80"/>Iynonvmum enti: praedicabitur. nio. de deo, 
+      <lb ed="#B" n="81"/>&amp; qualibet creatura, &amp; ita conuertitur 
+      <lb ed="#B" n="82"/>tum ente: &amp; per consequens erit 
+      Iyno<lb ed="#B" n="83" break="no"/>nymum cum ente. Tenet consequentia: 
+      <lb ed="#B" n="84"/>quia impossibile est duos coceptus quid 
+      <lb ed="#B" n="85"/>ditatiuos conuertibiles esse non 
+      syno<lb ed="#B" n="86" break="no"/>nymos, ut probatum est. Et per quiddita 
+      <lb ed="#B" n="87"/>tiuos conceptus intelligo conceptus 
+      ab<lb ed="#B" n="88" break="no"/>solutos. Primam huius assumpti partem 
+      <lb ed="#B" n="89"/>probat: quicunque conceptus praedicatur 
+      <lb ed="#B" n="90"/>de magis differentibus etiam praedicatur 
+      <lb ed="#B" n="91"/>de minus differentibus: deus autem plus 
+      <lb ed="#B" n="92"/>differt a quacunque creatura, quam 
+      qui<lb ed="#B" n="93" break="no"/>cunque creaturae inter se: ergo quicquid 
+      <lb ed="#B" n="94"/>praedicatur de deo, &amp; aliqua creatura: 
+      <lb ed="#B" n="95"/>hoc etiam potest praedicari de deo, &amp; 
+      <lb ed="#B" n="96"/>qualibet creatura. Minorem principalem 
+      <lb ed="#B" n="97"/>ilicet quod ens non sit genus probat: quia 
+      per<lb ed="#B" n="98" break="no"/>genus, id cuius est genus debet ab 
+      ali<lb ed="#B" n="99" break="no"/>quo distingui allegat philoso phum. vij. 
+      <!--236.xml-->
+      <pb ed="#B" n="149"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Topicorum. Sed per ens nihil 
+      distingui<lb ed="#B" n="2" break="no"/>tur a quocunque, cum de omnibus 
+      prae<lb ed="#B" n="3" break="no"/>dicatur.
+    </p>
+            <p xml:id="gbs333-a37455-d1e233">
+      ¶ Secunda ratio. Existentia in 
+      <lb ed="#B" n="4"/>eodem genere habere debent certam 
+      <lb ed="#B" n="5"/>proportionem perfectionis adinuicem: 
+      <lb ed="#B" n="6"/>deus sine proportione infinite excedit 
+      <lb ed="#B" n="7"/>omne aliud: ergo non est in genere cum 
+      <lb ed="#B" n="8"/>quocunque alio: &amp; per consequens 
+      sim<lb ed="#B" n="9" break="no"/>pliciter non est in genere: quia genus in 
+      <lb ed="#B" n="10"/>upa specie saluari non potest.
+    </p>
+            <p xml:id="gbs333-a37455-d1e251">
+      ¶ Sed 
+      <lb ed="#B" n="11"/>quamuis auctor hanc conclusionem 
+      te<lb ed="#B" n="12" break="no"/>neat cum aliis: tamen oppositum 
+      uide<lb ed="#B" n="13" break="no"/>turmulto probabilius: ut satis late 
+      osten<lb ed="#B" n="14" break="no"/>dit Greg. de Arimino. dist. praesenti. q. 
+      <lb ed="#B" n="15"/>ij, ubi etiam declarat conclusionem 
+      op<lb ed="#B" n="16" break="no"/>positam esse de mente beati Aug. in. v. 
+      <lb ed="#B" n="17"/>detrin. c. viij. &amp;. x. ubi innuit aliqua 
+      prae<lb ed="#B" n="18" break="no"/>ditamenta propric dici de deo: aliqua 
+      <lb ed="#B" n="19"/>translatiue. Item de mente Pe, &amp; 
+      com<lb ed="#B" n="20" break="no"/>mentatoris. xij. Metaphys. quaere ibi. 
+      <lb ed="#B" n="21"/>Item adduci potest dictum eiusdem 
+      ser<lb ed="#B" n="22" break="no"/>iij. dnnicae infra octauam Epiphaniae, 
+      qui<lb ed="#B" n="23" break="no"/>intitulatur de trinitate, &amp; columba: in 
+      <lb ed="#B" n="24"/>quo sic inquit. Decem sunt genera 
+      lo<lb ed="#B" n="25" break="no"/>cutionis, quibus homines suos sensus 
+      so<lb ed="#B" n="26" break="no"/>sentinter se conferre sequi. Non de 
+      il<lb ed="#B" n="27" break="no"/>lis dico, quas granmatice cathegorias, 
+      <lb ed="#B" n="28"/>latine praedicamenta appellare solent. 
+      <lb ed="#B" n="29"/>dehinc singula praedicamenta nominat, 
+      <lb ed="#B" n="30"/>&amp; postea subiungit. His omnibus 
+      mo<lb ed="#B" n="31" break="no"/>dis solet sancta scriptura de deo loqui: 
+      <lb ed="#B" n="32"/>sed aliter poprie: aliter translatiue: aliter 
+      <lb ed="#B" n="33"/>relatiue. Proprie dicitur deus substantia 
+      <lb ed="#B" n="34"/>una &amp;c. uide late, &amp; pulchre ubi 
+      supra<lb ed="#B" n="35" break="no"/>Ad idem uidetur facere: dictum eiusdem 
+      <lb ed="#B" n="36"/>in sua dialectica ad filium suum 
+      Adeo<lb ed="#B" n="37" break="no"/>datum. cum inquit in. c. de usia. Ipsa 
+      an<lb ed="#B" n="38" break="no"/>tem ulia genus non habet, cum omnia 
+      <lb ed="#B" n="39"/>ipsa sustineat &amp;c.
+    </p>
+            <p xml:id="gbs333-a37455-d1e316">
+      ¶ Sed breuiter 
+      susti<lb ed="#B" n="40" break="no"/>nendo diffinitionem generis, quam 
+      po<lb ed="#B" n="41" break="no"/>nit Porphurius addita expositione 
+      con<lb ed="#B" n="42" break="no"/>mentatoris Boe, &amp; caeterorum auctorum. 
+      <lb ed="#B" n="43"/>Non inuenitur aliquid requiri ad esse 
+      <lb ed="#B" n="44"/>genus aliquorum: nisi quod sit uniuersale 
+      <lb ed="#B" n="45"/>praedicabile in quid id est quidditatiue de 
+      <lb ed="#B" n="46"/>aliquibus plus, quam numero id est ad minus 
+      spe<lb ed="#B" n="47" break="no"/>cit differentibus: &amp; ideo supposito ex prae 
+      <lb ed="#B" n="48"/>dictis in hoc collectorio dist. iij. q.viij. 
+      <lb ed="#B" n="49"/>Item distinij. q.ix. quod aliquis conceptus 
+      <lb ed="#B" n="50"/>uniuoce, &amp; quidditatiue praedicetur de 
+      <lb ed="#B" n="51"/>deo, &amp; creatura: ille erit genus ad deum 
+      <!--236.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ut ens, uita, sapientia, scientia, iustitia, 
+      <lb ed="#B" n="53"/>intellectus, uoluntas &amp;c. capiendo illos 
+      <lb ed="#B" n="54"/>terminos absolute, quorum quilibet 
+      quid<lb ed="#B" n="55" break="no"/>ditatiue praedicatur de deo, &amp; creatura: 
+      <lb ed="#B" n="56"/>ut supra. dist. iij. quae. iij. habitum est. Et  
+      <lb ed="#B" n="57"/>certum est: quod deus, &amp; creatura plus, quam 
+      <lb ed="#B" n="58"/>numero differunt: ideo quilibet eorum 
+      <lb ed="#B" n="59"/>est genus ad deum, ex diffinitione 
+      gene<lb ed="#B" n="60" break="no"/>ris. Et nota cum dicitur: quod dictitermini 
+      <lb ed="#B" n="61"/>sunt genera ad deum: deum potest 
+      acci<lb ed="#B" n="62" break="no"/>pi personaliter, uel materialiter, &amp; 
+      utro<lb ed="#B" n="63" break="no"/>que modo est uerum: quod deus est in 
+      gene<lb ed="#B" n="64" break="no"/>re secundum quod esse in genere 
+      duplici<lb ed="#B" n="65" break="no"/>ter accipitur. Vno modo aliquid 
+      dici<lb ed="#B" n="66" break="no"/>tur esse in genere: quia per aliquod 
+      ge<lb ed="#B" n="67" break="no"/>nus significatur. Et hoc modo res 
+      signi<lb ed="#B" n="68" break="no"/>ficatae per genera esse dicuntur in 
+      gene<lb ed="#B" n="69" break="no"/>re, &amp; prędicamentis, &amp; una in diuersis 
+      <lb ed="#B" n="70"/>praedicamentis: &amp; etiam diuersis 
+      gene<lb ed="#B" n="71" break="no"/>ribus eiusdem praedicamenti non subal 
+      <lb ed="#B" n="72"/>ternatim positis: immo eadem res est in 
+      <lb ed="#B" n="73"/>genere, in specie, &amp; in indiuiduo, tanquam 
+      <lb ed="#B" n="74"/>signum in signato. Sed nulla res est 
+      ge<lb ed="#B" n="75" break="no"/>nus: nec species: nec indiuiduum: quia 
+      <lb ed="#B" n="76"/>nulla res est uniuersale, aut praedicabile. 
+      <lb ed="#B" n="77"/>Sed nec indiuiduum, capiendo 
+      indiui<lb ed="#B" n="78" break="no"/>duum pro termino secundae intentionis: 
+      <lb ed="#B" n="79"/>licet omnis res sit indiuiduum, capiendo ut  
+      <lb ed="#B" n="80"/>est terminus primae intentionis: quia quem 
+      <lb ed="#B" n="81"/>libet res est res singularis. Alio modo 
+      <lb ed="#B" n="82"/>aliquid dicitur esse in genere, uel 
+      praedi<lb ed="#B" n="83" break="no"/>camento: quia de eo genus aliquod  
+      <lb ed="#B" n="84"/>quidditatiue praedicatur. Et illo modo 
+      <lb ed="#B" n="85"/>nulla res, quae non est signum, uel 
+      termi<lb ed="#B" n="86" break="no"/>nus est in genere, uel in praedicamento: 
+      <lb ed="#B" n="87"/>quia res ut sic non pręedicatur, nec subij 
+      <lb ed="#B" n="88"/>citur: cum non sit pars propositionis &amp;c. 
+      </p>
+            <p xml:id="gbs333-a37455-d1e429">
+               <lb ed="#B" n="89"/>¶ Primo modo deus est in praedicamento. 
+      <lb ed="#B" n="90"/>non solum substantiae: sed etiam quali.  
+      <lb ed="#B" n="91"/>tatis, relationis, actionis, passionis: quia 
+      is<lb ed="#B" n="92" break="no"/>significatur per terminos omnium 
+      ho<lb ed="#B" n="93" break="no"/>rum praędicamentorum scilicetens, substantia, 
+      <lb ed="#B" n="94"/>spiritus, sapiens, uiuens, pater, filius, 
+      spi<lb ed="#B" n="95" break="no"/>ritussanctus, creator, amatus, cognitus. 
+      <lb ed="#B" n="96"/>Nec solum per concretos: sed etiam per 
+      <lb ed="#B" n="97"/>abstracta scilicet deitas, entitas, essentia, uita,t 
+      <lb ed="#B" n="98"/>sapientia, paternitas, creatio, amatio,  
+      <lb ed="#B" n="99"/>cognitio, capiendo, creatio &amp;c. ut sunt 
+      <lb ed="#B" n="100"/>de praedicamento accidentis. Similiter 
+      <lb ed="#B" n="101"/>amatio cognitio ut sunt in 
+      praedicamen<lb ed="#B" n="102" break="no"/>o passionis, siue illa abstracta accipian¬ 
+      <!--237.xml-->
+      <pb ed="#B" n="150"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tur absolute, siue connotatiue. Et hoc  
+      <lb ed="#B" n="2"/>expresse uult Aug. sermone praeallegato 
+      <lb ed="#B" n="3"/>prout diffuse deducit per omnes 
+      cathe<lb ed="#B" n="4" break="no"/>gorias in logica sua. Nec hoc est 
+      con<lb ed="#B" n="5" break="no"/>tra eundem beatum Aug. x. de tri. c. i. 
+      di<lb ed="#B" n="6" break="no"/>centem. Intelligamus deum sine qualita 
+      <lb ed="#B" n="7"/>te bonum: sine quantitate magnum: &amp;c. 
+      <lb ed="#B" n="8"/>Quia nihil aliud vult, nisi quod deus non 
+      <lb ed="#B" n="9"/>est bonus, magnus, iustus &amp;c. per 
+      ali<lb ed="#B" n="10" break="no"/>quod accidens super additum: sed sua 
+      es<lb ed="#B" n="11" break="no"/>sentia. Quod etiam magister innuit, cum 
+      <lb ed="#B" n="12"/>dicit, quod prędicamenta artis dialecticae 
+      di<lb ed="#B" n="13" break="no"/>uinae naturae minime conueniunt: 
+      ratio<lb ed="#B" n="14" break="no"/>nem addit, quae scilicet natura diuina 
+      nul<lb ed="#B" n="15" break="no"/>lis est subiecta accidentibus: hoc ergo 
+      <lb ed="#B" n="16"/>uoluit, quod illis praedicamentis, siue 
+      praedi<lb ed="#B" n="17" break="no"/>camentalibus generibus natura diuina 
+      <lb ed="#B" n="18"/>subiecta non est, quae rem denominant 
+      <lb ed="#B" n="19"/>ratione accidentis superadditi: quod  
+      <lb ed="#B" n="20"/>deo non conuenire, nemo fidelis 
+      dubi<lb ed="#B" n="21" break="no"/>tat. Nunc autem termini accidentalium 
+      <lb ed="#B" n="22"/>praedicamentorum non solum important 
+      <lb ed="#B" n="23"/>res sic denominatas per accidentia 
+      su<lb ed="#B" n="24" break="no"/>peraddita: sed etiam res de nominatas 
+      <lb ed="#B" n="25"/>seipsis siue sua essentia, ut idem, diuersum 
+      <lb ed="#B" n="26"/>quantitas (secundum unam 
+      opinio<lb ed="#B" n="27" break="no"/>nem) sapientia, scientia &amp;c. Nam 
+      sa<lb ed="#B" n="28" break="no"/>pientia denominat sapientem, &amp; 
+      <lb ed="#B" n="29"/>scientia scientem, siue talis sit sapiens, 
+      <lb ed="#B" n="30"/>&amp; sciens seipso: siue per accidens 
+      super<lb ed="#B" n="31" break="no"/>ditum.
+    </p>
+            <p xml:id="gbs333-a37455-d1e536">
+      ¶ Secundo modo deus non est 
+      <lb ed="#B" n="32"/>in praedicamento id est res illa summa, quae 
+      <lb ed="#B" n="33"/>deus est: quia res quaedam est, quae nec 
+      <lb ed="#B" n="34"/>subijcitur, nec praedicatur, &amp; talis hoc  
+      <lb ed="#B" n="35"/>modo non est in praedicamento: sed illo 
+      <lb ed="#B" n="36"/>modo terminus deus est in 
+      praedicamen<lb ed="#B" n="37" break="no"/>to: sed duntaxat in praedicamento entis, 
+      <lb ed="#B" n="38"/>&amp; substantiae, quae unum sunt 
+      praedica<lb ed="#B" n="39" break="no"/>mentum: quia solum subijcitur in 
+      prae<lb ed="#B" n="40" break="no"/>dicatione quidditatiua genere 
+      absolu<lb ed="#B" n="41" break="no"/>to, &amp; non connotatiuo: cum ipse 
+      termi<lb ed="#B" n="42" break="no"/>nus deus sit terminus absolutus, ut 
+      sup<lb ed="#B" n="43" break="no"/>ponitur. Sapientia autem si capitur 
+      con<lb ed="#B" n="44" break="no"/>notatiue, est in praedicamento 
+      qualita<lb ed="#B" n="45" break="no"/>tis: pater, filius &amp; caeteri termini 
+      relati<lb ed="#B" n="46" break="no"/>ui, ut principium, causa, quae deum 
+      si<lb ed="#B" n="47" break="no"/>gnant, sunt in praedicamento 
+      relatio<lb ed="#B" n="48" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a37455-d1e576">
+      ¶ Per hoc ad persuasionem 
+      aucto<lb ed="#B" n="49" break="no"/>ris. Ad primam, quod ens non sit genus &amp;c. 
+      <lb ed="#B" n="50"/>quia per ipsum genus debet contentum 
+      <lb ed="#B" n="51"/>sub genere ab auquo separari: dicitur, 
+      <!--237.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quod illa conditio non conuenit 
+      uniuer<lb ed="#B" n="53" break="no"/>saliter omni generi: sed tantum 
+      generi<lb ed="#B" n="54" break="no"/>subalterno non transcendenti. Nec 
+      o<lb ed="#B" n="55" break="no"/>portet diffinitum per genus ab aliquo 
+      <lb ed="#B" n="56"/>distingui: cum sufficienter per 
+      differen<lb ed="#B" n="57" break="no"/>tias distinguatur ab omni alio: sed 
+      ma<lb ed="#B" n="58" break="no"/>gis per genus debet conuentre cum alijs. 
+      </p>
+            <p xml:id="gbs333-a37455-d1e605">
+               <lb ed="#B" n="59"/>¶ Et si dicitur secundum Pet. 
+      transcen<lb ed="#B" n="60" break="no"/>dentia non sunt genera: ut dicit 
+      phi<lb ed="#B" n="61" break="no"/>losophus. x. Metaphy. de ente &amp; 
+      uno<lb ed="#B" n="62" break="no"/>Potest dici, quod Pet. tenuit, quod  
+      <lb ed="#B" n="63"/>ens non est uniuocum ad omnia: 
+      sub<lb ed="#B" n="64" break="no"/>stantias scilicet &amp; accidentia: &amp; ideo non est 
+      <lb ed="#B" n="65"/>genus: suo modo alia transcendentia. 
+      <lb ed="#B" n="66"/>Sed quia catholicus clariores habet 
+      o<lb ed="#B" n="67" break="no"/>culos gentili: opposita opinio 
+      scili<lb ed="#B" n="68" break="no"/>cet, quod ens sit uniuocum, est uerior. de 
+      <lb ed="#B" n="69"/>quo supra, distinctione. ij. quaest. ix. &amp; 
+      di<lb ed="#B" n="70" break="no"/>stinct. iij. q.viij. in collectorio &amp; doct. 
+      <lb ed="#B" n="71"/>Nec oportet credere Petro sine 
+      ratio<lb ed="#B" n="72" break="no"/>ne: cum &amp; ipse multa opinando dicat, 
+      <lb ed="#B" n="73"/>quae non demonstrat. Etiam admisso, quod 
+      <lb ed="#B" n="74"/>ens non sit genus: non habetur 
+      proposi<lb ed="#B" n="75" break="no"/>tum: quia adhuc substantia, spiritus, 
+      ui<lb ed="#B" n="76" break="no"/>ta, sapientia &amp;c. sunt genera, sub 
+      qui<lb ed="#B" n="77" break="no"/>bus ponitur deus: cum deus uerissime, 
+      <lb ed="#B" n="78"/>&amp; propriissime sit substantia: quia 
+      ue<lb ed="#B" n="79" break="no"/>rissime per se subsistens: uerissime 
+      spiri<lb ed="#B" n="80" break="no"/>tus uita, &amp; sapientia. Non enim illa 
+      <lb ed="#B" n="81"/>nomina attribuuntur deo translatiue 
+      <lb ed="#B" n="82"/>secundum beatum August. sed proprie. 
+      <lb ed="#B" n="83"/>Vnde quod arguitur: genus quod 
+      prae<lb ed="#B" n="84" break="no"/>dicatur de magis differentibus etiam 
+      prae<lb ed="#B" n="85" break="no"/>dicatur de minus differentibus: hoc non 
+      <lb ed="#B" n="86"/>est uniuersaliter uerum, quia iustus 
+      prae<lb ed="#B" n="87" break="no"/>dicatur de homine, &amp; angelo: quia plus 
+      <lb ed="#B" n="88"/>differunt, quam homines. Et. a. si 
+      abso<lb ed="#B" n="89" break="no"/>lute significaret omnem rem 
+      incorpo<lb ed="#B" n="90" break="no"/>ream, id est non compositam, 
+      praedica<lb ed="#B" n="91" break="no"/>retur de angelo, &amp; partibus compositi 
+      <lb ed="#B" n="92"/>substatialis: scilicet de materia, &amp; de 
+      for<lb ed="#B" n="93" break="no"/>ma, &amp; non de homine, cum tamen plus 
+      <lb ed="#B" n="94"/>differunt partes essentiales hominis, 
+      <lb ed="#B" n="95"/>uel lapidis ab angelo, quam ab homine, 
+      <lb ed="#B" n="96"/>aut lapide.
+    </p>
+            <p xml:id="gbs333-a37455-d1e690">
+      ¶ Denique dist. iij. quae. iij. 
+      <lb ed="#B" n="97"/>dictum est, quod de deo possumus 
+      ha<lb ed="#B" n="98" break="no"/>bere plures conceptus quidditatiuos, 
+      <lb ed="#B" n="99"/>non conuertibiles cum ente 
+      significan<lb ed="#B" n="100" break="no"/>tes deum, &amp; determinatam creaturam: 
+      <lb ed="#B" n="101"/>&amp; illi erunt inferius ad ens: &amp; genus ad 
+      <lb ed="#B" n="102"/>deum, &amp; creaturam determinatam. 
+      <!--238.xml-->
+      <pb ed="#B" n="151"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>V¶ Ad secundum: quod ad esse genus 
+      requi<lb ed="#B" n="2" break="no"/>ritur: quod contenta habeant 
+      adinui<lb ed="#B" n="3" break="no"/>cem certam proportionem 
+      perfectio<lb ed="#B" n="4" break="no"/>nis: dicitur negando illud. Nec pro 
+      <lb ed="#B" n="5"/>batur: sed tantum narratur: sicut &amp; 
+      ip<lb ed="#B" n="6" break="no"/>semet auctor illas persuasiones dicit 
+      ma<lb ed="#B" n="7" break="no"/>gis narrationes, quam probationes: 
+      <lb ed="#B" n="8"/>nec illa conditio includitur in 
+      diffini<lb ed="#B" n="9" break="no"/>tione generis.
+    </p>
+            <p xml:id="gbs333-a37455-d1e732">
+      ¶ Praeterea auctor ipse 
+      <lb ed="#B" n="10"/>expraesse dicit, &amp; probat, quod 
+      infini<lb ed="#B" n="11" break="no"/>tas dei non sufficit ad probandum 
+      deum<lb ed="#B" n="12" break="no"/>non esse in genere. Sufficeret autem, 
+      <lb ed="#B" n="13"/>si illa conditio staret: quia propter sui in 
+      <lb ed="#B" n="14"/>finitatem non habet proportionem 
+      cer<lb ed="#B" n="15" break="no"/>tam ad quodcunque aliud, &amp; ita cum 
+      <lb ed="#B" n="16"/>nullo alio posset poni in genere, &amp; 
+      per<lb ed="#B" n="17" break="no"/>consequens simpliciter non posset 
+      poni<lb ed="#B" n="18" break="no"/>in genere: cum nihil sit genus unius 
+      so<lb ed="#B" n="19" break="no"/>lius rei singularis: sed plurium specie 
+      dif<lb ed="#B" n="20" break="no"/>ferentium.
+    </p>
+            <p xml:id="gbs333-a37455-d1e758">
+      ¶ Nec deum poni in genere 
+      <lb ed="#B" n="21"/>est deum incarterare, uel sub finitate 
+      <lb ed="#B" n="22"/>concludere, aut alijs creaturis 
+      parifi<lb ed="#B" n="23" break="no"/>care: sicut quidam frontosi (plus 
+      placi<lb ed="#B" n="24" break="no"/>ti, quam uere intelligentes) arguunt, 
+      <lb ed="#B" n="25"/>Cum secundum eos deus significatur 
+      <lb ed="#B" n="26"/>uniuoce per ens. Et secundum omnes 
+      <lb ed="#B" n="27"/>deus significatur per hos terminos: 
+      <lb ed="#B" n="28"/>deus, summus, infinitus, tam menta 
+      <lb ed="#B" n="29"/>les, quam uocales, &amp; si rem 
+      significa<lb ed="#B" n="30" break="no"/>ri per signum, quod finitum est (quia 
+      <lb ed="#B" n="31"/>creatura) est deum incarcerari &amp;c. deus 
+      <lb ed="#B" n="32"/>secundum eos multipliciter 
+      incarcera<lb ed="#B" n="33" break="no"/>tur, &amp; concluditur.
+    </p>
+            <p xml:id="gbs333-a37455-d1e789">
+      ¶ Nec propter hoc, 
+      <lb ed="#B" n="34"/>quod per idem signum cum creatur: 
+      <lb ed="#B" n="35"/>repraesentatur, creaturae parificatur. 
+      <lb ed="#B" n="36"/>Nam angelus, &amp; materia prima 
+      substan<lb ed="#B" n="37" break="no"/>tiarum imperfectissima significantur 
+      <lb ed="#B" n="38"/>per nomen substantia: nec tamen 
+      pari<lb ed="#B" n="39" break="no"/>ficantur: nisi diceres parificari, idest 
+      si<lb ed="#B" n="40" break="no"/>mul uelper unum signum signari: sic 
+      <lb ed="#B" n="41"/>nihil impfectionis dicit parificari 
+      crea<lb ed="#B" n="42" break="no"/>turae: immo cuicunque rei uilissimae. 
+      <lb ed="#B" n="43"/>Horum ergo impertinentes instantiae 
+      <lb ed="#B" n="44"/>plus ridendae sunt, quam reprobandae 
+      <lb ed="#B" n="45"/>Nihil ergo indignum, aut imperfectum 
+      <lb ed="#B" n="46"/>deo attribuitur: cum in praedicamento, 
+      <lb ed="#B" n="47"/>uel sub genere poni dicitur: cum nihil 
+      per<lb ed="#B" n="48" break="no"/>hoc intelligatur: nisi quod deus per aliquod  
+      <lb ed="#B" n="49"/>nomen, quod in praedicamento 
+      poni<lb ed="#B" n="50" break="no"/>tur: significatur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

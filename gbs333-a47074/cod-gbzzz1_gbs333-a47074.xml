@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="186"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a47074"> <!-- l1d12q2 -->
+            <head xml:id="gbs333-a47074-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a47074-Hd1e104" type="question-title"/>
+            <p xml:id="gbs333-a47074-d1e106">
+               <lb ed="#B" n="58"/>QVAESTIO II 
+      <lb ed="#B" n="59"/>gTRVM pater, &amp; filius 
+      spi<lb ed="#B" n="60" break="no"/> rent spiritum sanctum 
+      inquan<lb ed="#B" n="61" break="no"/>tum sunt unum, uel 
+      inquan<lb ed="#B" n="62" break="no"/>tum sunt distincti.
+    </p>
+            <p xml:id="gbs333-a47074-d1e119">
+      ¶ 
+      Quae<lb ed="#B" n="63" break="no"/>stio illa partim est realis: partim 
+      uerba<lb ed="#B" n="64" break="no"/>lis. Principaliter enim quaerit de 
+      uerita<lb ed="#B" n="65" break="no"/>te illarum propositionum: pater &amp; filius 
+      <lb ed="#B" n="66"/>spirant inquantum sunt unum: 
+      inquan<lb ed="#B" n="67" break="no"/>tum sunt distincti &amp;c. An de uirtute 
+      ser<lb ed="#B" n="68" break="no"/>monis sint concedendae.
+    </p>
+            <p xml:id="gbs333-a47074-d1e136">
+      ¶ Sed primum 
+      <lb ed="#B" n="69"/>pro articulo primo uideamus de re. Pro 
+      <lb ed="#B" n="70"/>cuius intellectu primo notandum: quod in 
+      <lb ed="#B" n="71"/>diuinis sunt essentia: relatio, persona, &amp; 
+      <lb ed="#B" n="72"/>constitutum ex diuina essentia, &amp; 
+      spira<lb ed="#B" n="73" break="no"/>tione actiua secundum opi. doct.iam 
+      sae<lb ed="#B" n="74" break="no"/>pe tactam. Et quicquid est in deo: est 
+      for<lb ed="#B" n="75" break="no"/>maliter ex natura rei: &amp; omnino aliquia 
+      <lb ed="#B" n="76"/>istorum. Verum nomina, &amp; conceptus, 
+      <lb ed="#B" n="77"/>qui non sunt deus: sed singulariter deum 
+      <lb ed="#B" n="78"/>repraesentant: multa sunt, quorum aliqua 
+      <lb ed="#B" n="79"/>principaliter unum illorum significant  
+      <lb ed="#B" n="80"/>&amp; aliud connotant secundum diuersos 
+      <lb ed="#B" n="81"/>modos considerandi ea. Et propter hoc  
+      <lb ed="#B" n="82"/>possunt propositiones ex eis constitutae 
+      <lb ed="#B" n="83"/>diuersimode se habere quoad ueritatem 
+      <lb ed="#B" n="84"/>&amp; falsitatem: ut ex dictis distin. v. &amp; alibi 
+      <lb ed="#B" n="85"/>satis patet.
+    </p>
+            <p xml:id="gbs333-a47074-d1e175">
+      ¶ Secundo notandum: quod 
+      prin<lb ed="#B" n="86" break="no"/>cipium elicitiuum spiritussancti est 
+      prae<lb ed="#B" n="87" break="no"/>cise uoluntas diuina: quia est praecise 
+      <lb ed="#B" n="88"/>essentia diuina, quae est omnino ex 
+      natu<lb ed="#B" n="89" break="no"/>ra rei diuina uoluntas. Intantum quod 
+      si<lb ed="#B" n="90" break="no"/>diuina uoluntas posset esse in una 
+      sola<lb ed="#B" n="91" break="no"/>persona productiua, &amp; non in duabus 
+      <lb ed="#B" n="92"/>personis productiuis: ipsa posset esse 
+      prin<lb ed="#B" n="93" break="no"/>cipium spirandi spiritussancti. de hoc 
+      su<lb ed="#B" n="94" break="no"/>pra distin. vij. q. i. &amp; ij. Item dist. ij. q.i. 
+      </p>
+            <p xml:id="gbs333-a47074-d1e197">
+               <lb ed="#B" n="95"/>¶ Tertio notandum: quod cum sancti, &amp; 
+      an<lb ed="#B" n="96" break="no"/>tiqui doctores dicunt, quod pater, &amp; filius 
+      <lb ed="#B" n="97"/>ut concordi uoluntate se diligunt amo 
+      <lb ed="#B" n="98"/>re mutuo, iucundo, feruenti, &amp; 
+      incen<lb ed="#B" n="99" break="no"/>tiuo: quem pater impendit filio: &amp; filius 
+      <lb ed="#B" n="100"/>eundem amorem rependit patri (ut 
+      Ri<lb ed="#B" n="101" break="no"/>char. loquitur) spirant spiritum sanctum, 
+      <!--274.xml-->
+      <pb ed="#B" n="187"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>qui est amor, &amp; nexus utriusque. Non 
+      uo<lb ed="#B" n="2" break="no"/>sunt nec intendunt, quod sit ibi aliqua 
+      mu<lb ed="#B" n="3" break="no"/>tuitas amoris impensi, &amp; repensi super 
+      <lb ed="#B" n="4"/>uenientis distincti qualitertunque a 
+      di<lb ed="#B" n="5" break="no"/>uina uoluntate, &amp; a personis patris, &amp; 
+      fi<lb ed="#B" n="6" break="no"/>lij: ita quod si per impossibile essent pater, 
+      <lb ed="#B" n="7"/>&amp; filius habentes bonitatem, &amp; amorem 
+      <lb ed="#B" n="8"/>essentialem communem omnibus alijs 
+      <lb ed="#B" n="9"/>circumscriptis non possent spirare 
+      spiri<lb ed="#B" n="10" break="no"/>tum sanctum. Sed intelligunt: quod hoc 
+      ip<lb ed="#B" n="11" break="no"/>so: quod pater diligit, filium producit 
+      spiri<lb ed="#B" n="12" break="no"/>tum sanctum: quod nihil aliud est, quam 
+      <lb ed="#B" n="13"/>quod pater uirture amoris, quo diligit filium 
+      <lb ed="#B" n="14"/>qui amor in nullo distinguitur ab 
+      amo<lb ed="#B" n="15" break="no"/>re conmuni, qui est diuina essentia: 
+      produ<lb ed="#B" n="16" break="no"/>cit spiritum sanctum. Sic filius diligendo 
+      <lb ed="#B" n="17"/>patrem, uirture amoris eiusdem spirat  
+      <lb ed="#B" n="18"/>spiritum sanctum. Et sic non est ibi 
+      ali<lb ed="#B" n="19" break="no"/>quis amor imaginabilis quasi 
+      superue<lb ed="#B" n="20" break="no"/>niens praeter diuinam essentiam: quae est 
+      <lb ed="#B" n="21"/>amor perfectissimus, iucundus, bonitas, 
+      <lb ed="#B" n="22"/>sa pientia &amp;c. Verum hoc nomen amor 
+      <lb ed="#B" n="23"/>mutuus non importat praecise amorem 
+      <lb ed="#B" n="24"/>conem, nec praecise aliquam personam: uel 
+      <lb ed="#B" n="25"/>relationem: nec aliquid quocunque a 
+      prae<lb ed="#B" n="26" break="no"/>dictis ex parte rei distinctum, sed 
+      impor<lb ed="#B" n="27" break="no"/>tat aiorem conem, &amp; diuinas personas 
+      <lb ed="#B" n="28"/>se mutuo amore conmuni diligentes. Et  
+      <lb ed="#B" n="29"/>si non mutuo diligerent: non esset amor 
+      <lb ed="#B" n="30"/>iucundus feruens, &amp; perfectus: quia 
+      nisi<lb ed="#B" n="31" break="no"/>esset mutuus: non esset essentialis, nec 
+      <lb ed="#B" n="32"/>infinitus. Et impossibile est ponere 
+      ali<lb ed="#B" n="33" break="no"/>quem amorem, quo pater diligit filium, 
+      <lb ed="#B" n="34"/>&amp; econuerso: nisi amorem conem tribus: 
+      <lb ed="#B" n="35"/>quo amore omnes tres personae mutuo 
+      <lb ed="#B" n="36"/>se diligunt.
+    </p>
+            <p xml:id="gbs333-a47074-d1e299">
+      ¶ Si quaeris. Cum ergo illo 
+      <lb ed="#B" n="37"/>amore conmuni, &amp; essentiali diligunt 
+      se<lb ed="#B" n="38" break="no"/>filius, &amp; spiritussanctus: quare non 
+      pro<lb ed="#B" n="39" break="no"/>ducunt aliquam personam sicut pater, 
+      <lb ed="#B" n="40"/>&amp; filius: quia diligunt se: producunt 
+      sp<lb ed="#B" n="41" break="no"/>ritum sanctum. Responsio: quia deus est 
+      <lb ed="#B" n="42"/>haec natura: hoc est, est una essentia: &amp; 
+      <lb ed="#B" n="43"/>rres personae, &amp; non plures: quod nobis 
+      <lb ed="#B" n="44"/>innotescit per scripturam a deo reue 
+      la<lb ed="#B" n="45" break="no"/>tam. Ideo uelle assignare rationem, ubi 
+      <lb ed="#B" n="46"/>nulla est: nisi quia natura rei est talis: est 
+      <lb ed="#B" n="47"/>frustra niti. Haec de re.
+    </p>
+            <p xml:id="gbs333-a47074-d1e325">
+      ¶ Quantum ad 
+      <lb ed="#B" n="48"/>articulum secundum de modo 
+      loquen<lb ed="#B" n="49" break="no"/>di, &amp; ad quaestionem est conclusio 
+      pri<lb ed="#B" n="50" break="no"/>ma. Pater, &amp; filius nec inquantum unum, 
+      <lb ed="#B" n="51"/>nec inquantum distincti spirant scililicet acci¬ 
+      <!--274.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>piendo inquantum proprie, &amp; reductiue 
+      <lb ed="#B" n="53"/>Patet manifeste exponendo eam. Quodo 
+      <lb ed="#B" n="54"/>autem propositio reduplicatiua 
+      exponi<lb ed="#B" n="55" break="no"/>debet: late prosequitur doc. sed quia est 
+      <lb ed="#B" n="56"/>logicale: hic rescinditur.
+    </p>
+            <p xml:id="gbs333-a47074-d1e351">
+      ¶ Secunda 
+      con<lb ed="#B" n="57" break="no"/>clusio. Spirare primo conuenit alicui 
+      <lb ed="#B" n="58"/>uni, &amp; non primo conuenit distinctis. 
+      <lb ed="#B" n="59"/>Probatur: quia spirare praedicatur per se 
+      <lb ed="#B" n="60"/>primo modo de uno constituto ex 
+      essen<lb ed="#B" n="61" break="no"/>tia diuina, &amp; spiratione actiua: non autem 
+      <lb ed="#B" n="62"/>sic pręedicatur de distinctis. Item spirare 
+      <lb ed="#B" n="63"/>conuenit tali constituto omni alio 
+      cir<lb ed="#B" n="64" break="no"/>cumscripto, &amp; nulli alij ipso circunscripto: 
+      <lb ed="#B" n="65"/>ergo primo ei conuenit: non sic autem 
+      <lb ed="#B" n="66"/>alicui personae. Et hoc uolunt sancti, cum 
+      <lb ed="#B" n="67"/>dicunt: pater, &amp; filius spirant inquantum 
+      <lb ed="#B" n="68"/>unum, &amp; non inquantum distincti. Hoc 
+      <lb ed="#B" n="69"/>etiam dicunt ad denotandum unitatem 
+      <lb ed="#B" n="70"/>pirationis actiue, &amp; non pluralitatem: ut  
+      <lb ed="#B" n="71"/>scilicet quamuis pater, &amp; filius sunt 
+      plu<lb ed="#B" n="72" break="no"/>res personae: tamen spirant unica 
+      spira<lb ed="#B" n="73" break="no"/>tione, &amp; non pluribus. De quo supra 
+      <lb ed="#B" n="74"/>distinct. xij. quaest. i 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

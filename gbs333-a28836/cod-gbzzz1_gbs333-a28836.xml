@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="115"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a28836"> <!-- l1d3q6 -->
+            <head xml:id="gbs333-a28836-Hd1e102">Quaestio 6</head>
+            <head xml:id="gbs333-a28836-Hd1e104" type="question-title">Utrum prima notitia intellectus primitate generationis sit notitia intuitiva alicuius singularis</head>
+            <p xml:id="gbs333-a28836-d1e107">
+      <!--202.xml-->
+               <pb ed="#B" n="115"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>QVESTIO VI 
+      <lb ed="#B" n="2"/>VTRVM prima notitia 
+      in<lb ed="#B" n="3" break="no"/>tellectus primitate 
+      genera<lb ed="#B" n="4" break="no"/>tionis sit notitia intuitiua 
+      <lb ed="#B" n="5"/>alicuius singularis.
+    </p>
+            <p xml:id="gbs333-a28836-d1e127">
+      ¶ In hac 
+      <lb ed="#B" n="6"/>quaestione doc. primo rec 
+      <lb ed="#B" n="7"/>tat opinionem sancti Tho. par. i. q. Ixxxvj. 
+      <lb ed="#B" n="8"/>art. j. tenentem: quod intellectus noster 
+      pri<lb ed="#B" n="9" break="no"/>ma &amp; directe non potest cognoscere 
+      sin<lb ed="#B" n="10" break="no"/>gulare in rebus materialibus: quia primum 
+      <lb ed="#B" n="11"/>singularitatis in rebus materialibus est 
+      <lb ed="#B" n="12"/>materia: sed potest singulare cognosce- 
+      <lb ed="#B" n="13"/>re solum per quandam reftexionem. 
+      De<lb ed="#B" n="14" break="no"/>hinc reciratur opi. <name xml:id="gbs333-a28836-Nd1e148">Henrici Gandauen</name>
+               <lb ed="#B" n="15"/>rquodli. q. xv. &amp; iiij. quodlib. q. xij. 
+      qui<lb ed="#B" n="16" break="no"/>eandem ponit conclusionem. 
+      Adducun<lb ed="#B" n="17" break="no"/>tur tamen multae auctoritates pro hac 
+      opi<lb ed="#B" n="18" break="no"/>nione, quas doctor impugnat: uide in 
+      <lb ed="#B" n="19"/>scripto suo. Itaque quaestio illa pro 
+      maxi<lb ed="#B" n="20" break="no"/>ma parte fundatur in solutione aucto. 
+      <lb ed="#B" n="21"/>ritatum militantium contra prius dicta 
+      <lb ed="#B" n="22"/>doct. &amp; dependet eius defectus ex prius 
+      <lb ed="#B" n="23"/>dictis. Habebit ergo quaestionis decisio 
+      <lb ed="#B" n="24"/>tres breues articulos. Primus ordinem 
+      <lb ed="#B" n="25"/>generationis cognitionum pro statu 
+      il<lb ed="#B" n="26" break="no"/>lo explicabit. Secundus conclusiones 
+      re<lb ed="#B" n="27" break="no"/>citabit. Tertius dubium mouebit.
+    </p>
+            <p xml:id="gbs333-a28836-d1e180">
+      ¶ Pro 
+      <lb ed="#B" n="28"/>articulo primo, &amp; pro clariori intellectu 
+      <lb ed="#B" n="29"/>dicendorum, est hic notandum breuiter 
+      <lb ed="#B" n="30"/>de ordinata cognitionum generatione. 
+      <lb ed="#B" n="31"/>Et primo de operatione sensitiua 
+      cogni<lb ed="#B" n="32" break="no"/>tiua: quod pro statu uiae huius omnis 
+      no<lb ed="#B" n="33" break="no"/>stra cognitio incipit a sensu.
+    </p>
+            <p xml:id="gbs333-a28836-d1e196">
+      ¶ Est ergo 
+      <lb ed="#B" n="34"/>prima cognitio primitate generationis 
+      <lb ed="#B" n="35"/>sensatio exterior: quae causatur immedia 
+      <lb ed="#B" n="36"/>te ab obiecto. Immediate dico, idest 
+      si<lb ed="#B" n="37" break="no"/>ne cognitione media: siue ponatur 
+      spe<lb ed="#B" n="38" break="no"/>cies media, siue non: de quo in. ij. quae 
+      <lb ed="#B" n="39"/>stio. ij. distinctio. iij. Haec notitia est 
+      in<lb ed="#B" n="40" break="no"/>tuitiua: quia ea cognoco rem sensata 
+      <lb ed="#B" n="41"/>esse: &amp; dependet ab obiecto non 
+      so<lb ed="#B" n="42" break="no"/>lum in fieri: sed etiam in esse. Vnde 
+      <lb ed="#B" n="43"/>remoro obiecto statim corrumpitur haec 
+      <lb ed="#B" n="44"/>cognitio: haec singulariter 
+      repraesen<lb ed="#B" n="45" break="no"/>tat obiectum, idest qualitates sensibiles 
+      <lb ed="#B" n="46"/>tam proprias, quam communes.
+    </p>
+            <p xml:id="gbs333-a28836-d1e227">
+      ¶ 
+      Se<lb ed="#B" n="47" break="no"/>cunda cognitio est cognitio eiusdem 
+      <lb ed="#B" n="48"/>subiecti, quam elicit sensus communis: 
+      <lb ed="#B" n="49"/>eodem modo repraesentans obiectum 
+      <!--202.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>sicut cognitio prima: &amp; cum hoc ut 
+      sen<lb ed="#B" n="51" break="no"/>satum, uel uisum &amp;c. Nam sensus in 
+      <lb ed="#B" n="52"/>terior est, qui iudicat de actibus 
+      sen<lb ed="#B" n="53" break="no"/>suum exteriorum. Prima enim 
+      uisio<lb ed="#B" n="54" break="no"/>ne, scilicet exteriori non cognosco 
+      me<lb ed="#B" n="55" break="no"/>uidere: quia nonnunquam aliquis uidet 
+      <lb ed="#B" n="56"/>nesciens se uidere. Illa cognitio 
+      simi<lb ed="#B" n="57" break="no"/>liter est intuitiua: quoniam ea 
+      euiden<lb ed="#B" n="58" break="no"/>ter cognosco me sentire: quae similiter 
+      <lb ed="#B" n="59"/>cedente prima sensatione corrumpitur: 
+      <lb ed="#B" n="60"/>huius obiectum est res sensata: &amp; cum 
+      <lb ed="#B" n="61"/>hoc sensatio exterior.
+    </p>
+            <p xml:id="gbs333-a28836-d1e266">
+      ¶ Tertia 
+      noti<lb ed="#B" n="62" break="no"/>tia est sVnonuma secundae: manens 
+      re<lb ed="#B" n="63" break="no"/>moto obiecto etiam cessante 
+      sensatio<lb ed="#B" n="64" break="no"/>ne exteriore: per quam cogito de re 
+      <lb ed="#B" n="65"/>etiam absente. Siquidem experimur: 
+      <lb ed="#B" n="66"/>quaed uidentes rem aliquam: ipsa 
+      a<lb ed="#B" n="67" break="no"/>mota ab oculis adhuc manet in nobis 
+      <lb ed="#B" n="68"/>notitia quaedam, quae repraesentat rem 
+      <lb ed="#B" n="69"/>distincte: &amp; eodem modo, quo 
+      noui<lb ed="#B" n="70" break="no"/>praesentem: &amp; haec non est aliqua 
+      dua<lb ed="#B" n="71" break="no"/>rum praecedentium: quia per illam non 
+      <lb ed="#B" n="72"/>possumus euidenter scire aliquam 
+      ueri<lb ed="#B" n="73" break="no"/>tatem contingentem de re cognita: 
+      si<lb ed="#B" n="74" break="no"/>cut per praecedentem: ergo distinguitur 
+      <lb ed="#B" n="75"/>ab eis. Et ita non est intuitiua: sed 
+      ab<lb ed="#B" n="76" break="no"/>stractiua: quia abstrahit ab existentia 
+      <lb ed="#B" n="77"/>rei hic &amp; nunc, idest per eam non 
+      pos<lb ed="#B" n="78" break="no"/>sumus euidenter scire de re, quam repre 
+      <lb ed="#B" n="79"/>sentat an sit, uel non: an sit hic, uel ibi: 
+      <lb ed="#B" n="80"/>est tamen notitia rei distincta
+    </p>
+            <p xml:id="gbs333-a28836-d1e310">
+      ¶ 
+      Quar<lb ed="#B" n="81" break="no"/>ta est cognitio memoratiua, quae 
+      for<lb ed="#B" n="82" break="no"/>matur per species, uel habitus a 
+      priori<lb ed="#B" n="83" break="no"/>bus cognitionibus decisas, uel decisos 
+      <lb ed="#B" n="84"/>in organo memoriae reseruatos. Et illa 
+      <lb ed="#B" n="85"/>cognitio memoratiua cum obiecto 
+      im<lb ed="#B" n="86" break="no"/>portant tempus praeteritum, idest 
+      im<lb ed="#B" n="87" break="no"/>portat obiectum ut prius etiam 
+      cogni<lb ed="#B" n="88" break="no"/>tum. Haec notitia etiam abstractiua est 
+      <lb ed="#B" n="89"/>sicut tertia, &amp; distincta uel rei in se: 
+      <lb ed="#B" n="90"/>sed non intuitiua.
+    </p>
+            <p xml:id="gbs333-a28836-d1e334">
+      ¶ Hae quatuor 
+      noti<lb ed="#B" n="91" break="no"/>tiae sensitiuae sunt simplices: quae 
+      re<lb ed="#B" n="92" break="no"/>gulariter producuntur de quolibet 
+      ob<lb ed="#B" n="93" break="no"/>iecto sensato: praesertim tres primae, 
+      <lb ed="#B" n="94"/>quae sunt rei in se distinctae 
+      singula<lb ed="#B" n="95" break="no"/>res, &amp; materiales inhaerentes 
+      orga<lb ed="#B" n="96" break="no"/>no sensus, quod est compositum ex 
+      <lb ed="#B" n="97"/>corpore, &amp; anima sensitiua. Quarum 
+      pri<lb ed="#B" n="98" break="no"/>mae duae sunt intuitiuae: posteriores duae 
+      <lb ed="#B" n="99"/>abstractiuae.
+    </p>
+            <p xml:id="gbs333-a28836-d1e357">
+      ¶ Deinde &amp; alias 
+      cogni<lb ed="#B" n="100" break="no"/>tiones elicit sensus, ponens conuenien¬ 
+      <!--203.xml-->
+      <pb ed="#B" n="116"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tiam, &amp; differentiam sensibilium: &amp; com 
+      <lb ed="#B" n="2"/>ponit species diuersas formans 
+      cogni<lb ed="#B" n="3" break="no"/>tionem rerum non sensatarum: sed 
+      totum<lb ed="#B" n="4" break="no"/>licet secundum partes puta in somno, &amp; 
+      <lb ed="#B" n="5"/>uigilia. Et secundum multos componit, 
+      <lb ed="#B" n="6"/>&amp; diuidit per uirtutem aestimatiuam: se 
+      <lb ed="#B" n="7"/>cundum quosdam etiam elicit speciem 
+      <lb ed="#B" n="8"/>non sensatam id est format cognitionem 
+      re<lb ed="#B" n="9" break="no"/>praesentantem rem sub circunstantia 
+      sen<lb ed="#B" n="10" break="no"/>su exteriori non perceptibili: ut cum 
+      ci<lb ed="#B" n="11" break="no"/>cunstantia nociui, uel inimicitiae, ut ouis 
+      <lb ed="#B" n="12"/>uiso supo propter quod fugit: sed superssuum 
+      <lb ed="#B" n="13"/>uidetur ponere hanc notitiam: ut probat 
+      <lb ed="#B" n="14"/>auctor dist. iij. q.ij. &amp; in hoc 
+      termina<lb ed="#B" n="15" break="no"/>tur tota operatio sensitiua cognitiua. 
+      <lb ed="#B" n="16"/>Intellectus uero, qui est potentia 
+      supe<lb ed="#B" n="17" break="no"/>rior, operationem suam incipit a sensibus: 
+      <lb ed="#B" n="18"/>neque. n. non sentiens intelligit. iij. di 
+      <lb ed="#B" n="19"/>anima. Prima ergo cognitio 
+      intellecti<lb ed="#B" n="20" break="no"/>ua: est cognitio singularis rei sensatae, 
+      sy<lb ed="#B" n="21" break="no"/>nonyma sensationi interiori, quae 
+      inte<lb ed="#B" n="22" break="no"/>rior uocatur phantasma. Dicitur autem 
+      <lb ed="#B" n="23"/>intellectio prima a sensatione interiori: 
+      <lb ed="#B" n="24"/>quia illa est penitus immaterialis 
+      inhae<lb ed="#B" n="25" break="no"/>rens tantum intellectui, &amp; non organo. 
+      <lb ed="#B" n="26"/>Aqualibet autem sensatione interiori 
+      <lb ed="#B" n="27"/>potest generari intellectio eius in 
+      ani<lb ed="#B" n="28" break="no"/>ma: quia in quodcunque obiectum potest 
+      <lb ed="#B" n="29"/>potentia inferior: in idem &amp; sub eadem 
+      <lb ed="#B" n="30"/>ratione potest &amp; superior in potentijs 
+      <lb ed="#B" n="31"/>ordinatis: ut patet de sensu exteriori, &amp; 
+      <lb ed="#B" n="32"/>interiori: de intellectu, &amp; uoluntate.
+    </p>
+            <p xml:id="gbs333-a28836-d1e438">
+      ¶ A 
+      <lb ed="#B" n="33"/>notitia ergo prima intellectiua 
+      intuiti<lb ed="#B" n="34" break="no"/>ua abstrahit intellectiuam abstractiuam 
+      <lb ed="#B" n="35"/>singularem uagam, sicut sensus. Deinde 
+      <lb ed="#B" n="36"/>abstrahit duplicem notitiam: singularem 
+      <lb ed="#B" n="37"/>&amp; communem. Singularem: nam habit: 
+      <lb ed="#B" n="38"/>singulariuaga significante multas 
+      circun<lb ed="#B" n="39" break="no"/>stantias sensu perceptibiles: considerans 
+      <lb ed="#B" n="40"/>aliquas uariari aliis manentibus 
+      abstra<lb ed="#B" n="41" break="no"/>hit duos conceptus: unsi eius, quod 
+      mu<lb ed="#B" n="42" break="no"/>tatur: alium repraesentantem praecise 
+      il<lb ed="#B" n="43" break="no"/>lud, quod manet immutatum: &amp; omnes 
+      <lb ed="#B" n="44"/>sunt singulares: nec ab illa abstractione 
+      <lb ed="#B" n="45"/>cessat, donec perueniat ad conceptus 
+      sin<lb ed="#B" n="46" break="no"/>plices significantes tamen unam qualitate 
+      <lb ed="#B" n="47"/>absolute. Item considerans plura 
+      singu<lb ed="#B" n="48" break="no"/>laria conuenientia sibi similiora 
+      inter<lb ed="#B" n="49" break="no"/>se in aliquibus, quame cum aliis abstrahit 
+      con<lb ed="#B" n="50" break="no"/>ceptum communem adaequate 
+      repraesen<lb ed="#B" n="51" break="no"/>tantem huiusmodi conuententia. Et si¬ 
+      <!--203.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>fuerit conuenientia essentialis: potest 
+      for<lb ed="#B" n="53" break="no"/>mare conceptum absolutum: si 
+      acciden<lb ed="#B" n="54" break="no"/>talis: format conceptum connotatiuum: 
+      <lb ed="#B" n="55"/>&amp; secundum quod conuenientiae sunt 
+      plu<lb ed="#B" n="56" break="no"/>rium, uel paucorum, format conceptus 
+      <lb ed="#B" n="57"/>magis, uel minus communes. In his tamen 
+      <lb ed="#B" n="58"/>conceptibus abstractis siue singularibus, 
+      <lb ed="#B" n="59"/>siue communibus non est determinatus 
+      <lb ed="#B" n="60"/>ordo: sed nunc prius unum format: numc 
+      <lb ed="#B" n="61"/>alium: secundum quod occurrunt 
+      mutatio<lb ed="#B" n="62" break="no"/>nes terum, uel singularia diuersa nunc 
+      <lb ed="#B" n="63"/>eiusdem speciei nunc diuersarum specie 
+      <lb ed="#B" n="64"/>rum, uel generum. Et idem conceptus 
+      <lb ed="#B" n="65"/>speciei non praesupponit conceptum 
+      ge<lb ed="#B" n="66" break="no"/>neris, nec econuerso: quia numc ille prius 
+      <lb ed="#B" n="67"/>formatur: nunc ille: coceptus tamen 
+      sin<lb ed="#B" n="68" break="no"/>gulares rerum sensatarum 
+      praesupponun<lb ed="#B" n="69" break="no"/>tur omnibus alijs.
+    </p>
+            <p xml:id="gbs333-a28836-d1e525">
+      ¶ Deinde intellectus 
+      <lb ed="#B" n="70"/>negoriatur circa conceptus 
+      coniungen<lb ed="#B" n="71" break="no"/>do eos: faciendo complexa 
+      propositio<lb ed="#B" n="72" break="no"/>nalia, &amp; non propositionalia. Idem ex 
+      <lb ed="#B" n="73"/>ppositionibus syllogismos facit, &amp; alios 
+      <lb ed="#B" n="74"/>discursus consequentionales, quibus in 
+      <lb ed="#B" n="75"/>quirit ex notis ignota. Pro articulo 
+      se<lb ed="#B" n="76" break="no"/>cundo est haec conclusio prima. 
+      Singu<lb ed="#B" n="77" break="no"/>lare intelligitur. Patet ex praecedenti 
+      <lb ed="#B" n="78"/>quaestione. Item si non: uel propter 
+      per<lb ed="#B" n="79" break="no"/>fectionem, uel imperfectionem ipsius in 
+      <lb ed="#B" n="80"/>tellectus non posset intelligi. Non 
+      pro<lb ed="#B" n="81" break="no"/>pter imperfectionem: quia sensus est 
+      im<lb ed="#B" n="82" break="no"/>perfectior: &amp; tamen cognoscit singulare: 
+      <lb ed="#B" n="83"/>nec propter perfectionem intellectus: quia 
+      <lb ed="#B" n="84"/>aut ex eo, quod non potest intelligere tam 
+      <lb ed="#B" n="85"/>imperfectum: sicut est singulare materiale: 
+      <lb ed="#B" n="86"/>sed hoc non: quia singulare est perfectius 
+      <lb ed="#B" n="87"/>uniuersali. Nam uniuersale abstractum a 
+      <lb ed="#B" n="88"/>singularibus non est perfectius 
+      singulari<lb ed="#B" n="89" break="no"/>Aut quia non potest immutariab aliquo 
+      <lb ed="#B" n="90"/>materiali: nec recipere materiale. Sed 
+      <lb ed="#B" n="91"/>hoc non: quia quodcunque fuerit, quo 
+      im<lb ed="#B" n="92" break="no"/>mutatur ad intelligendum uniuersale 
+      si<lb ed="#B" n="93" break="no"/>ue species intelligibilis, siue actus 
+      intel<lb ed="#B" n="94" break="no"/>ligendi, siue habitus secundum 
+      com<lb ed="#B" n="95" break="no"/>muniter loquentes: per illud potest 
+      im<lb ed="#B" n="96" break="no"/>mutari ad intelligendum singulare. Et  
+      <lb ed="#B" n="97"/>licet res singularis sit materialis: 
+      ta<lb ed="#B" n="98" break="no"/>men species intelligibilis, quae 
+      im<lb ed="#B" n="99" break="no"/>mutat, uel recipitur in intellectu (
+      se<lb ed="#B" n="100" break="no"/>cundum ponentes species) &amp; 
+      simi<lb ed="#B" n="101" break="no"/>liter intellectus agens, idest actus 
+      intel<lb ed="#B" n="102" break="no"/>ligendi, uel intellectus habens in se actum: 
+      <!--204.xml-->
+      <pb ed="#B" n="117"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tam ut totum illud dicat intellectus agens: 
+      <lb ed="#B" n="2"/>est immaterialis: non enim lapis est in 
+      <lb ed="#B" n="3"/>anima: sed species eius. Praeterea 
+      ani<lb ed="#B" n="4" break="no"/>ma separata potest intelligere singulare 
+      <lb ed="#B" n="5"/>materiale. ergo eadem ratione 
+      coniun<lb ed="#B" n="6" break="no"/>cta. Item obiectum dicitur recipi 
+      intel<lb ed="#B" n="7" break="no"/>lectu: quia actus intelligendi, qui est 
+      il<lb ed="#B" n="8" break="no"/>lius obiecti est intellectu.
+    </p>
+            <p xml:id="gbs333-a28836-d1e623">
+      ¶ Conclusio 
+      <lb ed="#B" n="9"/>t secunda. Prima notitia singularis est in 
+      <lb ed="#B" n="10"/>tuitiua. Probatio: aliqua notitia 
+      singu<lb ed="#B" n="11" break="no"/>laris intellectus est intuitiua: quia 
+      nisi<lb ed="#B" n="12" break="no"/>sic, nulla ueritas contingens posset 
+      eui<lb ed="#B" n="13" break="no"/>denter cognosci ab intellectu: sed 
+      noti<lb ed="#B" n="14" break="no"/>tia intuitiua non est posterior 
+      abstracti<lb ed="#B" n="15" break="no"/>ua: ut patet. qid.i. prologi. ergo &amp;c.
+    </p>
+            <p xml:id="gbs333-a28836-d1e641">
+      ¶ Con 
+      <lb ed="#B" n="16"/>clusio tertia. Singulare sensibile primo 
+      <lb ed="#B" n="17"/>intelligitur. Probatur: quia prima 
+      noti<lb ed="#B" n="18" break="no"/>tia intellectus nostri prostatu isto est 
+      no<lb ed="#B" n="19" break="no"/>titia singularis sensibilis. Patet: quia quado 
+      <lb ed="#B" n="20"/>primo sensatur a sensu, primo 
+      intelligi<lb ed="#B" n="21" break="no"/>tur ab intellectu: quia in potentijs 
+      ordi<lb ed="#B" n="22" break="no"/>natis quicquid, &amp; sub eadem ratione 
+      po<lb ed="#B" n="23" break="no"/>test potentia inferior: id &amp; sub eadem 
+      ra<lb ed="#B" n="24" break="no"/>tione potest superior. Quod patet de 
+      <lb ed="#B" n="25"/>sensu exteriori, &amp; interiori, &amp; 
+      appe<lb ed="#B" n="26" break="no"/>titu, intellectu, uoluntate: ut dictum 
+      <lb ed="#B" n="27"/>est supra. Nec ualet hic euasio sancti 
+      <lb ed="#B" n="28"/>Thom. si diceret quod uirtus superior 
+      po<lb ed="#B" n="29" break="no"/>test in id in quod inferior: sed modo 
+      e<lb ed="#B" n="30" break="no"/>minentiori. Hoc late improbat doc. in 
+      <lb ed="#B" n="31"/>scripto primo.
+    </p>
+            <p xml:id="gbs333-a28836-d1e678">
+      ¶ Pro articulo tertio 
+      du<lb ed="#B" n="32" break="no"/>bitatur circa nunc dicta scilicet quod cognitio 
+      no<lb ed="#B" n="33" break="no"/>stra ortum habet a singularibus. Nam 
+      <lb ed="#B" n="34"/>uidetur: quod cognitio nostra incipit ab 
+      <lb ed="#B" n="35"/>uniuersalibus: quia sensu cognoscuntur 
+      <lb ed="#B" n="36"/>res conceptu uniuersaliori: &amp; de inde 
+      <lb ed="#B" n="37"/>minus uninersali: ut patet in 
+      cognoscen<lb ed="#B" n="38" break="no"/>te rem a remotis, quae primo iudicatur 
+      <lb ed="#B" n="39"/>corpus: deinde animal: deinde homo: 
+      ul<lb ed="#B" n="40" break="no"/>timo Ioannes, uel Petrus.
+    </p>
+            <p xml:id="gbs333-a28836-d1e701">
+      ¶ Similiter 
+      <lb ed="#B" n="41"/>pueriprimo uocant omnes uiros patres: 
+      <lb ed="#B" n="42"/>&amp; omnes faeminas matres: deinde discer 
+      <lb ed="#B" n="43"/>nunt unum quodque.
+    </p>
+            <p xml:id="gbs333-a28836-d1e710">
+      ¶ Ad hoc 
+      addu<lb ed="#B" n="44" break="no"/>cuntur multae auctoritates philosophi, 
+      <lb ed="#B" n="45"/>&amp; conmenta. &amp; posset simile ostendi de 
+      <lb ed="#B" n="46"/>fatuis, sicut de pueris. Et tamen illud non 
+      <lb ed="#B" n="47"/>uidetur esse uerum, nisi uniuersale esset 
+      <lb ed="#B" n="48"/>primo intellectu.
+    </p>
+            <p xml:id="gbs333-a28836-d1e723">
+      ¶ Ad illa dicitur 
+      bre<lb ed="#B" n="49" break="no"/>uiter post doctorem, qui materiam istam 
+      <lb ed="#B" n="50"/>late, &amp; clare prosequitur. Primo, quod est 
+      <lb ed="#B" n="51"/>contra opi. omnium, quod uniuersale prius 
+      <!--204.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sentitur, quam singulare.
+    </p>
+            <p xml:id="gbs333-a28836-d1e739">
+      ¶ Secundo 
+      di<lb ed="#B" n="53" break="no"/>citur: quod sicut est in pueris, quod primo 
+      om<lb ed="#B" n="54" break="no"/>nes uiros patres, &amp; omnes faeminas 
+      ma<lb ed="#B" n="55" break="no"/>tres a ppellant, &amp; deinde discernunt unum 
+      <lb ed="#B" n="56"/>quodque: ita etiam est in fatuis, &amp; usu 
+      <lb ed="#B" n="57"/>rationis carentibus: &amp; similiter in 
+      bru<lb ed="#B" n="58" break="no"/>tis: &amp; tamen non cognoscunt uniuersale. 
+      <lb ed="#B" n="59"/>Et loquitur auctor secundum opi. de 
+      fi<lb ed="#B" n="60" break="no"/>ctis, quod conceptus est obiectum 
+      cogni<lb ed="#B" n="61" break="no"/>tionis.
+    </p>
+            <p xml:id="gbs333-a28836-d1e761">
+      ¶ Secundum aliam opi. talis 
+      ca<lb ed="#B" n="62" break="no"/>gnitio non est uniuersalis: sed singularis. 
+      <lb ed="#B" n="63"/>Cum ergo uniuersale non sit nisi in 
+      in<lb ed="#B" n="64" break="no"/>tellectu &amp; per operationem intellectus: 
+      <lb ed="#B" n="65"/>ergo talia faciunt pueri per notitiam 
+      <lb ed="#B" n="66"/>sensitiuam tantum.
+    </p>
+            <p xml:id="gbs333-a28836-d1e774">
+      ¶ Tertio dicitur &amp; 
+      se<lb ed="#B" n="67" break="no"/>quitur corollarie ex praelatis: quod 
+      pri<lb ed="#B" n="68" break="no"/>mo intelligitur singulare sicut primo 
+      <lb ed="#B" n="69"/>sentitur singulare. Attamen aliqua 
+      co<lb ed="#B" n="70" break="no"/>gnitio singularis tam sensitiua quam in 
+      <lb ed="#B" n="71"/>tellectiua, siue partialiter, siue totaliter, 
+      <lb ed="#B" n="72"/>est sufficiens ad discernendum id, quod  
+      <lb ed="#B" n="73"/>sensu appraehenditur ab alio: &amp; aliqua ad 
+      <lb ed="#B" n="74"/>hoc non sufficit: nisi forte ad 
+      discernen<lb ed="#B" n="75" break="no"/>dum a paucis: &amp; aliquando una res 
+      po<lb ed="#B" n="76" break="no"/>test discerni apaucioribus, &amp; alia a 
+      plu<lb ed="#B" n="77" break="no"/>ribus. Exempli gratia. Agnus non 
+      discer<lb ed="#B" n="78" break="no"/>nit hanc ouem ab illa: et tamen discernit 
+      <lb ed="#B" n="79"/>ouem a supoboue, uel asino. Quandoque  
+      <lb ed="#B" n="80"/>unam albam ouemnab alia non discernit: 
+      <lb ed="#B" n="81"/>sed discernit albam a nigra. Et tandem 
+      <lb ed="#B" n="82"/>discernit matrem ab alijs omnibus. Illa 
+      <lb ed="#B" n="83"/>nobis innotescunt per sensus. Et ratio 
+      <lb ed="#B" n="84"/>huius esse potest: quia potentia 
+      apprae<lb ed="#B" n="85" break="no"/>hensiua creata non potest unum discet 
+      <lb ed="#B" n="86"/>nere ab alio: nisi propter aliquam 
+      dissi<lb ed="#B" n="87" break="no"/>militudinem compraehensorum, siue 
+      ap<lb ed="#B" n="88" break="no"/>praehensorum per sensum: non curando 
+      <lb ed="#B" n="89"/>an illa dissimilitudo sit in uoce, figura, 
+      <lb ed="#B" n="90"/>loco, situ, qualitate inter ipsa 
+      appraehen<lb ed="#B" n="91" break="no"/>sa. Et quia ouis non statim cognoscit 
+      <lb ed="#B" n="92"/>omnia talia distincte: non statim potest 
+      <lb ed="#B" n="93"/>unum ab alio discernere.
+    </p>
+            <p xml:id="gbs333-a28836-d1e836">
+      ¶ Praeterea in 
+      <lb ed="#B" n="94"/>ter ipsa distincta quandoque 
+      magnare<lb ed="#B" n="95" break="no"/>peritur similitudom: ita quod distincta 
+      noti<lb ed="#B" n="96" break="no"/>tia unius non sufficit ad discernendum 
+      <lb ed="#B" n="97"/>hoc ab alio confuse cognito: &amp; tamen 
+      <lb ed="#B" n="98"/>super cognoscitur singulare. An autem 
+      <lb ed="#B" n="99"/>talis notitia sit ipsa notitia 
+      appraehen<lb ed="#B" n="100" break="no"/>siua, uel distinguatur ab ea: alias patebit. 
+      </p>
+            <p xml:id="gbs333-a28836-d1e854">
+               <lb ed="#B" n="101"/>¶ Et si dicitur: quod hoc est contra proces 
+      <lb ed="#B" n="102"/>sumphiloso phi. j. Phps. ubi dicit: quod no¬ 
+      <!--205.xml-->
+      <pb ed="#B" n="118"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>bis manifestissima sunt, &amp; certa 
+      confusa<lb ed="#B" n="2" break="no"/>magis.
+    </p>
+            <p xml:id="gbs333-a28836-d1e872">
+      ¶ Secundo dicit, quod ex 
+      uniuersa<lb ed="#B" n="3" break="no"/>libus in singulare oportet deuenire.
+    </p>
+            <p xml:id="gbs333-a28836-d1e877">
+      ¶ Item 
+      <lb ed="#B" n="4"/>conmentator conmen. iiij. Oportet nos 
+      <lb ed="#B" n="5"/>procedere de rebus uniuersalibe ad 
+      par<lb ed="#B" n="6" break="no"/>ticulares &amp;c.
+    </p>
+            <p xml:id="gbs333-a28836-d1e886">
+      ¶ Ad illa dicitur. Primum: 
+      <lb ed="#B" n="7"/>quod nomen commune, &amp; notitia magis 
+      <lb ed="#B" n="8"/>uniuersalis dupliciter sumitur. Est enim 
+      <lb ed="#B" n="9"/>eommune per praedicationem essentia 
+      <lb ed="#B" n="10"/>lem: &amp; est commune per praedicationem 
+      <lb ed="#B" n="11"/>denominatiuam. Commune per 
+      praedi<lb ed="#B" n="12" break="no"/>cationem essentialem est, quod 
+      praedica<lb ed="#B" n="13" break="no"/>tur de pluribus in quid, &amp; per se primo 
+      <lb ed="#B" n="14"/>modo, quam aliud: &amp; sic animal est conius, quam 
+      <lb ed="#B" n="15"/>homo: &amp; corpus, quam animal. Aliud 
+      <lb ed="#B" n="16"/>est communius non per praedicationem 
+      <lb ed="#B" n="17"/>in quid, &amp; per se primo modo: sed per 
+      prae<lb ed="#B" n="18" break="no"/>dicationem denominatiuam, &amp; quasi 
+      per<lb ed="#B" n="19" break="no"/>se secundo modo. Et isto modo motus 
+      <lb ed="#B" n="20"/>localis est quid conmunius: quod coloratum, 
+      <lb ed="#B" n="21"/>uel color: quia motus localis in pluribus 
+      <lb ed="#B" n="22"/>inuenitur quam color. Omne enim colo 
+      <lb ed="#B" n="23"/>ratum potest moueri: sed non omne; quod  
+      <lb ed="#B" n="24"/>potest moueri, est coloratum. Sic 
+      luci<lb ed="#B" n="25" break="no"/>dum est communius, quam coloratum: quia 
+      <lb ed="#B" n="26"/>in pluribus inuenitur per praedicationem. 
+      </p>
+            <p xml:id="gbs333-a28836-d1e932">
+               <lb ed="#B" n="27"/>¶ Item aequiuocatio est de notitia 
+      uni<lb ed="#B" n="28" break="no"/>uersalioris: quia quaedam est notitia com 
+      <lb ed="#B" n="29"/>plexa: quaedam incomplexa. Similiter 
+      <lb ed="#B" n="30"/>aliquod incomplexum esse prius notum 
+      <lb ed="#B" n="31"/>alio potest intelligi dupliciter. Vel quia 
+      <lb ed="#B" n="32"/>hoc potest esse prius notum ex eo: quia 
+      <lb ed="#B" n="33"/>est in potentia propinqua ad notitiam 
+      <lb ed="#B" n="34"/>alterius. Vel quia necessario est notum 
+      <lb ed="#B" n="35"/>ante notitiam alterius. Ita quod sequitur: 
+      <lb ed="#B" n="36"/>aliquid est notum: ergo hoc est notum. 
+      <lb ed="#B" n="37"/>&amp; non econuerso.
+    </p>
+            <p xml:id="gbs333-a28836-d1e959">
+      ¶ Per hoc ad 
+      argu<lb ed="#B" n="38" break="no"/>menta dici potest: quod intentio 
+      philosophi<lb ed="#B" n="39" break="no"/>&amp; commentatoris est dutaxat uelle 
+      tra<lb ed="#B" n="40" break="no"/>dere ordinem libri physicorum ad alios 
+      <lb ed="#B" n="41"/>libros naturales. Et quod in tradendo 
+      scien<lb ed="#B" n="42" break="no"/>tiam aliquam procedendum est eo 
+      ordi<lb ed="#B" n="43" break="no"/>ne, quo communitas hominum 
+      audien<lb ed="#B" n="44" break="no"/>tium doctrinam talem potest facilius 
+      ca<lb ed="#B" n="45" break="no"/>pere, &amp; addiscere. Nunc autem ea, de 
+      qui<lb ed="#B" n="46" break="no"/>bus tractatur in libris physicorum: sunt 
+      <lb ed="#B" n="47"/>uniuersaliora primo uel secundo modo: 
+      <lb ed="#B" n="48"/>quam ea, quae tractantm in alijs libris: ideo sunt 
+      <lb ed="#B" n="49"/>ut frequenter magis manifesta. Et sic de 
+      <lb ed="#B" n="50"/>uniuersalibus procedere oportet ad 
+      par<lb ed="#B" n="51" break="no"/>ticularia: quis este regione aliquiba par¬ 
+      <!--205.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ticularia sint magis facilia, quam uniuersalia 
+      <lb ed="#B" n="53"/>haec late prosequitur doc. Cu ergo dicit 
+      <lb ed="#B" n="54"/>philosophus. j. Phyili. quod nobis manifestis si 
+      <lb ed="#B" n="55"/>ma sunt, &amp; certa confusa magis. conment. 
+      <lb ed="#B" n="56"/>conm. iij. per confusa intelligit composita 
+      <lb ed="#B" n="57"/>siue sint composita, ut res componitur ex 
+      <lb ed="#B" n="58"/>suis partibus: siue ut diffinitum dicitur 
+      compo<lb ed="#B" n="59" break="no"/>ni ex diffinitione: siue ut conmune dicit 
+      <lb ed="#B" n="60"/>componi ex contentis sub eo: quos tres 
+      <lb ed="#B" n="61"/>modos compositionis tangit conmen. com 
+      <lb ed="#B" n="62"/>v. j. Phys. Et talia confusa, siue composita. 
+      <lb ed="#B" n="63"/>sunt notiora, &amp; certa magis. primo modo 
+      <lb ed="#B" n="64"/>capiendo notiora: quia scilicet conferunt ad 
+      <lb ed="#B" n="65"/>notitiam alterius: non autem secundo modo 
+      <lb ed="#B" n="66"/>accipiendo notiora.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1029">
+      ¶ Ad secunda auct. I 
+      <lb ed="#B" n="67"/>patuit: quia oportet ex generalioribus 
+      <lb ed="#B" n="68"/>descendere ad particularia.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1036">
+      ¶ Ad tertiam 
+      <lb ed="#B" n="69"/>auct. dicitur consimiliter: quod totum secundum 
+      <lb ed="#B" n="70"/>sensum notius est: quia pauciora sufficiunt  
+      <lb ed="#B" n="71"/>ad notitiam totius (ut totum aliquod ab 
+      <lb ed="#B" n="72"/>alio toto discernatur) quam ad 
+      discernen<lb ed="#B" n="73" break="no"/>dum partes totius inter se distinctas: quia 
+      <lb ed="#B" n="74"/>quamque minor propinquitas, &amp; distincta 
+      <lb ed="#B" n="75"/>sufficit ad discernendum totum a toto, 
+      <lb ed="#B" n="76"/>uam partem a parte.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1056">
+      ¶ In genere ergo 
+      se<lb ed="#B" n="77" break="no"/>cundum mentem doctoris, conmentator 
+      <lb ed="#B" n="78"/>intelligit, quod uniuersalia a conitate 
+      faci<lb ed="#B" n="79" break="no"/>lius cognoscuntur. notanter addit a 
+      con<lb ed="#B" n="80" break="no"/>munitate. Et illa est generalis responsio 
+      <lb ed="#B" n="81"/>ad omnes illas auctoritates philosophi, &amp; 
+      <lb ed="#B" n="82"/>conmentatoris.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1072">
+      ¶ Plura autem tangit 
+      do<lb ed="#B" n="83" break="no"/>ctor ponens notabilem processum tam 
+      sen<lb ed="#B" n="84" break="no"/>sus, quam intellectus in operationibus suis 
+      <lb ed="#B" n="85"/>circa singulare sensatum.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1081">
+      ¶ Item quod 
+      in<lb ed="#B" n="86" break="no"/>tellectus agens, &amp; possibilis non 
+      distin<lb ed="#B" n="87" break="no"/>guantur. Et ad quid ponitur intellectus 
+      <lb ed="#B" n="88"/>agens: quae (&amp; alia) uideri possunt in 
+      li<lb ed="#B" n="89" break="no"/>tera.
+    </p>
+            <p xml:id="gbs333-a28836-d1e1093">
+      ¶ Item quo agnus sub speciebus 
+      sen<lb ed="#B" n="90" break="no"/>satis aequiualenter cognoscit inimicitiam 
+      <lb ed="#B" n="91"/>supi. uide. q.ij. distin. huius in doctore. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

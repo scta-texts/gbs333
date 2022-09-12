@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="278"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a70522"> <!-- l1d30q2 -->
+            <head xml:id="gbs333-a70522-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a70522-Hd1e104" type="question-title">Utrum per rationem naturalem probari 
+  possit sex principia importare respectus extrinsecus advenientes 
+  absolutis distinctos</head>
+            <p xml:id="gbs333-a70522-d1e107">
+               <lb ed="#B" n="19"/>QVAESTIO II 
+      <lb ed="#B" n="20"/>VTRVM per rationem 
+      na<lb ed="#B" n="21" break="no"/>turalem probari possit sex 
+      <lb ed="#B" n="22"/>principia importare 
+      respe<lb ed="#B" n="23" break="no"/>ctus extrinsecus 
+      adueniten<lb ed="#B" n="24" break="no"/>tes ab omnibus absolutis 
+      di<lb ed="#B" n="25" break="no"/>stinctos.
+    </p>
+            <p xml:id="gbs333-a70522-d1e125">
+      ¶ Conclusio. Per rationem 
+      na<lb ed="#B" n="26" break="no"/>turalem probari non potest: quod sit aliquis 
+      <lb ed="#B" n="27"/>respectus extrinsecus aduentens, 
+      distin<lb ed="#B" n="28" break="no"/>ctus ab omnibus absolutis. Probatur: 
+      <lb ed="#B" n="29"/>quia non est ponenda pluralitas sine 
+      ne<lb ed="#B" n="30" break="no"/>cessitate: sed omnia possunt saluari non 
+      <lb ed="#B" n="31"/>ponendo huiusmodi respectus: ergo 
+      po<lb ed="#B" n="32" break="no"/>nendi non sunt. Consequentia no: a cum 
+      <lb ed="#B" n="33"/>maiore. Minor patet transcurrendo 
+      sin<lb ed="#B" n="34" break="no"/>gulos modos sex praedicamentorum.
+    </p>
+            <p xml:id="gbs333-a70522-d1e148">
+      ¶ Et  
+      <lb ed="#B" n="35"/>quia fundamentum inquisitionis 
+      prae<lb ed="#B" n="36" break="no"/>sentis in hoc consistit: quia 
+      contradicto<lb ed="#B" n="37" break="no"/>ria non possunt successiue uerificari 
+      si<lb ed="#B" n="38" break="no"/>ne mutatione. Ideo uidendum est in 
+      sin<lb ed="#B" n="39" break="no"/>gulis sex principiis, in quibus contingit 
+      <lb ed="#B" n="40"/>contradictoria successiue praedicari de 
+      <lb ed="#B" n="41"/>eodem, in quo fiat mutatio.
+    </p>
+            <p xml:id="gbs333-a70522-d1e166">
+      ¶ 
+      Notan<lb ed="#B" n="42" break="no"/>dum ergo, quod ad hoc, quod fiat transitus 
+      <lb ed="#B" n="43"/>siue suecessiua uerificatio contradicto 
+      <lb ed="#B" n="44"/>riorum, requiritur, quod fiat mutatio ac 
+      <lb ed="#B" n="45"/>quisitiua, uel deperditiua in aliquo: 
+      aut<lb ed="#B" n="46" break="no"/>motio localis, uel transitio temporis, &amp; 
+      <lb ed="#B" n="47"/>baec uera, si locus esset, &amp; tempus, uel 
+      <!--365.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>imaginaria, si talia non essent. De quo 
+      <lb ed="#B" n="49"/>etiam distinct. xvij. quaest. j. tactum fuit 
+      <lb ed="#B" n="50"/>breuiter. Et alterum horum inuenitur 
+      <lb ed="#B" n="51"/>in proposito: ut patet transcurrendo 
+      sin<lb ed="#B" n="52" break="no"/>gula haec genera. Et primum de 
+      actio<lb ed="#B" n="53" break="no"/>ne, &amp; passione. Nam adhoc, quod aliquid  
+      <lb ed="#B" n="54"/>sit de nouo agens, quod prius non fuit 
+      <lb ed="#B" n="55"/>acens: sufficit: &amp; requiritur, quod incipiat  
+      <lb ed="#B" n="56"/>esse nouus effectus absolutus in passo, 
+      <lb ed="#B" n="57"/>ad praesentiam agentis: qui non 
+      inci<lb ed="#B" n="58" break="no"/>peret, nisi actiuum esset approximatum 
+      <lb ed="#B" n="59"/>siue praesens passo. Inceptione ergo 
+      il<lb ed="#B" n="60" break="no"/>lius effectus in passo: passum nunc uere, 
+      <lb ed="#B" n="61"/>&amp; realiter patitur: &amp; agens uere agit: &amp; 
+      <lb ed="#B" n="62"/>effectus uere est effectus: quae omnia 
+      <lb ed="#B" n="63"/>prius negabantur de passo, agente, &amp; 
+      <lb ed="#B" n="64"/>effectu: nec opus est praeter illa absoluta 
+      <lb ed="#B" n="65"/>ponere quemcunque respectum.
+    </p>
+            <p xml:id="gbs333-a70522-d1e225">
+      ¶ Sidi 
+      <lb ed="#B" n="66"/>cis: illae res absolute non sufficiunt: sed  
+      <lb ed="#B" n="67"/>requiritur praesentia, &amp; approximatio 
+      a<lb ed="#B" n="68" break="no"/>gentis. Ista autem praesentia, uel 
+      appro<lb ed="#B" n="69" break="no"/>ximatio est aliquid praeter praedicta 
+      abso<lb ed="#B" n="70" break="no"/>luta, &amp; non absolutum, ergo respectus. 
+      <lb ed="#B" n="71"/>Responsio, quod praesentia dicit aliquid 
+      prae<lb ed="#B" n="72" break="no"/>ter ista duo absoluta: sed non dicit 
+      re<lb ed="#B" n="73" break="no"/>spectum: sed importat illa absoluta, &amp; 
+      <lb ed="#B" n="74"/>cum hoc, quod nullum corpus absolutum 
+      <lb ed="#B" n="75"/>impediens interponatur. Nunc autem 
+      <lb ed="#B" n="76"/>ex negatione medij interpositi non 
+      po<lb ed="#B" n="77" break="no"/>test inferri positio alicuius: sicut non se 
+      <lb ed="#B" n="78"/>quitur. Inter contradictoria non est 
+      me<lb ed="#B" n="79" break="no"/>dium: ergo inter ea est aliquid positiuum. 
+      </p>
+            <p xml:id="gbs333-a70522-d1e258">
+               <lb ed="#B" n="80"/>¶ Sed diceres: a agens in instanti 
+      produ<lb ed="#B" n="81" break="no"/>ctionis best agens: &amp; post illud instans 
+      <lb ed="#B" n="82"/>non est ageni: &amp; tamen nulla sit 
+      muta<lb ed="#B" n="83" break="no"/>tio in quocunque absoluto: ideo oportet 
+      <lb ed="#B" n="84"/>ponere mutationem in respectu. Et 
+      uo<lb ed="#B" n="85" break="no"/>o, quod b producatur ab a, &amp; non conset 
+      <lb ed="#B" n="86"/>uetur ab eo: sicut a patre filius 
+      produci<lb ed="#B" n="87" break="no"/>tur, &amp; non conseruatur ab eo.
+    </p>
+            <p xml:id="gbs333-a70522-d1e278">
+      ¶ Sol. 
+      <lb ed="#B" n="88"/>quod ad illam succussiuam 
+      uerificatio<lb ed="#B" n="89" break="no"/>nem contradictoriorum sufficit sola 
+      tran<lb ed="#B" n="90" break="no"/>sitio temporis. Nam &amp; tempus 
+      con<lb ed="#B" n="91" break="no"/>notatur per agens, &amp; patiens (
+      capien<lb ed="#B" n="92" break="no"/>do ut distinguum: ur contra conseruans) 
+      <lb ed="#B" n="93"/>nam agens illo modo est, ad cuius 
+      prae<lb ed="#B" n="94" break="no"/>sentiam incipit esse effectus &amp;c. 
+      Inci<lb ed="#B" n="95" break="no"/>pit, idest nunc est &amp; prius, non fuit: 
+      er<lb ed="#B" n="96" break="no"/>go per solam transitionem illius nunt 
+      <lb ed="#B" n="97"/>negantur agens, &amp; patiens ab eis: de 
+      qui<lb ed="#B" n="98" break="no"/>bus prius affirmabantur.
+    </p>
+            <p xml:id="gbs333-a70522-d1e304">
+      ¶ Simile est 
+      <!--366.xml-->
+      <pb ed="#B" n="279"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>de quando: nam ad hoc, quod de 
+      ali<lb ed="#B" n="2" break="no"/>quo uerificetur heri, hodie uel cras. 
+      sus<lb ed="#B" n="3" break="no"/>ficit sola transitio temporis ueri, uel 
+      <lb ed="#B" n="4"/>imaginarij.
+    </p>
+            <p xml:id="gbs333-a70522-d1e323">
+      ¶ Sic de ubi: nihil dicit 
+      nisi<lb ed="#B" n="5" break="no"/>corpus esse praesens alteri corpori 
+      conti<lb ed="#B" n="6" break="no"/>nenti ipsum. Et sic ad mutationem 
+      <lb ed="#B" n="7"/>ubi non requiritur aliquod 
+      informan<lb ed="#B" n="8" break="no"/>corpus: sed praesentia alterius corporis 
+      <lb ed="#B" n="9"/>per motum localem.
+    </p>
+            <p xml:id="gbs333-a70522-d1e336">
+      ¶ Sic, &amp; motus 
+      <lb ed="#B" n="10"/>localis nihil dicit distinctum a mobili, 
+      <lb ed="#B" n="11"/>&amp; loco: sed dumtaxat praesentiam 
+      cor<lb ed="#B" n="12" break="no"/>poris alteri, &amp; alteri loco uero, uel 
+      ima<lb ed="#B" n="13" break="no"/>ginatio propter ultimam spheram, quem 
+      <lb ed="#B" n="14"/>non est in loco. Nam si duo corpora, quo 
+      <lb ed="#B" n="15"/>rum unum continetur ab alio eodem 
+      <lb ed="#B" n="16"/>modo se habeant: etsi mille respectus 
+      pe<lb ed="#B" n="17" break="no"/>nantur per possibile, uel impossibile, 
+      <lb ed="#B" n="18"/>non mutatur ubi: nec sit motus. Et 
+      si<lb ed="#B" n="19" break="no"/>uariantur quo ad distantiam (etiam 
+      si<lb ed="#B" n="20" break="no"/>nullus sit respectus) uere mutatur, ubi 
+      <lb ed="#B" n="21"/>propter solam mutationem localem ab 
+      <lb ed="#B" n="22"/>solutorum: &amp; ideo omnino frustra 
+      po<lb ed="#B" n="23" break="no"/>nuntur tales respectus reales. Suo modo 
+      <lb ed="#B" n="24"/>dicitur de situ, &amp; habitu.
+    </p>
+            <p xml:id="gbs333-a70522-d1e371">
+      ¶ Sed 
+      dice<lb ed="#B" n="25" break="no"/>res. Diuidatur continuum aliquod in 
+      <lb ed="#B" n="26"/>duas medietates sine motum locali 
+      par<lb ed="#B" n="27" break="no"/>tium: ita ut post diuisionem nihil inter 
+      <lb ed="#B" n="28"/>eas mediet: tunc a, &amp; b, fuerunt 
+      cont<lb ed="#B" n="29" break="no"/>nuum, &amp; nunc non sunt continuum, 
+      <lb ed="#B" n="30"/>Vel prius fuerunt in continuo, &amp; nunc 
+      <lb ed="#B" n="31"/>non sunt, &amp; nullum absolutum est 
+      cor<lb ed="#B" n="32" break="no"/>ruptum, uel acquisitum: ergo oportet 
+      <lb ed="#B" n="33"/>ponere aliquem respectum, puta 
+      unio<lb ed="#B" n="34" break="no"/>nem, ab absolutis distinctis. De solutio 
+      <lb ed="#B" n="35"/>ne huius argumenti postea tractabitur 
+      <lb ed="#B" n="36"/>quaestio. iiij. uide de hac materia etiam 
+      <lb ed="#B" n="37"/>doct. in. ij. quaest. ij. latius. Et in quodlib. 
+      <lb ed="#B" n="38"/>vij. in multis questionibus. Item. quae 
+      <lb ed="#B" n="39"/>stio. ulti. secundi sui. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

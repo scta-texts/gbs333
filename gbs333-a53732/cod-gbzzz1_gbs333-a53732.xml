@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="213"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a53732"> <!-- l1d17q4 -->
+            <head xml:id="gbs333-a53732-Hd1e102">Quaestio 4</head>
+            <head xml:id="gbs333-a53732-Hd1e104" type="question-title">Utrum caritas possit augeri</head>
+            <p xml:id="gbs333-a53732-d1e107">
+               <lb ed="#B" n="4"/>QVAESTIO IIII. 
+      <lb ed="#B" n="5"/>VTRVM charitas possit 
+      <lb ed="#B" n="6"/>augeri.
+    </p>
+            <p xml:id="gbs333-a53732-d1e116">
+      ¶ Pro articulo 
+      pri<lb ed="#B" n="7" break="no"/>mo quaestionis huius primum 
+      <lb ed="#B" n="8"/>suppono pro intellectu 
+      ter<lb ed="#B" n="9" break="no"/>mini, quod per augmeniabile 
+      <lb ed="#B" n="10"/>doct. intelligit idem, quod intensibile 
+      <lb ed="#B" n="11"/>Nam de augmentatione substantiali, 
+      <lb ed="#B" n="12"/>aut quantitatiua molis: nihil ad 
+      proposi<lb ed="#B" n="13" break="no"/>tum: sed tantum de augmentatione 
+      uir<lb ed="#B" n="14" break="no"/>diutis, &amp; perfectionis. Et quamuis uaria 
+      <lb ed="#B" n="15"/>sunt opin. de huiusmodi 
+      augmentatio<lb ed="#B" n="16" break="no"/>ne quomodo fiat: sequor tamen opinio 
+      <lb ed="#B" n="17"/>eorum, quitenent eam fieri per additio 
+      <lb ed="#B" n="18"/>nem gradus ad gradum: in eadem parte 
+      <lb ed="#B" n="19"/>subiecti penetratiue simul existentium 
+      <lb ed="#B" n="20"/>eiusdem rationis: numero tamen 
+      differen<lb ed="#B" n="21" break="no"/>tium. per quam totum sit maius 
+      perfe<lb ed="#B" n="22" break="no"/>ctiue, uel intensiue. Et quamuis in 
+      con<lb ed="#B" n="23" break="no"/>clusione huius quaestionis, uidelicet, quod 
+      <lb ed="#B" n="24"/>charitas augeatur: omnes concordant 
+      <lb ed="#B" n="25"/>propter auctoritatem scripturae: secus 
+      <lb ed="#B" n="26"/>de modo augmentationis, de quo in 
+      <lb ed="#B" n="27"/>sequentibus quaestionibus uidendum erit. 
+      <lb ed="#B" n="28"/>In hac uero quaestione doct. 
+      principali<lb ed="#B" n="29" break="no"/>ter inuestigat quantum ad logicam, quem 
+      <lb ed="#B" n="30"/>propositiones ueniant concedendae, &amp; 
+      <lb ed="#B" n="31"/>quae negandae.
+    </p>
+            <p xml:id="gbs333-a53732-d1e174">
+      ¶ Notandum igitur 
+      secun<lb ed="#B" n="32" break="no"/>do, quod aliquid recipere magis, uel minus 
+      <lb ed="#B" n="33"/>dupliciter accipitur. Vno modo 
+      reali<lb ed="#B" n="34" break="no"/>tter, &amp; sic est recipere in se inhaesiue 
+      for<lb ed="#B" n="35" break="no"/>mam magis, &amp; minus intenlam. Alio 
+      mo<lb ed="#B" n="36" break="no"/>do denominatiue secundum quandam 
+      si<lb ed="#B" n="37" break="no"/>militudinem: &amp; praedicationem: quia de 
+      <lb ed="#B" n="38"/>ipso magis, &amp; minus praedicatur.
+    </p>
+            <p xml:id="gbs333-a53732-d1e192">
+      ¶ Pro 
+      <lb ed="#B" n="39"/>c. arti. secundo est conclu. prima. 
+      Capien<lb ed="#B" n="40" break="no"/>i.t do magis, &amp; minus. primo modo: nulla 
+      for<lb ed="#B" n="41" break="no"/>si ma suscipit magis, &amp; minus. Patet: 
+      for<lb ed="#B" n="42" break="no"/>ma accidentalis nihil recipit in se: quia 
+      <lb ed="#B" n="43"/>accidentis non est accidens. secus de 
+      for<lb ed="#B" n="44" break="no"/>ma substantiali scilicet intellectu.
+    </p>
+            <p xml:id="gbs333-a53732-d1e208">
+      ¶ Secunda 
+      <lb ed="#B" n="45"/>e. concl. Capiendo magis, &amp; minus, 
+      pprie<lb ed="#B" n="46" break="no"/>secundo modo: nulla forma suscipit magis, 
+      <lb ed="#B" n="47"/>&amp; minus. Patet: quia una charitas non 
+      <lb ed="#B" n="48"/>est magis charitas: quai alia.
+    </p>
+            <p xml:id="gbs333-a53732-d1e219">
+      ¶ Tertia cocl¬ 
+      </p>
+            <p xml:id="gbs333-a53732-d1e221">
+               <lb ed="#B" n="49"/>¶ Improprie forma suscipit magis, &amp; mi¬ 
+      <!--300.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>nus: ut ualet tamen una forma est maior, uel 
+      <lb ed="#B" n="51"/>minor alia intensiue. Vel una forma est 
+      <lb ed="#B" n="52"/>maior forma, &amp; una alia forma est 
+      mi<lb ed="#B" n="53" break="no"/>nor forma. Et ita sub consimili 
+      intelle<lb ed="#B" n="54" break="no"/>ctu, &amp; ita praedicta concedenda est. 
+      Por<lb ed="#B" n="55" break="no"/>ma suscipit magis, &amp; minus in sensu 
+      co<lb ed="#B" n="56" break="no"/>pulatiuo, non copulato: quia una, &amp; 
+      ea<lb ed="#B" n="57" break="no"/>dem forma non est maior, &amp; minor. Aliter 
+      <lb ed="#B" n="58"/>in sensu signato potest est praefata 
+      propo<lb ed="#B" n="59" break="no"/>sitio cocedi: sic scilicet de illo termino forma 
+      <lb ed="#B" n="60"/>pręedicatur magis, &amp; minus copulatiue: 
+      <lb ed="#B" n="61"/>quia illa est uera: forma recipit magis, 
+      et<lb ed="#B" n="62" break="no"/>forma recipit minus: non de una sed de 
+      <lb ed="#B" n="63"/>diuersis formis.
+    </p>
+            <p xml:id="gbs333-a53732-d1e260">
+      ¶ Quarta concl. Haec est 
+      <lb ed="#B" n="64"/>falsa de uirture sermonis.
+    </p>
+            <p xml:id="gbs333-a53732-d1e266">
+      ¶ Borma 
+      aug<lb ed="#B" n="65" break="no"/>mentatur. Patet: quia nulla forma est 
+      <lb ed="#B" n="66"/>primo minor, &amp; postea maior: quia nec 
+      <lb ed="#B" n="67"/>illud quod praecedit augmentationem: 
+      <lb ed="#B" n="68"/>nec illud, quod acquiritur per 
+      augmen<lb ed="#B" n="69" break="no"/>tationem: licet totum resultans ex 
+      prae<lb ed="#B" n="70" break="no"/>cedenti: &amp; illo, quod acquiritur sit 
+      ma<lb ed="#B" n="71" break="no"/>ius, quam forma, quae praecessit. Sed hoc non 
+      <lb ed="#B" n="72"/>fuit prius: sicut nec illud, quod 
+      acquiri<lb ed="#B" n="73" break="no"/>tur: Nec etiam aliqua forma conis: quia 
+      <lb ed="#B" n="74"/>nulla talis est nisi signum, sed nullum 
+      prae<lb ed="#B" n="75" break="no"/>dicatum dicitur de coni: nisi conueniat 
+      is<lb ed="#B" n="76" break="no"/>li pro aliquo singulari.
+    </p>
+            <p xml:id="gbs333-a53732-d1e295">
+      ¶ Quinta 
+      concl<lb ed="#B" n="77" break="no"/>Subiectum formae non augmentatur: quia 
+      <lb ed="#B" n="78"/>licet homo primo sit minus charus, &amp; 
+      po<lb ed="#B" n="79" break="no"/>stea magis charus: tamen propter hoc homo 
+      <lb ed="#B" n="80"/>non augmentatur: sed charitas: unde de 
+      <lb ed="#B" n="81"/>nominatur magis, uel minus charus.
+    </p>
+            <p xml:id="gbs333-a53732-d1e308">
+      ¶ Sex 
+      <lb ed="#B" n="82"/>ta conclusio. Secundum conem modum 
+      <lb ed="#B" n="83"/>loquendi: forma augmentatur. Probatur: 
+      <lb ed="#B" n="84"/>quia aliquid augmentatur secundum omnes: 
+      <lb ed="#B" n="85"/>&amp; non subiectu: ergo forma. Habet aunt 
+      <lb ed="#B" n="86"/>conis modus loquendi hunc intellectum. 
+      <lb ed="#B" n="87"/>forma augmentaturid est aliqua forma in 
+      <lb ed="#B" n="88"/>aliquo subjecto primo est minor: &amp; 
+      po<lb ed="#B" n="89" break="no"/>stea in eodem subjecto est forma aliqua 
+      <lb ed="#B" n="90"/>alia eiusdem rationis maior sine 
+      interru<lb ed="#B" n="91" break="no"/>ptione: uel etiam extra subiectum 
+      secun<lb ed="#B" n="92" break="no"/>dum potentiam diuinam. Dicitur sine 
+      <lb ed="#B" n="93"/>interruptione: quia si fieret interruptio, 
+      <lb ed="#B" n="94"/>non esset unus motus, sed plures. Et sub 
+      <lb ed="#B" n="95"/>illo intellectu sequentes quaestiones 
+      tra<lb ed="#B" n="96" break="no"/>ctabuntur, quibus inuestigabitur: quo fiat  
+      <lb ed="#B" n="97"/>augmentatio. Ex illo sequitur: quod licet 
+      for<lb ed="#B" n="98" break="no"/>ma augmentetur: non tamen mouetur: licet 
+      <lb ed="#B" n="99"/>subjectum eius moueatur: quia motus dicit 
+      <lb ed="#B" n="100"/>successionem. Augmentatio aut formae (de 
+      <!--301.xml-->
+      <pb ed="#B" n="214"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>qua hic sit sermo, quae est charitas) sit in 
+      <lb ed="#B" n="2"/>instanti. Item moueri capitur pro esse 
+      <lb ed="#B" n="3"/>subiectiuo motus. nec augmentari (ut 
+      <lb ed="#B" n="4"/>nunc de augmentatione loquimur) est in 
+      <lb ed="#B" n="5"/>ferius ad moueri. Neque hmo 
+      augmen<lb ed="#B" n="6" break="no"/>tatio est species motus: licet non sit sine 
+      <lb ed="#B" n="7"/>motu naturaliter. Quia quando forma 
+      <lb ed="#B" n="8"/>augmentatur subiectum formae mouet: 
+      <lb ed="#B" n="9"/>large accipiendo moueri, ut se extendit 
+      <lb ed="#B" n="10"/>ad mutationem. Posset tamen deus aliquam 
+      <lb ed="#B" n="11"/>formam a subjecto separatam augmentare: 
+      <lb ed="#B" n="12"/>hoc. ne nullam includit contradictionem, 
+      <lb ed="#B" n="13"/>&amp; sic augmentatio esset sine motu: quia 
+      <lb ed="#B" n="14"/>ibi nihil moueretur, nec mutaretur.
+    </p>
+            <p xml:id="gbs333-a53732-d1e389">
+      ¶ 
+      Se<lb ed="#B" n="15" break="no"/>ptima concl. Haec simpliciter: &amp; de 
+      rigo<lb ed="#B" n="16" break="no"/>re sermonis est uera. Borma habet 
+      latitu<lb ed="#B" n="17" break="no"/>dinem: quia ualet illam. Borma habet in 
+      <lb ed="#B" n="18"/>se partes realiter distinctas. Vtrum autem 
+      <lb ed="#B" n="19"/>augmentatio sit alteratio potest 
+      conce<lb ed="#B" n="20" break="no"/>di quod augmentatio est alteratio non 
+      for<lb ed="#B" n="21" break="no"/>mae, quam augmentatur: sed subjecti. Haec est 
+      <lb ed="#B" n="22"/>sententia doc. in scripto suo quaestione 
+      <lb ed="#B" n="23"/>praesenti.
+    </p>
+            <p xml:id="gbs333-a53732-d1e411">
+      ¶ Verum pro clariori dictorum, 
+      <lb ed="#B" n="24"/>&amp; dicendorum intellectu. Notandum 
+      pri<lb ed="#B" n="25" break="no"/>mo, quod duplex est augmentatio: ut notat 
+      <lb ed="#B" n="26"/>doct. infra. q.viij. huius dist scilicet intensiua, 
+      <lb ed="#B" n="27"/>&amp; extensiua. Augmentatio extensiua est 
+      <lb ed="#B" n="28"/>per quasi illud quod augetur occupat 
+      maio<lb ed="#B" n="29" break="no"/>rem locumpost: quai. Et haec duplex: 
+      quae<lb ed="#B" n="30" break="no"/>dam sit per additionem partis ad 
+      parten<lb ed="#B" n="31" break="no"/>facientis per se unum cum illa: distincta 
+      <lb ed="#B" n="32"/>ab ea loco, &amp; situ: ut cum aqua additur 
+      <lb ed="#B" n="33"/>aque: uel alicuius superficiei pars una prius 
+      <lb ed="#B" n="34"/>dealbatur quam alia. Alia augmentatio extem 
+      <lb ed="#B" n="35"/>siua sit in eodem subjecto pcre: ut in 
+      ra<lb ed="#B" n="36" break="no"/>refactione: quia aliquid secundum se 
+      to<lb ed="#B" n="37" break="no"/>tum sit maius extensiue In tali 
+      augmen<lb ed="#B" n="38" break="no"/>tatione (si tenetur quod quantitas est 
+      acci<lb ed="#B" n="39" break="no"/>dens distinctum a re quanta) prior 
+      quan<lb ed="#B" n="40" break="no"/>titas tota corrumpitur, &amp; noua maior 
+      <lb ed="#B" n="41"/>introducitur, &amp; non manet una quantitas 
+      <lb ed="#B" n="42"/>cum alia. Si uero tenetur, quod quantitas 
+      <lb ed="#B" n="43"/>non est accidens inhaerens rei quantae: 
+      <lb ed="#B" n="44"/>sed est resmet quanta: non sit ibi additio 
+      <lb ed="#B" n="45"/>nouae quantitatis: sed ipsa res rarefacta 
+      <lb ed="#B" n="46"/>per esongationem partium suarum occupat  
+      <lb ed="#B" n="47"/>maiorem locum post qua ante: per solum 
+      <lb ed="#B" n="48"/>morum localem earundem, siue ad 
+      gene<lb ed="#B" n="49" break="no"/>rationem alicuius rei nouae. Augmenta 
+      <lb ed="#B" n="50"/>tio intensiua: est additio partis ad partem: 
+      <lb ed="#B" n="51"/>facientis cum illa unum indistincte ab eo¬ 
+      <!--301.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>loco, &amp; situ: absque eo, quod per se sequatur  
+      <lb ed="#B" n="53"/>maior quantitas. Quida uero ponut 
+      aug<lb ed="#B" n="54" break="no"/>mentationem triplicenut refert Pet. de 
+      <lb ed="#B" n="55"/>Alia. quae. ix scilicet pure intensiuam, quam est in 
+      <lb ed="#B" n="56"/>formis spualibus non corporalibus, ut est 
+      <lb ed="#B" n="57"/>charitas. Pure extensiuam sicut rarefactio, 
+      <lb ed="#B" n="58"/>uel augmentatio corporum solidorum. Inten 
+      <lb ed="#B" n="59"/>siuam, &amp; extensiuam: ut augmentatio forma 
+      <lb ed="#B" n="60"/>rum corporalium: caliditatis ilicet frigidita 
+      <lb ed="#B" n="61"/>tis.
+    </p>
+            <p xml:id="gbs333-a53732-d1e500">
+      ¶ Notam: secundo: quod augmentatio; qu. Ne 
+      <lb ed="#B" n="62"/>est solum extensiua: pot subdiuidi in 
+      di<lb ed="#B" n="63" break="no"/>scretam siue numerosam, &amp; in continuam. 
+      <lb ed="#B" n="64"/>Exeplum primi potest poni. Cum grex 
+      <lb ed="#B" n="65"/>ouium numeraliter augetur. Exemplum 
+      <lb ed="#B" n="66"/>secundi in rarefactione aeris, uel 
+      alte<lb ed="#B" n="67" break="no"/>rius: ut patuit.
+    </p>
+            <p xml:id="gbs333-a53732-d1e517">
+      ¶ Notandum tertio: quod 
+      <lb ed="#B" n="68"/>augmentatio intensiua multipliciter 
+      so<lb ed="#B" n="69" break="no"/>let imaginari. Vno modo ut supra 
+      imme<lb ed="#B" n="70" break="no"/>diate patuit: per accumulationem graduum 
+      <lb ed="#B" n="71"/>eiusdem rationis constituentium unam 
+      for<lb ed="#B" n="72" break="no"/>mam: qua sit magis intensa, quae aliqua pars 
+      <lb ed="#B" n="73"/>eius. Alio modo imaginantur aliqui fieri 
+      <lb ed="#B" n="74"/>augmentationem intensiuam solum per 
+      re<lb ed="#B" n="75" break="no"/>cessum a non gradu. Et istud a diuersis 
+      <lb ed="#B" n="76"/>uarie assignatur. Nam quidam dicunt: quod 
+      <lb ed="#B" n="77"/>intensio sit per depurationem alicuius 
+      <lb ed="#B" n="78"/>formae a suo contrario. Alij, quod sit per 
+      ma<lb ed="#B" n="79" break="no"/>iorem radicationem in suo subjecto. Ita 
+      <lb ed="#B" n="80"/>quod secundum istos contingit eandem 
+      for<lb ed="#B" n="81" break="no"/>mam paenitus inuariatam secundum suam 
+      <lb ed="#B" n="82"/>essentiam, aliquod subiectum minus 
+      in<lb ed="#B" n="83" break="no"/>tense denorare, &amp; postea magis, &amp; 
+      simi<lb ed="#B" n="84" break="no"/>liter econtra. Sed ista opinio non est uera: 
+      <lb ed="#B" n="85"/>ut habet declarari in philol. &amp;c.
+    </p>
+            <p xml:id="gbs333-a53732-d1e559">
+      ¶ 
+      Quar<lb ed="#B" n="86" break="no"/>to notandum: quod augmentatio tam 
+      inten<lb ed="#B" n="87" break="no"/>siua: quae extensiua dupliciter potest imagina 
+      <lb ed="#B" n="88"/>ri fieri. Vno modo subito siue in 
+      instan<lb ed="#B" n="89" break="no"/>ti: sicut si sol, aut aliud lum inosum 
+      crea<lb ed="#B" n="90" break="no"/>retur in instanti in medio diaphano: &amp; 
+      <lb ed="#B" n="91"/>postea aliquod aliud crearetur in eodem 
+      <lb ed="#B" n="92"/>medio in instanti. Patet: quia fieret ibi 
+      <lb ed="#B" n="93"/>augmentatio suminis tam extensiua: quad 
+      <lb ed="#B" n="94"/>intensiua in illo secundo instanti. Alio 
+      <lb ed="#B" n="95"/>modo potest imaginari talis 
+      augmentatio<lb ed="#B" n="96" break="no"/>fieri non in instanti: sed successiue 
+      cori<lb ed="#B" n="97" break="no"/>nue tam secundum extensionem, quam secun¬- 
+      <lb ed="#B" n="98"/>dum intensionem. Ita quod data aliqua 
+      for<lb ed="#B" n="99" break="no"/>ma (ut caliditate) uerum est dicere: quod 
+      <lb ed="#B" n="100"/>aamt quamlib. parte istius caliditatis prius 
+      <lb ed="#B" n="101"/>fuit eius medietas secundum intensionem, 
+      <lb ed="#B" n="102"/>&amp; extensionem, quasilla tota pars. Et sic sit 
+      <!--302.xml-->
+      <pb ed="#B" n="215"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>successiue continue. Vn pro declaratio 
+      <lb ed="#B" n="2"/>ne istorum est hic uidendum: quid est aliqud 
+      <lb ed="#B" n="3"/>fieri in instanti. Ramndet ditdes Came. q. ix. 
+      <lb ed="#B" n="4"/>primi. aliquid diu fieri in instanti: quia 
+      nul<lb ed="#B" n="5" break="no"/>la eius pars pfuit antequam illud eent. Ex quo 
+      <lb ed="#B" n="6"/>sequitur: quod non stat aliquod indiuisibile 
+      <lb ed="#B" n="7"/>fieri: &amp; illud non fieri in instanti. Patet: 
+      <lb ed="#B" n="8"/>quia nihil eius aan ipsum pfuit: cum ipsum 
+      <lb ed="#B" n="9"/>areat partibus &amp;c.
+    </p>
+            <p xml:id="gbs333-a53732-d1e624">
+      ¶ Quinto notandum, 
+      <lb ed="#B" n="10"/>qoaugmentatio continua potest dupliciter 
+      <lb ed="#B" n="11"/>feri. Vno modo potest fieri continue 
+      succes<lb ed="#B" n="12" break="no"/>sue. Alio modo continue permanenter. Et  
+      <lb ed="#B" n="13"/>hoc dupliciter: quia duplex est continuum. 
+      <lb ed="#B" n="14"/>isice continuum succes siuum, &amp; continuum 
+      per<lb ed="#B" n="15" break="no"/>manens. Dr autem aliquid continue 
+      sue<lb ed="#B" n="16" break="no"/>cessiue augeri: quamdo in quolib. instanti 
+      po<lb ed="#B" n="17" break="no"/>steriori est magis intensum, uel magis ex 
+      <lb ed="#B" n="18"/>tensum, quasi in aliquo priori. Ita quod non est 
+      <lb ed="#B" n="19"/>dare aliquod tempus in augmentatione 
+      <lb ed="#B" n="20"/>sic continua, in quo toto illud sit aequa 
+      <lb ed="#B" n="21"/>iter intensum, uel extensum in qualib. 
+      <lb ed="#B" n="22"/>parte.
+    </p>
+            <p xml:id="gbs333-a53732-d1e655">
+      ¶ Sexto notandum: quod latitudo sicut  
+      <lb ed="#B" n="23"/>hic sumitur (cum loquimur de latitudine 
+      <lb ed="#B" n="24"/>formarum) espluralitas distinctarum 
+      partium<lb ed="#B" n="25" break="no"/>constituentium per se unum extensum, uel 
+      <lb ed="#B" n="26"/>intensum. Et est duplex scilicet intensiua, &amp; ex 
+      <lb ed="#B" n="27"/>tensiua. Latitudo extensiua est pluralitas 
+      <lb ed="#B" n="28"/>partium distinctarum constituentium per se 
+      <lb ed="#B" n="29"/>unum quantum continuum. Van non capitur 
+      <lb ed="#B" n="30"/>hic latitudo, prout apud mathematicos 
+      <lb ed="#B" n="31"/>distinguitur contra logitudinem. 
+      Latitu<lb ed="#B" n="32" break="no"/>do intensiua, siue gradualis, est 
+      plurali<lb ed="#B" n="33" break="no"/>tas distinctarum partium sibi inuicem coexiste 
+      <lb ed="#B" n="34"/>tium, &amp; constituentium per se unum quantum 
+      <lb ed="#B" n="35"/>intensum. Sed gradus ut hic sumitur: 
+      di<lb ed="#B" n="36" break="no"/>pars alicuius latitudinis intensiue 
+      siue<lb ed="#B" n="37" break="no"/>pars alicuius formae: alteri parti eiusdem 
+      <lb ed="#B" n="38"/>coexistens, &amp; secum constituens per se unum 
+      <lb ed="#B" n="39"/>quantum intensum.
+    </p>
+            <p xml:id="gbs333-a53732-d1e694">
+      ¶ Septimo notandum 
+      <lb ed="#B" n="40"/>postpdicta in conclusionibus quarta, &amp; 
+      <lb ed="#B" n="41"/>lexta qaonis huius: quod aliquam formam 
+      aug<lb ed="#B" n="42" break="no"/>mentari potest intelligi dupliciter. Vno 
+      mo<lb ed="#B" n="43" break="no"/>de uirture sermonis. Alio modo secundum 
+      <lb ed="#B" n="44"/>intentionem loquentium: ut patuit in co 
+      <lb ed="#B" n="45"/>clusione sexta. Haec ex aliorum dictis 
+      re<lb ed="#B" n="46" break="no"/>ferre placuit: pro clariori dictorum 
+      in<lb ed="#B" n="47" break="no"/>tellectu ex Pet scilicet Camer. &amp; Greg.
+    </p>
+            <p xml:id="gbs333-a53732-d1e714">
+      ¶ 
+      Pri<lb ed="#B" n="48" break="no"/>ma propositio est dumi Camer. &amp; haec est. 
+      <lb ed="#B" n="49"/>Aliquod subiectum potest dici magis, &amp; 
+      <lb ed="#B" n="50"/>minus tale: sine alicuius qualitatis, aut  
+      <lb ed="#B" n="51"/>alterius rei sibi inexistentis acquisitione, 
+      <!--302.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>uel deperditione. Patet: quia sit aliquod  
+      <lb ed="#B" n="53"/>su biectum puta a, calidum ut octo: &amp; b, 
+      <lb ed="#B" n="54"/>calidum ut quatuor. augeatur ergo 
+      cali<lb ed="#B" n="55" break="no"/>ditas ipsius b, usque ad octo: tunc b, sit 
+      ma<lb ed="#B" n="56" break="no"/>gis simile a, quame prius, &amp; econtra. Sed qud ex 
+      <lb ed="#B" n="57"/>magis simile: est magis tale. Sic poni 
+      pos<lb ed="#B" n="58" break="no"/>set exemplum de iusto, quad dicitur quocunque; 
+      si<lb ed="#B" n="59" break="no"/>similis deo. Et si iustus crescit in gia, 
+      di<lb ed="#B" n="60" break="no"/>plus similis deo: &amp; deplus similis illi: &amp; 
+      <lb ed="#B" n="61"/>tamen in deo nullius sit acqusitio.
+    </p>
+            <p xml:id="gbs333-a53732-d1e752">
+      ¶ Secunda 
+      <lb ed="#B" n="62"/>propositio. Aliquod subiectum dicitur 
+      ta<lb ed="#B" n="63" break="no"/>le, uel aliquale per qualitatem 
+      accidenta<lb ed="#B" n="64" break="no"/>sem ab eo realiter differentem. Patet: 
+      <lb ed="#B" n="65"/>quia albedo panis in sacramento manet  
+      <lb ed="#B" n="66"/>sine subjecto: quod olim denominabat  
+      <lb ed="#B" n="67"/>album, cum informaret panem.
+    </p>
+            <p xml:id="gbs333-a53732-d1e768">
+      ¶ Tertia per 
+      <lb ed="#B" n="68"/>positio. Aliquod subiectum pot esse 
+      ma<lb ed="#B" n="69" break="no"/>gis, &amp; minus tale: per aliquam qualitatem 
+      <lb ed="#B" n="70"/>accidentalem. Patet: aqua dicitur magis 
+      <lb ed="#B" n="71"/>uel minus calida per caliditatem eaum 
+      infor<lb ed="#B" n="72" break="no"/>mantem.
+    </p>
+            <p xml:id="gbs333-a53732-d1e781">
+      ¶ Quarta propos. Aliquod subie 
+      <lb ed="#B" n="73"/>ctum non potest esse magis, &amp; minus tale per 
+      <lb ed="#B" n="74"/>aliquam qualitatem accidentalem ipsa qua 
+      <lb ed="#B" n="75"/>litate formaliter, &amp; simpliciter non 
+      ua<lb ed="#B" n="76" break="no"/>riata intrinsece. Patet de qualitate in 
+      <lb ed="#B" n="77"/>subjecto existente: qua si intenditur, dicitur 
+      <lb ed="#B" n="78"/>aqua calidior. Intensio autem sit plurium 
+      <lb ed="#B" n="79"/>graduum accumulatione.
+    </p>
+            <p xml:id="gbs333-a53732-d1e799">
+      ¶ Quinta 
+      pro<lb ed="#B" n="80" break="no"/>positio. Nulla forma potest suum subiectum 
+      <lb ed="#B" n="81"/>denoiare, &amp; facere magis, uel minus 
+      ta<lb ed="#B" n="82" break="no"/>le, nisi per intensionem, &amp; remissionem 
+      ip<lb ed="#B" n="83" break="no"/>sius formae in se, &amp; sine noua alicuius 
+      al<lb ed="#B" n="84" break="no"/>terius partis acquisitione, uel deperditio 
+      <lb ed="#B" n="85"/>ne, alias. nom non posset saluari: qualiter 
+      ip<lb ed="#B" n="86" break="no"/>sa forma esset de nouo intensior, uel re 
+      <lb ed="#B" n="87"/>missior. Ex qua propositione 
+      sequi<lb ed="#B" n="88" break="no"/>tur primo: quod in cuiuslibet formae 
+      in<lb ed="#B" n="89" break="no"/>tensione aliquid noui acquiritur 
+      reali<lb ed="#B" n="90" break="no"/>ter distinctum a priori forma. 
+      Secun<lb ed="#B" n="91" break="no"/>do: quod illud acquisitum est eiusdem 
+      <lb ed="#B" n="92"/>peciei specialissimae cum forma 
+      priori<lb ed="#B" n="93" break="no"/>Tertio: quod illud acquisitum manet cum 
+      <lb ed="#B" n="94"/>priore, &amp; facit unum cum eo. Haec 
+      pro<lb ed="#B" n="95" break="no"/>cedunt secundum eam opinionem de 
+      for<lb ed="#B" n="96" break="no"/>marum intensione, quam hic 
+      amplecti<lb ed="#B" n="97" break="no"/>mur, &amp; quam tenet doct. impugnatis 
+      a<lb ed="#B" n="98" break="no"/>lijs opinionibus in quaestione quinta, &amp; 
+      <lb ed="#B" n="99"/>sequenti.
+    </p>
+            <p xml:id="gbs333-a53732-d1e845">
+      ¶ Sexta propositio. Aliqua 
+      for<lb ed="#B" n="100" break="no"/>ma accidentalis habet latitudinem 
+      di<lb ed="#B" n="101" break="no"/>uisibilem: non solum secundum realem extem 
+      <lb ed="#B" n="102"/>sionem: sed est secundum gradualem intensionem. 
+      <!--303.xml-->
+      <pb ed="#B" n="216"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Patet ex dictis &amp; notatis: quia illa 
+      pposi<lb ed="#B" n="2" break="no"/>tio: forma hal et latitudinem: ualet illam 
+      <lb ed="#B" n="3"/>de uirture sermonis. Bormahabet in se 
+      <lb ed="#B" n="4"/>plures partes realiter distinctas facientes 
+      <lb ed="#B" n="5"/>per se unum extensum, uel intensum.
+    </p>
+            <p xml:id="gbs333-a53732-d1e871">
+      ¶ 
+      Se<lb ed="#B" n="6" break="no"/>ptima propositio. Charitas augetur, &amp; 
+      <lb ed="#B" n="7"/>potest augeri. Patet: quia aliqua charitus 
+      <lb ed="#B" n="8"/>prius est minor, &amp; postea est aliqua 
+      chari<lb ed="#B" n="9" break="no"/>tas maior: cuius pars est charitas prior. 
+      <lb ed="#B" n="10"/>Quod aut charitas possit augeri 
+      proba<lb ed="#B" n="11" break="no"/>tur ex auctoritate apostoliPhili. j. Oro, 
+      <lb ed="#B" n="12"/>ut charitas uestra magis, ac magis 
+      abun<lb ed="#B" n="13" break="no"/>det id est crescat secundum glol. No orasset 
+      <lb ed="#B" n="14"/>autem apost. pro charitatis incremento: 
+      <lb ed="#B" n="15"/>si non esset possibile eam augeri. Item. ij. 
+      <lb ed="#B" n="16"/>thes. j. Gratias agere debemus &amp;c. quand 
+      <lb ed="#B" n="17"/>supercrescit fides uestra, &amp; abundat 
+      cha<lb ed="#B" n="18" break="no"/>ritas. Item ecclesia orat dicens. Oipotens 
+      <lb ed="#B" n="19"/>sempiterne deus, da nobis fidei, spei, &amp; 
+      <lb ed="#B" n="20"/>charitatis augmentum. Item Aug. dicit 
+      <lb ed="#B" n="21"/>in Ench.c. penul. Minuit cupiditas 
+      chari<lb ed="#B" n="22" break="no"/>tate crescente.
+    </p>
+            <p xml:id="gbs333-a53732-d1e911">
+      ¶ Octaua proposi. 
+      Chari<lb ed="#B" n="23" break="no"/>tas non solum subito, &amp; instantanee: sed  
+      <lb ed="#B" n="24"/>etiam in tempore continue potest 
+      auge<lb ed="#B" n="25" break="no"/>ri. Patet: quis onem formam habentem 
+      la<lb ed="#B" n="26" break="no"/>titudinem intensiuam potest deus, &amp; simul 
+      <lb ed="#B" n="27"/>&amp; successiue causare: sed charitas est 
+      hu<lb ed="#B" n="28" break="no"/>iusmodi: igit &amp;c. Maior patet, &amp; minor 
+      <lb ed="#B" n="29"/>sequitur ex dictis. Quia cum charitas 
+      pos<lb ed="#B" n="30" break="no"/>set augeri, &amp; non secundum extensionem 
+      <lb ed="#B" n="31"/>ut patet: sequitur, quod secundum 
+      intensio<lb ed="#B" n="32" break="no"/>nem, &amp; per consequens &amp;c. Quid autem 
+      <lb ed="#B" n="33"/>sit de facto: in proposito dubiume. Nam 
+      <lb ed="#B" n="34"/>etsi nos mereamur in tempore: adhuc deus 
+      <lb ed="#B" n="35"/>in instanti potest intantum augere 
+      cha<lb ed="#B" n="36" break="no"/>ritatem in nobis: quantum in tepore 
+      me<lb ed="#B" n="37" break="no"/>remur illam augeri. Et hoc tamen in primo 
+      <lb ed="#B" n="38"/>instanti actus meritorij, cum ipse praesciat  
+      <lb ed="#B" n="39"/>quantum est duraturus: &amp; quantum 
+      aug<lb ed="#B" n="40" break="no"/>mentum charitatis sibi respondeat: qua 
+      <lb ed="#B" n="41"/>etiam in aliquo alio instanti ipsius actus: 
+      <lb ed="#B" n="42"/>sicut placet sibi. Si uero nos mereamur 
+      <lb ed="#B" n="43"/>in instanti: adhuc ipse in tempore: &amp; 
+      <lb ed="#B" n="44"/>successiue potest augere charitatem pro 
+      <lb ed="#B" n="45"/>portionabiliter ad meritum nostrum. Et  
+      <lb ed="#B" n="46"/>sic ista conclusio est facti: de quo non 
+      con<lb ed="#B" n="47" break="no"/>stat. Haec omnia latius habentur in 
+      Ca<lb ed="#B" n="48" break="no"/>merac. post quem hic recitare placuit, quaed 
+      <lb ed="#B" n="49"/>dicta sunt. Si uero charitas possit 
+      auge<lb ed="#B" n="50" break="no"/>ri in infinitum: patebit ex quaest. octaua. 
+      <lb ed="#B" n="51"/>H
+    </p>
+            <p xml:id="gbs333-a53732-d1e976">
+      ¶ Nona propositio. Charitas augmen¬ 
+      <!--303.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tabilis est in uiatore per actus ex gratia 
+      <lb ed="#B" n="53"/>procedentes meritoriei. Haec conclusio 
+      <lb ed="#B" n="54"/>post dicta priora satis diffusa hic 
+      breui<lb ed="#B" n="55" break="no"/>ter probatur: quoad primam partem 
+      ratioe<lb ed="#B" n="56" break="no"/>tali. Ois forma habens in se latitudinem 
+      <lb ed="#B" n="57"/>augmentatur: charitas habet in se 
+      latitu<lb ed="#B" n="58" break="no"/>dinem: ergo augmentatur. Tenet conse 
+      <lb ed="#B" n="59"/>quentia in Darij. Maior probatur. Ois 
+      <lb ed="#B" n="60"/>forma, quae potest per se facere unum cum 
+      <lb ed="#B" n="61"/>alia forma eiusdem rationis sese 
+      penetran<lb ed="#B" n="62" break="no"/>tis in eodem subjecto sine extounsione 
+      <lb ed="#B" n="63"/>subiecti: augmentatur: sed forma habens 
+      <lb ed="#B" n="64"/>in se latitudinem est simodoi: ergo talis 
+      for<lb ed="#B" n="65" break="no"/>ma augmentatur. Minor probatur: quia 
+      <lb ed="#B" n="66"/>charitas habet plures partes intensiona 
+      <lb ed="#B" n="67"/>les eiusdem ratiois realiter distinctas, quae 
+      <lb ed="#B" n="68"/>non extendunt subiectum: ergo habet in 
+      <lb ed="#B" n="69"/>se latitudinem. Tenet consequentia ex 
+      <lb ed="#B" n="70"/>quid nomns habere latitudinem. Vltra 
+      cha<lb ed="#B" n="71" break="no"/>ritas habet latitudinem: ergo 
+      augmenta<lb ed="#B" n="72" break="no"/>tur. Tenet consequentia ab eodem ad 
+      <lb ed="#B" n="73"/>idem: siue a conuertibili ad conuertibile. 
+      <lb ed="#B" n="74"/>Praeterea, omnis forma susceptibilis 
+      ma<lb ed="#B" n="75" break="no"/>gis, &amp; mmus augmentatur: sed charitas 
+      <lb ed="#B" n="76"/>est simodo: igitur. Maior nota. Minor 
+      proba<lb ed="#B" n="77" break="no"/>tur: quia in aliquo subjecto nunc est 
+      for<lb ed="#B" n="78" break="no"/>ma minor, &amp; postea in eodem subjecto 
+      <lb ed="#B" n="79"/>sine interruptione est maior. Hoc. n. est 
+      <lb ed="#B" n="80"/>suscipere magis, &amp; minus in proposito: 
+      <lb ed="#B" n="81"/>siue formam augmentari: ut patuit quaest. 
+      <lb ed="#B" n="82"/>praesenti. Licet per potentiam naturalem 
+      <lb ed="#B" n="83"/>simoi in existentia charitatis non sit eui 
+      <lb ed="#B" n="84"/>denter nota: sed fide credita. Nec praesent 
+      <lb ed="#B" n="85"/>simoi gradus se penetrantes per 
+      poten<lb ed="#B" n="86" break="no"/>tiam naturalem intuitiue uideri. 
+      Secun<lb ed="#B" n="87" break="no"/>da pars probatur: quia ex diuina ordina 
+      <lb ed="#B" n="88"/>tione quicunque existens in gratia: 
+      secun<lb ed="#B" n="89" break="no"/>dum gratiae inclinationem meritorie 
+      ope<lb ed="#B" n="90" break="no"/>ratur: meretur gratiae prioris augmentum. 
+      <lb ed="#B" n="91"/>Creat. none deus nouum gradum charitatis, 
+      <lb ed="#B" n="92"/>quem infundendo prioribus adunat. Vn 
+      <lb ed="#B" n="93"/>de Aug. Charitas meretur augeri: ut 
+      au<lb ed="#B" n="94" break="no"/>cta mereatur &amp; perfici. Respectu autem 
+      <lb ed="#B" n="95"/>simoi augmenti, solus deus est causa efficiens. 
+      <lb ed="#B" n="96"/>Anima autem meritorie saltem 
+      concur<lb ed="#B" n="97" break="no"/>rit.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1083">
+      ¶ Circa hanc conclusionem nonam 
+      Arti<lb ed="#B" n="98" break="no"/>dubitatur multipliciter pro articulo ter Dub. 
+      <lb ed="#B" n="99"/>tio. Et primo contra primam parte. 
+      Cha<lb ed="#B" n="100" break="no"/>ritas non est augmentabilis: ergo. Antecedens 
+      <lb ed="#B" n="101"/>probatur: quia nec praeexistens 
+      augmen<lb ed="#B" n="102" break="no"/>tationi: nec permanens post augmenta 
+      <!--304.xml-->
+      <pb ed="#B" n="217"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tionem: ergo nulla. Tenet consequentia 
+      </p>
+            <p xml:id="gbs333-a53732-d1e1105">
+               <lb ed="#B" n="2"/>¶ sufficienti diuisione. Non praeexistens: 
+      <lb ed="#B" n="3"/>quia autem manet eadem: aut non. 
+      Si<lb ed="#B" n="4" break="no"/>primum: non augetur: quia manet 
+      idip<lb ed="#B" n="5" break="no"/>sum, quod fuit ante augmentationem. S 
+      <lb ed="#B" n="6"/>non manet: iterum non augetur. quia 
+      <lb ed="#B" n="7"/>quod augetur posterius est maius: quod  
+      <lb ed="#B" n="8"/>aute non manet: nec est maius, nec 
+      mi<lb ed="#B" n="9" break="no"/>nus. Quod etiam non illa, quae manet post 
+      <lb ed="#B" n="10"/>augmentationem: quia aut fuit prius: aut  
+      <lb ed="#B" n="11"/>non. Si fuit prius: &amp; sic non alia quam prius 
+      <lb ed="#B" n="12"/>sicut prius non fuit aucta: ita nec post. 
+      <lb ed="#B" n="13"/>Si non: tunc est de nouo acquisita, ergo 
+      <lb ed="#B" n="14"/>non aucta: quia quod augetur, fuit prius 
+      <lb ed="#B" n="15"/>minus.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1138">
+      ¶ Item sicut alterabile ad altera 
+      <lb ed="#B" n="16"/>tionem: ita augmentabile ad augmenta 
+      <lb ed="#B" n="17"/>tionem: sed in alteratione subiectum alte 
+      <lb ed="#B" n="18"/>ratur, non forma: ergo in augmentatio 
+      <lb ed="#B" n="19"/>ne formae non augetur, sed subiectum, &amp; 
+      <lb ed="#B" n="20"/>per consequens non charitas, quae e 
+      for<lb ed="#B" n="21" break="no"/>ma quaedam inhaerens.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1154">
+      ¶ Item charitas 
+      <lb ed="#B" n="22"/>in augmentatione non mouetur: ergo 
+      <lb ed="#B" n="23"/>non augetur. Tenet consequentia a 
+      su<lb ed="#B" n="24" break="no"/>periori negato ad inferius: quia moueri 
+      <lb ed="#B" n="25"/>est genus ad augmentari sicut motus ad 
+      <lb ed="#B" n="26"/>augmentationem. Antecedens probatur: quia quid 
+      <lb ed="#B" n="27"/>mouetur, recipit in se motum: charitas 
+      <lb ed="#B" n="28"/>autem non recipit in se aliquid: ergo.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1173">
+      ¶ Item 
+      <lb ed="#B" n="29"/>nulla charitas est magis charitas, quai alia: 
+      <lb ed="#B" n="30"/>cum omnes sint eiusdem speciei: ergo nulla 
+      <lb ed="#B" n="31"/>est intensibilis. ultra: ergo nulla augmen 
+      <lb ed="#B" n="32"/>tabilis. Vltima consequentia tenet: quia 
+      <lb ed="#B" n="33"/>augmentatio charitatis est eius intensio. 
+      <lb ed="#B" n="34"/>Prima consequentia probatur: quia 
+      da<lb ed="#B" n="35" break="no"/>tis duabus albedinibus, quarum una est 
+      <lb ed="#B" n="36"/>intensior alia: una est magis alba: qua alia: 
+      <lb ed="#B" n="37"/>quia per unam subiectum eius est magis 
+      <lb ed="#B" n="38"/>album, quam subiectum alterius: ergo ipsa qua 
+      <lb ed="#B" n="39"/>litas erit magis alba: quia nihil dat, quod  
+      <lb ed="#B" n="40"/>non habet: non ergo potest forma dare de 
+      <lb ed="#B" n="41"/>nominationem, quasm iposa non habet.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1204">
+      ¶ Re 
+      <lb ed="#B" n="42"/>spondetur ad illa. Ad primum diciur: quod 
+      cha<lb ed="#B" n="43" break="no"/>ritas praeexistens augetur, &amp; ipsa manet  
+      <lb ed="#B" n="44"/>eadem, &amp; idipsum quantum ad essentiam 
+      <lb ed="#B" n="45"/>uariatur tamen accidentaliter: quia posterius 
+      <lb ed="#B" n="46"/>est pars maioris charitatis, quae prius non 
+      <lb ed="#B" n="47"/>erat pars alterius. Nec propter mutatio 
+      <lb ed="#B" n="48"/>nem accidentalem res in se mutatur: nec 
+      <lb ed="#B" n="49"/>materia in se mutatur, si additur alij 
+      ma<lb ed="#B" n="50" break="no"/>teriae.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1226">
+      ¶ Ad secundum negetur maior. 
+      <lb ed="#B" n="51"/>Cuius ratio non est aliud, quam quid no¬ 
+      <!--304.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>minis alterabilis, &amp; augmentabilis. Est 
+      <lb ed="#B" n="53"/>enim alterabile res potens in se suscipere 
+      <lb ed="#B" n="54"/>formam, quam prius non habuit: uel 
+      perde<lb ed="#B" n="55" break="no"/>re, quam habuit, &amp; est subiectum. Secus de 
+      <lb ed="#B" n="56"/>augmentabili: cuius quid nomnis positum est 
+      <lb ed="#B" n="57"/>supra in primo notabili.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1248">
+      ¶ Ad tertium 
+      ne<lb ed="#B" n="58" break="no"/>getur anis, quod charitas non mouetur 
+      ca<lb ed="#B" n="59" break="no"/>piendo motum, &amp; moueri large ut in. iij. 
+      <lb ed="#B" n="60"/>Physi. secundum quod assignantur ei illae 
+      <lb ed="#B" n="61"/>species: generatio: augmentatio: 
+      corru<lb ed="#B" n="62" break="no"/>ptio: diminutio: alteratio, &amp; motus 
+      loca<lb ed="#B" n="63" break="no"/>lis. Ad probationem negetur, quod omne, quod 
+      <lb ed="#B" n="64"/>mouetur, recipit &amp;c. Sed moueri sic est 
+      <lb ed="#B" n="65"/>mutari de esse in non esse, uel econtra, aut  
+      <lb ed="#B" n="66"/>de aliqualiter esse ad aliter esse. Et hoc  
+      <lb ed="#B" n="67"/>ultimum conuenit charitati: quia peraug 
+      <lb ed="#B" n="68"/>mentum erit pars charitatis totius 
+      consti<lb ed="#B" n="69" break="no"/>tute. ex praeexistenti, &amp; superaddita: 
+      cu<lb ed="#B" n="70" break="no"/>ius prius non fuit pars.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1279">
+      ¶ Ad quartum 
+      con<lb ed="#B" n="71" break="no"/>cediturans: &amp; negatur consequentia. Ad 
+      <lb ed="#B" n="72"/>probationem negatur, quod una albedo ex 
+      <lb ed="#B" n="73"/>magis alba: immo propric loquendo 
+      al<lb ed="#B" n="74" break="no"/>bedo non est alba: sed unum album est ma 
+      <lb ed="#B" n="75"/>gis albumalio albo. Et cum additur, nihil 
+      <lb ed="#B" n="76"/>dat, quod non habet: uerum est, quod  
+      <lb ed="#B" n="77"/>non habet dare. Non tamen 
+      opor<lb ed="#B" n="78" break="no"/>ter, quod denominatio conueniens alicui 
+      ra<lb ed="#B" n="79" break="no"/>tione formae: conueniat etiam formae. 
+      <lb ed="#B" n="80"/>Nam compositum est homo propter animam 
+      <lb ed="#B" n="81"/>rationalem: &amp; tamen anima non est homo: &amp; 
+      <lb ed="#B" n="82"/>anima est sciens propter scientiam: &amp; tamen 
+      <lb ed="#B" n="83"/>scientia non est sciens: &amp; sic de alijs.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1310">
+      ¶ Con 
+      <lb ed="#B" n="84"/>tra secundam partem conclusionis, 
+      dubi<lb ed="#B" n="85" break="no"/>tatur secundo, si charitas augmentatur 
+      <lb ed="#B" n="86"/>per actus procedentes ex gratia: aut 
+      per<lb ed="#B" n="87" break="no"/>quoslibet: aut per aliquos, &amp; aliquos non 
+      <lb ed="#B" n="88"/>nullum illorum potest dici: ergo. Non 
+      secun<lb ed="#B" n="89" break="no"/>dum: quia non est ratio diuersitatis: cum 
+      a<lb ed="#B" n="90" break="no"/>ctus sint eiusdem speciei: saltem eiusdem 
+      <lb ed="#B" n="91"/>uirturtis, &amp; ideo habent eosdem effectus. 
+      <lb ed="#B" n="92"/>Item per quemlibet augetur meritum, &amp; 
+      <lb ed="#B" n="93"/>praemium: ergo &amp; gratia siue charitas: quia 
+      <lb ed="#B" n="94"/>quantitas meriti, &amp; praemij sequitur 
+      quan<lb ed="#B" n="95" break="no"/>titatem charitatis &amp; gratiae. Nec potest 
+      <lb ed="#B" n="96"/>dici primum: quia stat: quod actus sequens sit 
+      <lb ed="#B" n="97"/>remissior primo: &amp; ita non 
+      correspon<lb ed="#B" n="98" break="no"/>det sibi gratia maior sed minor, &amp; ita non 
+      <lb ed="#B" n="99"/>augmentat: sed magis minuit.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1348">
+      ¶ 
+      Solutio<lb ed="#B" n="100" break="no"/>probabiliter dicitur: quod quolibet actu 
+      ex<lb ed="#B" n="101" break="no"/>gratia procedente augetur gratia, seu 
+      <lb ed="#B" n="102"/>charitas praeexistens, sicut &amp; praemium. 
+      <!--305.xml-->
+      <pb ed="#B" n="218"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Ad improbationem dicitur: quod per tale 
+      <lb ed="#B" n="2"/>actum remissum producitur charitas 
+      mi<lb ed="#B" n="3" break="no"/>nor pexistente: tamen addita pexistenti red 
+      <lb ed="#B" n="4"/>dit totum maius. Et sic praeexistens 
+      auge<lb ed="#B" n="5" break="no"/>tur ad intellectum supra expositum.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1374">
+      ¶ 
+      Du<lb ed="#B" n="6" break="no"/>bitatur tertio: an sicut conceditur. 
+      Cha<lb ed="#B" n="7" break="no"/>ritas potest augeri: ita concedendum sit 
+      <lb ed="#B" n="8"/>quod charitas potest minui. Pro intellectu 
+      il<lb ed="#B" n="9" break="no"/>lius dubij notandum, quod charitas potest 
+      <lb ed="#B" n="10"/>multipliciter considerari scilicet secundum se: 
+      <lb ed="#B" n="11"/>in ordine ad subiectum: in ordine ad 
+      cau<lb ed="#B" n="12" break="no"/>sam efficiente: &amp; quarto in ordine ad 
+      cau<lb ed="#B" n="13" break="no"/>sam meritoriam Secundum haec 
+      ponun<lb ed="#B" n="14" break="no"/>tur quatuor ppositiones.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1396">
+      ¶ Prima. 
+      Cha<lb ed="#B" n="15" break="no"/>ritas in se considerata est diminuibilis. 
+      Pro<lb ed="#B" n="16" break="no"/>batur: omne diuisibile est diminuibile: 
+      <lb ed="#B" n="17"/>charitas est diuisibilis: ergo &amp;c. Conse 
+      <lb ed="#B" n="18"/>quentia nota cum minore ex articule 
+      <lb ed="#B" n="19"/>praecedenti cum sit composita ex gradibus. 
+      <lb ed="#B" n="20"/>Maior patet: quia diuisibile pro una 
+      pa<lb ed="#B" n="21" break="no"/>te potest manere: &amp; pro alia desinere, &amp; 
+      <lb ed="#B" n="22"/>ita diminuitur.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1416">
+      ¶ Secunda 
+      propositio<lb ed="#B" n="23" break="no"/>Charitas considerata secundum esse in 
+      <lb ed="#B" n="24"/>subjecto est diuisibilis. Patet: quia 
+      enti<lb ed="#B" n="25" break="no"/>tas in se diminuibilis ubicunque ponitur 
+      <lb ed="#B" n="26"/>est diuisibilis. Item: quia charitas 
+      praeexi<lb ed="#B" n="27" break="no"/>stens in subjecto potest acquirere gradum 
+      <lb ed="#B" n="28"/>charitatis aduententem: dum augetur, 
+      <lb ed="#B" n="29"/>Poterit etiam eundem quantum est de 
+      <lb ed="#B" n="30"/>se perdere in eodem subjecto, &amp; ita 
+      minui<lb ed="#B" n="31" break="no"/>tur.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1438">
+      ¶ Tertia propo. Charitas per 
+      nul<lb ed="#B" n="32" break="no"/>lum agens creatum potest minui. Probatur: 
+      <lb ed="#B" n="33"/>quia cuius diminutio est annihilatio: non 
+      <lb ed="#B" n="34"/>potest diminui effectiue per agens 
+      cre<lb ed="#B" n="35" break="no"/>tum: sed diminutio charitatis est 
+      annihi<lb ed="#B" n="36" break="no"/>latio gradus deperditi: cum non manet 
+      <lb ed="#B" n="37"/>in potentia subiecti: nec secundum se: 
+      <lb ed="#B" n="38"/>necalium eiusdem rationis: ergo non 
+      po<lb ed="#B" n="39" break="no"/>test effici causa creata. Consequentia 
+      te<lb ed="#B" n="40" break="no"/>net: &amp; minor declarata est. Maior patet: 
+      <lb ed="#B" n="41"/>quia agens creatum: sicut non potest 
+      <lb ed="#B" n="42"/>creare: ita nec annihilare.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1464">
+      ¶ Quarta 
+      pro<lb ed="#B" n="43" break="no"/>positio. Charitas non potest minui 
+      per<lb ed="#B" n="44" break="no"/>peccatum demeritorie. Patet: quia nec 
+      <lb ed="#B" n="45"/>per peccatum mortale: quia hoc 
+      simpli<lb ed="#B" n="46" break="no"/>citer tollit charitatem: cum sibi 
+      repu<lb ed="#B" n="47" break="no"/>gnet. Nec per ueniale. Tum quia pro 
+      mi<lb ed="#B" n="48" break="no"/>nori malo non tollit deus maius bonum: 
+      <lb ed="#B" n="49"/>sed charitas est maiusbonum, quam 
+      ue<lb ed="#B" n="50" break="no"/>niale sit malum. Tum quia ueiale stat 
+      <lb ed="#B" n="51"/>cum charitate. Tum quia si ueniale minueret  
+      <!--305.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>charitatem: cum non sit infinita: per 
+      replica<lb ed="#B" n="53" break="no"/>tionem uenialium posset tolli tota 
+      chari<lb ed="#B" n="54" break="no"/>tas. Consequens est falsum: quia tumc 
+      ta<lb ed="#B" n="55" break="no"/>lis nec esset in statu salutis: nec danatio 
+      <lb ed="#B" n="56"/>nis. Et patet consequentia: quia tollit 
+      ip<lb ed="#B" n="57" break="no"/>sum ueniale centesimam parte gratiae: 
+      si<lb ed="#B" n="58" break="no"/>tunc centies repeteretur, auferret totam 
+      <lb ed="#B" n="59"/>Ex his sequitur ransio ad dubium motum 
+      <lb ed="#B" n="60"/>per aliquot conclusiones.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1511">
+      ¶ Prima. 
+      Quan<lb ed="#B" n="61" break="no"/>uis per potentiam absolutam dei charitas 
+      <lb ed="#B" n="62"/>potest diminui: hoc tamen nunquam fier 
+      <lb ed="#B" n="63"/>secundum leges ordinatas damni. Prima para 
+      <lb ed="#B" n="64"/>patet ex propositionibus prima, &amp; secun 
+      <lb ed="#B" n="65"/>da. Secunda pars probatur: quia deus non 
+      <lb ed="#B" n="66"/>aufert dona sua a rationali creatura sine 
+      <lb ed="#B" n="67"/>demerito eius. Vel ergo demeretur 
+      per<lb ed="#B" n="68" break="no"/>peccatum mortale: &amp; tunc non diminui 
+      <lb ed="#B" n="69"/>tur: sed onino tollitur charitas. Vel 
+      per<lb ed="#B" n="70" break="no"/>peccatum ueniale, &amp; hoc improbatum 
+      <lb ed="#B" n="71"/>est.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1537">
+      ¶ Conclusio secunda. Licet charitas 
+      <lb ed="#B" n="72"/>quantum ad suam substantiam non 
+      dimi<lb ed="#B" n="73" break="no"/>nuatur: tamen feruor eius per peccatum 
+      ue<lb ed="#B" n="74" break="no"/>niale conmissionis, &amp; omissionis 
+      remitti<lb ed="#B" n="75" break="no"/>tur. Probatur pro secunda parte 
+      quan<lb ed="#B" n="76" break="no"/>tum ad pctam comissionis: quia actus op 
+      <lb ed="#B" n="77"/>positi generantes habitus oppositos 
+      im<lb ed="#B" n="78" break="no"/>pediunt conatum potentiae: quod non ita 
+      <lb ed="#B" n="79"/>feruenter exeat in actus oppositos. Sed 
+      <lb ed="#B" n="80"/>actus peccati uenialis: licet stent cum 
+      cha<lb ed="#B" n="81" break="no"/>ritate: inclinant tamen ad oppositum aliquo 
+      <lb ed="#B" n="82"/>modo actum charitatis, cum ab illo 
+      defi<lb ed="#B" n="83" break="no"/>ciunt: ergo Patet minor: quia per 
+      fre<lb ed="#B" n="84" break="no"/>quentiam actuum uenialium 
+      generatur<lb ed="#B" n="85" break="no"/>habitus peccati uenialis: inclinans 
+      poten<lb ed="#B" n="86" break="no"/>tiam ad similes actus, &amp; ita remittit 
+      fer<lb ed="#B" n="87" break="no"/>uorem, siue conatum ad actus charitatis: 
+      <lb ed="#B" n="88"/>qui aliquo modo repugnant actibus 
+      ue<lb ed="#B" n="89" break="no"/>nialibus. Quantum ad peccata uenialia 
+      <lb ed="#B" n="90"/>omissionis patet: quia per negligentiam 
+      <lb ed="#B" n="91"/>actuum charitatis ita remittitur feruor. Terupr 
+      <lb ed="#B" n="92"/>sicut per frequentiam augetur. Et licet charita 
+      <lb ed="#B" n="93"/>diuersimode notificent feruorem cha tis 
+      qdi<lb ed="#B" n="94" break="no"/>ritatis: potest tamen faciliter dici, quod feruor 
+      <lb ed="#B" n="95"/>charitatis est promptitudo, seu conatus 
+      <lb ed="#B" n="96"/>uoluntatis ad actum charitatis eliciendum: 
+      <lb ed="#B" n="97"/>qui est praecise per habitum charitatis 
+      ac<lb ed="#B" n="98" break="no"/>quisitum ex actibus frequentatis: hoc  
+      <lb ed="#B" n="99"/>feruor charitatis supponit pro actu 
+      <lb ed="#B" n="100"/>charitatis, seu uoluntatis: connotando 
+      <lb ed="#B" n="101"/>uoluntatis promptitudinem, &amp; 
+      facilita<lb ed="#B" n="102" break="no"/>tem ex inclinatione habitus charitatis 
+      <!--306.xml-->
+      <pb ed="#B" n="219"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>acquisitae prouenientem huiusmodi 
+      fer<lb ed="#B" n="2" break="no"/>uorem ueniale minuit. Dum. no. ueniale 
+      con<lb ed="#B" n="3" break="no"/>mittitur: generantur in homine 
+      habi<lb ed="#B" n="4" break="no"/>tus oppositi actui charitatis, per quos 
+      <lb ed="#B" n="5"/>uoluntatis conatus, seu promptitudo 
+      tol<lb ed="#B" n="6" break="no"/>situr seu remittitur. Ex peccato uero 
+      o<lb ed="#B" n="7" break="no"/>missionis actus boni negliguntur: ex 
+      con<lb ed="#B" n="8" break="no"/>sequenti non gignuntur habitus 
+      prompti<lb ed="#B" n="9" break="no"/>ficantes potentiam, quibus non genitis 
+      <lb ed="#B" n="10"/>potentia non facilitatur ad opus. Item ut  
+      <lb ed="#B" n="11"/>uideri solet in tertio, &amp; patebit infra 
+      di<lb ed="#B" n="12" break="no"/>xxiij. q.ij. habitus infusus sine 
+      acquisito<lb ed="#B" n="13" break="no"/>non inclinat: ut est multorum 
+      opinio<lb ed="#B" n="14" break="no"/>Cum ergo tales acquisiti habitus non 
+      gi<lb ed="#B" n="15" break="no"/>gnuntur: potentia non actuatur ad opus 
+      <lb ed="#B" n="16"/>per solum habitum infusum &amp;c. 
+      Gignum<lb ed="#B" n="17" break="no"/>tur autem frequentia bonorum actuum. 
+      <lb ed="#B" n="18"/>Et eorum omissione: uel oppositorum 
+      <lb ed="#B" n="19"/>actuum conmissione remittuntur, seu 
+      tol<lb ed="#B" n="20" break="no"/>luntur.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1657">
+      ¶ Sed diceres: sint duo habentes 
+      <lb ed="#B" n="21"/>aequalem charitatem: quorum unus 
+      ha<lb ed="#B" n="22" break="no"/>beat peccatum ueniale. alter non. Iste quaed 
+      <lb ed="#B" n="23"/>uenialiter peccauit, non est ita charus 
+      <lb ed="#B" n="24"/>deo, sicut qui non peccauit: cum ipse 
+      pu<lb ed="#B" n="25" break="no"/>nietur. Nec statim euolat, si moritur: 
+      si<lb ed="#B" n="26" break="no"/>cut alter non habens peccatum ueniale: 
+      <lb ed="#B" n="27"/>ergo peccatum ueniale minuit 
+      charita<lb ed="#B" n="28" break="no"/>tem.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1677">
+      ¶ Praeterea si peccatum ueniale 
+      <lb ed="#B" n="29"/>minuitferuorem: &amp; cum feruor non sit 
+      <lb ed="#B" n="30"/>infinitus: posset tamen aliquis multiplicare 
+      <lb ed="#B" n="31"/>uenialia, quod feruor omnino tolleretur. 
+      <lb ed="#B" n="32"/>Et sic iste haberet charitatem sine feruo 
+      <lb ed="#B" n="33"/>re.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1690">
+      ¶ Ad primum dicitur: quod illi duo in 
+      <lb ed="#B" n="34"/>casu sunt aeque charideo: quia aeque ac 
+      <lb ed="#B" n="35"/>cepti ad uitam aeternam, &amp; ad aequale 
+      <lb ed="#B" n="36"/>praemium uitae aeternae. Nec obstat puni 
+      <lb ed="#B" n="37"/>tio unius in purgatorio: quia illa non 
+      <lb ed="#B" n="38"/>est ex odio punientis, uel non accepta 
+      <lb ed="#B" n="39"/>tione puniti. Quia non nunquam pater 
+      <lb ed="#B" n="40"/>filium, quem magis diligit, &amp; ad maiorem 
+      <lb ed="#B" n="41"/>haereditatem acceptat, magis punit. Et 
+      si<lb ed="#B" n="42" break="no"/>habens magnam charitatem, peccasset 
+      <lb ed="#B" n="43"/>uenialiter, &amp; habens modicam, non: 
+      pri<lb ed="#B" n="44" break="no"/>mus esset magis acceptus: quia ad maius 
+      <lb ed="#B" n="45"/>premium licet esset puniendus, &amp; non 
+      <lb ed="#B" n="46"/>secundus.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1721">
+      ¶ Ad secundum dicitur: quod  
+      <lb ed="#B" n="47"/>intelligendo per feruorem charitatis 
+      <lb ed="#B" n="48"/>promptitudinem, siue conatum ad 
+      a<lb ed="#B" n="49" break="no"/>ctum charitatis eliciendum: qui est 
+      prae<lb ed="#B" n="50" break="no"/>cise per habitum acquisitum: conceditur, 
+      <lb ed="#B" n="51"/>quod posset totus seruor tolli per conti¬ 
+      <!--306.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nuationem peccatorum uenialium, &amp; 
+      <lb ed="#B" n="53"/>omissionem actuum secundum 
+      charita<lb ed="#B" n="54" break="no"/>tem eliciendorum, nihilominus 
+      mane<lb ed="#B" n="55" break="no"/>ret charitas integra, per quam adhuc 
+      pos<lb ed="#B" n="56" break="no"/>set in actus meritorios quantum est de 
+      <lb ed="#B" n="57"/>se praecise.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1753">
+      ¶ Adhos enim sola charitas: 
+      <lb ed="#B" n="58"/>ut aliqui uolunt) cum libero 
+      arbitrio<lb ed="#B" n="59" break="no"/>sufficit: licet non ita faciliter prompte, 
+      <lb ed="#B" n="60"/>&amp; expedite, sicuti cum frequentia 
+      habi<lb ed="#B" n="61" break="no"/>tuum acquisitorum. Tenendo quod habitus 
+      <lb ed="#B" n="62"/>infusus sine acquisitoinclinet potentiam: 
+      <lb ed="#B" n="63"/>de quo infra dist. xxiij. q.ij. in tertio. 
+      Te<lb ed="#B" n="64" break="no"/>nendo autem oppositum scilicet quod habitus in 
+      <lb ed="#B" n="65"/>fusus non inclinet sine acquisito: secus: 
+      <lb ed="#B" n="66"/>dicendum: sic enim manente charitate 
+      <lb ed="#B" n="67"/>non potest in actum ex defectu 
+      habi<lb ed="#B" n="68" break="no"/>tuum acquirendorum.
+    </p>
+            <p xml:id="gbs333-a53732-d1e1779">
+      ¶ Et si quis 
+      argue<lb ed="#B" n="69" break="no"/>ret de actiuitate charitatis: potest 
+      distin<lb ed="#B" n="70" break="no"/>gui de nomine actiuitatis: an connotet 
+      <lb ed="#B" n="71"/>actualem tendentiam, uel potentialem 
+      so<lb ed="#B" n="72" break="no"/>lum &amp;c. sicut dici solet de inclinatione 
+      <lb ed="#B" n="73"/>habitus: de quo latius uide dist. xxiij. q.
+      i<lb ed="#B" n="74" break="no"/>tertij. dub. iij. Et secundum hoc formetur 
+      <lb ed="#B" n="75"/>responsio. Valent ad hoc dubium dicta, 
+      <lb ed="#B" n="76"/>Camerac. q. ix. art. iij. &amp; Greg. q. v. ar. ij. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

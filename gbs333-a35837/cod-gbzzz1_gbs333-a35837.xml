@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="142"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a35837"> <!-- l1d6q1 -->
+            <head xml:id="gbs333-a35837-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a35837-Hd1e104" type="question-title">Utrum pater genuit filium natura vel voluntate</head>
+            <p xml:id="gbs333-a35837-d1e107">
+               <lb ed="#B" n="39"/>VIRCA hanc 
+      distinctio<lb ed="#B" n="40" break="no"/>nem haec mouetur 
+      quaestio<lb ed="#B" n="41" break="no"/>RVtrum pater genuit filium 
+      <lb ed="#B" n="42"/>So natura, uel uoluntate.
+    </p>
+            <p xml:id="gbs333-a35837-d1e118">
+      ¶ Non 
+      <lb ed="#B" n="43"/>tandum primo pro responsione, dimissa 
+      <lb ed="#B" n="44"/>opinione quadam, quam auctor late 
+      re<lb ed="#B" n="45" break="no"/>citat: &amp; ut falsa pariter, &amp; absurda 
+      con<lb ed="#B" n="46" break="no"/>etinentem: impugnat: quod uoluntate, &amp; ne¬ 
+      <!--229.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>cessitate possunt capi dupliciter: 
+      homi<lb ed="#B" n="48" break="no"/>naliter, uel aduerbialiter. Nominaliter 
+      <lb ed="#B" n="49"/>dupliciter: quia uel construuntur in 
+      ra<lb ed="#B" n="50" break="no"/>tione formaliter denominantis: sicut 
+      di<lb ed="#B" n="51" break="no"/>cimus: hic est albus albedine. Vel 
+      con<lb ed="#B" n="52" break="no"/>struuntur in ratione alicuius principii: 
+      <lb ed="#B" n="53"/>ut cum dicimus: ignis calefacit calore. 
+      <lb ed="#B" n="54"/>Et sic quaestio erit tractanda distinctione 
+      <lb ed="#B" n="55"/>sequenti. Aduerbialiter uero uoluntate 
+      <lb ed="#B" n="56"/>ualet, uel tantum id est uoluntarie: uel 
+      <lb ed="#B" n="57"/>tantum quantum contingenter.
+    </p>
+            <p xml:id="gbs333-a35837-d1e158">
+      ¶ Et 
+      ge<lb ed="#B" n="58" break="no"/>nerare uoluntarie adhuc potest 
+      intelli<lb ed="#B" n="59" break="no"/>gi tripliciter scilicet uoluntarie uoluntate 
+      an<lb ed="#B" n="60" break="no"/>tecedenti, ut scilicet prius uoluit, &amp; 
+      po<lb ed="#B" n="61" break="no"/>stea genuit. Vel accedente, siue conse- 
+      <lb ed="#B" n="62"/>quente, ut scilicet prius genuit, &amp; post 
+      <lb ed="#B" n="63"/>uoluntatis actum sibi in genito 
+      compla<lb ed="#B" n="64" break="no"/>cuit. Vel uoluntate concomitante; ita 
+      <lb ed="#B" n="65"/>quod simulgenuit, &amp; generare uoluit, 
+      uo<lb ed="#B" n="66" break="no"/>luit quidem complacenter, non 
+      contin<lb ed="#B" n="67" break="no"/>genter.
+    </p>
+            <p xml:id="gbs333-a35837-d1e182">
+      ¶ Similiter necessitate 
+      aduer<lb ed="#B" n="68" break="no"/>bialiter id est necessario. Et hoc dupliciter. 
+      <lb ed="#B" n="69"/>Vel necessitate immutabilitatis, siue in 
+      <lb ed="#B" n="70"/>euitabilitatis, quae opponitur 
+      contin<lb ed="#B" n="71" break="no"/>gentiae. Vel necessitate coactionis, &amp; 
+      <lb ed="#B" n="72"/>uiosentiae. Et sub hac acceptione 
+      per<lb ed="#B" n="73" break="no"/>tractat magister.
+    </p>
+            <p xml:id="gbs333-a35837-d1e198">
+      ¶ Quo praemisso, est 
+      <lb ed="#B" n="74"/>haec conclusio prima pro articulo 
+      secun<lb ed="#B" n="75" break="no"/>do. Pater filium genuit nec uoluntate, 
+      <lb ed="#B" n="76"/>nec necessitate; neque etiam intellectu: 
+      <lb ed="#B" n="77"/>neque natura tanquam eo, quo 
+      forma<lb ed="#B" n="78" break="no"/>liter denominatur generans. Probatur  
+      <lb ed="#B" n="79"/>conclusio: quia pater non dicitur 
+      for<lb ed="#B" n="80" break="no"/>maliter generans a uoluntate natura, 
+      <lb ed="#B" n="81"/>uel intellectu. eo modo, quo a 
+      fortitu<lb ed="#B" n="82" break="no"/>dine aliquis fortis dicitur. Sed hoc 
+      mo<lb ed="#B" n="83" break="no"/>do dicitur generans a generatione: 
+      si<lb ed="#B" n="84" break="no"/>cut calefaciens a calefactione: ergo. Ma 
+      <lb ed="#B" n="85"/>ior probatur: quia si intellectus, 
+      uolun<lb ed="#B" n="86" break="no"/>tas, aut natura formaliter denominaret 
+      <lb ed="#B" n="87"/>patrem generare, seu generantem: tunc 
+      <lb ed="#B" n="88"/>etiam denominaret sic quodlibet 
+      sup<lb ed="#B" n="89" break="no"/>positum, in quo esset: &amp; ita filius, &amp; 
+      spi<lb ed="#B" n="90" break="no"/>ritussanctus esset generans: sicut in quo 
+      <lb ed="#B" n="91"/>cunque est caliditas, ipsum 
+      denomina<lb ed="#B" n="92" break="no"/>tur calidum. Minor est madifesta.
+    </p>
+            <p xml:id="gbs333-a35837-d1e242">
+      ¶ 
+      Se<lb ed="#B" n="93" break="no"/>cunda conclusio. Pater non genuit 
+      fi<lb ed="#B" n="94" break="no"/>lium uoluntarie: uoluntate 
+      anteceden<lb ed="#B" n="95" break="no"/>te, uel accedente: ita quod prius uoluit 
+      ge<lb ed="#B" n="96" break="no"/>nerare, quam generauit: uel prius 
+      gene<lb ed="#B" n="97" break="no"/>rauit, quam uoluit. Probatur, quia ptrunque  
+      <!--230.xml-->
+      <pb ed="#B" n="143"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>horum diceret mutabilitatem in deo 
+      pa<lb ed="#B" n="2" break="no"/>tre, uel in deo filio. Quo ad secundum 
+      <lb ed="#B" n="3"/>patet faciliter deducenti.
+    </p>
+            <p xml:id="gbs333-a35837-d1e268">
+      ¶ Tertia 
+      con<lb ed="#B" n="4" break="no"/>clusio. Deus pater non genuit filium 
+      uo<lb ed="#B" n="5" break="no"/>luntarie: accepta pro contingenter. 
+      Pa<lb ed="#B" n="6" break="no"/>ter: quia tunc potuisset non genuisse 
+      s<lb ed="#B" n="7" break="no"/>hum, &amp; ita filius non esset necessario: 
+      <lb ed="#B" n="8"/>cum non habeat esse nisi per 
+      generatio<lb ed="#B" n="9" break="no"/>nem.
+    </p>
+            <p xml:id="gbs333-a35837-d1e284">
+      ¶ Quarta conclusio. Pater 
+      ge<lb ed="#B" n="10" break="no"/>nuit filium uoluntate concomitante, 
+      <lb ed="#B" n="11"/>Probatur: quia genuit uolens, sicut 
+      po<lb ed="#B" n="12" break="no"/>tens: ut dicit magister. Et quando 
+      uo<lb ed="#B" n="13" break="no"/>luit generare, genuit: &amp; quando genuit, 
+      <lb ed="#B" n="14"/>uoluit: quia aeternaliter &amp; genuit, &amp; 
+      uo<lb ed="#B" n="15" break="no"/>luit.
+    </p>
+            <p xml:id="gbs333-a35837-d1e301">
+      ¶ Conclusio quinta. Quamuis 
+      pa<lb ed="#B" n="16" break="no"/>ter genuit filium necessario 
+      necessita<lb ed="#B" n="17" break="no"/>te ineuitabilitatis: non tamen genuit 
+      <lb ed="#B" n="18"/>necessario necessitate coactionis. 
+      Pri<lb ed="#B" n="19" break="no"/>ma pars patet: quia pater non potest non 
+      <lb ed="#B" n="20"/>generare filium. Secunda patet: quia 
+      <lb ed="#B" n="21"/>cum pater sit omnipotens: non potest 
+      <lb ed="#B" n="22"/>ab aliquo cogi
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

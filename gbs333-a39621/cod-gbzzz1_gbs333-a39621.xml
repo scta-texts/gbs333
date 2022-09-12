@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a39621"> <!-- l1d8q5 -->
+            <head xml:id="gbs333-a39621-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-a39621-Hd1e104" type="question-title">Utrum deus possit diffiniri diffinitione non data per additamentum</head>
+            <p xml:id="gbs333-a39621-d1e107">
+               <lb ed="#B" n="8"/>QVAESTIO V 
+      <lb ed="#B" n="9"/>VTRVM Deus possit 
+      dif<lb ed="#B" n="10" break="no"/>finiri diffinitione non data 
+      <lb ed="#B" n="11"/>per additamentum.
+  </p>
+            <p xml:id="gbs333-a39621-d1e118">
+    Positis 
+      <lb ed="#B" n="12"/>notabilibus ponentur 
+      con<lb ed="#B" n="13" break="no"/>i: qu.e  
+      <lb ed="#B" n="14"/>go: diffinitio non data per 
+      additamen<lb ed="#B" n="15" break="no"/>tum dupliciter accipitur. Vno modo 
+      <lb ed="#B" n="16"/>stricte, pro diffinitione composita ex 
+      <lb ed="#B" n="17"/>partibus alterius rationis, quarum una 
+      <lb ed="#B" n="18"/>est determinans, &amp; alia deter minabilis, 
+      <lb ed="#B" n="19"/>in qua determinatio uniuersaliter 
+      prae<lb ed="#B" n="20" break="no"/>dicatur de determinabili: &amp; non econuer 
+      <lb ed="#B" n="21"/>so, &amp; haec diffinitio non est nisi 
+      composi<lb ed="#B" n="22" break="no"/>torum. Alio modo accipitur largius, 
+      pro<lb ed="#B" n="23" break="no"/>diffinitione, cuius nulla pars exprimit 
+      <lb ed="#B" n="24"/>aliquod accidentale in esse diffinito: 
+      qui<lb ed="#B" n="25" break="no"/>uis aliqua pars ex suo modo significandi, 
+      <lb ed="#B" n="26"/>sit concretum non praedicabile per se 
+      pri<lb ed="#B" n="27" break="no"/>mo modo de quolibet, de quo 
+      praedi<lb ed="#B" n="28" break="no"/>catur.
+    </p>
+            <p xml:id="gbs333-a39621-d1e158">
+      ¶ Conclusio prima. Deus non 
+      <lb ed="#B" n="29"/>potest diffinitione proprie dicta, &amp; 
+      <lb ed="#B" n="30"/>primo modo accepta diffiniri. 
+      Pa<lb ed="#B" n="31" break="no"/>ter: quia res incompositae simplices 
+      <lb ed="#B" n="32"/>non possunt diffiniri, qualis est deus. 
+      </p>
+            <p xml:id="gbs333-a39621-d1e169">
+               <lb ed="#B" n="33"/>¶ Conclusio secunda. Diffinitione 
+      se<lb ed="#B" n="34" break="no"/>cundo modo dicta, deus potest diffini 
+      <lb ed="#B" n="35"/>ti. Patet: quia haec oratio: essentia 
+      intel<lb ed="#B" n="36" break="no"/>lectualis uolitiua &amp;c. est oratio non ex 
+      <lb ed="#B" n="37"/>primens aliquod accidentale deo: licet  
+      <lb ed="#B" n="38"/>intellectuale ex suo modo significandi 
+      <lb ed="#B" n="39"/>sit concretum: non praedicabile per se 
+      <lb ed="#B" n="40"/>primo modo: de quolibet sibi 
+      subijci<lb ed="#B" n="41" break="no"/>bili: quia non deangelo nec creatura: 
+      <lb ed="#B" n="42"/>quia haec est per se secundo modo. An 
+      <lb ed="#B" n="43"/>gelus est intelligibilis: quia ualet rantum: 
+      <lb ed="#B" n="44"/>angelus est potens intelligere. 
+      Intel<lb ed="#B" n="45" break="no"/>ligere autem in angelo est operatio 
+      di<lb ed="#B" n="46" break="no"/>stincta ab angelo. Non enim intellectio 
+      <lb ed="#B" n="47"/>angeli est angelus: sicut intelligere 
+      dei<lb ed="#B" n="48" break="no"/>est deus: &amp; ideo de deo praedicatur per 
+      <!--244.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>se primo modo.
+    </p>
+            <p xml:id="gbs333-a39621-d1e213">
+      ¶ Si di. comnbinando 
+      prae<lb ed="#B" n="50" break="no"/>cise conceptus praedicabiles in quid: tumc 
+      <lb ed="#B" n="51"/>habetur diffinitio propria. Solutio: 
+      ta<lb ed="#B" n="52" break="no"/>les conceptus erunt abstractorum: &amp; illi 
+      <lb ed="#B" n="53"/>non possunt poni sine coniunctione. 
+      Co<lb ed="#B" n="54" break="no"/>iunctio autem diffinitionem ingredi non 
+      <lb ed="#B" n="55"/>debet: unde; ista est impropria: &amp; in 
+      in<lb ed="#B" n="56" break="no"/>telligibilis. Deus est intellectus, 
+      uolun<lb ed="#B" n="57" break="no"/>tas, sapientia, bonitas &amp;c. Et si esset 
+      pro<lb ed="#B" n="58" break="no"/>pria: adhuc non esse diffinitio primo 
+      mo<lb ed="#B" n="59" break="no"/>do dicta: nec proprie dicta: quia in illa 
+      <lb ed="#B" n="60"/>semper pars posterior aliquid 
+      exprime<lb ed="#B" n="61" break="no"/>re debet: quod per partem priorem non 
+      <lb ed="#B" n="62"/>est expraessum: quod circa simplicia 
+      con<lb ed="#B" n="63" break="no"/>tingere non potest. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

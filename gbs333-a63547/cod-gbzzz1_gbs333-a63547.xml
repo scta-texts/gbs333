@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="251"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a63547"> <!-- l1d26prae -->
+            <head xml:id="gbs333-a63547-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a63547-d1e104">
+      <!--338.xml-->
+               <pb ed="#B" n="251"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XXVI 
+      <lb ed="#B" n="2"/>VPRA magister 
+      <lb ed="#B" n="3"/>egit in quatuor dist. 
+      <lb ed="#B" n="4"/>de nominibus 
+      essen<lb ed="#B" n="5" break="no"/>tialibus: 
+      consequen<lb ed="#B" n="6" break="no"/>ter in. ix. dist. seq. de 
+      <lb ed="#B" n="7"/>nominibus relatiuis. 
+      <lb ed="#B" n="8"/>Primo de 
+      relationi<lb ed="#B" n="9" break="no"/>bus aeternis, &amp; personalibus secundum, 
+      <lb ed="#B" n="10"/>quod sunt in singulis suppositis. Secundo 
+      <lb ed="#B" n="11"/>ui exprimuntur diuersis nominibus dist. 
+      <lb ed="#B" n="12"/>xxiij. Tertio de aeterna relatione non 
+      <lb ed="#B" n="13"/>ersonali negatiua, quae e innascibilitas 
+      <lb ed="#B" n="14"/>dist. xxviij. Quarto de relatione aeterna 
+      <lb ed="#B" n="15"/>non personali affirmatiua: quae est conis 
+      <lb ed="#B" n="16"/>spiratio actiua dist. xxix. Quinto de 
+      rela<lb ed="#B" n="17" break="no"/>tione dicta de deo ex tempore: ut est 
+      crea<lb ed="#B" n="18" break="no"/>tor, diumes &amp;c. dist. xxx. Sexto de relationi 
+      <lb ed="#B" n="19"/>bus appropriatis dist. xxxj. Septimo 
+      du<lb ed="#B" n="20" break="no"/>bia circa appropriata absoluit dist. xxxij. 
+      <lb ed="#B" n="21"/>Octauo de comparatione proprietatum 
+      <lb ed="#B" n="22"/>adpersonam &amp; essentiam dist. xxxiij. 
+      No<lb ed="#B" n="23" break="no"/>no de comparatione personae ad 
+      essen<lb ed="#B" n="24" break="no"/>tiam dist. xxxiiij. In hac ergo dist. agit 
+      <lb ed="#B" n="25"/>de proprietatibus notionalibus ut sunt 
+      <lb ed="#B" n="26"/>in singulis suppositis: quae notiones 
+      dicun<lb ed="#B" n="27" break="no"/>tur proprietates siue relationes.
+    </p>
+            <p xml:id="gbs333-a63547-d1e172">
+      ¶ 
+      Con<lb ed="#B" n="28" break="no"/>clusio textualis prima est haec. In 
+      diui<lb ed="#B" n="29" break="no"/>nis tres reperiuntur notiones seu relatio 
+      <lb ed="#B" n="30"/>nes scilicet generatio, natiuitas, processio: quaem 
+      <lb ed="#B" n="31"/>dicuntur paternitas, filiatio; spiratio. Et  
+      <lb ed="#B" n="32"/>accipit hic generatio actiue, &amp; 
+      spiratio<lb ed="#B" n="33" break="no"/>passiue.
+    </p>
+            <p xml:id="gbs333-a63547-d1e188">
+      ¶ Secunda conclusio. Proprie 
+      <lb ed="#B" n="34"/>tates praesatas seu notiones designant 
+      <lb ed="#B" n="35"/>lla nomina pater, filius, &amp; 
+      spiritussan<lb ed="#B" n="36" break="no"/>ctus: quae relatiua sunt, &amp; ad seinuicem 
+      <lb ed="#B" n="37"/>telatiue dicuntur.
+    </p>
+            <p xml:id="gbs333-a63547-d1e200">
+      ¶ Tertia 
+      conclusio<lb ed="#B" n="38" break="no"/>Relatio importata per illa nomina non 
+      <lb ed="#B" n="39"/>effaccidens: nec distinctum ab essentia 
+      <lb ed="#B" n="40"/>diuina: ea propter dicuntur relatiue, &amp; 
+      <lb ed="#B" n="41"/>non secundum accidens: licet non 
+      di<lb ed="#B" n="42" break="no"/>tantur secundum substantiam. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

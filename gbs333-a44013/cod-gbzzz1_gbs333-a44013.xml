@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="174"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a44013"> <!-- l1d10q2 -->
+            <head xml:id="gbs333-a44013-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a44013-Hd1e104" type="question-title">Utrum spiritus sanctus libere producatur</head>
+            <p xml:id="gbs333-a44013-d1e107">
+               <lb ed="#B" n="37"/>QVAESTIO II 
+      <lb ed="#B" n="38"/>VTRVM Spiritus sanctus 
+      l<lb ed="#B" n="39" break="no"/>bere producatur.
+    </p>
+            <p xml:id="gbs333-a44013-d1e116">
+      ¶ Pro 
+      in<lb ed="#B" n="40" break="no"/>tellectu huius quaestionis 
+      ua<lb ed="#B" n="41" break="no"/>lent dicta superius de liber 
+      <lb ed="#B" n="42"/>tatis distinctione distin. j. q. 
+      <lb ed="#B" n="43"/>vj. Quibus hic suppositis, 
+      consideran<lb ed="#B" n="44" break="no"/>dum est: quod quaestio haec potius consistit 
+      <lb ed="#B" n="45"/>in quid nominis terminorum quam in 
+      <lb ed="#B" n="46"/>re. Quamo ut inquit Ovta. q.vij. art. ij. Et  
+      <lb ed="#B" n="47"/>etiam uidetur posse sumi ex dicto doct. 
+      <lb ed="#B" n="48"/>subtilis in quodli. q. xvj. ar. j. ubi inquit, 
+      <lb ed="#B" n="49"/>quod in actu uoluntatis diuinae est necessitas 
+      <!--261.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>simpliciter: &amp; hoc tam in actu diligendi 
+      <lb ed="#B" n="51"/>se, quasi in actu spirandi amorem 
+      proceden<lb ed="#B" n="52" break="no"/>tem &amp;c. Et late quaestionis praecedentis 
+      <lb ed="#B" n="53"/>materiam in tribus articulis examinat.  
+      <lb ed="#B" n="54"/>Qns enim concedunt: quod spiritussanctus 
+      <lb ed="#B" n="55"/>producitur necessario non minus, quam 
+      fi<lb ed="#B" n="56" break="no"/>lius: ita enim spiritussanctus necessario ex 
+      <lb ed="#B" n="57"/>deus sicut filius. Et ita est impossibile 
+      <lb ed="#B" n="58"/>spiritum sanctum non produci: sicut 
+      impos<lb ed="#B" n="59" break="no"/>sibile est filium non generari. Conce- 
+      <lb ed="#B" n="60"/>dunt etiam: quod productio 
+      spiritussanctiali<lb ed="#B" n="61" break="no"/>quo modo pertinet ad uoluntatem: de quo, 
+      <lb ed="#B" n="62"/>supra dis. vij. q.ij. &amp; clarius. infra di. xiij. 
+      </p>
+            <p xml:id="gbs333-a44013-d1e174">
+               <lb ed="#B" n="63"/>¶ Sed nunc sunt tres termini currentes 
+      <lb ed="#B" n="64"/>in proposita materia scilicet naturale, liberum, 
+      <lb ed="#B" n="65"/>necessarium. Et circa illum terminum 
+      ne<lb ed="#B" n="66" break="no"/>cessarium non est diuersitas opi, 
+      conce<lb ed="#B" n="67" break="no"/>dentibus, omnibus, quod necessarium est, quod  
+      <lb ed="#B" n="68"/>non potest non esse. Et sic necessario 
+      pro<lb ed="#B" n="69" break="no"/>ducit, quod non potest non producere. Sed 
+      <lb ed="#B" n="70"/>de termino liberum diuersificantur. Nam 
+      <lb ed="#B" n="71"/>secundum philosophos, principium 
+      acti<lb ed="#B" n="72" break="no"/>uum diuiditur in principium actiuum 
+      neces<lb ed="#B" n="73" break="no"/>sarium: &amp; contingens potens ad 
+      opposi<lb ed="#B" n="74" break="no"/>ta. Primum necessarium dicitur naturale 
+      <lb ed="#B" n="75"/>principium Potens in opposita est 
+      con<lb ed="#B" n="76" break="no"/>tingens siue liberum. Nam. ix. 
+      Metaphvs<lb ed="#B" n="77" break="no"/>tract. iij. c. j. ubi distinguit potentia 
+      acti<lb ed="#B" n="78" break="no"/>uam in rationalem, &amp; in irrationalem 
+      <lb ed="#B" n="79"/>dicit. Tales quidem potentias necesse ens 
+      <lb ed="#B" n="80"/>uando actiuum ad passiuum propinquat: 
+      <lb ed="#B" n="81"/>hoc quidem facere: illud pati. hoc dicit 
+      <lb ed="#B" n="82"/>quoad irrationalem. Et quoad rationalem 
+      <lb ed="#B" n="83"/>sequitur. Illas uero non necesse. per 
+      po<lb ed="#B" n="84" break="no"/>tentiam irrationalem intelligit naturalem: 
+      <lb ed="#B" n="85"/>per rationalem intelligit liberum. Sic. ij. 
+      <lb ed="#B" n="86"/>Physv. ubi distinguit principium actiuum 
+      <lb ed="#B" n="87"/>in agens secundum propositum: &amp; agens 
+      <lb ed="#B" n="88"/>non secundum propositum. Et idem 
+      in<lb ed="#B" n="89" break="no"/>telligit per agens rationale, &amp; secundum 
+      <lb ed="#B" n="90"/>propositum: &amp; hoc uocatur liberum. Et  
+      <lb ed="#B" n="91"/>idem per agens irrationale: &amp; non 
+      secun<lb ed="#B" n="92" break="no"/>dum propositum, &amp; hoc dicitur necessa 
+      <lb ed="#B" n="93"/>rium. Erit ergo idem principium naturale, 
+      <lb ed="#B" n="94"/>&amp; necessarium, &amp; principium 
+      contingen<lb ed="#B" n="95" break="no"/>ter agens &amp; liberum. Et sic accipiendo ter 
+      <lb ed="#B" n="96"/>minos: sicut filius, ita &amp; spiritussanctus 
+      pr<lb ed="#B" n="97" break="no"/>ducitur naturaliter, &amp; non libere: quia 
+      no<lb ed="#B" n="98" break="no"/>cessario &amp; non contingenter.
+    </p>
+            <p xml:id="gbs333-a44013-d1e255">
+      ¶ Alij uero 
+      <lb ed="#B" n="99"/>distinguunt inter principium naturale, 
+      <lb ed="#B" n="100"/>&amp; necessarium. Similiter inter principium 
+      <!--262.xml-->
+      <pb ed="#B" n="175"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>liberum, &amp; contingens dicentes 
+      quodli<lb ed="#B" n="2" break="no"/>esse principium naturale, &amp; necessarium: 
+      <lb ed="#B" n="3"/>ed non econuerso. Sic quamuis omne 
+      <lb ed="#B" n="4"/>principium contingenter agens agat 
+      li<lb ed="#B" n="5" break="no"/>ibere: non tamen econuerso. Quid ergo est 
+      <lb ed="#B" n="6"/>igere naturaliter, &amp; quad libere: licet 
+      mu<lb ed="#B" n="7" break="no"/>ti anguli quaerantur: tamen finaliter 
+      di<lb ed="#B" n="8" break="no"/>tere oportet: quod agere libere est agere pe 
+      <lb ed="#B" n="9"/>uoluntatem. Et ita omnis actio uolunta 
+      <lb ed="#B" n="10"/>is siue sit necessaria, siue contingens, 
+      <lb ed="#B" n="11"/>dicitur libera: &amp; ita libertas compatitur 
+      <lb ed="#B" n="12"/>necessitatem. Et agere naturaliter est 
+      <lb ed="#B" n="13"/>agere non per uoluntatem, &amp; ita nihil 
+      <lb ed="#B" n="14"/>aliud est dicere, filius producitur 
+      natu<lb ed="#B" n="15" break="no"/>raliter, &amp; spiritussanctus libere: quam 
+      spi<lb ed="#B" n="16" break="no"/>rirussanctus producitur per modum 
+      uo<lb ed="#B" n="17" break="no"/>luntatis, filius non. Primus modus est 
+      <lb ed="#B" n="18"/>magis conformis conibus terminorum 
+      ac<lb ed="#B" n="19" break="no"/>ceptionibus, secundum quem quicquid 
+      <lb ed="#B" n="20"/>necessario producitur, producitur 
+      natu<lb ed="#B" n="21" break="no"/>raliter: &amp; non producitur libere: quia non 
+      <lb ed="#B" n="22"/>sponte: quia non potest non produci¬ 
+      </p>
+            <p xml:id="gbs333-a44013-d1e316">
+               <lb ed="#B" n="23"/>¶ Pro articulo secundo est conclusio 
+      pri<lb ed="#B" n="24" break="no"/>ma. Capiendo libere ut tantum ualet 
+      <lb ed="#B" n="25"/>quantum uoluntarie: licet necessario: &amp; 
+      <lb ed="#B" n="26"/>prout distinguitur contra contingenter 
+      <lb ed="#B" n="27"/>seu indifferenter: spiritussanctus 
+      produ<lb ed="#B" n="28" break="no"/>citur libere. Patet ex notatis: termini 
+      <lb ed="#B" n="29"/>enim sunt ad placitum.
+    </p>
+            <p xml:id="gbs333-a44013-d1e334">
+      ¶ Secunda 
+      con<lb ed="#B" n="30" break="no"/>clusio. Silibere producere est spirare, &amp; 
+      <lb ed="#B" n="31"/>naturaliter producere est generare: filius 
+      <lb ed="#B" n="32"/>producitur naturaliter, &amp; non libere: 
+      <lb ed="#B" n="33"/>&amp; spiritussanctus libere producitur: sed  
+      <lb ed="#B" n="34"/>non naturaliter. Claret haec propositio 
+      <lb ed="#B" n="35"/>ex dicendis infra dist. xiij. generare. n. 
+      <lb ed="#B" n="36"/>non est spirare. Et filius dicitur imago 
+      <lb ed="#B" n="37"/>patris: &amp; spiritussanctus donum amborum 
+      <lb ed="#B" n="38"/>seu nexus amorosus: &amp; non dicitur ima 
+      <lb ed="#B" n="39"/>go patris. Difficile est hic formare 
+      pro<lb ed="#B" n="40" break="no"/>positiones praecisas propter diuersam, et  
+      <lb ed="#B" n="41"/>multiplicem terminorum acceptionem. 
+      </p>
+            <p xml:id="gbs333-a44013-d1e363">
+               <lb ed="#B" n="42"/>¶ Tertia conclusio: quae est Oxta. q. vij. 
+      <lb ed="#B" n="43"/>art. ij. Licet spiritussanctus non 
+      produ<lb ed="#B" n="44" break="no"/>citur a uoluntate, neque contingenter: 
+      <lb ed="#B" n="45"/>producitur tamen per modum 
+      uolun<lb ed="#B" n="46" break="no"/>latis, &amp; libere complacenter. Pro cuius 
+      <lb ed="#B" n="47"/>intellectu notat: quod producere libere 
+      <lb ed="#B" n="48"/>quantum ad genus, potest sic describi. 
+      <lb ed="#B" n="49"/>Est producere uoluntarie complacenter, 
+      <lb ed="#B" n="50"/>&amp; non coacte. Et fere redit in idem cum 
+      <lb ed="#B" n="51"/>dicto Ockam. Probat ergo suam con¬ 
+      <!--262.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>clusionem sic. Prima pars probatur: 
+      uo<lb ed="#B" n="53" break="no"/>luntas diuina est spiritussanctus: igitur 
+      <lb ed="#B" n="54"/>non producitur ab ipsa. Consequentia 
+      <lb ed="#B" n="55"/>tenet: sicut de essentia prius probatum 
+      <lb ed="#B" n="56"/>est dist. v. quod ipsa nec producit: nec 
+      pro<lb ed="#B" n="57" break="no"/>ducitur: quia nihil idem producit 
+      seip<lb ed="#B" n="58" break="no"/>sum &amp;c. Secunda pars probatur: quia 
+      <lb ed="#B" n="59"/>spiritussanctus necessario producitur: 
+      igi<lb ed="#B" n="60" break="no"/>tur non contingenter. Tertia pars 
+      pro<lb ed="#B" n="61" break="no"/>batur: quia Aug. xv. de trin. c. ulti. dicit. 
+      <lb ed="#B" n="62"/>Spiritussanctus exit a patre: non quo 
+      na<lb ed="#B" n="63" break="no"/>tus, sed quo datus. Exire autem per 
+      mo<lb ed="#B" n="64" break="no"/>dum dati, uel doni competit producenti 
+      <lb ed="#B" n="65"/>per actum uoluntatis, cuius est dare ex sua 
+      <lb ed="#B" n="66"/>liberalitate. Quarta pars probatur: 
+      spiri<lb ed="#B" n="67" break="no"/>tussanctus procedit a patre, &amp; filio tamquam 
+      <lb ed="#B" n="68"/>amor quia ipse est dilectio, qua pater 
+      di<lb ed="#B" n="69" break="no"/>ligit filium, &amp; filius patrem: ut patet 
+      per<lb ed="#B" n="70" break="no"/>Hiero. super pras. xiiij. &amp; per Augu. vj. de 
+      <lb ed="#B" n="71"/>trini. quorum dicta magister allegat: sed  
+      <lb ed="#B" n="72"/>spiritussanctus non habet esse: nisi quia 
+      <lb ed="#B" n="73"/>procedit: ut patet per August. v. de trin. 
+      <lb ed="#B" n="74"/>c. xv. &amp; lib. xv. c. vij. igitur &amp;c. Conse- 
+      <lb ed="#B" n="75"/>quentia tenet: quia producere amorem 
+      <lb ed="#B" n="76"/>nemo potest nisi complacenter libere 
+      <lb ed="#B" n="77"/>&amp; incoacte. Ex illo sequitur corollarie: 
+      <lb ed="#B" n="78"/>quod non est inconuentens idem ab eodem 
+      <lb ed="#B" n="79"/>produci necessario, &amp; naturaliter, &amp; 
+      eti<lb ed="#B" n="80" break="no"/>amlibere. Patet: quia spiritussanctus pro 
+      <lb ed="#B" n="81"/>ducitur libere ex dictis. Et etiam 
+      neces<lb ed="#B" n="82" break="no"/>sario cum non possit non produci: ut 
+      pa<lb ed="#B" n="83" break="no"/>tet ex fide. Et etiam naturaliter: ut 
+      pa<lb ed="#B" n="84" break="no"/>tet per Hilarium. v. de trinit. Et allegat  
+      <lb ed="#B" n="85"/>magister distin. xvj. patri: ubi dicit, quod ex 
+      <lb ed="#B" n="86"/>uirturenaturae in eandem naturam 
+      natiui<lb ed="#B" n="87" break="no"/>tate subsistit filius: &amp; ex uirtute naturae 
+      <lb ed="#B" n="88"/>in eandem naturam processione 
+      subsi<lb ed="#B" n="89" break="no"/>stit spiritussanctus. Ex quo ulterius 
+      se<lb ed="#B" n="90" break="no"/>quitur: quod etiam de filio concedi potest, 
+      <lb ed="#B" n="91"/>quod naturaliter, &amp; libere de patre 
+      gene<lb ed="#B" n="92" break="no"/>ratur. Quod naturaliter generetur: 
+      <lb ed="#B" n="93"/>patet ex auctoritate praedicta, &amp; 
+      per<lb ed="#B" n="94" break="no"/>omnes. Et quod libere probatur: quia 
+      uo<lb ed="#B" n="95" break="no"/>luntarie, complacenter &amp; incoacte: ut  
+      <lb ed="#B" n="96"/>patet per magistrum ubi supra circa 
+      fi<lb ed="#B" n="97" break="no"/>nem: ubi dicit, quod pater sicut sapiens ita 
+      <lb ed="#B" n="98"/>uolens genuit filium: sed non 
+      uolunta<lb ed="#B" n="99" break="no"/>te praecedente: sed accedente. Item 
+      pa<lb ed="#B" n="100" break="no"/>ter summe sibi complacuit in 
+      genera<lb ed="#B" n="101" break="no"/>tione filij. iuxta illud. Matth. iij. Hic 
+      <lb ed="#B" n="102"/>est filius meus dilectus, in quo mihi 
+      <!--263.xml-->
+      <pb ed="#B" n="176"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>complacuit: ipsum audite.
+    </p>
+            <p xml:id="gbs333-a44013-d1e511">
+      ¶ Quantum ad 
+      <lb ed="#B" n="2"/>articulum tertium, est dubium primum. 
+      <lb ed="#B" n="3"/>Nam secundum beatum Aug. in Ench. 
+      <lb ed="#B" n="4"/>Liberior est uoluntas, quae non potest 
+      ser<lb ed="#B" n="5" break="no"/>uire peccato. &amp; Ansel. Liberior est 
+      uo<lb ed="#B" n="6" break="no"/>luntas, quae a rectitudine declinare non 
+      <lb ed="#B" n="7"/>potest. Ideo libertas est respectu horum, 
+      <lb ed="#B" n="8"/>quae non sunt in potestate uoluntatis: 
+      <lb ed="#B" n="9"/>&amp; ita respectu necessariorum: 
+      Solutio<lb ed="#B" n="10" break="no"/>Greg. est quod Aug. ibi loquitur de 
+      liber<lb ed="#B" n="11" break="no"/>tate opposita seruituri peccati, &amp; mise- 
+      <lb ed="#B" n="12"/>riae: quia ibidem pauloante dicit. 
+      Libe<lb ed="#B" n="13" break="no"/>rius erit arbitrium, quod omnino non 
+      <lb ed="#B" n="14"/>poterit seruire peccato.
+    </p>
+            <p xml:id="gbs333-a44013-d1e543">
+      ¶ Aliter potest 
+      <lb ed="#B" n="15"/>dici. Liberior est uoluntas confirmata 
+      <lb ed="#B" n="16"/>in bono: non respectu illorum actuum, 
+      <lb ed="#B" n="17"/>ad quos necessario determinatur: sed 
+      respe<lb ed="#B" n="18" break="no"/>ctu aliorum actuum. Nam uoluntas non 
+      <lb ed="#B" n="19"/>potens peccare est liberior non ad 
+      pe<lb ed="#B" n="20" break="no"/>candum: sed ad actus bonos: quia minus 
+      <lb ed="#B" n="21"/>impedita per seruitutem peccati: 
+      alioquno<lb ed="#B" n="22" break="no"/>si necessitas cui adijcitur uoluntas 
+      auge<lb ed="#B" n="23" break="no"/>ret libertatem: etiam uoluntas damnati 
+      <lb ed="#B" n="24"/>esset liberior. Non ergo intendunt san 
+      <lb ed="#B" n="25"/>cti, quod uoluntas respectu alius actus ad quem 
+      <lb ed="#B" n="26"/>necessario se habet: libere operetur: sed 
+      <lb ed="#B" n="27"/>quod uoluntas beati sit libera simpliciter: 
+      <lb ed="#B" n="28"/>&amp; liberior: quam prius. ex eo quia minus 
+      <lb ed="#B" n="29"/>potest nuc impediri in executione 
+      mul<lb ed="#B" n="30" break="no"/>torum actuum a causis extrinsecis: quam 
+      <lb ed="#B" n="31"/>in uia propter illam confirmationem in 
+      <lb ed="#B" n="32"/>bono. Poterit etiam prius cogi ad actus 
+      <lb ed="#B" n="33"/>indecentes imperatos nunc uero 
+      cogi<lb ed="#B" n="34" break="no"/>non potest. Pacit ad hoc dictum beati 
+      <lb ed="#B" n="35"/>August. v. de trinit. c. x. ubi uult: quod 
+      si<lb ed="#B" n="36" break="no"/>cut non minus dicitur deus omnipotens 
+      <lb ed="#B" n="37"/>(quamuis non possit morinec falli) ita 
+      <lb ed="#B" n="38"/>non minus dicitur uoluntas libera: quam 
+      <lb ed="#B" n="39"/>uis necessarium sit eam uelle, quod uult: 
+      <lb ed="#B" n="40"/>necesse inquam necessitate 
+      ineuitabili<lb ed="#B" n="41" break="no"/>tatis: sed non coactionis, Sic enim 
+      uo<lb ed="#B" n="42" break="no"/>luntas cogi non potest: ut habetur in. ij. 
+      <lb ed="#B" n="43"/>dist. vij. de obstinatione damnatorum. 
+      <lb ed="#B" n="44"/>Ita etiam tenet Oyta. qu. vij. arti. ij. Et  
+      <lb ed="#B" n="45"/>ita patet: quod aliter, &amp; aliter respondendum 
+      <lb ed="#B" n="46"/>est in materia huius quaestionis secundum 
+      <lb ed="#B" n="47"/>aliam, &amp; asi mterminorum acceptionem. 
+      </p>
+            <p xml:id="gbs333-a44013-d1e617">
+               <lb ed="#B" n="48"/>¶ Secundum dubium. Vtrum libertas 
+      <lb ed="#B" n="49"/>uoluntatis sit quid distinctum a uolunta 
+      <lb ed="#B" n="50"/>te: &amp; an repugnet necessitati. Ad hoc  
+      <lb ed="#B" n="51"/>breuiter dicitur post dicta in. q.vj. dist. i. 
+      <!--263.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quod non. Neque est conditio intrinseca 
+      <lb ed="#B" n="53"/>potentiae: sed est nomen connotatiuum, 
+      <lb ed="#B" n="54"/>uel conceptus supponens pro 
+      uolunta<lb ed="#B" n="55" break="no"/>te, connotando aliquid posse fieri 
+      con<lb ed="#B" n="56" break="no"/>tingenter ab eadem. Et sic uoluntas 
+      ra<lb ed="#B" n="57" break="no"/>pugnat essentiae diuinae respectu 
+      suiip<lb ed="#B" n="58" break="no"/>sius: hoc est, non praedicatur de essentia 
+      <lb ed="#B" n="59"/>respectu suiipsius. haec enim est falsa: 
+      uo<lb ed="#B" n="60" break="no"/>luntas diuina uult se contingenter, uel 
+      <lb ed="#B" n="61"/>essentiam suam. Conuenit ergo 
+      liber<lb ed="#B" n="62" break="no"/>tas rei perfectae: non in ordine ad 
+      quod<lb ed="#B" n="63" break="no"/>cunque: sed in ordine adid, ad quod 
+      con<lb ed="#B" n="64" break="no"/>tingenter se habet: &amp; non necessario.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="72"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a17825"> <!-- l1d2q2 -->
+            <head xml:id="gbs333-a17825-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a17825-Hd1e104" type="question-title">Utrum perfectiones attributales sit realiter divina essentia</head>
+            <p xml:id="gbs333-a17825-d1e107">
+               <lb ed="#B" n="9"/>QVAESTIO II 
+      <lb ed="#B" n="10"/>VTRVM perfectiones 
+      at<lb ed="#B" n="11" break="no"/>tributales sint realiter 
+      diui<lb ed="#B" n="12" break="no"/>na essentia.
+  </p>
+            <p xml:id="gbs333-a17825-d1e118">
+    Quia enim in 
+      <lb ed="#B" n="13"/>quaestione praecedenti 
+      osten<lb ed="#B" n="14" break="no"/>dit non esse distinctionem ex natura rei 
+      <lb ed="#B" n="15"/>inter essentiam diuinam, &amp; perfectiones 
+      <lb ed="#B" n="16"/>attributales &amp;c. quaerit in hac 
+      quaestio<lb ed="#B" n="17" break="no"/>ne an perfectiones attributales sint rea 
+      <lb ed="#B" n="18"/>liter diuina essentia. Tribus articulis 
+      <lb ed="#B" n="19"/>more solito quaestio terminatur.
+    </p>
+            <p xml:id="gbs333-a17825-d1e137">
+      ¶ Pro 
+      <lb ed="#B" n="20"/>articulo primo dimissis opinionibus, 
+      <lb ed="#B" n="21"/>quas doctor recitat, &amp; impugnat. 
+      No<lb ed="#B" n="22" break="no"/>tandum: quod perfectio attributalis 
+      dupli<lb ed="#B" n="23" break="no"/>citer accipitur. Vno modo pro re ipsa, 
+      <lb ed="#B" n="24"/>quae est perfecta. Alio modo pro signo 
+      <lb ed="#B" n="25"/>praedicabili de re perfecta: &amp; sic etiam 
+      <lb ed="#B" n="26"/>perfectio simpliciter (ut infra. q. iij. in 
+      <lb ed="#B" n="27"/>solutione ultimae rationis) aliquando 
+      <lb ed="#B" n="28"/>proprie accipitur pro aliqua re una 
+      per<lb ed="#B" n="29" break="no"/>fecta nullam includente imperfectionem 
+      <lb ed="#B" n="30"/>essentialiter, nec necessario aliquam 
+      im<lb ed="#B" n="31" break="no"/>perfectionem annexam habente: &amp; illo 
+      <lb ed="#B" n="32"/>modo sola essentia diuina est 
+      perfectio<lb ed="#B" n="33" break="no"/>simpliciter: sic enim esse perfectum 
+      om<lb ed="#B" n="34" break="no"/>ni repugnat creaturae. Nam omnis 
+      crea<lb ed="#B" n="35" break="no"/>tura necessario dependet a creatore: de 
+      <lb ed="#B" n="36"/>pendere autem ab alio imperfectionis es 
+      <lb ed="#B" n="37"/>Accipitur etiam improprie pro 
+      conce<lb ed="#B" n="38" break="no"/>ptu, uel signorem simpliciter perfectam 
+      <lb ed="#B" n="39"/>significante: uidelicet ad quem non 
+      se<lb ed="#B" n="40" break="no"/>quitur illud, de quo praedicatur esse 
+      im<lb ed="#B" n="41" break="no"/>perfectum: ut haec dictio, sapiens, bonum: 
+      <lb ed="#B" n="42"/>uiuens, &amp; huiusmodi: quae conueniunt 
+      <lb ed="#B" n="43"/>tam deo, quam creaturae.
+    </p>
+            <p xml:id="gbs333-a17825-d1e192">
+      ¶ Et horum 
+      ali<lb ed="#B" n="44" break="no"/>qui sunt absoluti, &amp; affirmatiui, qui 
+      ui<lb ed="#B" n="45" break="no"/>delicet non important respectum ad 
+      <lb ed="#B" n="46"/>creaturam: sic enim frequenter auctor 
+      <lb ed="#B" n="47"/>accipit absolutum pro non relatiuo: &amp; 
+      <lb ed="#B" n="48"/>connotatum pro relatiuo: ut intellectus 
+      <lb ed="#B" n="49"/>uoluntas. Aliqui sunt connotatiui, &amp; 
+      <!--159.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>affirmatiuid est important diuinam 
+      essen<lb ed="#B" n="51" break="no"/>tiam respectiue ad creaturam: ut 
+      creati<lb ed="#B" n="52" break="no"/>uus, creans, praedestinans. Quidam sunt 
+      <lb ed="#B" n="53"/>negatiui: ut incorruptibilis, immortalis, 
+      <lb ed="#B" n="54"/>immutabilis &amp;c.
+    </p>
+            <p xml:id="gbs333-a17825-d1e223">
+      ¶ Secundo notandum: 
+      <lb ed="#B" n="55"/>quod auctor in hac quaestione terminum ab 
+      <lb ed="#B" n="56"/>solutum nominat, qui non dicit 
+      respe<lb ed="#B" n="57" break="no"/>ctum dei ad creaturam: siue sit connota 
+      <lb ed="#B" n="58"/>tiuus, siue non: ut intellectus, uoluntas. 
+      <lb ed="#B" n="59"/>Non ergo accipitur hic terminus 
+      abso<lb ed="#B" n="60" break="no"/>lutus: ut distinguitur contra 
+      connota<lb ed="#B" n="61" break="no"/>tiuum.
+    </p>
+            <p xml:id="gbs333-a17825-d1e241">
+      ¶ Tertio notandum: quod secundum 
+      <lb ed="#B" n="62"/>doct. q.ij. tertij quodlibet antiqui sancti 
+      <lb ed="#B" n="63"/>non utebantur hoc uocabulo attributa: 
+      <lb ed="#B" n="64"/>scilicet hoc uocabulo nomina. unde 
+      si<lb ed="#B" n="65" break="no"/>cut modo dicimus attributadiuina: ita 
+      ip<lb ed="#B" n="66" break="no"/>si dicebant nomina diuina.
+    </p>
+            <p xml:id="gbs333-a17825-d1e254">
+      ¶ Notificat  
+      <lb ed="#B" n="67"/>autem attributa sic. Attributa sunt 
+      quae<lb ed="#B" n="68" break="no"/>dam praedicabilia mentalia, uocalia, uel 
+      <lb ed="#B" n="69"/>scripta nata significare, &amp; supponere 
+      peo<lb ed="#B" n="70" break="no"/>deo: quae possunt naturali ratione 
+      inue<lb ed="#B" n="71" break="no"/>stigari, &amp; concludi de eo. Vide Petrum 
+      <lb ed="#B" n="72"/>de Alia. q.vj. ar. ij. bene ualet ad 
+      proposi<lb ed="#B" n="73" break="no"/>tum, Et Greg. distin. viij. per totum 
+      qui<lb ed="#B" n="74" break="no"/>late hanc materiam pertractat.
+    </p>
+            <p xml:id="gbs333-a17825-d1e274">
+      ¶ Pro 
+      ar<lb ed="#B" n="75" break="no"/>ticulo secundo ad quaesitum responsiuum 
+      <lb ed="#B" n="76"/>est conclusio prima. Accipiendo 
+      perfe<lb ed="#B" n="77" break="no"/>ctionem attributalem primo modo prout 
+      <lb ed="#B" n="78"/>est terminus primae impositionis: in 
+      di<lb ed="#B" n="79" break="no"/>uinis non sunt plures perfectiones 
+      attri<lb ed="#B" n="80" break="no"/>butales: Patet: quia in diuinis non sunt 
+      <lb ed="#B" n="81"/>plura perfecta: sicut nec plures essentiae: 
+      <lb ed="#B" n="82"/>uel plures uoluntates: aut plures 
+      intelle<lb ed="#B" n="83" break="no"/>ctus: sed sicut ibi est una simplex essentia: 
+      <lb ed="#B" n="84"/>quae est perfectissima, &amp; infinita, quae est 
+      <lb ed="#B" n="85"/>&amp; intellectus, &amp; uoluntas: nec ab his 
+      di<lb ed="#B" n="86" break="no"/>stincta re, nec ratione, &amp; non plures 
+      es<lb ed="#B" n="87" break="no"/>sentiae, aut intellectus: ita nec plures 
+      per<lb ed="#B" n="88" break="no"/>fectiones. Ita omnia in diuinis, quae sunt 
+      <lb ed="#B" n="89"/>communia tribus, non plurificantur: sed  
+      <lb ed="#B" n="90"/>sunt unum simpliciter &amp; una simplex 
+      es<lb ed="#B" n="91" break="no"/>sentia ab ea omnibus modis indistincta. 
+      </p>
+            <p xml:id="gbs333-a17825-d1e314">
+               <lb ed="#B" n="92"/>¶ Secunda conclusio. Proprie &amp; de 
+      uir<lb ed="#B" n="93" break="no"/>ture sermonis loquendo, non est 
+      conce<lb ed="#B" n="94" break="no"/>dendum: quod in deo, uel diuina essentia 
+      <lb ed="#B" n="95"/>sit perfectio, sed perfectio simpliciter, 
+      <lb ed="#B" n="96"/>uel summa est omnibus modis ipsa 
+      diui<lb ed="#B" n="97" break="no"/>na essentia ab ea paenitus indistincta. 
+      </p>
+            <p xml:id="gbs333-a17825-d1e330">
+               <lb ed="#B" n="98"/>¶ De perfectionibus attributalibus 
+      se<lb ed="#B" n="99" break="no"/>cundo modo dictis est conclusio prima. 
+      <lb ed="#B" n="100"/>perfectiones attributales secundo modo 
+      <!--160.xml-->
+      <pb ed="#B" n="73"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dictae neque sunt deus, neque in 
+      diui<lb ed="#B" n="2" break="no"/>na essentia. Patet. sunt conceptus, uel 
+      <lb ed="#B" n="3"/>signa diuinam essentiam significantia: 
+      <lb ed="#B" n="4"/>illa autem non sunt deus. unde 
+      pro<lb ed="#B" n="5" break="no"/>prie non deberent dici perfectiones 
+      at<lb ed="#B" n="6" break="no"/>tributales: quia non sunt perfectiones 
+      <lb ed="#B" n="7"/>saltem simpliciter: sed aptius dicerentur 
+      <lb ed="#B" n="8"/>conceptus attributales.
+    </p>
+            <p xml:id="gbs333-a17825-d1e363">
+      ¶ Secunda 
+      con<lb ed="#B" n="9" break="no"/>clusio. Perfectiones (uerius conceptus 
+      <lb ed="#B" n="10"/>attributales sunt multae unicam 
+      perfe<lb ed="#B" n="11" break="no"/>ctionem diuinam non synonymae 
+      signi<lb ed="#B" n="12" break="no"/>ficantes. Prima pars, quod sunt multae, 
+      pa<lb ed="#B" n="13" break="no"/>ter ex notabili secundo. Secunda pars 
+      <lb ed="#B" n="14"/>patet ex eodem: quoniam termini 
+      ab<lb ed="#B" n="15" break="no"/>soluti, &amp; relatiui nunquam sunt 
+      syno<lb ed="#B" n="16" break="no"/>numi. neque etiam termini affirmatiui 
+      <lb ed="#B" n="17"/>&amp; negatiui: similiter nec termini, quo 
+      <lb ed="#B" n="18"/>rum unus est superior seu communior 
+      <lb ed="#B" n="19"/>ad alium. Nunc autem quaedam 
+      attri<lb ed="#B" n="20" break="no"/>buta sunt absoluta: quaedam relatiua: 
+      <lb ed="#B" n="21"/>quaedam affirmatiua: idest non 
+      includen<lb ed="#B" n="22" break="no"/>tia negationem quaedam negatiua. Item 
+      <lb ed="#B" n="23"/>quaedam solideo conuenientia: ut 
+      infi<lb ed="#B" n="24" break="no"/>nitus, aeternus: quaedam deo, &amp; 
+      crea<lb ed="#B" n="25" break="no"/>turis communia: ut uiuens, existens 
+      <lb ed="#B" n="26"/>unus intelligens &amp;c.
+    </p>
+            <p xml:id="gbs333-a17825-d1e405">
+      ¶ Conclusio 
+      ter<lb ed="#B" n="27" break="no"/>tia. Attributa secundo modo dicta, quem 
+      <lb ed="#B" n="28"/>sunt conceptus: si conceptus habent 
+      <lb ed="#B" n="29"/>esse tantum obiectiuum in mente: 
+      distin<lb ed="#B" n="30" break="no"/>guuntur inter se ratione, &amp; adiuina 
+      es<lb ed="#B" n="31" break="no"/>sentia sicut ratio, &amp; res: si uero 
+      conce<lb ed="#B" n="32" break="no"/>ptus sunt qualitates animae: 
+      distinguun<lb ed="#B" n="33" break="no"/>tur realitertam inter se quam a diuina 
+      <lb ed="#B" n="34"/>essentia, similiter attributa uocalia, uel 
+      <lb ed="#B" n="35"/>scripta realiter distinguuntur inter se, &amp; 
+      <lb ed="#B" n="36"/>a diuina essentia. Vide Henricum de 
+      <lb ed="#B" n="37"/>Orta. q.v. art. iij. quiplura tangit: &amp; 
+      ra<lb ed="#B" n="38" break="no"/>tiones Sco. tenentis oppositum 
+      distin<lb ed="#B" n="39" break="no"/>viij. q.iiij. soluit prout &amp; Grego. facit 
+      <lb ed="#B" n="40"/>ubi supra. distin. viii.
+    </p>
+            <!-- artic. 3 -->
+            <p xml:id="gbs333-a17825-d1e440">
+      ¶ Articulus tertius 
+      <lb ed="#B" n="41"/>hic rescinditur propter quaestionum 
+      se<lb ed="#B" n="42" break="no"/>quentium pluralitatem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

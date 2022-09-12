@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="219"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a55432"> <!-- l1d17q5 -->
+            <head xml:id="gbs333-a55432-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-a55432-Hd1e104" type="question-title">Utrum caritas praeexistens maneat in fine augmentationis</head>
+            <p xml:id="gbs333-a55432-d1e107">
+               <lb ed="#B" n="77"/>QVAESTIO V 
+      <lb ed="#B" n="78"/>SVpposito, quod charitas augmen 
+      <lb ed="#B" n="79"/>&amp; taripossit. Vtrum charitas 
+      <lb ed="#B" n="80"/>praeexistens maneat in fine 
+      <lb ed="#B" n="81"/>V&amp; augmentationis.
+    </p>
+            <p xml:id="gbs333-a55432-d1e120">
+      ¶ 
+      Recitan<lb ed="#B" n="82" break="no"/>tur &amp; impugnantur a doct. opi. Gotfre 
+      <lb ed="#B" n="83"/>di quodlib. vij. q.vij. &amp; Sco. qeiij. dist. 
+      <lb ed="#B" n="84"/>huius.
+    </p>
+            <p xml:id="gbs333-a55432-d1e130">
+      ¶ Quibus dimissis est 
+      conclusio<lb ed="#B" n="85" break="no"/>responsalis. In augmentatione qualita, 
+      <lb ed="#B" n="86"/>tis, qualitas praecedens non corrumpitur: 
+      <lb ed="#B" n="87"/>sed manet. Probatur: quia si in 
+      augmen<lb ed="#B" n="88" break="no"/>tatione charitas praecedens corrumpere 
+      <lb ed="#B" n="89"/>tur, &amp; noua sequeretur: sequerentur 
+      mu<lb ed="#B" n="90" break="no"/>ta inconuenientia.
+    </p>
+            <p xml:id="gbs333-a55432-d1e146">
+      ¶ Primum, quod 
+      infini<lb ed="#B" n="91" break="no"/>tae formae, quarum nulla esset parsalterius: 
+      <lb ed="#B" n="92"/>in fine augmentationis essent 
+      actua<lb ed="#B" n="93" break="no"/>liter pertransitae: quia quodlibet 
+      instan<lb ed="#B" n="94" break="no"/>ti esset noua forma accidentalis. Sunt 
+      <lb ed="#B" n="95"/>autem infinita instantia.
+    </p>
+            <p xml:id="gbs333-a55432-d1e159">
+      ¶ Secundum, 
+      <lb ed="#B" n="96"/>quod rei permanentis daretur ultimum 
+      in<lb ed="#B" n="97" break="no"/>stans esse naturaliter: qui in quolibet in 
+      <lb ed="#B" n="98"/>stanti augmentationis esset noua quali 
+      <!--307.xml-->
+      <pb ed="#B" n="220"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tas, cum nulla maneret cum alia: ergo 
+      quali<lb ed="#B" n="2" break="no"/>bet qualitas praeter ultimam genita, fuit 
+      <lb ed="#B" n="3"/>tamen per instans. Et per consequens illud 
+      <lb ed="#B" n="4"/>instans esset primum, &amp; ultimum esse 
+      il<lb ed="#B" n="5" break="no"/>lius qualitatis.
+    </p>
+            <p xml:id="gbs333-a55432-d1e185">
+      ¶ Tertium, quod deus posset 
+      <lb ed="#B" n="6"/>facere infinita in actu simul: quod 
+      opi<lb ed="#B" n="7" break="no"/>nantes negant. Probatio: quia oenem rem 
+      <lb ed="#B" n="8"/>productam a causa naturali deus potest 
+      con<lb ed="#B" n="9" break="no"/>seruare durante actione creaturae: sed  
+      <lb ed="#B" n="10"/>formae in augmentatione productae sunt 
+      <lb ed="#B" n="11"/>infinitae. Nec habet haec instantia 
+      locun<lb ed="#B" n="12" break="no"/>in partibus continui: quia illae partes noenm 
+      <lb ed="#B" n="13"/>sunt secundum se totas distincte.
+    </p>
+            <p xml:id="gbs333-a55432-d1e205">
+      ¶ 
+      Quar<lb ed="#B" n="14" break="no"/>tum inconueniens: quia tunc unum con 
+      <lb ed="#B" n="15"/>trariorum esset per se causa contrarij, 
+      <lb ed="#B" n="16"/>puta in remissione caloris, frigiditas 
+      re<lb ed="#B" n="17" break="no"/>mittens esset per se causa caloris: quia pro 
+      <lb ed="#B" n="18"/>quolibet instanti remissionis generatur 
+      <lb ed="#B" n="19"/>nouus calor, minor a causa remittente, 
+      <lb ed="#B" n="20"/>quam est frigiditas: quia a nulla alia causa: 
+      ni<lb ed="#B" n="21" break="no"/>si diceret a causa uniuersali: quod nihil 
+      <lb ed="#B" n="22"/>est: quia uniuersalis agit secundum 
+      exigen<lb ed="#B" n="23" break="no"/>tiam causae particularis, nec caelum cum 
+      <lb ed="#B" n="24"/>frigiditate producit calorem.
+    </p>
+            <p xml:id="gbs333-a55432-d1e231">
+      ¶ Quintum 
+      <lb ed="#B" n="25"/>quod qualitas in fine augmentationis non 
+      <lb ed="#B" n="26"/>esset perfectior aliqua praecedentium: cum 
+      <lb ed="#B" n="27"/>nullaforma sit perfectior alia eiusdem 
+      <lb ed="#B" n="28"/>rationis, nisit propter maiorem pluralitatem 
+      <lb ed="#B" n="29"/>partium eiusdem quantitatis, sed in 
+      aug<lb ed="#B" n="30" break="no"/>mentatione quaelibet formarum est 
+      sim<lb ed="#B" n="31" break="no"/>plex, nullas habes partes intensionales 
+      <lb ed="#B" n="32"/>quia si haberet plures partes, illae 
+      succes<lb ed="#B" n="33" break="no"/>siue producerentur, &amp; ita praecedens pars 
+      <lb ed="#B" n="34"/>maneret cum sequente.
+    </p>
+            <p xml:id="gbs333-a55432-d1e256">
+      ¶ Sextum, quod idem 
+      <lb ed="#B" n="35"/>cent causa corruptionis, &amp; generationis qua 
+      <lb ed="#B" n="36"/>litatum eiusdem rationis Nam generans 
+      po<lb ed="#B" n="37" break="no"/>steriore corrumperet priorem: quae tamen 
+      <lb ed="#B" n="38"/>sunt eiusdem rationis.
+    </p>
+            <p xml:id="gbs333-a55432-d1e267">
+      ¶ Item quritur. In 
+      aug<lb ed="#B" n="39" break="no"/>mentatione charitatis, cum solum 
+      mo<lb ed="#B" n="40" break="no"/>tale peccatum repugnat charitati, ut quae 
+      <lb ed="#B" n="41"/>stione praeced. patuit: quid corrumpat 
+      <lb ed="#B" n="42"/>charitatem priorem.
+    </p>
+            <p xml:id="gbs333-a55432-d1e278">
+      ¶ Item augmentetur 
+      <lb ed="#B" n="43"/>charitas per dece actus meritorios: stat  
+      <lb ed="#B" n="44"/>decimum actum esse minus perfectum 
+      ali<lb ed="#B" n="45" break="no"/>quo priore: tunc charitas in fine manens 
+      <lb ed="#B" n="46"/>esset perfectior praecedente, &amp; ita non 
+      <lb ed="#B" n="47"/>augmentaretur: sed diminueretur. Nam 
+      <lb ed="#B" n="48"/>quilibet actus producit habitum 
+      secun<lb ed="#B" n="49" break="no"/>dum mensuram suae perfectionis id est 
+      per<lb ed="#B" n="50" break="no"/>fectior: perfectiorem.
+    </p>
+            <p xml:id="gbs333-a55432-d1e298">
+      ¶ Si dicis. 
+      Termi<lb ed="#B" n="51" break="no"/>ni motus sunt incompossibiles: sed ter¬ 
+      <!--307.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>mini augmentationis sunt quaiitas 
+      mi<lb ed="#B" n="53" break="no"/>nor, &amp; qualitas maior: ergo sunt incom 
+      <lb ed="#B" n="54"/>possibiles. Rnsio. Termini per se motus 
+      <lb ed="#B" n="55"/>sunt incompossibiles, sed hi sunt non es 
+      <lb ed="#B" n="56"/>se, &amp; esse eiusdem formae. Qualitas uero 
+      <lb ed="#B" n="57"/>praeexistens, nec est subiectum: nec 
+      ter<lb ed="#B" n="58" break="no"/>minus: sed est aliquid praeexistens 
+      unien<lb ed="#B" n="59" break="no"/>dum cum termino a quo.
+    </p>
+            <p xml:id="gbs333-a55432-d1e324">
+      ¶ Corollarium. 
+      <lb ed="#B" n="60"/>Non semper generatio unius est 
+      corru<lb ed="#B" n="61" break="no"/>ptio alterius: sed quando sit generatio cum 
+      <lb ed="#B" n="62"/>abiectione contrarij, uel repugnantis. 
+      </p>
+            <p xml:id="gbs333-a55432-d1e333">
+               <lb ed="#B" n="63"/>¶ Secundo sequitur; quod in eodem stant 
+      <lb ed="#B" n="64"/>maior, &amp; minor charitas, hoc est 
+      inten<lb ed="#B" n="65" break="no"/>sior. &amp; remissior: quia pars &amp; totum. Nec 
+      <lb ed="#B" n="66"/>tamen ideo idem est magis, &amp; minus 
+      inten<lb ed="#B" n="67" break="no"/>sum: quia neque pars qualitatis, neque tota, 
+      <lb ed="#B" n="68"/>neque subiectu dicitur magis, &amp; minus tale a 
+      <lb ed="#B" n="69"/>pte: sed a tota qualitate. Et ita magis, &amp; 
+      <lb ed="#B" n="70"/>minus sunt contraria id est denominationes 
+      <lb ed="#B" n="71"/>contrariae, non tamen contrariae id est 
+      repugnan<lb ed="#B" n="72" break="no"/>tes: quia maior, &amp; minor qualitas stant  
+      <lb ed="#B" n="73"/>simul. Hoc est summarium illorum, quae 
+      <lb ed="#B" n="74"/>per doct. habentur in quaestione ista. 
+      Vi<lb ed="#B" n="75" break="no"/>de latius in doct. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

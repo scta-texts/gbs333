@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="222"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a56059"> <!-- l1d17q7 -->
+            <head xml:id="gbs333-a56059-Hd1e102">Quaestio 7</head>
+            <head xml:id="gbs333-a56059-Hd1e104" type="question-title">
+    Utrum illud quod in caritatis augmentatione 
+    additae sit eiusdem speciei specialissimae in caritate praecedente se parata ab ea
+  </head>
+            <p xml:id="gbs333-a56059-d1e107">
+               <lb ed="#B" n="13"/>QVAESTIO VII 
+      <lb ed="#B" n="14"/>TRVM illud, quod in cha 
+      <lb ed="#B" n="15"/>ritatis augmentatione 
+      addi<lb ed="#B" n="16" break="no"/>tur sit eiusdem speciei 
+      spe<lb ed="#B" n="17" break="no"/>cialissimaecum charitate 
+      prae<lb ed="#B" n="18" break="no"/>cedente separata ab ea.
+    </p>
+            <p xml:id="gbs333-a56059-d1e123">
+      ¶ Re 
+      <lb ed="#B" n="19"/>citatur, &amp; impugnatur a doc. opinio 
+      Pe<lb ed="#B" n="20" break="no"/>tri Aureoli habens tres articulos. 
+      Qua<lb ed="#B" n="21" break="no"/>dimissa ponentur conclusiones 
+      respon<lb ed="#B" n="22" break="no"/>sales pro articulo primo, &amp; dubiorum 
+      so<lb ed="#B" n="23" break="no"/>lutiones pro secundo.
+    </p>
+            <p xml:id="gbs333-a56059-d1e137">
+      ¶ Pro articulo 
+      pri<lb ed="#B" n="24" break="no"/>mo est conclusio prima. Gradus charita 
+      <lb ed="#B" n="25"/>tis per augmentationem superadditus es 
+      <lb ed="#B" n="26"/>eiusdem rationis specificae cum charitate 
+      <lb ed="#B" n="27"/>praeexistente, cuiunitur. Patet: quia 
+      nun<lb ed="#B" n="28" break="no"/>quam res augeri potest per aliquid 
+      alte<lb ed="#B" n="29" break="no"/>rius rationis. Praeterea pars aquae loco 
+      <lb ed="#B" n="30"/>distincta ab alia parte eiusdem: similiter 
+      <lb ed="#B" n="31"/>pars albedinis est eiusdem rationis: ergo 
+      <lb ed="#B" n="32"/>&amp; pars charitatis est eiusdem rationis cum 
+      <lb ed="#B" n="33"/>alia parte, a qua nec loco distinguitur, 
+      <lb ed="#B" n="34"/>nec subjecto.
+    </p>
+            <p xml:id="gbs333-a56059-d1e163">
+      ¶ Item charitas est quid 
+      <lb ed="#B" n="35"/>homogeneum: ergo partes sunt eiusdem 
+      <lb ed="#B" n="36"/>rationis inter se, &amp; cum toto.
+    </p>
+            <p xml:id="gbs333-a56059-d1e170">
+      ¶ Item 
+      <lb ed="#B" n="37"/>nisi sic: cum uniuntur: unum haberet se 
+      <lb ed="#B" n="38"/>ut materia: aliud ut forma. 
+      Quandocun<lb ed="#B" n="39" break="no"/>que enim aliquid componitur ex 
+      aliqui<lb ed="#B" n="40" break="no"/>bus diuersae rationis: unum habebit se ut  
+      <lb ed="#B" n="41"/>materia, &amp; subiectum: aliud ut forma, 
+      <lb ed="#B" n="42"/>uel potentia &amp; actus. Nullibi inuenitur 
+      <lb ed="#B" n="43"/>instantia.
+    </p>
+            <p xml:id="gbs333-a56059-d1e188">
+      ¶ Corollarium. Quilibet 
+      gra<lb ed="#B" n="44" break="no"/>dus charitatis aduciens est charitas. 
+      Pa<lb ed="#B" n="45" break="no"/>tet: quia terminus absolutus 
+      uerificabi<lb ed="#B" n="46" break="no"/>lis de aliquo, etiam de quolibet eiusdem 
+      <lb ed="#B" n="47"/>rationis praedicatur.
+    </p>
+            <p xml:id="gbs333-a56059-d1e199">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="48" break="no"/>sio. Charitas superaddita potest per se 
+      <!--309.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>fieri. Probatur: quia quaecunque eiusdem 
+      <lb ed="#B" n="50"/>rationis sunt realiter distincta, quorum 
+      <lb ed="#B" n="51"/>unum non est pars alterius: deus potest 
+      <lb ed="#B" n="52"/>separatim producere, &amp; separatim 
+      con<lb ed="#B" n="53" break="no"/>seruare. Probatur: quia non maior 
+      ratio<lb ed="#B" n="54" break="no"/>quare potius una, quam aliam: potest 
+      au<lb ed="#B" n="55" break="no"/>tem seorsum producere, &amp; conseruare 
+      <lb ed="#B" n="56"/>praecedentem: ergo &amp; sequentem.
+    </p>
+            <p xml:id="gbs333-a56059-d1e225">
+      ¶ Item 
+      <lb ed="#B" n="57"/>hoc nullam implicat contradictionem: 
+      <lb ed="#B" n="58"/>ergo.
+    </p>
+            <p xml:id="gbs333-a56059-d1e233">
+      ¶ Tertia conclusio. Gradus 
+      addi<lb ed="#B" n="59" break="no"/>tus alteri non potest intuitiue uideri a 
+      <lb ed="#B" n="60"/>creatura naturaliter sine alio. secus de 
+      <lb ed="#B" n="61"/>potentia diuina: dequo supra. qeiiij. Ha 
+      <lb ed="#B" n="62"/>Primum patet: quia cum illi gradus sunt 
+      <lb ed="#B" n="63"/>simulpenetratiui: aeque apptoximantur  
+      <lb ed="#B" n="64"/>potentiae: ergo aeque cognoscuntur: cum 
+      <lb ed="#B" n="65"/>cognoscere est operatio naturalis: non 
+      <lb ed="#B" n="66"/>uoluntaria. Secundum patet: quia 
+      quili<lb ed="#B" n="67" break="no"/>bet graduum potest per se produci, &amp; es 
+      <lb ed="#B" n="68"/>se: &amp; ita intuitiue cognosci. Sed deus 
+      po<lb ed="#B" n="69" break="no"/>test illam cognitionem intuitiuam 
+      con<lb ed="#B" n="70" break="no"/>seruare in intellectu creato, etiam post 
+      <lb ed="#B" n="71"/>unionem graduum: ergo &amp;c.
+    </p>
+            <p xml:id="gbs333-a56059-d1e264">
+      ¶ 
+      Quan<lb ed="#B" n="72" break="no"/>tum ad articulum secundum est dubium 
+      <lb ed="#B" n="73"/>primum. Quomodo differt augmenta 
+      <lb ed="#B" n="74"/>tio quantitatis, similiter rarefactio, &amp; 
+      <lb ed="#B" n="75"/>condensatio ab augmentatione qualita 
+      <lb ed="#B" n="76"/>tis. Responsio. Si quantitas non 
+      distin<lb ed="#B" n="77" break="no"/>guitur a re quanta: tanc augmentatio 
+      <lb ed="#B" n="78"/>quantitatis non sit per adgenerationem 
+      <lb ed="#B" n="79"/>alicuius noue realitatis. Nec diminutio 
+      <lb ed="#B" n="80"/>per deperditionem alicuius 
+      praeexisten<lb ed="#B" n="81" break="no"/>tis realitatis: sed sit per solum motum 
+      lo<lb ed="#B" n="82" break="no"/>calem partium: ut per maiorem 
+      approxi<lb ed="#B" n="83" break="no"/>mationem extremitatum lineae sit iprsa 
+      <lb ed="#B" n="84"/>curuior. Similiter rarefactio sit per hoc, 
+      <lb ed="#B" n="85"/>quod res quanta maiori loco postea 
+      coad<lb ed="#B" n="86" break="no"/>sistit, quam prius, &amp; condensatio 
+      econ<lb ed="#B" n="87" break="no"/>uerso. Si uero quantitas est accidens 
+      di<lb ed="#B" n="88" break="no"/>stinctum a substantia, &amp; quantitate: tumnc 
+      <lb ed="#B" n="89"/>sit per superuenientem nouam quanti 
+      <lb ed="#B" n="90"/>tatem: cum prior manere non potest: 
+      <lb ed="#B" n="91"/>sed praecedens semper corrumpitur: quia 
+      <lb ed="#B" n="92"/>nisi sic: tunc uel duae quantitates essent 
+      <lb ed="#B" n="93"/>simul in eodem subjecto: uel accidens 
+      mi<lb ed="#B" n="94" break="no"/>graret. utrumque est impossibile 
+      natu<lb ed="#B" n="95" break="no"/>raliter.
+    </p>
+            <p xml:id="gbs333-a56059-d1e319">
+      ¶ Item si illae duae quantitates 
+      <lb ed="#B" n="96"/>essent praecise simul per eas res non esset 
+      <lb ed="#B" n="97"/>magis extensa, seu maior secundum 
+      ex<lb ed="#B" n="98" break="no"/>tensionem: sed bene maior secundum in 
+      D<lb ed="#B" n="99" break="no"/>tensionem.
+    </p>
+            <p xml:id="gbs333-a56059-d1e330">
+      ¶ Secundum dubium. Qua c 
+      <!--310.xml-->
+      <pb ed="#B" n="223"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>unione uniuntur partes charitatis. 
+      Re<lb ed="#B" n="2" break="no"/>Ironsio: quod uniuntur se totis: non secundum 
+      <lb ed="#B" n="3"/>sua ultima: quia non habent ultima cum 
+      <lb ed="#B" n="4"/>sintextensite indiuisibiles. Et si essent 
+      <lb ed="#B" n="5"/>extensae, ut gradus albedinis unirentur: 
+      <lb ed="#B" n="6"/>tamen se totis sicut forma materiae, &amp; 
+      acci<lb ed="#B" n="7" break="no"/>dens subjecto: non quod unus gradus sit sub 
+      <lb ed="#B" n="8"/>iectum alterius: sed ita sunt sibi 
+      praesen<lb ed="#B" n="9" break="no"/>res secundum se totos sicut accidens sub 
+      <lb ed="#B" n="10"/>iecto. Et potest nominari unio homogenei 
+      <lb ed="#B" n="11"/>tatis, qua aliqua eiusdem rationis faciunt 
+      <lb ed="#B" n="12"/>unum numero.
+    </p>
+            <p xml:id="gbs333-a56059-d1e365">
+      ¶ Sidicis: quo faciunt 
+      <lb ed="#B" n="13"/>unum numero, cum distinguatur. Dicit 
+      <lb ed="#B" n="14"/>quod constituunt unum totum, quod 
+      nu<lb ed="#B" n="15" break="no"/>mero distinguitur a quolibet alio toto: 
+      <lb ed="#B" n="16"/>sicut materia, &amp; forma constituunt totum. 
+      <lb ed="#B" n="17"/>quod est unum numero: licet materia, &amp; 
+      <lb ed="#B" n="18"/>forma distinguantur non tamen numero: 
+      <lb ed="#B" n="19"/>sed specie, &amp; genere.
+    </p>
+            <p xml:id="gbs333-a56059-d1e383">
+      ¶ Corollarium. 
+      Duo<lb ed="#B" n="20" break="no"/>accidentia solo numero differentia sunt 
+      <lb ed="#B" n="21"/>in eodem: quod uerum est, dum 
+      consti<lb ed="#B" n="22" break="no"/>tuunt unum: alias non.
+    </p>
+            <p xml:id="gbs333-a56059-d1e393">
+      ¶ Tertium 
+      du<lb ed="#B" n="23" break="no"/>bium. Quomodo saluatur unitas 
+      spe<lb ed="#B" n="24" break="no"/>cifica inter charitatem minus, &amp; magis 
+      <lb ed="#B" n="25"/>intensam: cum plus conueniant inter se 
+      <lb ed="#B" n="26"/>duae charitates eiusdem intensionis, quam 
+      <lb ed="#B" n="27"/>cum charitate magis, uel minus 
+      intensa<lb ed="#B" n="28" break="no"/>Et ita ab illa conuententia maiore potest 
+      <lb ed="#B" n="29"/>abstrahi conceptus conmunis adaequatus 
+      <lb ed="#B" n="30"/>charitatibus eiusdem intensionis: &amp; non 
+      <lb ed="#B" n="31"/>alijs.
+    </p>
+            <p xml:id="gbs333-a56059-d1e415">
+      ¶ Dicendum, quod non potest 
+      dari<lb ed="#B" n="32" break="no"/>conceptus conis contentus quidditatiue 
+      <lb ed="#B" n="33"/>sub charitate. Contra dicitur: quod ad 
+      ab<lb ed="#B" n="34" break="no"/>strahendum conceptum conem quiddita 
+      <lb ed="#B" n="35"/>tiuum, non sufficit conuenientia 
+      essen<lb ed="#B" n="36" break="no"/>tialis aliquorum inter se, &amp; non cum alijs: 
+      <lb ed="#B" n="37"/>nisi sit tanta differentia eorum ab alijs 
+      <lb ed="#B" n="38"/>quod in quolibet aliorum inueniatur aliqud 
+      <lb ed="#B" n="39"/>cui nihil simillimum inuenitur in sic 
+      ca<lb ed="#B" n="40" break="no"/>uenientibus. Et ideo licet duae charita 
+      <lb ed="#B" n="41"/>tes ut sex, inter se plus conueniant, quod 
+      <lb ed="#B" n="42"/>charitas ut sex, &amp; charitas ut quatuor: 
+      <lb ed="#B" n="43"/>quia tamen nihilest in charitate ut quatuor: 
+      <lb ed="#B" n="44"/>quin sibi simillimum reperitur in 
+      chari<lb ed="#B" n="45" break="no"/>tate ut sex: ideo quicunque; conceptus ab 
+      <lb ed="#B" n="46"/>stractus conis significat charitatem ut sex: 
+      <lb ed="#B" n="47"/>significat etiam charitatem ut quatuor: 
+      <lb ed="#B" n="48"/>&amp; om charitatem cuiuscunque; gradus 
+      <lb ed="#B" n="49"/>Posset tamen abstrahi a supradicta 
+      conue<lb ed="#B" n="50" break="no"/>nientia conceptus accidentalis connc 
+      <lb ed="#B" n="51"/>tatiuus numeri talis graduum. Vndae con¬ 
+      <!--310.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ceptus abstractus sumptus ab aliqua 
+      con<lb ed="#B" n="53" break="no"/>uenientia, significat omnia illa sic 
+      con<lb ed="#B" n="54" break="no"/>uenientia, &amp; omnia in quibus nihil est, 
+      <lb ed="#B" n="55"/>cuius simillimum non est in sic 
+      conue<lb ed="#B" n="56" break="no"/>nientibus.
+    </p>
+            <p xml:id="gbs333-a56059-d1e476">
+      ¶ Si dicis, simile non 
+      augmen<lb ed="#B" n="57" break="no"/>tat simile: ut patet de duabus aquis 
+      tepi<lb ed="#B" n="58" break="no"/>dis simuliunctis: ubi tamen additur gradus 
+      <lb ed="#B" n="59"/>gradui: ergo. Solutio: simile additum 
+      si<lb ed="#B" n="60" break="no"/>mili ineadem parte subiecti praecise aug 
+      <lb ed="#B" n="61"/>mentat: non autem in diuersis subiectis 
+      <lb ed="#B" n="62"/>Nunc autem si duo repida simul fundan 
+      <lb ed="#B" n="63"/>tur: quaelibet tepiditas manet in suo sub 
+      <lb ed="#B" n="64"/>iecto.
+    </p>
+            <p xml:id="gbs333-a56059-d1e496">
+      ¶ Quartum dubium. Ex duobus in 
+      <lb ed="#B" n="65"/>actu non sit unum tertium: ergo illi 
+      gra<lb ed="#B" n="66" break="no"/>dus non uniunt. Rndetur. Ex duobus 
+      <lb ed="#B" n="67"/>in actu alterius, &amp; alterius rationis non 
+      <lb ed="#B" n="68"/>sit unum. Et ideo quando componibilia sunt 
+      <lb ed="#B" n="69"/>alterius, &amp; alterius rationis: non sit ex eis 
+      <lb ed="#B" n="70"/>unum: nisi unum sit actus, &amp; aliud 
+      poten<lb ed="#B" n="71" break="no"/>tia. Qam autem sunt eiusdem rationis ut  
+      <lb ed="#B" n="72"/>in proposito in graduum unione, sit ex 
+      <lb ed="#B" n="73"/>eis unum: secus si non sunt eiusdem 
+      ratio<lb ed="#B" n="74" break="no"/>nis ut pars aquae &amp; ignis.
+    </p>
+            <p xml:id="gbs333-a56059-d1e520">
+      ¶ Dubitatur  
+      <lb ed="#B" n="75"/>quinto, quodo accidentia diitura numero 
+      fa<lb ed="#B" n="76" break="no"/>ciunt unum numero. Endetur: aliqua 
+      dif<lb ed="#B" n="77" break="no"/>ferre numero intelligitur dupliciter. 
+      <lb ed="#B" n="78"/>Vno modo: quia sunt aliqua eiusdem 
+      ra<lb ed="#B" n="79" break="no"/>tionis, quorum unum non est aliud 
+      rea<lb ed="#B" n="80" break="no"/>liter. Et sic omnes partes eiusdem rationis 
+      dif<lb ed="#B" n="81" break="no"/>ferunt numero: &amp; tamen faciunt unum 
+      nu<lb ed="#B" n="82" break="no"/>mero. Alio modo: quia sunt tota non 
+      <lb ed="#B" n="83"/>constituentia unum, &amp; sic uerum est, quod 
+      <lb ed="#B" n="84"/>numero differentia non faciunt unum 
+      <lb ed="#B" n="85"/>numero: sed sic nihil ad propositum.
+    </p>
+            <p xml:id="gbs333-a56059-d1e546">
+      ¶ 
+      Du<lb ed="#B" n="86" break="no"/>bitatur sexto. Vtrum possibile sit duo 
+      <lb ed="#B" n="87"/>accidentia solo numero differentia, 
+      fa<lb ed="#B" n="88" break="no"/>cientia tamen unum accidens: esse in eodem. 
+      <lb ed="#B" n="89"/>Endetur quod sic Sed duo accidentia nata 
+      <lb ed="#B" n="90"/>facere unum esse in eodem, &amp; quod non 
+      fa<lb ed="#B" n="91" break="no"/>ciant unum numero est impossibile per 
+      na<lb ed="#B" n="92" break="no"/>turam. Et tamen de abbreuiatione quaestio 
+      <lb ed="#B" n="93"/>nis praesentis.
+    </p>
+            <p xml:id="gbs333-a56059-d1e567">
+      ¶ Dubitatur septimo con 
+      <lb ed="#B" n="94"/>tra id, quod dictum est, quod illi gradus 
+      ma<lb ed="#B" n="95" break="no"/>nent simul: &amp; gradus gradui 
+      coniungi<lb ed="#B" n="96" break="no"/>tur &amp;c. gradus tales non manent 
+      si<lb ed="#B" n="97" break="no"/>mul: ergo non adduntur sibi. 
+      Antece<lb ed="#B" n="98" break="no"/>dens probatur. Tum quia termini motus 
+      <lb ed="#B" n="99"/>sunt incompossibiles: sed charitas 
+      praeexi<lb ed="#B" n="100" break="no"/>stens, &amp; supaddita sunt termini 
+      augmen<lb ed="#B" n="101" break="no"/>tationis. Tum quia tumc charitas intensior enset 
+      <lb ed="#B" n="102"/>compositior: &amp; minus perfecta: immo nec. 
+      <!--311.xml-->
+      <pb ed="#B" n="224"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>esset forma: cum forma composito 
+      adue<lb ed="#B" n="2" break="no"/>nmat, &amp; simplicitate inuariabili essentia 
+      <lb ed="#B" n="3"/>consistat secundum auctorem. vj. 
+      princi<lb ed="#B" n="4" break="no"/>piorum. Tum quia charitas maior, &amp; 
+      mi<lb ed="#B" n="5" break="no"/>nor contrariatur. v. Phys.Tum quia quem 
+      <lb ed="#B" n="6"/>libet forma de nominat suum subiectum: 
+      <lb ed="#B" n="7"/>&amp; sic idem esset magis, &amp; minus eatum, 
+      </p>
+            <p xml:id="gbs333-a56059-d1e611">
+               <lb ed="#B" n="8"/>¶ Ad illas rationes breuiter dicitur. Ad 
+      <lb ed="#B" n="9"/>primam negetur anis. Ad probationem 
+      <lb ed="#B" n="10"/>dicitur. Verum est de terminis per se, 
+      qu<lb ed="#B" n="11" break="no"/>sunt priuatio; &amp; habitus. De hoc supra 
+      <lb ed="#B" n="12"/>q. v. B.
+    </p>
+            <p xml:id="gbs333-a56059-d1e624">
+      ¶ Ad secundam dicitur: quod non 
+      <lb ed="#B" n="13"/>semper compositius est minus perfectum: 
+      <lb ed="#B" n="14"/>quia compositum substantiale non est 
+      <lb ed="#B" n="15"/>minus perfectum altera partium. Quod 
+      <lb ed="#B" n="16"/>forma est simplex essentia: uerum est 
+      per<lb ed="#B" n="17" break="no"/>priuationem partium diuersarum 
+      ratio<lb ed="#B" n="18" break="no"/>num: non sic compositum.
+    </p>
+            <p xml:id="gbs333-a56059-d1e640">
+      ¶ Ad tertiam 
+      <lb ed="#B" n="19"/>negetur: sed bene denominationes sunt 
+      <lb ed="#B" n="20"/>contrariae large id est non sconueniunt eidem¬ 
+      </p>
+            <p xml:id="gbs333-a56059-d1e647">
+               <lb ed="#B" n="21"/>¶ Ad quartum dicitur, quod quaelibet forma 
+      <lb ed="#B" n="22"/>totalis denominat subiectum. Non autem 
+      <lb ed="#B" n="23"/>oportet de forma partiali saltem 
+      deno<lb ed="#B" n="24" break="no"/>minatione imposita: potest tamen 
+      denomi<lb ed="#B" n="25" break="no"/>nare denominatione imposita, uel 
+      im<lb ed="#B" n="26" break="no"/>ponenda ut sit in eodem subjecto 
+      chari<lb ed="#B" n="27" break="no"/>tas ut quatuor. Primus gradus 
+      denomi<lb ed="#B" n="28" break="no"/>nathac denominatione habere unum 
+      gra<lb ed="#B" n="29" break="no"/>dum sine exclusione. Et sic non sequitur 
+      <lb ed="#B" n="30"/>idem esse maius, &amp; minus: sed bene idem 
+      <lb ed="#B" n="31"/>habere maiorem, &amp; minorem gradum: 
+      si<lb ed="#B" n="32" break="no"/>ue idem esse compositum ex maiori, &amp; 
+      <lb ed="#B" n="33"/>minori.
+    </p>
+            <p xml:id="gbs333-a56059-d1e678">
+      ¶ Item ex alio potest adhuc 
+      ar<lb ed="#B" n="34" break="no"/>gui. Augmentatio non sit peradditionem 
+      <lb ed="#B" n="35"/>gradus ad gradum: quia secundum 
+      phi<lb ed="#B" n="36" break="no"/>losophum. iij. Topic. Albius est, quod est 
+      <lb ed="#B" n="37"/>nigro impermixtius.
+    </p>
+            <p xml:id="gbs333-a56059-d1e690">
+      ¶ Item si album 
+      con<lb ed="#B" n="38" break="no"/>densatur, erit magis album: &amp; tamen non 
+      ad<lb ed="#B" n="39" break="no"/>ditur maior gradus albedinis.
+    </p>
+            <p xml:id="gbs333-a56059-d1e697">
+      ¶ Item 
+      si<lb ed="#B" n="40" break="no"/>sic, uel gradus adueniens esset 
+      acciden<lb ed="#B" n="41" break="no"/>talis priori: &amp; sic non facerent unum: aut  
+      <lb ed="#B" n="42"/>essentialis, &amp; sic haberent se ut actus, &amp; 
+      <lb ed="#B" n="43"/>potentia.
+    </p>
+            <p xml:id="gbs333-a56059-d1e708">
+      ¶ Item augmentatio esset 
+      ge<lb ed="#B" n="44" break="no"/>neratio: quiat sset productio gradus 
+      de<lb ed="#B" n="45" break="no"/>nouo.
+    </p>
+            <p xml:id="gbs333-a56059-d1e715">
+      ¶ Ad illa dicitur ad Philosophum 
+      <lb ed="#B" n="46"/>Verum est in qualitatibus contrarijs 
+      ha<lb ed="#B" n="47" break="no"/>bentibus transmutationem circa idem. 
+      <lb ed="#B" n="48"/>Vel capit impermixtionem improprie 
+      <lb ed="#B" n="49"/>pro maiori recessu a contrario.
+    </p>
+            <p xml:id="gbs333-a56059-d1e726">
+      ¶ Ad 
+      se<lb ed="#B" n="50" break="no"/>cundum dicitur, quod per condensationem 
+      <lb ed="#B" n="51"/>non sit magis albu: sed quia partes sibi 
+      <!--311.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>magis adiacent: apparet magis albedo. 
+      </p>
+            <p xml:id="gbs333-a56059-d1e739">
+               <lb ed="#B" n="53"/>¶ Ad tertium dicitur: quod gradus adueniens 
+      <lb ed="#B" n="54"/>est accidentalis priori. Nec sequitur: quod 
+      <lb ed="#B" n="55"/>ideo non faciat unum: quia forma est 
+      ac<lb ed="#B" n="56" break="no"/>cidentalis materiae: &amp; tamen facit cum ea unum. 
+      </p>
+            <p xml:id="gbs333-a56059-d1e751">
+               <lb ed="#B" n="57"/>¶ Ad quartum conceditur: quod augmenta 
+      <lb ed="#B" n="58"/>tio est gnatio large, ut dicit generaliter 
+      <lb ed="#B" n="59"/>quamlibet productionem rei de 
+      nouo<lb ed="#B" n="60" break="no"/>Non autem gnatio stricte pro gnatione 
+      <lb ed="#B" n="61"/>substantiali. de hoc. q.vj. art. iij.
+    </p>
+            <p xml:id="gbs333-a56059-d1e764">
+      ¶ Si 
+      re<lb ed="#B" n="62" break="no"/>plicatur. Si est ganatio: ergo non sit sine 
+      <lb ed="#B" n="63"/>corruptione: &amp; per consequens 
+      adue<lb ed="#B" n="64" break="no"/>niente nouo gradu corrumpitur prior: 
+      <lb ed="#B" n="65"/>quia nihil aliud corrumpitur. Rndetur, quod 
+      <lb ed="#B" n="66"/>non uniuersaliter gnatio unius est cor 
+      <lb ed="#B" n="67"/>ruptio alterius: sed illa sola quae sit cum ab 
+      <lb ed="#B" n="68"/>iectione contrarij: ut patuit. q. v. B.
+    </p>
+            <p xml:id="gbs333-a56059-d1e782">
+      ¶ 
+      Du<lb ed="#B" n="69" break="no"/>bitatur contra id scilicet quod illi gradus sint eius 
+      <lb ed="#B" n="70"/>dem speciei, &amp; solo numero disserant, 
+      </p>
+            <p xml:id="gbs333-a56059-d1e789">
+               <lb ed="#B" n="71"/>¶ Contra primam rartem sic potest 
+      argui<lb ed="#B" n="72" break="no"/>Gradus charitatis non sunt eiusdem 
+      spe<lb ed="#B" n="73" break="no"/>cie: necinter se: nec cum tota charitate. 
+      <lb ed="#B" n="74"/>Probatur: quia non sunt eiusdem 
+      perfe<lb ed="#B" n="75" break="no"/>ctionis essentialis: nam charitas intensior 
+      <lb ed="#B" n="76"/>est perfectior minus intensa: ergo non 
+      <lb ed="#B" n="77"/>sunt eiusdem speciei. Tenet 
+      consequen<lb ed="#B" n="78" break="no"/>tia: quia species habent se ut numeri¬ 
+      </p>
+            <p xml:id="gbs333-a56059-d1e809">
+               <lb ed="#B" n="79"/>¶ Item indiuidua eiusdem speciei sunt 
+      si<lb ed="#B" n="80" break="no"/>millima: sed gradus diuersae perfectionis 
+      <lb ed="#B" n="81"/>non sunt simillimi: ergo.
+    </p>
+            <p xml:id="gbs333-a56059-d1e818">
+      ¶ Item a 
+      qui<lb ed="#B" n="82" break="no"/>buscumque praesent sumi conceptus specifice 
+      dif<lb ed="#B" n="83" break="no"/>ferentes: ipsa differunt specie: sed tales 
+      <lb ed="#B" n="84"/>possunt sumia diuersis gradibus eiusdem 
+      <lb ed="#B" n="85"/>charitatis diuersae perfectionis: ergo. 
+      Mi<lb ed="#B" n="86" break="no"/>nor probatur: quia ab omni 
+      conuenien<lb ed="#B" n="87" break="no"/>tia essentiali sumitur conceptus 
+      specifi<lb ed="#B" n="88" break="no"/>cus: sed magis conueniunt essentialiter  
+      <lb ed="#B" n="89"/>duc charitates eiusdem intensionis inter 
+      <lb ed="#B" n="90"/>se, quam cum charitatibus magis, uel minus 
+      <lb ed="#B" n="91"/>intensis: ergo ab illa potest sumi 
+      conce<lb ed="#B" n="92" break="no"/>ptus illis sic conuenientibus adaequatus. 
+      <lb ed="#B" n="93"/>Et quia erit conmunis, &amp; absolutus: erit 
+      <lb ed="#B" n="94"/>specificus.
+    </p>
+            <p xml:id="gbs333-a56059-d1e850">
+      ¶ Contra aliam partem 
+      solo<lb ed="#B" n="95" break="no"/>numero differentes, &amp;c. Accidentia solo  
+      <lb ed="#B" n="96"/>numero differentia non possunt esse in 
+      <lb ed="#B" n="97"/>eodem subjecto.
+    </p>
+            <p xml:id="gbs333-a56059-d1e859">
+      ¶ Item cum unus 
+      gra<lb ed="#B" n="98" break="no"/>dus posset uideri sine alio.
+    </p>
+            <p xml:id="gbs333-a56059-d1e864">
+      ¶ Ad primum d 
+      <lb ed="#B" n="99"/>conceditur: quod non sunt eiusdem 
+      perfe<lb ed="#B" n="100" break="no"/>ctionis essentialis, &amp; negetur consequen. p 
+      <lb ed="#B" n="101"/>tia. Ad philosophum loquitur de diffini 
+      i<lb ed="#B" n="102" break="no"/>tione speciei, quae per additionem disse si 
+      <!--312.xml-->
+      <pb ed="#B" n="225"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rentiae uariatur sic ut species 
+      numero<lb ed="#B" n="2" break="no"/>rum.
+    </p>
+            <p xml:id="gbs333-a56059-d1e886">
+      ¶ Verumetiam est quod indiuidua 
+      eius<lb ed="#B" n="3" break="no"/>dem rationis non sunt diuersae 
+      perfectio<lb ed="#B" n="4" break="no"/>nis, quorum unum non potest esse pars 
+      <lb ed="#B" n="5"/>alterius. Hic autem in proposito charitas 
+      <lb ed="#B" n="6"/>charitati adiungitur, ut pars toti.
+    </p>
+            <p xml:id="gbs333-a56059-d1e897">
+      ¶ Ad 
+      <lb ed="#B" n="7"/>tertium negetur minor. Ad probationem 
+      <lb ed="#B" n="8"/>dicitur: quod solum ab illa conuententia 
+      su<lb ed="#B" n="9" break="no"/>mitur conceptus specificus. quando 
+      conue<lb ed="#B" n="10" break="no"/>nientia sic se habent, quod in quolibet sic 
+      <lb ed="#B" n="11"/>conuenientium sit aliquid cui nihil 
+      simil<lb ed="#B" n="12" break="no"/>limum inueniatur in alio Nunc ergo 
+      li<lb ed="#B" n="13" break="no"/>cet plus conueniant charitates duaeut  
+      <lb ed="#B" n="14"/>quatuor inter se, quam cum charitate ut tres: 
+      <lb ed="#B" n="15"/>tamen quia nihil est in charitate ut tres: 
+      cui<lb ed="#B" n="16" break="no"/>non sit aliquod simillimum in 
+      charita<lb ed="#B" n="17" break="no"/>te ut quatuor: ideo non potest sumi con 
+      <lb ed="#B" n="18"/>ceptus illis proprius, qui significet solum 
+      <lb ed="#B" n="19"/>charitatem ut quatuor, &amp; non ut tres: 
+      ui<lb ed="#B" n="20" break="no"/>supra in dub. iij. patuit. &amp; dist. viij. q. ij. 
+      </p>
+            <p xml:id="gbs333-a56059-d1e930">
+               <lb ed="#B" n="21"/>¶ Per hoc soluitur praecedens ratio secun 
+      <lb ed="#B" n="22"/>da: quod non oportet omnia indiuidua esse 
+      <lb ed="#B" n="23"/>simissima simpliciter: sed sufficit, quod sint 
+      <lb ed="#B" n="24"/>sic simillima, quod non in quolibet eorum 
+      <lb ed="#B" n="25"/>est inuenire aliquid, cui nihil sit 
+      similli<lb ed="#B" n="26" break="no"/>mum in alio.
+    </p>
+            <p xml:id="gbs333-a56059-d1e947">
+      ¶ Ad quartum dicitur: quod 
+      <lb ed="#B" n="27"/>uerum est, quando non faciunt unum: 
+      <lb ed="#B" n="28"/>ut patuit in dub. vj. Ad quintum dicitur ut  
+      <lb ed="#B" n="29"/>supra conclusione. iij. quod unus gradus non 
+      <lb ed="#B" n="30"/>potest naturaliter uideri sine alio etiam 
+      <lb ed="#B" n="31"/>ab intellectu angelico: quia sunt simul: 
+      <lb ed="#B" n="32"/>&amp; sic aeque apptoximati potentiae. 
+      Pos<lb ed="#B" n="33" break="no"/>sunt tamen distincte uideri id est cognosci: 
+      <lb ed="#B" n="34"/>quod unus non est alius: sicut distincte 
+      ui<lb ed="#B" n="35" break="no"/>detur materia, &amp; forma: licet sint simul. 
+      <lb ed="#B" n="36"/>de hoc latius supra. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

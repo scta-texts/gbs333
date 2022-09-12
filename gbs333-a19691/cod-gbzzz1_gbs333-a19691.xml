@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a19691"> <!-- l1d2q5 -->
+            <head xml:id="gbs333-a19691-Hd1e102">Quaestio 5</head>
+            <head xml:id="gbs333-a19691-Hd1e104" type="question-title">Utrum universale et univocum sit 
+      vera res extra animam ab individuo cui inest realiter distincta 
+      et ad multiplicationem individuorum realiter multiplicata et variata</head>
+            <p xml:id="gbs333-a19691-d1e107">
+               <lb ed="#B" n="20"/>QVAESTIO V 
+      <lb ed="#B" n="21"/>TRVM uniuersale, &amp; 
+      uni<lb ed="#B" n="22" break="no"/>uocum sit res uera extra 
+      an<lb ed="#B" n="23" break="no"/>mam ab indiuiduo, cui 
+      in<lb ed="#B" n="24" break="no"/>&amp; est realiter distincta: &amp; ad 
+      <lb ed="#B" n="25"/>multiplicationem indiuiduorum realiter 
+      <lb ed="#B" n="26"/>multiplicata &amp; uariata.
+    </p>
+            <p xml:id="gbs333-a19691-d1e125">
+      ¶ Recitat 
+      opi<lb ed="#B" n="27" break="no"/>nionem tenentium partem affirmatiuam 
+      <lb ed="#B" n="28"/>quaestionis differentem ab opinione in 
+      <lb ed="#B" n="29"/>praecedenti quaestione recitata: in hoc 
+      <lb ed="#B" n="30"/>tantum: quod ponit uniuersale 
+      multiplica<lb ed="#B" n="31" break="no"/>ri realiter in pluribus indiuiduis, &amp; hoc  
+      <lb ed="#B" n="32"/>per differentiam indiuidualem 
+      contra<lb ed="#B" n="33" break="no"/>hentem, a qua differentia distinguitur rea 
+      <lb ed="#B" n="34"/>liter: ita quod humanitas in sorte realiter 
+      <lb ed="#B" n="35"/>distinguiturab humanitate in Platone 
+      <lb ed="#B" n="36"/>Non quidem per se: sed per differentiam 
+      <lb ed="#B" n="37"/>indiuidualem additam in sorte, per quam 
+      <lb ed="#B" n="38"/>contrahitur, a qua etiam differentia 
+      rea<lb ed="#B" n="39" break="no"/>liter distinguitur.
+    </p>
+            <p xml:id="gbs333-a19691-d1e157">
+      ¶ Haec opinio quantum 
+      <lb ed="#B" n="40"/>ad ea, in quibus cum priori concordat  
+      <lb ed="#B" n="41"/>reprobatur, ut prior. Sed quantum ad id, 
+      <lb ed="#B" n="42"/>in quo a priori diuersificatur, reprobatur. 
+      <lb ed="#B" n="43"/>supra. qe iij. huius distinctionis: ubi 
+      osten<lb ed="#B" n="44" break="no"/>sum est: quod nihil distinguatur formaliter 
+      <lb ed="#B" n="45"/>ab alio, per aliquod sibi non intrinse- 
+      <lb ed="#B" n="46"/>cum. Cum ergo differentia contrahens 
+      <lb ed="#B" n="47"/>non est intrinseca uniuersali: quia 
+      rea<lb ed="#B" n="48" break="no"/>liter ab ea distincta: sequitur: quod per eam 
+      <lb ed="#B" n="49"/>uniuersale non potest formaliter distin¬ 
+      <!--166.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>gui a quocunque. Si ergo humanitas in 
+      <lb ed="#B" n="51"/>lorte realiter distinguitur ab 
+      humanita<lb ed="#B" n="52" break="no"/>te in Platoni, ex se distingueretur, &amp; 
+      <lb ed="#B" n="53"/>non per differentiam contrabentem. Et  
+      <lb ed="#B" n="54"/>si ex se distinguitur, ex se erit uniuersa 
+      <lb ed="#B" n="55"/>lis.
+    </p>
+            <p xml:id="gbs333-a19691-d1e199">
+      ¶ Responsio itaque auctoris ad quae 
+      <lb ed="#B" n="56"/>stionem est negatiua: uidelicet in 
+      indi<lb ed="#B" n="57" break="no"/>uiduo non est natura uniuersalis 
+      reali<lb ed="#B" n="58" break="no"/>ter distincta a differentia contrabente: 
+      <lb ed="#B" n="59"/>quia si ibi esset: esset pars essentialis 
+      in<lb ed="#B" n="60" break="no"/>diuidui: sed inter totum, &amp; partes suas es 
+      <lb ed="#B" n="61"/>proportio: ita quod si totum est singulare, 
+      <lb ed="#B" n="62"/>partes sunt singulares. Similiter inter 
+      <lb ed="#B" n="63"/>partes si una pars est singularis, simul 
+      <lb ed="#B" n="64"/>alia erit singularis.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

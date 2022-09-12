@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="367"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a93076"> <!-- l1d46q2 -->
+            <head xml:id="gbs333-a93076-Hd1e102">Quaestio 2</head>
+            <head xml:id="gbs333-a93076-Hd1e104" type="question-title">Utrum per rationem 
+  naturalem probari possit quod voluntas divina semper 
+  impletur</head>
+            <p xml:id="gbs333-a93076-d1e107">
+      <!--454.xml-->
+               <pb ed="#B" n="367"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>QVAESTIO II 
+      <lb ed="#B" n="2"/>VTRVM per rationem 
+      <lb ed="#B" n="3"/>naturalem probari 
+      pos<lb ed="#B" n="4" break="no"/>sit, quod uoluntas diuina 
+      <lb ed="#B" n="5"/>semper impletur.
+    </p>
+            <p xml:id="gbs333-a93076-d1e127">
+      ¶ 
+      Notan<lb ed="#B" n="6" break="no"/>dum, quod uoluntatem 
+      ali<lb ed="#B" n="7" break="no"/>quam impleri non est aliud, quam 
+      effe<lb ed="#B" n="8" break="no"/>ctum uoluntatis poni in esse: si uult 
+      <lb ed="#B" n="9"/>eum poni in esse: uel non poni: si non 
+      <lb ed="#B" n="10"/>uult eum poni.
+    </p>
+            <p xml:id="gbs333-a93076-d1e141">
+      ¶ Sed hoc potest esse 
+      <lb ed="#B" n="11"/>dupliciter: quia potest uelle cum 
+      poni<lb ed="#B" n="12" break="no"/>a se, uel ab alio. Et tunc si ponatur a 
+      <lb ed="#B" n="13"/>se (si uult cum poni a se) impletur: 
+      <lb ed="#B" n="14"/>aliter nen. Similiter si ponatur in 
+      es<lb ed="#B" n="15" break="no"/>se ab aliquo a quo uult eum poni in 
+      <lb ed="#B" n="16"/>esse, impletur: &amp; aliter non. Eodem 
+      <lb ed="#B" n="17"/>modo proportionabiliter potest 
+      dici<lb ed="#B" n="18" break="no"/>de nolle eum poni in esse a se, uel ab 
+      <lb ed="#B" n="19"/>alio &amp;c.
+    </p>
+            <p xml:id="gbs333-a93076-d1e163">
+      ¶ Isto praemisso est 
+      conclu<lb ed="#B" n="20" break="no"/>sio prima pars quaestionis 
+      affirmati<lb ed="#B" n="21" break="no"/>ua naturali ratione probarti non potest. 
+      <lb ed="#B" n="22"/>Patet: quia non potest probari 
+      euiden<lb ed="#B" n="23" break="no"/>ter, quod deus uelit alia a se.
+    </p>
+            <p xml:id="gbs333-a93076-d1e174">
+      ¶ Secunda 
+      <lb ed="#B" n="24"/>conclusio. Posito, quod deus uelit alia 
+      <lb ed="#B" n="25"/>a se: potest probari, quod uoluntas 
+      im<lb ed="#B" n="26" break="no"/>pediri non potest. Probatur: quia 
+      <lb ed="#B" n="27"/>deus tristari non potest. Sed omnis 
+      <lb ed="#B" n="28"/>cuius uoluntas potest impediri, 
+      po<lb ed="#B" n="29" break="no"/>test tristari: ergo facile reducitur ad 
+      <lb ed="#B" n="30"/>sullogiimum ad impossibile.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

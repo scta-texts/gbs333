@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="271"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a68717"> <!-- l1d28q1 -->
+            <head xml:id="gbs333-a68717-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a68717-Hd1e104" type="question-title">Utrum innascibilitas sit constitutiva patris proprietas</head>
+            <p xml:id="gbs333-a68717-d1e107">
+               <lb ed="#B" n="39"/>unica. 
+      <lb ed="#B" n="40"/>TRVM innascibilitas sit 
+      <lb ed="#B" n="41"/>constitutiua patris proprie 
+      <lb ed="#B" n="42"/>tas.
+    </p>
+            <p xml:id="gbs333-a68717-d1e118">
+      ¶ Quaestio tres haber 
+      <lb ed="#B" n="43"/>articulo coniter poni 
+      soli<lb ed="#B" n="44" break="no"/>tos.
+    </p>
+            <p xml:id="gbs333-a68717-d1e126">
+      ¶ Primo ergo 
+      supponi<lb ed="#B" n="45" break="no"/>tur secundum doct. quod nomen constitut 
+      <lb ed="#B" n="46"/>uum hic sumitur stricte, prout patuit. q. 
+      <lb ed="#B" n="47"/>iij. dist. xxvj. pro co scilicet quod est de essen¬ 
+      <!--358.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>tia alicuius, distinguens ipsum a quolib. 
+      <lb ed="#B" n="49"/>alio: quia solum tale est proprietas: licet  
+      <lb ed="#B" n="50"/>en. essentia constituat: non tamen est 
+      proprie<lb ed="#B" n="51" break="no"/>tas alicuius personae: sed est conis 
+      omni<lb ed="#B" n="52" break="no"/>bus: sic spiratio actio.
+    </p>
+            <p xml:id="gbs333-a68717-d1e150">
+      ¶ Secundo 
+      suppo<lb ed="#B" n="53" break="no"/>nitur, quod proprietas licet posset 
+      multipli<lb ed="#B" n="54" break="no"/>citer accipi: tamen in pposito tripliciter 
+      ac<lb ed="#B" n="55" break="no"/>cipitur. Primo mo accipitur pro aliquo 
+      <lb ed="#B" n="56"/>alicui intrinseco, &amp; proprio: sic partes 
+      es<lb ed="#B" n="57" break="no"/>sentiales possunt dici proprietas totius. 
+      <lb ed="#B" n="58"/>Secundo mododo pro aliquo aduenienti, 
+      <lb ed="#B" n="59"/>uel consequenti naturam rei, proprium 
+      ei<lb ed="#B" n="60" break="no"/>Tertio modo est praedicabile de aliquo 
+      <lb ed="#B" n="61"/>conuertibiliter. Proprietas primo modo ex 
+      <lb ed="#B" n="62"/>essentiale rei, cuius est. Secundo modo est 
+      <lb ed="#B" n="63"/>accidens inhaerens ei, cuius est proprium. 
+      <lb ed="#B" n="64"/>Tertio modo non est in re, cuius est 
+      pro<lb ed="#B" n="65" break="no"/>prium: sed conceptus mentis, uel aliquid 
+      <lb ed="#B" n="66"/>subordinatum.
+    </p>
+            <p xml:id="gbs333-a68717-d1e183">
+      ¶ Tertio supponitur, quod 
+      <lb ed="#B" n="67"/>innascibile, uel innascibilitas dupliciter 
+      <lb ed="#B" n="68"/>accipitur. Primo est res non nata. 
+      Secun<lb ed="#B" n="69" break="no"/>do est ies non producta: nec per 
+      produ<lb ed="#B" n="70" break="no"/>ctionem conicata: nec producentis, uel 
+      <lb ed="#B" n="71"/>producti constitutiua.
+    </p>
+            <p xml:id="gbs333-a68717-d1e196">
+      ¶ Corollarium: nec 
+      <lb ed="#B" n="72"/>essentiam: nec paternitas, nec filiatio,; nec 
+      <lb ed="#B" n="73"/>spiratio actiua, aut passiua: nec 
+      constitu<lb ed="#B" n="74" break="no"/>tum, est innascibilitas.
+    </p>
+            <p xml:id="gbs333-a68717-d1e205">
+      ¶ Quantum ad arti 
+      <lb ed="#B" n="75"/>culum secundum est conclusio 
+      prima<lb ed="#B" n="76" break="no"/>Accipiendo innascibile, uel innascibili 
+      <lb ed="#B" n="77"/>tas primo modo innascibilitas non est 
+      pro<lb ed="#B" n="78" break="no"/>prietas patris, quocunque accipiatur 
+      pro<lb ed="#B" n="79" break="no"/>prietas. Patet: quia conuenit non solum 
+      <lb ed="#B" n="80"/>patri: sed etiam spirituisancto.
+    </p>
+            <p xml:id="gbs333-a68717-d1e221">
+      ¶ Secunda 
+      <lb ed="#B" n="81"/>conclusio. Capiendo innascibile 
+      secun<lb ed="#B" n="82" break="no"/>do modo: sic nullo modo est proprietas 
+      pa<lb ed="#B" n="83" break="no"/>tris. Patet: quia pater non est proprietas pris 
+      <lb ed="#B" n="84"/>&amp; innascibile est tamen pater: quia nec est essen 
+      <lb ed="#B" n="85"/>tia, nec relatio, nec constitutum ex essen 
+      <lb ed="#B" n="86"/>tia, &amp; relatione, putaspiratione actione: 
+      <lb ed="#B" n="87"/>nec filius, nec scililicet ergo est tamen pater: quia 
+      <lb ed="#B" n="88"/>illa tamen sunt in diuinis.
+    </p>
+            <p xml:id="gbs333-a68717-d1e242">
+      ¶ Siquaeritur 
+      di<lb ed="#B" n="89" break="no"/>paternitate, an sit innascibilis. Tangit hic 
+      <lb ed="#B" n="90"/>auctor opi. duas: an paternitas 
+      distingua<lb ed="#B" n="91" break="no"/>tur formaliter a patre: de quibus supro 
+      <lb ed="#B" n="92"/>patuit diffuse dist. ij. q.i. huius collect. 
+      Si<lb ed="#B" n="93" break="no"/>em paternitas non distinguitur 
+      formali<lb ed="#B" n="94" break="no"/>teria patre, ut aliqui uolunt: licet auctor 
+      <lb ed="#B" n="95"/>oppositum teneat ut supra, sic paternitas est 
+      <lb ed="#B" n="96"/>innascibilis: quia omnibus modis pater. 
+      Si<lb ed="#B" n="97" break="no"/>distinguitur formaliter: quid magis conso 
+      <lb ed="#B" n="98"/>nat conbus dictis doctorum: sic paterni¬ 
+      <!--359.xml-->
+      <pb ed="#B" n="272"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tas non est innascibilis: quia est 
+      proprie<lb ed="#B" n="2" break="no"/>as constitutiua producentis.
+    </p>
+            <p xml:id="gbs333-a68717-d1e277">
+      ¶ Modera 
+      <lb ed="#B" n="3"/>tur etiam hic doctor descriptionem 
+      di<lb ed="#B" n="4" break="no"/>stinctionis formalis supra positam dist. 
+      <lb ed="#B" n="5"/>ij. sic. Distinctio formalis est, quando 
+      <lb ed="#B" n="6"/>aliquid uerc conceditur de uno, &amp; 
+      ne<lb ed="#B" n="7" break="no"/>gatur de alio: quamuis sint idem 
+      reali<lb ed="#B" n="8" break="no"/>ter: ad sensum tactum dist. ij. q. xj.
+    </p>
+            <p xml:id="gbs333-a68717-d1e293">
+      ¶ 
+      Ter<lb ed="#B" n="9" break="no"/>tia conclusio. Hoc prędicabile 
+      innasci<lb ed="#B" n="10" break="no"/>bilitas est proprietas patris tertio modo. 
+      <lb ed="#B" n="11"/>Patet: quia praedicatur conuertibiliter 
+      <lb ed="#B" n="12"/>de patre.
+    </p>
+            <p xml:id="gbs333-a68717-d1e304">
+      ¶ Breuiter: si innascibilitas 
+      <lb ed="#B" n="13"/>accipitur pro aliquo reali indiuinis 
+      di<lb ed="#B" n="14" break="no"/>stincto quomodocunque apatre, essentia, 
+      <lb ed="#B" n="15"/>&amp; paternitate: &amp; spiratione actione: &amp; 
+      <lb ed="#B" n="16"/>constituto ex essentia, &amp; commum 
+      <lb ed="#B" n="17"/>spiratione secundum modum loquendi 
+      <lb ed="#B" n="18"/>doct. est nomen fictum non habens corre 
+      <lb ed="#B" n="19"/>spondentiam in re. Si autem significat 
+      prae<lb ed="#B" n="20" break="no"/>cise paternitatem, &amp; nihil quocunque 
+      <lb ed="#B" n="21"/>distinctum a paternitate: tunc sicut 
+      pa<lb ed="#B" n="22" break="no"/>ternitas est proprietas patris primo modo: 
+      <lb ed="#B" n="23"/>ita &amp; innascibilitas.
+    </p>
+            <p xml:id="gbs333-a68717-d1e330">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="24" break="no"/>culum tertium mouenda sunt dubia, &amp; 
+      <lb ed="#B" n="25"/>soluenda. Primum dubium. Nam dictum 
+      <lb ed="#B" n="26"/>est epilogando in. ar. ij. in conclusione. 
+      <lb ed="#B" n="27"/>iij. Si innascibilitas accipitur pro aliquo 
+      <lb ed="#B" n="28"/>reali &amp;c. Si hoc esset uerum: quomodo 
+      <lb ed="#B" n="29"/>saluari possunt communia dicta doc. quod 
+      <lb ed="#B" n="30"/>in diuinis sunt quinque notiones.
+    </p>
+            <p xml:id="gbs333-a68717-d1e348">
+      ¶ Item 
+      <lb ed="#B" n="31"/>secundo in dist. praecedenti. q. i. art. ij. in 
+      <lb ed="#B" n="32"/>conclusione. j. habitum est, quod paternitas 
+      <lb ed="#B" n="33"/>&amp; spiratio actiua non sunt plures 
+      relatio<lb ed="#B" n="34" break="no"/>nes: quomodoergo saluabitur 
+      commu<lb ed="#B" n="35" break="no"/>ne dictum docto quod in diuinis sunt 
+      qua<lb ed="#B" n="36" break="no"/>tuorelationes.
+    </p>
+            <p xml:id="gbs333-a68717-d1e365">
+      ¶ Item tertio patuit 
+      ali<lb ed="#B" n="37" break="no"/>quoties secundum Sco. E Ockam, quod 
+      <lb ed="#B" n="38"/>in patre est natura incommunicabilis, 
+      <lb ed="#B" n="39"/>&amp; in patre est natura communicabilis 
+      si<lb ed="#B" n="40" break="no"/>militer &amp; in filio.
+    </p>
+            <p xml:id="gbs333-a68717-d1e376">
+      ¶ Item quarto: 
+      com<lb ed="#B" n="41" break="no"/>muniter dicitur, quinque notiones 
+      fue<lb ed="#B" n="42" break="no"/>runt ab aeterno. In patre sunt tres 
+      notio<lb ed="#B" n="43" break="no"/>nes In patre sunt duae relationes. In filio 
+      <lb ed="#B" n="44"/>sunt duae notiones. Paternitas, &amp; 
+      essen<lb ed="#B" n="45" break="no"/>tia constituunt patrem. Duo sunt patris 
+      <lb ed="#B" n="46"/>sconstitutiua, seu constituentia, que 
+      om<lb ed="#B" n="47" break="no"/>uma nulla essent si illa dicta in praesenti 
+      <lb ed="#B" n="48"/>dist. &amp; dist. praecedenti. q. i. ar. ij. starent. 
+      <lb ed="#B" n="49"/>Sic est dicimus: paternitas &amp; essentia 
+      di<lb ed="#B" n="50" break="no"/>stinguuntur formaliter, &amp; similia.
+    </p>
+            <p xml:id="gbs333-a68717-d1e400">
+      ¶ 
+      Pro<lb ed="#B" n="51" break="no"/>horum intellectu supponitur primum ex di¬ 
+      <!--359.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ctis in dist. ij. q.i. &amp; elti. quod in diuinrs 
+      po<lb ed="#B" n="53" break="no"/>nenda est distinctio formalis ad sensum 
+      <lb ed="#B" n="54"/>ibi expressum. q ulti
+    </p>
+            <p xml:id="gbs333-a68717-d1e416">
+      ¶ Secundo 
+      supponi<lb ed="#B" n="55" break="no"/>tur ex notatis in di. xxvij. q.i. ar. i. quod pro 
+      <lb ed="#B" n="56"/>pter solam formalem distinctionem non 
+      <lb ed="#B" n="57"/>praedicatur pluralitas simpliciter, uel cum 
+      <lb ed="#B" n="58"/>addito: &amp; hoc proprie, &amp; secundum ueri 
+      <lb ed="#B" n="59"/>tatis sermonem. Non enim dicuntur es 
+      <lb ed="#B" n="60"/>sen ia, &amp; persona plura, uel plures res: 
+      si<lb ed="#B" n="61" break="no"/>ue plures formalitates: ut patuit loco 
+      pre<lb ed="#B" n="62" break="no"/>fato.
+    </p>
+            <p xml:id="gbs333-a68717-d1e436">
+      ¶ Et patet etiam ex eo: quia si sic 
+      <lb ed="#B" n="63"/>in deo ponerentur quatuor res: &amp; ita 
+      <lb ed="#B" n="64"/>quaternitas, scilicet tres personae, e 
+      <lb ed="#B" n="65"/>essentia, quae formaliter distinguitur a 
+      <lb ed="#B" n="66"/>personis: consequens est contra 
+      deter<lb ed="#B" n="67" break="no"/>minationem ecclesiae in. cap. firmiter, su 
+      <lb ed="#B" n="68"/>pra allega.
+    </p>
+            <p xml:id="gbs333-a68717-d1e452">
+      ¶ Et dicitur de uirture sermo 
+      <lb ed="#B" n="69"/>nis: quia frequenter a oco. &amp; Ockam, 
+      <lb ed="#B" n="70"/>&amp; caeteris illa conceditur. Essentia, &amp; 
+      re<lb ed="#B" n="71" break="no"/>latio distinguuntur formaliter: essentia 
+      <lb ed="#B" n="72"/>&amp; relatio sunt distincta formaliter. Eo quod 
+      <lb ed="#B" n="73"/>de illis nominibus significatiue sumptis 
+      <lb ed="#B" n="74"/>&amp; pro eodem supponentibus contingit 
+      <lb ed="#B" n="75"/>aliquid affirmari de uno, &amp; uere 
+      nega<lb ed="#B" n="76" break="no"/>ri de reliquo. Essentia enim est in omni 
+      <lb ed="#B" n="77"/>bus personis: non sic relatio &amp;c. de quo 
+      <lb ed="#B" n="78"/>upra. q. j. dist. ij. praesertim. in fi. &amp;. q.ult. 
+      <lb ed="#B" n="79"/>eiusdem dist.
+    </p>
+            <p xml:id="gbs333-a68717-d1e479">
+      ¶ Corollarie sequitur. In 
+      <lb ed="#B" n="80"/>diuinis quaecunque; fuerint non sunt 
+      plura<lb ed="#B" n="81" break="no"/>tribus. Patet manifeste: quia in diuinis 
+      <lb ed="#B" n="82"/>solum sunt tres res relatiuae realiter 
+      di<lb ed="#B" n="83" break="no"/>stinctae, &amp; non plures.
+    </p>
+            <p xml:id="gbs333-a68717-d1e490">
+      ¶ Ex isto sequitur 
+      <lb ed="#B" n="84"/>primo, quod in diuinis non sunt plures 
+      rela<lb ed="#B" n="85" break="no"/>tiones, quam tres. Patet: quia si plures 
+      <lb ed="#B" n="86"/>relationes quam tres: ergo plures res quam 
+      <lb ed="#B" n="87"/>tres.
+    </p>
+            <p xml:id="gbs333-a68717-d1e501">
+      ¶ Secundo sequitur, quodicet 
+      paterni<lb ed="#B" n="88" break="no"/>tas, &amp; spiratio actio, distinguantur forma 
+      <lb ed="#B" n="89"/>liter: non sunt tamen plures relationes: 
+      <lb ed="#B" n="90"/>sed una relatio Sicut essentia, &amp; 
+      perso<lb ed="#B" n="91" break="no"/>na distinguuntur formaliter: &amp; non sunt 
+      <lb ed="#B" n="92"/>plures essentiae: nec plures personae: nec 
+      <lb ed="#B" n="93"/>plures res.
+    </p>
+            <p xml:id="gbs333-a68717-d1e517">
+      ¶ Tertio sequitur, quod in 
+      diui<lb ed="#B" n="94" break="no"/>nis non sunt plures notiones, quam tres. 
+      <lb ed="#B" n="95"/>patet ut supra.
+    </p>
+            <p xml:id="gbs333-a68717-d1e524">
+      ¶ Tertio supponitur; quod est 
+      <lb ed="#B" n="96"/>communis locutio doctorum, quod in 
+      diui<lb ed="#B" n="97" break="no"/>nis est una essentia: duae emanationes, 
+      <lb ed="#B" n="98"/>siue productiones: tres hypostales, uel 
+      <lb ed="#B" n="99"/>persone, &amp; totidem proprietates qua 
+      <lb ed="#B" n="100"/>tuor relationes: quinque notiones, 
+      attri<lb ed="#B" n="101" break="no"/>bu ta infinita idest, sine cerro numero, 
+      <lb ed="#B" n="102"/>Essentia est ipsa natura diuina Emana¬ 
+      <!--360.xml-->
+      <pb ed="#B" n="273"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tiones sunt productiones passiuae per 
+      mo<lb ed="#B" n="2" break="no"/>dum intellectus, &amp; uoluntatis: 
+      genera<lb ed="#B" n="3" break="no"/>tio scilicet &amp; spiratio. Hypostases sunt 
+      <lb ed="#B" n="4"/>pater, filius, &amp; spiritussanctus. 
+      Relatio<lb ed="#B" n="5" break="no"/>nes autem, paternitas, filiatio; 
+      spiratio<lb ed="#B" n="6" break="no"/>actiua, spiratio passiua. Notiones sunt 
+      <lb ed="#B" n="7"/>dictae quatuor relationes, &amp; 
+      innascibi<lb ed="#B" n="8" break="no"/>litas. Vel generare gnari, spirare, spirari, 
+      <lb ed="#B" n="9"/>&amp; innascibilitas. Attributa sunt 
+      sapien<lb ed="#B" n="10" break="no"/>tia, potentia, bonitas, scientia, prudentia, 
+      <lb ed="#B" n="11"/>iustitia, misericordia, &amp;c.
+    </p>
+            <p xml:id="gbs333-a68717-d1e572">
+      ¶ Iam 
+      uiden<lb ed="#B" n="12" break="no"/>dum est, quo illa distinguuntur.
+    </p>
+            <p xml:id="gbs333-a68717-d1e578">
+      ¶ Pro quo 
+      <lb ed="#B" n="13"/>sciendum, quod relatio, &amp; notio, quae est in 
+      <lb ed="#B" n="14"/>diuinis: realiter idem sunt. Vnde 
+      relatio<lb ed="#B" n="15" break="no"/>ipsa, quae realiter est in diuinis dicitur 
+      re<lb ed="#B" n="16" break="no"/>latio: quia ipsa persona refertur ad aliam 
+      <lb ed="#B" n="17"/>Dicitur notio inquantum ipsa: personae 
+      <lb ed="#B" n="18"/>secundum quod sunt distinctae notificantur. 
+      <lb ed="#B" n="19"/>Cum ergo nulla relatio sit communis 
+      <lb ed="#B" n="20"/>tribus, quaelibet relatio est notio. Econ 
+      <lb ed="#B" n="21"/>uerso cum omne non communc tribus 
+      <lb ed="#B" n="22"/>non sit essentiale, &amp; per consequens 
+      re<lb ed="#B" n="23" break="no"/>latio: omnis notio est relatio. Dico 
+      no<lb ed="#B" n="24" break="no"/>tanter, quae est realiter in diuinis: quia 
+      <lb ed="#B" n="25"/>etiam ipsa nomina notionum notiones 
+      <lb ed="#B" n="26"/>dicuntur, &amp; talia non sunt relationes 
+      di<lb ed="#B" n="27" break="no"/>uinae sicut innascibilitas: de quo dicetur 
+      <lb ed="#B" n="28"/>Dicitur etiam proprietas, inquantum est 
+      <lb ed="#B" n="29"/>solum unius personae, &amp; eadem ratione. 
+      <lb ed="#B" n="30"/>dicitur relatio personalis. Et haec sunt 
+      <lb ed="#B" n="31"/>paternitas, filiatio,; processio, siue 
+      passi<lb ed="#B" n="32" break="no"/>ua spiratio. Ex quo patet: quia spiratio 
+      <lb ed="#B" n="33"/>actiua licet sit uere relatio, &amp; notio: non 
+      <lb ed="#B" n="34"/>tamen est proprietas siue relatio perso 
+      <lb ed="#B" n="35"/>nalis saltem formaliter. Secundo 
+      sequi<lb ed="#B" n="36" break="no"/>tur, quod licet relatio, proprietas, &amp; 
+      notio<lb ed="#B" n="37" break="no"/>quae realiter sunt in diuinis: nullo modo 
+      <lb ed="#B" n="38"/>distinguuntur: ista tamen tria nomina non 
+      <lb ed="#B" n="39"/>sunt IVnonyma. Patet secunda pars: quia 
+      <lb ed="#B" n="40"/>differunt in connotatis.
+    </p>
+            <p xml:id="gbs333-a68717-d1e641">
+      ¶ Quarto 
+      sup<lb ed="#B" n="41" break="no"/>pono ea, quae dicta fuere in dist. ij. in 
+      con<lb ed="#B" n="42" break="no"/>clusionibus literalibus.
+    </p>
+            <p xml:id="gbs333-a68717-d1e648">
+      ¶ Istis sic 
+      praemis<lb ed="#B" n="43" break="no"/>sis respondendum est ad dubia per 
+      ali<lb ed="#B" n="44" break="no"/>quot propositiones, siue conclusiones. 
+      </p>
+            <p xml:id="gbs333-a68717-d1e655">
+               <lb ed="#B" n="45"/>¶ Prima conclusio. Vnam, commune, 
+      <lb ed="#B" n="46"/>&amp; indiuiduam essentiam: tres 
+      huposta<lb ed="#B" n="47" break="no"/>ses, &amp; personales proprietates esse in 
+      di<lb ed="#B" n="48" break="no"/>uinis, est sane, &amp; catholice 
+      conceden<lb ed="#B" n="49" break="no"/>dum. Patet ex praemissis &amp; cap. 
+      firmi<lb ed="#B" n="50" break="no"/>ter &amp;c.
+    </p>
+            <p xml:id="gbs333-a68717-d1e671">
+      ¶ Secunda conclusio. De 
+      ui<lb ed="#B" n="51" break="no"/>sermonis, &amp; secundum actum exercitum 
+      <!--360.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>non est concedendum, quod in diuinis sunt 
+      <lb ed="#B" n="53"/>quinque notiones, seu quatuor 
+      relatio<lb ed="#B" n="54" break="no"/>nes: quarum quaelibet sit realiter in deo. 
+      <lb ed="#B" n="55"/>Patet: quia innascibilitas est tantum unum 
+      <lb ed="#B" n="56"/>praedicabile supponens conuertibiliter 
+      <lb ed="#B" n="57"/>de patre, &amp; non est aliquid patris &amp;c. ut  
+      <lb ed="#B" n="58"/>in conclusione. iij. art. ij. patuit.
+    </p>
+            <p xml:id="gbs333-a68717-d1e695">
+      ¶ Tertia 
+      <lb ed="#B" n="59"/>conclusio. Nec notio: nec proprietas 
+      <lb ed="#B" n="60"/>dicitur uniuoce de innascibilitate, &amp; de 
+      <lb ed="#B" n="61"/>aliis notionibus. Patet quia 
+      innascibi<lb ed="#B" n="62" break="no"/>litas dicitur proprietas tantum tertio 
+      mo<lb ed="#B" n="63" break="no"/>do: quia est praedicabile de patre. 
+      Pater<lb ed="#B" n="64" break="no"/>nitas autem, filiatio; spiratio; sunt 
+      pro<lb ed="#B" n="65" break="no"/>prietates primo modo: quia sunt 
+      intrin<lb ed="#B" n="66" break="no"/>seca personis, &amp; distinguunt personas: 
+      etsi<lb ed="#B" n="67" break="no"/>non ab omnibus: ut spiratio actio, quae 
+      <lb ed="#B" n="68"/>distinguit patrem, &amp; filium a 
+      spiritulan<lb ed="#B" n="69" break="no"/>cto: sed non patrem a filio.
+    </p>
+            <p xml:id="gbs333-a68717-d1e722">
+      ¶ Quarta 
+      con<lb ed="#B" n="70" break="no"/>clusio. Non omnis proprietas per se est 
+      <lb ed="#B" n="71"/>constitutiua illius per se cuius est 
+      proprie<lb ed="#B" n="72" break="no"/>tas. Nam aliqua proprietas per se non 
+      <lb ed="#B" n="73"/>est de intraneitate, &amp; essentia eius, cuius 
+      <lb ed="#B" n="74"/>est proprietas per se: omne autem 
+      con<lb ed="#B" n="75" break="no"/>stitutiuum est essentiale constituto. 
+      Pri<lb ed="#B" n="76" break="no"/>mum patet de praedicabili, quod est 
+      pro<lb ed="#B" n="77" break="no"/>prietas per se: ut risibile hominis, &amp; ita 
+      <lb ed="#B" n="78"/>licet innascibilitas est proprietas per se 
+      <lb ed="#B" n="79"/>patris, tertio modo capiendo 
+      proprieta<lb ed="#B" n="80" break="no"/>tem: tamen non constituit patrem: licet 
+      con<lb ed="#B" n="81" break="no"/>cedi posset, quod per innascibilitatem pater 
+      <lb ed="#B" n="82"/>distinguitur arguitiue ab omni alio: sed  
+      <lb ed="#B" n="83"/>non formaliter tamquam per aliquod sibi 
+      <lb ed="#B" n="84"/>intrinsecum.
+    </p>
+            <p xml:id="gbs333-a68717-d1e757">
+      ¶ Quinta conclusio. De 
+      ri<lb ed="#B" n="85" break="no"/>gore uerborum nulla harum est 
+      conce<lb ed="#B" n="86" break="no"/>denda. Quinque notiones fuerunt ab 
+      <lb ed="#B" n="87"/>aeterno: quatuor notiones sunt realiter 
+      <lb ed="#B" n="88"/>in deo: duae relationes sunt in patre: 
+      <lb ed="#B" n="89"/>duae relationes sunt in filio: quia omnes 
+      <lb ed="#B" n="90"/>illae inferunt plures res esse in deo, quam 
+      <lb ed="#B" n="91"/>tres: quod est falsum: tamen secundum 
+      <lb ed="#B" n="92"/>actum signatum possunt concedi.
+    </p>
+            <p xml:id="gbs333-a68717-d1e777">
+      ¶ 
+      Sex<lb ed="#B" n="93" break="no"/>ta conclusio. In actu signato illae possunt 
+      <lb ed="#B" n="94"/>concedi. In diuinis sunt quatuor 
+      rela<lb ed="#B" n="95" break="no"/>tiones: quinque notiones: notiones 
+      fue<lb ed="#B" n="96" break="no"/>runt ab aeterno. Duae sunt relationes in 
+      <lb ed="#B" n="97"/>patre, &amp; duae in filio. In patre est natura 
+      <lb ed="#B" n="98"/>communicabilis, &amp; incommunicabilis, 
+      <lb ed="#B" n="99"/>&amp; sic de consimilibus: ut partim patuit 
+      <lb ed="#B" n="100"/>dist. xxvij. q. j. ar. ij. Prima ualet, ut ibi 
+      pa<lb ed="#B" n="101" break="no"/>tuit. Sunt enim quatuor praedicabilia 
+      <lb ed="#B" n="102"/>de diuinis relationibus non synonyma: 
+      <!--361.xml-->
+      <pb ed="#B" n="274"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; quinque notionalia praedicata 
+      sup<lb ed="#B" n="2" break="no"/>ponentia non pro se: sed pro re, 
+      <lb ed="#B" n="3"/>quae ab aeterno dici poterant de deo. 
+      De<lb ed="#B" n="4" break="no"/>patre denique praedicatur innascibile: 
+      <lb ed="#B" n="5"/>generare, &amp; spirare.
+    </p>
+            <p xml:id="gbs333-a68717-d1e819">
+      ¶ Item de qualibet 
+      <lb ed="#B" n="6"/>dici potest, quod habet unam, &amp; eandem 
+      es<lb ed="#B" n="7" break="no"/>sentiam numero cum alia: habet inquam 
+      <lb ed="#B" n="8"/>intransitiue: immo est in alia per 
+      circun<lb ed="#B" n="9" break="no"/>incessionem, &amp; tamen distinguitur ab ea 
+      <lb ed="#B" n="10"/>proprietate relatiua.
+    </p>
+            <p xml:id="gbs333-a68717-d1e832">
+      ¶ Item patetnitas, 
+      <lb ed="#B" n="11"/>&amp; essentia constituunt personam patris 
+      <lb ed="#B" n="12"/>conceditur in actu siguato ad sensum ta 
+      <lb ed="#B" n="13"/>ctum dist. xxvj. quia de illis nominibus 
+      <lb ed="#B" n="14"/>significatiue sumptis praedicatur esse 
+      con<lb ed="#B" n="15" break="no"/>stitutiuum personae: pater enim est 
+      essen<lb ed="#B" n="16" break="no"/>tia, &amp; est paternitas, &amp; paternitate a 
+      fi<lb ed="#B" n="17" break="no"/>lio distinguitur.
+    </p>
+            <p xml:id="gbs333-a68717-d1e850">
+      ¶ Item paternitas, &amp; 
+      es<lb ed="#B" n="18" break="no"/>sentia distinguuntur: uel sunt distincta 
+      <lb ed="#B" n="19"/>formaliter: quia haec est praedicatio uera: sed  
+      <lb ed="#B" n="20"/>non formaliter uera: paternitas est essentia, 
+      <lb ed="#B" n="21"/>Essentiae enim conuenit hoc praedicatum 
+      <lb ed="#B" n="22"/>communicabile: quod non conuenit 
+      pa<lb ed="#B" n="23" break="no"/>ternitati: licet nominaidem significent, 
+      <lb ed="#B" n="24"/>&amp; pro eodem supponant. In hoc 
+      sensu<lb ed="#B" n="25" break="no"/>doctor intelligit istas, &amp; consimiles pro- 
+      <lb ed="#B" n="26"/>positiones: cum loquitur de distinctione 
+      <lb ed="#B" n="27"/>formali in dist. ij. modo loquendi (ut 
+      ui<lb ed="#B" n="28" break="no"/>detur) improprio, &amp; caeteri doct. Quod 
+      <lb ed="#B" n="29"/>autem illa sit mens doct. clare patet dist. 
+      <lb ed="#B" n="30"/>praesenti: ubi iuxta finem. q. dicit, quod 
+      om<lb ed="#B" n="31" break="no"/>nes tales de uirtute sermonis sunt false, 
+      <lb ed="#B" n="32"/>&amp; erroneae: quia inferunt plures res esse 
+      <lb ed="#B" n="33"/>in deo, quam tres. Minus ergo bene 
+      nota<lb ed="#B" n="34" break="no"/>tur a Greg. in de personarum 
+      constitu<lb ed="#B" n="35" break="no"/>tione, &amp; personarum distinctione. Item 
+      <lb ed="#B" n="36"/>de distinctione formali: cum non in re 
+      <lb ed="#B" n="37"/>ipsa: sed solum in modo loquendi: ut 
+      ui<lb ed="#B" n="38" break="no"/>detur dissidet ab eo: ut tactum fuit. q. ult. 
+      <lb ed="#B" n="39"/>dist. ij. Per hoc satis patet ad dubia 
+      mo<lb ed="#B" n="40" break="no"/>ta. Et idem potest colligi ex quid 
+      no<lb ed="#B" n="41" break="no"/>minis distinctio. formalis: quod ponit 
+      <lb ed="#B" n="42"/>auctor distin. praesenti. Videtur tamen, 
+      <lb ed="#B" n="43"/>quod non obstantibus praemissis: si de 
+      <lb ed="#B" n="44"/>bet (prout fides compellit) saluari 
+      in<lb ed="#B" n="45" break="no"/>carnatio unius personae sine alia: siue ra 
+      <lb ed="#B" n="46"/>tio terminandi illam dependentiam 
+      sup<lb ed="#B" n="47" break="no"/>positalem ponatur relatio, aut proprie 
+      <lb ed="#B" n="48"/>tas relatiua, siue persona ipsa: quod oportet 
+      <lb ed="#B" n="49"/>ponere aliquam non identitate ex parte 
+      <lb ed="#B" n="50"/>rei inter essentiam, &amp; proprietatem 
+      re<lb ed="#B" n="51" break="no"/>latiuam, seu personam. Essentia gnim¬ 
+      <!--361.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>est omnibus personis communis. Non 
+      <lb ed="#B" n="53"/>sic illud, quo praecise conceditur de 
+      fi<lb ed="#B" n="54" break="no"/>lio, quod est incarnatus, &amp; non pater, aut  
+      <lb ed="#B" n="55"/>spiritus sanctus. Et quicquid conuenit 
+      <lb ed="#B" n="56"/>uni personae ratione essentiae praecise: 
+      <lb ed="#B" n="57"/>conuenit &amp; alteri: ut latius solet alibi 
+      <lb ed="#B" n="58"/>examinari. Sic etiam uidetur id posse 
+      <lb ed="#B" n="59"/>colligi ex eo, quod quandoque dicitur 
+      essen<lb ed="#B" n="60" break="no"/>tiam non posse esse terminum primum 
+      <lb ed="#B" n="61"/>illius unionis hypostaticae: sed personam: 
+      <lb ed="#B" n="62"/>proprietatem uero relatiuam esse 
+      ratio<lb ed="#B" n="63" break="no"/>nem terminandi: ut in. iij. dist. i. q. i. &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

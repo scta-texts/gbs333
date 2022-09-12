@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a37371"> <!-- l1d8prae -->
+            <head xml:id="gbs333-a37371-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a37371-d1e104">
+               <lb ed="#B" n="22"/>DISTINCTIO VIII 
+      <lb ed="#B" n="23"/>VPR. A magister 
+      <lb ed="#B" n="24"/>egit de benedicta 
+      tri<lb ed="#B" n="25" break="no"/>nitate quantum ad 
+      <lb ed="#B" n="26"/>se: nunc de eius 
+      pro<lb ed="#B" n="27" break="no"/>prieratibus: &amp; primo 
+      <lb ed="#B" n="28"/>essentiae secundae per 
+      <lb ed="#B" n="29"/>sonae, dist. sequenti. 
+      <lb ed="#B" n="30"/>Innuit autem tres diuinae essentiae 
+      pro<lb ed="#B" n="31" break="no"/>prietates, quae sunt: ueritas, 
+      immutabili<lb ed="#B" n="32" break="no"/>tas, &amp; simplicitas. Et secundum hoc haec 
+      <lb ed="#B" n="33"/>dist. potest tribus conclusionibus 
+      sum<lb ed="#B" n="34" break="no"/>mari.
+    </p>
+            <p xml:id="gbs333-a37371-d1e135">
+      ¶ Prima conclusio. Verissime deus 
+      <lb ed="#B" n="35"/>est: quia semper, &amp; aeternaliter est. Nec 
+      <lb ed="#B" n="36"/>esse cepit, nec esse definit: eiusque 
+      essen<lb ed="#B" n="37" break="no"/>tia nec praeteritum nouit: nec fututum 
+      <lb ed="#B" n="38"/>cum negatione esse praesentis: ideo solus 
+      <lb ed="#B" n="39"/>uere est.
+    </p>
+            <p xml:id="gbs333-a37371-d1e148">
+      ¶ Secunda conclusio. Deus 
+      ue<lb ed="#B" n="40" break="no"/>re inimutabilis est: &amp; solus habet immor 
+      <lb ed="#B" n="41"/>talitatem de suinatura id est 
+      immutabilita<lb ed="#B" n="42" break="no"/>rem tam substantialiter, quam accidentaliter. 
+      </p>
+            <p xml:id="gbs333-a37371-d1e158">
+               <lb ed="#B" n="43"/>¶ Tertia conclusio. Deus est 
+      simplicis<lb ed="#B" n="44" break="no"/>simus priuatione omnis componibilitatis 
+      <lb ed="#B" n="45"/>intrinsecae ex partibus, &amp; extrinsecae per 
+      <lb ed="#B" n="46"/>inhaesionem, uel intus susceptionem. Hoc  
+      <lb ed="#B" n="47"/>modo illae proprietates soli deo conueniunt, 
+      <lb ed="#B" n="48"/>&amp; nulli creaturae: haec patent ex textu. Et  
+      <lb ed="#B" n="49"/>quia duae primae proprietates dependent 
+      <!--235.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>a tertia: ideo circa tertiam auctor 
+      pri<lb ed="#B" n="51" break="no"/>mo quaestionem mouet &amp; talem. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

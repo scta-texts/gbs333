@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="166"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a41972"> <!-- l1d9q3 -->
+            <head xml:id="gbs333-a41972-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a41972-Hd1e104" type="question-title">Utrum generatio in divinis sit univoca</head>
+            <p xml:id="gbs333-a41972-d1e107">
+               <lb ed="#B" n="34"/>QVAESTIO III 
+      <lb ed="#B" n="35"/>VTRVM generatio filii sit 
+      <lb ed="#B" n="36"/> aeterna.
+    </p>
+            <p xml:id="gbs333-a41972-d1e116">
+      ¶ Articulus primus 
+      <lb ed="#B" n="37"/>Ru ad quaesitum respondebit. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e122">
+               <lb ed="#B" n="38"/>¶ Secundus pro dubiorum 
+      sol<lb ed="#B" n="39" break="no"/>uendorum intellectu, terminos 
+      expla<lb ed="#B" n="40" break="no"/>nabit, &amp; dehinc conclusiones aliquas 
+      an<lb ed="#B" n="41" break="no"/>nectet.
+    </p>
+            <p xml:id="gbs333-a41972-d1e133">
+      ¶ Conclusio responsalis pro 
+      ar<lb ed="#B" n="42" break="no"/>ticulo primo certa est secundum fidei 
+      <lb ed="#B" n="43"/>ueritatem, &amp; est haec. Generatio filij in 
+      <lb ed="#B" n="44"/>diuinis est aeterna. Probatur conclusio. 
+      <lb ed="#B" n="45"/>Quia impossibile est aliquid realiter idem 
+      <lb ed="#B" n="46"/>cum diuina essentia esse non aeternum: 
+      <lb ed="#B" n="47"/>sed tam filius quae generatio filij est 
+      reali<lb ed="#B" n="48" break="no"/>ter diuina essentia: ut saepe dictum est, quod 
+      <lb ed="#B" n="49"/>essentia diuina identificat sibi oia in diui¬ 
+      <!--253.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>nis: ergo &amp;c. Praeter ea quod aliquod 
+      pro<lb ed="#B" n="51" break="no"/>ductum non sit coaguum suo producenti, 
+      <lb ed="#B" n="52"/>hoc uel est ex conditione producentis, 
+      <lb ed="#B" n="53"/>uel actionis siue productionis. Ex 
+      condi<lb ed="#B" n="54" break="no"/>tione producentis quidem: quia potest 
+      im<lb ed="#B" n="55" break="no"/>pediri per actionem contrarij fortioris 
+      <lb ed="#B" n="56"/>agentis: uel quia dependet ab aliquo 
+      su<lb ed="#B" n="57" break="no"/>periori agente: uel ex indispositione 
+      ma<lb ed="#B" n="58" break="no"/>teriae. Ex parte actionis uero: quia agit 
+      <lb ed="#B" n="59"/>cum motu: &amp; sic non potest agere in 
+      prin<lb ed="#B" n="60" break="no"/>cipio sui esse: sed nullum illorum potest 
+      <lb ed="#B" n="61"/>inueniti in diuinis: ut patet discurrendo 
+      <lb ed="#B" n="62"/>per singula: ergo. Item ad idem est exen 
+      <lb ed="#B" n="63"/>plum beati Aug. vj. de trini. de igne, &amp; 
+      <lb ed="#B" n="64"/>splendore: qui coeuus est igni: esset 
+      quo<lb ed="#B" n="65" break="no"/>que coaeternus, si ignis esset aeternus. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e192">
+               <lb ed="#B" n="66"/>¶ Pro articulo secundo est hoc dubium. Ace 
+      <lb ed="#B" n="67"/>Cum in diuinis non est admittenda prio 
+      Du<lb ed="#B" n="68" break="no"/>ritas durationis. An ibi possit aliqua alia 
+      <lb ed="#B" n="69"/>prioritas admitti attento, quod secundum 
+      <lb ed="#B" n="70"/>omnes, pater est principiu filij: quia 
+      ge<lb ed="#B" n="71" break="no"/>nerat filium, &amp; per hoc filius est a patre, 
+      <lb ed="#B" n="72"/>&amp; originatur a patre. Et quantum ad rem 
+      <lb ed="#B" n="73"/>dicendum: quod uere, &amp; realiter pater est 
+      <lb ed="#B" n="74"/>prior filio origine: quod nihil est aliud 
+      <lb ed="#B" n="75"/>dicere, quam quod a patre est filius, uel quod 
+      pa<lb ed="#B" n="76" break="no"/>ter producit filium. Vnde hi termini 
+      <lb ed="#B" n="77"/>principium, prius origine, producens, 
+      <lb ed="#B" n="78"/>generans, spirans: idem important: &amp; non 
+      <lb ed="#B" n="79"/>differunt nisi sicut superius &amp; inferius. 
+      <lb ed="#B" n="80"/>Et ideo sicut conceditur, quod pater uere, 
+      <lb ed="#B" n="81"/>&amp; realiter est principium producens &amp; 
+      <lb ed="#B" n="82"/>generans filium, ita concedendum est, 
+      <lb ed="#B" n="83"/>quod pater uere, &amp; realiter est prior 
+      origi<lb ed="#B" n="84" break="no"/>ne filio. Nec quantum ad rem aliquid 
+      <lb ed="#B" n="85"/>aliud importatur per unam: quod no 
+      im<lb ed="#B" n="86" break="no"/>portatur per aliam.
+    </p>
+            <p xml:id="gbs333-a41972-d1e240">
+      ¶ Sed tunc adhuc 
+      Du<lb ed="#B" n="87" break="no"/>remanet pro dubio secundo difficultas 
+      <lb ed="#B" n="88"/>maior: an scilicet ubicunque conceditur 
+      prio<lb ed="#B" n="89" break="no"/>ritas aliqua etiam concedenda sunt 
+      si<lb ed="#B" n="90" break="no"/>gna prioritatis, in quibus concedendum 
+      <lb ed="#B" n="91"/>sit prius esse, &amp; non posterius. Gratia 
+      <lb ed="#B" n="92"/>exempli: quia conceditur: quod pater est prior 
+      <lb ed="#B" n="93"/>filio prioritate originis: an etiam 
+      conce<lb ed="#B" n="94" break="no"/>dendum sit, quod pater sit in aliquo instanti, 
+      <lb ed="#B" n="95"/>uel signo originis, in quo non sit filius. 
+      <lb ed="#B" n="96"/>De hoc recitat doct. opin. Sco. tenentia 
+      <lb ed="#B" n="97"/>in plerisque passibus distin. &amp; 
+      quaestio<lb ed="#B" n="98" break="no"/>num primi lib. ac in distin. xij. q.ij. quod si 
+      <lb ed="#B" n="99"/>cut sunt instantia temporis: ita sunt 
+      in<lb ed="#B" n="100" break="no"/>stantia, uel signa naturae, &amp; originis. Vn 
+      <!--254.xml-->
+      <pb ed="#B" n="167"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>de tenet: quod in primo instanti originis 
+      <lb ed="#B" n="2"/>sunt omnia essentialia scilicet essentia, 
+      intelle<lb ed="#B" n="3" break="no"/>ctus, uoluntas, actus intelligendi, actus 
+      <lb ed="#B" n="4"/>uolendi. In secundo instanti: uel signo 
+      <lb ed="#B" n="5"/>originis, pater generat filium. In 
+      tertio<lb ed="#B" n="6" break="no"/>instanti producit spiritum sanctum. Et  
+      <lb ed="#B" n="7"/>turus ille ordo originis completur in 
+      pri<lb ed="#B" n="8" break="no"/>mo instanti naturae, &amp; in secundo insta 
+      <lb ed="#B" n="9"/>ti naturae intellectus diuinus, &amp; 
+      uolun<lb ed="#B" n="10" break="no"/>tas feruntur respectu obiectorum 
+      secun<lb ed="#B" n="11" break="no"/>dariorum: ita quod ille est ordo, quod essentia 
+      <lb ed="#B" n="12"/>lia absoluta sunt prius notionibus: &amp; 
+      no<lb ed="#B" n="13" break="no"/>tionalia sunt priora essentialibus 
+      respe<lb ed="#B" n="14" break="no"/>ctiuis adextra.
+    </p>
+            <p xml:id="gbs333-a41972-d1e310">
+      ¶ Contra hunc modum 
+      <lb ed="#B" n="15"/>ponendi multipliciter arguit. Ockam, 
+      <lb ed="#B" n="16"/>&amp;Greg. dist. praesenti.
+    </p>
+            <p xml:id="gbs333-a41972-d1e317">
+      ¶ Pro 
+      responsio<lb ed="#B" n="17" break="no"/>neuero secundum opi. propriam doct. 
+      <lb ed="#B" n="18"/>prius distinguir septem modos 
+      priorita<lb ed="#B" n="19" break="no"/>tis. Est enim prius durationes prius 
+      natu<lb ed="#B" n="20" break="no"/>ra: prius causalitate: prius conitate: prius 
+      <lb ed="#B" n="21"/>dignitate: prius locabilitare: prius 
+      attri<lb ed="#B" n="22" break="no"/>butione.
+    </p>
+            <p xml:id="gbs333-a41972-d1e334">
+      ¶ Licet. n. a philosopho in lib. 
+      <lb ed="#B" n="23"/>pręedicamentorum, &amp;. v. Metaply. c. de 
+      <lb ed="#B" n="24"/>iriori, &amp; posteriori, multi ponantur 
+      mo<lb ed="#B" n="25" break="no"/>di prioritatis, &amp; posterioritatis: tamen illidi 
+      <lb ed="#B" n="26"/>cuntur magis noti, &amp; famosi, quos etiam 
+      <lb ed="#B" n="27"/>tecitat, &amp; notificat post doct. denens 
+      Ca<lb ed="#B" n="28" break="no"/>mera. q. vij. art. ij. Greg. uero pauciores 
+      <lb ed="#B" n="29"/>ponit.
+    </p>
+            <p xml:id="gbs333-a41972-d1e352">
+      ¶ Prius duratione, siue tempore 
+      <lb ed="#B" n="30"/>est proprijssimus modus prioritatis: 
+      quo<lb ed="#B" n="31" break="no"/>aliquid praecedit aliud tempore secundum 
+      <lb ed="#B" n="32"/>philosophum in praedicamentis
+    </p>
+            <p xml:id="gbs333-a41972-d1e361">
+      ¶ Prius 
+      <lb ed="#B" n="33"/>natura est, quod potest esse sine poste- 
+      <lb ed="#B" n="34"/>tiori, &amp; non econuerso. Patet. x. Meta 
+      <lb ed="#B" n="35"/>phis: sic secundum philosophum. Materia 
+      <lb ed="#B" n="36"/>est prior natura forma, &amp; subiectum 
+      ac<lb ed="#B" n="37" break="no"/>cidente separabili: non autem 
+      insepara<lb ed="#B" n="38" break="no"/>bili pars toto, saltem illa quae potest esse 
+      <lb ed="#B" n="39"/>sine toto, &amp; non econuerso. Verum 
+      phi<lb ed="#B" n="40" break="no"/>losophus in praedicamentis aliter uider 
+      <lb ed="#B" n="41"/>loqui (saltem in effectu) de prioritate 
+      na<lb ed="#B" n="42" break="no"/>turae. Sic enim prius secundum naturam es, 
+      <lb ed="#B" n="43"/>quod alterius quomodolibet causa est, 
+      <lb ed="#B" n="44"/>etiam si ab eo conuertatur subsistendi 
+      <lb ed="#B" n="45"/>consequentia: ut sol radio. Et solet dici 
+      <lb ed="#B" n="46"/>prioritas consequentiae: de quo latius 
+      ui<lb ed="#B" n="47" break="no"/>de in doct. q.v. dist. i. Et sic idem uidetur 
+      <lb ed="#B" n="48"/>esse prius causalitate, &amp; natura.
+    </p>
+            <p xml:id="gbs333-a41972-d1e398">
+      ¶ Prius 
+      <lb ed="#B" n="49"/>causalitate est omnis causa respectu 
+      sui<lb ed="#B" n="50" break="no"/>effectus: etiam si non posset esse sine es 
+      <lb ed="#B" n="51"/>fectu: ut sol sine luce: &amp; lux sine lumi¬ 
+      <!--254.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ne. Vnde patet: quod non omnis causa est 
+      <lb ed="#B" n="53"/>prior causato duratione, neque natura. Et  
+      <lb ed="#B" n="54"/>potest iste modus extendi generalius. ut  
+      <lb ed="#B" n="55"/>dicatur prius productiuitate: quia 
+      pro<lb ed="#B" n="56" break="no"/>ducere superius est ad causare. Et hoc  
+      <lb ed="#B" n="57"/>modo pater est priorfilio: sicut uidetur 
+      <lb ed="#B" n="58"/>extendere Greg. dist. praesenti. ubi 
+      secun<lb ed="#B" n="59" break="no"/>dum aliquos conceditur: quod pater est 
+      cau<lb ed="#B" n="60" break="no"/>sa filij (ut refert ipse) id est. filius est 
+      ge<lb ed="#B" n="61" break="no"/>nitus a patre.
+    </p>
+            <p xml:id="gbs333-a41972-d1e433">
+      ¶ Prius comunitate est a 
+      <lb ed="#B" n="62"/>quo non conuertitur consequentia sub 
+      <lb ed="#B" n="63"/>sistendi, uel agendi, aut patiendi. Sic sub 
+      <lb ed="#B" n="64"/>stantia est prior accidente, &amp; pars toto, 
+      <lb ed="#B" n="65"/>quia sequitur. Accidens est, ergo 
+      substam<lb ed="#B" n="66" break="no"/>tia est secundum philosophum, &amp; non 
+      <lb ed="#B" n="67"/>econuerso. Similiter sequitur. Torum est. 
+      <lb ed="#B" n="68"/>ergo pars est, &amp; non econuerso. Sic 
+      omn<lb ed="#B" n="69" break="no"/>superius est prius suo inferiori: quando non 
+      <lb ed="#B" n="70"/>sequitur. Animal currit, ergo homo cur 
+      <lb ed="#B" n="71"/>rit: sed econuerso sequitur.
+    </p>
+            <p xml:id="gbs333-a41972-d1e457">
+      ¶ Prius 
+      di<lb ed="#B" n="72" break="no"/>gnitate est, quod est perfectius alio 
+      na<lb ed="#B" n="73" break="no"/>tura, uel humana uoluntate: ut rex 
+      sub<lb ed="#B" n="74" break="no"/>dito.
+    </p>
+            <p xml:id="gbs333-a41972-d1e467">
+      ¶ Prius secundum locum dicitur 
+      <lb ed="#B" n="75"/>per comparationem ad aliquem locum 
+      <lb ed="#B" n="76"/>primum: uel natura, uel praestitutione 
+      uo<lb ed="#B" n="77" break="no"/>suntaria.
+    </p>
+            <p xml:id="gbs333-a41972-d1e476">
+      ¶ Prius attributione est, quod 
+      <lb ed="#B" n="78"/>attribuitur alicui priori aliquo modorum 
+      <lb ed="#B" n="79"/>supradictorum: ut passio, uel proprietas 
+      <lb ed="#B" n="80"/>partis est prior passione totius, uel eius 
+      <lb ed="#B" n="81"/>proprietate.
+    </p>
+            <p xml:id="gbs333-a41972-d1e487">
+      ¶ Secundo notandum: quod 
+      <lb ed="#B" n="82"/>ordinatorum secundum prius, &amp; poste 
+      <lb ed="#B" n="83"/>rius quaedam sic se habent, quod ipsis 
+      ordi<lb ed="#B" n="84" break="no"/>natis secundum prius, &amp; posterius 
+      reali<lb ed="#B" n="85" break="no"/>ter correspondent aliqua extrinseca: in 
+      <lb ed="#B" n="86"/>quibus, &amp; secundum quae sic ordinan 
+      <lb ed="#B" n="87"/>tur secundum prius, &amp; posterius: ita quod 
+      <lb ed="#B" n="88"/>unum correspondet uni, &amp; alterum 
+      al<lb ed="#B" n="89" break="no"/>teri: sicut prius, &amp; posterius secundum 
+      <lb ed="#B" n="90"/>tempus, &amp; locum ordinantur sic, quod una 
+      <lb ed="#B" n="91"/>pars temporis, uel loci correspondet 
+      il<lb ed="#B" n="92" break="no"/>si: alia alteri. Et in talibus assignantur  
+      <lb ed="#B" n="93"/>signa uel instantia priora, &amp; 
+      postetio<lb ed="#B" n="94" break="no"/>ra: in quorum uno proprie dicitur esse 
+      <lb ed="#B" n="95"/>prius, &amp; in alio posterius. Et illa 
+      instan<lb ed="#B" n="96" break="no"/>tia, uel signa sunt partes extrinsecus 
+      ot<lb ed="#B" n="97" break="no"/>dinatorum, puta temporis, uel loci. Et in 
+      <lb ed="#B" n="98"/>illis potest rationabiliter quaeri. 
+      Anali<lb ed="#B" n="99" break="no"/>quod ordinatorum prius uel 
+      posteri<lb ed="#B" n="100" break="no"/>us sit in illo priori. Alia sunt 
+      ordina<lb ed="#B" n="101" break="no"/>ta secundum prius, &amp; posterius, quibus 
+      <lb ed="#B" n="102"/>nullus talis ordo extrinsecus correspon¬ 
+      <!--255.xml-->
+      <pb ed="#B" n="168"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>det. Illo modo ordinantur secundum 
+      <lb ed="#B" n="2"/>naturam, caliditatem dignitatem, 
+      ueri<lb ed="#B" n="3" break="no"/>tatem, uel attributionem: quin sic illa 
+      <lb ed="#B" n="4"/>ordinatentur etiam circunscripto 
+      omni<lb ed="#B" n="5" break="no"/>extrinseco existente, uel imaginabili: &amp; 
+      <lb ed="#B" n="6"/>in talibus, &amp; de ralibus huiusmodi insta 
+      <lb ed="#B" n="7"/>tia siue signa a signari non possunt. Et  
+      <lb ed="#B" n="8"/>est improprius modus loquendi, quod 
+      ordi<lb ed="#B" n="9" break="no"/>natorum sic: unum est in aliquo priori, 
+      <lb ed="#B" n="10"/>in quo non est aliud. Immo si ille 
+      mo<lb ed="#B" n="11" break="no"/>dus loquendi acceptaretur de sic 
+      ordi<lb ed="#B" n="12" break="no"/>natis secundum prius, &amp; posterius, 
+      qui<lb ed="#B" n="13" break="no"/>bus non correspondent aliqua 
+      extrin<lb ed="#B" n="14" break="no"/>seca, secundum in quae ordinentur: 
+      con<lb ed="#B" n="15" break="no"/>cedendum esset de ui sermonis, quod poste 
+      <lb ed="#B" n="16"/>rius esset in illo priori: &amp; quod non prius est 
+      <lb ed="#B" n="17"/>in priori: ut quia materia est prior 
+      natu<lb ed="#B" n="18" break="no"/>ra ipsa forma: in illo priori est forma, &amp; 
+      <lb ed="#B" n="19"/>non materia: quia id prius est materia in 
+      <lb ed="#B" n="20"/>quo non est materia: sed forma, quae est 
+      <lb ed="#B" n="21"/>posterior materia: quia priori, cum 
+      dici<lb ed="#B" n="22" break="no"/>tur: illo priori naturae &amp;c. est adiectiuum 
+      <lb ed="#B" n="23"/>substantiuatum. Quaero, pro quo 
+      suppo<lb ed="#B" n="24" break="no"/>nit, aut proente reali, aut rationis. Si 
+      pri<lb ed="#B" n="25" break="no"/>mo modo. Quaero pro quare prodeo, 
+      <lb ed="#B" n="26"/>uel creatura, substantia, uel accidente 
+      <lb ed="#B" n="27"/>Et nulla res, uel natura dari potest, in qua 
+      <lb ed="#B" n="28"/>sit materia tanquam in priori: nisi ipsa 
+      <lb ed="#B" n="29"/>met materia. Quod si datur, tantum 
+      erij<lb ed="#B" n="30" break="no"/>dicere. Materia est in illo priori nature, 
+      <lb ed="#B" n="31"/>in quo non est forma id est materia est in 
+      ma<lb ed="#B" n="32" break="no"/>teria in qua non est forma: quod est ma 
+      <lb ed="#B" n="33"/>nifeste falsum: cum econuerso forma ex 
+      <lb ed="#B" n="34"/>in materia: &amp; non materia in seipsa. 
+      Si<lb ed="#B" n="35" break="no"/>supponit pro ente rationis, erit sensus: 
+      <lb ed="#B" n="36"/>quod materia est in aliquoente rationis, 
+      <lb ed="#B" n="37"/>in quo non est forma. Sed hoc nihil est: 
+      <lb ed="#B" n="38"/>cum circumscripto omni actu 
+      intelle<lb ed="#B" n="39" break="no"/>ctus adhuc materia realiter est prior 
+      na<lb ed="#B" n="40" break="no"/>tura ipsa forma, &amp; causato causa, &amp; 
+      per<lb ed="#B" n="41" break="no"/>fectum minus perfecto: &amp; totum parte, 
+      <lb ed="#B" n="42"/>uel pars toto. Et haec latè declarat 
+      au<lb ed="#B" n="43" break="no"/>Tctor
+    </p>
+            <p xml:id="gbs333-a41972-d1e635">
+      ¶ Exillis cunc dictis (quae latius 
+      pa<lb ed="#B" n="44" break="no"/>tent in doct.) possunt formari aliquae 
+      <lb ed="#B" n="45"/>propositiones ostendentes primo, qui 
+      <lb ed="#B" n="46"/>modi prioritatis, &amp; posterioritatis 
+      repe<lb ed="#B" n="47" break="no"/>riantur in diuinis. Secundo quis modus 
+      <lb ed="#B" n="48"/>loquendi obseruandus est indiuersis 
+      lo<lb ed="#B" n="49" break="no"/>cis prioritatis.
+    </p>
+            <p xml:id="gbs333-a41972-d1e651">
+      ¶ Prima propositio. 
+      Pri<lb ed="#B" n="50" break="no"/>mus, &amp; secundus modus prioritatis, &amp; 
+      <lb ed="#B" n="51"/>posterioritatis nullo modo reperiri pos¬ 
+      <!--255.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sunt in deo per respectum ad intra. 
+      Pa<lb ed="#B" n="53" break="no"/>tet: quia omnia in diuinis sunt simul 
+      du<lb ed="#B" n="54" break="no"/>ratione, &amp; natura. Sed forte de 
+      secun<lb ed="#B" n="55" break="no"/>do modo, qui quandoque extense 
+      sumi<lb ed="#B" n="56" break="no"/>tur: posset fierii nstantia uerbalis.
+    </p>
+            <p xml:id="gbs333-a41972-d1e673">
+      ¶ 
+      Se<lb ed="#B" n="57" break="no"/>cunda propositio. Nec quintus, nec 
+      <lb ed="#B" n="58"/>sextus possunt reperiti in deo: quia ibi 
+      <lb ed="#B" n="59"/>nihil est perfectius, aut dignius auo: sed  
+      <lb ed="#B" n="60"/>quicquid est in diuinis: est infinite 
+      perfe<lb ed="#B" n="61" break="no"/>ctum. Verum attenta ista distinctione, 
+      <lb ed="#B" n="62"/>quam habet doct. q.iij. dist. vij. quod 
+      perfe<lb ed="#B" n="63" break="no"/>ctio simpliciter dupliciter accipitur scilicet ut  
+      <lb ed="#B" n="64"/>est res simpliciter summa, &amp; infinita in 
+      <lb ed="#B" n="65"/>compraehensibilis omni imperfectione: 
+      <lb ed="#B" n="66"/>uel prout competit cuilibet 
+      supposito<lb ed="#B" n="67" break="no"/>summe perfecto, quomodo paternitas, 
+      <lb ed="#B" n="68"/>aut relatio dicitur perfectio simpliciter: 
+      <lb ed="#B" n="69"/>licet sit summe pfecta: posset fieri 
+      appa<lb ed="#B" n="70" break="no"/>rens instantia. Item nihil est in diuinis 
+      <lb ed="#B" n="71"/>tanquam in loco commensuratiue, uel 
+      <lb ed="#B" n="72"/>diffinitiue &amp;c. ergo nihil est ibi prius 
+      a<lb ed="#B" n="73" break="no"/>lio secundum locum, siue secundum 
+      na<lb ed="#B" n="74" break="no"/>turam, siue secundum praestitutionem 
+      <lb ed="#B" n="75"/>uoluntatiam.
+    </p>
+            <p xml:id="gbs333-a41972-d1e718">
+      ¶ Tertia propositio. 
+      Ter<lb ed="#B" n="76" break="no"/>rius modus prioritatis ut extenditur ad 
+      <lb ed="#B" n="77"/>productiuitatem: &amp; ut dici potest 
+      prio<lb ed="#B" n="78" break="no"/>ritas originis: reperitur in diuinis: quia 
+      <lb ed="#B" n="79"/>sic pater est prior filio, quem producit: 
+      <lb ed="#B" n="80"/>secus proprie loquendo de causalitate. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e731">
+               <lb ed="#B" n="81"/>¶ Quarta propositio. Quartus modus 
+      <lb ed="#B" n="82"/>prioritatis scilicet communitatis: hoc est, co 
+      <lb ed="#B" n="83"/>sequentiae non conuertibilis reperitur 
+      <lb ed="#B" n="84"/>indiuinis: sic essentia est prior personis, 
+      <lb ed="#B" n="85"/>&amp; relationibus: quia benesequitur. 
+      Essen<lb ed="#B" n="86" break="no"/>tia est, ergo pater est, uel, a, est pater: 
+      er<lb ed="#B" n="87" break="no"/>go, a, est essentia: sed non econtra, 
+      Si<lb ed="#B" n="88" break="no"/>essentia potest dici communior, quam 
+      <lb ed="#B" n="89"/>sit persona, uel relatio.
+    </p>
+            <p xml:id="gbs333-a41972-d1e753">
+      ¶ Quinta 
+      propo<lb ed="#B" n="90" break="no"/>sitio. Septimus modus prioritatis 
+      repe<lb ed="#B" n="91" break="no"/>ritur in diuinis. Potest enim dici secun- 
+      <lb ed="#B" n="92"/>dum doct. quod paternitas est prior 
+      filia<lb ed="#B" n="93" break="no"/>tione ad sensum infra tangendum, &amp; 
+      ta<lb ed="#B" n="94" break="no"/>men nullo praedictorum modorum: ut  
+      <lb ed="#B" n="95"/>patet inductiuem: non duratione: non 
+      na<lb ed="#B" n="96" break="no"/>tura: non causalitate siue origene: quia 
+      <lb ed="#B" n="97"/>originatio attribuitur suppositis, &amp; non 
+      <lb ed="#B" n="98"/>notionibus: contra Pe. q. vij. hic 
+      notan<lb ed="#B" n="99" break="no"/>tem doct. Eiliatio enim non dicitur 
+      ori<lb ed="#B" n="100" break="no"/>ginari a paternitate: non communitate: 
+      <lb ed="#B" n="101"/>non dignitate: non loco: ergo tantum 
+      <lb ed="#B" n="102"/>attributionae. Eo enim quod paternitas est 
+      <!--256.xml-->
+      <pb ed="#B" n="169"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>personalis proprietas patris, qui est prior 
+      <lb ed="#B" n="2"/>filio: ergo paternitas est prior filiatione. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e795">
+               <lb ed="#B" n="3"/>¶ De secundo similiter possunt 
+      forma<lb ed="#B" n="4" break="no"/>si aliquae propositiones, &amp; ex his demum 
+      <lb ed="#B" n="5"/>inferri corollaria. Prima propositio. 
+      Ali<lb ed="#B" n="6" break="no"/>quibus eisdem competunt diuersi 
+      modi<lb ed="#B" n="7" break="no"/>prioritatis: sicut idem respectu eiusdem 
+      <lb ed="#B" n="8"/>potest esse prius duratione, natura 
+      cau<lb ed="#B" n="9" break="no"/>lalitate, &amp; dignitate: ut patet de caelo re 
+      <lb ed="#B" n="10"/>spectu alicuius noui effectus producti ab 
+      <lb ed="#B" n="11"/>eo.
+    </p>
+            <p xml:id="gbs333-a41972-d1e817">
+      ¶ Secunda propositio. Item 
+      respe<lb ed="#B" n="12" break="no"/>ctu eiusdem diuersis modis prioritatis 
+      <lb ed="#B" n="13"/>potest esse prius, &amp; posterius. Patet de 
+      <lb ed="#B" n="14"/>materia, &amp; forma, toto, &amp; parte. Ioanne, 
+      <lb ed="#B" n="15"/>&amp; Christo. Ioan. j. Qui postme uenit: 
+      <lb ed="#B" n="16"/>ante me factus &amp;c.
+    </p>
+            <p xml:id="gbs333-a41972-d1e830">
+      ¶ Tertia 
+      proposi<lb ed="#B" n="17" break="no"/>tio. De ordinatis secundum prius, &amp; 
+      <lb ed="#B" n="18"/>posterius, quibus correspondent aliqua 
+      <lb ed="#B" n="19"/>extrinseca, secundum quae ordinari 
+      pos<lb ed="#B" n="20" break="no"/>sunt, uel ordinata sunt, puta locus, uel 
+      <lb ed="#B" n="21"/>tempus: debent concedi instantia, uel 
+      <lb ed="#B" n="22"/>signa distincta prioritatis, &amp; 
+      posteriori<lb ed="#B" n="23" break="no"/>tatis: ut gratia exempli: de ordinatis 
+      se<lb ed="#B" n="24" break="no"/>cundum locum, uel uerum, uel 
+      uolun<lb ed="#B" n="25" break="no"/>tate praestitutum dicitur: quod unum est 
+      <lb ed="#B" n="26"/>prius alio. De ordinatis secundum 
+      tem<lb ed="#B" n="27" break="no"/>pus, &amp; durationem similiter 
+      concedun<lb ed="#B" n="28" break="no"/>tur distincta signa, uel instantia: ut in 
+      <lb ed="#B" n="29"/>notabili secundo patuit.
+    </p>
+            <p xml:id="gbs333-a41972-d1e862">
+      ¶ Quarta 
+      pro<lb ed="#B" n="30" break="no"/>positio. De ordinatis secundum prius, 
+      <lb ed="#B" n="31"/>&amp; posterius, quibus non correspondent 
+      <lb ed="#B" n="32"/>aliqua extrinseca: secundum quae possunt 
+      <lb ed="#B" n="33"/>ordinari: itrationabile est quaerere: utrum 
+      <lb ed="#B" n="34"/>posterius sit in priori, uel non: sic deus 
+      <lb ed="#B" n="35"/>est prior creatura, natura dignitate, 
+      cau<lb ed="#B" n="36" break="no"/>salitate, supposito, quod non sittempus aut  
+      <lb ed="#B" n="37"/>locus: immo omni alio extrinseto 
+      cir<lb ed="#B" n="38" break="no"/>cumscripto.
+    </p>
+            <p xml:id="gbs333-a41972-d1e884">
+      ¶ Et si talis modus loquendi 
+      <lb ed="#B" n="39"/>acceptatur quandoque: tunc potius 
+      con<lb ed="#B" n="40" break="no"/>cedendum est, quod posterius est in suo 
+      <lb ed="#B" n="41"/>priori: ut filius in patre, quam quod prius 
+      <lb ed="#B" n="42"/>est in aliquo priori: sic materia est prior 
+      <lb ed="#B" n="43"/>natura sua forma, &amp; ipsa forma non est 
+      <lb ed="#B" n="44"/>in aliquo priori: sed forma est in illo 
+      <lb ed="#B" n="45"/>priori, puta in materia: ut patuit 
+      nota<lb ed="#B" n="46" break="no"/>bili secundo. Similiter totum est prius 
+      <lb ed="#B" n="47"/>perfectione, &amp; dignitate sua parte: non 
+      <lb ed="#B" n="48"/>tamen potest dari aliquod prius in quo 
+      <lb ed="#B" n="49"/>sit totum, &amp; non nars: sed potest dari 
+      ali<lb ed="#B" n="50" break="no"/>quod prius perfectione in quo sit pars 
+      <lb ed="#B" n="51"/>&amp; non totum, scilicet ipsum totum. 
+      <!--256.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-a41972-d1e919">
+               <lb ed="#B" n="52"/>¶ Corollarium primum. Modus 
+      loquen<lb ed="#B" n="53" break="no"/>di, quo alterum ordinatorum dicitur 
+      <lb ed="#B" n="54"/>esse in illo priori, in quo non est alterum: 
+      <lb ed="#B" n="55"/>solum habet locum in ordinatis 
+      secun<lb ed="#B" n="56" break="no"/>dum tempus. Patet manifeste. Illis, nn 
+      <lb ed="#B" n="57"/>solum correspondet aliquod extrinse- 
+      <lb ed="#B" n="58"/>cum, secundum quod talia ordinari possunt. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e937">
+               <lb ed="#B" n="59"/>¶ Corollarium secundum. Essentia 
+      di<lb ed="#B" n="60" break="no"/>uina, intellectus, intellectio, uoluntas 
+      <lb ed="#B" n="61"/>uolitio diuina (quae idem sunt 
+      omni<lb ed="#B" n="62" break="no"/>bus modis) est prius qualibet persona 
+      <lb ed="#B" n="63"/>&amp; relatione diuina prioritate 
+      consequen<lb ed="#B" n="64" break="no"/>tiae: non tamen origine proprie 
+      loquen<lb ed="#B" n="65" break="no"/>do. Patet.
+    </p>
+            <p xml:id="gbs333-a41972-d1e955">
+      ¶ Corollarium tertium. In 
+      <lb ed="#B" n="66"/>tellectio actualis creaturae diuina est 
+      <lb ed="#B" n="67"/>prior qualibet persona, &amp; relatione 
+      in<lb ed="#B" n="68" break="no"/>diuinis: quia sequitur, a, est pater: 
+      er<lb ed="#B" n="69" break="no"/>go intelligit creaturas, &amp; non 
+      econuer<lb ed="#B" n="70" break="no"/>o.
+    </p>
+            <p xml:id="gbs333-a41972-d1e968">
+      ¶ Corollarium quartum. 
+      Spira<lb ed="#B" n="71" break="no"/>tio actiua est prior generatione 
+      acti<lb ed="#B" n="72" break="no"/>ua, &amp; etium generatione passiua. 
+      Pa<lb ed="#B" n="73" break="no"/>tet ut prius: quia sequitur generat: ergo 
+      <lb ed="#B" n="74"/>spirat: &amp; non econuerso. Similiter 
+      se<lb ed="#B" n="75" break="no"/>quitur. Generatur ergo spiratur: &amp; non 
+      <lb ed="#B" n="76"/>econuerso.
+    </p>
+            <p xml:id="gbs333-a41972-d1e985">
+      ¶ Corollarium quintum. 
+      <lb ed="#B" n="77"/>Generatio tam actiua, quam passiua est 
+      <lb ed="#B" n="78"/>prior spiratione passiua septimo modo 
+      <lb ed="#B" n="79"/>prioritatis: quia generatio actiua &amp; 
+      pas<lb ed="#B" n="80" break="no"/>siua sunt proprietates patris, &amp; filij: 
+      quo<lb ed="#B" n="81" break="no"/>rum uterque est prior spiritusancto. 
+      </p>
+            <p xml:id="gbs333-a41972-d1e998">
+               <lb ed="#B" n="82"/>¶ Mouer doct. aliqua dubia contra 
+      prae<lb ed="#B" n="83" break="no"/>dicta quae patent in litera.
+    </p>
+            <p xml:id="gbs333-a41972-d1e1005">
+      ¶ Et cum 
+      <lb ed="#B" n="84"/>adducitur illa propositio. Pater 
+      intelli<lb ed="#B" n="85" break="no"/>git prius, quam filius: pater prius creat: 
+      <lb ed="#B" n="86"/>quam filius: dicit eas fore abusiuas, aut  
+      <lb ed="#B" n="87"/>simpliciter falsas: nisi ad hunc sensum, 
+      <lb ed="#B" n="88"/>Pater intelligit a se: sicut esse habet a 
+      <lb ed="#B" n="89"/>se. Item filius intelligit a patre: quia 
+      <lb ed="#B" n="90"/>esse habet a patre: uel quod filius intelligit, 
+      <lb ed="#B" n="91"/>hoc habet a patre: sicut &amp; esse habet a 
+      <lb ed="#B" n="92"/>patre.
+    </p>
+            <p xml:id="gbs333-a41972-d1e1027">
+      ¶ Item creare primo dicitur de 
+      <lb ed="#B" n="93"/>patre, quam fil o prioritate, 
+      communi<lb ed="#B" n="94" break="no"/>tatis.
+    </p>
+            <p xml:id="gbs333-a41972-d1e1034">
+      ¶ Item uerbum nascitur, de 
+      om<lb ed="#B" n="95" break="no"/>nibus, quae sunt in scientia dei, 
+      <lb ed="#B" n="96"/>idest nascitur de scientia 
+      dei<lb ed="#B" n="97" break="no"/>patris, idest de 
+      spa<lb ed="#B" n="98" break="no"/>tre, qui 
+      cogno<lb ed="#B" n="99" break="no"/>scit 
+      om<lb ed="#B" n="100" break="no"/>nia.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

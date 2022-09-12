@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="361"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a91573"> <!-- l1d44q1 -->
+            <head xml:id="gbs333-a91573-Hd1e102">Quaestio 1</head>
+            <head xml:id="gbs333-a91573-Hd1e104" type="question-title">Utrum Deus possit 
+    facere mundum meliorem isto</head>
+            <p xml:id="gbs333-a91573-d1e107">
+               <lb ed="#B" n="5"/>QVESTIOVNICA 
+      <lb ed="#B" n="6"/>VTRVM deus possit 
+      face<lb ed="#B" n="7" break="no"/>re mundum meliorem isto 
+      <lb ed="#B" n="8"/>mundo.
+    </p>
+            <p xml:id="gbs333-a91573-d1e118">
+      ¶ Pro articulo 
+      pri<lb ed="#B" n="9" break="no"/>mo notandum, quod mundus 
+      <lb ed="#B" n="10"/>capit dupliciter. Vno 
+      mo<lb ed="#B" n="11" break="no"/>do pro tota congregatione omnium 
+      re<lb ed="#B" n="12" break="no"/>rum creatarum quae sint substantiae 
+      fi<lb ed="#B" n="13" break="no"/>ue accidentia. Et sic excluditur deus 
+      qui<lb ed="#B" n="14" break="no"/>non est quid creatum: &amp; cum deus non 
+      <lb ed="#B" n="15"/>posset meliorem se facere: claret quod illo 
+      <lb ed="#B" n="16"/>modo deus non potest facere mundum 
+      <lb ed="#B" n="17"/>meliorem isto mundo. Alio modo 
+      pro<lb ed="#B" n="18" break="no"/>toto quodam composito, uel aggregato 
+      <lb ed="#B" n="19"/>ex multis contentis sub uno corpore, &amp; 
+      <lb ed="#B" n="20"/>illo continente. Et hoc dupliciter uel 
+      prae<lb ed="#B" n="21" break="no"/>cise pro partibus quae sunt substantiae, uel 
+      <lb ed="#B" n="22"/>indifferenter pro omnibus. Sed in ista 
+      <lb ed="#B" n="23"/>quaestione accipiendus est mundus 
+      prae<lb ed="#B" n="24" break="no"/>cise pro uno uniuerso: quasi composito 
+      <lb ed="#B" n="25"/>ex partibus quae sunt substantiae: &amp; non 
+      <lb ed="#B" n="26"/>secundum quod includit accidentia.
+    </p>
+            <p xml:id="gbs333-a91573-d1e161">
+      ¶ 
+      Se<lb ed="#B" n="27" break="no"/>cundo notandum quod cum dicitur. Deus 
+      <lb ed="#B" n="28"/>posset aliquid melius facere quam facit: 
+      <lb ed="#B" n="29"/>distinguendum est sicut &amp; magister 
+      di<lb ed="#B" n="30" break="no"/>stinguit. Nam Iy melis, potest reserriuel 
+      <lb ed="#B" n="31"/>ad faciendi modum uel ad effectum 
+      fa<lb ed="#B" n="32" break="no"/>ctum. Si primo modo: tunc (sicut bene 
+      di<lb ed="#B" n="33" break="no"/>cit magister) si modus faciendi ad 
+      sapien<lb ed="#B" n="34" break="no"/>tiam artificis refertur: non potest aliquid  
+      <lb ed="#B" n="35"/>melius facere siue meliori modo ex 
+      sapien<lb ed="#B" n="36" break="no"/>tia uel artificio. Si autem secundo 
+      mo<lb ed="#B" n="37" break="no"/>do: concedit magister, quod potest aliquid  
+      <lb ed="#B" n="38"/>melius facere, idest aliquam rem 
+      melio<lb ed="#B" n="39" break="no"/>rem.
+    </p>
+            <p xml:id="gbs333-a91573-d1e192">
+      ¶ Tertio notandum quod aliquid 
+      po<lb ed="#B" n="40" break="no"/>test esse melius alio: uel bonitate 
+      essen<lb ed="#B" n="41" break="no"/>tiali aut substantiali, uel accidentali. 
+      <lb ed="#B" n="42"/>¶¶ Quarto considerandum, quod intellectus 
+      <lb ed="#B" n="43"/>quaestionis potest esse triplex scilicet 
+      u<lb ed="#B" n="44" break="no"/>num pessit deus facere mundum 
+      melio<lb ed="#B" n="45" break="no"/>rem isto bonitate essentiali, &amp; substantia 
+      <lb ed="#B" n="46"/>li: &amp; hoc distinctum specie. Secundo: 
+      u<lb ed="#B" n="47" break="no"/>trum distinctum solo numero. Tertio: 
+      <!--448.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>utrum possit facere mundum meliorem 
+      <lb ed="#B" n="49"/>bonitate accidentali.
+    </p>
+            <p xml:id="gbs333-a91573-d1e221">
+      ¶ Quinto 
+      notan<lb ed="#B" n="50" break="no"/>dum quod secundum diuersas opi. de 
+      statu<lb ed="#B" n="51" break="no"/>ponendo in rebus: aliae, &amp; aliae ponendaem 
+      <lb ed="#B" n="52"/>sunt conclusiones. Si non ponitur status 
+      <lb ed="#B" n="53"/>perfectionis in rebus creatis tam 
+      substan<lb ed="#B" n="54" break="no"/>tialibus quam accidentalibus: ita quod non 
+      <lb ed="#B" n="55"/>est dare summum creabile prout uidetur 
+      <lb ed="#B" n="56"/>magister tenere.
+    </p>
+            <p xml:id="gbs333-a91573-d1e239">
+      ¶ Et haec conclusio 
+      ge<lb ed="#B" n="57" break="no"/>neralis pro intellectu primo 
+      quaestio<lb ed="#B" n="58" break="no"/>nis: ut in notabili quarto, &amp; articu. 
+      secun<lb ed="#B" n="59" break="no"/>do quaestionis. Deus potest creare 
+      mun<lb ed="#B" n="60" break="no"/>dum perfectiorem distinctum specie ab 
+      <lb ed="#B" n="61"/>illo. Patet: quia potest perfectiorem 
+      spo<lb ed="#B" n="62" break="no"/>ciem facere, perfectissima iam facta. 
+      Ta<lb ed="#B" n="63" break="no"/>nendo autem quod dabilis sit substantia 
+      <lb ed="#B" n="64"/>perfectissima producibilis a deo 
+      quaestio<lb ed="#B" n="65" break="no"/>est problema neutrum.
+    </p>
+            <p xml:id="gbs333-a91573-d1e261">
+      ¶ Pro quo 
+      no<lb ed="#B" n="66" break="no"/>tandum, quod tripliciter posset poni 
+      sta<lb ed="#B" n="67" break="no"/>tus in producibilibus. Vel sic. Primo quod 
+      <lb ed="#B" n="68"/>dabilis est suprema species producibilis, 
+      <lb ed="#B" n="69"/>siue sit producta siue non. Secundo quod 
+      <lb ed="#B" n="70"/>omnium specierum producibilium 
+      ali<lb ed="#B" n="71" break="no"/>qua indiuidua sunt producta: ita quod  
+      <lb ed="#B" n="72"/>non sit producibile indiuiduum, quodi 
+      <lb ed="#B" n="73"/>differat specie a quolibet indiuiduo 
+      pro<lb ed="#B" n="74" break="no"/>ducto. Tertio quod suprema, &amp; insima 
+      <lb ed="#B" n="75"/>species sit producta, idest indiuidua 
+      su<lb ed="#B" n="76" break="no"/>premae, &amp; insimae speciei: licet multa sint 
+      <lb ed="#B" n="77"/>producibilia indiuidua specierum media 
+      <lb ed="#B" n="78"/>rum nondum productarum. Tunc sunt 
+      <lb ed="#B" n="79"/>conclusiones.
+    </p>
+            <p xml:id="gbs333-a91573-d1e294">
+      ¶ Prima conclusio. 
+      Qd<lb ed="#B" n="80" break="no"/>deus potest facere mundum meliorem 
+      <lb ed="#B" n="81"/>isto specie distinctum quantum ad 
+      par<lb ed="#B" n="82" break="no"/>res substantiales, tenendo statum 
+      se<lb ed="#B" n="83" break="no"/>cundum primum, uel tertium 
+      mo<lb ed="#B" n="84" break="no"/>dum: non autem secundum secundum. 
+      </p>
+            <p xml:id="gbs333-a91573-d1e308">
+               <lb ed="#B" n="85"/>¶ Secunda conclusio. Deus potest 
+      fa<lb ed="#B" n="86" break="no"/>cere mundum meliorem isto distinctum 
+      <lb ed="#B" n="87"/>ab illo numeraliter quantum ad partes 
+      <lb ed="#B" n="88"/>substantiales. Patet: quia cum non sit 
+      <lb ed="#B" n="89"/>determinatus ad certum numerum 
+      in<lb ed="#B" n="90" break="no"/>diuiduorum eiusdem speciei: potest 
+      <lb ed="#B" n="91"/>producere alium mundum eiusdem 
+      spe<lb ed="#B" n="92" break="no"/>ciei cum illo: &amp; in eo plura indiuidua quam 
+      <lb ed="#B" n="93"/>in isto.
+    </p>
+            <p xml:id="gbs333-a91573-d1e330">
+      ¶ Si uero sermo est de 
+      perfectio<lb ed="#B" n="94" break="no"/>ri mundo accidentaliter non est dubium 
+      <lb ed="#B" n="95"/>quin possit facere alium mundum 
+      eius<lb ed="#B" n="96" break="no"/>dem speciei cum illo: &amp; tamen in eo 
+      <lb ed="#B" n="97"/>ponere qualitates intensiores, quam in 
+      <lb ed="#B" n="98"/>isto. Et sic esset accidentaliter per se¬ 
+      <!--449.xml-->
+      <pb ed="#B" n="362"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ctior: quia haberet plures accidentales 
+      <lb ed="#B" n="2"/>perfectiones intensiue. Sic etiam posset 
+      <lb ed="#B" n="3"/>concedi: quod deus potest aliquid facere 
+      me<lb ed="#B" n="4" break="no"/>lius, quam facit, siue ipsum idem 
+      nume<lb ed="#B" n="5" break="no"/>ro, siue aliud, numero, uel specie 
+      distin<lb ed="#B" n="6" break="no"/>ctum ab eo. hoc enim non est aliud, 
+      ni<lb ed="#B" n="7" break="no"/>si deum facere illud, quod nunc facit (
+      si<lb ed="#B" n="8" break="no"/>ue sit idem numero, aut specie cum illo, 
+      <lb ed="#B" n="9"/>quod prius fecit, aut non) esse 
+      informa<lb ed="#B" n="10" break="no"/>rum perfectioribus accidentibus: possunt 
+      <lb ed="#B" n="11"/>enim illa accidentia intendi quae sunt in 
+      <lb ed="#B" n="12"/>isto secundo mundo ultra prioris mundi 
+      <lb ed="#B" n="13"/>accidentia: ergo habetur propositum. 
+      </p>
+            <p xml:id="gbs333-a91573-d1e378">
+               <lb ed="#B" n="14"/>¶ Pro articulo tertio, est dubium circa 
+      il<lb ed="#B" n="15" break="no"/>la. Et primo quomodo uerum est dictum 
+      <lb ed="#B" n="16"/>magistri, &amp; Augustini in litera. Talem 
+      <lb ed="#B" n="17"/>deus potuit fecisse hominem, qui nec 
+      pec<lb ed="#B" n="18" break="no"/>care posset, nec uellet: an ille sit uere 
+      <lb ed="#B" n="19"/>homo, &amp; eiusdem speciei nobiscum: de 
+      <lb ed="#B" n="20"/>hoc dubio uide in secundo dist. xxij. q. 
+      <lb ed="#B" n="21"/>unica.
+    </p>
+            <p xml:id="gbs333-a91573-d1e398">
+      ¶ Secundum dubium. Quid ad 
+      ra<lb ed="#B" n="22" break="no"/>tionem philosophi primo caeli arguentis: 
+      <lb ed="#B" n="23"/>si esset alius mundus: aut terra illius 
+      mun<lb ed="#B" n="24" break="no"/>di moueretur ad medium illius: &amp; sic 
+      es<lb ed="#B" n="25" break="no"/>set unus mundus aut non. Sed hoc  
+      <lb ed="#B" n="26"/>secundum dici non potest: quia corpora 
+      <lb ed="#B" n="27"/>eiusdem speciei mouerentur ad eundem 
+      <lb ed="#B" n="28"/>locum naturaliter. Dicitur, quod non 
+      mo<lb ed="#B" n="29" break="no"/>uerentur ad medium illius mundi: sed 
+      quie<lb ed="#B" n="30" break="no"/>sceret naturaliter in medio sui mundi: 
+      <lb ed="#B" n="31"/>quod esset eiusdem speciei cum medio 
+      il<lb ed="#B" n="32" break="no"/>lius mundi. Et hoc sufficit: quod corpora 
+      <lb ed="#B" n="33"/>eiusdem speciei moueantur ad eundem 
+      lo<lb ed="#B" n="34" break="no"/>cum in specie: licet non numero: quamuis 
+      <lb ed="#B" n="35"/>si omnia essent in eodem loco: 
+      successi<lb ed="#B" n="36" break="no"/>ue mouerentur ad eundem locum 
+      nume<lb ed="#B" n="37" break="no"/>ro. Exemplum est de igne existente in 
+      <lb ed="#B" n="38"/>oriente, &amp; occidente, qui moueretur ad 
+      <lb ed="#B" n="39"/>eundem locum, non numero, sed specie. 
+      <lb ed="#B" n="40"/>Indiuidua enim eiusdem speciei tendunt 
+      <lb ed="#B" n="41"/>ad eundem locum, non numero sed 
+      spe<lb ed="#B" n="42" break="no"/>cie: sic quaelibet terra inclinaretur ad 
+      su<lb ed="#B" n="43" break="no"/>um medium, quae tamen media essent 
+      <lb ed="#B" n="44"/>eiusdem speciei: &amp; hoc sufficit: sic duo 
+      <lb ed="#B" n="45"/>ignes uniis in Roma, alius in Anglia 
+      ten<lb ed="#B" n="46" break="no"/>dunt ad eumdem locum specie, sed non 
+      <lb ed="#B" n="47"/>numero: de hoc late uide Ockam dist. 
+      <lb ed="#B" n="48"/>praesenti.
+    </p>
+            <p xml:id="gbs333-a91573-d1e459">
+      ¶ Ex illis sequitur responsiue, 
+      <lb ed="#B" n="49"/>quod deus potest facere mundum meliorem 
+      <lb ed="#B" n="50"/>tam substantialiter, quam 
+      accidentali<lb ed="#B" n="51" break="no"/>ter, tam intensiue quam extensiue: pa¬ 
+      <!--449.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ter intuenti praedicta.
+    </p>
+            <p xml:id="gbs333-a91573-d1e475">
+      ¶ Tertium 
+      du<lb ed="#B" n="53" break="no"/>bium. Vtrum quicquid deus producit, 
+      <lb ed="#B" n="54"/>infinite producit. Hic diuersi 
+      diuersi<lb ed="#B" n="55" break="no"/>mode respondent. Quidam enim 
+      di<lb ed="#B" n="56" break="no"/>cunt: quod sic: quia deus ad cuiuslibet rei 
+      <lb ed="#B" n="57"/>productionem concurrit secundum 
+      su<lb ed="#B" n="58" break="no"/>um totum uigorem infinitum: cum ille 
+      <lb ed="#B" n="59"/>sit indiuisibilis: &amp; per consequens 
+      con<lb ed="#B" n="60" break="no"/>currit concursu finito, &amp; productione 
+      in<lb ed="#B" n="61" break="no"/>finita: igitur &amp;c. Alij dicunt, quod non 
+      <lb ed="#B" n="62"/>quia nihil plus producitur a deo, quam 
+      <lb ed="#B" n="63"/>ipsum sit. sed quodlibet adextra 
+      produ<lb ed="#B" n="64" break="no"/>ctum solum finite est: ergo solum finite 
+      <lb ed="#B" n="65"/>sit, &amp; producitur a deo: igitur &amp;c. Sed 
+      <lb ed="#B" n="66"/>respondet hic Cameracen. quaest. xiij. 
+      <lb ed="#B" n="67"/>artic. iij. quod difficultas huius dubioli 
+      ma<lb ed="#B" n="68" break="no"/>gis est in nomine; quam in re. Vnde 
+      no<lb ed="#B" n="69" break="no"/>tat, quod illa uerba producere, facere, 
+      con<lb ed="#B" n="70" break="no"/>currere: &amp; alia huiusmodi significantia 
+      <lb ed="#B" n="71"/>actionem dei possunt capi dupliciter: 
+      <lb ed="#B" n="72"/>Vno modo proprie, proue dicunt actum 
+      <lb ed="#B" n="73"/>diuinae uoluntatis intrinsecum: &amp; eum 
+      <lb ed="#B" n="74"/>hoc beatitudinem ipsius ad effectum 
+      ex<lb ed="#B" n="75" break="no"/>trinsecum. Et isto modo satis patet: quod 
+      <lb ed="#B" n="76"/>secunda opin. est uera, &amp; quod deus non 
+      <lb ed="#B" n="77"/>producit infinite, quicquid producit: sed  
+      <lb ed="#B" n="78"/>inaequaliter, &amp; magis, &amp; minus secun- 
+      <lb ed="#B" n="79"/>dum quod maior, uel minor est effectus pro- 
+      <lb ed="#B" n="80"/>ductus: &amp; sic procedit ratio. Alio modo 
+      <lb ed="#B" n="81"/>possunt capi improprie prout praecise 
+      <lb ed="#B" n="82"/>dicunt actum diuinae uoluntatis 
+      intrin<lb ed="#B" n="83" break="no"/>secum, quo deus uult aliquid esse, uel 
+      <lb ed="#B" n="84"/>fieri. Et isto modo probabilis esset 
+      pri<lb ed="#B" n="85" break="no"/>ma opinio quia nihil est aliud dicere: deus 
+      <lb ed="#B" n="86"/>infinite producit a, idest infinite uult a 
+      <lb ed="#B" n="87"/>esse, uel fieri: &amp; hoc est probabile cum 
+      <lb ed="#B" n="88"/>actus, quo sic uult sic infinitus: quia est 
+      <lb ed="#B" n="89"/>idem, quod deus: &amp; sic procedit ratio 
+      il<lb ed="#B" n="90" break="no"/>lius opinionis.
+    </p>
+            <p xml:id="gbs333-a91573-d1e561">
+      ¶ Videtur tamen opinio 
+      <lb ed="#B" n="91"/>secunda probabilior etiam qualitercumque 
+      <lb ed="#B" n="92"/>capiantur illa nomina secundum 
+      eun<lb ed="#B" n="93" break="no"/>dem doct. Nec ualet ratio adducta pro 
+      <lb ed="#B" n="94"/>opinione prima quamuis enim causalitas 
+      di<lb ed="#B" n="95" break="no"/>uina sit infinita, uel productio actiua 
+      <lb ed="#B" n="96"/>infinita: uel concursus infinitus: non 
+      <lb ed="#B" n="97"/>propter hoc deberet concedi: quod deus 
+      <lb ed="#B" n="98"/>quemlibet effectum infinite causet, uel 
+      <lb ed="#B" n="99"/>infinite producat, uel concurrat. Tum 
+      <lb ed="#B" n="100"/>primo, quia licet producere diuinum sit 
+      <lb ed="#B" n="101"/>aeternum cum sit ipse deus: non tamen 
+      <lb ed="#B" n="102"/>concedimus, quod deus aternaliter produ¬ 
+      <!--450.xml-->
+      <pb ed="#B" n="363"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cat effectum aliquem. Tum secundo, 
+      <lb ed="#B" n="2"/>quia licet difectio dei, qua diligit omnia 
+      <lb ed="#B" n="3"/>sit infinita: non tamen concedimus, n 
+      <lb ed="#B" n="4"/>infinite diligit omnia: quia tunc 
+      aequali<lb ed="#B" n="5" break="no"/>ter omnia diligeret: nec plus diligeres 
+      <lb ed="#B" n="6"/>seipsum, quam creaturam: nec una 
+      crea<lb ed="#B" n="7" break="no"/>turam plus, quam aliam. Tum tertio, 
+      <lb ed="#B" n="8"/>quia quamuis causalitas, &amp; productio 
+      dei<lb ed="#B" n="9" break="no"/>actiua sit necessaria: quia est omnibus 
+      mo<lb ed="#B" n="10" break="no"/>dis iuem deo: non tamen propter hoc  
+      <lb ed="#B" n="11"/>concedimus, quod deus necessario causet, 
+      <lb ed="#B" n="12"/>uel producat aliquem effectum. Igitur 
+      <lb ed="#B" n="13"/>nec talis consequentia ualet: concursus, 
+      <lb ed="#B" n="14"/>uel conatus dei, quo producit a, est 
+      infi<lb ed="#B" n="15" break="no"/>nitus: ergo infinite producit a. Tum 
+      <lb ed="#B" n="16"/>quarto: quia quamuis actus diuinus, 
+      quo<lb ed="#B" n="17" break="no"/>uult a, esse, uel fieri sit infinitus: non 
+      p<lb ed="#B" n="18" break="no"/>pter hoc oportet concedere, quod deus 
+      in<lb ed="#B" n="19" break="no"/>finite uult a esse. Et ideo probabiliter 
+      <lb ed="#B" n="20"/>potest dici, quod licet deus sit potentia 
+      infi<lb ed="#B" n="21" break="no"/>nita: non tamen aequaliter, nec infinite 
+      <lb ed="#B" n="22"/>producit omnia: nec est alicuius entis 
+      fi<lb ed="#B" n="23" break="no"/>niti infinite: sed solum finite 
+      producti<lb ed="#B" n="24" break="no"/>ua, &amp; tantae praecise, quantae entitas, 
+      p<lb ed="#B" n="25" break="no"/>ducta est perfecta &amp;c. Haecille. De hac 
+      <lb ed="#B" n="26"/>materia uide in Greg. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

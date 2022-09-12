@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="147"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a37049"> <!-- l1d7q3 -->
+            <head xml:id="gbs333-a37049-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a37049-Hd1e104" type="question-title">Utrum potentia generandi possit communicari filio a patre</head>
+            <p xml:id="gbs333-a37049-d1e107">
+      <!--234.xml-->
+               <pb ed="#B" n="147"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>QVAESTIO III. 
+      <lb ed="#B" n="2"/>VTRVM potentia 
+      gene<lb ed="#B" n="3" break="no"/>randi possit communicari 
+      <lb ed="#B" n="4"/>filio a patre.
+    </p>
+            <p xml:id="gbs333-a37049-d1e125">
+      ¶ Recitatur 
+      <lb ed="#B" n="5"/>&amp; impugnatur a doctore 
+      pri<lb ed="#B" n="6" break="no"/>mum opinio sancti Tho. i. 
+      <lb ed="#B" n="7"/>ij. q. xlj. art. vj. &amp; in disputatis de 
+      poten<lb ed="#B" n="8" break="no"/>tia art. iiij. tenentis, quod potentia 
+      gene<lb ed="#B" n="9" break="no"/>randi non potest communicari filio: ita 
+      <lb ed="#B" n="10"/>quod filius generet alium filium: quia 
+      im<lb ed="#B" n="11" break="no"/>possibile est in diuinis esse plures filios. 
+      <lb ed="#B" n="12"/>¶
+    </p>
+            <p xml:id="gbs333-a37049-d1e146">
+      ¶ Notandum primo: quod quaestio potest 
+      <lb ed="#B" n="13"/>habere duos intellectus. Primus: utrum 
+      <lb ed="#B" n="14"/>potentia generandi id est id, quo aliquid scilice 
+      <lb ed="#B" n="15"/>t pater generat, possit conmunicari filio¬ 
+      </p>
+            <p xml:id="gbs333-a37049-d1e155">
+               <lb ed="#B" n="16"/>¶ Et sic quaestio non habet dubitationem: 
+      <lb ed="#B" n="17"/>quia ut patuit. q. i. huius dist. principium 
+      <lb ed="#B" n="18"/>elicitiuum generationis est essentia: 
+      es<lb ed="#B" n="19" break="no"/>sentia uero est in filio, &amp; conmunicatur 
+      <lb ed="#B" n="20"/>filio. Et sub illo intellectu quaestio non 
+      <lb ed="#B" n="21"/>tractatur hit. Alius intellectus est: utrum 
+      <lb ed="#B" n="22"/>potentia generandi &amp;c. i. utrum 
+      filio<lb ed="#B" n="23" break="no"/>commuicari possit: quod generet. Et sic 
+      <lb ed="#B" n="24"/>itractat eam auctor.
+    </p>
+            <p xml:id="gbs333-a37049-d1e177">
+      ¶ Hinc beatus 
+      Tho<lb ed="#B" n="25" break="no"/>ubi supra. dicit: quod gerundium generandi 
+      <lb ed="#B" n="26"/>tripliciter potest accipi. Vno modo, ut  
+      <lb ed="#B" n="27"/>est gerundium uerbi actiui: &amp; sic ille 
+      ha<lb ed="#B" n="28" break="no"/>bet potentiam generandi, qui habet 
+      po<lb ed="#B" n="29" break="no"/>tentia ad hoc, quid generet. Secundo, ut ext 
+      <lb ed="#B" n="30"/>gerundium uerbi passiui, &amp; sic ille habet 
+      <lb ed="#B" n="31"/>potentiam generandi, qui habet 
+      po<lb ed="#B" n="32" break="no"/>tentiam, ut generetur. Tertio ut est 
+      ge<lb ed="#B" n="33" break="no"/>rundium uerbi impersonalis: &amp; sic ille 
+      <lb ed="#B" n="34"/>dicitur habere potentiam generandi, 
+      <lb ed="#B" n="35"/>qui habet potentiam illam, qua ab 
+      alio<lb ed="#B" n="36" break="no"/>generetur. Primo modo secundum 
+      eun<lb ed="#B" n="37" break="no"/>dem doctorem, potentia generandi non 
+      <lb ed="#B" n="38"/>conuenit filio: sed secundo, &amp; tertio 
+      mo<lb ed="#B" n="39" break="no"/>dis. Nam licet eadem sit potentia 
+      pa<lb ed="#B" n="40" break="no"/>tris, &amp; filij: attamen filius non habet 
+      <lb ed="#B" n="41"/>potentiam generandi, idest ad 
+      generan<lb ed="#B" n="42" break="no"/>dum, seu ut generet. Sicut licet idem 
+      <lb ed="#B" n="43"/>sit esse patris, &amp; filij: non tamen filio 
+      <lb ed="#B" n="44"/>conuenit esse paternum propter 
+      no<lb ed="#B" n="45" break="no"/>tionale adiunctum. Pilius enim non 
+      <lb ed="#B" n="46"/>potest esse pater: cum personae 
+      distin<lb ed="#B" n="47" break="no"/>guantur proprietatibus originis.
+    </p>
+            <p xml:id="gbs333-a37049-d1e229">
+      ¶ 
+      Con<lb ed="#B" n="48" break="no"/>clusio responsalis secundum doctorem 
+      <lb ed="#B" n="49"/>est. Potentia generandi non potest 
+      <!--234.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>communicari filio, ita ut filius generet. 
+      <lb ed="#B" n="51"/>Ista conclusio magis auctoritate 
+      scri<lb ed="#B" n="52" break="no"/>pturae conceditur, quam ratione 
+      mani<lb ed="#B" n="53" break="no"/>festa probetur. Vnde soluit rationes 
+      <lb ed="#B" n="54"/>Tho. ad id probandum per eum inductas: 
+      <lb ed="#B" n="55"/>adducit nihilominus aliquas 
+      persuasio<lb ed="#B" n="56" break="no"/>nes.
+    </p>
+            <p xml:id="gbs333-a37049-d1e255">
+      ¶ Sed diceres. Sequeretur: quod 
+      ali<lb ed="#B" n="57" break="no"/>qua perfectio simpliciter esset in patre, 
+      <lb ed="#B" n="58"/>quae non esset in filio, scilicet generare, 
+      <lb ed="#B" n="59"/>quod dicit perfectionem simpliciter 
+      <lb ed="#B" n="60"/>quia nihil realiter in diuinis existens est 
+      <lb ed="#B" n="61"/>imperfectum: sed quodlibet ibi existens 
+      <lb ed="#B" n="62"/>est simpliciter perfectum.
+    </p>
+            <p xml:id="gbs333-a37049-d1e271">
+      ¶ Pro 
+      solutio<lb ed="#B" n="63" break="no"/>ne notandum: quod perfectio simpliciter 
+      <lb ed="#B" n="64"/>dupliciter accipit. Vno modo pro 
+      per<lb ed="#B" n="65" break="no"/>fectione, quae est simpliciter summa, &amp; 
+      <lb ed="#B" n="66"/>infinita, impossibilis omni 
+      imperfectio<lb ed="#B" n="67" break="no"/>ni. Isto modo relationes, &amp; quicquid 
+      <lb ed="#B" n="68"/>est in deo, est simpliciter perfectum, seu 
+      <lb ed="#B" n="69"/>perfectio simpliciter. Alio modo 
+      perfe<lb ed="#B" n="70" break="no"/>ctio simpliciter dicitur, quod competit 
+      <lb ed="#B" n="71"/>cuilibet simpliciter perfecto: hoc est 
+      om<lb ed="#B" n="72" break="no"/>ni supposito simpliciter perfecto: &amp; sic 
+      <lb ed="#B" n="73"/>nulla relatio in diuinis est perfecta 
+      sim<lb ed="#B" n="74" break="no"/>pliciter. Nec tamen est imperfecta: quia 
+      <lb ed="#B" n="75"/>nulla relatio competit omnibus 
+      perso<lb ed="#B" n="76" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-a37049-d1e305">
+      ¶ Per hoc ad tesponsionem. Ad 
+      pri<lb ed="#B" n="77" break="no"/>mam sequelam accipiendo 
+      perfectio<lb ed="#B" n="78" break="no"/>nem simpliciter primo modo, potest 
+      du<lb ed="#B" n="79" break="no"/>pliciter responderi. Vno modo 
+      conce<lb ed="#B" n="80" break="no"/>dendo, quod aliqua perfectio simpliciter est 
+      <lb ed="#B" n="81"/>in patre, quae non est in filio scilicet 
+      paterni<lb ed="#B" n="82" break="no"/>tas, quae est perfectio simpliciter primo 
+      <lb ed="#B" n="83"/>modo. Nec hoc concedere est magis 
+      <lb ed="#B" n="84"/>inconueniens: quam concedere, quod 
+      pa<lb ed="#B" n="85" break="no"/>ternitas est in patre, &amp; non in filio. 
+      </p>
+            <p xml:id="gbs333-a37049-d1e327">
+               <lb ed="#B" n="86"/>¶ Et si consequenter arguitur: ergo 
+      <lb ed="#B" n="87"/>filius est imperfectus: quia deficit 
+      si<lb ed="#B" n="88" break="no"/>bi aliqua perfectio simpliciter. 
+      Di<lb ed="#B" n="89" break="no"/>cendum negando consequentiam 
+      ul<lb ed="#B" n="90" break="no"/>timam: quia imperfectum illo modo 
+      <lb ed="#B" n="91"/>non est id, quod caret aliqua 
+      perfectio<lb ed="#B" n="92" break="no"/>ne simpliciter: sed quod non est 
+      sum<lb ed="#B" n="93" break="no"/>mum, &amp; infinitum: nunc autem filius 
+      <lb ed="#B" n="94"/>est summus, &amp; infinitus, &amp; ita non 
+      im<lb ed="#B" n="95" break="no"/>perfectus.
+    </p>
+            <p xml:id="gbs333-a37049-d1e351">
+      ¶ Aliter dicitur negando, quod 
+      <lb ed="#B" n="96"/>aliqua perfectio simpliciter non sit in 
+      <lb ed="#B" n="97"/>filio: nec sequitur paternitas, non est in 
+      <lb ed="#B" n="98"/>filio, &amp; paternitas est perfectio 
+      sim<lb ed="#B" n="99" break="no"/>pliciter: ergo aliqua perfectio 
+      sim<lb ed="#B" n="100" break="no"/>pliciter non est in filio. Sicut non sequi  
+      <!--235.xml-->
+      <pb ed="#B" n="148"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tur: paternitas non est in filio: &amp; 
+      pater<lb ed="#B" n="2" break="no"/>nitas est essentia: ergo essentia non est 
+      <lb ed="#B" n="3"/>in filio. Nec sequitur: paternitas non 
+      <lb ed="#B" n="4"/>est filius, &amp; paternitas est deus: ergo 
+      de<lb ed="#B" n="5" break="no"/>us non est filius. Accipiendo autem per 
+      <lb ed="#B" n="6"/>fectionem simpliciter secundo modo, 
+      <lb ed="#B" n="7"/>negetur illatum: nam sic generatio non 
+      <lb ed="#B" n="8"/>dicit perfectionem simpiiciter.
+    </p>
+            <p xml:id="gbs333-a37049-d1e388">
+      ¶ Ad 
+      <lb ed="#B" n="9"/>probationem conceditur: quod nihil in 
+      di<lb ed="#B" n="10" break="no"/>uinis realiter existens est imperfectum. 
+      <lb ed="#B" n="11"/>Nec tamen sequitur: quod omne existens 
+      <lb ed="#B" n="12"/>in diuinis est perfectio simpliciter saltem 
+      <lb ed="#B" n="13"/>formaliter: quia sic datur medium inter 
+      <lb ed="#B" n="14"/>perfectionem simpliciter, &amp; 
+      imperfe<lb ed="#B" n="15" break="no"/>ctum: scilicet res summa 
+      incommuni<lb ed="#B" n="16" break="no"/>cabilis.
+    </p>
+            <p xml:id="gbs333-a37049-d1e408">
+      ¶ Sed hic uide, an concedendum 
+      <lb ed="#B" n="17"/>sit, quod perfectio non sit formaliter filius. 
+      <lb ed="#B" n="18"/>Et uidetur, quod sit concedenda: quia 
+      par<lb ed="#B" n="19" break="no"/>ticularis, cuius subcontraria similiter 
+      <lb ed="#B" n="20"/>concedenda. Vide pro hac quaestione 
+      <lb ed="#B" n="21"/>Scotum dist. praesenti. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

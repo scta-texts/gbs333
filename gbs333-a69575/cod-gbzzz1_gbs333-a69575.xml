@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="NaN"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a69575"> <!-- l1d29prae -->
+            <head xml:id="gbs333-a69575-Hd1e102">Praeambulum</head>
+            <p xml:id="gbs333-a69575-d1e104">
+               <lb ed="#B" n="64"/>DISTINCTIO XXIX 
+      <lb ed="#B" n="65"/>IN Distinctione 
+      prae<lb ed="#B" n="66" break="no"/>cedenti egit magister 
+      <lb ed="#B" n="67"/>de proprietate non 
+      <lb ed="#B" n="68"/>personali negatiua scilicet 
+      <lb ed="#B" n="69"/>innascibilitate. Hic 
+      <lb ed="#B" n="70"/>agit de affirmatiua, 
+      <lb ed="#B" n="71"/>quae est comunis 
+      spi<lb ed="#B" n="72" break="no"/>ratio, &amp; hoc sub nomine ptincipij: uel 
+      <lb ed="#B" n="73"/>possunt dici communis spiratio, &amp; 
+      prin<lb ed="#B" n="74" break="no"/>cipiatio.
+    </p>
+            <p xml:id="gbs333-a69575-d1e130">
+      ¶ Et est conclusio textualis 
+      pri<lb ed="#B" n="75" break="no"/>ma. Nomen principium multiplicem 
+      no<lb ed="#B" n="76" break="no"/>tat relationem. Differunt tamen; quod pro 
+      <lb ed="#B" n="77"/>bat: quia pater est principium adintra 
+      <lb ed="#B" n="78"/>filij sine principio: filius est principium 
+      <lb ed="#B" n="79"/>spiritussancti de principio: spiritussancta 
+      <lb ed="#B" n="80"/>principiatum ab utroque, &amp; non est 
+      prin<lb ed="#B" n="81" break="no"/>cipium adintra.
+    </p>
+            <p xml:id="gbs333-a69575-d1e148">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="82"/>Principium etiam dicit relationem ad 
+      <lb ed="#B" n="83"/>extra: sic pater, &amp; filius, &amp; spirituffactus 
+      <lb ed="#B" n="84"/>sunt unum principium creaturae: non 
+      <lb ed="#B" n="85"/>aeternum: sed ex tempore.
+    </p>
+            <p xml:id="gbs333-a69575-d1e160">
+      ¶ Tertia con 
+      <lb ed="#B" n="86"/>clusio. Pater, &amp; filius sunt unum 
+      princi<lb ed="#B" n="87" break="no"/>pium aeternum spiritussancti eadem 
+      no<lb ed="#B" n="88" break="no"/>tione,. cuius nomen usitatum non est: 
+      <lb ed="#B" n="89"/>potest autem dici conmunis spiratio. 
+      Ha<lb ed="#B" n="90" break="no"/>rum intellectus ex textu patet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

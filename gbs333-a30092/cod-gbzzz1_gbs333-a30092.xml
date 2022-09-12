@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 8</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 8</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="119"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a30092"> <!-- 1d3q8 -->
+            <head xml:id="gbs333-a30092-Hd1e102">Quaestio 8</head>
+            <head xml:id="gbs333-a30092-Hd1e104" type="question-title">Utrum ens quod est commune ad decem praedicamenta, et ad deum et creaturam sit obiectum adaequatum et primum intellectus nostri</head>
+            <p xml:id="gbs333-a30092-d1e107">
+               <lb ed="#B" n="91"/>QVESTIO VIII. 
+      <lb ed="#B" n="92"/>TRVM ens, quod est 
+      con<lb ed="#B" n="93" break="no"/>mune ad decem 
+      praedica<lb ed="#B" n="94" break="no"/>menta, &amp; ad deum, &amp; ad 
+      <lb ed="#B" n="95"/>creaturam: sit obiectum 
+      <lb ed="#B" n="96"/>primum, &amp; adaequatum 
+      in<lb ed="#B" n="97" break="no"/>tellectus nostri.
+    </p>
+            <p xml:id="gbs333-a30092-d1e125">
+      ¶ Pro articulo 
+      quae<lb ed="#B" n="98" break="no"/>stionis, recitata, &amp; impugnata a doct. 
+      <lb ed="#B" n="99"/>opinione beati Thom. par. j. q. Ixxxv. art. j. 
+      <lb ed="#B" n="100"/>Norandum: quod aliquid esse obiectum ad 
+      <!--207.xml-->
+      <pb ed="#B" n="120"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aequatum potentiae potest intelligi 
+      du<lb ed="#B" n="2" break="no"/>pliciter. Vel quia est aliquid 
+      appraehen<lb ed="#B" n="3" break="no"/>sibile, ut potentia primo: ita quod nihil 
+      ap<lb ed="#B" n="4" break="no"/>prehenditur nisi sub ratione illius. Et sic 
+      <lb ed="#B" n="5"/>nihil est obiectum adaequatum alicuius 
+      <lb ed="#B" n="6"/>potentiae &amp; maxime sensitiue: quia aeque 
+      <lb ed="#B" n="7"/>primo appraehenditur a potentia ille 
+      co<lb ed="#B" n="8" break="no"/>lor, sicut ille: &amp; sic de alijs potentiis 
+      sen<lb ed="#B" n="9" break="no"/>sitiuis. Secundo aliquid dicitur esse ob 
+      <lb ed="#B" n="10"/>iectum adaequatum potentiae scilicet quia est 
+      <lb ed="#B" n="11"/>per se commune ad omnia 
+      appraehensi<lb ed="#B" n="12" break="no"/>biliam per se ab illa potentia id est est illud, de 
+      <lb ed="#B" n="13"/>quo primo &amp; adaequate seu 
+      conuertibi<lb ed="#B" n="14" break="no"/>liter praedicatur esse obiectum talis 
+      po<lb ed="#B" n="15" break="no"/>tentiae, uel esse appraehensibile a tali 
+      po<lb ed="#B" n="16" break="no"/>tentia. Iso modo cuiuslibet potentiae 
+      <lb ed="#B" n="17"/>sensitiuae, est aliquod obiectum adaequa 
+      <lb ed="#B" n="18"/>tum: quia est aliquod tale, de quo adae 
+      <lb ed="#B" n="19"/>quate, &amp; conuertibiliter praedicatur esse 
+      <lb ed="#B" n="20"/>obiectum talis potentiae &amp; tamen in rei ueritate 
+      <lb ed="#B" n="21"/>non est obiectuntalis potentiae: nec potest 
+      ap<lb ed="#B" n="22" break="no"/>praehendi a tali potentia, nec per se, nec 
+      <lb ed="#B" n="23"/>per accidens. Exempli gratia. Istud 
+      con<lb ed="#B" n="24" break="no"/>mune color est id, de quo 
+      conuertibi<lb ed="#B" n="25" break="no"/>liter primo &amp; adaequate praedicatur 
+      ap<lb ed="#B" n="26" break="no"/>praehensibile a potentia uisiua.
+    </p>
+            <p xml:id="gbs333-a30092-d1e198">
+      ¶ Et 
+      si<lb ed="#B" n="27" break="no"/>dicitur. Nihil est obiectum potentiae 
+      sen<lb ed="#B" n="28" break="no"/>sitiuae: nisi uera res. ista conceditur di 
+      <lb ed="#B" n="29"/>uirture sermonis: sed tamen, quando 
+      <lb ed="#B" n="30"/>aequiualet isti actui signato: de nullo 
+      prae<lb ed="#B" n="31" break="no"/>dicatur esse obiectum potentiae sensiti: 
+      <lb ed="#B" n="32"/>uae, nisi de uera re extra animam: est 
+      sim<lb ed="#B" n="33" break="no"/>pliciter falsa: quia de illo nomine color 
+      <lb ed="#B" n="34"/>praedicatur esse obiectum potentiae: &amp; 
+      <lb ed="#B" n="35"/>tamen non est uera extra animam. Et 
+      cau<lb ed="#B" n="36" break="no"/>sa est: quia esse obiectum potentiae uisiuae 
+      <lb ed="#B" n="37"/>non prędicatur de illo communi pro se: 
+      <lb ed="#B" n="38"/>sed pro suis inferioribus: &amp; ideo in 
+      tali<lb ed="#B" n="39" break="no"/>propositione habet suppositionem 
+      per<lb ed="#B" n="40" break="no"/>sonalem, non simplicem. Ista enim: 
+      co<lb ed="#B" n="41" break="no"/>lor est uisibilis: non est uera nisi 
+      proco<lb ed="#B" n="42" break="no"/>lore singulari. Haec sunt de mente doct. 
+      <lb ed="#B" n="43"/>dist. ij. qeiiij. ubi latius, quam hoc 
+      exami<lb ed="#B" n="44" break="no"/>nat. Ad quem sensum conceditur 
+      ali<lb ed="#B" n="45" break="no"/>quid esse obiectum primum, &amp; adaequatum 
+      <lb ed="#B" n="46"/>potentiae.
+    </p>
+            <p xml:id="gbs333-a30092-d1e244">
+      ¶ Valent etiam ad intellectum 
+      <lb ed="#B" n="47"/>huius quaestionis dicta. supra. q. ix. dist. 
+      <lb ed="#B" n="48"/>ij. Et in quodlib. v. q. xiiij.
+    </p>
+            <p xml:id="gbs333-a30092-d1e251">
+      ¶ Quantum 
+      <lb ed="#B" n="49"/>ad articulum secundum, est haec 
+      conclu<lb ed="#B" n="50" break="no"/>sio prima secundum opi. tenentem 
+      con<lb ed="#B" n="51" break="no"/>ceptam esse qualitatem animae, &amp; habe¬ 
+      <!--207.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>re esse subiectiuum in anima. Ens est ob 
+      <lb ed="#B" n="53"/>iectum adaequatum: &amp; ita primum 
+      in<lb ed="#B" n="54" break="no"/>tellectus nostri. Probatur: quia est com Lata¬¬ 
+      <lb ed="#B" n="55"/>mune uniuocum omni per se intelligi¬ tis 
+      aci<lb ed="#B" n="56" break="no"/>bile id est terminus praedicabilis de omnibus 
+      ptio<lb ed="#B" n="57" break="no"/>intelligibilibus uniuoce: quia sic nihil in 
+      <lb ed="#B" n="58"/>telligitur nisi ens reale. Et hoc modo 
+      <lb ed="#B" n="59"/>conceptus, falsa impossibilia: intentiones 
+      <lb ed="#B" n="60"/>secundae, sunt entia realia: quia 
+      qualita<lb ed="#B" n="61" break="no"/>tes animae secundum illam opinionem: 
+      <lb ed="#B" n="62"/>nec est aliquid quomodocunque 
+      appraehensi<lb ed="#B" n="63" break="no"/>pile ab intellectu: quin de eo ens per se 
+      <lb ed="#B" n="64"/>hoc est absolute, &amp; uniuoce praedicari 
+      <lb ed="#B" n="65"/>possit.
+    </p>
+            <p xml:id="gbs333-a30092-d1e295">
+      ¶ Potest enim omnis res mundi 
+      <lb ed="#B" n="66"/>per aliquem terminum absolute 
+      signifi<lb ed="#B" n="67" break="no"/>cari: ut est ens tale in se. Et ita ens 
+      po<lb ed="#B" n="68" break="no"/>test praedicari quidditatiue de qualibet 
+      <lb ed="#B" n="69"/>re id est cuiuslibet rei termino eam 
+      absolute<lb ed="#B" n="70" break="no"/>significante. Absolute dictum est 
+      notan<lb ed="#B" n="71" break="no"/>ter: quia non praedicatur uniuoce, &amp; 
+      ab<lb ed="#B" n="72" break="no"/>solutè de terminis connotatiuis rem 
+      ali<lb ed="#B" n="73" break="no"/>quam significantibus. ut supra dist. ij. q. 
+      <lb ed="#B" n="74"/>ix. patuit. Et sic intelligendum est dictu 
+      <lb ed="#B" n="75"/>doct. supra ubi dixit. q. ix. distin. ij. quod ens 
+      <lb ed="#B" n="76"/>non prędicatur de se, &amp; primo modo in 
+      <lb ed="#B" n="77"/>quid de passionibus, &amp; differentijs, seu 
+      <lb ed="#B" n="78"/>terminis connotatiuis. Hoc enim uerum 
+      <lb ed="#B" n="79"/>est in suppositione personali: sed non in 
+      <lb ed="#B" n="80"/>suppositione simplici. Sic enim possunt 
+      <lb ed="#B" n="81"/>absolute significari: &amp; potest ens de ens 
+      <lb ed="#B" n="82"/>per se primo modo praedicari: non autem 
+      <lb ed="#B" n="83"/>quando supponunt personaliter. Si 
+      ta<lb ed="#B" n="84" break="no"/>men per terminos aliquos absolute 
+      si<lb ed="#B" n="85" break="no"/>gnificaretur, quod per passiones, &amp; 
+      dif<lb ed="#B" n="86" break="no"/>ferentias significatur connotatiue: 
+      pos<lb ed="#B" n="87" break="no"/>set ens de eis quidditatiue dici. Sic ergo 
+      <lb ed="#B" n="88"/>secundum illam conclusionem ens est 
+      <lb ed="#B" n="89"/>obiectum adaequatum intellectus nostri: 
+      <lb ed="#B" n="90"/>quia prędicatur de omnibus, quaepossunt 
+      <lb ed="#B" n="91"/>intelligi ad sensum praemissum.
+    </p>
+            <p xml:id="gbs333-a30092-d1e354">
+      ¶ 
+      Secun<lb ed="#B" n="92" break="no"/>da conclusio. Communissimum, quod  
+      <lb ed="#B" n="93"/>a nobis potest appraebendi est ens, quod  
+      <lb ed="#B" n="94"/>est uniuocum omni enti reali.
+    </p>
+            <p xml:id="gbs333-a30092-d1e363">
+      ¶ Tertia 
+      <lb ed="#B" n="95"/>conclusio. secundum opin. tenentem 
+      <lb ed="#B" n="96"/>conceptum habere tantum esse 
+      obiecti<lb ed="#B" n="97" break="no"/>uum in anima, &amp; nullibi esse subiectiuum: 
+      <lb ed="#B" n="98"/>nihil est obiectum adaequatum 
+      intelle<lb ed="#B" n="99" break="no"/>ctus nostri. Patet: quia nihil est per se 
+      con<lb ed="#B" n="100" break="no"/>mune, &amp; uniuocum ad omnia per se 
+      in<lb ed="#B" n="101" break="no"/>telligibilia. Nam entia rationis sunt 
+      per<lb ed="#B" n="102" break="no"/>se intelligibilia, &amp; tamen nihil est uniuo¬ 
+      <!--208.xml-->
+      <pb ed="#B" n="121"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cum ad entia realia, &amp; entia rationis. 
+      <lb ed="#B" n="2"/>Hanc conclusionem doctor solum reci 
+      <lb ed="#B" n="3"/>tatiue ponit. Entia enim rationis non 
+      <lb ed="#B" n="4"/>habent esse reale: sed tantum esse 
+      obie<lb ed="#B" n="5" break="no"/>ctiuum secundum illam opi. secundum 
+      <lb ed="#B" n="6"/>quam conceptus habet esse obiectiuum 
+      <lb ed="#B" n="7"/>tantum: ideo dicit esse dubium, si sit 
+      ali<lb ed="#B" n="8" break="no"/>quod commune praedicabile in quid 
+      prae<lb ed="#B" n="9" break="no"/>cise de istis, quae sunt motiua 
+      intelle<lb ed="#B" n="10" break="no"/>ctus pro statu illo.
+    </p>
+            <p xml:id="gbs333-a30092-d1e412">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="11" break="no"/>culum tertium est dubiu primum. Vtrum 
+      <lb ed="#B" n="12"/>E ens communissimum sit naturaliter 
+      ap<lb ed="#B" n="13" break="no"/>prehensibile ab intellectu. Si sic: ergo 
+      <lb ed="#B" n="14"/>quodlibet sub ipso contentum per se est 
+      <lb ed="#B" n="15"/>naturaliter appraehensibile: &amp; sic 
+      natu<lb ed="#B" n="16" break="no"/>raliter posset appraehendi deus, &amp; 
+      substan<lb ed="#B" n="17" break="no"/>tiae immateriales. Si non: quomodo est 
+      <lb ed="#B" n="18"/>obiectum primum intellectus 
+      naturali<lb ed="#B" n="19" break="no"/>ter. Sol. Supposito, quod ens sit primum, 
+      <lb ed="#B" n="20"/>&amp; adaequatum obiectum intellectus 
+      se<lb ed="#B" n="21" break="no"/>cundum conclusionem primam: ad illud 
+      <lb ed="#B" n="22"/>obiectum adaequatum potest intellectu: 
+      <lb ed="#B" n="23"/>noster naturaliter attingere: quia ad in 
+      <lb ed="#B" n="24"/>telligendum, siue attingendum per 
+      in<lb ed="#B" n="25" break="no"/>tellectum naturaliter obiectum adaequa 
+      <lb ed="#B" n="26"/>tum intellectus sufficit quodlibet per se 
+      <lb ed="#B" n="27"/>contentum sub eo: non tamen quodlibet 
+      per<lb ed="#B" n="28" break="no"/>se contentum sub illo: puta deus est per se 
+      <lb ed="#B" n="29"/>attingibile naturaliter ab ipsa potentia. 
+      <lb ed="#B" n="30"/>Sicut aliquando econuerso non est 
+      in<lb ed="#B" n="31" break="no"/>conuentens, quod quodlibet per se conten 
+      <lb ed="#B" n="32"/>tum sub illo communi (quod est obie 
+      <lb ed="#B" n="33"/>ctum adaequatum potentiae) sit 
+      natura<lb ed="#B" n="34" break="no"/>liter appraehensibile ab aliqua potentia: 
+      <lb ed="#B" n="35"/>&amp; tamen illud obiectum adaequatum 
+      no<lb ed="#B" n="36" break="no"/>sit appraehensibile ab illa potentia nec pe 
+      <lb ed="#B" n="37"/>se, nec per accidens: ut patet de obiecto 
+      <lb ed="#B" n="38"/>adaequato sensus. Nam color est com 
+      <lb ed="#B" n="39"/>mune, de quo conuertibiliter prędicatur 
+      <lb ed="#B" n="40"/>appraebensibile a potentia uisiua: &amp; 
+      ta<lb ed="#B" n="41" break="no"/>men cum sit commune, non sentitur: 
+      <lb ed="#B" n="42"/>quia sensus est singularium tantum.
+    </p>
+            <p xml:id="gbs333-a30092-d1e484">
+      ¶ 
+      Du<lb ed="#B" n="43" break="no"/>bium secundum est. An sit aliquod obie 
+      <lb ed="#B" n="44"/>ctum motiuum intellectus adaequatum, 
+      <lb ed="#B" n="45"/>Respondetur, quod omne singulare, &amp; solum 
+      <lb ed="#B" n="46"/>tale est motiuum intellectus: quia omne 
+      <lb ed="#B" n="47"/>motiuum singulare potest intelligi 
+      intui<lb ed="#B" n="48" break="no"/>tiuequantum est ex natura animae, &amp; 
+      intel<lb ed="#B" n="49" break="no"/>lectus nostri: sed notitia intuitiua 
+      cau<lb ed="#B" n="50" break="no"/>satur a re intuitiuecognita: ergo omne 
+      <lb ed="#B" n="51"/>singulare est motiuum intellectus. Vnde 
+      <!--208.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>dicitur, quod ens uniuocum, &amp; 
+      communis<lb ed="#B" n="53" break="no"/>simum est primum obiectum motiuum 
+      <lb ed="#B" n="54"/>intellectus: quia est commune, &amp; 
+      uniuo<lb ed="#B" n="55" break="no"/>cum pręedicabile in quid de 
+      intelligibi<lb ed="#B" n="56" break="no"/>libus omnibus motiuis intellectus. Tn 
+      <lb ed="#B" n="57"/>ipsum ens commune non est motiuum 
+      <lb ed="#B" n="58"/>intellectus: sed habet tantum esse 
+      obie<lb ed="#B" n="59" break="no"/>ctum in mente, uel in intellectu: 
+      Verun<lb ed="#B" n="60" break="no"/>tamen pro statu isto nihil est motiuum 
+      <lb ed="#B" n="61"/>intellectus nostri ad cognitionem 
+      sui<lb ed="#B" n="62" break="no"/>ipsius: nisi sensibile, &amp; aliqui actus, &amp; 
+      <lb ed="#B" n="63"/>passiones animae, uel etiam ipsamet 
+      ani<lb ed="#B" n="64" break="no"/>ma, si potest intuitiue cognosci a seipsa 
+      <lb ed="#B" n="65"/>pro statu isto. De quo supra. q. i 
+      prolo<lb ed="#B" n="66" break="no"/>gi. Haec enim potest esse euidens alicui. 
+      <lb ed="#B" n="67"/>Ego uolo, diligo, uiuo &amp;c.
+    </p>
+            <p xml:id="gbs333-a30092-d1e545">
+      ¶ Vtrum 
+      au<lb ed="#B" n="68" break="no"/>tem sit aliquod commune praedicabile 
+      <lb ed="#B" n="69"/>in quid de istis, quae sunt motiua 
+      intelle<lb ed="#B" n="70" break="no"/>ctus pro statu isto, est dubium.
+    </p>
+            <p xml:id="gbs333-a30092-d1e554">
+      ¶ Tertium 
+      <lb ed="#B" n="71"/>dubium. Vtrum darj possit terminus 
+      uni<lb ed="#B" n="72" break="no"/>uocus significans absolute omnes substa 
+      <lb ed="#B" n="73"/>tias, &amp; omnia accidentia.
+    </p>
+            <p xml:id="gbs333-a30092-d1e563">
+      ¶ 
+      Suppono<lb ed="#B" n="74" break="no"/>primum: quod uniuocum est conceptus unus 
+      <lb ed="#B" n="75"/>naturaliter proprie significatiuus: uel 
+      si<lb ed="#B" n="76" break="no"/>gnum uni conceptui naturaliter 
+      pro<lb ed="#B" n="77" break="no"/>prie significanti subordinatum: quo 
+      stan<lb ed="#B" n="78" break="no"/>te uidetur, quod sit dabilis.
+    </p>
+            <p xml:id="gbs333-a30092-d1e576">
+      ¶ Primo sic: que  
+      <lb ed="#B" n="79"/>si non: aut propter distantiam perfectio 
+      <lb ed="#B" n="80"/>nis substantiae &amp; accidentis, quae dicunt 
+      <lb ed="#B" n="81"/>primo diuersa: &amp; ita non possunt ab 
+      uno<lb ed="#B" n="82" break="no"/>conceptu significari. Ille enim 
+      conce<lb ed="#B" n="83" break="no"/>ptus esset prius diuersus a suo opposito 
+      <lb ed="#B" n="84"/>(Gratia exempli ens a non ente) quam 
+      <lb ed="#B" n="85"/>substantia ab accidente. Sicut animal non 
+      <lb ed="#B" n="86"/>est primum diuersum a planta: quia 
+      ge<lb ed="#B" n="87" break="no"/>nus suum corpus animatum est prius 
+      di<lb ed="#B" n="88" break="no"/>uersum a corpore inanimato: aut 
+      pro<lb ed="#B" n="89" break="no"/>pter diuersum modum existendi 
+      substan<lb ed="#B" n="90" break="no"/>tiae; &amp; accidentis. Nam substantia 
+      exi<lb ed="#B" n="91" break="no"/>stit in eo, quod est per se: accidens in eo, 
+      <lb ed="#B" n="92"/>quod non est per se: sed inest. Isti autem 
+      <lb ed="#B" n="93"/>duo modi essendi, uel existendi non 
+      pos<lb ed="#B" n="94" break="no"/>sunt significari per unum conceptum: 
+      </p>
+            <p xml:id="gbs333-a30092-d1e614">
+               <lb ed="#B" n="95"/>¶ Sed neutrum illorum impedit: non 
+      pri<lb ed="#B" n="96" break="no"/>mum: non songeplus distat in perfectio 
+      <lb ed="#B" n="97"/>ne deus a creatuta: quam creaturae a 
+      se<lb ed="#B" n="98" break="no"/>inuicem. QDeus enim est perfectio 
+      sim<lb ed="#B" n="99" break="no"/>pliciter infinita: quaelibet creatura est 
+      perr<lb ed="#B" n="100" break="no"/>fectio finita. Plus autem distat infinitum 
+      <lb ed="#B" n="101"/>a finito; quam finita inter se) Sed deus, 
+      <lb ed="#B" n="102"/>&amp; creatura significantur uno conceptu 
+      <!--209.xml-->
+      <pb ed="#B" n="122"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>absoluto, ut conceptu substantiae. Deus 
+      <lb ed="#B" n="2"/>enim uerissime per se est, &amp; ita 
+      substan<lb ed="#B" n="3" break="no"/>tia. Similiter conceptus huius 
+      termin<lb ed="#B" n="4" break="no"/>spiritus capiendo absolute pro omni non 
+      <lb ed="#B" n="5"/>corporeo.
+    </p>
+            <p xml:id="gbs333-a30092-d1e651">
+      ¶ Nec impedit: quod sunt primo 
+      <lb ed="#B" n="6"/>diuersa: quia autem primo diuersa dicum 
+      <lb ed="#B" n="7"/>tur, quae primo diuidunt genus 
+      genera<lb ed="#B" n="8" break="no"/>lissimum tamquam species immediate: &amp; 
+      ma<lb ed="#B" n="9" break="no"/>nifestum est, quod uno conceptu scilicet generis 
+      <lb ed="#B" n="10"/>scuius sunt species immediate) 
+      signifi<lb ed="#B" n="11" break="no"/>cantur. Si uero per primo diuersa, 
+      intel<lb ed="#B" n="12" break="no"/>liguntur, quae in nullo communi 
+      conue<lb ed="#B" n="13" break="no"/>niunt: tunc eadem difficultas est, an sub 
+      <lb ed="#B" n="14"/>stantia, &amp; accidens sint diuersa, &amp; 
+      an<lb ed="#B" n="15" break="no"/>uniuocantur. Sic etiam dicetur: quod nulla 
+      <lb ed="#B" n="16"/>sunt primo diuersa: diuersitas autem 
+      so<lb ed="#B" n="17" break="no"/>lum cadit inter res existentes. Quod. n. 
+      <lb ed="#B" n="18"/>non est: non est ab alio diuersum. Omnia 
+      <lb ed="#B" n="19"/>autem exissentia conueniunt in uno 
+      con<lb ed="#B" n="20" break="no"/>muni, quod est existere. Et uoco existe 
+      <lb ed="#B" n="21"/>re, quod non est nihil.
+    </p>
+            <p xml:id="gbs333-a30092-d1e688">
+      ¶ Nec diuersus 
+      <lb ed="#B" n="22"/>modus existendi substantiae; &amp; accidentis 
+      <lb ed="#B" n="23"/>per se, &amp; in alio impedit uniuocationem: 
+      <lb ed="#B" n="24"/>quod probetur multipliciter. Primo: quia 
+      <lb ed="#B" n="25"/>forma substantialis, quae non per se 
+      exi<lb ed="#B" n="26" break="no"/>stit: sed tantum in alio scilicet materia: &amp; 
+      to<lb ed="#B" n="27" break="no"/>tum compositum uniuocantur in 
+      conce<lb ed="#B" n="28" break="no"/>ptu conmuni substantiae: ergo etiam 
+      sub<lb ed="#B" n="29" break="no"/>stantia, &amp; accidens: quia sicut accidens 
+      <lb ed="#B" n="30"/>non potest per se subsistere: ita nec 
+      for<lb ed="#B" n="31" break="no"/>ma: nec materia.
+    </p>
+            <p xml:id="gbs333-a30092-d1e712">
+      ¶ Praeterea dabilis est 
+      <lb ed="#B" n="32"/>conceptus uniuocus significans 
+      absolu<lb ed="#B" n="33" break="no"/>te omnem rem potentem per quamcumque;  
+      <lb ed="#B" n="34"/>potentiam per se subsistere. Patet: quia 
+      <lb ed="#B" n="35"/>haec est conuententia essentialis talibus 
+      <lb ed="#B" n="36"/>rebus: ergo &amp;c. Sed tam substantiae, quam 
+      <lb ed="#B" n="37"/>accidentia possunt per se subsistere per 
+      po<lb ed="#B" n="38" break="no"/>tentiam diuinam, &amp; sic posse subsistere 
+      <lb ed="#B" n="39"/>est eis essentiale: ergo &amp;c.
+    </p>
+            <p xml:id="gbs333-a30092-d1e732">
+      ¶ Item a qua 
+      <lb ed="#B" n="40"/>libet conuenientia essentiali aliquibus ad 
+      <lb ed="#B" n="41"/>aequata potest abstrahi conceptus uniuo 
+      <lb ed="#B" n="42"/>cus sic conuententibus: sed omnia, quae 
+      <lb ed="#B" n="43"/>sunt extra intellectum (hoc est extra 
+      co<lb ed="#B" n="44" break="no"/>gnitionem intellectus) sic conueniunt: 
+      <lb ed="#B" n="45"/>ergo. Maior est commune principium. 
+      <lb ed="#B" n="46"/>Minor patet: quia omnia illa conueniunt 
+      <lb ed="#B" n="47"/>in hoc essentialiter, quod possunt existere, 
+      <lb ed="#B" n="48"/>siue esse aliquid extra intellectum. Item 
+      <lb ed="#B" n="49"/>in eo, quod non sunt nihiliplus. n. essentia 
+      <lb ed="#B" n="50"/>liter conuenit caliditas, uel gra: aut 
+      uir<lb ed="#B" n="51" break="no"/>tus cum substantia: quae tenebra, uel caecitas: 
+      <!--209.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>uel non ens.
+    </p>
+            <p xml:id="gbs333-a30092-d1e767">
+      ¶ Si dicis. Non a qualibet 
+      <lb ed="#B" n="53"/>conuenientia potest abstrahii conceptus: 
+      <lb ed="#B" n="54"/>sed ab illa termine, ratione cuius rebus sic 
+      <lb ed="#B" n="55"/>conuenient bus conuenit aliqua operatio,  
+      <lb ed="#B" n="56"/>quae secundum se, uel sibi similem in 
+      spe<lb ed="#B" n="57" break="no"/>cie non conuenit alijs.
+    </p>
+            <p xml:id="gbs333-a30092-d1e781">
+      ¶ Contra. Tunc 
+      <lb ed="#B" n="58"/>substantia non posset significare uniuoce 
+      <lb ed="#B" n="59"/>materiam prima, &amp; alias substantias: 
+      con<lb ed="#B" n="60" break="no"/>sequens falsum. Antecedens probitur: quia 
+      <lb ed="#B" n="61"/>nulla operatio conuenit materiae primae: 
+      <lb ed="#B" n="62"/>cum sit potentia pure passiua.
+    </p>
+            <p xml:id="gbs333-a30092-d1e794">
+      ¶ Et si 
+      di<lb ed="#B" n="63" break="no"/>cis: quod ei conuenit actio exemplaris, qui 
+      se<lb ed="#B" n="64" break="no"/>repraesentat intellectui nudo. Sed illud 
+      <lb ed="#B" n="65"/>non impedit: quia haec operatio si poni 
+      <lb ed="#B" n="66"/>tur secundum se, uel sibi similem in specie 
+      <lb ed="#B" n="67"/>conuenit omnibus rebus.
+    </p>
+            <p xml:id="gbs333-a30092-d1e807">
+      ¶ Item ex alio. 
+      Con<lb ed="#B" n="68" break="no"/>ceptus entis est distinctus a conceptu sub 
+      <lb ed="#B" n="69"/>stantiae, &amp; conceptu accidentis, &amp; non est in 
+      <lb ed="#B" n="70"/>ferior: nec distinctus nec conuertibilis. 
+      <lb ed="#B" n="71"/>Non conuertibilis: quia non dant duo concepta 
+      <lb ed="#B" n="72"/>conuertibile absoluti. Nec distinctus: 
+      <lb ed="#B" n="73"/>quia praedicatur de eis. Nec inferior 
+      ma<lb ed="#B" n="74" break="no"/>nifestum est: ergo superior. 
+      Consequen<lb ed="#B" n="75" break="no"/>tia tenet a sufficienti diuisione. Maior 
+      <lb ed="#B" n="76"/>patet: quia idem conceptus non potest esse 
+      <lb ed="#B" n="77"/>dubius, &amp; certus de eodem. Sed de aliquo 
+      <lb ed="#B" n="78"/>dubitare possum, an sit substantia: simili 
+      <lb ed="#B" n="79"/>ter an sit accidens: &amp; tamen non dubitare, 
+      <lb ed="#B" n="80"/>an sitens. Nam de quantitate substantiae 
+      <lb ed="#B" n="81"/>extensae multi dubitant, an sit substantia 
+      <lb ed="#B" n="82"/>quanta, uel accidens inhaerens: &amp; tamen non 
+      <lb ed="#B" n="83"/>dubitant, an sitens. Gratia exempli. 
+      Eor<lb ed="#B" n="84" break="no"/>mentur illae tres propositiones. 
+      Quanti<lb ed="#B" n="85" break="no"/>tas est substantia: quantitas est accidens: 
+      <lb ed="#B" n="86"/>quantitas est ens. Primae duae sunt 
+      du<lb ed="#B" n="87" break="no"/>biae. Tertia non est dubia. Cum autem 
+      ne<lb ed="#B" n="88" break="no"/>mo possit eandem propositionem 
+      dubi<lb ed="#B" n="89" break="no"/>tare, &amp; non dubitare: tertia propositio, 
+      <lb ed="#B" n="90"/>quae non est dubia: non erit eadem cum 
+      pri<lb ed="#B" n="91" break="no"/>ma, neque cum secunda: quamo ambae sunt 
+      <lb ed="#B" n="92"/>dubiae. Si ergo non est eadem: ergo 
+      di<lb ed="#B" n="93" break="no"/>stinguitur ratione subiecti, copulae, uel 
+      <lb ed="#B" n="94"/>praedicati. Non prima duo: quia illa sunt 
+      <lb ed="#B" n="95"/>eadem: ergo ratio ne praedicati: ergo 
+      prae<lb ed="#B" n="96" break="no"/>dicatum, quod est conceptus entis: aliud  
+      <lb ed="#B" n="97"/>erit a conceptu praedicati primarum 
+      dua<lb ed="#B" n="98" break="no"/>rum, quae sunt substantia accidens. Est 
+      <lb ed="#B" n="99"/>ergo conceptus entis alius a conceptu 
+      <lb ed="#B" n="100"/>substantiae: quaero ut prius, an superior, 
+      <lb ed="#B" n="101"/>uel inferior, non inferior, ergo superior: 
+      <lb ed="#B" n="102"/>&amp; per consequens genus: quoniam cum 
+      <!--210.xml-->
+      <pb ed="#B" n="123"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sit absolutus non potest esse superior 
+      nisi<lb ed="#B" n="2" break="no"/>quidditatiue.
+    </p>
+            <p xml:id="gbs333-a30092-d1e896">
+      ¶ Corollaric sequitur ex 
+      <lb ed="#B" n="3"/>dictis, quod potest dariterminus 
+      quiddita<lb ed="#B" n="4" break="no"/>tiue superior ad substantiam. Quodque 
+      <lb ed="#B" n="5"/>ille potest esse genus ad substantiam, &amp; 
+      <lb ed="#B" n="6"/>eo superior quidditatiue. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

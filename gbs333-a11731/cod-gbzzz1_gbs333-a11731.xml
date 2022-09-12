@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-09-12">September 12, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz1">Brescia 1574</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-09-12" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="47"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-a11731"> <!-- l1d1q3 -->
+            <head xml:id="gbs333-a11731-Hd1e102">Quaestio 3</head>
+            <head xml:id="gbs333-a11731-Hd1e104" type="question-title">Utrum fruitio sit qualitas distincta realiter a delectione</head>
+            <p xml:id="gbs333-a11731-d1e107">
+               <lb ed="#B" n="65"/>QVAESTIO III. 
+      <lb ed="#B" n="66"/>UTRVM fruitio sit 
+      quali<lb ed="#B" n="67" break="no"/>tas distincta realiter a dese 
+      <lb ed="#B" n="68"/>ctatione.
+    </p>
+            <p xml:id="gbs333-a11731-d1e118">
+      ¶ In hac quaestio 
+      <lb ed="#B" n="69"/>ne opi. <name xml:id="gbs333-a11731-Nd1e122">Petri aureoli</name> 
+      reci<lb ed="#B" n="70" break="no"/>tat, &amp; impugnat doct. Deinde opi. 
+      Sco<lb ed="#B" n="71" break="no"/>tefert, cum quo in conclusione 
+      respon<lb ed="#B" n="72" break="no"/>sali ad quesitum concordat: licet in 
+      ali<lb ed="#B" n="73" break="no"/>quibus dissentiat ab eodem. Demum pro 
+      <lb ed="#B" n="74"/>cessum in hac quaestione aperit 
+      osten<lb ed="#B" n="75" break="no"/>dens primo, quomodo dilectio, &amp; 
+      dese<lb ed="#B" n="76" break="no"/>ctatio se habent quantum ad 
+      identita<lb ed="#B" n="77" break="no"/>tem, &amp; diuersitatem. Secundo quantum 
+      <lb ed="#B" n="78"/>ad efficientiam, &amp; effectiuitatem. Tertio 
+      <lb ed="#B" n="79"/>quantum ad subiectum recipiens 
+      ea<lb ed="#B" n="80" break="no"/>Quarto quantum ad nobilitatem, &amp; 
+      per<lb ed="#B" n="81" break="no"/>fectionem.
+    </p>
+            <p xml:id="gbs333-a11731-d1e152">
+      ¶ Pro articulo primo, quam est 
+      <lb ed="#B" n="82"/>terminorum declaratiuus: supponuntur 
+      <lb ed="#B" n="83"/>dicta. infra dist. xxiij. tertij collec. q. i. 
+      <lb ed="#B" n="84"/>scilicet: quod passio accipitur multipliciter 
+      <lb ed="#B" n="85"/>quid est potentia: in quo subiectatur. 
+      </p>
+            <p xml:id="gbs333-a11731-d1e163">
+               <lb ed="#B" n="86"/>¶ Hic tamen breuiter notandum: quod de 
+      <lb ed="#B" n="87"/>lectatio a philosopho. j. rheto. sic 
+      noti<lb ed="#B" n="88" break="no"/>ficatur. Delectatio est quidam motus 
+      <lb ed="#B" n="89"/>animae, &amp; constitutio simul tota, &amp; 
+      sen<lb ed="#B" n="90" break="no"/>ibilis in naturam existentem. Dicitur 
+      <lb ed="#B" n="91"/>motus, quod ponitur pro genere 
+      secun<lb ed="#B" n="92" break="no"/>dum sanctum Tho. . ij. q. xxxj. Et 
+      se<lb ed="#B" n="93" break="no"/>cundum eum potest esse praedicatio 
+      cau<lb ed="#B" n="94" break="no"/>salis. Sed uidetur quod possit esse identica: 
+      <lb ed="#B" n="95"/>nam motus h c non sumitur. prout 
+      im<lb ed="#B" n="96" break="no"/>portat quandam successiuam rei 
+      tenden<lb ed="#B" n="97" break="no"/>tiam ad suae perfectionis habendae 
+      con<lb ed="#B" n="98" break="no"/>secutionem: sed motus nominat 
+      quan<lb ed="#B" n="99" break="no"/>dam operationem complacentem in re 
+      <lb ed="#B" n="100"/>uolita, &amp; habita: quomodo intelligere, 
+      <!--135.xml-->
+      <pb ed="#B" n="48"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uelle, &amp; similia dicuntur motus aut etiam 
+      <lb ed="#B" n="2"/>cessatio ab eisdem &amp; quies in aliquo 
+      con<lb ed="#B" n="3" break="no"/>siderata, &amp; habita bonitate obiecti uoliti 
+      <lb ed="#B" n="4"/>&amp; complacentis: ideo &amp; potest sumi 
+      ex<lb ed="#B" n="5" break="no"/>positiue, cum dicitur. est motus animae 
+      <lb ed="#B" n="6"/>&amp; constitutio simultota. ubi secundum 
+      <lb ed="#B" n="7"/>beatum Tho. constitutio non debet ac 
+      <lb ed="#B" n="8"/>cipi prout est constitui: sed prout est 
+      in<lb ed="#B" n="9" break="no"/>stitutum esse quasi in termino motus: non 
+      <lb ed="#B" n="10"/>enim desecratio est generatio ut Plato 
+      <lb ed="#B" n="11"/>posuit: sed magis consistit in factum esse, 
+      <lb ed="#B" n="12"/>ut dicitur. vij. Ethi. Dicitur, &amp; sensibi 
+      <lb ed="#B" n="13"/>lis propter excludere insensibilia: 
+      per<lb ed="#B" n="14" break="no"/>hoc ut credo, excluduntur ea, quae nulla 
+      <lb ed="#B" n="15"/>potentia cognitiua a nobis 
+      compraehen<lb ed="#B" n="16" break="no"/>di possunt: sicut enim nihil amatur 
+      nisi<lb ed="#B" n="17" break="no"/>cognitum: ita &amp; in nullo delectatur 
+      uo<lb ed="#B" n="18" break="no"/>luntas nisi in cognito: &amp; quod sic 
+      prae<lb ed="#B" n="19" break="no"/>sens est, dicitur sensibile. Sequitur in 
+      na<lb ed="#B" n="20" break="no"/>turam ex istentem: hoc explanat 
+      philoso<lb ed="#B" n="21" break="no"/>phus ubi supra. j. reth. cum inquit. 
+      Qua<lb ed="#B" n="22" break="no"/>re necesse omnia delectabilia esse, aut  
+      <lb ed="#B" n="23"/>in sentiendo praesentia, aut in 
+      memoran<lb ed="#B" n="24" break="no"/>do facta, aut in sperando futura. Cum 
+      <lb ed="#B" n="25"/>enim delectatio habet pro obiecto 
+      bo<lb ed="#B" n="26" break="no"/>num adeptum modo nunc tacto: minus 
+      <lb ed="#B" n="27"/>habet de ratione motus imperfecti, quam 
+      <lb ed="#B" n="28"/>caeterae passiones, &amp; sic potest esse dese- 
+      <lb ed="#B" n="29"/>ctatio in sensu, &amp; in intellectiua 
+      poten<lb ed="#B" n="30" break="no"/>tia.
+    </p>
+            <p xml:id="gbs333-a11731-d1e270">
+      ¶ His praemissis respondetur ad 
+      pri<lb ed="#B" n="31" break="no"/>mum de identitate, &amp; diuersitate 
+      dise<lb ed="#B" n="32" break="no"/>ctionis, &amp; delectationis 
+      conclusione<lb ed="#B" n="33" break="no"/>tali. Amor, &amp; delectatio distinguuntur 
+      <lb ed="#B" n="34"/>realiter. Patet: quia si aliquis amor esset 
+      <lb ed="#B" n="35"/>delectatio maxime, qui est in consecutio 
+      <lb ed="#B" n="36"/>ne prius desiderati: sed hoc non. Nam 
+      <lb ed="#B" n="37"/>diabolus tentans, &amp; uolens hominem 
+      pec<lb ed="#B" n="38" break="no"/>care: dum tale uolitum deducit in opus, 
+      <lb ed="#B" n="39"/>non delectatur: eo quod in damnatis nulla 
+      <lb ed="#B" n="40"/>est delectatio. Similiter tristitia non est 
+      <lb ed="#B" n="41"/>odium: nam beati odiunt mala, &amp; tamen 
+      <lb ed="#B" n="42"/>non tristantur: quia beatitudo expellit 
+      <lb ed="#B" n="43"/>omnem tristitiam, sicut damnatio omnem 
+      <lb ed="#B" n="44"/>delectationem, secus de Christo uiatore, 
+      <lb ed="#B" n="45"/>&amp; compraehensore. Nec obstat dictum 
+      <lb ed="#B" n="46"/>Grego. dicentis diabolum delectari, &amp; 
+      <lb ed="#B" n="47"/>exultare. Ad quod glo. &amp; Psal. 
+      Quitri<lb ed="#B" n="48" break="no"/>bulant me, exultabunt &amp;c. nam 
+      exulta<lb ed="#B" n="49" break="no"/>re, &amp; delectari ibi sumitur pro 
+      compla<lb ed="#B" n="50" break="no"/>centia intensa in lapsu hominis, &amp; non 
+      <lb ed="#B" n="51"/>sumuntur illa nomina proprie.
+    </p>
+            <p xml:id="gbs333-a11731-d1e318">
+      ¶ Pro ar 
+      <!--135.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ticulo secundo de efficientia, &amp; 
+      effecti<lb ed="#B" n="53" break="no"/>uitate delectationis recitata opi. Scor. 
+      <lb ed="#B" n="54"/>quod dilectio est effectiue a uoluntate: dese 
+      <lb ed="#B" n="55"/>ctatio uero ab obiecto, est haec 
+      conclu<lb ed="#B" n="56" break="no"/>sio secundum mentem doct. Dilectio est e 
+      <lb ed="#B" n="57"/>immmediate a uoluntate tanquam a 
+      cau<lb ed="#B" n="58" break="no"/>sa efficiente: sed delectatio intellectiua 
+      <lb ed="#B" n="59"/>non autem sensitiui) est immediate ab 
+      <lb ed="#B" n="60"/>actu uoluntatis. Vel sic. Causa 
+      imme<lb ed="#B" n="61" break="no"/>diata delectationis sensitiuae est 
+      co<lb ed="#B" n="62" break="no"/>gnitio sensitiua. Causa uero immediata 
+      <lb ed="#B" n="63"/>delectationis intellectiuae est uolitio, 
+      si<lb ed="#B" n="64" break="no"/>ue actus uoluntatis. Prima pars 
+      proba<lb ed="#B" n="65" break="no"/>tur ex libertate uoluntatis: nam 
+      uolun<lb ed="#B" n="66" break="no"/>tas est potentia libera respectu actus 
+      di<lb ed="#B" n="67" break="no"/>ligendi: ergo dilectio est a sola uolunta 
+      <lb ed="#B" n="68"/>re immediate per hoc tamen non negantur, 
+      <lb ed="#B" n="69"/>&amp; aliae causae mediatae, quae proprie non 
+      <lb ed="#B" n="70"/>dicuntur causae. Secunda pars patet: quia 
+      <lb ed="#B" n="71"/>non a uoluntate immediate: si enim 
+      im<lb ed="#B" n="72" break="no"/>mediata causa esset uoluntas, esset in 
+      po<lb ed="#B" n="73" break="no"/>testate uoluntatis delectari, sicut 
+      dilige<lb ed="#B" n="74" break="no"/>re: quod est falsum. Sequela manifesta 
+      <lb ed="#B" n="75"/>est. Nec ab obiecto immediate: quia 
+      po<lb ed="#B" n="76" break="no"/>sito actu uoluntatis aequali, aequalis est 
+      <lb ed="#B" n="77"/>delectatio siue obiectum sit, siue non sit: 
+      <lb ed="#B" n="78"/>si uero non ponitur actus uoluntatis quam 
+      <lb ed="#B" n="79"/>tumcunque obiectum fuerit praesens: 
+      <lb ed="#B" n="80"/>non sequitur delectatio effectiue. De 
+      <lb ed="#B" n="81"/>multis enim obiectis delectamur, quae non 
+      <lb ed="#B" n="82"/>sunt, ut patet ex auctoritate 
+      philosophi<lb ed="#B" n="83" break="no"/>praeallegata, &amp; per consequens, quae non 
+      <lb ed="#B" n="84"/>sunt, non sunt causae effectiuae. ergo erit 
+      <lb ed="#B" n="85"/>delectatio ab actu uoluntatis: quia nulla 
+      <lb ed="#B" n="86"/>alia causa assignari potest.
+    </p>
+            <p xml:id="gbs333-a11731-d1e401">
+      ¶ Praeterea ex 
+      <lb ed="#B" n="87"/>diffinitione causae posito actu 
+      uolun<lb ed="#B" n="88" break="no"/>tatis ponitur delectatio, &amp; eo remoto 
+      <lb ed="#B" n="89"/>remouetur delectatio. ergo. non tamen 
+      <lb ed="#B" n="90"/>semper posito actu uoluntatis 
+      poni<lb ed="#B" n="91" break="no"/>tur delectatio, attamen uolitio, seu actus 
+      <lb ed="#B" n="92"/>uolitionis non est causa libera re 
+      pectu<lb ed="#B" n="93" break="no"/>delectationis, sed naturalis: quia potest 
+      <lb ed="#B" n="94"/>esse impedimentum, ut gratia 
+      exempli<lb ed="#B" n="95" break="no"/>Si est summa tristitia in aliquo ut in 
+      dae<lb ed="#B" n="96" break="no"/>mone, uel alio: potest aliquid uelle, &amp; 
+      il<lb ed="#B" n="97" break="no"/>lud consequi, &amp; tamen non 
+      delectari<lb ed="#B" n="98" break="no"/>in illo.
+    </p>
+            <p xml:id="gbs333-a11731-d1e430">
+      ¶ Ex quo potest inferri, quod actus 
+      <lb ed="#B" n="99"/>uolendi naturaliter potest esse sine dele 
+      <lb ed="#B" n="100"/>ctatione, &amp; non econuerso. ergo est 
+      <lb ed="#B" n="101"/>causa eius. Cum ergo uolitio sit causa 
+      <lb ed="#B" n="102"/>naturalis, &amp; non libera respectu desle¬ 
+      <!--136.xml-->
+      <pb ed="#B" n="49"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ctationis: uoluntas uero est potentia 
+      li<lb ed="#B" n="2" break="no"/>bera: ergo unum potest impediri: non sic aliud, 
+      <lb ed="#B" n="3"/>Potest tamen dici: quod etiam uoluntas habet 
+      <lb ed="#B" n="4"/>aliquam libertatem dicet mediante 
+      respe<lb ed="#B" n="5" break="no"/>ctu defectationis: quia potest non 
+      dilige<lb ed="#B" n="6" break="no"/>re, &amp; si non diligit, non sequitur dese 
+      <lb ed="#B" n="7"/>ctatio.
+    </p>
+            <p xml:id="gbs333-a11731-d1e464">
+      ¶ Ratio uero diuersitatis: quod dele 
+      <lb ed="#B" n="8"/>ctatio sensitiua, &amp; intellectiua non 
+      haben<lb ed="#B" n="9" break="no"/>eandem causam immediatam effectiuam: 
+      <lb ed="#B" n="10"/>sumitur aliquo modo per experientiam: 
+      <lb ed="#B" n="11"/>quia ad obiecti appraehensionem 
+      seclu<lb ed="#B" n="12" break="no"/>ia uolitione non sequitur 
+      intellectuali<lb ed="#B" n="13" break="no"/>delectatio: diues n. appraehensis diuitijs 
+      <lb ed="#B" n="14"/>non dilectis non delectatur. Patet de 
+      <lb ed="#B" n="15"/>multis patribus sanctis, quasi in diuitiis 
+      nul<lb ed="#B" n="16" break="no"/>lam habuere delectationem. Item pater 
+      <lb ed="#B" n="17"/>idem de renuntiantibus seculo. Sed 
+      s<lb ed="#B" n="18" break="no"/>per sensum apprehenditur obiectum 
+      con<lb ed="#B" n="19" break="no"/>ueniens: non potest sensus non delecta 
+      <lb ed="#B" n="20"/>ri. Item secundum doc. inter 
+      appraehen<lb ed="#B" n="21" break="no"/>fionem intellectualem, &amp; delectationem, 
+      <lb ed="#B" n="22"/>mediat actus uoluntatis, ad quem selibe 
+      <lb ed="#B" n="23"/>re habet uoluntas. Sed inter a 
+      ppraehen<lb ed="#B" n="24" break="no"/>sionem sensitiuam, &amp; delectationem 
+      sensi<lb ed="#B" n="25" break="no"/>tiuam nihil mediat: ergo appraehensio 
+      <lb ed="#B" n="26"/>sensitiua erit causa immediata delecta 
+      <lb ed="#B" n="27"/>tionis sensitiuae.
+    </p>
+            <p xml:id="gbs333-a11731-d1e510">
+      ¶ Et si datur instantia 
+      <lb ed="#B" n="28"/>de delectabili conreditur: quod est causa 
+      me<lb ed="#B" n="29" break="no"/>diata, non inimediata. Et licet quandoque  
+      <lb ed="#B" n="30"/>oportet delectabile necessario esse prius 
+      <lb ed="#B" n="31"/>naturaliter loquendo, ut in 
+      delectabili<lb ed="#B" n="32" break="no"/>bus sensuum particularium: nunquam tame 
+      <lb ed="#B" n="33"/>est causa immediata.
+    </p>
+            <p xml:id="gbs333-a11731-d1e526">
+      ¶ Late hoc 
+      prose<lb ed="#B" n="34" break="no"/>quitur doc. quid requiratur ad rationem 
+      <lb ed="#B" n="35"/>causae: uide in litera.
+    </p>
+            <p xml:id="gbs333-a11731-d1e533">
+      ¶ Articulus tertius 
+      <lb ed="#B" n="36"/>quaerit de subjecto dilectionis, &amp; dese 
+      <lb ed="#B" n="37"/>Pctationis. Ad quem respondet doctor con 
+      <lb ed="#B" n="38"/>bclusione tali. Probabilius est dicere;: quod 
+      <lb ed="#B" n="39"/>delectatio est subiectiue in uoluntate, quo 
+      <lb ed="#B" n="40"/>in actu uoluntatis. Probatur: quia 
+      acci<lb ed="#B" n="41" break="no"/>dentis non est accidens. Et secundum 
+      <lb ed="#B" n="42"/>philosophum. Maxime proprium est sub 
+      <lb ed="#B" n="43"/>stantiae secundum sui mutationem esse 
+      <lb ed="#B" n="44"/>susceptibilem contrariorum. Cum 
+      er<lb ed="#B" n="45" break="no"/>go delectatio, &amp; tristitia sunt contraria: 
+      <lb ed="#B" n="46"/>crunt immediate in aliqua substantia, 
+      <lb ed="#B" n="47"/>&amp; per consequens neutrum erit subie. 
+      <lb ed="#B" n="48"/>ctiue in accidente ex consequenti, nec 
+      <lb ed="#B" n="49"/>in actu uoluntatis: sed in ipsa uoluntate: 
+      <lb ed="#B" n="50"/>hoc est in anima rationali.
+    </p>
+            <p xml:id="gbs333-a11731-d1e568">
+      ¶ Nec uale 
+      <lb ed="#B" n="51"/>replica, si dicitur, quod quantitas est rece¬ 
+      <!--136.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ptiua contrariorum: quia quantitas non 
+      <lb ed="#B" n="53"/>est accidens inhaerens rei quantae: nec est 
+      <lb ed="#B" n="54"/>alia res a substantia quanta, quantitas sub 
+      <lb ed="#B" n="55"/>stantiae: ut probabiliter potest teneri 
+      <lb ed="#B" n="56"/>s 
+      <lb ed="#B" n="57"/>Articulus quartus est de perfectione, 
+      <lb ed="#B" n="58"/>&amp; nobilitate eorundem: pro quo est hec 
+      <lb ed="#B" n="59"/>conclusio. Actus amoris, siue dilectionis 
+      <lb ed="#B" n="60"/>simpliciter est nobilior delectatione. 
+      <lb ed="#B" n="61"/>Probatur: quia cuius contrarium est peius 
+      <lb ed="#B" n="62"/>ipsum est nobilius: sed odium dei, quod  
+      <lb ed="#B" n="63"/>contrariatur dilectioni dei, est peius 
+      tri<lb ed="#B" n="64" break="no"/>stitia: ergo dilectio est nobilior 
+      delecta<lb ed="#B" n="65" break="no"/>tione. Maior manifesta. Minor patet: quia 
+      <lb ed="#B" n="66"/>est maxime fugiendum, &amp; in nullo 
+      calu<lb ed="#B" n="67" break="no"/>peccandum est.
+    </p>
+            <p xml:id="gbs333-a11731-d1e612">
+      ¶ Item amor amicitiae est 
+      <lb ed="#B" n="68"/>perfectissimum accidens: quod potest 
+      con<lb ed="#B" n="69" break="no"/>perere homini: quia maxime acceptatur 
+      <lb ed="#B" n="70"/>a deo. ergo est perfectior delectatione. 
+      </p>
+            <p xml:id="gbs333-a11731-d1e622">
+               <lb ed="#B" n="71"/>¶ Si dicis. Illud est nobilius, quod 
+      quie<lb ed="#B" n="72" break="no"/>tat uoluntatem: tale est delectatio, &amp; non 
+      <lb ed="#B" n="73"/>dilectio siue fruitio: quia post fruitionem 
+      <lb ed="#B" n="74"/>expectatur delectatio. Dicendum: quod 
+      quie<lb ed="#B" n="75" break="no"/>tare ultimate uoluntatem dupliciter in 
+      <lb ed="#B" n="76"/>telligitur,. Vel quia est ultimum 
+      eligibi<lb ed="#B" n="77" break="no"/>le propter se, &amp; non propter aliud. Vel 
+      <lb ed="#B" n="78"/>quia est aliquid, post quod non est aliud 
+      <lb ed="#B" n="79"/>quietans. Prinmo modo fruitio quietat, &amp; 
+      <lb ed="#B" n="80"/>non delectatio: &amp; quod sic quietat, est 
+      <lb ed="#B" n="81"/>nobilius: quia non est propter aliud. 
+      Si<lb ed="#B" n="82" break="no"/>secundo modo: sic delectatio ulti mate 
+      <lb ed="#B" n="83"/>quietat: sed tale non est nobilius: cum sit 
+      <lb ed="#B" n="84"/>propter aliud. Nam &amp; defectatio est 
+      pro<lb ed="#B" n="85" break="no"/>pter operationem. x. Ethic. Delectatio  
+      <lb ed="#B" n="86"/>denique conseruat operantem in operae 
+      </p>
+            <p xml:id="gbs333-a11731-d1e659">
+               <lb ed="#B" n="87"/>¶ Si dicis. Delectatio est perfectior, eo 
+      <lb ed="#B" n="88"/>quod naturaliter est posterior fruitione: nam 
+      <lb ed="#B" n="89"/>quae sunt posteriora generatione, priora 
+      <lb ed="#B" n="90"/>sunt perfectione. Dico: quod hoc uerum est 
+      <lb ed="#B" n="91"/>quando sunt eiusdem generis, &amp; unum 
+      <lb ed="#B" n="92"/>essentialiter ordinatur in aliud, &amp; est 
+      pro<lb ed="#B" n="93" break="no"/>pter aliud: sicut sperma est propter 
+      ho<lb ed="#B" n="94" break="no"/>minem: sic non est in proposito. Nam 
+      <lb ed="#B" n="95"/>fruitio non ordinatur ad delectationem: 
+      <lb ed="#B" n="96"/>nec fruitio est propter delectationem: 
+      <lb ed="#B" n="97"/>sed econuerso.
+    </p>
+            <p xml:id="gbs333-a11731-d1e685">
+      ¶ Si dicis. An deus de 
+      po<lb ed="#B" n="98" break="no"/>tentia absoluta potest facere fruitionem 
+      <lb ed="#B" n="99"/>sine delectatione consequente. 
+      Vide<lb ed="#B" n="100" break="no"/>tur, quod sic: &amp; ita cum tristitia &amp;c.
+    </p>
+            <p xml:id="gbs333-a11731-d1e694">
+      ¶ 
+      Quan<lb ed="#B" n="101" break="no"/>tum ad articulum tertium principalem, 
+      <lb ed="#B" n="102"/>dubitatur, an illa forma arguendi ualeat.  
+      <lb ed="#B" n="103"/>Quando aliqua sic se habent, quod unum 
+      <!--137.xml-->
+      <pb ed="#B" n="50"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>E manet alio non manere, illa 
+      distinguun<lb ed="#B" n="2" break="no"/>tur: sed possibile est, quod maneat dilectio, 
+      <lb ed="#B" n="3"/>&amp; non maneat delectatio &amp;c. ut arguit 
+      <lb ed="#B" n="4"/>doctor contra Aureosum. Dicendum, quod 
+      <lb ed="#B" n="5"/>non ualet: quia datur instantia 
+      manife<lb ed="#B" n="6" break="no"/>sta in concretis arguendo. Per hanc esim 
+      <lb ed="#B" n="7"/>formam probatur: quod lac album distingue- 
+      <lb ed="#B" n="8"/>retur realiter a lacte calido: uel a lacte 
+      <lb ed="#B" n="9"/>dulci: cum tamen idem lac sit album, 
+      ca<lb ed="#B" n="10" break="no"/>lidum, &amp; dulce.
+    </p>
+            <p xml:id="gbs333-a11731-d1e731">
+      ¶ Item probaretur, quod 
+      <lb ed="#B" n="11"/>dominus, &amp; creator, deus, realiter 
+      distin<lb ed="#B" n="12" break="no"/>ouerentur.
+    </p>
+            <p xml:id="gbs333-a11731-d1e738">
+      ¶ Item quod hoc lac calidum 
+      di<lb ed="#B" n="13" break="no"/>stinguitur ab hac lacte calido realiterde 
+      <lb ed="#B" n="14"/>monstrando idem: patet subsumendo sub 
+      <lb ed="#B" n="15"/>praedicta maiore. Manet lac album, quando 
+      <lb ed="#B" n="16"/>non manet lac dul:e uel calidum.
+    </p>
+            <p xml:id="gbs333-a11731-d1e750">
+      ¶ Ite 
+      <lb ed="#B" n="17"/>manet deus; quando non manet creator, 
+      <lb ed="#B" n="18"/>uel dimes. Item hoc lac calidum manet: 
+      <lb ed="#B" n="19"/>quando non manet lac calidum. Vel quod 
+      <lb ed="#B" n="20"/>calidum distingueretur a seipso calido 
+      <lb ed="#B" n="21"/>subsumendo: calidum manet, quando no 
+      ma<lb ed="#B" n="22" break="no"/>net calidum. Omnes illae minores in 
+      ca<lb ed="#B" n="23" break="no"/>su sunt uerae, &amp; possibiles, &amp; tamen 
+      conclu<lb ed="#B" n="24" break="no"/>siones falsae, &amp; impossibiles.
+    </p>
+            <p xml:id="gbs333-a11731-d1e770">
+      ¶ Si 
+      quaeri<lb ed="#B" n="25" break="no"/>tur, in quo deficit illa forma. 
+      Dicen<lb ed="#B" n="26" break="no"/>dumque quod non est per locum aliquem pro 
+      <lb ed="#B" n="27"/>batiuum: non enimper locum 
+      yllogi<lb ed="#B" n="28" break="no"/>sticum: quia nec est in modo, nec in 
+      fi<lb ed="#B" n="29" break="no"/>gura: ut patet inspicienti. Nam non con 
+      <lb ed="#B" n="30"/>stituitur ex tribus terminis tantum: quia 
+      <lb ed="#B" n="31"/>nullum ibi est medium. Nam subiectum 
+      <lb ed="#B" n="32"/>maioris, quod de beret esse medium 
+      eo<lb ed="#B" n="33" break="no"/>quod non intrat conclusionem, non 
+      praedi<lb ed="#B" n="34" break="no"/>catur in minori: neque subijcitur: nec 
+      po<lb ed="#B" n="35" break="no"/>test assignarialiquis locus 
+      enthimema<lb ed="#B" n="36" break="no"/>ticus. Si dicitur: reducatur ergo ad 
+      for<lb ed="#B" n="37" break="no"/>mam syllogisticam sic: omnia sic se 
+      ha<lb ed="#B" n="38" break="no"/>bentia, quod unum eorum manet alio non 
+      <lb ed="#B" n="39"/>manente, sunt realiter distincta, &amp; 
+      om<lb ed="#B" n="40" break="no"/>ne lac album, &amp; omne lac dulce sunt 
+      hu<lb ed="#B" n="41" break="no"/>iusmodi. ergo omne lac album, &amp; 
+      om<lb ed="#B" n="42" break="no"/>ne lac dulce sunt realiter distincta, sic 
+      <lb ed="#B" n="43"/>argumentum est in primo primae, &amp; 
+      ma<lb ed="#B" n="44" break="no"/>ior est uera: similiter minor. Quod pro 
+      <lb ed="#B" n="45"/>batur, quia lac album, &amp; lac dusce sic 
+      se<lb ed="#B" n="46" break="no"/>habent, quod potest manere lac album non 
+      <lb ed="#B" n="47"/>manente lacte dulci: supposito quod lac 
+      al<lb ed="#B" n="48" break="no"/>bum amaricetur, ut fieri solet reseruatum 
+      <lb ed="#B" n="49"/>in diem alterum: tunc. nione manet lac 
+      al<lb ed="#B" n="50" break="no"/>bum: &amp; non manet lac dulce: quia ama 
+      <lb ed="#B" n="51"/>ricato lacte, iam non est lac dulce. Dico; 
+      <!--137.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>quod sic arguendo maior est uera: quia 
+      op<lb ed="#B" n="53" break="no"/>positum uidetur implicare. Sed minor es 
+      <lb ed="#B" n="54"/>falsa scilicet omne lac album, &amp; lac dulce sunt 
+      <lb ed="#B" n="55"/>huiusmodi, id est sunt aliqua sic se 
+      haben<lb ed="#B" n="56" break="no"/>tia, quod unum manet alio non manente 
+      <lb ed="#B" n="57"/>propter falsam implicationem: implicat  
+      <lb ed="#B" n="58"/>enim quod lac album, &amp; lac dulce siut 
+      ali<lb ed="#B" n="59" break="no"/>qua. Item sint unum, &amp; aliud, 
+      quaeom<lb ed="#B" n="60" break="no"/>nia in casu falsa sunt, loquendo de 
+      uno<lb ed="#B" n="61" break="no"/>lacte, quod est album, &amp; dulce: quia illud 
+      <lb ed="#B" n="62"/>lac album, &amp; cum hoc dulce non est 
+      ali<lb ed="#B" n="63" break="no"/>qua, nec est unum, &amp; aliud: sed est unum, 
+      <lb ed="#B" n="64"/>&amp; idem omnibe modis. Similiter falsum 
+      <lb ed="#B" n="65"/>est: quod unum. ist lac album manet, quamdo aliud 
+      <lb ed="#B" n="66"/>i.t lac dulce non manet: quia quandocunque;  
+      <lb ed="#B" n="67"/>manet id, quod modo est lac album: 
+      ma<lb ed="#B" n="68" break="no"/>net etiam id, quod modo est lac dulce, 
+      <lb ed="#B" n="69"/>quia idem est subiectum albedinis, &amp; dul 
+      <lb ed="#B" n="70"/>cedinis: &amp; quando illud manet, ipsum 
+      ma<lb ed="#B" n="71" break="no"/>net. Et ita si acciperetur minor secundum 
+      <lb ed="#B" n="72"/>actum signatum, ut tantum ualeret: 
+      lac<lb ed="#B" n="73" break="no"/>albu supponit pro aliquo, quod manet, 
+      <lb ed="#B" n="74"/>quando non manet illud, pro quo 
+      sup<lb ed="#B" n="75" break="no"/>ponit lac dulce, nihilominus est falsa: quia 
+      <lb ed="#B" n="76"/>cum lac album, &amp; lac dulce supponunt 
+      <lb ed="#B" n="77"/>pro subjecto albedinis, &amp; duscedinis, quid 
+      <lb ed="#B" n="78"/>idem est: illud subiectum, quamdo manet 
+      fal<lb ed="#B" n="79" break="no"/>sum est dicere, quod non manet.
+    </p>
+            <p xml:id="gbs333-a11731-d1e896">
+      ¶ Et ad 
+      <lb ed="#B" n="80"/>probatione minoris potest manere 
+      lac<lb ed="#B" n="81" break="no"/>album, quando non manet lac dulce. ergo 
+      <lb ed="#B" n="82"/>uno manente aliud no manet: uel ergo 
+      <lb ed="#B" n="83"/>lacte albo manente, lac dulce non 
+      ma<lb ed="#B" n="84" break="no"/>net. Negetur consequentia, quia est fal 
+      <lb ed="#B" n="85"/>lacia accidentis: quia in antecedente 
+      <lb ed="#B" n="86"/>manet, dicit mansionem secundum quid: 
+      <lb ed="#B" n="87"/>idest dispositionis accidentalis, 
+      albedi<lb ed="#B" n="88" break="no"/>dinis, &amp; dulcedinis, &amp; in consequente 
+      di<lb ed="#B" n="89" break="no"/>cit mansionem simpliciter id est rei 
+      substan<lb ed="#B" n="90" break="no"/>tialis scilicet substantiaelactis, quae est subjectu: 
+      <lb ed="#B" n="91"/>&amp; ita uariatur appellatio formae.
+    </p>
+            <p xml:id="gbs333-a11731-d1e925">
+      ¶ Si 
+      di<lb ed="#B" n="92" break="no"/>cis, uolo, quod manet praecise dicat idem in 
+      <lb ed="#B" n="93"/>antecedente, &amp; consequente: quamuis 
+      <lb ed="#B" n="94"/>hoc sit contra uim logicae. Admisso 
+      ta<lb ed="#B" n="95" break="no"/>men tunc distinguendum est: aut 
+      utro<lb ed="#B" n="96" break="no"/>bique dicit mansionem secundum quid: aut  
+      <lb ed="#B" n="97"/>utrobique mansionem simpliciter. Si 
+      pri<lb ed="#B" n="98" break="no"/>mum conceditur antecedens, &amp; conse- 
+      <lb ed="#B" n="99"/>quens Sed si ultra infertur minor syllo 
+      <lb ed="#B" n="100"/>gismi, negetur consequentia, quia in 
+      mi<lb ed="#B" n="101" break="no"/>nori spllogismi manet dicit, mansionem 
+      <lb ed="#B" n="102"/>umpliciter: sicut etiam in maiore: si au¬ 
+      <!--138.xml-->
+      <pb ed="#B" n="51"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tem dicit mansionem simpliciter: sicut  
+      <lb ed="#B" n="2"/>etiam in maiore: siautem dicitur 
+      man<lb ed="#B" n="3" break="no"/>sionem simpliciter: sic antecedens est 
+      <lb ed="#B" n="4"/>falsum. Manet lac album, quando non 
+      <lb ed="#B" n="5"/>manetlac dulce: quia ualet tamen manet sub 
+      <lb ed="#B" n="6"/>iectum albedinis: quando non manet subiectum 
+      <lb ed="#B" n="7"/>dulcedinis: quod falsum est quia quandocumque ma 
+      <lb ed="#B" n="8"/>net subiectum albedinis: manet etiam 
+      il<lb ed="#B" n="9" break="no"/>lud, quod nunc est subiectum duscedinis. 
+      </p>
+            <p xml:id="gbs333-a11731-d1e977">
+               <lb ed="#B" n="10"/>¶ Quod etiam auctor subdit, quod licet non 
+      <lb ed="#B" n="11"/>inferatur illa, dilectio distinguitur a dese 
+      <lb ed="#B" n="12"/>ctatione, tamen bene sequitur, quod haec est 
+      pos<lb ed="#B" n="13" break="no"/>sibilis: dilectio realiter distinguitur a de 
+      <lb ed="#B" n="14"/>lectatione. Verum est hoc quando ualet una 
+      <lb ed="#B" n="15"/>de sensu composito. Sed non potest 
+      infe<lb ed="#B" n="16" break="no"/>ri una de sensu diuisio sic inferendo. 
+      er<lb ed="#B" n="17" break="no"/>go dilectio potest distingui a 
+      defectatio<lb ed="#B" n="18" break="no"/>ne: ut in priori exemplo. Non sequitur 
+      <lb ed="#B" n="19"/>ergo, lac album potest distinguia lacte 
+      <lb ed="#B" n="20"/>dulci: quia illa infert, quod idem posset 
+      distin<lb ed="#B" n="21" break="no"/>guia seipso, quod est impossibile. Sed se 
+      <lb ed="#B" n="22"/>quitur: quod haec est possibilis: lac album 
+      di<lb ed="#B" n="23" break="no"/>stinguitur a lacte dulci: capiendo 
+      distin<lb ed="#B" n="24" break="no"/>gui ut non praesupponit existentiam 
+      extre<lb ed="#B" n="25" break="no"/>morum: sed simpliciter importet 
+      nega<lb ed="#B" n="26" break="no"/>tionem unius ab alio siue sint, siue non 
+      <lb ed="#B" n="27"/>Et sic illa est possibilis: quia ualet illam: 
+      <lb ed="#B" n="28"/>haec est possibilis lac album non est lac 
+      <lb ed="#B" n="29"/>dulce, quod uerum est: quia si lac 
+      corrun<lb ed="#B" n="30" break="no"/>peretur, uel duscedo corrum peretur, haec 
+      <lb ed="#B" n="31"/>esset uera: lac album non est lac dulce. Alias 
+      <lb ed="#B" n="32"/>si distinguitur capitur stricte: non se 
+      qui<lb ed="#B" n="33" break="no"/>tur. Sortes manet, quando non manet hoc 
+      ri<lb ed="#B" n="34" break="no"/>dens, demonstrando sortem ridentem. 
+      <lb ed="#B" n="35"/>ergo haec est possibilis. Sortes 
+      distingui<lb ed="#B" n="36" break="no"/>tur ab hoc ridente.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1038">
+      ¶ Secundo dubitatur 
+      <lb ed="#B" n="37"/>contra conclusionem primam: nam ex 
+      <lb ed="#B" n="38"/>presse dicit Aug. xiiij. de ciuitate dei. 
+      <lb ed="#B" n="39"/>c. vj. Interest qualis sit uoluntas 
+      homi<lb ed="#B" n="40" break="no"/>nis: quia si peruersa, peruersos habebit 
+      <lb ed="#B" n="41"/>motus &amp;c. Et sequitur. Voluntas 
+      quippe<lb ed="#B" n="42" break="no"/>in omnibus est, immo omnes nihil aliud, 
+      <lb ed="#B" n="43"/>quam uoluntas sunt: ergo delectatio em 
+      <lb ed="#B" n="44"/>amor, &amp; dilectio.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1059">
+      ¶ Praeterea. fruimur 
+      <lb ed="#B" n="45"/>cognitis, in quibus uoluntas ipsis 
+      pro<lb ed="#B" n="46" break="no"/>pter seipsa defectata conquiescit. decimo 
+      <lb ed="#B" n="47"/>de trinitate. c. x.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1068">
+      ¶ Item arguit Grego. 
+      <lb ed="#B" n="48"/>q.ij. arti. ij. Omnis actus uoluntatis est 
+      <lb ed="#B" n="49"/>dilectio, uel odium: ut patet ex dicto 
+      Au<lb ed="#B" n="50" break="no"/>gust. ubi supra. sed omnis delectatio est 
+      <lb ed="#B" n="51"/>actus uoluntatis, &amp; nulla est odium: er¬ 
+      <!--138.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>go omnis delectatio est dilectio. Minor 
+      <lb ed="#B" n="53"/>etiam est Augubi supra. xiiij. de ciuita 
+      <lb ed="#B" n="54"/>te dei. c. vj. Et claret, quod delectatio non est 
+      <lb ed="#B" n="55"/>odium.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1092">
+      ¶ Item omnis complacentia est 
+      <lb ed="#B" n="56"/>dilectio, omnis delectatio est 
+      compla<lb ed="#B" n="57" break="no"/>centia: igitur omnis dilectio est 
+      delecta<lb ed="#B" n="58" break="no"/>tio. Maior est Aug. xj. de trini. c. v. in 
+      fi<lb ed="#B" n="59" break="no"/>ne. Placitum (inquit) est quieta 
+      uolun<lb ed="#B" n="60" break="no"/>tas. placitum autem, &amp; complacentia 
+      <lb ed="#B" n="61"/>idem. Voluntas autem quieta idem est, 
+      <lb ed="#B" n="62"/>quod uolitio: qua mens, seu appetitus 
+      <lb ed="#B" n="63"/>quiescit: quiescit inquam amore, &amp; dise- 
+      <lb ed="#B" n="64"/>ctione.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1114">
+      ¶ Ad illa respondetur: &amp; primum 
+      <lb ed="#B" n="65"/>ad Aug. dicitur: quod ex dictis suis ibi nihil 
+      <lb ed="#B" n="66"/>aliud inferri potest:: nisi quod uel illae 
+      prae<lb ed="#B" n="67" break="no"/>dicationes sunt causales, uel quod illae 
+      pas<lb ed="#B" n="68" break="no"/>siones (quaequandoque etiam dicuntur 
+      uo<lb ed="#B" n="69" break="no"/>luntates non libere elicitae: sed 
+      naturali<lb ed="#B" n="70" break="no"/>ter consecutiuae ad actus uoluntatis 
+      li<lb ed="#B" n="71" break="no"/>beros: uel ad obiecti naturaliter 
+      conue<lb ed="#B" n="72" break="no"/>nientis, aut disconuententis actualem 
+      ap<lb ed="#B" n="73" break="no"/>praehensionem, siue appetitionem in 
+      ap<lb ed="#B" n="74" break="no"/>petitu sensitiuo, uel intellectiuo) frequem 
+      <lb ed="#B" n="75"/>ter comitantur actus uoluntatis liberae 
+      <lb ed="#B" n="76"/>siue appetitus. Et quod uoluntas non 
+      impe<lb ed="#B" n="77" break="no"/>dita alias habet passiones illas quasi 
+      an<lb ed="#B" n="78" break="no"/>nexas, &amp; consequentes si bene est 
+      dispo<lb ed="#B" n="79" break="no"/>sita. de hoc infra. in. iij. dist. xxiij. q. j. &amp; 
+      <lb ed="#B" n="80"/>distin. xv. eiusdem.
+    </p>
+            <p xml:id="gbs333-a11731-d1e1151">
+      ¶ Ad Greg. dicitur: 
+      <lb ed="#B" n="81"/>quod maior uera est de omni actu libere 
+      eli<lb ed="#B" n="82" break="no"/>cito libertate contradictionis: qui 
+      po<lb ed="#B" n="83" break="no"/>test dici acceptatio; uel 
+      deacceptatio<lb ed="#B" n="84" break="no"/>Non autem oportet de actibus 
+      natura<lb ed="#B" n="85" break="no"/>liter consecutiuis ad actus liberos
+    </p>
+            <p xml:id="gbs333-a11731-d1e1164">
+      ¶ Ad 
+      <lb ed="#B" n="86"/>minorem dicitur: quod uera est consecutiue: 
+      <lb ed="#B" n="87"/>quia ad uoluntatem non impeditam, &amp; 
+      <lb ed="#B" n="88"/>bene dispositam consequitur 
+      delectatio<lb ed="#B" n="89" break="no"/>Ad aliud negetur maior. Ad 
+      probatio<lb ed="#B" n="90" break="no"/>nem concesso dicto Aug. dicitur, quod ex 
+      <lb ed="#B" n="91"/>eo nil aliud sequitur, nisi quod 
+      complacen<lb ed="#B" n="92" break="no"/>tia est quies uoluntatis in re uolita: non 
+      <lb ed="#B" n="93"/>autem quod sit uolitio: sed quod uel 
+      annecti<lb ed="#B" n="94" break="no"/>tur uolitioni: uel consequitur eam &amp;c. 
+      <lb ed="#B" n="95"/>Et secundum hoc facise possent concor 
+      <lb ed="#B" n="96"/>dari Grego. &amp; Ockam: ut potest 
+      <lb ed="#B" n="97"/>colligi ex Henrico de Orta. 
+      <lb ed="#B" n="98"/>q.ij. arti. ij. qui bene 
+      lo<lb ed="#B" n="99" break="no"/>quitur in hac 
+      ma<lb ed="#B" n="100" break="no"/>teria 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
