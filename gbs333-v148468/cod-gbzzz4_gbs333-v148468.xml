@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="605"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v148468"><!-- l4-d19prae -->
+            <head xml:id="gbs333-v148468-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v148468-d1e103">
+               <lb ed="#B" n="70"/>DISTINETIO xTIx 
+      <lb ed="#B" n="71"/>QOVTQVAM 
+      osten<lb ed="#B" n="72" break="no"/>sum est &amp;c. Egit 
+      ma<lb ed="#B" n="73" break="no"/>gister distinct. 
+      prae<lb ed="#B" n="74" break="no"/>cedenti de potesta 
+      <lb ed="#B" n="75"/>te clauium quantum 
+      <lb ed="#B" n="76"/>ad obiectum, circa 
+      <lb ed="#B" n="77"/>quod uersatur: in 
+      <lb ed="#B" n="78"/>hanc distinct. xix. agit de eadem 
+      quan<lb ed="#B" n="79" break="no"/>tum ad ministrum, cuidatur. Et 
+      sum<lb ed="#B" n="80" break="no"/>matur sententia textu per tres 
+      subie<lb ed="#B" n="81" break="no"/>ctas conclusiones. Prima. quamuis 
+      so<lb ed="#B" n="82" break="no"/>lis: non tamen omnibus presbyteris 
+      <lb ed="#B" n="83"/>traditur in sua ordinatione clauis 
+      scien<lb ed="#B" n="84" break="no"/>tiae, seu discretionis. Secunda pars 
+      <lb ed="#B" n="85"/>non tenetur a doct. nisi limitetur ad 
+      di<lb ed="#B" n="86" break="no"/>gnam receptionem, ac traditionem 
+      cla<lb ed="#B" n="87" break="no"/>uis scientiae: quae non est scientia 
+      actua<lb ed="#B" n="88" break="no"/>lis, neque habitualis: sed auctoritas 
+      <lb ed="#B" n="89"/>discernendi, quae potest stare sine actua 
+      <lb ed="#B" n="90"/>li cognitione: ut dictum est quaest. 
+      pri<lb ed="#B" n="91" break="no"/>distinct. xviii. Et sic intelligendus est 
+      <lb ed="#B" n="92"/>magister in hac conclusione &amp;c. 
+      Se<lb ed="#B" n="93" break="no"/>cunda conclusio. Claues ligandi, &amp; 
+      <lb ed="#B" n="94"/>soluendi cuncti sacerdotes recipiunt 
+      <lb ed="#B" n="95"/>n sua ordinatione: sed soli 
+      aposto<lb ed="#B" n="96" break="no"/>licae uitae, &amp; doctrinae imitatores has 
+      <lb ed="#B" n="97"/>rectè tenent, atque digne.
+    </p>
+            <p xml:id="gbs333-v148468-d1e166">
+      ¶ 
+      Ter<lb ed="#B" n="98" break="no"/>tia conclusio, Hi sacerdotes male¬ 
+      <!--655.xml-->
+      <pb ed="#B" n="606"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dictionem incurrunt, quiuiuificant 
+      mor<lb ed="#B" n="2" break="no"/>tua: &amp; ea mortificant, quae coram 
+      domi<lb ed="#B" n="3" break="no"/>no uiuunt. Has conclusiones magister 
+      <lb ed="#B" n="4"/>latius prosequitur in textus 
+      continua<lb ed="#B" n="5" break="no"/>tione &amp;c.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

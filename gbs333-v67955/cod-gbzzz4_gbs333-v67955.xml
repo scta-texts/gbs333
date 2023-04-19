@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="277"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v67955"><!-- l4-d15prae -->
+            <head xml:id="gbs333-v67955-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v67955-d1e103">
+      <!--328.xml-->
+               <pb ed="#B" n="277"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XV. 
+      <lb ed="#B" n="2"/>T sicut praedictis. In 
+      <lb ed="#B" n="3"/>priori distinctioe 
+      ma<lb ed="#B" n="4" break="no"/>gister egit de penitem 
+      <lb ed="#B" n="5"/>tia quantum ad eius 
+      <lb ed="#B" n="6"/>diffinitionem, &amp; 
+      di<lb ed="#B" n="7" break="no"/>stinctionem simul: 
+      cir<lb ed="#B" n="8" break="no"/>il ca hoc errorem 
+      ex<lb ed="#B" n="9" break="no"/>cludens negantium eius iterationem. In 
+      <lb ed="#B" n="10"/>hac distin. xv. incipit agere de eadem 
+      quan<lb ed="#B" n="11" break="no"/>tum ad eius integritatem: &amp; circa hoc 
+      <lb ed="#B" n="12"/>duo facit. Primo excludit errorem 
+      cir<lb ed="#B" n="13" break="no"/>ca paenitentiae integritatem: quantum ad 
+      <lb ed="#B" n="14"/>obiectum scilicet peccata commissa. Secundo 
+      <lb ed="#B" n="15"/>de partibus paenitentiam integrantibus: 
+      <lb ed="#B" n="16"/>quantum ad poenitentiae actu: uidelicet, 
+      <lb ed="#B" n="17"/>contritionem, confessionem, &amp; satis 
+      fa<lb ed="#B" n="18" break="no"/>ctionem. distin. xvj.
+    </p>
+            <p xml:id="gbs333-v67955-d1e151">
+      ¶ Sententia huius 
+      di<lb ed="#B" n="19" break="no"/>stin. in tribus sequentibus conclusionibus 
+      <lb ed="#B" n="20"/>summarie continetur.
+    </p>
+            <p xml:id="gbs333-v67955-d1e158">
+      ¶ Prima. Sicut 
+      er<lb ed="#B" n="21" break="no"/>rant, qui ueram poenitentiam iterari 
+      pos<lb ed="#B" n="22" break="no"/>se negant: sic &amp; illi a ueritate deficiunt, 
+      <lb ed="#B" n="23"/>qui de uno peccato sine alio ueram 
+      agi<lb ed="#B" n="24" break="no"/>poenitentiam affirmant. Hanc probat, 
+      <lb ed="#B" n="25"/>&amp; multa contraria soluit.
+    </p>
+            <p xml:id="gbs333-v67955-d1e171">
+      ¶ Secunda. 
+      Pru<lb ed="#B" n="26" break="no"/>stra sibi blandiuntur de eleemosyna, qua 
+      <lb ed="#B" n="27"/>non correcti sua expiari putant 
+      facino<lb ed="#B" n="28" break="no"/>ra. Et circa hoc magister distinguit elec 
+      <lb ed="#B" n="29"/>mosynarum genera.
+    </p>
+            <p xml:id="gbs333-v67955-d1e183">
+      ¶ Tertia. Qui rem 
+      <lb ed="#B" n="30"/>alienam iniuste auferendo proximum 
+      <lb ed="#B" n="31"/>damnificat: non potest poenitendo 
+      ue<lb ed="#B" n="32" break="no"/>niam consequi: nisi ablatum, dum potest, 
+      <lb ed="#B" n="33"/>restituat.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

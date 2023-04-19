@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="165"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v40381"><!-- l4-d8prae -->
+            <head xml:id="gbs333-v40381-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v40381-d1e103">
+               <lb ed="#B" n="60"/>¶ DE SACRAMENTO 
+      <lb ed="#B" n="61"/>Eucharistiae. 
+      <lb ed="#B" n="62"/>DISTINCTIOVIII 
+    </p>
+            <p xml:id="gbs333-v40381-d1e112">
+               <lb ed="#B" n="63"/>¶ QVT sacramentum 
+      <lb ed="#B" n="64"/>baptismi &amp;c. Post. 
+      <lb ed="#B" n="65"/>quam in praecedenti 
+      <lb ed="#B" n="66"/>bus distin. magister 
+      <lb ed="#B" n="67"/>egit de sacramento 
+      <lb ed="#B" n="68"/>baptismatis, quo 
+      da<lb ed="#B" n="69" break="no"/>tur gratia uiuificans 
+      <lb ed="#B" n="70"/>ecclesiam catholicam intrantibus: ac 
+      de<lb ed="#B" n="71" break="no"/>sacramento confirmationis, quo gratia 
+      <lb ed="#B" n="72"/>roboratur ad pugnam progredientibus: 
+      <lb ed="#B" n="73"/>consequenter in sex dist. sequentibus 
+      de<lb ed="#B" n="74" break="no"/>terminat de sacramento eucharistiae, per 
+      <lb ed="#B" n="75"/>quod gratia roborata nutritur, &amp; 
+      consu<lb ed="#B" n="76" break="no"/>matur proficientibus: ordine, quo 
+      sequi<lb ed="#B" n="77" break="no"/>tur. Primo, agit de eucharistiae materia, 
+      <lb ed="#B" n="78"/>forma, re, &amp; sacramento dist. praesenti. 
+      Se<lb ed="#B" n="79" break="no"/>cundo, de diuerso manducationis modo 
+      <lb ed="#B" n="80"/>dist. ix. Tertio, de realicontinentia 
+      chri<lb ed="#B" n="81" break="no"/>sti sub sacramentalibus speciebus non 
+      tan<lb ed="#B" n="82" break="no"/>quam in signo. distin. x. Quarto, de 
+      mo<lb ed="#B" n="83" break="no"/>do existentiae corporis christi, &amp; panis 
+      <lb ed="#B" n="84"/>in ipsum conuersione. distin. xj. 
+      Quin<lb ed="#B" n="85" break="no"/>to, de specierum corpus christi 
+      continen<lb ed="#B" n="86" break="no"/>tium subsistentia, fractione, &amp; partium 
+      si<lb ed="#B" n="87" break="no"/>gnificatione. dist. xij. Sexto de ministri 
+      <lb ed="#B" n="88"/>ipsum sacramentum conficientis 
+      ido<lb ed="#B" n="89" break="no"/>neitate. dist. xiij.
+    </p>
+            <p xml:id="gbs333-v40381-d1e173">
+      ¶ Sententia autem 
+      prae<lb ed="#B" n="90" break="no"/>sentis dist. viij. in tribus conclusionibus 
+      <lb ed="#B" n="91"/>colligi potest, quae sequuntur.
+    </p>
+            <p xml:id="gbs333-v40381-d1e180">
+      ¶ Prima, 
+      <lb ed="#B" n="92"/>Sacramentum domihici corporis, &amp; 
+      san<lb ed="#B" n="93" break="no"/>guinis: qud eucharistia id est bona gratia 
+      dici<lb ed="#B" n="94" break="no"/>tur: sicut per rubrum mare baptismus: 
+      <lb ed="#B" n="95"/>ita per mana deserti: quod tamen 
+      eucha<lb ed="#B" n="96" break="no"/>ristia excessit sublimiter: tanquam per 
+      <lb ed="#B" n="97"/>oblationem Meschisedech figuratur. 
+    </p>
+            <p xml:id="gbs333-v40381-d1e197">
+               <lb ed="#B" n="98"/>¶ Secunda. Christus sacramentum 
+      <lb ed="#B" n="99"/>eucharistiae sub certis materia, &amp; for¬ 
+      <!--217.xml-->
+      <pb ed="#B" n="166"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ma post caenam ultimam instituit: quod 
+      tan<lb ed="#B" n="2" break="no"/>tum a ieiunis sumi debere ecclesia 
+      ratio<lb ed="#B" n="3" break="no"/>nabiliter ordinauit.
+    </p>
+            <p xml:id="gbs333-v40381-d1e217">
+      ¶ Tertia. In 
+      euchari<lb ed="#B" n="4" break="no"/>stia species, seu forma panis, &amp; uini est 
+      sa<lb ed="#B" n="5" break="no"/>cramentum tantum: sacramentum uero, 
+      <lb ed="#B" n="6"/>&amp; res est corpus Christi uerum: res tantum, 
+      <lb ed="#B" n="7"/>&amp; non sacramentum: eiusdem corpus 
+      my<lb ed="#B" n="8" break="no"/>sticum. Quarum intellectum textus diffusius 
+      <lb ed="#B" n="9"/>manifestat: quia materiam sacro sanctae 
+      eu<lb ed="#B" n="10" break="no"/>charistiae sacramenti in expositione 
+      ca<lb ed="#B" n="11" break="no"/>nonis olim in Tubinge. gymnasio editi, 
+      <lb ed="#B" n="12"/>&amp; ordinarie lecti, latius utcumque potui ex 
+      <lb ed="#B" n="13"/>uarijs collegi. Idcirco hic breuius 
+      proce<lb ed="#B" n="14" break="no"/>dam, frequenter ad dictam canonis 
+      ex<lb ed="#B" n="15" break="no"/>positione tractanda remissurus.
+    </p>
+            <p xml:id="gbs333-v40381-d1e246">
+      ¶ In hac 
+      <lb ed="#B" n="16"/>ergo dist. de tribus principaliter est qua 
+      <lb ed="#B" n="17"/>rendum, iuxta materias, trium conclusio 
+      <lb ed="#B" n="18"/>num praemissarum. Primo, de 
+      sacramen<lb ed="#B" n="19" break="no"/>to eucharistiae quantum ad rationem 
+      sa<lb ed="#B" n="20" break="no"/>cramenti, &amp; eius institutionem. 
+      Secun<lb ed="#B" n="21" break="no"/>do, quantum ad eius praefigurationem. Ter 
+      <lb ed="#B" n="22"/>tio, quantum ad eius integritatem, 
+      for<lb ed="#B" n="23" break="no"/>mam scilicet, &amp; materiam, rem &amp; 
+      sacra<lb ed="#B" n="24" break="no"/>mentum. Circa primum quaeritur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

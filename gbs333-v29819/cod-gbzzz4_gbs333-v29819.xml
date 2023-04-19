@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="122"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v29819"><!-- l4-d6prae -->
+            <head xml:id="gbs333-v29819-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v29819-d1e103">
+      <!--173.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>DISTINCTIO VI 
+      <lb ed="#B" n="50"/>VNC quibus liceat  
+      <lb ed="#B" n="51"/>baptixare.
+    </p>
+            <p xml:id="gbs333-v29819-d1e116">
+      ¶ Postquam 
+      <lb ed="#B" n="52"/>magister egit de 
+      ba<lb ed="#B" n="53" break="no"/>ptismi quidditate, &amp; 
+      <lb ed="#B" n="54"/>effectu quo ad 
+      su<lb ed="#B" n="55" break="no"/>scipientem, &amp; 
+      mini<lb ed="#B" n="56" break="no"/>strantem in tribus 
+      <lb ed="#B" n="57"/>precedentibus distinctionibus: in hac 
+      <lb ed="#B" n="58"/>distinct. vj. agit de congruo baptismi 
+      mi<lb ed="#B" n="59" break="no"/>nistro, &amp; hoc principaliter. Adiungit est 
+      <lb ed="#B" n="60"/>diuersarum quaestionum responsiones: 
+      <lb ed="#B" n="61"/>baptixandorum praeparationes per 
+      ca<lb ed="#B" n="62" break="no"/>techismum, &amp; exorcismum 
+      incidentali<lb ed="#B" n="63" break="no"/>ter. Et colligitur sententia textus in 
+      se<lb ed="#B" n="64" break="no"/>quentibus tribus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v29819-d1e147">
+      ¶ 
+      Pri<lb ed="#B" n="65" break="no"/>ma baptixare extra casum necessitatis 
+      <lb ed="#B" n="66"/>solis congruit sacerdotibus: aquocunque;  
+      <lb ed="#B" n="67"/>tamen datur in forma ecclesiae: uerus 
+      <lb ed="#B" n="68"/>est baptismus, &amp; nullatenus repetendus 
+    </p>
+            <p xml:id="gbs333-v29819-d1e158">
+               <lb ed="#B" n="69"/>¶ Secunda. Trina immersionebaptismus 
+      <lb ed="#B" n="70"/>non multiplicatur: nec qualibet 
+      uerbo<lb ed="#B" n="71" break="no"/>rum corruptione: nec tempore: nec 
+      fi<lb ed="#B" n="72" break="no"/>nis indebiti intentione uitiatur. In 
+      ma<lb ed="#B" n="73" break="no"/>tris utero, aut ioco, seu ludo baptismus 
+      <lb ed="#B" n="74"/>non traditur: baptiratur tamen, cuius 
+      <lb ed="#B" n="75"/>baptixatio ignoratur.
+    </p>
+            <p xml:id="gbs333-v29819-d1e177">
+      ¶ Tertia. Tam 
+      pa<lb ed="#B" n="76" break="no"/>trinae; quam patrinorum responsiones 
+      <lb ed="#B" n="77"/>baptixandum obligant. Catechismus 
+      <lb ed="#B" n="78"/>autem, &amp; exorcismus non necessario: 
+      <lb ed="#B" n="79"/>sed de congruo ad dignam 
+      sacramenti<lb ed="#B" n="80" break="no"/>susceptione mpraeparant. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

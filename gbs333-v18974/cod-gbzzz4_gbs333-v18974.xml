@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="78"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v18974"><!-- l4-d4prae -->
+            <head xml:id="gbs333-v18974-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v18974-d1e103">
+               <lb ed="#B" n="65"/>DISTINCTIO IIII. 
+      <lb ed="#B" n="66"/>HIC dicendum est 
+      ali<lb ed="#B" n="67" break="no"/>quos &amp;c. Superiori 
+      <lb ed="#B" n="68"/>distinctione egit 
+      ma<lb ed="#B" n="69" break="no"/>gister de baptismo 
+      se<lb ed="#B" n="70" break="no"/>cundum se: hic de eius 
+      <lb ed="#B" n="71"/>effectu. Et circa hoc 
+      <lb ed="#B" n="72"/>duo facit. Primo 
+      a<lb ed="#B" n="73" break="no"/>git de effectu baptismatis quantum ad 
+      su<lb ed="#B" n="74" break="no"/>scipientem. Scdo de effectu eius in ordic 
+      <lb ed="#B" n="75"/>ad conferentem dis. v. Sententiam aut 
+      tex<lb ed="#B" n="76" break="no"/>tus subiectae conclusiones continent.
+    </p>
+            <p xml:id="gbs333-v18974-d1e132">
+      ¶ 
+      Pri<lb ed="#B" n="77" break="no"/>ma. Omnes paruuli rite baptixati rem, &amp; 
+      <lb ed="#B" n="78"/>sacramentum suscipiunt: sed sacramentum 
+      <lb ed="#B" n="79"/>tantumqua ficte, &amp; sine fide, &amp; contritione 
+      <lb ed="#B" n="80"/>accedunt. baptismum uero habere non 
+      <lb ed="#B" n="81"/>potentes qui pro christo sanguinem 
+      fun<lb ed="#B" n="82" break="no"/>dunt: aut fidei contritionem iungunt: 
+      <lb ed="#B" n="83"/>rem sine sacramento percipiunt.
+    </p>
+            <p xml:id="gbs333-v18974-d1e150">
+      ¶ 
+      Secun<lb ed="#B" n="84" break="no"/>da. Iustificatis baptismum suscipientibus 
+      <lb ed="#B" n="85"/>gratia augetur: &amp; omnis paenitentia 
+      re<lb ed="#B" n="86" break="no"/>laxatur: &amp; hoc in eis per sacramentum 
+      <lb ed="#B" n="87"/>significatur.
+    </p>
+            <p xml:id="gbs333-v18974-d1e161">
+      ¶ Tertia coclusio. Paruulis 
+      <lb ed="#B" n="88"/>datur gratia operans, &amp; cooperans per 
+      ba<lb ed="#B" n="89" break="no"/>ptismum sicut adultis: sed paruulis in 
+      niu<lb ed="#B" n="90" break="no"/>nere non usu operis. Has conclusiones 
+      <lb ed="#B" n="91"/>magister in textu latius prosequitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

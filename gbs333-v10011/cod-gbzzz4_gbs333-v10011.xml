@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="1"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v10011"><!-- l4-d1prae -->
+            <head xml:id="gbs333-v10011-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v10011-d1e103">
+      <!--52.xml-->
+               <pb ed="#B" n="1"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>COTIECTORIVM QVARTI 
+      <lb ed="#B" n="2"/>SENTENTIARVM ERECIIVIII 
+      <lb ed="#B" n="3"/>MAOISTRI OAERIEIIS BIEI, 
+      SACRAEn<lb ed="#B" n="4" break="no"/>TAEOI OCIAETICEVTIATI 
+      <lb ed="#B" n="5"/>INCITIT VOEIICITER 
+      <!--52.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="6"/>RoposVERAM 
+      <lb ed="#B" n="7"/>quidem post 
+      abbre<lb ed="#B" n="8" break="no"/>uiaturam scriptorum 
+      <lb ed="#B" n="9"/>secundi, &amp; 
+      tertijli<lb ed="#B" n="10" break="no"/>brorum sententiarum, 
+      <lb ed="#B" n="11"/>ori meo digitum 
+      ap<lb ed="#B" n="12" break="no"/>ponere: ac sub 
+      silen<lb ed="#B" n="13" break="no"/>tio delitescens, quarti abbreuiationem 
+      <lb ed="#B" n="14"/>praeterite propter ingenioli mei 
+      obtusi<lb ed="#B" n="15" break="no"/>tate: scientiae pauperiem: materiae 
+      latitudi<lb ed="#B" n="16" break="no"/>nem: &amp; clarissimorum scribentium 
+      pluralita<lb ed="#B" n="17" break="no"/>tem, quorum fundatissimis doctrinis 
+      adde<lb ed="#B" n="18" break="no"/>re nil praesumo. Nimia tamen fratrum 
+      meo<lb ed="#B" n="19" break="no"/>rum (quibus meipsum debeo) praecum 
+      <lb ed="#B" n="20"/>instatia deuictus: opus supra uires (
+      diui<lb ed="#B" n="21" break="no"/>na consisus gratia) fratrumque meorum ora 
+      <lb ed="#B" n="22"/>tionibus adiutus, aggredior similibus 
+      <lb ed="#B" n="23"/>forma, &amp; ordine, quibus in prioribus 
+      <lb ed="#B" n="24"/>processurus.
+    </p>
+            <p xml:id="gbs333-v10011-d1e168">
+      ¶ Igitur postquam magister 
+      <lb ed="#B" n="25"/>in primis tribus libris egit de rebus 
+      fruem<lb ed="#B" n="26" break="no"/>dis, &amp; utendis similiter &amp; de his, qui utum 
+      <lb ed="#B" n="27"/>tur, &amp; fruuntur: in hoc quarto libro 
+      sen<lb ed="#B" n="28" break="no"/>tentiarum suarum: agit de sacramentalibus 
+      <lb ed="#B" n="29"/>signis.
+    </p>
+            <p xml:id="gbs333-v10011-d1e181">
+      ¶ Vel conformiter ad priores 
+      diui<lb ed="#B" n="30" break="no"/>siones. Postquam magister in libro primo 
+      <lb ed="#B" n="31"/>egit de deo secundum rationem naturalis 
+      pe<lb ed="#B" n="32" break="no"/>fectionis. Et in secundo de eodem in 
+      quan<lb ed="#B" n="33" break="no"/>tum relucet eius potentia in opere. 
+      crea<lb ed="#B" n="34" break="no"/>tionis. In tertio inquantum relucet eius 
+      <lb ed="#B" n="35"/>sapientia in opere humanae reparationis. 
+      <lb ed="#B" n="36"/>In hoc quarto determinat de eodem, 
+      <lb ed="#B" n="37"/>inquantum relucet eius bonitas, &amp; iustitia 
+      <lb ed="#B" n="38"/>in opere uulnerati sanationis,, &amp; 
+      fina<lb ed="#B" n="39" break="no"/>lis retributionis.
+    </p>
+            <p xml:id="gbs333-v10011-d1e205">
+      ¶ Et diuiditur liber ille 
+      <!--52.xml-->
+      <pb ed="#B" n="1"/>
+               <cb ed="#B" n="c"/>
+               <lb ed="#B" n="40"/>in duas partes principales. In prima 
+      de<lb ed="#B" n="41" break="no"/>terminat de sacramentis salutiferis, 
+      ho<lb ed="#B" n="42" break="no"/>mini per peccatum lapso medicinam es 
+      <lb ed="#B" n="43"/>ficaciter conferentibus. In secunda de 
+      <lb ed="#B" n="44"/>finali retributione post unionem animae, 
+      <lb ed="#B" n="45"/>&amp; corporis in generali resurrectione. 
+      <lb ed="#B" n="46"/>correspondente singulorum operibus: quaem 
+      <lb ed="#B" n="47"/>pars incipit infra dist. xliij.
+    </p>
+            <p xml:id="gbs333-v10011-d1e232">
+      ¶ Circa 
+      pri<lb ed="#B" n="48" break="no"/>mum primo agit de sacramentis in 
+      ge<lb ed="#B" n="49" break="no"/>nere: praemisso breui proemio. Secundo 
+      <lb ed="#B" n="50"/>de sacramentis in specie institutis in 
+      no<lb ed="#B" n="51" break="no"/>uo, &amp; ueteritestamento. Secunda pars 
+      <lb ed="#B" n="52"/>ibi. Tuit tamen inter illa sacramenta &amp;c. 
+    </p>
+            <p xml:id="gbs333-v10011-d1e245">
+               <lb ed="#B" n="53"/>¶ Et quoniam distinctio illa habet duas 
+      <lb ed="#B" n="54"/>distinctas materias, ut patet ex 
+      diuisio<lb ed="#B" n="55" break="no"/>ne. Ex qualibet eius parte eliciuntur 
+      <lb ed="#B" n="56"/>tres conclusiones sententia textus 
+      com<lb ed="#B" n="57" break="no"/>praehendentes.
+    </p>
+            <p xml:id="gbs333-v10011-d1e258">
+      ¶ Prima conclusio 
+      par<lb ed="#B" n="58" break="no"/>tis primae. Sacramenta non tantum 
+      si<lb ed="#B" n="59" break="no"/>gnificandi: sed sanctificandi gratia sunt 
+      <lb ed="#B" n="60"/>instituta. Ideo ue. le. cerimoniae 
+      signa<lb ed="#B" n="61" break="no"/>sunt in onus impositae: &amp; non proprie 
+      <lb ed="#B" n="62"/>sacramenta.
+    </p>
+            <p xml:id="gbs333-v10011-d1e271">
+      ¶ Secunda conclusio. 
+      Sa<lb ed="#B" n="63" break="no"/>cramenta instituta sunt propter causam 
+      <lb ed="#B" n="64"/>triplicem: sanandi scilicet hominis 
+      humilia<lb ed="#B" n="65" break="no"/>tionem, eruditionem, &amp; exercitationem. 
+    </p>
+            <p xml:id="gbs333-v10011-d1e280">
+               <lb ed="#B" n="66"/>¶ Tertia. Sacramenta noue legis, quae 
+      <lb ed="#B" n="67"/>duobus, rebus, uidelicet, &amp; signis constant 
+      <lb ed="#B" n="68"/>salutem, quam sacramenta uete. le. rantum pro 
+      <lb ed="#B" n="69"/>mittebat: efficaciter praestant. Harum 
+      con<lb ed="#B" n="70" break="no"/>clusionum deductionem cum sacramenti 
+      de<lb ed="#B" n="71" break="no"/>scriptione uide in textu.
+    </p>
+            <p xml:id="gbs333-v10011-d1e296">
+      ¶ Circa hanc 
+      <lb ed="#B" n="72"/>parteni, distinctionis prime, quaeritur de 
+      <lb ed="#B" n="73"/>duobus. Primo de sacramentorum effica 
+      <!--53.xml-->
+      <pb ed="#B" n="2"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cia. Secundo de eorum institutione: 
+      neces<lb ed="#B" n="2" break="no"/>sitate, &amp; congruentia. Est igitur 
+      quae<lb ed="#B" n="3" break="no"/>stio prima. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

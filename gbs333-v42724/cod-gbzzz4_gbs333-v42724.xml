@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="174"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v42724"><!-- l4-d9prae -->
+            <head xml:id="gbs333-v42724-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v42724-d1e103">
+               <lb ed="#B" n="93"/>DISTINCTIO IX 
+      <lb ed="#B" n="94"/>T sicut duae res sunt 
+      <lb ed="#B" n="95"/>Distinctio nona, in 
+      <lb ed="#B" n="96"/>qua ma gister agit de 
+      <lb ed="#B" n="97"/>diuerso 
+      manducatio<lb ed="#B" n="98" break="no"/>nis modo. Et 
+      com<lb ed="#B" n="99" break="no"/>praehenditur 
+      senten<lb ed="#B" n="100" break="no"/>tia textus in subie- 
+      <!--226.xml-->
+      <pb ed="#B" n="175"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ctis tribus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v42724-d1e132">
+      ¶ Prima. 
+      Dua<lb ed="#B" n="2" break="no"/>bus rebus sacramenti correspondent duo 
+      <lb ed="#B" n="3"/>modi eucharistiam manducandi. Hisunt 
+      <lb ed="#B" n="4"/>manducare sacramentaliter: &amp; 
+      mandu<lb ed="#B" n="5" break="no"/>care spiritualiter.
+    </p>
+            <p xml:id="gbs333-v42724-d1e143">
+      ¶ Secunda ab utrisque 
+      <lb ed="#B" n="6"/>bonis, &amp; malis, corpus christi uere, &amp; 
+      rea<lb ed="#B" n="7" break="no"/>liter sumitur: sed a malis 
+      sacramentali<lb ed="#B" n="8" break="no"/>ter tantum: abonis autem 
+      sacramenta<lb ed="#B" n="9" break="no"/>liter, &amp; spiritualiter manducatur.
+    </p>
+            <p xml:id="gbs333-v42724-d1e154">
+      ¶ Ter 
+      <lb ed="#B" n="10"/>tia conclusio. Per distinctionem 
+      mo<lb ed="#B" n="11" break="no"/>dorum manducandi sacramentaliter, &amp; 
+      <lb ed="#B" n="12"/>spiritualiter, exponendae sunt sanctorum 
+      <lb ed="#B" n="13"/>auctoritates catholice, &amp; sideliter. Has 
+      <lb ed="#B" n="14"/>declarat plane textus.
+    </p>
+            <p xml:id="gbs333-v42724-d1e168">
+      ¶ Circa hanc 
+      di<lb ed="#B" n="15" break="no"/>stinctionem de duobus quaeritur scilicet 
+      <lb ed="#B" n="16"/>de ipsa manducatione. Secundo de 
+      man<lb ed="#B" n="17" break="no"/>ducantium dispositione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

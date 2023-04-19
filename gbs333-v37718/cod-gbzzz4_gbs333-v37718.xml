@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="154"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v37718"><!-- l4-d7prae -->
+            <head xml:id="gbs333-v37718-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v37718-d1e103">
+               <lb ed="#B" n="77"/>¶ DE SACRAMENTO 
+      <lb ed="#B" n="78"/>confirmationis 
+      <lb ed="#B" n="79"/>DISTINCTIOVII 
+      <lb ed="#B" n="80"/>VNC de 
+      facramen<lb ed="#B" n="81" break="no"/>rto confirmatiois &amp;c. 
+      <lb ed="#B" n="82"/>Supra magister 
+      de<lb ed="#B" n="83" break="no"/>terminauit de 
+      sa<lb ed="#B" n="84" break="no"/>cramento baptismi, 
+      <lb ed="#B" n="85"/>quod est 
+      sacramen<lb ed="#B" n="86" break="no"/>tum intrantium 
+      ec<lb ed="#B" n="87" break="no"/>clesiam, quae est cetus fidelium. Conse- 
+      <lb ed="#B" n="88"/>quenter in hac di. vij. agit de 
+      sacramen<lb ed="#B" n="89" break="no"/>to confirmationis: quod est 
+      progredien<lb ed="#B" n="90" break="no"/>tium ad fidei robur: &amp; gratiae profectum. 
+      <lb ed="#B" n="91"/>Et continetur sententia textus in 
+      sub<lb ed="#B" n="92" break="no"/>ditis tribus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v37718-d1e140">
+      ¶ Prima 
+      con<lb ed="#B" n="93" break="no"/>firmationis sacramentum sub 
+      determi<lb ed="#B" n="94" break="no"/>nata forma est a solis episcopis conferem 
+      <lb ed="#B" n="95"/>dum.
+    </p>
+            <p xml:id="gbs333-v37718-d1e149">
+      ¶ Secunda in confirmatione 
+      da<lb ed="#B" n="96" break="no"/>tur spiritussanctus ad robur 
+      baptixato<lb ed="#B" n="97" break="no"/>rum, qui in baptismo donatur ad 
+      remis<lb ed="#B" n="98" break="no"/>sionem peccatorum.
+    </p>
+            <p xml:id="gbs333-v37718-d1e158">
+      ¶ Tertia 
+      sacramen<lb ed="#B" n="99" break="no"/>tum confirmationis initerabile a 
+      ielu<lb ed="#B" n="100" break="no"/>nijs accipiendum, &amp; dandum: dignius 
+      <!--206.xml-->
+      <pb ed="#B" n="155"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est baptismo non utilitate: sed propter 
+      <lb ed="#B" n="2"/>ministrum corporis membrum chrisma 
+      <lb ed="#B" n="3"/>te unctum: ac collatae gratiae 
+      augmen<lb ed="#B" n="4" break="no"/>tum. Has succincte prosequitur textus
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

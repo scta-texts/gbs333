@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="617"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v151395"><!-- l4-d21prae -->
+            <head xml:id="gbs333-v151395-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v151395-d1e103">
+               <lb ed="#B" n="63"/>DISTINCTIO xxI 
+      <lb ed="#B" n="64"/>QIETetiam quaeri &amp;c. 
+      <lb ed="#B" n="65"/>Egit magister de 
+      po<lb ed="#B" n="66" break="no"/>nitentia peccatorum 
+      <lb ed="#B" n="67"/>in praesentis uitae ter 
+      <lb ed="#B" n="68"/>mino: in hac dis. xxi. 
+      <lb ed="#B" n="69"/>de poenitentia id est 
+      satis<lb ed="#B" n="70" break="no"/>factione peccatorum, 
+      <lb ed="#B" n="71"/>post hanc uitam in purgatorio. Et com 
+      <lb ed="#B" n="72"/>praehenditur sententia textus in tribus 
+      <lb ed="#B" n="73"/>conclusionibus, quae sequuntur.
+    </p>
+            <p xml:id="gbs333-v151395-d1e129">
+      ¶ Prima. 
+      <lb ed="#B" n="74"/>Peccata uenialia, &amp; poenae eis, &amp; 
+      morta<lb ed="#B" n="75" break="no"/>libus hic dimislis debitae, possunt post 
+      <lb ed="#B" n="76"/>hanc uitam solui in purgatorio igne¬ 
+    </p>
+            <p xml:id="gbs333-v151395-d1e138">
+               <lb ed="#B" n="77"/>¶ Secunda. Confessio generalis peccata 
+      <lb ed="#B" n="78"/>uenialia remittit, quae quotidie 
+      admitti<lb ed="#B" n="79" break="no"/>mus: &amp; simul mortifera, quorum notitiam 
+      <lb ed="#B" n="80"/>non habemus
+    </p>
+            <p xml:id="gbs333-v151395-d1e149">
+      ¶ Tertia. Caueant 
+      confes<lb ed="#B" n="81" break="no"/>sores confitentium peccata prodere, 
+      si<lb ed="#B" n="82" break="no"/>gradus suipericulum uoluerint euitare, 
+      <lb ed="#B" n="83"/>Has prosequitur magister latius: simul 
+      <lb ed="#B" n="84"/>ostendens nullum ex humilitate 
+      consite<lb ed="#B" n="85" break="no"/>ri debere, quae non fecit: quia incauta est 
+      <lb ed="#B" n="86"/>hu militas, quae non soluit: sed peccatorem 
+      <lb ed="#B" n="87"/>constituit &amp;c. Quia de prima 
+      conclusio<lb ed="#B" n="88" break="no"/>ne textuali satis dictum est sup. dist. xvj. 
+      <lb ed="#B" n="89"/>q. ulti. &amp; quae superaddenda sunt de 
+      pur<lb ed="#B" n="90" break="no"/>gatorio igni, reseruant usque ad dist. xliiij. 
+      <lb ed="#B" n="91"/>de generali: quoniam confessione, 
+      per<lb ed="#B" n="92" break="no"/>quam tanquam per quodlibet opus 
+      me<lb ed="#B" n="93" break="no"/>ritorium remittuntur uenialia: eo 
+      ma<lb ed="#B" n="94" break="no"/>gis, quo specialius dirigitur ad peccato 
+      <lb ed="#B" n="95"/>rum remissionem, ibidem: &amp; etiam in 
+      textu<lb ed="#B" n="96" break="no"/>huius dist. satis dictum censeo &amp;c. Ideo 
+      <lb ed="#B" n="97"/>stis praetermissis circa tertiam 
+      conclu<lb ed="#B" n="98" break="no"/>sionem, quae tangit confessionis 
+      sigil<lb ed="#B" n="99" break="no"/>sum: mouetur unica quaestio, quae talis 
+      <lb ed="#B" n="100"/>est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

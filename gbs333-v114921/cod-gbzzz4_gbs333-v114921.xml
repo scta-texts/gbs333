@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 16</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 16</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="469"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v114921"><!-- l4-d15q16 -->
+            <head xml:id="gbs333-v114921-Hd1e101">Quaestio 16</head>
+            <head xml:id="gbs333-v114921-Hd1e103" type="question-title">
+      Utrum damnificans alium
+      in fama, teneatur restituere 
+      damna hac occasione illata
+    </head>
+            <p xml:id="gbs333-v114921-d1e106">
+               <lb ed="#B" n="3"/>¶ De restitutione famae. 
+      <lb ed="#B" n="4"/>QVAESTIO XVI 
+      <lb ed="#B" n="5"/>CIRCA restitutionem famae 
+      <lb ed="#B" n="6"/>queritur. Vtrum damnificans alium
+      <lb ed="#B" n="7"/>in fama, teneatur restituere 
+      <lb ed="#B" n="8"/> damna hac occasione illata. 
+    </p>
+            <p xml:id="gbs333-v114921-d1e122">
+               <lb ed="#B" n="9"/>¶ Quaestio haec more solito tribus 
+      articu<lb ed="#B" n="10" break="no"/>lis absoluetur. Primo termini 
+      declara<lb ed="#B" n="11" break="no"/>buntur. Secundo conclusiones 
+      respor<lb ed="#B" n="12" break="no"/>siuae subiungentur. Tertio dubia 
+      mouen<lb ed="#B" n="13" break="no"/>da absoluentur.
+    </p>
+            <p xml:id="gbs333-v114921-d1e135">
+      ¶ Quantum ad primum 
+      <lb ed="#B" n="14"/>notandum primo: quod fama accipitur 
+      du<lb ed="#B" n="15" break="no"/>pliciter:.
+    </p>
+            <p xml:id="gbs333-v114921-d1e143">
+      ¶ Quandoque conmuniter: &amp; sic 
+      <lb ed="#B" n="16"/>non est aliud, quam opinio habita de 
+      con<lb ed="#B" n="17" break="no"/>ditionibus, aut moribus alicuius signis 
+      <lb ed="#B" n="18"/>exterioribus expresta, quod additur: quia 
+      <lb ed="#B" n="19"/>sola opinio mente clausa non facit 
+      fa<lb ed="#B" n="20" break="no"/>mam de aliquo: sed expressio huius 
+      opi<lb ed="#B" n="21" break="no"/>nionis siue uocibus, siue scriptis, siue 
+      a<lb ed="#B" n="22" break="no"/>lijs signis. Et sic non distinguitur con 
+      <lb ed="#B" n="23"/>tra infamiam, uel diffamiam: sed tanquam 
+      <lb ed="#B" n="24"/>superius diuiditur in haec membra: scilice 
+      <lb ed="#B" n="25"/>famam bonam: &amp; famam malam, quaedi 
+      <lb ed="#B" n="26"/>citur dissamia, uel infamia. Alio modo 
+      <lb ed="#B" n="27"/>capitur stricte; ut distinguitur contra 
+      <lb ed="#B" n="28"/>famam malam: &amp; sic est opinio bona hone- 
+      <lb ed="#B" n="29"/>state uitae, ac morum. Et sic accipit in 
+      pro<lb ed="#B" n="30" break="no"/>posito; cum quaeritur de 
+      damnificatio<lb ed="#B" n="31" break="no"/>ne alicuius in fama
+    </p>
+            <p xml:id="gbs333-v114921-d1e180">
+      ¶ Secundo 
+      notan<lb ed="#B" n="32" break="no"/>dum: quod inter bona hominis fama non 
+      <lb ed="#B" n="33"/>mediocre: sed magnum bonum est: quo 
+      <lb ed="#B" n="34"/>niam etsi possponitur bonis 
+      spirituali<lb ed="#B" n="35" break="no"/>bus animae: gratiae scilicet &amp; uirtutibus: 
+      <lb ed="#B" n="36"/>tamen praefertur omnibus bonis 
+      exterio<lb ed="#B" n="37" break="no"/>ribus: puta temporalibus diuitijs. Vnde 
+      <lb ed="#B" n="38"/>Prouer. xxii. Melius est nomen bonum; quam 
+      <lb ed="#B" n="39"/>diuitiae multae. &amp; Eccl. xli. Curam 
+      habe<lb ed="#B" n="40" break="no"/>de bono nomine: hoc nione magis 
+      perma<lb ed="#B" n="41" break="no"/>nebit tibi, quam mille thesauri magni, &amp; 
+      <lb ed="#B" n="42"/>preciosi.
+    </p>
+            <p xml:id="gbs333-v114921-d1e206">
+      ¶ Vtrum autem fama 
+      praeferen<lb ed="#B" n="43" break="no"/>da sit bonis corporis: uidetur nonnullis: 
+      <lb ed="#B" n="44"/>quod praeferatur: alii uero praeferunt corporis 
+      <lb ed="#B" n="45"/>bona, quod uidetur uerius. Vnde patet: 
+      <lb ed="#B" n="46"/>quoniam in ablatione bonorum exteriorum, 
+      <lb ed="#B" n="47"/>requiritur restitutio iniuste ablatorum: 
+      <lb ed="#B" n="48"/>quanto magis in laesione famae iniusta. 
+      <!--518.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-v114921-d1e226">
+               <lb ed="#B" n="49"/>¶ Et dicitur iniusta: quoniam quandoque 
+      <lb ed="#B" n="50"/>fama proximi laeditur sine pcto, &amp; iuste: 
+      <lb ed="#B" n="51"/>ut in correctione fraterna: dum peccatum 
+      <lb ed="#B" n="52"/>occultum seruato ordine euangelico 
+      de<lb ed="#B" n="53" break="no"/>nuntiatur ecclesiae: quod quando, &amp; 
+      quo<lb ed="#B" n="54" break="no"/>fieri debet in exponne canonis missae le. 
+      <lb ed="#B" n="55"/>Ixxiiij. latius est tractatum.
+    </p>
+            <p xml:id="gbs333-v114921-d1e244">
+      ¶ Tertio notam 
+      <lb ed="#B" n="56"/>dum: quod fama proximi laedit: dum per 
+      in<lb ed="#B" n="57" break="no"/>dicia exteriora uerboru, uel signorum 
+      <lb ed="#B" n="58"/>opinio mala de proximo generatur. 
+      <lb ed="#B" n="59"/>quidem hoc quandoque; sit sine peccato 
+      pro<lb ed="#B" n="60" break="no"/>pter emendationem fratris: seruatis 
+      ser<lb ed="#B" n="61" break="no"/>uandis, de quo non est ad propositum. Alic 
+      <lb ed="#B" n="62"/>modo laeditur iniuste: &amp; hoc secundum 
+      <lb ed="#B" n="63"/>Sco. dist. praesenti qeiii. contingit 
+      triplici<lb ed="#B" n="64" break="no"/>ter. Primo falsum crimen proximo 
+      im<lb ed="#B" n="65" break="no"/>ponendo. Secundo: uerum crimen: sed ta 
+      <lb ed="#B" n="66"/>men occultum in publico (ordine iuris non 
+      <lb ed="#B" n="67"/>seruato) proponendo. Tertio: uerum 
+      cri<lb ed="#B" n="68" break="no"/>men occultum impositum in publico 
+      ne<lb ed="#B" n="69" break="no"/>gando: quia in hoc negans notat 
+      im<lb ed="#B" n="70" break="no"/>ponentem de calumnia. Et secundum has diste 
+      <lb ed="#B" n="71"/>rentias laesionis famae quatenus iniuste 
+      <lb ed="#B" n="72"/>fiunt: oportet differenter famam restituere, 
+      <lb ed="#B" n="73"/>Et tantum breuiter de art. j.
+    </p>
+            <p xml:id="gbs333-v114921-d1e286">
+      ¶ Quantum ac 
+      <lb ed="#B" n="74"/>secundum articulum est conclusio prima. 
+      Lae<lb ed="#B" n="75" break="no"/>dens iniuste infamando proximum 
+      tene<lb ed="#B" n="76" break="no"/>tur restituere damnum illatum. Probatur: 
+      <lb ed="#B" n="77"/>quia omnis iniuste danificans proximum 
+      te<lb ed="#B" n="78" break="no"/>netu compensare: ut patet ex praemissis: sed  
+      <lb ed="#B" n="79"/>laedens famam grauedanum infert proxi- 
+      <lb ed="#B" n="80"/>mo: &amp; tanto grauius, quanto praeciosius es 
+      <lb ed="#B" n="81"/>nomen bonum unguentis praeciolis, &amp; 
+      cun<lb ed="#B" n="82" break="no"/>ctis exteriorum rerum diuitijs. Nec tantum 
+      <lb ed="#B" n="83"/>infert damnum proximo, cuius famae 
+      de<lb ed="#B" n="84" break="no"/>trahit: sed &amp; omnibus, in quibus malam 
+      <lb ed="#B" n="85"/>opinionem de proximo generat. Tum illis, 
+      <lb ed="#B" n="86"/>qui audiendo uerba detractoria: uel in eis 
+      <lb ed="#B" n="87"/>delectantur; aut in temeraria iudicia 
+      de<lb ed="#B" n="88" break="no"/>pximo incidunt: &amp; per hoc mortaliter 
+      pec<lb ed="#B" n="89" break="no"/>cant. Tum eis, qui propter bonam opinionem 
+      <lb ed="#B" n="90"/>eius, cuius fama laeditur plures utilitates 
+      <lb ed="#B" n="91"/>spunales, &amp; temporales consecuti sunt: quibus 
+      <lb ed="#B" n="92"/>perdiffamationem priuantur: quibus omnibus 
+      <lb ed="#B" n="93"/>ad restitutionem tenetur. Potnt 
+      exemplifica<lb ed="#B" n="94" break="no"/>ri de praedicatoribus, praelatis, 
+      officiali<lb ed="#B" n="95" break="no"/>bus, &amp; populi rectoribus, quorum bona 
+      <lb ed="#B" n="96"/>fama multa commoda assert populis: &amp; 
+      <lb ed="#B" n="97"/>econuerso diffamia multa mala. 
+      Pro<lb ed="#B" n="98" break="no"/>pter quod dicitur, curam habe de bono 
+      <lb ed="#B" n="99"/>none: ut supra allegatum est. Et ideo sicut  
+      <lb ed="#B" n="100"/>r¬ 
+      <!--519.xml-->
+      <pb ed="#B" n="470"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>bona conscientia nobis necessaria est 
+      pro<lb ed="#B" n="2" break="no"/>pter nos: ita bona fama propter proxi- 
+      <lb ed="#B" n="3"/>mos, secundum Aug.
+    </p>
+            <p xml:id="gbs333-v114921-d1e361">
+      ¶ Propter hoc 
+      Gerson<lb ed="#B" n="4" break="no"/>in solutione iiii. q.ait. Nonnunquam 
+      faci<lb ed="#B" n="5" break="no"/>lius satis sit pro homicidio corporali, &amp; 
+      <lb ed="#B" n="6"/>furto: quam pro homicidio, &amp; furto 
+      spiri<lb ed="#B" n="7" break="no"/>tuali scilicet detractione. Ratio: quia in illis 
+      <lb ed="#B" n="8"/>quantitas dani aestimari potest: &amp; sic corre 
+      <lb ed="#B" n="9"/>spondens emenda subsequi: in istis autem 
+      <lb ed="#B" n="10"/>nequit: cum non satis constare possit: in 
+      <lb ed="#B" n="11"/>quot cordibus hominum (mediate, &amp; 
+      ini<lb ed="#B" n="12" break="no"/>mediate) detrahbens bonam opinionem, &amp; 
+      fa<lb ed="#B" n="13" break="no"/>mam eius, cui detraxit: occiderit: unde &amp; 
+      <lb ed="#B" n="14"/>difficulter satisfieri potest laeso. Quo, n. 
+      re<lb ed="#B" n="15" break="no"/>stituet, cum ignoret, quantum debet. haec 
+      <lb ed="#B" n="16"/>ille.
+    </p>
+            <p xml:id="gbs333-v114921-d1e392">
+      ¶ Secunda conclusio. Detrahens pro- 
+      <lb ed="#B" n="17"/>ximo falsum ei imponendo, tenetur 
+      re<lb ed="#B" n="18" break="no"/>tractare id, quod falso imposuitita 
+      publi<lb ed="#B" n="19" break="no"/>ce, &amp; coram illis: sicut &amp; coran, quibus 
+      dif<lb ed="#B" n="20" break="no"/>famauit. Haec conclusio est Sco. ubi sup. &amp; 
+      <lb ed="#B" n="21"/>probatur: quia diffamans alium falsum 
+      im<lb ed="#B" n="22" break="no"/>ponendo tenetur restituere famam, 
+      secun<lb ed="#B" n="23" break="no"/>dum aequalitatem iustitiae ex 
+      conclusio<lb ed="#B" n="24" break="no"/>ne. j. sed illam reddere non potest nisi 
+      tractan<lb ed="#B" n="25" break="no"/>do false impositum, &amp; hoc non palliate: 
+      <lb ed="#B" n="26"/>sed ita clare, &amp; publice, sicut imposuit: 
+      <lb ed="#B" n="27"/>alioquin non seruaretraequalitas iustiriae: 
+      <lb ed="#B" n="28"/>igitur conclusio uera.
+    </p>
+            <p xml:id="gbs333-v114921-d1e421">
+      ¶ Teitia 
+      conclu<lb ed="#B" n="29" break="no"/>sio. Diffamans proximum secundo modo: 
+      <lb ed="#B" n="30"/>se uerum oecultum in publico (
+      praeter<lb ed="#B" n="31" break="no"/>misso iuris ordine) proponendo restitue 
+      <lb ed="#B" n="32"/>re tenetur famam, non retractando uerum 
+      <lb ed="#B" n="33"/>occultum: sed fidem suidicti in audienti 
+      <lb ed="#B" n="34"/>bus quantum poterit extinguendo. 
+      Pri<lb ed="#B" n="35" break="no"/>ma pars patet ex conclusione: quia ille 
+      <lb ed="#B" n="36"/>iniuste diffamauit occultum 
+      praetermis<lb ed="#B" n="37" break="no"/>so iuris ordine publicando: &amp; ita iniuste 
+      <lb ed="#B" n="38"/>opinionem malam in cordibus 
+      audien<lb ed="#B" n="39" break="no"/>tium de proximo generauit: ergo famam 
+      <lb ed="#B" n="40"/>restituere tenetur ex conclusione prima: 
+      <lb ed="#B" n="41"/>nam iniuste sit, quod contra iuris ordinem 
+      <lb ed="#B" n="42"/>sit. Secunda pars scilicet quod non debet 
+      retra<lb ed="#B" n="43" break="no"/>ctare iduerum, quod dixit: probatur: quia 
+      <lb ed="#B" n="44"/>uerum retractando mentiretur: sed pro 
+      <lb ed="#B" n="45"/>nullo bono mentiendum est: quia 
+      men<lb ed="#B" n="46" break="no"/>tiri malum est, &amp; malum non est faciendum 
+      <lb ed="#B" n="47"/>propter quadcumque bonum alteri reddendum. 
+      <lb ed="#B" n="48"/>Rom. iij. Non sunt facienda mala; ut 
+      eue<lb ed="#B" n="49" break="no"/>niant bona. Tertia pars patet: quia 
+      extin<lb ed="#B" n="50" break="no"/>guendo opinionem malam in proximo: 
+      fa<lb ed="#B" n="51" break="no"/>cit cessare diffamiam, per cuius cessatio 
+      <!--519.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nem restituitur fama iniuste laesa.
+    </p>
+            <p xml:id="gbs333-v114921-d1e480">
+      ¶ Siquris: 
+      <lb ed="#B" n="53"/>quo poterit extinguere opinionem malam 
+      <lb ed="#B" n="54"/>nisi retractando uerum. Respondet Sco. hoc  
+      <lb ed="#B" n="55"/>fieri potest per aliquam honestam 
+      excusatio<lb ed="#B" n="56" break="no"/>nem. dicendo sic, uel similiter. Non 
+      creda<lb ed="#B" n="57" break="no"/>tis eum esse talem. Male. n. dixi, &amp; fatue 
+      <lb ed="#B" n="58"/>aut iniuriam eifeci: &amp; hoc dicendo 
+      ue<lb ed="#B" n="59" break="no"/>rum dicit: quoniam uerum occultum in 
+      pu<lb ed="#B" n="60" break="no"/>blico (non seruato ordine iuris) dicendo 
+      <lb ed="#B" n="61"/>male, &amp; fatue dixit: &amp; proximo iniuriam 
+      <lb ed="#B" n="62"/>fecit: &amp; persuasio ista: non reputetis, seu  
+      <lb ed="#B" n="63"/>credatis illum esse talem scilicet malum: bona est: 
+      <lb ed="#B" n="64"/>quia quilibet praesumendus est bonus: 
+      do<lb ed="#B" n="65" break="no"/>nec probetur contrarium: iuxta illud de 
+      <lb ed="#B" n="66"/>scrutinio in or. faciendoc. unico. 
+      Hu<lb ed="#B" n="67" break="no"/>mana fragilitas, illum, quem indignum 
+      <lb ed="#B" n="68"/>esse non nouit: dignum debet aestimare: 
+      <lb ed="#B" n="69"/>sed ille non est probatus malus coram istis: 
+      <lb ed="#B" n="70"/>ergo est suadendum eis: quod ipsi non 
+      repu<lb ed="#B" n="71" break="no"/>tent eum indignum, uel malum.
+    </p>
+            <p xml:id="gbs333-v114921-d1e524">
+      ¶ Quarta 
+      con<lb ed="#B" n="72" break="no"/>clusio. Negans erimen uerum occultum 
+      si<lb ed="#B" n="73" break="no"/>bi in publico impositum: non teneturne 
+      <lb ed="#B" n="74"/>gationem suam retractare: tenetur 
+      ta<lb ed="#B" n="75" break="no"/>men (imponentem aliquo modo 
+      excu<lb ed="#B" n="76" break="no"/>sando) famam ei restituere. Haec 
+      conclu<lb ed="#B" n="77" break="no"/>sio similiter est Sco. &amp; probatur quo ad 
+      <lb ed="#B" n="78"/>primam partem: quia non tenetur 
+      qui<lb ed="#B" n="79" break="no"/>cumque; statim in iudicio se reum confiteri 
+      <lb ed="#B" n="80"/>nondum conuictus. Nemo, n tenetur 
+      <lb ed="#B" n="81"/>peccatum suum occultum in publico 
+      con<lb ed="#B" n="82" break="no"/>fiteri. Nam repraehenduntur per 
+      prophe<lb ed="#B" n="83" break="no"/>tam, qui peccatum suum quasi lodoma 
+      <lb ed="#B" n="84"/>praedicauerunt. Secunda pars patet: quia 
+      <lb ed="#B" n="85"/>cum negando crimen uerum accusantem 
+      in<lb ed="#B" n="86" break="no"/>directe notauit de calunnia, &amp; falsa 
+      impo<lb ed="#B" n="87" break="no"/>sitione: &amp; ita quantum in eo est, famam suam 
+      <lb ed="#B" n="88"/>laesit: &amp; ideo tenetur eaum aliquo modo 
+      resti<lb ed="#B" n="89" break="no"/>tuere dicendo secundum Sco. Non habeatis 
+      <lb ed="#B" n="90"/>eum pro calumniatore: quia credo: quod habeat  
+      <lb ed="#B" n="91"/>bonam intentionem in proponendo. uel forte 
+      <lb ed="#B" n="92"/>credit se posse probare intentum suum, &amp; de 
+      <lb ed="#B" n="93"/>ceptus fuit.
+    </p>
+            <p xml:id="gbs333-v114921-d1e574">
+      ¶ Quantum ad tertium articulum, 
+      <lb ed="#B" n="94"/>dubitatur primo cotra primam conclusionem. 
+      <lb ed="#B" n="95"/>Non. n. uidetur: quod in causa primae 
+      conclusio<lb ed="#B" n="96" break="no"/>nis, quimendaciter diffamat alium 
+      tenea<lb ed="#B" n="97" break="no"/>tur de necessitate salutis retractare 
+      uer<lb ed="#B" n="98" break="no"/>ba sua. ergo conclusio falsa. Consequem 
+      <lb ed="#B" n="99"/>tia nota. Antecedens probatur: quia 
+      ma<lb ed="#B" n="100" break="no"/>gis tenetur relare quilibet prfama sua, 
+      <lb ed="#B" n="101"/>quam aliena: sicut tenetur plus diligere 
+      <lb ed="#B" n="102"/>se, quam proximum non aut posset retra 
+      <!--520.xml-->
+      <pb ed="#B" n="471"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ctare uerba sua, reddendo sic famam 
+      al<lb ed="#B" n="2" break="no"/>teri: nisi seipsum diffamaret: ergo &amp;c. 
+    </p>
+            <p xml:id="gbs333-v114921-d1e608">
+               <lb ed="#B" n="3"/>¶ Respondetur secundum Sco. quod bona 
+      cor<lb ed="#B" n="4" break="no"/>poris, uel exteriora non sunt diligenda, nisi 
+      <lb ed="#B" n="5"/>in ordine ad bona animae, &amp; ad deum: hoc 
+      <lb ed="#B" n="6"/>aunt non est nisi inquantum possuntiuste 
+      con<lb ed="#B" n="7" break="no"/>petere illi, qui diligit. Et ideo cui potest 
+      <lb ed="#B" n="8"/>iuste competere fama: magis debet 
+      dilige<lb ed="#B" n="9" break="no"/>re illam sibi, quam alteri, cui potest iuste 
+      con<lb ed="#B" n="10" break="no"/>perere: sed si sibi non potest competere 
+      <lb ed="#B" n="11"/>nisi iniuste: alteri autem iuste: magis 
+      de<lb ed="#B" n="12" break="no"/>bet illam diligere alteri, cui iuste copetit: 
+      <lb ed="#B" n="13"/>quam sibi, cui non competit nisi iniuste. Et sic 
+      <lb ed="#B" n="14"/>in proposito. Accusato, no. de falso 
+      cri<lb ed="#B" n="15" break="no"/>mine iuste competit fama. Accusanti 
+      <lb ed="#B" n="16"/>autem post talem accusationem non 
+      nisi<lb ed="#B" n="17" break="no"/>iniuste. Non solum quod mentitus est: sed  
+      <lb ed="#B" n="18"/>quia publice mentitus est in accusando 
+      <lb ed="#B" n="19"/>in quo sufficienter, &amp; radicaliter se 
+      dis<lb ed="#B" n="20" break="no"/>famauit: &amp; ideo postea directe ostendens 
+      <lb ed="#B" n="21"/>innocentia alterius, cui tenetur in hoc: 
+      <lb ed="#B" n="22"/>&amp; indirecte nocentia suam non tunc proprie 
+      <lb ed="#B" n="23"/>diffamat: sed amouet falsam laudem, qua 
+      <lb ed="#B" n="24"/>post mendacem accusationem est indignus 
+      <lb ed="#B" n="25"/>Exemplum: quis fornicatur tribas uidenti 
+      <lb ed="#B" n="26"/>bus: illi de post accusantes non diffamant 
+      <lb ed="#B" n="27"/>fornicatorem: sed ipsemet se 
+      diffama<lb ed="#B" n="28" break="no"/>uit in facto illo publico: quia committem 
+      <lb ed="#B" n="29"/>do quodcumque crimen publice: incurrit 
+      <lb ed="#B" n="30"/>laesionem dignitatis: &amp; sic amittit faman, 
+      <lb ed="#B" n="31"/>quantum est in se. Nec publicatio illa 
+      <lb ed="#B" n="32"/>posterior, per quam notificatur illa 
+      lae<lb ed="#B" n="33" break="no"/>sio aufert sibi famam: sed tantum modo 
+      <lb ed="#B" n="34"/>facit deuenire in publicum: quod tamen 
+      <lb ed="#B" n="35"/>ex natura actus conmissi in publico erat 
+      <lb ed="#B" n="36"/>simpliciter publicum. Et per hoc patet 
+      <lb ed="#B" n="37"/>ad formam argumenti. Negetur 
+      ante<lb ed="#B" n="38" break="no"/>cedens: quonia de necessitate salutis, c 
+      <lb ed="#B" n="39"/>abstulit iniuste famam alterius, tenetur 
+      <lb ed="#B" n="40"/>eam pro posse restituere. Quoniam 
+      pec<lb ed="#B" n="41" break="no"/>catum non dimittitur, nisi quod ablatum 
+      <lb ed="#B" n="42"/>est, restituatur secundum Aug. ad Mace. 
+    </p>
+            <p xml:id="gbs333-v114921-d1e697">
+               <lb ed="#B" n="43"/>¶ Ad probationem negetur illa 
+      uniuer<lb ed="#B" n="44" break="no"/>ialis: nam patitur instantiam in casu 
+      no<lb ed="#B" n="45" break="no"/>stro: ideo oportet eam limitare: ut dictum 
+      <lb ed="#B" n="46"/>est.
+    </p>
+            <p xml:id="gbs333-v114921-d1e708">
+      ¶ Secundo dubitatur: utrum referens 
+      <lb ed="#B" n="47"/>mala de proximo non asserendo: sed  
+      <lb ed="#B" n="48"/>uelut audita recitando: aut indiscrete 
+      <lb ed="#B" n="49"/>narrando, &amp; per hoc famam alterius 
+      lae<lb ed="#B" n="50" break="no"/>dens, teneatur ad famae restitutionem. 
+      <lb ed="#B" n="51"/>Respondet Scor. quod dicens setantum au¬ 
+      <!--520.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>disse crimen, quod refert: non aufert 
+      <lb ed="#B" n="53"/>ex natura actus fama illi, de quo 
+      loqui<lb ed="#B" n="54" break="no"/>tur in opinione aliorum: quoniam illi 
+      <lb ed="#B" n="55"/>non debent fidem talibus dictis 
+      adhibe<lb ed="#B" n="56" break="no"/>re, dicente poeta. Rara fides ideo est: 
+      <lb ed="#B" n="57"/>quia multi multa loquuntur. Quod 
+      si<lb ed="#B" n="58" break="no"/>audientes firmiter concipiant illum, de 
+      <lb ed="#B" n="59"/>quo est sermo: criminosum esse: 
+      leuen<lb ed="#B" n="60" break="no"/>sunt: nam qui cito credit: leuis est 
+      cor<lb ed="#B" n="61" break="no"/>de. Eccles. xix. Ideo ibidem sequitur. 
+      <lb ed="#B" n="62"/>Non omni uerbo credas: quia secundum 
+      <lb ed="#B" n="63"/>Prophetam. Omnis homo mendax. Et  
+      <lb ed="#B" n="64"/>ideo sic referens non tenetur ad 
+      restitu<lb ed="#B" n="65" break="no"/>tionem. Quod uerum est: nisi ex modo 
+      <lb ed="#B" n="66"/>dicendi, uel alia circunstantia: ut puta 
+      gra<lb ed="#B" n="67" break="no"/>uitate suae personae &amp;c. ostendat aliquam 
+      <lb ed="#B" n="68"/>maiorem certitudinem dicti sui, quam 
+      ha<lb ed="#B" n="69" break="no"/>beat ex communi relatione: tunc enim 
+      <lb ed="#B" n="70"/>teneretur cum debito moderamine, &amp; 
+      <lb ed="#B" n="71"/>sine mendacio famam restituere, ut 
+      di<lb ed="#B" n="72" break="no"/>cendo haec, uel similia. Non habeo 
+      cer<lb ed="#B" n="73" break="no"/>titudinem huius rei: sed tantum audita 
+      <lb ed="#B" n="74"/>refero: spero, quod non ita se habeat factum. 
+    </p>
+            <p xml:id="gbs333-v114921-d1e775">
+               <lb ed="#B" n="75"/>¶ Verum addit Scot. quia a scandalo 
+      pu<lb ed="#B" n="76" break="no"/>sillorum oportet cauere: iuxta illud 
+      apo<lb ed="#B" n="77" break="no"/>stoli. j. Corinth. viij. Si esca 
+      scandali<lb ed="#B" n="78" break="no"/>xat fratrem meum: non manducabo cat 
+      <lb ed="#B" n="79"/>nes in aeternum. &amp; multi sunt tales 
+      pu<lb ed="#B" n="80" break="no"/>filli leues ad credendum malum: ideo 
+      <lb ed="#B" n="81"/>periculosum est coram eis talia audita 
+      <lb ed="#B" n="82"/>referre: &amp; hoc si fiat animo malo 
+      laeden<lb ed="#B" n="83" break="no"/>di, scilicet illum, de quo est sermo: non 
+      <lb ed="#B" n="84"/>est facile excusabile: quin sit contra 
+      cha<lb ed="#B" n="85" break="no"/>ritatem: &amp; per consequens mortale 
+      pec<lb ed="#B" n="86" break="no"/>catum. Haec Sco.
+    </p>
+            <p xml:id="gbs333-v114921-d1e804">
+      ¶ Dubitatur tertio 
+      <lb ed="#B" n="87"/>circa quartam conclusionem: utrum 
+      ne<lb ed="#B" n="88" break="no"/>gans crimen uerum: sed priuatum in 
+      pu<lb ed="#B" n="89" break="no"/>blico sibi obiectum: negando illud 
+      pec<lb ed="#B" n="90" break="no"/>cet mortaliter. Et arguit Scot. quod sic: 
+      <lb ed="#B" n="91"/>quia talis mentitur mendacio pernitio 
+      <lb ed="#B" n="92"/>so reipub. ergo. Antecedens probatur: 
+      <lb ed="#B" n="93"/>quia respublica per eius mendacium 
+      im<lb ed="#B" n="94" break="no"/>peditur a punitione eius iusta. Similiter 
+      <lb ed="#B" n="95"/>mentitur pernitiose personae accusanti: 
+      <lb ed="#B" n="96"/>quia per hoc notatur de calumnia. In 
+      <lb ed="#B" n="97"/>opppositum: quia durum uidetur: quod 
+      qui<lb ed="#B" n="98" break="no"/>libet accusatus de crimine occulto, 
+      te<lb ed="#B" n="99" break="no"/>neatur illud publice consiteri: &amp; se expo 
+      <lb ed="#B" n="100"/>nere ultimo supplicio.
+    </p>
+            <p xml:id="gbs333-v114921-d1e837">
+      ¶ Pro 
+      respon<lb ed="#B" n="101" break="no"/>sione notandum secundum Scot. cuius 
+      <lb ed="#B" n="102"/>pene sunt omnia in hac q. posita, quod iu¬ 
+      <!--521.xml-->
+      <pb ed="#B" n="472"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>stum iuste exequendum est: ut dicitur 
+      <lb ed="#B" n="2"/>Deu: xvi. Et ideo non omnia crimina 
+      <lb ed="#B" n="3"/>sunt a repub. puni enda: sed aliqua 
+      di<lb ed="#B" n="4" break="no"/>uino iudicio releruanda: ea aut tantum 
+      <lb ed="#B" n="5"/>potest iuste punire, quaecoram iudice 
+      reipu<lb ed="#B" n="6" break="no"/>possunt sufficienter probari: &amp; ideo non 
+      <lb ed="#B" n="7"/>laeditur respub. in eo, quod impeditur a 
+      pu<lb ed="#B" n="8" break="no"/>nitione criminum occultorum: illa enim 
+      <lb ed="#B" n="9"/>non potest iuste punire. Iustum. n. est, 
+      <lb ed="#B" n="10"/>ut diuinum iudicium excedat iudicium 
+      reipu<lb ed="#B" n="11" break="no"/>in hoc aut excedit, quod quaedam punienda 
+      <lb ed="#B" n="12"/>reseruantur diuino iudicio, in quibus non 
+      <lb ed="#B" n="13"/>hent iudicare respu Haec aut sunt crimina 
+      <lb ed="#B" n="14"/>occulta, quae coram iudice reip. 
+      probari<lb ed="#B" n="15" break="no"/>non possunt: quae ad eius iudicium 
+      referen<lb ed="#B" n="16" break="no"/>da sunt, cui nihil est occultum. Homo, nio 
+      <lb ed="#B" n="17"/>tantum ea uidet, quae parent: deus aut 
+      in<lb ed="#B" n="18" break="no"/>tuetur cor. j. Reg. xvi.
+    </p>
+            <p xml:id="gbs333-v114921-d1e890">
+      ¶ Per hoc respon 
+      <lb ed="#B" n="19"/>det ad dubium, quod durum uidetur assere, 
+      <lb ed="#B" n="20"/>re, quod quilibet accusatus ab uno in 
+      publi<lb ed="#B" n="21" break="no"/>co statim teneatur de necessitate 
+      salu<lb ed="#B" n="22" break="no"/>tis confiteri in publico crimen occultum: 
+      <lb ed="#B" n="23"/>non tantum habendo occultum ad paenan: 
+      <lb ed="#B" n="24"/>sed etiam ad honestum: a peccato tamen 
+      <lb ed="#B" n="25"/>excusari non potest: quoniam etsi 
+      huiusmo<lb ed="#B" n="26" break="no"/>di negatio non fuerit mendacium 
+      perni<lb ed="#B" n="27" break="no"/>tiosum: est tamen mendacium: &amp; per con 
+      <lb ed="#B" n="28"/>sequens peccatum.
+    </p>
+            <p xml:id="gbs333-v114921-d1e914">
+      ¶ Si quaeris: utrum de 
+      <lb ed="#B" n="29"/>eo sit paenitendum, maxime si neget in 
+      <lb ed="#B" n="30"/>tendens negare illud, ut propositum est, 
+      <lb ed="#B" n="31"/>scilicet ut publicum: sicut sacerdos facit 
+      <lb ed="#B" n="32"/>de confesso, dicens. Nihil mali scio humc 
+      <lb ed="#B" n="33"/>fecisse: quia loquitur ut in publico: 
+      audi<lb ed="#B" n="34" break="no"/>uit autem in alio foro. Nihil hic deter 
+      <lb ed="#B" n="35"/>minat Sco. sed respondet: quod bonarum 
+      <lb ed="#B" n="36"/>mentium est culpam agnoscere: ubi 
+      cul<lb ed="#B" n="37" break="no"/>pa non est: ut dicit Grego. &amp; habetur 
+      <lb ed="#B" n="38"/>dist. v. ad eius. Et ideo multo magis 
+      bo<lb ed="#B" n="39" break="no"/>narum mentium est agnoscere culpam: 
+      <lb ed="#B" n="40"/>ubi dubitatur: an sit cuipa, &amp; qualis 
+      cul<lb ed="#B" n="41" break="no"/>pa: &amp; ideo intali casu tutum est post 
+      ta<lb ed="#B" n="42" break="no"/>lem negationem paenitere de hoc 
+      indi<lb ed="#B" n="43" break="no"/>stincte tanquam de tali, quale est: ut puta 
+      <lb ed="#B" n="44"/>sub tali indistinctione. Si mortale est 
+      <lb ed="#B" n="45"/>tanquam de mortali: si ueniale tanquam 
+      <lb ed="#B" n="46"/>de ueniali.
+    </p>
+            <p xml:id="gbs333-v114921-d1e956">
+      ¶ Et si quaeris: quid ergo 
+      fa<lb ed="#B" n="47" break="no"/>ciet taliter accusatus uolens uitare 
+      pec<lb ed="#B" n="48" break="no"/>catum, quomodo respondebit. 
+      Respon<lb ed="#B" n="49" break="no"/>det idem Sco. Non uidetur: quod iste hone 
+      <lb ed="#B" n="50"/>ste, &amp; secundum rationem rectam debeat  
+      <lb ed="#B" n="51"/>confiteri crimen coram tali iudice: quia 
+      <!--521.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ipse plusquam quicunque alius singularis 
+      <lb ed="#B" n="53"/>accusans auferret sibi ipsi faman: quia 
+      con<lb ed="#B" n="54" break="no"/>fitenti contra se in iudicio creditur: quid 
+      <lb ed="#B" n="55"/>ergo. Cauta est responsio iuristarum, 
+      ne<lb ed="#B" n="56" break="no"/>go proposita, ut proponuntur. Et haec 
+      <lb ed="#B" n="57"/>quidem sine mendacio possunt dici in 
+      <lb ed="#B" n="58"/>proposito: quia proponuntur in 
+      publi<lb ed="#B" n="59" break="no"/>co, ut publica, &amp; publice probanda. Sic 
+      <lb ed="#B" n="60"/>autem negare ea potest, qui scit ea non 
+      <lb ed="#B" n="61"/>posse probari in publico. Quod si iudex 
+      <lb ed="#B" n="62"/>urgeat eum, ut confiteatur propositum 
+      <lb ed="#B" n="63"/>uel ut publice neget: potest respondere, 
+      <lb ed="#B" n="64"/>quod ipse respondit sufficienter ad 
+      accusa<lb ed="#B" n="65" break="no"/>tionem. Nec ab illa responsione 
+      decli<lb ed="#B" n="66" break="no"/>net, faciat iudex erga accusantem, quod  
+      <lb ed="#B" n="67"/>iuris est. Et per hoc probabiliter potest 
+      <lb ed="#B" n="68"/>responderi: quod in calu defendi potest; quod 
+      <lb ed="#B" n="69"/>negans crimen occultum sibi in publico 
+      <lb ed="#B" n="70"/>impositum, non peccat mortaliter: tutius 
+      <lb ed="#B" n="71"/>autem est eum paenitere indistincte: ut 
+      di<lb ed="#B" n="72" break="no"/>ctum est. Si uero negat intentione qua 
+      <lb ed="#B" n="73"/>dicta, &amp; ut publicum non tamen 
+      expri<lb ed="#B" n="74" break="no"/>mit di. nego, ut propositum: sic non 
+      men<lb ed="#B" n="75" break="no"/>titur: quia non loquitur contra 
+      men<lb ed="#B" n="76" break="no"/>tem: tamen difficile est excusari a 
+      ue<lb ed="#B" n="77" break="no"/>niali: quia uerba sua accipiuntur, ut 
+      so<lb ed="#B" n="78" break="no"/>nant: &amp; secundum communem 
+      intelli<lb ed="#B" n="79" break="no"/>gentiam secundum quam non sunt 
+      ue<lb ed="#B" n="80" break="no"/>ra.
+    </p>
+            <p xml:id="gbs333-v114921-d1e1036">
+      ¶ Pet hoc ad rationem negetur; quod 
+      <lb ed="#B" n="81"/>mendacium illud sit perniciosum: neque 
+      <lb ed="#B" n="82"/>reipub. nec accusanti. Non reipu quia 
+      <lb ed="#B" n="83"/>per hoc mendacium respu. non 
+      impedi<lb ed="#B" n="84" break="no"/>tur in suo iudicio, quantum ad ea, in qui 
+      <lb ed="#B" n="85"/>bus habet iudicare: quia de occultis non 
+      <lb ed="#B" n="86"/>potet iuste iudicare, nec ea punire. Neque 
+      <lb ed="#B" n="87"/>est perniciosum accusanti: sed magis 
+      ip<lb ed="#B" n="88" break="no"/>se accusans est sibi perniciosus, qui 
+      eo<lb ed="#B" n="89" break="no"/>modo proponit, quo non debet 
+      propo<lb ed="#B" n="90" break="no"/>nere: immo debet non proponere: &amp; 
+      <lb ed="#B" n="91"/>ideo imputet sibi, si aliqua infamia sequi 
+      <lb ed="#B" n="92"/>tur: quia ipse est causa; non autem ille 
+      ne<lb ed="#B" n="93" break="no"/>gans: quia defendit iunnocentiam suam 
+      <lb ed="#B" n="94"/>in publico: ubi non est noceins: nec 
+      ha<lb ed="#B" n="95" break="no"/>bendus pro nocente, donec fuerit 
+      con<lb ed="#B" n="96" break="no"/>uictus. Accusans uero imprudenter, &amp; 
+      <lb ed="#B" n="97"/>iniuste egit in pubiico accusando 
+      <lb ed="#B" n="98"/>priuatum: &amp; per hoc seipsum 
+      <lb ed="#B" n="99"/>diffamauit. Et tantum de 
+      <lb ed="#B" n="100"/>illa 
+      quaestio<lb ed="#B" n="101" break="no"/>ne.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

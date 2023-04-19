@@ -1,0 +1,1295 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 13</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 13</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="448"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v109840"><!-- l4-d15q13 -->
+            <head xml:id="gbs333-v109840-Hd1e101">Quaestio 13</head>
+            <head xml:id="gbs333-v109840-Hd1e103" type="question-title">
+      Utrum acquisitum per 
+      turpe lucrum sit de 
+      necessitate salutis restituendum
+    </head>
+            <p xml:id="gbs333-v109840-d1e106">
+               <lb ed="#B" n="39"/>QVAESTIO XIII 
+      <lb ed="#B" n="40"/>VTRVM acquisitum per 
+      tur<lb ed="#B" n="41" break="no"/>pe lucrum sit de 
+      necessita<lb ed="#B" n="42" break="no"/>te salutis restituendum. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e117">
+               <lb ed="#B" n="43"/>¶ Quaestio illa tribus 
+      articu<lb ed="#B" n="44" break="no"/>lis absoluetur: terminorum 
+      declaratio<lb ed="#B" n="45" break="no"/>ne cum recitatione opinionum: subiun¬ 
+      <!--497.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="46"/>ctione responsiuarum conclusionum: &amp; 
+      <lb ed="#B" n="47"/>mouendorum solutione dubiorum. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e135">
+               <lb ed="#B" n="48"/>¶ Quantum ad primum articulum 
+      prim<lb ed="#B" n="49" break="no"/>notandum: quod turpe sucrum dicitur lucrum 
+      <lb ed="#B" n="50"/>acquisitum cumturpitudinepeceati: sicut  
+      <lb ed="#B" n="51"/>omne lucrum, quod acquiritur per actum 
+      <lb ed="#B" n="52"/>aliquem conmissum, uel omissum, uel ad 
+      <lb ed="#B" n="53"/>missum, qui est peccatum per se ex 
+      gene<lb ed="#B" n="54" break="no"/>re actus, uel ex circunstantia. Et licet haec 
+      <lb ed="#B" n="55"/>acquisitio ex uarijs oriatur uitijs: tamen 
+      con<lb ed="#B" n="56" break="no"/>muniter oritur ex duobus. Aut ex 
+      aua<lb ed="#B" n="57" break="no"/>ritia: ut acquisitio lucri: aut mercatiois 
+      <lb ed="#B" n="58"/>illicitae ex tempore, uel loco: aut ex 
+      ma<lb ed="#B" n="59" break="no"/>thematica incantatoria, seu aliis illicitis 
+      <lb ed="#B" n="60"/>ac, phibitis artibus. Aliquando &amp; secundo 
+      <lb ed="#B" n="61"/>ex in temperantia, ut ex illicita uolupta 
+      <lb ed="#B" n="62"/>te: ut ex meretricio fornieatione, 
+      adus<lb ed="#B" n="63" break="no"/>terio, histrionatu. Aliquando ex utroque;  
+      <lb ed="#B" n="64"/>simul, auaritia scilicet &amp; luxuria. Potest tamen 
+      <lb ed="#B" n="65"/>quandoque oriri ex supbia, uel inuidia, &amp; 
+      <lb ed="#B" n="66"/>pluribus aliis malis radicibus.
+    </p>
+            <p xml:id="gbs333-v109840-d1e180">
+      ¶ Secunde 
+      <lb ed="#B" n="67"/>notandum post beatum Tho. in iiii. seri p 
+      <lb ed="#B" n="68"/>pto. dist. xv. q.viij. arti. ii. quod quia illicite 
+      <lb ed="#B" n="69"/>acquiritur, quod contra legis 
+      prohitio<lb ed="#B" n="70" break="no"/>nem acquiritur: dupliciter hoc continge 
+      <lb ed="#B" n="71"/>re potest: quia aut lex prohibuit ipsum 
+      lu<lb ed="#B" n="72" break="no"/>ere; uel causam sucri tantum. Siipsum 
+      lucti<lb ed="#B" n="73" break="no"/>est prohibitum: tamenc impossibile est, quod det 
+      <lb ed="#B" n="74"/>neatur: ex hoc. n. ipso efficitur aliqus 
+      in<lb ed="#B" n="75" break="no"/>iusti tituli, &amp; malae fidei posfessor; quod 
+      con<lb ed="#B" n="76" break="no"/>tra legen aliquid habet. Si uero lex 
+      pro<lb ed="#B" n="77" break="no"/>hibuit actum, ex quo quis lucratur: sed  
+      <lb ed="#B" n="78"/>non sucrum supposito actu, tunc turpiter 
+      <lb ed="#B" n="79"/>lucrans (quamuis tali actu contralegem agit 
+      <lb ed="#B" n="80"/>tamen tenendo, &amp; recipiendo preciu 
+      a<lb ed="#B" n="81" break="no"/>ctus non facit contralege. Exempla: licet 
+      le<lb ed="#B" n="82" break="no"/>nocinium, &amp; meretricium sit lege prohibitum 
+      <lb ed="#B" n="83"/>nulla tamen lege prohibitum est, ne leno, uel 
+      <lb ed="#B" n="84"/>meretrix preciumsuae turpitudinis 
+      acci<lb ed="#B" n="85" break="no"/>piat. unde Aug. ut allegat Alex. de hales 
+      <lb ed="#B" n="86"/>par. iiij. q. Ixxxvi. S. ulti. meretrix 
+      turpi<lb ed="#B" n="87" break="no"/>ter acquirit: sed non turpiter accipit. 
+      <lb ed="#B" n="88"/>Similiter licet lex prohibeat, ut in dic 
+      <lb ed="#B" n="89"/>festo similiter in loco sacro mercatum 
+      <lb ed="#B" n="90"/>non fiat; non tamen prohibet; quod is, qui contra 
+      <lb ed="#B" n="91"/>hoc praeceptum in die festo, uel loco 
+      sa<lb ed="#B" n="92" break="no"/>cro mereatur: precium suae mereis 
+      uendi<lb ed="#B" n="93" break="no"/>tae non recipiat: sic multi actus sunt 
+      lege<lb ed="#B" n="94" break="no"/>diuina, uel humana prohibiti: ubi tamen 
+      <lb ed="#B" n="95"/>nulla lex uerat: ne pro illis actibus peia, 
+      <lb ed="#B" n="96"/>uelbona recipiantur. Ex quo accipitur 
+      <!--498.xml-->
+      <pb ed="#B" n="449"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>differentia inter turpe lucrum, &amp; sucrum 
+      <lb ed="#B" n="2"/>iniquum: nam quando actus, quo quis lucratur 
+      <lb ed="#B" n="3"/>est prohibitus, non autem sucrum: tunc 
+      <lb ed="#B" n="4"/>dicitur turpe lucrum: sed quamdo lucrum ipsum 
+      <lb ed="#B" n="5"/>est lege prohibitum: non solum dicitur 
+      turpe<lb ed="#B" n="6" break="no"/>lucrum, sed iniquum. Haec Tho.
+    </p>
+            <p xml:id="gbs333-v109840-d1e267">
+      ¶ Tertio 
+      no<lb ed="#B" n="7" break="no"/>tandum; quod turpelucrum aliquando accipitur 
+      <lb ed="#B" n="8"/>a personis non habentibus administra 
+      <lb ed="#B" n="9"/>tionem rerum suarum: aut facultatem 
+      <lb ed="#B" n="10"/>alienandi pecuniam: aut res tali sucro 
+      <lb ed="#B" n="11"/>acquisitas: ut sunt furiosi, mente capti, 
+      <lb ed="#B" n="12"/>iuuenes minorennes, seu minores 
+      quin<lb ed="#B" n="13" break="no"/>decim annis, prodigi, pupilli, surdi, 
+      mu<lb ed="#B" n="14" break="no"/>ti, caeci, perpetuo morbo languidi, 
+      qui<lb ed="#B" n="15" break="no"/>bus, quia rebus proprijs praeesse non 
+      pos<lb ed="#B" n="16" break="no"/>sunt, dandi sunttutores, uel curatores. 
+      <lb ed="#B" n="17"/>Item serui, religiosi, uxores, quantum 
+      <lb ed="#B" n="18"/>ad res mariti: filijfamilias quantum ad 
+      <lb ed="#B" n="19"/>res paternas: clerici, &amp; administratores 
+      <lb ed="#B" n="20"/>ecclesiae, quantum ad res ecclesiae: 
+      simi<lb ed="#B" n="21" break="no"/>liter quandoque accipiuntur 
+      huiusmodi<lb ed="#B" n="22" break="no"/>lucra ab illis, qui per tales turpiter lucra 
+      <lb ed="#B" n="23"/>tores coacti sunt, autinuite attracti: aut  
+      <lb ed="#B" n="24"/>per importunitatem inducti. Item 
+      quan<lb ed="#B" n="25" break="no"/>doque turpe lucrum accipitur cum 
+      frau<lb ed="#B" n="26" break="no"/>de, &amp; dolo: taliter quod siis, a quo 
+      accipi<lb ed="#B" n="27" break="no"/>tur, fraudem dopraehenderet, &amp; dolum 
+      <lb ed="#B" n="28"/>nullatenus in lucrum tale consentiret, ut  
+      <lb ed="#B" n="29"/>ludens, seu aleator submittens falsos 
+      ta<lb ed="#B" n="30" break="no"/>xillos, uel chartas, uel alias non 
+      obser<lb ed="#B" n="31" break="no"/>uans regulas in huiusmodi ludo, uel 
+      ope<lb ed="#B" n="32" break="no"/>obseruandas secundum morem, uel 
+      insti<lb ed="#B" n="33" break="no"/>tutionem eius. Quandoque; lucrum turpe ac 
+      <lb ed="#B" n="34"/>quiritur sine fraude, sciente scilicet &amp; 
+      consen<lb ed="#B" n="35" break="no"/>tiente eo, a quolucratur, qui potest aliena 
+      <lb ed="#B" n="36"/>re: ut puta qua habet administrationem 
+      sucri<lb ed="#B" n="37" break="no"/>seruatis regulis in simoi solitis, &amp; consue- 
+      <lb ed="#B" n="38"/>tis. Item ludorum quidam sunthonesti: &amp; ad 
+      <lb ed="#B" n="39"/>exercitium, uel ad reoreationem ordinati: 
+      <lb ed="#B" n="40"/>ut qui uiribus corporis, aut ingenio 
+      in<lb ed="#B" n="41" break="no"/>nituntur, non fortunae ut piectio pilae, aut  
+      <lb ed="#B" n="42"/>lapidum: aut teli, arcus uel ballistae ad 
+      me<lb ed="#B" n="43" break="no"/>tam, siue luctatio; cursus in stadio, &amp; 
+      <lb ed="#B" n="44"/>similes. Alius est ludus, qui innititur 
+      for<lb ed="#B" n="45" break="no"/>tunae, ex cupiditate lucri: &amp; hic dicitur 
+      <lb ed="#B" n="46"/>ludus alearum, siue hat taxillis, siue 
+      cha<lb ed="#B" n="47" break="no"/>tis, siue alio modo, qua subest sortunae: ut  
+      <lb ed="#B" n="48"/>dicit Asten. Est etiam ludus tabularum mix 
+      <lb ed="#B" n="49"/>tus, qui sit in tabulis ducendis ad iactum 
+      <lb ed="#B" n="50"/>raxillorum: quia quantum ad proiectio 
+      <lb ed="#B" n="51"/>memtaxillorum, innititur. fortunae: quam 
+      <!--498.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tum ad tabulas ducendas innititur igenio, 
+      <lb ed="#B" n="53"/>&amp; ille ludus similiter dicitur ludus aleae, 
+      <lb ed="#B" n="54"/>quia innititur fortunae: licet non soli 
+      for<lb ed="#B" n="55" break="no"/>tunae: ut uult Ang. in sum, &amp; omnis 
+      talie<lb ed="#B" n="56" break="no"/>est prohibitus: ut. sl. de aleato. per totum. 
+      <lb ed="#B" n="57"/>&amp; in auct. de factis. episcopis. S. 
+      interdi<lb ed="#B" n="58" break="no"/>cimus. Alearum ludus. C. de reliqui. &amp; 
+      <lb ed="#B" n="59"/>sump. fune. ac ludo alearum in 
+      constitu<lb ed="#B" n="60" break="no"/>tione graeca. &amp; xxxv. di. Episcopus ubi 
+      <lb ed="#B" n="61"/>dicitur. Epis. aut presbyter, aut diaconus 
+      <lb ed="#B" n="62"/>aleae, &amp; ebrietati deseruiens, aut desinat, 
+      <lb ed="#B" n="63"/>aut certae damnetur. Subdiaconus autem 
+      <lb ed="#B" n="64"/>aut lector, aut caistor similia faciens, aut  
+      <lb ed="#B" n="65"/>desinat, aut communione priuetur: 
+      si<lb ed="#B" n="66" break="no"/>militer, &amp; laica. Haec ibi. ubi notat gl. 
+      uer<lb ed="#B" n="67" break="no"/>bum deseruiens, de praepositio auget i.d e. 
+      <lb ed="#B" n="68"/>ualde seruiens. unde tenet Ang. in sum 
+      <lb ed="#B" n="69"/>post Asten. quod ille, qui ualde seruit ludo: 
+      <lb ed="#B" n="70"/>hoc est, qui ducit in consuetudinem, 
+      <lb ed="#B" n="71"/>peccat mortaliter: secus de eo, qui raro 
+      <lb ed="#B" n="72"/>ludit: uel ludit causa recreationis: 
+      uel<lb ed="#B" n="73" break="no"/>causa conuiuii. ii de aleat scilicet ulti. ubi 
+      dici<lb ed="#B" n="74" break="no"/>tur, quod inconuiuio praesenti uelcendi 
+      caus<lb ed="#B" n="75" break="no"/>in eadem rem familiae ludere permitti 
+      <lb ed="#B" n="76"/>tur: aut pro modico respectu personae, 
+      <lb ed="#B" n="77"/>uel gratis: quia non conceditur ludere 
+      nisi<lb ed="#B" n="78" break="no"/>pro uno solido, in dicta aut. alearum. &amp; 
+      <lb ed="#B" n="79"/>Ixxij. solidi faciunt unam libram auti: hoc 
+      <lb ed="#B" n="80"/>tamen limitandum est secundum statum personae: nam 
+      <lb ed="#B" n="81"/>si non conceditur nisi unus solidus magnis 
+      <lb ed="#B" n="82"/>ergo grossus solum paruis. Ludus autem 
+      <lb ed="#B" n="83"/>primi generis non est de se prohibitus, 
+      <lb ed="#B" n="84"/>nisi ratione circumstantiae, ut ratione. 
+      <lb ed="#B" n="85"/>loci: nam in loco sacro fieri non debent: 
+      <lb ed="#B" n="86"/>uel ratione periculi corporalis, sicut 
+      tor<lb ed="#B" n="87" break="no"/>neamenta, &amp; huiusmodi, aut ratione 
+      per<lb ed="#B" n="88" break="no"/>sonae ut clericis, &amp; magis religiosis: siue 
+      <lb ed="#B" n="89"/>rationescandali, siue ratione cupiditatis, &amp; 
+      <lb ed="#B" n="90"/>lucri principaliter. Nam quicquid sit in 
+      <lb ed="#B" n="91"/>tentione mala peccatum est: lucrari 
+      au<lb ed="#B" n="92" break="no"/>tem a proximo unde notabiliter 
+      damui<lb ed="#B" n="93" break="no"/>ficatur quacunque uia saltem ex intentio 
+      <lb ed="#B" n="94"/>ne, uix uel nunquam a mortali excusatur: 
+      <lb ed="#B" n="95"/>est enim contra sextum praeceptum. Non 
+      <lb ed="#B" n="96"/>furaberis: &amp; contra decimum. Non 
+      con<lb ed="#B" n="97" break="no"/>cupisces &amp;c. Aut etiam ratione temporis: 
+      <lb ed="#B" n="98"/>ut in dic festo, si requirit excessiuum 
+      laba<lb ed="#B" n="99" break="no"/>rem: aut per ipsum negligitur diuinum 
+      of<lb ed="#B" n="100" break="no"/>ficium maxime missae quoad laicos. 
+      Si<lb ed="#B" n="101" break="no"/>uero non concurrit aliqua praedictatum 
+      <lb ed="#B" n="102"/>citcumstantiatum: sed fiat ratione honesta 
+      <!--499.xml-->
+      <pb ed="#B" n="450"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>recreationis, uel uirtutis, aut ingenij 
+      e<lb ed="#B" n="2" break="no"/>xercendi: on est peccatum saltem 
+      mor<lb ed="#B" n="3" break="no"/>tale.
+    </p>
+            <p xml:id="gbs333-v109840-d1e495">
+      ¶ Quarto notandum: quod de hoc utrum 
+      <lb ed="#B" n="4"/>acquisitum per ludum aleatum extra duos 
+      <lb ed="#B" n="5"/>calus praemissos, &amp; concesso (scilicet dum 
+      <lb ed="#B" n="6"/>ron fuerit pro esculentis, &amp; poculentis 
+      <lb ed="#B" n="7"/>in conuiuio praesenti consumptis sine 
+      frau<lb ed="#B" n="8" break="no"/>de: quia nec sic licet ludere pro tauto, 
+      <lb ed="#B" n="9"/>aut plaustro uini: ne excedat solidum 
+      se<lb ed="#B" n="10" break="no"/>cundum praemissa) possit retineri: ita quod 
+      <lb ed="#B" n="11"/>non oporteat restituere, uel erogare 
+      <lb ed="#B" n="12"/>pauperibus, aut inpios usus.
+    </p>
+            <p xml:id="gbs333-v109840-d1e517">
+      ¶ Sunt 
+      opi<lb ed="#B" n="13" break="no"/>contrariae doct. Nam sanctus Bonauen. 
+      <lb ed="#B" n="14"/>in. iiij ser pro dist. xv. S Ixvij. tenet: quod 
+      <lb ed="#B" n="15"/>acquisita per ludum alearum quatenus 
+      <lb ed="#B" n="16"/>est prohibitus, non possunt teneri: sed  
+      <lb ed="#B" n="17"/>de necessitate salutis tenetur lucrans 
+      <lb ed="#B" n="18"/>restituere, uel in pios usus conuertere: 
+      <lb ed="#B" n="19"/>quoniamludus contra deum est turpis, &amp; 
+      <lb ed="#B" n="20"/>utroqeiure reprobatus; &amp; per hoc 
+      nul<lb ed="#B" n="21" break="no"/>lus per ludum titulus acquiritur: nec sic 
+      <lb ed="#B" n="22"/>acquisitum bona fide possidetur. 
+      Iniu<lb ed="#B" n="23" break="no"/>stus enim titulus pro non titulo est 
+      ha<lb ed="#B" n="24" break="no"/>bendus: &amp; malae fidei possessor dicitur, 
+      <lb ed="#B" n="25"/>quicontra legum interdicta mercatur. 
+      <lb ed="#B" n="26"/>&amp; hanc opi sequuntur multi canonistae, 
+      <lb ed="#B" n="27"/>Hosti. Ray. &amp; mouentur ex hoc: quia non 
+      <lb ed="#B" n="28"/>solum alearum ludus prohibitus est: sec 
+      <lb ed="#B" n="29"/>acquisitio sucriper talem ludum: &amp; 
+      per<lb ed="#B" n="30" break="no"/>consequens (per dicta in secundo nota 
+      <lb ed="#B" n="31"/>bili) teneri non possunt. Antecedens 
+      pa<lb ed="#B" n="32" break="no"/>ter: quia constitutio graeca supra 
+      allega<lb ed="#B" n="33" break="no"/>ta concedit repetitionem usque ad 
+      quin<lb ed="#B" n="34" break="no"/>quaginta annos: sed non potest repeti 
+      <lb ed="#B" n="35"/>secundumius ab aliquo, quod ille non 
+      tene<lb ed="#B" n="36" break="no"/>tur dare, uel reltituere: ergo. Item 
+      epi<lb ed="#B" n="37" break="no"/>scopus auxilio praesidis potest talia lucra: 
+      <lb ed="#B" n="38"/>si non repetuntur ab his, qui amiserunt, 
+      <lb ed="#B" n="39"/>exigere, &amp; pauperibus erogare: ut dicit 
+      <lb ed="#B" n="40"/>tex. in aut. alearum lusus &amp; sic uidetur; 
+      <lb ed="#B" n="41"/>quod ralia lucra sint pauperum. Et licet 
+      in<lb ed="#B" n="42" break="no"/>ter se discordent quibusdam dicentiius: 
+      <lb ed="#B" n="43"/>quomd sucrans tenetur restituere ei, qui 
+      per<lb ed="#B" n="44" break="no"/>didit. Alijs: quod quia perdens simul in tur 
+      <lb ed="#B" n="45"/>pirudine est, non debet sibi restitui: sed  
+      <lb ed="#B" n="46"/>pauperibus erogari. In hoc tamen 
+      con<lb ed="#B" n="47" break="no"/>cordant: quod sucrans non potest lucrum 
+      <lb ed="#B" n="48"/>liuiuimodi cum salute animae tenere. 
+      <lb ed="#B" n="49"/>Alia est upinio Alex. de Hales. par. iiij. 
+      <lb ed="#B" n="50"/>q. Ixxxvi. memb. iij. articu. vj. ubi dicit. 
+      <lb ed="#B" n="51"/>Aleatores nisi fraudes immisceant, in 
+      <!--499.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ludis suis, non tenentur districto suread 
+      <lb ed="#B" n="53"/>restitutionem. Pactum enim interuenit 
+      <lb ed="#B" n="54"/>inter partes quod utrique parti placet, &amp; 
+      ob<lb ed="#B" n="55" break="no"/>ligatio condictio: unde secundum pactum 
+      <lb ed="#B" n="56"/>illud, &amp; oblixationem condicti; nec ille, 
+      <lb ed="#B" n="57"/>qui amiit, de iure potest repetere: nec 
+      <lb ed="#B" n="58"/>ille, qui sucratus est, tenetur restituere, 
+      <lb ed="#B" n="59"/>Et quod antiqua iura iubent illa restitui, &amp; 
+      <lb ed="#B" n="60"/>concedunt actionem repetendi: nobis 
+      <lb ed="#B" n="61"/>uidetur magis esse quasi satisfactio 
+      pro<lb ed="#B" n="62" break="no"/>peccato, quam obligatio ad 
+      restitutio<lb ed="#B" n="63" break="no"/>nem. Haec ille. Beatus Thom. ine iiij. 
+      scri<lb ed="#B" n="64" break="no"/>pto. distin. xv. qij. principali. arti. iiij. in 
+      <lb ed="#B" n="65"/>responsione ad secundam, &amp; tertiam sub 
+      <lb ed="#B" n="66"/>quaestionem. &amp;. ij. ij. q. xxxij. arti. vij. in 
+      <lb ed="#B" n="67"/>responsione ad secundum argumentum 
+      <lb ed="#B" n="68"/>tenet, quod lege ciuili omne sucrum alearum 
+      <lb ed="#B" n="69"/>sit prohibitum: &amp; ideo cumius ciusse 
+      no<lb ed="#B" n="70" break="no"/>obligat omnes, sed eos tantum, quisunt 
+      <lb ed="#B" n="71"/>his legibus subiecti: &amp; ideo tales si 
+      huius<lb ed="#B" n="72" break="no"/>modi iura non fuerint per contrariam 
+      <lb ed="#B" n="73"/>consuetudinem abrogata: non possunt 
+      <lb ed="#B" n="74"/>retinere huiusmodi lucra: sed tenentur 
+      <lb ed="#B" n="75"/>uel restituere, uel pauperibus erogare. 
+      <lb ed="#B" n="76"/>Si uero praeualet contraria consuetudo, 
+      <lb ed="#B" n="77"/>nulli tenentur: nisi lucrum fuerit 
+      lege<lb ed="#B" n="78" break="no"/>diuina prohibitum: ut dum quis sucratur 
+      <lb ed="#B" n="79"/>ab eis, qui rem suam alienare non 
+      pos<lb ed="#B" n="80" break="no"/>sunt, aut qui in ludo fraudant &amp;c. Scot. 
+      <lb ed="#B" n="81"/>satis concordat cum beato Tho. in hoc 
+      <lb ed="#B" n="82"/>quod lex imperialis non ligat nisi eos, 
+      qui<lb ed="#B" n="83" break="no"/>uiuentes politice subsunt legi imperiali. 
+      <lb ed="#B" n="84"/>Et addit, qui forte nulli sunt hodie: quia 
+      <lb ed="#B" n="85"/>ubi praecipue illa lex locum habere 
+      con<lb ed="#B" n="86" break="no"/>sueuit: mun, cipia praeiudicant 
+      imperia<lb ed="#B" n="87" break="no"/>libus: ut patet in italia. Haec Sco.
+    </p>
+            <p xml:id="gbs333-v109840-d1e686">
+      ¶ Rich. 
+      <lb ed="#B" n="88"/>de media uilli recitat ambas opiniones 
+      <lb ed="#B" n="89"/>satis clare: &amp; soluit rationes hincinde nihil 
+      <lb ed="#B" n="90"/>tamen determinat: licet dicat opinionem 
+      <lb ed="#B" n="91"/>primam fore securiorem, &amp; communio 
+      <lb ed="#B" n="92"/>rem. Petrus de palu. distinct. praesenti q. 
+      <lb ed="#B" n="93"/>iij. arti. v. in conclusione secunda post 
+      <lb ed="#B" n="94"/>caetera sic ait. Videtur uerius; quod qui 
+      lu<lb ed="#B" n="95" break="no"/>cratus est, nunquam possit sibi retinere: 
+      <lb ed="#B" n="96"/>quia turpis quaesius est, &amp; contra 
+      ratio<lb ed="#B" n="97" break="no"/>nem: nisi esset ludus rationabilis ad exer 
+      <lb ed="#B" n="98"/>citium uitium, &amp; fructuosus alias non 
+      <lb ed="#B" n="99"/>prohibitus: sicut in his, quasi in stadio 
+      cur<lb ed="#B" n="100" break="no"/>runt: &amp; huiuimodi quo agiliores, &amp; 
+      for<lb ed="#B" n="101" break="no"/>tiores siunt. unde dauid. ij. Regum. j. 
+      uo<lb ed="#B" n="102" break="no"/>luit filios ifrael discere arcum. Sed nulla 
+      <!--500.xml-->
+      <pb ed="#B" n="451"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ratio est in ludo alearum, &amp; tax illorum, &amp; 
+      <lb ed="#B" n="2"/>scacorum, &amp; simoi ociosis lucrari quicqum: 
+      <lb ed="#B" n="3"/>unde sibi retinere non potest. Sed de iure 
+      <lb ed="#B" n="4"/>naturali ille, qui consensit inludum: &amp; 
+      <lb ed="#B" n="5"/>sic uoluntarie perdidit: non tenetur 
+      resti<lb ed="#B" n="6" break="no"/>tuere, si pares sut in turpitudine: ut quia 
+      <lb ed="#B" n="7"/>nullus traxit alium: quia in pari 
+      ca<lb ed="#B" n="8" break="no"/>su turpitudinis melior est conditio 
+      pos<lb ed="#B" n="9" break="no"/>sidentis: &amp; multo magis si alius sit in 
+      cau<lb ed="#B" n="10" break="no"/>fa. Si autem ex parte istius sit dolus: quia 
+      <lb ed="#B" n="11"/>cupiditate lucri induxit alium: aut 
+      frau<lb ed="#B" n="12" break="no"/>dulenter, &amp; contra artem ludi fecit: in 
+      <lb ed="#B" n="13"/>quo casu contra uoluntatem domini 
+      sim<lb ed="#B" n="14" break="no"/>pliciter tulit: tenetur restituere iure 
+      na<lb ed="#B" n="15" break="no"/>turali: alias non ei tenetur nisi iure 
+      ciui<lb ed="#B" n="16" break="no"/>li. C. de reli. &amp; sump. Sed hoc non ligat  
+      <lb ed="#B" n="17"/>in foro conscientiae, quousque homo sit 
+      <lb ed="#B" n="18"/>condemnatus: si autem plus perdiderit, 
+      <lb ed="#B" n="19"/>uel tantum quantum sucratus est: 
+      uide<lb ed="#B" n="20" break="no"/>tur nihilominus; quod restituere teneatur: 
+      <lb ed="#B" n="21"/>quia mox ut lucratus fuit, pauperum 
+      de<lb ed="#B" n="22" break="no"/>bitor fuit: a quo debito non liberatur, 
+      <lb ed="#B" n="23"/>nisi soluat: &amp; si idem illud perdidit, 
+      cul<lb ed="#B" n="24" break="no"/>pa sua fuit. Haec ille.
+    </p>
+            <p xml:id="gbs333-v109840-d1e780">
+      ¶ Sed nodus huius 
+      <lb ed="#B" n="25"/>quaestionis quantum ad ludum alearum, 
+      <lb ed="#B" n="26"/>in eo consistit: utrum restitutio, uel 
+      eroga<lb ed="#B" n="27" break="no"/>tio inpauperes sucri prouenientis ex 
+      su<lb ed="#B" n="28" break="no"/>do alearum in casibus non concessis sit 
+      <lb ed="#B" n="29"/>aliqua legepraecepta: legedico non 
+      abo<lb ed="#B" n="30" break="no"/>lita: quod si est, manifestum est huiusmo 
+      <lb ed="#B" n="31"/>di sucrum teneri non posse: saltem ab 
+      il<lb ed="#B" n="32" break="no"/>lis, qui huiusmodi legi sunt subiecti: quando 
+      <lb ed="#B" n="33"/>ludum hunc fore generaliter prohibitum 
+      <lb ed="#B" n="34"/>certum est ex canone dist. xxv. eps. 
+      sup<lb ed="#B" n="35" break="no"/>allegato in tex, &amp; gloil. atque in iuribus ibi 
+      <lb ed="#B" n="36"/>allegatis. Ex illa autem prohibitione 
+      ha<lb ed="#B" n="37" break="no"/>beri non potest; quod lucrum sit prohibitum, 
+      <lb ed="#B" n="38"/>aut restituendum: cum etiam 
+      meretri<lb ed="#B" n="39" break="no"/>cium sit legediuina prohibitum: &amp; tamen 
+      <lb ed="#B" n="40"/>secundum omnes non tenetur meretrix 
+      <lb ed="#B" n="41"/>lucrum suae turpitudinis restituere, uel 
+      <lb ed="#B" n="42"/>pauperibus erogare: ut dicitur. Videndum 
+      <lb ed="#B" n="43"/>ergo est, qua lege lucrum huiusmodi sit 
+      <lb ed="#B" n="44"/>prohibitum: &amp; de hoc non inuenitur 
+      <lb ed="#B" n="45"/>aliqua prohibitio diuina: neque iuris 
+      ca<lb ed="#B" n="46" break="no"/>nonici: licet glossae (quae iure non 
+      pro<lb ed="#B" n="47" break="no"/>bantur) &amp; doctorum quorundam dicta ad 
+      <lb ed="#B" n="48"/>hoc sonent: sed his nemo obligatur. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e836">
+               <lb ed="#B" n="49"/>¶ Est autem constitutio graeca legis 
+      ci<lb ed="#B" n="50" break="no"/>uilis, quae concedit repetitionem 
+      acqui<lb ed="#B" n="51" break="no"/>siti lueri usque ad quinquaginta annos. 
+      <!--500.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Sed nunc inuestigandum: utrum 
+      per<lb ed="#B" n="53" break="no"/>hanc legem aleator lucrans ab eo, 
+      qui<lb ed="#B" n="54" break="no"/>potest sua alienare: nec tractus est, uel 
+      <lb ed="#B" n="55"/>inductus &amp; sine dolo lucratus est: 
+      tenea<lb ed="#B" n="56" break="no"/>tur lucrum restituere. Et uidetur 
+      quibus<lb ed="#B" n="57" break="no"/>dam; quod sic: tum quia lex illa non 
+      tan<lb ed="#B" n="58" break="no"/>tum est constitutio ciuilis: sed etiam 
+      <lb ed="#B" n="59"/>implicite est constitutio canonis: &amp; 
+      per<lb ed="#B" n="60" break="no"/>consequens omnes indifferenter obligat: nam 
+      <lb ed="#B" n="61"/>leges imperatorum, quae legi diuinae; nec 
+      <lb ed="#B" n="62"/>sacris canonibus obuiant, ab omnibus sut 
+      <lb ed="#B" n="63"/>obseruandae: ut habetur dist. x. de 
+      capitu<lb ed="#B" n="64" break="no"/>lis, &amp; in sequen. quatuor cap. &amp; per hoc  
+      <lb ed="#B" n="65"/>omnes tales leges a sacris canonibus appro 
+      <lb ed="#B" n="66"/>bantur: tum quia (ut sup. argutum est) non 
+      <lb ed="#B" n="67"/>potest iure ab aliquo repeti, quod ille non 
+      <lb ed="#B" n="68"/>tenetur restituere.
+    </p>
+            <p xml:id="gbs333-v109840-d1e886">
+      ¶ Sed contra hoc est: 
+      <lb ed="#B" n="69"/>quod illa lex per contrariam consuetudinem 
+      <lb ed="#B" n="70"/>est abolita: &amp; ideo non ligat: ut uidetur 
+      <lb ed="#B" n="71"/>sentire beatus Tho. hoc etiam uidetur 
+      <lb ed="#B" n="72"/>tenere Baptis. in sum. allegans ad hoc  
+      <lb ed="#B" n="73"/>Alex. lom. in titu. de usuris. unde dicit: quod 
+      <lb ed="#B" n="74"/>repetenti perdita per ludum in foro 
+      ci<lb ed="#B" n="75" break="no"/>uili, &amp; iudiciali non datur actio: nec 
+      sen<lb ed="#B" n="76" break="no"/>tentia restitutionis fiendae. Verum hoc  
+      <lb ed="#B" n="77"/>reprobat Ange. in sum. di. quod lex illa non 
+      <lb ed="#B" n="78"/>est abrogata per non usum: quia ut dicit 
+      <lb ed="#B" n="79"/>Panor. in c. Ioannes. de cle. coniu. Non 
+      <lb ed="#B" n="80"/>usus non habens actum tactum contra 
+      <lb ed="#B" n="81"/>legem non inducit consuetudinem 
+      abro<lb ed="#B" n="82" break="no"/>gatiuam legis: ut licet non agam contra 
+      <lb ed="#B" n="83"/>eum, qui mihidamnum intulit actione 
+      le<lb ed="#B" n="84" break="no"/>gis aquiliae: non propter hoc abrogatur 
+      il<lb ed="#B" n="85" break="no"/>la lex: quia illa lex non necessitati ad 
+      agen<lb ed="#B" n="86" break="no"/>dum: sed dat agendi facultatem: igitur non 
+      <lb ed="#B" n="87"/>agens non facit contra legen: secus si non 
+      <lb ed="#B" n="88"/>usus habet actum tacitum in se contra 
+      <lb ed="#B" n="89"/>dispositionem legis: ut lex defert 
+      haere<lb ed="#B" n="90" break="no"/>ditatem communiter, &amp; aequaliter filijs 
+      <lb ed="#B" n="91"/>tam masculis, quam faeminis: sed 
+      consuetu<lb ed="#B" n="92" break="no"/>do defert primogenito, uel solum 
+      mascu<lb ed="#B" n="93" break="no"/>lis: &amp; secundo genitus, uel faemina 
+      nun<lb ed="#B" n="94" break="no"/>quam fuit usa illa legeribi inducitur, 
+      con<lb ed="#B" n="95" break="no"/>suetudo, qua lex illa abrogatur propter 
+      <lb ed="#B" n="96"/>actum contrarium. In proposito lex 
+      conce<lb ed="#B" n="97" break="no"/>dens repetitionem ad quinquaginta unnos 
+      <lb ed="#B" n="98"/>non necessitat ad repetendum: sed dat 
+      fa<lb ed="#B" n="99" break="no"/>cultatem, &amp; ideo licet per milie annos non 
+      <lb ed="#B" n="100"/>repetatur: non propter hoc inducitur 
+      con<lb ed="#B" n="101" break="no"/>suetudo, qua lex illa abrogatur: &amp; ideo 
+      <lb ed="#B" n="102"/>esto: quod lex illa non sit abrogata per non 
+      <!--501.xml-->
+      <pb ed="#B" n="452"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ulum eius: tamen uirture huius legis non 
+      <lb ed="#B" n="2"/>tenentur sic lucrantes restituere lucrum; 
+      <lb ed="#B" n="3"/>nisi per iudicis sententiam sint 
+      condem<lb ed="#B" n="4" break="no"/>nati; sicut in aliis penis iuris. Et 
+      exempli<lb ed="#B" n="5" break="no"/>ficat Rich. loco sup. allegato di. Si 
+      per<lb ed="#B" n="6" break="no"/>sententiam iudicis lucrans non 
+      compelli<lb ed="#B" n="7" break="no"/>tur ad restituendum, non tenetur: quia ista 
+      <lb ed="#B" n="8"/>restitutio praecipitur in penam sucrantiu 
+      <lb ed="#B" n="9"/>tali ludo prohibito. Ad idem uidetur esse 
+      <lb ed="#B" n="10"/>Pal. ut sup. patuit. Nec iura, quae ad hoc  
+      <lb ed="#B" n="11"/>allegantur per glo, c. episcopus xxxv. dis. 
+      <lb ed="#B" n="12"/>&amp; c. clericus officia. de ui. &amp; hone. 
+      cleri<lb ed="#B" n="13" break="no"/>dicunt: quod teneat restituere ipso iure: sed  
+      <lb ed="#B" n="14"/>quod potest ab ipso peri de iure. Aliquis. n. quam 
+      <lb ed="#B" n="15"/>noque aliquid licitè retinet, antequam 
+      per<lb ed="#B" n="16" break="no"/>sententiam dimittere compellatur: non 
+      <lb ed="#B" n="17"/>interficiens hominem iniuste potest 
+      per<lb ed="#B" n="18" break="no"/>sententiam iuste priuari haereditate sua: 
+      <lb ed="#B" n="19"/>&amp; tamen ante sententiam no tenetur illam 
+      <lb ed="#B" n="20"/>dimittere: sicut generaliter non tenetur 
+      <lb ed="#B" n="21"/>quis paenas soluere, priusquam iudicis 
+      sen<lb ed="#B" n="22" break="no"/>tentia condemnetur.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1016">
+      ¶ Et per hoc possunt 
+      <lb ed="#B" n="23"/>solui contraria inducta. Primo illud 
+      san<lb ed="#B" n="24" break="no"/>cti Bonauen. quod titulus, quo possidentur 
+      <lb ed="#B" n="25"/>huiusmodi lucra, iniustus est: &amp; lucrans 
+      <lb ed="#B" n="26"/>est malae fidei possessor: quia contra 
+      legunm<lb ed="#B" n="27" break="no"/>interdicta possidet: patet, quod non: quia 
+      li<lb ed="#B" n="28" break="no"/>cet sit lucrum turpe: tamen non possidet 
+      con<lb ed="#B" n="29" break="no"/>tra interdicta legum: lex. n. etsi interdicit 
+      <lb ed="#B" n="30"/>ludum alearum, non tamen interdicit lucrum: 
+      <lb ed="#B" n="31"/>licet concedat repetitionem: sicut in aliis 
+      <lb ed="#B" n="32"/>turpibus sucris.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1040">
+      ¶ Et si quaeritur de titulo: 
+      <lb ed="#B" n="33"/>dicit Alex. quod titulo interuenientis 
+      pa<lb ed="#B" n="34" break="no"/>cti, &amp; obligationis condicti utrisque 
+      placen<lb ed="#B" n="35" break="no"/>tis. Nihil. nioe tamen naturale: quam ut 
+      acqui<lb ed="#B" n="36" break="no"/>sitio fiat secundum uoluntate domini 
+      tra<lb ed="#B" n="37" break="no"/>dentis. insti. de rerum diui. S. per traditio 
+      <lb ed="#B" n="38"/>nem. secundum uoluntatem dico legi non 
+      <lb ed="#B" n="39"/>contradicentem. Similiter &amp; illud non 
+      <lb ed="#B" n="40"/>potest repeti ab aliquo, quod ille 
+      resti<lb ed="#B" n="41" break="no"/>tuere non teneretur: uerum est hoc de 
+      <lb ed="#B" n="42"/>illo, quod non tenetur post repetitionem 
+      <lb ed="#B" n="43"/>&amp; sententiae plationem. Multa. no.e possunt 
+      <lb ed="#B" n="44"/>repeti, quae in paenam statuuntur: ad quaetamen 
+      <lb ed="#B" n="45"/>is, quam paenam incidit, non tenetur ante sentem 
+      <lb ed="#B" n="46"/>tiam pro repetente latam: sic ad illud de epo, 
+      <lb ed="#B" n="47"/>qui potest talia lucra exigere, &amp; pauperibus 
+      <lb ed="#B" n="48"/>crogare: dicitur quod eps hoc potest praesidis 
+      <lb ed="#B" n="49"/>auxilio, &amp; bene faceret, si exequeretur. 
+      <lb ed="#B" n="50"/>ut hoc modo turpitudo ludendi cauere 
+      <lb ed="#B" n="51"/>tur: tamen non sequitur ex hoc, quod lucrantes 
+      <!--501.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>teneantur dare, priusquam exigantur: 
+      si<lb ed="#B" n="53" break="no"/>cut nec in alijs casibus, in quibus nscus 
+      <lb ed="#B" n="54"/>potest turpiter acquisita tollere: &amp; ideo 
+      ta<lb ed="#B" n="55" break="no"/>lia lucra non sunt pauperum, priusquam 
+      do<lb ed="#B" n="56" break="no"/>nentur eis. Quod etiam postea arguitur, 
+      <lb ed="#B" n="57"/>quod illa lex imperialis per canones 
+      appro<lb ed="#B" n="58" break="no"/>batur &amp;c. &amp; sic ligat omnes: potest dici, quod 
+      <lb ed="#B" n="59"/>canones, qui approbant leges, nec 
+      legi<lb ed="#B" n="60" break="no"/>diuinae, nec canonibus contrarias 
+      quan<lb ed="#B" n="61" break="no"/>tum ad illos solum obligant, qui his legibus 
+      <lb ed="#B" n="62"/>sunt subiecti: &amp; non quantum ad non 
+      sub<lb ed="#B" n="63" break="no"/>iectos legi illi: nonno. canones ultra 
+      li<lb ed="#B" n="64" break="no"/>gant, quaml eges ipsae, quas approbant: sed 
+      il<lb ed="#B" n="65" break="no"/>sae leges non ligant nisi sibi subjectos: 
+      un<lb ed="#B" n="66" break="no"/>de canones leges huiusmodi confirmant, 
+      <lb ed="#B" n="67"/>non extendunt: ut dicit Anto. par. iii. ti. 
+      <lb ed="#B" n="68"/>j. c. xxiij. S. iii. Quamuis etiam lex illa, 
+      <lb ed="#B" n="69"/>ut dictum est: sibi subjectos non ligat ad 
+      re<lb ed="#B" n="70" break="no"/>stitutionem: sed concedit repetitionem.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1129">
+      ¶ Ec  
+      <lb ed="#B" n="71"/>ce quanta diuersitas doctorum tam legis 
+      <lb ed="#B" n="72"/>diuinae; quam humanae: ideo 
+      conclusio<lb ed="#B" n="73" break="no"/>nes ponentur probabiliter sub 
+      benigna<lb ed="#B" n="74" break="no"/>maiorum correctione.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1140">
+      ¶ Quantum ad 
+      ar<lb ed="#B" n="75" break="no"/>ticulum secundum est prima 
+      conclusio<lb ed="#B" n="76" break="no"/>Turpe lucrum acquisitum in casu, 
+      quo<lb ed="#B" n="77" break="no"/>conceditur repetitio per actionem de 
+      <lb ed="#B" n="78"/>dolo, aut ui, uel metus causa: seu per iudi 
+      <lb ed="#B" n="79"/>cis officium: est de necessitate salutis (
+      si<lb ed="#B" n="80" break="no"/>fieri potest) restituendum. Conceditur 
+      <lb ed="#B" n="81"/>autem repetitio contra eum, qui lucratur 
+      <lb ed="#B" n="82"/>cum dolo, fraude: aut dum sucratur ab 
+      <lb ed="#B" n="83"/>eo, qui alienare non potest: ut sunt furio 
+      <lb ed="#B" n="84"/>si mente capti &amp;c. ut dictum est in 
+      pri<lb ed="#B" n="85" break="no"/>mo notabili. Probatur conclusio: quia 
+      <lb ed="#B" n="86"/>in tali acquisitione non transfertur 
+      do<lb ed="#B" n="87" break="no"/>minium in acquirentem: cum non 
+      ab<lb ed="#B" n="88" break="no"/>cedat uoluntas libera simpliciter: sed de 
+      <lb ed="#B" n="89"/>cepta, uel coacta eius, qui transferre 
+      po<lb ed="#B" n="90" break="no"/>terat. &amp; per consequens acquirens non 
+      <lb ed="#B" n="91"/>est dominus lucri: sed occupator: &amp; 
+      si<lb ed="#B" n="92" break="no"/>non est dominus: lucrum non est eius: 
+      <lb ed="#B" n="93"/>quare retinere non poterit: tenetur 
+      er<lb ed="#B" n="94" break="no"/>go restituere: si habet, unde restituat: &amp; 
+      <lb ed="#B" n="95"/>si eum, a quo recepit: uel eius haeredes 
+      <lb ed="#B" n="96"/>nouit, &amp; attingere potest, aut erogare 
+      <lb ed="#B" n="97"/>pauperibus secundum modum supra 
+      exposi<lb ed="#B" n="98" break="no"/>tum. q.ii. huius distinct. art. iii dubio iiii. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e1196">
+               <lb ed="#B" n="99"/>¶ Secunda conclusio. Quamuis 
+      turpi<lb ed="#B" n="100" break="no"/>ter sucrans ab eo, cui non comperit 
+      re<lb ed="#B" n="101" break="no"/>petitio modo praedicto: etiam si non 
+      te<lb ed="#B" n="102" break="no"/>neretur sucrum de necessitate salutis resti¬ 
+      <!--502.xml-->
+      <pb ed="#B" n="453"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tuere: nec erogare pauperibus: est 
+      ta<lb ed="#B" n="2" break="no"/>men salubre confilium, ut non retineat: 
+      <lb ed="#B" n="3"/>sed eroget in pios usus. Probatur: quia 
+      <lb ed="#B" n="4"/>sanum confilium est fugere occasiones 
+      <lb ed="#B" n="5"/>peccatorum fururorum, &amp; 
+      impedimen<lb ed="#B" n="6" break="no"/>ta remissionis ptaeteritorum: etiam eas, 
+      <lb ed="#B" n="7"/>quae non immediate, &amp; per se, siue de 
+      <lb ed="#B" n="8"/>proximo inducunt, uel impediunt: 
+      hae<lb ed="#B" n="9" break="no"/>enim necessario cauendae sunt patet 
+      per<lb ed="#B" n="10" break="no"/>illud apostoli ad Ephes. v. Videte 
+      fra<lb ed="#B" n="11" break="no"/>tres, quomodo caute ambuletis: non 
+      <lb ed="#B" n="12"/>quasi insipientes: sed ut sapientes 
+      redi<lb ed="#B" n="13" break="no"/>mentes tempus: quoniam dies mali sunt 
+      <lb ed="#B" n="14"/>Malisunt dies propter occasiones 
+      mul<lb ed="#B" n="15" break="no"/>tiplicatas ad mala culpae trabentes: hinc 
+      <lb ed="#B" n="16"/>iterum auilando consulit. Quistat, 
+      ui<lb ed="#B" n="17" break="no"/>deat, ne cadat j. Corinth. x. Haec autem 
+      <lb ed="#B" n="18"/>lucra imbursata, &amp; amata, occasiones 
+      <lb ed="#B" n="19"/>sunt inducentes ad peccata: inducunt 
+      <lb ed="#B" n="20"/>enim, &amp; alliciunt ad fectanda, 
+      cumulan<lb ed="#B" n="21" break="no"/>daque turpa lucra, quae quia turpia sunt;  
+      <lb ed="#B" n="22"/>sine peccato non acquiruntur: 
+      alioquin<lb ed="#B" n="23" break="no"/>turpia non essent: &amp; per hoc inducunt  
+      <lb ed="#B" n="24"/>ad futura peccata: hinc Palud. ubi 
+      sup<lb ed="#B" n="25" break="no"/>dicit ludum prohibitum propter 
+      bla<lb ed="#B" n="26" break="no"/>sphemia &amp;c. Tenet etiam in peccatis 
+      con<lb ed="#B" n="27" break="no"/>missis: quoniam eorum remissionem 
+      im<lb ed="#B" n="28" break="no"/>pediunt: dum ueram contritionem non 
+      <lb ed="#B" n="29"/>admittunt: non enim potest esse uera 
+      <lb ed="#B" n="30"/>contritio peccati, quod adhuc placet: 
+      <lb ed="#B" n="31"/>difficulter autem, uel uix displicere 
+      po<lb ed="#B" n="32" break="no"/>test ei actus peccati, cui placet effectus 
+      <lb ed="#B" n="33"/>ex peccato consecutus. quo. n. displicere potest 
+      <lb ed="#B" n="34"/>turpitudo admissa, cui placet lucrum ex 
+      <lb ed="#B" n="35"/>turpitudine acquisitum. Vnde bene faciunt 
+      <lb ed="#B" n="36"/>confessores lusoribus iniugentes, eosque; 
+      <lb ed="#B" n="37"/>inducentes: ut huiusmodi sucra 
+      turpi<lb ed="#B" n="38" break="no"/>tudinis non seruent: sed uel restituant: 
+      <lb ed="#B" n="39"/>aut in pauperum eleemosynas: aut  
+      <lb ed="#B" n="40"/>pias causas exponant: si tamen 
+      indu<lb ed="#B" n="41" break="no"/>ci nequeant: non est eis neganda 
+      ab<lb ed="#B" n="42" break="no"/>solutio: dum tamen displicet 
+      turpitu<lb ed="#B" n="43" break="no"/>do. Haec est sententia Anto. Angel. &amp; 
+      <lb ed="#B" n="44"/>Baptis. in sum. Et licet de turpi sucro 
+      <lb ed="#B" n="45"/>possit fieri eleemosina: non tamen de 
+      <lb ed="#B" n="46"/>his (maxime de meretricio, &amp; 
+      simili<lb ed="#B" n="47" break="no"/>bus diuina lege prohibitis) debet 
+      fie<lb ed="#B" n="48" break="no"/>ri oblatio publica ad altare. Vnde 
+      <lb ed="#B" n="49"/>Deuter. xxiij. Non offeras 
+      merce<lb ed="#B" n="50" break="no"/>cedem prostibuli: nec precium 
+      car<lb ed="#B" n="51" break="no"/>nis in domo domini dei tui. Dici¬ 
+      <!--502.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tur publica: quia (ut dicit Alexander 
+      <lb ed="#B" n="53"/>de hales ubi supra) non omnis 
+      obla<lb ed="#B" n="54" break="no"/>tio acquisita per meretricium, est 
+      abo<lb ed="#B" n="55" break="no"/>minabilis domino: sed publica: quae 
+      <lb ed="#B" n="56"/>sit cum scandalo. Et ponit exemplum: 
+      <lb ed="#B" n="57"/>ut si meretrices traberent currum ad 
+      fa<lb ed="#B" n="58" break="no"/>bricam ecclesiae: uel darent pannum 
+      <lb ed="#B" n="59"/>sericeum: aut facerent fenestram 
+      ui<lb ed="#B" n="60" break="no"/>tream in ecclesia: talia non debet 
+      re<lb ed="#B" n="61" break="no"/>cipere ecclesia a congregatione 
+      mere<lb ed="#B" n="62" break="no"/>tricum: ne uideatur approbare opus 
+      ea<lb ed="#B" n="63" break="no"/>rum.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1355">
+      ¶ Ex quo patet: quod priuatae 
+      obla<lb ed="#B" n="64" break="no"/>tiones: unde non oritur scandalum de 
+      <lb ed="#B" n="65"/>huiusmodi lucris: similiter de illis, quae 
+      <lb ed="#B" n="66"/>acquiruntur per occultas 
+      fornicatio<lb ed="#B" n="67" break="no"/>nes, uel adulteria possunt fieri etiam 
+      <lb ed="#B" n="68"/>publicae oblationes.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1368">
+      ¶ Tertia 
+      conclu<lb ed="#B" n="69" break="no"/>sio: quamuis aleator ex cupiditate 
+      lu<lb ed="#B" n="70" break="no"/>crans aliquid notabile sucratur ab 
+      ali<lb ed="#B" n="71" break="no"/>quo, quem non attraxit: &amp; quisua 
+      do<lb ed="#B" n="72" break="no"/>nare potest etiam sine dolo, &amp; fraude 
+      <lb ed="#B" n="73"/>peccet mortaliter: ipsum tamen ad 
+      su<lb ed="#B" n="74" break="no"/>cri restitutionem, uel erogationem de 
+      <lb ed="#B" n="75"/>necessitate salutis teneri: non est 
+      cer<lb ed="#B" n="76" break="no"/>tum euidenter. Prima pars 
+      conclu<lb ed="#B" n="77" break="no"/>sionis probatur: quia ex cupiditate 
+      lu<lb ed="#B" n="78" break="no"/>dens agit contra legem diuinam, 
+      na<lb ed="#B" n="79" break="no"/>turalem, &amp; positiuam: ergo. Conse- 
+      <lb ed="#B" n="80"/>quentia patet ex diffinitione 
+      pecca<lb ed="#B" n="81" break="no"/>ti. Antecedens probatur primo: quod 
+      <lb ed="#B" n="82"/>sit contra legem diuinam: quia est 
+      con<lb ed="#B" n="83" break="no"/>tra charitatem proximi concupiscere 
+      <lb ed="#B" n="84"/>bona proximi cum damno eius: &amp; 
+      <lb ed="#B" n="85"/>contra nonum praeceptum, quo 
+      pro<lb ed="#B" n="86" break="no"/>hibetur concupiscentia rei alienae cum 
+      <lb ed="#B" n="87"/>damno proximi. Hoc autem facit 
+      <lb ed="#B" n="88"/>lusor talis: nam concupiscit rem 
+      pro<lb ed="#B" n="89" break="no"/>ximi absque redditione aequiualentis: 
+      <lb ed="#B" n="90"/>&amp; ita cum damno proximi. Nec 
+      ob<lb ed="#B" n="91" break="no"/>stat: quod proximus consentit in sucrum: 
+      <lb ed="#B" n="92"/>&amp; quod uoluntarie obligat se ad 
+      donan<lb ed="#B" n="93" break="no"/>dum sucrum ei, qui secum ludit (
+      secun<lb ed="#B" n="94" break="no"/>dum leges ludi) sicut extra ludum dona 
+      <lb ed="#B" n="95"/>tum recipitur sine peccato: licet 
+      do<lb ed="#B" n="96" break="no"/>nans ex donatione damnificetur: priua 
+      <lb ed="#B" n="97"/>tur enim eo, quod donat: quoniam 
+      con<lb ed="#B" n="98" break="no"/>sensus ille non est liberalis sicut in 
+      dona<lb ed="#B" n="99" break="no"/>tione: sed est consensus ex conditione, 
+      <lb ed="#B" n="100"/>quam tamen non uult accidere. 
+      Nul<lb ed="#B" n="101" break="no"/>lus enim simpliciter uult perdere: 
+      <lb ed="#B" n="102"/>sed spe sucri ad ludum accedit: sicut  
+      <!--503.xml-->
+      <pb ed="#B" n="454"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ergo in usura dans usuram uolens dat 
+      <lb ed="#B" n="2"/>usuram: &amp; indigens re aliqua emendo 
+      <lb ed="#B" n="3"/>plus dat iusto precio uolens, &amp; sciens, 
+      <lb ed="#B" n="4"/>ut maiora damna caueat: uel maius 
+      lu<lb ed="#B" n="5" break="no"/>crum ex reempta consequatur: &amp; tamen 
+      <lb ed="#B" n="6"/>recipiens usuram, &amp; ultra iustum precit 
+      <lb ed="#B" n="7"/>peccat: eo quod non concurrit consensus 
+      <lb ed="#B" n="8"/>simpliciter liberalis. Magis enim uellet 
+      <lb ed="#B" n="9"/>mutuans non dare usuram: &amp; emens non 
+      <lb ed="#B" n="10"/>dare ultra iustum precium, si rem sibi 
+      ne<lb ed="#B" n="11" break="no"/>cessariam sic habere posset: sic etiam in 
+      <lb ed="#B" n="12"/>proposito. Quod etiam sit contra 
+      le<lb ed="#B" n="13" break="no"/>gem naturae: patet: facit enim alteri, quid 
+      <lb ed="#B" n="14"/>sibi nollet fieri: uult. n. lusor 
+      damnifica<lb ed="#B" n="15" break="no"/>re proximum: quod non uellet fieri sibi. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e1483">
+               <lb ed="#B" n="16"/>¶ Item damnificans alium in 
+      spirituali<lb ed="#B" n="17" break="no"/>bus etiam uolentem danificari peccat: 
+      <lb ed="#B" n="18"/>ut si quis petentem se occidi occidit: &amp; 
+      <lb ed="#B" n="19"/>etiam non prohibens uolentem seipsum 
+      <lb ed="#B" n="20"/>interimere dum potest: peccat: inuitus. n. 
+      <lb ed="#B" n="21"/>a periculo mortis eruendus est. secun- 
+      <lb ed="#B" n="22"/>dum August. &amp; j. Reg. ultim. de 
+      occi<lb ed="#B" n="23" break="no"/>dente saulem. ergo damnificans in tem 
+      <lb ed="#B" n="24"/>poralibus peccat. Quod sit contra 
+      le<lb ed="#B" n="25" break="no"/>gempositiuam: patet ex dictis. 
+      Secun<lb ed="#B" n="26" break="no"/>da pars conclusionis patet: quia sunt 
+      pro<lb ed="#B" n="27" break="no"/>babiles opiniones pro utraque parte: ut  
+      <lb ed="#B" n="28"/>habitum est in primo articulo. Nec 
+      ha<lb ed="#B" n="29" break="no"/>bentur rationes sufficientes praesertim 
+      <lb ed="#B" n="30"/>pro illa parte: quod lucrum non possit sine 
+      sa<lb ed="#B" n="31" break="no"/>utis dispendio possideri.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1520">
+      ¶ Corollarium 
+      <lb ed="#B" n="32"/>in primu. Licet securius sit lucra simoi 
+      <lb ed="#B" n="33"/>testituere, uel pauperibus erogare: non 
+      <lb ed="#B" n="34"/>tamen securior est opinio tenens 
+      resti<lb ed="#B" n="35" break="no"/>tutionem, uel erogationem sucri esse 
+      ne<lb ed="#B" n="36" break="no"/>cessariam ad salutem. Primum patet: 
+      <lb ed="#B" n="37"/>quia qui lucrum restituit, uel erogat, 
+      cer<lb ed="#B" n="38" break="no"/>tus est se satisfacere praecepto secundum 
+      <lb ed="#B" n="39"/>primam opinionem. Et secundum aliam 
+      <lb ed="#B" n="40"/>opinionem implet opus consilij. &amp; 
+      per<lb ed="#B" n="41" break="no"/>hoc certus est se in hoc non peccure,. 
+      <lb ed="#B" n="42"/>tenendo lucrum: ut patet ex secunda con 
+      <lb ed="#B" n="43"/>clusione.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1549">
+      ¶ Secundum probatur: 
+      incau<lb ed="#B" n="44" break="no"/>tum est, &amp; malum asserere aliquem actum fore 
+      <lb ed="#B" n="45"/>peccatum mortale: ubi illud nec sufficienti 
+      <lb ed="#B" n="46"/>auctoritate: nec euidenti ratione ostendi 
+      <lb ed="#B" n="47"/>potest: nam hoc est ponere laqueum pedibus 
+      <lb ed="#B" n="48"/>ambulantium: &amp; inducere certum mortale, 
+      <lb ed="#B" n="49"/>ubi mortale non est: uel esse certum non 
+      <lb ed="#B" n="50"/>est: nam ista assertio dum acceptatur a 
+      po<lb ed="#B" n="51" break="no"/>Tulo: licet foret erronea: facit tamen con¬ 
+      <!--503.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>trauenientem peccare mortaliter: quia 
+      <lb ed="#B" n="53"/>facit agere contra conscientiam eum, 
+      qui<lb ed="#B" n="54" break="no"/>alias non peccaret mortaliter in tali 
+      fa<lb ed="#B" n="55" break="no"/>cto non habita huiusmodi conscientia. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e1583">
+               <lb ed="#B" n="56"/>¶ Secundum corollarium: licet ludus sit 
+      po<lb ed="#B" n="57" break="no"/>pulo efficaciter in praedicationibus 
+      dis<lb ed="#B" n="58" break="no"/>suadendus: ad restitutionem tamen 
+      su<lb ed="#B" n="59" break="no"/>cri populus non est (uelut eius, quod est 
+      <lb ed="#B" n="60"/>de necessitate salutis) compellendus. 
+      <lb ed="#B" n="61"/>Patet corollarium exconclusione 
+      secun<lb ed="#B" n="62" break="no"/>da pro parte prima: &amp; ex corollario 
+      sta<lb ed="#B" n="63" break="no"/>tim praemisso quoad partem alteram.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1603">
+      ¶ 
+      Di<lb ed="#B" n="64" break="no"/>ctum est autem in conclusione ex 
+      cupi<lb ed="#B" n="65" break="no"/>ditate, &amp; aliquid notabile: quia si luderet 
+      <lb ed="#B" n="66"/>quod recreatione, pro modico, in quo 
+      pro<lb ed="#B" n="67" break="no"/>ximus non notabiliter damnificaretur: 
+      <lb ed="#B" n="68"/>posset a mortali excusari: sicut etiam sup. 
+      <lb ed="#B" n="69"/>dictum est de furto. Et haec conclusio 
+      quo<lb ed="#B" n="70" break="no"/>ad primam partem non solum habet 
+      ue<lb ed="#B" n="71" break="no"/>ritatem in ludo aleae: sed in quocumque ludo: 
+      <lb ed="#B" n="72"/>immo in quocunque negorio, in quo quis 
+      <lb ed="#B" n="73"/>proximum ex cupiditate nititur 
+      notabi<lb ed="#B" n="74" break="no"/>liter damnifi care: &amp; bona proximi sibi 
+      <lb ed="#B" n="75"/>uendicare sine iusta recompensa, 
+      exce<lb ed="#B" n="76" break="no"/>pta libera donatione: quia sicut 
+      domi<lb ed="#B" n="77" break="no"/>nus rei potestlibere: donare rem suam, 
+      <lb ed="#B" n="78"/>cui uoluerit; ubi lex non resistit: itais, 
+      <lb ed="#B" n="79"/>cui donatur, potest donum recipere sine 
+      <lb ed="#B" n="80"/>peccato.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1642">
+      ¶ Quantum ad articulum 
+      ter<lb ed="#B" n="81" break="no"/>tium: dubitatur primo contra 
+      conclusio<lb ed="#B" n="82" break="no"/>nem tertiam, &amp; eius partem. Nam 
+      eui<lb ed="#B" n="83" break="no"/>denter euidentia iuris probari potest luso 
+      <lb ed="#B" n="84"/>rem sucrantem in casu conclusionis 
+      te<lb ed="#B" n="85" break="no"/>neri ad restitutionem: ergo illa pars 
+      con<lb ed="#B" n="86" break="no"/>clusionis falsa. Consequentia 
+      nota<lb ed="#B" n="87" break="no"/>Antecedens probatur: quia in 
+      cap<lb ed="#B" n="88" break="no"/>culpa. deiniur. &amp; dam. dicitur. Si 
+      culpa<lb ed="#B" n="89" break="no"/>tua datum est damnum: super his 
+      satisfa<lb ed="#B" n="90" break="no"/>cere oportet. Sed lucrans in ludo 
+      cul<lb ed="#B" n="91" break="no"/>pa sua damnificat colludentem.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1668">
+      ¶ 
+      Solu<lb ed="#B" n="92" break="no"/>tio: ius illud multas patitur 
+      exceptio<lb ed="#B" n="93" break="no"/>nes: ut patet in gloilic. ibidem. ut quando 
+      <lb ed="#B" n="94"/>damnificatus est in simili turpitudine, 
+      <lb ed="#B" n="95"/>uelculpa, ut in simonia. Item quando 
+      <lb ed="#B" n="96"/>damnum infertur scienti, &amp; consentienti: 
+      <lb ed="#B" n="97"/>tali n. non sit iniuria, &amp; ita est in propo 
+      <lb ed="#B" n="98"/>sito. Sicut enim sustinens danum potest 
+      <lb ed="#B" n="99"/>remittere restitutionem illati damni post 
+      <lb ed="#B" n="100"/>damnum acceptum: ita potest 
+      consen<lb ed="#B" n="101" break="no"/>tiendo ante danum passum damnificantem 
+      <lb ed="#B" n="102"/>absoluere a restitutione. Item hic non tan¬ 
+      <!--504.xml-->
+      <pb ed="#B" n="455"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>datur, quod sponte suscipitur damnum a 
+      lu<lb ed="#B" n="2" break="no"/>dente: nam sponte offert setalilege, uel 
+      <lb ed="#B" n="3"/>condicto per quod danificatur: alioquin 
+      <lb ed="#B" n="4"/>si capitulum illud uniuersaliter uerum esset 
+      <lb ed="#B" n="5"/>ad literam: etiam recipiens donationem 
+      li<lb ed="#B" n="6" break="no"/>beralem, aut precium turpitudinis: puta 
+      h<lb ed="#B" n="7" break="no"/>strio, traditor, meretrix, &amp; similes 
+      tene<lb ed="#B" n="8" break="no"/>rentur ad restitutionem doni, &amp; precij. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e1718">
+               <lb ed="#B" n="9"/>¶ Dubitatur secundo: utrum ludus 
+      scaccorum<lb ed="#B" n="10" break="no"/>sit clericis prohibitus Respondent plerique;  
+      <lb ed="#B" n="11"/>doctores imitantes Rich. in iiij. quod non 
+      <lb ed="#B" n="12"/>quod maxime uerum esse potest, quando 
+      <lb ed="#B" n="13"/>sit causa recreationis necessaria.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1731">
+      ¶ Sed 
+      <lb ed="#B" n="14"/>non uidetur haec opinio satis secura: nam 
+      <lb ed="#B" n="15"/>cum clerici sunt assumpti in sorte 
+      domi<lb ed="#B" n="16" break="no"/>ni: propter quod se in ecclesiasticis 
+      offi<lb ed="#B" n="17" break="no"/>tiis, &amp; alijs bonis studijs exercere debent 
+      <lb ed="#B" n="18"/>diligenter: ut dicitur inc. clerici 
+      officia<lb ed="#B" n="19" break="no"/>de uita &amp; ho, cle, &amp; beatus Hiero. ad 
+      Ru<lb ed="#B" n="20" break="no"/>sticum. Numquam de manu tua, uel oculis l 
+      <lb ed="#B" n="21"/>ber plalterij discedat: dicatur ad uerbum 
+      <lb ed="#B" n="22"/>oratio: sine intermissione uigilet sensus 
+      <lb ed="#B" n="23"/>nec uagis cogitationibus patens corpus 
+      <lb ed="#B" n="24"/>pariterque animus tendat ad dominum. de 
+      <lb ed="#B" n="25"/>conse dist. v. nunquam. Non decet 
+      cleri<lb ed="#B" n="26" break="no"/>cum ludis tempus consumere. Et quoniam 
+      <lb ed="#B" n="27"/>prohibetur ab apostoso, ne secularibus 
+      <lb ed="#B" n="28"/>se immisceat negotiis: prohibetur etiam 
+      <lb ed="#B" n="29"/>interesse spectaculis. de conse dist. v. non 
+      <lb ed="#B" n="30"/>oportet. ij. eadem ratione ludere 
+      prohi<lb ed="#B" n="31" break="no"/>betur: praesertim cum ludus ille scaccorum 
+      <lb ed="#B" n="32"/>ualde animam distralit: &amp; tempus 
+      pluri<lb ed="#B" n="33" break="no"/>mum consumit: nimis denique miser est, 
+      <lb ed="#B" n="34"/>qui in sortem domini assumptus extra 
+      <lb ed="#B" n="35"/>dum in huiusmodi uanitatibus 
+      recrea<lb ed="#B" n="36" break="no"/>tionem quaerit: quasi in summo, ac 
+      dele<lb ed="#B" n="37" break="no"/>ctabilisumo bono recreatio haberi non 
+      <lb ed="#B" n="38"/>possit. Et sicut dicit Hiero. de 
+      consecr<lb ed="#B" n="39" break="no"/>dist. v.c. nunquam. Ama scientiam scriptu 
+      <lb ed="#B" n="40"/>rarum: &amp; carnis uitia non amabis. Ita in 
+      <lb ed="#B" n="41"/>proposito dici potest. Ama scientiam 
+      scri<lb ed="#B" n="42" break="no"/>pturarum: &amp; ludos ac otium iners non 
+      a<lb ed="#B" n="43" break="no"/>mabis.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1800">
+      ¶ Dubitatur tertio: utrum inspecto 
+      <lb ed="#B" n="44"/>res ludi participent peccatis ludentium: 
+      <lb ed="#B" n="45"/>similiter &amp; cooperatores: ut conceder 
+      <lb ed="#B" n="46"/>tes domos: uel loca ad ludendum: siue 
+      lu<lb ed="#B" n="47" break="no"/>mina, &amp; ludendi instrumenta: ut 
+      taxil<lb ed="#B" n="48" break="no"/>los, chartas, &amp; huiusmodi. &amp; an ad 
+      ali<lb ed="#B" n="49" break="no"/>quam restitutionem teneantur. Respondetur 
+      <lb ed="#B" n="50"/>primo de inspectoribus: quia aut inspecto 
+      <lb ed="#B" n="51"/>res dant causam ludo: ut quia ideo ludi¬ 
+      <!--504.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tur, ut ostendatur uirtus, uel idoneitas 
+      lu<lb ed="#B" n="53" break="no"/>dentium, qua non fieret, nisi essent inspectores 
+      <lb ed="#B" n="54"/>ut sit in ludis theatralibo, hastiludijs, 
+      cho<lb ed="#B" n="55" break="no"/>reis, &amp; similibus: &amp; tamenc dicendum sicut de 
+      <lb ed="#B" n="56"/>cooperatoribus statim dicet. Aut 
+      inspe<lb ed="#B" n="57" break="no"/>ctores non dant causam: puta quia aeque fic 
+      <lb ed="#B" n="58"/>rent, si non adessent inspectores: ut in 
+      <lb ed="#B" n="59"/>ludo alearum: &amp; tunc dicitur, quod 
+      inspe<lb ed="#B" n="60" break="no"/>ctores peccant quidem uenialiter: rebus 
+      <lb ed="#B" n="61"/>enim turpibus, &amp; prohibitis intendunt 
+      <lb ed="#B" n="62"/>utilioribus neglectis: non tamen peccant 
+      <lb ed="#B" n="63"/>mortaliter: nisi consentirent ludentibus 
+      <lb ed="#B" n="64"/>ludos prohibitos: namn consentiens 
+      pecca<lb ed="#B" n="65" break="no"/>to mortali: peccat mortaliter: secundum 
+      <lb ed="#B" n="66"/>illud apostoli. Non solum facientes: sed  
+      <lb ed="#B" n="67"/>&amp; facientibus consentientes digni sunt 
+      <lb ed="#B" n="68"/>morte. ad Rom. j. Similiter si tanta 
+      libi<lb ed="#B" n="69" break="no"/>dine uidendi ludos assisterent: quod parati 
+      <lb ed="#B" n="70"/>essent eos uidere: etiam si foret prohibi 
+      <lb ed="#B" n="71"/>tum uidere, hoc enim esset contemptus 
+      <lb ed="#B" n="72"/>uirtualis praecepti, qui est mortalis. Haec 
+      <lb ed="#B" n="73"/>enim circumstantia facit quodlibet 
+      pec<lb ed="#B" n="74" break="no"/>catum quantumlibet seue esse mortale: 
+      <lb ed="#B" n="75"/>ut dicit Aug. Non est peccatum ita ueniale: 
+      <lb ed="#B" n="76"/>quin fiat mortale, dum placet: placet scilicet 
+      <lb ed="#B" n="77"/>usque ad contemptum praecepti 
+      superue<lb ed="#B" n="78" break="no"/>nientis: ut exponit Gers. in 
+      compen<lb ed="#B" n="79" break="no"/>dio, quod ab aliquibus sibi adscribitur. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e1885">
+               <lb ed="#B" n="80"/>¶ Et si dicis: quisquis delectatur in 
+      pec<lb ed="#B" n="81" break="no"/>cato mortali, peccat mortaliter: sed 
+      ui<lb ed="#B" n="82" break="no"/>dens ludos prohibitos defectatur in 
+      a<lb ed="#B" n="83" break="no"/>ctu ludentium, qui est mortalis: ergo. 
+      <lb ed="#B" n="84"/>Maior patet: quia propter hoc dicunt 
+      <lb ed="#B" n="85"/>doctores, quod defectatio morosa in 
+      cogi<lb ed="#B" n="86" break="no"/>rationibus uenereorum etiam sine 
+      con<lb ed="#B" n="87" break="no"/>sensu in actum mortalis. Respondet hic 
+      <lb ed="#B" n="88"/>Bap. in sum. in uer. Ludus. S. ij. quod 
+      ma<lb ed="#B" n="89" break="no"/>ior est uera de his, quae sunt peccata 
+      <lb ed="#B" n="90"/>mortalia ex se, siue de suis natura: &amp; 
+      <lb ed="#B" n="91"/>non solum ex constitutione humana 
+      ec<lb ed="#B" n="92" break="no"/>clesiae. Ludi autem, &amp; spectacula 
+      ali<lb ed="#B" n="93" break="no"/>qua (quae non includunt essentialiter  
+      <lb ed="#B" n="94"/>turpitudinem) possent fieri bene, si non 
+      <lb ed="#B" n="95"/>forent prohibiti, ut torneamenta: &amp; 
+      <lb ed="#B" n="96"/>similia: ludi tax illorum, dum non fiunt 
+      <lb ed="#B" n="97"/>ex cupiditate. Vel posset dici: quod 
+      de<lb ed="#B" n="98" break="no"/>lectari in actu mortalis peccati in hoc  
+      <lb ed="#B" n="99"/>praecise ratione cuius est prohibitus, seu 
+      <lb ed="#B" n="100"/>inordinatus, est mortalis: ut qui dese- 
+      <lb ed="#B" n="101"/>ctaretur in cupiditate ludentium, aut  
+      <lb ed="#B" n="102"/>contemptu eorum, qui contemnunt 
+      <!--505.xml-->
+      <pb ed="#B" n="456"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>praeceptum ecclesiae: secus si in actu 
+      delectam<lb ed="#B" n="2" break="no"/>tur inquantum actus, qui non est essentiali 
+      <lb ed="#B" n="3"/>ter siue de sepctum: &amp; per hoc pater 
+      so<lb ed="#B" n="4" break="no"/>lutio probationis: quia actus uenereus 
+      <lb ed="#B" n="5"/>de se est pctum: &amp; legi dei contrarius: &amp; 
+      <lb ed="#B" n="6"/>propter delectationem inordinatam pro 
+      <lb ed="#B" n="7"/>hibitus. Veruntamen periculosus est 
+      a<lb ed="#B" n="8" break="no"/>spectus ludorum prohibitorum: quia facile 
+      <lb ed="#B" n="9"/>inducit in consensum: &amp; specialiter inter 
+      <lb ed="#B" n="10"/>esse huiusmodi ludis prohibitum est 
+      cleri<lb ed="#B" n="11" break="no"/>cis inc. clerici. de uita &amp; hone. clerico 
+      <lb ed="#B" n="12"/>rum.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1970">
+      ¶ Posset etiam dici: licet delectari in 
+      <lb ed="#B" n="13"/>actu peccati mortalis, sit mortale 
+      pec<lb ed="#B" n="14" break="no"/>catum: cum delectatio uoluntaria non sit 
+      <lb ed="#B" n="15"/>consensu eius in id, unde quis 
+      delecta<lb ed="#B" n="16" break="no"/>tur: tamen delectatio in 
+      cognitio<lb ed="#B" n="17" break="no"/>ne peccati, aut peccantium, uel modi 
+      ip<lb ed="#B" n="18" break="no"/>sius peccati, non est mortalis: nam 
+      cogni<lb ed="#B" n="19" break="no"/>tio talium potest etiam esse meritoria: quia 
+      <lb ed="#B" n="20"/>potest ordinari in bonum finem, puta ut  
+      <lb ed="#B" n="21"/>caueatur, uel arguatur. Et si ex sola 
+      ua<lb ed="#B" n="22" break="no"/>nitate delectatur in cogitatione talium: 
+      <lb ed="#B" n="23"/>non excedit genus peccati uenialis, 
+      nisi<lb ed="#B" n="24" break="no"/>aliunde grauetur.
+    </p>
+            <p xml:id="gbs333-v109840-d1e1999">
+      ¶ Ex his secundo dic 
+      <lb ed="#B" n="25"/>tur, quod cooperatores ludentium ut ad 
+      <lb ed="#B" n="26"/>ludos concedentes loca: aut 
+      ministran<lb ed="#B" n="27" break="no"/>tes tax illos: instrumenta aut lumina, &amp; 
+      <lb ed="#B" n="28"/>huiusmodi, sine quibus ludus non fieret: 
+      <lb ed="#B" n="29"/>peccauit mortaliter, si ludus ipse sit 
+      pro<lb ed="#B" n="30" break="no"/>hibitus: quia sic cooperando consentiunt 
+      <lb ed="#B" n="31"/>peccato mortali.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2017">
+      ¶ Tertio dicitur: quod 
+      ta<lb ed="#B" n="32" break="no"/>les consentientes non tenentur ad 
+      resti<lb ed="#B" n="33" break="no"/>tutionem perditorum in ludo; tum quia 
+      <lb ed="#B" n="34"/>non praestant directe causam perditioni: 
+      <lb ed="#B" n="35"/>quia aeque se habent ad perdentes, &amp; 
+      lu<lb ed="#B" n="36" break="no"/>crantes: tum quia per illam perditionem 
+      <lb ed="#B" n="37"/>non sit uiolentia perdenti: tum ipse 
+      uo<lb ed="#B" n="38" break="no"/>luntarie se subijcit legi perditionis, secus 
+      <lb ed="#B" n="39"/>tamen si praestaret causam dolo in ludo 
+      <lb ed="#B" n="40"/>commisto: &amp; lucrum participarent.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2039">
+      ¶ 
+      Si<lb ed="#B" n="41" break="no"/>quaeris: quid de his, quae lucrantes 
+      uolun<lb ed="#B" n="42" break="no"/>tarie dant aspicientibus, aut ministranti 
+      <lb ed="#B" n="43"/>bus. Respondetur: silucrantes dant ea, quem 
+      <lb ed="#B" n="44"/>tenentur restituere, etiam recipientes 
+      te<lb ed="#B" n="45" break="no"/>nentur restituere: si non: non.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2053">
+      ¶ Dubita 
+      <lb ed="#B" n="46"/>tur quarto: quid de artificibus 
+      facienti<lb ed="#B" n="47" break="no"/>bus tax illos, chartas, &amp; caetera instrumen 
+      <lb ed="#B" n="48"/>ta ludendi: similiter &amp; ea uendentibus, 
+      <lb ed="#B" n="49"/>utrum mortaliter peccent. Posset dubium 
+      <lb ed="#B" n="50"/>extendi adfacientes, &amp; uendentes 
+      gla<lb ed="#B" n="51" break="no"/>dios, lanceas, ballistas, uenena, fucos, 
+      <!--505.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>serta, laruas, &amp; huiusmodi.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2075">
+      ¶ Pro quibus 
+      <lb ed="#B" n="53"/>omnibus respondendo datur haec 
+      distin<lb ed="#B" n="54" break="no"/>ctio post Anto. par. iii. ti. j. c. xxiij. S. xi. &amp; 
+      <lb ed="#B" n="55"/>seq. Aut factor, uel uenditor nouit: quod 
+      <lb ed="#B" n="56"/>hi, quibus talia uendunt, eis abutuntur 
+      <lb ed="#B" n="57"/>ad peccatum mortale: uel habet 
+      conscien<lb ed="#B" n="58" break="no"/>tiam firmam de hoc: tunc tales 
+      facto<lb ed="#B" n="59" break="no"/>res, &amp; uenditores stante tali 
+      conscien<lb ed="#B" n="60" break="no"/>tia mortaliter peccant: &amp; omnia 
+      pecca<lb ed="#B" n="61" break="no"/>ta, quae occasione talium rerum ab alij: 
+      <lb ed="#B" n="62"/>perpetrantur, sibi imputantur: &amp; rei sunt 
+      <lb ed="#B" n="63"/>animarum, quae propter hoc pereunt: cum 
+      <lb ed="#B" n="64"/>sint cooperatores omnium scelerum 
+      inde<lb ed="#B" n="65" break="no"/>commistorum. Aut huiusmodi uendito 
+      <lb ed="#B" n="66"/>res, ac factores credunt eos, quibus 
+      uen<lb ed="#B" n="67" break="no"/>dunt emere talia propter aliquem licitum 
+      <lb ed="#B" n="68"/>usum: aut de hoc nihilcogitabant, 
+      igno<lb ed="#B" n="69" break="no"/>rantes, quod talia facere, ac uendere esset 
+      u<lb ed="#B" n="70" break="no"/>licitum: &amp; tunc sub distinctione 
+      distin<lb ed="#B" n="71" break="no"/>guendum est: quia aut illae res ad 
+      huma<lb ed="#B" n="72" break="no"/>num usum possunt esse utiles, ut arma in 
+      <lb ed="#B" n="73"/>bello iusto: cultellus ad scindendum 
+      pa<lb ed="#B" n="74" break="no"/>nem. Quaedam enim uenena apponum 
+      <lb ed="#B" n="75"/>tur a medicis in quibusdam medicinis: 
+      <lb ed="#B" n="76"/>uel etiam in coloribus aptandis fuci 
+      ad<lb ed="#B" n="77" break="no"/>ornandum se marito, non ad lasciuiam. 
+      <lb ed="#B" n="78"/>Itemlaruae ad repsentandum aliqua hone 
+      <lb ed="#B" n="79"/>sta, aut huiusmodi ad usus licitos. Aut  
+      <lb ed="#B" n="80"/>nullum usum bonum habent: ut quaedam 
+      <lb ed="#B" n="81"/>uenena mortifera. non. Si secundum: 
+      <lb ed="#B" n="82"/>peccat res tales alteri conicando: aut etiam 
+      <lb ed="#B" n="83"/>faciendo, quas nouit ad nullum bonum 
+      <lb ed="#B" n="84"/>usum proficere: sed tantum ad malum: 
+      <lb ed="#B" n="85"/>ut de libello famoso, quem non solum 
+      <lb ed="#B" n="86"/>conficere: sed etiam confictum ostendem 
+      <lb ed="#B" n="87"/>re: &amp; inuentum non stat im rumpere, 
+      gra<lb ed="#B" n="88" break="no"/>ue peccatum est: v. q.v. per totum. Si 
+      pra<lb ed="#B" n="89" break="no"/>mum: non peccant mortaliter: si 
+      inten<lb ed="#B" n="90" break="no"/>tio non fuerit corrupta: etiam si abusus 
+      <lb ed="#B" n="91"/>sequatur. Vnde Aug. ad publicolam. Absit: 
+      <lb ed="#B" n="92"/>ut ea, quae propter bonum, ac licitum 
+      faci<lb ed="#B" n="93" break="no"/>mus, aut habemus: si aliquod per hoc 
+      pra<lb ed="#B" n="94" break="no"/>ter nostram uoluntatem cuiquam malum 
+      ac<lb ed="#B" n="95" break="no"/>ciderit: nobis imputet.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2171">
+      ¶ Neque facile 
+      iu<lb ed="#B" n="96" break="no"/>dicandum est eos, qui emunt talia eis 
+      <lb ed="#B" n="97"/>abuti: nisi appareant signa manifesta: ut  
+      <lb ed="#B" n="98"/>in meretricibus ementibus fucos: nemo 
+      <lb ed="#B" n="99"/>n. iudicandus est immemor esse suae 
+      salu<lb ed="#B" n="100" break="no"/>tis aeternae. Quod uero Inno. iij. de 
+      sa<lb ed="#B" n="101" break="no"/>gittarijs cap. unico. dicit artem illam 
+      <lb ed="#B" n="102"/>mortiferam, &amp; odibilem ballistariorun¬ 
+      <!--506.xml-->
+      <pb ed="#B" n="457"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; lagittariorum aduersus catholicos, &amp; 
+      <lb ed="#B" n="2"/>christianos exerceri decaetero sub 
+      ana<lb ed="#B" n="3" break="no"/>themate prohibemus. intelligendum est 
+      <lb ed="#B" n="4"/>in bello iniusto secundum gloilic. namn contra 
+      in<lb ed="#B" n="5" break="no"/>fideles: &amp; etiam contra fideles in belle 
+      <lb ed="#B" n="6"/>iusto licet his armis uti: quoniam secundum 
+      <lb ed="#B" n="7"/>Aug. xxiij. q.ii. dedens non refert quantum 
+      atti<lb ed="#B" n="8" break="no"/>net ad iustitia, utrum aperte, uel ex 
+      insi<lb ed="#B" n="9" break="no"/>dijs quis pugnet. Et pugnare cum 
+      balli<lb ed="#B" n="10" break="no"/>stis uidetur pugnare ex insidiis, ut uult 
+      <lb ed="#B" n="11"/>Aug. super ps. ixiij. Arcu, inquit, dicit 
+      in<lb ed="#B" n="12" break="no"/>sidias.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2221">
+      ¶ Verum hoc membrum adhuc 
+      ui<lb ed="#B" n="13" break="no"/>detur subdistinguendum: quia aut pluri 
+      <lb ed="#B" n="14"/>mum homines his rebus utuntur ad 
+      ma<lb ed="#B" n="15" break="no"/>sum ut aleis, chartis, taxillis, quibus com 
+      <lb ed="#B" n="16"/>muniter homines utuntur ad pectum 
+      mor<lb ed="#B" n="17" break="no"/>tale propter auaritiam, &amp; 
+      concupiscen<lb ed="#B" n="18" break="no"/>tiam rei alienae: ex qua conmuniter his 
+      lu<lb ed="#B" n="19" break="no"/>ditur. Aut frequentius, uel aeque 
+      utun<lb ed="#B" n="20" break="no"/>tur ad bonum: ut armis, quibus comuniter 
+      <lb ed="#B" n="21"/>utuntur homines ad defensionem, aut  
+      <lb ed="#B" n="22"/>malorum impugnationem propter 
+      bo<lb ed="#B" n="23" break="no"/>num reipublicae. Si primum: non 
+      pos<lb ed="#B" n="24" break="no"/>sunt factores, &amp; uenditores talium a mor 
+      <lb ed="#B" n="25"/>tali excusari secundum Anto. Nec tales, 
+      in<lb ed="#B" n="26" break="no"/>quit absoluendi sunt: nisi talia facere, &amp; 
+      <lb ed="#B" n="27"/>uendere dimittant, simile enim aliquid 
+      <lb ed="#B" n="28"/>faciunt porrigenti furioso gladium. Vn 
+      <lb ed="#B" n="29"/>de Greg. de poeni. dist. v. fratres. Talsa, 
+      <lb ed="#B" n="30"/>inquit, est penitentia, cum paenitens ab 
+      of<lb ed="#B" n="31" break="no"/>ficio uel curiali negocio non recedit, 
+      <lb ed="#B" n="32"/>quod sine peceatis agi nullatenus praeua 
+      <lb ed="#B" n="33"/>let. Videtur tamen: quod si taxillatores, &amp; 
+      <lb ed="#B" n="34"/>alearum opifices &amp;c. tantum uenderent 
+      <lb ed="#B" n="35"/>ista honestis personis, de quibus 
+      praesu<lb ed="#B" n="36" break="no"/>merent, quod non uterentur illis in casibus 
+      <lb ed="#B" n="37"/>non concessis: sed tantum pro 
+      recreatio<lb ed="#B" n="38" break="no"/>ne, aut pro his, quae in conuiuio apponum 
+      <lb ed="#B" n="39"/>tur, &amp; non indifferenter ab omnibus 
+      ri<lb ed="#B" n="40" break="no"/>baldis, &amp; lusoribus: quod excusari possint: 
+      <lb ed="#B" n="41"/>quoniamubi ludi potest sine peccato: ibi 
+      <lb ed="#B" n="42"/>etiam instrumenta ludi possunt fieri, &amp; 
+      <lb ed="#B" n="43"/>uendi sine peccato. Et per hoc patet 
+      re<lb ed="#B" n="44" break="no"/>sponsio ad singulas partes dubii.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2293">
+      ¶ Dubita 
+      <lb ed="#B" n="45"/>tur quinto de mutuo in ludo, an mutuans 
+      <lb ed="#B" n="46"/>teneatur soluere mutuatum. Respondetur 
+      <lb ed="#B" n="47"/>scum Panor. inc. clerici. de uita &amp; hone. 
+      <lb ed="#B" n="48"/>cle. quod de pecunia mutuata colludenti non 
+      <lb ed="#B" n="49"/>competit repetitio: secus si alteri non 
+      secun<lb ed="#B" n="50" break="no"/>ludenti fiat mutuatio: sic secundum eundem 
+      <lb ed="#B" n="51"/>non ualet tranfactio facta in ludo: eo quod 
+      <!--506.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ibi non estlis: sed euidens calunnia: sic 
+      quo<lb ed="#B" n="53" break="no"/>que uendens rem in ludo non tenetur de 
+      <lb ed="#B" n="54"/>cuictione: unde si res euincatur ab emen 
+      <lb ed="#B" n="55"/>te: non potest agere contra uedentem. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e2324">
+               <lb ed="#B" n="56"/>¶ Dubiumsextum: utrum recompensatio 
+      ha<lb ed="#B" n="57" break="no"/>beat locum in ludo: ita quod lucrans aliquan 
+      <lb ed="#B" n="58"/>do, &amp; perdens quandoque possit perperdita 
+      <lb ed="#B" n="59"/>lucrum compensare, ut non teneatur ipsum 
+      re<lb ed="#B" n="60" break="no"/>stituere, uel pauperibus erogare. 
+      Respon<lb ed="#B" n="61" break="no"/>detur, quod inludo, in quo lucrans non tenet 
+      <lb ed="#B" n="62"/>restituere lucratum secundum praedicta, 
+      nec<lb ed="#B" n="63" break="no"/>erogare pauperibus: dubium nullam habet 
+      <lb ed="#B" n="64"/>difficultatem: quia tumc nulla compenlatio 
+      <lb ed="#B" n="65"/>est necessaria: sed in eo ludo, in 
+      quolu<lb ed="#B" n="66" break="no"/>crans tenetur ad restitutionem: uidetur: 
+      <lb ed="#B" n="67"/>quod compensatio locum habeat respectu 
+      <lb ed="#B" n="68"/>eiusdem personae: maxime dum uterque 
+      lu<lb ed="#B" n="69" break="no"/>crans tenetur ad restitutionem alteri: 
+      <lb ed="#B" n="70"/>quia dum quilibet duorum est debitor 
+      alte<lb ed="#B" n="71" break="no"/>rius: dum debitum utriusque est aeque 
+      li<lb ed="#B" n="72" break="no"/>quidum, caeteris paribus, compensatio 
+      de<lb ed="#B" n="73" break="no"/>bitorum habet locum. Nec resert: 
+      anlu<lb ed="#B" n="74" break="no"/>crum fuerit acquisitum in eodem ludo, 
+      <lb ed="#B" n="75"/>uel pluribus: siue uno tempore, uel 
+      di<lb ed="#B" n="76" break="no"/>uersis: quoniam si b sucratus est a, e, 
+      he<lb ed="#B" n="77" break="no"/>ri c, hodie sucratur a, b, si lucra fuerint 
+      <lb ed="#B" n="78"/>aequalia, iam sunt compensata: nam frustrab, 
+      <lb ed="#B" n="79"/>redderet ipsic, quidc, teneretur 
+      restitue<lb ed="#B" n="80" break="no"/>re ipsi b. Si uero unus tenetur 
+      restitue<lb ed="#B" n="81" break="no"/>re, &amp; non alter: ut si unus haberet 
+      admi<lb ed="#B" n="82" break="no"/>nistrationem rerum, pro quibus luditur, 
+      <lb ed="#B" n="83"/>&amp; non alter: compensatio non habet 
+      lo<lb ed="#B" n="84" break="no"/>cum: tunc. n. habens administrationem 
+      te<lb ed="#B" n="85" break="no"/>netur restituere lucrum: &amp; non 
+      econ<lb ed="#B" n="86" break="no"/>uerso. Si autem ludentes tenentur lucrum 
+      <lb ed="#B" n="87"/>erogare pauperibe: est quorundam opinio: 
+      <lb ed="#B" n="88"/>quod quoties lucratur ludens, tenetursucrum 
+      <lb ed="#B" n="89"/>erogare pauperibus: siue in eodem ludo, 
+      <lb ed="#B" n="90"/>ac tpe, siue in diuersis, nulla 
+      diminutio<lb ed="#B" n="91" break="no"/>ne facta eorum, quae perdidit: quia per 
+      in<lb ed="#B" n="92" break="no"/>teritum rei morosus debitor non liberatur: 
+      nam<lb ed="#B" n="93" break="no"/>eo t pe qud lucratus est, est pauperum. Et ion 
+      <lb ed="#B" n="94"/>si postea pdit: non pauperum bona: sed sua 
+      <lb ed="#B" n="95"/>perdit, uel saltem sua cuipa, bona pauperum 
+      <lb ed="#B" n="96"/>perdit: on pauperibus obligatur.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2416">
+      ¶ Verum 
+      <lb ed="#B" n="97"/>alii, quibus consentit Bapti. &amp; Ange. in 
+      <lb ed="#B" n="98"/>sum, mitius dicunt, quod lucrum, quod  
+      <lb ed="#B" n="99"/>obtinuit in eodem ludo, abeadem 
+      per<lb ed="#B" n="100" break="no"/>sona, &amp; secum in fine ludi imbursat: 
+      tene<lb ed="#B" n="101" break="no"/>tur erogare pauperibus, &amp; non illud, quid 
+      <lb ed="#B" n="102"/>du rante eodem ludo lucratus est, &amp; 
+      <!--507.xml-->
+      <pb ed="#B" n="458"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rursus perdidit: &amp; dicit idem ludus, ludus 
+      <lb ed="#B" n="2"/>continuus, quamdiu se non diuertit ad 
+      a<lb ed="#B" n="3" break="no"/>lia. Et ratio illorum est: quia illud proprie 
+      <lb ed="#B" n="4"/>dicitur sucrum ex sudo, quod in fine 
+      lu<lb ed="#B" n="5" break="no"/>di imbursat deductis perditis in eodem. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e2449">
+               <lb ed="#B" n="6"/>¶ Et dicitur notanter, cum eadem perso 
+      <lb ed="#B" n="7"/>na: quia si in eodem ludo, in quo plures 
+      <lb ed="#B" n="8"/>colludunt: quis sucraretur ab uno: &amp; 
+      per<lb ed="#B" n="9" break="no"/>deret respectu alterius: ibi non habet 
+      lo<lb ed="#B" n="10" break="no"/>cum compensatio: dum restitutio esset 
+      <lb ed="#B" n="11"/>facienda: ergo nec a simili, dum lucrum 
+      <lb ed="#B" n="12"/>pauperibus est erogandum.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2467">
+      ¶ Et idem 
+      di<lb ed="#B" n="13" break="no"/>cendum de participantibus lucrum ludi: 
+      hi<lb ed="#B" n="14" break="no"/>n. eodem modo tenentur ad 
+      restitutio<lb ed="#B" n="15" break="no"/>nem, uel erogationem pro parte sua, in 
+      <lb ed="#B" n="16"/>qua lucro participant sicut lulores.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2478">
+      ¶ 
+      Du<lb ed="#B" n="17" break="no"/>pitatur septimo de paena tenentium ludum 
+      <lb ed="#B" n="18"/>prohibitum. Respondetur post Ange. in 
+      <lb ed="#B" n="19"/>sum. c. ludus. S. ix. Primo: quod domus, in 
+      <lb ed="#B" n="20"/>qua luditur, debet publicari: ut habetur 
+      <lb ed="#B" n="21"/>in aut. alearum ludus. Secundo, si tenens 
+      <lb ed="#B" n="22"/>ludum uerberatur: non oritur actio ex 
+      <lb ed="#B" n="23"/>tali iniuria: nec punitur uerberans, uel 
+      <lb ed="#B" n="24"/>eum damnificans. Tertio, si fuerit sibi 
+      <lb ed="#B" n="25"/>aliquid subtractum tempore, quo in eius 
+      <lb ed="#B" n="26"/>domo luditur: siue a lusoribus: siue ab 
+      a<lb ed="#B" n="27" break="no"/>lio non potest repetere: nec habet rei pse 
+      <lb ed="#B" n="28"/>cutionem: nec etiam penam furti. 
+      Quar<lb ed="#B" n="29" break="no"/>to: qui alium compulit ad ludendum etiam 
+      <lb ed="#B" n="30"/>ex metu, qui non cadit in constantem 
+      <lb ed="#B" n="31"/>uirum: potest puniri iudicis arbitrio, &amp; 
+      po<lb ed="#B" n="32" break="no"/>test incarcerari. Et generaliter 
+      compel<lb ed="#B" n="33" break="no"/>sere dicitur eo ipso, quod stat cum altari 
+      pa<lb ed="#B" n="34" break="no"/>rato: hoc est praestat domum, tax illos, 
+      <lb ed="#B" n="35"/>scamna, lumina, &amp; huiusmodi: nam istis 
+      <lb ed="#B" n="36"/>suasionibus, &amp; illecebris dicitur 
+      compel<lb ed="#B" n="37" break="no"/>lere iuuenes, qui non possunt refroenare 
+      <lb ed="#B" n="38"/>iuueniles calores. Similiter de his, 
+      qui<lb ed="#B" n="39" break="no"/>blandicijs, &amp; suasionibus inducunt 
+      iuue<lb ed="#B" n="40" break="no"/>nes ad ludendum. Quinto, quod omnis 
+      con<lb ed="#B" n="41" break="no"/>tractus celebratus inter ludentes ad 
+      in<lb ed="#B" n="42" break="no"/>uicem non tenet: nec mutuum datum ad 
+      <lb ed="#B" n="43"/>ludendum repeti potest: ut tactum est sup¬ 
+    </p>
+            <p xml:id="gbs333-v109840-d1e2539">
+               <lb ed="#B" n="44"/>¶ Dubitatur octauo, utrum lucrans ex 
+      ua<lb ed="#B" n="45" break="no"/>dio: hoc est ex euentu, pro quo 
+      alter<lb ed="#B" n="46" break="no"/>cantur quidam uno dicente: si hoc ita 
+      <lb ed="#B" n="47"/>est: uel sic euenerit: dabo tibi 
+      tan<lb ed="#B" n="48" break="no"/>tum: si non, dabis mihi tantum. 
+      Respon<lb ed="#B" n="49" break="no"/>detur post Anto. quod hic est aliquid 
+      similelu<lb ed="#B" n="50" break="no"/>do: &amp; si fieret ex cupiditate, uel dolo: idem 
+      <lb ed="#B" n="51"/>diceretur, quid de ludo prohibito dictum 
+      <!--507.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>est. Si aunt ex quadam contentionis 
+      alter<lb ed="#B" n="53" break="no"/>catione oritur: non ex cupiditate 
+      praeco<lb ed="#B" n="54" break="no"/>gitata quolibet putante se uerum dicere: 
+      <lb ed="#B" n="55"/>quamuis sit turpe sucrum: quia ab alio 
+      reci<lb ed="#B" n="56" break="no"/>pit non gratuito, pro quo nihil rependit: 
+      <lb ed="#B" n="57"/>non tamen tenetur ad restitutionem. Nulla 
+      <lb ed="#B" n="58"/>enim lex mandat in illis restitutionem: 
+      <lb ed="#B" n="59"/>licet lex diuina, &amp; naturalis prohibeat  
+      <lb ed="#B" n="60"/>omnem actum auaritiae; &amp; illicitae 
+      acqui<lb ed="#B" n="61" break="no"/>sitionis: est tamen consilij, ut huiusmodi 
+      lu<lb ed="#B" n="62" break="no"/>cra erogentur pauperibus: sicut etiam de 
+      <lb ed="#B" n="63"/>lucro histrionatus, meretricii, incanratio 
+      <lb ed="#B" n="64"/>nis, &amp; huiusmodi.
+    </p>
+            <p xml:id="gbs333-v109840-d1e2591">
+      ¶ Vlrimo dubitatur de 
+      <lb ed="#B" n="65"/>columbarijs. Ad hoc respondet Pe. de 
+      <lb ed="#B" n="66"/>pal. dist. praesenti. qeii. ar. ij. uidetur: quod dceimens 
+      <lb ed="#B" n="67"/>eorum teneatur restituere damnahis, quod 
+      <lb ed="#B" n="68"/>habent agros seminatos, quos spoliant 
+      <lb ed="#B" n="69"/>nutrimentum quaerendo: nisi sit uerum, 
+      <lb ed="#B" n="70"/>quod qudam fingunt: quod columbae nociua 
+      quae<lb ed="#B" n="71" break="no"/>dam cum granis comedentes plus prosint, 
+      <lb ed="#B" n="72"/>quam obsint: ergo diumes est in culpa 
+      emit<lb ed="#B" n="73" break="no"/>tendo huiusmodi animalia in damnum 
+      <lb ed="#B" n="74"/>proximi: &amp; tenetur ad refusionem 
+      dam<lb ed="#B" n="75" break="no"/>ni. Et tantum de quaestione. 
+    </p>
+            <p xml:id="gbs333-v109840-d1e2618">
+               <lb ed="#B" n="76"/>¶ De restitutione acquisitorum 
+      titu<lb ed="#B" n="77" break="no"/>lo praescriptionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

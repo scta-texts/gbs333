@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="186"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v45535"><!-- l4-d10prae -->
+            <head xml:id="gbs333-v45535-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v45535-d1e103">
+               <lb ed="#B" n="29"/>DISTINCTIO x 
+      <lb ed="#B" n="30"/>VNTitem alij &amp;c. 
+      <lb ed="#B" n="31"/>In hac distinctione 
+      <lb ed="#B" n="32"/>decima: postquam 
+      <lb ed="#B" n="33"/>magister egit de 
+      eu<lb ed="#B" n="34" break="no"/>charistiae institutio 
+      <lb ed="#B" n="35"/>ne: materia, &amp; 
+      for<lb ed="#B" n="36" break="no"/>ma, &amp; eius usu, ac 
+      sun<lb ed="#B" n="37" break="no"/>ptione: consequenter agit de eius 
+      uir<lb ed="#B" n="38" break="no"/>ture ostendens corpus christi uere 
+      con<lb ed="#B" n="39" break="no"/>tineri in sacramento eucharistiae. Et  
+      <lb ed="#B" n="40"/>colligitur sententia textus in tribus 
+      con<lb ed="#B" n="41" break="no"/>clusionibus, qui sequuntur.
+    </p>
+            <p xml:id="gbs333-v45535-d1e134">
+      ¶ Prima. 
+      Re<lb ed="#B" n="42" break="no"/>probanda est haerelis dicentium, 
+      cor<lb ed="#B" n="43" break="no"/>pus christi non contineri realiter in 
+      la<lb ed="#B" n="44" break="no"/>cramento: sed tantum reptaelentatiue, 
+      <lb ed="#B" n="45"/>tanquam signatum in signo.
+    </p>
+            <p xml:id="gbs333-v45535-d1e145">
+      ¶ 
+      Secun<lb ed="#B" n="46" break="no"/>da. Corpus christi in se uisibile realiter, 
+      <lb ed="#B" n="47"/>&amp; uere: inuisibiliter tamen continetur 
+      <lb ed="#B" n="48"/>subpanis, ac uini specie.
+    </p>
+            <p xml:id="gbs333-v45535-d1e154">
+      ¶ Tertia. 
+      Veri<lb ed="#B" n="49" break="no"/>tas existentiae corporis christi in sacra¬ 
+      <!--237.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>mento altaris, manifestis probatur 
+      au<lb ed="#B" n="51" break="no"/>ctoritatibus, &amp; exemplis. Harum 
+      prose<lb ed="#B" n="52" break="no"/>cutio latius patet in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

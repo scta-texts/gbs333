@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="546"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v133787"><!-- l4-d17prae -->
+            <head xml:id="gbs333-v133787-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v133787-d1e103">
+      <!--595.xml-->
+               <pb ed="#B" n="546"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO XVII 
+      <lb ed="#B" n="2"/>HIC oritur 
+      multi<lb ed="#B" n="3" break="no"/>plex quaestio &amp;c. 
+      <lb ed="#B" n="4"/>Postquam magister 
+      <lb ed="#B" n="5"/>egit de integritate 
+      <lb ed="#B" n="6"/>paenitentiae quantum 
+      <lb ed="#B" n="7"/>ad part es eius 
+      inte<lb ed="#B" n="8" break="no"/>grales, &amp; subiectiuas 
+      <lb ed="#B" n="9"/>generaliter distin. xvi. In hac dist. xvij. 
+      <lb ed="#B" n="10"/>agit de una partium, scilicet 
+      confessio<lb ed="#B" n="11" break="no"/>ne specialiter.
+    </p>
+            <p xml:id="gbs333-v133787-d1e136">
+      ¶ Sententia autem huius 
+      <lb ed="#B" n="12"/>distinct. in tribus conclusionibus tribus 
+      <lb ed="#B" n="13"/>quaestionibus in litera motis 
+      correspon<lb ed="#B" n="14" break="no"/>dentibus sumatur.
+    </p>
+            <p xml:id="gbs333-v133787-d1e145">
+      ¶ Prima. Sine 
+      confes<lb ed="#B" n="15" break="no"/>sione oris: dum tamen sit in uoto: &amp; 
+      si<lb ed="#B" n="16" break="no"/>ne satis factione paenae exteriori: peccata 
+      <lb ed="#B" n="17"/>delentur per contritionem, &amp; humilita 
+      <lb ed="#B" n="18"/>tem cordis.
+    </p>
+            <p xml:id="gbs333-v133787-d1e156">
+      ¶ Secunda. Non sufficit 
+      soli<lb ed="#B" n="19" break="no"/>deo confiteri: dum sacerdotis copia 
+      po<lb ed="#B" n="20" break="no"/>terit inueniri.
+    </p>
+            <p xml:id="gbs333-v133787-d1e164">
+      ¶ Tertia. 
+      Studiose quaeren<lb ed="#B" n="21" break="no"/>dus est sacerdos sciens, potensque; soluere, 
+      <lb ed="#B" n="22"/>&amp; ligare, qui si haberi nequit: prodest 
+      <lb ed="#B" n="23"/>peccata fidelisocio manifestare. Has 
+      con<lb ed="#B" n="24" break="no"/>clusiones multis auctoritatibus innuit, 
+      <lb ed="#B" n="25"/>&amp; apparenter contrarias soluit, &amp; expo 
+      <lb ed="#B" n="26"/>nit. Circa hanc distinctionem de tribus 
+      <lb ed="#B" n="27"/>quaeritur. Primo de confessionis 
+      neces<lb ed="#B" n="28" break="no"/>sitate. Secundo de eius qualitate. Tertio 
+      <lb ed="#B" n="29"/>de confessoris idoneitate.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="201"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v49326"><!-- l4-d12prae -->
+            <head xml:id="gbs333-v49326-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v49326-d1e103">
+               <lb ed="#B" n="33"/>DISTINCTIO RII 
+      <lb ed="#B" n="34"/>autem quaeritur. 
+      <lb ed="#B" n="35"/>Postquam magister 
+      <lb ed="#B" n="36"/>egit de his, quae 
+      respi<lb ed="#B" n="37" break="no"/>ciunt sacramenti 
+      ue<lb ed="#B" n="38" break="no"/>ritatem scilicet eius 
+      institu<lb ed="#B" n="39" break="no"/>tione, usu, 
+      contentiue<lb ed="#B" n="40" break="no"/>ritate, ac existentia 
+      <lb ed="#B" n="41"/>corporis: modo consequenter in hac 
+      <lb ed="#B" n="42"/>dist. agit de accedentibus remanentibus: 
+      <lb ed="#B" n="43"/>de ipsis scilicet speciebus, &amp; earum 
+      sub<lb ed="#B" n="44" break="no"/>sistendi modo: ac de his, quae circa hoc 
+      sa<lb ed="#B" n="45" break="no"/>cramentum fiunt scilicet fractione, &amp; partium 
+      signi<lb ed="#B" n="46" break="no"/>ficatione, oblatione, &amp; frequentatione. 
+      <lb ed="#B" n="47"/>Et colligit sententia textus in sequentibus 
+      <lb ed="#B" n="48"/>tribus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v49326-d1e140">
+      ¶ Prima. 
+      Acci<lb ed="#B" n="49" break="no"/>dentia siue species post consecrationem 
+      <!--252.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>remanent sine subjecto: quae realiter 
+      fran<lb ed="#B" n="51" break="no"/>guntur in partes certo significationis 
+      <lb ed="#B" n="52"/>mysterio. Significant enim tres partes 
+      <lb ed="#B" n="53"/>fractionis triforme corpus christi: cuius 
+      <lb ed="#B" n="54"/>una parsiam surrexit beatifice regnans 
+      <lb ed="#B" n="55"/>cum christo: alia ambulat in terra: tertia 
+      <lb ed="#B" n="56"/>quiescit in sepulcro.
+    </p>
+            <p xml:id="gbs333-v49326-d1e164">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="57"/>Quod lacerdos gerit in altari: recte 
+      la<lb ed="#B" n="58" break="no"/>crificium, seu immolatio dicitur: quia 
+      <lb ed="#B" n="59"/>illius unici sacrificij in cruce 
+      immmola<lb ed="#B" n="60" break="no"/>ti memoria iteratur.
+    </p>
+            <p xml:id="gbs333-v49326-d1e175">
+      ¶ Tertia. In 
+      aug<lb ed="#B" n="61" break="no"/>mentum charitatis: &amp; medicinam quo 
+      <lb ed="#B" n="62"/>tidianae infirmitatis, secure quotidie 
+      <lb ed="#B" n="63"/>sumitur ab eo, qui post satisfactionem 
+      <lb ed="#B" n="64"/>pro praeteritis affectum subtrahit a 
+      pec<lb ed="#B" n="65" break="no"/>catis. Patet declaratio in textu.
+    </p>
+            <p xml:id="gbs333-v49326-d1e189">
+      ¶ 
+      Cir<lb ed="#B" n="66" break="no"/>ca hanc distinctio. quaeruntur duo, 
+      <lb ed="#B" n="67"/>Primum de accidentium subsistentia 
+      <lb ed="#B" n="68"/>actione, &amp; passione. Secundum de 
+      la<lb ed="#B" n="69" break="no"/>cramenti fructu, &amp; eius 
+      frequentatio<lb ed="#B" n="70" break="no"/>ne. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

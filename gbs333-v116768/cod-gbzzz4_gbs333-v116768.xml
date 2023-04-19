@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="476"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v116768"><!-- l4-d16q1 -->
+            <head xml:id="gbs333-v116768-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-v116768-Hd1e103" type="question-title">
+      Utrum partium paenitentie: quad 
+      sunt contritio cordis: 
+      confessio oris: et opis satisfactio: 
+      principalior sit interna 
+      contritio
+    </head>
+            <p xml:id="gbs333-v116768-d1e106">
+               <lb ed="#B" n="41"/>QVAESTIO I 
+      <lb ed="#B" n="42"/>VTrum partium paenitentie: quad 
+      <lb ed="#B" n="43"/>sunt contritio cordis: 
+      confes<lb ed="#B" n="44" break="no"/>sio oris: &amp; opis satisfactio: 
+      <lb ed="#B" n="45"/>principalior sit interna con 
+      <!--525.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="46" break="no"/>tritio.
+    </p>
+            <p xml:id="gbs333-v116768-d1e126">
+      ¶ Per tres artic. curret. q. solutio: 
+      <lb ed="#B" n="47"/>primus notabilium: secundus conclusionum: 
+      <lb ed="#B" n="48"/>tertius dubiorum.
+    </p>
+            <p xml:id="gbs333-v116768-d1e133">
+      ¶ Quantum ad primum 
+      <lb ed="#B" n="49"/>notandum, quod secundum praemissa. dist. 
+      <lb ed="#B" n="50"/>xiiij. poenitentia in genere dupliciter ac 
+      <lb ed="#B" n="51"/>cipitur, scilicet pro uirtute, uel eis actu. 
+      <lb ed="#B" n="52"/>aut consequente passione, &amp; hi multi: 
+      <lb ed="#B" n="53"/>plices sunt. Nam sic accipiendo est actus 
+      <lb ed="#B" n="54"/>passio, uel habitus ad punitionem 
+      pec<lb ed="#B" n="55" break="no"/>cati a se commissi uoluntarie ordinata, 
+      <lb ed="#B" n="56"/>uel ordinatus. Alio modo aecipitur 
+      pro<lb ed="#B" n="57" break="no"/>paenitentia, quae est sacramentum: &amp; sic 
+      <lb ed="#B" n="58"/>est absolutio sacerdotis confitentem ab 
+      <lb ed="#B" n="59"/>soluentis. horum declarationem quaere 
+      <lb ed="#B" n="60"/>ubi supra.
+    </p>
+            <p xml:id="gbs333-v116768-d1e163">
+      ¶ Secundo notandum, quod pars 
+      <lb ed="#B" n="61"/>alicuius accipitur dupliciter. Vno 
+      mo<lb ed="#B" n="62" break="no"/>do pro termino primae intentionis: &amp; 
+      <lb ed="#B" n="63"/>sic dupliciter. Vno modo multum 
+      large<lb ed="#B" n="64" break="no"/>pro eo, ex quo res constituitur: uel quod ad 
+      <lb ed="#B" n="65"/>rei conseruationem, uel naturalem 
+      ope<lb ed="#B" n="66" break="no"/>rationem requiritur: &amp; hoc modo etiam 
+      <lb ed="#B" n="67"/>humores in corpore humano 
+      existen<lb ed="#B" n="68" break="no"/>tes, scilicet sanguis colera, melancholia, 
+      <lb ed="#B" n="69"/>phlegma, dicuntur partes hominis: &amp; 
+      po<lb ed="#B" n="70" break="no"/>tentiae animae etiam apud eos, qui dicunt 
+      <lb ed="#B" n="71"/>eas esse distinctas ab anima: dicutur 
+      par<lb ed="#B" n="72" break="no"/>tes animae: unde. iij. de anima ait philo. 
+      <lb ed="#B" n="73"/>De partibus autem animae, &amp; hoc per 
+      par<lb ed="#B" n="74" break="no"/>tes intelligit aiae potentias: ut ibi patet: 
+      <lb ed="#B" n="75"/>etiam quandoque ea, quae habent ordinem, 
+      <lb ed="#B" n="76"/>uel adiunctionem ad aliquid, dicuntur 
+      <lb ed="#B" n="77"/>partes eius: &amp; sic beatus Tho. ij. ij. 
+      uirtu<lb ed="#B" n="78" break="no"/>tes adiunctas principalibus dicit earum 
+      <lb ed="#B" n="79"/>partes potentiales. Alio modo accipitur 
+      <lb ed="#B" n="80"/>magis propricipro illo, ex quo res 
+      compo<lb ed="#B" n="81" break="no"/>sita realiter constituitur. Et hae duplices: 
+      <lb ed="#B" n="82"/>quaedam essentiales, quae se habent ut  
+      <lb ed="#B" n="83"/>actus, &amp; potentia: &amp; sunt materia: &amp; 
+      for<lb ed="#B" n="84" break="no"/>ma compositi substantialis: quod ideo 
+      <lb ed="#B" n="85"/>additur, quia subjectum accidentis, &amp; 
+      acci<lb ed="#B" n="86" break="no"/>dens non sunt partes unius: quia ex 
+      sub<lb ed="#B" n="87" break="no"/>iecto accidente non constituitur aliquid 
+      <lb ed="#B" n="88"/>unum simpliciter: sed bene unum 
+      aggrega<lb ed="#B" n="89" break="no"/>tiue: &amp; huius aggregati possunt dici 
+      par<lb ed="#B" n="90" break="no"/>tes, sicut &amp; quilibet lapis de cumulo 
+      di<lb ed="#B" n="91" break="no"/>citur pars cumuli. Quaedam integrales: 
+      <lb ed="#B" n="92"/>&amp; sunt ex quibus totum integratur 
+      eius<lb ed="#B" n="93" break="no"/>dem rationis cum toto: ut sunt 
+      mem<lb ed="#B" n="94" break="no"/>bra animalis, &amp; partes graduales 
+      for<lb ed="#B" n="95" break="no"/>mae intensibilis: &amp; partes quantitatiuae 
+      <lb ed="#B" n="96"/>rei extensae: &amp; pro omnibus illis pars est 
+      <!--526.xml-->
+      <pb ed="#B" n="477"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>terminus primae intentionis Sed pro ter 
+      <lb ed="#B" n="2"/>mino secundae intentionis, terminus inse 
+      <lb ed="#B" n="3"/>rior dicitur pars sui superioris: &amp; haec 
+      di<lb ed="#B" n="4" break="no"/>cuntur partes subiectiua hoc modo 
+      spe<lb ed="#B" n="5" break="no"/>cies sunt partes generum, &amp; indiuidua 
+      <lb ed="#B" n="6"/>specierum: sic homo, bos, leo dicunt 
+      par<lb ed="#B" n="7" break="no"/>tes animalis, non quidem realis: quia 
+      nul<lb ed="#B" n="8" break="no"/>lius aialis realis homo, &amp; bos, ac leo sunt 
+      <lb ed="#B" n="9"/>partes. Ex illis. noe nullum animal, 
+      consti<lb ed="#B" n="10" break="no"/>tuitur: sed homo, bos, leo &amp;c. sunt 
+      par<lb ed="#B" n="11" break="no"/>tes animalis intentionales, siue animalis 
+      <lb ed="#B" n="12"/>intentionalis, idest intentiones siue 
+      con<lb ed="#B" n="13" break="no"/>ceptus illorum nominum siue uocum, 
+      ho<lb ed="#B" n="14" break="no"/>mo, hos, leo sunt partes subiectiuae, id est 
+      <lb ed="#B" n="15"/>species illius conceptus, seu uocis 
+      ani<lb ed="#B" n="16" break="no"/>mal.
+    </p>
+            <p xml:id="gbs333-v116768-d1e285">
+      ¶ Tertio notandum circa primam 
+      <lb ed="#B" n="17"/>partem poenitentiae, quaem ponitur 
+      contri<lb ed="#B" n="18" break="no"/>tio, quod licet uarie loquantur doc. de con 
+      <lb ed="#B" n="19"/>tritione diffiniendo, &amp; describendo eams: 
+      <lb ed="#B" n="20"/>in hoc tamen concordant: quod id, quod 
+      principa<lb ed="#B" n="21" break="no"/>lius requirie, ac essentialius ad pcti dese- 
+      <lb ed="#B" n="22"/>tionem ex parte paenitentis, est contritio. 
+      <lb ed="#B" n="23"/>Et inter talia requisita, quiplura sunt; 
+      pu<lb ed="#B" n="24" break="no"/>ta actus, habitus. passiones, quorum quod  
+      <lb ed="#B" n="25"/>libet quomdmque diciur paenitentia: detestatio 
+      pec<lb ed="#B" n="26" break="no"/>cati intelligitur nomine contritionis. 
+      <lb ed="#B" n="27"/>Illa enim essentialius se habet ad pcti re 
+      <lb ed="#B" n="28"/>missionem ex parte pctoris paenitentis, 
+      <lb ed="#B" n="29"/>quam sine ea non sit remissio peccati in 
+      a<lb ed="#B" n="30" break="no"/>dultis Et ipsa sola: si fuerit perfecta, sine 
+      <lb ed="#B" n="31"/>aliis sufficit, ut latius ostensum est. q. i. 
+      dis<lb ed="#B" n="32" break="no"/>xiiii. conclusione. v. Et licet coniter 
+      de<lb ed="#B" n="33" break="no"/>scribatur contritio: ut recitat Alex. par. 
+      <lb ed="#B" n="34"/>iiij. q.ixvij. memb. i. arti. j. &amp; posteum 
+      alij<lb ed="#B" n="35" break="no"/>Tho. Bonauen. &amp; caeteri: ut Pal. dis. xvij. 
+      <lb ed="#B" n="36"/>q. j. Est dolor pro peccato uoluntarie 
+      <lb ed="#B" n="37"/>assumptus cum proposito consitendi, &amp; 
+      <lb ed="#B" n="38"/>satis faciendi. Et etiam licet paenitentia 
+      <lb ed="#B" n="39"/>interior, quaeprincipalius accipitur 
+      pro<lb ed="#B" n="40" break="no"/>contritione a beato August. &amp; alijs 
+      di<lb ed="#B" n="41" break="no"/>citur dolor de peccatis commissis, 
+      ta<lb ed="#B" n="42" break="no"/>men: ibi dolor non accipitur pro 
+      pas<lb ed="#B" n="43" break="no"/>sione: sed actu.
+    </p>
+            <p xml:id="gbs333-v116768-d1e346">
+      ¶ Vnde notat Alexand. 
+      <lb ed="#B" n="44"/>loco alleg. arti. ii. quod dolor dicitur 
+      dupli<lb ed="#B" n="45" break="no"/>citer. Vno modo dissensus uoluntatis ab 
+      <lb ed="#B" n="46"/>ipso pcto. Alio modo passio resultans in 
+      <lb ed="#B" n="47"/>dissentiente ex illo dissensu. Dissensus 
+      au<lb ed="#B" n="48" break="no"/>tem iste est de essentia contritionis: 
+      passio<lb ed="#B" n="49" break="no"/>autem ipsa est effectus illius.
+    </p>
+            <p xml:id="gbs333-v116768-d1e362">
+      ¶ Et haec 
+      di<lb ed="#B" n="50" break="no"/>stinctio notanda est pro intellectu 
+      sen<lb ed="#B" n="51" break="no"/>tentiae doctorum dicentium contritio¬ 
+      <!--526.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nem esse dolorem: unde satis concordant: 
+      <lb ed="#B" n="53"/>quod contritio est actus uoluntatis scilicet 
+      dissen<lb ed="#B" n="54" break="no"/>sus seu displicentia commissi peccati: aut  
+      <lb ed="#B" n="55"/>nihil aliud est, quam uelle non peccasset 
+      <lb ed="#B" n="56"/>&amp; hunc regulariter sequitur dolor, 
+      siue<lb ed="#B" n="57" break="no"/>tristitia ut supra dictum est dist. xiiij. q. i. 
+      <lb ed="#B" n="58"/>Et haec tristitia passio est, &amp; non actus: 
+      <lb ed="#B" n="59"/>&amp; ideo non est corritio: sed effectus eius. 
+    </p>
+            <p xml:id="gbs333-v116768-d1e391">
+               <lb ed="#B" n="60"/>¶ Est aut haec dissensio, seu displicentia 
+      <lb ed="#B" n="61"/>duplex. Quaedam perfecta, &amp; sufficiens 
+      <lb ed="#B" n="62"/>ad dimissionem pcti scilicet qua est de omnibus pctis 
+      <lb ed="#B" n="63"/>commissis, &amp; debite circumstantionata: 
+      <lb ed="#B" n="64"/>praesertim circumstantia finis: de quo 
+      su<lb ed="#B" n="65" break="no"/>pra dist. xiiij. q. i. Alia est imperfecta non 
+      <lb ed="#B" n="66"/>sufficiens ex parte poenitentis ad 
+      remis<lb ed="#B" n="67" break="no"/>sionem peccati: uel propter obiectum: 
+      <lb ed="#B" n="68"/>quia non de est omnibus peccatis: uel 
+      <lb ed="#B" n="69"/>quia ordinatur in finem inhonestum: 
+      <lb ed="#B" n="70"/>uel quia caret circumstantia ultimi 
+      fi<lb ed="#B" n="71" break="no"/>nis: uel alia circumstantia requisita ad 
+      <lb ed="#B" n="72"/>actum perfectum moraliter bonum: &amp; 
+      <lb ed="#B" n="73"/>tunc uocatur attritio, quasi tritio 
+      im<lb ed="#B" n="74" break="no"/>perfecta, uel tritio in partes maiores. 
+      <lb ed="#B" n="75"/>perfecta uero displicentia dicitur 
+      con<lb ed="#B" n="76" break="no"/>tritio, quasi tritio omnium simulputa in 
+      <lb ed="#B" n="77"/>partes minutissimas, quod sit, quando est de 
+      <lb ed="#B" n="78"/>bibus pctis, &amp; secundum omnes 
+      circumstan<lb ed="#B" n="79" break="no"/>tias requisitas ad peccatorum remissionem. 
+      <lb ed="#B" n="80"/>Et attritio sempest informis: quomque inditf 
+      <lb ed="#B" n="81"/>ferens: quandoque uitiosa. Contritio uero 
+      <lb ed="#B" n="82"/>semper formata charitate: de quo supra 
+      <lb ed="#B" n="83"/>dist. xiiij. Haec de contritione 
+      comme<lb ed="#B" n="84" break="no"/>morasse sufficiat.
+    </p>
+            <p xml:id="gbs333-v116768-d1e448">
+      ¶ De confessione uero 
+      <lb ed="#B" n="85"/>quantum ad eius quidditatem, 
+      necessita<lb ed="#B" n="86" break="no"/>tem perfectionem &amp;c. dicetur distinct. 
+      <lb ed="#B" n="87"/>xvii. de satis factione uero. q. seq. Et 
+      tan<lb ed="#B" n="88" break="no"/>tum dearticulo primo.
+    </p>
+            <p xml:id="gbs333-v116768-d1e460">
+      ¶ Quantum ad 
+      ar<lb ed="#B" n="89" break="no"/>ticulum secundum est conclusio prima. 
+      <lb ed="#B" n="90"/>Accipiendo poenitentiam pro 
+      qualita<lb ed="#B" n="91" break="no"/>te simplici scilicet pro uirture, eius actus uel 
+      <lb ed="#B" n="92"/>passione, aut paena consequente, 
+      contri<lb ed="#B" n="93" break="no"/>tio, confessio, &amp; satis factio non sunt 
+      <lb ed="#B" n="94"/>partes paenitentiae proprit dictae. 
+      Proba<lb ed="#B" n="95" break="no"/>tur, quia paenitentia sic accepta est 
+      qua<lb ed="#B" n="96" break="no"/>litas simplex: talis autem non habet 
+      par<lb ed="#B" n="97" break="no"/>tes alterius rationis. Potest quidem qua 
+      <lb ed="#B" n="98"/>litas intensibilis habere partes 
+      eius<lb ed="#B" n="99" break="no"/>dem rationis, gradus scilicet, per quos 
+      <lb ed="#B" n="100"/>intenditur: ergo contritio, confessio, 
+      <lb ed="#B" n="101"/>&amp; satisfactio non sunt eius partes. Tenet 
+      <lb ed="#B" n="102"/>consequentia: quia non sunt eiusdem rationis: 
+      <!--527.xml-->
+      <pb ed="#B" n="478"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>immo sunt distinctae re, loco, subjecto, 
+      <lb ed="#B" n="2"/>&amp; duratione: &amp; ita non sunt partes unius 
+      <lb ed="#B" n="3"/>rei simplicis, qualis est penitentia sic ac 
+      <lb ed="#B" n="4"/>cepta.
+    </p>
+            <p xml:id="gbs333-v116768-d1e508">
+      ¶ Secunda conclusio. Accipiendo 
+      <lb ed="#B" n="5"/>paenitentiam aggrauatiue, pro omnibus illis 
+      <lb ed="#B" n="6"/>habitu, actu, passione: quaepossunt 
+      con<lb ed="#B" n="7" break="no"/>currere in ratione dispositionis ad 
+      re<lb ed="#B" n="8" break="no"/>missionem peccati perfectam, ex parte 
+      <lb ed="#B" n="9"/>poenitentis iustificandi, contritio, 
+      confes<lb ed="#B" n="10" break="no"/>sio, satisfactio, sunt partes huius 
+      aggre<lb ed="#B" n="11" break="no"/>gati. Patet conclusio, quia oia inclusa in 
+      <lb ed="#B" n="12"/>huiusmodi aggregato sunt partes eius: 
+      <lb ed="#B" n="13"/>sed in illo aggregato includuntur haec 
+      <lb ed="#B" n="14"/>tria. De contritioue manifestum est ex 
+      <lb ed="#B" n="15"/>supra declaratis dist. xiiij. de 
+      confessio<lb ed="#B" n="16" break="no"/>nesimiliter patet: quia 
+      compraehendi<lb ed="#B" n="17" break="no"/>tur sub passione paenali: habet enim 
+      an<lb ed="#B" n="18" break="no"/>nexam uerecundiam: quae magna 
+      poena<lb ed="#B" n="19" break="no"/>est peccatoris sua occuita homini 
+      mani<lb ed="#B" n="20" break="no"/>festantis: sic &amp; satis factio, quaut plurimum 
+      <lb ed="#B" n="21"/>opus est penale: ut sequem. q. dicetur.
+    </p>
+            <p xml:id="gbs333-v116768-d1e547">
+      ¶ Et  
+      <lb ed="#B" n="22"/>si quaeris: quales partes sunt penitentiae, 
+      <lb ed="#B" n="23"/>essentiales, uel integrales. Respondetur: 
+      <lb ed="#B" n="24"/>quod nec illae: nec istae: hae enim partes sunt 
+      <lb ed="#B" n="25"/>partes alicuius uerae unius. Poonitentia 
+      <lb ed="#B" n="26"/>autem illo modo accepta non est quid 
+      <lb ed="#B" n="27"/>unum simpliciter, sed unum 
+      aggregati<lb ed="#B" n="28" break="no"/>uum sunt autem partes aggregatiuae. 
+      <lb ed="#B" n="29"/>Tertia conclusio. Accipiendo partem 
+      <lb ed="#B" n="30"/>proprie, neque contritio: neque confessio: 
+      <lb ed="#B" n="31"/>neque satisfactio est pars penitentiae 
+      acce<lb ed="#B" n="32" break="no"/>ptae pro sacramento. Patet plane: quia sic 
+      <lb ed="#B" n="33"/>poenitentia realiter non est nisi sacerdo 
+      <lb ed="#B" n="34"/>talis absolutio consitentis: ut dictum est 
+      <lb ed="#B" n="35"/>dist. xiiij. q.ij. Absolutio autem est 
+      sen<lb ed="#B" n="36" break="no"/>tentia afacerdore promuigata: siue 
+      ma<lb ed="#B" n="37" break="no"/>gis proprie promulgatio sententiae: 
+      pu<lb ed="#B" n="38" break="no"/>ta haec uerba a sacerdote prolata. Absol 
+      <lb ed="#B" n="39"/>uote a peccatis tuis. Huius autem 
+      prola<lb ed="#B" n="40" break="no"/>tionis haec tria non sunt partes: patet, &amp; 
+      <lb ed="#B" n="41"/>specialiter de contritione: quia 
+      facra<lb ed="#B" n="42" break="no"/>mentum paenitentiae est signum sensibile: 
+      <lb ed="#B" n="43"/>contritio est in corde, idest uoluntate: 
+      <lb ed="#B" n="44"/>nullo sensucorporali sensibilis. Patet, &amp; 
+      <lb ed="#B" n="45"/>de satisfactione: quia non est simulcum 
+      <lb ed="#B" n="46"/>absolutione; sed sequitur eam, postquam 
+      <lb ed="#B" n="47"/>desiit, ergo non est pars eius: quia neces 
+      <lb ed="#B" n="48"/>se est partem simul esse cum toto, cuius 
+      <lb ed="#B" n="49"/>est pars, siue sit permanens, siue 
+      succes<lb ed="#B" n="50" break="no"/>siuum.
+    </p>
+            <p xml:id="gbs333-v116768-d1e612">
+      ¶ De utroque contritione, &amp; 
+      satis<lb ed="#B" n="51" break="no"/>factione patet simul: quia fine illis po¬ 
+      <!--527.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>test esse penitentia sacramentum: ut 
+      pa<lb ed="#B" n="53" break="no"/>ter de ficte paenitente, &amp; de satis 
+      factio<lb ed="#B" n="54" break="no"/>nem sibi impositam negligente. In utro 
+      <lb ed="#B" n="55"/>que uerum est sacramentum eius, 
+      scili<lb ed="#B" n="56" break="no"/>licet absolutio: licet deficiat res 
+      sacra<lb ed="#B" n="57" break="no"/>menti, scilicet peccati remissio: totum 
+      <lb ed="#B" n="58"/>autem non potest esse sine partibus suis 
+      <lb ed="#B" n="59"/>in actu. De confessione autem licet 
+      re<lb ed="#B" n="60" break="no"/>quiratur ad sicramentum penitentiae: quia 
+      <lb ed="#B" n="61"/>nemo absoluitur nisi acculatus. Accusa 
+      <lb ed="#B" n="62"/>tio autem sit confessione: non tamen 
+      <lb ed="#B" n="63"/>est pars absolutionis. Absolutio enim est 
+      <lb ed="#B" n="64"/>actus sacerdotis: sed confessio actus 
+      pec<lb ed="#B" n="65" break="no"/>catoris se coram sacerdote accusantis. 
+    </p>
+            <p xml:id="gbs333-v116768-d1e651">
+               <lb ed="#B" n="66"/>¶ Si tamen sacramentum poenitentiae 
+      <lb ed="#B" n="67"/>acciperetur pro his, quae requiruntur 
+      ne<lb ed="#B" n="68" break="no"/>cessario ad esse sacramenti: quae non sunt 
+      <lb ed="#B" n="69"/>unum simpliciter: sed unum 
+      aggregati<lb ed="#B" n="70" break="no"/>ue: quae sunt confessio peccatoris: 
+      abso<lb ed="#B" n="71" break="no"/>lutio sacerdotis: intentio utriusque illius 
+      <lb ed="#B" n="72"/>recipiendi: istius conferendi; quod 
+      inten<lb ed="#B" n="73" break="no"/>ditecelesia: istius aggregati, &amp; 
+      confes<lb ed="#B" n="74" break="no"/>sio uere est pars non essentialis: nec 
+      pro<lb ed="#B" n="75" break="no"/>prie integralis: sed aggregatiua: non con 
+      <lb ed="#B" n="76"/>tritio, nec satisfactio: ut satis patet. 
+    </p>
+            <p xml:id="gbs333-v116768-d1e677">
+               <lb ed="#B" n="77"/>¶ Quarta conclusio. Contritio, 
+      confes<lb ed="#B" n="78" break="no"/>sio, &amp; satisfactio sunt partes tam 
+      uirtu<lb ed="#B" n="79" break="no"/>tis, quam sacramenti paenitentiae: 
+      acci<lb ed="#B" n="80" break="no"/>piendo partes generaliter, &amp; improprie. 
+      <lb ed="#B" n="81"/>Probatur: quia quicquid requiritur, uel 
+      <lb ed="#B" n="82"/>conducit ad reiperfectionem in 
+      essen<lb ed="#B" n="83" break="no"/>do, uel operando, uel conseruando, 
+      di<lb ed="#B" n="84" break="no"/>citur illo modo pars rei: ut patet ex 
+      no<lb ed="#B" n="85" break="no"/>tatis in primo arti. Sed ad hoc ut 
+      perfe<lb ed="#B" n="86" break="no"/>cta sit paenitentia (quae tunc est perfecta, 
+      <lb ed="#B" n="87"/>dum consequitur finem suum perfecte 
+      <lb ed="#B" n="88"/>qui est perfecta remissio peccatorum) 
+      <lb ed="#B" n="89"/>requiruntur illa tria, in uoto, uel in 
+      a<lb ed="#B" n="90" break="no"/>ctu: siue penitentia accipiatur pro 
+      uirtu<lb ed="#B" n="91" break="no"/>te, siue sacramento: igitur. 
+      Consequen<lb ed="#B" n="92" break="no"/>tia nota cum maiori: sed minor quoad 
+      <lb ed="#B" n="93"/>contritionem ostensa est supra di. xiiij. 
+      <lb ed="#B" n="94"/>Quoad confessionem patebit distinct. 
+      <lb ed="#B" n="95"/>sequen. Quoad satisfactionem. q. sequem 
+      <lb ed="#B" n="96"/>ti. Et hoc etiam sic ostendi potest. 
+      Paeni<lb ed="#B" n="97" break="no"/>tentia includit, uel requirit penam 
+      uolun<lb ed="#B" n="98" break="no"/>tariam pro peccato: ut sit perfecta 
+      secun<lb ed="#B" n="99" break="no"/>dum nomen suum, paenitentia, idest 
+      pe<lb ed="#B" n="100" break="no"/>nae tenentia. Sed hos tres actus 
+      conco<lb ed="#B" n="101" break="no"/>mitatur paena pcti purgatiua, ergo. Mino 
+      <lb ed="#B" n="102"/>rem declarat Scot. distin. praesenti. q. i. 
+      <!--528.xml-->
+      <pb ed="#B" n="479"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>hoc modo. Iustitia commutatiua 
+      uni<lb ed="#B" n="2" break="no"/>uersaliter respicit aequalitatem in 
+      com<lb ed="#B" n="3" break="no"/>mutatione non rei: sed magis secundum 
+      <lb ed="#B" n="4"/>rectam rationem: ergo hoc modo 
+      iusti<lb ed="#B" n="5" break="no"/>tia punitiua (quae est quaedam commuta 
+      <lb ed="#B" n="6"/>tiua in punitione) respicit penam aequa 
+      <lb ed="#B" n="7"/>lem, siue commensuratam cuipae 
+      secun<lb ed="#B" n="8" break="no"/>dum rectam rationem illius legis: 
+      secun<lb ed="#B" n="9" break="no"/>dum quam est uindicatiua. Lex autem 
+      <lb ed="#B" n="10"/>illa, secundum quam paenitentia est 
+      uin<lb ed="#B" n="11" break="no"/>dicatiua, dictat culpam debere ordinari 
+      <lb ed="#B" n="12"/>per penam intrinsecam tristitiae: &amp; per 
+      pae<lb ed="#B" n="13" break="no"/>nam extrinsecam duplicem, uerecundiae 
+      <lb ed="#B" n="14"/>scilicet &amp; afflictionis, siue laboris 
+      corpo<lb ed="#B" n="15" break="no"/>ralis: sicut colligitur ex diuersis scriptu 
+      <lb ed="#B" n="16"/>ris, quae continent legem illam: ergo 
+      pe<lb ed="#B" n="17" break="no"/>na illa, seu illud punire integratur ex 
+      tri<lb ed="#B" n="18" break="no"/>bus poenis. Et similiter causa proxima 
+      <lb ed="#B" n="19"/>istius penae oportet: quod integretur ex 
+      cau<lb ed="#B" n="20" break="no"/>sis propriis istarum poenarum: causa 
+      au<lb ed="#B" n="21" break="no"/>tem propria tristitiae interioris est con 
+      <lb ed="#B" n="22"/>tritio siue detestatio peccati a se 
+      com<lb ed="#B" n="23" break="no"/>missi, quae psupponit eius consideratio 
+      <lb ed="#B" n="24"/>nem. Causa uero proxima erubescentiae 
+      <lb ed="#B" n="25"/>est confessio: ubi peccatum occultum 
+      <lb ed="#B" n="26"/>pro palatur homini. Causa propria 
+      tenen<lb ed="#B" n="27" break="no"/>tiae penae, est opus aliquod laboriosum, 
+      ue<lb ed="#B" n="28" break="no"/>paenale. Sicut ergo paena perfecta corre 
+      <lb ed="#B" n="29"/>spondens culpae secundum iustitiam 
+      uin<lb ed="#B" n="30" break="no"/>dicatiuam, habet tres poenas partiales, quam 
+      <lb ed="#B" n="31"/>sunt partes uniuspunitionis perfecte (eo 
+      <lb ed="#B" n="32"/>modo quo tres restitutiones essent 
+      par<lb ed="#B" n="33" break="no"/>tes unius restitutionis perfectae illi, 
+      qui<lb ed="#B" n="34" break="no"/>fuisset tripliciter damnificatus) ita tres 
+      <lb ed="#B" n="35"/>actus, ad quos sequuntur istae tres perso 
+      <lb ed="#B" n="36"/>nae, sunt partes unius causae sufficientis 
+      <lb ed="#B" n="37"/>proximi respectu paenae condignae Haec 
+      <lb ed="#B" n="38"/>Sco. Et quoniam ad perfectionem 
+      poeni<lb ed="#B" n="39" break="no"/>tentiae requiruntur causae punitionis: &amp; 
+      <lb ed="#B" n="40"/>ipsa punitio, patet, quod contritio, 
+      confes<lb ed="#B" n="41" break="no"/>uo, &amp; satisfactio sunt partes 
+      poeniten<lb ed="#B" n="42" break="no"/>tie tam uirtutis, quam sacramenti illo 
+      <lb ed="#B" n="43"/>modo generali accipiendo partes.
+    </p>
+            <p xml:id="gbs333-v116768-d1e837">
+      ¶ 
+      Quin<lb ed="#B" n="44" break="no"/>ta conclusio. Accipiendo paenitentiam 
+      <lb ed="#B" n="45"/>pro omni eo, quod expartepoen tentis 
+      <lb ed="#B" n="46"/>requititur ad remissionem culpae, 
+      con<lb ed="#B" n="47" break="no"/>tritio, confeseio, &amp; satisfactio sunt 
+      par<lb ed="#B" n="48" break="no"/>tes eius subiectiuae. Patet conclusio: quia 
+      <lb ed="#B" n="49"/>sic accipiendo nomen poenitentiae: 
+      pae<lb ed="#B" n="50" break="no"/>nitentia est genus, siue totum 
+      uniuer<lb ed="#B" n="51" break="no"/>sale ad omnes habitus, actus, passiones, 
+      <!--528.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sacramentum: &amp; quaecunque ordinata 
+      ex<lb ed="#B" n="53" break="no"/>parte paenitentis ad remissionem 
+      pecca<lb ed="#B" n="54" break="no"/>torum: sic enimpoenitentia generaliter  
+      <lb ed="#B" n="55"/>est actus, habitus, passio aut lacim, 
+      an<lb ed="#B" n="56" break="no"/>tecedens ipsum, uel consequens ordina 
+      <lb ed="#B" n="57"/>tum ex parte poenitentis ad perfectam 
+      <lb ed="#B" n="58"/>remissionem peccatorum: &amp; ita sub se 
+      <lb ed="#B" n="59"/>compraehendit species, seu partes subie 
+      <lb ed="#B" n="60"/>ctiuas, hos terminos contritio: 
+      confes<lb ed="#B" n="61" break="no"/>sio satis factio, quae important certos 
+      a<lb ed="#B" n="62" break="no"/>ctus, habitus aut passiones, seu poenas 
+      pae<lb ed="#B" n="63" break="no"/>nitentis ad remissionem peccatorum 
+      <lb ed="#B" n="64"/>ordinatas: &amp; per consequens sunt 
+      poeni<lb ed="#B" n="65" break="no"/>tentiae species seu partes subiectiuae.
+    </p>
+            <p xml:id="gbs333-v116768-d1e892">
+      ¶ 
+      Sex<lb ed="#B" n="66" break="no"/>ta conclusio, &amp; responsalis ad titulum 
+      <lb ed="#B" n="67"/>quaestionis. Interpartes poenitentiae 
+      no<lb ed="#B" n="68" break="no"/>minatas in quaestionis titulo, 
+      principa<lb ed="#B" n="69" break="no"/>lior est uera cordis contritio. Probatur 
+      <lb ed="#B" n="70"/>conclusio: nam illa est pars principalior, 
+      <lb ed="#B" n="71"/>perquam magis, &amp; principalius conse- 
+      <lb ed="#B" n="72"/>quitur finis paenitentiae, scilicet 
+      pecca<lb ed="#B" n="73" break="no"/>torum remiisio: talis autem est 
+      contri<lb ed="#B" n="74" break="no"/>tio: Minor patet: quia ad solam cordis 
+      <lb ed="#B" n="75"/>contritionem sequitur remissio 
+      pecca<lb ed="#B" n="76" break="no"/>torum, etiam sine alijs. Et ita sola in 
+      a<lb ed="#B" n="77" break="no"/>ctu sufficit: caeterae uero sine 
+      contritio<lb ed="#B" n="78" break="no"/>ne non sufficiunt: ut declaratum est 
+      la<lb ed="#B" n="79" break="no"/>te. q. i. dist. xiiij. &amp; repetitum supra art. j. 
+      <lb ed="#B" n="80"/>Et tantum de arti ij.
+    </p>
+            <p xml:id="gbs333-v116768-d1e927">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="81" break="no"/>culum tertium dubitatur primo: utrum 
+      <lb ed="#B" n="82"/>attritio sit pars contritionis: &amp; uidetur 
+      <lb ed="#B" n="83"/>quod sic: nam in progressione ab 
+      imperfe<lb ed="#B" n="84" break="no"/>cto ad perfectum in qualitatibus 
+      inten<lb ed="#B" n="85" break="no"/>sibilibus, imperfectum est pars perfecti: 
+      <lb ed="#B" n="86"/>ut exempli gratia: intendatur gratia 
+      seu<lb ed="#B" n="87" break="no"/>charitas, ut duo, &amp; fiatur quatuor: 
+      cha<lb ed="#B" n="88" break="no"/>ritas imperfecta duorum graduum 
+      ima<lb ed="#B" n="89" break="no"/>net in charitate quatuor graduum: &amp; ex 
+      <lb ed="#B" n="90"/>pars eius charitatis: ut quatuor: ut 
+      habi<lb ed="#B" n="91" break="no"/>tum est in. j. dist. vii. Sed contritio tam 
+      <lb ed="#B" n="92"/>actualis, quam habitualis est qualitas in 
+      <lb ed="#B" n="93"/>tensa: &amp; perfecta peccatidetestatio: 
+      at<lb ed="#B" n="94" break="no"/>tritio uero est qualitas remissa: &amp; imper 
+      <lb ed="#B" n="95"/>fecta peccat: detestatio: intendatur 
+      er<lb ed="#B" n="96" break="no"/>go: ut fiat contritio, non corrumpitur, 
+      <lb ed="#B" n="97"/>quod praefuit: sed manet: ergo 
+      attri<lb ed="#B" n="98" break="no"/>tio quae praefuit, erit pars 
+      contritio<lb ed="#B" n="99" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-v116768-d1e971">
+      ¶ In oppositum: attritio specie 
+      <lb ed="#B" n="100"/>difsert a contritione: sicut formatum a 
+      <lb ed="#B" n="101"/>non sor mato, ergo non est pais 
+      contri<lb ed="#B" n="102" break="no"/>tionis, alioquin contritio non ellet qua 
+      <!--529.xml-->
+      <pb ed="#B" n="480"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>litas simplex: sed composita ex partibus 
+      <lb ed="#B" n="2"/>diuersarum specierum.
+    </p>
+            <p xml:id="gbs333-v116768-d1e991">
+      ¶ Pro solutione dubij 
+      <lb ed="#B" n="3"/>notandum: quod praeter opi. Sco. de 
+      attritio<lb ed="#B" n="4" break="no"/>ne, &amp; contritione (supra dist. xiiij. q. i. 
+      re<lb ed="#B" n="5" break="no"/>citatam, &amp; impugnatam: &amp; ideo hic 
+      <lb ed="#B" n="6"/>omissam) est opinio Alex. part. iiij. q. 
+      <lb ed="#B" n="7"/>Ixxiiij. quem sequitur sanctus Bonauem. 
+      <lb ed="#B" n="8"/>in. iiij dist. praesenti: qui distinguit de 
+      a<lb ed="#B" n="9" break="no"/>tritione similiter, &amp; contritione actu, 
+      <lb ed="#B" n="10"/>&amp; habitu. Actus attritionis, &amp; 
+      contritio<lb ed="#B" n="11" break="no"/>nis potest esse idem unitate 
+      continua<lb ed="#B" n="12" break="no"/>tionis, &amp; naturae, sed non moris. Sic idem 
+      <lb ed="#B" n="13"/>specie differunt, &amp; sunt a diuersis 
+      prin<lb ed="#B" n="14" break="no"/>cipiis. Attritio a timore seruili, &amp; gratia 
+      <lb ed="#B" n="15"/>gratis data. Contritio a timore initiali, &amp; 
+      <lb ed="#B" n="16"/>gratia gratum faciente: &amp; ideo attritic 
+      <lb ed="#B" n="17"/>non est pars contritionis: nec potest 
+      fie<lb ed="#B" n="18" break="no"/>ri cotritio: licet attritio, &amp; contritio 
+      pos<lb ed="#B" n="19" break="no"/>sint esse partes unius motus naturalis. 
+      <lb ed="#B" n="20"/>Et esse pot, esse imaginatio huius 
+      opi<lb ed="#B" n="21" break="no"/>nionis, quod motus, quo mouetur uoluntas 
+      <lb ed="#B" n="22"/>displicenter in peccatu, quam est nolle 
+      pec<lb ed="#B" n="23" break="no"/>casse, est actus transiens, &amp; successiuus. 
+      <lb ed="#B" n="24"/>Potest autem incipere continuari, &amp; 
+      <lb ed="#B" n="25"/>ita habere partes sibi Succedentes, quae 
+      <lb ed="#B" n="26"/>propter sui continuationem constituunt 
+      <lb ed="#B" n="27"/>unum motum, &amp; unum uelle in specie 
+      <lb ed="#B" n="28"/>naturae: possunt tamen partes illae continua 
+      <lb ed="#B" n="29"/>ri ex diuersis causis finalibus: ut gratia 
+      <lb ed="#B" n="30"/>exepli: potest quis nolle peccasse propter 
+      pe<lb ed="#B" n="31" break="no"/>nam inferni tamen: &amp; post idem uelle 
+      con<lb ed="#B" n="32" break="no"/>tinuare propter amorem dei, cui peccatum 
+      con<lb ed="#B" n="33" break="no"/>trariatur: tunc qudem est idem uelle: quia 
+      re<lb ed="#B" n="34" break="no"/>spectu eiusdem obiecti: puta peccatorum 
+      <lb ed="#B" n="35"/>eorundem in genere naturae. Et istius 
+      <lb ed="#B" n="36"/>uelle pars prior est attritio: posterior 
+      <lb ed="#B" n="37"/>contritio. Et quia partes transeunt, nec 
+      <lb ed="#B" n="38"/>sunt simul: una non potest: fieri alia: &amp; 
+      <lb ed="#B" n="39"/>inter se differunt specie non naturae: sed  
+      <lb ed="#B" n="40"/>moris.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1076">
+      ¶ Videtur tamen posse concedi secundum 
+      il<lb ed="#B" n="41" break="no"/>lam. opi. licet ipsi, quorum est, non concedant: 
+      <lb ed="#B" n="42"/>quod totus ille motus in esse naturae primo 
+      <lb ed="#B" n="43"/>est attritio: postea contritiorsed secundum 
+      di<lb ed="#B" n="44" break="no"/>uersas suas partes: sicut in simili quis in 
+      <lb ed="#B" n="45"/>cipit intrare ecclesiam intentione furandi 
+      <lb ed="#B" n="46"/>in ea: continuato itinere mutat 
+      intentio<lb ed="#B" n="47" break="no"/>nem: &amp; continuat motum intentione 
+      con<lb ed="#B" n="48" break="no"/>fitendi peccatum suum, &amp; paenitendi: ille 
+      mo<lb ed="#B" n="49" break="no"/>tus tram seundiidem motus est in esse 
+      natu<lb ed="#B" n="50" break="no"/>rae: &amp; tamen primo est uitiosus: &amp; post uirtuo 
+      <lb ed="#B" n="51"/>sus propter mutatas circumstantias finis: 
+      <!--529.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>&amp; secundum diuersas partes: licet denique para 
+      <lb ed="#B" n="53"/>prima uitio sa non sit pars seda uirtuosa: 
+      <lb ed="#B" n="54"/>totus tamen moti sortitur nomina utriusque;  
+      <lb ed="#B" n="55"/>partis: &amp; de uitioso sit uirtuosus: ita in 
+      <lb ed="#B" n="56"/>proposito. Sed de habitu dicunt: quia est 
+      <lb ed="#B" n="57"/>qualitas permanens: ideo primo potest 
+      <lb ed="#B" n="58"/>esse sine gratia: &amp; sic est attritio: &amp; potest 
+      <lb ed="#B" n="59"/>postea formati gratia: &amp; tunc erit 
+      con<lb ed="#B" n="60" break="no"/>trio. Est tamen idem habitus inclinans 
+      semp<lb ed="#B" n="61" break="no"/>ad eundem actum scilicet nolle peccasse: licet  
+      <lb ed="#B" n="62"/>circumstantia finis uarietur.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1131">
+      ¶ Ista 
+      opi<lb ed="#B" n="63" break="no"/>nio apparentiam quandam habet: sed 
+      fun<lb ed="#B" n="64" break="no"/>datur in falsa imaginatione: nam ut 
+      di<lb ed="#B" n="65" break="no"/>ctum est in iij. dist. xxiij magnadisteren 
+      <lb ed="#B" n="66"/>tia est inter actum uoluntatis elicitum, 
+      <lb ed="#B" n="67"/>&amp; imperatum quoad eius bonitatem, uel 
+      <lb ed="#B" n="68"/>malitiam: nam actus elicitus est intrinse 
+      <lb ed="#B" n="69"/>ce uitiosus, aut uirtuosus &amp; ideo mutari 
+      <lb ed="#B" n="70"/>non potest, ut primo sit uitiosus: &amp; post 
+      <lb ed="#B" n="71"/>uirtuosus. uel econuersosaltem 
+      natura<lb ed="#B" n="72" break="no"/>liter: quoniam secundum Ockam 
+      cir<lb ed="#B" n="73" break="no"/>cumstantiae, &amp; maxime finis, sunt obie- 
+      <lb ed="#B" n="74"/>cta actus eliciti: &amp; ideo mutata 
+      circun<lb ed="#B" n="75" break="no"/>stantia prior actus elicitus non continua 
+      <lb ed="#B" n="76"/>tur, sed nonus elicitur: nedum nouus 
+      nu<lb ed="#B" n="77" break="no"/>mero: sed specie. Nam uelle aliquid pro 
+      <lb ed="#B" n="78"/>pter uitare paenamn: &amp; uelle prper consequa glo 
+      <lb ed="#B" n="79"/>riam, uel propter amorem dei id 
+      praecipien<lb ed="#B" n="80" break="no"/>tis: sunt diuersi actus specie etiam in 
+      spen<lb ed="#B" n="81" break="no"/>naturae. Et quoniam attritio, &amp; contritio 
+      <lb ed="#B" n="82"/>sunt actus eliciti, habentes diuersa obie- 
+      <lb ed="#B" n="83"/>cta: quia diuersos fines: ideo differunt 
+      <lb ed="#B" n="84"/>specie: nec unus fieripot alter: nec 
+      am<lb ed="#B" n="85" break="no"/>bo partes unius cum ista tamen stare potest, 
+      <lb ed="#B" n="86"/>ut patuit in. j. dist. j. q. j. quod eiusdem actus 
+      <lb ed="#B" n="87"/>possunt esse plura obiecta ordinata &amp;c. 
+      <lb ed="#B" n="88"/>Huius etiam opi. credo fuisse Pe. de pal. 
+      <lb ed="#B" n="89"/>cum inquit dist. xvij. q. i. arti. j. raensurus 
+      <lb ed="#B" n="90"/>ad dubiu: utrum attritio possit fieri 
+      con<lb ed="#B" n="91" break="no"/>tritio. ait enim, quod ex attritione potest 
+      <lb ed="#B" n="92"/>fieri contritio: sicut ex mane sit meridies 
+      <lb ed="#B" n="93"/>idest unus actus sit post alium, &amp; unus est 
+      <lb ed="#B" n="94"/>dispositio ad alium. Exeplificat de 
+      natu<lb ed="#B" n="95" break="no"/>ralibus, in qubus sit processus ab 
+      imperfe<lb ed="#B" n="96" break="no"/>cto ad perfectum, dehinc ait. Sic potest 
+      ho<lb ed="#B" n="97" break="no"/>mo dolere imperfecte sine gratia, &amp; est 
+      <lb ed="#B" n="98"/>attritio: postea prfecte, &amp; cu gratia, &amp; est 
+      <lb ed="#B" n="99"/>contritio: hinc concludit cum scto 
+      Tho<lb ed="#B" n="100" break="no"/>quod idem actus numero non potest esse 
+      con<lb ed="#B" n="101" break="no"/>tritio, &amp; attritio.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1218">
+      ¶ Falsum etiam est; quod 
+      <lb ed="#B" n="102"/>actus attritionis, &amp; contritionis sint mo¬ 
+      <!--530.xml-->
+      <pb ed="#B" n="481"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tus successiui, quodque illi actus habeant 
+      <lb ed="#B" n="2"/>partes sese succedentes: quoniam sicut  
+      <lb ed="#B" n="3"/>actus intellectus, quem uocamus 
+      conce<lb ed="#B" n="4" break="no"/>ptum (uel uerius cognitionem) ita &amp; 
+      a<lb ed="#B" n="5" break="no"/>ctus uoluntatis, quod sunt uelle, nolle, sunt 
+      <lb ed="#B" n="6"/>qualitates simplices permanentes, quae 
+      <lb ed="#B" n="7"/>habent esse suum totum simul, sine 
+      suc<lb ed="#B" n="8" break="no"/>cessione partium in esse pmanenti: licet  
+      <lb ed="#B" n="9"/>habere possint partes successiuas i fieri, 
+      <lb ed="#B" n="10"/>paesent enim successiue intendi: partes tamen 
+      <lb ed="#B" n="11"/>successiue acquisitae manent simul, nam 
+      <lb ed="#B" n="12"/>sicut eadem uisio intellectualis: sic idem 
+      <lb ed="#B" n="13"/>uelle permanet, &amp; continuari potest 
+      si<lb ed="#B" n="14" break="no"/>ne partium successione: &amp; si habent 
+      par<lb ed="#B" n="15" break="no"/>res graduales: illae tamen sunt simul. 
+      Qu<lb ed="#B" n="16" break="no"/>etiam de habitu admittunt, quod idem 
+      ha<lb ed="#B" n="17" break="no"/>bitus sit attritionis primo: &amp; post 
+      assi<lb ed="#B" n="18" break="no"/>stente gratia sit contritionis: non est 
+      ue<lb ed="#B" n="19" break="no"/>rum: quia distinctio habituum sequitur 
+      di<lb ed="#B" n="20" break="no"/>stinctionem actuum, ex quibus generant: ut 
+      <lb ed="#B" n="21"/>patuit in primo in prologo: &amp; ideo actum 
+      <lb ed="#B" n="22"/>specie distinctorum nunquam potest esse idem 
+      <lb ed="#B" n="23"/>habitus secundum speciem: &amp; ideo sicut  
+      <lb ed="#B" n="24"/>uariata circumstantia uariatur acti. elicitus 
+      <lb ed="#B" n="25"/>secundum spem, ita &amp; habitus uariant 
+      spen<lb ed="#B" n="26" break="no"/>Alius. n. est habitus inclinans ad odiendum 
+      <lb ed="#B" n="27"/>pctum propter aeternandamnationem. 
+      Alis<lb ed="#B" n="28" break="no"/>(scum spem) quiinclinat ad odium 
+      pcti<lb ed="#B" n="29" break="no"/>propter deum dilectum: sicut &amp; actus, ad 
+      <lb ed="#B" n="30"/>quos inclinat differunt spe. Actus uero 
+      inm<lb ed="#B" n="31" break="no"/>perati sunt extrinsece, &amp; accidentaliter 
+      <lb ed="#B" n="32"/>uitiosi, &amp; uirtuosi &amp; denominatione ex 
+      <lb ed="#B" n="33"/>trinseca: &amp; respectu horum finis est 
+      cir<lb ed="#B" n="34" break="no"/>cumstantia, &amp; hipossunt mutari, ut in 
+      <lb ed="#B" n="35"/>primo siut uirtuosi: doinde uitiosi, uel 
+      <lb ed="#B" n="36"/>econuerso: sicut actus uindicandi 
+      pecca<lb ed="#B" n="37" break="no"/>tum (puta punire peccatum, uel sustinere 
+      <lb ed="#B" n="38"/>penam inflictam) est actus imperatus: &amp; 
+      <lb ed="#B" n="39"/>ille potest continuari idem nuento: sicut eadem 
+      <lb ed="#B" n="40"/>pena potest continuaridiuersis tamen finibus: &amp; 
+      <lb ed="#B" n="41"/>ita fieri ex uitioso uirtuosus.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1318">
+      ¶ Et pr hoc 
+      <lb ed="#B" n="42"/>patet: quod exemplum de transitu ad 
+      eccle<lb ed="#B" n="43" break="no"/>siam non est ad propositum: quam transire, 
+      <lb ed="#B" n="44"/>est actus imperatus, qui propter uariatio 
+      <lb ed="#B" n="45"/>nem circumstantiarum manens idem in 
+      <lb ed="#B" n="46"/>spen naturae: uariat secundum spem moris. 
+      <lb ed="#B" n="47"/>Sed si ponatur exemplum de actu 
+      elici<lb ed="#B" n="48" break="no"/>to scilicet uelle ire ad ecclesiam propter fura 
+      <lb ed="#B" n="49"/>ri, &amp; post uelle ire propter confiteri: 
+      ibi<lb ed="#B" n="50" break="no"/>sunt duo actus uoluntatis: duo scilicet 
+      <lb ed="#B" n="51"/>uelle etiam secundum sui substantia spen¬ 
+      <!--530.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>differentes.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1349">
+      ¶ Et per hoc patet 
+      responsio<lb ed="#B" n="53" break="no"/>ad dubium negatiua, scilicet, quod 
+      attri<lb ed="#B" n="54" break="no"/>tio non est pars contritionis: nec 
+      fieri<lb ed="#B" n="55" break="no"/>potest contritio, sed specie dissert ab ea, ut  
+      <lb ed="#B" n="56"/>patet ex declaratis: &amp; ita etiam sentit 
+      Pal<lb ed="#B" n="57" break="no"/>ubi supra.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1362">
+      ¶ Et ad rationem ante 
+      opposi<lb ed="#B" n="58" break="no"/>tum dicitur, quod maior uera est: dum 
+      pro<lb ed="#B" n="59" break="no"/>gressus ille fiat in gradibus eiusdem 
+      spe<lb ed="#B" n="60" break="no"/>cie, &amp; qualitatis: secus si imperfectum 
+      <lb ed="#B" n="61"/>fuerit alterius speciei: ut quando sit 
+      pro<lb ed="#B" n="62" break="no"/>gressus a dispositione ad formam 
+      alte<lb ed="#B" n="63" break="no"/>rius speciei. Similiter ad minorem 
+      di<lb ed="#B" n="64" break="no"/>citur, quod attritio non potest intendi 
+      <lb ed="#B" n="65"/>ad perfectionem contritionis, etsi in 
+      iu<lb ed="#B" n="66" break="no"/>finitum intenderetur: quia quantumcumque;  
+      <lb ed="#B" n="67"/>qualitas intendatur, semper manet in ea 
+      <lb ed="#B" n="68"/>dem specie: &amp; ideo per intensionem 
+      quali<lb ed="#B" n="69" break="no"/>tas non mutat spem. In proposito autem 
+      <lb ed="#B" n="70"/>contritio specie differt ab attritione, io 
+      <lb ed="#B" n="71"/>attritio per quantamcunque intensionem non 
+      <lb ed="#B" n="72"/>potest fieri contritio.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1397">
+      ¶ Secundo 
+      dubita<lb ed="#B" n="73" break="no"/>tur de obiecto contritionis: utrum de 
+      <lb ed="#B" n="74"/>omni peccato, &amp; peccati sequela 
+      ne<lb ed="#B" n="75" break="no"/>cessaria sit contritio. Hoc dubium Alex 
+      <lb ed="#B" n="76"/>&amp; post eum Tho. dist. xviij. q. iij. in multas 
+      <lb ed="#B" n="77"/>quaestiunculas partiuntur, qurentes, utrum 
+      <lb ed="#B" n="78"/>contritio esse debeat de poenis pctorum de 
+      <lb ed="#B" n="79"/>omnibus peccatis, originali, actuali, 
+      mor<lb ed="#B" n="80" break="no"/>tali, &amp; ueniali, praeteritis, futuris, 
+      igno<lb ed="#B" n="81" break="no"/>tis, oblitis, proprijs, &amp; proximorum, &amp; 
+      <lb ed="#B" n="82"/>singulariter: singulas soluunt non sine 
+      <lb ed="#B" n="83"/>multa obscuritate. Pal. per paucas 
+      con<lb ed="#B" n="84" break="no"/>clusiones respondet dist. xvij. q. ii. ar. ij. 
+    </p>
+            <p xml:id="gbs333-v116768-d1e1427">
+               <lb ed="#B" n="85"/>¶ Sed ne idem saepius dicatur, hic duo 
+      <lb ed="#B" n="86"/>sunt rememoranda. Primum: quod 
+      poeni<lb ed="#B" n="87" break="no"/>tentia, quae uirtus est, non est sine 
+      con<lb ed="#B" n="88" break="no"/>tritione: immo est ipsa contritio: ut 
+      ha<lb ed="#B" n="89" break="no"/>bitum est. dist. xiiij. Secundum: quod 
+      confes<lb ed="#B" n="90" break="no"/>sio, quam praereurit sacramentum penitentiae; 
+      <lb ed="#B" n="91"/>inefficax est ad remissionem pctiper 
+      abio<lb ed="#B" n="92" break="no"/>lutionem sacramentale, consequendam, 
+      <lb ed="#B" n="93"/>uel gratiam augendam sine contritione 
+      <lb ed="#B" n="94"/>peccatorum confessorum.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1451">
+      ¶ Quibus 
+      praemis<lb ed="#B" n="95" break="no"/>sis tandetur per unicam propositionem, quod 
+      <lb ed="#B" n="96"/>omnium pectorum, adquorum remissionem 
+      <lb ed="#B" n="97"/>necessaria est paenitentia, &amp; sacramenta 
+      <lb ed="#B" n="98"/>lis confessio in uoto, uel actu: etiam 
+      ne<lb ed="#B" n="99" break="no"/>cessaria est contritio, &amp; solumtalium: 
+      nisi<lb ed="#B" n="100" break="no"/>forte quis propter impotentiam loquem 
+      <lb ed="#B" n="101"/>di, aut confessoris absentiam, aut simile 
+      <lb ed="#B" n="102"/>impedimentum excusaretur a uocali con¬ 
+      <!--531.xml-->
+      <pb ed="#B" n="482"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>fessione, potens tamen elicere 
+      contri<lb ed="#B" n="2" break="no"/>tionem: tunc talis teneretur conteri de 
+      <lb ed="#B" n="3"/>peccato: &amp; non consiteri in actu, quam 
+      <lb ed="#B" n="4"/>uis teneretur confiteri in uoro. Hoc 
+      pa<lb ed="#B" n="5" break="no"/>ter: quia confessio in uoto includitur in 
+      <lb ed="#B" n="6"/>contritione. In quibus autem 
+      paeniten<lb ed="#B" n="7" break="no"/>tia sit necessaria: partim dictum est dist. 
+      <lb ed="#B" n="8"/>xiiij. &amp; adhuc dicetur, praesertim quoad 
+      <lb ed="#B" n="9"/>uenialia; quorum autem peccatorum, &amp; 
+      <lb ed="#B" n="10"/>circumstantiarum necessaria sit 
+      confes<lb ed="#B" n="11" break="no"/>sio dicetur dist. sequenti.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1501">
+      ¶ Ex quibus 
+      eli<lb ed="#B" n="12" break="no"/>ci possunt particulares responsiones ad 
+      <lb ed="#B" n="13"/>singulas quaestiunculas in dubio motas: 
+      <lb ed="#B" n="14"/>ad quas Pal. respondet quinque 
+      proposi<lb ed="#B" n="15" break="no"/>cionibus. Prima: contritio est de solo 
+      <lb ed="#B" n="16"/>malo culpae. Secunda: contritio est de 
+      so<lb ed="#B" n="17" break="no"/>lo peccato actuali. Tertia: contritio est 
+      <lb ed="#B" n="18"/>solum de peccato proprio. Quarta: 
+      con<lb ed="#B" n="19" break="no"/>tritio est solum de peccato praeterito. 
+      <lb ed="#B" n="20"/>Quinta: contritio debet esse de 
+      quoli<lb ed="#B" n="21" break="no"/>bet mortali, si in speciali habeatur 
+      me<lb ed="#B" n="22" break="no"/>moria: de uenialibus uero sufficit in 
+      ge<lb ed="#B" n="23" break="no"/>nerali. Possent moueri dubia de quanti 
+      <lb ed="#B" n="24"/>tate intensiua contritionis: quando 
+      sci<lb ed="#B" n="25" break="no"/>licet debeat esse contritio, an maxima, 
+      <lb ed="#B" n="26"/>sed de hoc habitum est supra distinct, 
+      <lb ed="#B" n="27"/>xiiij. q.ii.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1538">
+      ¶ Similiter de quantitate 
+      dura<lb ed="#B" n="28" break="no"/>tionis dictum est supra eadem dist. xiiij. 
+      <lb ed="#B" n="29"/>q. iii.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1545">
+      ¶ Item utrum sit uirtus, &amp; qualis, 
+      <lb ed="#B" n="30"/>moralis an theologica: similiter 
+      tracta<lb ed="#B" n="31" break="no"/>tum est supra dist. xiiij. q.i.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1552">
+      ¶ De 
+      contri<lb ed="#B" n="32" break="no"/>tionis effectu quantum ad peccati 
+      remis<lb ed="#B" n="33" break="no"/>sionem, &amp; gratiae infusionem habetur 
+      <lb ed="#B" n="34"/>dist. xiiii. q.ii &amp; q. iii.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1562">
+      ¶ De eius subjecto, 
+      <lb ed="#B" n="35"/>puta quibus conuenit conteri, an solis 
+      <lb ed="#B" n="36"/>hominibus, an etiam angelis, habetur 
+      di<lb ed="#B" n="37" break="no"/>xiiii. q.i.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1571">
+      ¶ De eius etiam origine, ex 
+      qui<lb ed="#B" n="38" break="no"/>bus actibus, aut passionibus concipitur, 
+      <lb ed="#B" n="39"/>&amp; eius ordine inter requisita ad 
+      dispo<lb ed="#B" n="40" break="no"/>nendum peccatorem ad peccati 
+      remissio<lb ed="#B" n="41" break="no"/>nem dictum est supra dist. xiiii. q.i. &amp; ij. 
+      <lb ed="#B" n="42"/>ideo de ulteriori tractatu illorum 
+      super<lb ed="#B" n="43" break="no"/>sedeo.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1587">
+      ¶ Dubitatur tertio: utrum hae tres 
+      <lb ed="#B" n="44"/>paenitentiae partes, contritio, confessio, 
+      <lb ed="#B" n="45"/>&amp; satisfactio requirantur coniunctim ad 
+      <lb ed="#B" n="46"/>singulorum peccatorum remissionem: 
+      <lb ed="#B" n="47"/>an disiunctim contritio ad remissionem 
+      <lb ed="#B" n="48"/>peccatorum mentalium, confessio ad 
+      <lb ed="#B" n="49"/>remissionem peccatorum oris: satis 
+      fa<lb ed="#B" n="50" break="no"/>ctio ad remissionem peccatorum operis: 
+      <lb ed="#B" n="51"/>Ad hoc enim uidentur sonare uerba¬ 
+      <!--531.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Chris. quae allegat magister in 
+      princi<lb ed="#B" n="53" break="no"/>pio huius dist
+    </p>
+            <p xml:id="gbs333-v116768-d1e1616">
+      ¶ Respondetur: quod hae 
+      par<lb ed="#B" n="54" break="no"/>tes, contritio, confessio, satis factio non 
+      <lb ed="#B" n="55"/>rindent diuisim tribus pctorum 
+      generi<lb ed="#B" n="56" break="no"/>bus: puta contritio peccato cordis 
+      confessio<lb ed="#B" n="57" break="no"/>pcto oris, satis factio praecco operis. Sed ad 
+      <lb ed="#B" n="58"/>perfectam paenitentiam cuiuslibet 
+      pecca<lb ed="#B" n="59" break="no"/>ti mortalis, requituntur omnes illae 
+      par<lb ed="#B" n="60" break="no"/>tes coniunctim: nec una sine alia 
+      suffi<lb ed="#B" n="61" break="no"/>cit: nam ad remissionem peccatorum 
+      <lb ed="#B" n="62"/>spiritualium, quae grauiora sunt: &amp; in 
+      cor<lb ed="#B" n="63" break="no"/>de tenentur: ut superbiae, odiu, 
+      blasphe<lb ed="#B" n="64" break="no"/>miae, infidelitatis, desperatio nis, no 
+      suf<lb ed="#B" n="65" break="no"/>ficit sola cordis contritio: sed 
+      requiri<lb ed="#B" n="66" break="no"/>tur confessiooris, &amp; satisfactio operis: 
+      <lb ed="#B" n="67"/>nisi contritio tanta foret, quod tantum 
+      do<lb ed="#B" n="68" break="no"/>lorem induceret, qui sufficeret sine 
+      ex<lb ed="#B" n="69" break="no"/>teriori satisfactione: &amp; ita suppleret illam 
+      <lb ed="#B" n="70"/>partem. Similiter sine contritione, &amp; 
+      con<lb ed="#B" n="71" break="no"/>fessione in uoto, nullum peccatum oris, 
+      <lb ed="#B" n="72"/>aut operis dimittitur.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1660">
+      ¶ Requiruntur ita 
+      <lb ed="#B" n="73"/>quae omnia tria ad cuiuslibet peccati 
+      pe<lb ed="#B" n="74" break="no"/>nitentiam perfectam: uerum secundum 
+      <lb ed="#B" n="75"/>quandam appropriationem adaptantur  
+      <lb ed="#B" n="76"/>tribus peccatorum generibus: quia 
+      ma<lb ed="#B" n="77" break="no"/>iorem similitudinem habet contritio cum 
+      <lb ed="#B" n="78"/>peccato cordis, eo quod utrumque manet 
+      <lb ed="#B" n="79"/>in corde. &amp; confessio cum peccato oris: 
+      <lb ed="#B" n="80"/>quia oreperficiuntur: &amp; satisfactio cum 
+      <lb ed="#B" n="81"/>peccato operis, quae similiter exteriori 
+      <lb ed="#B" n="82"/>opere consummantur. Et sic loquitur  
+      <lb ed="#B" n="83"/>Chrvs. &amp; August. in textu.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1686">
+      ¶ Vltimo 
+      du<lb ed="#B" n="84" break="no"/>bitatur de satisfactione: uidetur; quod non 
+      <lb ed="#B" n="85"/>sit pais paenitentiae distincta ab aliijs dua 
+      <lb ed="#B" n="86"/>bus: nam utrasque includit. Satisfactio, nio 
+      <lb ed="#B" n="87"/>est omne paenale, quo sit recompensatio 
+      <lb ed="#B" n="88"/>aliqua penae debitae pro peccatis: sed tan 
+      <lb ed="#B" n="89"/>contritio, quam confessio penam 
+      ha<lb ed="#B" n="90" break="no"/>pent, ratione cuius ualent ad 
+      remissio<lb ed="#B" n="91" break="no"/>nem paenae peccati debitae.
+    </p>
+            <p xml:id="gbs333-v116768-d1e1707">
+      ¶ 
+      Responde<lb ed="#B" n="92" break="no"/>tur: quod ut dicetur. q. seq. satis factio 
+      dupl<lb ed="#B" n="93" break="no"/>riter accipitur. Vno modo pro 
+      quoli<lb ed="#B" n="94" break="no"/>bet actu, uel passione uoluntarie assum 
+      <lb ed="#B" n="95"/>pta propter penae remissionem, siue 
+      in<lb ed="#B" n="96" break="no"/>teriore siue exteriore: &amp; sic non 
+      distin<lb ed="#B" n="97" break="no"/>guitur contra alias duas partes: sed eas 
+      <lb ed="#B" n="98"/>includit: ut argutum est. Alio modo 
+      <lb ed="#B" n="99"/>accipitur strictius pro exteriori opere 
+      <lb ed="#B" n="100"/>corporali, poenali, aut pena 
+      corpo<lb ed="#B" n="101" break="no"/>rali uoluntarie assumpta uel passa: 
+      qua<lb ed="#B" n="102" break="no"/>le solent confessores iniungere: &amp; sic 
+      <!--532.xml-->
+      <pb ed="#B" n="483"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est pars tertia poenitentiae contra alias 
+      <lb ed="#B" n="2"/>distincta. Et tantum de quaestione. 
+      <lb ed="#B" n="3"/>De satisfactione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

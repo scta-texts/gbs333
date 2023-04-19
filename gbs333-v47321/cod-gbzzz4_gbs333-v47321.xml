@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="193"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v47321"><!-- l4-d11q1 -->
+            <head xml:id="gbs333-v47321-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-v47321-Hd1e103" type="question-title">
+      Utrum 
+      substantia panis, et uini in 
+      corpus, et sanguinem 
+      christi conuersa, maneat cum 
+      eisdem sub sacramenti forma
+    </head>
+            <p xml:id="gbs333-v47321-d1e106">
+               <lb ed="#B" n="40"/>QVAESTIO I 
+      <lb ed="#B" n="41"/>CIRCA primum quaeritur utrum 
+      <lb ed="#B" n="42"/>substantia panis, &amp; uini in 
+      <lb ed="#B" n="43"/>corpus, &amp; sanguinem 
+      chri<lb ed="#B" n="44" break="no"/>sti conuersa, maneat cum 
+      <lb ed="#B" n="45"/>eisdem sub sacramenti forma.
+    </p>
+            <p xml:id="gbs333-v47321-d1e122">
+      ¶ 
+      Prae<lb ed="#B" n="46" break="no"/>missis notabilibus quoad articulum 
+      pri<lb ed="#B" n="47" break="no"/>mum: &amp; subiunctis conclusionibus 
+      quo<lb ed="#B" n="48" break="no"/>ad secundum: mouebuntur ac soluentur 
+      <lb ed="#B" n="49"/>dubia quoad tertium.
+    </p>
+            <p xml:id="gbs333-v47321-d1e133">
+      ¶ Quantum ad pri¬ 
+      <!--244.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>mum notandum, quod conuersio est 
+      tran<lb ed="#B" n="51" break="no"/>sitio unius in aliud: in quo duo 
+      notan<lb ed="#B" n="52" break="no"/>tur: scilicet desitio unius, &amp; 
+      successio<lb ed="#B" n="53" break="no"/>alterius. Nam si quid in se, aut in sua 
+      <lb ed="#B" n="54"/>natura, ac proprietatibus manet: non 
+      <lb ed="#B" n="55"/>conuertitur in aliud: &amp; licet dum album 
+      <lb ed="#B" n="56"/>conuertitur in nigrum: id quod 
+      con<lb ed="#B" n="57" break="no"/>uertitur, scilicet subiectum albedinis 
+      ma<lb ed="#B" n="58" break="no"/>net: non manet tamen albedo, secundum 
+      <lb ed="#B" n="59"/>quam conuertitur. Igitur sine 
+      desitio<lb ed="#B" n="60" break="no"/>ne unius: &amp; successione alterius non 
+      <lb ed="#B" n="61"/>est conuersio.
+    </p>
+            <p xml:id="gbs333-v47321-d1e167">
+      ¶ Succedere autem est ad 
+      <lb ed="#B" n="62"/>desitionem alicuius de nouo incipere 
+      <lb ed="#B" n="63"/>esse: aut in esse suo conseruari, quo 
+      noin<lb ed="#B" n="64" break="no"/>ciperet, uel in esse conseruaret nisi aliud 
+      <lb ed="#B" n="65"/>desineret.
+    </p>
+            <p xml:id="gbs333-v47321-d1e178">
+      ¶ Vnde potest describi 
+      conuersio<lb ed="#B" n="66" break="no"/>Est desitio alicuius entitatis positiuae, 
+      <lb ed="#B" n="67"/>ad quam sequitur inceptio, uel 
+      conser<lb ed="#B" n="68" break="no"/>riatio alterius rei: alias non producendae 
+      <lb ed="#B" n="69"/>uelconseruandae simpliciter, uel 
+      secun<lb ed="#B" n="70" break="no"/>dum quidi. ist quantu ad aliquem modum 
+      se<lb ed="#B" n="71" break="no"/>habendi. Ex quo sequitur, quod cum. a. 
+      con<lb ed="#B" n="72" break="no"/>uerti in. b. non est. a. fieri. b. Nam aere 
+      con<lb ed="#B" n="73" break="no"/>uerso in ignem, aer non sit ignis: sed est 
+      <lb ed="#B" n="74"/>aerem desinere, &amp; ignem succedere.
+    </p>
+            <p xml:id="gbs333-v47321-d1e200">
+      ¶ 
+      Se<lb ed="#B" n="75" break="no"/>cundo sequitur; quod in rem simpliciter 
+      ne<lb ed="#B" n="76" break="no"/>cessariam nihil pot conuerti. Patet: quia 
+      <lb ed="#B" n="77"/>quod simpliciter est necessatium: non 
+      in<lb ed="#B" n="78" break="no"/>cipit nec conseruatur ad desitionem al 
+      <lb ed="#B" n="79"/>terius non conseruandum: nisi aliud de 
+      <lb ed="#B" n="80"/>sineret: quia cum sit necessarium: 
+      sem<lb ed="#B" n="81" break="no"/>per manet immutabiliter, siue aliud 
+      desi<lb ed="#B" n="82" break="no"/>nat, siue non. Et quoniam solus deus est 
+      <lb ed="#B" n="83"/>simpliciter necessarius: sequitur; quod in 
+      deui<lb ed="#B" n="84" break="no"/>non potest fiericonuersio cuiuscunque crea 
+      <lb ed="#B" n="85"/>turae.
+    </p>
+            <p xml:id="gbs333-v47321-d1e226">
+      ¶ Sequitur tertio, quod quaelibet 
+      crea<lb ed="#B" n="86" break="no"/>tura potest per diuinam potentiam in 
+      quan<lb ed="#B" n="87" break="no"/>libet conuerti: quia potest deus quamlibet 
+      <lb ed="#B" n="88"/>creaturam destruere: &amp; ad eius 
+      destru<lb ed="#B" n="89" break="no"/>ctionem aliam de nouo producere, aut  
+      <lb ed="#B" n="90"/>productam conseruare. Et haec omnia 
+      <lb ed="#B" n="91"/>latius declarata inuenies lec. iiij. in 
+      ex<lb ed="#B" n="92" break="no"/>po.can.
+    </p>
+            <p xml:id="gbs333-v47321-d1e244">
+      ¶ Secundo notandum: quod 
+      con<lb ed="#B" n="93" break="no"/>uersio est duplex: quaedam substantialis: 
+      <lb ed="#B" n="94"/>quaedam accidentalis. Accidentalis est, cum 
+      <lb ed="#B" n="95"/>ad desitionem alicuius, incipit, aut 
+      con<lb ed="#B" n="96" break="no"/>seruatur aliquod accidens, uel accidenta 
+      <lb ed="#B" n="97"/>lis habitudo: ut in calefactione aquae, ad 
+      <lb ed="#B" n="98"/>desitionem frigiditatis aquae, 
+      inci<lb ed="#B" n="99" break="no"/>pit de nouo esse calor in aqua: &amp; 
+      <lb ed="#B" n="100"/>sic conuertitur frigiditas in calo¬ 
+      <!--245.xml-->
+      <pb ed="#B" n="194"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rem. Similiter aqua frigida conuertitur in 
+      <lb ed="#B" n="2"/>aquam calidam: sed frigiditas 
+      conuerti<lb ed="#B" n="3" break="no"/>tur simpliciter in calorem, quia 
+      simplici<lb ed="#B" n="4" break="no"/>ter frigiditas desinit, &amp; succedit calor. 
+      <lb ed="#B" n="5"/>Sed frigidum conuertitur in calidum 
+      se<lb ed="#B" n="6" break="no"/>cundum quid: quia frigidum non 
+      desi<lb ed="#B" n="7" break="no"/>nit simpliciterid est res, quae est frigida: 
+      pu<lb ed="#B" n="8" break="no"/>ta aqua non desinit simpliciter: nec aqua 
+      <lb ed="#B" n="9"/>calida in casu incipit simpliciter: sed 
+      se<lb ed="#B" n="10" break="no"/>cundum denominationem accidenta 
+      <lb ed="#B" n="11"/>lem. Desinit enim aqua esse frigida: &amp; ir 
+      <lb ed="#B" n="12"/>cipit esse calida.
+    </p>
+            <p xml:id="gbs333-v47321-d1e296">
+      ¶ Sed conuersio substa 
+      <lb ed="#B" n="13"/>tialis est, dum ad desitionem alicuius in 
+      <lb ed="#B" n="14"/>cipit esse substantia, quae prius non fuit: 
+      <lb ed="#B" n="15"/>uel conseruatur, quae prius fuit.
+    </p>
+            <p xml:id="gbs333-v47321-d1e306">
+      ¶ Et 
+      dici<lb ed="#B" n="16" break="no"/>tur notanter in utraque diffinitione: ad 
+      <lb ed="#B" n="17"/>desitionem alicuius: &amp; non specificat 
+      il<lb ed="#B" n="18" break="no"/>lud alicuius: quia siue sit substantia: siue 
+      <lb ed="#B" n="19"/>accidens, quid desinit: conuersio dicitur ac 
+      <lb ed="#B" n="20"/>cidentalis: si terminus, ad quem est 
+      acci<lb ed="#B" n="21" break="no"/>dens, &amp; substantialis. Si terminus ad quem 
+      <lb ed="#B" n="22"/>fuerit substantia: conuersio. nio. sicut, &amp; 
+      <lb ed="#B" n="23"/>mutatio denominatur a termino ad quem. 
+      <lb ed="#B" n="24"/>Verum: quia nomina sunt ad placitum: potest 
+      <lb ed="#B" n="25"/>etiam conuersio denominariab utroque;  
+      <lb ed="#B" n="26"/>termino a quo, &amp; ad quem: &amp; sic 
+      oporte<lb ed="#B" n="27" break="no"/>ret ponere quatuor species 
+      conuersio<lb ed="#B" n="28" break="no"/>nis. Vna, quam accidens conuertitur 
+      <lb ed="#B" n="29"/>in accidens. Secunda, qua substantia 
+      <lb ed="#B" n="30"/>conuertitur in substantiam. Tertia, 
+      <lb ed="#B" n="31"/>qua substantia conuertitur in accidens. 
+      <lb ed="#B" n="32"/>Quarta, qua accidens conuertitur in 
+      <lb ed="#B" n="33"/>substantiam. de hoc lec. xl.
+    </p>
+            <p xml:id="gbs333-v47321-d1e348">
+      ¶ 
+      Conuer<lb ed="#B" n="34" break="no"/>sio substantialis est duplex. Quaedam 
+      <lb ed="#B" n="35"/>sit secundum partem eius, quod conuer 
+      <lb ed="#B" n="36"/>titur: &amp; eius, in quod conuertitur: &amp; hoc 
+      <lb ed="#B" n="37"/>contingit in his, quae habent materiam 
+      <lb ed="#B" n="38"/>communem: ut in generatione 
+      substan<lb ed="#B" n="39" break="no"/>tiali ignis ex aere: aer conuertitur in 
+      <lb ed="#B" n="40"/>ignem: non secundum se totum: quia 
+      <lb ed="#B" n="41"/>non secundum se totum syncathegore- 
+      <lb ed="#B" n="42"/>matice id est quodlibet sui desinit: quia non 
+      <lb ed="#B" n="43"/>secundum materiam: materia enim 
+      ea<lb ed="#B" n="44" break="no"/>dem numero manet in utroque; sed 
+      con<lb ed="#B" n="45" break="no"/>uersio sit secundumformas tamen.
+    </p>
+            <p xml:id="gbs333-v47321-d1e377">
+      ¶ Alia sit 
+      se<lb ed="#B" n="46" break="no"/>cundum totum, quando illud, quod conuertiem 
+      <lb ed="#B" n="47"/>secundum se, &amp; quodlibet sui, desinit esse: &amp; 
+      <lb ed="#B" n="48"/>terminus ad quem secundum se, &amp; qudlibet 
+      <lb ed="#B" n="49"/>sui recipit esse nouum uelconseruatur in 
+      <lb ed="#B" n="50"/>esse praehabito. Et illa conuersio dicitur 
+      <lb ed="#B" n="51"/>C transsubstantiatio.
+    </p>
+            <p xml:id="gbs333-v47321-d1e393">
+      ¶ Et potest sic describi se 
+      <!--245.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>cundum Ocka, &amp; dum Petrum de aliaco, 
+      <lb ed="#B" n="53"/>supplentem descriptionem. Ockam. Trassub 
+      <lb ed="#B" n="54"/>stantiatio est immediata successio substa 
+      <lb ed="#B" n="55"/>tiae, ad aliquod positiuum definens esse 
+      se<lb ed="#B" n="56" break="no"/>cundum se &amp; quodlibet sui, sub eisdem 
+      acci<lb ed="#B" n="57" break="no"/>dentibus: uel loco eius, quod desinit 
+      es<lb ed="#B" n="58" break="no"/>se.
+    </p>
+            <p xml:id="gbs333-v47321-d1e415">
+      ¶ Dicitur primo immediata successio: 
+      <lb ed="#B" n="59"/>quia inter desitionem eius, quod transsub 
+      <lb ed="#B" n="60"/>stantiatur: &amp; successionem eius, in quod 
+      <lb ed="#B" n="61"/>transsubstantiatur: non debet cadere 
+      ten<lb ed="#B" n="62" break="no"/>pus medium: alioquin si aliquid ante 
+      cen<lb ed="#B" n="63" break="no"/>tum annos desijsset: &amp; in locum eius nunc 
+      <lb ed="#B" n="64"/>succederet aliqua substantia: esset 
+      trans<lb ed="#B" n="65" break="no"/>substantiatio: quod non conceditur: &amp; 
+      for<lb ed="#B" n="66" break="no"/>te hoc includere uoluit Ockam in Iy suc 
+      <lb ed="#B" n="67"/>cessio.
+    </p>
+            <p xml:id="gbs333-v47321-d1e437">
+      ¶ Dicitur successio: quia si substa 
+      <lb ed="#B" n="68"/>tia aliqua annihilata, alia crearetur non 
+      <lb ed="#B" n="69"/>in ordine ad istam annihilatam: non esset 
+      <lb ed="#B" n="70"/>ibi transsubstantiatio: quia nulla 
+      succes<lb ed="#B" n="71" break="no"/>sio.
+    </p>
+            <p xml:id="gbs333-v47321-d1e449">
+      ¶ Dicitur substantiae, ad excludendum 
+      <lb ed="#B" n="72"/>tranfaccidentationem s. sicedum aliquid 
+      con<lb ed="#B" n="73" break="no"/>uertitur in accidens.
+    </p>
+            <p xml:id="gbs333-v47321-d1e456">
+      ¶ Dicitur ad aliquid 
+      <lb ed="#B" n="74"/>positiuum: quia siue id, quod desinit, sit 
+      sub<lb ed="#B" n="75" break="no"/>stantia, siue accidens: dum tamen succe- 
+      <lb ed="#B" n="76"/>dit, substantia dicitur 
+      transsubstantiatio<lb ed="#B" n="77" break="no"/>Verum Ockam uult dicere, quod requiritur, quod 
+      <lb ed="#B" n="78"/>etiam terminus a quo sit substantia. Nam 
+      <lb ed="#B" n="79"/>secundum cum transsubstantiatio est tantum 
+      <lb ed="#B" n="80"/>inter terminos positiuos, quorum uterque  
+      <lb ed="#B" n="81"/>est substantia. Vnde loco illius termini, 
+      <lb ed="#B" n="82"/>ad aliquid positiuum, ipse ponit, ad substa 
+      <lb ed="#B" n="83"/>tiam. Accipit itaque transsubstantiationem 
+      <lb ed="#B" n="84"/>strictius, quam hic diffinitur.
+    </p>
+            <p xml:id="gbs333-v47321-d1e482">
+      ¶ Dicitur 
+      <lb ed="#B" n="85"/>desinens secundum se, &amp; quodlibet sui: 
+      <lb ed="#B" n="86"/>propter generationem, in qua genitum 
+      <lb ed="#B" n="87"/>non secundum quodlibet sui incipit esse. 
+      <lb ed="#B" n="88"/>Manet. nioe materia conmunis utriusque.
+    </p>
+            <p xml:id="gbs333-v47321-d1e493">
+      ¶ 
+      Di<lb ed="#B" n="89" break="no"/>citur sub eisdem accidentibus: quia si aliqua 
+      <lb ed="#B" n="90"/>substantia in caelo produceretur ad 
+      desi<lb ed="#B" n="91" break="no"/>tionem alicuius in terra: non esset transsub 
+      <lb ed="#B" n="92"/>stantiatio: licet huius oppositum teneat 
+      <lb ed="#B" n="93"/>Sco.
+    </p>
+            <p xml:id="gbs333-v47321-d1e506">
+      ¶ Additur, uel loco: quia si deus 
+      <lb ed="#B" n="94"/>terminum a quo transsubstantiationis 
+      <lb ed="#B" n="95"/>destrueret quantum ad se, &amp; omnia 
+      <lb ed="#B" n="96"/>accidentia sibi inhaerentia: sufficit, quod 
+      <lb ed="#B" n="97"/>terminus ad quem succedat in eodem 
+      <lb ed="#B" n="98"/>loco.
+    </p>
+            <p xml:id="gbs333-v47321-d1e519">
+      ¶ Sed adhuc notandum, quod  
+      <lb ed="#B" n="99"/>transsubstantiatio adhuc accipitur 
+      du<lb ed="#B" n="100" break="no"/>pliciter. Vno modo communiter: &amp; 
+      <lb ed="#B" n="101"/>sic diffinita est. Alio modo strictius: 
+      <lb ed="#B" n="102"/>&amp; tunc praedicte diffinitioni addatur 
+      <!--246.xml-->
+      <pb ed="#B" n="195"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>primo &amp; principaliter intenti a 
+      conuer<lb ed="#B" n="2" break="no"/>tente: ut sic dicatur. Transsubstantiatio 
+      <lb ed="#B" n="3"/>est immediata successio substantiae 
+      pri<lb ed="#B" n="4" break="no"/>mo &amp; principaliter intente a 
+      conuerten<lb ed="#B" n="5" break="no"/>te, ad aliquod positiuum &amp;c. ut prius.
+    </p>
+            <p xml:id="gbs333-v47321-d1e549">
+      ¶ 
+      Di<lb ed="#B" n="6" break="no"/>citur aut principaliter intendi a conuet 
+      <lb ed="#B" n="7"/>tente, quiad non intenditur: quia coniunctum 
+      <lb ed="#B" n="8"/>alteri intento: sed intenderetur tanquam 
+      <lb ed="#B" n="9"/>terminus conuersionis, si esset per se ab 
+      <lb ed="#B" n="10"/>alijs separatum.
+    </p>
+            <p xml:id="gbs333-v47321-d1e562">
+      ¶ Consequenter 
+      supponi<lb ed="#B" n="11" break="no"/>tur, quod facta consecratione panis sub 
+      spe<lb ed="#B" n="12" break="no"/>ciebus panis est uerum corpus christi: tale, 
+      <lb ed="#B" n="13"/>quale est insua naturali consistentia 
+      pro<lb ed="#B" n="14" break="no"/>tempore: hoc est modo tali quale est ad 
+      <lb ed="#B" n="15"/>exteram patris: uiuum, immortale, 
+      gloria<lb ed="#B" n="16" break="no"/>sum, conmunctum deitati, cum omnibus qua 
+      <lb ed="#B" n="17"/>litatibus, &amp; accidentibus sibi inhaerenti 
+      <lb ed="#B" n="18"/>bus. Si aut fuisset facta consecratio in 
+      tri<lb ed="#B" n="19" break="no"/>duo mortis: fuisset tale corpus, quale ia 
+      <lb ed="#B" n="20"/>cuit in sepulero: scilicet exangue, &amp; exanime: 
+      <lb ed="#B" n="21"/>sed coniunctum deitati. Suo modo de 
+      san<lb ed="#B" n="22" break="no"/>guine sub speciebus uini: de quolect. 
+      <lb ed="#B" n="23"/>xxxvii. Et dico notanter: corpus tale non 
+      <lb ed="#B" n="24"/>tantum: quia non est in sacramento quam 
+      <lb ed="#B" n="25"/>tum: cum ibi non sit extensum, nec 
+      cir<lb ed="#B" n="26" break="no"/>cumscriptiue: ut priori distinct. 
+      ta<lb ed="#B" n="27" break="no"/>ctum est.
+    </p>
+            <p xml:id="gbs333-v47321-d1e601">
+      ¶ Quarto notandum, quod 
+      cor<lb ed="#B" n="28" break="no"/>pus potest tripliciter accipi, cum 
+      loqui<lb ed="#B" n="29" break="no"/>mur de corpore christi. Vno modo ut 
+      <lb ed="#B" n="30"/>est genus subalternum praedicamenti 
+      <lb ed="#B" n="31"/>substantiae. Secundo, ut est species 
+      prae<lb ed="#B" n="32" break="no"/>dicamentiquantitatis. Tertio, pro 
+      al<lb ed="#B" n="33" break="no"/>tera partecompositi substantialis scilicet 
+      pro<lb ed="#B" n="34" break="no"/>illo, quod immediate subijcitur forme 
+      <lb ed="#B" n="35"/>specificae: siue sit materia nuda: siue 
+      ma<lb ed="#B" n="36" break="no"/>teria organitata: siue compositum ex 
+      <lb ed="#B" n="37"/>materia &amp; forma non specifica secundum 
+      <lb ed="#B" n="38"/>ponentes plures formas substantiales 
+      in<lb ed="#B" n="39" break="no"/>eodem indiuiduo. De quo latius uide 
+      <lb ed="#B" n="40"/>lect. xlij. Et illo tertio modo pro eodem 
+      <lb ed="#B" n="41"/>capitur corpus humanum, &amp; caro. 
+      Vn<lb ed="#B" n="42" break="no"/>de indifferenter dicitur, quod homo 
+      com<lb ed="#B" n="43" break="no"/>ponitur ex corpore, &amp; anima, &amp; ex 
+      cat<lb ed="#B" n="44" break="no"/>ne, &amp; anima ut in symbolo Athanasii. 
+      Si<lb ed="#B" n="45" break="no"/>cut anima rationalis, &amp; caro unus est 
+      ho<lb ed="#B" n="46" break="no"/>mo. Tertio modo hic accipitur. Vltimo re 
+      <lb ed="#B" n="47"/>memorandum, quod (ut tangit magister) 
+      <lb ed="#B" n="48"/>olim plures fuerunt opinio. de quaesito, 
+      <lb ed="#B" n="49"/>de quibus habes in lec. xl. in principio. 
+    </p>
+            <p xml:id="gbs333-v47321-d1e651">
+               <lb ed="#B" n="50"/>¶ Quantum ad secundum articulum est 
+      <lb ed="#B" n="51"/>prima conclusio. Substantia panis in 
+      <!--246.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>consecratione sacramenti eucharistiae 
+      <lb ed="#B" n="53"/>transsubstantiatur in corpus christi: &amp; 
+      <lb ed="#B" n="54"/>partes eius primo, &amp; tertio modo acce- 
+      <lb ed="#B" n="55"/>ptum: accipiendo transsubslantiationem 
+      <lb ed="#B" n="56"/>large. Probatur: quia sic accipiendo trans 
+      <lb ed="#B" n="57"/>substantiationem, panis 
+      transsubstantia<lb ed="#B" n="58" break="no"/>tur in omnia, quae ad desitionem panis, 
+      <lb ed="#B" n="59"/>incipiunt esse sub speciebus panis: &amp; ibi 
+      <lb ed="#B" n="60"/>incipit esse totus homo christus, qui est 
+      <lb ed="#B" n="61"/>corpus primo modo: ut est species 
+      sub<lb ed="#B" n="62" break="no"/>stantiae: &amp; per consequens caro, quae est cor 
+      <lb ed="#B" n="63"/>pus tertio modo: incipit etiam esse huma 
+      <lb ed="#B" n="64"/>nitas christi, &amp; anima, quae est pars 
+      cor<lb ed="#B" n="65" break="no"/>poris primo modo. Incipitque ibi praesens 
+      <lb ed="#B" n="66"/>esse sanguis, &amp; caeteri humores 
+      substan<lb ed="#B" n="67" break="no"/>tiales: ergo in omnia illa conuertitur. 
+      Te<lb ed="#B" n="68" break="no"/>net consequentia ex quid nominis 
+      con<lb ed="#B" n="69" break="no"/>uersionis large acceptae Non autem sit 
+      <lb ed="#B" n="70"/>conuersio in deitatem: licet uerissime 
+      <lb ed="#B" n="71"/>sit ibi: quia non incipit esse ibi: cum ipsa 
+      <lb ed="#B" n="72"/>nullibi incipit: sed semper est ubique.
+    </p>
+            <p xml:id="gbs333-v47321-d1e708">
+      ¶ 
+      Se<lb ed="#B" n="73" break="no"/>cunda conclusio. Accipiendo 
+      conuerti<lb ed="#B" n="74" break="no"/>large, proportionabiliter sicut 
+      transsub<lb ed="#B" n="75" break="no"/>stantiari licet panis snbstantia in 
+      acci<lb ed="#B" n="76" break="no"/>dentia corpori christi inexistentia non 
+      <lb ed="#B" n="77"/>transsubstantietur: tamen in ca 
+      conuer<lb ed="#B" n="78" break="no"/>titur. Probatur conclusio pro prima 
+      par<lb ed="#B" n="79" break="no"/>te: quia transsubstantiatio etiam large non 
+      <lb ed="#B" n="80"/>dicitur, nisi respectu substantiae tanquam 
+      <lb ed="#B" n="81"/>termini ad quem. Secunda pars probatur: 
+      <lb ed="#B" n="82"/>quia ad desitionem substantiae panis, sub 
+      <lb ed="#B" n="83"/>eius speciebus incipiunt esse accidentia 
+      <lb ed="#B" n="84"/>corporis christi, &amp; animae eius: ergo in 
+      <lb ed="#B" n="85"/>ea conuertitur substantia panis. Tenet 
+      <lb ed="#B" n="86"/>consequentia ex diffinitione 
+      conuer<lb ed="#B" n="87" break="no"/>sionis posita in primo articulo.
+    </p>
+            <p xml:id="gbs333-v47321-d1e743">
+      ¶ Tertia 
+      <lb ed="#B" n="88"/>conclusio. Accipiendo 
+      transsubstantia<lb ed="#B" n="89" break="no"/>tionem proprie, siue stricte: substantia 
+      <lb ed="#B" n="90"/>panis dum rite consecratur, transsubstantia 
+      <lb ed="#B" n="91"/>tur tantum in corpus christi tertio modo 
+      <lb ed="#B" n="92"/>acceptum: hoc est in solam carnem christi: 
+      <lb ed="#B" n="93"/>ut est proximum perfectibile ab anima 
+      in<lb ed="#B" n="94" break="no"/>tellectiua. Probatur conclusio: quia 
+      so<lb ed="#B" n="95" break="no"/>lum transsubstantiatur in id, quod primo, 
+      <lb ed="#B" n="96"/>&amp; principalitera conuertente 
+      intendi<lb ed="#B" n="97" break="no"/>tur: &amp; non ut alteri coniunctum: &amp; hoc  
+      <lb ed="#B" n="98"/>est id, in quod conuerteretur, 
+      qualiter<lb ed="#B" n="99" break="no"/>cumque corpus christise haberet in natura 
+      <lb ed="#B" n="100"/>li cosistentia. Illud aut solum est corpus 
+      <lb ed="#B" n="101"/>christi tertio modo: &amp; non ut includit 
+      <lb ed="#B" n="102"/>animam sanguinem, aut accidentia: quia 
+      <!--247.xml-->
+      <pb ed="#B" n="196"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>omnibus illis semotis a carne christi in 
+      <lb ed="#B" n="2"/>sua naturali existentia, adhuc fieret 
+      <lb ed="#B" n="3"/>transsubstantiatio in carnem, seu 
+      cor<lb ed="#B" n="4" break="no"/>pus illo modo: &amp; in nullum praedictorum: 
+      <lb ed="#B" n="5"/>ut supra articulo primo tactum est: 
+      er<lb ed="#B" n="6" break="no"/>go conclusio uera. Similiter potest 
+      re<lb ed="#B" n="7" break="no"/>sponderi de conuersione. Et illa, quae 
+      <lb ed="#B" n="8"/>sic ibi sunt ad uerborum prolationem, 
+      <lb ed="#B" n="9"/>puta per se, &amp; primo, dicuntur inesse ex 
+      <lb ed="#B" n="10"/>ui conuersionis, &amp; transsubstantiationis. 
+      <lb ed="#B" n="11"/>Caetera, quaeibi sunt dicuntur ibi esse per 
+      <lb ed="#B" n="12"/>concomitatiam: omnia tamen sunt ibi uere, 
+      <lb ed="#B" n="13"/>&amp; realiter. de quo uide latius lect. xl. 
+      cla<lb ed="#B" n="14" break="no"/>rius lect. liij. &amp; lect. xlii.
+    </p>
+            <p xml:id="gbs333-v47321-d1e816">
+      ¶ Quarta 
+      con<lb ed="#B" n="15" break="no"/>clusio responsiua ad quaesitum. 
+      Substan<lb ed="#B" n="16" break="no"/>tia panis, &amp; uini conuersa in corpus, &amp; 
+      <lb ed="#B" n="17"/>sanguinem christi non manet cum eisdem 
+      <lb ed="#B" n="18"/>sub forma sacramenti. Probatur 
+      conclu<lb ed="#B" n="19" break="no"/>sio aucto. constitutionis ecclesiae: de sum 
+      <lb ed="#B" n="20"/>ma trin. &amp; si. ca. firmiter. ubi dicitur: 
+      <lb ed="#B" n="21"/>trassubstantiatis pane in corpus, &amp; uino 
+      <lb ed="#B" n="22"/>in sanguinem, potestate diuina. Ad idem 
+      <lb ed="#B" n="23"/>adducutur multae auctor. sanctorum lect. 
+      <lb ed="#B" n="24"/>xl. circa princip. Ex quibus habetur; quod 
+      <lb ed="#B" n="25"/>panis conuertitur, trassubstantiatur, &amp; 
+      con<lb ed="#B" n="26" break="no"/>mutatur in corpus christi: secundum quod 
+      di<lb ed="#B" n="27" break="no"/>ctum est in tribus conclusionibus 
+      praemis<lb ed="#B" n="28" break="no"/>sis.
+    </p>
+            <p xml:id="gbs333-v47321-d1e849">
+      ¶ Ex quo sequitur, quod substantia panis 
+      <lb ed="#B" n="29"/>non manet: nam nihil, quod transit 
+      con<lb ed="#B" n="30" break="no"/>mutatiue, uel conuertitur in aliud 
+      ma<lb ed="#B" n="31" break="no"/>net in sua natura: sed panis conuertitur 
+      <lb ed="#B" n="32"/>&amp;c. ergo non manet. Tenet consequem 
+      <lb ed="#B" n="33"/>tia: &amp; maior nota: quia quod transit, non 
+      <lb ed="#B" n="34"/>manet: sed id, quod transit: quicquid 
+      au<lb ed="#B" n="35" break="no"/>tem conuertitur in aliud substantialiter, 
+      <lb ed="#B" n="36"/>transit in aliud secundum suam 
+      substan<lb ed="#B" n="37" break="no"/>tiam: ergo non manet secundum suam 
+      sub<lb ed="#B" n="38" break="no"/>stantiam: hoc etiam patet ex quid 
+      nomi<lb ed="#B" n="39" break="no"/>nis conuersionis.
+    </p>
+            <p xml:id="gbs333-v47321-d1e875">
+      ¶ Quantum ad tertium 
+      <lb ed="#B" n="40"/>articulum est primum dubium: quibus uerbis 
+      <lb ed="#B" n="41"/>haec conuersio panis in corpus, &amp; 
+      uini<lb ed="#B" n="42" break="no"/>in sanguinem christi, uere, &amp; apte expri 
+      <lb ed="#B" n="43"/>mipossit: &amp; de hoc latius uide lect. xlix. 
+      <lb ed="#B" n="44"/>Sed breuiter, &amp; summarie nota duas 
+      re<lb ed="#B" n="45" break="no"/>gulas. Prima, quod omnis propositio 
+      affir<lb ed="#B" n="46" break="no"/>matiua de rigore, seu proprietate 
+      ser<lb ed="#B" n="47" break="no"/>monis est falsa, in qua termini 
+      significan<lb ed="#B" n="48" break="no"/>tes panem, &amp; uinum, &amp; corpus christi 
+      <lb ed="#B" n="49"/>ponuntur in nominatiuo casu: nisi 
+      aequi<lb ed="#B" n="50" break="no"/>ualeat alteri propositioni, aut 
+      resolua<lb ed="#B" n="51" break="no"/>cur in aliam: in qua alter dictorum po¬ 
+      <!--247.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nitur in obliquo. quod additur propter 
+      <lb ed="#B" n="53"/>illam, &amp; similes. Panis est, ex quo sit cor 
+      <lb ed="#B" n="54"/>pus christi. Et quod dictum est: ueritatem 
+      <lb ed="#B" n="55"/>habet cuiuscuuque temporis sit copula. 
+      <lb ed="#B" n="56"/>Vnde omnes illae falsae sunt de rigore 
+      <lb ed="#B" n="57"/>uerborum: panis est corpus christi. quod  
+      <lb ed="#B" n="58"/>est panis, est, fuit, erit, seu potest esse cor 
+      <lb ed="#B" n="59"/>pus christi. Similite riste, quod est panis: 
+      <lb ed="#B" n="60"/>seu quod fuit panis, quod erit panis, quid 
+      <lb ed="#B" n="61"/>potuit esse panis, est, uel fuit corpus 
+      chri<lb ed="#B" n="62" break="no"/>sti.
+    </p>
+            <p xml:id="gbs333-v47321-d1e932">
+      ¶ Secunda regula: uera est 
+      proposi<lb ed="#B" n="63" break="no"/>tio; in qua terminus a quo id est panis aut  
+      <lb ed="#B" n="64"/>uinum exprimitur per ablatiuum cum 
+      <lb ed="#B" n="65"/>praepositione ex, uel de importante 
+      or<lb ed="#B" n="66" break="no"/>dinem: secus si importaret materiam: aut  
+      <lb ed="#B" n="67"/>terminus ad quem id est corpus uel sanguis 
+      <lb ed="#B" n="68"/>christi: per accusatiuum cum praepositione. 
+      <lb ed="#B" n="69"/>in, certe sunt de rigore falsae: ut istae 
+      ue<lb ed="#B" n="70" break="no"/>rae sunt. Ex pane sit corpus christi: de 
+      ui<lb ed="#B" n="71" break="no"/>no sit sangnis christi. Si Iy ex, uel de 
+      <lb ed="#B" n="72"/>importat circumstantiam ordinis 
+      desi<lb ed="#B" n="73" break="no"/>tionis substantiae panis, aut uini ad 
+      prae<lb ed="#B" n="74" break="no"/>sentia corporis, aut sanguinis: ut sit 
+      sen<lb ed="#B" n="75" break="no"/>sus. post desitionem substantiae panis, 
+      <lb ed="#B" n="76"/>aut uini: incipit praesentia corporis 
+      <lb ed="#B" n="77"/>christi. Si uero ex uel de diceret 
+      circun<lb ed="#B" n="78" break="no"/>stantiam materiae: sicut cum dicimus 
+      <lb ed="#B" n="79"/>anulus sit ex auro: quod est dicere 
+      anu<lb ed="#B" n="80" break="no"/>lus sit ex auro tanquam ex materia 
+      ma<lb ed="#B" n="81" break="no"/>nente in eo, sic est falsa. Similiter 
+      ue<lb ed="#B" n="82" break="no"/>ra est haec: panis aut uinum transit, 
+      con<lb ed="#B" n="83" break="no"/>uertitur, uel transsubstantiatur in 
+      cor<lb ed="#B" n="84" break="no"/>pus christi: uinum in sanguinem. Cum 
+      <lb ed="#B" n="85"/>enim in hac conuersione nihil aliud 
+      in<lb ed="#B" n="86" break="no"/>telligi debet: nisi quod ad prolationem 
+      uer<lb ed="#B" n="87" break="no"/>borum sacramentalium simpliciter 
+      de<lb ed="#B" n="88" break="no"/>sinit esse substantia panis, &amp; uini: &amp; 
+      <lb ed="#B" n="89"/>corpus, &amp; sanguis christi incipit seu sit 
+      <lb ed="#B" n="90"/>praesens speciebus panis, &amp; uini. Omnes 
+      <lb ed="#B" n="91"/>propositiones, per quas haec 
+      conuersio<lb ed="#B" n="92" break="no"/>exprimitur: &amp; solae tales uerae sunt, 
+      prae<lb ed="#B" n="93" break="no"/>ter quas significatur desitio substantiae 
+      <lb ed="#B" n="94"/>panis, aut uini: &amp; praesentia corporis 
+      <lb ed="#B" n="95"/>christi, aut sanguinis succedens ex 
+      di<lb ed="#B" n="96" break="no"/>uina ordinatione illi desitioni: &amp; de 
+      <lb ed="#B" n="97"/>hoc latius uide lect. xlix.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1010">
+      ¶ 
+      Secun<lb ed="#B" n="98" break="no"/>do dubitatur; quomodo haec 
+      conuer<lb ed="#B" n="99" break="no"/>sio potest dici transsubstantiatio: cum 
+      <lb ed="#B" n="100"/>non sit ad substantiam corporis christi: 
+      <lb ed="#B" n="101"/>uel de nouo producenda uel 
+      conser<lb ed="#B" n="102" break="no"/>uanda: sed tantum ad praesentiam locale sub 
+      <!--248.xml-->
+      <pb ed="#B" n="197"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>speciebus panis: &amp; ita magis deberet di 
+      <lb ed="#B" n="2"/>citranslatio saltem ratione termini ad 
+      <lb ed="#B" n="3"/>quem. Respondeo breuiter: quod proprie 
+      <lb ed="#B" n="4"/>dicitur transsubstantiatio: tam ratione. 
+      <lb ed="#B" n="5"/>termini a quo: quam etiam ratione 
+      ter<lb ed="#B" n="6" break="no"/>mini ad quem. Ratione termini a 
+      quo<lb ed="#B" n="7" break="no"/>quia in hac conuersione desinit esse 
+      sim<lb ed="#B" n="8" break="no"/>pliciter substantia termini a quo, quoad 
+      <lb ed="#B" n="9"/>materiam, &amp; formam. Et quantum ad 
+      ter<lb ed="#B" n="10" break="no"/>minum ad quem: quia est ad 
+      productio<lb ed="#B" n="11" break="no"/>nem seu conseruationem substantiae cor 
+      <lb ed="#B" n="12"/>poris, &amp; sanguinis christi sub istis 
+      specie<lb ed="#B" n="13" break="no"/>bus. Nam si corpus christi non esset in re 
+      <lb ed="#B" n="14"/>rum natura: ad prolationem uerborum 
+      <lb ed="#B" n="15"/>formalium corpus christi de nouo 
+      pro<lb ed="#B" n="16" break="no"/>duceretur sub istis speciebus. Sicut 
+      gene<lb ed="#B" n="17" break="no"/>ratio dicitur mutatio substantialis: quia 
+      <lb ed="#B" n="18"/>producitur noua substantia: in loco 
+      <lb ed="#B" n="19"/>substantiae corruptae, &amp; non localis. 
+      <lb ed="#B" n="20"/>Sic etiam: quia corpus christi praeexistit 
+      <lb ed="#B" n="21"/>conuersioni: est tamen conuersio substa 
+      <lb ed="#B" n="22"/>tialis: quia est ad conuersationem substa 
+      <lb ed="#B" n="23"/>tiae corporis christi in loco panis desinem 
+      <lb ed="#B" n="24"/>tis: inimo ut Sco. dicit: ubicunque 
+      produ<lb ed="#B" n="25" break="no"/>ceretur noua substantia: uel praeexistens 
+      <lb ed="#B" n="26"/>conseruaretur: ad desitionem alterius 
+      <lb ed="#B" n="27"/>substantiae esset substantialis conuersio: 
+      <lb ed="#B" n="28"/>licet illa secundum modum loquendi 
+      Ocka<lb ed="#B" n="29" break="no"/>non diceretur transsubstantiatio: quia 
+      <lb ed="#B" n="30"/>secundum eum transsubstantiatio 
+      con<lb ed="#B" n="31" break="no"/>notat praesentiam substantiae desinentis. 
+      <lb ed="#B" n="32"/>Vnde secundum eum transsubstantiatio 
+      <lb ed="#B" n="33"/>duo connotat in termino adquem scilicet suc 
+      <lb ed="#B" n="34"/>cessionem substantiae eius quantum ad 
+      <lb ed="#B" n="35"/>nouam productinnem: uel conseruatio 
+      <lb ed="#B" n="36"/>nem ad desitionem termini a quo: &amp; 
+      <lb ed="#B" n="37"/>hoc principaliter connotat. Secunde 
+      <lb ed="#B" n="38"/>connotat successionem in eodem 
+      lo<lb ed="#B" n="39" break="no"/>co, in quo praefuit terminus a quo: quia 
+      <lb ed="#B" n="40"/>in hac conuersione intelligere 
+      possu<lb ed="#B" n="41" break="no"/>mus duos terminos ad quem: scilicet sub 
+      <lb ed="#B" n="42"/>stantiam corporis Christi: &amp; eius 
+      praesen<lb ed="#B" n="43" break="no"/>tiam sub speciebus panis: &amp; ratione 
+      pr<lb ed="#B" n="44" break="no"/>mi termini dicitur transsubstantiatio 
+      <lb ed="#B" n="45"/>principaliter: non ratione secundi: 
+      li<lb ed="#B" n="46" break="no"/>cet &amp; illum secundum connotet 
+      nomen<lb ed="#B" n="47" break="no"/>transsubstantiatio secundum Ockam, 
+      <lb ed="#B" n="48"/>non secundum Sco. de hoc sec. xl.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1134">
+      ¶ Ter 
+      <lb ed="#B" n="49"/>tio dubitatur contra hoc, quod dictum est in 
+      <lb ed="#B" n="50"/>declaratione primae conclusionis: quod 
+      pa<lb ed="#B" n="51" break="no"/>nis non conuertitur in deitatem, pro eo, quod  
+      <!--248.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ad panis desitionem non incipit esse deitas 
+      <lb ed="#B" n="53"/>sub speciebus panis.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1153">
+      ¶ Contra: licet 
+      dei<lb ed="#B" n="54" break="no"/>tas non incipit esse simpliciter ibi, quae 
+      <lb ed="#B" n="55"/>semper est ubique: tamen incipit ibi esse certo 
+      <lb ed="#B" n="56"/>modo scilicet ut unita humanitati christi, quo 
+      <lb ed="#B" n="57"/>modo non esset ibi, si panis ad 
+      consecra<lb ed="#B" n="58" break="no"/>tionem non desiisset.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1166">
+      ¶ Respondetur; quod in 
+      <lb ed="#B" n="59"/>deitatem nihil potest transsubstantiari, uel 
+      <lb ed="#B" n="60"/>conuerti: quia conuersio dicit 
+      successio<lb ed="#B" n="61" break="no"/>nem termini ad quem: &amp; successio aliquam 
+      <lb ed="#B" n="62"/>mutationem in termino a quo, &amp; ad quem: 
+      <lb ed="#B" n="63"/>capiendo mutationem large. Nunc autem 
+      <lb ed="#B" n="64"/>in deitatem nulla cadere potest mutatio.  
+      <lb ed="#B" n="65"/>Quod n.n deitas in sacramento est. ut 
+      uni<lb ed="#B" n="66" break="no"/>ta humanitati christi: &amp; non sic esset ibi: 
+      <lb ed="#B" n="67"/>nisi in ordine ad desitionem substantiae 
+      <lb ed="#B" n="68"/>panis: hoc non est per mutationem deita 
+      <lb ed="#B" n="69"/>tis: sed corporis christi: quod ibi incipit 
+      <lb ed="#B" n="70"/>esse praesens, ubi prius non fuit praesent: 
+      <lb ed="#B" n="71"/>&amp; ideo conuersio in corpus christi non in 
+      <lb ed="#B" n="72"/>deitatem: quae semper praesens est humani 
+      <lb ed="#B" n="73"/>tatiubicumque; fuerit humanitas. Et si hoc  
+      <lb ed="#B" n="74"/>non satis intelligit in quid nominis suc 
+      <lb ed="#B" n="75"/>cessionis: addatur per sui mutationem. 
+    </p>
+            <p xml:id="gbs333-v47321-d1e1205">
+               <lb ed="#B" n="76"/>¶ Quarto dubitatur, utrum 
+      transsubstan<lb ed="#B" n="77" break="no"/>tiatio; de qua hic agitur: fiat successiue 
+      <lb ed="#B" n="78"/>aut in instanti Et uideuur, quod successiue: 
+      <lb ed="#B" n="79"/>quia sit ad prolationem uerborum, quae non 
+      <lb ed="#B" n="80"/>potest fieri nisi successiue. Respondetur in 
+      <lb ed="#B" n="81"/>expo. ca. le. xlij. quod conuersio illa sit 
+      in<lb ed="#B" n="82" break="no"/>stantanee id eicet tota simul. Vnde in 
+      prime<lb ed="#B" n="83" break="no"/>instanti non esse uerborum, panis 
+      desi<lb ed="#B" n="84" break="no"/>nit: &amp; corpus christi praesens est speciebus 
+      <lb ed="#B" n="85"/>panis uirtute diuina, quae nulla indiget 
+      <lb ed="#B" n="86"/>successione in suis actionibus. Nec 
+      uer<lb ed="#B" n="87" break="no"/>ba prolata aliquid efficiunt: quae 
+      succes<lb ed="#B" n="88" break="no"/>siue proferuntur: nisi quod ad prolationem 
+      <lb ed="#B" n="89"/>eorum deus signo per se instituto assistens 
+      <lb ed="#B" n="90"/>operatur. Requiritur autem uerborum pro 
+      <lb ed="#B" n="91"/>latio ex institutione christi: ut praeuia, 
+      <lb ed="#B" n="92"/>non ut concomitans. Vnde pro nullo in 
+      <lb ed="#B" n="93"/>stanti esse uerborum est ibi corpus 
+      chri<lb ed="#B" n="94" break="no"/>sti: sed cessantibus uerbis, in primo non 
+      <lb ed="#B" n="95"/>esse eorum, est ibi corpus christi: &amp; ideo 
+      inm<lb ed="#B" n="96" break="no"/>mediate succedit: nam inter primum non 
+      <lb ed="#B" n="97"/>esse uerborum, &amp; primum esse corporis 
+      chri<lb ed="#B" n="98" break="no"/>sti, nullum est medium instans: sicut nec 
+      <lb ed="#B" n="99"/>inter desitionem panis, &amp; praesentia cor 
+      <lb ed="#B" n="100"/>poris christi. Vnde unum, &amp; idem instans 
+      <lb ed="#B" n="101"/>est primum non esse prolationis 
+      uerbo<lb ed="#B" n="102" break="no"/>rum: &amp; primum non esse panis: &amp; primum 
+      <!--249.xml-->
+      <pb ed="#B" n="198"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>esse corporis christi.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1275">
+      ¶ Si dicis panis 
+      desi<lb ed="#B" n="2" break="no"/>nitinstantaneci: quia totus simul: ergo 
+      <lb ed="#B" n="3"/>per ultimum esse: &amp; pen consequens idem 
+      <lb ed="#B" n="4"/>est ultimum esse: panis: &amp; ipfinium esse 
+      <lb ed="#B" n="5"/>corporis. Et ita pro illo inssanti 
+      simu<lb ed="#B" n="6" break="no"/>essent panis, &amp; corpus christi. Conse- 
+      <lb ed="#B" n="7"/>quentia probatur: quia res successiue 
+      <lb ed="#B" n="8"/>definens, per partem post partem. desinit: 
+      <lb ed="#B" n="9"/>&amp; per primum non esse totalis 
+      desi<lb ed="#B" n="10" break="no"/>tionis: sic res desinens tota simul, &amp; non 
+      <lb ed="#B" n="11"/>successiue, desinit per ultimum. 
+      Re<lb ed="#B" n="12" break="no"/>spondetur; quod panis non desinit per 
+      ul<lb ed="#B" n="13" break="no"/>timum esse: licet definat totus simul. 
+      Cu<lb ed="#B" n="14" break="no"/>lius ratio est: quia panis dufinit ad 
+      desi<lb ed="#B" n="15" break="no"/>rtionem uerborum, quae quia definunt 
+      <lb ed="#B" n="16"/>per primum non essetanquam res succes 
+      <lb ed="#B" n="17"/>siua pro eodem instanti desinit 
+      substan<lb ed="#B" n="18" break="no"/>tia panis: &amp; regula illa, quod res 
+      perma<lb ed="#B" n="19" break="no"/>nens desinens instantanee, &amp; tota simul 
+      <lb ed="#B" n="20"/>desinit per ultimum instans: patitur 
+      in<lb ed="#B" n="21" break="no"/>stantiam, quando res permanens 
+      desi<lb ed="#B" n="22" break="no"/>enit ad desitionem rei fuccessiue. 
+      Simi<lb ed="#B" n="23" break="no"/>liter, quando rei permanenti, quae tota 
+      <lb ed="#B" n="24"/>simul desinit, immediate succedit res 
+      <lb ed="#B" n="25"/>permanens incipiens per primum instans 
+      <lb ed="#B" n="26"/>esse: sic est in proposito. Vnde alterum 
+      <lb ed="#B" n="27"/>necesse est dicere: aut quod panis definat 
+      <lb ed="#B" n="28"/>per primum non esse: &amp; corpus 
+      christi<lb ed="#B" n="29" break="no"/>incipiat ibi esse per primum esse: nut: qpuod 
+      <lb ed="#B" n="30"/>panis desinat per ultimum esse: &amp; 
+      cor<lb ed="#B" n="31" break="no"/>pus christi ibi incipiat esse. per ultimum 
+      <lb ed="#B" n="32"/>non esse, supposito, quod instantia non sint 
+      <lb ed="#B" n="33"/>sibi immediata. Et quod nullum sit 
+      instan<lb ed="#B" n="34" break="no"/>medium inter desitionem panis, &amp; 
+      prae<lb ed="#B" n="35" break="no"/>sentiam corporis christi.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1351">
+      ¶ Quinto 
+      dubi<lb ed="#B" n="36" break="no"/>tatur: utrum aequalis uirturis sit aut 
+      ma<lb ed="#B" n="37" break="no"/>ioris: panem in corpus christi 
+      conuer<lb ed="#B" n="38" break="no"/>è tere: quam aliquid de nouo cicare. 
+      Simili<lb ed="#B" n="39" break="no"/>uter, utrum uirtus transsubstantiandi sit 
+    </p>
+            <p xml:id="gbs333-v47321-d1e1362">
+               <lb ed="#B" n="40"/>¶ nobilior, quam uirtus concipiendi cor 
+      <lb ed="#B" n="41"/>sepus Christi in uirgine matia.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1370">
+      ¶ dte 
+      <lb ed="#B" n="42"/>spondetur breuiter supponendo, ex 
+      su<lb ed="#B" n="43" break="no"/>t pradictis: quod facramenta non efficiunt, 
+      <lb ed="#B" n="44"/>quod significant per aliquam uirtutem 
+      <lb ed="#B" n="45"/>insistentem: sed per uirtutem diuinam 
+      <lb ed="#B" n="46"/>as sistentem: ut habitum est supra 
+      di<lb ed="#B" n="47" break="no"/>stin. j q. i. Idcirco una est, eademque uirtus 
+      <lb ed="#B" n="48"/>creandi, &amp; transsubstantiandi: quia 
+      uir<lb ed="#B" n="49" break="no"/>tus diuina est uua &amp; in diuisibilis 
+      respe<lb ed="#B" n="50" break="no"/>ctu quorumcurque effectuum: nec 
+      ma<lb ed="#B" n="51" break="no"/>ior in productione nobilioris effectus: 
+      <!--249.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nec minor in productione minus 
+      no<lb ed="#B" n="53" break="no"/>bilis. Vnde beatus Aug. in soli. c. iiij. 
+      Om<lb ed="#B" n="54" break="no"/>nipotens manus tua semper una, &amp; eadem 
+      <lb ed="#B" n="55"/>creauit in coelo angelus, &amp; in terra 
+      uer<lb ed="#B" n="56" break="no"/>micuios: non superior in illis, non 
+      infe<lb ed="#B" n="57" break="no"/>rior in istis, &amp; sequitur. Sicut omnipotens 
+      <lb ed="#B" n="58"/>manus tua, cui omnia pari mosunt 
+      pos<lb ed="#B" n="59" break="no"/>sibilia. Nec. ni. possibilius est ei creare 
+      <lb ed="#B" n="60"/>uermiculum, quam angelum: nec impossibilius 
+      <lb ed="#B" n="61"/>est extendere caelum, quam folium: nec leuius 
+      <lb ed="#B" n="62"/>est formare capillum, quam corpus: nec 
+      <lb ed="#B" n="63"/>difficilius fundare terram superaquam, 
+      <lb ed="#B" n="64"/>quam aquam super terram. Sed omnia quae 
+      <lb ed="#B" n="65"/>cunque uoluit, feciti: sicut uoluit in 
+      coe<lb ed="#B" n="66" break="no"/>lo, &amp; interra, &amp; in mari, &amp; in omnibus 
+      <lb ed="#B" n="67"/>abyssis: ideo est aequalis: immo una 
+      uir<lb ed="#B" n="68" break="no"/>tus transsubstantiandi, &amp; creandi
+    </p>
+            <p xml:id="gbs333-v47321-d1e1435">
+      ¶ 
+      Siau<lb ed="#B" n="69" break="no"/>tem refertur ad creaturas, tunc quaeritur: 
+      <lb ed="#B" n="70"/>utrum aequalis, uel maior uirtus sit transsub 
+      <lb ed="#B" n="71"/>stantiandi, quam creandi: est quaerere: utrum 
+      <lb ed="#B" n="72"/>effectus creatus sit maior, quam effectus 
+      <lb ed="#B" n="73"/>per transsubstatiationem productus, &amp; sic 
+      <lb ed="#B" n="74"/>uariatur responsio secundum diuersitatem 
+      <lb ed="#B" n="75"/>effectuumesed sensus ille est improprius. 
+    </p>
+            <p xml:id="gbs333-v47321-d1e1453">
+               <lb ed="#B" n="76"/>¶ Ad secundum in dubio quaesitum: utrum 
+      bea<lb ed="#B" n="77" break="no"/>ta uirgo habuerit aliquam uirtutem sibi 
+      <lb ed="#B" n="78"/>inhaerentem respectu conceptionis 
+      chri<lb ed="#B" n="79" break="no"/>sti corporis, de qua sumpta est materia 
+      <lb ed="#B" n="80"/>corpulenta tractatum est lib. iij. dist. iiij. 
+      <lb ed="#B" n="81"/>Airpure passiue se habuerit anetiam 
+      acti<lb ed="#B" n="82" break="no"/>ue: &amp; quodlibet horum dicatur, si hic: quae 
+      <lb ed="#B" n="83"/>ritundo iurture insistente uirgini in 
+      con<lb ed="#B" n="84" break="no"/>ceptione: &amp; de uirture transsubstantia 
+      <lb ed="#B" n="85"/>di sit comparatis uirtutis creatae ad 
+      in<lb ed="#B" n="86" break="no"/>creatam: &amp; ita patet responsio, quod maior 
+      <lb ed="#B" n="87"/>est uirtus transsubstantiandi, quam 
+      uir<lb ed="#B" n="88" break="no"/>tus concipiendi in uirgine: quia illa est 
+      <lb ed="#B" n="89"/>increata: ista creata
+    </p>
+            <p xml:id="gbs333-v47321-d1e1486">
+      ¶ Si quaeritur de 
+      uir<lb ed="#B" n="90" break="no"/>ture assistente, quae est uirtus 
+      spiritussan<lb ed="#B" n="91" break="no"/>cti uirginem o bumbrantis &amp;c. sic est eadem 
+      <lb ed="#B" n="92"/>uirtus haec &amp; illa: quia increata. Sic si sit 
+      <lb ed="#B" n="93"/>comparatio ad effectum, idem est 
+      esse<lb ed="#B" n="94" break="no"/>ctus utrobique: quia uerum corpus 
+      chri<lb ed="#B" n="95" break="no"/>sti: &amp; per consequens eadem uirtus, id est 
+      <lb ed="#B" n="96"/>uirtus eiusdem effectus productiua: &amp; 
+      <lb ed="#B" n="97"/>secundum hoc potest responderi ad 
+      du<lb ed="#B" n="98" break="no"/>bium.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1508">
+      ¶ Vltimo dubitatur: utrum in 
+      con<lb ed="#B" n="99" break="no"/>uersione panis in corpus christi, 
+      pa<lb ed="#B" n="100" break="no"/>nis desinat per annihilationem de hoc 
+      <lb ed="#B" n="101"/>in ex. cano. lect. xij. Vnde breuiter 
+      di<lb ed="#B" n="102" break="no"/>citur, quod panis secundum setotum desiuit 
+      <!--250.xml-->
+      <pb ed="#B" n="199"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; nihil panis manet: nec materia: nec 
+      <lb ed="#B" n="2"/>forma: sed tantum accidentia: an aut haec 
+      <lb ed="#B" n="3"/>desitio debeat dici annihilatio, an non 
+      <lb ed="#B" n="4"/>stat in quid nominis termini. Nam si 
+      an<lb ed="#B" n="5" break="no"/>nihilatio dicitur desitio rei secundum 
+      se<lb ed="#B" n="6" break="no"/>totam: ita quod nihil, quod fuit de eius 
+      es<lb ed="#B" n="7" break="no"/>sentia maneat: sic panis in hac 
+      conuer<lb ed="#B" n="8" break="no"/>sione annihilatur: sic etiam forma substam 
+      <lb ed="#B" n="9"/>tialis corrupta anihilaretur: licet non 
+      con<lb ed="#B" n="10" break="no"/>positum: quia in corruptione compositi 
+      <lb ed="#B" n="11"/>manet aliquid: scilicet materia 
+      commu<lb ed="#B" n="12" break="no"/>nis corrupto, &amp; genito. Si uero 
+      accipi<lb ed="#B" n="13" break="no"/>tur pro desitione rei secundum se totam, 
+      <lb ed="#B" n="14"/>cui nihil positiuum succedit: sic panis non 
+      <lb ed="#B" n="15"/>annihilatur: quia succedit corpus christi: 
+      <lb ed="#B" n="16"/>&amp; ita comuniter accipitur 
+      annihilatio<lb ed="#B" n="17" break="no"/>a doctoribus.
+    </p>
+            <p xml:id="gbs333-v47321-d1e1563">
+      ¶ Si quris: cum panis desinit, 
+      <lb ed="#B" n="18"/>&amp; nom percorruptionem: quae ergo 
+      uo<lb ed="#B" n="19" break="no"/>catur hec desitio. Respondetur, quod quia 
+      <lb ed="#B" n="20"/>haec desitio est supernaturalis, &amp; miracu 
+      <lb ed="#B" n="21"/>losa: non habet nomen imposituma 
+      phi<lb ed="#B" n="22" break="no"/>sosophis: sed potest dici desitio rei secundum 
+      <lb ed="#B" n="23"/>se totam. de quo latius lec. xli. Et 
+      tan<lb ed="#B" n="24" break="no"/>tum de illa quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

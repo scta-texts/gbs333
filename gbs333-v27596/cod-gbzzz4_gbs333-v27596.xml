@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="113"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v27596"><!-- l4-d5prae -->
+            <head xml:id="gbs333-v27596-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v27596-d1e103">
+               <lb ed="#B" n="60"/>DISTINCTIO V 
+      <lb ed="#B" n="61"/>QVThoc sciendum 
+      <lb ed="#B" n="62"/>est. Egit magister de 
+      <lb ed="#B" n="63"/>baptismo quantum ad 
+      <lb ed="#B" n="64"/>eius quidditatem: &amp; 
+      <lb ed="#B" n="65"/>quantum ad effectum 
+      <lb ed="#B" n="66"/>eius quoad 
+      suscipien<lb ed="#B" n="67" break="no"/>tem. In hac dist. v. agit 
+      <lb ed="#B" n="68"/>de eius effectu quantum ad conferentem. 
+      <lb ed="#B" n="69"/>Et summatur sententia textus in his 
+      tri<lb ed="#B" n="70" break="no"/>bus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v27596-d1e129">
+      ¶ Prima. Abonis, &amp; 
+      <lb ed="#B" n="71"/>malis, baptisma uerum, &amp; sanctum bonis, 
+      <lb ed="#B" n="72"/>&amp; malis datur, sed baptismi munus aequa 
+      <lb ed="#B" n="73"/>le tantum bonis conicatur.
+    </p>
+            <p xml:id="gbs333-v27596-d1e138">
+      ¶ Secunda. 
+      Ha<lb ed="#B" n="74" break="no"/>bet non tantum boni: sed &amp; mali ministe 
+      <lb ed="#B" n="75"/>rium baptixandi: sed neutri accipiunt 
+      <lb ed="#B" n="76"/>potestatem haptismi.
+    </p>
+            <p xml:id="gbs333-v27596-d1e147">
+      ¶ Tertia. 
+      Potesta<lb ed="#B" n="77" break="no"/>tem baptismi in remittendo peccata: quam 
+      <lb ed="#B" n="78"/>dominus reseruauit sibi seruis 
+      concede<lb ed="#B" n="79" break="no"/>re potuit: ut secum concutrerent non ut  
+      <lb ed="#B" n="80"/>auctores, sed ut ministri.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

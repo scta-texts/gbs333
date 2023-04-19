@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 15</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 15</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="464"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v113880"><!-- l4-d15q15 -->
+            <head xml:id="gbs333-v113880-Hd1e101">Quaestio 15</head>
+            <head xml:id="gbs333-v113880-Hd1e103" type="question-title">
+      Utrum damnificans 
+      proximum in bonis corporis: 
+      teneatus ad dam 
+      nirestitutionem de necessitate 
+      salutis
+    </head>
+            <p xml:id="gbs333-v113880-d1e106">
+               <lb ed="#B" n="85"/>QVAESTIO xV. 
+      <lb ed="#B" n="86"/>VTRVM damnificans 
+      pro<lb ed="#B" n="87" break="no"/>ximum in bonis corporis: 
+      <lb ed="#B" n="88"/>teneatus ad dam 
+      nirestitu<lb ed="#B" n="89" break="no"/>tionem de necessitate 
+      sa<lb ed="#B" n="90" break="no"/>lutis.
+    </p>
+            <p xml:id="gbs333-v113880-d1e122">
+      ¶ Solito more tribus articulis 
+      ter<lb ed="#B" n="91" break="no"/>minorum, scilicet declarationibus: 
+      re<lb ed="#B" n="92" break="no"/>sponsiuis conclusionibus: ac dubiorum 
+      <lb ed="#B" n="93"/>solutionibus, quistio absoluetur.
+    </p>
+            <p xml:id="gbs333-v113880-d1e131">
+      ¶ Quantum 
+      <lb ed="#B" n="94"/>ad primum notandum: quod per damnum 
+      <lb ed="#B" n="95"/>in bonis corporis, intelligitur laesio cor 
+      <lb ed="#B" n="96"/>poralis uitae, aut organorum corporis, 
+      <lb ed="#B" n="97"/>aut membrorum. Et haec laesio duplex 
+      <lb ed="#B" n="98"/>est, quaedam infert damnum ultimum, 
+      <!--514.xml-->
+      <pb ed="#B" n="465"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>puta mortem, uel mutilationem 
+      mebro<lb ed="#B" n="2" break="no"/>rum: aut uulnerationem irremediabilem 
+      <lb ed="#B" n="3"/>per quod redditur inutile ad exercitium 
+      <lb ed="#B" n="4"/>operationum naturalium sibi debitatum. 
+      <lb ed="#B" n="5"/>Alia est laesio citra ultimam: &amp; est uulne 
+      <lb ed="#B" n="6"/>ratio, uel debilitatio organi, uel mebri 
+      <lb ed="#B" n="7"/>curabilis: aut non in toto tollens opera 
+      <lb ed="#B" n="8"/>tionem naturalem: sed aliquantulum 
+      im<lb ed="#B" n="9" break="no"/>pediens: prima dicitur laesio enormis: 
+      se<lb ed="#B" n="10" break="no"/>cunda mediocris.
+    </p>
+            <p xml:id="gbs333-v113880-d1e173">
+      ¶ Secundo notandum: 
+      <lb ed="#B" n="11"/>quod ubi non potest fieri restitutio per red 
+      <lb ed="#B" n="12"/>ditionem ablati, uel aequiualentis, sicut  
+      <lb ed="#B" n="13"/>in ablatione uitae, aut eorum laesione (Non 
+      <lb ed="#B" n="14"/>enim potest reddere uitam, qui occidit: 
+      <lb ed="#B" n="15"/>necrestituere membrum, quod mutilauit, aut  
+      <lb ed="#B" n="16"/>intantum debilitauit, quod inutile factum est 
+      <lb ed="#B" n="17"/>ad naturales suas operationes) oportet 
+      <lb ed="#B" n="18"/>fieri restitutionem in alijs, quantum 
+      fieri<lb ed="#B" n="19" break="no"/>potest secundum legem statutam: uel ubi 
+      <lb ed="#B" n="20"/>statura non est ad arbitrium boni uiri. Et  
+      <lb ed="#B" n="21"/>quoniam ut dicit Sco. ubi supra (qui 
+      la<lb ed="#B" n="22" break="no"/>tius caeteris in hac materia scribit) non 
+      <lb ed="#B" n="23"/>est facile: ut protali damno illato 
+      homi<lb ed="#B" n="24" break="no"/>ni fiat recompensatio aequiualens 
+      per<lb ed="#B" n="25" break="no"/>aliqua bona fortunae: quia non aequiua 
+      <lb ed="#B" n="26"/>lent temporales diuitiae sanitati, &amp; 
+      inte<lb ed="#B" n="27" break="no"/>gritaticorporis: ideo inquit, optime 
+      pro<lb ed="#B" n="28" break="no"/>uisum est communitati: ubi statura est 
+      <lb ed="#B" n="29"/>lex talionis, maxime in causa homicidij, 
+      <lb ed="#B" n="30"/>sicut inlege ueteristatura erat. Vnde 
+      <lb ed="#B" n="31"/>Exod. xxj. Qui percusserit hominem 
+      uo<lb ed="#B" n="32" break="no"/>lens occidere eum, morte moriatur. &amp; 
+      <lb ed="#B" n="33"/>sequitur. Et reddet animam pro anima: 
+      <lb ed="#B" n="34"/>oculum pro oculo: dentem pro dente: 
+      ma<lb ed="#B" n="35" break="no"/>num promanu: pedem pro pede: 
+      adu<lb ed="#B" n="36" break="no"/>stionem pro adustione: uulnus pro 
+      uul<lb ed="#B" n="37" break="no"/>nere: liuorem prodiuore. Et simile Leuit.  
+      <lb ed="#B" n="38"/>xxiiij. Verum non ex eo: quia in le. ue. 
+      <lb ed="#B" n="39"/>staturum fuerat: nunc obligat subjectos 
+      <lb ed="#B" n="40"/>euangelio, quos moralia illius legis, non 
+      <lb ed="#B" n="41"/>iudicialia obligant: neque cerimonialia: 
+      <lb ed="#B" n="42"/>sed quia de nouoa principe, uel 
+      commn<lb ed="#B" n="43" break="no"/>nitate statura. Lex enim habet robur a 
+      <lb ed="#B" n="44"/>legislatore in illa communitate: ubi 
+      sta<lb ed="#B" n="45" break="no"/>tuitur; non ab alio: licet ratio statuendi 
+      <lb ed="#B" n="46"/>sumatur ab alio. Et hoc modo iudicialia 
+      <lb ed="#B" n="47"/>multa legis molaicae possent a 
+      papa<lb ed="#B" n="48" break="no"/>uel imperatore statui a christianis 
+      ob<lb ed="#B" n="49" break="no"/>seruanda. Nec per hoc christiai 
+      iudai<lb ed="#B" n="50" break="no"/>xarent, quia non obseruarent ea, ut 
+      sta<lb ed="#B" n="51" break="no"/>tuta a moyse: sed ut statura alegislatore 
+      <!--514.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>euangelico scilicet christo, aut 
+      princi<lb ed="#B" n="53" break="no"/>pe, qui habet statuere leges in ecclesia 
+      <lb ed="#B" n="54"/>christiana, sicut conmunitas in simili: 
+      ui<lb ed="#B" n="55" break="no"/>dens aliam communitatem legibus 
+      be<lb ed="#B" n="56" break="no"/>ne ordinatam, potest illas leges, quas 
+      iu<lb ed="#B" n="57" break="no"/>dicat rationabiles: ut utiles sibi 
+      assume<lb ed="#B" n="58" break="no"/>mere: &amp; tunc obseruantur: non quia 
+      alibi<lb ed="#B" n="59" break="no"/>staturae, sed quia de nouo in hac conitate 
+      <lb ed="#B" n="60"/>staturae. Simile est uidere in 
+      religioni<lb ed="#B" n="61" break="no"/>bus, quarum nonnunquam una recipit 
+      <lb ed="#B" n="62"/>statura ab alia sibi conducentia, quae 
+      ob<lb ed="#B" n="63" break="no"/>ligant: non quia alibi statura, sed quia 
+      <lb ed="#B" n="64"/>hic de nouo assupta, &amp; a praelatis huius 
+      <lb ed="#B" n="65"/>religiois ordinata. Et phoc si ab aliquo 
+      <lb ed="#B" n="66"/>legislatore statueretur: quod blasphemus, 
+      <lb ed="#B" n="67"/>idolatra, adulter occideretur: iusta esset 
+      <lb ed="#B" n="68"/>lex illa, sicut iusta est lex illa in pluribus 
+      <lb ed="#B" n="69"/>ciuitatibus, ac communitatibus 
+      consti<lb ed="#B" n="70" break="no"/>tura: quod homicida uoluntarius moriatur. 
+      <lb ed="#B" n="71"/>Et per hoc homicida subdens se huic 
+      se<lb ed="#B" n="72" break="no"/>gilustinendo mortem, dum infligitur, 
+      <lb ed="#B" n="73"/>satisfacit occiso. Non quidem uitam eire 
+      <lb ed="#B" n="74"/>stituendo: quod ei est impossibile: nec aliqud 
+      <lb ed="#B" n="75"/>aequiualens tribuendo; quia nec hoc 
+      po<lb ed="#B" n="76" break="no"/>test: sed paenam similem patiendo. Vbi. n. 
+      <lb ed="#B" n="77"/>non potest satisfieri agendo, oportet 
+      fie<lb ed="#B" n="78" break="no"/>ri patiendo iuxta illud. Qui non habet 
+      <lb ed="#B" n="79"/>in aere: luat in corpore.
+    </p>
+            <p xml:id="gbs333-v113880-d1e329">
+      ¶ Verum per hoc  
+      <lb ed="#B" n="80"/>non satis facit aliis, qui ex homicidiosunt 
+      <lb ed="#B" n="81"/>damnificati: utuxori, liberi, &amp; 
+      caete<lb ed="#B" n="82" break="no"/>ris emolimentum ab interfecto expecta 
+      <lb ed="#B" n="83"/>tibus. Et tantum de. j. artic.
+    </p>
+            <p xml:id="gbs333-v113880-d1e340">
+      ¶ Quantum 
+      <lb ed="#B" n="84"/>ad secundum articulum est 
+      conclusio<lb ed="#B" n="85" break="no"/>prima. Homicida auferens uitam proxi- 
+      <lb ed="#B" n="86"/>mi iniuste: securius agit si 
+      satisfacien<lb ed="#B" n="87" break="no"/>do se sponte submiserit poenae legis con 
+      <lb ed="#B" n="88"/>stitutae. Haec conclusio est de mente 
+      <lb ed="#B" n="89"/>Scotus ubi supra: nam quicontra 
+      legen<lb ed="#B" n="90" break="no"/>delinquit, securius satisfacit penam 
+      iu<lb ed="#B" n="91" break="no"/>stam determinatam a lege 
+      subeun<lb ed="#B" n="92" break="no"/>do. Sed poena talionis, qua uita. 
+      reddi<lb ed="#B" n="93" break="no"/>tur pro uita (si lege determinatur) iusta 
+      <lb ed="#B" n="94"/>est: quia naturali rationi consona, &amp; 
+      ap<lb ed="#B" n="95" break="no"/>probata: non solum lege mosaica: sed  
+      <lb ed="#B" n="96"/>etiam euangelica. Nam Matt. xxvi. ait 
+      <lb ed="#B" n="97"/>dominus. Omnes, qui acceperint 
+      gla<lb ed="#B" n="98" break="no"/>dium, gladio peribunt, &amp; ideo 
+      homi<lb ed="#B" n="99" break="no"/>cida subdendo se huic poenae, ubi 
+      sta<lb ed="#B" n="100" break="no"/>tuta est: aut exponendo uitam suam 
+      <lb ed="#B" n="101"/>in causa fidei: uel contra inimicos 
+      <lb ed="#B" n="102"/>ecclesiae, autalia in causa iusta: fatis fa¬ 
+      <!--515.xml-->
+      <pb ed="#B" n="466"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cit secundum legem: &amp; securior est 
+      satis<lb ed="#B" n="2" break="no"/>fecisse in conscientia.
+    </p>
+            <p xml:id="gbs333-v113880-d1e395">
+      ¶ Secunda 
+      con<lb ed="#B" n="3" break="no"/>clusio. Nullus homicida in occasione. 
+      <lb ed="#B" n="4"/>satis factionis sibi ipsi inferre debet 
+      pae<lb ed="#B" n="5" break="no"/>nam mortis. Patet: quia nullus debet 
+      ee<lb ed="#B" n="6" break="no"/>homicida suiipsius ex quacunque causa 
+      <lb ed="#B" n="7"/>sine speciali praecepto dei. Vnde Beatus 
+      <lb ed="#B" n="8"/>August. j. de ciui. de. cap. xxj. &amp; habetur 
+      <lb ed="#B" n="9"/>xxiij. q.v. si non licet. His exceptis, quos 
+      <lb ed="#B" n="10"/>uel lex iusta generaliter: uel ipse sons 
+      iu<lb ed="#B" n="11" break="no"/>stitiae deus specialiter occidiiubet: 
+      quis<lb ed="#B" n="12" break="no"/>quis hominem, uel se ipsum uel quemlibet 
+      <lb ed="#B" n="13"/>occiderit; homicidij crimine innitit. &amp; 
+      <lb ed="#B" n="14"/>pmisit eo. c. inprinci. neque. n. frustra. In 
+      <lb ed="#B" n="15"/>sanctis, canonicisque libris nusquam nobis 
+      <lb ed="#B" n="16"/>diuinitus praeceptum prmissumue reperiti 
+      <lb ed="#B" n="17"/>potest: ut uel ipsius adipiscend 
+      immor<lb ed="#B" n="18" break="no"/>talitatis: uel ullius carendi, cauendiue 
+      <lb ed="#B" n="19"/>mali causa nobismet ipsis necem 
+      infera<lb ed="#B" n="20" break="no"/>mus. Quod uerum est generaliter: 
+      quo<lb ed="#B" n="21" break="no"/>niam secus si deus alicui, ut seipsum 
+      oe<lb ed="#B" n="22" break="no"/>cideret, specialiter demandaret: ut de 
+      <lb ed="#B" n="23"/>Samsone creditur: de quo idem August. 
+      <lb ed="#B" n="24"/>ibidem. c. xxj. dicit. Nec Samson aliter 
+      <lb ed="#B" n="25"/>excusatur: quod seipsum cum hostibus 
+      rui<lb ed="#B" n="26" break="no"/>na domus oppressit, nisi quia spiritus 
+      la<lb ed="#B" n="27" break="no"/>tenter hoc iusserat, qui per illum 
+      mira<lb ed="#B" n="28" break="no"/>cula faciebat.
+    </p>
+            <p xml:id="gbs333-v113880-d1e454">
+      ¶ Tertia coclusio. Vbilex 
+      <lb ed="#B" n="29"/>talionis non est statura: aut occisori non 
+      <lb ed="#B" n="30"/>inflicta: nestitutio alia cecessaria est in 
+      <lb ed="#B" n="31"/>pijs operibus, aut afflictiuis passionibus 
+      <lb ed="#B" n="32"/>pro occiso in uim satisfactionis 
+      sponte<lb ed="#B" n="33" break="no"/>assumendis. Patet: quia ubi ablatum 
+      re<lb ed="#B" n="34" break="no"/>stitui non potest secundum se: 
+      restituen<lb ed="#B" n="35" break="no"/>dum est in aequiualenti, quantum 
+      fieri<lb ed="#B" n="36" break="no"/>potest. Et cui non potest fieri restitutio 
+      <lb ed="#B" n="37"/>temporalis: fiat restitutio spiritualis: ut  
+      <lb ed="#B" n="38"/>ex praemissis patet. Ideoque cum 
+      occiso<lb ed="#B" n="39" break="no"/>non potest quid corporale, &amp; 
+      tempora<lb ed="#B" n="40" break="no"/>le conferri: quia temporalem periodum 
+      <lb ed="#B" n="41"/>excessit: impendenda sunt bona spiritua 
+      <lb ed="#B" n="42"/>lia: opera scilicet meritoria, ac defuncto 
+      <lb ed="#B" n="43"/>rum suffragia in occisum directa, &amp; 
+      pro<lb ed="#B" n="44" break="no"/>pter eum assumpta: ut anima, quam 
+      ab<lb ed="#B" n="45" break="no"/>ssulit, commodum aliquod sentiat. Si que 
+      <lb ed="#B" n="46"/>ris quanta: dicitur, quod fiat ad iudicium 
+      di<lb ed="#B" n="47" break="no"/>screti confessoris, uel arbitrium boni 
+      ui<lb ed="#B" n="48" break="no"/>ri.
+    </p>
+            <p xml:id="gbs333-v113880-d1e500">
+      ¶ Quarta conclusio. Praeter satis 
+      fa<lb ed="#B" n="49" break="no"/>ctionem personae occisae impensam: 
+      ne<lb ed="#B" n="50" break="no"/>cesse est refundere damna cunctis 
+      per<lb ed="#B" n="51" break="no"/>hanc occasionem laesis passa. Patet ista 
+      <!--515.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>conclusio: quia omnis dans occasionem 
+      <lb ed="#B" n="53"/>damni tenetur damnificatos reddere in 
+      <lb ed="#B" n="54"/>demnes per c. si cuipa, de iniur. &amp; dam. 
+      <lb ed="#B" n="55"/>dato: ut patet supra q. ij. huius dist. arti. 
+      <lb ed="#B" n="56"/>ergo, &amp; damnificans per occisionem. 
+      <lb ed="#B" n="57"/>Vnde si occisus sustentabat aliquos 
+      pu<lb ed="#B" n="58" break="no"/>ta patrem, matrem, liberos uel 
+      propin<lb ed="#B" n="59" break="no"/>quos: tenetur interfector omnibus illis 
+      <lb ed="#B" n="60"/>ad tantum in restitutione: quantum 
+      uti<lb ed="#B" n="61" break="no"/>litatis illis abstulerat per interfectionem, 
+      <lb ed="#B" n="62"/>quod aestimandum est secundum 
+      tem<lb ed="#B" n="63" break="no"/>pus, quo occisus uerisimiliter fuisset 
+      ui<lb ed="#B" n="64" break="no"/>cturus, &amp; opaturi, aut tales sustentaturi 
+    </p>
+            <p xml:id="gbs333-v113880-d1e543">
+               <lb ed="#B" n="65"/>¶ Quintaconclusio. In caeteris 
+      laesioni<lb ed="#B" n="66" break="no"/>bus citra mortem tenetur laedens 
+      dam<lb ed="#B" n="67" break="no"/>na, quae inturrit laesus atque coniuncti: 
+      <lb ed="#B" n="68"/>praesentia, &amp; futura: passosque dolores 
+      co<lb ed="#B" n="69" break="no"/>pensare: &amp; medicorum impensas, si quae 
+      <lb ed="#B" n="70"/>factae sunt soluere. Haec conclusio est 
+      <lb ed="#B" n="71"/>Sco. ubi supra, &amp; probatur quoad 
+      medi<lb ed="#B" n="72" break="no"/>corum impensas per.c. de iniu. &amp; dam. 
+      <lb ed="#B" n="73"/>sumptum ex textu. Exo. xxi. ubi dicitur. 
+      <lb ed="#B" n="74"/>Si percusserit alter proximum suum 
+      la<lb ed="#B" n="75" break="no"/>pide, uel pugno: &amp; ille mortuus non 
+      fue<lb ed="#B" n="76" break="no"/>rit: sed iacuerit in lecto: qui percusserit, 
+      <lb ed="#B" n="77"/>operas eius, &amp; expensas in medicos 
+      re<lb ed="#B" n="78" break="no"/>stituet. Quoad alias partes probatur 
+      con<lb ed="#B" n="79" break="no"/>mum medio: quia omne damnum 
+      ali<lb ed="#B" n="80" break="no"/>cuii niuste allatum, est a laeso 
+      damnifica<lb ed="#B" n="81" break="no"/>tore compensandum per.c. si culpa. 
+      er<lb ed="#B" n="82" break="no"/>go nedum percussus, uel mutilatus: sed  
+      <lb ed="#B" n="83"/>omnes ex eius laesione damnificati sunt  
+      <lb ed="#B" n="84"/>seruandi indemnes. Et quoniam in 
+      hu<lb ed="#B" n="85" break="no"/>iusmodi laesione non est statura 
+      ineccle<lb ed="#B" n="86" break="no"/>sia lex ralionis: frequenter: sit 
+      restitutio<lb ed="#B" n="87" break="no"/>pocuniaria ad aestimationem aboni:uiri, 
+      <lb ed="#B" n="88"/>qui debet respondere omni damuo, quod 
+      <lb ed="#B" n="89"/>passus est laesus in se, &amp; sibi coniunctis per 
+      <lb ed="#B" n="90"/>toro illo tempore, pro quo uerisimiliter 
+      <lb ed="#B" n="91"/>usus fuisset membro laeso. Si mutilatus: 
+      <lb ed="#B" n="92"/>pro toto tempore uitae suae. Si non 
+      mu<lb ed="#B" n="93" break="no"/>tilatus: pro toto tempore, quo propter 
+      <lb ed="#B" n="94"/>laesionem uti non potuit. Et dicit Scot. 
+      <lb ed="#B" n="95"/>quod in hac recompensa plus 
+      ponde<lb ed="#B" n="96" break="no"/>randa est laesio pauperis, quam diuitis: 
+      <lb ed="#B" n="97"/>quia pauper magis indigebat 
+      membro<lb ed="#B" n="98" break="no"/>abscisso, uel laeso ad uictum 
+      necessar<lb ed="#B" n="99" break="no"/>ium: licet pro alia parte sit 
+      condi<lb ed="#B" n="100" break="no"/>tio praeponderans in diuite: scilicet 
+      di<lb ed="#B" n="101" break="no"/>gnitas personae: sed hoc dicit parum est 
+      <lb ed="#B" n="102"/>respectu primae.
+    </p>
+            <p xml:id="gbs333-v113880-d1e628">
+      ¶ Debet etiam restitutio 
+      <!--516.xml-->
+      <pb ed="#B" n="467"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>respondere desolationi afflicti: quia 
+      per<lb ed="#B" n="2" break="no"/>petua est sibi desolatio carere membro 
+      <lb ed="#B" n="3"/>abscisso, mutilato. Et tantum de articulo 
+      <lb ed="#B" n="4"/>ii.
+    </p>
+            <p xml:id="gbs333-v113880-d1e646">
+      ¶ Quantum ad tertium articulum 
+      dubi<lb ed="#B" n="5" break="no"/>tatur primo. Quis iuste possit occidi, 
+      <lb ed="#B" n="6"/>aut in corpore laedi: quoniam dictum est 
+      <lb ed="#B" n="7"/>in conclusione de restitutione iniustele 
+      <lb ed="#B" n="8"/>sorum: ideo a contrario sensu, qui iuste 
+      <lb ed="#B" n="9"/>laeditur, paenam suam fert: nec restitutio 
+      si<lb ed="#B" n="10" break="no"/>bi debetur.
+    </p>
+            <p xml:id="gbs333-v113880-d1e662">
+      ¶ Ad hoc sententialiter 
+      respon<lb ed="#B" n="11" break="no"/>det Sco: quod iuste occiditur, quem lex iusta 
+      <lb ed="#B" n="12"/>generaliter: uel deus specialiter iubet 
+      oc<lb ed="#B" n="13" break="no"/>cidi, &amp; sunt uerba beati Aug. in 
+      proba<lb ed="#B" n="14" break="no"/>tione primae conclusionis allegata. 
+      Con<lb ed="#B" n="15" break="no"/>sequenter inquirit, quae sit lex iusta: &amp; 
+      re<lb ed="#B" n="16" break="no"/>spodet breuiter: nulla; nisi quae descendit 
+      <lb ed="#B" n="17"/>a lege diuina: sicut conclusiones practicae 
+      <lb ed="#B" n="18"/>a principiis practicis: uel quae concordat 
+      <lb ed="#B" n="19"/>legi diuinae, uel ad minus non discordat.  
+    </p>
+            <p xml:id="gbs333-v113880-d1e684">
+               <lb ed="#B" n="20"/>¶ Ex illo infert: quod quia lex diuina 
+      abso<lb ed="#B" n="21" break="no"/>lute prohibiuit, ne permittas hominem 
+      <lb ed="#B" n="22"/>occidi: &amp; nulli inferiori licet in lege 
+      su<lb ed="#B" n="23" break="no"/>perioris dispensare: ergo nulla lex positi 
+      <lb ed="#B" n="24"/>ua constituens hominem occidendum iusta 
+      <lb ed="#B" n="25"/>est: si in illis casibus statuat, in qubus deus 
+      <lb ed="#B" n="26"/>non excepit. Excepit aut in multis: ut  
+      <lb ed="#B" n="27"/>in blasphemia, homicidio, adulterio, &amp; 
+      <lb ed="#B" n="28"/>alijs: ut patet in Exo. &amp; aliis in pluribus 
+      <lb ed="#B" n="29"/>locis: in quibus casibus lex positiua iustt 
+      <lb ed="#B" n="30"/>potest transgressoribus determinare 
+      penan<lb ed="#B" n="31" break="no"/>mortis.
+    </p>
+            <p xml:id="gbs333-v113880-d1e713">
+      ¶ Ex illo consequenter elicit, quod lex 
+      <lb ed="#B" n="32"/>statuens furem maxime diurnum occidi: 
+      <lb ed="#B" n="33"/>est iniusta: quia nullibi dimdes excepit furem 
+      <lb ed="#B" n="34"/>ab illo praecepto. Non occides. immo 
+      <lb ed="#B" n="35"/>uidetur: quod dicimdes non uellit furem illa 
+      pena<lb ed="#B" n="36" break="no"/>plecti: quoniam aliam paenan dimdns infligit scilicet re 
+      <lb ed="#B" n="37"/>stitutionem quadrupli, uel quintupli: ut 
+      pa<lb ed="#B" n="38" break="no"/>tet Exod. xxij. Et dicitur maxime 
+      diur<lb ed="#B" n="39" break="no"/>nus: quoniam si nocturnus occidatur: 
+      per<lb ed="#B" n="40" break="no"/>cussor non erit reus sanguinis. Vnde ibidem 
+      <lb ed="#B" n="41"/>dicitur. Si effringens fur domum, siue 
+      suf<lb ed="#B" n="42" break="no"/>fodiens fuerit inuentus: &amp; accepto 
+      uul<lb ed="#B" n="43" break="no"/>nere mortuus fuerit: percussor non erit 
+      <lb ed="#B" n="44"/>reus sanguinis. Quod si orto sole hoc 
+      <lb ed="#B" n="45"/>fecerit: homicidiu perpetrauit, &amp; ipse 
+      <lb ed="#B" n="46"/>moriatur. Vbi expresse diues prohibet 
+      fu<lb ed="#B" n="47" break="no"/>rem diurnum occidi. Secus de 
+      noctur<lb ed="#B" n="48" break="no"/>no, qui inuasor est: quoniam 
+      praesumi<lb ed="#B" n="49" break="no"/>tur homicida: &amp; uelle occidere, si quis 
+      <lb ed="#B" n="50"/>uult sibi resistere. &amp; addit Scot. Esto 
+      <lb ed="#B" n="51"/>etiam: quod aliquo modo licuisset iudaeis 
+      <!--516.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>pro furto occidere: magis uideretur 
+      per<lb ed="#B" n="53" break="no"/>misericordiam euangencam rigor ille 
+      <lb ed="#B" n="54"/>reuocatus, quam rigor contra adulterium. 
+      <lb ed="#B" n="55"/>Et secundum hoc omnes iudicantes furem 
+      <lb ed="#B" n="56"/>ad mortem essent homicidae: &amp; peccarent 
+      <lb ed="#B" n="57"/>grauiter contra quintum praeceptum. 
+      <lb ed="#B" n="58"/>Verum licet haec opinio apparentiam quam 
+      <lb ed="#B" n="59"/>dam habeat: quia tamen in oppositum est 
+      <lb ed="#B" n="60"/>communis consuetudo, &amp; practica: &amp; 
+      du<lb ed="#B" n="61" break="no"/>rum est in hoc casu omnes iudices 
+      secun<lb ed="#B" n="62" break="no"/>dum municipalia tolerata iudicantes dam 
+      <lb ed="#B" n="63"/>nare. Videtur aliter dicendum: quod 
+      occi<lb ed="#B" n="64" break="no"/>dentes fures secundum leges generales, 
+      <lb ed="#B" n="65"/>aut speciales iustas non peccent: nec 
+      di<lb ed="#B" n="66" break="no"/>cendi homicidae: quod innuit Aug. in 
+      uer<lb ed="#B" n="67" break="no"/>bis allegatis. Consequenter dicitur: quod 
+      <lb ed="#B" n="68"/>lex iusta est, quae descendit &amp;c. ut dictu 
+      <lb ed="#B" n="69"/>est.
+    </p>
+            <p xml:id="gbs333-v113880-d1e803">
+      ¶ Et quod additur dominus 
+      absolu<lb ed="#B" n="70" break="no"/>te prohibuit &amp;c. Si absolute tantum 
+      ua<lb ed="#B" n="71" break="no"/>let id est simpliciter in omni casu: non est 
+      ue<lb ed="#B" n="72" break="no"/>rum: cum &amp; ipse dominus multos casus 
+      <lb ed="#B" n="73"/>excepit, inter quos &amp; ille, quo dominus 
+      <lb ed="#B" n="74"/>mandat: quod qui superbiens non obedit 
+      sa<lb ed="#B" n="75" break="no"/>cerdoribus, &amp; iudici ex decreto iudicis 
+      <lb ed="#B" n="76"/>morietur. Deut. xvij.
+    </p>
+            <p xml:id="gbs333-v113880-d1e821">
+      ¶ Vbi uidetur 
+      do<lb ed="#B" n="77" break="no"/>minus dedisse potestatem praesidentibus 
+      <lb ed="#B" n="78"/>statuendi leges rationabiles, quibus 
+      po<lb ed="#B" n="79" break="no"/>pulus tenetur obedire: &amp; qui has 
+      conten<lb ed="#B" n="80" break="no"/>nit morte moriatur. Et per hoc sub 
+      pae<lb ed="#B" n="81" break="no"/>na mortis statuere possunt ea, quibus pax 
+      <lb ed="#B" n="82"/>reipu. conseruetur: &amp; prohibere unde 
+      <lb ed="#B" n="83"/>turbatur: sicque praeuenire mala, 
+      seditio<lb ed="#B" n="84" break="no"/>nes, homicidia, &amp; huiusmodi: ac 
+      transgres<lb ed="#B" n="85" break="no"/>sores etiam ultimo supplicio punite: 
+      alio<lb ed="#B" n="86" break="no"/>quin quo crimensaesae maiestatis morte 
+      <lb ed="#B" n="87"/>plecteretur. similiter, pditionis, incendii 
+      <lb ed="#B" n="88"/>&amp;c. in quibus tamen nemo perit. &amp; caetera 
+      <lb ed="#B" n="89"/>crimina: ex quibus praesumitur: quod 
+      sequi<lb ed="#B" n="90" break="no"/>possent homicidia: licet non semper 
+      se<lb ed="#B" n="91" break="no"/>quantur. Quo etiam fur nocturnus, aut in 
+      <lb ed="#B" n="92"/>uasor, raptor, morte iuste puniretur: quando 
+      <lb ed="#B" n="93"/>non sequitur homicidium in actu: licet 
+      se<lb ed="#B" n="94" break="no"/>quatur in praesumptione: cum etiam dimis 
+      <lb ed="#B" n="95"/>percussorem proximi, si non moritur in 
+      <lb ed="#B" n="96"/>actu: praecepit non occidi. Exod. xxi. 
+    </p>
+            <p xml:id="gbs333-v113880-d1e867">
+               <lb ed="#B" n="97"/>¶ Videtur namque: quod iuste poterat statui 
+      <lb ed="#B" n="98"/>ut suroccidatur: ne si paena ista tollatur 
+      <lb ed="#B" n="99"/>propter furum frequentiam: quae etiam 
+      <lb ed="#B" n="100"/>statura hac pena uix prohiberi possunt: 
+      <lb ed="#B" n="101"/>maxima turbatio pacis reipub. &amp; 
+      homi<lb ed="#B" n="102" break="no"/>cidia multa, ac bella plurima consequan¬ 
+      <!--517.xml-->
+      <pb ed="#B" n="468"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tur. Haec autem offero lectori cautius 
+      <lb ed="#B" n="2"/>examinanda.
+    </p>
+            <p xml:id="gbs333-v113880-d1e893">
+      ¶ Sunt, qui prohac 
+      opi<lb ed="#B" n="3" break="no"/>nione adducunt illud. Comederis 
+      ue<lb ed="#B" n="4" break="no"/>tustissima ueterum: &amp; uetera nouis 
+      su<lb ed="#B" n="5" break="no"/>peruenientibus proiicientes. Leui. xxvi. 
+      <lb ed="#B" n="6"/>per noua, legem euangelican: per uetera 
+      <lb ed="#B" n="7"/>legem moysaican: per uetustissima, legem 
+      <lb ed="#B" n="8"/>naturalem accipientes quo mystice 
+      in<lb ed="#B" n="9" break="no"/>nuatur. Nouis superuenientibus id est 
+      lege<lb ed="#B" n="10" break="no"/>euangelica: uetera id est legis movsaicae 
+      prae<lb ed="#B" n="11" break="no"/>cepta proiicietis: non obseruabitis ea 
+      <lb ed="#B" n="12"/>quantum ad cerimonialia, &amp; iudicialia: 
+      <lb ed="#B" n="13"/>quae scilicet non sunt de lege naturae. Et 
+      uetum<lb ed="#B" n="14" break="no"/>stissima ueterum id est legem naturalem, quae 
+      <lb ed="#B" n="15"/>prima est, &amp; cordibus hominum inserta, se 
+      <lb ed="#B" n="16"/>cundum apostolum Rom. ii. conmedetis. i. ob 
+      <lb ed="#B" n="17"/>seruabitis. Legi aut naturali consonum est: 
+      <lb ed="#B" n="18"/>ut inutiles homines comunis pacis, &amp; 
+      <lb ed="#B" n="19"/>reipu. turbatores: quales sunt fures: de 
+      <lb ed="#B" n="20"/>medio tollantur: &amp; per hoc patet respon 
+      <lb ed="#B" n="21"/>sio ad dubium.
+    </p>
+            <p xml:id="gbs333-v113880-d1e937">
+      ¶ Secundo dubitari possit 
+      <lb ed="#B" n="22"/>de homicidio casuali: ut si quis lapidem 
+      <lb ed="#B" n="23"/>proiiciat de domo: &amp; casu aliquis uadens 
+      <lb ed="#B" n="24"/>er plateam tali iactu occiditur praeter 
+      <lb ed="#B" n="25"/>intentionem iacientis: sed satis patet 
+      so<lb ed="#B" n="26" break="no"/>lutio ex dictis. q. proxima artic. iij. dub. 
+      <lb ed="#B" n="27"/>ij. Si enim proijciens in casu omnia 
+      <lb ed="#B" n="28"/>adhibuit, quibus caueripotuit 
+      homici<lb ed="#B" n="29" break="no"/>dium, aut laesio: quae diligens homo 
+      <lb ed="#B" n="30"/>a dhibere solet: nec operam dedit rei 
+      <lb ed="#B" n="31"/>illicitae: non tenetur. Suo modo si 
+      a<lb ed="#B" n="32" break="no"/>lius laesus fuerit per animalia alterius: si 
+      <lb ed="#B" n="33"/>dominus nouit, aut noscere debuit 
+      con<lb ed="#B" n="34" break="no"/>ditionem animalis: ut si bos fuerit 
+      cor<lb ed="#B" n="35" break="no"/>nupeta, &amp; non includit: aut equus 
+      cal<lb ed="#B" n="36" break="no"/>citrans, &amp; altericommodauit non 
+      aui<lb ed="#B" n="37" break="no"/>sans eum, &amp; in similibus: tenetur 
+      domi<lb ed="#B" n="38" break="no"/>nus auimalis ad damni restitutionem, de 
+      <lb ed="#B" n="39"/>quo multa praecepta sunt iudaeis. Exod. 
+      <lb ed="#B" n="40"/>xxii. &amp; transsumitur textus ad titulum 
+      <lb ed="#B" n="41"/>de iniur. &amp; dam. in pluribus cap. 
+      Siue<lb ed="#B" n="42" break="no"/>ro dominus animalis ignorauit 
+      condi<lb ed="#B" n="43" break="no"/>tionem animalis, &amp; conditio illa non 
+      <lb ed="#B" n="44"/>sequitur communiter naturam, seu 
+      spe<lb ed="#B" n="45" break="no"/>ciem animalis: non tenetur ad damni 
+      re<lb ed="#B" n="46" break="no"/>fusionem: sed dando animal laedens 
+      se<lb ed="#B" n="47" break="no"/>ipsum liberat: ita distinguit Tranci. de 
+      <lb ed="#B" n="48"/>platea in tract. resti. parte j. ¶. xc. Et  
+      <lb ed="#B" n="49"/>cum dicitur: ad damni restitutionem: 
+      <lb ed="#B" n="50"/>subdamno includuntur impensae in 
+      cu<lb ed="#B" n="51" break="no"/>ratione factae, &amp; optrae amissae, &amp; quae hu¬ 
+      <!--517.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ius occasione amittendae fuerant. 
+      Qui<lb ed="#B" n="53" break="no"/>uero in publico nutrit bestias, feras ut  
+      <lb ed="#B" n="54"/>ursos, seones, &amp; similia, canes mordaces. 
+      <lb ed="#B" n="55"/>Siligaturas, quibus catenatae sunt, aut  
+      <lb ed="#B" n="56"/>uincula ruperint, uel caueas, quibus 
+      in<lb ed="#B" n="57" break="no"/>cludi solent: &amp; inferant damnum aliis: 
+      <lb ed="#B" n="58"/>non liberatur dominus animalis dando 
+      <lb ed="#B" n="59"/>bestiam: sed tenetur ad totius damni 
+      re<lb ed="#B" n="60" break="no"/>stitutionem, secundum aestimationem 
+      <lb ed="#B" n="61"/>iustam: quia huiusmodi animalia non 
+      de<lb ed="#B" n="62" break="no"/>bent teneri in publico: neque ligata, neque  
+      <lb ed="#B" n="63"/>soluta. Est sententia Hostien. de iniu. &amp; 
+      <lb ed="#B" n="64"/>dam. ea in titu. de pauperi. de hoc 
+      sup<lb ed="#B" n="65" break="no"/>qu. praecedenti. artic. iij.
+    </p>
+            <p xml:id="gbs333-v113880-d1e1039">
+      ¶ Tertio 
+      dubita<lb ed="#B" n="66" break="no"/>tur de medicis: quid si ex negligentia cum 
+      <lb ed="#B" n="67"/>rationis, uel imperitia laborans moritur 
+      <lb ed="#B" n="68"/>uel mutilatur. Respondetur: quod medi 
+      <lb ed="#B" n="69"/>cus potest esse in culpa ante factum, in 
+      <lb ed="#B" n="70"/>facto, &amp; post factum. Ante factum; 
+      si<lb ed="#B" n="71" break="no"/>fuerit imperitus, &amp; idiota: &amp; intromitti 
+      <lb ed="#B" n="72"/>se de curatione. In facto: quia licet 
+      pe<lb ed="#B" n="73" break="no"/>ritus sit in arte: non tamen sequitur 
+      tra<lb ed="#B" n="74" break="no"/>ditionem artis. Postfactum: quia non 
+      <lb ed="#B" n="75"/>adhibet diligentiam procustodia 
+      infir<lb ed="#B" n="76" break="no"/>mi: aut de relinquit infirmum non 
+      ple<lb ed="#B" n="77" break="no"/>nae sanitati restitutum: &amp; quocunque 
+      ho<lb ed="#B" n="78" break="no"/>rum modorum fuerit in culpa: tenetur 
+      <lb ed="#B" n="79"/>ad test, tutionem damni occasione suae 
+      <lb ed="#B" n="80"/>negligentiae; uel imperitiae 
+      contingen<lb ed="#B" n="81" break="no"/>tis. &amp; maxime si pro lucro 
+      opera<lb ed="#B" n="82" break="no"/>tur: &amp; se ostendit ut peritum in 
+      ar<lb ed="#B" n="83" break="no"/>te.
+    </p>
+            <p xml:id="gbs333-v113880-d1e1082">
+      ¶ Si uero nequeante: nec in facto: 
+      <lb ed="#B" n="84"/>nec post factum fuerit in cuspa: 
+      li<lb ed="#B" n="85" break="no"/>cet infirmus moriatur: non tenetur ad 
+      <lb ed="#B" n="86"/>restitutionem damni. Quibus autem 
+      <lb ed="#B" n="87"/>pauperibus etiam gratis, &amp; suis 
+      im<lb ed="#B" n="88" break="no"/>pensis mederi teneatur: &amp; qualiter 
+      mo<lb ed="#B" n="89" break="no"/>dum seruabit, ne corporalis medicina 
+      <lb ed="#B" n="90"/>fiat mortalis animae non est praesentis 
+      <lb ed="#B" n="91"/>speculationis.
+    </p>
+            <p xml:id="gbs333-v113880-d1e1102">
+      ¶ Vltimo dubitatur: 
+      <lb ed="#B" n="92"/>ad quid teneatur, qui procurat 
+      ali<lb ed="#B" n="93" break="no"/>quem iniuste redigi in seruitutem. 
+      Re<lb ed="#B" n="94" break="no"/>spondetur: quod talis tenetur liberare eum, 
+      <lb ed="#B" n="95"/>quem in seruitutem procurauit iniuste 
+      <lb ed="#B" n="96"/>redigi. Et si aliter non poterit: 
+      tene<lb ed="#B" n="97" break="no"/>tur se facere seruum pro eo: nisi 
+      for<lb ed="#B" n="98" break="no"/>te talis esset conditio personae 
+      damnifi<lb ed="#B" n="99" break="no"/>cantis: quod per eius redactionem in 
+      <lb ed="#B" n="100"/>seruiturem neret notabile 
+      praeiudi<lb ed="#B" n="101" break="no"/>cium reipubl. quo casu non 
+      tenere<lb ed="#B" n="102" break="no"/>tur se facere seruum: sed alias face¬ 
+      <!--518.xml-->
+      <pb ed="#B" n="469"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>re recompensam ad arbitrium boni 
+      ui<lb ed="#B" n="2" break="no"/>ri. Et tantum de hac quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

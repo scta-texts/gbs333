@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="199"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v48804"><!-- l4-d11q2 -->
+            <head xml:id="gbs333-v48804-Hd1e101">Quaestio 2</head>
+            <head xml:id="gbs333-v48804-Hd1e103" type="question-title">utrum materia 
+      eucharistiae sit panis triticeus, et 
+      naturalis liquor vini</head>
+            <p xml:id="gbs333-v48804-d1e106">
+               <lb ed="#B" n="25"/>QVAESTIO II 
+      <lb ed="#B" n="26"/>QVAERITVR secundo 
+      <lb ed="#B" n="27"/>de materia huius 
+      sacramen<lb ed="#B" n="28" break="no"/>ti: utrum materia 
+      euchari<lb ed="#B" n="29" break="no"/>stiae sit panis triticeus, &amp; 
+      na<lb ed="#B" n="30" break="no"/>turalis liquor uini.
+    </p>
+            <p xml:id="gbs333-v48804-d1e122">
+      ¶ Tribus articulis 
+      pa<lb ed="#B" n="31" break="no"/>tebit solutio quaestionis.
+    </p>
+            <p xml:id="gbs333-v48804-d1e127">
+      ¶ Quantum ad 
+      <lb ed="#B" n="32"/>primum supponitur: quod illud dicitur 
+      requi<lb ed="#B" n="33" break="no"/>ri de necessitate sacramenti, sine 
+      quo<lb ed="#B" n="34" break="no"/>simpliciter non esset sacramentum: aut sine 
+      <lb ed="#B" n="35"/>quo non consecratur sacramentu. In 
+      propo<lb ed="#B" n="36" break="no"/>sito autem non quaeritur de materia 
+      eucha<lb ed="#B" n="37" break="no"/>ristiae quae nulla est: ut dictum est sup. dist. 
+      <lb ed="#B" n="38"/>x. quiii. Sed quaeritur de materia conse- 
+      <lb ed="#B" n="39"/>crationis.
+    </p>
+            <p xml:id="gbs333-v48804-d1e148">
+      ¶ Secundo notandum, quod de 
+      mate<lb ed="#B" n="40" break="no"/>ria consecrationis eucharistiae sunt 
+      di<lb ed="#B" n="41" break="no"/>uersae opiniones doctorum. Sunt enim, 
+      <lb ed="#B" n="42"/>quitenent, quod panis triticeus necessario 
+      <lb ed="#B" n="43"/>requiratur ad consecrationem 
+      euchari<lb ed="#B" n="44" break="no"/>stiae: ita quod si in alio pane attentaretur: 
+      <lb ed="#B" n="45"/>puta spelticeo, hordeaceo, aut siligineo 
+      <lb ed="#B" n="46"/>irrita esset consecratio, &amp; nihil fieret, 
+      <lb ed="#B" n="47"/>De hac opinioncest sanctus Thom. 
+      par<lb ed="#B" n="48" break="no"/>iii. summae quaest. Ixxiiij. artic. ni. 
+      te<lb ed="#B" n="49" break="no"/>nens, quod saltem maiorem partem opor¬ 
+      <!--250.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>ter esse triticeam. Consonat Gerson 
+      in<lb ed="#B" n="51" break="no"/>de floribus cap. de eucharistia. Scot. in 
+      <lb ed="#B" n="52"/>iiii. dist. xi. Alexand. de Hal. par. iiij. 
+      <lb ed="#B" n="53"/>q. xxxij. membro iiii. Durand. dominus 
+      <lb ed="#B" n="54"/>Camera. q. v. quarti. Richar. in iiij. dist. 
+      <lb ed="#B" n="55"/>xi. artic. ii. q.ij. Alij aliter sentiunt. Nam 
+      <lb ed="#B" n="56"/>Albertus tenet, quod in spelta potest fieri 
+      con<lb ed="#B" n="57" break="no"/>secratio. &amp; Pet. de pal. dist. xi. q. i. artic. 
+      <lb ed="#B" n="58"/>iiii. secundum quem spelta triticum, &amp; far sunt  
+      <lb ed="#B" n="59"/>eiusdem speciei. Thom. de argen. 
+      consu<lb ed="#B" n="60" break="no"/>lit, quod sacerdos utatur pane triticeo. 
+      San<lb ed="#B" n="61" break="no"/>ctus Bonauentur. dist. xi. art. j. qeiiij. 
+      te<lb ed="#B" n="62" break="no"/>net: quod materia apta est frumentum: quas 
+      <lb ed="#B" n="63"/>opiniones late prosequitur lect. xxxv. in 
+      <lb ed="#B" n="64"/>expo. cano. Similiter &amp; de uino 
+      aqua<lb ed="#B" n="65" break="no"/>mixto. uide ibidem. Haec de artic. j. 
+    </p>
+            <p xml:id="gbs333-v48804-d1e211">
+               <lb ed="#B" n="66"/>¶ Quanium ad secundum articulum est 
+      <lb ed="#B" n="67"/>conclusio prima. Panem esse materiam 
+      <lb ed="#B" n="68"/>consecrationis eucharistiae tenet fides 
+      <lb ed="#B" n="69"/>religionis, Probatur extra de sum. trini. 
+      <lb ed="#B" n="70"/>&amp; fide catho. firmiter, &amp; in c. cum 
+      Mar<lb ed="#B" n="71" break="no"/>thae de cele. &amp;c. &amp; de consecr. dist. ii. 
+      <lb ed="#B" n="72"/>in multis cap. Et dicitur notanter 
+      pa<lb ed="#B" n="73" break="no"/>nis: quia non pasta, aut larina aqua mix 
+      <lb ed="#B" n="74"/>ta: seu pulmentum est materia 
+      conse<lb ed="#B" n="75" break="no"/>crationis corperis: ut in expos 
+      canon<lb ed="#B" n="76" break="no"/>lect. xxxv.
+    </p>
+            <p xml:id="gbs333-v48804-d1e237">
+      ¶ Secunda conclusio. Non 
+      <lb ed="#B" n="77"/>sufficienter probatur: quod in solo pane 
+      <lb ed="#B" n="78"/>triticeo fiat suciamenti eucharistiae 
+      cons<lb ed="#B" n="79" break="no"/>secratio. Patet: quia ad hoc neque est 
+      au<lb ed="#B" n="80" break="no"/>ctoritas sacraescripturae: neque determina 
+      <lb ed="#B" n="81"/>tio ec clesiae: neque reuelatio: neque 
+      expe<lb ed="#B" n="82" break="no"/>rientia, uel ratio.
+    </p>
+            <p xml:id="gbs333-v48804-d1e253">
+      ¶ Tertia conclusio. 
+      <lb ed="#B" n="83"/>Non excusatur a peccato, qui in pane 
+      <lb ed="#B" n="84"/>non triticeo scienter celebrat: nisi usus 
+      <lb ed="#B" n="85"/>ecclesiae, in qua satramentum conficit, 
+      <lb ed="#B" n="86"/>oppositum teneat. Probatur conclusio: 
+      <lb ed="#B" n="87"/>quia quilibet celebrans, aut sacramenta 
+      <lb ed="#B" n="88"/>ministrans: tenetur se conformare 
+      con<lb ed="#B" n="89" break="no"/>suetudimecclesiae, in qua officium suum 
+      <lb ed="#B" n="90"/>agit: ut dictum est. sup. de trina 
+      immer<lb ed="#B" n="91" break="no"/>sione baptixandi. ideo non 
+      confor<lb ed="#B" n="92" break="no"/>mans se consuetudini, peccat, &amp; maxi- 
+      <lb ed="#B" n="93"/>me in proposito: ubi dimittit certum, 
+      <lb ed="#B" n="94"/>&amp; assumit incertum, in tanto 
+      sacramen<lb ed="#B" n="95" break="no"/>to. Certum enim est, quod in pane 
+      triti<lb ed="#B" n="96" break="no"/>ceo sit consecratio omni fideli: sed 
+      an<lb ed="#B" n="97" break="no"/>fiat in pane non tririceor opiniones sunt 
+      <lb ed="#B" n="98"/>doct.
+    </p>
+            <p xml:id="gbs333-v48804-d1e290">
+      ¶ Quarta cunclusio. 
+      Adconfi<lb ed="#B" n="99" break="no"/>ciendum sanginis christi sacramentum: 
+      <lb ed="#B" n="100"/>necessarium est uinum naturale de: uua ui¬ 
+      <!--251.xml-->
+      <pb ed="#B" n="200"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tis expressum. Probatio de consec. dist. 
+      <lb ed="#B" n="2"/>ii. in sacramento. Item ex facto christi 
+      <lb ed="#B" n="3"/>idem ostendi potest. Nam christus confecit 
+      <lb ed="#B" n="4"/>in liquore uini: perqud uinum tanquam 
+      ma<lb ed="#B" n="5" break="no"/>teriam consecrationis sanguinis instituit. 
+      <lb ed="#B" n="6"/>patet ex uerbis eius Marci xiiij. &amp; Luc. 
+      <lb ed="#B" n="7"/>xxii. Accepto calice dixit: dico uobis 
+      <lb ed="#B" n="8"/>non bibam de generatione uitis, donec 
+      <lb ed="#B" n="9"/>regnum dei ueniat. Simile habetur in 
+      <lb ed="#B" n="10"/>Mat. Ex quo patet: quod nec in uino 
+      artifi<lb ed="#B" n="11" break="no"/>ciali: aut de pomis, aut prris expresso: 
+      <lb ed="#B" n="12"/>nec in uino botris incluso, nec in 
+      agre<lb ed="#B" n="13" break="no"/>sto: nec in balsamo secundum Pet. ubi 
+      sup<lb ed="#B" n="14" break="no"/>art. v. licet dicatur uinum engaddi: sed  
+      <lb ed="#B" n="15"/>in uino uernatiano: graeco: 
+      creten<lb ed="#B" n="16" break="no"/>si, quae sunt uina proprie dicta: potest 
+      fie<lb ed="#B" n="17" break="no"/>ri consecratio: nec de clareto, si species 
+      <lb ed="#B" n="18"/>uini immutata est nec in aceto pfecto: 
+      <lb ed="#B" n="19"/>cum tunc non sit uinum: secus si tendit ad 
+      <lb ed="#B" n="20"/>acedinem secundum Pet. de palu. uersi de 
+      <lb ed="#B" n="21"/>aceto distinguit Alexa. ut in lect. xxxv. 
+      <lb ed="#B" n="22"/>legata. In musto tamen expresso: licet  
+      <lb ed="#B" n="23"/>nodum defecato potest fieri consecratio¬ 
+    </p>
+            <p xml:id="gbs333-v48804-d1e353">
+               <lb ed="#B" n="24"/>¶ Quinta conclusio. Admixtio aquae cum 
+      <lb ed="#B" n="25"/>uino in calice requiritur de ministri: non 
+      <lb ed="#B" n="26"/>de sacramenti necessitate. Probatur: 
+      <lb ed="#B" n="27"/>quia minister consecrans si aquam misce- 
+      <lb ed="#B" n="28"/>re scienter negligit: mortaliter peccat: 
+      <lb ed="#B" n="29"/>licet uere conficiat: nisi formam imuta 
+      <lb ed="#B" n="30"/>do haeresim introducere conaretur. Pro 
+      <lb ed="#B" n="31"/>bationem horum requirelect. xxxv.
+    </p>
+            <p xml:id="gbs333-v48804-d1e374">
+      ¶ 
+      Quan<lb ed="#B" n="32" break="no"/>tum ad articulum tertium dubitatur 
+      pri<lb ed="#B" n="33" break="no"/>mo: utrum certa panis, aut uini 
+      quanti<lb ed="#B" n="34" break="no"/>tas sit determinata: qua maior una uice, 
+      <lb ed="#B" n="35"/>seu una consecratione consectari non 
+      pos<lb ed="#B" n="36" break="no"/>sit. Respondetur, quod non est 
+      determina<lb ed="#B" n="37" break="no"/>ta certa quantitas panis consecrandi. 
+      <lb ed="#B" n="38"/>Vnde tantum sacerdos consecrare potest: 
+      <lb ed="#B" n="39"/>quantum habere potest praesentem; &amp; 
+      <lb ed="#B" n="40"/>ad quantum determinate dirigere ualet 
+      <lb ed="#B" n="41"/>suam intentionem. Vnde existens in eccle 
+      <lb ed="#B" n="42"/>sia non potest consecrare panem in foro: 
+      <lb ed="#B" n="43"/>nec uinu in cellario: licet aliqui teneant, 
+      <lb ed="#B" n="44"/>quod dutaxat tantum consecrare pot: quantum 
+      <lb ed="#B" n="45"/>ad usum fidelis populi sufficere potest: de 
+      <lb ed="#B" n="46"/>quo ubi sup. lect. xxxv.
+    </p>
+            <p xml:id="gbs333-v48804-d1e409">
+      ¶ Secundo 
+      dubi<lb ed="#B" n="47" break="no"/>tatur de qualitate panis consecrandi: 
+      an<lb ed="#B" n="48" break="no"/>tantum in aeymis: an etiam in 
+      fermen<lb ed="#B" n="49" break="no"/>tato consecratio: quia fieri possit. 
+      Re<lb ed="#B" n="50" break="no"/>spondetur, quod de utroque potest fieri conse- 
+      <lb ed="#B" n="51"/>gratio: quia etiam utroque Romana aeccle¬ 
+      <!--251.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sia usa est in hoc sacrificio ex certis 
+      cau<lb ed="#B" n="53" break="no"/>sis: licet non tantum in axvmo. de quo 
+      <lb ed="#B" n="54"/>lect. xxxiiji. in expo. cano. latius 
+      dispu<lb ed="#B" n="55" break="no"/>tatur.
+    </p>
+            <p xml:id="gbs333-v48804-d1e435">
+      ¶ Tertiodubitatur: utrum a qua uino 
+      <lb ed="#B" n="56"/>admixta in sanguinem christi 
+      conuerta<lb ed="#B" n="57" break="no"/>tur. Respondetur, quod aqua uino admixta 
+      <lb ed="#B" n="58"/>primo conuertitur in uinum: &amp; ita totum 
+      <lb ed="#B" n="59"/>conuertitur in sanguinem curisti: aqua 
+      <lb ed="#B" n="60"/>autem si nonduui esset in uinum 
+      conuer<lb ed="#B" n="61" break="no"/>sa, dum sacerdos consecrat, non conuertitur 
+      <lb ed="#B" n="62"/>in sanguinem: debet ergo sacerdos 
+      pau<lb ed="#B" n="63" break="no"/>sulum aquae &amp; in modica quantitatet 
+      pe<lb ed="#B" n="64" break="no"/>maturo, &amp; in principiomissae uino in 
+      ca<lb ed="#B" n="65" break="no"/>lice apponere: ut certus sit de 
+      conuersio<lb ed="#B" n="66" break="no"/>ne aquae in uinum: &amp; ut statim conuerti 
+      pos<lb ed="#B" n="67" break="no"/>sit aqua in uinum: de quo latius lect. xxxv. 
+    </p>
+            <p xml:id="gbs333-v48804-d1e464">
+               <lb ed="#B" n="68"/>¶ Quarto dubitatur: quia dictum est, quod 
+      <lb ed="#B" n="69"/>aqua non conuertitur in sanguinem 
+      christi<lb ed="#B" n="70" break="no"/>immediate: sed prius in uinum conuerti 
+      o<lb ed="#B" n="71" break="no"/>portet: &amp; tunc uinum, quod in se conuertits 
+      <lb ed="#B" n="72"/>aquam, conuertitur in laguinem. Quid ergo 
+      <lb ed="#B" n="73"/>fieret de aqua, si tempore prolationis 
+      uer<lb ed="#B" n="74" break="no"/>borum consecrationis calicis nondum 
+      fuis<lb ed="#B" n="75" break="no"/>set conuersa in uinum. Respondetur, ubi 
+      <lb ed="#B" n="76"/>sup. quod si aqua fuisset tantae quantitatis, quod 
+      <lb ed="#B" n="77"/>uinum in se conuertisset, si non fuisset 
+      fa<lb ed="#B" n="78" break="no"/>cta consecratio: tunc alterabit species 
+      <lb ed="#B" n="79"/>uini remanentes usque ad instans 
+      corru<lb ed="#B" n="80" break="no"/>ptiouis uini, si non fuisset uinum conuer 
+      <lb ed="#B" n="81"/>sum. Et in eodem instanti sub qualitatibus 
+      <lb ed="#B" n="82"/>de nouo introductis: deus creat nouam 
+      <lb ed="#B" n="83"/>uquae substantiam, &amp; desinit esse sanguis 
+      <lb ed="#B" n="84"/>christi. Si uero tam modica fuerit aqua, quod 
+      <lb ed="#B" n="85"/>uinum eausa in se conuertisset: si non fuisset 
+      <lb ed="#B" n="86"/>conuersum tunc in instanti corruptionis 
+      <lb ed="#B" n="87"/>specierum aquae, forma aquae corrupitur: 
+      <lb ed="#B" n="88"/>&amp; in materiam aquae introducitur forma 
+      <lb ed="#B" n="89"/>uini: &amp; saluareturibi; donec species 
+      uini<lb ed="#B" n="90" break="no"/>de nouo introductae iterum 
+      torrumpen<lb ed="#B" n="91" break="no"/>tur. Non tamen sub illis speciebus 
+      in<lb ed="#B" n="92" break="no"/>ciperet esse sanguis christi: sub nullis 
+      <lb ed="#B" n="93"/>enim speciebus incipit esse sanguis: 
+      nisi<lb ed="#B" n="94" break="no"/>sub speciebus illius uini, super quo 
+      prola<lb ed="#B" n="95" break="no"/>ta sunt consecrationis uerba. Nam &amp; 
+      si<lb ed="#B" n="96" break="no"/>modicum uinipost consecrationem 
+      ad<lb ed="#B" n="97" break="no"/>deretur speciebus uini conuersi: non 
+      <lb ed="#B" n="98"/>conuerteretur illud in sanguinem: sicut  
+      <lb ed="#B" n="99"/>aqua benedicta addita aquae benedictae 
+      <lb ed="#B" n="100"/>sic benedicta cuius causam require 
+      loco<lb ed="#B" n="101" break="no"/>alleg. ubi &amp; habes; quod licet sacerdos 
+      su<lb ed="#B" n="102" break="no"/>mens calicem, in quo aqua nondum fuisses 
+      <!--252.xml-->
+      <pb ed="#B" n="201"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>in uinum conuersa, &amp; postea in 
+      sangui<lb ed="#B" n="2" break="no"/>nem licet solueret ieiunium naturae: no 
+      ta<lb ed="#B" n="3" break="no"/>men impediretur ab iterata celebratio 
+      <lb ed="#B" n="4"/>ne propter inuincibilem ignorantiam. 
+    </p>
+            <p xml:id="gbs333-v48804-d1e557">
+               <lb ed="#B" n="5"/>¶ Et nota, quod aqua admiscenda non 
+      de<lb ed="#B" n="6" break="no"/>bet esse aqua artificielis rosacea, uel 
+      si<lb ed="#B" n="7" break="no"/>milis: sed aqua elementaris: ut habet 
+      Pa<lb ed="#B" n="8" break="no"/>lud. ubi sup. ueruntamen si aquatalis 
+      ad<lb ed="#B" n="9" break="no"/>misceretur: diceretur de illa sicut de ese 
+      <lb ed="#B" n="10"/>mentari: siprius fuisset conuersa in uinum, 
+      <lb ed="#B" n="11"/>quam perficeretur consecratio: uinum, in 
+      <lb ed="#B" n="12"/>quod conuersum esset per 
+      consecratio<lb ed="#B" n="13" break="no"/>nem, transubstantiaretur in languinem. 
+      <lb ed="#B" n="14"/>Si aqua artificialis admixta non 
+      conuer<lb ed="#B" n="15" break="no"/>sa fuisset in uinum ante consecrationem, 
+      <lb ed="#B" n="16"/>dicitur sicut de aqua elementari: 
+      quo<lb ed="#B" n="17" break="no"/>ntiam sicut admixtio aquae non est de 
+      ne<lb ed="#B" n="18" break="no"/>cessitate sacramenti: ita nec impedit 
+      sa<lb ed="#B" n="19" break="no"/>ctamenti consecrationem, si alia 
+      admi<lb ed="#B" n="20" break="no"/>sceretur. Si quaeritur. nunquid sufficit, 
+      <lb ed="#B" n="21"/>fiaqua uino sit admixta in dolio, aut  
+      <lb ed="#B" n="22"/>cvatho, aut per pluuiam: dicitur quod non 
+      <lb ed="#B" n="23"/>quia admixtio illa est sacramentalis: 
+      <lb ed="#B" n="24"/>ideo non debet fieri antequam 
+      myste<lb ed="#B" n="25" break="no"/>ria, &amp; praeparatio ad ea inchoentur: ut  
+      <lb ed="#B" n="26"/>dicit Alex. Secus enim faciens, aut omit 
+      <lb ed="#B" n="27"/>tens: licet caeteris rite peractis 
+      perfice<lb ed="#B" n="28" break="no"/>retur lacramentum: peccaret tamen 
+      gra<lb ed="#B" n="29" break="no"/>uiter celebrans. batis concordat 
+      praedi<lb ed="#B" n="30" break="no"/>ctis Alexand. par. iiij. q. xl. Palud. dist. 
+      <lb ed="#B" n="31"/>xi. sanctus Thom. &amp; Bonauent. ut erque  
+      <lb ed="#B" n="32"/>dist. xii. Et tantum de illa quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

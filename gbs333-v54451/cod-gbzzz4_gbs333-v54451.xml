@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="222"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v54451"><!-- l4-d13q2 -->
+            <head xml:id="gbs333-v54451-Hd1e101">Quaestio 2</head>
+            <head xml:id="gbs333-v54451-Hd1e103" type="question-title">
+      utrum haeretici ab haeresi
+      condemnata nominati: sint 
+      in ecclesia catholica tolerandi
+    </head>
+            <p xml:id="gbs333-v54451-d1e106">
+      <!--273.xml-->
+               <pb ed="#B" n="222"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>In quartum S 
+      <lb ed="#B" n="2"/>QVAESTIO II 
+      <lb ed="#B" n="3"/>SECVNDO, circa ultimam 
+      <lb ed="#B" n="4"/>clausulam textus quaeritur: 
+      <lb ed="#B" n="5"/>utrum haeretici ab haeresi
+      <lb ed="#B" n="6"/>condemnata nominati: sint 
+      <lb ed="#B" n="7"/>in ecclesia catholica tolerandi.
+    </p>
+            <p xml:id="gbs333-v54451-d1e130">
+      ¶ 
+      Tri<lb ed="#B" n="8" break="no"/>bus articulis constabit solutio 
+      quaestio<lb ed="#B" n="9" break="no"/>nis. Primus, terminos declarabit 
+      Secun<lb ed="#B" n="10" break="no"/>dus, per conclusiones respondebit. 
+      Ter<lb ed="#B" n="11" break="no"/>tius, dubia mouebit.
+    </p>
+            <p xml:id="gbs333-v54451-d1e141">
+      ¶ Circa primum 
+      no<lb ed="#B" n="12" break="no"/>tandum: licet materia ista de haeresibus 
+      <lb ed="#B" n="13"/>&amp; haereticis latissima sit: &amp; profundis 
+      si<lb ed="#B" n="14" break="no"/>me a uenerabili inceptore. Gul. 
+      Ockam<lb ed="#B" n="15" break="no"/>in. j. par. sui dialogi disputata: tamen hic 
+      <lb ed="#B" n="16"/>breniter expediendo notandum: quod ab 
+      <lb ed="#B" n="17"/>haeresi dicitur haereticus tanquam 
+      con<lb ed="#B" n="18" break="no"/>cretum a suo abstracto: ideo primo de 
+      <lb ed="#B" n="19"/>haeresi: deinde de haeretico. Est autem 
+      <lb ed="#B" n="20"/>haerelis: ut describit praedictus docto. ij. 
+      <lb ed="#B" n="21"/>lib. dialo. par. j. c.vj. dogma falsum: fidei 
+      <lb ed="#B" n="22"/>contrarium orthodoxae, idest error 
+      con<lb ed="#B" n="23" break="no"/>trarius catholicae ueritati. Dicitur 
+      pri<lb ed="#B" n="24" break="no"/>mo dogma falsum, quid ponitur pro 
+      gene<lb ed="#B" n="25" break="no"/>re: quia omnis haeresis est dogma falsum 
+      <lb ed="#B" n="26"/>siue error, &amp; non econuerso. Omnis. n. 
+      <lb ed="#B" n="27"/>haeresis, ait Hieron. super epistolam ad 
+      <lb ed="#B" n="28"/>Gal. peruersum dogma habet. Dogma 
+      <lb ed="#B" n="29"/>autem peruersum est dogma falsum: sed  
+      <lb ed="#B" n="30"/>non omne dogma falsum est haeresis, nam 
+      <lb ed="#B" n="31"/>in multis rebus errare nullum, aut mini 
+      <lb ed="#B" n="32"/>mum peccatum est: ut dicit August. in 
+      <lb ed="#B" n="33"/>enchi. c. xx. Sed haerelis, sicut, &amp; 
+      infide<lb ed="#B" n="34" break="no"/>litas grauissimum est peccatum: non 
+      er<lb ed="#B" n="35" break="no"/>go minus error est haeresis. Ex quo 
+      seq<lb ed="#B" n="36" break="no"/>tur; quod non omne dogma falsum est 
+      hae<lb ed="#B" n="37" break="no"/>relis: cum omnis error dogma falsum sit 
+      <lb ed="#B" n="38"/>concedendus.
+    </p>
+            <p xml:id="gbs333-v54451-d1e203">
+      ¶ Quod additur fidei 
+      or<lb ed="#B" n="39" break="no"/>thodoxae contrarium: ponitur loco 
+      dis<lb ed="#B" n="40" break="no"/>ferentiae quo excluduntur omnes alij 
+      <lb ed="#B" n="41"/>errores, qui fidei orthodoxae non sunt 
+      <lb ed="#B" n="42"/>contrarij: sicut error in rebus 
+      naturali<lb ed="#B" n="43" break="no"/>bus, de quibus fides catholica nihil 
+      con<lb ed="#B" n="44" break="no"/>trarium a sserit: ut sunt errores de ui, &amp; 
+      <lb ed="#B" n="45"/>numero elementorum: de motu: 
+      defe<lb ed="#B" n="46" break="no"/>ctu, &amp; ordine syderum: de figura coeli: 
+      <lb ed="#B" n="47"/>de generibus, &amp; naturis animalium, 
+      fru<lb ed="#B" n="48" break="no"/>ticum, lapidum, fontium, montium, &amp; 
+      <lb ed="#B" n="49"/>caeteris huiu modiquorum studio 
+      phy<lb ed="#B" n="50" break="no"/>sici insudarunt, &amp; quorum scientia ad re¬ 
+      <!--273.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ligionem non pertinet, dequibus Aug. 
+      <lb ed="#B" n="52"/>ubi supra c. viij. loquitur. Errores in his 
+      <lb ed="#B" n="53"/>et si falsa sint dogmata, non haeresess sit 
+      <lb ed="#B" n="54"/>dicendi.
+    </p>
+            <p xml:id="gbs333-v54451-d1e245">
+      ¶ Ex hac diffinitione sequitur, 
+      <lb ed="#B" n="55"/>quod error in fide non ideo est haerelis: quia 
+      <lb ed="#B" n="56"/>ab ecclesia damnatus: sed quia fidei 
+      con<lb ed="#B" n="57" break="no"/>trarius: unde patet, quod haereses ab 
+      eccle<lb ed="#B" n="58" break="no"/>sia condemnatae, prius quam damnaren- 
+      <lb ed="#B" n="59"/>tur: fuerunt haereses: sicut &amp; nunc 
+      plu<lb ed="#B" n="60" break="no"/>res sunt haereses nondum condemnatae 
+      <lb ed="#B" n="61"/>ab ecclesia, saltem in specie: quia multae 
+      <lb ed="#B" n="62"/>ueritates catholicae sunt a nobis 
+      igno<lb ed="#B" n="63" break="no"/>ratae: &amp; nihilominus errores eis 
+      opposi<lb ed="#B" n="64" break="no"/>ti sunt haereses: &amp; tamen non sunt ab 
+      ec<lb ed="#B" n="65" break="no"/>clesia condemnati: ut gratia exempli: 
+      <lb ed="#B" n="66"/>altera pars huius contradictionis: panis 
+      <lb ed="#B" n="67"/>triticeus est materia necessaria consecra 
+      <lb ed="#B" n="68"/>tionis eucharistiae: nullus panis triticeus 
+      <lb ed="#B" n="69"/>est materia necessaria eucharistiae: est 
+      ue<lb ed="#B" n="70" break="no"/>ritas catholica: &amp; per consequens eius 
+      <lb ed="#B" n="71"/>contradictoria est haeresis: &amp; tamen 
+      neu<lb ed="#B" n="72" break="no"/>tra earum est ab ecclesia approbata, aut  
+      <lb ed="#B" n="73"/>condemnata: immo quaelibet est apud 
+      <lb ed="#B" n="74"/>doctores catholicos opinata. 
+      Determi<lb ed="#B" n="75" break="no"/>natio ecclesiae non facit propositionem 
+      <lb ed="#B" n="76"/>prius ueram esse falsam, necprius falsam 
+      <lb ed="#B" n="77"/>esse ueram. Sed quia uera est, 
+      ecclesia<lb ed="#B" n="78" break="no"/>approbat: aut si falsa, reprobat, &amp; 
+      conden<lb ed="#B" n="79" break="no"/>nat.
+    </p>
+            <p xml:id="gbs333-v54451-d1e302">
+      ¶ Secundo sequitur, quod nulla haeresis 
+      <lb ed="#B" n="80"/>est noua: quia nihil de nouo incipit esse 
+      <lb ed="#B" n="81"/>contrarium ueritati catholicae: nisi 
+      ali<lb ed="#B" n="82" break="no"/>qua ueritas catholica de nouo 
+      incipe<lb ed="#B" n="83" break="no"/>ret esse uera: sicut illa deus est homo: in 
+      <lb ed="#B" n="84"/>cepit esse uera in instanti incarnationis, 
+      <lb ed="#B" n="85"/>&amp; prius erat falsa. Et in eodem instati illa: 
+      <lb ed="#B" n="86"/>deus non est homo: incepit esse haeresis. 
+      <lb ed="#B" n="87"/>Patet corollarium: quia nihil de nouo 
+      <lb ed="#B" n="88"/>incepit esse contrarium ueritati 
+      catho<lb ed="#B" n="89" break="no"/>licae, quae prius fuerat uera: quoniam quam 
+      <lb ed="#B" n="90"/>diu haec ueritas fuerat uera: tamdiu sua 
+      <lb ed="#B" n="91"/>contraria, contraria fuit ueritati, &amp; 
+      per<lb ed="#B" n="92" break="no"/>hoc falsa. Breuiter determinatio eccle- 
+      <lb ed="#B" n="93"/>siae accidit ueritati, &amp; falsitati 
+      propositio<lb ed="#B" n="94" break="no"/>num: nec eam facit: sed praesupponit. 
+    </p>
+            <p xml:id="gbs333-v54451-d1e337">
+               <lb ed="#B" n="95"/>¶ Sed di. hoc est contra sententias doc. 
+      <lb ed="#B" n="96"/>&amp; decreta summorum pontificum: nam 
+      <lb ed="#B" n="97"/>frequenter sit mentio de nouis 
+      hae<lb ed="#B" n="98" break="no"/>resibus introductis, uel introducendis: 
+      <lb ed="#B" n="99"/>ut patet. xxiiij. q. i. c. i. Omnis haereticus 
+      <lb ed="#B" n="100"/>autiam damnatam haeresim sequitur 
+      <lb ed="#B" n="101"/>aut nouam confingit. Similiter eadem. 
+      <!--274.xml-->
+      <pb ed="#B" n="223"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quaest. iij. cap. notandum. sit mentio de 
+      <lb ed="#B" n="2"/>noua haeresi.
+    </p>
+            <p xml:id="gbs333-v54451-d1e366">
+      ¶ Ad hoc respondetur; quod 
+      <lb ed="#B" n="3"/>haeresim esse nouam 
+      dupliciterintelligi<lb ed="#B" n="4" break="no"/>tur. Vno modo: quia de nouo incipit 
+      es<lb ed="#B" n="5" break="no"/>se falsa: ita quod si prius fuisset, non fuisset 
+      <lb ed="#B" n="6"/>falsa: sicut supra dictum est de illa: deus 
+      <lb ed="#B" n="7"/>est homo: &amp; illo modo accipitur in 
+      co<lb ed="#B" n="8" break="no"/>rollario. Alio modo intelligitur haeresis 
+      <lb ed="#B" n="9"/>esse uoua: quia de nouo asserta, uel 
+      de<lb ed="#B" n="10" break="no"/>fensa: quia aliquis eam de nouo asserit, 
+      <lb ed="#B" n="11"/>uel defendit, non quin prius fuerit falsa 
+      <lb ed="#B" n="12"/>&amp; ueritati fidei contraria. Et sic modo 
+      <lb ed="#B" n="13"/>aliqui errores dicuntur noui: non 
+      quin<lb ed="#B" n="14" break="no"/>prius fuerint errores: sed quia prius non 
+      <lb ed="#B" n="15"/>fuerunt asserti: multi enim errores, &amp; 
+      <lb ed="#B" n="16"/>haere ses antequam asserantur ab aliquo, 
+      <lb ed="#B" n="17"/>uel ab alijs non errantibus, 
+      reproban<lb ed="#B" n="18" break="no"/>tur: quicum assertores, uel defensores 
+      <lb ed="#B" n="19"/>inueniuntur: dicuntur nouae haereses, &amp; 
+      <lb ed="#B" n="20"/>noui errores: quamuis in ueritate prius 
+      <lb ed="#B" n="21"/>fuerunt errores. Et illo modo accipitur 
+      <lb ed="#B" n="22"/>noua haeresis in canonibus allegatis, &amp; 
+      <lb ed="#B" n="23"/>similibus.
+    </p>
+            <p xml:id="gbs333-v54451-d1e414">
+      ¶ Notandum tamen; quod sicut  
+      <lb ed="#B" n="24"/>fides, &amp; ueritas quandoque accipitur 
+      pro<lb ed="#B" n="25" break="no"/>habitu, uel actu assentiendi: quandoque  
+      <lb ed="#B" n="26"/>pro obiecto talis habitus, uel actus: quod 
+      <lb ed="#B" n="27"/>dicitur propositio credita, siue 
+      articu<lb ed="#B" n="28" break="no"/>lus fidei: quod idem est: ut dictum est in 
+      ili<lb ed="#B" n="29" break="no"/>dist. xxiij. q.ii. &amp; dist. xxiiij. &amp; xxv. Sic est 
+      <lb ed="#B" n="30"/>tam error, quam haerelis dupliciter 
+      acci<lb ed="#B" n="31" break="no"/>piuntur: uel pro habitu aut actu 
+      assen<lb ed="#B" n="32" break="no"/>tiendi falio, uel pro obiecto, quod est pr 
+      <lb ed="#B" n="33"/>ositio falsa: seu articulus falsus. Et 
+      pri<lb ed="#B" n="34" break="no"/>mo modo accipiendo potest esse 
+      noua<lb ed="#B" n="35" break="no"/>fides, &amp; noua lhaeresis, ac error: 
+      quo<lb ed="#B" n="36" break="no"/>niam quis potest de nouo credere, uel 
+      <lb ed="#B" n="37"/>errare. Sed tertio modo non est error 
+      <lb ed="#B" n="38"/>nouus, aut haeresis: nec ueritas 
+      catholi<lb ed="#B" n="39" break="no"/>ca noua: quin ipsa si prius fuisset forma 
+      <lb ed="#B" n="40"/>ta, fuisset error haeresis, aut ueritas 
+      ca<lb ed="#B" n="41" break="no"/>tholica, reddendo singula singulis.
+    </p>
+            <p xml:id="gbs333-v54451-d1e457">
+      ¶ 
+      Si<lb ed="#B" n="42" break="no"/>iterum quaeris: si omnis ueritas 
+      catholi<lb ed="#B" n="43" break="no"/>ca, &amp; haeresis ex natura rei est talis, &amp; non 
+      <lb ed="#B" n="44"/>ex determinatione ecclesiae, ad quid 
+      er<lb ed="#B" n="45" break="no"/>go ualet ecclesiae determinatio. Respon 
+      <lb ed="#B" n="46"/>detur, quod determinatio ecclesiae, aut sum 
+      <lb ed="#B" n="47"/>mi pontificis declarat, &amp; definit, quod 
+      ali<lb ed="#B" n="48" break="no"/>qua ueritas catholica pro tali 
+      acceptan<lb ed="#B" n="49" break="no"/>da est, quae prius pro tali habita non est, 
+      <lb ed="#B" n="50"/>sic de haeresi Vnde ecclesia sua 
+      determi<lb ed="#B" n="51" break="no"/>natioe desinit ueritates, quas approbat  
+      <!--274.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>fuisse catholicas, &amp; per 
+      condemnatio<lb ed="#B" n="53" break="no"/>nem suam definit assertiones, quas 
+      re<lb ed="#B" n="54" break="no"/>probat fuisse, &amp; esse haereticas, &amp; ita non 
+      <lb ed="#B" n="55"/>facit nouum articulum fidei: sed 
+      noui<lb ed="#B" n="56" break="no"/>ter definit aliquem articulum 
+      pertine<lb ed="#B" n="57" break="no"/>re, ac pertinuisse ad fidem, &amp; ad 
+      catho<lb ed="#B" n="58" break="no"/>licam ueritatem: &amp; de hoc latius dictum 
+      <lb ed="#B" n="59"/>est dist. xxv. lib iij.
+    </p>
+            <p xml:id="gbs333-v54451-d1e503">
+      ¶ Secundo notandum: 
+      <lb ed="#B" n="60"/>quia haeresis diffinitur per contrarium 
+      <lb ed="#B" n="61"/>fidei, idest catholicae ueritati: quod 
+      catho<lb ed="#B" n="62" break="no"/>lica ueritas, est ueritas reuelata a deo 
+      in<lb ed="#B" n="63" break="no"/>se, uel in suo antecedente pertinens ac 
+      <lb ed="#B" n="64"/>religionem.
+    </p>
+            <p xml:id="gbs333-v54451-d1e516">
+      ¶ Dicitur ueritas reuelata a 
+      <lb ed="#B" n="65"/>deo: quia ueritas humano ingenio 
+      ac<lb ed="#B" n="66" break="no"/>quisita puta per demonstrationem, uel 
+      <lb ed="#B" n="67"/>experientiam, ut talis non dicitur 
+      ueri<lb ed="#B" n="68" break="no"/>tas catholica, quia omnis ueritas 
+      catho<lb ed="#B" n="69" break="no"/>lica est articulus fidei. Eides autem non 
+      <lb ed="#B" n="70"/>innititur euidentiae naturali, sed diuinae 
+      <lb ed="#B" n="71"/>reuelationi.
+    </p>
+            <p xml:id="gbs333-v54451-d1e534">
+      ¶ Dicitur in se, propter 
+      ue<lb ed="#B" n="72" break="no"/>ritates sacri canonis bibliae, quae omnes 
+      <lb ed="#B" n="73"/>immediate siue secundum se, 
+      scriptori<lb ed="#B" n="74" break="no"/>bus eius sunt reuelatae, ipsi enim fuere 
+      <lb ed="#B" n="75"/>calamus scribae, idest spiritussancti 
+      uelo<lb ed="#B" n="76" break="no"/>citer scribentis, de hoc auctoritates 
+      plu<lb ed="#B" n="77" break="no"/>res Augu. in decretis dist. ix.
+    </p>
+            <p xml:id="gbs333-v54451-d1e550">
+      ¶ Dicitur 
+      <lb ed="#B" n="78"/>uel in suo antecedente, propter 
+      uerita<lb ed="#B" n="79" break="no"/>tes, quae ex contentis in biblia possunt 
+      <lb ed="#B" n="80"/>in consequentia necessaria inferri, seu 
+      <lb ed="#B" n="81"/>deduci, ut est illa, deus est uerus homo 
+      <lb ed="#B" n="82"/>ex anima rationali, &amp; carne subsistens, 
+      <lb ed="#B" n="83"/>que sub hac uerborum forma non 
+      habe<lb ed="#B" n="84" break="no"/>tur in scriptura, sed ex eis potest 
+      deduci<lb ed="#B" n="85" break="no"/>in consequentia necessaria.
+    </p>
+            <p xml:id="gbs333-v54451-d1e570">
+      ¶ Dicitur ad 
+      <lb ed="#B" n="86"/>religionem pertinens: propter ueritates 
+      <lb ed="#B" n="87"/>religionem, siue pietatem non 
+      respicien<lb ed="#B" n="88" break="no"/>tes, quae non dicuntur ueritates 
+      carholi<lb ed="#B" n="89" break="no"/>cae, quamuis fuerint a deo reuelatae. 
+      Perti<lb ed="#B" n="90" break="no"/>net autem ad religionem quicquid ad 
+      <lb ed="#B" n="91"/>pietatem, idest deicultum, aut ad finem 
+      <lb ed="#B" n="92"/>beatitudinis consequendae ordinatur. 
+      <lb ed="#B" n="93"/> Ex illo sequitur, quod multae uer tates, quod 
+      <lb ed="#B" n="94"/>in scriptura canonica non habent, nec ex 
+      <lb ed="#B" n="95"/>eis solis deduci possunt in consequentia 
+      <lb ed="#B" n="96"/>necessaria, sunt catholicae. Patet primum 
+      <lb ed="#B" n="97"/>de his, quae ab apossolis ad nos per 
+      suc<lb ed="#B" n="98" break="no"/>cedentium relationem, uel scripturas 
+      <lb ed="#B" n="99"/>fidelium fide dignas ad nos peruenerunt, 
+      <lb ed="#B" n="100"/>&amp; tamen in scriptura canonica non 
+      con<lb ed="#B" n="101" break="no"/>tinentur, haec apostolis per 
+      spiritumsan<lb ed="#B" n="102" break="no"/>ctum reuelata (a quo docti sunt omnem 
+      <!--275.xml-->
+      <pb ed="#B" n="224"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ueritatem) non dubitatur. Patet, &amp; de 
+      <lb ed="#B" n="2"/>his, quae ex praemissis coassumpto aliquo 
+      <lb ed="#B" n="3"/>uero necessario euidente: uel certo 
+      de<lb ed="#B" n="4" break="no"/>duci possunt. Patet etiam tertio de his 
+      <lb ed="#B" n="5"/>ueritatibus, quae alijs fidelibus a deo 
+      re<lb ed="#B" n="6" break="no"/>uelatae esse sufficienter ostenduntur. 
+      Pa<lb ed="#B" n="7" break="no"/>ter, &amp; quarto de his, quae ab ecclesia 
+      u<lb ed="#B" n="8" break="no"/>niuersali, ut credenda accepta sunt, quem 
+      <lb ed="#B" n="9"/>supponitur in fide errare non posse. 
+      Cu<lb ed="#B" n="10" break="no"/>ius fidem deficere non posse: oratio 
+      chri<lb ed="#B" n="11" break="no"/>sti pro fide Petri (Luc. xxij. &amp; eius pro- 
+      <lb ed="#B" n="12"/>missa adsistentia usque in finem 
+      seculi<lb ed="#B" n="13" break="no"/>Mat. ulti.)certam reddiderunt. Patet 
+      <lb ed="#B" n="14"/>quinto de ueritatibus a generalibus 
+      con<lb ed="#B" n="15" break="no"/>cilijs, &amp; Romanis pontificibus rite 
+      de<lb ed="#B" n="16" break="no"/>terminatis: haec enim omnia, uel reuela 
+      <lb ed="#B" n="17"/>ta sunt, uel ex solis reuelatis sunt 
+      dedu<lb ed="#B" n="18" break="no"/>cta: uel ex reuelatis, &amp; illis ueritatibus 
+      <lb ed="#B" n="19"/>certis coassumptis. Neque aliud 
+      determi<lb ed="#B" n="20" break="no"/>nat rite concilium, uel Romanus 
+      pon<lb ed="#B" n="21" break="no"/>tifex: ut ostensumfuit in tertioioco 
+      su<lb ed="#B" n="22" break="no"/>pra alleoato.
+    </p>
+            <p xml:id="gbs333-v54451-d1e664">
+      ¶ Tertio notandum, quod 
+      hae<lb ed="#B" n="23" break="no"/>reticus (accipiendo propric ut includit 
+      <lb ed="#B" n="24"/>errorem in fide, &amp; non extenditur ad in 
+      <lb ed="#B" n="25"/>fideles, qui nunquam fuerunt de 
+      eccle<lb ed="#B" n="26" break="no"/>sia) potest sic describi: est uere 
+      baptixa<lb ed="#B" n="27" break="no"/>tus, uel probaptixato se gerens pertina 
+      <lb ed="#B" n="28"/>citer errans, uel dubitans contra 
+      catho<lb ed="#B" n="29" break="no"/>licam ueritatem. Dicitur uere 
+      baptixa<lb ed="#B" n="30" break="no"/>tus: prperbaptixatum in ioco, qui si errat 
+      <lb ed="#B" n="31"/>pertinaciter non est haereticus 
+      iudican<lb ed="#B" n="32" break="no"/>dus: sicut nec gentilis, aut Iudaeus, 
+      qui<lb ed="#B" n="33" break="no"/>licet sit infidelis: non tamen est 
+      haerae<lb ed="#B" n="34" break="no"/>ticus. Vnde sicut haeresis est species 
+      infi<lb ed="#B" n="35" break="no"/>delitatis: sic haereticus est infidelis. 
+      Di<lb ed="#B" n="36" break="no"/>citur uel pro baptixato se gerens: 
+      pro<lb ed="#B" n="37" break="no"/>pter baptixatum extra formam eccle- 
+      <lb ed="#B" n="38"/>siae gerentem tamen se, ut uere baptita 
+      <lb ed="#B" n="39"/>tum: si errat pertinaciter est haereticus. 
+      <lb ed="#B" n="40"/>Dicitur pertinaciter, ad excludendum 
+      <lb ed="#B" n="41"/>errantem, uel dubitantem ex simplicita 
+      <lb ed="#B" n="42"/>te, uel ignorantia sola. Non ex pertina 
+      <lb ed="#B" n="43"/>cia contra ueritatem catholicam: talis 
+      <lb ed="#B" n="44"/>enim non est censendus haereticus. 
+      Di<lb ed="#B" n="45" break="no"/>citur autem pertinaciter errare, uel dub 
+      <lb ed="#B" n="46"/>tare: qui non est paratus corrigi cum in 
+      <lb ed="#B" n="47"/>uenerit ueritatem: hoc est, cum ueritas 
+      <lb ed="#B" n="48"/>sibi ostenditur, sufficienter non 
+      depo<lb ed="#B" n="49" break="no"/>niterrorem uel dubium.
+    </p>
+            <p xml:id="gbs333-v54451-d1e725">
+      ¶ Corollarium. 
+      <lb ed="#B" n="50"/>Non sequitur: iste asserit, credit, uel 
+      te<lb ed="#B" n="51" break="no"/>net haeresim: ergo est haereticus. Proba¬ 
+      <!--275.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tur, quia multi sancti, &amp; catholici doct. 
+      <lb ed="#B" n="53"/>tenuerunt opiniones contrarias in his, 
+      <lb ed="#B" n="54"/>quae ad religionem pertinent, quarum 
+      <lb ed="#B" n="55"/>una fuit haeretica: &amp; tamen neuter 
+      eo<lb ed="#B" n="56" break="no"/>rum fuit haereticus. Tum quia neuter 
+      per<lb ed="#B" n="57" break="no"/>tinaciter adhaesit suae opinioni. Tum quia 
+      <lb ed="#B" n="58"/>non constabat, quae pars opi. fuit 
+      haere<lb ed="#B" n="59" break="no"/>tica, &amp; quae catholica, antequam 
+      acces<lb ed="#B" n="60" break="no"/>sit ecclesiae determinatio &amp;c. Dicitur 
+      <lb ed="#B" n="61"/>uel dubitans, quia pertinaciter dubitans 
+      <lb ed="#B" n="62"/>haereticus est ut c. j. de haereticis. ubi 
+      di<lb ed="#B" n="63" break="no"/>citur. Dubius in fide haereticus est, licet  
+      <lb ed="#B" n="64"/>contrario fidei non assentiat. 
+      Opor<lb ed="#B" n="65" break="no"/>ter enim catholicum firmiter assentire: 
+      <lb ed="#B" n="66"/>alioquin fidem non habet: cum 
+      certitu<lb ed="#B" n="67" break="no"/>do ueritatis, &amp; firmitas adhaesionis sint 
+      <lb ed="#B" n="68"/>de essentia fidei: ut habitum est in 
+      ter<lb ed="#B" n="69" break="no"/>tio.
+    </p>
+            <p xml:id="gbs333-v54451-d1e775">
+      ¶ Quantum ad secundum 
+      articu<lb ed="#B" n="70" break="no"/>est prima conclusio. Haereticus, quiper 
+      <lb ed="#B" n="71"/>tinaciter defendens haeresimiam 
+      dam<lb ed="#B" n="72" break="no"/>natam fuerit depraebensus: nisi resipiscens 
+      <lb ed="#B" n="73"/>se correxerit, nequaquam est abecclesis 
+      <lb ed="#B" n="74"/>tolerandus. Ista conclusio cum 
+      sequen<lb ed="#B" n="75" break="no"/>te probatur perc. ad abolendam. de 
+      hae<lb ed="#B" n="76" break="no"/>reti. ubi clare utriusque conclusionis 
+      sen<lb ed="#B" n="77" break="no"/>tentia continetur.
+    </p>
+            <p xml:id="gbs333-v54451-d1e795">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="78"/>Haereticus post paenitentiam, &amp; 
+      abiura<lb ed="#B" n="79" break="no"/>tionem in eam, quam iurauerit haeresim 
+      <lb ed="#B" n="80"/>relapsus. licet ad poenitentiam admitta 
+      <lb ed="#B" n="81"/>tur: tamen sine ulla audientia curiae 
+      se<lb ed="#B" n="82" break="no"/>culari exterminandus relinquitur. 
+      Cu<lb ed="#B" n="83" break="no"/>ius ratio duplex secundum Richar. dist. 
+      <lb ed="#B" n="84"/>praesenti. arti. v. qeiiij. quia si quocies 
+      re<lb ed="#B" n="85" break="no"/>uerteretur, conseruaretur in fideuita, &amp; 
+      <lb ed="#B" n="86"/>alijs bonis temporalibus, alij securius in 
+      <lb ed="#B" n="87"/>haeresim relaberentur. Secundo, quia sic 
+      <lb ed="#B" n="88"/>facilius infici posset tota multitudo: quod 
+      <lb ed="#B" n="89"/>diligenter cauendum est. unde. xxiiij. q. 
+      <lb ed="#B" n="90"/>iij. resecandae. dicit beat. Hiero. 
+      Resecan<lb ed="#B" n="91" break="no"/>dae sunt putridae carnes: &amp; scabiosa ouis 
+      <lb ed="#B" n="92"/>a caulis repellenda, ne tota domus, 
+      mas<lb ed="#B" n="93" break="no"/>sa, corpus, &amp; pecora ardeant, corrum 
+      pan<lb ed="#B" n="94" break="no"/>tur. putrescant, intereant. Arrius in 
+      A<lb ed="#B" n="95" break="no"/>lexandria una scintilla fuit: sed quoniam 
+      <lb ed="#B" n="96"/>non statim oppressus est: per totum 
+      or<lb ed="#B" n="97" break="no"/>bem eius flamma depopulata est.
+    </p>
+            <p xml:id="gbs333-v54451-d1e841">
+      ¶ 
+      Ter<lb ed="#B" n="98" break="no"/>tia conclusio. Infideles, qui fidem 
+      chri<lb ed="#B" n="99" break="no"/>sti, aut sacramenta nunquam receperunt 
+      <lb ed="#B" n="100"/>ad fidem sunt trahendi: sed ad eam non 
+      <lb ed="#B" n="101"/>sunt uiolentia compellendi. Probatur 
+      <lb ed="#B" n="102"/>per canonem beati Grego. xlv. dist. quae 
+      <!--276.xml-->
+      <pb ed="#B" n="225"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>syncera. &amp; sequentes. ubi docet, quod tales 
+      <lb ed="#B" n="2"/>non asperis: sed blandis uerbis ad fidem 
+      <lb ed="#B" n="3"/>sunt conuertendi. prohibet enim beatus 
+      <lb ed="#B" n="4"/>Grego. ne Iudaei ab obseruandis suis 
+      ce<lb ed="#B" n="5" break="no"/>rimonijs uiolentia arceantur. Cuius R 
+      <lb ed="#B" n="6"/>char. ibidem duas ponit rationes Vna pro 
+      <lb ed="#B" n="7"/>pter bonum, quod ex hoc prouenit. Nam 
+      <lb ed="#B" n="8"/>ex hoc: quod Iudaei suos ritus seruant: in 
+      <lb ed="#B" n="9"/>quibus olinm praefigurabatur ueritas 
+      fi<lb ed="#B" n="10" break="no"/>dei, quam tenemus: testimonium fidei 
+      no<lb ed="#B" n="11" break="no"/>strae habemus ab hostibus: dum quasi in 
+      <lb ed="#B" n="12"/>figura nobis representant, quod 
+      credi<lb ed="#B" n="13" break="no"/>mus. Secunda est propter uitationem 
+      <lb ed="#B" n="14"/>maioris mali: quod prouenire posset: 
+      ni<lb ed="#B" n="15" break="no"/>si tolerarent, uel impedimenti salutis 
+      eo<lb ed="#B" n="16" break="no"/>rum, qui tolerati postea conuertuntur 
+      <lb ed="#B" n="17"/>ad fidem.
+    </p>
+            <p xml:id="gbs333-v54451-d1e898">
+      ¶ Quantum ad tertium 
+      articu<lb ed="#B" n="18" break="no"/>sum dubitatur: utrum simonia sit species 
+      <lb ed="#B" n="19"/>hae resis: &amp; utrum simoniacus sit haere 
+      <lb ed="#B" n="20"/>ticus. Supponitur hic: quod simonia est 
+      stu<lb ed="#B" n="21" break="no"/>diosa cupiditas: uel uoluntas uendendi 
+      <lb ed="#B" n="22"/>uel emendi spiritualia, uel spiritualibus 
+      <lb ed="#B" n="23"/>annexa: pro uelper temporalia: ut 
+      di<lb ed="#B" n="24" break="no"/>cit glos. j. q.i. in princi. Est ergo simonia 
+      <lb ed="#B" n="25"/>uitium uoluntatis non intellectus, &amp; 
+      <lb ed="#B" n="26"/>species auaritic: licet possit etiam 
+      con<lb ed="#B" n="27" break="no"/>currere uitium intellectus: sicut 
+      frequen<lb ed="#B" n="28" break="no"/>ter errorem in uoluntate praecedit 
+      co<lb ed="#B" n="29" break="no"/>mitatur, uel sequitur ertor in intellectu: 
+      <lb ed="#B" n="30"/>non tamen ita semper fieri oportet: 
+      po<lb ed="#B" n="31" break="no"/>test enim uoluntas per suam libertatem 
+      <lb ed="#B" n="32"/>declinare a recto iudicio rationis.
+    </p>
+            <p xml:id="gbs333-v54451-d1e934">
+      ¶ Est 
+      <lb ed="#B" n="33"/>etiam aduertendum cum secundum 
+      bea<lb ed="#B" n="34" break="no"/>tum Hiero super epistolam ad Gal. haere 
+      <lb ed="#B" n="35"/>lis ab electione dicitur: quia scilicet unum 
+      <lb ed="#B" n="36"/>quisque eam eligat disciplinam, quam 
+      pu<lb ed="#B" n="37" break="no"/>tat esse meliorem. Et quia in electione 
+      <lb ed="#B" n="38"/>sit diuisio unius ab altero: electio pro 
+      hae<lb ed="#B" n="39" break="no"/>resi dicitur. j. Et hic. Et quia multiplex 
+      <lb ed="#B" n="40"/>est diuisio partium a toto: hereticus 
+      mul<lb ed="#B" n="41" break="no"/>tipliciter accipi inuenitur. Vnde 
+      Ockan<lb ed="#B" n="42" break="no"/>ca. ii.li. iii. par. j. dialo, ponit quinque acce- 
+      <lb ed="#B" n="43"/>ptiones huius nominis haerericus. Vno 
+      <lb ed="#B" n="44"/>modo haereticus pro omni exconimuni 
+      <lb ed="#B" n="45"/>cato accipitur: ut notat glos. iiii. q. i. 
+      <lb ed="#B" n="46"/>quod autem. Secundo modo dicitur 
+      per<lb ed="#B" n="47" break="no"/>uersor faciorum: &amp; sic simoniacus 
+      dici<lb ed="#B" n="48" break="no"/>tur haereticus. Hinc Grego. in 
+      regi<lb ed="#B" n="49" break="no"/>stro. j. q. ij. quisquis. Quisquis per 
+      pecu<lb ed="#B" n="50" break="no"/>niam ordinatur: ad hoc ut fiat 
+      haereti<lb ed="#B" n="51" break="no"/>cus, promouetur. Tertio modo dici¬ 
+      <!--276.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tur quicunque; dubitat, uelputat fidem 
+      chri<lb ed="#B" n="53" break="no"/>stianam esse falsam: uel fictam: &amp; sic 
+      om<lb ed="#B" n="54" break="no"/>nes Iudaei, Saraceni, &amp; pagani 
+      dicun<lb ed="#B" n="55" break="no"/>tur haeretici: &amp; generaliter omnes 
+      infi<lb ed="#B" n="56" break="no"/>deles: ut dicit quedam glos. xxiiij. qeiii. 
+      <lb ed="#B" n="57"/>illi qui. ubiponuntur plurimae 
+      acceptia<lb ed="#B" n="58" break="no"/>nes nominis haereticus. Vnde inter alia 
+      <lb ed="#B" n="59"/>ibi dicitur: quandoque large dicitur haere 
+      <lb ed="#B" n="60"/>ticus, omnis, qui non tenet articulos 
+      fi<lb ed="#B" n="61" break="no"/>dei: &amp; sic non omnis haereticus est exconica 
+      <lb ed="#B" n="62"/>tus. Quarto modo dicit ominis christianus: 
+      <lb ed="#B" n="63"/>uel qua se putat christianum errans contra 
+      ca<lb ed="#B" n="64" break="no"/>tholicam ueritatem ptinaciter: &amp; sic 
+      diffin<lb ed="#B" n="65" break="no"/>tus est haereticus in j. ar. Quinto dicitur 
+      <lb ed="#B" n="66"/>ois, qui pertinaciter adhaeret errori, 
+      qui<lb ed="#B" n="67" break="no"/>sapit haeresim. Dicitur autem sapere 
+      hae<lb ed="#B" n="68" break="no"/>resim: quod ex haeresi &amp; aliquo uero 
+      co<lb ed="#B" n="69" break="no"/>assumpto (quod rationabiliter negari 
+      <lb ed="#B" n="70"/>non potest) deducitur: sicut ueritas 
+      di<lb ed="#B" n="71" break="no"/>citur sapere catholicam ueritatem: quae 
+      <lb ed="#B" n="72"/>ex chatholica ueritate &amp; alio uero 
+      coas<lb ed="#B" n="73" break="no"/>sumpto inferripotnt in consequentia 
+      ne<lb ed="#B" n="74" break="no"/>cessaria.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1032">
+      ¶ Per hoc respondetur ad dubium: 
+      <lb ed="#B" n="75"/>quod omnis simoniacus est haereticus: 
+      acci<lb ed="#B" n="76" break="no"/>piendo haereticum primis duobus modis 
+      <lb ed="#B" n="77"/>quia excommunicatus, &amp; sacramentorum 
+      <lb ed="#B" n="78"/>i. spiritualium rerum, uel eis anmexorum 
+      per<lb ed="#B" n="79" break="no"/>uersor: tamen quarto modo, &amp; proprid 
+      <lb ed="#B" n="80"/>accipiendo non oportet omnem 
+      simo<lb ed="#B" n="81" break="no"/>niacum esse haereticum: quia potest non 
+      <lb ed="#B" n="82"/>errare in fide: &amp; ex cupiditate contra 
+      <lb ed="#B" n="83"/>conscientiam spiritualia temporalibus 
+      bo<lb ed="#B" n="84" break="no"/>nis comparare. Dicitur tamen haereticus 
+      pri<lb ed="#B" n="85" break="no"/>mo modo per quandam similitudinem: ut  
+      <lb ed="#B" n="86"/>dicit Richar. quia ita operatur, ac si 
+      con<lb ed="#B" n="87" break="no"/>tra fidem sentiret: dum praecio 
+      spiritua<lb ed="#B" n="88" break="no"/>lia conatur emere, uel uendere, ac si 
+      esti<lb ed="#B" n="89" break="no"/>maret dona spiritussancti posse pecunia 
+      <lb ed="#B" n="90"/>possideri. Et hoc modo intelligendum 
+      <lb ed="#B" n="91"/>est quoties dicuntur haeretici. ut. j. q.ulti. 
+      <lb ed="#B" n="92"/>ca. ulti. ubi dicitur. Patet simoniacos 
+      <lb ed="#B" n="93"/>uelus primos, &amp; praecipuos haereticos 
+      <lb ed="#B" n="94"/>ab omnibus fidelibus respuendos.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1078">
+      ¶ 
+      Du<lb ed="#B" n="95" break="no"/>bitatur secundo: utrum simoniaca 
+      hae<lb ed="#B" n="96" break="no"/>resis sit maximum peccatorum. &amp; uide 
+      <lb ed="#B" n="97"/>tur, quod sic per cip. statim allega. ubi 
+      dici<lb ed="#B" n="98" break="no"/>tur. Omnia enim crimina ad 
+      compara<lb ed="#B" n="99" break="no"/>tionem simoniacae haeresis quasi pro 
+      ni<lb ed="#B" n="100" break="no"/>hilo reputantur.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1094">
+      ¶ In oppositum. 
+      maio<lb ed="#B" n="101" break="no"/>rasunt crimina, quaeimmediate in deum 
+      <lb ed="#B" n="102"/>comittuntur: ut odium dei, &amp; infidelitas 
+      <!--277.xml-->
+      <pb ed="#B" n="226"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ac idololatria: quae non sunt necessario 
+      <lb ed="#B" n="2"/>connexa simoniae. Respondetur: quod 
+      possu<lb ed="#B" n="3" break="no"/>mus loqui de simonia dupliciter. Vno 
+      <lb ed="#B" n="4"/>modo secundum se: ut non includit 
+      hae<lb ed="#B" n="5" break="no"/>resim proprie dictam: &amp; tunc manifestum 
+      <lb ed="#B" n="6"/>est, quod non est maximum peccatorum: ut 
+      pro<lb ed="#B" n="7" break="no"/>bat ratio postoppositum dubij: sic. n. 
+      spe<lb ed="#B" n="8" break="no"/>cies est cupiditatis, seu auaritiae. Alio 
+      mo<lb ed="#B" n="9" break="no"/>do potest accipi simonia, ut includit 
+      hae<lb ed="#B" n="10" break="no"/>resim proprie dictam: &amp; tunc dicitur, quod 
+      <lb ed="#B" n="11"/>peccatum, quandoque dicitur grauius, quod  
+      <lb ed="#B" n="12"/>est plurium bonorum corruptiuum: &amp; sic 
+      <lb ed="#B" n="13"/>quia fides est fundamentum omnium 
+      bo<lb ed="#B" n="14" break="no"/>norum, &amp; totius spiritualis aedificij: 
+      hae<lb ed="#B" n="15" break="no"/>resis, quia corrumpit fidem: est 
+      grauissi<lb ed="#B" n="16" break="no"/>mum peccatum: &amp; est grauius infidelitate 
+      <lb ed="#B" n="17"/>simpliciter dicta: quia superaddit 
+      perti<lb ed="#B" n="18" break="no"/>naciam, &amp; recessum a fide prius recepta. 
+      <lb ed="#B" n="19"/>Vnde haeresis est infidelitatis species: &amp; 
+      <lb ed="#B" n="20"/>quia recedere cum pertinacia a fide prius 
+      <lb ed="#B" n="21"/>re cepta, uidetur procedere ex odio 
+      ueri<lb ed="#B" n="22" break="no"/>tatis redarguentis ea, quae diligunt 
+      rece<lb ed="#B" n="23" break="no"/>dentes a fide: &amp; odium diuinae ueritatis 
+      <lb ed="#B" n="24"/>est maximum peccatorum: ideo haeresis non 
+      <lb ed="#B" n="25"/>ratione huius, quod habet in intellectu: 
+      <lb ed="#B" n="26"/>ut loquit Rich. sed ratione suae radicis, 
+      <lb ed="#B" n="27"/>qui est in affectu: est maximum omnium 
+      pec<lb ed="#B" n="28" break="no"/>catorum. Infidelitas aunt: quia quomoque 
+      proce<lb ed="#B" n="29" break="no"/>dit ex ignorantia: non est semper maximum 
+      <lb ed="#B" n="30"/>peccatorum. Alio modo peccatum dicitur 
+      <lb ed="#B" n="31"/>grauius ex objecto, siue genere: &amp; sic 
+      o<lb ed="#B" n="32" break="no"/>dium dei est maximum, quo deus in se oditr. 
+      <lb ed="#B" n="33"/>si saltem fuerit possibile. Deinde odium 
+      <lb ed="#B" n="34"/>diuinae ueritatis in se: &amp; tale odium non 
+      <lb ed="#B" n="35"/>est essentiale haeresi: licet potest aliquando 
+      <lb ed="#B" n="36"/>concurrere tanquam circunstantia haeresis. 
+      <lb ed="#B" n="37"/>Et illo modo haeresis non est simpliciter 
+      <lb ed="#B" n="38"/>maximum peccatorum: nifiaccipiatur cum 
+      <lb ed="#B" n="39"/>inclusione odij dei
+    </p>
+            <p xml:id="gbs333-v54451-d1e1192">
+      ¶ Et per hoc ad 
+      ratio<lb ed="#B" n="40" break="no"/>nemante oppositum dicitur: quod illud ibi 
+      di<lb ed="#B" n="41" break="no"/>ctum dicitur in detestationem criminis: &amp; 
+      <lb ed="#B" n="42"/>terrorem simoniacorum: ut dicit 
+      glolibi<lb ed="#B" n="43" break="no"/>dem, &amp; ita est locutio hyperbolica. Vel 
+      di<lb ed="#B" n="44" break="no"/>citur, quod loquitur de simonia: ut includit 
+      <lb ed="#B" n="45"/>haeresim cum sua radice. es. odio diuinae 
+      ue<lb ed="#B" n="46" break="no"/>ritatis: &amp; sic est pro responsione.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1210">
+      ¶ 
+      Vlti<lb ed="#B" n="47" break="no"/>mo dubitatur de differentia inter 
+      schis<lb ed="#B" n="48" break="no"/>maticum, &amp; haereticum, scisma &amp; haeresim. 
+      <lb ed="#B" n="49"/>Respondetur, quod haec differentia explicat 
+      <lb ed="#B" n="50"/>a beato Hiero. super epistolam ad Gal. ubi 
+      <lb ed="#B" n="51"/>dic. Inter haeresim, &amp; schisma hoc esse a¬ 
+      <!--277.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>bitror: quod haeresis peruersum dogma 
+      ha<lb ed="#B" n="53" break="no"/>bet. Schisma post episcopale 
+      decessio<lb ed="#B" n="54" break="no"/>nem ab ecclesia pariter separat: quod equoad 
+      <lb ed="#B" n="55"/>dem a principio aliqua ex parte 
+      intelli<lb ed="#B" n="56" break="no"/>gi potest diuersum. Caeterum nullum schis 
+      <lb ed="#B" n="57"/>ma est: nisi sibi aliquam haeresim 
+      confin<lb ed="#B" n="58" break="no"/>gat: ut recte ab ecclesia recessisse 
+      uidea<lb ed="#B" n="59" break="no"/>tur: &amp; habetur. xxiiij. qeiij. iter haeresim. 
+      <lb ed="#B" n="60"/>ubi glos. Inter haeresim, &amp; schiima 
+      po<lb ed="#B" n="61" break="no"/>test dici: quod haec est differentia, quae est 
+      <lb ed="#B" n="62"/>inter dispositionem, &amp; habitum. 
+      Pri<lb ed="#B" n="63" break="no"/>mo nion dicitur schisma: sed cum post 
+      tem<lb ed="#B" n="64" break="no"/>pus pertinaciter adhaeserit suae fectae: 
+      dici<lb ed="#B" n="65" break="no"/>tur haereijs.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1259">
+      ¶ Vel aliter dicas: quod omnis 
+      hae<lb ed="#B" n="66" break="no"/>reticus est schismaticus: sed non 
+      conuer<lb ed="#B" n="67" break="no"/>titur: &amp; sic est illa differentia, quae est in 
+      <lb ed="#B" n="68"/>ter speciem, &amp; genus. Haec glos.
+    </p>
+            <p xml:id="gbs333-v54451-d1e1268">
+      ¶ Tamen 
+      <lb ed="#B" n="69"/>ut clarius intelligatur haec differentia 
+      no<lb ed="#B" n="70" break="no"/>tandum: quod schisma proprie acceptum, est illi 
+      <lb ed="#B" n="71"/>cita diuisio per in obedientiam ab unita 
+      <lb ed="#B" n="72"/>te ecclesiae facta: &amp; hoc est aliquando cum 
+      <lb ed="#B" n="73"/>haeresi: ut in graecisse ab ecclesia separa 
+      <lb ed="#B" n="74"/>tibus cum caeteris erroribus de 
+      processio<lb ed="#B" n="75" break="no"/>ne spiritussancti, &amp; alijs. Aliquando est 
+      si<lb ed="#B" n="76" break="no"/>ne haeresi: sicut sunt, qui credunt Roma 
+      <lb ed="#B" n="77"/>nam ecclesiam: nec aliam uolunt 
+      consti<lb ed="#B" n="78" break="no"/>tuere: sed eaus credunt esse apud se. ut 
+      con<lb ed="#B" n="79" break="no"/>tingit, quando plures contendunt de 
+      pa<lb ed="#B" n="80" break="no"/>patu. Secundo modo accipitur largius: 
+      <lb ed="#B" n="81"/>scilicet pro his, qui sediuidunt a 
+      proprio<lb ed="#B" n="82" break="no"/>episcopo eum eijcientes: &amp; sedem 
+      episco<lb ed="#B" n="83" break="no"/>palem sibi usurpantes: &amp; presbyteros sibi 
+      <lb ed="#B" n="84"/>ordinantes. Tertio modo largissime ac 
+      <lb ed="#B" n="85"/>cipitur pro omni existente in peccato 
+      <lb ed="#B" n="86"/>mortali: quia diuidit se a charitate dei. 
+      <lb ed="#B" n="87"/>&amp; secundum hoc patet differentia eius 
+      <lb ed="#B" n="88"/>ab haeraetico: &amp; per consequens schisma 
+      <lb ed="#B" n="89"/>tis, quae est in obedientia, qua quis diuidit 
+      <lb ed="#B" n="90"/>a suosuperiori, uel ab ecclesia: &amp; 
+      haere<lb ed="#B" n="91" break="no"/>si: quae est error pertinax contra 
+      catho<lb ed="#B" n="92" break="no"/>licam ueritatem, quam ueritatem in 
+      om<lb ed="#B" n="93" break="no"/>nibus, &amp; maxime indiuinissimo 
+      eucha<lb ed="#B" n="94" break="no"/>ristiae sacramento: ubi plurima sunt 
+      mi<lb ed="#B" n="95" break="no"/>rabilia intellectu uiatoris 
+      incompraehen<lb ed="#B" n="96" break="no"/>sibilia: innocuisse seruare nos 
+      conce<lb ed="#B" n="97" break="no"/>dat eiusdem institutor dominus noster 
+      <lb ed="#B" n="98"/>Tesus Christus, cum patre, &amp; 
+      spiritusan<lb ed="#B" n="99" break="no"/>cto unus uerus inseparabilis deus, in 
+      <lb ed="#B" n="100"/>secula seculorum benedictus: Amen.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

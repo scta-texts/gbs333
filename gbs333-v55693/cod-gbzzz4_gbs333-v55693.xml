@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="227"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v55693"><!-- l4-d14prae -->
+            <head xml:id="gbs333-v55693-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v55693-d1e103">
+      <!--278.xml-->
+               <pb ed="#B" n="227"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>¶ SEQVITVR TRACTATVS 
+      <lb ed="#B" n="2"/>de Poenitentia, seu 
+      Poeniten<lb ed="#B" n="3" break="no"/>tiae sacramento. 
+      <lb ed="#B" n="4"/>PISTINCTIO xIIII 
+    </p>
+            <p xml:id="gbs333-v55693-d1e121">
+               <lb ed="#B" n="5"/>¶ OVT haec de 
+      poeni<lb ed="#B" n="6" break="no"/>tentia. Postquam 
+      ma<lb ed="#B" n="7" break="no"/>gister egit de tribus 
+      <lb ed="#B" n="8"/>facramentis scilicet de 
+      ba<lb ed="#B" n="9" break="no"/>ptismo, quo 
+      regene<lb ed="#B" n="10" break="no"/>ramur: de confirma 
+      <lb ed="#B" n="11"/>tione, per quam 
+      mo<lb ed="#B" n="12" break="no"/>do geniti infantes adolemus, &amp; robora 
+      <lb ed="#B" n="13"/>mur: de eucharistia, per quam nutrimur 
+      <lb ed="#B" n="14"/>&amp; in bono consummamur. 
+      Consequen<lb ed="#B" n="15" break="no"/>ter agit de quarto sacramento 
+      paeniten<lb ed="#B" n="16" break="no"/>tiae: per quam lapsi ad statum uitae 
+      repa<lb ed="#B" n="17" break="no"/>ramur in nouem sequentibus dist. 
+      ordi<lb ed="#B" n="18" break="no"/>ne subnotato. Et primo, agit de 
+      paeniten<lb ed="#B" n="19" break="no"/>tia in se quantum ad eius quidditatem. 
+      <lb ed="#B" n="20"/>Secundo, de ea quantum ad ministrum 
+      <lb ed="#B" n="21"/>facerdotem. Tertio, quantum ad 
+      pecca<lb ed="#B" n="22" break="no"/>torem suscipientem: secunda pars 
+      inci<lb ed="#B" n="23" break="no"/>pit dist. xviii. tertia dist. xx. Circa primum 
+      <lb ed="#B" n="24"/>duo facit. Primo praemissis diuisione, &amp; 
+      <lb ed="#B" n="25"/>distinctione paenitentiae: excludit 
+      erro<lb ed="#B" n="26" break="no"/>rem circa poenitentiae iterationem. 
+      Se<lb ed="#B" n="27" break="no"/>cundo prosequitur de poenitentia quantum 
+      <lb ed="#B" n="28"/>ad eius integritatem, dist. xv. In 
+      praesen<lb ed="#B" n="29" break="no"/>ti igitur distinct. ostensa poenitentiae 
+      <lb ed="#B" n="30"/>necessitate, &amp; quidditate: probat ipsam 
+      <lb ed="#B" n="31"/>iterari posse. Vnde sententia huius dist. 
+      <lb ed="#B" n="32"/>colligitur in tribus conclusionibus sub 
+      <lb ed="#B" n="33"/>notatis.
+    </p>
+            <p xml:id="gbs333-v55693-d1e186">
+      ¶ Prima. Poenitentia tam 
+      <lb ed="#B" n="34"/>interior, quam exterior: quae est 
+      secun<lb ed="#B" n="35" break="no"/>da post naufragium tabula: a deo 
+      lon<lb ed="#B" n="36" break="no"/>ge positis ut appropinquent est 
+      neces<lb ed="#B" n="37" break="no"/>laria.
+    </p>
+            <p xml:id="gbs333-v55693-d1e197">
+      ¶ Secunda. Poenitentia interior, 
+      <lb ed="#B" n="38"/>quae est uirtus, a qua Ioannis 
+      praedica<lb ed="#B" n="39" break="no"/>tio cepit: perfecta est: dum praeterita 
+      <lb ed="#B" n="40"/>peccata plangit: &amp; plangenda iterum 
+      <lb ed="#B" n="41"/>admitterenolit.
+    </p>
+            <p xml:id="gbs333-v55693-d1e209">
+      ¶ Tertia. Errant, 
+      qui<lb ed="#B" n="42" break="no"/>negant ueram poenitentiam esse, quam 
+      <lb ed="#B" n="43"/>sequentia peccata reddunt 
+      infructuo<lb ed="#B" n="44" break="no"/>sam. Addit de poenitentia 
+      so<lb ed="#B" n="45" break="no"/>lemni: ostendens, quod 
+      ite<lb ed="#B" n="46" break="no"/>rari non de 
+      <lb ed="#B" n="47"/>bet.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

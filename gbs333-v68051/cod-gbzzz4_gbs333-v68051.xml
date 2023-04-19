@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="277"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v68051"><!-- l4-d15q1 -->
+            <head xml:id="gbs333-v68051-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-v68051-Hd1e103" type="question-title">
+      utrum existens in pluribus peccatis 
+      mortalibus: de aliquibus possit uere 
+      poenitere, ita quod non simul de omnibus
+    </head>
+            <p xml:id="gbs333-v68051-d1e106">
+               <lb ed="#B" n="34"/>QVAESTIO I 
+      <lb ed="#B" n="35"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="36"/> de duobus quaerendum est. De
+      <lb ed="#B" n="37"/>quibus prima, &amp; tertia 
+      con<lb ed="#B" n="38" break="no"/>clusiones sonant: quoniam de 
+      <lb ed="#B" n="39"/>eleemosyna posterius disti. sequenti 
+      de<lb ed="#B" n="40" break="no"/>terminabitur. Est ergo prima quaestio: 
+      <lb ed="#B" n="41"/>utrum existens in pluribus peccatis 
+      mor<lb ed="#B" n="42" break="no"/>talibus: de aliquibus possit uere 
+      poenite<lb ed="#B" n="43" break="no"/>re: ita quod non simul de omnibus.
+    </p>
+            <p xml:id="gbs333-v68051-d1e130">
+      ¶ Pro 
+      re<lb ed="#B" n="44" break="no"/>sponsione ad quaestionem notandum: quod 
+      <lb ed="#B" n="45"/>quaestio intelligi debet de uera 
+      poeniten<lb ed="#B" n="46" break="no"/>tia, per quam remittitur peccatum: nam 
+      <lb ed="#B" n="47"/>accipiendo poenitentiam generaliter 
+      <lb ed="#B" n="48"/>pro acti detestationis peccati: non est 
+      <!--328.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>dubium; quin aliquis possit habere 
+      displicen<lb ed="#B" n="50" break="no"/>tiam de uno peccato commisso: &amp; com 
+      <lb ed="#B" n="51"/>placentiam habere in alio. &amp; ita dolere 
+      <lb ed="#B" n="52"/>de uno, &amp; non dolere: immo gaudere 
+      <lb ed="#B" n="53"/>de alio. Sed quaestio uult quaerere: utrum 
+      <lb ed="#B" n="54"/>dolens de uno peccato, &amp; non de alio; 
+      <lb ed="#B" n="55"/>possit consequi remissionem illius 
+      pec<lb ed="#B" n="56" break="no"/>cati de quo dolet absque remissione 
+      pec<lb ed="#B" n="57" break="no"/>cati, quod adhuc complacet.
+    </p>
+            <p xml:id="gbs333-v68051-d1e167">
+      ¶ Secundo 
+      <lb ed="#B" n="58"/>notandum: quod aliud est quaerere, an quis 
+      <lb ed="#B" n="59"/>possit poenitere de uno peccato sine alio: 
+      <lb ed="#B" n="60"/>&amp; utrum quis possit satisfacere de 
+      uno<lb ed="#B" n="61" break="no"/>peccato sine alio. Et quamuis utraque;  
+      <lb ed="#B" n="62"/>quaestio tractetur a magistro distin. 
+      prae<lb ed="#B" n="63" break="no"/>senti: quia tamen secunda quaestio 
+      mul<lb ed="#B" n="64" break="no"/>ta praesupponit defatisfactione, distin. 
+      se<lb ed="#B" n="65" break="no"/>quenti tractanda: ideo usque ibi 
+      differa<lb ed="#B" n="66" break="no"/>tur: ne ordo praeposteretur.
+    </p>
+            <p xml:id="gbs333-v68051-d1e190">
+      ¶ Tertio 
+      <lb ed="#B" n="67"/>supponitur ex prioribus, quod peccatum quam 
+      <lb ed="#B" n="68"/>tum ad culpam non remittitur sine 
+      gra<lb ed="#B" n="69" break="no"/>tia, &amp; charitate. quodque gratia, &amp; mortale 
+      <lb ed="#B" n="70"/>peccatum stante lege sunt immediate 
+      op<lb ed="#B" n="71" break="no"/>posita: ita quod omnis homo, aut est in 
+      gra<lb ed="#B" n="72" break="no"/>tia; aut est in mortali peccato: &amp; nullus 
+      <lb ed="#B" n="73"/>simul in mortali, &amp; in gratia: etiam 
+      se<lb ed="#B" n="74" break="no"/>cundum gradum quantumcunque 
+      remis<lb ed="#B" n="75" break="no"/>sum.
+    </p>
+            <p xml:id="gbs333-v68051-d1e212">
+      ¶ Ex quo sequitur; quod minima gratia 
+      <lb ed="#B" n="76"/>sufficit ad remissionem omnium peccato 
+      <lb ed="#B" n="77"/>rum mortalium. Patet: quia omnis 
+      gra<lb ed="#B" n="78" break="no"/>tia gratificat id est facit hominem gratum deo: 
+      <lb ed="#B" n="79"/>&amp; per consequens dignum uita aeterna: 
+      <lb ed="#B" n="80"/>ideo enim dicitur gratia gratum faciens, 
+      <lb ed="#B" n="81"/>de qua hic loquimur. Etiam omne 
+      pec<lb ed="#B" n="82" break="no"/>catum mortale priuat peccatorem uita 
+      <lb ed="#B" n="83"/>aeterna: &amp; reddit eum dignum morte aeter 
+      <lb ed="#B" n="84"/>na. Sed impossibile est eundem pro eodem 
+      <lb ed="#B" n="85"/>tempore acceptari ad uitam, &amp; ad 
+      mor<lb ed="#B" n="86" break="no"/>tem aeternas: siue esse dignum, &amp; 
+      indi<lb ed="#B" n="87" break="no"/>gnum morte, siue uita: quia dignus, &amp; 
+      in<lb ed="#B" n="88" break="no"/>dignus sunt proedicata cotradictorie 
+      oppo<lb ed="#B" n="89" break="no"/>sita, uel priuatiue; &amp; redit in idem: quia 
+      op<lb ed="#B" n="90" break="no"/>positio priuatiua infert contradictoriam. 
+      <lb ed="#B" n="91"/>Haec de primo articulo.
+    </p>
+            <p xml:id="gbs333-v68051-d1e249">
+      ¶ Quantum ad se 
+      <lb ed="#B" n="92"/>cundum articulum est haec conclusio I 
+      <lb ed="#B" n="93"/>unica, &amp; responsalis. Non potest 
+      pluri<lb ed="#B" n="94" break="no"/>bus itretitus peccatis mortalibus de 
+      ali<lb ed="#B" n="95" break="no"/>quibus eorum uere poenitere: &amp; non 
+      si<lb ed="#B" n="96" break="no"/>mulde omnibus. Illam conclusionem late 
+      <lb ed="#B" n="97"/>deducit beatus Augu. in de uera, &amp; falsa e 
+      <lb ed="#B" n="98"/>paenitentia. c. ix. &amp; tangit magister in litet 
+      <lb ed="#B" n="99"/>ra: &amp; potest breuiter sic ostendi. Non potest unum 
+      <!--329.xml-->
+      <pb ed="#B" n="278"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>mortaledimitti sine alio in habente 
+      plu<lb ed="#B" n="2" break="no"/>ra: ergo non potest talis uere paenitere de 
+      <lb ed="#B" n="3"/>uno, &amp; non de alio. Tenet 
+      consequen<lb ed="#B" n="4" break="no"/>tia: quia uera poenitentia est, per quam 
+      re<lb ed="#B" n="5" break="no"/>mittitur peccatum: ut dictum est in. j. ar. 
+      <lb ed="#B" n="6"/>Antecedens probatur: quia implicat 
+      con<lb ed="#B" n="7" break="no"/>tradictionem unum mortale dimitti sine 
+      <lb ed="#B" n="8"/>alio secundum legem statutam: ergo. 
+      An<lb ed="#B" n="9" break="no"/>tecedens probatur: quia sequitur: ipsi a, 
+      <lb ed="#B" n="10"/>dimittitur peccatum: ergo a habet 
+      gra<lb ed="#B" n="11" break="no"/>tiam. Et similiter sequitur: a, habet 
+      morta<lb ed="#B" n="12" break="no"/>le: ergo non habet gratiam. Sic ergo a, 
+      <lb ed="#B" n="13"/>habet gratiam, &amp; non habet gratiam. Prima 
+      <lb ed="#B" n="14"/>consequentia probatur: quia sine gratia 
+      <lb ed="#B" n="15"/>non remittitur peccatum. Secunda 
+      proba<lb ed="#B" n="16" break="no"/>tur: quia gratia opponit peccato: ion 
+      po<lb ed="#B" n="17" break="no"/>sitio unius infert negationem alterius. Item 
+      <lb ed="#B" n="18"/>impossibile est eundem esse amicum, &amp; 
+      in<lb ed="#B" n="19" break="no"/>micum deo simultpe: sed per gratiam est 
+      <lb ed="#B" n="20"/>amicus dei: &amp; perpeccatum est inimicus: 
+      <lb ed="#B" n="21"/>ergo non stant simul: &amp; per consequens 
+      <lb ed="#B" n="22"/>nec remissio unius peccati mortalis 
+      si<lb ed="#B" n="23" break="no"/>ne alio. Ad idem adducit beatus Aug. 
+      exe<lb ed="#B" n="24" break="no"/>pla christi, qui totum hominem sanauit in 
+      <lb ed="#B" n="25"/>sabbato. unde dicit. Nunquam christus 
+      al<lb ed="#B" n="26" break="no"/>quem sanauit, quem omnino non liberauit.  
+      <lb ed="#B" n="27"/>&amp; sequitur quod dictum est. Totum hominem sa 
+      <lb ed="#B" n="28"/>nauit in sabbato: quia &amp; corpus ab infit 
+      <lb ed="#B" n="29"/>mitate, &amp; animam ab omni contagione. 
+      <lb ed="#B" n="30"/>indicans paenitentem oportere simul &amp; 
+      <lb ed="#B" n="31"/>dolere de omni crimine orto in anima, 
+      <lb ed="#B" n="32"/>&amp; corpore. Et tantum de secundo 
+      articu<lb ed="#B" n="33" break="no"/>lo.
+    </p>
+            <p xml:id="gbs333-v68051-d1e347">
+      ¶ Quantum ad tertium articulum dubita 
+      <lb ed="#B" n="34"/>tur contra conclusionem: nam potest quis 
+      pe<lb ed="#B" n="35" break="no"/>nitere de omnibus peccatis, quorum 
+      ha<lb ed="#B" n="36" break="no"/>bet memoriam: &amp; adhuc teneri aliquo 
+      <lb ed="#B" n="37"/>peccato mortali oblito, de quo non 
+      paeni<lb ed="#B" n="38" break="no"/>ter. Non n.e potestquis poenitere, &amp; 
+      detestari<lb ed="#B" n="39" break="no"/>peccatum, cuius nullam habet notitiam: cum 
+      <lb ed="#B" n="40"/>omnis actus uoluntatis praesupponit actum 
+      <lb ed="#B" n="41"/>intellectus: &amp; tamen talis absoluitur a 
+      pecca<lb ed="#B" n="42" break="no"/>tis, de quibus penitet: &amp; non de alijs obli 
+      <lb ed="#B" n="43"/>tis: ergo conclusio falsa.
+    </p>
+            <p xml:id="gbs333-v68051-d1e371">
+      ¶ Ad illud 
+      du<lb ed="#B" n="44" break="no"/>bium dicitur: quia aut talis fecit 
+      diligen<lb ed="#B" n="45" break="no"/>tiam debitam ad cognoscendum peccata sua: 
+      <lb ed="#B" n="46"/>aut non. Si primum: tuc absoluitur ab 
+      om<lb ed="#B" n="47" break="no"/>nibus peccatis, quorum memoriam habet: 
+      <lb ed="#B" n="48"/>&amp; est ab oblitis. Et quando dicit, respectu obli 
+      <lb ed="#B" n="49"/>torum nullam habet poenitentiam: &amp; sine 
+      pae<lb ed="#B" n="50" break="no"/>nitentia peccatum non dimittitur. Dicitur; 
+      <lb ed="#B" n="51"/>quod respectu oblitorumhabet paenitentiam in 
+      <!--329.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>genere: licet non in particulari: quia ad 
+      <lb ed="#B" n="53"/>hoc, quod poenitentia sit sufficiens 
+      disposi<lb ed="#B" n="54" break="no"/>tio ad remissionem peccatorum: requiri 
+      <lb ed="#B" n="55"/>tur; quod sit in particulari respectu omnium 
+      <lb ed="#B" n="56"/>peccatorum mortalium in particulari cogni 
+      <lb ed="#B" n="57"/>torum. Et ultra: quod habeatur in genere 
+      di<lb ed="#B" n="58" break="no"/>splicentia omnium peccatorum oblitorum: 
+      <lb ed="#B" n="59"/>ut infra dicetur de contritione. Item de 
+      <lb ed="#B" n="60"/>oblitis habetur displicentia 
+      anteceden<lb ed="#B" n="61" break="no"/>ter: nam in hoc, quod peccata cognita 
+      displi<lb ed="#B" n="62" break="no"/>cent, quia contra deum commissa sunt: et 
+      <lb ed="#B" n="63"/>peccata quaecunque; contra deum displicent 
+      <lb ed="#B" n="64"/>antecedenter: quia bene sequitur hoc 
+      pec<lb ed="#B" n="65" break="no"/>catum displicet: quia contra deum: ergo omnem 
+      <lb ed="#B" n="66"/>pctum cotra deu displicet: quia omnis 
+      cau<lb ed="#B" n="67" break="no"/>salis infert uniuersalem. Vnde bene 
+      sequi<lb ed="#B" n="68" break="no"/>tur: Ioannes est homo: quia rationalis: ergo 
+      om<lb ed="#B" n="69" break="no"/>ne rationale est homo. Si uero paenitens non se 
+      <lb ed="#B" n="70"/>cit diligentiam sufficientem ad rememorandum 
+      <lb ed="#B" n="71"/>pcta comissa: &amp; subterfugiunt aliqua 
+      me<lb ed="#B" n="72" break="no"/>moriam propter sui negligentiam: tuc nullum 
+      <lb ed="#B" n="73"/>peccatu dimittitur: neque cognitu, neque;  
+      <lb ed="#B" n="74"/>oblitum, de quo magis inferius. Et secundum 
+      <lb ed="#B" n="75"/>hoc conclusio debet intelligi; quod non potest 
+      <lb ed="#B" n="76"/>quis uere paenitere de uno, &amp; no simulde 
+      <lb ed="#B" n="77"/>omnibus: &amp; hoc in genere, uel specie: in 
+      <lb ed="#B" n="78"/>se, uel in suo antecedente.
+    </p>
+            <p xml:id="gbs333-v68051-d1e454">
+      ¶ Dubitatur 
+      se<lb ed="#B" n="79" break="no"/>cundo contra illud uerbum Aug. quod 
+      quos<lb ed="#B" n="80" break="no"/>cumque; dominus sanauit: pfecte sanauit cor 
+      <lb ed="#B" n="81"/>pus ab infirmitate: &amp; aiam a pcti 
+      contagio<lb ed="#B" n="82" break="no"/>ne. Nam dominus sanauit decem leprosos 
+      <lb ed="#B" n="83"/>a lepra corporis. Luc. xvij. &amp; non a lepra 
+      <lb ed="#B" n="84"/>animae. Nam unus tantum redijt gratias agens: 
+      <lb ed="#B" n="85"/>caeteri nouem in grati non redierunt. Nam 
+      <lb ed="#B" n="86"/>&amp; dominus ait. Nonne decem mundati 
+      <lb ed="#B" n="87"/>sunt: &amp; nouem ubi sunt. ubi gloili. super 
+      uer<lb ed="#B" n="88" break="no"/>bo. Eides tua telaluum fecit. dicit: Pides, 
+      <lb ed="#B" n="89"/>quae ad agendas gratias inclinauit: te sal 
+      <lb ed="#B" n="90"/>uum fecit. Econtra perfidia illos 
+      dam<lb ed="#B" n="91" break="no"/>nat, qui de acceptis beneficiis sunt 
+      in<lb ed="#B" n="92" break="no"/>grati. Nouem ergo licet corpore sanati 
+      <lb ed="#B" n="93"/>fuerant: tamen secundum animam sunt 
+      damna<lb ed="#B" n="94" break="no"/>ti. Respondetur: quod omnes dece a 
+      princi<lb ed="#B" n="95" break="no"/>pio fideliter, &amp; deuote perierunt 
+      claman<lb ed="#B" n="96" break="no"/>tes. Tesu praeceptor miserere nobis: qua 
+      <lb ed="#B" n="97"/>fide, &amp; deuotione meruerunt de cogruo: 
+      <lb ed="#B" n="98"/>ut dicit Iyra sanari corpore, &amp; mente. 
+      <lb ed="#B" n="99"/>Et uenientes ad sacerdotes ad uerbum 
+      do<lb ed="#B" n="100" break="no"/>mini. Ite, ostendite uos sacerdotibus, 
+      no<lb ed="#B" n="101" break="no"/>uem, qui fuerant Iudaei decepti sunt a 
+      <lb ed="#B" n="102"/>facerdoribus, ne darent honorem chri¬ 
+      <!--330.xml-->
+      <pb ed="#B" n="279"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sto: sed magis sacrificio. Et ita 
+      relapsi<lb ed="#B" n="2" break="no"/>sunt in infidelitatem: non se credentes a 
+      <lb ed="#B" n="3"/>christo sanationem recepisse: &amp; ideo non 
+      <lb ed="#B" n="4"/>redierunt ad gratias referendas. Et 
+      per<lb ed="#B" n="5" break="no"/>hoc dicitur: quod uera est auctoritas Aug. 
+      <lb ed="#B" n="6"/>Nam simul receperunt omnes decen 
+      sa<lb ed="#B" n="7" break="no"/>nitatem corporis, &amp; animae: sed postea 
+      <lb ed="#B" n="8"/>nouem decepti ad infidelitatem 
+      relapsi<lb ed="#B" n="9" break="no"/>sunt.
+    </p>
+            <p xml:id="gbs333-v68051-d1e536">
+      ¶ Possent dubia moueri de 
+      quibus<lb ed="#B" n="10" break="no"/>dam auctoritatibus, quae uidentur sona 
+      <lb ed="#B" n="11"/>re ad oppositum conclusionis: sed magister 
+      <lb ed="#B" n="12"/>in textu sufficienter eas soluit. Et 
+      tan<lb ed="#B" n="13" break="no"/>tum de illa quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

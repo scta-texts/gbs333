@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="49"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v11865"><!-- l4-d2prae -->
+            <head xml:id="gbs333-v11865-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v11865-d1e103">
+               <lb ed="#B" n="58"/>DISTINCTIO II 
+      <lb ed="#B" n="59"/>VN Cuero de 
+      ba<lb ed="#B" n="60" break="no"/>ptismi sacramento 
+      ui<lb ed="#B" n="61" break="no"/>deamus: quod inter 
+      <lb ed="#B" n="62"/>nouae gratiae 
+      sacra<lb ed="#B" n="63" break="no"/>menta primum est &amp;c. 
+      <lb ed="#B" n="64"/>In superiore 
+      distin<lb ed="#B" n="65" break="no"/>magister egit de 
+      sa<lb ed="#B" n="66" break="no"/>cramentis utriusque testamenti in genere 
+      <lb ed="#B" n="67"/>&amp; de circumcisione, quod est principale 
+      <lb ed="#B" n="68"/>sacramentum ueteris testamenti: in 
+      spe<lb ed="#B" n="69" break="no"/>cie. Consequenter de sacramentis 
+      noui<lb ed="#B" n="70" break="no"/>testamenti incipit determinare in hac 
+      <lb ed="#B" n="71"/>secunda dist. Et primo agit de eis simul 
+      <lb ed="#B" n="72"/>in genere. Secundo de eorum singulo in 
+      <lb ed="#B" n="73"/>specie dist. iij. In hac uero dis. i. facit 
+      pri<lb ed="#B" n="74" break="no"/>mo. quod dictum est. Secundo 
+      speciali<lb ed="#B" n="75" break="no"/>ter de quodam praeambulo primi 
+      sacra<lb ed="#B" n="76" break="no"/>menti nouae legis, baptismate scilicet 
+      Ioan<lb ed="#B" n="77" break="no"/>nis praemittit. Summatur autem 
+      senten<lb ed="#B" n="78" break="no"/>tia huiusmodi in tribus conclusionibus 
+      <lb ed="#B" n="79"/>subiectis.
+    </p>
+            <p xml:id="gbs333-v11865-d1e153">
+      ¶ Prima conclusio septem sunt 
+      <lb ed="#B" n="80"/>nouae legis sacramenta, quae quia ex 
+      chri<lb ed="#B" n="81" break="no"/>sti passione efficaciam sortita sunt, ante 
+      <lb ed="#B" n="82"/>eius aduentum non fuerunt 
+      instituen<lb ed="#B" n="83" break="no"/>da.
+    </p>
+            <p xml:id="gbs333-v11865-d1e164">
+      ¶ Secunda. Coniugium, quod ante 
+      pec<lb ed="#B" n="84" break="no"/>catum institutum est in sacramentum, 
+      <lb ed="#B" n="85"/>&amp; officium: post peccatum fuit in 
+      re<lb ed="#B" n="86" break="no"/>medium carnalis concupiscentiae 
+      ordi<lb ed="#B" n="87" break="no"/>natum.
+    </p>
+            <p xml:id="gbs333-v11865-d1e175">
+      ¶ Tertia baptisma Ioannis in aqua 
+      <lb ed="#B" n="88"/>tantum peccata non relaxabat: sed ad 
+      chri<lb ed="#B" n="89" break="no"/>sti lauacrum, qui bapticabat in aqua, &amp; 
+      spi<lb ed="#B" n="90" break="no"/>ritu: hominem baptizandi 
+      consuetudi<lb ed="#B" n="91" break="no"/>nem praeparabat. Declaratio harum 
+      una<lb ed="#B" n="92" break="no"/>cum forma baptismatis Ioannis latius in 
+      <lb ed="#B" n="93"/>textu declarantur.
+    </p>
+            <p xml:id="gbs333-v11865-d1e192">
+      ¶ Circa hanc 
+      distin<lb ed="#B" n="94" break="no"/>ctionem mouetur duplex quaestio. 
+      Pri<lb ed="#B" n="95" break="no"/>ma in genere de sacramentis 
+      no<lb ed="#B" n="96" break="no"/>uae legis. Secunda de 
+      baptis<lb ed="#B" n="97" break="no"/>mate Ioannis. Circa 
+      <lb ed="#B" n="98"/>primum 
+      quaeri<lb ed="#B" n="99" break="no"/>tur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

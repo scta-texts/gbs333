@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="626"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v153527"><!-- l4-d22prae -->
+            <head xml:id="gbs333-v153527-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v153527-d1e103">
+               <lb ed="#B" n="13"/>DISTINVTIO XXII. 
+      <lb ed="#B" n="14"/>CVMQVE 
+      multi<lb ed="#B" n="15" break="no"/>auctoritatibus. Post 
+      <lb ed="#B" n="16"/>quam magister egit 
+      <lb ed="#B" n="17"/>de poenitentia qua 
+      <lb ed="#B" n="18"/>tum ad poenitentem 
+      <lb ed="#B" n="19"/>&amp; hoc quo ad 
+      om<lb ed="#B" n="20" break="no"/>nia peccata genera 
+      <lb ed="#B" n="21"/>liter: in hac distinct. xxij. &amp; ulti. de 
+      <lb ed="#B" n="22"/>poenitentia hoc idem facit quantum ac 
+      <lb ed="#B" n="23"/>peccata recidiue specialiter addens quem 
+      <lb ed="#B" n="24"/>dam de sacramento, &amp; re sacrament 
+      <lb ed="#B" n="25"/>poenitentiae summarie, &amp; breuiter. 
+    </p>
+            <p xml:id="gbs333-v153527-d1e134">
+               <lb ed="#B" n="26"/>¶ Et potest sententia textus 
+      summari<lb ed="#B" n="27" break="no"/>in tribus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v153527-d1e141">
+      ¶ Prima. 
+      Die<lb ed="#B" n="28" break="no"/>reditu peccatorum dimistorum per re 
+      <lb ed="#B" n="29"/>cidiuam recitatur duplex sanctorum 
+      as<lb ed="#B" n="30" break="no"/>sertio, quarum iudicium relinquitur 
+      le<lb ed="#B" n="31" break="no"/>ctori studioso.
+    </p>
+            <p xml:id="gbs333-v153527-d1e152">
+      ¶ Secunda: secundum 
+      <lb ed="#B" n="32"/>quorundam sententiam in actione 
+      pae<lb ed="#B" n="33" break="no"/>nitentiae sacramentum est, quod 
+      exte<lb ed="#B" n="34" break="no"/>rius geritur. Res uero contritio est, 
+      <lb ed="#B" n="35"/>quae intus in poenitentis corde elicitur. 
+    </p>
+            <p xml:id="gbs333-v153527-d1e164">
+               <lb ed="#B" n="36"/>¶ Tertia: Aliorum est doctrina, quod in 
+      <lb ed="#B" n="37"/>poenitentia illud, quod foris agitur: est 
+      <lb ed="#B" n="38"/>sacramentum tantum: interior 
+      con<lb ed="#B" n="39" break="no"/>tritio est res, &amp; sacramentum: res 
+      au<lb ed="#B" n="40" break="no"/>tem tantum est ipsa remissio 
+      peccato<lb ed="#B" n="41" break="no"/>rum. Quia materia duarum ultimarum 
+      <lb ed="#B" n="42"/>conclusionum tractata est supra dist. 
+      <lb ed="#B" n="43"/>xiiij. ideo circa materiam primae 
+      <lb ed="#B" n="44"/>conclusionis mouetur 
+      uni<lb ed="#B" n="45" break="no"/>ca quaestio: quae 
+      ta<lb ed="#B" n="46" break="no"/>lis est. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="58"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v14045"><!-- l4-d2q2 -->
+            <head xml:id="gbs333-v14045-Hd1e101">Quaestio 2</head>
+            <head xml:id="gbs333-v14045-Hd1e103" type="question-title">
+      Utrum 
+      baptismate Ioannis baptizati, 
+      erant baptismo christi iterum 
+      baptizandi
+    </head>
+            <p xml:id="gbs333-v14045-d1e106">
+               <lb ed="#B" n="57"/>QVAESTIO II 
+      <lb ed="#B" n="58"/>SECVNDO quaeritur 
+      cir<lb ed="#B" n="59" break="no"/>ca eandem dist. Vtrum 
+      ba<lb ed="#B" n="60" break="no"/>ptismate ioannis baptizati, 
+      <lb ed="#B" n="61"/>erant baptismo christi iterum 
+      <lb ed="#B" n="62"/>baptizandi.
+    </p>
+            <p xml:id="gbs333-v14045-d1e122">
+      ¶ Solito more tres erunt quae 
+      <lb ed="#B" n="63"/>stiones articuli: notabilium primus: 
+      con<lb ed="#B" n="64" break="no"/>clusionum secundus: &amp; dubiorum 
+      ter<lb ed="#B" n="65" break="no"/>tius.
+    </p>
+            <p xml:id="gbs333-v14045-d1e131">
+      ¶ Quantum ad primum notandum, 
+      <lb ed="#B" n="66"/>quod baptismus non dicebatur ideo 
+      <lb ed="#B" n="67"/>praecise Ioannis baptismus, quia hunc 
+      <lb ed="#B" n="68"/>Ioannes ministrabat: quia tumc similiter 
+      <lb ed="#B" n="69"/>dicendus erat baptismus Petri, quo 
+      Pe<lb ed="#B" n="70" break="no"/>trus baptixabat; &amp; Pauli, quo Paulus 
+      ba<lb ed="#B" n="71" break="no"/>ptixabat: quod apostolus reprobat. j. 
+      <lb ed="#B" n="72"/>Cor. j. &amp; iij. reprobans istos, quad dixerunt 
+      <lb ed="#B" n="73"/>se esse Petri, aut Pauli &amp;c. qui a Petro, 
+      <lb ed="#B" n="74"/>aut Paulo fuerunt baptixati. Nec ideo 
+      <lb ed="#B" n="75"/>dicitur baptismus ioanmis: quia fuit a 
+      <lb ed="#B" n="76"/>Ioanne institutus. Non enim fuit 
+      insti<lb ed="#B" n="77" break="no"/>turus a Ioanne: sed a deo, a quo missus 
+      <lb ed="#B" n="78"/>est baptixare. Vnde &amp; ipse Ioannes ait 
+      <lb ed="#B" n="79"/>Ioan. j. Qui misit me baptitare in 
+      a<lb ed="#B" n="80" break="no"/>qua; ille mihi dixit &amp;c. Ille autem 
+      insti<lb ed="#B" n="81" break="no"/>tutor est rei, cuius praecepto, &amp; 
+      aucto<lb ed="#B" n="82" break="no"/>ritate res sit. Hinc Augusti. lib. iij. de 
+      ba<lb ed="#B" n="83" break="no"/>ptismo contra donatistas. Baptismus 
+      Ioan<lb ed="#B" n="84" break="no"/>nis est: sed solum a christo concessus: 
+      <lb ed="#B" n="85"/>scum quod ioannes dicit. Non potest 
+      ho<lb ed="#B" n="86" break="no"/>mo quicquam accipere, nisi datum 
+      fue<lb ed="#B" n="87" break="no"/>rit ei de super. Nec ideo dicitur 
+      baptis<lb ed="#B" n="88" break="no"/>mus ioannis, quia primus baptixans 
+      tali<lb ed="#B" n="89" break="no"/>baptismo: poterat enim aliquis apost. 
+      <lb ed="#B" n="90"/>baptixasse baptismo christi: nec propter 
+      <lb ed="#B" n="91"/>hoc dici debuisset baptismus Apostoli. 
+    </p>
+            <p xml:id="gbs333-v14045-d1e191">
+               <lb ed="#B" n="92"/>¶ Sed dicitur baptismusioannis 
+      quadru<lb ed="#B" n="93" break="no"/>plici ratione. Primo: quia primus 
+      pro<lb ed="#B" n="94" break="no"/>mulgator fuit baptismatis, non enim 
+      <lb ed="#B" n="95"/>christus hoc promulgauit, sicut suum 
+      <lb ed="#B" n="96"/>primus promulgauit, &amp; nullus discipulo 
+      <lb ed="#B" n="97"/>rum. Secundo: quia fuit solus minister 
+      hu<lb ed="#B" n="98" break="no"/>ius baptismi. Non enim discipuli 
+      Ioan<lb ed="#B" n="99" break="no"/>nis: sed sol: ipse baptixauit. Vnde Aug. 
+      <lb ed="#B" n="100"/>ubi supra contra donatistas. Nulli pro¬ 
+      <!--110.xml-->
+      <pb ed="#B" n="59"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>phetarum: nulli prorsus hominum est 
+      <lb ed="#B" n="2"/>concessum baptixare in aqua 
+      paeniten<lb ed="#B" n="3" break="no"/>tiae, in remissionem peccatorum: quod  
+      <lb ed="#B" n="4"/>concessum est Ioanni, quia mirabili gratia 
+      <lb ed="#B" n="5"/>suspendens in se corda populorum, uiam 
+      <lb ed="#B" n="6"/>praepararet in eis illi, quem se tanto 
+      prae<lb ed="#B" n="7" break="no"/>dicabat esse maiorem. Ex quo sequitur, 
+      <lb ed="#B" n="8"/>quod baptismus soannis non durabat 
+      nisi<lb ed="#B" n="9" break="no"/>tempore Ioannis: ipso namque existente in 
+      <lb ed="#B" n="10"/>carcere: cessabat cum illo: solus itaque 
+      <lb ed="#B" n="11"/>ioannes, &amp; non alius baptitabat. Et ita 
+      <lb ed="#B" n="12"/>congruit ut aduentente baptismo 
+      chri<lb ed="#B" n="13" break="no"/>sti, cessaret baptismus ioannis, qui fuit 
+      <lb ed="#B" n="14"/>praeparatorius ad ipsum, sicut cessat 
+      ge<lb ed="#B" n="15" break="no"/>neraliter praeparatio inducta 
+      forma<lb ed="#B" n="16" break="no"/>Tertio dicitur baptismus ioannis: quia 
+      <lb ed="#B" n="17"/>ioannes fuit auctor totius, quod 
+      age<lb ed="#B" n="18" break="no"/>batur per suum baptisma. Nam totum, 
+      <lb ed="#B" n="19"/>quod ibi fiebat, ioannes operabatur. 
+      <lb ed="#B" n="20"/>Nam ibi, tamen fuit exterior corporis 
+      lo<lb ed="#B" n="21" break="no"/>tio, quam totam ioannes operabatur: 
+      <lb ed="#B" n="22"/>non autem lotio interior animae, quam 
+      <lb ed="#B" n="23"/>deus solus operatur. Nam per baptismum 
+      <lb ed="#B" n="24"/>ioanmis non conferebatur gratia ex 
+      o<lb ed="#B" n="25" break="no"/>pere operato: nec ex consequenti 
+      pec<lb ed="#B" n="26" break="no"/>catorum remissio. Vnde Mar. j. Ego 
+      ba<lb ed="#B" n="27" break="no"/>ptiraui uos in aqua: ille baptixabit uos 
+      <lb ed="#B" n="28"/>spiritusancto. Simile habetur Luc. iij. 
+      <lb ed="#B" n="29"/>&amp; ioan. j. &amp; Act. j. dicit Christus 
+      ioan<lb ed="#B" n="30" break="no"/>nes quidem baptixauit aqua: uos 
+      au<lb ed="#B" n="31" break="no"/>tem baptirabimini spiritusancto, non 
+      <lb ed="#B" n="32"/>post multos hos dies. Et gios. 
+      Lucae<lb ed="#B" n="33" break="no"/>iij. Probat se ioannes non esse christum: 
+      <lb ed="#B" n="34"/>quia uisibili tantum officio aqua non 
+      <lb ed="#B" n="35"/>spiritulancto baptirauit. Ad idem sunt 
+      <lb ed="#B" n="36"/>auctoritates August. magistri. Hugo. 
+      <lb ed="#B" n="37"/>Dama ce. &amp; aliorum. Quod uero 
+      Mat<lb ed="#B" n="38" break="no"/>thaeus ait ex persona ioan. Ego baptico 
+      <lb ed="#B" n="39"/>uos in aqua in poenitentiam. Et Mar. j. 
+      <lb ed="#B" n="40"/>Tuitioannes in deserto baptixans, &amp; 
+      <lb ed="#B" n="41"/>pręedicans baptismum poenitentiae in re 
+      <lb ed="#B" n="42"/>missionem peccatorum. Non est 
+      in<lb ed="#B" n="43" break="no"/>telligendum, quod ioannis baptismus 
+      <lb ed="#B" n="44"/>poenitentiam, &amp; remissionem peccato. 
+      <lb ed="#B" n="45"/>rum contulerit: sed quod baptismum in 
+      <lb ed="#B" n="46"/>aquatantum dedit: &amp; baptismum 
+      poeni<lb ed="#B" n="47" break="no"/>tentiae in remissionem peccatorum prae 
+      <lb ed="#B" n="48"/>dicabat: quod etiam sonant uerba Marci 
+      <lb ed="#B" n="49"/>benepunctuata. Quorum sensus est. ioan 
+      <lb ed="#B" n="50"/>nes erat baptixtans, &amp; praedicans 
+      ba<lb ed="#B" n="51" break="no"/>ptiimum christi, qui fuit in remissionem 
+      <!--110.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>peceatorum: ita quod Iy remissionem 
+      pec<lb ed="#B" n="53" break="no"/>catorum, non determinet participium 
+      <lb ed="#B" n="54"/>baptixans: sed nomen baptismum. 
+      Dici<lb ed="#B" n="55" break="no"/>tur tamen baptismusioannis baptismus 
+      <lb ed="#B" n="56"/>ptenitentiae: quia baptiando docuit pe 
+      <lb ed="#B" n="57"/>nitentiam: uel quia baptixatis imposuit 
+      <lb ed="#B" n="58"/>dignos fructus poenitentiae secundum 
+      <lb ed="#B" n="59"/>Tho. Sed non potest dici baptismus 
+      re<lb ed="#B" n="60" break="no"/>missionis peccatorum: quia hanc non 
+      <lb ed="#B" n="61"/>dabat, nec docuit: cum non sit opus 
+      ho<lb ed="#B" n="62" break="no"/>minis, sed dei. Hinc glol. Mar. i. 
+      Poeni<lb ed="#B" n="63" break="no"/>tentiae baptismum dedit: baptisma in re 
+      <lb ed="#B" n="64"/>missionem peccatorum tamen praedicauit: 
+      <lb ed="#B" n="65"/>non dedit.
+    </p>
+            <p xml:id="gbs333-v14045-d1e365">
+      ¶ Corollarium sequitur ex his 
+      <lb ed="#B" n="66"/>quod ioannis baptismus non fuit sacramentum 
+      <lb ed="#B" n="67"/>proprie dictum: non enimfuit signum 
+      <lb ed="#B" n="68"/>efficax gratiae. Vnde glol. de conse dist 
+      <lb ed="#B" n="69"/>iiij. Aliud est. Non est sacramentum 
+      re<lb ed="#B" n="70" break="no"/>demptionis nostrae: nec deus per illum 
+      <lb ed="#B" n="71"/>remissionem peccatorum operatus est. 
+      <lb ed="#B" n="72"/>Vnde quoties a sanctis dicitur facramen 
+      <lb ed="#B" n="73"/>tum: sacramentum capitur large pro 
+      si<lb ed="#B" n="74" break="no"/>gno sacrae rei. Hinc Hugo. lib. ij. parte. 
+      <lb ed="#B" n="75"/>vj. c. vj. Solum sacramentum fuit ibi in 
+      <lb ed="#B" n="76"/>baptismate ioannis: sed non remissio 
+      pec<lb ed="#B" n="77" break="no"/>catorum. Quarto dicitur baptismus ioan 
+      <lb ed="#B" n="78"/>nis: quia non dabatur in forma, quam 
+      <lb ed="#B" n="79"/>instituit christus.
+    </p>
+            <p xml:id="gbs333-v14045-d1e398">
+      ¶ Sed in qua forma 
+      ba<lb ed="#B" n="80" break="no"/>ptixabat. Tenet magister, &amp; posteum Ale 
+      <lb ed="#B" n="81"/>Pet. de palu. &amp; Tho. q ioannes baptixa 
+      <lb ed="#B" n="82"/>bat in forma futuri. Ad quod 
+      adduci<lb ed="#B" n="83" break="no"/>tur illud Act. xix. ioannes baptirabat 
+      <lb ed="#B" n="84"/>populum baptismo paenitentiae dicens: 
+      <lb ed="#B" n="85"/>in eum, qui uenturus est postipsum, ut  
+      <lb ed="#B" n="86"/>crederent. hoc est in iesum. Venturus, 
+      <lb ed="#B" n="87"/>non quantum ad carnis praesentiam: quia 
+      <lb ed="#B" n="88"/>scum hanc iam uenit. Siquidem 
+      ioanne<lb ed="#B" n="89" break="no"/>praedicante, &amp; baptixante christus 
+      in<lb ed="#B" n="90" break="no"/>carnatus, &amp; natus fuit. Sed uenturus 
+      <lb ed="#B" n="91"/>suit quantum ad effectum 
+      redemptio<lb ed="#B" n="92" break="no"/>nis, siue passionis: uel etiam quantum 
+      <lb ed="#B" n="93"/>ad actum baptixandi docendi: quia 
+      si<lb ed="#B" n="94" break="no"/>cut ioannes sua natiuitate praecessit 
+      <lb ed="#B" n="95"/>Christi natiuitatem: ita etiam sua 
+      bapti<lb ed="#B" n="96" break="no"/>ratione praecessit christi baptismum, 
+      <lb ed="#B" n="97"/>&amp; sua praedicatione, christi 
+      praedicatio<lb ed="#B" n="98" break="no"/>nem: &amp; sua morte, christimortem, 
+      <lb ed="#B" n="99"/>fuit ergo haec forma baptismiioannis. 
+      <lb ed="#B" n="100"/>Ego baptixo te in nomine uenturi, 
+      <lb ed="#B" n="101"/>Exponit Alexand. id est in fide uenturi, 
+      <lb ed="#B" n="102"/>Sed aliam opinon tangit Duran, quaetenet: 
+      <!--111.xml-->
+      <pb ed="#B" n="60"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quod Ioannes non baptixabat sub aliqua 
+      <lb ed="#B" n="2"/>formauerborum. Cuius motiuum est: 
+      <lb ed="#B" n="3"/>quia baptismus Ioannis fuit medius 
+      in<lb ed="#B" n="4" break="no"/>ter sacramenta ueteris legis, &amp; nouae. 
+      <lb ed="#B" n="5"/>Conueniebat enim cum sacramentis 
+      no<lb ed="#B" n="6" break="no"/>uae legis: &amp; maxime cum baptismo 
+      chri<lb ed="#B" n="7" break="no"/>sti in materia, quia in aqua: &amp; in 
+      expres<lb ed="#B" n="8" break="no"/>sa significatione internae mundationis. 
+      <lb ed="#B" n="9"/>Cum sacramentis ueteris legis in 
+      insuf<lb ed="#B" n="10" break="no"/>ficientia: quia non conferebat gratiam. 
+      <lb ed="#B" n="11"/>Cum autem efficacia sacramenti formae 
+      <lb ed="#B" n="12"/>attribuatur (&amp; sicut in rebus 
+      naturali<lb ed="#B" n="13" break="no"/>bus) actio est a forma, potest 
+      probabili<lb ed="#B" n="14" break="no"/>ter dici: quod Ioannes in baptismo suo non 
+      <lb ed="#B" n="15"/>utebatur aliqua forma uerborum. Nam 
+      <lb ed="#B" n="16"/>cum quaestio haec est de facto de quo 
+      <lb ed="#B" n="17"/>scriptura nihil expresse determinat; 
+      pro<lb ed="#B" n="18" break="no"/>babiliter dici potest, quod non utebatur 
+      ali<lb ed="#B" n="19" break="no"/>qua forma uerborum.
+    </p>
+            <p xml:id="gbs333-v14045-d1e498">
+      ¶ Ad rationem 
+      al<lb ed="#B" n="20" break="no"/>terius opinionis dicunt: quod in uerbis 
+      il<lb ed="#B" n="21" break="no"/>lis Pauli non fuit intentio eius, quod illa 
+      es<lb ed="#B" n="22" break="no"/>set forma Ioannis: sed fuerunt uerba 
+      il<lb ed="#B" n="23" break="no"/>la beati Ioannis docentis: quod patet ex 
+      <lb ed="#B" n="24"/>ipso contextu uerborum. Dicit enim 
+      pri<lb ed="#B" n="25" break="no"/>mo, quod baptixauit baptismo paenitentiae: 
+      <lb ed="#B" n="26"/>deinde dicebat, ut crederent in eum, 
+      qui<lb ed="#B" n="27" break="no"/>uenturus est. eum, idest Tesum. Constat 
+      <lb ed="#B" n="28"/>autem, quod de forma baptismi non erat pr 
+      <lb ed="#B" n="29"/>nitentia: sed solum de doctrina: ergo 
+      eo<lb ed="#B" n="30" break="no"/>dem modo non fuit deforma baptismi, 
+      <lb ed="#B" n="31"/>ut crederent in uenturum: sed solum de 
+      <lb ed="#B" n="32"/>doctrina. Vtraque opi. potest 
+      probabili<lb ed="#B" n="33" break="no"/>ter teneri, utramque etiam tangit Sco. q.ij. 
+      <lb ed="#B" n="34"/>huius dist. His ergo quatuor de causis 
+      di<lb ed="#B" n="35" break="no"/>citur baptismus Ioannis.
+    </p>
+            <p xml:id="gbs333-v14045-d1e535">
+      ¶ Verum (ut 
+      <lb ed="#B" n="36"/>dicit Sco. )si Ioannes baptixasset infor 
+      <lb ed="#B" n="37"/>ma baptismi christi, quam poterat 
+      sci<lb ed="#B" n="38" break="no"/>re a discipulis christi, uel aliis 
+      audienti<lb ed="#B" n="39" break="no"/>bus eos baptixare: ille baptismus non 
+      <lb ed="#B" n="40"/>fuisset dicendus baptismus Ioannis sicut  
+      <lb ed="#B" n="41"/>nec Petri, &amp; Pauli: sed baptismus 
+      chri<lb ed="#B" n="42" break="no"/>sti. Verum de illo non quaerit quaestio: sed  
+      <lb ed="#B" n="43"/>de baptismo Ioannis, quo praeuenit 
+      ba<lb ed="#B" n="44" break="no"/>ptismum christi: quo scilicet baptixabat  
+      <lb ed="#B" n="45"/>in nomine uenturi: aut sine uerborum 
+      <lb ed="#B" n="46"/>forma secundum alteram praedictarum 
+      <lb ed="#B" n="47"/>opinionum. Et de hoc baptismate 
+      intel<lb ed="#B" n="48" break="no"/>ligendae sunt conclusiones, &amp; caetera, 
+      <lb ed="#B" n="49"/>quae sequuntur.
+    </p>
+            <p xml:id="gbs333-v14045-d1e568">
+      ¶ Secundo notandum, 
+      <lb ed="#B" n="50"/>quod de materia quesiti duae fuere 
+      opinio<lb ed="#B" n="51" break="no"/>nes. Vna magistri: quam etiam saluare 
+      <!--111.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nititur Alex. haec tenet, quod baptixati 
+      ba<lb ed="#B" n="53" break="no"/>ptismo Ioannis erant duplices: quidam 
+      <lb ed="#B" n="54"/>enim in illo spem ponebant non 
+      refe<lb ed="#B" n="55" break="no"/>rentes haptismum Ioannis ad baptismum 
+      <lb ed="#B" n="56"/>christi: nec habebant fidem trinitatis: 
+      si<lb ed="#B" n="57" break="no"/>cut hi, qui dixerunt. Neque si 
+      spiritussan<lb ed="#B" n="58" break="no"/>ctus est audiuimus: ut habetur Actuum. 
+      <lb ed="#B" n="59"/>xix. Et illi erant baptixandi baptismo 
+      <lb ed="#B" n="60"/>christi. Nam &amp; tales iterum baptixati 
+      <lb ed="#B" n="61"/>sunt in nomine Tesu: ut ibi dicitur. 
+      Qui<lb ed="#B" n="62" break="no"/>uero spem in baptismo Ioannis non 
+      fi<lb ed="#B" n="63" break="no"/>xerunt: &amp; fidem trinitatis habuerunt: 
+      <lb ed="#B" n="64"/>non sunt baptixati denuo baptismo chri 
+      <lb ed="#B" n="65"/>sti: sed per impositionem manuum ab 
+      apo<lb ed="#B" n="66" break="no"/>stolis factam, receperunt 
+      spiritumsan<lb ed="#B" n="67" break="no"/>ctum in robur, quem prius receperunt 
+      <lb ed="#B" n="68"/>in remissionem peccatorum.
+    </p>
+            <p xml:id="gbs333-v14045-d1e617">
+      ¶ Pro ista 
+      <lb ed="#B" n="69"/>opinione arguitur. Nam Act. viij. 
+      habe<lb ed="#B" n="70" break="no"/>tur, quod apostoli in Samariam uenientes 
+      <lb ed="#B" n="71"/>eos, qui baptixati fuerunt a Philippo, non 
+      <lb ed="#B" n="72"/>rebaptixabant: sed tantum manus 
+      impo<lb ed="#B" n="73" break="no"/>nebant, &amp; accipiebant spiritum sanctum: 
+      <lb ed="#B" n="74"/>non enim in quemquam illorum 
+      uene<lb ed="#B" n="75" break="no"/>rat spiritussanctus. Cum autem 
+      baptis<lb ed="#B" n="76" break="no"/>mus in nomine Iesu Christi sine 
+      colla<lb ed="#B" n="77" break="no"/>tione spiritussancti sit baptismus 
+      Ioan<lb ed="#B" n="78" break="no"/>nis: sequitur: quod baptixati baptismo 
+      Ioan<lb ed="#B" n="79" break="no"/>nis non fuerunt rebaptixandi. Item Hic 
+      <lb ed="#B" n="80"/>ro. super illud sohel. ij. Effundam de 
+      spi<lb ed="#B" n="81" break="no"/>ritu meo. dicit: quod haec est causa; quare 
+      <lb ed="#B" n="82"/>quidam baptixati a Ioanne baptismo 
+      <lb ed="#B" n="83"/>christi, iterum baptixati sunt a Paulo: 
+      <lb ed="#B" n="84"/>quia fidem trinitatis non habebant. Et  
+      <lb ed="#B" n="85"/>ergo a contrario sensu baptismate 
+      Ioan<lb ed="#B" n="86" break="no"/>nis baptixati, &amp; fidem trinitatis 
+      haben<lb ed="#B" n="87" break="no"/>tes, non erant baptismo christi baptixam 
+      <lb ed="#B" n="88"/>di.
+    </p>
+            <p xml:id="gbs333-v14045-d1e663">
+      ¶ Item Apostolisunt 
+      baptixatibaptis<lb ed="#B" n="89" break="no"/>mo Ioannis saltem Andreas, &amp; caeteri, 
+      <lb ed="#B" n="90"/>qui fuerunt discipuli Ioannis: &amp; 
+      tamen<lb ed="#B" n="91" break="no"/>non leguntur iterum baptixati 
+      baptis<lb ed="#B" n="92" break="no"/>mo christi: sed dumtaxat baptismo 
+      fla<lb ed="#B" n="93" break="no"/>minis: sicut dixerat eis christus Act. j. 
+      <lb ed="#B" n="94"/>Ioannes baptixabat aqua: uos autem 
+      ba<lb ed="#B" n="95" break="no"/>ptixabiminispiritusancto: non postmul 
+      <lb ed="#B" n="96"/>os hos dies. quod &amp; impletum est in 
+      die<lb ed="#B" n="97" break="no"/>pentecostes.
+    </p>
+            <p xml:id="gbs333-v14045-d1e685">
+      ¶ Praeterea 
+      baptiratibaptis<lb ed="#B" n="98" break="no"/>mo Ioannis habentes fidem sancte 
+      tri<lb ed="#B" n="99" break="no"/>nitatis, habebant, quicquid requiritur 
+      <lb ed="#B" n="100"/>ad salutem: ideo non fuit opus iterum 
+      <lb ed="#B" n="101"/>baptixari. Antecedens probatur: quia 
+      <lb ed="#B" n="102"/>per baptismum Ioannis habebant ablu¬ 
+      <!--112.xml-->
+      <pb ed="#B" n="61"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tionem exteriorem: &amp; per fidem trinitatis 
+      in<lb ed="#B" n="2" break="no"/>terius infigebatur character: habebant &amp; 
+      <lb ed="#B" n="3"/>spiritumsanctum per impositionem manuum 
+      <lb ed="#B" n="4"/>apostolorum: &amp; illa sufficiunt ad salutem: 
+      <lb ed="#B" n="5"/>secundum illum Ioan. iij. Nisi quis 
+      re<lb ed="#B" n="6" break="no"/>natus fuerit ex aqua, &amp; spiritusancto 
+      <lb ed="#B" n="7"/>&amp;c. Per Ioannem autem 
+      ministraba<lb ed="#B" n="8" break="no"/>tur aqua: &amp; per manus impositionem 
+      <lb ed="#B" n="9"/>spiritussanctus.
+    </p>
+            <p xml:id="gbs333-v14045-d1e724">
+      ¶ Item in receptione 
+      <lb ed="#B" n="10"/>sacramentorum quod datur, non est 
+      <lb ed="#B" n="11"/>iterandum: sed si quid omittitur, 
+      cau<lb ed="#B" n="12" break="no"/>te est implendum: ut habetur de 
+      cle<lb ed="#B" n="13" break="no"/>rico per saltum promoto c. unico. Et  
+      <lb ed="#B" n="14"/>de sacramentis non iterandis c. j. Sed 
+      <lb ed="#B" n="15"/>inbaptismo Ioannis dabatur ablutio 
+      ex<lb ed="#B" n="16" break="no"/>terior: ergo si defuit interior, illa erat  
+      <lb ed="#B" n="17"/>supplenda, &amp; non exterioriteranda: 
+      sup<lb ed="#B" n="18" break="no"/>plebatur autem manuum impositione. 
+      <lb ed="#B" n="19"/>Hac enim dabatur spiritussanctus, 
+      quo<lb ed="#B" n="20" break="no"/>interius absuitur animaa sordibus 
+      pecca<lb ed="#B" n="21" break="no"/>torum.
+    </p>
+            <p xml:id="gbs333-v14045-d1e753">
+      ¶ Item in baptismo Ioannis 
+      <lb ed="#B" n="22"/>fuit debita materia, &amp; forma, &amp; ita uerum 
+      <lb ed="#B" n="23"/>baptisma: &amp; per consequens non 
+      iteran<lb ed="#B" n="24" break="no"/>dum. Antecedens probatur: de 
+      mate<lb ed="#B" n="25" break="no"/>ria, quia aqua: deforma, quia eadem, qua 
+      <lb ed="#B" n="26"/>apostoli baptixabant: baptixabant enim 
+      <lb ed="#B" n="27"/>in nomine christi: Ioannes in nomine 
+      <lb ed="#B" n="28"/>uenturi: hic autem erat Christus. dicit 
+      <lb ed="#B" n="29"/>Paulus Act: xix. uenturi id est Iesu 
+      Chri<lb ed="#B" n="30" break="no"/>sti. Et ergo sicut baptismus discipulorum 
+      <lb ed="#B" n="31"/>Christi suffecit: ita &amp; Ioannis.
+    </p>
+            <p xml:id="gbs333-v14045-d1e777">
+      ¶ Alia 
+      <lb ed="#B" n="32"/>est opinio communis sancti Tho. &amp; 
+      san<lb ed="#B" n="33" break="no"/>cti Bonauent. Scot. &amp; Pet. de palu. &amp; 
+      <lb ed="#B" n="34"/>aliorum communiter: quod omnes 
+      bapti<lb ed="#B" n="35" break="no"/>xati Ioannis baptismate iterum 
+      bapti<lb ed="#B" n="36" break="no"/>xandi erant baptismo Christi. Nec 
+      suf<lb ed="#B" n="37" break="no"/>fecit baptismus Ioannis ad salutem; quia 
+      <lb ed="#B" n="38"/>non contulit gratiam: sed erat tantum 
+      <lb ed="#B" n="39"/>praeparatio ad baptismum Christi: etiam 
+      <lb ed="#B" n="40"/>quantumcunque baptixati haberent 
+      fi<lb ed="#B" n="41" break="no"/>dem trinnatis: nec spem ponerent in 
+      <lb ed="#B" n="42"/>eo: sed ipsum referrent ad baptismum 
+      <lb ed="#B" n="43"/>Christi, secundum quam opinionem 
+      po<lb ed="#B" n="44" break="no"/>nentur conclusiones.
+    </p>
+            <p xml:id="gbs333-v14045-d1e809">
+      ¶ Tertio 
+      notan<lb ed="#B" n="45" break="no"/>dum, quod refert iterum baptixari: &amp; 
+      ite<lb ed="#B" n="46" break="no"/>rato baptismo baptixari. Nam iterum 
+      <lb ed="#B" n="47"/>baptixatur, qui post primam absutionem 
+      <lb ed="#B" n="48"/>secundo abiuitur: siue prima 
+      ablutiofue<lb ed="#B" n="49" break="no"/>rit uerumbaptisma, siue non: sed tantum 
+      ex<lb ed="#B" n="50" break="no"/>terior ablutio. Sed iterato baptismo 
+      ba<lb ed="#B" n="51" break="no"/>pticatur: qui postuerum baptisma rece- 
+      <!--112.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ptum, secundo baptixatur. Ex quo 
+      se<lb ed="#B" n="53" break="no"/>quitur, quod licet baptixatibaptismo 
+      Chri<lb ed="#B" n="54" break="no"/>sti post baptismum Ioannis, iterum 
+      ba<lb ed="#B" n="55" break="no"/>ptixabantur: non tamen iterato 
+      bapti<lb ed="#B" n="56" break="no"/>smo: quia baptisma non iterabatur: quia 
+      <lb ed="#B" n="57"/>primus baptismus, scilicet Ioannis non fuit 
+      <lb ed="#B" n="58"/>uerum baptisma: sed praeparatio ad uerum 
+      <lb ed="#B" n="59"/>baptisma. Hanc differentiam tangit 
+      ma<lb ed="#B" n="60" break="no"/>gister in fine huius dist. cum dicit: 
+      bapti<lb ed="#B" n="61" break="no"/>tati sunt in nomine Christi: nec in his 
+      <lb ed="#B" n="62"/>iteratum est baptisma: sed nouatum 
+      lo<lb ed="#B" n="63" break="no"/>quitur dehis, qui postbaptismum; 
+      Ioan<lb ed="#B" n="64" break="no"/>nis receptum, baptixati sunt baptismo 
+      <lb ed="#B" n="65"/>Christi.
+    </p>
+            <p xml:id="gbs333-v14045-d1e861">
+      ¶ Quantum ad articulum 
+      secun<lb ed="#B" n="66" break="no"/>dum est haec conclusio unica. Vniuersa 
+      <lb ed="#B" n="67"/>liter omnes Ioannis baptismate baptixa 
+      <lb ed="#B" n="68"/>ti, post sufficientem baptismatis 
+      Christi<lb ed="#B" n="69" break="no"/>promulgationem erant iterum 
+      Christi<lb ed="#B" n="70" break="no"/>baptismate baptixandi. Quod dicitur, 
+      <lb ed="#B" n="71"/>uniuersaliter omnes) intelligendums 
+      <lb ed="#B" n="72"/>est praeter christum: non enim Christus 
+      <lb ed="#B" n="73"/>unus est ex omnibus legi subiectis: sed s 
+      <lb ed="#B" n="74"/>unus super omnes, &amp; superlegem: quia 
+      <lb ed="#B" n="75"/>dominus est filius hominis, &amp; labbati. 
+      <lb ed="#B" n="76"/>Huic conclusioni consonat Pet de 
+      pa<lb ed="#B" n="77" break="no"/>lud. praesenti dist. qeii. art. v. Et ponit 
+      ra<lb ed="#B" n="78" break="no"/>tionem Richar. art. ij. q. ult. quia cum 
+      <lb ed="#B" n="79"/>baptismus Ioannis esset quaedam 
+      praepa<lb ed="#B" n="80" break="no"/>ratio ad baptismum Christi, sicut ad 
+      me<lb ed="#B" n="81" break="no"/>dicinam sanatiuam: ideo sicut infirmus 
+      <lb ed="#B" n="82"/>accepta praeparatione indiget medicina 
+      <lb ed="#B" n="83"/>sanatiua: ita &amp; hic baptixatis baptismo 
+      <lb ed="#B" n="84"/>Ioannis necessarius, &amp; baptismus 
+      Chri<lb ed="#B" n="85" break="no"/>sti. Dicitur etiam post sufficientem 
+      pro<lb ed="#B" n="86" break="no"/>mulgationem &amp;c. quia circumcisi ante 
+      <lb ed="#B" n="87"/>promulgationem per circumcisionis 
+      sa<lb ed="#B" n="88" break="no"/>cramentum sine baptismate saluabantur: 
+      <lb ed="#B" n="89"/>ut sup. dictum est dist. j. quaest. iiij. Non 
+      <lb ed="#B" n="90"/>autem circumcisi baptixati Ioannis 
+      ba<lb ed="#B" n="91" break="no"/>ptismate fuere deterioris conditionis 
+      <lb ed="#B" n="92"/>non baptixatis: ergo saluari poterant 
+      si<lb ed="#B" n="93" break="no"/>ne baptismo Christi, sicut caeteri. Hac 
+      <lb ed="#B" n="94"/>declaratione praemissa, probatur 
+      conclu<lb ed="#B" n="95" break="no"/>sio auctoritate beati August. super 
+      Ioan<lb ed="#B" n="96" break="no"/>Homil. v. de consecr. dist. iiij. Aliud est. 
+      <lb ed="#B" n="97"/>Si quos baptixauit Ioannes, iterum sunt  
+      <lb ed="#B" n="98"/>baptixati: plane iterum: sed non iterato 
+      <lb ed="#B" n="99"/>baptismo, quos enim Iudas baptixauit: 
+      <lb ed="#B" n="100"/>baptixauit etiam Christus: quos autem 
+      <lb ed="#B" n="101"/>baptixauit Ioannes, baptitauit 
+      Ioan<lb ed="#B" n="102" break="no"/>nes quali diceret: non Christus. Idem de 
+      <!--113.xml-->
+      <pb ed="#B" n="62"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>baptismo contra donatistas. Tali 
+      baptis<lb ed="#B" n="2" break="no"/>mo christus mundatecclesiam, quo 
+      acce<lb ed="#B" n="3" break="no"/>pto non erat alterum necessarium. 
+      Ioan<lb ed="#B" n="4" break="no"/>nes autem talibaptismo praecingebat: quo 
+      <lb ed="#B" n="5"/>accepto esset etiam baptisma dominicum 
+      <lb ed="#B" n="6"/>necessarium. Item idem: Baptixauit Iudas, 
+      <lb ed="#B" n="7"/>&amp; est baptixatum: baptixauit ioannnes, &amp; 
+      <lb ed="#B" n="8"/>non est baptixatum. Et in enche. c. xlviij 
+      <lb ed="#B" n="9"/>Non renascebantur, qui baptismate 
+      ioan<lb ed="#B" n="10" break="no"/>nis baptixabantur, a quo &amp; christus ipse 
+      <lb ed="#B" n="11"/>baptixatus est: sed quosdam praecursoris 
+      <lb ed="#B" n="12"/>illius ministerio, qui dicebat: parate uia 
+      <lb ed="#B" n="13"/>domino. Huic uno, in quosolo renasc 
+      <lb ed="#B" n="14"/>poterant: parabatur. Huius enim 
+      baptis<lb ed="#B" n="15" break="no"/>ma est, non in aqua tamen, sicut fuitioanis 
+      <lb ed="#B" n="16"/>sed in spiritusancto: ut de illo 
+      spiritusan<lb ed="#B" n="17" break="no"/>cto regeneretur, quisquis in christum 
+      cre<lb ed="#B" n="18" break="no"/>dit: de quo christus generatus regenera 
+      <lb ed="#B" n="19"/>tione non eguit.
+    </p>
+            <p xml:id="gbs333-v14045-d1e991">
+      ¶ Probatur etiam 
+      ra<lb ed="#B" n="20" break="no"/>tione. In nouo testamento baptismus est 
+      <lb ed="#B" n="21"/>de necessitate salutis: ille (inquam) 
+      qui<lb ed="#B" n="22" break="no"/>sit in aqua, &amp; spunsancto, secundum illud 
+      <lb ed="#B" n="23"/>Io. iij. Nisi quis renatus fuerit exaqua, 
+      <lb ed="#B" n="24"/>&amp; spiritusancto: non potest introire in 
+      <lb ed="#B" n="25"/>regnum dei. sed talis baptisms non fuit 
+      <lb ed="#B" n="26"/>ioannis baptismus: sed solus baptismus 
+      <lb ed="#B" n="27"/>christi: ergo de necessitate. salutis fuit 
+      <lb ed="#B" n="28"/>baptixari baptismo christi. 
+      Consequen<lb ed="#B" n="29" break="no"/>tia nota cum maiori. Minor patet ex 
+      <lb ed="#B" n="30"/>allegationibus adductis. Item baptismus 
+      <lb ed="#B" n="31"/>ioannis non fuit baptismus: quia 
+      defe<lb ed="#B" n="32" break="no"/>cit forma, quae est essentialis 
+      sacra<lb ed="#B" n="33" break="no"/>mento: quia ideo non praestabat 
+      gra<lb ed="#B" n="34" break="no"/>tiam ex opere operato: &amp; per conse- 
+      <lb ed="#B" n="35"/>quens non suffecit ut sacramentum ad 
+      <lb ed="#B" n="36"/>salutem. Item baptiratus baptismate 
+      <lb ed="#B" n="37"/>ioannis: &amp; non habens fidem 
+      trinita<lb ed="#B" n="38" break="no"/>tis tenebatur baptixari baptismo 
+      chri<lb ed="#B" n="39" break="no"/>sti: ergo etiam hi, qui habuerunt fidem 
+      tri<lb ed="#B" n="40" break="no"/>nitatis, &amp; spem. Tenet consequentia: quia 
+      <lb ed="#B" n="41"/>fides, &amp; spes suscipientis sacramentum 
+      <lb ed="#B" n="42"/>nihil faciunt ad sacramentum: licet 
+      pos<lb ed="#B" n="43" break="no"/>sint facere ad rem sacramenti 
+      percipien<lb ed="#B" n="44" break="no"/>dam. Nam sacramenta gratiam conferunt 
+      <lb ed="#B" n="45"/>non ex fide recipientis: sed ut dictum est 
+      <lb ed="#B" n="46"/>ex opere operato. Vnde infidelitas 
+      su<lb ed="#B" n="47" break="no"/>scipientis baptisma, non est causa suscipiens. 
+      <lb ed="#B" n="48"/>propter quam oporteat eum alias bapti 
+      <lb ed="#B" n="49"/>tari, dum tamen intendit suscipere, quod 
+      <lb ed="#B" n="50"/>ecclesia intendit conferre: ideo si 
+      susci<lb ed="#B" n="51" break="no"/>piens baptismum ioannis, sine fidae, te¬ 
+      <!--113.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nebatur iterum baptixari: hocfuit ex 
+      defe<lb ed="#B" n="53" break="no"/>ctu baptismatis: quia non erat sacim, &amp; 
+      <lb ed="#B" n="54"/>baptismus sacramentum necessarius est 
+      <lb ed="#B" n="55"/>ad salutem. Nec fides addita fecit de non 
+      <lb ed="#B" n="56"/>sacramento sacramentum: sicut si quis 
+      ha<lb ed="#B" n="57" break="no"/>bens fidem trinitatis modo baptixaretur 
+      <lb ed="#B" n="58"/>non in forma christi, non esset baptixa 
+      <lb ed="#B" n="59"/>tus.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1085">
+      ¶ Praeterea arguitur ad conclusionem 
+      <lb ed="#B" n="60"/>scunm Sco. &amp; Richar. generale praeceptum 
+      <lb ed="#B" n="61"/>christi de baptixando obligant omnes ad 
+      <lb ed="#B" n="62"/>hoc: ut essent membra ecclesiae ad 
+      susci<lb ed="#B" n="63" break="no"/>piendum signum concomnibus 
+      ingredienti<lb ed="#B" n="64" break="no"/>bus ecclesiam. Hoc autem non pstabat 
+      baptis<lb ed="#B" n="65" break="no"/>mus Ioannis: ut dicetur infra de 
+      chara<lb ed="#B" n="66" break="no"/>ctere. Denique medicina praeparatiua 
+      su<lb ed="#B" n="67" break="no"/>scepta congrum fuit recipere medicinam 
+      <lb ed="#B" n="68"/>curatiuam: sicut inducta dispositione ad 
+      <lb ed="#B" n="69"/>formam principalem, forma principalis 
+      <lb ed="#B" n="70"/>inducenda est: sed baptismus Ioannis erat 
+      <lb ed="#B" n="71"/>medicina praeparatiua, &amp; dispositio 
+      prae<lb ed="#B" n="72" break="no"/>uia ad baptismum christi: sicut ipse ait 
+      <lb ed="#B" n="73"/>Io. j. Ego uos baptixo in aqua. Itamen: 
+      me<lb ed="#B" n="74" break="no"/>dius uestrum stetit, quem uos nescitis. Et se 
+      <lb ed="#B" n="75"/>quitur. Hic est, qui baptixat in spunscto: 
+      <lb ed="#B" n="76"/>ergo baptismum Ioannis sequi debet 
+      ba<lb ed="#B" n="77" break="no"/>ptismus christi, ad quem disponebat. Item 
+      <lb ed="#B" n="78"/>Act. xix. clare habetur: quod baptixatos 
+      ba<lb ed="#B" n="79" break="no"/>ptismate Ioannis, Paulus fecit 
+      bapti<lb ed="#B" n="80" break="no"/>xari baptismo christi: &amp; de hinc 
+      impo<lb ed="#B" n="81" break="no"/>suit eis manus &amp;c.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1135">
+      ¶ Restat nunc 
+      sol<lb ed="#B" n="82" break="no"/>uere rationes pro opinione magistri ad 
+      <lb ed="#B" n="83"/>ductas. Ad primam dicitur: quod 
+      bapti<lb ed="#B" n="84" break="no"/>xatia Philippo, baptixati sunt baptismo 
+      <lb ed="#B" n="85"/>christi: &amp; ideo non fuerunt 
+      rebaptixan<lb ed="#B" n="86" break="no"/>di, in quo baptismate dabatur 
+      spiritul<lb ed="#B" n="87" break="no"/>sanctus ad peceatorum remissionem, non 
+      <lb ed="#B" n="88"/>autem ad robur, quod est sacramenti 
+      <lb ed="#B" n="89"/>confirmationis: quod dabatur tamen 
+      per<lb ed="#B" n="90" break="no"/>apostolos, qui fuerunt episcopi. 
+      Philip<lb ed="#B" n="91" break="no"/>pus aut fuit unus de septem diaconis: qu 
+      <lb ed="#B" n="92"/>non habuit officium confirmandi: quod  
+      <lb ed="#B" n="93"/>tantum episcoporum est. Quod uero dicitumr: 
+      <lb ed="#B" n="94"/>quod nondum in quemquam eorum uenerat 
+      spuns<lb ed="#B" n="95" break="no"/>sctuns: intelligedum est in signo uisibili ad 
+      <lb ed="#B" n="96"/>robur: quamuis ueneratinuisibiliter, sicut  
+      <lb ed="#B" n="97"/>&amp; nunc in baptismate: &amp; io missi sunt 
+      <lb ed="#B" n="98"/>Petrus, &amp; Ioannes, ut manus 
+      imponen<lb ed="#B" n="99" break="no"/>do confirmarent: &amp; sic acciperent 
+      spi<lb ed="#B" n="100" break="no"/>ritum sanctum uisibiliter in dono 
+      lin<lb ed="#B" n="101" break="no"/>guarum: sic enim in primitiua ecclesia, 
+      <lb ed="#B" n="102"/>quibus apostolimanus imponebant, in 
+      <!--114.xml-->
+      <pb ed="#B" n="63"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>signum receptionis spiritussancti loque 
+      <lb ed="#B" n="2"/>bantur linguis sicut apostoli.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1194">
+      ¶ Ad 
+      secun<lb ed="#B" n="3" break="no"/>dum dicitur: quequid sit de originali, un 
+      <lb ed="#B" n="4"/>de illa uerba sumpta leguntur: saltem ex 
+      <lb ed="#B" n="5"/>gloilice ordi. illa mens sumi non potest: sed 
+      tan<lb ed="#B" n="6" break="no"/>tundem, quod baptixati in nomine uenturi, 
+      <lb ed="#B" n="7"/>&amp; hoc baptismo (oannis: debebant de 
+      <lb ed="#B" n="8"/>hinc uerum baptisma recipere: quia non 
+      <lb ed="#B" n="9"/>erant baptixati in spiritulancto, seu 
+      mi<lb ed="#B" n="10" break="no"/>sterio trinitatis: &amp; hoc uerum est. Et  
+      <lb ed="#B" n="11"/>idem praecise uult Augustin. in epistola 
+      <lb ed="#B" n="12"/>xIviij. contia Vincentium donatistam 
+      iux<lb ed="#B" n="13" break="no"/>ta finem cum docet baptixatum ab 
+      haereti<lb ed="#B" n="14" break="no"/>co non fore rebaptivandum: sed 
+      baptira<lb ed="#B" n="15" break="no"/>tum baptismo ioannis fuisset iterum a 
+      <lb ed="#B" n="16"/>Paulo baptixandum, rationemannectit, quia 
+      <lb ed="#B" n="17"/>baptixatus baptismo christi: licet ab 
+      hae<lb ed="#B" n="18" break="no"/>retico baptixatus est baptismo christi: 
+      <lb ed="#B" n="19"/>sed baptixatus baptismo ioannis non ex 
+      <lb ed="#B" n="20"/>baptixatus baptismo christi; ergo uenit 
+      <lb ed="#B" n="21"/>iterum, &amp; uere baptixandus: sed non 
+      ite<lb ed="#B" n="22" break="no"/>rato. Attamen admissis uerbis beati 
+      <lb ed="#B" n="23"/>Hiero. super sohel. ij. conceditur: quod  
+      <lb ed="#B" n="24"/>baptixati baptismo Ioannis non 
+      haben<lb ed="#B" n="25" break="no"/>tes fidem trinitatis, baptixandi erant.  
+      <lb ed="#B" n="26"/>Sed non sequitur a contrario sensu, quod 
+      <lb ed="#B" n="27"/>habentes fidem, &amp; baptixati baptismo 
+      ioan<lb ed="#B" n="28" break="no"/>nis non sunt iterum baptixandi: quoniam 
+      <lb ed="#B" n="29"/>consequentia a contrario sensu non tenet 
+      ni<lb ed="#B" n="30" break="no"/>si in causis praecisis: modo non sola 
+      infi<lb ed="#B" n="31" break="no"/>delitas fuit causa rebaptixandi: sed 
+      ma<lb ed="#B" n="32" break="no"/>gis quia baptismus ioanis non fuit uerus 
+      <lb ed="#B" n="33"/>baptismus. Vel (ut dicit Tho.) beatus 
+      <lb ed="#B" n="34"/>Hiero. in uerbis suis non intendit 
+      assi<lb ed="#B" n="35" break="no"/>gnare causam iterum baptixandi: sed  
+      <lb ed="#B" n="36"/>sufficientiam fidei requisitae ad salutem. 
+      <lb ed="#B" n="37"/>Vnde ait. Qui dicit se credere in 
+      chri<lb ed="#B" n="38" break="no"/>stum, &amp; non credit in spiritum sanctum, 
+      nondum<lb ed="#B" n="39" break="no"/>habet claros oculos: ut allegat magister 
+      <lb ed="#B" n="40"/>in textu.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1280">
+      ¶ Ad tertium dicitur, quod aposte 
+      <lb ed="#B" n="41"/>li baptixati sunt: licet non legatur quando &amp; 
+      <lb ed="#B" n="42"/>ubi: ut dicit glos. Io. xiij. superillud. 
+      Qui<lb ed="#B" n="43" break="no"/>lotus est, non indiget &amp;c. Non tamen dicit 
+      <lb ed="#B" n="44"/>gloilice quod sint a christo baptixati, sed quia 
+      <lb ed="#B" n="45"/>ipsialios baptixabant, uthabet. Ioa. iiij. 
+      <lb ed="#B" n="46"/>Non est uerisimile, quod ipsi non primum 
+      <lb ed="#B" n="47"/>fuissent baptixati eo baptismo, quo 
+      ip<lb ed="#B" n="48" break="no"/>si baptixauerunt idest baptismo 
+      chri<lb ed="#B" n="49" break="no"/>sti: prius enim exemplo sui magistri 
+      ce<lb ed="#B" n="50" break="no"/>perunt facere, &amp; sic docere. Multa. n. 
+      <lb ed="#B" n="51"/>facta sunt, quae scripta non sunt. Io. xx. 
+      <!--114.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>&amp; ulti. Hinc ait glol. super illud Io. iiij. 
+      <lb ed="#B" n="53"/>cum dicitur. Iesus plures discipulos facit, 
+      <lb ed="#B" n="54"/>&amp; baptixat, quam ioanmes. Super uer ba 
+      <lb ed="#B" n="55"/>baptixat, dicit gloil. per apostolos suo 
+      <lb ed="#B" n="56"/>baptismo: non eo, quo baptixatus est. 
+      <lb ed="#B" n="57"/>Illud enim subiit, ut esset uia, &amp; 
+      praepa<lb ed="#B" n="58" break="no"/>ratio suo baptismo. Et quod per aposto 
+      <lb ed="#B" n="59"/>los tunc bapticauerit: licet prius (cap. 
+      <lb ed="#B" n="60"/>iij.)per se baptixauerit, sumi potest ex 
+      <lb ed="#B" n="61"/>cap. iiij. cum subiungitur. quam quam 
+      <lb ed="#B" n="62"/>lesus non baptixaret: sed discipuli eius. 
+      <lb ed="#B" n="63"/>Hoc enim uerum est, quod tunc non 
+      <lb ed="#B" n="64"/>baptixauit per se: sed per apostolos: ut 
+      al<lb ed="#B" n="65" break="no"/>tioribus intendere posset: &amp; sic nulla est 
+      <lb ed="#B" n="66"/>contradictio in uerbis christi. cum. (lo. 
+      <lb ed="#B" n="67"/>iij.) dicitur baptixasse: (lo. iiij.)non 
+      ba<lb ed="#B" n="68" break="no"/>ptixasse. Pacit pro illo epistola. cuiij. 
+      <lb ed="#B" n="69"/>beati Augu. ad Silentianum: &amp; habetur 
+      <lb ed="#B" n="70"/>de conse. distinct. iiij. quando ab 
+      Hie<lb ed="#B" n="71" break="no"/>rosolymis. ubi habetur discipulos tunc 
+      <lb ed="#B" n="72"/>fuisse baptixatos: quando iuit in terram 
+      <lb ed="#B" n="73"/>iudeam, &amp; illic morabatur. Io. iij. &amp; quod 
+      <lb ed="#B" n="74"/>magis credibile est: baptismo christi 
+      ui<lb ed="#B" n="75" break="no"/>de epistolam, &amp; similiter Iyram Ioan. 
+      <lb ed="#B" n="76"/>iiij. Item epistolam ad Vincentium non 
+      <lb ed="#B" n="77"/>longe a fine. est episto. xlviij.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1367">
+      ¶ Ad quar 
+      <lb ed="#B" n="78"/>tum dicitur: quod 
+      baptixatibaptisnosioan<lb ed="#B" n="79" break="no"/>nis non habebant quicquid requiritur 
+      <lb ed="#B" n="80"/>ad salutem: quia non habebant regumn rationem 
+      <lb ed="#B" n="81"/>ex aqua, &amp; spum: baptismus. nmioannis non 
+      <lb ed="#B" n="82"/>regenerabat: non enim fuit sacramentum 
+      <lb ed="#B" n="83"/>defecit. nforma: nec dabat spaen sanctum: 
+      <lb ed="#B" n="84"/>ut dictum est, nec impressit characterem: 
+      <lb ed="#B" n="85"/>nec apostolimanus imponebant 
+      bapti<lb ed="#B" n="86" break="no"/>xatis tantum baptismoioannis, sed 
+      ba<lb ed="#B" n="87" break="no"/>ptixatis baptismo christi.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1391">
+      ¶ Ad quintum 
+      <lb ed="#B" n="88"/>dicitur: quod uerum est, quando aliquid 
+      sacramen<lb ed="#B" n="89" break="no"/>ti confert. In baptismo autem ioannis nihil 
+      <lb ed="#B" n="90"/>sacramenti conferebatur. Ablutio enim 
+      <lb ed="#B" n="91"/>exterior sine determinata forma nihil 
+      <lb ed="#B" n="92"/>est sacramenti: sed quando ablutio cum debita 
+      <lb ed="#B" n="93"/>forma, &amp; ablutione simul, &amp; intentioe 
+      <lb ed="#B" n="94"/>concurrunt, faciunt sacramentum, &amp; tunc 
+      <lb ed="#B" n="95"/>quodlibet horum est aliquid facramenti, 
+      <lb ed="#B" n="96"/>&amp; non quando alterum deficit. Illa autem 
+      maxi<lb ed="#B" n="97" break="no"/>ma, quod omissum est, est caute 
+      supplen<lb ed="#B" n="98" break="no"/>dum, non habet ueritatem in uno sacra 
+      <lb ed="#B" n="99"/>mento, si omittitur aliquid substantiale 
+      <lb ed="#B" n="100"/>sacramento, tunc. no.e non est sacramentum. 
+      <lb ed="#B" n="101"/>Sed ueritatem habet de diuersis sacramen 
+      <lb ed="#B" n="102"/>tis ordinatis adinuice, sicut in ordini¬ 
+      <!--115.xml-->
+      <pb ed="#B" n="64"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>bus sacris: si quis per saltum promoue 
+      <lb ed="#B" n="2"/>tur: puta ad sacerdotium omisso ordine 
+      <lb ed="#B" n="3"/>diaconatus, non est iterandus ordo 
+      sa<lb ed="#B" n="4" break="no"/>cerdotalis: sed accipiendus est ordo 
+      dia<lb ed="#B" n="5" break="no"/>conatus, etiam post sacerdotium, &amp; in 
+      il<lb ed="#B" n="6" break="no"/>lo casu loquuntur canones allegati. Vel 
+      <lb ed="#B" n="7"/>si in uno sacramento una pars posset 
+      es<lb ed="#B" n="8" break="no"/>se sacramentum sine alia: ut in 
+      euchari<lb ed="#B" n="9" break="no"/>stia species panis possent esse 
+      sacramen<lb ed="#B" n="10" break="no"/>tum sine speciebus uini, &amp; econuerso. 
+      <lb ed="#B" n="11"/>Ibi si panis non consecretur, sed uinum: 
+      <lb ed="#B" n="12"/>non esset iterandauini consecratio: sed  
+      <lb ed="#B" n="13"/>supplenda consecratio panis: non sic in 
+      <lb ed="#B" n="14"/>pposito, si hodie fieret ablutio in aqua: 
+      <lb ed="#B" n="15"/>cras proferretur forma: non esset 
+      sacra<lb ed="#B" n="16" break="no"/>mentum.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1467">
+      ¶ Ad sextum negetur: quod in 
+      <lb ed="#B" n="17"/>baptismo Ioannis fuit debita forma: nam 
+      <lb ed="#B" n="18"/>necesse est in forma implicari trinitatem, 
+      <lb ed="#B" n="19"/>quam non importabat nomen uenturi (
+      si<lb ed="#B" n="20" break="no"/>saltem Ioannes usus est forma) ideo non 
+      <lb ed="#B" n="21"/>in formachristi: discipuliautem baptixam 
+      <lb ed="#B" n="22"/>tes in nomine christi, in hoc nomine 
+      <lb ed="#B" n="23"/>implicabant trinitatem: quia qui dicit 
+      <lb ed="#B" n="24"/>christus, dicit eum, qui unctus est id est filium: 
+      <lb ed="#B" n="25"/>&amp; eum, quiunxit id est patrem: &amp; eum, quo 
+      <lb ed="#B" n="26"/>unctus id est spiritumsanctum: de quo 
+      ma<lb ed="#B" n="27" break="no"/>gis infra. Vnde licet idem sit christus, &amp; quod 
+      <lb ed="#B" n="28"/>tuc uenturus erat: non tamen est eadem forma 
+      ba<lb ed="#B" n="29" break="no"/>ptixare in nomine uenturi, &amp; in nomine 
+      <lb ed="#B" n="30"/>christi.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1500">
+      ¶ Quantum ad articulum tertium 
+      <lb ed="#B" n="31"/>est dubium primum. Cur, uel ad quid fuit 
+      <lb ed="#B" n="32"/>institutus baptismus Ioannis: cum non 
+      <lb ed="#B" n="33"/>contulit gratiam: nec fuit proprie sacra 
+      <lb ed="#B" n="34"/>mentum: nec absoluebat baptixatum a 
+      <lb ed="#B" n="35"/>praeceptobaptixandi. Respondetur, quod 
+      <lb ed="#B" n="36"/>non inutilis fuit baptismus Ioannis: 
+      li<lb ed="#B" n="37" break="no"/>cet praedicta non contulerit. Ponunt 
+      <lb ed="#B" n="38"/>autem doctores plures rationes, quarum 
+      <lb ed="#B" n="39"/>tres sunt principales. Prima est ad 
+      sigu<lb ed="#B" n="40" break="no"/>randum baptisma Christi: propter quod 
+      <lb ed="#B" n="41"/>dici potest sacramentum large: quia 
+      sa<lb ed="#B" n="42" break="no"/>craerei scilicet baptismi Christi signum. 
+      Se<lb ed="#B" n="43" break="no"/>cunda, ad praeparandum populum ad 
+      chri<lb ed="#B" n="44" break="no"/>sti baptismum: nam suo baptismo assue 
+      <lb ed="#B" n="45"/>fecit populum, ut non horreret Christi 
+      <lb ed="#B" n="46"/>baptismum. Vnde super illud Matt. iij. 
+      <lb ed="#B" n="47"/>Ego baptixo uos aqua (ait glos) quia 
+      <lb ed="#B" n="48"/>soluere peccata nequeo: ut sicut christum 
+      <lb ed="#B" n="49"/>nascendo, &amp; praedicando praecurro: sic 
+      <lb ed="#B" n="50"/>baptitando ad baptismum Christi 
+      diri<lb ed="#B" n="51" break="no"/>go. Et sic potest dici sacramentale: quia 
+      <!--115.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>praeparans ad baptismum christi, qui est 
+      <lb ed="#B" n="53"/>facramentum. Tertia ad manifestandum 
+      <lb ed="#B" n="54"/>Christum: &amp; sacramenti baptismi mate 
+      <lb ed="#B" n="55"/>riam consecrandam. Vnde Ioann. i. Vt 
+      <lb ed="#B" n="56"/>manifestetur in Israel: propterea ego 
+      <lb ed="#B" n="57"/>ueni in aqua baptixans. Vnde cum 
+      ba<lb ed="#B" n="58" break="no"/>ptixaret Christum, aperti sunt caeli, &amp; 
+      <lb ed="#B" n="59"/>uisus est spiritussanctus descendere in 
+      <lb ed="#B" n="60"/>specie colubae: &amp; uox testificantis patris 
+      <lb ed="#B" n="61"/>audita est. Hic est filius meus dilectus. 
+      <lb ed="#B" n="62"/>In hoc etiam baptismo christus 
+      conta<lb ed="#B" n="63" break="no"/>ctu suae mundissimae carnis, uim regene 
+      <lb ed="#B" n="64"/>ratiuam contulerat aquis secundum Bed. 
+      <lb ed="#B" n="65"/>id est aquam ordinauit, ut esset 
+      mate<lb ed="#B" n="66" break="no"/>ria sacramenti regenerationis. Et 
+      per<lb ed="#B" n="67" break="no"/>hoc dicitur fuisse initium nouaelegis, &amp; 
+      <lb ed="#B" n="68"/>finis ueteris, &amp; medium inter utramque. 
+      <lb ed="#B" n="69"/>Haec Bonauent. Addit Alexand. 
+      quar<lb ed="#B" n="70" break="no"/>tam. ut reuocarentur iudaei a 
+      circumci<lb ed="#B" n="71" break="no"/>sione. Et sic dici posset baptismus 
+      Ioan<lb ed="#B" n="72" break="no"/>nis finis ueteris testamenti secundum 
+      il<lb ed="#B" n="73" break="no"/>sud Mat. xi. Lex, &amp; prophetae usque ad 
+      ioan<lb ed="#B" n="74" break="no"/>nem.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1602">
+      ¶ Secundo dubitatur: quare 
+      ba<lb ed="#B" n="75" break="no"/>ptismus Christi magis habuit antecedens 
+      <lb ed="#B" n="76"/>praeparatorium, quam circumcisio: cum 
+      <lb ed="#B" n="77"/>utrumque; fuit institutum contra eundem 
+      <lb ed="#B" n="78"/>morbum scilicet contra originale peccatum. 
+      <lb ed="#B" n="79"/>Et quare magis baptismus, quam aliud 
+      no<lb ed="#B" n="80" break="no"/>uae legis sacramentum. Respondet Alex 
+      <lb ed="#B" n="81"/>par. iiij. q. ix. membro j. Ad primum 
+      <lb ed="#B" n="82"/>Perfecte obedientibus non est 
+      necessa<lb ed="#B" n="83" break="no"/>rium praeparatorium: sed minus 
+      perfe<lb ed="#B" n="84" break="no"/>ctis, &amp; ad obedientiam dutis. Circum 
+      <lb ed="#B" n="85"/>cisio autem data est Abraae, qui fuit 
+      cre<lb ed="#B" n="86" break="no"/>dulus uerbis dei, &amp; obedientissimus: 
+      po<lb ed="#B" n="87" break="no"/>pulus uero Israel, cuiprimo a christo 
+      <lb ed="#B" n="88"/>dandus erat baptismus: fuerat durae 
+      cer<lb ed="#B" n="89" break="no"/>uicis, &amp; semper rebellis deo: ideo 
+      indi<lb ed="#B" n="90" break="no"/>guit praeparatorio: non autem Abraam. 
+    </p>
+            <p xml:id="gbs333-v14045-d1e1640">
+               <lb ed="#B" n="91"/>¶ Ad secundum respondet. Tiliorum est 
+      <lb ed="#B" n="92"/>acquiescere praeceptis: ac doctrinae 
+      pa<lb ed="#B" n="93" break="no"/>tris. Antequa autem sint filij 
+      necessa<lb ed="#B" n="94" break="no"/>ria est quedam praeparatio, ut fiant filij: 
+      <lb ed="#B" n="95"/>&amp; acquiescant doctrinae, &amp; praeceptis 
+      pa<lb ed="#B" n="96" break="no"/>tris. Nunc autem per baptisma (quod  
+      <lb ed="#B" n="97"/>est ianua sacramentorum) ex filijs irae 
+      <lb ed="#B" n="98"/>efficiuntur filii dei. Ideo illud facramen 
+      <lb ed="#B" n="99"/>tum indiget praecedenti praeparatorio:  
+      <lb ed="#B" n="100"/>sed iam filii dei facti per baptismum non 
+      <lb ed="#B" n="101"/>indigent praeparatorio ad caeterorum 
+      sa<lb ed="#B" n="102" break="no"/>cramentorum participationem.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1669">
+      ¶ Du¬ 
+      <!--116.xml-->
+      <pb ed="#B" n="65"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>bitat tertio de subjecto huius baptismi, 
+      <lb ed="#B" n="2"/>quibus conueniebat baptismus Ioannis. 
+      <lb ed="#B" n="3"/>Respondetur: quod christo conueniebat sit 
+      <lb ed="#B" n="4"/>baptixari, &amp; uirorum multitudini: sed 
+      di<lb ed="#B" n="5" break="no"/>uersa, non una ratione: christo: ut 
+      humili<lb ed="#B" n="6" break="no"/>tatem impleret: ut baptismum Ioannis 
+      ap<lb ed="#B" n="7" break="no"/>probaret: ut aquam sanctificaret: ut ipse 
+      <lb ed="#B" n="8"/>innotesceret. &amp; prpter alias causas quas 
+      <lb ed="#B" n="9"/>glol. Alex. &amp; Pe. de palu. &amp; Thom. latius 
+      <lb ed="#B" n="10"/>prosequuntur. Populus autem Iudaeorum 
+      <lb ed="#B" n="11"/>ut adpoenitentiam, quam Ioannes 
+      prae<lb ed="#B" n="12" break="no"/>dicabat: baptixando instrueretur, &amp; 
+      in<lb ed="#B" n="13" break="no"/>citaretur: ideo baptismus poenitentiae prae 
+      <lb ed="#B" n="14"/>dicabatur: ut ad baptismum christi 
+      prae<lb ed="#B" n="15" break="no"/>pararetur: ut dictum est, uta circuncisio 
+      <lb ed="#B" n="16"/>ne auocaretur: propter hoc non 
+      conue<lb ed="#B" n="17" break="no"/>mebat pueris qui poenitentiae incapaces 
+      <lb ed="#B" n="18"/>sunt: nec ad christi baptismum 
+      praepara<lb ed="#B" n="19" break="no"/>ripoterant: cum rationis usum non 
+      habe<lb ed="#B" n="20" break="no"/>rent.
+    </p>
+            <p xml:id="gbs333-v14045-d1e1721">
+      ¶ Sed quid de mulleribus, an baptixa 
+      <lb ed="#B" n="21"/>tae sint baptismo Ioannis. Opinatur Ale 
+      <lb ed="#B" n="22"/>xan. quod non. Tum propter honestatem: 
+      ne<lb ed="#B" n="23" break="no"/>in cocursu tantae multitudinis uirorum 
+      <lb ed="#B" n="24"/>ad baptismum Ioannis concurrentium 
+      <lb ed="#B" n="25"/>nudarentur. Tum quia non fuit opus 
+      <lb ed="#B" n="26"/>eas reuocari a circumcisione, quam no ac 
+      <lb ed="#B" n="27"/>ceperant. Tum quia satis per baptisma 
+      ui<lb ed="#B" n="28" break="no"/>rorum inclinari poterant: &amp; sic 
+      praeparari<lb ed="#B" n="29" break="no"/>ad baptismum christi, quo uniuersaliter 
+      <lb ed="#B" n="30"/>omnes erant baptixandi. Et tantum de 
+      <lb ed="#B" n="31"/>quaestione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 17</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 17</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="473"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v115908"><!-- l4-d15q17 -->
+            <head xml:id="gbs333-v115908-Hd1e101">Quaestio 17</head>
+            <head xml:id="gbs333-v115908-Hd1e103" type="question-title">
+      utrum 
+      damnificans proximum in spiritualibus 
+      bonis teneatur ad eorundem restitutionem 
+      damnificatis
+    </head>
+            <p xml:id="gbs333-v115908-d1e106">
+      <!--522.xml-->
+               <pb ed="#B" n="473"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>¶ De restitutione bonorum spiritualium. 
+      <lb ed="#B" n="2"/>QVAESTIO RVII 
+      <lb ed="#B" n="3"/>QVAERIIVR 
+      decimosepti<lb ed="#B" n="4" break="no"/>mo, &amp; ultimo circa hanc 
+      di<lb ed="#B" n="5" break="no"/>stinctionem, de restitutione. 
+      <lb ed="#B" n="6"/>in bonis spiritualibus: utrum 
+      <lb ed="#B" n="7"/>danificans proximum in spiritualibus 
+      bo<lb ed="#B" n="8" break="no"/>nis teneatur ad eorundem restitutionem dam 
+      <lb ed="#B" n="9"/>nificatis.
+    </p>
+            <p xml:id="gbs333-v115908-d1e135">
+      ¶ In tribus articulis stabit 
+      solu<lb ed="#B" n="10" break="no"/>tio questionis. In declarationibus 
+      termi<lb ed="#B" n="11" break="no"/>noru: subiunctione conclusionum: &amp; 
+      solu<lb ed="#B" n="12" break="no"/>tionibus dubiorum.
+    </p>
+            <p xml:id="gbs333-v115908-d1e144">
+      ¶ Quantum ad primum 
+      <lb ed="#B" n="13"/>nota: quod per bona spiritualia intelligunt  
+      <lb ed="#B" n="14"/>bona animae, quae animae conueniunt 
+      secun<lb ed="#B" n="15" break="no"/>dum se id est non ut unita corpori: quoniam de 
+      <lb ed="#B" n="16"/>bonis, quae conueniunt animae ex corpore 
+      <lb ed="#B" n="17"/>dicendum sicut de bonis corporis. In his 
+      <lb ed="#B" n="18"/>no. anima laedi non potest: nisi laedat corpus: 
+      <lb ed="#B" n="19"/>talia bona sunt perspicacitas sensuum, quae 
+      <lb ed="#B" n="20"/>non potest saedi: nisi organum sensus corporeum 
+      <lb ed="#B" n="21"/>laedatur. Non n.e potest uisus hominis 
+      <lb ed="#B" n="22"/>laedi: nisi laedatur oculus, aut alia pars cor 
+      <lb ed="#B" n="23"/>poris ad uidendum requisita. Et de hoc  
+      <lb ed="#B" n="24"/>dicendum sicut de restitutione bonorum 
+      <lb ed="#B" n="25"/>corporis q. xiiij. huius dist. dictum est.
+    </p>
+            <p xml:id="gbs333-v115908-d1e176">
+      ¶ Sunt 
+      <lb ed="#B" n="26"/>autem bona animae, de quibus hic tractam 
+      <lb ed="#B" n="27"/>dum, duplicia. Quaedam sunt essentialia 
+      <lb ed="#B" n="28"/>animae, quam ab anima separari non possunt: 
+      <lb ed="#B" n="29"/>ut sunt potentiae aniiae, &amp; uires 
+      natura<lb ed="#B" n="30" break="no"/>les: scilicet intellectus, memoria, uoluntas 
+      li<lb ed="#B" n="31" break="no"/>arb. haec nione quia uel identificant aiae: aut  
+      <lb ed="#B" n="32"/>inseparabiliter inhaerent: sunt incorrupti 
+      <lb ed="#B" n="33"/>bilia. sed anima est incorruptibilis, &amp; pe 
+      <lb ed="#B" n="34"/>consequens non potest a nobis laedi, ut 
+      cor<lb ed="#B" n="35" break="no"/>rumpatur: seu ut bona animae corrumpantur: 
+      <lb ed="#B" n="36"/>possunt tamen per accidens bona animae 
+      <lb ed="#B" n="37"/>impediri: ut non ualeant exire in actus 
+      <lb ed="#B" n="38"/>&amp; operationes suas. Cum. n. 
+      operatio<lb ed="#B" n="39" break="no"/>intellectualis pro statu uiae dependeat ex 
+      <lb ed="#B" n="40"/>operationibus sensus: &amp; operatio 
+      sensi<lb ed="#B" n="41" break="no"/>tiua ex dispositione organorum: 
+      laesio<lb ed="#B" n="42" break="no"/>organorum redundat mediate in 
+      poten<lb ed="#B" n="43" break="no"/>tias animae quantum ad usum earum etiam 
+      <lb ed="#B" n="44"/>in parte rationali: de hoc dicendum: ut  
+      <lb ed="#B" n="45"/>supra dictum est de laesione corporis. 
+    </p>
+            <p xml:id="gbs333-v115908-d1e222">
+               <lb ed="#B" n="46"/>¶ Alia sunt bona animae accidentalia: &amp; 
+      <lb ed="#B" n="47"/>sunt operationes, &amp; habitus in 
+      poten<lb ed="#B" n="48" break="no"/>tiis animae acquisiti tam intellectuales, 
+      <lb ed="#B" n="49"/>quam morales. Sunt &amp; dona gratiae a 
+      <!--522.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>deo infusa: haec enim adsunt, &amp; absunt 
+      <lb ed="#B" n="51"/>animae. Item acquiruntur, &amp; 
+      corrum<lb ed="#B" n="52" break="no"/>puntur: &amp; quia anima in se 
+      incorrupti<lb ed="#B" n="53" break="no"/>bilis est, creata ad possidendum 
+      beatitu<lb ed="#B" n="54" break="no"/>dinem aeternam: dum ab hoc fine 
+      impe<lb ed="#B" n="55" break="no"/>ditur, damnificatur: dum autem ad humc 
+      <lb ed="#B" n="56"/>finem promouetur: proficit, &amp; in 
+      spiri<lb ed="#B" n="57" break="no"/>tualibus bonis augetur: impeditur 
+      au<lb ed="#B" n="58" break="no"/>tem per uitia, &amp; peccata: promouetur 
+      <lb ed="#B" n="59"/>per dona, uirtutes, &amp; merita. Anima 
+      igi<lb ed="#B" n="60" break="no"/>tur in spiritualibus bonis damnificatur 
+      <lb ed="#B" n="61"/>quoties peccat: &amp; per opera frequenta 
+      <lb ed="#B" n="62"/>ta uitia acquirit: &amp; similiter dum 
+      gra<lb ed="#B" n="63" break="no"/>tiam perdit, &amp; merita negligit.
+    </p>
+            <p xml:id="gbs333-v115908-d1e268">
+      ¶ 
+      Se<lb ed="#B" n="64" break="no"/>cundo notandum: in bonis animae, 
+      gra<lb ed="#B" n="65" break="no"/>tia scilicet uirturibus, &amp; meritis: nullus 
+      po<lb ed="#B" n="66" break="no"/>test ab alio directe damnificari: quoni: 
+      <lb ed="#B" n="67"/>illa non possunt auserri ab homine nisij 
+      <lb ed="#B" n="68"/>propria demerita, uitia, &amp; peccata. 
+      Nul<lb ed="#B" n="69" break="no"/>lus autem actus est meritorius, aut 
+      uir<lb ed="#B" n="70" break="no"/>tuosus, neque uitiosus, aut peccatum, uel 
+      <lb ed="#B" n="71"/>demeritorius: nisi qui procedit a libera 
+      <lb ed="#B" n="72"/>uoluntate. In inuoluntarijs enim neque  
+      <lb ed="#B" n="73"/>laudamur, neque uituperamur iii. Et hic. 
+      <lb ed="#B" n="74"/>Et August. in de uera religione. 
+      Om<lb ed="#B" n="75" break="no"/>nis actus uitiosus ideo est peccatum; quia 
+      <lb ed="#B" n="76"/>uoluntarius: ergo sola uoluntate 
+      pro<lb ed="#B" n="77" break="no"/>prie potest homo peccare, &amp; nunquam 
+      <lb ed="#B" n="78"/>contra uoluntatem propriam ad 
+      pecca<lb ed="#B" n="79" break="no"/>tum compelli. de hoc latè Chrilc. in 
+      ho<lb ed="#B" n="80" break="no"/>mil. Nemo laeditur nisi a seipso. Potest 
+      <lb ed="#B" n="81"/>tamen aliquis alium in bonis animae 
+      dan<lb ed="#B" n="82" break="no"/>nificare indirecte, ipsum inducendo ad 
+      <lb ed="#B" n="83"/>actus uitiolos, &amp; peccata, quibus uitia 
+      <lb ed="#B" n="84"/>generantur; uirtutes corrumpuntur: &amp; 
+      <lb ed="#B" n="85"/>dona gratuita deperduntur. Et illa 
+      in<lb ed="#B" n="86" break="no"/>ductio sit quandoque iubendo: quandoque  
+      <lb ed="#B" n="87"/>minis, aut paenis compellendo: quamdoque  
+      <lb ed="#B" n="88"/>consulendo, persuadendo, rogando: 
+      do<lb ed="#B" n="89" break="no"/>nis, &amp; promissionibus alliciendo: aut a 
+      bo<lb ed="#B" n="90" break="no"/>nis impediendo &amp; simodi. Et haec de j. art. 
+    </p>
+            <p xml:id="gbs333-v115908-d1e329">
+               <lb ed="#B" n="91"/>¶ Quantum ad secundum articulum est 
+      conclusio<lb ed="#B" n="92" break="no"/>prima. Dannificans proximum in bonis spuna 
+      <lb ed="#B" n="93"/>libus animae; tenet modo sibi possibili dana 
+      <lb ed="#B" n="94"/>restituere. Patet conclusio per locum a 
+      <lb ed="#B" n="95"/>maiori: quia bona animae maxima sunt  
+      <lb ed="#B" n="96"/>secundum Aug. j. retracta. &amp; vi. q. i. sunt 
+      plu<lb ed="#B" n="97" break="no"/>rimi. Multu distant dana morum a damuis 
+      re<lb ed="#B" n="98" break="no"/>rum temporalium: cum illa extra nos 
+      <lb ed="#B" n="99"/>sint: illa uero in nobis. Et Anacletus 
+      <lb ed="#B" n="100"/>papa ea. q. deteriores. inquit. Deterio¬ 
+      <!--523.xml-->
+      <pb ed="#B" n="474"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>res sunt, qui doctorum uitam, moresque;  
+      <lb ed="#B" n="2"/>corrumpunt, his, qui substantias aliorum, 
+      <lb ed="#B" n="3"/>praediaque; diripiunt: ipsi. n. ea, quae extra 
+      <lb ed="#B" n="4"/>eos sunt: licet nostra sint: auferunt, 
+      nostri<lb ed="#B" n="5" break="no"/>quoque doctores, &amp; morum corruptores 
+      <lb ed="#B" n="6"/>nostrorum: siue qui aduersus nos armantur, 
+      <lb ed="#B" n="7"/>proprie nosipsos decipiunt. Si ergo 
+      re<lb ed="#B" n="8" break="no"/>stitutio requiritur secudum praedicta in 
+      <lb ed="#B" n="9"/>bonis uilioribus, exterioribus scilicet: 
+      <lb ed="#B" n="10"/>multo magis in bonis animae, quae 
+      maio<lb ed="#B" n="11" break="no"/>ra sunt: necessaria est.
+    </p>
+            <p xml:id="gbs333-v115908-d1e384">
+      ¶ Et dicitur notam 
+      <lb ed="#B" n="12"/>ter, quantum possibile est: quia bona animae 
+      <lb ed="#B" n="13"/>non sunt in potestate alterius ad 
+      imme<lb ed="#B" n="14" break="no"/>diate conferendum: sicut nec ad immediate 
+      <lb ed="#B" n="15"/>auferendum: &amp; ideo suo modo oportet fieri 
+      <lb ed="#B" n="16"/>in illis restitutionem, quem sequens 
+      conclu<lb ed="#B" n="17" break="no"/>sio explicabit.
+    </p>
+            <p xml:id="gbs333-v115908-d1e400">
+      ¶ Secunda conclusio. 
+      Re<lb ed="#B" n="18" break="no"/>stitutio bonorum animae debet modo dam 
+      <lb ed="#B" n="19"/>nificationis in eisdem respondere. 
+      Proba<lb ed="#B" n="20" break="no"/>tur: quia restitutio est actus iustitiae com 
+      <lb ed="#B" n="21"/>mutatiuae, quainnititur aequalitati arith 
+      <lb ed="#B" n="22"/>mericae dati, &amp; accepti, ideo eo modo, 
+      <lb ed="#B" n="23"/>quo damnificauit: similiter modo dam 
+      <lb ed="#B" n="24"/>num restituet. Respondet autem 
+      resti<lb ed="#B" n="25" break="no"/>tutio damnificationi secundum aequalitatem: 
+      <lb ed="#B" n="26"/>quando sit aeque efficax inductio ad 
+      resti<lb ed="#B" n="27" break="no"/>tutionem grae, uirtutum ac meritorum: sicut 
+      <lb ed="#B" n="28"/>fuit inductio efficax ad pcta, gratiam 
+      uir<lb ed="#B" n="29" break="no"/>tures, &amp; merita priuantia: tenet ergo dam 
+      <lb ed="#B" n="30"/>nificans deceptum inducere ad paenitentiam 
+      <lb ed="#B" n="31"/>condigna, &amp; opera meritoria: similiter pr 
+      <lb ed="#B" n="32"/>cipiendo, consulendo, persuadendo &amp;c. 
+      <lb ed="#B" n="33"/>sicut fecit ad peccata. Veruntamen hoc  
+      <lb ed="#B" n="34"/>non sufficit: &amp; quoniam popter naturam 
+      no<lb ed="#B" n="35" break="no"/>stram uulneratam ab adolescentia ad malum 
+      <lb ed="#B" n="36"/>pronam, facilius est peruertere, quam conuer 
+      <lb ed="#B" n="37"/>tere: ideo ultra praedicta tenetur per se 
+      <lb ed="#B" n="38"/>orando: &amp; porationes aliorum mendicatas, 
+      <lb ed="#B" n="39"/>&amp; procuratas impetrare conuersionem 
+      hu<lb ed="#B" n="40" break="no"/>iusmodi seducto, &amp; per alios persuasores 
+      <lb ed="#B" n="41"/>efficaces: dum tamen illis non prodat peccatum 
+      <lb ed="#B" n="42"/>occultum decepti: ut dicit Sco. hac dist. 
+      <lb ed="#B" n="43"/>q. iii. &amp; subdit. Et hoc (subdit) quantum 
+      <lb ed="#B" n="44"/>periculum est alium solicitare, &amp; inducere 
+      <lb ed="#B" n="45"/>ad peccatum: quia uix potest inducens 
+      <lb ed="#B" n="46"/>digne restituere: cum uoluntatem iam ad 
+      pec<lb ed="#B" n="47" break="no"/>catum allectam uix possit persuasionibus, 
+      <lb ed="#B" n="48"/>&amp; aliis uiis multis reducere ad uirtutes 
+      <lb ed="#B" n="49"/>Et tantum de articulo secundo.
+    </p>
+            <p xml:id="gbs333-v115908-d1e473">
+      ¶ 
+      Quan<lb ed="#B" n="50" break="no"/>tum ad tertium articulum est primu dubium, 
+      <lb ed="#B" n="51"/>quo testituet, qui aliquem retralit, aut  
+      <!--523.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>impedit a bono spirituali habito, 
+      uelhae<lb ed="#B" n="53" break="no"/>bendo: licet non inducat ad malum, seu 
+      pec<lb ed="#B" n="54" break="no"/>catum. gratia exempli: qui aliquem 
+      retra<lb ed="#B" n="55" break="no"/>hit a religione. Respodetur: quod tenetur 
+      <lb ed="#B" n="56"/>eum allicere similibus modis ad bonum, a 
+      <lb ed="#B" n="57"/>quo retraxit: aut ad aequiualens illi, uel 
+      <lb ed="#B" n="58"/>illis, a quibus ipsum retraxit, aut impedi 
+      <lb ed="#B" n="59"/>uit, seu danificauit: uerum quia interestinter 
+      <lb ed="#B" n="60"/>habere, &amp; prope esse: non tenetur ad 
+      tan<lb ed="#B" n="61" break="no"/>tam efficaciam inducendi: ac si bono iamn 
+      ha<lb ed="#B" n="62" break="no"/>bito priuasset. Est etiam multa differentia; 
+      si<lb ed="#B" n="63" break="no"/>retrahit a bono, ad quod tenetur: puta 
+      <lb ed="#B" n="64"/>ab obedientia praeceptorum: aut si retrahit 
+      <lb ed="#B" n="65"/>ab impletione consiliorum: nam in primo 
+      es<lb ed="#B" n="66" break="no"/>ficaciter inducit ad peccatum: ideo 
+      es<lb ed="#B" n="67" break="no"/>ficaciter tenetur inducere ad 
+      paeniten<lb ed="#B" n="68" break="no"/>tiam modo correspondentem: ut dictum 
+      <lb ed="#B" n="69"/>est in secunda conclusione. Nec refert 
+      <lb ed="#B" n="70"/>quacumque occasione sic retralat, an 
+      o<lb ed="#B" n="71" break="no"/>dio, fauore aut consulendo propriae 
+      uti<lb ed="#B" n="72" break="no"/>litati: quoniam nihil praeponendum est 
+      <lb ed="#B" n="73"/>obseruantiae praeceptorum. In 
+      secun<lb ed="#B" n="74" break="no"/>do uero, si facit odio personae, quam 
+      im<lb ed="#B" n="75" break="no"/>pedit: aut alterius, propter quem 
+      impe<lb ed="#B" n="76" break="no"/>dit: ut puta intentione damnificandi 
+      mo<lb ed="#B" n="77" break="no"/>nasterium: unde allexit eum: tenetur illi 
+      <lb ed="#B" n="78"/>monasterio, uel alteri, quem uoluit 
+      danifi<lb ed="#B" n="79" break="no"/>care: si solum intuitu prpriae utilitatis, sine 
+      <lb ed="#B" n="80"/>fraude: non tenetur religioni. Haec Sco. 
+      <lb ed="#B" n="81"/>in effectu.
+    </p>
+            <p xml:id="gbs333-v115908-d1e549">
+      ¶ Per hoc ad exemplum: retra: 
+      <lb ed="#B" n="82"/>hens aliquem a religiones distinguendum 
+      <lb ed="#B" n="83"/>est: quia autis, qui retrahitur, est 
+      obliga<lb ed="#B" n="84" break="no"/>tus religioni per emissam professionem, &amp; 
+      <lb ed="#B" n="85"/>uorum: tunc tenetur ad restitutionem 
+      re<lb ed="#B" n="86" break="no"/>ligioni, &amp; personae retractae religioni: ut  
+      <lb ed="#B" n="87"/>ipsum sipot, religioni restituat: aut alia 
+      <lb ed="#B" n="88"/>personam aequiualentem inducat 
+      effica<lb ed="#B" n="89" break="no"/>citer ad intrandum religionem: aut 
+      se<lb ed="#B" n="90" break="no"/>ipsum pro ea, quam retraxit religioni 
+      <lb ed="#B" n="91"/>laesae donet: si ipse utilis fuerit: ut uult 
+      <lb ed="#B" n="92"/>Pranciscus mar. in iiij. distinct. praesenti. 
+      <lb ed="#B" n="93"/>Quod si nullum horum poterit: tenetur 
+      <lb ed="#B" n="94"/>secundum Rich. distinct. xv. iiij. art. v. q. ij. 
+      <lb ed="#B" n="95"/>restituere alia bona pro illo dano 
+      compen<lb ed="#B" n="96" break="no"/>sata qualitate laesae, &amp; quantitate damni, 
+      <lb ed="#B" n="97"/>&amp; possibilitate damnificantis ad 
+      arbi<lb ed="#B" n="98" break="no"/>trium bonorum uirorum, &amp; hoc genena 
+      <lb ed="#B" n="99"/>liter seruandum est: quandocumque; danum in 
+      <lb ed="#B" n="100"/>se restitui non potest: quoniam ad 
+      impos<lb ed="#B" n="101" break="no"/>sibile nemo obligatur, secundum beatum Hie 
+      <lb ed="#B" n="102"/>to. Personae aut deceptae, quam aposta¬ 
+      <!--524.xml-->
+      <pb ed="#B" n="475"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>care fecit, tenetur ad inducendum 
+      ean<lb ed="#B" n="2" break="no"/>ad uere paenitendum: quod tamen facere 
+      <lb ed="#B" n="3"/>non potest: nisi redeat ad monasterium, 
+      <lb ed="#B" n="4"/>unde apostatauit: tenetur autem ad facien 
+      <lb ed="#B" n="5"/>dum diligentiam per se, &amp; alios secundum 
+      <lb ed="#B" n="6"/>modum ante dictum. Si uero persona, 
+      <lb ed="#B" n="7"/>quam retraliit, non est obligata religio 
+      <lb ed="#B" n="8"/>ni: &amp; retraliens non retrahit animo 
+      no<lb ed="#B" n="9" break="no"/>cendi, sed consulendi suae 
+      utilitatitem<lb ed="#B" n="10" break="no"/>porali, uel spirituali: nihil tenetur 
+      reli<lb ed="#B" n="11" break="no"/>gioni: sed tenetur personae, quam retra 
+      <lb ed="#B" n="12"/>xit: &amp; per hoc aspirituali profectu 
+      impe<lb ed="#B" n="13" break="no"/>diuit: spiritualem restitutionem facere, 
+      <lb ed="#B" n="14"/>quam potest: ut dicit Rich. ubi supra. q. 
+      <lb ed="#B" n="15"/>iiij. in solu. viij. rationis. Et adducit ad 
+      <lb ed="#B" n="16"/>hoc exemplum: quoniam si quis alium 
+      <lb ed="#B" n="17"/>impedit in assecutione beneficij 
+      inten<lb ed="#B" n="18" break="no"/>tione consulendi suae utilitati: tamen 
+      <lb ed="#B" n="19"/>sine fraude: non tenetur ad aliquam 
+      re<lb ed="#B" n="20" break="no"/>stitutionem faciendum impedito. Si uerc 
+      <lb ed="#B" n="21"/>impedit intentione damnificandi: quam 
+      <lb ed="#B" n="22"/>iuis nonteneatur ad restituendum 
+      inte<lb ed="#B" n="23" break="no"/>grum ualorem beneficij. (quia non est 
+      <lb ed="#B" n="24"/>aequalis ualoris habere bonum in actu: 
+      <lb ed="#B" n="25"/>&amp; esse prope habere: maxime quando 
+      po<lb ed="#B" n="26" break="no"/>test impediri) tamen tenetur 
+      damnifica<lb ed="#B" n="27" break="no"/>to ad interesse ad arbitrium boni uiri. 
+    </p>
+            <p xml:id="gbs333-v115908-d1e662">
+               <lb ed="#B" n="28"/>¶ Simile est, si praescindo uenas infundo 
+      <lb ed="#B" n="29"/>meo, per quas deriuabat aqua ad puteum 
+      <lb ed="#B" n="30"/>alterius intentione nocendi: tencor 
+      al<lb ed="#B" n="31" break="no"/>li ad restitutionem damni. Si autem hoc  
+      <lb ed="#B" n="32"/>facto sine fraude, intendens consulere ut 
+      il<lb ed="#B" n="33" break="no"/>tati meae, ut puta: quia mihi est multum 
+      <lb ed="#B" n="34"/>utile facere murum, quem facere non 
+      <lb ed="#B" n="35"/>possum sine fundamento: nec fundamen 
+      <lb ed="#B" n="36"/>tum sine praecisione uenarum: quia ius 
+      <lb ed="#B" n="37"/>habeo in meo fundo faciendi utilitatem 
+      <lb ed="#B" n="38"/>meam: non teneor ad aliquam 
+      testitutio<lb ed="#B" n="39" break="no"/>nem: siquidem nemo damnificat alium: 
+      <lb ed="#B" n="40"/>nisi qui facit illud, quod facere ius 
+      <lb ed="#B" n="41"/>non habet. Haec Rich. Et ex hoc multa 
+      <lb ed="#B" n="42"/>similia possunt iudicari.
+    </p>
+            <p xml:id="gbs333-v115908-d1e697">
+      ¶ Secundo 
+      du<lb ed="#B" n="43" break="no"/>bitatur: utrum damnificans aliquem 
+      con<lb ed="#B" n="44" break="no"/>filio malo, quod credit bonum teneatur 
+      <lb ed="#B" n="45"/>ad aliquam restitutionem. Respondetur 
+      <lb ed="#B" n="46"/>post Rich. quod qui damnificat conlio 
+      frau<lb ed="#B" n="47" break="no"/>dulento, tenetur ad restitutionem: si 
+      ue<lb ed="#B" n="48" break="no"/>ro fuerit confilium non fraudulentum. 
+      <lb ed="#B" n="49"/>non obligatur scililicet de re iudi. Sed sub con 
+      <lb ed="#B" n="50"/>. filio fraudulento compraehenditur 
+      con<lb ed="#B" n="51" break="no"/>filium malum etiam datum ex ignoran¬ 
+      <!--524.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tia: si homo debitam diligentiam 
+      hon<lb ed="#B" n="53" break="no"/>adhibuit ad sciendum. nam ignorantia 
+      <lb ed="#B" n="54"/>crassa proprie dolus est: secus si debita 
+      <lb ed="#B" n="55"/>diligentia, &amp; ffudium inquirendae 
+      ueri<lb ed="#B" n="56" break="no"/>tatis adhibitum fuerit: tunc consilium 
+      <lb ed="#B" n="57"/>etiam ex errore procedens non obligat 
+      <lb ed="#B" n="58"/>consulentem: quia ignorantia ista, &amp; 
+      er<lb ed="#B" n="59" break="no"/>ror aestimatur inuincibilis: &amp; haec excusat.  
+      <lb ed="#B" n="60"/>Vamn diligenter attendant uolentes dare 
+      <lb ed="#B" n="61"/>confilia: ut non suae prudentiae inhaereant: 
+      <lb ed="#B" n="62"/>nec lege non perfecta consulant: 
+      quo<lb ed="#B" n="63" break="no"/>niam his omissis, licet aestimant se dare 
+      <lb ed="#B" n="64"/>sana consilia, si errant, &amp; errare faciut: 
+      <lb ed="#B" n="65"/>tenentur ad restitutionem damni 
+      con<lb ed="#B" n="66" break="no"/>senuentis.
+    </p>
+            <p xml:id="gbs333-v115908-d1e756">
+      ¶ Tertio dubitatur: ad quam 
+      <lb ed="#B" n="67"/>restitutionem tenetur, qui 
+      tentatpudi<lb ed="#B" n="68" break="no"/>citiam, seu castitatem alicuius mulieris, 
+      <lb ed="#B" n="69"/>solicitando ad consensum carnalis 
+      <lb ed="#B" n="70"/>commixtionis donis, blanditiis, pro 
+      <lb ed="#B" n="71"/>missionibus, minis. Respondetur: quoc 
+      <lb ed="#B" n="72"/>praeter restitutionem, quam tenetur 
+      se<lb ed="#B" n="73" break="no"/>cundum conclusionem secundam: teno 
+      <lb ed="#B" n="74"/>netur ei: &amp; similiter uiro eius actione it 
+      <lb ed="#B" n="75"/>iuriarum: quia eius pudicitiam 
+      corrum<lb ed="#B" n="76" break="no"/>pere tentat. Similiter infectans multerem 
+      <lb ed="#B" n="77"/>&amp; posteam uadens quocunque uadat; quia 
+      <lb ed="#B" n="78"/>per assiduam eius frequentiam, &amp; in 
+      se<lb ed="#B" n="79" break="no"/>ctationem infert multeri multam 
+      infa<lb ed="#B" n="80" break="no"/>miam: secus si non frequenter 
+      infecta<lb ed="#B" n="81" break="no"/>tur. Et hoc uerum: quando interpellat  
+      <lb ed="#B" n="82"/>de luxuria mulierem honestam: secus 
+      si<lb ed="#B" n="83" break="no"/>ueste meretricia esset induta: quia tunc 
+      <lb ed="#B" n="84"/>non tenetur ei actione iniuriarum: ut  
+      <lb ed="#B" n="85"/>recitat Pranci. de platea: tenettamen, 
+      si<lb ed="#B" n="86" break="no"/>inducit ad peccatum, secundum 
+      conclu<lb ed="#B" n="87" break="no"/>siones, reducere ad paenitentiam.
+    </p>
+            <p xml:id="gbs333-v115908-d1e804">
+      ¶ 
+      Du<lb ed="#B" n="88" break="no"/>bium quartum, ad quid tenetur seducens, 
+      <lb ed="#B" n="89"/>uel deflorans uirginem. Respondetur: 
+      <lb ed="#B" n="90"/>quod non potest restituere, quod abstulit 
+      <lb ed="#B" n="91"/>uirginitatem scilicet, &amp; aureolam 
+      con<lb ed="#B" n="92" break="no"/>sequentem: tenetur nihilominus ad 
+      ali<lb ed="#B" n="93" break="no"/>quam restitutionem. Et sicut dicitur 
+      E<lb ed="#B" n="94" break="no"/>xod. xxij. tenetur eam ducere in uxorem: 
+      <lb ed="#B" n="95"/>aut dotare habita consideratione ad 
+      di<lb ed="#B" n="96" break="no"/>gnitatem uirginis, &amp; facultatem 
+      deflo<lb ed="#B" n="97" break="no"/>ratoris: &amp; quod plus dotari oportet, si 
+      nu<lb ed="#B" n="98" break="no"/>ptura est alteri uiro propter 
+      defloratio<lb ed="#B" n="99" break="no"/>nem, &amp; in hoc lex humana concordat 
+      <lb ed="#B" n="100"/>cum diuina uete. test.
+    </p>
+            <p xml:id="gbs333-v115908-d1e836">
+      ¶ Plura 
+      particu<lb ed="#B" n="101" break="no"/>laria dubia moueripossent, quae alibi 
+      ha<lb ed="#B" n="102" break="no"/>bent locum aptiorem. Et tantum. de 
+      <!--525.xml-->
+      <pb ed="#B" n="476"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>illa quaestione, &amp; tota illa. xv. dist. salut 
+      <lb ed="#B" n="2"/>semper iudicio melius sentientium 
+      hu<lb ed="#B" n="3" break="no"/>mili cum submissione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

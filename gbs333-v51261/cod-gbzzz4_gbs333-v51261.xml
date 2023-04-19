@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="209"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v51261"><!-- l4-d13prae -->
+            <head xml:id="gbs333-v51261-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v51261-d1e103">
+               <lb ed="#B" n="6"/>DISTINCTIO xIII. 
+      <lb ed="#B" n="7"/>VIETetiam quaeri: 
+      <lb ed="#B" n="8"/>Postquae magister egit 
+      <lb ed="#B" n="9"/>de sacramento 
+      eucha<lb ed="#B" n="10" break="no"/>ristiae in se, &amp; quantum 
+      <lb ed="#B" n="11"/>ad suscipientem. In hac 
+      <lb ed="#B" n="12"/>dist. xiij. determinat 
+      <lb ed="#B" n="13"/>de eodem quantum ad 
+      <lb ed="#B" n="14"/>ministrum consecrantem. Huius autem 
+      <lb ed="#B" n="15"/>dist. sententia in sequentibus tribus con 
+      <lb ed="#B" n="16"/>clusionibus summarie continetur.
+    </p>
+            <p xml:id="gbs333-v51261-d1e129">
+      ¶ 
+      Pri<lb ed="#B" n="17" break="no"/>ma. Quilibet sacerdos in ecclesia 
+      exi<lb ed="#B" n="18" break="no"/>stens nomine &amp; sacramento potest con 
+      <lb ed="#B" n="19"/>ficere eucharistiam: etiam si sit prauus 
+      <lb ed="#B" n="20"/>in uiuendi modo.
+    </p>
+            <p xml:id="gbs333-v51261-d1e140">
+      ¶ Secunda conclusio: 
+      <lb ed="#B" n="21"/>secundum quorundam opinionem non 
+      <lb ed="#B" n="22"/>uidentur hoc sacramentum conficere 
+      pos<lb ed="#B" n="23" break="no"/>se excommunicati: &amp; de haeresi 
+      manife<lb ed="#B" n="24" break="no"/>ste notati: licet sint lacerdores rite 
+      or<lb ed="#B" n="25" break="no"/>dinati.
+    </p>
+            <p xml:id="gbs333-v51261-d1e153">
+      ¶ Tertia conclusio: secundum 
+      <lb ed="#B" n="26"/>opinionem aliorum errans in fide 
+      hu<lb ed="#B" n="27" break="no"/>ius sacramenti uere consecrat si 
+      facer<lb ed="#B" n="28" break="no"/>dos fuerit: &amp; formam seruans quod alij 
+      <lb ed="#B" n="29"/>faciunt facere intendit. Et 
+      incidenta<lb ed="#B" n="30" break="no"/>liter addit, quod a brutis corpus christi non 
+      <lb ed="#B" n="31"/>sumitur: licet sumi uideatur. Subdit etiam 
+      <lb ed="#B" n="32"/>occasione praedictorum quis dicatur hae 
+      <lb ed="#B" n="33"/>reticus: qui scilicet pro temporali commode 
+      <lb ed="#B" n="34"/>gloria uel sui gratia falsas ac nonas 
+      opi<lb ed="#B" n="35" break="no"/>niones gignit uel sequitur. Secunda 
+      ta<lb ed="#B" n="36" break="no"/>men conclusio: &amp; quod brutum sumens species 
+      <lb ed="#B" n="37"/>sacramentales, non sumat corpus 
+      chri<lb ed="#B" n="38" break="no"/>sti: non tenetur a doc. ut dictum est dis. 
+      <lb ed="#B" n="39"/>xij. q.i. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

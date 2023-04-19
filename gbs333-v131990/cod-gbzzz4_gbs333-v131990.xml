@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="538"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v131990"><!-- l4-d16q5 -->
+            <head xml:id="gbs333-v131990-Hd1e101">Quaestio 5</head>
+            <head xml:id="gbs333-v131990-Hd1e103" type="question-title">
+      Utrum uenialium 
+      peccatorum paenitentia sit ad salutem 
+      necessaria
+    </head>
+            <p xml:id="gbs333-v131990-d1e106">
+               <lb ed="#B" n="67"/>QVAESTIO V 
+      <lb ed="#B" n="68"/>QVINTO quaeritur circa 
+      se<lb ed="#B" n="69" break="no"/>cundam partem tertiae 
+      conclu<lb ed="#B" n="70" break="no"/>sionis textualis de 
+      uenialiun<lb ed="#B" n="71" break="no"/>paenitentia. Nam de prima eius 
+      <lb ed="#B" n="72"/>parte, scilicet paenitentia peccatorum ante 
+      ba<lb ed="#B" n="73" break="no"/>ptisma comistorum, an necessaria sit, uel 
+      <lb ed="#B" n="74"/>non: dictum est. sup. dist. iiii. q.ii. &amp; ea. q. dist. 
+      <lb ed="#B" n="75"/>xiiii. Quaeritur igitur. Vtrum uenialium 
+      pec<lb ed="#B" n="76" break="no"/>catorum paenitentia sit ad salutem 
+      necessa<lb ed="#B" n="77" break="no"/>ria. Per tres articulos more solito siet 
+      <lb ed="#B" n="78"/>huius quaestionis absolutio.
+    </p>
+            <p xml:id="gbs333-v131990-d1e135">
+      ¶ Quantum ad 
+      <lb ed="#B" n="79"/>primum notandum, quod multiplex est 
+      differen<lb ed="#B" n="80" break="no"/>tia peccati uenialis a mortali in genete. 
+      <lb ed="#B" n="81"/>Vna, &amp; principalis: quia mortale est de 
+      <lb ed="#B" n="82"/>ordinatio quaedam, ac deuiatio ab 
+      ordine<lb ed="#B" n="83" break="no"/>necessario ad salutis consecutionem. 
+      Ve<lb ed="#B" n="84" break="no"/>niale est deuiatio ab ordine non necessa 
+      <lb ed="#B" n="85"/>rio, sed utili. Cum enim omne peccatum 
+      <lb ed="#B" n="86"/>est quaedam deordinatio; siue deuiatio; 
+      <lb ed="#B" n="87"/>&amp; declinatio ab ordine dirigente 
+      homi<lb ed="#B" n="88" break="no"/>nem ad salutem. Est aut huiusmodi 
+      or<lb ed="#B" n="89" break="no"/>do institutus a deo duplex. Primus est 
+      <lb ed="#B" n="90"/>necessarius: &amp; hic est obseruantia 
+      praece<lb ed="#B" n="91" break="no"/>ptorum secundum illud Matth. xix. Si uis 
+      <lb ed="#B" n="92"/>ad uitam ingredi, serua mandata. Alius est 
+      <lb ed="#B" n="93"/>ordo consequendi salutem 
+      compendio<lb ed="#B" n="94" break="no"/>sus, &amp; utilis: non tamen necessarius: 
+      si<lb ed="#B" n="95" break="no"/>cut obseruantia consiliorum 
+      euangelico<lb ed="#B" n="96" break="no"/>rum. Recessus a primo ordine, qui est 
+      per<lb ed="#B" n="97" break="no"/>transgressionem praeceptorum dicitur, &amp; est 
+      <lb ed="#B" n="98"/>pctum mortale: quia inducit mortem 
+      per<lb ed="#B" n="99" break="no"/>petuam: &amp; priuat animam uita gratiae in 
+      <lb ed="#B" n="100"/>psenti: &amp; uita gloriae in futuro. Recessus 
+      <!--588.xml-->
+      <pb ed="#B" n="539"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>autem a secundo ordine scilicet 
+      obser<lb ed="#B" n="2" break="no"/>uantia consiliorum, per conuersionem 
+      <lb ed="#B" n="3"/>inordinatam ad creaturam, citra tamen 
+      <lb ed="#B" n="4"/>transgressionem praeceptorum: est 
+      pec<lb ed="#B" n="5" break="no"/>catum ueniale. Dicitur autem peccatum: 
+      <lb ed="#B" n="6"/>quia est quaedam deordinatio in adhaesio 
+      <lb ed="#B" n="7"/>ne creaturae minus utilidimissa ut iliore: 
+      <lb ed="#B" n="8"/>cum tamen ratio deprecatur ad 
+      opti<lb ed="#B" n="9" break="no"/>ma. j. Ethic. prope finem. Dicitur uenia 
+      <lb ed="#B" n="10"/>le: quia non inducit mortem: nec tollit 
+      <lb ed="#B" n="11"/>gratiam: neque eam minuit. Alio quin: 
+      <lb ed="#B" n="12"/>cum gratia sit finita, posset per 
+      multipli<lb ed="#B" n="13" break="no"/>cationem uenialium tota auferri: &amp; sic 
+      <lb ed="#B" n="14"/>uenialia non essent uenialia. Minuit 
+      ta<lb ed="#B" n="15" break="no"/>men feruorem gratiae, hoc est impedit 
+      <lb ed="#B" n="16"/>gloriam a sua operatione: secundum 
+      il<lb ed="#B" n="17" break="no"/>lud Aug. x. confes. Minus te amat, qui 
+      te<lb ed="#B" n="18" break="no"/>cum aliquid amat, quod non propter 
+      te<lb ed="#B" n="19" break="no"/>amat. Minus amat: non per remissionem 
+      <lb ed="#B" n="20"/>habitus charitatis: sed cum conuertitur 
+      <lb ed="#B" n="21"/>ad creaturam actu amoroso: impeditur 
+      <lb ed="#B" n="22"/>ab actuali conuersioneper actum 
+      chari<lb ed="#B" n="23" break="no"/>tatis in deum. Nam sicut intellectus non 
+      <lb ed="#B" n="24"/>simul multa intelligit actibus distinctis: 
+      <lb ed="#B" n="25"/>ita nec appetitus in diuersa simultendi 
+      <lb ed="#B" n="26"/>actibus dilectionis.
+    </p>
+            <p xml:id="gbs333-v131990-d1e248">
+      ¶ Ex his sequuntur 
+      <lb ed="#B" n="27"/>aliae differentiae: scilicet quod mortale 
+      pri<lb ed="#B" n="28" break="no"/>uat gloria: obligat ad gebennam. Mor 
+      <lb ed="#B" n="29"/>tale auertit a fine: ueniale autem non 
+      <lb ed="#B" n="30"/>auertit: sed obliquat, &amp; impedit 
+      aliquan<lb ed="#B" n="31" break="no"/>tulum progressum ad finem. Item 
+      mor<lb ed="#B" n="32" break="no"/>tale semper habet annexum dei 
+      con<lb ed="#B" n="33" break="no"/>temptum uerum, uel interpretatiuum: 
+      <lb ed="#B" n="34"/>ueniale autem non habet dei 
+      contem<lb ed="#B" n="35" break="no"/>ptum (nemo enim contenit, quod amat  
+      <lb ed="#B" n="36"/>sed habet quandam defidiam, uel 
+      repo<lb ed="#B" n="37" break="no"/>rem, pro quanto plus adhaeret creaturae: 
+      <lb ed="#B" n="38"/>quam proficit ad adhaerendum deo. Item 
+      <lb ed="#B" n="39"/>mortale si non deletur in uia praesentis 
+      <lb ed="#B" n="40"/>uitae: manet simpliciter inexpiabile. Na 
+      <lb ed="#B" n="41"/>in futuro non deletur: ubi non est locus 
+      <lb ed="#B" n="42"/>poenitentiae: sed ueniale etiam 
+      remitti<lb ed="#B" n="43" break="no"/>tur post hanc nitam: ut infra dicetur 
+      dis<lb ed="#B" n="44" break="no"/>xxj.
+    </p>
+            <p xml:id="gbs333-v131990-d1e291">
+      ¶ Verum de quolibet actu inordina 
+      <lb ed="#B" n="45"/>to discernere in particulari, quando sit 
+      <lb ed="#B" n="46"/>peccatum mortale: uel quando sit 
+      ue<lb ed="#B" n="47" break="no"/>niale, difficillimum est propterinfinitas 
+      <lb ed="#B" n="48"/>circumstantias actus uariantes. Vnde cir 
+      <lb ed="#B" n="49"/>ca hoc uenerabilis Gerson cancella. 
+      pa<lb ed="#B" n="50" break="no"/>risien. in lib. de uita animae, plurimum 
+      la<lb ed="#B" n="51" break="no"/>borauit: &amp; multas regulas ad discretio¬ 
+      <!--588.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>nem hanc consequendam utilissimas 
+      tra<lb ed="#B" n="53" break="no"/>didit, nec tamen (ipso teste) ad 
+      sufficien<lb ed="#B" n="54" break="no"/>tem discernendi certitudinem peruenit. 
+    </p>
+            <p xml:id="gbs333-v131990-d1e320">
+               <lb ed="#B" n="55"/>¶ Secundo notandum: quod circa remissio 
+      <lb ed="#B" n="56"/>nem uenialis peccati: scilicet quid sit: 
+      <lb ed="#B" n="57"/>aut per quid fiat. duplex est opinio: ut 
+      <lb ed="#B" n="58"/>recitat Sco. dist. xxi. Quarti. Prima, 
+      <lb ed="#B" n="59"/>nihil aliud est culpae uenialis remissio: 
+      <lb ed="#B" n="60"/>quam solutio poenae temporalis debitae 
+      <lb ed="#B" n="61"/>pro eo. Probatio: quia quod manet post 
+      <lb ed="#B" n="62"/>actum transeuntem uenialis peccati: 
+      ni<lb ed="#B" n="63" break="no"/>hil est nisi reatus ad penamn debitam. Iste 
+      <lb ed="#B" n="64"/>autem reatus non est nisi ad paenam 
+      ten<lb ed="#B" n="65" break="no"/>poralem: &amp; per consequens eoipso, quod 
+      <lb ed="#B" n="66"/>soluitur paena temporalis: hic uel in 
+      pur<lb ed="#B" n="67" break="no"/>gatorio remitrituruenialis culpa. Quod 
+      <lb ed="#B" n="68"/>autem peccato ueniali debetur pena 
+      te<lb ed="#B" n="69" break="no"/>poralis, &amp; non aeterna: secundum 
+      iusti<lb ed="#B" n="70" break="no"/>tiam diuinam (ut quidam dixerunt) 
+      pro<lb ed="#B" n="71" break="no"/>bat idem doc. sic. Debitum aeternae 
+      pae<lb ed="#B" n="72" break="no"/>nae non stat cum charitate: sed cum 
+      cha<lb ed="#B" n="73" break="no"/>ritate stat ueniale non tantum non 
+      de<lb ed="#B" n="74" break="no"/>letum post actum: sed etiam actualiter 
+      <lb ed="#B" n="75"/>commissum: ut patet secundum omnes. 
+      <lb ed="#B" n="76"/>Sed maior probatur: quia per charitatem 
+      <lb ed="#B" n="77"/>est aliquis dignus uita aeterna: si cum hoc 
+      <lb ed="#B" n="78"/>stat debitum ad aeternam penam: ergo 
+      si<lb ed="#B" n="79" break="no"/>mul est ille dignus uita aeterna, &amp; 
+      paena<lb ed="#B" n="80" break="no"/>a terna: quod est impossile.
+    </p>
+            <p xml:id="gbs333-v131990-d1e379">
+      ¶ Praeterea 
+      <lb ed="#B" n="81"/>post actum peccati mortalis nihil 
+      rema<lb ed="#B" n="82" break="no"/>net de peccato nisi debitum penae 
+      aeter<lb ed="#B" n="83" break="no"/>nae, ut suprababitum est. q. i dist. xiiij. 
+      Si<lb ed="#B" n="84" break="no"/>ergo debitum poenae aeternae posset stare 
+      <lb ed="#B" n="85"/>cum gratia: peccatum mortale non 
+      re<lb ed="#B" n="86" break="no"/>missum posset stare cum gratia eo 
+      mo<lb ed="#B" n="87" break="no"/>do, quo manet postactum: &amp; sic idem es 
+      <lb ed="#B" n="88"/>set amicus, &amp; inimicus deo. Item 
+      essen<lb ed="#B" n="89" break="no"/>tialis paena damnatorum non est 
+      poena<lb ed="#B" n="90" break="no"/>sensus, sed poena damni: illa autem 
+      ne<lb ed="#B" n="91" break="no"/>cessario concomitatur quamcunque 
+      pe<lb ed="#B" n="92" break="no"/>nam: quia nulla poena stare potest cum 
+      <lb ed="#B" n="93"/>beatitudine: ergo debitum ad quamcum j. 
+      <lb ed="#B" n="94"/>paenam aeternam includit debitum ad 
+      pe<lb ed="#B" n="95" break="no"/>nam damniaeternam: &amp; per consequens 
+      <lb ed="#B" n="96"/>poenam essentialem damnationis, &amp; illa 
+      <lb ed="#B" n="97"/>non correspondet peccato ueniali. Item 
+      <lb ed="#B" n="98"/>peccatum ueniale, &amp; mortale sunt 
+      im<lb ed="#B" n="99" break="no"/>proportionabiliaium ratione malitiae, seu 
+      <lb ed="#B" n="100"/>offensae, quia infinita uenialia: si essent: 
+      <lb ed="#B" n="101"/>non aequarentur uni mortali in ratione. 
+      <lb ed="#B" n="102"/>ostensae: quia nec omnia illa auerterens 
+      <!--589.xml-->
+      <pb ed="#B" n="540"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>a fine ultimo sicut unum mortale: ergo 
+      <lb ed="#B" n="2"/>paena correspondens mortali secundum 
+      <lb ed="#B" n="3"/>iustitiam: infinite id est 
+      improportionabili<lb ed="#B" n="4" break="no"/>ter excedit penam debitam ueniali: non 
+      <lb ed="#B" n="5"/>autem improportionaibiliter secundum 
+      <lb ed="#B" n="6"/>intensionem: quia nulla paena est 
+      intensi<lb ed="#B" n="7" break="no"/>ue infinita, ergo erit secundum extensic 
+      <lb ed="#B" n="8"/>nem, siue durationem: ergo non 
+      debetu<lb ed="#B" n="9" break="no"/>ueniali pena aeterna. Et per hoc repro 
+      <lb ed="#B" n="10"/>bat dicta aliorum, qui dicunt; quod peccato 
+      ue<lb ed="#B" n="11" break="no"/>nmaliper se correspondet pena aeterna se 
+      <lb ed="#B" n="12"/>cundum iustitia diuinam. Per accidens 
+      au<lb ed="#B" n="13" break="no"/>tem scilicet cum coniungitur charitati, peorquam 
+      <lb ed="#B" n="14"/>ordinatur ad regnum: debetur sibi paena 
+      <lb ed="#B" n="15"/>temporalis. Et ideo cum quis damnatur 
+      <lb ed="#B" n="16"/>pro mortali habens etiam ueniale, 
+      pu<lb ed="#B" n="17" break="no"/>nitur pro uenialiinaeternum in 
+      inferno<lb ed="#B" n="18" break="no"/>nec puniretur per alio aeternaliter a deo 
+      <lb ed="#B" n="19"/>nisi paena aeterna iuste sibi dberetur. 
+      Qui<lb ed="#B" n="20" break="no"/>autem in aeternum puniretur: patet: quia 
+      <lb ed="#B" n="21"/>alias in inferno esset redemptio. Et s 
+      <lb ed="#B" n="22"/>aliter, &amp; opposito modo diceretur, quod 
+      <lb ed="#B" n="23"/>peccato ueniali de se debetur pena 
+      ten<lb ed="#B" n="24" break="no"/>poralis: per accidens autem propter con 
+      <lb ed="#B" n="25"/>iunctionem eius cum mortali, debetur 
+      poe<lb ed="#B" n="26" break="no"/>na aeterna in inferno. Contra hoc arguit. 
+      <lb ed="#B" n="27"/>Deus semper punit citra condignum 
+      <lb ed="#B" n="28"/>&amp; esto; quod simpliciter secundum 
+      ri<lb ed="#B" n="29" break="no"/>gorem puniret usque ad condignum, 
+      om<lb ed="#B" n="30" break="no"/>nino iniustum esset penam aeternam in 
+      <lb ed="#B" n="31"/>fligere pro illo, cui secundum se debetur 
+      <lb ed="#B" n="32"/>paena temporalis. Quantuncunque ni. 
+      con<lb ed="#B" n="33" break="no"/>iungatur alteri, hoc non facit illud in in 
+      <lb ed="#B" n="34"/>finitum exigere genus cuipae: ergo nec 
+      <lb ed="#B" n="35"/>iuste sibi correspondet pena in 
+      infini<lb ed="#B" n="36" break="no"/>tum excedens. Ex quibus concludit: quo 
+      <lb ed="#B" n="37"/>peccato ueniali siue hic puniendo: siue 
+      <lb ed="#B" n="38"/>in futuro: siue in inferno: siue alibi non 
+      <lb ed="#B" n="39"/>debetur paena nisi temporalis, nec 
+      per<lb ed="#B" n="40" break="no"/>se, nec per accidens: quia secundum se es 
+      <lb ed="#B" n="41"/>talis ostensa, quae scunui se sufficienter 
+      puni<lb ed="#B" n="42" break="no"/>tur temporalipena. Nec est 
+      inconuenien<lb ed="#B" n="43" break="no"/>illam penam debitam ueniali, habere 
+      te<lb ed="#B" n="44" break="no"/>minum in inferno: quia &amp; uere paenitens 
+      <lb ed="#B" n="45"/>primo modo, &amp; partem poenitentiae 
+      ini<lb ed="#B" n="46" break="no"/>positae explens, ac ante totam expletam 
+      re<lb ed="#B" n="47" break="no"/>cidiuans in mortale, in quo &amp; danatur: 
+      <lb ed="#B" n="48"/>pro parte paenitentiae residua explenda, 
+      <lb ed="#B" n="49"/>soluit peenam in inferno: sed non nisi tenm 
+      <lb ed="#B" n="50"/>poralem, quia ex quo in remissione 
+      pcto<lb ed="#B" n="51" break="no"/>rum priori commutabatur debitum penae¬ 
+      <!--589.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>aeternae, in debitum paenae tpalis: nunquam 
+      <lb ed="#B" n="53"/>ille est debitor pro illis nisi penae tpalis. 
+      <lb ed="#B" n="54"/>Et per consequens paena tpali soluta, erit 
+      <lb ed="#B" n="55"/>liber ab istis. Nec tamen in inferno est 
+      <lb ed="#B" n="56"/>redemptio illius scilicet peccati, pro quo iste 
+      <lb ed="#B" n="57"/>est danitus: quia pro illo penae aeternae 
+      <lb ed="#B" n="58"/>debitum, nunquam fuit commutatum in de 
+      <lb ed="#B" n="59"/>bitum penae tpalis: &amp; itasesper manet illud 
+      <lb ed="#B" n="60"/>debitum: nec unquam soluetur. Et ita 
+      in<lb ed="#B" n="61" break="no"/>telligendum est, quod in inferno nulla est 
+      <lb ed="#B" n="62"/>redemptio. Haec oia Sco.
+    </p>
+            <p xml:id="gbs333-v131990-d1e574">
+      ¶ Secunda 
+      opi<lb ed="#B" n="63" break="no"/>nio tenet: quod remissio culpae etiam 
+      cuius<lb ed="#B" n="64" break="no"/>cunque distinguitur a remis sioepenae. Vanm 
+      <lb ed="#B" n="65"/>frequenter remittitur culpa, &amp; no omnis 
+      poe<lb ed="#B" n="66" break="no"/>na culpae correspondens: sic posset deus 
+      <lb ed="#B" n="67"/>remittere penam, &amp; non culpa. Et hi conse 
+      <lb ed="#B" n="68"/>quenter dicut: quod remissio pcti uenialis sit 
+      <lb ed="#B" n="69"/>per aliquem actum deo magis acceptum, qua 
+      <lb ed="#B" n="70"/>pctamen uenia. displiceat: &amp; hoc uel relatu 
+      <lb ed="#B" n="71"/>ab ipso operante ad istud pctamen ueniale 
+      <lb ed="#B" n="72"/>remittendum: uel non relatum ab ipso: 
+      <lb ed="#B" n="73"/>sed a deo acceptatum in ordine ad illud: 
+      <lb ed="#B" n="74"/>ut si opera morientis in charitate, &amp; 
+      si<lb ed="#B" n="75" break="no"/>mul in peccato ueniali non fuerint 
+      re<lb ed="#B" n="76" break="no"/>lata ab eo ad remissionem uenialis, in 
+      <lb ed="#B" n="77"/>quo moritur, nec etiam post mortem 
+      ha<lb ed="#B" n="78" break="no"/>beat aliquem actum meritorium respectu 
+      re<lb ed="#B" n="79" break="no"/>missionis peccati uenialis, tamen eius 
+      ope<lb ed="#B" n="80" break="no"/>ra prius facta possunt a deo esse relata 
+      <lb ed="#B" n="81"/>ad remissionem illius uenialis post 
+      mor<lb ed="#B" n="82" break="no"/>tem. Quod sic intelligi potest. Omne 
+      <lb ed="#B" n="83"/>opus meritorium habet duplicem 
+      efse<lb ed="#B" n="84" break="no"/>ctum: unum respectu cuipae remitiendae: 
+      <lb ed="#B" n="85"/>alium respectu gratiae, &amp; gloriae 
+      confe<lb ed="#B" n="86" break="no"/>rendae. Exempli causa. Opus satis facto 
+      <lb ed="#B" n="87"/>rium, quo remittitur poena temporalis 
+      <lb ed="#B" n="88"/>ueniali peccato debita, uel mortali 
+      per<lb ed="#B" n="89" break="no"/>paenitentiam quoad culpas deleto: pter hoc  
+      <lb ed="#B" n="90"/>quod meretur remissionem paenae: etiam 
+      me<lb ed="#B" n="91" break="no"/>retur gradum gratiae, &amp; gloriae, neque 
+      mi<lb ed="#B" n="92" break="no"/>norem gradum utriusque; quasi si non esset opus 
+      <lb ed="#B" n="93"/>satisfactorium: ut supra patuit. q. ij. dist. 
+      <lb ed="#B" n="94"/>praesentis. Quia nisi sic ecclesia erraret 
+      <lb ed="#B" n="95"/>imponendo penitenti satisfactionem. 
+      <lb ed="#B" n="96"/>quoniam melius foret poenitenti nullam 
+      <lb ed="#B" n="97"/>penam hic soluere: &amp; omnem paenae 
+      solu<lb ed="#B" n="98" break="no"/>tionem differre ad purgatorium. Si. n. 
+      <lb ed="#B" n="99"/>per hoc, quod opus esset satis factorium, 
+      ali<lb ed="#B" n="100" break="no"/>quid diminueretur praemij essentialis, 
+      <lb ed="#B" n="101"/>melius foret temporaliter pati 
+      quan<lb ed="#B" n="102" break="no"/>tumcunque poenam, quam carere minimo 
+      <lb ed="#B" n="103"/>
+               <!--590.xml-->
+               <pb ed="#B" n="541"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gradu gratiae: &amp; per consequens gloriae 
+      <lb ed="#B" n="2"/>in aeternum: quia sine aestimatione melior 
+      e<lb ed="#B" n="3" break="no"/>gradus aeternae gloriae; quam remissio 
+      tempo<lb ed="#B" n="4" break="no"/>ralis paenae. Et de hoc late habetur supra 
+      <lb ed="#B" n="5"/>praesenti dist. q.ij. in vj. dubio.
+    </p>
+            <p xml:id="gbs333-v131990-d1e683">
+      ¶ Ad 
+      pro<lb ed="#B" n="6" break="no"/>positum. Omne opus meritorium est 
+      re<lb ed="#B" n="7" break="no"/>missiuum alicuius partis paenae tempora 
+      <lb ed="#B" n="8"/>lis peccato ueniali debitae: &amp; ad hoc 
+      ac<lb ed="#B" n="9" break="no"/>ceptatur a deo: siue ab operante 
+      refe<lb ed="#B" n="10" break="no"/>ratur ad solutionem paenae, siue non: non 
+      <lb ed="#B" n="11"/>autem semper remittit penam propter 
+      <lb ed="#B" n="12"/>impedimentum, quo cessante habet 
+      es<lb ed="#B" n="13" break="no"/>fectum: impeditur autem per peccatum 
+      <lb ed="#B" n="14"/>manens. Non enim potest pena peccati 
+      <lb ed="#B" n="15"/>solui manente peccato in actu, uel 
+      uo<lb ed="#B" n="16" break="no"/>suntate. Ideo si quis manet in peccate 
+      <lb ed="#B" n="17"/>ueniali usque ad instans mortis: 
+      impedi<lb ed="#B" n="18" break="no"/>tur usque ad instans mortis: quoniam 
+      cau<lb ed="#B" n="19" break="no"/>sa impedita, dum impedita est, non ponit 
+      <lb ed="#B" n="20"/>effectum: cessanteautem impedimento, 
+      <lb ed="#B" n="21"/>ponit effectum. In instanti mortis 
+      ces<lb ed="#B" n="22" break="no"/>sat impedimentum: quia peccatum: ergo 
+      <lb ed="#B" n="23"/>tunc ponitur remissio uenialis secundum 
+      <lb ed="#B" n="24"/>exigentiam praemissorum meritorum: 
+      si<lb ed="#B" n="25" break="no"/>multa, multa: si pauca, pauca.
+    </p>
+            <p xml:id="gbs333-v131990-d1e729">
+      ¶ Prima 
+      <lb ed="#B" n="26"/>opinio magis intelligibilis est:: &amp; 
+      con<lb ed="#B" n="27" break="no"/>cordat dictis superius distin. xiiij. huius 
+      <lb ed="#B" n="28"/>quarti.
+    </p>
+            <p xml:id="gbs333-v131990-d1e739">
+      ¶ Tertio notandum: quod 
+      peniten<lb ed="#B" n="29" break="no"/>tia dupliciter accipitur (ut dictum est. 
+      <lb ed="#B" n="30"/>q. j. distin. xiiij. )xscilicet pro 
+      sacramento<lb ed="#B" n="31" break="no"/>puta sacerdorali absolutione consitentis 
+      <lb ed="#B" n="32"/>prolata a confessore. Secundo modo, 
+      <lb ed="#B" n="33"/>pro uirture, aut actu uirturis: scilicet 
+      pro<lb ed="#B" n="34" break="no"/>displicentia, seu contritione aut tristitia 
+      <lb ed="#B" n="35"/>consequente. Hic accipitur: secundo 
+      mo<lb ed="#B" n="36" break="no"/>do: quia depaenitentia lacramento 
+      dice<lb ed="#B" n="37" break="no"/>tur dist. seq. Et hoc secundo modo potest 
+      <lb ed="#B" n="38"/>accipi dupliciter. Vno modo poprie, 
+      prhabi<lb ed="#B" n="39" break="no"/>tu, aut actu detestationis pcti: aut 
+      passio<lb ed="#B" n="40" break="no"/>ne actum huiusmodi praesupponente. Alio 
+      <lb ed="#B" n="41"/>modo multum large pro cessatioe uoluntatis 
+      <lb ed="#B" n="42"/>ab actu complacentiae in pcton. Vbtuns 
+      <lb ed="#B" n="43"/>Tho, in iiii. dist. xvj. q. principali secunda. 
+      <lb ed="#B" n="44"/>Et Pe. de palu. dist. praesenti. q. i. artic. ij. 
+      <lb ed="#B" n="45"/>dicit uoluntatem recedere ab eo, quod 
+      <lb ed="#B" n="46"/>prius uolebat: est displicere ei, quod uoluit. 
+      <lb ed="#B" n="47"/>talis autem displicentia dolor 
+      contritio<lb ed="#B" n="48" break="no"/>nis dicit, quando est gra informata. Haec 
+      <lb ed="#B" n="49"/>Tho. &amp; palu. Et hoc modo quis habet 
+      peni<lb ed="#B" n="50" break="no"/>tentiam, siue contritionem de pctom: etiam 
+      <lb ed="#B" n="51"/>dum nullam memoriam habet de pcto. Et tan¬ 
+      <!--590.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>tum de articulo primo.
+    </p>
+            <p xml:id="gbs333-v131990-d1e798">
+      ¶ Quantum ad 
+      <lb ed="#B" n="53"/>secundum articulum est conclusio prima, 
+      <lb ed="#B" n="54"/>Peecatum ueniale non remittit, 
+      quandiu<lb ed="#B" n="55" break="no"/>per actum complacentic in uoluntate 
+      <lb ed="#B" n="56"/>tenetur. Haec conclusio est Pe. de palu. ar. 
+      <lb ed="#B" n="57"/>j. conclu. j. q. j. dist. praesenti. Probatur 
+      con<lb ed="#B" n="58" break="no"/>clusio: quia implicat peccatum remitti, &amp; 
+      <lb ed="#B" n="59"/>manere in uoluntate: sed quandiu placet 
+      <lb ed="#B" n="60"/>peccatum manet in uoluntate: quia ipse 
+      <lb ed="#B" n="61"/>actus complacentiae est pctamen manente aunt 
+      <lb ed="#B" n="62"/>peccato non deletur, nec remittitur. 
+    </p>
+            <p xml:id="gbs333-v131990-d1e822">
+               <lb ed="#B" n="63"/>¶ Secunda conclusio. Ad remissionem 
+      pcti<lb ed="#B" n="64" break="no"/>uenialis non requiritur paenitentia, pprie 
+      <lb ed="#B" n="65"/>accepta: neque actualis: nec habitualis: 
+      <lb ed="#B" n="66"/>nec sacramentalis. Probatur: quia manens 
+      <lb ed="#B" n="67"/>in ueniali usque ad mortem, non damna 
+      <lb ed="#B" n="68"/>tur: sed tandem saluabitur. Ideo ueniale 
+      <lb ed="#B" n="69"/>commissum remiteitur: quia omne 
+      debi<lb ed="#B" n="70" break="no"/>tum cuipae repugnat beatitudini. Nihil 
+      <lb ed="#B" n="71"/>enim coinquinatum intrabit in illam. 
+      <lb ed="#B" n="72"/>Apoc. xxj. Non autem remiteitur per 
+      a<lb ed="#B" n="73" break="no"/>ctum eius, qui peccauit: quia est extra 
+      ter<lb ed="#B" n="74" break="no"/>minum meritum cuiuscunque tam congrui, quod 
+      <lb ed="#B" n="75"/>condigni: igitur conclusio uera. 
+      Remit<lb ed="#B" n="76" break="no"/>titur aunt persatispassionem in purgatorio, 
+      <lb ed="#B" n="77"/>quod quam soluit penam tpalem peccato in uita 
+      <lb ed="#B" n="78"/>praesenti non remisso debitam.
+    </p>
+            <p xml:id="gbs333-v131990-d1e859">
+      ¶ Praeterea 
+      <lb ed="#B" n="79"/>per actum feruentem charitatis 
+      consu<lb ed="#B" n="80" break="no"/>mitur peccatum ueniale: sicut aqua 
+      per<lb ed="#B" n="81" break="no"/>ignem: etiam si in ipso actu non habeatur 
+      <lb ed="#B" n="82"/>memoria uenialis sedum illud. j. Pet. iiij. 
+      <lb ed="#B" n="83"/>Charitas operit multitudinem peccato 
+      <lb ed="#B" n="84"/>rum. Sed talis actus non est actus: nec 
+      ha<lb ed="#B" n="85" break="no"/>bitus paenitentiae: neque sacramentum: ergo. 
+    </p>
+            <p xml:id="gbs333-v131990-d1e877">
+               <lb ed="#B" n="86"/>¶ Tertia conclusio. Accipiendo 
+      peniten<lb ed="#B" n="87" break="no"/>tiam secundo modo, &amp; large, peccata uenia 
+      <lb ed="#B" n="88"/>lia non remittunt sine paenitentia in hac 
+      <lb ed="#B" n="89"/>uita. Illa conclusio sequitur ex prima: quia 
+      <lb ed="#B" n="90"/>pctuamen ueniale non remittit, quandiuplacet  
+      <lb ed="#B" n="91"/>uoluntati: sed non complacere in 
+      pcton<lb ed="#B" n="92" break="no"/>conmisso est quaedam pnia pro peccato 
+      large<lb ed="#B" n="93" break="no"/>loquendo. de paenitentia, ut dictum est. j. ar. 
+      <lb ed="#B" n="94"/>ergoconclusiouera.
+    </p>
+            <p xml:id="gbs333-v131990-d1e899">
+      ¶ Quarta 
+      conclusio<lb ed="#B" n="95" break="no"/>Non solum per actum displicentiae: sed per 
+      <lb ed="#B" n="96"/>omnem actum meritorium ueniale pctamen 
+      <lb ed="#B" n="97"/>remittitur, maxime dum ad eius 
+      remissio<lb ed="#B" n="98" break="no"/>nem ordinatur. Probatur conclusio: quia 
+      <lb ed="#B" n="99"/>ois actus meritorius est satisfactiuus 
+      poe<lb ed="#B" n="100" break="no"/>nae rpalis: ut dictum est in. j. arti. haec 
+      au<lb ed="#B" n="101" break="no"/>tem respondet peccato ueniali, ergo: &amp; 
+      <lb ed="#B" n="102"/>peccati uenialis. Tenet consequentia: quia 
+      <!--591.xml-->
+      <pb ed="#B" n="542"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>nunquam remittitur poena peccato 
+      de<lb ed="#B" n="2" break="no"/>bita manente ipso peccato: ideo opus 
+      <lb ed="#B" n="3"/>bonum, quod remittit paenam: remittit 
+      <lb ed="#B" n="4"/>peccatum. cui debetur pena; si prius non 
+      <lb ed="#B" n="5"/>fuerit dimissum. Non tamen omne 
+      op<lb ed="#B" n="6" break="no"/>meritorium remittit totam poenam 
+      pec<lb ed="#B" n="7" break="no"/>cato ueniali debitam: sicut nec omne 
+      <lb ed="#B" n="8"/>opus satis factorium pro mortali 
+      dimis<lb ed="#B" n="9" break="no"/>so iniunctum tollit omnem eius poenam: 
+      <lb ed="#B" n="10"/>sed requiritur certa proportio operis 
+      <lb ed="#B" n="11"/>meritorij ad penam tollendam in acce 
+      <lb ed="#B" n="12"/>ptione diuina: quae soli deo est 
+      deter<lb ed="#B" n="13" break="no"/>minate cognita.
+    </p>
+            <p xml:id="gbs333-v131990-d1e955">
+      ¶ Dicitur maxime, dum 
+      <lb ed="#B" n="14"/>&amp;c. quia talis actus includit displicentiam 
+      <lb ed="#B" n="15"/>peccati delendi. Eo enim, quod ordinat 
+      a<lb ed="#B" n="16" break="no"/>ctum ad remissionem uenialis, 
+      uultue<lb ed="#B" n="17" break="no"/>niale remitti: &amp; per consequens uult 
+      ip<lb ed="#B" n="18" break="no"/>sum non manere, quod uelle est 
+      displi<lb ed="#B" n="19" break="no"/>centia uenialis. Inter caetera autem 
+      ope<lb ed="#B" n="20" break="no"/>ra maxime contritio, seu displicentia 
+      me<lb ed="#B" n="21" break="no"/>reretur remissionem peccati 
+      displicen<lb ed="#B" n="22" break="no"/>tis.
+    </p>
+            <p xml:id="gbs333-v131990-d1e977">
+      ¶ Quinta conclusio, &amp; responsalis. 
+      <lb ed="#B" n="23"/>Paenitentia neque uirtus: neque 
+      sacramen<lb ed="#B" n="24" break="no"/>tum: requiritur ad ueniale peccatum 
+      re<lb ed="#B" n="25" break="no"/>mittendum. Haec est sancti Bonauen. 
+      Pa<lb ed="#B" n="26" break="no"/>ter conclusio: quia peccatum ueniale 
+      re<lb ed="#B" n="27" break="no"/>mittitur etiam posthanc uitam: ut 
+      dice<lb ed="#B" n="28" break="no"/>tur infra dist. xxj. ubi tamen paenitentia 
+      <lb ed="#B" n="29"/>meritoria non habet locum.
+    </p>
+            <p xml:id="gbs333-v131990-d1e995">
+      ¶ Quantum 
+      <lb ed="#B" n="30"/>ad tertium articulum dubitatur primo: 
+      <lb ed="#B" n="31"/>utrum unum ueniale remitti potest sine 
+      <lb ed="#B" n="32"/>alio. Respondetur breuiter; quod sic secun- 
+      <lb ed="#B" n="33"/>dum utramque opinionem praedictam. Et  
+      <lb ed="#B" n="34"/>habet Pe. de palu. dist. praesenti. q. j. Nam 
+      <lb ed="#B" n="35"/>pena uni debita potest solui manente 
+      pena<lb ed="#B" n="36" break="no"/>alteri ueniali debita: ergo. Tenet conse- 
+      <lb ed="#B" n="37"/>quentia: quia soluta paena solutus est 
+      re<lb ed="#B" n="38" break="no"/>atus peccati: &amp; per consequens peccatum 
+      <lb ed="#B" n="39"/>secundum primam opinionem. 
+      Antece<lb ed="#B" n="40" break="no"/>dens patet: quia paena debita uni 
+      morta<lb ed="#B" n="41" break="no"/>li remisso quo ad culpam, remitti potest 
+      <lb ed="#B" n="42"/>sine pena alterius: ut dictum est supra. q. 
+      <lb ed="#B" n="43"/>ij. ergo a maiori sic erit de ueniali, quia 
+      <lb ed="#B" n="44"/>maior satis factio debetur pro 
+      mortali<lb ed="#B" n="45" break="no"/>dimisso quo ad culpam, quam prouenia 
+      <lb ed="#B" n="46"/>li. Similiter secundum aliam opi. 
+      proba<lb ed="#B" n="47" break="no"/>tui: quia nulla est connexio uenialium 
+      <lb ed="#B" n="48"/>adinuicem. Nec quantum ad auersionem 
+      <lb ed="#B" n="49"/>a deo: quia ab illo non auertunt: sicut  
+      <lb ed="#B" n="50"/>mortalia in hoc sunt connexa. Ideo unum 
+      <lb ed="#B" n="51"/>mortale sine alio remitti non potest. 
+      <!--591.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Nec quantum ad conuersionem ad 
+      crea<lb ed="#B" n="53" break="no"/>turam: ut satis patet. Nulla enim uidetur 
+      <lb ed="#B" n="54"/>connexio uerbi otiosi ad appetitum 
+      in<lb ed="#B" n="55" break="no"/>ordinatum cibi, uel solicitudinem 
+      min<lb ed="#B" n="56" break="no"/>ordinatam, citra tamen trans gressionem 
+      <lb ed="#B" n="57"/>praecepti: ergo unum potest sine alio 
+      re<lb ed="#B" n="58" break="no"/>mitti.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1065">
+      ¶ Secundo dubitatur: utrum 
+      pec<lb ed="#B" n="59" break="no"/>catum ueniale posset remitti manente 
+      <lb ed="#B" n="60"/>mortali. Et arguitur: quod non: quia 
+      pecca<lb ed="#B" n="61" break="no"/>tum remitti non potest sine gratia: sed  
+      <lb ed="#B" n="62"/>in habente mortale non potest esse 
+      gra<lb ed="#B" n="63" break="no"/>tia: ergo: Antecedens probatur peor illud 
+      <lb ed="#B" n="64"/>Prouer. x. Vnuersa delicta operit 
+      chari<lb ed="#B" n="65" break="no"/>tas In oppositum est: quia pena potest 
+      re<lb ed="#B" n="66" break="no"/>solui in mortali: ergo peccatum 
+      uenia<lb ed="#B" n="67" break="no"/>le. Tenet consequentia: quia nihil aliud  
+      <lb ed="#B" n="68"/>est remissio uenialis, nisi remissio 
+      rea<lb ed="#B" n="69" break="no"/>tus ad penam.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1091">
+      ¶ Circa hoc dubium est 
+      <lb ed="#B" n="70"/>duplex opi. Vna beati Thom. &amp; suorum 
+      <lb ed="#B" n="71"/>sequacium, quod non: quod sic probare 
+      ni<lb ed="#B" n="72" break="no"/>tuntur. Nam ueniale tollit feruorem 
+      cha<lb ed="#B" n="73" break="no"/>ritatis: sicut mortale tollit charitatem. 
+      <lb ed="#B" n="74"/>Sicut ergo mortale non dimittitur, 
+      nisi<lb ed="#B" n="75" break="no"/>restituatur charitas: ita nec ueniale 
+      nisi<lb ed="#B" n="76" break="no"/>restituatur feruor charitatis: sed feruor 
+      <lb ed="#B" n="77"/>charitatis, cum sit posterior charitate: 
+      <lb ed="#B" n="78"/>non potest restitui nisi restituta 
+      cha<lb ed="#B" n="79" break="no"/>ritate: haec autem restitui non potest 
+      ma<lb ed="#B" n="80" break="no"/>nente mortali.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1117">
+      ¶ Praeterea inimico 
+      quan<lb ed="#B" n="81" break="no"/>diu est inimicus, non remittitur ossensa, 
+      <lb ed="#B" n="82"/>nec parua, nec magna: sed habens morta 
+      <lb ed="#B" n="83"/>le est inimicus: ergo. Praeterea ueniale 
+      <lb ed="#B" n="84"/>non dimittitur nisi per actum aliquem 
+      <lb ed="#B" n="85"/>magis acceptum deo, quam peccatum 
+      <lb ed="#B" n="86"/>displicuit, sed nullus actus est deo acce- 
+      <lb ed="#B" n="87"/>ptus, nisi agens sit deo acceptum: quia 
+      <lb ed="#B" n="88"/>respexit dominus ad Abel prius: 
+      deinde<lb ed="#B" n="89" break="no"/>ad muneraeius qui autem est in 
+      morta<lb ed="#B" n="90" break="no"/>li, non est acceptus deo: igitur. Similia 
+      <lb ed="#B" n="91"/>arguit Pe. depalu. &amp; Richar.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1144">
+      ¶ Alia 
+      opi<lb ed="#B" n="92" break="no"/>nio Scot. quod potest ueniale dimitti 
+      ma<lb ed="#B" n="93" break="no"/>nente mortali: quia potest solui pena de 
+      <lb ed="#B" n="94"/>bita ueniali ab existente in mortali hic 
+      <lb ed="#B" n="95"/>in uia, &amp; in inferno: ut supra deductum 
+      <lb ed="#B" n="96"/>est: qua soluta solutum est peccatum 
+      ue<lb ed="#B" n="97" break="no"/>niale, ac demissum: quia transeunte actu 
+      <lb ed="#B" n="98"/>peccati, nihil manet in anima repugnans 
+      <lb ed="#B" n="99"/>remissioni peccati (quod additur 
+      pro<lb ed="#B" n="100" break="no"/>pter habitum uitiosum) nisi reatus 
+      poe<lb ed="#B" n="101" break="no"/>nae: sed soluta poena tollitur reatus 
+      pae<lb ed="#B" n="102" break="no"/>nae: &amp; ita nihil peccati manet. Haec secun¬ 
+      <!--592.xml-->
+      <pb ed="#B" n="543"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>da opinio est clementior, &amp; probabilior: 
+      <lb ed="#B" n="2"/>&amp; secundum hanc soluuntur rationes 
+      <lb ed="#B" n="3"/>primae opi.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1183">
+      ¶ Ad primum dicitur de 
+      fer<lb ed="#B" n="4" break="no"/>uore charitatis. Aut per feruorem 
+      intel<lb ed="#B" n="5" break="no"/>ligitur aliquid charitatis: puta gradus 
+      <lb ed="#B" n="6"/>intensionis charitatis. Et patet ex dictis: 
+      <lb ed="#B" n="7"/>quod peccatum ueniale non tollit huiusmo 
+      <lb ed="#B" n="8"/>di feruorem: quia non minuit charitatem: 
+      <lb ed="#B" n="9"/>secundum omnes. Si uero per feruorem 
+      <lb ed="#B" n="10"/>intelligitur actus charitatis: aut 
+      itelligi<lb ed="#B" n="11" break="no"/>tur actus inexistens: &amp; ita non tollit 
+      fer<lb ed="#B" n="12" break="no"/>uorem: non oportet, quod propter actum 
+      pcti<lb ed="#B" n="13" break="no"/>uenialis aliquis actus inexistens tollatur 
+      <lb ed="#B" n="14"/>Siautem intelligitur actus charitatis, qui 
+      <lb ed="#B" n="15"/>posset in esse: puta actus ille uenialis, 
+      qui<lb ed="#B" n="16" break="no"/>posset esse actus charitatis: si adessent 
+      <lb ed="#B" n="17"/>debitaecircumstantiae finis: &amp; caeterae, quam 
+      <lb ed="#B" n="18"/>reddunt actum meritorium: conceditur, 
+      <lb ed="#B" n="19"/>quod tollit feruorem, idest talem actum. 
+      <lb ed="#B" n="20"/>Sed negetur; quod peccatum non 
+      dimitti<lb ed="#B" n="21" break="no"/>tur; nisi restituatur talis actus: quia actus 
+      <lb ed="#B" n="22"/>ille non erit necessarius ad remissionem 
+      pec<lb ed="#B" n="23" break="no"/>cati uenialis: quia ueniale potest 
+      remitti<lb ed="#B" n="24" break="no"/>per quencunque actum meritorium relatum 
+      <lb ed="#B" n="25"/>ad remissionem peccati uenialis, uel 
+      per<lb ed="#B" n="26" break="no"/>poenae debitae solutionem, quae potest 
+      sol<lb ed="#B" n="27" break="no"/>ui ab omni existenti in peccato morta 
+      <lb ed="#B" n="28"/>li. Praeterea existens in mortali potest 
+      pec<lb ed="#B" n="29" break="no"/>care uenialiter: &amp; sic peccans non tollit 
+      <lb ed="#B" n="30"/>charitatis feruorem: cum talis non 
+      ha<lb ed="#B" n="31" break="no"/>beat charitatem: &amp; per consequens nec 
+      <lb ed="#B" n="32"/>eius feruorem.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1248">
+      ¶ Ad secundum 
+      dici<lb ed="#B" n="33" break="no"/>tur, quod inimico non remittitur offensa, 
+      <lb ed="#B" n="34"/>propter quam est inmicus, quandiu est 
+      <lb ed="#B" n="35"/>inimicus: sed propter ueniale nullus est 
+      <lb ed="#B" n="36"/>inimicus deo. Item non remittitur 
+      re<lb ed="#B" n="37" break="no"/>missione reconciliante inimicum: potest 
+      <lb ed="#B" n="38"/>tamen remitti remissione satisfaciente: 
+      <lb ed="#B" n="39"/>ut supra dictum est distin. praesenti. q.ij. 
+    </p>
+            <p xml:id="gbs333-v131990-d1e1266">
+               <lb ed="#B" n="40"/>¶ Ad tertium dicitur, quod maior non est 
+      <lb ed="#B" n="41"/>simpliciter uera: quia aliquando 
+      remit<lb ed="#B" n="42" break="no"/>titur peccatum ueniale per 
+      satisfactio<lb ed="#B" n="43" break="no"/>nem, &amp; nonper aliquem actum: ut in 
+      pur<lb ed="#B" n="44" break="no"/>gatorio. Et admissa maiore gratia 
+      argu<lb ed="#B" n="45" break="no"/>menti de remissione facta in praesentiui 
+      <lb ed="#B" n="46"/>ta. Dicitur ad minorem: quod licet nullus 
+      <lb ed="#B" n="47"/>actus sit acceptus deo: nisiis, qui agit, sit 
+      <lb ed="#B" n="48"/>acceptus quantum ad meritum uitae 
+      ae<lb ed="#B" n="49" break="no"/>ternae: quia nullus actus sine charitate 
+      <lb ed="#B" n="50"/>est meritorius uitae aeternae. Et tamen 
+      ali<lb ed="#B" n="51" break="no"/>quis actus, uel passio accepta ad remis¬ 
+      <!--592.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>sionem penae temporalis peccato uenia 
+      <lb ed="#B" n="53"/>li debitae eius, qui non est acceptus ad 
+      ui<lb ed="#B" n="54" break="no"/>tam. alio quin opera bona mortaliter 
+      iu<lb ed="#B" n="55" break="no"/>mortali facta ad nihil acceptarentur, quod 
+      <lb ed="#B" n="56"/>est contra omnes: &amp; ita intelligenda est 
+      <lb ed="#B" n="57"/>auctoritas allegata.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1312">
+      ¶ Tertio dubitatur: 
+      <lb ed="#B" n="58"/>quare quaedam opera bona assignantur 
+      <lb ed="#B" n="59"/>specialiter, per quae remittitur peccatum 
+      <lb ed="#B" n="60"/>ueniale: cum tamen per quodlibet opus 
+      <lb ed="#B" n="61"/>meritorium potest remitti ueniale 
+      pec<lb ed="#B" n="62" break="no"/>catum: ut supra dictum est. Respondetur 
+      <lb ed="#B" n="63"/>quod aliqua opera specialiter assignantur, 
+      <lb ed="#B" n="64"/>ut habetur in hoc metro. Orans, tinctus 
+      <lb ed="#B" n="65"/>edens, confessus, dans, benedicens. 
+      Oran<lb ed="#B" n="66" break="no"/>dominicam orationem. Dimitte nobis 
+      <lb ed="#B" n="67"/>debita nostra. Tinctus aqua benedicta. 
+      <lb ed="#B" n="68"/>Edens eucharistiam. Confitens sacramen 
+      <lb ed="#B" n="69"/>taliter, uel confessione generali. Dans 
+      <lb ed="#B" n="70"/>eleemosynam corporalem. Sumens 
+      be<lb ed="#B" n="71" break="no"/>nedictionem episcopalem. Sub 
+      oratio<lb ed="#B" n="72" break="no"/>ne includitur tonsio pectoris. Sub com 
+      <lb ed="#B" n="73"/>munione eucharistiae includitur digna 
+      <lb ed="#B" n="74"/>susceptio cuiuslibet sacramenti. Assignam 
+      <lb ed="#B" n="75"/>tur autem ista; non quod per hoc alia 
+      exclu<lb ed="#B" n="76" break="no"/>dantur: quoniam inter caetera maxime 
+      ua<lb ed="#B" n="77" break="no"/>set contritio, idest displicentia 
+      commissi<lb ed="#B" n="78" break="no"/>uenialis: sed quae dicta sunt, specialiter 
+      <lb ed="#B" n="79"/>assignantur: quia illi modi incitant libe 
+      <lb ed="#B" n="80"/>rum arbitrium ad detestationem 
+      pecca<lb ed="#B" n="81" break="no"/>ti, per quam efficacius remittitur. Tum 
+      <lb ed="#B" n="82"/>etiam, quia in illis concurrunt oratio, &amp; 
+      <lb ed="#B" n="83"/>meritum ecclesiae. Tum quia illa 
+      frequen<lb ed="#B" n="84" break="no"/>tius ex intentione agentis, uel ecclesiae 
+      <lb ed="#B" n="85"/>ordinantur ad remissionem uenialis. Tum 
+      <lb ed="#B" n="86"/>quia caetera ad illa reducuntur. Vamn quod 
+      <lb ed="#B" n="87"/>libet opus meritorium habet uim remit 
+      <lb ed="#B" n="88"/>tendi peccatum ueniale: de hoc late 
+      ha<lb ed="#B" n="89" break="no"/>betur in Pe. de palu. dist. psenti. qeii. ar.¬ 
+      <lb ed="#B" n="90"/>ij. Et de ualore aquae benedictae idem 
+      pul<lb ed="#B" n="91" break="no"/>chreloquitur dist. ij. q. i. ar. ij. conclu. ij. 
+      <lb ed="#B" n="92"/>Ad idem Hugo de sacramentis libro. ij. 
+      <lb ed="#B" n="93"/>par. ix. in prin. sanctus Tho. dist. praesenti 
+      <lb ed="#B" n="94"/>q.ij. ar. iiij. Alex. par. iiij. q.viij. membr. i. 
+      <lb ed="#B" n="95"/>ar. ij. S. j. Item. Rich. dist. xxj. ar. v. q. i. in 
+      <lb ed="#B" n="96"/>si. Item disti. i. ar. i. q. iii. Item August. in 
+      <lb ed="#B" n="97"/>enchiri. ca. Ixx. Item de conse. distin. iij. 
+      <lb ed="#B" n="98"/>Aquam sale &amp;c.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1403">
+      ¶ Quarto dubitatur. 
+      V<lb ed="#B" n="99" break="no"/>trum ueniale possit heri mortale: &amp; 
+      econ<lb ed="#B" n="100" break="no"/>uerso mortale possit fieri ueniale. Pro 
+      <lb ed="#B" n="101"/>solutione rememoranda sunt, quaedicta 
+      <lb ed="#B" n="102"/>suntlib. iii. distin. xxiij. qei. &amp; distin. prae¬ 
+      <!--593.xml-->
+      <pb ed="#B" n="544"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>senti. q. i. dub. j. quod duplex est actus 
+      uir<lb ed="#B" n="2" break="no"/>tuosus, similiter uitiosus, scilicet 
+      elici<lb ed="#B" n="3" break="no"/>tus, &amp; imperatus. Quodque elicitus est 
+      <lb ed="#B" n="4"/>naturaliter intrinsece, ac inuariabiliter 
+      <lb ed="#B" n="5"/>uirtuosus, uitiosus, uel indifferens. It: 
+      <lb ed="#B" n="6"/>quod actus elicitus uirtuosus non potest 
+      <lb ed="#B" n="7"/>fieriuitiosus, uel naturaliter indifferens: 
+      <lb ed="#B" n="8"/>nec econuerso: quia si actus aliquis 
+      uir<lb ed="#B" n="9" break="no"/>tuosus fieri debet uitiosus: necesse est a 
+      <lb ed="#B" n="10"/>liquid circa actum mutari: puta obiectum, 
+      <lb ed="#B" n="11"/>uel circumstantiam: sed mutato obiecto 
+      <lb ed="#B" n="12"/>non manet idem actus: similiter mutata 
+      <lb ed="#B" n="13"/>circumstantia non manet idem actus 
+      esi<lb ed="#B" n="14" break="no"/>citus: quia circumstantiae sunt obiecta 
+      <lb ed="#B" n="15"/>actus eliciti, non autem imperati: &amp; ideo 
+      <lb ed="#B" n="16"/>actus imperatus manens idem numero 
+      <lb ed="#B" n="17"/>in esse naturae, primo uirtuosus potest 
+      <lb ed="#B" n="18"/>fieri uitiosus, &amp; econuerso: &amp; multo 
+      ma<lb ed="#B" n="19" break="no"/>gis actus indifferens imperatus propter 
+      <lb ed="#B" n="20"/>mutationem actus eliciti potest 
+      primeo<lb ed="#B" n="21" break="no"/>esse indifferens: secundo uitiosus: 
+      tertio<lb ed="#B" n="22" break="no"/>uirtuosus. De hoc latius supra in 
+      tertio<lb ed="#B" n="23" break="no"/>ubi etiam allegantur dicti doctores 
+      di<lb ed="#B" n="24" break="no"/>hac materia.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1474">
+      ¶ Per hoc respondetur ad 
+      <lb ed="#B" n="25"/>dubium per duas propositiones. Prima 
+      <lb ed="#B" n="26"/>peccatum ueniale, quod est actus 
+      elici<lb ed="#B" n="27" break="no"/>tus in uoluntate nunquam potest 
+      fieri<lb ed="#B" n="28" break="no"/>mortale manens idem numero in esse 
+      <lb ed="#B" n="29"/>naturae. Probatur: quia nullus actus 
+      in<lb ed="#B" n="30" break="no"/>trifece: &amp; non denominatione 
+      extrin<lb ed="#B" n="31" break="no"/>seca uirtuosus, aut uitiosus, aut indiffe 
+      <lb ed="#B" n="32"/>rens, potest mutari manens idem 
+      nume<lb ed="#B" n="33" break="no"/>ro in esse naturae: ita ut primo, sit pecca 
+      <lb ed="#B" n="34"/>tum, postea non: aut primo ueniale, post 
+      <lb ed="#B" n="35"/>mortale, uel econuerso: sed omne 
+      pec<lb ed="#B" n="36" break="no"/>catum ueniale, quod est actus elicitus 
+      <lb ed="#B" n="37"/>est intrinsece uitiosum, &amp; peccatum 
+      ue<lb ed="#B" n="38" break="no"/>niale: ergo. Consequentia nota. Maior: 
+      <lb ed="#B" n="39"/>&amp; minor probatae sunt in. iij. dist. xxiij. 
+      <lb ed="#B" n="40"/>q. i Praeterea nunquam peccatum ueniale 
+      <lb ed="#B" n="41"/>potest fieri mortale: nec econuerso, 
+      nisi<lb ed="#B" n="42" break="no"/>hat aliqua mutatio circa actum 
+      peccati<lb ed="#B" n="43" break="no"/>uel obiecti, uel circumstantiae: sed 
+      quo<lb ed="#B" n="44" break="no"/>libet horum mutato, mutatur in esse 
+      na<lb ed="#B" n="45" break="no"/>turae actus peccatielicitus: &amp; per conse- 
+      <lb ed="#B" n="46"/>quens non manet idem actus. Haec 
+      pro<lb ed="#B" n="47" break="no"/>positio est de intentione sancti 
+      Bonau<lb ed="#B" n="48" break="no"/>distin. xvi. quarti. arti. iij. q.i dicentis. 
+      Cu<lb ed="#B" n="49" break="no"/>quaeritur: utrum mortale fiat ueniale: 
+      si<lb ed="#B" n="50" break="no"/>intelligitur: quod haec culpa per essentiam 
+      <lb ed="#B" n="51"/>fiat illa: nulla est quaestio: quia hoc est 
+      <!--593.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>impossibile. Videtur idem sentire Palu. 
+      <lb ed="#B" n="53"/>dist. xvii. q. i. arti. j. conclu. iij. ubi quaerit 
+      <lb ed="#B" n="54"/>an attritio possit fieri contritio: &amp; 
+      Ger<lb ed="#B" n="55" break="no"/>son sec. j. de uita spirituali animae.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1548">
+      ¶ 
+      Se<lb ed="#B" n="56" break="no"/>cunda propositio. Peccatum ueniale, quod 
+      <lb ed="#B" n="57"/>est actus imperatus, idem numero 
+      po<lb ed="#B" n="58" break="no"/>test fieri mortale, &amp; econuerso. 
+      Proba<lb ed="#B" n="59" break="no"/>tur: quia aliquis potest intrare ecclesiam 
+      <lb ed="#B" n="60"/>propter delectari carnaliter in cantu: 
+      <lb ed="#B" n="61"/>&amp; continuato motu potest mutare 
+      in<lb ed="#B" n="62" break="no"/>tentione, &amp; intrare ad prouocandum 
+      <lb ed="#B" n="63"/>concupiscentiam alicuius personae 
+      inor<lb ed="#B" n="64" break="no"/>dinatae dilectae. Transitus ille 
+      continua<lb ed="#B" n="65" break="no"/>tus est idem in esse naturae: quia idem 
+      <lb ed="#B" n="66"/>motus: &amp; tamen primo est peccatum 
+      ue<lb ed="#B" n="67" break="no"/>niale: &amp; secundo est mortale: &amp; ita 
+      po<lb ed="#B" n="68" break="no"/>test exemplari in alijs multis. Latior 
+      de<lb ed="#B" n="69" break="no"/>claratio quaeratur in loco allegato dist. 
+      <lb ed="#B" n="70"/>xxiij. lib. tertio. huius collect.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1583">
+      ¶ Sed 
+      cir<lb ed="#B" n="71" break="no"/>ca hoc primo quaeritur: utrum frequens 
+      <lb ed="#B" n="72"/>iteratio peccati uenialis reddat ipsum 
+      <lb ed="#B" n="73"/>mortale, &amp; hoc propter uerba August. 
+      <lb ed="#B" n="74"/>in textu allegata. Peccata quamuis 
+      par<lb ed="#B" n="75" break="no"/>ua: si tamen crebra surripientia colle- 
+      <lb ed="#B" n="76"/>cta fuerint: ita nos grauabunt, &amp; 
+      oppr<lb ed="#B" n="77" break="no"/>ment sicut unum aliquod peccatum. 
+    </p>
+            <p xml:id="gbs333-v131990-d1e1601">
+               <lb ed="#B" n="78"/>¶ Ad istud dubium dicitur: quod solam 
+      fre<lb ed="#B" n="79" break="no"/>quentia, &amp; consuetudo peccandi uenia 
+      <lb ed="#B" n="80"/>liter nunquam mutat ueniale in 
+      morta<lb ed="#B" n="81" break="no"/>tale: quoniam ut arguit Sco. dist. xxxix. 
+      <lb ed="#B" n="82"/>lib. iij. de consuetudinario iuramento. 
+      <lb ed="#B" n="83"/>Siprimum peccatum est ueniale: etiam 
+      <lb ed="#B" n="84"/>quodlibet aliud sequens eiusdem 
+      spe<lb ed="#B" n="85" break="no"/>cici est ueniale: quia est eadem ratio cum 
+      <lb ed="#B" n="86"/>iuslibet actus eiusdem speciei in 
+      gene<lb ed="#B" n="87" break="no"/>re moris. Nec habitus intensior reddit 
+      <lb ed="#B" n="88"/>peccatum grauius: quia non est maior 
+      <lb ed="#B" n="89"/>grauitas in habitu: quam in actu, ex quo 
+      <lb ed="#B" n="90"/>generatur: licet habitus intensior 
+      for<lb ed="#B" n="91" break="no"/>tius inclinet ad actum, non tamen ad 
+      <lb ed="#B" n="92"/>actum alterius generis: nec ad actum 
+      gra<lb ed="#B" n="93" break="no"/>uiorem: sed ad actum similem ei, a quo 
+      <lb ed="#B" n="94"/>genitus est: nunc autem actus peccati 
+      <lb ed="#B" n="95"/>uenialis: &amp; actus peccati mortalis 
+      gene<lb ed="#B" n="96" break="no"/>re, differunt in genere moris, &amp; ideo 
+      ha<lb ed="#B" n="97" break="no"/>bitus genitus ex uenialibus peccatis non 
+      <lb ed="#B" n="98"/>inclinat nisi ad uenialia peccata.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1649">
+      ¶ Ad 
+      <lb ed="#B" n="99"/>Augu. dicitur: quod loquitur dispositiue non 
+      <lb ed="#B" n="100"/>quidem dispositione necessitante, sed  
+      <lb ed="#B" n="101"/>inclinante: nam consuetudo peccandi 
+      <lb ed="#B" n="102"/>uenialiter, reddit hominem minus timo¬ 
+      <!--594.xml-->
+      <pb ed="#B" n="545"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ratum: &amp; auget libidinem peccandi, quae 
+      <lb ed="#B" n="2"/>facile crescit adcontemptum: ut si quis 
+      <lb ed="#B" n="3"/>tantum declaretur in mendacio 
+      ioco<lb ed="#B" n="4" break="no"/>so: quod etiam illud non dimitteret, si 
+      prohi<lb ed="#B" n="5" break="no"/>beretur: iam commissum cum 
+      talicon<lb ed="#B" n="6" break="no"/>temptu praecepti esset mortale. Et ad hoc 
+      <lb ed="#B" n="7"/>sunt exempla Augu. de multiplicatione 
+      <lb ed="#B" n="8"/>guttarum, &amp; arenae, quae secundum se non 
+      <lb ed="#B" n="9"/>obruunt, &amp; submergunt nauem: sed 
+      di<lb ed="#B" n="10" break="no"/>sponunt nauem, ut facilius obruatur 
+      flu<lb ed="#B" n="11" break="no"/>ctibus, quibus perit.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1691">
+      ¶ Sexto quaeritur: an 
+      <lb ed="#B" n="12"/>consensus in peccatum ueniale, quo 
+      pla<lb ed="#B" n="13" break="no"/>cet: faciat ipsum mortale. Quoniam teste 
+      <lb ed="#B" n="14"/>Augu. Non est peccatum adeo ueniale; quando 
+      <lb ed="#B" n="15"/>fiat mortale, dum placet. Ad istam 
+      quae<lb ed="#B" n="16" break="no"/>stiunculam distinguit sanctus Bonauent. 
+      <lb ed="#B" n="17"/>&amp; alij triplex peccatum ueniale. Quod 
+      <lb ed="#B" n="18"/>dam est ueniale ex sola surreptione, idest 
+      <lb ed="#B" n="19"/>sine aduertentia, quod praeuenit 
+      delibe<lb ed="#B" n="20" break="no"/>rationem: &amp; illud sicut uitari non potest: 
+      <lb ed="#B" n="21"/>ita etiam nunquam sit mortale: 
+      quandiu<lb ed="#B" n="22" break="no"/>manet in illo genere ex surreptione: 
+      se<lb ed="#B" n="23" break="no"/>cus si maneret, seu continuaretur actus 
+      <lb ed="#B" n="24"/>ex surreptione inceptus quousque 
+      ac<lb ed="#B" n="25" break="no"/>cederet perfecta deliberatio: quia tunc 
+      <lb ed="#B" n="26"/>non manet surreptitius. Secundum est, 
+      <lb ed="#B" n="27"/>quod sit cum cogitatione, siue aduertentia, 
+      <lb ed="#B" n="28"/>sed sine pleno consensu: ut in cogitatio 
+      <lb ed="#B" n="29"/>ne de muliere, &amp; in delectatione citra 
+      <lb ed="#B" n="30"/>consensum in delectationem. Tertium 
+      <lb ed="#B" n="31"/>est ueniale cum ratione, &amp; consensu: sed  
+      <lb ed="#B" n="32"/>ideo est ueniale: quia non est contra 
+      p<lb ed="#B" n="33" break="no"/>ceptum: ut uerbum ociosum, &amp; 
+      menda<lb ed="#B" n="34" break="no"/>cium iocosum. Et per hoc dicitur: quod 
+      ue<lb ed="#B" n="35" break="no"/>niale primo, uel secundo modo, si acce- 
+      <lb ed="#B" n="36"/>dat consensus perfectus, erit mortale: 
+      <lb ed="#B" n="37"/>nam propter defectum consensus, aut  
+      <lb ed="#B" n="38"/>imperfectionem eius fuit ueniale: ideo 
+      <lb ed="#B" n="39"/>accedente consensu, cessat ratio uenialis 
+      <lb ed="#B" n="40"/>peccati: &amp; nihil deficit de ratione morta 
+      <lb ed="#B" n="41"/>lis. Et dicitur notanter consensus 
+      per<lb ed="#B" n="42" break="no"/>fectus: quoniam ut dicit Sco. dist. xxxix. 
+      <lb ed="#B" n="43"/>tertii, sicut actus meritorius requirit, quod 
+      <lb ed="#B" n="44"/>sit plene humanus: hoc est, quod sit ex 
+      ple<lb ed="#B" n="45" break="no"/>na deliberatione, &amp; consensu: ita non 
+      <lb ed="#B" n="46"/>minus actus demeritorius idem requirit: 
+      <lb ed="#B" n="47"/>quia non est deus pronior ad 
+      condem<lb ed="#B" n="48" break="no"/>nandum, quam ad parcendum. Et cum 
+      <lb ed="#B" n="49"/>actus de genere mortalis sit non cum 
+      <lb ed="#B" n="50"/>plena deliberatione propter defectum 
+      <lb ed="#B" n="51"/>perfecti consensus, qui praesupponit de¬ 
+      <!--594.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>liberationem perfectam: non censetur 
+      <lb ed="#B" n="53"/>mortale.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1790">
+      ¶ Sed hic nihilominus aduertem 
+      <lb ed="#B" n="54"/>dum: quod habituatus quandoque habet bre 
+      <lb ed="#B" n="55"/>uem deliberationem, quae non uidetur 
+      <lb ed="#B" n="56"/>deliberatio: uerum, quia habet 
+      pruden<lb ed="#B" n="57" break="no"/>tiam magnam, qua promptus est ad 
+      deli<lb ed="#B" n="58" break="no"/>berandum quasi in tempore 
+      impercepti<lb ed="#B" n="59" break="no"/>bili: talis deliberatio est sufficiens ad 
+      ra<lb ed="#B" n="60" break="no"/>tionem meriti, &amp; peccati.
+    </p>
+            <p xml:id="gbs333-v131990-d1e1808">
+      ¶ De ueniali 
+      <lb ed="#B" n="61"/>tertij ordinis dicitur, quod illud non sit 
+      <lb ed="#B" n="62"/>mortale nisi per consensum quiescentem 
+      <lb ed="#B" n="63"/>in eo tanquam in fine: ut si quis 
+      tantali<lb ed="#B" n="64" break="no"/>bidine afficeretur ad mendacium 
+      loco<lb ed="#B" n="65" break="no"/>sum, quod etiam ipsum continuare uellet 
+      <lb ed="#B" n="66"/>contra praeceptum, si a domino 
+      prohi<lb ed="#B" n="67" break="no"/>beretur: ibi poneretur quies in 
+      menda<lb ed="#B" n="68" break="no"/>cio iocoso plusquam in deo: &amp; tunc 
+      Sen<lb ed="#B" n="69" break="no"/>per concurreret contemptus dei: cui in 
+      <lb ed="#B" n="70"/>casu praeponeretur mendacium iocosun. 
+      <lb ed="#B" n="71"/>Et ibi locum habet uerbum Aug. Nullum 
+      <lb ed="#B" n="72"/>pctamen est a deo ueniale, quin posset 
+      fieri<lb ed="#B" n="73" break="no"/>mortale: dum placet: non qualibet 
+      pla<lb ed="#B" n="74" break="no"/>centia: sed ea qua uoluntas in ea 
+      quie<lb ed="#B" n="75" break="no"/>scit tanquam infinem: quod tumc sit, quam 
+      <lb ed="#B" n="76"/>do plus placet, quam deus: puta quando 
+      <lb ed="#B" n="77"/>uult magis actum huiusmodi, quam 
+      ami<lb ed="#B" n="78" break="no"/>citiam dei, qui est uere, &amp; simpliciter ul 
+      <lb ed="#B" n="79"/>timus finis. Vel intelligitur haec 
+      auctori<lb ed="#B" n="80" break="no"/>tas de uenialibus tantum primi, &amp; 
+      secun<lb ed="#B" n="81" break="no"/>di generis: aut tertio, ut exponit Gerso 
+      <lb ed="#B" n="82"/>in de uita animae lec. i.t Dum placet, 
+      in<lb ed="#B" n="83" break="no"/>quantum est peccatum, &amp; dei ossensiuum: 
+      <lb ed="#B" n="84"/>absque alio quocunque motiuo, uel 
+      alse<lb ed="#B" n="85" break="no"/>ctiuo ad peccandum: istud enim uidetur 
+      <lb ed="#B" n="86"/>diabolicae obstinationis proprium, quod 
+      im<lb ed="#B" n="87" break="no"/>pugnetur deus, &amp; odio habeatur gratis 
+      <lb ed="#B" n="88"/>Vnde breuiter consensus in ueniale, ut  
+      <lb ed="#B" n="89"/>ueniale est etiam deliberatus, non est 
+      <lb ed="#B" n="90"/>nisi uenialis: &amp; quamuis peccans 
+      uenia<lb ed="#B" n="91" break="no"/>liter ex deliberatione abutatur dei 
+      mi<lb ed="#B" n="92" break="no"/>sericordia, qui concessit peccatum 
+      il<lb ed="#B" n="93" break="no"/>lud esse ueniale, non mortale: tamen non 
+      <lb ed="#B" n="94"/>peccat mortaliter: &amp; in hoc plurimum 
+      <lb ed="#B" n="95"/>relucet misericordia dei qud abusus ille 
+      <lb ed="#B" n="96"/>etiam deliberatus non est nisi 
+      ue<lb ed="#B" n="97" break="no"/>nialis. Et tantum de illa 
+      quae<lb ed="#B" n="98" break="no"/>stione, ac tota 
+      distin<lb ed="#B" n="99" break="no"/>ctione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

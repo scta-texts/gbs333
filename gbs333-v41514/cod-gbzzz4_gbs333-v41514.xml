@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="170"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v41514"><!-- l4-d8q2 -->
+            <head xml:id="gbs333-v41514-Hd1e101">Quaestio 2</head>
+            <head xml:id="gbs333-v41514-Hd1e103" type="question-title">
+      utrum cum figurarum 
+      praecedentium pluralitate salue 
+      tur unitas sacramenti 
+      eucharistiae
+    </head>
+            <p xml:id="gbs333-v41514-d1e106">
+               <lb ed="#B" n="13"/>QVAESTIO II 
+      <lb ed="#B" n="14"/>SECVNDO quaeritur 
+      u<lb ed="#B" n="15" break="no"/>trum cum figurarum 
+      prae<lb ed="#B" n="16" break="no"/>cedentium pluralitate salue 
+      <lb ed="#B" n="17"/>tur unitas sacramenti 
+      eu<lb ed="#B" n="18" break="no"/>charistiae.
+    </p>
+            <p xml:id="gbs333-v41514-d1e122">
+      ¶ More solito tribus articulis 
+      <lb ed="#B" n="19"/>terminabitur haec quaestio, scilicet nota 
+      <lb ed="#B" n="20"/>bilium praemissione: conclusionum 
+      asser<lb ed="#B" n="21" break="no"/>tione: &amp; dubiorum solutione.
+    </p>
+            <p xml:id="gbs333-v41514-d1e131">
+      ¶ Quo ad 
+      <lb ed="#B" n="22"/>primum notandum secundum sanctum 
+      <lb ed="#B" n="23"/>ponauent. q. j. huius dist. duplici 
+      ratio<lb ed="#B" n="24" break="no"/>ne, sacramenta praefigurantur. scilicet  
+      <lb ed="#B" n="25"/>ratione suae dignitatis: &amp; ratione 
+      diffi<lb ed="#B" n="26" break="no"/>cultatis. Pigura enim attestatr dignitati 
+      <lb ed="#B" n="27"/>igurati. Quo.n. res dignior: eo magis 
+      <lb ed="#B" n="28"/>ea congruit praesigurari: ut sic 
+      pcurren<lb ed="#B" n="29" break="no"/>tibus figuris famosior fieret eius 
+      digni<lb ed="#B" n="30" break="no"/>tas. Sic quomodo aliquid difficilius 
+      cre<lb ed="#B" n="31" break="no"/>ditur: eo magis indiget sigurarum 
+      ma<lb ed="#B" n="32" break="no"/>nuductione, quibus homines assuefiant 
+      <lb ed="#B" n="33"/>ad credendem. Et licet omnia sacramen 
+      <lb ed="#B" n="34"/>ta aliquo modo in lege fuerunt 
+      praefi<lb ed="#B" n="35" break="no"/>gurata: isla tamen duo baptismus, &amp; 
+      eu<lb ed="#B" n="36" break="no"/>charistia praeciput praefigurari 
+      debue<lb ed="#B" n="37" break="no"/>runt: Tum propter difficultatem in cre 
+      <lb ed="#B" n="38"/>dendo: quae est in baptismo: qui est 
+      pri<lb ed="#B" n="39" break="no"/>mum sacramentum: &amp; fideiianua. In 
+      eu<lb ed="#B" n="40" break="no"/>charistia propter plura miracula. Tum 
+      <lb ed="#B" n="41"/>propter dignitate, quae est in baptismo 
+      <lb ed="#B" n="42"/>propter efncaciam. In eucharistia 
+      pro<lb ed="#B" n="43" break="no"/>pter continentiam. Tum propter eccle- 
+      <lb ed="#B" n="44"/>siae unitatem: in baptismo, quantum ad 
+      <lb ed="#B" n="45"/>inchoationem: in eucharistia, quantum 
+      <lb ed="#B" n="46"/>ad consummationem. Vel in baptismo 
+      <lb ed="#B" n="47"/>quantum ad signaculum christianitatis: 
+      <lb ed="#B" n="48"/>in eucharistia quantum ad cultum 
+      diui<lb ed="#B" n="49" break="no"/>nitatis.
+    </p>
+            <p xml:id="gbs333-v41514-d1e195">
+      ¶ Secundo notandum, quod quanto 
+      <!--221.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>maior est perfectio sigurati, &amp; sigurarum 
+      <lb ed="#B" n="51"/>imperfectio: tanto pluribus siguris opus 
+      <lb ed="#B" n="52"/>est, ut plenius figurati perfectio aperia 
+      <lb ed="#B" n="53"/>tur. Vnde cum ueuerabilis eucharistia 
+      <lb ed="#B" n="54"/>sit omnium sacramentorum 
+      perfectissi<lb ed="#B" n="55" break="no"/>mum: ideo pluribus, ac multiplicibus 
+      figu<lb ed="#B" n="56" break="no"/>ris est siguratum, &amp; quantum ad 
+      mate<lb ed="#B" n="57" break="no"/>riam, &amp; quantum ad contentum: quan 
+      <lb ed="#B" n="58"/>tum ad rem tantum: &amp; quantum ad 
+      es<lb ed="#B" n="59" break="no"/>fectum: ut habetur in pe. ubi supra. De 
+      <lb ed="#B" n="60"/>cuius latissima persecutione uide lect. 
+      <lb ed="#B" n="61"/>lu. in qua plurimae sigurae quantum ad 
+      om<lb ed="#B" n="62" break="no"/>nia praefata cum suis rationibus 
+      colli<lb ed="#B" n="63" break="no"/>guntur.
+    </p>
+            <p xml:id="gbs333-v41514-d1e232">
+      ¶ Tertio notandum, quod licet plures 
+      <lb ed="#B" n="64"/>sint huius sacramenti figurae: magistertamn 
+      <lb ed="#B" n="65"/>ex illis omnibus elegit quatuor, quas 
+      con<lb ed="#B" n="66" break="no"/>memorat tanquam magis principales scilicet 
+      <lb ed="#B" n="67"/>nanna: agnum pascalem: oblationem 
+      <lb ed="#B" n="68"/>Meschile dech: &amp; esfluxum sanguinis 
+      de<lb ed="#B" n="69" break="no"/>christi latere. Et hoc quantum ad leges: 
+      <lb ed="#B" n="70"/>&amp; quantum ad figurata, quae in hoc 
+      sa<lb ed="#B" n="71" break="no"/>cramento, uel sunt realiter, uel 
+      signifi<lb ed="#B" n="72" break="no"/>cantur per ipsum.
+    </p>
+            <p xml:id="gbs333-v41514-d1e254">
+      ¶ Quo ad leges: nam 
+      <lb ed="#B" n="73"/>in lege naturae fuit sigura oblatio 
+      Mel<lb ed="#B" n="74" break="no"/>chisedech. In lege Morsi agnus, &amp; 
+      mau<lb ed="#B" n="75" break="no"/>na. In lege gratiae, sanguis fluens 
+      de<lb ed="#B" n="76" break="no"/>christi latere.
+    </p>
+            <p xml:id="gbs333-v41514-d1e265">
+      ¶ Quantum ad sigurata: 
+      <lb ed="#B" n="77"/>nam in hoc est uisibilis forma, species 
+      <lb ed="#B" n="78"/>uidelicet panis, &amp; uini: &amp; hoc figuratur 
+      <lb ed="#B" n="79"/>in oblatione Mechisedech, quipanem, 
+      <lb ed="#B" n="80"/>&amp; uinum obtulit. Ge. xiiij. Est &amp; res 
+      conte<lb ed="#B" n="81" break="no"/>ta scilicet corpus christi uerum, &amp; haec in 
+      agno<lb ed="#B" n="82" break="no"/>paschali figuratur, qui sua oblatione, &amp; 
+      <lb ed="#B" n="83"/>languine fuso, quo postes, &amp; 
+      supersimi<lb ed="#B" n="84" break="no"/>naria domus limebantur: &amp; sic a 
+      percus<lb ed="#B" n="85" break="no"/>sore angelo liberabantur. Exo. xij. Sic 
+      <lb ed="#B" n="86"/>corpus christi in cruce oblatum suo 
+      san<lb ed="#B" n="87" break="no"/>guine nos liberauit ab angelo 
+      extermi<lb ed="#B" n="88" break="no"/>natore.
+    </p>
+            <p xml:id="gbs333-v41514-d1e294">
+      ¶ Est &amp; ies significata, &amp; non 
+      con<lb ed="#B" n="89" break="no"/>tenta, scilicet corpus christi nosticum, 
+      <lb ed="#B" n="90"/>quod est ecclesia: &amp; hoc 
+      praefiguraba<lb ed="#B" n="91" break="no"/>tur in manna: nam manna erat tanquam 
+      <lb ed="#B" n="92"/>semen Coriandri: quod collectum, &amp; 
+      <lb ed="#B" n="93"/>contulum coquebatur in panes: ut 
+      ha<lb ed="#B" n="94" break="no"/>betur Exo. xvj. Est etiam ibi uirtus, &amp; 
+      <lb ed="#B" n="95"/>efficacia: &amp; figurata est in effluxu 
+      san<lb ed="#B" n="96" break="no"/>guinis de latere christi. Illud tamen 
+      ul<lb ed="#B" n="97" break="no"/>timum: ut dicit sanctus Bonauen. magis 
+      <lb ed="#B" n="98"/>tenet rationem causae: tenet tamen etiam 
+      <lb ed="#B" n="99"/>rationem figurae pensatis 
+      circumstan<lb ed="#B" n="100" break="no"/>tijs: scilicet, quod de passio, &amp; mortuo pr¬ 
+      <!--222.xml-->
+      <pb ed="#B" n="171"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>fluxit sanguis, &amp; aqua. unde August. 
+      su<lb ed="#B" n="2" break="no"/>per illud ad Eph. v. Sacramentum hoc  
+      <lb ed="#B" n="3"/>magnum est: ego autem dico in christo, 
+      <lb ed="#B" n="4"/>&amp; in ecclesia. dicit. Dormit Adam, ut fiat 
+      <lb ed="#B" n="5"/>Eua: moritur christus, ut fiat ecclesia. 
+      <lb ed="#B" n="6"/>Dormiente Adam sit Eua de latere: 
+      dor<lb ed="#B" n="7" break="no"/>mientis christi percutiturlatus, &amp; 
+      pro<lb ed="#B" n="8" break="no"/>fluunt sacramenta, quibus formatur ec 
+      <lb ed="#B" n="9"/>clesia. Ideo autem magis dicuntur 
+      flu<lb ed="#B" n="10" break="no"/>xisse de latere, quam depedibus, uel 
+      nia<lb ed="#B" n="11" break="no"/>nibus propter conuenientiam in 
+      signi<lb ed="#B" n="12" break="no"/>ficando: quia simulprofluxit sanguis 
+      <lb ed="#B" n="13"/>&amp; aqua, &amp; de mortuo sanguis in redem 
+      <lb ed="#B" n="14"/>ptionis praecium: &amp; aqua in lauacrum, 
+      <lb ed="#B" n="15"/>quae uirtutem fortiuntur ex morte 
+      chir<lb ed="#B" n="16" break="no"/>sti. Sunt &amp; aliae applicationes harum 
+      qua<lb ed="#B" n="17" break="no"/>tuor figurarum, quae habentur in expo 
+      <lb ed="#B" n="18"/>sitione cano. loco allega.
+    </p>
+            <p xml:id="gbs333-v41514-d1e368">
+      ¶ Quarto 
+      no<lb ed="#B" n="19" break="no"/>tandum, quod unum multipliciter. v. &amp;. x. 
+      <lb ed="#B" n="20"/>Meta, accipitur. Vno modo 
+      proprijssi<lb ed="#B" n="21" break="no"/>me, ut dicit unitatem indiuisibilitatis: 
+      <lb ed="#B" n="22"/>&amp; hoc modo nullum diuisibile est unum: 
+      <lb ed="#B" n="23"/>sed solum indiuisibilia: ut deus, angelus, 
+      <lb ed="#B" n="24"/>anima. Alio modo accipitur proprie. ut  
+      <lb ed="#B" n="25"/>dicit unitatem compositionis: &amp; sic 
+      ho<lb ed="#B" n="26" break="no"/>mo, &amp; composita substantialia dicuntur 
+      <lb ed="#B" n="27"/>unum. Tertio modo improprie, ut dicit 
+      <lb ed="#B" n="28"/>unitatem aggregationis, uel 
+      collectio<lb ed="#B" n="29" break="no"/>nis: quomodo multa separata abinuicem 
+      <lb ed="#B" n="30"/>loco, &amp; subjecto dicuntur unum: ut unus 
+      <lb ed="#B" n="31"/>populus, unus cumulus: &amp; illi modi non 
+      <lb ed="#B" n="32"/>sunt ad propositum.
+    </p>
+            <p xml:id="gbs333-v41514-d1e402">
+      ¶ Sed adhuc 
+      accipi<lb ed="#B" n="33" break="no"/>tur quinque modis, ad nostrum propositum. 
+      <lb ed="#B" n="34"/>Vno modo, ut dicit unitatem 
+      sacramen<lb ed="#B" n="35" break="no"/>ti: &amp; sic quaecunque requiruntur ad 
+      con<lb ed="#B" n="36" break="no"/>stitutionem sacramenti, sine quibus non 
+      <lb ed="#B" n="37"/>esset sacramentum, dicuntur unum facra 
+      <lb ed="#B" n="38"/>mentum. Secundo modo, ut dicit 
+      uni<lb ed="#B" n="39" break="no"/>tatem significationis: &amp; sic multa idem 
+      <lb ed="#B" n="40"/>significantia: uel ad idem significandum 
+      <lb ed="#B" n="41"/>ordinata, dicuntur unum significans. 
+      <lb ed="#B" n="42"/>Tertio modo, unitatem continentiae: sit 
+      <lb ed="#B" n="43"/>dicuntur idem, quae idem continent. 
+      Qua<lb ed="#B" n="44" break="no"/>to modo, unitatem effectus: rc unum 
+      di<lb ed="#B" n="45" break="no"/>cuntur, quae idem efficiunt. Quinto 
+      mo<lb ed="#B" n="46" break="no"/>do, unitatem ordinis, seu finis: sic 
+      uni<lb ed="#B" n="47" break="no"/>dicuntur, quae ad idem ordinantur 
+      tan<lb ed="#B" n="48" break="no"/>quam ad finem. Et haec de articulo 
+      pri<lb ed="#B" n="49" break="no"/>mo.
+    </p>
+            <p xml:id="gbs333-v41514-d1e441">
+      ¶ Quantum ad secundum articulum 
+      <lb ed="#B" n="50"/>est haec prima conclusio. Secundum 
+      di<lb ed="#B" n="51" break="no"/>uersas considerationes acramenti eu¬ 
+      <!--222.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>charistiae praecesserunt sigurae 
+      multipli<lb ed="#B" n="53" break="no"/>ces in omnilege. Patet conclusio: quia 
+      <lb ed="#B" n="54"/>alijs figuris praefiguratum est 
+      conside<lb ed="#B" n="55" break="no"/>ratum, ut cibus: aliis ut hostia, uel 
+      sacri<lb ed="#B" n="56" break="no"/>cisium: aliis ut salutarium effectum 
+      ope<lb ed="#B" n="57" break="no"/>ratiuum: prout haec latè declarata sunt 
+      <lb ed="#B" n="58"/>lect. Iu. in expositione saeri canonis. 
+      <lb ed="#B" n="59"/>Quod etiam aliae praecesserunt sigurae 
+      <lb ed="#B" n="60"/>in lege naturali: aliae in lege Movlaica: 
+      <lb ed="#B" n="61"/>&amp; aliae in lege gratiae: iam dictum est in 
+      <lb ed="#B" n="62"/>art culo primo.
+    </p>
+            <p xml:id="gbs333-v41514-d1e476">
+      ¶ Secunda 
+      conclusio<lb ed="#B" n="63" break="no"/>Sicut species panis, &amp; species uini non 
+      <lb ed="#B" n="64"/>sunt unum per se simpliciter, &amp; propriei: 
+      <lb ed="#B" n="65"/>ita nec sunt unum sacramenti unitate. 
+      <lb ed="#B" n="66"/>Prima pars est manifesta: quia non sunt 
+      <lb ed="#B" n="67"/>unum indiuisibile, nec compositum per 
+      <lb ed="#B" n="68"/>se unum: sed accidentia plura inter se 
+      <lb ed="#B" n="69"/>realiter distincta: puta color, sapor &amp;c. 
+      <lb ed="#B" n="70"/>Secunda pars probatur: quia species 
+      pa<lb ed="#B" n="71" break="no"/>nis sine speciebus uini sunt sacramentum, 
+      <lb ed="#B" n="72"/>alioquin laicus communicans non 
+      acci<lb ed="#B" n="73" break="no"/>peret sacramentum. Similiter species 
+      ui<lb ed="#B" n="74" break="no"/>ni sine speciebe panis: suntfacim: alioquando 
+      <lb ed="#B" n="75"/>sumpto facio sub speciebus panis: species 
+      <lb ed="#B" n="76"/>uini in calice no essent sacramentum, quam 
+      <lb ed="#B" n="77"/>patent esse falia: &amp; per consequens non 
+      <lb ed="#B" n="78"/>sunt unum sacramentum unitate 
+      sacra<lb ed="#B" n="79" break="no"/>menti: eo quod utraeque species tam panis, 
+      <lb ed="#B" n="80"/>quam uini solae sunt uerum 
+      sacramen<lb ed="#B" n="81" break="no"/>tum.
+    </p>
+            <p xml:id="gbs333-v41514-d1e520">
+      ¶ Tertia conclusio. Licet species 
+      pa<lb ed="#B" n="82" break="no"/>nis, &amp; uini non sint unum sacramentum 
+      <lb ed="#B" n="83"/>unitate significati, &amp; contenti per se, 
+      <lb ed="#B" n="84"/>&amp; primo modo: sunttamen unum utro 
+      <lb ed="#B" n="85"/>que modo loquendo de 
+      totalisignifica<lb ed="#B" n="86" break="no"/>to, &amp; contento. Primum patet: quia 
+      spe<lb ed="#B" n="87" break="no"/>cies panis, &amp; species uini habent 
+      diuer<lb ed="#B" n="88" break="no"/>sa, &amp; non unum significatum, &amp; 
+      conten<lb ed="#B" n="89" break="no"/>tum, per se, &amp; primo. Nam significatum 
+      <lb ed="#B" n="90"/>perse, &amp; primo, specierum panis, est cor 
+      <lb ed="#B" n="91"/>pus christi: ut corpus non includit 
+      san<lb ed="#B" n="92" break="no"/>guinem: sed ut tantum dicit subiectum 
+      <lb ed="#B" n="93"/>animae immediatum. Et spec erum uini, 
+      <lb ed="#B" n="94"/>est tantum sanguis, quae sunt diuersa, &amp; 
+      <lb ed="#B" n="95"/>non unum. Secunda pars probatur: quia 
+      <lb ed="#B" n="96"/>utrarumque specierum panis, &amp; uini est unum 
+      <lb ed="#B" n="97"/>significatum, &amp; contentum totale, 
+      sci<lb ed="#B" n="98" break="no"/>licet corpus christi: accipiendo corpus 
+      <lb ed="#B" n="99"/>ut includit sanguinem: quia utrobique 
+      <lb ed="#B" n="100"/>continetur corpus, &amp; sanguis: deitas, &amp; 
+      <lb ed="#B" n="101"/>aninmia: non quidem per se, &amp; primo, idest 
+      <lb ed="#B" n="102"/>ui conseciationis: sed quaedam per se, qu¬ 
+      <!--223.xml-->
+      <pb ed="#B" n="172"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dam per concomitantiam: ut infra 
+      pa<lb ed="#B" n="2" break="no"/>tebit: &amp; de his require lec. iiij.
+    </p>
+            <p xml:id="gbs333-v41514-d1e579">
+      ¶ Quarta 
+      <lb ed="#B" n="3"/>conclusio. Non solum species panis, &amp; 
+      <lb ed="#B" n="4"/>uini: sed ipse simulcum eucharistiae 
+      con<lb ed="#B" n="5" break="no"/>secratione, &amp; sumptione sunt unum 
+      sa<lb ed="#B" n="6" break="no"/>cramentum finis proprij, &amp; ordinis 
+      uni<lb ed="#B" n="7" break="no"/>tate. Probatur: quia omnia haec ordinam 
+      <lb ed="#B" n="8"/>tur in spiritualem hominis refectionem 
+      <lb ed="#B" n="9"/>&amp; nutritionem tanquam ad finem 
+      pro<lb ed="#B" n="10" break="no"/>prium: ergo sunt hac unitate unum. 
+      Co<lb ed="#B" n="11" break="no"/>sequentia tenet ex ultimo notabili: &amp; 
+      <lb ed="#B" n="12"/>antecedens est satis manifestum. De 
+      u<lb ed="#B" n="13" break="no"/>nitate effectus dicitur, sicut de unitate 
+      <lb ed="#B" n="14"/>significati, &amp; contenti.
+    </p>
+            <p xml:id="gbs333-v41514-d1e608">
+      ¶ Quantum ac 
+      <lb ed="#B" n="15"/>tertium articulum est dubium. Vtrum 
+      <lb ed="#B" n="16"/>facramentum eucharistiae possit conse 
+      <lb ed="#B" n="17"/>crari: aut sumia non ieiunis licite. No¬n 
+      <lb ed="#B" n="18"/>tandum, quod duplex est ieiunium: naturae 
+      <lb ed="#B" n="19"/>&amp; ecclesiae: utrumque describitur in 
+      ex<lb ed="#B" n="20" break="no"/>positione cano. lec. x. Quo praemisso 
+      re<lb ed="#B" n="21" break="no"/>spondetur, quod tam ad celebrandum, quam 
+      <lb ed="#B" n="22"/>ad manducandum licite, &amp; ordinate i,d et 
+      <lb ed="#B" n="23"/>sine peccato requiritur regulariter 
+      ieiu<lb ed="#B" n="24" break="no"/>nium naturae. Probationem require ubi 
+      <lb ed="#B" n="25"/>supra addito. c nihil. vij. q. i. ubi dicitur 
+      <lb ed="#B" n="26"/>Nullus potest cibum, potumque 
+      quemli<lb ed="#B" n="27" break="no"/>bet minimum sumptum missas facere 
+      <lb ed="#B" n="28"/>praesumat.
+    </p>
+            <p xml:id="gbs333-v41514-d1e642">
+      ¶ Dicitur regulariter: quia ir 
+      <lb ed="#B" n="29"/>casu potest sumi, &amp; consecrari a non ie 
+      <lb ed="#B" n="30"/>iuno: &amp; sunt casus duo. Vnus quantum 
+      <lb ed="#B" n="31"/>ad sumentes est infirmitas, qua timetur 
+      <lb ed="#B" n="32"/>periculum mortis. In hoc casu 
+      commu<lb ed="#B" n="33" break="no"/>nicandus est infirmus: licet non sit 
+      ieiu<lb ed="#B" n="34" break="no"/>nus.
+    </p>
+            <p xml:id="gbs333-v41514-d1e658">
+      ¶ Sed quid, si imminet necessitas 
+      <lb ed="#B" n="35"/>alicuius morituri; &amp; non sit particula 
+      re<lb ed="#B" n="36" break="no"/>seruata: &amp; sacerdosiam sit pransus: 
+      nun<lb ed="#B" n="37" break="no"/>quid potest consecrare non ieiunus, &amp; 
+      <lb ed="#B" n="38"/>prouidere infirmo. Credo, quod in casu non 
+      <lb ed="#B" n="39"/>debet: sicut in simili pransus non debet 
+      <lb ed="#B" n="40"/>supplere defectum sacerdotis in missa 
+      de<lb ed="#B" n="41" break="no"/>ficientis: quia suppletio sit tantum usque;  
+      <lb ed="#B" n="42"/>ad horam nonam: ut dicit glol. vij. q. i. 
+      <lb ed="#B" n="43"/>nihil. Nec tunc est infirmus in periculo, 
+      <lb ed="#B" n="44"/>quia excusat eum impossibilitas 
+      sumen<lb ed="#B" n="45" break="no"/>di: cui ipse causam non dedit. Sicut 
+      qui<lb ed="#B" n="46" break="no"/>patitur uomitum, communicandus non 
+      <lb ed="#B" n="47"/>est: sed sufficit illi fides cum 
+      desiderio<lb ed="#B" n="48" break="no"/>secundum illud Augu. Crede, &amp; mandum 
+      <lb ed="#B" n="49"/>casti.
+    </p>
+            <p xml:id="gbs333-v41514-d1e693">
+      ¶ Secundus calus est. si sacerdos in 
+      <lb ed="#B" n="50"/>calicu postsumptionem aquam tantum 
+      <lb ed="#B" n="51"/>in calict habuisse depraehendit: &amp; ita 
+      <!--223.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>ipsum sumendo, ieiunium soluit: 
+      tene<lb ed="#B" n="53" break="no"/>tur tamen tunc (ne sacrificium imperfe 
+      <lb ed="#B" n="54"/>ctum relinquat) de nouo uinum conse- 
+      <lb ed="#B" n="55"/>crare, &amp; sumere non ieiunus. De quo 
+      <lb ed="#B" n="56"/>latius uide loco quo supra.
+    </p>
+            <p xml:id="gbs333-v41514-d1e715">
+      ¶ Possent ad 
+      <lb ed="#B" n="57"/>di tres casus: ut si quis facta 
+      consecratio<lb ed="#B" n="58" break="no"/>ne meminit se non esse ieiunum: debet 
+      <lb ed="#B" n="59"/>procedere, &amp; missam perficere, quia in 
+      <lb ed="#B" n="60"/>periculis, quod maius est: magis est cauen 
+      <lb ed="#B" n="61"/>dum: sed maius est relinquere sacrami 
+      <lb ed="#B" n="62"/>ta ecclesiae imperfecta (hoc enim 
+      sacri<lb ed="#B" n="63" break="no"/>legium est) quam deficiente debita qua 
+      <lb ed="#B" n="64"/>litate, seu dispositione sacerdotis 
+      sume<lb ed="#B" n="65" break="no"/>re. Sic etiam si ante consecrationem 
+      re<lb ed="#B" n="66" break="no"/>coleret, &amp; immineret graue scandalum 
+      <lb ed="#B" n="67"/>nisi procederet: in hoc casu procederet 
+      <lb ed="#B" n="68"/>debet cum contritione cordis, &amp; 
+      pro<lb ed="#B" n="69" break="no"/>posito confitendi. Si uero scandalum non 
+      <lb ed="#B" n="70"/>imminet. tutius est cessare. Haec Astexa 
+      <lb ed="#B" n="71"/>nus in sum. lib. iiij. ti. xv. uide. Pet. q.ij. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

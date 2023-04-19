@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 19, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz4">Brescia 1574, vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-19" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="614"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-v150511"><!-- l4-d20prae -->
+            <head xml:id="gbs333-v150511-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-v150511-d1e103">
+               <lb ed="#B" n="12"/>DISTINCTIO xx. 
+      <lb ed="#B" n="13"/>CIENDVM est 
+      <lb ed="#B" n="14"/>etiam: quod tempus 
+      poeni<lb ed="#B" n="15" break="no"/>tentiae &amp;c. Postquam 
+      <lb ed="#B" n="16"/>magister egit de 
+      po<lb ed="#B" n="17" break="no"/>nitentia quantum ad 
+      <lb ed="#B" n="18"/>suam quidditatem: &amp; 
+      <lb ed="#B" n="19"/>quantum ad ministrum 
+      <lb ed="#B" n="20"/>sacerdotem in sex praecedentibus di. Numc 
+      <lb ed="#B" n="21"/>in sequentibus tribus agit de ipsa, 
+      quan<lb ed="#B" n="22" break="no"/>tum ad peccatorem poenitentiam 
+      agen<lb ed="#B" n="23" break="no"/>tem, siue suscipientem. Et primo de 
+      poeni<lb ed="#B" n="24" break="no"/>tentia peccatoris quantum ad omnia 
+      pec<lb ed="#B" n="25" break="no"/>cata generaliter. Secundo quantum ad 
+      <lb ed="#B" n="26"/>aliqua specialiter dist. xxij.
+    </p>
+            <p xml:id="gbs333-v150511-d1e138">
+      ¶ Circa 
+      pri<lb ed="#B" n="27" break="no"/>mum duo facit. Primo agit de 
+      poeniten<lb ed="#B" n="28" break="no"/>tia peccatoris in praesentis uitae 
+      termi<lb ed="#B" n="29" break="no"/>no. Secundo dist. seq. xxi. de eadem post 
+      <lb ed="#B" n="30"/>hanc uitam in purgatorio. Colligitur 
+      <lb ed="#B" n="31"/>autem sententia huius dist. in tribus 
+      se<lb ed="#B" n="32" break="no"/>quentibus conclusionibus.
+    </p>
+            <p xml:id="gbs333-v150511-d1e154">
+      ¶ Prima. 
+      Li<lb ed="#B" n="33" break="no"/>cet tempus poenitentiae concedatur 
+      pec<lb ed="#B" n="34" break="no"/>catori usque ad extremum praesentis 
+      ui<lb ed="#B" n="35" break="no"/>tae: nimis tamen periculosum est eam 
+      <lb ed="#B" n="36"/>usque ad uitae terminum differre.
+    </p>
+            <p xml:id="gbs333-v150511-d1e165">
+      ¶ 
+      Se<lb ed="#B" n="37" break="no"/>cunda. Decedentes hinc ante poenitentiae 
+      <lb ed="#B" n="38"/>condignae completionem, satisfacient 
+      <lb ed="#B" n="39"/>post mortem, per acerbissimum purgato 
+      <lb ed="#B" n="40"/>rij ignem.
+    </p>
+            <p xml:id="gbs333-v150511-d1e177">
+      ¶ Tertia conclusio. Sicut 
+      nul<lb ed="#B" n="41" break="no"/>li neganda est reconciliatio; ac 
+      poeni<lb ed="#B" n="42" break="no"/>tentia in necessitatis articulo: ita nec 
+      <lb ed="#B" n="43"/>satis factio iniungenda est: sed tantum 
+      <lb ed="#B" n="44"/>insinuanda paenitenti in mortis 
+      pericu<lb ed="#B" n="45" break="no"/>lo. Has conclusiones magister latius 
+      <lb ed="#B" n="46"/>prosequitur in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
