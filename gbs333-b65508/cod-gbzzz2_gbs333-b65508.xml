@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="134-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b65508"><!-- l2-d26prae -->
+            <head xml:id="gbs333-b65508-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b65508-d1e103">
+               <lb ed="#B" n="88"/>DISTINCTIO XXVI. 
+      <lb ed="#B" n="89"/>VIT de libero 
+      arbi<lb ed="#B" n="90" break="no"/>trio, quo humana 
+      na<lb ed="#B" n="91" break="no"/>tura potuit a 
+      lapsu<lb ed="#B" n="92" break="no"/>praeseruari: conse- 
+      <lb ed="#B" n="93"/>quenter in quatuor 
+      <lb ed="#B" n="94"/>distinctionibus 
+      se<lb ed="#B" n="95" break="no"/>quentibus agit de 
+      <lb ed="#B" n="96"/>gratiae adiutorio arbitrijliberi superad 
+      <lb ed="#B" n="97"/>dito, quo ad recte uiuendum &amp; bene 
+      o<lb ed="#B" n="98" break="no"/>perandum poterit cleuari. Agit ergo de 
+      <!--299.xml-->
+      <pb ed="#B" n="134-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gratia. Primo quantum ad statum 
+      natu<lb ed="#B" n="2" break="no"/>rae hominis lapsae. Secundo quantum ad 
+      <lb ed="#B" n="3"/>statum naturae integrae dist. xxix.
+    </p>
+            <p xml:id="gbs333-b65508-d1e142">
+      ¶ 
+      Cir<lb ed="#B" n="4" break="no"/>ea primum primo agit de gratia 
+      uerita<lb ed="#B" n="5" break="no"/>tem determinando. Secundo haereses 
+      <lb ed="#B" n="6"/>exterminando dist. xxviij. Prima 
+      par<lb ed="#B" n="7" break="no"/>adhuc in duas: quia primo, psequitur de gra 
+      <lb ed="#B" n="8"/>eiae effectu, quem operatur circa arbitri 
+      <lb ed="#B" n="9"/>libertatem. Secundo distinct. xxvij. de 
+      <lb ed="#B" n="10"/>eius quidditate per comparationem ad 
+      <lb ed="#B" n="11"/>uirtutem. Primum praesenti 
+      distinctio<lb ed="#B" n="12" break="no"/>ne docet.
+    </p>
+            <p xml:id="gbs333-b65508-d1e164">
+      ¶ Cuius sententia in subiectis 
+      <lb ed="#B" n="13"/>tribus conclusionibus summarie 
+      con<lb ed="#B" n="14" break="no"/>tinetur.
+    </p>
+            <p xml:id="gbs333-b65508-d1e171">
+      ¶ Prima conclusio. Voluntatem 
+      <lb ed="#B" n="15"/>bonam: ut sit bona, &amp; bonum uelit: 
+      gra<lb ed="#B" n="16" break="no"/>eia operans praeuenit, liberat, &amp; 
+      praepa<lb ed="#B" n="17" break="no"/>rat. Cooperans perficiendo sequitur: 
+      <lb ed="#B" n="18"/>non tempore sed natura: &amp; ne frustra 
+      <lb ed="#B" n="19"/>uelit, adiuuat.
+    </p>
+            <p xml:id="gbs333-b65508-d1e185">
+      ¶ Secunda conclusio. Gra 
+      <lb ed="#B" n="20"/>tia, quae est fides per dilectionem 
+      ope<lb ed="#B" n="21" break="no"/>rans, licet quibusdam bonis preuenitur 
+      <lb ed="#B" n="22"/>illa tamen ad salutem non sufficiunt 
+      <lb ed="#B" n="23"/>nec eis uoluntas sanatur, nec recte 
+      ui<lb ed="#B" n="24" break="no"/>uitur.
+    </p>
+            <p xml:id="gbs333-b65508-d1e198">
+      ¶ Tertia conclusio. Gratia 
+      ope<lb ed="#B" n="25" break="no"/>rans, qua uoluntas iustificatur, &amp; gratia 
+      <lb ed="#B" n="26"/>cooperans, qua ad bene operandum ad 
+      <lb ed="#B" n="27"/>iuuatur, non duo, sed unum sunt donum, 
+      <lb ed="#B" n="28"/>quod propter diuersos eius effectus, 
+      di<lb ed="#B" n="29" break="no"/>uersis nominibus nominatur. Harum 
+      de<lb ed="#B" n="30" break="no"/>claratio patet ex textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

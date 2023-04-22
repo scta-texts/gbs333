@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="179-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b87619"><!-- l2-d40q1 -->
+            <head xml:id="gbs333-b87619-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b87619-Hd1e103" type="question-title">
+      Utrum ex sola 
+      intentione finis attendatur 
+      bonitas operis
+    </head>
+            <p xml:id="gbs333-b87619-d1e106">
+               <lb ed="#B" n="32"/>QVAESTIO VNICA 
+      <lb ed="#B" n="33"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="34"/>quaeritur. Vtrum ex sola 
+      in<lb ed="#B" n="35" break="no"/>tentione finis attendatur 
+      bo<lb ed="#B" n="36" break="no"/>nitas operis.
+    </p>
+            <p xml:id="gbs333-b87619-d1e119">
+      ¶ Positis nota 
+      <lb ed="#B" n="37"/>pilibus, ac conclusionibus pro articulis 
+      <lb ed="#B" n="38"/>primo, &amp; secundo, mouebuntur dubia, 
+      <lb ed="#B" n="39"/>&amp; soluentur per articulum tertium. 
+    </p>
+            <p xml:id="gbs333-b87619-d1e128">
+               <lb ed="#B" n="40"/>¶ Quantum ad primum supponitur numc 
+      <lb ed="#B" n="41"/>ex dictis in tertio dist. xxiji. q. i. quod opus 
+      <lb ed="#B" n="42"/>bonum moraliter, est opus elicitum, aut  
+      <lb ed="#B" n="43"/>imperatum conformiter ad dictam en 
+      re<lb ed="#B" n="44" break="no"/>ctae id est incuspabilis rationis. Et quoniam 
+      <lb ed="#B" n="45"/>multa dictat ratio recta debere 
+      conueni<lb ed="#B" n="46" break="no"/>re actui, ut sit rectus, ex pluribus depen¬ 
+      <!--389.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>det eius ratio bonitatis.
+    </p>
+            <p xml:id="gbs333-b87619-d1e153">
+      ¶ Nam prima 
+      <lb ed="#B" n="48"/>ratio bonitatis eius, est conuententia 
+      <lb ed="#B" n="49"/>eius ad efficiens: puta quia est ab 
+      effi<lb ed="#B" n="50" break="no"/>ciente libero. Commune enim est tam 
+      <lb ed="#B" n="51"/>actui uirtuoso, quam uitioso, quod libere 
+      <lb ed="#B" n="52"/>eliciantur, seu producantur: neque enim 
+      <lb ed="#B" n="53"/>actus est laudabilis, neque uituperabilis, 
+      <lb ed="#B" n="54"/>nisi sit alibera uoluntate. In 
+      inuolun<lb ed="#B" n="55" break="no"/>tarijs enim neque laudamur, neque 
+      uitupe<lb ed="#B" n="56" break="no"/>ramur. iij. Et hicorum. Secundo requiri 
+      <lb ed="#B" n="57"/>tur conuenientia actus ad obiectum: quiad 
+      <lb ed="#B" n="58"/>si est conueniens secundum dictamen 
+      ra<lb ed="#B" n="59" break="no"/>tionis id est tale quale recta ratio dictat, 
+      <lb ed="#B" n="60"/>actus dicitur bonus ex genere: quia est 
+      <lb ed="#B" n="61"/>adhuc indifferens ad reliqua ad bonita 
+      <lb ed="#B" n="62"/>tem actus requisita: sicut genus indifferens 
+      <lb ed="#B" n="63"/>est ad differentias ipsum diuidentes. i. 
+      <lb ed="#B" n="64"/>indifferenter de quolibet peccato. Et  
+      <lb ed="#B" n="65"/>intelligendum est de obiecto primario; 
+      <lb ed="#B" n="66"/>siue principali non de secundariis: quia 
+      <lb ed="#B" n="67"/>etiam circumstantiae sunt obiecta 
+      secun<lb ed="#B" n="68" break="no"/>daria saltem respectu actus interioris 
+      eli<lb ed="#B" n="69" break="no"/>citi: ut in tertio quaest. j. distinct. xxiiij. 
+      <lb ed="#B" n="70"/>dicitur. Requiritur deinde 
+      conuenten<lb ed="#B" n="71" break="no"/>tia actus ad circumstantias, siue obiecta 
+      <lb ed="#B" n="72"/>secundaria, quoru principalis est finis: 
+      <lb ed="#B" n="73"/>ut scilicetille finis intendatur, quem ratio 
+      re<lb ed="#B" n="74" break="no"/>cta dictat esse intendendum. Nec tamen finis 
+      <lb ed="#B" n="75"/>sufficit: sed requiritur etiam 
+      ciscum<lb ed="#B" n="76" break="no"/>stantia formae id est modi: ut fiat quomodo 
+      <lb ed="#B" n="77"/>fieri debere ratio recta dictat. Dein de 
+      <lb ed="#B" n="78"/>sequuntur circunistantiae magis 
+      extrin<lb ed="#B" n="79" break="no"/>secae: puta loci, &amp; temporis &amp;c. Illa 
+      sa<lb ed="#B" n="80" break="no"/>tis parent ex Eithic. &amp; declarabuntur in 
+      <lb ed="#B" n="81"/>tertio, ubi tractari solet de uirturibus. 
+    </p>
+            <p xml:id="gbs333-b87619-d1e229">
+               <lb ed="#B" n="82"/>¶ Secundo notandum, quod nomen inten 
+      <lb ed="#B" n="83"/>tio apud sanctos dupliciter accipitur 
+      <lb ed="#B" n="84"/>ut uult sanctus Bonauent. q. j. huius 
+      <lb ed="#B" n="85"/>dist. Vno modo intentio dicit 
+      uolitio<lb ed="#B" n="86" break="no"/>nem finis simpliciter. Alio modo dicit 
+      <lb ed="#B" n="87"/>uolitionem finis, ad quem aliqud medium 
+      o<lb ed="#B" n="88" break="no"/>dinatur &amp; ita supponit uod uolitione finis: 
+      <lb ed="#B" n="89"/>&amp; connotat medium, seu aliquid in ipsum 
+      <lb ed="#B" n="90"/>ordinatum.
+    </p>
+            <p xml:id="gbs333-b87619-d1e251">
+      ¶ Et secundum hoc dupliciter 
+      <lb ed="#B" n="91"/>attenditur bonitas intentionis. Vno 
+      <lb ed="#B" n="92"/>modo dicitur intentio bona tantum 
+      ra<lb ed="#B" n="93" break="no"/>tione finis, quia est uolitio talis 
+      fi<lb ed="#B" n="94" break="no"/>nis, quem recta ratio dictat 
+      uolen<lb ed="#B" n="95" break="no"/>dum, non curando de medijs, sic 
+      om<lb ed="#B" n="96" break="no"/>nis uolitio honestatis, pacis dilectio¬ 
+      <!--390.xml-->
+      <pb ed="#B" n="180-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dis dei, &amp; proximi propter se, dicitur 
+      <lb ed="#B" n="2"/>intentio bona.
+    </p>
+            <p xml:id="gbs333-b87619-d1e277">
+      ¶ Secundo modo dicitur 
+      <lb ed="#B" n="3"/>intentio bona non tantum ratione sub 
+      <lb ed="#B" n="4"/>stracti, sed etiam ratione connotati: hoc  
+      <lb ed="#B" n="5"/>est non tantum ratione eius, quod 
+      uoli<lb ed="#B" n="6" break="no"/>tur propter se, sed etiam ratione 
+      medio<lb ed="#B" n="7" break="no"/>rum, quae ordinantur in sic uolitum. Et sic 
+      di<lb ed="#B" n="8" break="no"/>citur intentio bona, in quo est bona, &amp; 
+      <lb ed="#B" n="9"/>perfecta ordinatio operis ad finem 
+      inten<lb ed="#B" n="10" break="no"/>tum bonum: &amp; ita ad bonitatem 
+      intentio<lb ed="#B" n="11" break="no"/>nis requiritur utrumque; &amp; bonitas finis, 
+      <lb ed="#B" n="12"/>&amp; recta ordinatio uediorum ad finem. Haec 
+      <lb ed="#B" n="13"/>nio. duo necessario requiruntur ad hoc, quod 
+      <lb ed="#B" n="14"/>oculus sit simplex: sicut dicit beatus 
+      <lb ed="#B" n="15"/>Bern. ad Eugenium scilicet quod ueritas sit in 
+      ele<lb ed="#B" n="16" break="no"/>ctione, &amp; charitas in intentione: hoc est 
+      <lb ed="#B" n="17"/>dicere, quod tunc est oculus mentis 
+      sim<lb ed="#B" n="18" break="no"/>plex, siue intentio bona: quando hoc amat 
+      <lb ed="#B" n="19"/>finaliter, quod est amandu: &amp; eligit, quod  
+      <lb ed="#B" n="20"/>est eligendum. Et hoc modo simpliciter 
+      <lb ed="#B" n="21"/>uerum est, si oculus est simplex, totum 
+      cor<lb ed="#B" n="22" break="no"/>pus lucidum erit: quia intentione existe 
+      <lb ed="#B" n="23"/>te hoc modo bona, opus est bonum. Haec 
+      <lb ed="#B" n="24"/>de articulo primo.
+    </p>
+            <p xml:id="gbs333-b87619-d1e327">
+      ¶ Quantum ad 
+      secun<lb ed="#B" n="25" break="no"/>dum articulum est conclusio prima 
+      Acci<lb ed="#B" n="26" break="no"/>piendo intentionem primo modo, ad 
+      bo<lb ed="#B" n="27" break="no"/>nitatem operis non sufficit bonitas 
+      in<lb ed="#B" n="28" break="no"/>tentionis. Probatur conclusio: quia ad 
+      <lb ed="#B" n="29"/>bonitatem operis requiritur conueniem 
+      <lb ed="#B" n="30"/>tia obiecti, &amp; integritas omnium 
+      circum<lb ed="#B" n="31" break="no"/>stantiarum, quas recta ratio adesse debere 
+      <lb ed="#B" n="32"/>dictat actui. Sicut econuerso, ad malitia 
+      <lb ed="#B" n="33"/>sufficit defectus alicuius horum, quae 
+      re<lb ed="#B" n="34" break="no"/>cta ratio dictat adesse debere: sed stat 
+      <lb ed="#B" n="35"/>intentionem finis esse bonam: &amp; tamen de 
+      <lb ed="#B" n="36"/>ficere uel obiectum debitum, uel alias 
+      cir<lb ed="#B" n="37" break="no"/>cumstantias unam uel plures: ergo stat  
+      <lb ed="#B" n="38"/>intentionem esse bonam, &amp; opus esse 
+      <lb ed="#B" n="39"/>malum. Consequentia manifesta. Et 
+      ma<lb ed="#B" n="40" break="no"/>ior patet: quia bonum est ex causa 
+      in<lb ed="#B" n="41" break="no"/>tegra, malum autem omnifariam. ut 
+      di<lb ed="#B" n="42" break="no"/>cit Diony. &amp; consonat Philosophus. ij. 
+      <lb ed="#B" n="43"/>Ethicorum. Minor probatur: quia 
+      si<lb ed="#B" n="44" break="no"/>quis furat diuiti, ut subueniat pauperi: 
+      <lb ed="#B" n="45"/>intentio quidem bona est: quia finis 
+      sci<lb ed="#B" n="46" break="no"/>licet subuenire pauperi bonus est: &amp; 
+      ta<lb ed="#B" n="47" break="no"/>men deficiunt ibi rectitudo obiecti: quia 
+      <lb ed="#B" n="48"/>dat de non suo, &amp; modi, &amp; 
+      circumstan<lb ed="#B" n="49" break="no"/>tiarum caeterarum: &amp; sicde multis alijs. 
+      <lb ed="#B" n="50"/>Vt si quis mentitur, ut liberet innocen¬ 
+      <!--390.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tem, aut interficit persequentem non 
+      <lb ed="#B" n="52"/>interuentente legitimae auctoritatis 
+      po<lb ed="#B" n="53" break="no"/>testate, in quibus finis bonus est: 
+      cle<lb ed="#B" n="54" break="no"/>ctio autem contra dictamen rationis 
+      ma<lb ed="#B" n="55" break="no"/>la.
+    </p>
+            <p xml:id="gbs333-b87619-d1e401">
+      ¶ Corollarium, quod bonitas finis non 
+      <lb ed="#B" n="56"/>excusat male eligentem. Patet per illud 
+      <lb ed="#B" n="57"/>apostoli ad Rom. iij. condemnantis 
+      di<lb ed="#B" n="58" break="no"/>centes. Paciamus mala, ut eueniant 
+      bo<lb ed="#B" n="59" break="no"/>na.
+    </p>
+            <p xml:id="gbs333-b87619-d1e413">
+      ¶ Secunda conclusio. Ad malitiam 
+      <lb ed="#B" n="60"/>operis sufficit malitia intentionis. 
+      Pro<lb ed="#B" n="61" break="no"/>batur ex probatione primae 
+      conclusio<lb ed="#B" n="62" break="no"/>nis: nam ad hoc, ut opus aliquod sit ma 
+      <lb ed="#B" n="63"/>lum, sufficit defectus uniuscuiusque 
+      re<lb ed="#B" n="64" break="no"/>quisitorum ad operis bonitatem: sed ad 
+      <lb ed="#B" n="65"/>operis bonitatem requiritur bonitas 
+      in<lb ed="#B" n="66" break="no"/>tentionis: ut patet ex notabili 
+      secun<lb ed="#B" n="67" break="no"/>do. ergo eius defectus sufficit ad 
+      mali<lb ed="#B" n="68" break="no"/>tiam operis: sed ubicunque est intentio 
+      <lb ed="#B" n="69"/>mala, deficit intentio bona: quia contra 
+      <lb ed="#B" n="70"/>ria simul stare non possunt: &amp; per 
+      con<lb ed="#B" n="71" break="no"/>sequens intentio mala sufficit ad 
+      mali<lb ed="#B" n="72" break="no"/>tiam operis. Non tamen requiritur sem 
+      <lb ed="#B" n="73"/>per intentio mala: quia potest operatio 
+      <lb ed="#B" n="74"/>esse mala intentione existente bona 
+      <lb ed="#B" n="75"/>propter defectum alterius 
+      circunistan<lb ed="#B" n="76" break="no"/>tiae.
+    </p>
+            <p xml:id="gbs333-b87619-d1e452">
+      ¶ Tertia conclusio. Bonitas 
+      inten<lb ed="#B" n="77" break="no"/>tionis dicta secundo modo sufficit, &amp; 
+      re<lb ed="#B" n="78" break="no"/>quiritur. ut bona sit operatio. 
+      Proba<lb ed="#B" n="79" break="no"/>tur: quia ista bonitas includit integrita 
+      <lb ed="#B" n="80"/>tem omnium requisitorum: quia finis, 
+      <lb ed="#B" n="81"/>&amp; mediorum Talis autem integritas 
+      re<lb ed="#B" n="82" break="no"/>quiritur, &amp; sufficit ad bonitatem 
+      cuius<lb ed="#B" n="83" break="no"/>libet operis, ut dictum est. ergo 
+      conclu<lb ed="#B" n="84" break="no"/>sio uera. Et de intentione bona illo 
+      mo<lb ed="#B" n="85" break="no"/>do accepta, intelligendae sunt auctorita 
+      <lb ed="#B" n="86"/>tes sanctorum innuentium, quod ex inten 
+      <lb ed="#B" n="87"/>tione dicitur opus bonum, uel malum, ut 
+      il<lb ed="#B" n="88" break="no"/>la Ambr. Affectus tuus operi tuo nomen 
+      <lb ed="#B" n="89"/>imponit. Et illa saluatoris. Non potest 
+      <lb ed="#B" n="90"/>arbor bona fructus malos facere. ubi 
+      se<lb ed="#B" n="91" break="no"/>cundum Ambro. per affectum, &amp; 
+      arbo<lb ed="#B" n="92" break="no"/>rem bonam secundum saluatorem 
+      in<lb ed="#B" n="93" break="no"/>telligitur intentio bona secundo modo c 
+      <lb ed="#B" n="94"/>dicta.
+    </p>
+            <p xml:id="gbs333-b87619-d1e494">
+      ¶ Quantum ad tertium articulum est 
+      pri<lb ed="#B" n="95" break="no"/>mum dubium. Vtrum quantitas boni ope c 
+      <lb ed="#B" n="96"/>ris comensuretur quantitati bonae inten d 
+      <lb ed="#B" n="97"/>tionis. quod est quaerere. Vtrum opus 
+      <lb ed="#B" n="98"/>bonum sit tantum bonum, quanta est 
+      bo<lb ed="#B" n="99" break="no"/>nitas intentionis.
+    </p>
+            <p xml:id="gbs333-b87619-d1e507">
+      ¶ Respondet hic sanctus.t 
+      <lb ed="#B" n="100"/>Bonauem. per distinctionem intentionist 
+      <!--391.xml-->
+      <pb ed="#B" n="180-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>similem ei, quae dicta est in primo 
+      articu<lb ed="#B" n="2" break="no"/>lo scilicet quod quantitas intentionis potest 
+      du<lb ed="#B" n="3" break="no"/>pliciter attendi. Aut ratione actus inten 
+      <lb ed="#B" n="4"/>dendi: aut ratione obiecti intenti, quod 
+      <lb ed="#B" n="5"/>est finis tantum, &amp; conformiter tantu, &amp; 
+      <lb ed="#B" n="6"/>quantum possunt accipi nominaliter: &amp; 
+      <lb ed="#B" n="7"/>sic respiciunt intentum: uel 
+      aduerbiali<lb ed="#B" n="8" break="no"/>ter: tunc respiciunt actum intendendi. 
+      <lb ed="#B" n="9"/>Primo modo quantitas operis non 
+      con<lb ed="#B" n="10" break="no"/>mensuratur quantitati intentionis, quam 
+      <lb ed="#B" n="11"/>tum ad bonitatem, &amp; malitiam: quia opus 
+      <lb ed="#B" n="12"/>exterius factum non semper 
+      commen<lb ed="#B" n="13" break="no"/>suratur ei, quod intentio intendit id est 
+      fi<lb ed="#B" n="14" break="no"/>ni. Erequenter. n. homo intendit facere 
+      <lb ed="#B" n="15"/>magnum bonum, &amp; facit paruum, quia 
+      modi<lb ed="#B" n="16" break="no"/>causa habet charitatem: sic etiam in malis 
+      <lb ed="#B" n="17"/>Non semper qui intendit parum peccare, 
+      <lb ed="#B" n="18"/>parum peccat: licet quintendat multum 
+      pecc<lb ed="#B" n="19" break="no"/>re, multum peccet: etsi actus sit modicus. 
+      <lb ed="#B" n="20"/>Secundo aut modo accipiendo sic quantitas 
+      <lb ed="#B" n="21"/>operis attenditur ex quantitate 
+      inten<lb ed="#B" n="22" break="no"/>tionis, quantum ad bonitatem, &amp; malitiam: 
+      <lb ed="#B" n="23"/>quia quantus est actus intendendi in 
+      bo<lb ed="#B" n="24" break="no"/>nitate, &amp; malitia intensus ex omnibus 
+      <lb ed="#B" n="25"/>circumstantiis, tantus est actus exterior 
+      <lb ed="#B" n="26"/>bonus, aut malus. Omne. no. meritum, &amp; de 
+      <lb ed="#B" n="27"/>meritum actus exterioris reducitur ad 
+      <lb ed="#B" n="28"/>actum uoluntatis interiorem: &amp; ideo 
+      se<lb ed="#B" n="29" break="no"/>cundum intentionem bonitatis actus 
+      inte<lb ed="#B" n="30" break="no"/>rioris mensuratur bonitas actus 
+      exte<lb ed="#B" n="31" break="no"/>rioris. Sic de malitia.
+    </p>
+            <p xml:id="gbs333-b87619-d1e585">
+      ¶ Secundo 
+      dubi<lb ed="#B" n="32" break="no"/>tatur. Vtrum intentio bona absque opere 
+      <lb ed="#B" n="33"/>exteriori sufficiat ad merendum uitam 
+      <lb ed="#B" n="34"/>aeterna. Rndetur sanctus Bonauen. qeiij. 
+      <lb ed="#B" n="35"/>huius dist. distinguendo: quia aut habens 
+      <lb ed="#B" n="36"/>bonam intentionem habet facultatem bando 
+      <lb ed="#B" n="37"/>operandi, aut non. Sinon habet facultatem, 
+      <lb ed="#B" n="38"/>cum nemo obligatur ad impossibile: sola 
+      <lb ed="#B" n="39"/>plenitudo uoluntatis, internae sufficit ad 
+      <lb ed="#B" n="40"/>meritum sine opere exteriori. Si aut 
+      adsi<lb ed="#B" n="41" break="no"/>facultas, &amp; offert se opportunitas, inten 
+      <lb ed="#B" n="42"/>tio non potest ad meritum sufficere absque 
+      ex<lb ed="#B" n="43" break="no"/>teriori operatione. Cuius ratio est 
+      tri<lb ed="#B" n="44" break="no"/>plex scilicet diuini mandati obligatio, uirtutis 
+      <lb ed="#B" n="45"/>perfectio, &amp; bonitatis plenitudo. 
+      Diui<lb ed="#B" n="46" break="no"/>ni mandati obligatio: quia mandata non 
+      <lb ed="#B" n="47"/>solum obligant ad uolendum, sed etiam 
+      <lb ed="#B" n="48"/>ad faciendum: &amp; ideo qui non implet 
+      <lb ed="#B" n="49"/>mandatum, cum possit, &amp; adsit 
+      op<lb ed="#B" n="50" break="no"/>portunitas, potius meretur iram, quaum 
+      <!--391.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>gratiam. Virtutis perfectio; quia 
+      uir<lb ed="#B" n="52" break="no"/>tus est ultimum potentiae: &amp; ideo 
+      ese<lb ed="#B" n="53" break="no"/>uat potentiam ad aliquod magnum, in 
+      <lb ed="#B" n="54"/>quod potest potentia, &amp; ad arduum. Potem 
+      <lb ed="#B" n="55"/>tiae autem animae ordinantur ad opera 
+      <lb ed="#B" n="56"/>etiam exteriora: ideo uirtus non est 
+      per<lb ed="#B" n="57" break="no"/>fecta, nec ultimum potentiae: nisi extendat 
+      <lb ed="#B" n="58"/>se ad opera exteriora ultra, quae non sunt 
+      <lb ed="#B" n="59"/>alia (&amp; ita sunt ultima, in quae potest 
+      po<lb ed="#B" n="60" break="no"/>tentia) dum adest facultas, &amp; operandi 
+      <lb ed="#B" n="61"/>opportunitas. Extendit se ergo uirtus 
+      <lb ed="#B" n="62"/>ad opera exteriora, si fuerit perfecta 
+      uo<lb ed="#B" n="63" break="no"/>luntatis plenitudo: quia non est 
+      plena<lb ed="#B" n="64" break="no"/>nec efficax uoluntas: nisi ponat in esse 
+      <lb ed="#B" n="65"/>ctu, quod potest: alias dicitur 
+      semiple<lb ed="#B" n="66" break="no"/>na, &amp; pigra: sicut piger uult, &amp; non uult: 
+      <lb ed="#B" n="67"/>sicut qui appetitscire, &amp; non laborat 
+      in<lb ed="#B" n="68" break="no"/>studio, uult scientiam imperfecte: 
+      qui<lb ed="#B" n="69" break="no"/>uero uult scientiam perfecte, &amp; 
+      effi<lb ed="#B" n="70" break="no"/>caciter haec operatur, &amp; nihil negligit 
+      <lb ed="#B" n="71"/>requisitum ad scientiae acquisitionem: quia 
+      <lb ed="#B" n="72"/>ergo dum adest facultas, &amp; se ofsert 
+      op<lb ed="#B" n="73" break="no"/>portunitas absque operibus exterioribus 
+      <lb ed="#B" n="74"/>non est mandatorum dei impletio: nec 
+      <lb ed="#B" n="75"/>uirtutis perfecta ratio: nec uoluntatis 
+      ple<lb ed="#B" n="76" break="no"/>nitudo: &amp; absque his non est sufficientia 
+      <lb ed="#B" n="77"/>meriti. Hinc est, quod ad meritum uitae 
+      aeter<lb ed="#B" n="78" break="no"/>nae, non sufficit bonitas intentionis absque  
+      <lb ed="#B" n="79"/>bonitate operis exterioris. Haec lanctus 
+      <lb ed="#B" n="80"/>Bonaue. Quae intelligenda sunt, dum &amp; 
+      <lb ed="#B" n="81"/>quando recta ratio dictat sic esse operam 
+      <lb ed="#B" n="82"/>dum aliqua operatione exteriori, &amp; 
+      secun<lb ed="#B" n="83" break="no"/>dum hoc intelligendae sunt auctoritates 
+      <lb ed="#B" n="84"/>sanctorum, quorum aliquae uidentur sona 
+      <lb ed="#B" n="85"/>re, quasi sola uoluntas sufficiat: quae 
+      intel<lb ed="#B" n="86" break="no"/>ligendae sunt, dum deest facultas: aut non 
+      <lb ed="#B" n="87"/>est operandi opportunitas. Aliae quod non 
+      <lb ed="#B" n="88"/>sufficit uoluntas sine operibus, que uerae 
+      <lb ed="#B" n="89"/>sunt, dum adest facultas, &amp; opportunitas. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="114-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b55557"><!-- l2-d19q1 -->
+            <head xml:id="gbs333-b55557-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b55557-Hd1e103" type="question-title">
+      Utrum homo 
+      prostatu innocentiae habuit cor 
+      pus immortale
+    </head>
+            <p xml:id="gbs333-b55557-d1e106">
+               <lb ed="#B" n="9"/>QVAESTIO VNICA 
+      <lb ed="#B" n="10"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="11"/>queritur. Vtrum homo 
+      pro<lb ed="#B" n="12" break="no"/>statu innocentiae habuit cor 
+      <lb ed="#B" n="13"/>pus immortale. Primo 
+      de<lb ed="#B" n="14" break="no"/>claratur quaestionis titulus: secundo 
+      con<lb ed="#B" n="15" break="no"/>clusiones: tertio dubiorum 
+      subiungen<lb ed="#B" n="16" break="no"/>tur solutiones.
+    </p>
+            <p xml:id="gbs333-b55557-d1e126">
+      ¶ Quo ad primum, quod 
+      ti<lb ed="#B" n="17" break="no"/>tulus duplicem habere potest intellectum: 
+      <lb ed="#B" n="18"/>siue de rigore uerborum siue non: sed  
+      <lb ed="#B" n="19"/>quod hoc complexum in statu innocentiae 
+      <lb ed="#B" n="20"/>potest determinare uerbum habuit, uel 
+      <lb ed="#B" n="21"/>nomen immortale. Primo modo est 
+      sen<lb ed="#B" n="22" break="no"/>sus quaestionis: utrum homo habuit in 
+      sta<lb ed="#B" n="23" break="no"/>tu innocentiae immortalitatem id est non posse 
+      <lb ed="#B" n="24"/>mori pro quocunque; statu: &amp; certum est, 
+      <lb ed="#B" n="25"/>quod ille intellectus falsus est: quia homo 
+      <lb ed="#B" n="26"/>in statu innocentiae habuit possibilitatem 
+      <lb ed="#B" n="27"/>moriendi post peccatum: &amp; secundum 
+      <lb ed="#B" n="28"/>hunc intellectum non est prosequenda 
+      <lb ed="#B" n="29"/>quaestio.
+    </p>
+            <p xml:id="gbs333-b55557-d1e157">
+      ¶ Aliter potest intelligi, ut 
+      Iy<lb ed="#B" n="30" break="no"/>in statu innocentiae, determinat imnior 
+      <lb ed="#B" n="31"/>talitatem; &amp; sic est quaerere. Vtrum 
+      ho<lb ed="#B" n="32" break="no"/>mo habuit immortalitatem in statu 
+      in<lb ed="#B" n="33" break="no"/>nocentiae. i. habuit non posse mori 
+      in<lb ed="#B" n="34" break="no"/>statu innotentiae manens: hoc est, utrum 
+      <lb ed="#B" n="35"/>homo si non peccasset: mori non 
+      po<lb ed="#B" n="36" break="no"/>tuisset in paradiso. Et ille intellectus est 
+      <lb ed="#B" n="37"/>ad propositum.
+    </p>
+            <p xml:id="gbs333-b55557-d1e178">
+      ¶ Secundo 
+      consideran<lb ed="#B" n="38" break="no"/>dum, quod mors potest tripliciter 
+      contin<lb ed="#B" n="39" break="no"/>gere homini: ut dicit sanctus Bonauen. 
+      <lb ed="#B" n="40"/>q. x. huius dist. Aut per elementorum 
+      pu<lb ed="#B" n="41" break="no"/>gnam, &amp; dissolutionem id est elementorum 
+      <lb ed="#B" n="42"/>qualitates, siue qualitates primas: aut  
+      <lb ed="#B" n="43"/>per humidi radicalis consumptionem: aut  
+      <lb ed="#B" n="44"/>per extrinsecam laesionem. Primo modo 
+      con<lb ed="#B" n="45" break="no"/>tingit per qualitates intrinsecas prima 
+      <lb ed="#B" n="46"/>partium organicarum, quae sunt adinuicem 
+      <lb ed="#B" n="47"/>contrariae: &amp; ita potest una superare 
+      <lb ed="#B" n="48"/>aliam. unde contingunt febres; &amp; aliae 
+      <!--258.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>infirmitates ad mortem disponentes. 
+      Se<lb ed="#B" n="50" break="no"/>cundo contingit ex continua consum 
+      <lb ed="#B" n="51"/>ptione humidi per calorem naturalem: 
+      <lb ed="#B" n="52"/>quo tandem deficiente sequitur mors. 
+      <lb ed="#B" n="53"/>Et licet per humidum cibale restauratur  
+      <lb ed="#B" n="54"/>deperditum: non tamen in tali puritate, 
+      <lb ed="#B" n="55"/>qualis fuit in deperdito. Etiam uirtus 
+      <lb ed="#B" n="56"/>conuersiua: quia est agens physicum: ideo 
+      <lb ed="#B" n="57"/>agendo repatitur: &amp; ita debilitatur 
+      con<lb ed="#B" n="58" break="no"/>tinue, donec non potest conuertere 
+      ci<lb ed="#B" n="59" break="no"/>bum: nec restaurare deperditum in ea 
+      puri<lb ed="#B" n="60" break="no"/>tate, quae sufficit ad conseruandum 
+      ui<lb ed="#B" n="61" break="no"/>tam. Hinc homo deficiendo senescit: &amp; 
+      <lb ed="#B" n="62"/>senectam sequitur mors, quae etiam 
+      sequi<lb ed="#B" n="63" break="no"/>tur si nullum extrinsecus laesiuum acce- 
+      <lb ed="#B" n="64"/>deret. Tertio modo contingit mors 
+      per<lb ed="#B" n="65" break="no"/>laesionem extrinsecam: ut per aerem, ignem, uel 
+      <lb ed="#B" n="66"/>aquam: aut uiolentiam a daemone, bestijs, 
+      <lb ed="#B" n="67"/>uel homine: uel alio opprimente, uel lae 
+      <lb ed="#B" n="68"/>dente.
+    </p>
+            <p xml:id="gbs333-b55557-d1e252">
+      ¶ Tertio notandum, quod hominem 
+      ha<lb ed="#B" n="69" break="no"/>buisse corpus inimortale pro statu 
+      inno<lb ed="#B" n="70" break="no"/>centiae, potest adhuc dupliciter 
+      intelli<lb ed="#B" n="71" break="no"/>gi: secundum quod immortale potest 
+      accipi<lb ed="#B" n="72" break="no"/>proprie, uel improptie. Proprie, ut 
+      con<lb ed="#B" n="73" break="no"/>tra dictoricopponitur huic, quod ex 
+      mor<lb ed="#B" n="74" break="no"/>tale: ut uidelicet negatio inclusa negat  
+      <lb ed="#B" n="75"/>potentiam moriendi in talistatu. Et sic 
+      ua<lb ed="#B" n="76" break="no"/>set tantum imnmortale i.d est non potens 
+      mori<lb ed="#B" n="77" break="no"/>in tali statu. Improprie ut non opponitur 
+      <lb ed="#B" n="78"/>contradictorie: sed quasi subcontrarie. 
+      <lb ed="#B" n="79"/>ut uidelicet negatio inclusa non negat 
+      <lb ed="#B" n="80"/>potentiam, sed actum ualens tantum. Immor 
+      <lb ed="#B" n="81"/>tale id est potens non mori pro statu isto. 
+      se<lb ed="#B" n="82" break="no"/>cundum quem modum magister concedit, 
+      <lb ed="#B" n="83"/>quod homo pro statu illo fuit mortalis, &amp; 
+      im<lb ed="#B" n="84" break="no"/>mortalis. Haec de primo articulo.
+    </p>
+            <p xml:id="gbs333-b55557-d1e289">
+      ¶ 
+      Quo<lb ed="#B" n="85" break="no"/>ad articulum secundum est haec 
+      conclusio<lb ed="#B" n="86" break="no"/>prima. Accipiendo immortale proprie, homo 
+      <lb ed="#B" n="87"/>non habuitcorpus imortale po statu 
+      in<lb ed="#B" n="88" break="no"/>nocentiae. Probatur: quia homo potuit 
+      <lb ed="#B" n="89"/>pro statu illo mori: ergo. Consequentia 
+      <lb ed="#B" n="90"/>nota. Antecedens probatur: quia potuit 
+      <lb ed="#B" n="91"/>homini in paradiso accidisse alter trium 
+      <lb ed="#B" n="92"/>modorum ad mortem impellentium. Potuit  
+      <lb ed="#B" n="93"/>enim prohiberi a sumptione cibi, potuit  
+      <lb ed="#B" n="94"/>gne comburi, aqua suffocari, a 
+      be<lb ed="#B" n="95" break="no"/>stia occidi daemone uel homine. 
+      Ha<lb ed="#B" n="96" break="no"/>buit enim corpus optime 
+      complexio<lb ed="#B" n="97" break="no"/>natum, &amp; ita tenerum: quod potuit conse- 
+      <lb ed="#B" n="98"/>quenter a suo contrario, calore uel fri¬ 
+      <!--259.xml-->
+      <pb ed="#B" n="114-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gore excessiuo corrumpi; &amp; similiter 
+      alio<lb ed="#B" n="2" break="no"/>uiolentante dissolui. Potuit &amp; humidum 
+      <lb ed="#B" n="3"/>per non sumptionem cibi consumi, &amp; sic 
+      <lb ed="#B" n="4"/>mori &amp; sic de alijs. Euisset enim tumc cor 
+      <lb ed="#B" n="5"/>pus hominis eiusdem speciei, &amp; naturae 
+      <lb ed="#B" n="6"/>cuius &amp; nunc, ergo poterat ab eisdem 
+      agen<lb ed="#B" n="7" break="no"/>tibus pati a quibus nunc patitur, si 
+      appli<lb ed="#B" n="8" break="no"/>cata fuissent. Non enim habuisset dorem 
+      <lb ed="#B" n="9"/>impassibilitatis: per quam corpora sancto 
+      <lb ed="#B" n="10"/>rum redduntur simpliciter impassibilia.
+    </p>
+            <p xml:id="gbs333-b55557-d1e350">
+      ¶ 
+      Se<lb ed="#B" n="11" break="no"/>cunda conclusio. Homo habuit corpus 
+      <lb ed="#B" n="12"/>immortale in statu innocentiae: secundo 
+      <lb ed="#B" n="13"/>modo accipiendo immortale. Probatur: 
+      <lb ed="#B" n="14"/>quia potuit non mori pro statu illo: ergo. 
+      <lb ed="#B" n="15"/>Antecedens probatur: quia habuit 
+      pro<lb ed="#B" n="16" break="no"/>illo statu adiutoria, &amp; remedia contra 
+      <lb ed="#B" n="17"/>omnia mortem inducentia: &amp; ita potuit 
+      <lb ed="#B" n="18"/>mortem euitare. Antecedens probatur: quia 
+      <lb ed="#B" n="19"/>contra intrinsecam elementorum pugnam 
+      <lb ed="#B" n="20"/>habuit optimum qualitatum 
+      temperamen<lb ed="#B" n="21" break="no"/>tum perfectae sanitatis qua una qualitas 
+      <lb ed="#B" n="22"/>non dominabatur alteri eam 
+      corrumpen<lb ed="#B" n="23" break="no"/>do. Contra consumptionem humidi 
+      <lb ed="#B" n="24"/>radicalis, restaurationem cibi. Contra 
+      de<lb ed="#B" n="25" break="no"/>bilitationem uirtutis conuersiuae lignum uitae, 
+      <lb ed="#B" n="26"/>quo uirtus conuersiua confortabatur, ut  
+      <lb ed="#B" n="27"/>debilitari non posset, nec deficere. Et 
+      per<lb ed="#B" n="28" break="no"/>hoc nec senescere: non ut senescere est 
+      <lb ed="#B" n="29"/>diu uiuere: sed ut senescere est 
+      infirmi<lb ed="#B" n="30" break="no"/>tati senium subijci. primo modo: non 
+      secun<lb ed="#B" n="31" break="no"/>do in statu innocetiae senuissent. Cotra 
+      <lb ed="#B" n="32"/>extrinseca elementa habuit aeris 
+      tempe<lb ed="#B" n="33" break="no"/>riem conuententissima, quantum ad omnes 
+      <lb ed="#B" n="34"/>qualitates primas. Contra uiolentia 
+      dae<lb ed="#B" n="35" break="no"/>monum, angelicam custodiam: similiter &amp; 
+      con<lb ed="#B" n="36" break="no"/>tra bestias, quae tunc non fuere immites, 
+      <lb ed="#B" n="37"/>sed huiusmodi obedientes: nam super illa: 
+      <lb ed="#B" n="38"/>habuit perfectum dominium. Similiter 
+      <lb ed="#B" n="39"/>&amp; homines in statu illo fuissent iusti, &amp; 
+      <lb ed="#B" n="40"/>non peccatores: quare nullus alium 
+      laesis<lb ed="#B" n="41" break="no"/>set. Quod si aliquis animum laedendi alium 
+      <lb ed="#B" n="42"/>concepisset, iam peccasset, &amp; statim de para 
+      <lb ed="#B" n="43"/>diso expulsus fuisset: sicut de Adam factum 
+      <lb ed="#B" n="44"/>est. Contra caetera causaliter uiolentia, 
+      <lb ed="#B" n="45"/>opprimentia, uel laedentia habuit prudem 
+      <lb ed="#B" n="46"/>tiam compiosam omnia illa cauendi.
+    </p>
+            <p xml:id="gbs333-b55557-d1e431">
+      ¶ 
+      Ter<lb ed="#B" n="47" break="no"/>tia conclusio. Si homo in paradiso non 
+      <lb ed="#B" n="48"/>peccasset: mortuus non fuisset. Probatur 
+      <lb ed="#B" n="49"/>per illud apostoli Rom. v. Per unum 
+      homi<lb ed="#B" n="50" break="no"/>nem peccatum in hunc mundum intrauit, &amp; per 
+      <!--259.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>peccatum mors. Item potuit cauere omnia 
+      <lb ed="#B" n="52"/>inducentia mortem: ut patet ex ij. 
+      conclusio<lb ed="#B" n="53" break="no"/>ne. Et si non cauisset, iam peccasset: &amp; ita 
+      <lb ed="#B" n="54"/>innocentia perdidisset. Sicut. n. habuit 
+      <lb ed="#B" n="55"/>praeceptum de comedendo de omni 
+      ligno<lb ed="#B" n="56" break="no"/>paradisi: excepto ligno scietiae boni, &amp; 
+      <lb ed="#B" n="57"/>mali: ut uult magister dist. xx. ita &amp; 
+      ha<lb ed="#B" n="58" break="no"/>buit praeceptum naturale de cauendis caeteris 
+      <lb ed="#B" n="59"/>sui corruptiuis: quid si non fecisset 
+      peccas<lb ed="#B" n="60" break="no"/>set: &amp; innocentiae statum excessisset.
+    </p>
+            <p xml:id="gbs333-b55557-d1e468">
+      ¶ 
+      Quan<lb ed="#B" n="61" break="no"/>tum ad tertium articulum est dubium. Vtrum 
+      li<lb ed="#B" n="62" break="no"/>gnum uitae habuit uirtutem perpetuandi 
+      ho<lb ed="#B" n="63" break="no"/>minis uitam. Et uidet quod non: quia quicquid 
+      <lb ed="#B" n="64"/>est agens physicum: in agendo repatitur: 
+      <lb ed="#B" n="65"/>&amp; per consequens debilitatur. Sed fructus 
+      <lb ed="#B" n="66"/>ligni uitae non potuit confortare ipsum: 
+      ni<lb ed="#B" n="67" break="no"/>si conuerteretur in ipsum actione 
+      phrsi<lb ed="#B" n="68" break="no"/>ca, &amp; naturali. Non autem potuit plus 
+      con<lb ed="#B" n="69" break="no"/>fortare, quam agens conuertens fuit forte. 
+      <lb ed="#B" n="70"/>Sed conuertendo fructum ligni, uitae 
+      debi<lb ed="#B" n="71" break="no"/>litabatur per repassionem: ita quod natura 
+      <lb ed="#B" n="72"/>conuertens prius fuit debilitata: quam 
+      nu<lb ed="#B" n="73" break="no"/>trimentum conuerteretur; quia est actio 
+      <lb ed="#B" n="74"/>naturalis. Et sicut in una actione 
+      con<lb ed="#B" n="75" break="no"/>uersionis debilitatur ita in qualibet alia: 
+      <lb ed="#B" n="76"/>&amp; sic tandem ita debilitatur, quod non plus 
+      con<lb ed="#B" n="77" break="no"/>uerteret. Adducitur etiam exemplum 
+      philo<lb ed="#B" n="78" break="no"/>sophi primo de generatione de uino, 
+      <lb ed="#B" n="79"/>qud a principio couertit in se aquam, &amp; de 
+      <lb ed="#B" n="80"/>bilitatur. Et idem secundo minus fortiter 
+      <lb ed="#B" n="81"/>operatur. Vltimo deficit non potens 
+      ali<lb ed="#B" n="82" break="no"/>quid aquae in se conuertere: sed potius 
+      con<lb ed="#B" n="83" break="no"/>uertit in aquam.
+    </p>
+            <p xml:id="gbs333-b55557-d1e521">
+      ¶ Propter hanc rationem 
+      <lb ed="#B" n="84"/>quam fecit Sco. dist. praesenti: dicit ipse 
+      <lb ed="#B" n="85"/>Sco, consequenter, quod fructus ligni uite: 
+      <lb ed="#B" n="86"/>licet habuit uirtutem prolongandi uita, 
+      <lb ed="#B" n="87"/>non tamen in perpetuum conseruandi. Vnde 
+      <lb ed="#B" n="88"/>si non fuisset homo translatus: tandem 
+      <lb ed="#B" n="89"/>fuisset in paradiso mortuus. Tuisset tamen 
+      <lb ed="#B" n="90"/>immortalis de facto id est non fuisset 
+      mor<lb ed="#B" n="91" break="no"/>tuus: quia quilibet fuisset translatus, 
+      an<lb ed="#B" n="92" break="no"/>tequa uirtus adeo esset debilitata in eo, 
+      <lb ed="#B" n="93"/>quod corpus esset impportionatum animae, 
+      <lb ed="#B" n="94"/>ut mors accederet. Nec hoc fuisset 
+      <lb ed="#B" n="95"/>miraculosum, sed iustum, &amp; regulariter 
+      <lb ed="#B" n="96"/>factum. Euissent ergo translati non simul: 
+      <lb ed="#B" n="97"/>sed successiue: quilibet tamen meruisset 
+      tan<lb ed="#B" n="98" break="no"/>tam gloriam ad quantam fuisset 
+      praeui<lb ed="#B" n="99" break="no"/>sus: neque enim deus praemium distulisset 
+      <lb ed="#B" n="100"/>completo merito; quia nullum fuisset 
+      <!--260.xml-->
+      <pb ed="#B" n="115-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>impedimentum. Nihil enim eius fuisset 
+      <lb ed="#B" n="2"/>purgandum, quia nullum peccatum: neque  
+      <lb ed="#B" n="3"/>omnes meruissent usque ad terminum 
+      ulti<lb ed="#B" n="4" break="no"/>mi generandi: quia sic semper priores 
+      <lb ed="#B" n="5"/>plus meruissent, quam posteriores. quod 
+      <lb ed="#B" n="6"/>patet falsum: quia beata uirgo plus 
+      me<lb ed="#B" n="7" break="no"/>tuit, quam Adam: quamuis generatione 
+      poste<lb ed="#B" n="8" break="no"/>rior Adam. Haec sententialiter Sco.
+    </p>
+            <p xml:id="gbs333-b55557-d1e584">
+      ¶ Sed 
+      <lb ed="#B" n="9"/>ratio illa non est efficax. Vnde est 
+      opi<lb ed="#B" n="10" break="no"/>nio alia, quam comuniter tenent alij 
+      do<lb ed="#B" n="11" break="no"/>cto. quod lignum uitae uirtutem habuit 
+      con<lb ed="#B" n="12" break="no"/>seruandi uitam hominis in statu 
+      innocen<lb ed="#B" n="13" break="no"/>tiae perpetuo. Nec ratio Sco. procedit 
+      <lb ed="#B" n="14"/>de agente phulico debilitato; quia quae 
+      <lb ed="#B" n="15"/>ro; Vtrum actiuum agendo debilitatum 
+      pos<lb ed="#B" n="16" break="no"/>sit reduci ad pristinu uigorem: uel non. 
+      Si<lb ed="#B" n="17" break="no"/>sic: ergo per huiusmodi, reductionem, &amp; 
+      <lb ed="#B" n="18"/>confortationem conseruari potest: inmo 
+      <lb ed="#B" n="19"/>&amp; augeri, ut nunquam deficiat: haec autem 
+      <lb ed="#B" n="20"/>confortatio maxime fieri potest peresum 
+      <lb ed="#B" n="21"/>ligni uitae. Si non: sequitur, quod homo post 
+      <lb ed="#B" n="22"/>infirmitatem, non posset reduci ad 
+      pri<lb ed="#B" n="23" break="no"/>stina sanitate: &amp; uirtus conseruatiua 
+      con<lb ed="#B" n="24" break="no"/>tinue etiam a principio uitae debilitare 
+      <lb ed="#B" n="25"/>tur, quod est contra experientiam. Nam 
+      for<lb ed="#B" n="26" break="no"/>tior est illa uirtus in iuuentute, quam in 
+      <lb ed="#B" n="27"/>infantia: quia potest conuertere solidum 
+      <lb ed="#B" n="28"/>cibum, quem non sufficeret conuertere 
+      <lb ed="#B" n="29"/>in infantia. Item sequitur, quod ignis 
+      pro<lb ed="#B" n="30" break="no"/>ducens ignem debilitaretur per 
+      apposi<lb ed="#B" n="31" break="no"/>tionem combustibilis: &amp; tandem deficeret 
+      <lb ed="#B" n="32"/>appositione combustibilium: quod est 
+      con<lb ed="#B" n="33" break="no"/>tra philosophum, &amp; experientiam.
+    </p>
+            <p xml:id="gbs333-b55557-d1e641">
+      ¶ Ideo 
+      <lb ed="#B" n="34"/>respondetur dupliciter ad rationes Sco. 
+      <lb ed="#B" n="35"/>Primo modo negando, quod uirtus non potest 
+      <lb ed="#B" n="36"/>confortari nisi per conuersionem alicuius 
+      <lb ed="#B" n="37"/>in ipsum: quia uirtus, quae confortatur, 
+      <lb ed="#B" n="38"/>accidens est. Quia confortari, &amp; debilita 
+      <lb ed="#B" n="39"/>ri non conuenit formae substantiali. quae 
+      <lb ed="#B" n="40"/>non recipit magis, &amp; minus. 
+      Cofortatio<lb ed="#B" n="41" break="no"/>ergo posset esse paugmentum aliquarum qua 
+      <lb ed="#B" n="42"/>litatu; sed tales praesent augeri, &amp; seruari 
+      ac<lb ed="#B" n="43" break="no"/>cofortari perqualitates extrinsecas absque;  
+      <lb ed="#B" n="44"/>aliqua conuersione. Vnde sensibiliter ex 
+      <lb ed="#B" n="45"/>primit, quod ante omnem conuersionem aliques 
+      <lb ed="#B" n="46"/>confortat ad faciendum opera uitae, quae prius 
+      <lb ed="#B" n="47"/>facere non poterat puta statim, post sum 
+      <lb ed="#B" n="48"/>ptionem cibi priusquam conuertit in substa 
+      <lb ed="#B" n="49"/>tiam rei, alitae. Similiter aliqua confortant 
+      <lb ed="#B" n="50"/>solo odoratu: aliqua solum extrinsecus ta¬ 
+      <!--260.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ctui applicata, quae non conuertuntur in 
+      con<lb ed="#B" n="52" break="no"/>fortatum. Non ergo oportet omnem confor 
+      <lb ed="#B" n="53"/>tationem fieri per smoi conuersionem, &amp; 
+      <lb ed="#B" n="54"/>ita semp conuersiuam uirtutem repati; &amp; sic 
+      <lb ed="#B" n="55"/>semper deficere.
+    </p>
+            <p xml:id="gbs333-b55557-d1e695">
+      ¶ Secundo esto, quod 
+      ali<lb ed="#B" n="56" break="no"/>quando confortatio fiat per conuersionem, &amp; 
+      pri<lb ed="#B" n="57" break="no"/>mum conuertens repatiat: &amp; fiat debilius 
+      <lb ed="#B" n="58"/>conuertendo: tamen resultas ex 
+      conuerten<lb ed="#B" n="59" break="no"/>te, &amp; conuerso est fortius, &amp; perfectius: 
+      <lb ed="#B" n="60"/>&amp; sic potest carnem facere puriorem. Ideo 
+      di<lb ed="#B" n="61" break="no"/>citur, quod potest homo confortationeligni 
+      ui<lb ed="#B" n="62" break="no"/>tae in uita perpetuo conseruari. Na agens 
+      <lb ed="#B" n="63"/>physicunsicut potest repatiendo 
+      debilita<lb ed="#B" n="64" break="no"/>ri: ita potest etiam augeri in uirtute sua. 
+      si<lb ed="#B" n="65" break="no"/>cut uidemus de igne: quanto plura 
+      combu<lb ed="#B" n="66" break="no"/>stibilia applicantur: tanto magis augmentatu  
+      <lb ed="#B" n="67"/>uirtus eius incensiua. Ha c est 
+      responsio<lb ed="#B" n="68" break="no"/>Ockam in. iiij. q. x.
+    </p>
+            <p xml:id="gbs333-b55557-d1e726">
+      ¶ Ad exemplum de uino, 
+      <lb ed="#B" n="69"/>&amp; aqua dicitur quod ibi non est uera 
+      conuersio<lb ed="#B" n="70" break="no"/>unius in aliud: sed quaedam mixtio piux 
+      <lb ed="#B" n="71"/>ta positionem partium; &amp; sic est 
+      conuersio<lb ed="#B" n="72" break="no"/>Tamen illa non est cum confortatione 
+      con<lb ed="#B" n="73" break="no"/>uertentis: sed cum eius continua debilitate 
+      <lb ed="#B" n="74"/>secus in proposito.
+    </p>
+            <p xml:id="gbs333-b55557-d1e742">
+      ¶ Secundo dubitatur  
+      <lb ed="#B" n="75"/>contra conclusionem primam. Nam uidetur, quod 
+      <lb ed="#B" n="76"/>homo manens in innocentia non potuit 
+      <lb ed="#B" n="77"/>mori. Nam mors poena est grauis, quae 
+      se<lb ed="#B" n="78" break="no"/>cundum diuinam iustitiam non praecedit 
+      cul<lb ed="#B" n="79" break="no"/>pa.
+    </p>
+            <p xml:id="gbs333-b55557-d1e756">
+      ¶ Ad hoc respondetur, quod secundum in 
+      <lb ed="#B" n="80"/>nocentiam homo potuit mori, licet de 
+      fa<lb ed="#B" n="81" break="no"/>cto homo mortuus non fuisset ex 
+      cau<lb ed="#B" n="82" break="no"/>sis tactis. Et ad argumentum nunc 
+      addu<lb ed="#B" n="83" break="no"/>ctum dicitur. Verum quod est poena non 
+      prae<lb ed="#B" n="84" break="no"/>cedit culpamn: capiendo pena proprie 
+      pro<lb ed="#B" n="85" break="no"/>ut pena est punitio delicti. Sed tumc mors 
+      <lb ed="#B" n="86"/>non fuisset pena in statu innocentiae: sed  
+      <lb ed="#B" n="87"/>quaedam naturalis transmutatio consequens 
+      <lb ed="#B" n="88"/>mixtionem ex contrarijs: sicut &amp; mors 
+      <lb ed="#B" n="89"/>brutorum non est pena: sed passio con 
+      <lb ed="#B" n="90"/>sequens naturam corruptibilem.
+    </p>
+            <p xml:id="gbs333-b55557-d1e782">
+      ¶ 
+      Ter<lb ed="#B" n="91" break="no"/>tio dubitatur. Vtrum lignum uitae 
+      peccato<lb ed="#B" n="92" break="no"/>rem praeseruasset a morte; &amp; uidetur quod 
+      <lb ed="#B" n="93"/>sic: quia dicitur Gen. iij. Ne ergo forte 
+      <lb ed="#B" n="94"/>mittat manum suam, &amp; sumat etiam de 
+      li<lb ed="#B" n="95" break="no"/>gno uitae: &amp; uiuat in aeternum. Hoc 
+      di<lb ed="#B" n="96" break="no"/>ctum est de Adam post peccatum. Et idem 
+      <lb ed="#B" n="97"/>uidetur de Enoch, &amp; Helia conceptis in 
+      <lb ed="#B" n="98"/>peccato: &amp; tamen praeseruantur in paradiso 
+      <lb ed="#B" n="99"/>usque ad Antichristi aduentum. Et qua ratione 
+      <lb ed="#B" n="100"/>usque tunc: eadem ratione, &amp; deinceps. Item 
+      <!--261.xml-->
+      <pb ed="#B" n="115-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lignum uitae habuituim restaurandi 
+      hu<lb ed="#B" n="2" break="no"/>midum radicale, &amp; conseruare: &amp; potuit 
+      <lb ed="#B" n="3"/>extrinsecum uitae impedimentum 
+      tolli<lb ed="#B" n="4" break="no"/>&amp; caueri: ergo potuit hominem 
+      pecca<lb ed="#B" n="5" break="no"/>torem in uita conseruare; neque 
+      pecca<lb ed="#B" n="6" break="no"/>tum hominis mutauit naturam ligniuitae: 
+      <lb ed="#B" n="7"/>Respondetur breuiter post sanctum Bo 
+      <lb ed="#B" n="8"/>nauent. quod uis ligni uitae conseruatiua 
+      <lb ed="#B" n="9"/>hominis non fuit ligni a natura 
+      speci<lb ed="#B" n="10" break="no"/>uoca: sed ex dono dei speciali ad salutem 
+      <lb ed="#B" n="11"/>hominis corporalem. Sicut quod 
+      uestimen<lb ed="#B" n="12" break="no"/>ta, &amp; calciamenta tanto tempore praebere 
+      <lb ed="#B" n="13"/>poterant obsequium homini: ita ut non 
+      <lb ed="#B" n="14"/>ueterascerent, non fuit a natura eorum, sed  
+      <lb ed="#B" n="15"/>speciali dono Dei. Homine igitur lapso 
+      <lb ed="#B" n="16"/>in pctum subtracta, &amp; immutata fuit ista 
+      <lb ed="#B" n="17"/>uis ligno uitae: ut irreuocabiliter staret 
+      <lb ed="#B" n="18"/>Dei sententia. Stipendia peccati mors. ad 
+      <lb ed="#B" n="19"/>Rom. vj. &amp; Gen. ij. Quocumque; dic 
+      come<lb ed="#B" n="20" break="no"/>deritis &amp;c. Per hoc ad obiecta.
+    </p>
+            <p xml:id="gbs333-b55557-d1e856">
+      ¶ Ad 
+      pri<lb ed="#B" n="21" break="no"/>mum dicitur, quod in aeternum, non dicit ibi 
+      <lb ed="#B" n="22"/>interminabiitatem: sed quandam uitae 
+      diu<lb ed="#B" n="23" break="no"/>turnitatem, quenmadmodum saepe loquitur 
+      scri<lb ed="#B" n="24" break="no"/>ptura. Quamuis. n. post peccatum lignum 
+      ui<lb ed="#B" n="25" break="no"/>tae non potuit corpus perpetuare; potuit 
+      <lb ed="#B" n="26"/>tamen adiuuando naturam ipsum lignum 
+      lon<lb ed="#B" n="27" break="no"/>go tempore conseruare, &amp; per hoc 
+      pa<lb ed="#B" n="28" break="no"/>ter solutio sequentium.
+    </p>
+            <p xml:id="gbs333-b55557-d1e876">
+      ¶ Ex praedictis 
+      <lb ed="#B" n="29"/>patet, quod alia fuit immortalitas status in 
+      <lb ed="#B" n="30"/>nocentiae: &amp; alia erit status gloriae. Nam 
+      <lb ed="#B" n="31"/>illa non reddidit corpus spirituale: sed  
+      <lb ed="#B" n="32"/>conseruabat corpus animale indigens 
+      <lb ed="#B" n="33"/>cibo, &amp; potu. Tuitque alterabile per qua 
+      <lb ed="#B" n="34"/>litates primas, &amp; uiolentabile per 
+      extrin<lb ed="#B" n="35" break="no"/>seca aduersa. Sed in hoc fuisset 
+      immor<lb ed="#B" n="36" break="no"/>tale: quia contra omnia mortem 
+      infer<lb ed="#B" n="37" break="no"/>re potentia intrinseca, &amp; extrinseca, 
+      <lb ed="#B" n="38"/>habuit sufficientia munimenta: ut 
+      di<lb ed="#B" n="39" break="no"/>ctum est. Sed inimortalitas gloriae 
+      red<lb ed="#B" n="40" break="no"/>det corpus gloriosum, &amp; spirituale: ita 
+      <lb ed="#B" n="41"/>ut non indigeat corporalibus 
+      alimen<lb ed="#B" n="42" break="no"/>tis. Nec alterari poterit: aut laedi a 
+      qui<lb ed="#B" n="43" break="no"/>buscunque extrinsecis, sed erit in plena 
+      <lb ed="#B" n="44"/>potestate spiritus ipsum uiuificantis, 
+      <lb ed="#B" n="45"/>animae scilicet rationalis quantum 
+      <lb ed="#B" n="46"/>ad agere, &amp; pati per donum glo 
+      <lb ed="#B" n="47"/>riae: de quo in quarto 
+      <lb ed="#B" n="48"/>uidendum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

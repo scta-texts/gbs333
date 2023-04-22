@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="115-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b56457"><!-- l2-d20q1 -->
+            <head xml:id="gbs333-b56457-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b56457-Hd1e103" type="question-title">
+      Utrum 
+      tantummodo electi fuissent in statu 
+      innocentiae geniti: et hi sta 
+      tim post generationem in gratia 
+      confirmati
+    </head>
+            <p xml:id="gbs333-b56457-d1e106">
+               <lb ed="#B" n="75"/>QVAESTIO VNICA 
+      <lb ed="#B" n="76"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="77"/>quaeritur. Vtrum 
+      tantum<lb ed="#B" n="78" break="no"/>modo electi fuissent in statu 
+      <lb ed="#B" n="79"/>innocentiae geniti: &amp; hi 
+      sta<lb ed="#B" n="80" break="no"/>tim post generationem in gratia 
+      con<lb ed="#B" n="81" break="no"/>firmati. Secundum duo quaesita duo 
+      <lb ed="#B" n="82"/>erunt articuli ad ea responsiui, quibus 
+      <lb ed="#B" n="83"/>addetur tertius dubiorum absolutiuus. 
+    </p>
+            <p xml:id="gbs333-b56457-d1e128">
+               <lb ed="#B" n="84"/>¶ Quantum ad primum notandum post 
+      <lb ed="#B" n="85"/>Sco. in hac dist. quod ad numeralem iden 
+      <lb ed="#B" n="86"/>titatem personae humanae requiritur, &amp; 
+      <lb ed="#B" n="87"/>sufficit numeralis identitas materiae &amp; 
+      <lb ed="#B" n="88"/>foriae. Primum scilicet, quod requiritur, 
+      <lb ed="#B" n="89"/>patet: quia non manet idem totum muta 
+      <lb ed="#B" n="90"/>tis partibus, uel aliqua partium essentia 
+      <lb ed="#B" n="91"/>lium: cumtotum ex suis partibus 
+      con<lb ed="#B" n="92" break="no"/>stituatur. Et si mutatis partibus integra 
+      <lb ed="#B" n="93"/>libus non manet idem totum uera, &amp; 
+      pro<lb ed="#B" n="94" break="no"/>pria identitate: multo magis mutatur par¬ 
+      <!--262.xml-->
+      <pb ed="#B" n="116-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tibus essentialibus uariatis. Secundum 
+      sci<lb ed="#B" n="2" break="no"/>licet, quod sufficit, patet: quia ad identitate 
+      <lb ed="#B" n="3"/>substantiae non requiritur identitas 
+      acci<lb ed="#B" n="4" break="no"/>dentium eius: cum eadem substantia 
+      subijci<lb ed="#B" n="5" break="no"/>possit pluribus accidentibus, &amp; accidenta 
+      <lb ed="#B" n="6"/>libus dispositionibus simul: &amp; per eius 
+      al<lb ed="#B" n="7" break="no"/>terationem successiue. Idem enim homo 
+      <lb ed="#B" n="8"/>potest esse primo calidus, post frigidus: 
+      <lb ed="#B" n="9"/>prius ignorans, post sciens.
+    </p>
+            <p xml:id="gbs333-b56457-d1e180">
+      ¶ Secundo 
+      <lb ed="#B" n="10"/>supponitur, quod a plurium agentium 
+      quo<lb ed="#B" n="11" break="no"/>libet potest idem effectus produci: sicut idem 
+      <lb ed="#B" n="12"/>ignis in eadem materia produci potest 
+      <lb ed="#B" n="13"/>quicumque incendens ignis applicetur. Ex 
+      <lb ed="#B" n="14"/>quo sequitur, quod eadem proles potuit 
+      ge<lb ed="#B" n="15" break="no"/>neraria pluribus, seu diuersis 
+      parenti<lb ed="#B" n="16" break="no"/>bus. Idem dico tam in mareria, quam 
+      for<lb ed="#B" n="17" break="no"/>ma. De forma patet: quia eadem 
+      ani<lb ed="#B" n="18" break="no"/>ma potuit infundi diuersis materijs. 
+      De<lb ed="#B" n="19" break="no"/>materia etiam patet: quia materia 
+      pro<lb ed="#B" n="20" break="no"/>lis est materia nutrimenti sumpti a 
+      pa<lb ed="#B" n="21" break="no"/>rente: quia corpus prolis materialiter 
+      <lb ed="#B" n="22"/>producitur a semine: Semen autem est 
+      <lb ed="#B" n="23"/>superssuum nutrimenti tertiae 
+      digestio<lb ed="#B" n="24" break="no"/>nis. Aliter etiam ex nutrimento parentis 
+      <lb ed="#B" n="25"/>in sanguinem menstruum: ut uult 
+      philo<lb ed="#B" n="26" break="no"/>sophus ij. de anima. Sed idem nutrimen 
+      <lb ed="#B" n="27"/>tum potuit sumi a diuersis: &amp; ideo eadem 
+      <lb ed="#B" n="28"/>proles potuit generari ab Adam, Abraam, 
+      <lb ed="#B" n="29"/>&amp; alijs non simul a pluribus: sed a 
+      quoli<lb ed="#B" n="30" break="no"/>bet plurium. Et genitus ab Abraam 
+      po<lb ed="#B" n="31" break="no"/>potuit fuisse genitus ab Aaron fratre 
+      <lb ed="#B" n="32"/>eius, uel quocunque alio.
+    </p>
+            <p xml:id="gbs333-b56457-d1e233">
+      ¶ Corollarium. 
+      <lb ed="#B" n="33"/>Aliquis electus genitus a reprobo 
+      po<lb ed="#B" n="34" break="no"/>tuit generari idem numero ab alio 
+      ele<lb ed="#B" n="35" break="no"/>cto.
+    </p>
+            <p xml:id="gbs333-b56457-d1e242">
+      ¶ Supponendum est ex primo lib. 
+      <lb ed="#B" n="36"/>quod electio siue praedestinatio est aeterna: 
+      <lb ed="#B" n="37"/>secundum illud apostoliad Ephe. j. 
+      Ele<lb ed="#B" n="38" break="no"/>git nos ante mundi constitutionem. Et  
+      <lb ed="#B" n="39"/>ideo non mutatur propter mutationem 
+      <lb ed="#B" n="40"/>status: nam prius non mutatur propter 
+      mu<lb ed="#B" n="41" break="no"/>tationem posterioris: saltem non 
+      opor<lb ed="#B" n="42" break="no"/>ter. Nunc autem prius aliquo modo est 
+      <lb ed="#B" n="43"/>electio beatificandi, quam praeuisiostatus, 
+      <lb ed="#B" n="44"/>seu praeordinatio receptionis esse a 
+      ta<lb ed="#B" n="45" break="no"/>li, uel tali parente: nam ut dicit Sco. q.ij. 
+      <lb ed="#B" n="46"/>huius dist. Omnis ordinate uolens 
+      pri<lb ed="#B" n="47" break="no"/>mo uult finem: &amp; postuolitionem finis 
+      <lb ed="#B" n="48"/>uult illud, quod est immediatius 
+      fini<lb ed="#B" n="49" break="no"/>Deus autem est uolens ordinatissimum: 
+      <lb ed="#B" n="50"/>ideo primo uult seipsum, uel bonita¬ 
+      <!--262.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tem suam tanquam suam. Secundo uult 
+      <lb ed="#B" n="52"/>bonum creaturae ultimatum scilicet 
+      beatitudi<lb ed="#B" n="53" break="no"/>nem. Postea uult gratiam qua ordinatur ad 
+      ta<lb ed="#B" n="54" break="no"/>lem fruitionem: &amp; posterius uult istam 
+      <lb ed="#B" n="55"/>creaturam accipere a tali parente. Humc 
+      <lb ed="#B" n="56"/>ordinem innuit apostolus ad Rom. viij. 
+      <lb ed="#B" n="57"/>Quos praedestinauit, hos &amp; uocauit, &amp; 
+      <lb ed="#B" n="58"/>quos uocauit, hos &amp; iustificauit. Prius 
+      <lb ed="#B" n="59"/>ergo electi ad beatitudinem sunt 
+      de<lb ed="#B" n="60" break="no"/>terminati, quam ad nasci a tali 
+      paren<lb ed="#B" n="61" break="no"/>te: ergo aquocunque nascantur 
+      paren<lb ed="#B" n="62" break="no"/>te: non uariatur determinatio ad 
+      bea<lb ed="#B" n="63" break="no"/>titudinem, quae est praedestinatio. 
+      er<lb ed="#B" n="64" break="no"/>go praedestinati sunt ijdem numero: 
+      <lb ed="#B" n="65"/>non obstante mutatione status, aut 
+      pa<lb ed="#B" n="66" break="no"/>rentum, a quibus nascuntur.
+    </p>
+            <p xml:id="gbs333-b56457-d1e316">
+      ¶ His 
+      prae<lb ed="#B" n="67" break="no"/>missis est prima conclusio ad hunc 
+      ar<lb ed="#B" n="68" break="no"/>ticulum. Si Adam instatu innocentiae cum 
+      <lb ed="#B" n="69"/>posteritate permansisset: omnes modo 
+      <lb ed="#B" n="70"/>electi ijdem numero geniti fuissent. Pro 
+      <lb ed="#B" n="71"/>batur conclusio: quia omnes praedestinati 
+      <lb ed="#B" n="72"/>fuissent geniti: omnes modo electi sunt ab 
+      <lb ed="#B" n="73"/>aeterno praedestinati: ergo omnes 
+      fuis<lb ed="#B" n="74" break="no"/>sent geniti. Consequentia est in primo ter 
+      <lb ed="#B" n="75"/>tiae figurae. Minor probatur: quia nullus 
+      <lb ed="#B" n="76"/>de nouo praedestinatur. Maior probatur. 
+      <lb ed="#B" n="77"/>quia praedestinatio dei infallibilis est 
+      im<lb ed="#B" n="78" break="no"/>mutabilis: ergo omnis praedestinatus 
+      <lb ed="#B" n="79"/>consequitur beatitudinem, hac autem nullus 
+      <lb ed="#B" n="80"/>homo consequetur; nisi prius in esse 
+      na<lb ed="#B" n="81" break="no"/>turali producatur: esse enim gloriae 
+      prae<lb ed="#B" n="82" break="no"/>supponit esse naturae.
+    </p>
+            <p xml:id="gbs333-b56457-d1e353">
+      ¶ Secunda 
+      coclu<lb ed="#B" n="83" break="no"/>sio. In statu innocentiae reprobus nullus 
+      <lb ed="#B" n="84"/>fuisset genitus. Probat: quia in illo 
+      statu<lb ed="#B" n="85" break="no"/>non fuisset peccator, ergo nec reprobus: 
+      <lb ed="#B" n="86"/>non. non compatitur status innocentiae 
+      pecca<lb ed="#B" n="87" break="no"/>torem.
+    </p>
+            <p xml:id="gbs333-b56457-d1e366">
+      ¶ Tertia conclusio. Sistatus 
+      innocen<lb ed="#B" n="88" break="no"/>tiae prmansisset: multi electorum ex alijs 
+      pa<lb ed="#B" n="89" break="no"/>rentibus editi fuissent. Probatur: quia 
+      <lb ed="#B" n="90"/>omnes electi fussent geniti, quorum non 
+      <lb ed="#B" n="91"/>nulli orti sunt ex parentibus reprobis, ut  
+      <lb ed="#B" n="92"/>patet de fidelibus ex infidelitate conuer 
+      <lb ed="#B" n="93"/>sis, parentibus suis in infidelitate 
+      per<lb ed="#B" n="94" break="no"/>manentibus, ut legitur de sanctis Marti 
+      <lb ed="#B" n="95"/>no, Barbara, Christina: ergo fuissent ex 
+      <lb ed="#B" n="96"/>aliis parentibus ganiti.
+    </p>
+            <p xml:id="gbs333-b56457-d1e388">
+      ¶ Quarta conclusio. 
+      <lb ed="#B" n="97"/>In statu innocentiae tantum electi fuissent 
+      <lb ed="#B" n="98"/>geniti. Patet: quia omnes electi fuissent 
+      ge<lb ed="#B" n="99" break="no"/>niti ex conclusione prima, &amp; nulli qui non 
+      <lb ed="#B" n="100"/>sunt electi fuissent geniti. Consequentia 
+      <!--263.xml-->
+      <pb ed="#B" n="116-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tenet per expositionem exclusiue: &amp; 
+      <lb ed="#B" n="2"/>hoc est, quid dicit beatus Grego. iiij. 
+      mo<lb ed="#B" n="3" break="no"/>ral. S. xxxvj. Si parentem primum nulla 
+      <lb ed="#B" n="4"/>peccati putredo corrumperet: naequaquam 
+      <lb ed="#B" n="5"/>ex se filios gehennae generaret: sed 
+      hi<lb ed="#B" n="6" break="no"/>qui nunc per redemptionem saluandi 
+      <lb ed="#B" n="7"/>sunt, solum ab illo electi nascerentur. 
+    </p>
+            <p xml:id="gbs333-b56457-d1e422">
+               <lb ed="#B" n="8"/>¶ Quamuis autem haec responsio sit 
+      probabi<lb ed="#B" n="9" break="no"/>lis: tamen uidetur oppositum aeque 
+      probabili<lb ed="#B" n="10" break="no"/>ter sustineri posse. Licet. none 
+      praedestina<lb ed="#B" n="11" break="no"/>tio sit immutabilis: ita quod inipossibile est 
+      <lb ed="#B" n="12"/>praedestinatum praesciri: &amp; econuerso in 
+      <lb ed="#B" n="13"/>sensu composito: est tamencontingens. 
+      <lb ed="#B" n="14"/>Nam quemcunque Deus praedestinat: 
+      con<lb ed="#B" n="15" break="no"/>tingenter praedestinat. sic de 
+      reproba<lb ed="#B" n="16" break="no"/>tione: &amp; sic qui praedestinatus est, potest 
+      <lb ed="#B" n="17"/>non saluari in sensu diuiso; quia potest 
+      <lb ed="#B" n="18"/>non praedestinatus fuisse. Et similiter 
+      po<lb ed="#B" n="19" break="no"/>tuit Deus praescitum praedestinare. Et non 
+      <lb ed="#B" n="20"/>magis est pdestinatio immutabilis, quam 
+      <lb ed="#B" n="21"/>reprobatio: nihilominus reprobi 
+      po<lb ed="#B" n="22" break="no"/>terant non reprobari: poterant enim 
+      <lb ed="#B" n="23"/>non produci: ut dicit conclusio 
+      secun<lb ed="#B" n="24" break="no"/>da statim posita. Aequaliter etiam 
+      cer<lb ed="#B" n="25" break="no"/>tus fuit lapsus hominis Deo ab 
+      aeter<lb ed="#B" n="26" break="no"/>no: sicut praedestinatio, &amp; praescientia 
+      si<lb ed="#B" n="27" break="no"/>ue reprobatio. Ideo dubiunobis est, 
+      si<lb ed="#B" n="28" break="no"/>lapsus non contigisset, qui electi fuissent, 
+      <lb ed="#B" n="29"/>cu poterant, qui nunc electi sunt, fuisse 
+      <lb ed="#B" n="30"/>non electi: &amp; qui praesciti sunt 
+      potuis<lb ed="#B" n="31" break="no"/>sent fuisseelecti: potuissent etiam fuisse 
+      <lb ed="#B" n="32"/>praedestinati, qui numc nec electi sunt, nec 
+      <lb ed="#B" n="33"/>repbati: immo omnino nec futuri.
+    </p>
+            <p xml:id="gbs333-b56457-d1e481">
+      ¶ Et  
+      <lb ed="#B" n="34"/>si dicis signo electum (gratia exepli) 
+      san<lb ed="#B" n="35" break="no"/>ctum Martinum, de quo certum habemus, quia 
+      <lb ed="#B" n="36"/>est electus: ille fuisset etiam electus, 
+      si<lb ed="#B" n="37" break="no"/>Adam non fuisset lapsus: quia eo, quod est ese 
+      <lb ed="#B" n="38"/>ctus, ab aeterno est electus, cuius tamen pater 
+      <lb ed="#B" n="39"/>eo, quod in infidelitate permasit, est 
+      repro<lb ed="#B" n="40" break="no"/>bus: ut dicit historia Sulpitij. De isto 
+      <lb ed="#B" n="41"/>procedit opin. Respondetur, quod sicut numnc 
+      <lb ed="#B" n="42"/>certum, est, quod factus Martinus est electus: 
+      <lb ed="#B" n="43"/>sic certum est, quod homo lapsus est: sed 
+      ni<lb ed="#B" n="44" break="no"/>hilominus potuit sanctus Martinus non 
+      <lb ed="#B" n="45"/>fuisse electus: sicut homo potuit non 
+      <lb ed="#B" n="46"/>fuisse lapsus. Sicut igitur ponitur 
+      oppo<lb ed="#B" n="47" break="no"/>situm lapsus certi tamquam possibile 
+      fuis<lb ed="#B" n="48" break="no"/>se: sic etiam opposita omnium 
+      contingen<lb ed="#B" n="49" break="no"/>ter factorum possibilia fuerunt. 
+      Pote<lb ed="#B" n="50" break="no"/>rant enim opposita fuisse; &amp; sic ipsa con¬ 
+      <!--263.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tingentia poterant etiam non fuisse. Et ideo 
+      <lb ed="#B" n="52"/>posito, quod illud non fuerit scilicet lapsus, quod 
+      cer<lb ed="#B" n="53" break="no"/>tum est fuisse: in dubium ueniunt, an caetera 
+      <lb ed="#B" n="54"/>contingentia, quae aliquo modo ad lapsum 
+      <lb ed="#B" n="55"/>ordinem habent (ut productio sancti Mar 
+      <lb ed="#B" n="56"/>tini, qui productus est de massa perditio 
+      <lb ed="#B" n="57"/>nis) fuisset productus.
+    </p>
+            <p xml:id="gbs333-b56457-d1e540">
+      ¶ Praeterea etiam 
+      <lb ed="#B" n="58"/>praedestinatus ab aeterno, potest ab aeter 
+      <lb ed="#B" n="59"/>no non fuisse praedestinatus: ut habetur 
+      <lb ed="#B" n="60"/>in j. dist. iiij. Item similis ratio per 
+      om<lb ed="#B" n="61" break="no"/>nia potest fieri de praescito, de quo 
+      ta<lb ed="#B" n="62" break="no"/>men concedit doc. ille, quod nullus nunc 
+      <lb ed="#B" n="63"/>praescitus fuisset genitus: si 
+      perman<lb ed="#B" n="64" break="no"/>sisset innocentiae status. Manet ergo 
+      <lb ed="#B" n="65"/>nobis dubium, si lapsus non 
+      contigis<lb ed="#B" n="66" break="no"/>set, qui tunc electi fuissent, cum 
+      pote<lb ed="#B" n="67" break="no"/>rant, qui nunc electi sunt, fuisse non 
+      ele<lb ed="#B" n="68" break="no"/>cti: &amp; nunc reprobati, aut non 
+      futuri<lb ed="#B" n="69" break="no"/>poterant fuisse electi.
+    </p>
+            <p xml:id="gbs333-b56457-d1e569">
+      ¶ Et ad tertium 
+      <lb ed="#B" n="70"/>notabile, quod est Sco. diceretur, quod 
+      si<lb ed="#B" n="71" break="no"/>prius, &amp; posterius dicunt ordinem 
+      tem<lb ed="#B" n="72" break="no"/>poris, uel originis aut causalitatis: 
+      fal<lb ed="#B" n="73" break="no"/>sum est, quod prius uult finem, &amp; post 
+      <lb ed="#B" n="74"/>ordinata in finem: quia non est nisi 
+      <lb ed="#B" n="75"/>unus actus diuinae uoluntatis: ut 
+      pa<lb ed="#B" n="76" break="no"/>tuit in primo: sicut est tantum una 
+      uo<lb ed="#B" n="77" break="no"/>luntas, &amp; una essentia. Siquidem idem 
+      <lb ed="#B" n="78"/>omnibus modis est essentia diuina 
+      uo<lb ed="#B" n="79" break="no"/>luntas diuina, &amp; actus diuinae 
+      uolunta<lb ed="#B" n="80" break="no"/>tis. Nec est ibi actus, &amp; actus: sed unus 
+      <lb ed="#B" n="81"/>tantum aeternus actus. Ideo non est ibi 
+      <lb ed="#B" n="82"/>ordo actuum diuinae uoluntatis, quia 
+      or<lb ed="#B" n="83" break="no"/>do praesupponit distinctionem ordinato 
+      <lb ed="#B" n="84"/>rum; neque ordo effectuum temporalium 
+      <lb ed="#B" n="85"/>infert actuum diuinorum ordinem: nam 
+      <lb ed="#B" n="86"/>in effectibus est conuersus ordo ad 
+      ordi<lb ed="#B" n="87" break="no"/>nem in notabili designatum; quia in 
+      es<lb ed="#B" n="88" break="no"/>fectibus primum est esse naturae: deinde 
+      <lb ed="#B" n="89"/>esse gratiae: ultimo esse gloriae. Nec. ni. 
+      <lb ed="#B" n="90"/>aliquod horum Deus prius uult altero, 
+      <lb ed="#B" n="91"/>sed quaecunque uult, simul &amp; ab 
+      aeterno<lb ed="#B" n="92" break="no"/>uult. Licet, quae uult, possit non uelle: quia 
+      <lb ed="#B" n="93"/>quaecumque uult a dextra contingenter uult. 
+      <lb ed="#B" n="94"/>Verum, quod Deus ordinatissime uult, 
+      quae<lb ed="#B" n="95" break="no"/>cumque; uult: quia uoluntas sua est prima 
+      regu<lb ed="#B" n="96" break="no"/>la rectitudinis, &amp; iustitiae: ut dicit Aug. 
+      <lb ed="#B" n="97"/>iij. de trin. neque innititur alij regulae 
+      di<lb ed="#B" n="98" break="no"/>rectrici suae uoluntatis: eo ipso enim, 
+      <lb ed="#B" n="99"/>quod uult recte, &amp; iuste, &amp; ordinate uult. 
+    </p>
+            <p xml:id="gbs333-b56457-d1e637">
+               <lb ed="#B" n="100"/>¶ Posset ergo dici, quod si homo non fuisset 
+      <!--264.xml-->
+      <pb ed="#B" n="117-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lapsus: dubium nobis esset, utrum modo ese 
+      <lb ed="#B" n="2"/>cti, uel alij plures uel pauciores fuissent 
+      <lb ed="#B" n="3"/>geniti, quolibet enim horum fuisset Deo 
+      <lb ed="#B" n="4"/>possibile: quod autem fecisset; quia 
+      re<lb ed="#B" n="5" break="no"/>uelatum non est; non est temere diffinien 
+      <lb ed="#B" n="6"/>dum: licet posset sine temeritate cum fidei 
+      <lb ed="#B" n="7"/>pietate credi, quod magis uidetur 
+      con<lb ed="#B" n="8" break="no"/>sentaneum rationi.
+    </p>
+            <p xml:id="gbs333-b56457-d1e666">
+      ¶ Quantum ad 
+      se<lb ed="#B" n="9" break="no"/>cundum articulum notandum, quod aliquem 
+      <lb ed="#B" n="10"/>fuisse confirmatum in iustitia, potest du 
+      <lb ed="#B" n="11"/>pliciter intelligi. Vno modo: quia non 
+      <lb ed="#B" n="12"/>potest peccare eo modo, quo creaturam 
+      <lb ed="#B" n="13"/>contingit non posse peccare: de quo 
+      perti<lb ed="#B" n="14" break="no"/>net ad quartu. Et etiam sup. de 
+      confirmatio<lb ed="#B" n="15" break="no"/>ne angelorum tactum est. Alio modo, quis 
+      di<lb ed="#B" n="16" break="no"/>cofirmatus, quia non peccabit. Sic quidam 
+      <lb ed="#B" n="17"/>uiatores in utero sanctificati possunt 
+      di<lb ed="#B" n="18" break="no"/>ci confirmati: praesertim quantum ad 
+      mor<lb ed="#B" n="19" break="no"/>talia; quia forte etiam peccauerunt uenia 
+      <lb ed="#B" n="20"/>liter: secundum illud j. Io. j. Si dixerimus, 
+      <lb ed="#B" n="21"/>quoniam peccatum non habemus, ipsi nos 
+      se<lb ed="#B" n="22" break="no"/>ducime, &amp; ueritas in nobis non est.
+    </p>
+            <p xml:id="gbs333-b56457-d1e700">
+      ¶ 
+      Quo<lb ed="#B" n="23" break="no"/>praemisso est conclusio prima ad humc 
+      arti<lb ed="#B" n="24" break="no"/>culum. Accipiendo confirmationem primo 
+      <lb ed="#B" n="25"/>modo, in statu innocentiae electi non 
+      fue<lb ed="#B" n="26" break="no"/>runt in gratia confirmati. Probatur: quia 
+      <lb ed="#B" n="27"/>talis confirmatio repugnat statui uiae: 
+      <lb ed="#B" n="28"/>sed status innocentiae in paradiso, 
+      fuis<lb ed="#B" n="29" break="no"/>set status uiae: igitur. Consequentia 
+      no<lb ed="#B" n="30" break="no"/>ta cum minore. Maior probatur: quia 
+      il<lb ed="#B" n="31" break="no"/>la confirmatio includit certitudinem de 
+      <lb ed="#B" n="32"/>non peccando, quae est pars 
+      beatitudi<lb ed="#B" n="33" break="no"/>nis: beatitudo autem repugnat staturuiae: 
+    </p>
+            <p xml:id="gbs333-b56457-d1e726">
+               <lb ed="#B" n="34"/>¶ Item quandiu uoluntatis capacitas non est 
+      <lb ed="#B" n="35"/>plene satiata in objecto beatifico: ita quod 
+      <lb ed="#B" n="36"/>non est ei coniuncta secundum onem ratione. 
+      <lb ed="#B" n="37"/>boni potest deficere a rectitudine 
+      uo<lb ed="#B" n="38" break="no"/>lendo non secundum debitam circustatiam: 
+      <lb ed="#B" n="39"/>sed uoluntas uiatoris non est sic consuncta 
+      <lb ed="#B" n="40"/>obiecto beatifico; nec inea satiata: ergo 
+      <lb ed="#B" n="41"/>potest deficere: est autem status 
+      innocen<lb ed="#B" n="42" break="no"/>tiae, status uiatoris: ut dictum est.
+    </p>
+            <p xml:id="gbs333-b56457-d1e748">
+      ¶ 
+      Secun<lb ed="#B" n="43" break="no"/>da conclusio. In statu innocentiae 
+      ese<lb ed="#B" n="44" break="no"/>cti fuissent statim post generationem 
+      in<lb ed="#B" n="45" break="no"/>gratia secundo modo confirmati. 
+      Proba<lb ed="#B" n="46" break="no"/>tur: quia si Adam non peccasset, filij 
+      sui<lb ed="#B" n="47" break="no"/>nunquam peccassent. Probatur 
+      per<lb ed="#B" n="48" break="no"/>beatum Ansel. j. lib. Cur deus homo 
+      <lb ed="#B" n="49"/>c. xviij. loquente de primis parentibus: 
+      <lb ed="#B" n="50"/>ubi dicit. In illa iustitia, in qua erant, 
+      <!--264.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>si uicissent, ut tentati non peccarent 
+      <lb ed="#B" n="52"/>ita confirmarentur cum omni 
+      propa<lb ed="#B" n="53" break="no"/>gine sua: quod ultra peccare non possent. 
+      <lb ed="#B" n="54"/>Quemadmodum quia uicti peccaue- 
+      <lb ed="#B" n="55"/>runt, sic infirmatisunt: ut quantum in 
+      <lb ed="#B" n="56"/>ipsis est, sine peccato esse non possunt. 
+      <lb ed="#B" n="57"/>Quis enim audeat dicere plus ualere 
+      <lb ed="#B" n="58"/>niustitiam ad alligandum in seruitutem 
+      <lb ed="#B" n="59"/>hominem in prima persuasione sibi 
+      con<lb ed="#B" n="60" break="no"/>sentiente, quam ualeret iustitia ad 
+      confir<lb ed="#B" n="61" break="no"/>mandum eum in libertate sibi in eadem 
+      <lb ed="#B" n="62"/>prima tentatione adhaerentem. Nam 
+      <lb ed="#B" n="63"/>quoniam quemadmodum humana 
+      na<lb ed="#B" n="64" break="no"/>tura tota erat in parentibus primis. 
+      to<lb ed="#B" n="65" break="no"/>ta in illis uicta est, ut peccaret. Ita in 
+      <lb ed="#B" n="66"/>illis tota uicisset, si non peccasset. Et  
+      <lb ed="#B" n="67"/>beatus Grego. iiij. moral. Non genuis 
+      <lb ed="#B" n="68"/>sent reprobos in statu innocentiae: ut  
+      <lb ed="#B" n="69"/>sup. allegatum est: ergo nec 
+      peccato<lb ed="#B" n="70" break="no"/>res. Peccatores namque reprobi sunt: 
+      et<lb ed="#B" n="71" break="no"/>si non semper secundum praedestinatio 
+      <lb ed="#B" n="72"/>nem tamen secundum praesentem iustitiam. 
+      Ve<lb ed="#B" n="73" break="no"/>runtamem iustitia originalem Adam non 
+      tras<lb ed="#B" n="74" break="no"/>fudisset: quia est donum supernaturale. Sed 
+      <lb ed="#B" n="75"/>deus regulariter dedisset ex mera liber 
+      <lb ed="#B" n="76"/>tate iustitiam proli, sicut parenti, si non 
+      <lb ed="#B" n="77"/>fuissent lapsi. Et addit Sco. nisi silij 
+      po<lb ed="#B" n="78" break="no"/>suissent obicem. Non enim ait: 
+      habuis<lb ed="#B" n="79" break="no"/>ent iustitiam perfectiorem, quam pater. 
+      <lb ed="#B" n="80"/>sed pater non fuit ita iustus, quin amise 
+      <lb ed="#B" n="81"/>rit iustitiam. Sicut ergo pater si uicisset 
+      <lb ed="#B" n="82"/>primam tentationem fuisset 
+      confirma<lb ed="#B" n="83" break="no"/>tus: ita &amp; filij peccare quidem 
+      potuis<lb ed="#B" n="84" break="no"/>sent sicut pater. Sed si de prima 
+      tenta<lb ed="#B" n="85" break="no"/>tione habuisset uictoriam per adiutorium 
+      <lb ed="#B" n="86"/>iustitiae &amp; doctrinam parentum: ita 
+      con<lb ed="#B" n="87" break="no"/>firmati fuissent, quod postea nunquam 
+      pec<lb ed="#B" n="88" break="no"/>cassent. Verum hoc non satis uidetur 
+      <lb ed="#B" n="89"/>concordare dicto Ans. qui uidetur 
+      so<lb ed="#B" n="90" break="no"/>nare, quod sicut per iniustitiam primorum 
+      <lb ed="#B" n="91"/>parentum, omnes filij nati fuissent 
+      in<lb ed="#B" n="92" break="no"/>lusti: ita per eorum iustitiam filij 
+      nati<lb ed="#B" n="93" break="no"/>fuissent iusti; ita quod non peccassent; quia 
+      <lb ed="#B" n="94"/>acceperunt iustitiam non tantum 
+      pro<lb ed="#B" n="95" break="no"/>se: sed pro tota posteritate, quam 
+      si<lb ed="#B" n="96" break="no"/>conseruasset: conseruasset pro se, &amp; 
+      <lb ed="#B" n="97"/>tota posteritate. Habuissent tamen 
+      fi<lb ed="#B" n="98" break="no"/>lij iustitiam non ex transfusione 
+      pa<lb ed="#B" n="99" break="no"/>tentum, sed ex dono dei: ut dictum 
+      <lb ed="#B" n="100"/>est.
+    </p>
+            <p xml:id="gbs333-b56457-d1e881">
+      ¶ Quantum ad tertium articulum, 
+      <!--265.xml-->
+      <pb ed="#B" n="117-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est dubium primum. Vtrum in statu 
+      in<lb ed="#B" n="2" break="no"/>nocentiae in paradiso uoluptatis 
+      pro<lb ed="#B" n="3" break="no"/>ductae fuissent foeminae in aequali nume 
+      <lb ed="#B" n="4"/>ro cum uiris. Ad hoc dubium 
+      respon<lb ed="#B" n="5" break="no"/>det Scotus, quod dubium nobis est: &amp; 
+      so<lb ed="#B" n="6" break="no"/>li Deo cognitum. Sanctus Bonauent.  
+      <lb ed="#B" n="7"/>respondet affirmatiue dicens: quod si 
+      ho<lb ed="#B" n="8" break="no"/>mo stetisset aequaliter, multiplicasset 
+      na<lb ed="#B" n="9" break="no"/>tura uiros, &amp; mulieres. Quod declarat  
+      <lb ed="#B" n="10"/>dupliciter: scilicet ex parte finis, &amp; ex 
+      <lb ed="#B" n="11"/>parte causae efficientis. Ex parte finis: 
+      <lb ed="#B" n="12"/>cum enim distinctio sexuum est 
+      pro<lb ed="#B" n="13" break="no"/>pter multiplicationem generis 
+      huma<lb ed="#B" n="14" break="no"/>ni, &amp; completionem numeri electorum: 
+      <lb ed="#B" n="15"/>illa etiam multitudo ad omnes 
+      specta<lb ed="#B" n="16" break="no"/>ret, tamen secundum legem 
+      matrimo<lb ed="#B" n="17" break="no"/>nij: in qua tantum una erat unius, 
+      ne<lb ed="#B" n="18" break="no"/>cesse esset, si natura stetisset tot fuisse 
+      <lb ed="#B" n="19"/>mulieres, quot uiros: cum nulla mulier 
+      <lb ed="#B" n="20"/>careret uiro, &amp; nullus uir careret 
+      uxo<lb ed="#B" n="21" break="no"/>re, nec una esset plurium, nec plures 
+      u<lb ed="#B" n="22" break="no"/>nius. Assignat etiam causam ex parte 
+      <lb ed="#B" n="23"/>principii actiui, quam rescindo. 
+      Con<lb ed="#B" n="24" break="no"/>cordat sanctus Tho. parte j. quaest. xcix. 
+      <lb ed="#B" n="25"/>arti. ij in finem.
+    </p>
+            <p xml:id="gbs333-b56457-d1e944">
+      ¶ Sed diceres, cum non 
+      <lb ed="#B" n="26"/>sit uerisimile tot uiros nunc saluari: 
+      <lb ed="#B" n="27"/>quot mulieres: uel econuerso. Posito 
+      <lb ed="#B" n="28"/>itaque, quod non sint electi in aequali 
+      nu<lb ed="#B" n="29" break="no"/>mero sexus utriusque quodque soli nunc 
+      <lb ed="#B" n="30"/>electi tunc fuissent producti: 
+      sequi<lb ed="#B" n="31" break="no"/>tur, quod electus nunc genitus in sexu 
+      ui<lb ed="#B" n="32" break="no"/>rili: tunc productus fuisset in sexu 
+      foe<lb ed="#B" n="33" break="no"/>mineo, uel econuerso. Quod uidetur 
+      re<lb ed="#B" n="34" break="no"/>pugnare identitati personae. 
+      Responde<lb ed="#B" n="35" break="no"/>tur secundum Sco. &amp; ueritatem, quod non 
+      <lb ed="#B" n="36"/>est inconuentens, quod infertur. Nam 
+      <lb ed="#B" n="37"/>sicut sexus non mutat speciem: ita nec 
+      <lb ed="#B" n="38"/>necessario personam: quin ex materia 
+      <lb ed="#B" n="39"/>eadem, &amp; eadem forma, quo, pducitur uir: 
+      <lb ed="#B" n="40"/>poterat produci mulier, &amp; econuerso. 
+      <lb ed="#B" n="41"/>Differunt enim tantum uir, &amp; mulier in 
+      fi<lb ed="#B" n="42" break="no"/>gura corporali, &amp; qualitate complexiona 
+      <lb ed="#B" n="43"/>li: que no requirunt distinctionem materiae 
+      <lb ed="#B" n="44"/>neque substantialis formae. Possetque Deus 
+      <lb ed="#B" n="45"/>muuerem mutare in uirum; uel 
+      econ<lb ed="#B" n="46" break="no"/>uerso, non mutatis partibus 
+      essentia<lb ed="#B" n="47" break="no"/>libus, &amp; manente eadem persona: muta 
+      <lb ed="#B" n="48"/>ta complexione, &amp; accidentali forma: 
+      <lb ed="#B" n="49"/>licet hoc naturae sit impossibile. 
+      Inue<lb ed="#B" n="50" break="no"/>nitur tamen uterque sexus in una per¬ 
+      <!--265.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>sona: ut in hermophrodita: licet 
+      mon<lb ed="#B" n="52" break="no"/>struosa. Nec est hoc magis inconueniens, 
+      <lb ed="#B" n="53"/>quam quod electus nunc est fragilis, 
+      infir<lb ed="#B" n="54" break="no"/>mus, &amp; mortalis: &amp; tamen idem 
+      nume<lb ed="#B" n="55" break="no"/>ro fuisset tumc robustus, sanus, pulcher, 
+      <lb ed="#B" n="56"/>immortalis, modo prius exposito.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1018">
+      ¶ 
+      Se<lb ed="#B" n="57" break="no"/>cundo dubitatur. Vtrum in statu 
+      inno<lb ed="#B" n="58" break="no"/>centiae fuisset multiplicatio hominum 
+      <lb ed="#B" n="59"/>per commixtionem sexus. 
+      Responde<lb ed="#B" n="60" break="no"/>tur secundum opinio. sanctorum, &amp; 
+      do<lb ed="#B" n="61" break="no"/>ctorum quod sic: sed ipsa commixtio facta 
+      <lb ed="#B" n="62"/>fuisset sine probrosa, &amp; faeda 
+      delectatio<lb ed="#B" n="63" break="no"/>ne: &amp; partus sine dolore: non tamen cum 
+      <lb ed="#B" n="64"/>carnis integritate.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1039">
+      ¶ Primum patet: 
+      <lb ed="#B" n="65"/>quia alias frustra institutus fuisset 
+      uter<lb ed="#B" n="66" break="no"/>que sexus: quitamen ante peccatum a 
+      <lb ed="#B" n="67"/>domino formatus est, &amp; mulier uiro in 
+      <lb ed="#B" n="68"/>adiutorium data, non nisi ad prolis 
+      ge<lb ed="#B" n="69" break="no"/>nerationem. Nec peccatum naturalia cum 
+      <lb ed="#B" n="70"/>mutauit, licet gratuita abstulit.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1055">
+      ¶ 
+      Secun<lb ed="#B" n="71" break="no"/>dum patet: quia nulla fuisset in mem 
+      <lb ed="#B" n="72"/>bris genitalibus rebellio, nec 
+      inordi<lb ed="#B" n="73" break="no"/>natus pruritus, sed subiecta fuissent 
+      ra<lb ed="#B" n="74" break="no"/>tioni, ac pleno uoluntatis dominio 
+      si<lb ed="#B" n="75" break="no"/>cut manus, pes &amp; caetera corporis mem 
+      <lb ed="#B" n="76"/>bra. Et licet probabile est, quod 
+      infuis<lb ed="#B" n="77" break="no"/>set delectatio: ut uult sanctus Tho. non 
+      <lb ed="#B" n="78"/>tamen effrenis, aut faeda: sed pura &amp; 
+      om<lb ed="#B" n="79" break="no"/>nimode rationi subiecta. Ea propter uir 
+      <lb ed="#B" n="80"/>&amp; uxor coniuncti non fuissent illecti 
+      <lb ed="#B" n="81"/>illecebrosa carnis concupiscentia; sed  
+      <lb ed="#B" n="82"/>tantum ex dictamine rationis recte, &amp; 
+      <lb ed="#B" n="83"/>hoc non nisi causa prolis generandae. 
+      <lb ed="#B" n="84"/>Tuisset enim ibi matrimonium tantum 
+      <lb ed="#B" n="85"/>n officium, non in remedium. 
+      Siqui<lb ed="#B" n="86" break="no"/>dem ibi nullus fuisset languor, aut mor 
+      <lb ed="#B" n="87"/>bus concupiscentiae: &amp; ita nec opus 
+      re<lb ed="#B" n="88" break="no"/>medio medicinae. Vsa enim fuisset 
+      uo<lb ed="#B" n="89" break="no"/>luntas his organis ad debitum finem 
+      prae<lb ed="#B" n="90" break="no"/>uiae rationis deliberatione, ac 
+      dicta<lb ed="#B" n="91" break="no"/>mine. non aliter quam manum, oculo, aut  
+      <lb ed="#B" n="92"/>alio corporis organo.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1105">
+      ¶ Tertium patet: 
+      <lb ed="#B" n="93"/>quia cum conceptus fuisset sine libidine, 
+      <lb ed="#B" n="94"/>sequebatur partus sine dolore. Siquidem 
+      <lb ed="#B" n="95"/>dolor partus pena est libidinosi 
+      conce<lb ed="#B" n="96" break="no"/>ptus.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1116">
+      ¶ Quartum similiter probatur: quia 
+      <lb ed="#B" n="97"/>cum penetratio dimensionum sit 
+      contra<lb ed="#B" n="98" break="no"/>naturam, illa tunc non fuisset, nec 
+      mo<lb ed="#B" n="99" break="no"/>do. Non poterat autem corpus 
+      ingre<lb ed="#B" n="100" break="no"/>di, seu egredi clauso utero naturali¬ 
+      <!--266.xml-->
+      <pb ed="#B" n="118-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ter: ergo necessario requirebatur 
+      clau<lb ed="#B" n="2" break="no"/>stri apertio. Haec omnia satis deduci 
+      pos<lb ed="#B" n="3" break="no"/>sunt ex uerbis beati Aug. xiiij. de ciui.c. 
+      <lb ed="#B" n="4"/>xxj &amp; sequentibus ubi late hanc materiam 
+      <lb ed="#B" n="5"/>psequitur.
+    </p>
+            <p xml:id="gbs333-b56457-d1e1145">
+      ¶ Sed mouet quoddam uerbum 
+      <lb ed="#B" n="6"/>Beati Aug. c. xxvi. dicti li. xiiij. ubi dicit 
+      <lb ed="#B" n="7"/>Sine ulla corruptione integritati, 
+      in<lb ed="#B" n="8" break="no"/>funderetur maritus gremio uxoris. Ad 
+      <lb ed="#B" n="9"/>quod respondet sanctus Bonauen. 
+      prae<lb ed="#B" n="10" break="no"/>mittens, quod integritatis corruptio tria 
+      <lb ed="#B" n="11"/>dicit scilicet claustrorum apertionem, 
+      <lb ed="#B" n="12"/>poenalem passionem, &amp; faedam 
+      delecta<lb ed="#B" n="13" break="no"/>tionem. Primum est naturae: secundum 
+      <lb ed="#B" n="14"/>est poenae: tertium est corruptionis 
+      ui<lb ed="#B" n="15" break="no"/>tiosae, quae tenet medium inter poenam, 
+      <lb ed="#B" n="16"/>&amp; culpam. Siigitur uircognouisset uxo 
+      <lb ed="#B" n="17"/>rem in statu innocentiae: fuisset quaedam 
+      <lb ed="#B" n="18"/>claustrorum apertio: sed non paenalis 
+      pas<lb ed="#B" n="19" break="no"/>sione, nec faeda delectatio: quia uis 
+      ge<lb ed="#B" n="20" break="no"/>neratiua non esset corrupta, nec 
+      infe<lb ed="#B" n="21" break="no"/>cta. Non ergo fuisset in illo statu 
+      corru<lb ed="#B" n="22" break="no"/>ptio integritatis, quia non penalitas, 
+      <lb ed="#B" n="23"/>nec delectationis faeditas. Concordat 
+      <lb ed="#B" n="24"/>Tho. par. j. q. xcviij. art. ii. allegans 
+      Aug<lb ed="#B" n="25" break="no"/>xiiii. de ciui. dei. Verum si uerba 
+      Augu<lb ed="#B" n="26" break="no"/>stini caute attenduntur: aliter loquitur  
+      <lb ed="#B" n="27"/>de partu, aliter de commixtione. In 
+      <lb ed="#B" n="28"/>partu admittit uiscerum laxationem, in 
+      <lb ed="#B" n="29"/>commixtione ostendit non fuisse 
+      ne<lb ed="#B" n="30" break="no"/>cessariam claustrorum apertionem. 
+      si<lb ed="#B" n="31" break="no"/>cut nec modo necessaria est propter 
+      men<lb ed="#B" n="32" break="no"/>strui sanguinis effluxum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

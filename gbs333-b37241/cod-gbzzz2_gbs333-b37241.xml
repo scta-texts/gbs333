@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="76-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b37241"><!-- l2-d10prae -->
+            <head xml:id="gbs333-b37241-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b37241-d1e103">
+               <lb ed="#B" n="90"/>DISTTNCTIO 
+      <lb ed="#B" n="91"/>OSTENSA 
+      ange<lb ed="#B" n="92" break="no"/>lorum distinctione 
+      <lb ed="#B" n="93"/>per hierarchias, &amp; 
+      <lb ed="#B" n="94"/>ordines: in hac 
+      di<lb ed="#B" n="95" break="no"/>stinctione 
+      determi<lb ed="#B" n="96" break="no"/>nat de eorum 
+      mis<lb ed="#B" n="97" break="no"/>di sione ad inferiores 
+      <lb ed="#B" n="98"/>angelos, &amp; homines. Quaerit enim, 
+      <!--184.xml-->
+      <pb ed="#B" n="77-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>an omnes spiritus caelestes ad 
+      exterio<lb ed="#B" n="2" break="no"/>ra mittantur. Quam quaestionem ad 
+      nul<lb ed="#B" n="3" break="no"/>lam partem determinat; sed opinione: 
+      <lb ed="#B" n="4"/>tres (quarum quaelibet certis auctorita 
+      <lb ed="#B" n="5"/>tibus innititur) recitat.
+    </p>
+            <p xml:id="gbs333-b37241-d1e142">
+      ¶ Quarta 
+      sen<lb ed="#B" n="6" break="no"/>tentia in tribus conclusionibus 
+      colligi<lb ed="#B" n="7" break="no"/>tur, quae sequuntur. Prima 
+      conclusio<lb ed="#B" n="8" break="no"/>quae sententiam continet primae 
+      opinio<lb ed="#B" n="9" break="no"/>nis. In beatorum spirituum 
+      multitudi<lb ed="#B" n="10" break="no"/>ne aliqui pro officio foris exeunt, 
+      alij<lb ed="#B" n="11" break="no"/>intus semper adsistunt.
+    </p>
+            <p xml:id="gbs333-b37241-d1e158">
+      ¶ Secunda 
+      con<lb ed="#B" n="12" break="no"/>clusio sententiam opinionis huius 
+      con<lb ed="#B" n="13" break="no"/>trariae continet. Omnium ordinum 
+      spi<lb ed="#B" n="14" break="no"/>ritus singuli aliqui mittuntur secundi 
+      <lb ed="#B" n="15"/>commissa ministeria nomina 
+      assumen<lb ed="#B" n="16" break="no"/>tes; aliqui tamen frequentius: 
+      aliqu<lb ed="#B" n="17" break="no"/>rarius ad exteriora prodeunt dei iussa 
+      <lb ed="#B" n="18"/>perferentes. Huius occasione magister 
+      <lb ed="#B" n="19"/>ponit nomina angelorum, Michael, 
+      Ga<lb ed="#B" n="20" break="no"/>briel, Raphael: etiam daemonum 
+      diabo<lb ed="#B" n="21" break="no"/>lus, Sathan, Belialel, Leuiatham inter 
+      <lb ed="#B" n="22"/>praetatur, quae quidem esse propria, 
+      ali<lb ed="#B" n="23" break="no"/>officiorum conmunia arbitrantur.
+    </p>
+            <p xml:id="gbs333-b37241-d1e187">
+      ¶ Tertia 
+      <lb ed="#B" n="24"/>conclusio opiniones quasi mediae. 
+      Su<lb ed="#B" n="25" break="no"/>premae hierarchiae spiritus tantum ac 
+      <lb ed="#B" n="26"/>medios, medij ad insimos, ad exteriora 
+      <lb ed="#B" n="27"/>insimi mittuntur. Nulli tamen 
+      eorunm<lb ed="#B" n="28" break="no"/>propter hoc a dei praesentia, &amp; 
+      contem<lb ed="#B" n="29" break="no"/>platione beatifica excluduntur. 
+      Sin<lb ed="#B" n="30" break="no"/>gulae opinionis pro sua sententia 
+      au<lb ed="#B" n="31" break="no"/>coritates adducit, &amp; ad oppositum 
+      so<lb ed="#B" n="32" break="no"/>nantes dissoluit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

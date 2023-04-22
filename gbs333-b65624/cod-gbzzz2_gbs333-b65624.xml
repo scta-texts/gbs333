@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="134-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b65624"><!-- l2-d26q1 -->
+            <head xml:id="gbs333-b65624-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b65624-Hd1e103" type="question-title">
+      Utrum operans. 
+      et cooperans gratia 
+      distinguantur realiter a 
+      charitate infusa
+    </head>
+            <p xml:id="gbs333-b65624-d1e106">
+               <lb ed="#B" n="31"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="32"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="33"/>quaeritur. Vtrum operans. 
+      <lb ed="#B" n="34"/>&amp; cooperans gratia 
+      distin<lb ed="#B" n="35" break="no"/>guantur realiter a 
+      charita<lb ed="#B" n="36" break="no"/>te infusa. Praemissis terminorum 
+      decla<lb ed="#B" n="37" break="no"/>rationibus pro articulo primo, 
+      subiun<lb ed="#B" n="38" break="no"/>gentur conclusiones cum anmexis 
+      du<lb ed="#B" n="39" break="no"/>biis pro articulis secundis, &amp; tertijs. 
+    </p>
+            <p xml:id="gbs333-b65624-d1e128">
+               <lb ed="#B" n="40"/>¶ Quantum ad primum articulum 
+      no<lb ed="#B" n="41" break="no"/>tandum circa illum terminum gratia: quod 
+      <lb ed="#B" n="42"/>nomen gratia dicitur a gratis, quasigra 
+      <lb ed="#B" n="43"/>tis dans, uel gratisdatum: &amp; sic 
+      accipi<lb ed="#B" n="44" break="no"/>tur actiue, uel passiue. Actiue pro 
+      gra<lb ed="#B" n="45" break="no"/>tiosa dei uoluntate dante omnia 
+      libe<lb ed="#B" n="46" break="no"/>raliter gratis non ex debito: secundum 
+      <lb ed="#B" n="47"/>illud Apostoli Rom. xj. Quis prior 
+      de<lb ed="#B" n="48" break="no"/>dit illi, &amp; retribueturei. q. d. nullus. Nen 
+      <!--299.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>enim praeuenimus diligendo deum, sed  
+      <lb ed="#B" n="50"/>ipse prior dilexit nos. j. Ioan. iiij. 
+      De<lb ed="#B" n="51" break="no"/>hac gratia potest illud accipi Actuum. 
+      <lb ed="#B" n="52"/>xv. Her gratiam, idest gratiosam 
+      uolun<lb ed="#B" n="53" break="no"/>tatem domini nostri Tesu Christi 
+      credi<lb ed="#B" n="54" break="no"/>mus saluari. Et illud Roma. iij. 
+      Iustifica<lb ed="#B" n="55" break="no"/>ti gratis per gratiam ipsius per 
+      redem<lb ed="#B" n="56" break="no"/>ptionem, quae est in Christo Tesu, quem 
+      <lb ed="#B" n="57"/>proposuit deus propitiatorem. Gratia 
+      <lb ed="#B" n="58"/>illa, qua redempti sumus, fuit gratiosa 
+      <lb ed="#B" n="59"/>dei uoluntas, qua deus pro nobis 
+      pati<lb ed="#B" n="60" break="no"/>uoluit Christum; &amp; ipse se uoluntarie 
+      <lb ed="#B" n="61"/>obtulit: secundum illud Esa. liij. 
+      Obla<lb ed="#B" n="62" break="no"/>tus est, quia ipse uoluit. Alio modo 
+      ac<lb ed="#B" n="63" break="no"/>cipitur pessiue pro dono aliquo gratis 
+      <lb ed="#B" n="64"/>dato: &amp; licet sic multipliciter accipitur 
+      <lb ed="#B" n="65"/>ut tangit Alexan. parte. iij. quaest. Ixix. 
+      <lb ed="#B" n="66"/>membro. i. tamen redigendo 
+      acceptio<lb ed="#B" n="67" break="no"/>nes illas ad compendium: potest sic 
+      acci<lb ed="#B" n="68" break="no"/>pi quadrupliciter: scilicet largissime, lat  
+      <lb ed="#B" n="69"/>ge, stricte, strictissime. Primis duobus 
+      <lb ed="#B" n="70"/>modis non distinguitur contra 
+      natura<lb ed="#B" n="71" break="no"/>lia: sed ultimis duobus modis contra 
+      ea<lb ed="#B" n="72" break="no"/>distinguitur.
+    </p>
+            <p xml:id="gbs333-b65624-d1e206">
+      ¶ Gratia largissime est 
+      do<lb ed="#B" n="73" break="no"/>num a deo gratis, idest sine debito 
+      da<lb ed="#B" n="74" break="no"/>tum. Et illo modo gratia diuiditur in 
+      <lb ed="#B" n="75"/>gratiam increatam, &amp; creatam.
+    </p>
+            <p xml:id="gbs333-b65624-d1e216">
+      ¶ Increa 
+      <lb ed="#B" n="76"/>ta est spiritussanctus, qui datur rationa 
+      <lb ed="#B" n="77"/>li creaturae ad eius sanctificationem. 
+      <lb ed="#B" n="78"/>secundum illud Rom. v. Charitas 
+      dei<lb ed="#B" n="79" break="no"/>diffusa est in cordibus nostris per 
+      spiri<lb ed="#B" n="80" break="no"/>tum sanctum, qui datus est nobis. Immodo 
+      <lb ed="#B" n="81"/>tota trinitas illabitur menti humanae: 
+      <lb ed="#B" n="82"/>secundum illud Ioan. xiiij. Ad eum 
+      ue<lb ed="#B" n="83" break="no"/>niemus, &amp; mansionem apud eum 
+      facie<lb ed="#B" n="84" break="no"/>mus. PTilius loquitur de se, &amp; patre.
+    </p>
+            <p xml:id="gbs333-b65624-d1e238">
+      ¶ 
+      Gra<lb ed="#B" n="85" break="no"/>tia creata hoc modo est omnis 
+      creatu<lb ed="#B" n="86" break="no"/>ra: quia omnis talis est gratias a deo 
+      pro<lb ed="#B" n="87" break="no"/>ducta: &amp; sibiipsi creaturae aut alteri, 
+      do<lb ed="#B" n="88" break="no"/>nata, secundum illud. i.t Corint. iiij. Quid 
+      <lb ed="#B" n="89"/>habes, quod non accepisti: Ita loquitur 
+      <lb ed="#B" n="90"/>de gratia Apostolus. j. Corint. xv. 
+      Gra<lb ed="#B" n="91" break="no"/>tia dei sum id, quod sum: nam &amp; ipsum 
+      <lb ed="#B" n="92"/>esse accipit gratis a deo. Sic imagb 
+      <lb ed="#B" n="93"/>dei nobis concreata, quae est ipsa anime 
+      <lb ed="#B" n="94"/>natura dicitur gratia secundum Alexa. 
+      <lb ed="#B" n="95"/>ubi supra.
+    </p>
+            <p xml:id="gbs333-b65624-d1e264">
+      ¶ Gratia large est dei donum 
+      <lb ed="#B" n="96"/>naturae rei superadditum, siue 
+      consequa<lb ed="#B" n="97" break="no"/>tur naturam generaliter, siue hanc 
+      na<lb ed="#B" n="98" break="no"/>turam specialiter: ut sunt corporis for¬ 
+      <!--300.xml-->
+      <pb ed="#B" n="135-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>titudo, animi uigor, ingenii perspicaci 
+      <lb ed="#B" n="2"/>tas, &amp; industria, cognitio rerum etiam 
+      <lb ed="#B" n="3"/>naturaliter acquisita, eloquentia, 
+      affa<lb ed="#B" n="4" break="no"/>bilitas, etiam exteriorum rerum 
+      posses<lb ed="#B" n="5" break="no"/>siones. Omnia enim haec gratis a deo 
+      <lb ed="#B" n="6"/>donantur: secundum illud Iacob. i. 
+      Om<lb ed="#B" n="7" break="no"/>ne datum optimum, &amp; omne donum 
+      per<lb ed="#B" n="8" break="no"/>fectum desursum est descendens a patre 
+      <lb ed="#B" n="9"/>luminum. Et illud Ioan. iij. Non potest 
+      <lb ed="#B" n="10"/>homo accipere quicquam, nisi fuerit 
+      ei<lb ed="#B" n="11" break="no"/>datum de caeio. Hoc modo dicimus 
+      homi<lb ed="#B" n="12" break="no"/>nes sanos, ingeniosos, potentes, diuites 
+      <lb ed="#B" n="13"/>&amp;c. gratiam multam consecutos a deo. Et  
+      <lb ed="#B" n="14"/>principes scribunt. Euerhardus dei 
+      gra<lb ed="#B" n="15" break="no"/>tia uulrtenbergen. &amp; Decken. dux talis 
+      <lb ed="#B" n="16"/>prouinciae.
+    </p>
+            <p xml:id="gbs333-b65624-d1e314">
+      ¶ Proprie, &amp; stricte gratia est 
+      <lb ed="#B" n="17"/>donum supernaturale a solo Deo 
+      super<lb ed="#B" n="18" break="no"/>additum naturae: ut est donum 
+      prophe<lb ed="#B" n="19" break="no"/>tiae, donum linguarum, &amp; uirtutes 
+      infu<lb ed="#B" n="20" break="no"/>sae. hoc modo accipitur. j. Corint. xij. 
+      <lb ed="#B" n="21"/>ubi dicitur. Diuisiones gratiarum sunt, 
+      <lb ed="#B" n="22"/>unus autem spiritus. Et post 
+      speciuocan<lb ed="#B" n="23" break="no"/>tur hae gratiae, quae sunt sermo 
+      sapien<lb ed="#B" n="24" break="no"/>tiae, sermo scientiae, fides, gratia 
+      sani<lb ed="#B" n="25" break="no"/>tatum, operatio uirtutum, prophetia, 
+      <lb ed="#B" n="26"/>discretio spirituum, genera linguarum, 
+      <lb ed="#B" n="27"/>interpraetatio sermonum. Et sequitur. 
+      <lb ed="#B" n="28"/>Haec omnia operatr unus, atque idem 
+      spiri<lb ed="#B" n="29" break="no"/>tus, diuidens singulis prout uult.
+    </p>
+            <p xml:id="gbs333-b65624-d1e345">
+      ¶ 
+      Gra<lb ed="#B" n="30" break="no"/>tia propriissime, siue strictissime acce- 
+      <lb ed="#B" n="31"/>pta, est donum supernaturale a solo deo 
+      <lb ed="#B" n="32"/>rationali creaturae infusum, quo ipsa 
+      <lb ed="#B" n="33"/>redditur grata deo, &amp; accepta ad uitam 
+      <lb ed="#B" n="34"/>aeternam beatifice possidendam. Sic acci 
+      <lb ed="#B" n="35"/>pitur Rom. vj. Stipendia peccati mors, 
+      <lb ed="#B" n="36"/>gratia dei uita aeterna, &amp; in aliis multis 
+      <lb ed="#B" n="37"/>locis.
+    </p>
+            <p xml:id="gbs333-b65624-d1e365">
+      ¶ De gratia largissime sumpta 
+      di<lb ed="#B" n="38" break="no"/>cit Augustinus epistola. xcv. naturam 
+      <lb ed="#B" n="39"/>hominis gratiam dici: sic enim 
+      respon<lb ed="#B" n="40" break="no"/>det Pelagius, ut refert Augustinus, ut  
+      <lb ed="#B" n="41"/>eam gratiam scilicet esse diceret, non 
+      <lb ed="#B" n="42"/>nisi naturam, in qua condidit nos deus 
+      <lb ed="#B" n="43"/>Et infra. Gratiam creatoris natura est: 
+      <lb ed="#B" n="44"/>inquit Pelagius creati hominis. Et in 
+      <lb ed="#B" n="45"/>epistola. xciiii. Lex data homini a deo 
+      <lb ed="#B" n="46"/>ut eiuiueret, gratia dicitur. Item in 
+      epi<lb ed="#B" n="47" break="no"/>stola. xcv. Doctrina nobis data gratia 
+      di<lb ed="#B" n="48" break="no"/>citur. Et in epistola. cvi. unde, inquit, in 
+      <lb ed="#B" n="49"/>epistola praefata. xcv. Siue enimi gratia 
+      <lb ed="#B" n="50"/>dicat liberi arbitrii, siue legis praeceptum, 
+      <!--300.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>siue remissionem peccatorum. Item 
+      e<lb ed="#B" n="52" break="no"/>pistola. xci. Gratia dicitu omne id, quod  
+      <lb ed="#B" n="53"/>quotidie consequimur, uel habemus. Idem 
+      <lb ed="#B" n="54"/>habet Augustinus in de uerbis 
+      aposto<lb ed="#B" n="55" break="no"/>li sermone. xi. &amp; xiij.
+    </p>
+            <p xml:id="gbs333-b65624-d1e412">
+      ¶ De gua large ait 
+      <lb ed="#B" n="56"/>Augustinus ubi supra epistola. xcu. Non 
+      <lb ed="#B" n="57"/>improbanda ratione dicitur gratia dei, 
+      <lb ed="#B" n="58"/>qua creati sumus: ut nihil essemus: 
+      <lb ed="#B" n="59"/>nec ita essemus aliquid, ut cadauer, 
+      <lb ed="#B" n="60"/>quod non uiuit: &amp; arbor, quae non 
+      sen<lb ed="#B" n="61" break="no"/>tit, aut pecus, quod non intelligit: sed  
+      <lb ed="#B" n="62"/>homines ut essemus, &amp; uiueremus, &amp; se 
+      <lb ed="#B" n="63"/>tiremus, &amp; intelligeremus. Sequitur. 
+      <lb ed="#B" n="64"/>Non immerito illa gratia dici potest, 
+      <lb ed="#B" n="65"/>quia non procedentium aliquorum 
+      bo<lb ed="#B" n="66" break="no"/>norum operum meritis: sed gratuita 
+      des<lb ed="#B" n="67" break="no"/>bonitate donata est. Et infra. Illam uero 
+      <lb ed="#B" n="68"/>gratiam, quae creati sumus homines &amp;c. Ad 
+      <lb ed="#B" n="69"/>idem sermone. xi in de uerbis apostoli. Et  
+      <lb ed="#B" n="70"/>Inno. papa ad patres Carthaginen. 
+      con<lb ed="#B" n="71" break="no"/>cilii, &amp; est epistola Augusti. xci. Possunt 
+      <lb ed="#B" n="72"/>tamen illa dicta etiam aliquo modo 
+      ap<lb ed="#B" n="73" break="no"/>plicari ad primam acceptionem gratiae. 
+    </p>
+            <p xml:id="gbs333-b65624-d1e454">
+               <lb ed="#B" n="74"/>¶ De gratia strictissime sumpta Augusti 
+      <lb ed="#B" n="75"/>nus dicit esse scriptum illud apostoli Ro 
+      <lb ed="#B" n="76"/>ma. iiij. Ei autem, qui operatur, merces 
+      <lb ed="#B" n="77"/>non imputatur secundum gratiam: sed  
+      <lb ed="#B" n="78"/>secundum debitum. Ei autem, qui non 
+      <lb ed="#B" n="79"/>operatur, credenti in eum, qui iustificat  
+      <lb ed="#B" n="80"/>impium, reputatur, fides eius ad iustitiam 
+      <lb ed="#B" n="81"/>secundum propositum gratiae dei. Item. 
+      <lb ed="#B" n="82"/>Non irritam facio gratiam dei Gal. ii. Item. 
+      <lb ed="#B" n="83"/>Qui in lege iustificamini, a gratia 
+      exci<lb ed="#B" n="84" break="no"/>distis. Gal. v. &amp;c. Hanc gratiam 
+      Augu<lb ed="#B" n="85" break="no"/>stinus in epistola. xcu. quae est ad papam 
+      <lb ed="#B" n="86"/>Inno. contra doctrinam Pelagii, 
+      nomi<lb ed="#B" n="87" break="no"/>nat gratiam christianorum dices. Gratia 
+      <lb ed="#B" n="88"/>Christianorum non est natura, sed qua sal 
+      <lb ed="#B" n="89"/>uatur natura, qua pdestinati uocamur, 
+      <lb ed="#B" n="90"/>iustificamur, &amp; glorificamur, ut dicere 
+      <lb ed="#B" n="91"/>possumus. Si Christus quod nobis, quis 
+      con<lb ed="#B" n="92" break="no"/>tra nos. Qui etiam proprio filio suo non 
+      <lb ed="#B" n="93"/>pepercit. Et infra eadem epistola. De hac 
+      <lb ed="#B" n="94"/>gratia uertebatur quaestio, quando ab 
+      <lb ed="#B" n="95"/>his, quos Pelagius grauiter offendebat, 
+      <lb ed="#B" n="96"/>atque turbabat: dicebatur ei, quod eaums suis 
+      <lb ed="#B" n="97"/>disputationibus oppugnaret, quibus 
+      as<lb ed="#B" n="98" break="no"/>sereret, non solum ad facienda, uerum 
+      <lb ed="#B" n="99"/>etiam a d perficienda mandata diuina 
+      <lb ed="#B" n="100"/>per liberum arbitrium humanam sibi suf¬ 
+      <!--301.xml-->
+      <pb ed="#B" n="135-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ficere naturam. Haec ille. Ex illa gratiae 
+      <lb ed="#B" n="2"/>distinctione facile responderi posset ad 
+      <lb ed="#B" n="3"/>opinionem Grego. de arim. de qua 
+      in<lb ed="#B" n="4" break="no"/>fra distinct. xxviij. An scilicet homo pr 
+      <lb ed="#B" n="5"/>liberum arbitrium possitsine gratia 
+      mo<lb ed="#B" n="6" break="no"/>raliter bene agere, praecepta seruare 
+      <lb ed="#B" n="7"/>&amp;c. Innuitur etiam in praefata epistola 
+      <lb ed="#B" n="8"/>Augustinidifferentia inter facere 
+      man<lb ed="#B" n="9" break="no"/>datum, &amp; perficere. Perficere 
+      enimul<lb ed="#B" n="10" break="no"/>tra facere, importat meritorie, &amp; ad con 
+      <lb ed="#B" n="11"/>secutionem gloriae obseruare mandatum. 
+      <lb ed="#B" n="12"/>Pelagius uero asserebat liberum 
+      arbi<lb ed="#B" n="13" break="no"/>trium homini sufficere ad utrumque 
+      si<lb ed="#B" n="14" break="no"/>ne gratia.
+    </p>
+            <p xml:id="gbs333-b65624-d1e552">
+      ¶ Et secundum, haec gratia ped 
+      <lb ed="#B" n="15"/>prie siue stricte pro dono 
+      supernaturani<lb ed="#B" n="16" break="no"/>accepta diuiditur in gratiam gratum 
+      fa<lb ed="#B" n="17" break="no"/>cientem: &amp; gratiam gratis data.
+    </p>
+            <p xml:id="gbs333-b65624-d1e561">
+      ¶ Gratia 
+      <lb ed="#B" n="18"/>gratum facies est, quae nunc ultimo 
+      diffi<lb ed="#B" n="19" break="no"/>nita est, quam habens amicus dei constituitr 
+      <lb ed="#B" n="20"/>&amp; dignus uita aeterna. Est. no. quaedam 
+      for<lb ed="#B" n="21" break="no"/>maaiae a deo infusa, quaaia formaliter 
+      <lb ed="#B" n="22"/>redditur deo chara, &amp; grata, &amp; qua 
+      ordi<lb ed="#B" n="23" break="no"/>natur ad uitam aeternam possidendam, 
+      <lb ed="#B" n="24"/>nisi obicem posuerit, uel impedimentum. 
+    </p>
+            <p xml:id="gbs333-b65624-d1e579">
+               <lb ed="#B" n="25"/>¶ Gratia gratis data est donum 
+      supernatu<lb ed="#B" n="26" break="no"/>rale datum alicui ad utilitatem sui, uel 
+      <lb ed="#B" n="27"/>aliorum, quod habens non est formaliter  
+      <lb ed="#B" n="28"/>gratus deo. Potest enim tale donum 
+      sta<lb ed="#B" n="29" break="no"/>re in peccatore, qui non est gratus deo. 
+      <lb ed="#B" n="30"/>Hanc diffinit Alex. par.iij. q.ixxiij. mem. ij. 
+      <lb ed="#B" n="31"/>Est donum infusum rationali naturae 
+      <lb ed="#B" n="32"/>sine meritis, quantum in se est disponens 
+      <lb ed="#B" n="33"/>ad salutem propriam, uel alterius 
+      aedifi<lb ed="#B" n="34" break="no"/>cationem. Disponens intelligit non de 
+      <lb ed="#B" n="35"/>propinquo, sed quasi distanter propter 
+      <lb ed="#B" n="36"/>gratiam gratum facientem, quae est 
+      di<lb ed="#B" n="37" break="no"/>spositio de propinquo: quia sufficiens. 
+      <lb ed="#B" n="38"/>Et quoniam haec gratia non habet nomen 
+      <lb ed="#B" n="39"/>speciale sibi impositum appropriat sibi 
+      no<lb ed="#B" n="40" break="no"/>men generale: sicut in multis alijs 
+      feri<lb ed="#B" n="41" break="no"/>solet. In hac tamen distinctione, &amp; 
+      tri<lb ed="#B" n="42" break="no"/>bus sequentibus gratia accipitur 
+      propri<lb ed="#B" n="43" break="no"/>issime pro gratia gratum faciente.
+    </p>
+            <p xml:id="gbs333-b65624-d1e623">
+      ¶ 
+      Se<lb ed="#B" n="44" break="no"/>cundo notandum, quod magister in littera 
+      <lb ed="#B" n="45"/>gratiam diuidit in gratiam operantem &amp; 
+      gra<lb ed="#B" n="46" break="no"/>tiam cooperantem. Quae no est diuisio 
+      <lb ed="#B" n="47"/>in menbra distincta: sed in idem 
+      diuersi<lb ed="#B" n="48" break="no"/>mode consideratum id est in ordine ad 
+      diuer<lb ed="#B" n="49" break="no"/>sos suos effectus. Sunt enim duo 
+      esse<lb ed="#B" n="50" break="no"/>ctus principales gratiae. Vnus est gra¬ 
+      <!--301.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tificare naturam: nam gratia 
+      haeciiusti<lb ed="#B" n="52" break="no"/>ficat imipium, liberans eum a miseria cul 
+      <lb ed="#B" n="53"/>pae. Per gratiae enim infusionem 
+      re<lb ed="#B" n="54" break="no"/>mittitur peccatum. Glo. super illud Ro 
+      <lb ed="#B" n="55"/>ma. j. Gratia uobis, &amp; pax. Gratia, idest 
+      <lb ed="#B" n="56"/>remissiopeccatorum, de quodicetur in 
+      <lb ed="#B" n="57"/>quarto. Quo dimisso de peccatore 
+      in<lb ed="#B" n="58" break="no"/>iusto, ac deiinimico, sit innocens 
+      iu<lb ed="#B" n="59" break="no"/>stus, ac deo amicus, &amp; gratus: &amp; hunc 
+      <lb ed="#B" n="60"/>effectum habet sola sua informatione: 
+      <lb ed="#B" n="61"/>ex hoc enim, quod informat solum 
+      grati<lb ed="#B" n="62" break="no"/>ficat naturam: hoc est acceptam facit 
+      <lb ed="#B" n="63"/>ad uitam aeternam. Vnde sicut 
+      pulchri<lb ed="#B" n="64" break="no"/>tudo corporis reddit totum corpus 
+      hu<lb ed="#B" n="65" break="no"/>manum gratum, &amp; amabile: ita gratia 
+      <lb ed="#B" n="66"/>est decor animae faciens animam eo, quod 
+      <lb ed="#B" n="67"/>inest, acceptam deo. Vnde glo. super 
+      il<lb ed="#B" n="68" break="no"/>lud Psalmus. Vt exhilaret faciem eius 
+      <lb ed="#B" n="69"/>in oleo. Gratia est quidam nitor 
+      ani<lb ed="#B" n="70" break="no"/>mae ad conciliandum sanctorum amorem 
+      <lb ed="#B" n="71"/>&amp; hunc effectum semper habet etiam 
+      inin<lb ed="#B" n="72" break="no"/>fantibus baptixatis.
+    </p>
+            <p xml:id="gbs333-b65624-d1e694">
+      ¶ Secundus effectus 
+      <lb ed="#B" n="73"/>est inclinare operationes in finem 
+      ulti<lb ed="#B" n="74" break="no"/>mum, qui est deus. Inclinat enim 
+      homi<lb ed="#B" n="75" break="no"/>nis uoluntatem ad eliciendum opera 
+      <lb ed="#B" n="76"/>sua principaliter propter deum, tanquam 
+      <lb ed="#B" n="77"/>finem super omnia intentum, &amp; dise- 
+      <lb ed="#B" n="78"/>ctum: &amp; per hoc facit opera hominis 
+      <lb ed="#B" n="79"/>meritoria, &amp; aeterno praemio digna¬ 
+    </p>
+            <p xml:id="gbs333-b65624-d1e712">
+               <lb ed="#B" n="80"/>¶ Quantum itaque ad primum effectum 
+      <lb ed="#B" n="81"/>dicitur operans, uel praeueniens: quia 
+      <lb ed="#B" n="82"/>praeuenit uoluntatem, eam praeparando, 
+      <lb ed="#B" n="83"/>&amp; bonam iustam, &amp; acceptam deo 
+      facien<lb ed="#B" n="84" break="no"/>do, ut dignebonum uelit. Quantum 
+      ue<lb ed="#B" n="85" break="no"/>ro ad secundum effectum dicitur 
+      gra<lb ed="#B" n="86" break="no"/>tia cooperans, &amp; subsequens pro 
+      quan<lb ed="#B" n="87" break="no"/>to adiuuat uoluntatem inclinando easa 
+      <lb ed="#B" n="88"/>ad opera meritorie perficienda: prius 
+      <lb ed="#B" n="89"/>enim est natura, etsi non tempore, ut 
+      na<lb ed="#B" n="90" break="no"/>tura gratificetur, quatenus opus eius 
+      <lb ed="#B" n="91"/>ad praemium acceptetur. Respexit 
+      do<lb ed="#B" n="92" break="no"/>minus ad Abel &amp; munera eius, prius ad 
+      <lb ed="#B" n="93"/>personam: deinde ad munus oblatum. 
+      <lb ed="#B" n="94"/>Ex quo manifestum est, quod gratia 
+      ope<lb ed="#B" n="95" break="no"/>rans, &amp; cooperans non est duae: sed una 
+      <lb ed="#B" n="96"/>gratia sic duplici nomine propter 
+      di<lb ed="#B" n="97" break="no"/>uersos effectus dicta. Et ita diuisio illa 
+      <lb ed="#B" n="98"/>est termini in membra, nonre, sed ratio 
+      <lb ed="#B" n="99"/>ne distincta: idest in membra eandem 
+      <lb ed="#B" n="100"/>rem diuersis rationibus significantia¬ 
+      <!--302.xml-->
+      <pb ed="#B" n="136-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Tertio hic supponatur ex distin. xvij. 
+      <lb ed="#B" n="2"/>primi, quod charitas est uirtus theologica 
+      <lb ed="#B" n="3"/>immediate a deo infusa. qua habens 
+      ea<lb ed="#B" n="4" break="no"/>deum habet charum idest diligit deum: 
+      <lb ed="#B" n="5"/>&amp; qua opera ex ea procedentia deo 
+      pla<lb ed="#B" n="6" break="no"/>cita, &amp; ad uitam aeternam sunt accepta: 
+      <lb ed="#B" n="7"/>Sunt autem quaedam proprietates, &amp; 
+      <lb ed="#B" n="8"/>excellentiae, quae uniformiter attribuum 
+      <lb ed="#B" n="9"/>tur charitati, &amp; gratiae scilicet institue 
+      <lb ed="#B" n="10"/>re imperium. Charitas enim operit 
+      mul<lb ed="#B" n="11" break="no"/>titudimem peccatorum. j. Per. iiij. Et 
+      di<lb ed="#B" n="12" break="no"/>gratia dicitur ad Titum. iij. 
+      Tustifica<lb ed="#B" n="13" break="no"/>ti gratia ipsius, ut haeredes simus 
+      secun<lb ed="#B" n="14" break="no"/>dum spem uitae aeternae. Placare, &amp; acce 
+      <lb ed="#B" n="15"/>ptum facere deo. Qui diligit me, 
+      dili<lb ed="#B" n="16" break="no"/>getur a patre meo. Ioan. xiiij. De gratia 
+      <lb ed="#B" n="17"/>dicitur. Habemus gratiam, per quam 
+      <lb ed="#B" n="18"/>seruientes placeamus deo. Heb. xij. Item 
+      <lb ed="#B" n="19"/>utraque saluat. Nam finis praecepti 
+      cha<lb ed="#B" n="20" break="no"/>ritas. j. Timo. j. Praeceptum autem 
+      or<lb ed="#B" n="21" break="no"/>dinatur ad salutem secundum illud. 
+      Si<lb ed="#B" n="22" break="no"/>uis ad uitam ingredi serua mandata 
+      <lb ed="#B" n="23"/>Mart. xix. De gratia dicitur. Gratia estis 
+      <lb ed="#B" n="24"/>saluati non ex uobis: dei enim donum 
+      <lb ed="#B" n="25"/>est. Ephe. ij. Vtraque sufficit ad 
+      salu<lb ed="#B" n="26" break="no"/>tem. De charitate dicitur. Plenitudo 
+      se<lb ed="#B" n="27" break="no"/>gis est charitas. Rom. xiij. Item Roma. 
+      <lb ed="#B" n="28"/>viij. Diligentibus deum omnia 
+      coo<lb ed="#B" n="29" break="no"/>perantur in bonum. Et Augu. Habe 
+      cha<lb ed="#B" n="30" break="no"/>ritatem, &amp; fac quicquid uis. De gratia. 
+      <lb ed="#B" n="31"/>ij. Corint. xij. dicitur Paulo. Sufficit 
+      ti<lb ed="#B" n="32" break="no"/>bi gratia mea. Vtraque diuidit inter 
+      fi<lb ed="#B" n="33" break="no"/>lios regni, &amp; carceris: secundum 
+      Augu<lb ed="#B" n="34" break="no"/>Non enim potest charus deo, &amp; gratus 
+      <lb ed="#B" n="35"/>connumerari filijs perditionis: neque 
+      <lb ed="#B" n="36"/>cconuerso filius perditionis esse deo 
+      <lb ed="#B" n="37"/>charus &amp; gratus. Sed nec diligens deum 
+      <lb ed="#B" n="38"/>potest deo non esse charus, socundum sta 
+      <lb ed="#B" n="39"/>timallegata. Qui diligit me, deliget a 
+      <lb ed="#B" n="40"/>patre meo. utraque est forma uirtutu, &amp; 
+      <lb ed="#B" n="41"/>neutra potest esse informis. De charitate. 
+      <lb ed="#B" n="42"/>j. Cor. xiij. Silinguis hominum loquar 
+      <lb ed="#B" n="43"/>&amp;c. De gratia. j. Petri. j. Sperate in eam, 
+      <lb ed="#B" n="44"/>quam offertur uobis gratiam. Ergo sine gratia 
+      <lb ed="#B" n="45"/>caeteri habitus non sunt uerae uirtutes, 
+      <lb ed="#B" n="46"/>quae spem uitae non tribuunt: nec sine 
+      <lb ed="#B" n="47"/>gratia gratae esse possunt: utraque 
+      per<lb ed="#B" n="48" break="no"/>fecte coniungit fini: &amp; hic in uia 
+      quan<lb ed="#B" n="49" break="no"/>tum uia patitur, &amp; ibi in patria: nam 
+      <lb ed="#B" n="50"/>utraque &amp; naturam, &amp; operationes in 
+      <!--302.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>deum tanquam in obiectum proprium 
+      <lb ed="#B" n="52"/>ordinat: utraque etiam est donum, optimum 
+      <lb ed="#B" n="53"/>&amp; excellentissimum. De charitate 
+      habe<lb ed="#B" n="54" break="no"/>tur. j. Cor. xiij. Maior horum charitas. 
+      <lb ed="#B" n="55"/>Est etiam perfectionis uinculum. Col. iij. 
+      <lb ed="#B" n="56"/>de gratia dicitur. Optimum est gratia 
+      sta<lb ed="#B" n="57" break="no"/>bilire cor. Heb. xiij.
+    </p>
+            <p xml:id="gbs333-b65624-d1e894">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="58" break="no"/>culum secundum est conclusio prima 
+      <lb ed="#B" n="59"/>Gratia, qua deus ad uitam aeternam ac 
+      <lb ed="#B" n="60"/>ceptat animam, &amp; eius actum, est aliquid 
+      <lb ed="#B" n="61"/>positiuum in ipsa a deo creatum. Illa 
+      con<lb ed="#B" n="62" break="no"/>clusio est omnium doctorum 
+      concordi<lb ed="#B" n="63" break="no"/>ter, quae non potest sufficienter, &amp; 
+      euiden<lb ed="#B" n="64" break="no"/>ter demonstrari: licet ad hoc plerique 
+      do<lb ed="#B" n="65" break="no"/>ctorum multum laborarunt, sed rationes 
+      <lb ed="#B" n="66"/>eorum licet persuadeant: non tamen necessa 
+      <lb ed="#B" n="67"/>rio concludunt. Ex nullis enim mediis 
+      <lb ed="#B" n="68"/>potest euidenter concludi necessitas 
+      <lb ed="#B" n="69"/>simpliciter ponendi charitatem 
+      infu<lb ed="#B" n="70" break="no"/>sam, seu gratiam ad acceptandum 
+      na<lb ed="#B" n="71" break="no"/>turam rationalem, &amp; actuum eius ad 
+      <lb ed="#B" n="72"/>uitam aeternam secundum potentiam 
+      <lb ed="#B" n="73"/>dei absolutam: ut sufficienter declarat  
+      <lb ed="#B" n="74"/>Sco. &amp; Ockam distinct. xvij. primi 
+      sol<lb ed="#B" n="75" break="no"/>uentes rationes aliorum, &amp; insufficientiam 
+      <lb ed="#B" n="76"/>carum declarantes. Tenetur aut 
+      conclu<lb ed="#B" n="77" break="no"/>sio pradicta propterauctoritatem scripturae 
+      <lb ed="#B" n="78"/>&amp; sctonrum: de sum. tri. &amp; si. ca. in 
+      Cleme<lb ed="#B" n="79" break="no"/>Nam auctoritates supra allegatae sonant  
+      <lb ed="#B" n="80"/>ad distinctionem gratiae, &amp; charitatis a 
+      <lb ed="#B" n="81"/>deo acceptante naturam, &amp; opus eius: 
+      si<lb ed="#B" n="82" break="no"/>cut illa de charitate. Charitas diffusa 
+      <lb ed="#B" n="83"/>est in cordibus nostris per spiritu 
+      san<lb ed="#B" n="84" break="no"/>ctum, quidatus est nobis. quae expresse 
+      <lb ed="#B" n="85"/>distinguit inter charitatem, &amp; 
+      spiritumsan<lb ed="#B" n="86" break="no"/>ctum. Similiter de gratia dicitur, quod 
+      spi<lb ed="#B" n="87" break="no"/>ritus diuidit unicuique gratiam, put uult: 
+      <lb ed="#B" n="88"/>qud non solum de gratia gratis data 
+      intel<lb ed="#B" n="89" break="no"/>ligitur: sed etiam de gratia gratum 
+      facien<lb ed="#B" n="90" break="no"/>te. Quod autem diuiditur per spiritum, 
+      <lb ed="#B" n="91"/>non est spuns: sed donum creatum aspum. 
+      Simi<lb ed="#B" n="92" break="no"/>liter illa glo. allegata quae dicit, gratiam 
+      <lb ed="#B" n="93"/>esse nitorem animae uult gratiam esse aliqud 
+      <lb ed="#B" n="94"/>creatum in anima. Ad idem possunt 
+      <lb ed="#B" n="95"/>adduci multae auctoritates Augustin. &amp;¬ 
+      <lb ed="#B" n="96"/>sanctorum. Haec autem conclusio 
+      la<lb ed="#B" n="97" break="no"/>tius tractatur in primo distinct. xvij. 
+      <lb ed="#B" n="98"/>ubi plura tacta sunt ad propositum 
+      ua<lb ed="#B" n="99" break="no"/>lentia: uide ibi.
+    </p>
+            <p xml:id="gbs333-b65624-d1e988">
+      ¶ Secunda 
+      con<lb ed="#B" n="100" break="no"/>clusio. Bratia non est substantialis: 
+      <!--303.xml-->
+      <pb ed="#B" n="136-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sed accidentalis forma animae infusa. 
+      <lb ed="#B" n="2"/>Prima pars patet: quia nec est materia 
+      <lb ed="#B" n="3"/>nec forma, nec compositum substantia 
+      <lb ed="#B" n="4"/>le. Non materia, nec compositum, 
+      ma<lb ed="#B" n="5" break="no"/>nifestum est. Nec forma substantialis 
+      <lb ed="#B" n="6"/>quia tunc anima esset composita ex actu 
+      <lb ed="#B" n="7"/>potentia: ergo est substantia. Tenet 
+      con<lb ed="#B" n="8" break="no"/>sequentia a sufficienti diuisione 
+      philoso<lb ed="#B" n="9" break="no"/>phi ij. de anima. Item anima iusti esset 
+      <lb ed="#B" n="10"/>alterius speciei ab anima peccatoris. 
+      Si<lb ed="#B" n="11" break="no"/>militer &amp; homo iustus, &amp; peccator 
+      dif<lb ed="#B" n="12" break="no"/>ferrent specie: quia in uno esset forma 
+      <lb ed="#B" n="13"/>substantialis id est gratia, quaenon esset in 
+      alio<lb ed="#B" n="14" break="no"/>Secunda pars patet ex prima: nam cum 
+      <lb ed="#B" n="15"/>gratia est aliquod ens positiuum ex 
+      con<lb ed="#B" n="16" break="no"/>clusione prima, &amp; non est substantia: 
+      <lb ed="#B" n="17"/>ergo accidens. Omne autem accidens 
+      <lb ed="#B" n="18"/>est forma inhaerens: igitur. Inhaeret 
+      au<lb ed="#B" n="19" break="no"/>tem animae cum sit eius ornatus ipsam 
+      <lb ed="#B" n="20"/>denominans, &amp; gratificans: nec aliud 
+      sub<lb ed="#B" n="21" break="no"/>iectum assignari potest.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1045">
+      ¶ Tertia 
+      con<lb ed="#B" n="22" break="no"/>clusio. Gratia est habitus animae 
+      uirtuo<lb ed="#B" n="23" break="no"/>sus, non acquisitus, sed infusus. Quod sit 
+      <lb ed="#B" n="24"/>habitus probatur: quia est qualitas 
+      diri<lb ed="#B" n="25" break="no"/>gens animam, &amp; inclinans ad opera me 
+      <lb ed="#B" n="26"/>ritoria: igitur habitus. Non tamen 
+      acqui<lb ed="#B" n="27" break="no"/>situs: quia a solo deo infusus: ut ex 
+      no<lb ed="#B" n="28" break="no"/>tabili primo patet. Quod etiam sit 
+      uir<lb ed="#B" n="29" break="no"/>tus, patet per diffinitionem uirturis 
+      bea<lb ed="#B" n="30" break="no"/>ti Augu. quia est bona qualitas mentis, 
+      <lb ed="#B" n="31"/>qua recte uiuitur, qua nemo male 
+      uti<lb ed="#B" n="32" break="no"/>tur, quam deus in nobis sine nobis 
+      ope<lb ed="#B" n="33" break="no"/>ratur. Omnes hae particulae contteniunt 
+      <lb ed="#B" n="34"/>gratiae: Similiter &amp; diffinitio philosophi 
+      <lb ed="#B" n="35"/>gratiae conuenit: nam habentem 
+      per<lb ed="#B" n="36" break="no"/>ficit: &amp; opus eius bonum reddit. Quod  
+      <lb ed="#B" n="37"/>etiam non est acquisita, patet: quia nec 
+      <lb ed="#B" n="38"/>ex actibus meritorijs, hienim 
+      praesuppo<lb ed="#B" n="39" break="no"/>nunt gratiam. Nec non meritorijs: quia 
+      <lb ed="#B" n="40"/>tunc non inclinaret nisi ad actus non 
+      me<lb ed="#B" n="41" break="no"/>ritorios: cum omnis habitus acquisitus 
+      <lb ed="#B" n="42"/>ad similes actus inclinateis, ex quibus 
+      <lb ed="#B" n="43"/>generatur: relinquitur ergo, quod est 
+      uir<lb ed="#B" n="44" break="no"/>tius infusa.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1097">
+      ¶ Quarta conclusio, &amp; 
+      re<lb ed="#B" n="45" break="no"/>sponsalis. Gratum faciens gratia ab 
+      in<lb ed="#B" n="46" break="no"/>fusa charitate est realiter indistincta, 
+      <lb ed="#B" n="47"/>Probatur: quia non est 
+      ponendaplurali<lb ed="#B" n="48" break="no"/>tas: sine causa, sed si distinguerentur rea 
+      <lb ed="#B" n="49"/>liter charitas, &amp; gratia, altena 
+      super<lb ed="#B" n="50" break="no"/>ffueret, nam quaecumque proprietas con¬ 
+      <!--303.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>uenit charitati creatae conuenit &amp; 
+      gra<lb ed="#B" n="52" break="no"/>tiae: &amp; econuerso: ut patet ex ultimo 
+      no<lb ed="#B" n="53" break="no"/>tabili. Vtraque enim gratificat naturam: 
+      <lb ed="#B" n="54"/>utraque reddit opera meritoria uitaeaeter 
+      <lb ed="#B" n="55"/>nae: &amp; sic de alijs proprietatibus: igitur 
+      <lb ed="#B" n="56"/>una superffueret.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1131">
+      ¶ Item quae per nullam 
+      <lb ed="#B" n="57"/>potentiam sunt separabilia, sunt 
+      reali<lb ed="#B" n="58" break="no"/>ter indistincta charitas, &amp; gratia sunt 
+      <lb ed="#B" n="59"/>inseparabilia: ergo. Maior patet: quia 
+      <lb ed="#B" n="60"/>omnia realiter distincta deus potest 
+      se<lb ed="#B" n="61" break="no"/>parare, saltem prius a posteriori. Minor 
+      <lb ed="#B" n="62"/>probatur: quia si separarentur, ita quod 
+      ali<lb ed="#B" n="63" break="no"/>quis esset in gratia sine charitate, seque 
+      <lb ed="#B" n="64"/>retur quod is esset simul filius gehenae, &amp; 
+      re<lb ed="#B" n="65" break="no"/>gni. Item esset iustus, &amp; iniustus: 
+      ami<lb ed="#B" n="66" break="no"/>cus dei &amp; inimicus. Nam &amp; omnis 
+      ha<lb ed="#B" n="67" break="no"/>bens gratiam est filius regni iustus, &amp; 
+      <lb ed="#B" n="68"/>dei amicus: omnis carens charitate, est 
+      <lb ed="#B" n="69"/>filius perditionis iniustus, &amp; dei 
+      ini<lb ed="#B" n="70" break="no"/>micus: hoc consequens implicat: ergo, 
+      <lb ed="#B" n="71"/>&amp; illud ex quo sequitur.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1166">
+      ¶ Verum licet  
+      <lb ed="#B" n="72"/>idem sint realiter charitas, &amp; gratia: 
+      <lb ed="#B" n="73"/>quia eodem habitu, quo spiritussanctus 
+      <lb ed="#B" n="74"/>inhabitatanimam, uoluntas inclinatur ad 
+      <lb ed="#B" n="75"/>suum finem super omnia diligendum: 
+      <lb ed="#B" n="76"/>non tamen sunt termini synonumi, 
+      cha<lb ed="#B" n="77" break="no"/>ritas scilicet, &amp; gratia: quia habitus 
+      il<lb ed="#B" n="78" break="no"/>se dicitur charitas: quia eo habet 
+      uo<lb ed="#B" n="79" break="no"/>luntas deum charum gratia: quia deus 
+      <lb ed="#B" n="80"/>habet ipsam sibi gratam, &amp; acceptam. 
+      <lb ed="#B" n="81"/>Differunt ergo in connotato: quia 
+      cha<lb ed="#B" n="82" break="no"/>ritas connotat deum in ratione 
+      diligi<lb ed="#B" n="83" break="no"/>bilis, gratia connotat deum, ut gratum 
+      <lb ed="#B" n="84"/>habentem siue acceptantem: &amp; ita ut  
+      <lb ed="#B" n="85"/>diligentem. Substractiue uero idem 
+      si<lb ed="#B" n="86" break="no"/>gnificant: quiaeundem habitum 
+      infu<lb ed="#B" n="87" break="no"/>sum, quo habent diligit deum: &amp; 
+      pro<lb ed="#B" n="88" break="no"/>pter quem deus acceptat habentem 
+      tan<lb ed="#B" n="89" break="no"/>quam uita aeterna dignum.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1208">
+      ¶ Item 
+      gra<lb ed="#B" n="90" break="no"/>tia non dicit perfectionem simpliciter 
+      <lb ed="#B" n="91"/>sicut charitas: quia gratia non dicit 
+      <lb ed="#B" n="92"/>quodcunque propter quod deus diligit, 
+      <lb ed="#B" n="93"/>&amp; acceptat aliquid: quia sic essentia in 
+      <lb ed="#B" n="94"/>filio esset in gratia: quia propter eam 
+      <lb ed="#B" n="95"/>pater diligit filium: sed dicit illud, 
+      pro<lb ed="#B" n="96" break="no"/>pter quod deus acceptat hominem 
+      siue<lb ed="#B" n="97" break="no"/>rationalem creaturam tanquam dignam 
+      <lb ed="#B" n="98"/>uita aeterna, ea dignitate, quae est 
+      cor<lb ed="#B" n="99" break="no"/>respondentia meriti ad praemium: &amp; ita 
+      <lb ed="#B" n="100"/>imperfectionem ponit in digno, scili¬ 
+      <!--304.xml-->
+      <pb ed="#B" n="137-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cet, quod non est per se beatus naturaliter: 
+      <lb ed="#B" n="2"/>sed per aliquod tamquam principium 
+      me<lb ed="#B" n="3" break="no"/>riti supperadditum. Charitas uero dicit 
+      <lb ed="#B" n="4"/>perfectionem simpliciter, sicut sapientia, 
+      <lb ed="#B" n="5"/>uel bonitas: unde in deo est charitas, 
+      <lb ed="#B" n="6"/>qua formaliter diligit: non autei 
+      gra<lb ed="#B" n="7" break="no"/>tia. Ex quo sequitur, quod non sunt 
+      termi<lb ed="#B" n="8" break="no"/>nim conuertibiles: quia omnis gratia est 
+      <lb ed="#B" n="9"/>charitas: &amp; non econuerso. Diuina enim 
+      <lb ed="#B" n="10"/>essentia est charitas, qua diligitur deus: 
+      <lb ed="#B" n="11"/>essentia enim sua pater diligit se, filium, &amp; 
+      <lb ed="#B" n="12"/>spiritumsanctum. Vnde. j. Ioan. iiij. Deus 
+      <lb ed="#B" n="13"/>charitas est. Deus autem siue essentia 
+      di<lb ed="#B" n="14" break="no"/>uina non est gratia, quae est principium 
+      <lb ed="#B" n="15"/>merendi beatitudinem: non enim est 
+      bea<lb ed="#B" n="16" break="no"/>tus per gratiam, sed per naturam. Ex hoc  
+      <lb ed="#B" n="17"/>tamen non sequitur, quod ubi in eadem 
+      con<lb ed="#B" n="18" break="no"/>currunt charitas, &amp; gratia: quod ibi 
+      distin<lb ed="#B" n="19" break="no"/>guit: sicut animal &amp; homo, non sunt ter 
+      <lb ed="#B" n="20"/>mini conuertibiles: &amp; ubi concurrunt  
+      <lb ed="#B" n="21"/>non distinguuntur realiter. In rationali 
+      <lb ed="#B" n="22"/>enim creatura, idem est animal, &amp; 
+      ho<lb ed="#B" n="23" break="no"/>mo, sic sapientia, &amp; sapientia creata. 
+      De<lb ed="#B" n="24" break="no"/>hoc aliquid tactum est dist. xvij.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1293">
+      ¶ 
+      Quan<lb ed="#B" n="25" break="no"/>tum ad tertium articulum est primum 
+      du<lb ed="#B" n="26" break="no"/>bium. Vtrum gratia subiectetur in 
+      essen<lb ed="#B" n="27" break="no"/>tia animae, uel in potentia. Quaestio illa 
+      <lb ed="#B" n="28"/>non habet dubium, secundum 
+      opinio<lb ed="#B" n="29" break="no"/>nem supra dist. xvj. declaratam: 
+      quaete<lb ed="#B" n="30" break="no"/>net, quod animae essentia, &amp; potentiae non 
+      <lb ed="#B" n="31"/>distinguuntur: sic enim quia idem sunt: 
+      <lb ed="#B" n="32"/>quicquid est in essentia tanquam in 
+      su<lb ed="#B" n="33" break="no"/>biecto: est etiam in potentia tanquam in 
+      <lb ed="#B" n="34"/>subjecto, &amp; econuerso.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1317">
+      ¶ Tenentes 
+      au<lb ed="#B" n="35" break="no"/>tem oppositum, &amp; ponentes 
+      distinctio<lb ed="#B" n="36" break="no"/>nem inter essentiam, &amp; potentiam adhuc 
+      <lb ed="#B" n="37"/>diuersificantur. Beatiis Tho, qui ponit 
+      <lb ed="#B" n="38"/>distinctionem realem inter essentiam, 
+      <lb ed="#B" n="39"/>&amp; potentiam: similiterinter gratiam, &amp; 
+      <lb ed="#B" n="40"/>charitatem consequenter dicit, quod 
+      gra<lb ed="#B" n="41" break="no"/>tia perficit essentiam, &amp; charitas 
+      poten<lb ed="#B" n="42" break="no"/>tiam, ipsam scilicet uoluntatem tanquam 
+      <lb ed="#B" n="43"/>forma subiectum.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1339">
+      ¶ Scotus uero, qui 
+      po<lb ed="#B" n="44" break="no"/>nit distinctionem formalem tantum in 
+      <lb ed="#B" n="45"/>ter essentiam &amp; potentiam: &amp; nullam 
+      in<lb ed="#B" n="46" break="no"/>ter gratiam, &amp; charitatem creatam 
+      infu<lb ed="#B" n="47" break="no"/>sam, ponit gratiam in potentia: sicut &amp; 
+      <lb ed="#B" n="48"/>charitatem: perficit enim potentiam in 
+      or<lb ed="#B" n="49" break="no"/>dine ad actum meritorium. i lures 
+      ratio<lb ed="#B" n="50" break="no"/>nes adducit Sco. distin. praesenti lib. ij. 
+      <!--304.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-b65624-d1e1362">
+               <lb ed="#B" n="51"/>¶ Secundum dubium. Vtrum in eadem 
+      <lb ed="#B" n="52"/>anima, sit tantum una, uel multiplex 
+      gra<lb ed="#B" n="53" break="no"/>tia. Et uidetur, quod in una sint diuersae 
+      gra<lb ed="#B" n="54" break="no"/>tiae. Nam gratia est fides operans per 
+      cha<lb ed="#B" n="55" break="no"/>ritatem, ut dicit Augu. &amp; allegat 
+      magi<lb ed="#B" n="56" break="no"/>ster in textu. Et eadem ratione, est spes, 
+      <lb ed="#B" n="57"/>de qua dicit apostolus. Spe salui facti 
+      su<lb ed="#B" n="58" break="no"/>mus. Rom. viij. Est etiam charitas: ut 
+      di<lb ed="#B" n="59" break="no"/>cit quarta conclusio. Eides autem spes, 
+      <lb ed="#B" n="60"/>&amp; charitas, sunt habitus distincti in 
+      ea<lb ed="#B" n="61" break="no"/>dem anima; ergo in eadem sunt gratiae 
+      <lb ed="#B" n="62"/>distinctae.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1391">
+      ¶ Responsio. In uno homine 
+      <lb ed="#B" n="63"/>est una gratia totalis gratum faciens, &amp; 
+      <lb ed="#B" n="64"/>non plures distinctae. Nam, ut dictum est, 
+      <lb ed="#B" n="65"/>gratiae est gratificare naturam, &amp; 
+      ordi<lb ed="#B" n="66" break="no"/>nare in finem. Vnius autem hominis una 
+      <lb ed="#B" n="67"/>est natura, unus etiam finis ultimus, &amp; 
+      <lb ed="#B" n="68"/>per consequens una gratia: licet illa 
+      pro<lb ed="#B" n="69" break="no"/>pter diuersas operationes diuersa fortia 
+      <lb ed="#B" n="70"/>tur nomina. Et ad rationes in 
+      contra<lb ed="#B" n="71" break="no"/>rium dicitur, quod in auctoritate Aug. non 
+      <lb ed="#B" n="72"/>est praedicatio per identitatem: sed 
+      per<lb ed="#B" n="73" break="no"/>concomitantiam. Vnde uult dicere, 
+      gra<lb ed="#B" n="74" break="no"/>tia est fides. i. comitatur fidem 
+      operan<lb ed="#B" n="75" break="no"/>tem per charitatem. Sic ad secundam 
+      di<lb ed="#B" n="76" break="no"/>citur, quod spes accipitur pro spe formata, 
+      <lb ed="#B" n="77"/>quae includit gratiam.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1426">
+      ¶ Et ideo licet 
+      fi<lb ed="#B" n="78" break="no"/>des, spes, &amp; charitas sunt tres habitus 
+      di<lb ed="#B" n="79" break="no"/>stincti: est tamen una gra, quae est 
+      chari<lb ed="#B" n="80" break="no"/>tas, quibus spes, &amp; fides formantur. 
+      Simi<lb ed="#B" n="81" break="no"/>liter est eadem gratia in infantibus, &amp; 
+      <lb ed="#B" n="82"/>adultis: licet in adultis inclinet ad 
+      ope<lb ed="#B" n="83" break="no"/>ra meritoria: &amp; non in infantibus: non 
+      <lb ed="#B" n="84"/>propter defectum gratiae: sed usus 
+      ratio<lb ed="#B" n="85" break="no"/>nis. Sic est eadem gratia omnium 
+      sa<lb ed="#B" n="86" break="no"/>cramentorum: licet gratia baptisma 
+      <lb ed="#B" n="87"/>lis, &amp; paenitentiae iustificent impium, 
+      <lb ed="#B" n="88"/>non autem caeterorum 
+      sacramento<lb ed="#B" n="89" break="no"/>rum: quia gratia baptismalis, &amp; 
+      peni<lb ed="#B" n="90" break="no"/>tentiae non praesupponunt aliam gratiam 
+      <lb ed="#B" n="91"/>praeuiam in haptixato, &amp; paenitente: 
+      si<lb ed="#B" n="92" break="no"/>cut gratiae aliorum sacramentorum: &amp; 
+      <lb ed="#B" n="93"/>possunt infundi ei, quifuit iniustus: &amp; 
+      <lb ed="#B" n="94"/>per infusionem sitiustus. Quod non est 
+      <lb ed="#B" n="95"/>ita in caeteris sacramentis: quae non 
+      con<lb ed="#B" n="96" break="no"/>ferunt prima gratiam; sed praeexistentem 
+      <lb ed="#B" n="97"/>augmentant. Sic etiam eadem est gra data 
+      pa<lb ed="#B" n="98" break="no"/>tribus ante incarnationem, &amp; data nobis 
+      <lb ed="#B" n="99"/>post dumi passionem: licet ista apperiat 
+      re<lb ed="#B" n="100" break="no"/>gnum non illa: quae diuersitas non contingit 
+      <!--305.xml-->
+      <pb ed="#B" n="137-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ex diuersitate gratiae, sed solutionis 
+      de<lb ed="#B" n="2" break="no"/>biti. Gratia enim etsi facit dignum 
+      re<lb ed="#B" n="3" break="no"/>gno: non tamen introduxit ante 
+      de<lb ed="#B" n="4" break="no"/>biti solutionem, quod per passionem 
+      Chri<lb ed="#B" n="5" break="no"/>sti solutum est: ideo gratia infusa Nico 
+      <lb ed="#B" n="6"/>demo ante Christi passionem non 
+      ape<lb ed="#B" n="7" break="no"/>ruit regnum priusquam Christus 
+      patere<lb ed="#B" n="8" break="no"/>tur; &amp; eadem manens post passionem 
+      ape<lb ed="#B" n="9" break="no"/>ruit Nicodemo regnum.
+    </p>
+            <p xml:id="gbs333-b65624-d1e1504">
+      ¶ Vltimo 
+      du<lb ed="#B" n="10" break="no"/>bitatur. Vtrum gratia distinguatur a 
+      glo<lb ed="#B" n="11" break="no"/>ria. Respondetur breuiter: quia latior 
+      <lb ed="#B" n="12"/>inquisitio pertinet ad quartum librum: 
+      <lb ed="#B" n="13"/>quia gratia est charitas. Charitas autem 
+      <lb ed="#B" n="14"/>secundum apostolum non excidit. j. 
+      Corin<lb ed="#B" n="15" break="no"/>xiij. Quia nec in hoc seculo, nec 
+      infu<lb ed="#B" n="16" break="no"/>turo finietur secundum glo. sed 
+      perficie<lb ed="#B" n="17" break="no"/>tur, &amp; consummabitur. Gloria ergo, quae 
+      <lb ed="#B" n="18"/>est fruitio dei perfecta siue in re, est 
+      gra<lb ed="#B" n="19" break="no"/>tia consummata: igitur gratia non 
+      di<lb ed="#B" n="20" break="no"/>stinguitur a gloria: nisi sicut charitas 
+      <lb ed="#B" n="21"/>uiae a charitate patriae; quae non 
+      distin<lb ed="#B" n="22" break="no"/>guuntur specie, sed sicut imperfectum, 
+      <lb ed="#B" n="23"/>&amp; perfectum in eadem specie sicut 
+      al<lb ed="#B" n="24" break="no"/>bedo remissa ab albedine intensa. Et  
+      <lb ed="#B" n="25"/>tantum de quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

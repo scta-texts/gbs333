@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="30-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b14752"><!-- l2-d3prae -->
+            <head xml:id="gbs333-b14752-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b14752-d1e103">
+               <lb ed="#B" n="90"/>DISTINCTIO III. 
+      <lb ed="#B" n="91"/>NVTERTIA 
+      di<lb ed="#B" n="92" break="no"/>stinctione magister 
+      <lb ed="#B" n="93"/>inquirit, quales 
+      an<lb ed="#B" n="94" break="no"/>gesi creati sunt, 
+      <lb ed="#B" n="95"/>quo ad naturam, &amp; 
+      <lb ed="#B" n="96"/>gratiam, &amp; 
+      cogni<lb ed="#B" n="97" break="no"/>tionem. 
+      Secun<lb ed="#B" n="98" break="no"/>dum hoc potest sententia textus per¬ 
+      <!--92.xml-->
+      <pb ed="#B" n="31-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tres conclusiones summari.
+    </p>
+            <p xml:id="gbs333-b14752-d1e134">
+      ¶ 
+      Pri<lb ed="#B" n="2" break="no"/>ma. Angeli sunt creati a deo, 
+      essen<lb ed="#B" n="3" break="no"/>tia simplices, &amp; immateriales, 
+      perso<lb ed="#B" n="4" break="no"/>naliter discreti, rationaliter, &amp; 
+      arbitrio<lb ed="#B" n="5" break="no"/>liberi: quantum ad duo prima 
+      unifor<lb ed="#B" n="6" break="no"/>formes; quantum ad duo ultima 
+      dispa<lb ed="#B" n="7" break="no"/>res, ac diuersi.
+    </p>
+            <p xml:id="gbs333-b14752-d1e150">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="8"/>Angeli omnes in primordio suae 
+      con<lb ed="#B" n="9" break="no"/>ditionis boni fuerunt sine uitio 
+      per<lb ed="#B" n="10" break="no"/>innocentiam; sed non iusti per 
+      uirtu<lb ed="#B" n="11" break="no"/>tes, &amp; gratiam.
+    </p>
+            <p xml:id="gbs333-b14752-d1e161">
+      ¶ Tertia: In angelis a 
+      <lb ed="#B" n="12"/>principio erat naturalis cognitio; quia 
+      <lb ed="#B" n="13"/>a quo, &amp; cum quo facti fuerant, 
+      co<lb ed="#B" n="14" break="no"/>gnoscebant. Bonum quoque a malo: 
+      <lb ed="#B" n="15"/>appetendum a respuendo discernebant. 
+      <lb ed="#B" n="16"/>Probationem addit magister in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

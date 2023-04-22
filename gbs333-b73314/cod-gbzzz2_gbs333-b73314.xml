@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="150-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b73314"><!-- l2-d30prae -->
+            <head xml:id="gbs333-b73314-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b73314-d1e103">
+      <!--331.xml-->
+               <pb ed="#B" n="150-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO xRx 
+      <lb ed="#B" n="2"/>QVTQVAM 
+      ma<lb ed="#B" n="3" break="no"/>gister egit de 
+      pec<lb ed="#B" n="4" break="no"/>cato actuali 
+      prime<lb ed="#B" n="5" break="no"/>rum parent, quo 
+      per<lb ed="#B" n="6" break="no"/>soria corrumpit 
+      na<lb ed="#B" n="7" break="no"/>turam. Consequenter 
+      <lb ed="#B" n="8"/>in quatuor 
+      distin<lb ed="#B" n="9" break="no"/>ctionibus sequentibus agit de peccato 
+      <lb ed="#B" n="10"/>originaliparuulorum, quo naturacorrum- 
+      <lb ed="#B" n="11"/>pit personam. Et primo agit de 
+      pecca<lb ed="#B" n="12" break="no"/>ti originalis quidditate dist. praesenti. 
+      <lb ed="#B" n="13"/>Secundo de eius traductione dist xxxi- 
+      <lb ed="#B" n="14"/>Tertio de eius remissione dist. xxxij. 
+      <lb ed="#B" n="15"/>Quarto de eius augmentatione seu 
+      in<lb ed="#B" n="16" break="no"/>tensione dist. xxxiiij. Colligitur autem 
+      <lb ed="#B" n="17"/>sententia huius dist. in tribus 
+      conclu<lb ed="#B" n="18" break="no"/>sionibus.
+    </p>
+            <p xml:id="gbs333-b73314-d1e151">
+      ¶ Prima conclusio. Per primum 
+      <lb ed="#B" n="19"/>hominem peccatum intrauit in mundum, 
+      <lb ed="#B" n="20"/>non imitationis exemplo: sed 
+      propaga<lb ed="#B" n="21" break="no"/>tionis, &amp; originis uitio.
+    </p>
+            <p xml:id="gbs333-b73314-d1e160">
+      ¶ Secunda 
+      co<lb ed="#B" n="22" break="no"/>clusio: Peccatum originale, quod rea 
+      <lb ed="#B" n="23"/>tus est: non tantum poenae; sed culpae est 
+      ui<lb ed="#B" n="24" break="no"/>tium concupiscentiae: &amp; in omnes ab 
+      <lb ed="#B" n="25"/>Adam concupiscentialiter propagatos 
+      <lb ed="#B" n="26"/>dimigrauit per culpam eius 
+      inobedien<lb ed="#B" n="27" break="no"/>tiae.
+    </p>
+            <p xml:id="gbs333-b73314-d1e176">
+      ¶ Tertia conclusio: Omne quod 
+      <lb ed="#B" n="28"/>naturaliter est in humanis corporibus 
+      <lb ed="#B" n="29"/>propagationis lege genitis, descendit a 
+      <lb ed="#B" n="30"/>primo parente, &amp; in se auctum est, &amp; 
+      mul<lb ed="#B" n="31" break="no"/>tiplicatum: nulla exteriore substantia 
+      in<lb ed="#B" n="32" break="no"/>id transeunte. Harum conclusionum 
+      <lb ed="#B" n="33"/>deductio, &amp; appositorum errorum 
+      re<lb ed="#B" n="34" break="no"/>probatio patet in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

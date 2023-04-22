@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="163-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b79786"><!-- l2-d35prae -->
+            <head xml:id="gbs333-b79786-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b79786-d1e103">
+      <!--357.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>DISTINCTIO RxxV 
+      <lb ed="#B" n="52"/>IN distinctioe. xxxv. 
+      <lb ed="#B" n="53"/>agit de peccato quam 
+      <lb ed="#B" n="54"/>tum ad eius 
+      quiddi<lb ed="#B" n="55" break="no"/>tatem. Primo 
+      secun<lb ed="#B" n="56" break="no"/>dum opi. unam. 
+      Se<lb ed="#B" n="57" break="no"/>cundo secundum aliam 
+      <lb ed="#B" n="58"/>opi dist. xxxvij. Et  
+      <lb ed="#B" n="59"/>primo de quidditate peccati in dist. 
+      prae<lb ed="#B" n="60" break="no"/>senti. deinde in comparatione ad aliud  
+      <lb ed="#B" n="61"/>distin. xxxvj. In hac ergo dist. praemittit 
+      <lb ed="#B" n="62"/>diffinitionem peccati, deinde inquirit 
+      <lb ed="#B" n="63"/>secundum diffinitiones praemissas, ad quae 
+      <lb ed="#B" n="64"/>extendat se ratio peccati. Et colligitur 
+      <lb ed="#B" n="65"/>sententia textus in tribus subiectis 
+      con<lb ed="#B" n="66" break="no"/>clusionibus.
+    </p>
+            <p xml:id="gbs333-b79786-d1e145">
+      ¶ Prima Tres sunt 
+      diffini<lb ed="#B" n="67" break="no"/>tiones peccati, ex quibus de ipso ortae 
+      <lb ed="#B" n="68"/>sunt diuersae opiniones. Harum prima 
+      <lb ed="#B" n="69"/>est beati Augu. lib. xxij. contra Paustum. 
+      <lb ed="#B" n="70"/>Peccatum est dictum, factum, uel 
+      con<lb ed="#B" n="71" break="no"/>cupitum contra legem dei. Secunda est 
+      <lb ed="#B" n="72"/>eiusdem in lib. de duabus animabus. Pec 
+      <lb ed="#B" n="73"/>catum est uoluntas retinendi, uel conse 
+      <lb ed="#B" n="74"/>quendi, quod iustitia uetat. Tertia est 
+      bea<lb ed="#B" n="75" break="no"/>ti Amb. in lib. de paradiso. Peccatum est 
+      <lb ed="#B" n="76"/>priuatio legis diuinae, &amp; caelestium 
+      inobe<lb ed="#B" n="77" break="no"/>dientia praeceptorum.
+    </p>
+            <p xml:id="gbs333-b79786-d1e171">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="78" break="no"/>sio. Ex peccato cogitationis, quod in 
+      uo<lb ed="#B" n="79" break="no"/>luntate consistit, tamquam ex arbore 
+      ma<lb ed="#B" n="80" break="no"/>la procedunt locutiones prauae: &amp; opera 
+      <lb ed="#B" n="81"/>quae &amp; ipsa recte dicuntur peccata. 
+      Ter<lb ed="#B" n="82" break="no"/>tia conclusio. Voluntas mala, &amp; actus ex 
+      <lb ed="#B" n="83"/>teriores inquantum sunt, sunt boni: inquam 
+      <lb ed="#B" n="84"/>tum mali, sunt peccata &amp; uitiosi. Has 
+      la<lb ed="#B" n="85" break="no"/>te prosequitur textus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

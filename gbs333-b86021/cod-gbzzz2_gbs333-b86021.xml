@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="176-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b86021"><!-- l2-d39q1 -->
+            <head xml:id="gbs333-b86021-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b86021-Hd1e103" type="question-title">
+      Utrum 
+      synderesis, quae rationis scintilla dicitur, et 
+      conscientia, sint in intellectu, aut effecti
+    </head>
+            <p xml:id="gbs333-b86021-d1e106">
+               <lb ed="#B" n="81"/>QVAESTIO VNICA 
+      <lb ed="#B" n="82"/>CIRCA hanc distinctioni 
+      <lb ed="#B" n="83"/>quaeritur de illa rationis 
+      su<lb ed="#B" n="84" break="no"/>perioris scintilla: quod spntere. 
+      <lb ed="#B" n="85"/>Qus di, &amp; de conscientia. Vtrum 
+      <lb ed="#B" n="86"/>synderesis, quae rationis scintilla dicitur, &amp; 
+      <lb ed="#B" n="87"/>conscientia, sint in intellectu, aut effecti 
+      <lb ed="#B" n="88"/>pro articulo primo: ac conclusionibus 
+      <lb ed="#B" n="89"/>pro secundo: mouebuntur dubia pro 
+      ar<lb ed="#B" n="90" break="no"/>ticulo tertio.
+    </p>
+            <p xml:id="gbs333-b86021-d1e130">
+      ¶ Quantum ad primum notam 
+      <lb ed="#B" n="91"/>differant, seu distinguantur: ut supra 
+      <lb ed="#B" n="92"/>ua potentia.
+    </p>
+            <p xml:id="gbs333-b86021-d1e137">
+      ¶ Praemissis notabilibus 
+      <lb ed="#B" n="93"/>dum, quod licet potentia intellectiua, &amp; 
+      uo<lb ed="#B" n="94" break="no"/>luntas, quam est potentia affectiua, in nullo 
+      <!--383.xml-->
+      <pb ed="#B" n="176-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>habitum est dist. xvj. Habitus tamen, &amp; 
+      <lb ed="#B" n="2"/>actus intellectiui, &amp; affectiui realiter 
+      di<lb ed="#B" n="3" break="no"/>stinguuntur: unde scientia realiter 
+      di<lb ed="#B" n="4" break="no"/>stinguitur a uirture, &amp; cognitio a 
+      uoli<lb ed="#B" n="5" break="no"/>tione propter hoc frequenter loquimus 
+      <lb ed="#B" n="6"/>de intellectu, &amp; uoluntate: ac si essent 
+      <lb ed="#B" n="7"/>realiter distinctae propter habituum, &amp; 
+      <lb ed="#B" n="8"/>actuum distinctionem. Vnde cum 
+      quae<lb ed="#B" n="9" break="no"/>ritur utrum sunterelis, &amp; conscientia 
+      sin<lb ed="#B" n="10" break="no"/>in intellectu, aut uoluntate: nihil aliud est 
+      <lb ed="#B" n="11"/>quaerere: quam utrum sint actus, 
+      habi<lb ed="#B" n="12" break="no"/>tus, uel passiones intellectiui, uel 
+      affe<lb ed="#B" n="13" break="no"/>ctiui: &amp; ad hunc sensum retorquenda 
+      <lb ed="#B" n="14"/>sunt omnia, quae dicentur.
+    </p>
+            <p xml:id="gbs333-b86021-d1e182">
+      ¶ Secundo 
+      <lb ed="#B" n="15"/>aduertendum, quod secundum 
+      philosophi<lb ed="#B" n="16" break="no"/>ij. Ethic. c. v. in anima sunt tres 
+      poten<lb ed="#B" n="17" break="no"/>tiae habitus, &amp; passiones, &amp; sub habitu 
+      <lb ed="#B" n="18"/>comprehenditur actus scum sanct. Bona. 
+      <lb ed="#B" n="19"/>Vel solum loquitur de his, quae sunt 
+      prin<lb ed="#B" n="20" break="no"/>cipia operationis secundum Bea. 
+      Tho<lb ed="#B" n="21" break="no"/>Verius tamen passio secundum 
+      philo<lb ed="#B" n="22" break="no"/>sophum est actus appetitus, aut 
+      delecta<lb ed="#B" n="23" break="no"/>tio, uel tristitia consequens: ut 
+      concu<lb ed="#B" n="24" break="no"/>piscentia, ira, timor, audacia &amp;c. ut exe 
+      <lb ed="#B" n="25"/>plificat philoso. de hoc latius Ockam 
+      <lb ed="#B" n="26"/>in iij. quaest. xij. &amp;. ij. quodlibet. quaest 
+      <lb ed="#B" n="27"/>xvij. Ergo cum synteresis sit aliquid in 
+      <lb ed="#B" n="28"/>anima, similiter &amp; conscientia: 
+      opor<lb ed="#B" n="29" break="no"/>ter, quod sint aut potentia, aut habitus, aut  
+      <lb ed="#B" n="30"/>actus, aut passiones, quae autem horum 
+      <lb ed="#B" n="31"/>sint utrum potentia, habitus, aut 
+      pas<lb ed="#B" n="32" break="no"/>siones idest actus, uariant doc. Nam 
+      be<lb ed="#B" n="33" break="no"/>Tho. tenet par. j. quaest. Ixxix. quod suntere 
+      <lb ed="#B" n="34"/>sis sit habitus primorum principiorum 
+      <lb ed="#B" n="35"/>practicorum nobis naturaliter inditus 
+      <lb ed="#B" n="36"/>unde secundum eum. hoc est synteresis 
+      <lb ed="#B" n="37"/>in practicis, quod intellectus (ut 
+      distingui<lb ed="#B" n="38" break="no"/>tur contra alios habitus intellectuales 
+      <lb ed="#B" n="39"/>est in speculatiuis: &amp; conscientia actus 
+      <lb ed="#B" n="40"/>est, quo scientia applicatur ad agenda¬ 
+    </p>
+            <p xml:id="gbs333-b86021-d1e241">
+               <lb ed="#B" n="41"/>¶ Sed sanctus Bona. de hoc tangit tres 
+      <lb ed="#B" n="42"/>opi. in suo secundo dist. xxxix. quaest. iiij. 
+      <lb ed="#B" n="43"/>Vna, quod synteresis est superior pars 
+      ra<lb ed="#B" n="44" break="no"/>tionis. Conscientia autem est habitus 
+      <lb ed="#B" n="45"/>eiusdem, quo regit inferiora.
+    </p>
+            <p xml:id="gbs333-b86021-d1e254">
+      ¶ Secunda 
+      <lb ed="#B" n="46"/>opinio ponit differentiam inter 
+      conscien<lb ed="#B" n="47" break="no"/>tiam, synteresim, legem naturae, &amp; 
+      libe<lb ed="#B" n="48" break="no"/>rum arbitrium. Nam prima tria 
+      respi<lb ed="#B" n="49" break="no"/>ciunt potentias rationales, siue 
+      cogni<lb ed="#B" n="50" break="no"/>tiuas, siue appetitiuas inquantum mo¬ 
+      <!--383.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>uentur motu naturae ad bonum: sed 
+      libe<lb ed="#B" n="52" break="no"/>rum arbitrium respicit potentias 
+      ratio<lb ed="#B" n="53" break="no"/>nales, inquantum mouentur deliberati 
+      <lb ed="#B" n="54"/>ue ad bonum, uel ad malum. Consequen 
+      <lb ed="#B" n="55"/>ter dicit, quod sunteresis dicit potentiam, 
+      <lb ed="#B" n="56"/>conscientia habitum, lex naturalis 
+      obie<lb ed="#B" n="57" break="no"/>ctum. Vel synteresis est habitus 
+      uniuer<lb ed="#B" n="58" break="no"/>salis, conscientia est habitus 
+      particula<lb ed="#B" n="59" break="no"/>ris, lex naturae extendit se ad utrumque  
+      <lb ed="#B" n="60"/>Tertia opi. cui ipse consentit: dicit, quod 
+      <lb ed="#B" n="61"/>quemadmodum abipsa creatione 
+      ani<lb ed="#B" n="62" break="no"/>mae intellectus habet sumen, quod sibi 
+      <lb ed="#B" n="63"/>est naturale iudicatorium dirigens ipsum 
+      <lb ed="#B" n="64"/>in cognoscendis: ita uoluntas seu 
+      affe<lb ed="#B" n="65" break="no"/>ctus habet naturale quoddam pondus 
+      di<lb ed="#B" n="66" break="no"/>rigens ipsum in appetendis. Sicut ergo 
+      <lb ed="#B" n="67"/>conscientia non nominat ipsum iudica 
+      <lb ed="#B" n="68"/>torium, nisi inquantum dirigit ad 
+      ope<lb ed="#B" n="69" break="no"/>ra moralia: sic synteresis non nominat 
+      <lb ed="#B" n="70"/>illud pondus uoluntatis siue uoluntatem 
+      <lb ed="#B" n="71"/>cum pondere: nisi inquantum habet illam 
+      <lb ed="#B" n="72"/>inclinare ad bonum honestum. Et quem 
+      <lb ed="#B" n="73"/>admodum nomen conscientiae potest 
+      ac<lb ed="#B" n="74" break="no"/>cipi porpotentia sic habituata, uel pro 
+      ta<lb ed="#B" n="75" break="no"/>li habitu potentiae: sic etiam spnteresis 
+      <lb ed="#B" n="76"/>Vsitattori tamen modo loquendi, 
+      synte<lb ed="#B" n="77" break="no"/>resis magis nominat potentiam 
+      habi<lb ed="#B" n="78" break="no"/>tuatam, quam habitum: &amp; conscientia 
+      usi<lb ed="#B" n="79" break="no"/>tatiori modi loquendi magis nominat  
+      <lb ed="#B" n="80"/>habitum perficientem intellectum 
+      pra<lb ed="#B" n="81" break="no"/>cticum, quam potentiam.
+    </p>
+            <p xml:id="gbs333-b86021-d1e339">
+      ¶ Scotus 
+      te<lb ed="#B" n="82" break="no"/>net, quod tam synteresis, quam 
+      conscien<lb ed="#B" n="83" break="no"/>tia sint habitus: Iynteresis 
+      princi<lb ed="#B" n="84" break="no"/>piorum practicorum: conscientia sit 
+      ha<lb ed="#B" n="85" break="no"/>bitus conclusionis ex principijs 
+      dedu<lb ed="#B" n="86" break="no"/>ctae.
+    </p>
+            <p xml:id="gbs333-b86021-d1e352">
+      ¶ Vt autem inuestigetur, quae harum 
+      <lb ed="#B" n="87"/>opinionum sit probabilior, attendere 
+      <lb ed="#B" n="88"/>oportet conditiones seu proprietates, 
+      <lb ed="#B" n="89"/>quam coniter a sanctis attribuuntur synteresi, 
+      <lb ed="#B" n="90"/>&amp; conscientiae.
+    </p>
+            <p xml:id="gbs333-b86021-d1e363">
+      ¶ Pro quo notandum tertio, quod 
+      <lb ed="#B" n="91"/>synteresi attribuitur instigare ad bonum 
+      <lb ed="#B" n="92"/>&amp; remurmurare malo. Item, quod deus est 
+      <lb ed="#B" n="93"/>scintilla rationis non extinguibilis. Haec 
+      <lb ed="#B" n="94"/>innuuntur in glol. super. c. i. Exec. ubi di 
+      <lb ed="#B" n="95"/>cit, quod per faciem animalis similem 
+      aqui<lb ed="#B" n="96" break="no"/>lae desuper ipsorum quatuor. intelligun 
+      <lb ed="#B" n="97"/>synteresim: quae scintilla conscientiae in 
+      <lb ed="#B" n="98"/>Cam quoque non extinguitur. hoc quo 
+      <lb ed="#B" n="99"/>ad tertium. Et quoad prima duo dicitur 
+      <lb ed="#B" n="100"/>ibi, quod animae rationabilitatem, irascen¬ 
+      <!--384.xml-->
+      <pb ed="#B" n="177-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tiam, &amp; concupiscentia ad hominem 
+      <lb ed="#B" n="2"/>&amp; ad uitulum referunt: rationabilitatem 
+      <lb ed="#B" n="3"/>in cerebri arce, feritatem atque iracundiam 
+      <lb ed="#B" n="4"/>in felle, uoluptatum cupidinem 
+      ineco<lb ed="#B" n="5" break="no"/>re. Primumque per faciem hominis, secun- 
+      <lb ed="#B" n="6"/>dum per faciem leonis, tertium per 
+      fa<lb ed="#B" n="7" break="no"/>ciem uituli intelligentes. Et subdit de 
+      <lb ed="#B" n="8"/>synteresi, ostendens eius differentiam a 
+      <lb ed="#B" n="9"/>praedictis dicens. Victi uoluptatibus, 
+      <lb ed="#B" n="10"/>uel surore, &amp; ipsa interdum rationis 
+      de<lb ed="#B" n="11" break="no"/>cepti similitudine nos peccare 
+      senti<lb ed="#B" n="12" break="no"/>mus: synteresis, quam proprie aquilae de 
+      <lb ed="#B" n="13"/>putant non se miscentem tribus: sed 
+      ip<lb ed="#B" n="14" break="no"/>sa errata corrigentem, hic est spiritus, 
+      qui<lb ed="#B" n="15" break="no"/>interpellat pro nobis gemitibus inenar 
+      <lb ed="#B" n="16"/>rabilibus. Haec gl. paucis pro 
+      clariori<lb ed="#B" n="17" break="no"/>intellectu mutatis. Conscientiae autem 
+      <lb ed="#B" n="18"/>attribuitur testificari, ligare, uel 
+      mitiga<lb ed="#B" n="19" break="no"/>re, uel etiam accusare, remordere aut 
+      re<lb ed="#B" n="20" break="no"/>praehendere: nam cum cognoscimus nos 
+      <lb ed="#B" n="21"/>aliquid fecisse, uel non fecisse secundum 
+      <lb ed="#B" n="22"/>illud Eccles. vij. Scit conscientia 
+      tua<lb ed="#B" n="23" break="no"/>quia &amp; tu crebro maledixisti alijs. 
+      con<lb ed="#B" n="24" break="no"/>scientia nostra testificatur. Dum uere 
+      <lb ed="#B" n="25"/>iudicamus aliquid faciendum, uel non 
+      <lb ed="#B" n="26"/>faciendum: dicitur conscientia ligare, 
+      <lb ed="#B" n="27"/>uel instigare. Cum etiam iudicamus 
+      fa<lb ed="#B" n="28" break="no"/>ctum aliquod bene, uel male factum: 
+      di<lb ed="#B" n="29" break="no"/>citur conscientia excusare, uel 
+      accusa<lb ed="#B" n="30" break="no"/>re, seu remordere. haec Tho. ubi sup. 
+      ar<lb ed="#B" n="31" break="no"/>xiij.
+    </p>
+            <p xml:id="gbs333-b86021-d1e462">
+      ¶ Ex his colligi potest, quod quia 
+      syn<lb ed="#B" n="32" break="no"/>teresis in omnibus ponitur quoddam 
+      na<lb ed="#B" n="33" break="no"/>turaliter inclinans ad bonum, ac remur 
+      <lb ed="#B" n="34"/>murans malo inextinguibile: non potest 
+      <lb ed="#B" n="35"/>esse actus rationis, uel uoluntatis: quia 
+      <lb ed="#B" n="36"/>nullus talis est semper in homine, cum 
+      <lb ed="#B" n="37"/>in principio creationis anima sit 
+      tan<lb ed="#B" n="38" break="no"/>quam tabula rasa &amp;c. iij. de anima. Nec 
+      <lb ed="#B" n="39"/>est habitus aliquis acquisitus eadem 
+      ra<lb ed="#B" n="40" break="no"/>tione. Sed erit uel habitus innatus 
+      in<lb ed="#B" n="41" break="no"/>separabilis ab aninia si ponitur: uel 
+      ip<lb ed="#B" n="42" break="no"/>samet potentia ad bonum necessario, &amp; 
+      <lb ed="#B" n="43"/>naturaliter inclinata.
+    </p>
+            <p xml:id="gbs333-b86021-d1e491">
+      ¶ Similiter 
+      con<lb ed="#B" n="44" break="no"/>scientia, quae mutabilis est, &amp; nunc 
+      re<lb ed="#B" n="45" break="no"/>cta, nunc erronea, nunc testificans, numc 
+      <lb ed="#B" n="46"/>ligans: numc accusans, uel excusans circa 
+      <lb ed="#B" n="47"/>operationes, &amp; facta particulares, &amp; 
+      par<lb ed="#B" n="48" break="no"/>ticularia erit aliquod dictamen 
+      osten<lb ed="#B" n="49" break="no"/>dens aliquid faciendum, uel male, aut  
+      <lb ed="#B" n="50"/>bene factum.
+    </p>
+            <p xml:id="gbs333-b86021-d1e509">
+      ¶ In processu aut nostro ad 
+      <!--384.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>operandum concurrit potentia intellectiua, 
+      <lb ed="#B" n="52"/>&amp; uoluntas, intellectus: ut ostendens 
+      ope<lb ed="#B" n="53" break="no"/>randum, &amp; dictas scilicet illud, quo fieri ostensum 
+      <lb ed="#B" n="54"/>est ad operandum: uoluntas ut imperans. &amp; 
+      <lb ed="#B" n="55"/>eligens.
+    </p>
+            <p xml:id="gbs333-b86021-d1e527">
+      ¶ Intellectus ostendendo, &amp; 
+      dicta<lb ed="#B" n="56" break="no"/>do procedit a principijs per se notis, 
+      ad<lb ed="#B" n="57" break="no"/>conclusiones immediatas, &amp; mediatas, 
+      <lb ed="#B" n="58"/>quae significant aliquid operandum, 
+      ac<lb ed="#B" n="59" break="no"/>ceptandum, uelfugiendum. Principiis aunt 
+      ap<lb ed="#B" n="60" break="no"/>phensis terminis intellectus dissentire 
+      <lb ed="#B" n="61"/>non potest tam practicis, quam speculatiuis: 
+      <lb ed="#B" n="62"/>hoc aunt assentire conuenit intellectui ex 
+      <lb ed="#B" n="63"/>conditione suae naturae: nec propter hoc  
+      <lb ed="#B" n="64"/>oportet ponere habituminnatum: quia 
+      <lb ed="#B" n="65"/>posita anima intellectiua, &amp; 
+      appraehen<lb ed="#B" n="66" break="no"/>sione principij, omnibus alijs semotis, 
+      <lb ed="#B" n="67"/>statim assentit sine quocunque habitu. 
+      <lb ed="#B" n="68"/>exempli causa. Intellectus practicus ex 
+      <lb ed="#B" n="69"/>illo principio: omne honestum est facien 
+      <lb ed="#B" n="70"/>dum, cuinaturaliter assentit appraehensis, 
+      <lb ed="#B" n="71"/>&amp; intellectis terminis coassupta illa 
+      mi<lb ed="#B" n="72" break="no"/>nore. Honorare parentes est honestum. 
+      <lb ed="#B" n="73"/>concludit, quod parentes sunt honorandi. 
+      <lb ed="#B" n="74"/>Similiter ex illo principio, omne debitum 
+      <lb ed="#B" n="75"/>est soluendum, obedientia deo est 
+      debi<lb ed="#B" n="76" break="no"/>ta: cocludit ergo obedientia deo est 
+      sol<lb ed="#B" n="77" break="no"/>uenda. Vnde dicit Alex. de hales par. ij. 
+      <lb ed="#B" n="78"/>qu. vij. quod sunteresis est potentia 
+      natura<lb ed="#B" n="79" break="no"/>liter habituata intellectus natus 
+      assenti<lb ed="#B" n="80" break="no"/>re maiori illi, est synteresis: &amp; siponitur 
+      <lb ed="#B" n="81"/>habitus innatus hic simpliciter est 
+      syn<lb ed="#B" n="82" break="no"/>terelis: quia est aliquid inextinguibile 
+      <lb ed="#B" n="83"/>in homine instigans ad bonum, &amp; 
+      remur<lb ed="#B" n="84" break="no"/>murans malo. In hoc enim instigat ad 
+      <lb ed="#B" n="85"/>bonum, &amp; malo remurmurat: quia dictat 
+      <lb ed="#B" n="86"/>assensiue de bono faciendo, &amp; malo 
+      fu<lb ed="#B" n="87" break="no"/>giendo in uniuersali: siquidem huic 
+      na<lb ed="#B" n="88" break="no"/>turaliter assentit, bonum est faciendum. 
+      <lb ed="#B" n="89"/>malum fugiendum: assensus uero horum 
+      <lb ed="#B" n="90"/>principio, &amp; habitus acquisitus sunt es 
+      <lb ed="#B" n="91"/>fectus synteresis: assensus quidem 
+      imme<lb ed="#B" n="92" break="no"/>diatus, habitus autem mediatus. qui 
+      pro<lb ed="#B" n="93" break="no"/>tanto non sunt synteresis: quia 
+      inex<lb ed="#B" n="94" break="no"/>tinguibiles sunt: non enim sunt 
+      coae<lb ed="#B" n="95" break="no"/>uae animae: sed acquiruntur per 
+      ani<lb ed="#B" n="96" break="no"/>mam, sunt enim actus animae: assensus 
+      <lb ed="#B" n="97"/>autem conclusionis illatae, &amp; habitus, 
+      <lb ed="#B" n="98"/>derelictus ex assensu est conscientia 
+      <lb ed="#B" n="99"/>actualis, &amp; habitualis: hic enim assensus 
+      <lb ed="#B" n="100"/>dictando aliquid faciendum, aut fa¬ 
+      <!--385.xml-->
+      <pb ed="#B" n="177-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ctum esse, aut accusat, uel excusat: 
+      di<lb ed="#B" n="2" break="no"/>fuerit conclusionis significantis aliquic 
+      <lb ed="#B" n="3"/>sic faciendum: aut sit bene, uel male 
+      fa<lb ed="#B" n="4" break="no"/>ctum: non n. aliter testificatur, ligat, 
+      ac<lb ed="#B" n="5" break="no"/>cusat, remordet, aut excusat, nisi dictam 
+      <lb ed="#B" n="6"/>do scilicet quia est assensus, aut habitus 
+      propo<lb ed="#B" n="7" break="no"/>sitionis simoo significantis: seu quia assentit 
+      <lb ed="#B" n="8"/>actu, uel habituppositioni simoi 
+      signifi<lb ed="#B" n="9" break="no"/>canti: &amp; si ppositio fuerit uera, est coscie 
+      <lb ed="#B" n="10"/>tia recta: si falsa, est conscientia erronea 
+      <lb ed="#B" n="11"/>hoc ergo est conscientia in practicis, quo 
+      <lb ed="#B" n="12"/>scientia in speculatiuis: nisi quod scientia fre 
+      <lb ed="#B" n="13"/>quentius accipitur prohabitu: &amp; 
+      conscien<lb ed="#B" n="14" break="no"/>tia frequentius pro actu.
+    </p>
+            <p xml:id="gbs333-b86021-d1e664">
+      ¶ Posset ergo 
+      <lb ed="#B" n="15"/>synteresis sic describi. Est potentia nata 
+      <lb ed="#B" n="16"/>assentire naturaliter principio practico 
+      <lb ed="#B" n="17"/>euidenti ex terminis dictanti id est significan 
+      <lb ed="#B" n="18"/>ti in uniuersali aliquid operandum, 
+      appeten<lb ed="#B" n="19" break="no"/>dum, uel fugiendum. Dicitur potentia: phoc 
+      <lb ed="#B" n="20"/>excluditu actus, &amp; habitus acqusitus. 
+      Dici<lb ed="#B" n="21" break="no"/>tur nata assentire: quia non oportet, quod 
+      <lb ed="#B" n="22"/>actu assentiat: quia etiam potentia dicitur 
+      <lb ed="#B" n="23"/>synteresis, dum actu nullum principium 
+      app<lb ed="#B" n="24" break="no"/>hendit. Dicitur naturaliter id est statim 
+      ap<lb ed="#B" n="25" break="no"/>phensis terminis: quia non requrit 
+      poatio<lb ed="#B" n="26" break="no"/>nem, uel discursum ad hoc, quod assentiat: sed  
+      <lb ed="#B" n="27"/>ex conditione suae naturae statim apphensis 
+      <lb ed="#B" n="28"/>terminis non potest non assentire. Dicitur 
+      <lb ed="#B" n="29"/>principio non practico: quia non 
+      dici<lb ed="#B" n="30" break="no"/>tur synterelis respectu principij specula 
+      <lb ed="#B" n="31"/>tiui. Quod sequitur dictanti &amp;c. 
+      decla<lb ed="#B" n="32" break="no"/>rat hoc, quod dicitur principium practicum 
+      <lb ed="#B" n="33"/>Dicitur euidenti ex terminis: quia 
+      respe<lb ed="#B" n="34" break="no"/>ctu principij euidentis per experientia 
+      <lb ed="#B" n="35"/>non dicitur synterelis: eo quod tale 
+      princi<lb ed="#B" n="36" break="no"/>pium appraehensum potest ignorari. 
+      Ad<lb ed="#B" n="37" break="no"/>ditur in uniuersali: ad excludendum 
+      con<lb ed="#B" n="38" break="no"/>scientiam, quae est conclusionis practicae in 
+      <lb ed="#B" n="39"/>particulari dictantis &amp;c.
+    </p>
+            <p xml:id="gbs333-b86021-d1e721">
+      ¶ Conscientia 
+      <lb ed="#B" n="40"/>autem est notitia adhaesiua actualis, 
+      ue<lb ed="#B" n="41" break="no"/>habitualis conclusionis dictantis id est 
+      signi<lb ed="#B" n="42" break="no"/>ficantis in particulari aliquidbene, &amp; 
+      lau<lb ed="#B" n="43" break="no"/>dabiliter esse operandum, uel 
+      omitten<lb ed="#B" n="44" break="no"/>dum: aut enuntians operationem aliquam 
+      <lb ed="#B" n="45"/>fieri, aut factam esse, omitti, uel 
+      omis<lb ed="#B" n="46" break="no"/>sam fuisse: enuntians id est significans.
+    </p>
+            <p xml:id="gbs333-b86021-d1e740">
+      ¶ 
+      Parti<lb ed="#B" n="47" break="no"/>culae satis patent ex praemissis: nisi quod hoc  
+      <lb ed="#B" n="48"/>attendatur, quod dicitur in particulari 
+      di<lb ed="#B" n="49" break="no"/>ctantis esse operandum &amp;c. per quod 
+      pa<lb ed="#B" n="50" break="no"/>ter, quod non quelibet notitia conclusionis 
+      <!--385.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>practicae dicitur conscientia, non. n. illius, 
+      <lb ed="#B" n="52"/>quae tantum ostendit modum agendi: sicut 
+      con<lb ed="#B" n="53" break="no"/>clusiones artium mechanicarum, quae 
+      osten<lb ed="#B" n="54" break="no"/>dunt modum agendi: non tamen dictant aliquid 
+      es<lb ed="#B" n="55" break="no"/>se agendum: ut dictum fuit. q. pen. 
+      pro<lb ed="#B" n="56" break="no"/>logi. Sed solum illa notitia, quae ad 
+      pru<lb ed="#B" n="57" break="no"/>dentia, aut moralem scientiam pertinet, 
+      <lb ed="#B" n="58"/>cui conformiter uoluntas elicit, uel 
+      dis<lb ed="#B" n="59" break="no"/>formiter bene, uel male operat: &amp; ideo 
+      <lb ed="#B" n="60"/>additum est etiam bene, &amp; laudabiliter. 
+      <lb ed="#B" n="61"/>Et tantum de illo articulo.
+    </p>
+            <p xml:id="gbs333-b86021-d1e779">
+      ¶ Quantum 
+      <lb ed="#B" n="62"/>ad secundum articulum est conclusio 
+      pri<lb ed="#B" n="63" break="no"/>ma. Synterelis, quae est scint illa 
+      conscien<lb ed="#B" n="64" break="no"/>tiae, non est actus, uel habitus in 
+      uolun<lb ed="#B" n="65" break="no"/>tate. Probatur: quia synteresis est 
+      ali<lb ed="#B" n="66" break="no"/>quid necessario dirigens saltem in 
+      uni<lb ed="#B" n="67" break="no"/>uersali ad operationem iustam, &amp; rectam: 
+      <lb ed="#B" n="68"/>sed nihil tale pertinet ad uoluntatem. 
+      <lb ed="#B" n="69"/>Nihil enim, quod est in uoluntate, 
+      neces<lb ed="#B" n="70" break="no"/>sario inclinat: ergo non est aliquid 
+      per<lb ed="#B" n="71" break="no"/>tinens ad uoluntatem. Consequentia 
+      nota<lb ed="#B" n="72" break="no"/>Maior patet ex conditionibus 
+      sunterefi<lb ed="#B" n="73" break="no"/>attributis: nam inclinat ad bonum, &amp; 
+      re<lb ed="#B" n="74" break="no"/>murmurat malo: &amp; hoc necessario: quia 
+      <lb ed="#B" n="75"/>scintilla inextinguibilis: igitur non potest 
+      <lb ed="#B" n="76"/>non inclinare ad bonum: &amp; ita necessario 
+      <lb ed="#B" n="77"/>inclinat ad bonum. Minor pbatur: quia cum 
+      <lb ed="#B" n="78"/>uoluntas sit potentia libera cotingenter 
+      ten<lb ed="#B" n="79" break="no"/>dens in quodlibet obiectum etiam ultimum 
+      fi<lb ed="#B" n="80" break="no"/>nem: ut patet dist. j. lib. i. nihil ad ipsum 
+      per<lb ed="#B" n="81" break="no"/>tinens necessario inclinat ad hoc, uel ad 
+      <lb ed="#B" n="82"/>aliud obiectum.
+    </p>
+            <p xml:id="gbs333-b86021-d1e827">
+      ¶ Secunda conclusio. 
+      Syn<lb ed="#B" n="83" break="no"/>terelis, quae est scint illa rationis pertinet 
+      <lb ed="#B" n="84"/>ad partem intellectiuam hominis. Probatur. 
+      <lb ed="#B" n="85"/>quia ptinet ad partem hominis rationale, &amp; 
+      <lb ed="#B" n="86"/>non ad uoluntatem ex conclusione precedenti: 
+      <lb ed="#B" n="87"/>ergo ad partem intellectiuam. 
+      Consequen<lb ed="#B" n="88" break="no"/>tia nota: quia pars rationalis hominis 
+      il<lb ed="#B" n="89" break="no"/>las potentias tantum includit: intellectum 
+      <lb ed="#B" n="90"/>ilicet &amp; affectum, qui est uoluntas: Maior ab 
+      <lb ed="#B" n="91"/>omnibus est cocessa: quia synterelis 
+      per<lb ed="#B" n="92" break="no"/>tinet ad partem superiorem hominis, quae 
+      <lb ed="#B" n="93"/>est rationalis. Minor est conclusio 
+      prae<lb ed="#B" n="94" break="no"/>cedens.
+    </p>
+            <p xml:id="gbs333-b86021-d1e856">
+      ¶ Tertia conclusio. Synteresis, 
+      <lb ed="#B" n="95"/>quae est aliquid intellectus: non est actus, 
+      <lb ed="#B" n="96"/>neque habitus. Probatur: quia non est 
+      ha<lb ed="#B" n="97" break="no"/>bitus acquisitus: quia synteresis est sem 
+      <lb ed="#B" n="98"/>per in homine: quia scintilla 
+      inextingui<lb ed="#B" n="99" break="no"/>bilis: sed nullus actus, uel habitus 
+      acqui<lb ed="#B" n="100" break="no"/>situs est semperin homine. Nec est habi¬ 
+      <!--386.xml-->
+      <pb ed="#B" n="178-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tus innatus: quiatalis non est ponendus 
+      <lb ed="#B" n="2"/>i. nomen sunteresis supponit pro 
+      poten<lb ed="#B" n="3" break="no"/>tia intellectiua connotans eam natam 
+      <lb ed="#B" n="4"/>assentire principiis practicis: ut 
+      dedu<lb ed="#B" n="5" break="no"/>ctum est in notabili tertio: ergo 
+      conclu<lb ed="#B" n="6" break="no"/>sio uera.
+    </p>
+            <p xml:id="gbs333-b86021-d1e891">
+      ¶ Quarta conclusio. Suntere, 
+      <lb ed="#B" n="7"/>sis est potentia intellectiua realiter 
+      prin<lb ed="#B" n="8" break="no"/>cipiis practicis ex terminis euidentibus 
+      <lb ed="#B" n="9"/>nata assentire naturaliter. Probatu: quia 
+      <lb ed="#B" n="10"/>potentiae intellectiuae conueniunt 
+      con<lb ed="#B" n="11" break="no"/>ditiones, seu proprietates synteresi 
+      at<lb ed="#B" n="12" break="no"/>tributae: ipsa enim est, quae assentiendem 
+      <lb ed="#B" n="13"/>principiis practicis euidentibus, &amp; 
+      ne<lb ed="#B" n="14" break="no"/>cessarijs dictantibus aliquid operandum 
+      <lb ed="#B" n="15"/>instigat ad bonum: &amp; dissentiendo contra 
+      <lb ed="#B" n="16"/>rijs remurmurat malo. Nam cum 
+      princi<lb ed="#B" n="17" break="no"/>pia practica dictantia, seu significantia 
+      <lb ed="#B" n="18"/>aliquid esse operandum semper concordent 
+      <lb ed="#B" n="19"/>rectae rationi: &amp; intellectus eis 
+      appraehen<lb ed="#B" n="20" break="no"/>sis, non potest non assentire, stimulat ad 
+      <lb ed="#B" n="21"/>bonum, inquantum totumliberum arbitrium 
+      ha<lb ed="#B" n="22" break="no"/>bet unam causam partialem recte dispositam: 
+      <lb ed="#B" n="23"/>quia recte dictantem, cui si se 
+      conforma<lb ed="#B" n="24" break="no"/>uerit: uoluntas erit semper iecta, si se 
+      dif<lb ed="#B" n="25" break="no"/>formauerit, praua. Et hoc potentia 
+      in<lb ed="#B" n="26" break="no"/>pellectiua est naturale sumen, &amp; natura 
+      <lb ed="#B" n="27"/>lis scintilla, quae extingui non potest: quia 
+      <lb ed="#B" n="28"/>non potest non assentire principio ex 
+      termi<lb ed="#B" n="29" break="no"/>nis euidentibus. Ipse quoque intellectus 
+      <lb ed="#B" n="30"/>est in omni anima rationali: uerius est ip 
+      <lb ed="#B" n="31"/>sa animia rationalis. Item synteresis est in 
+      <lb ed="#B" n="32"/>anima rationali, &amp; non habitus, nec 
+      pa<lb ed="#B" n="33" break="no"/>sio id est actus: ergo potentia, &amp; non 
+      affecti<lb ed="#B" n="34" break="no"/>ua: quia illa non necessitatur respectu 
+      cuius<lb ed="#B" n="35" break="no"/>cumque obiecti intellectualis.
+    </p>
+            <p xml:id="gbs333-b86021-d1e956">
+      ¶ Quinta 
+      con<lb ed="#B" n="36" break="no"/>clusio. Non in uoluntate est conscientia 
+      <lb ed="#B" n="37"/>sed in intellectiua potentia. Probatur: quia 
+      <lb ed="#B" n="38"/>conscientia est habitus, uel assensus 
+      conclu<lb ed="#B" n="39" break="no"/>sionis practicae dictantis aliquid operandum 
+      <lb ed="#B" n="40"/>esse, uel omittendum: aut testificans opera 
+      <lb ed="#B" n="41"/>tum esse, uel omissum: talis aut est actus, 
+      <lb ed="#B" n="42"/>uel habitus intellectus: ergo conclusio. 
+      <lb ed="#B" n="43"/>uera. Consequentia nota cum minore. Ma 
+      <lb ed="#B" n="44"/>ior patet ex dictis in j. art.
+    </p>
+            <p xml:id="gbs333-b86021-d1e979">
+      ¶ Sexta 
+      con<lb ed="#B" n="45" break="no"/>clusio. Coscientia est actus, uel habitus 
+      <lb ed="#B" n="46"/>assensiuus, non apprehensiuus. Probat: quia 
+      <lb ed="#B" n="47"/>eiusdem obiecti eodem modo appraehensi 
+      pos<lb ed="#B" n="48" break="no"/>sunt esse contrariae conscientiae, stante eadem 
+      <lb ed="#B" n="49"/>apprehensione: ergo appraehensio obiecti 
+      <lb ed="#B" n="50"/>no est conscientia. Cosequentia nota. Ante¬ 
+      <!--386.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>cedens patet: quia in diuersis intellectibus 
+      <lb ed="#B" n="52"/>simul: aut in eo dem intellectu successiue 
+      <lb ed="#B" n="53"/>stante illo obiecto: gia exempli. In illa 
+      prpo<lb ed="#B" n="54" break="no"/>sitione. in casulicite est iurandum, eodem modo 
+      <lb ed="#B" n="55"/>apphensio praeset esse conscientiae contrariae, quia 
+      <lb ed="#B" n="56"/>potest unus assentire, alius dissentire, quo sut 
+      <lb ed="#B" n="57"/>actus contrarij: &amp; similiter habitus cose- 
+      <lb ed="#B" n="58"/>quentes: &amp; per comns conscientia non est actus, 
+      <lb ed="#B" n="59"/>aut habitus apprehensiuus: cum idem 
+      nume<lb ed="#B" n="60" break="no"/>ro, uel spen sibi ipsi non contrariet.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1021">
+      ¶ Quantu 
+      <lb ed="#B" n="61"/>ad tertium articulum dubitatur primo. Vtrum 
+      <lb ed="#B" n="62"/>spnterelis posset perpeccatu extingui: &amp; 
+      <lb ed="#B" n="63"/>uidet quod sic: quia in daemonibus, &amp; obstina 
+      <lb ed="#B" n="64"/>tis pctoribus uiatoribus nihil est, quod  
+      <lb ed="#B" n="65"/>inclinet ad bonum: igit in eis non est synte 
+      <lb ed="#B" n="66"/>resis. Tenet cona: quia poprium est suntere 
+      si<lb ed="#B" n="67" break="no"/>instigare, &amp; inclinare ad bonum. Antecedens 
+      pa<lb ed="#B" n="68" break="no"/>ter per illud glo. super Exech. c. i. loquenm 
+      <lb ed="#B" n="69"/>tis de synteresi dicit. Hanc (cum sicut in 
+      <lb ed="#B" n="70"/>Prou. diciur impius cum in pfundum uenerit, 
+      <lb ed="#B" n="71"/>contemnit) saepe praecipitari uidemus, &amp; 
+      <lb ed="#B" n="72"/>suum locum amittere: cum qdam sine pudore 
+      <lb ed="#B" n="73"/>peccant, qubus merito dicitu. Eacies meretri 
+      <lb ed="#B" n="74"/>cis facta est tibi: noluisti erubescere.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1054">
+      ¶ Ad 
+      <lb ed="#B" n="75"/>illud dubium ramendet sanctus Bonauent. q. 
+      <lb ed="#B" n="76"/>v. huius dist. quod synteresis quantum ad 
+      <lb ed="#B" n="77"/>actum impediri pot: sed extingui non potest 
+      <lb ed="#B" n="78"/>ideo aut extigui non potest: quia cum dicat quid 
+      <lb ed="#B" n="79"/>naturale, non potest omnino auferri. unde 
+      <lb ed="#B" n="80"/>glos. Luc. x. supillud. Abierunt semiuiuo 
+      <lb ed="#B" n="81"/>relicto. Immortalitatem exuere secundum ra 
+      <lb ed="#B" n="82"/>tionis usum onino abolere non possunt. 
+      quin<lb ed="#B" n="83" break="no"/>homo possit sapere, &amp; deum cognoscere. Nec 
+      <lb ed="#B" n="84"/>unquam uitium deset extrema naturae uestigia 
+      <lb ed="#B" n="85"/>quis aut actus eius omnino auferri, uel 
+      <lb ed="#B" n="86"/>extingui non possit: potest tamen ad tempus 
+      im<lb ed="#B" n="87" break="no"/>pediri, siue ppter tenebram obeaecationis, 
+      <lb ed="#B" n="88"/>siue prpter lasciuia delectationis, siue 
+      p<lb ed="#B" n="89" break="no"/>pter duritiem obstinationis. Propter tene 
+      <lb ed="#B" n="90"/>bram obeaecationis impeditur ne malo 
+      re<lb ed="#B" n="91" break="no"/>murmuret: qpo eo, quod malum creditur esse 
+      <lb ed="#B" n="92"/>bonum: sicut in haereticis, qui morientes per 
+      <lb ed="#B" n="93"/>impietate erroris, credunt se mori 
+      pro<lb ed="#B" n="94" break="no"/>pietate fidei: &amp; ideo remorsum non 
+      sen<lb ed="#B" n="95" break="no"/>tiunt: sed magis propter gaudium fictum, 
+      <lb ed="#B" n="96"/>&amp; uanum: propter lasciuiam delectationis: 
+      <lb ed="#B" n="97"/>aliquando, nion in peccatis carnalibus ita 
+      <lb ed="#B" n="98"/>absorbetur homo, ut remorsus non 
+      ha<lb ed="#B" n="99" break="no"/>beat locum: quia carnales homines tantoim 
+      <lb ed="#B" n="100"/>petu delectationis feritur, ut ratiotumc non 
+      <!--387.xml-->
+      <pb ed="#B" n="178-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>habeat locum. Propter duriciam obstina 
+      <lb ed="#B" n="2"/>tionis etiam impeditur synteresis, ne ad 
+      <lb ed="#B" n="3"/>bonum stimulet: sicut in danatis: quia 
+      adeo<lb ed="#B" n="4" break="no"/>sunt in malo obstinati: ut nunquam 
+      pos<lb ed="#B" n="5" break="no"/>sint ad bonum inclinari. Et ita syntere 
+      <lb ed="#B" n="6"/>sis quantum ad instigationem ad bonum 
+      sem<lb ed="#B" n="7" break="no"/>piternum habet impedimentum: &amp; 
+      propte<lb ed="#B" n="8" break="no"/>rea quantum ad illum actum potest dici 
+      extin<lb ed="#B" n="9" break="no"/>cta: non tamen est extincta simpliciter: 
+      <lb ed="#B" n="10"/>quia habet alium usum scilicet remurmurationem: 
+      <lb ed="#B" n="11"/>nam secundum illum usum, secundum quem 
+      <lb ed="#B" n="12"/>synteresis habet pungere, &amp; remurmura 
+      <lb ed="#B" n="13"/>re contra malum maxime uigebit in 
+      dana<lb ed="#B" n="14" break="no"/>tis, &amp; hoc put remurmuratio tenet 
+      ratio<lb ed="#B" n="15" break="no"/>nem penae: non put tenet rationem iustitiae: quia 
+      <lb ed="#B" n="16"/>illa remurmuratio erit ad conmendandam 
+      <lb ed="#B" n="17"/>diuinam iustitia, non ad eliciendam 
+      fructuo<lb ed="#B" n="18" break="no"/>sam paenitentiam: haec ille.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1158">
+      ¶ Sed haec 
+      respon<lb ed="#B" n="19" break="no"/>sio uidetur extendere nomen synteresis 
+      <lb ed="#B" n="20"/>ad conscientia, siue ad actum rationis 
+      delibera<lb ed="#B" n="21" break="no"/>tiuum: sicut etiam glo. super Exechiae. 
+      uide<lb ed="#B" n="22" break="no"/>tur synteresim extendere ad conscientiam: 
+      <lb ed="#B" n="23"/>unde in auctoritate allegata ex glo. 
+      Exe<lb ed="#B" n="24" break="no"/>chiae. di. Hanc tamen conscientia quamuis in 
+      <lb ed="#B" n="25"/>prima parte auctoritatis nominat 
+      syn<lb ed="#B" n="26" break="no"/>teresim, quam uocat scint illam 
+      conscien<lb ed="#B" n="27" break="no"/>tiae, quae in Caimnon extinguitur.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1180">
+      ¶ Vn 
+      <lb ed="#B" n="28"/>de clarius randetur ad dubium, quod de 
+      syn<lb ed="#B" n="29" break="no"/>terisi possumus loqui quantum ad id, quod  
+      <lb ed="#B" n="30"/>est, uel quantum ad actum eius. 
+      Quan<lb ed="#B" n="31" break="no"/>tum ad primum est ipsa potentia 
+      intel<lb ed="#B" n="32" break="no"/>lectiua: &amp; illa est ipsa natura rationalis, 
+      <lb ed="#B" n="33"/>quae manet in demonibus, &amp; damnatis. 
+      <lb ed="#B" n="34"/>Quantum ad actum possumus 
+      duplici<lb ed="#B" n="35" break="no"/>ter loqui; uel quantum ad actum immedia 
+      <lb ed="#B" n="36"/>tum: &amp; hic est assensus practicus 
+      princi<lb ed="#B" n="37" break="no"/>pij euidentis ex terminis: &amp; quantum 
+      <lb ed="#B" n="38"/>ad hunc extingui non potest: potest 
+      au<lb ed="#B" n="39" break="no"/>tem impediri; non potest extingui, 
+      quin<lb ed="#B" n="40" break="no"/>appraehensis clarè terminis assentiat: 
+      <lb ed="#B" n="41"/>sic enim demones, &amp; damnati apprae 
+      <lb ed="#B" n="42"/>hensis principiis assentiunt: 
+      alioquin<lb ed="#B" n="43" break="no"/>non remurmurarent: quia remurmurare 
+      <lb ed="#B" n="44"/>nihil aliud est, nisi certe, &amp; euidenter 
+      <lb ed="#B" n="45"/>cognoscere contrarium principij 
+      practi<lb ed="#B" n="46" break="no"/>ci feri non debere: sicut instigare ad 
+      <lb ed="#B" n="47"/>bonum, nihil aliud est, quam assentire, 
+      <lb ed="#B" n="48"/>&amp; cognoscere principium: ostendens 
+      <lb ed="#B" n="49"/>aliquam operationem esse bonam, &amp; iusta, 
+      <lb ed="#B" n="50"/>camque; fieri debere: hoc autem nouerunt 
+      <!--387.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>daemones, &amp; danati. nouerunt. n. se praue 
+      <lb ed="#B" n="52"/>uelle agere, &amp; peccar: uerum impediri 
+      po<lb ed="#B" n="53" break="no"/>test: quia potest ratio turbari tantum poenis 
+      <lb ed="#B" n="54"/>uel delectationibus, aut alia 
+      dispositio<lb ed="#B" n="55" break="no"/>ne necessaria, quod terminos principij 
+      cla<lb ed="#B" n="56" break="no"/>re appraehendere non potest: aut se ad 
+      <lb ed="#B" n="57"/>ipm principium conuertere ipm 
+      aduerten<lb ed="#B" n="58" break="no"/>do: &amp; sic impeditur quantu ad assensum: 
+    </p>
+            <p xml:id="gbs333-b86021-d1e1254">
+               <lb ed="#B" n="59"/>¶ Possumus etiam loqui de synteresi quam 
+      <lb ed="#B" n="60"/>tum ad actum mediatum scilicet quantum ad 
+      <lb ed="#B" n="61"/>actus deductos ex principijs 
+      delibera<lb ed="#B" n="62" break="no"/>tione media: qui actus sunt actus 
+      imme<lb ed="#B" n="63" break="no"/>diati conscientiae: &amp; quantum ad illos 
+      im<lb ed="#B" n="64" break="no"/>pediri potest, sicut &amp; conscientia potest errare. 
+    </p>
+            <p xml:id="gbs333-b86021-d1e1271">
+               <lb ed="#B" n="65"/>¶ Et per hoc patet responsio ad dubium, quod 
+      <lb ed="#B" n="66"/>sunteresis quantum ad potentiam 
+      extin<lb ed="#B" n="67" break="no"/>gui non potest manente natura 
+      rationali<lb ed="#B" n="68" break="no"/>Quantum ad actum immediatum non potest 
+      <lb ed="#B" n="69"/>extingui sic, quod dissentiat principio: potest 
+      <lb ed="#B" n="70"/>non assentire principio: quia potest 
+      ip<lb ed="#B" n="71" break="no"/>sum non appraehendere: quantum uero ad actum 
+      <lb ed="#B" n="72"/>mediatum idem est dicendum, quod 
+      dicien<lb ed="#B" n="73" break="no"/>de conscientia: quia actus mediatus 
+      syn<lb ed="#B" n="74" break="no"/>teresis est actus immediatus conscientiae. 
+    </p>
+            <p xml:id="gbs333-b86021-d1e1295">
+               <lb ed="#B" n="75"/>¶ Ad rationem in propositione dubij 
+      mo<lb ed="#B" n="76" break="no"/>tam dicitur, quod in uoluntate damnatorum 
+      <lb ed="#B" n="77"/>nihil est id est nullus habitus, uel actus, 
+      qui<lb ed="#B" n="78" break="no"/>ad bonum bene operandum inclinet: 
+      se<lb ed="#B" n="79" break="no"/>cus in intellectu: manet enim in eis 
+      co<lb ed="#B" n="80" break="no"/>gnitio boni, &amp; mali: alias tolleretur ab 
+      <lb ed="#B" n="81"/>eis remorsus, &amp; uermis. Et si inclinare 
+      <lb ed="#B" n="82"/>est ostendere siue dictare bonum: 
+      con<lb ed="#B" n="83" break="no"/>ceditur, quod in eis intellectus 
+      inclina<lb ed="#B" n="84" break="no"/>tur ad bonum: quia dictat bonum 
+      fa<lb ed="#B" n="85" break="no"/>ciendum esse: sed uoluntas non 
+      sequi<lb ed="#B" n="86" break="no"/>tur inclinationem.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1324">
+      ¶ Ad auctorit. glo. 
+      pa<lb ed="#B" n="87" break="no"/>tet, quod loquitur de actu uoluntatis, 
+      qui<lb ed="#B" n="88" break="no"/>est effectus remotus synterelis, &amp; 
+      con<lb ed="#B" n="89" break="no"/>scientiae: nam contenere, &amp; peccare ad 
+      <lb ed="#B" n="90"/>uoluntatem pertinent. similiter &amp; 
+      obsti<lb ed="#B" n="91" break="no"/>natio, synderesis, &amp; conscientia ad 
+      ra<lb ed="#B" n="92" break="no"/>tionem.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1340">
+      ¶ Secundo dubitatur: Vtrum con 
+      <lb ed="#B" n="93"/>scientia liget hominem ad faciendum ea, 
+      <lb ed="#B" n="94"/>quae dictat facienda, &amp; omittendum, quam 
+      di<lb ed="#B" n="95" break="no"/>ctat ommittenda. Pro solutione notam 
+      <lb ed="#B" n="96"/>dum, quod dubium non quaerit de qualibet 
+      <lb ed="#B" n="97"/>conscientia: non enim de illa, quae solum 
+      <lb ed="#B" n="98"/>est testificatiua alicuius facti. Illa enim 
+      <lb ed="#B" n="99"/>non ligat nisi forte improprie ad 
+      cre<lb ed="#B" n="100" break="no"/>dendum suo testimonio. Impro¬ 
+      <!--388.xml-->
+      <pb ed="#B" n="179-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>prie dico: quia ipsa aestimet credulitas 
+      seu<lb ed="#B" n="2" break="no"/>assensus propositionis testificantis: nihil 
+      <lb ed="#B" n="3"/>autem proprie ligat seipsum, ut hic 
+      lo<lb ed="#B" n="4" break="no"/>quimur de ligatione. Quaerit autem de 
+      <lb ed="#B" n="5"/>conscientia, quae est assensus 
+      propositio<lb ed="#B" n="6" break="no"/>nis dictantis aliqua facienda, uel omittem 
+      <lb ed="#B" n="7"/>da: in hoc autem conscientia dictat aliqud 
+      <lb ed="#B" n="8"/>faciendum, uel omittendum: quia est 
+      assen<lb ed="#B" n="9" break="no"/>sus propositionis significantis tale 
+      ali<lb ed="#B" n="10" break="no"/>quid esse lege constitutum, uel ordinatum. 
+      <lb ed="#B" n="11"/>Continet autem lex in scripturis nobis 
+      <lb ed="#B" n="12"/>tradita praecepta, prohibitiones, 
+      consi<lb ed="#B" n="13" break="no"/>lia, informationes, &amp; exhortationes 
+      <lb ed="#B" n="14"/>Praecepta obligant ad aliquid 
+      facien<lb ed="#B" n="15" break="no"/>dum. Prohibitiones ad aliquid 
+      uitan<lb ed="#B" n="16" break="no"/>dum. Consilia ad aliquid perfectius 
+      <lb ed="#B" n="17"/>non tamen saluti necessarium 
+      persua<lb ed="#B" n="18" break="no"/>dent. Informationes modum exequendi 
+      <lb ed="#B" n="19"/>consilia, &amp; praecepta conuententem 
+      tra<lb ed="#B" n="20" break="no"/>dunt. Exhortationes uelut preces 
+      ami<lb ed="#B" n="21" break="no"/>cabiles ad praedicta hilariter perficienda 
+      <lb ed="#B" n="22"/>inducunt. Sola ergo praecepta, &amp; 
+      prohi<lb ed="#B" n="23" break="no"/>bitiones obligant ad exequendum, aut  
+      <lb ed="#B" n="24"/>omittendum praecepta, aut 
+      prohibita<lb ed="#B" n="25" break="no"/>Caetera non obligant nisi ad non 
+      con<lb ed="#B" n="26" break="no"/>temnendum. Coscientia uero est 
+      quasi<lb ed="#B" n="27" break="no"/>praeco legis. Ostendit enim nobis legis 
+      <lb ed="#B" n="28"/>dictam ina dictans assensiue haec. uel illa 
+      <lb ed="#B" n="29"/>esse legis praecepta prohibitiones, uel 
+      consi<lb ed="#B" n="30" break="no"/>lia: &amp; ita ligat auctoritate legis, quam 
+      no<lb ed="#B" n="31" break="no"/>bis insinuat, aut insinuare putatur. 
+      Opi<lb ed="#B" n="32" break="no"/>nio. noe nostra nobis legem facit: ut 
+      di<lb ed="#B" n="33" break="no"/>cit beatus Ambr. lib. de paradiso.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1438">
+      ¶ Per 
+      <lb ed="#B" n="34"/>hoc ad dubium dicitur, quod conscientia recta 
+      <lb ed="#B" n="35"/>ligat nos eo modo, quo dictat legen nos 
+      <lb ed="#B" n="36"/>ligare: hoc est, si dictat aliquid esse 
+      prce<lb ed="#B" n="37" break="no"/>ptum, ligat ut praeceptum: si dictat esse consilium, 
+      <lb ed="#B" n="38"/>ligat, ut consilium. Et breuiter sicut  
+      <lb ed="#B" n="39"/>praeco iudicis ligat eum, cui insinuat 
+      iu<lb ed="#B" n="40" break="no"/>dicis mandatu, non uirtute sui, sed 
+      uir<lb ed="#B" n="41" break="no"/>ture mandati iudicis. Ita conscientia quem 
+      <lb ed="#B" n="42"/>est uere praeco, &amp; nuntius legis.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1460">
+      ¶ 
+      Veru<lb ed="#B" n="43" break="no"/>quia duplex est conscientia, recta, &amp; 
+      erio<lb ed="#B" n="44" break="no"/>nea. Recta, quae est conformis legi. Erro 
+      <lb ed="#B" n="45"/>nea, quae est difformis legis. Recta 
+      obli<lb ed="#B" n="46" break="no"/>gat, ut dictum est. Erronea etiam 
+      obli<lb ed="#B" n="47" break="no"/>gat, sed non sicut recta: non enim 
+      obli<lb ed="#B" n="48" break="no"/>gat ad faciendum, quod contra legem 
+      <lb ed="#B" n="49"/>dictat credens se conformiter legi 
+      di<lb ed="#B" n="50" break="no"/>ctare: quia tunt obligaret contra legen¬ 
+      <!--388.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>Et per consequens teneretur quis 
+      face<lb ed="#B" n="52" break="no"/>re contra legem, &amp; cum lex obligat ad 
+      <lb ed="#B" n="53"/>sui obseruantia, quis simul obligaretur 
+      <lb ed="#B" n="54"/>ad opposita incompossibilia, quod est 
+      <lb ed="#B" n="55"/>absurdum. Obligat ergo conscientia 
+      er<lb ed="#B" n="56" break="no"/>rtionea ad deponendum eam, non uinculo 
+      <lb ed="#B" n="57"/>conscientiae hoc dictantis: quia creditur non 
+      <lb ed="#B" n="58"/>erronea: sed uinculo diuini praecepti: quia 
+      <lb ed="#B" n="59"/>dicitur Eccl. xvij. Non demoreris in 
+      er<lb ed="#B" n="60" break="no"/>rore. Item quia lex diuina uetat 
+      cotem<lb ed="#B" n="61" break="no"/>nere deum, qui autem agitcontra 
+      con<lb ed="#B" n="62" break="no"/>scientiam, qua credit deum aliquid 
+      pro<lb ed="#B" n="63" break="no"/>hibuisse: licet erret, contemnit deum: hoc  
+      <lb ed="#B" n="64"/>autem uitare non potest nisi deponendo 
+      <lb ed="#B" n="65"/>conscientiam: ergo tenetur deponere 
+      con<lb ed="#B" n="66" break="no"/>scientiam.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1520">
+      ¶ Ex illo duo inferuntur.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1522">
+      ¶ 
+      Pri<lb ed="#B" n="67" break="no"/>mum, quod omnis agens contra conscientiam 
+      <lb ed="#B" n="68"/>contrarium praeceptiue dictantem, peccat mor 
+      <lb ed="#B" n="69"/>taliter. Patet per glos. Rom. xiiij. 
+      On<lb ed="#B" n="70" break="no"/>ne quod non est ex fide, peccatum est. 
+      <lb ed="#B" n="71"/>Glol. Quod non est ex fide id est quod est 
+      con<lb ed="#B" n="72" break="no"/>tra conscientia pctum est. Et patet ratio 
+      <lb ed="#B" n="73"/>ne: quia contemnit deum, contra cuius 
+      <lb ed="#B" n="74"/>praeceptum se facere credit.
+    </p>
+            <p xml:id="gbs333-b86021-d1e1542">
+      ¶ Secundum 
+      <lb ed="#B" n="75"/>est: quod stante erronea conscientia de 
+      ali<lb ed="#B" n="76" break="no"/>quo necessario ad salutem, quid saluti 
+      re<lb ed="#B" n="77" break="no"/>pugnat id est quod est contra legem dei: 
+      ta<lb ed="#B" n="78" break="no"/>lis est perplexus. Vt exempli causa. 
+      Si<lb ed="#B" n="79" break="no"/>conscientia petri dictaret cum debere 
+      <lb ed="#B" n="80"/>adulterari, ut conuerteret adulteram ad 
+      <lb ed="#B" n="81"/>fidem. Manente illa conscientia, petrus 
+      <lb ed="#B" n="82"/>est perplexus: quia non potest sic manens 
+      <lb ed="#B" n="83"/>euadere peccatum mortale: si agit 
+      secun<lb ed="#B" n="84" break="no"/>dum conscientiam, agit contra legem 
+      <lb ed="#B" n="85"/>diuinam, quam tenetur scire: &amp; sic 
+      pec<lb ed="#B" n="86" break="no"/>cat mortaliter: si omittit contra 
+      con<lb ed="#B" n="87" break="no"/>scientiam, iterum aedificat in gehennam 
+      <lb ed="#B" n="88"/>contemnendo. Verum non est simplex 
+      <lb ed="#B" n="89"/>perplexus, quia patet sibi uia euadendi 
+      <lb ed="#B" n="90"/>licet deponere conscientiam erroneam: quod  
+      <lb ed="#B" n="91"/>si non facit, ex sua culpa est perplexus. 
+    </p>
+            <p xml:id="gbs333-b86021-d1e1581">
+               <lb ed="#B" n="92"/>¶ Sed diceres: quid si esset error inuinci 
+      <lb ed="#B" n="93"/>bilis. Respondetur, dicendum est, ut 
+      sup<lb ed="#B" n="94" break="no"/>dist. xxij. Nam in tali casu teneturse 
+      co<lb ed="#B" n="95" break="no"/>formare conscientiae, &amp; non legi 
+      diui<lb ed="#B" n="96" break="no"/>nae oppositum praecipienti, quam 
+      igno<lb ed="#B" n="97" break="no"/>rat: non enim obligatlex nisi scientem 
+      <lb ed="#B" n="98"/>legem, uel scire debentem. Vult autem 
+      <lb ed="#B" n="99"/>deus, quod uoluntas se conformet 
+      con<lb ed="#B" n="100" break="no"/>scientiae non culpabili. Talis autem est 
+      <!--389.xml-->
+      <pb ed="#B" n="179-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>conscientia erronea errore 
+      inuinci<lb ed="#B" n="2" break="no"/>bili.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

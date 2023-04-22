@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="109-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b53482"><!-- l2-d17q2 -->
+            <head xml:id="gbs333-b53482-Hd1e101">Quaestio 2</head>
+            <head xml:id="gbs333-b53482-Hd1e103" type="question-title">
+      Utrum paradisus sit 
+      corporalis uoluptatis locus a deo a 
+      principio plantatus
+    </head>
+            <p xml:id="gbs333-b53482-d1e106">
+               <lb ed="#B" n="67"/>QVAESTIO II 
+      <lb ed="#B" n="68"/>QVAERITVR circa 
+      secun<lb ed="#B" n="69" break="no"/>quoddam conclusione textualem. 
+      <lb ed="#B" n="70"/> Vtrum paradisus sit 
+      corpora<lb ed="#B" n="71" break="no"/>lis uoluptatis locus a deo a 
+      <lb ed="#B" n="72"/>principio plantatus. In quaestione erunt 
+      <lb ed="#B" n="73"/>articuli tres. Primus terminos 
+      declara<lb ed="#B" n="74" break="no"/>bit, &amp; opiniones recitabit. Secundus per 
+      <lb ed="#B" n="75"/>conclusiones respondebit. Tertius quae 
+      <lb ed="#B" n="76"/>dam dubia determinabit.
+    </p>
+            <p xml:id="gbs333-b53482-d1e130">
+      ¶ Quantum 
+      <lb ed="#B" n="77"/>ad primum notandum, quod secundum 
+      Bea<lb ed="#B" n="78" break="no"/>tum Augustinum. viij. super Gen. ad 
+      <lb ed="#B" n="79"/>literam, &amp; recitat magister in textu: &amp; 
+      <lb ed="#B" n="80"/>sanctus Bonauentu. in dubijs 
+      literali<lb ed="#B" n="81" break="no"/>bus praesentis distinctionis ad longum. 
+      <lb ed="#B" n="82"/>De paradiso tres fuerunt sententiae. 
+      <lb ed="#B" n="83"/>Vna eorum, qui tantum corporalem 
+      <lb ed="#B" n="84"/>paradisum esse uolunt: hoc est: 
+      qui<lb ed="#B" n="85" break="no"/>nomine paradisi intelligunt tantum 
+      lo<lb ed="#B" n="86" break="no"/>cum quendam corporalem: alij 
+      spiri<lb ed="#B" n="87" break="no"/>tualem: tertii utrunque intelligunt: 
+      <lb ed="#B" n="88"/>&amp; locum corporalem, &amp; amenitatem 
+      <lb ed="#B" n="89"/>spiritualem. Et secundum hoc uarie ex 
+      <lb ed="#B" n="90"/>ponitur textus Gen. ii. loquens de para 
+      <lb ed="#B" n="91"/>diso. Primi historiali literae intendetes, 
+      <lb ed="#B" n="92"/>exponunt tantum de loco corporan 
+      a<lb ed="#B" n="93" break="no"/>maeno. Secundi attendentes, quod 
+      beatifi<lb ed="#B" n="94" break="no"/>catio hominis est in paradiso: quae 
+      consi<lb ed="#B" n="95" break="no"/>stit in dei fruitione: non in corporali 
+      a<lb ed="#B" n="96" break="no"/>maenitate: dixerunt hunc paradisum, in 
+      <lb ed="#B" n="97"/>quo positus est homo post sui productio 
+      <lb ed="#B" n="98"/>nem non esse locum corporalem: sed  
+      <!--250.xml-->
+      <pb ed="#B" n="110-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>spiritualem. Omnia quae de paradiso ir 
+      <lb ed="#B" n="2"/>en. dicuntur metaphorice esse dicta 
+      <lb ed="#B" n="3"/>dicunt: hominemque in sua formatione 
+      <lb ed="#B" n="4"/>positum esse in paradiso: non per 
+      loci<lb ed="#B" n="5" break="no"/>mutationem: sed spiritualem diuinae 
+      co<lb ed="#B" n="6" break="no"/>gnitionis, ac fruitionis sibi datorum 
+      a<lb ed="#B" n="7" break="no"/>menitatem. Adducunt ad illud, quod de 
+      <lb ed="#B" n="8"/>latrone Tucae. xxiij. dicitur hodie 
+      me<lb ed="#B" n="9" break="no"/>cum eris in paradiso. Et illud Exechiae. 
+      <lb ed="#B" n="10"/>xxviij. de lucisero. In deliciis 
+      paradisi<lb ed="#B" n="11" break="no"/>Dei fuisti. Tertij &amp; literam 
+      amplexan<lb ed="#B" n="12" break="no"/>tes: &amp; metaphoram non abijcientes 
+      <lb ed="#B" n="13"/>paradisum spiritualem dicunt, statum 
+      <lb ed="#B" n="14"/>quietis, &amp; amaenitatem deliciarum 
+      spi<lb ed="#B" n="15" break="no"/>ritualium. Hoc potest esse secundum 
+      du<lb ed="#B" n="16" break="no"/>plicem statum: ut dicit sanctus Bonauem 
+      <lb ed="#B" n="17"/>in dubijs literalibus huius distinctionis 
+      <lb ed="#B" n="18"/>scilicet ecclesiae triumphantis, &amp; 
+      eccle<lb ed="#B" n="19" break="no"/>siae militantis. Paradisus autem 
+      corpo<lb ed="#B" n="20" break="no"/>ralis est locus deliciarum, &amp; amaenitatis 
+      <lb ed="#B" n="21"/>&amp; hic quantum ad beatos est caelum 
+      em<lb ed="#B" n="22" break="no"/>ppreum: quantum ad uiatores est 
+      lo<lb ed="#B" n="23" break="no"/>cus amaenus in partibus orientis 
+      con<lb ed="#B" n="24" break="no"/>stitutus. De quo Damasce. Diuinus 
+      <lb ed="#B" n="25"/>paradisus est Dei manibus in Eden 
+      plan<lb ed="#B" n="26" break="no"/>tatus, gaudii &amp; exultationis uniuersa 
+      <lb ed="#B" n="27"/>promptuarium. De hoc corporali 
+      pa<lb ed="#B" n="28" break="no"/>radiso dicit Isid. libr. xiiij. etymol. 
+      cap<lb ed="#B" n="29" break="no"/>tertio. . Paradisus est locus in 
+      orien<lb ed="#B" n="30" break="no"/>tis partibus constitutus: cuius 
+      uocabu<lb ed="#B" n="31" break="no"/>lum ex graeco in latinum uertitur 
+      hor<lb ed="#B" n="32" break="no"/>tus: porro hebraice Eden dicitur: 
+      <lb ed="#B" n="33"/>quod in nostra lingua deliciae inter 
+      pre<lb ed="#B" n="34" break="no"/>tatur: quod utrumque iunctum facit 
+      <lb ed="#B" n="35"/>hortum deliciarum. Est enim omni 
+      ge<lb ed="#B" n="36" break="no"/>nere ligni, &amp; pomiferarum arborum 
+      con<lb ed="#B" n="37" break="no"/>situs: habens etiam lignum uitae: non 
+      <lb ed="#B" n="38"/>ibi frigus, non aestus: sed perpetua aeris 
+      <lb ed="#B" n="39"/>temperies: ex cuius medio fons prorum 
+      <lb ed="#B" n="40"/>pens totum nemus irrigat. Diuiditurque;  
+      <lb ed="#B" n="41"/>in quatuor nascentia slumina, cuius 
+      lo<lb ed="#B" n="42" break="no"/>ci post peccatum hominis aditus 
+      intercli<lb ed="#B" n="43" break="no"/>sus, septusque est undique romphea 
+      llan<lb ed="#B" n="44" break="no"/>mea, idest muro igneo accinctus: ita ut  
+      <lb ed="#B" n="45"/>eius cum caelo pene iungatur incendium. 
+      <lb ed="#B" n="46"/>Cherubinquoque; idest angelorum 
+      prae<lb ed="#B" n="47" break="no"/>sidium, arcendis spiritibus malis super 
+      <lb ed="#B" n="48"/>romphea slagrantia ordinatum est: ut  
+      <lb ed="#B" n="49"/>homines slammae: angelos uero malos 
+      <lb ed="#B" n="50"/>angeli boni submoueant: necui carni, 
+      <!--250.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>uel spiritui transgressionis aditus 
+      para<lb ed="#B" n="52" break="no"/>disi pateat. Haec Isid. de hoc loco etiam 
+      <lb ed="#B" n="53"/>Beda dicit, quod pertingit usque ad luna 
+      <lb ed="#B" n="54"/>rem circulum: unde nec aquae disuuij 
+      il<lb ed="#B" n="55" break="no"/>luc peruenerunt. Et magister hunc uult 
+      <lb ed="#B" n="56"/>in orientali parte esse: longo 
+      interiacen<lb ed="#B" n="57" break="no"/>te spatio uel maris, uelterrae, quem 
+      in<lb ed="#B" n="58" break="no"/>colunt homines. Vnde quod dicitur 
+      plan<lb ed="#B" n="59" break="no"/>tatus a principio, antiqua translatio 
+      ha<lb ed="#B" n="60" break="no"/>bet ad orientem.
+    </p>
+            <p xml:id="gbs333-b53482-d1e321">
+      ¶ Quantum ad 
+      secun<lb ed="#B" n="61" break="no"/>dum articulum est conclusio prima. 
+      Pa<lb ed="#B" n="62" break="no"/>radisus locus est corporalis a 
+      principio<lb ed="#B" n="63" break="no"/>plantatus: in habitationem hominum 
+      <lb ed="#B" n="64"/>tam pro statu naturae integrae, quam 
+      la<lb ed="#B" n="65" break="no"/>ipsae congruus, atque aptus. Prima pars 
+      <lb ed="#B" n="66"/>patet per textum Gen. ij. Plantauerat  
+      <lb ed="#B" n="67"/>autem dominus deus paradisum 
+      uolupta<lb ed="#B" n="68" break="no"/>tis a principio. Qui textus etsipont 
+      per<lb ed="#B" n="69" break="no"/>allegoriam exponi de paradiso spiritua 
+      <lb ed="#B" n="70"/>li statu scilicet animae, siue triumphantis, 
+      <lb ed="#B" n="71"/>ac militantis ecclesiae, non tamen ideo 
+      negan<lb ed="#B" n="72" break="no"/>da est ueritas historiae. Vnde beatus 
+      Au<lb ed="#B" n="73" break="no"/>gu. xiij. de ciui. dei c. xxi. Quae 
+      conmode<lb ed="#B" n="74" break="no"/>dici possunt de intelligendo 
+      spirituali<lb ed="#B" n="75" break="no"/>ter paradiso nemine prohibente 
+      dican<lb ed="#B" n="76" break="no"/>tur: dum tamen &amp; illius historiae 
+      fidelissi<lb ed="#B" n="77" break="no"/>sima ueritatis rerum gestarum narratione 
+      <lb ed="#B" n="78"/>commendata credantur. Ea enim, quae 
+      <lb ed="#B" n="79"/>de paradiso dicuntur, per modum narra 
+      <lb ed="#B" n="80"/>tionis historiae proponuntur. In omnibus 
+      <lb ed="#B" n="81"/>aunt, quad sic scriptura tradit, est pefundamen 
+      <lb ed="#B" n="82"/>to tenenda ueritas historiae, &amp; desuper 
+      <lb ed="#B" n="83"/>spirituales expositiones fabricandae. 
+      <lb ed="#B" n="84"/>Secunda pars, quod sit locus habitationi 
+      <lb ed="#B" n="85"/>hominum aptus pro statu innocentiae: 
+      <lb ed="#B" n="86"/>patet ex textu: quia in eo locatus est 
+      <lb ed="#B" n="87"/>Adam, &amp; Eua ante lapsum. Etiam in 
+      <lb ed="#B" n="88"/>statu naturae lapsae: patet de 
+      Enochin<lb ed="#B" n="89" break="no"/>paradisum translato Gen. quinto. Et  
+      <lb ed="#B" n="90"/>expressius Eccles. xliiij. Enoch 
+      pla<lb ed="#B" n="91" break="no"/>cuit deo, &amp; translatus est in paradisum. 
+      <lb ed="#B" n="92"/>Similiter de Helia. iiij. Regum ii. 
+      Pa<lb ed="#B" n="93" break="no"/>tet etiam ex allegatis Isid. Damasce. 
+      <lb ed="#B" n="94"/>quia ibi est temperies aeris, 
+      abundan<lb ed="#B" n="95" break="no"/>tia aquarum &amp; fructuum: ut patet ex 
+      au<lb ed="#B" n="96" break="no"/>ctoritate Isid. supra allegata, &amp; 
+      textu<lb ed="#B" n="97" break="no"/>Gen.
+    </p>
+            <p xml:id="gbs333-b53482-d1e405">
+      ¶ Secunda conclusio. 
+      Para<lb ed="#B" n="98" break="no"/>disus est regio temperata ad 
+      orien<lb ed="#B" n="99" break="no"/>tem citra mediam regionem aeris 
+      col<lb ed="#B" n="100" break="no"/>locata. Probatur, quod sit regiotempera¬ 
+      <!--251.xml-->
+      <pb ed="#B" n="110-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ta, quia pro hominis habitatione a deo 
+      <lb ed="#B" n="2"/>plantata, nedum necessitati, sed &amp; 
+      uo<lb ed="#B" n="3" break="no"/>suptatiseruiens: unde hortus 
+      uolupta<lb ed="#B" n="4" break="no"/>tis, &amp; deliciarum dicitur: quod esse nem 
+      <lb ed="#B" n="5"/>posset, nisi ibi esset aeris optima 
+      tempe<lb ed="#B" n="6" break="no"/>ries. Quod sit ad orientem, patet ex 
+      an<lb ed="#B" n="7" break="no"/>tiqua translatione supra allegata. Quod  
+      <lb ed="#B" n="8"/>sit circa mediam regionem aeris: 
+      pro<lb ed="#B" n="9" break="no"/>batur, quia media regio aeris, aut 
+      sphae<lb ed="#B" n="10" break="no"/>ra ignis non congruit habitatiom 
+      ho<lb ed="#B" n="11" break="no"/>minum propter nimium calorem. 
+      Opor<lb ed="#B" n="12" break="no"/>tet igitur cum sit temperatissimus: quod 
+      <lb ed="#B" n="13"/>sit citra acris mediam regionem. Quod 
+      <lb ed="#B" n="14"/>uero dicitur attingere globum lunae, 
+      se<lb ed="#B" n="15" break="no"/>cundum Bedam, est sermo 
+      metaphori<lb ed="#B" n="16" break="no"/>cus. Non intelligendo, quod attingat gle 
+      <lb ed="#B" n="17"/>bum: id est sphaeram lunae secundum 
+      si<lb ed="#B" n="18" break="no"/>tum: sed secundum quandam 
+      similitu<lb ed="#B" n="19" break="no"/>dinem: quia est locus temperatus, &amp; a 
+      <lb ed="#B" n="20"/>tempestatibus quietus: sicut caelum ab 
+      <lb ed="#B" n="21"/>omni contrarietate remotum.
+    </p>
+            <p xml:id="gbs333-b53482-d1e466">
+      ¶ Sed 
+      di<lb ed="#B" n="22" break="no"/>ceres. Aquae disluuii non attigerunt 
+      pa<lb ed="#B" n="23" break="no"/>radisum secundum Augustinum: quae ta 
+      <lb ed="#B" n="24"/>men transcenderunt omnium montium 
+      <lb ed="#B" n="25"/>cacumina, quorum aliqua uidentur 
+      at<lb ed="#B" n="26" break="no"/>tingere mediam regionem aeris. 
+      Re<lb ed="#B" n="27" break="no"/>spondetur, quod ubicunque sit paradisus: 
+      <lb ed="#B" n="28"/>aque diluuij non attingerunt ipsum: quia 
+      <lb ed="#B" n="29"/>illae aquae non inundauerunt, nisi ad 
+      pu<lb ed="#B" n="30" break="no"/>niendum peccatores: sed in paradiso non 
+      <lb ed="#B" n="31"/>fuerunt peccatores tempore disuuij. 
+      Il<lb ed="#B" n="32" break="no"/>la. n. inundatio non fuit naturalis: sed 
+      <lb ed="#B" n="33"/>miraculosa: sicut &amp; conslagratio ignium 
+      <lb ed="#B" n="34"/>in fine mundi futura: &amp; ideo non fuit 
+      <lb ed="#B" n="35"/>nisi in locis, ad quae refugium esse 
+      pote<lb ed="#B" n="36" break="no"/>rat peccatoribus; qualis non fuerat 
+      pa<lb ed="#B" n="37" break="no"/>radisus: Nec audiendi sunt astrologi 
+      di<lb ed="#B" n="38" break="no"/>cere uolentes, quod disuuium fuerat per 
+      con<lb ed="#B" n="39" break="no"/>currentiam stellarum humidarum: ut 
+      re<lb ed="#B" n="40" break="no"/>fert Scotus.
+    </p>
+            <p xml:id="gbs333-b53482-d1e510">
+      ¶ Tertia conclusio. Certus 
+      <lb ed="#B" n="41"/>paradisi situs nobis occultus est, &amp; 
+      igno<lb ed="#B" n="42" break="no"/>tus. Patet quia nec experientia patet. 
+      <lb ed="#B" n="43"/>Nulll enim cosmographi: aut locorum 
+      <lb ed="#B" n="44"/>diluuij inquisitores hunc locum inuene 
+      <lb ed="#B" n="45"/>runt, nec eius mentionem fecerunt, 
+      pro<lb ed="#B" n="46" break="no"/>pter causas ab Isid. expressas Neque 
+      scri<lb ed="#B" n="47" break="no"/>ptura canonica situm eius certificat. 
+      <lb ed="#B" n="48"/>Quoniam licet dicitur plantatus in 
+      o<lb ed="#B" n="49" break="no"/>riente, tamen oriens caeli non dicit 
+      cer<lb ed="#B" n="50" break="no"/>tam caeli plagan. cum quod respectu unius 
+      <!--251.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>partis terrae estoriens: respectu alterius 
+      <lb ed="#B" n="52"/>est occidens. Cenith nanque capitis 
+      di<lb ed="#B" n="53" break="no"/>uersis: praesertim a polis aequaliter 
+      di<lb ed="#B" n="54" break="no"/>stantibus, diuersa correspondetorientia: 
+      <lb ed="#B" n="55"/>quia diuersiorixontes. Vnde posset 
+      di<lb ed="#B" n="56" break="no"/>ci, quod in eo locoplantatus est, ubi maxi- 
+      <lb ed="#B" n="57"/>ma est temperies aeris. Sub qua autem 
+      <lb ed="#B" n="58"/>parte caeli hoc sit, dubium est. Et opinio 
+      <lb ed="#B" n="59"/>nes sunt philosophorum, quibusdam 
+      di<lb ed="#B" n="60" break="no"/>centibus, quod sub aequinoctiali est locus 
+      <lb ed="#B" n="61"/>temperatissimus humanae habitationi: 
+      <lb ed="#B" n="62"/>propter iugem dierum, &amp; noctium 
+      ae<lb ed="#B" n="63" break="no"/>quautatem, &amp; motus solis uelocitatem, 
+      <lb ed="#B" n="64"/>quibus temperatur solis aestus. Alijs 
+      econ<lb ed="#B" n="65" break="no"/>tra asserentibus sub aequinoctiali non 
+      <lb ed="#B" n="66"/>esse locum habitabilem, propter nimium 
+      <lb ed="#B" n="67"/>solis ardorem: bis in anno per Cenith 
+      <lb ed="#B" n="68"/>capitis transeuntem. Nec uelocitas 
+      mo<lb ed="#B" n="69" break="no"/>tus aliquid facit: quia solnon uelocius 
+      mo<lb ed="#B" n="70" break="no"/>uetur respectu unius, quam respectu 
+      al<lb ed="#B" n="71" break="no"/>terius: &amp; ideo etiam Philosophus sub 
+      <lb ed="#B" n="72"/>aequinoctiali ponit xonam totridam. 
+      <lb ed="#B" n="73"/>Est ergo incertum, in qua parte sit para 
+      <lb ed="#B" n="74"/>disus. Certum tamen est, quod locus est cor 
+      <lb ed="#B" n="75"/>poralis talis, qualem scriptura ueritatis 
+      <lb ed="#B" n="76"/>describit. Et tantum de illo articulo. 
+    </p>
+            <p xml:id="gbs333-b53482-d1e595">
+               <lb ed="#B" n="77"/>¶ Quantum ad tertium articulum 
+      du<lb ed="#B" n="78" break="no"/>bitatur contra illud, quod paradisus est 
+      <lb ed="#B" n="79"/>locus deliciarum, &amp; quietis. Nam ut 
+      ha<lb ed="#B" n="80" break="no"/>betur Gen. ij. Positus est homo in para 
+      <lb ed="#B" n="81"/>disum: ut operaretur, &amp; custodiret illum. 
+      <lb ed="#B" n="82"/>Sed ubi operatio ibi labor: &amp; ubi custo 
+      <lb ed="#B" n="83"/>dia ibi timor. Non ergo erit promptua 
+      <lb ed="#B" n="84"/>rium gaudij, &amp; exultationis uniuersae: 
+      <lb ed="#B" n="85"/>ut ait Damasce. Respondetur secundum 
+      <lb ed="#B" n="86"/>beatum August. super Gen. ad literam. 
+      <lb ed="#B" n="87"/>&amp; glo, quod illud uerbum, ut operaretur, 
+      <lb ed="#B" n="88"/>&amp; custodiret illum dupliciter potest expo 
+      <lb ed="#B" n="89"/>ni. Vno modo, ut operari, &amp; custodire 
+      <lb ed="#B" n="90"/>referatur ad Deum actiue: &amp; Iy illum, 
+      <lb ed="#B" n="91"/>demonstret hominem. Et sic est sensus. 
+      <lb ed="#B" n="92"/>Deus posuit hominem in paradisum: ut  
+      <lb ed="#B" n="93"/>Deus operaretur illum, scilicet hominem 
+      <lb ed="#B" n="94"/>beneficiis suae gratiae perficiendo: &amp; 
+      <lb ed="#B" n="95"/>custodiret illum in paradiso terrestri ad 
+      <lb ed="#B" n="96"/>tempus, donec esset ad caelestem gloriam 
+      <lb ed="#B" n="97"/>transferendus.
+    </p>
+            <p xml:id="gbs333-b53482-d1e643">
+      ¶ Vel (&amp; redit in idem) 
+      <lb ed="#B" n="98"/>secundum glo. ut Deus opera returillum 
+      <lb ed="#B" n="99"/>hominem, ipsum hominem 
+      iustifican<lb ed="#B" n="100" break="no"/>do, aquo homine si tesset diuina ope¬ 
+      <!--252.xml-->
+      <pb ed="#B" n="111-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ratio: continuo obtenebratur: sicut aer 
+      <lb ed="#B" n="2"/>obtenebratur cessante lucis inffuentia. 
+      <lb ed="#B" n="3"/>&amp; custodiret illum ab omni 
+      corruptio<lb ed="#B" n="4" break="no"/>ne, &amp; malo. Alio modo exponitur, ut  
+      <lb ed="#B" n="5"/>referatur ad hominem: &amp; pronomen 
+      il<lb ed="#B" n="6" break="no"/>lum, Demonstret paradisum: sic 
+      intelli<lb ed="#B" n="7" break="no"/>gendo, quod homo operaretur ibi: non 
+      ope<lb ed="#B" n="8" break="no"/>re laborioso; sed delectabili ad 
+      exper<lb ed="#B" n="9" break="no"/>rientiam, &amp; exercitium suae uirtutis, &amp; 
+      <lb ed="#B" n="10"/>custodiret illum: non ab inuasoribus: 
+      <lb ed="#B" n="11"/>sed seruando iustitiam originalem: ne 
+      <lb ed="#B" n="12"/>peccando elici mereretur: &amp; sic perderet 
+      <lb ed="#B" n="13"/>illum.
+    </p>
+            <p xml:id="gbs333-b53482-d1e687">
+      ¶ Secundo dubitatur. Cur Adam 
+      <lb ed="#B" n="14"/>productus fuerat extra paradisum: cum 
+      <lb ed="#B" n="15"/>tamen Eua producta sit in paradiso, &amp; 
+      <lb ed="#B" n="16"/>angelus in caelo emppreo, in quo erat  
+      <lb ed="#B" n="17"/>mansurus: &amp; animalia producunt in 
+      lo<lb ed="#B" n="18" break="no"/>co suae habitationis, scilicet pisces in 
+      a<lb ed="#B" n="19" break="no"/>qua, gressibilia in terra.
+    </p>
+            <p xml:id="gbs333-b53482-d1e704">
+      ¶ Solutio scilicet 
+      o<lb ed="#B" n="20" break="no"/>cus paradisi erat congrua habitatio 
+      ho<lb ed="#B" n="21" break="no"/>minis, quantum ad incorruptionem 
+      pri<lb ed="#B" n="22" break="no"/>mistatus: incorruptio autem non erat 
+      <lb ed="#B" n="23"/>hominis secundum suam naturam: sed  
+      <lb ed="#B" n="24"/>ex supernaturali dei dono, ut ergo 
+      do<lb ed="#B" n="25" break="no"/>num illud incorruptionis, gratiae 
+      dei<lb ed="#B" n="26" break="no"/>imputaretur: non naturae: deus hominem 
+      <lb ed="#B" n="27"/>extra paradisum pduxit: &amp; postea in 
+      pa<lb ed="#B" n="28" break="no"/>radisum posuit: ut cognosceret Dei 
+      be<lb ed="#B" n="29" break="no"/>neficium: cum cognosceret se aliunde 
+      <lb ed="#B" n="30"/>adductum. Concordat magister in 
+      tex<lb ed="#B" n="31" break="no"/>tu. Caelum uero empyreum est locus 
+      na<lb ed="#B" n="32" break="no"/>turalis angelis: hoc est suae naturae con 
+      <lb ed="#B" n="33"/>gruus, habens quandam similitudinem 
+      <lb ed="#B" n="34"/>cumangelis in subtilitate, &amp; claritate: 
+      <lb ed="#B" n="35"/>terra etiam, &amp; aqua sunt loca congrua 
+      <lb ed="#B" n="36"/>animalibus secundum naturam eorum. 
+      <lb ed="#B" n="37"/>Non sic paradisus homini: quia homo 
+      <lb ed="#B" n="38"/>secundum naturam fuit corruptibilis: 
+      <lb ed="#B" n="39"/>ut puta ex elementis compositus: 
+      po<lb ed="#B" n="40" break="no"/>tuit autem esse incorruptibilis ex 
+      gra<lb ed="#B" n="41" break="no"/>tia: paradisus autem locus est 
+      incorru<lb ed="#B" n="42" break="no"/>itionis. Quod autem mulier in 
+      paradi<lb ed="#B" n="43" break="no"/>so facta est: non est hoc factum propter 
+      <lb ed="#B" n="44"/>mulieris dignitatem: sed propter 
+      digni<lb ed="#B" n="45" break="no"/>tatem uiri sui principii, ex quo 
+      fa<lb ed="#B" n="46" break="no"/>cta est, qui uir iam fuerat in paradiso: 
+      <lb ed="#B" n="47"/>sicut &amp; fili fuissent in paradiso nati, in 
+      <lb ed="#B" n="48"/>quoiam parentes erant positi.
+    </p>
+            <p xml:id="gbs333-b53482-d1e769">
+      ¶ Tertio 
+      <lb ed="#B" n="49"/>dubitatur. Videtur, quod uel paradisus, uel 
+      <lb ed="#B" n="50"/>locus habitationis extra paradisum sit 
+      <!--252.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>superssuus: quia si homo stetisset, 
+      super<lb ed="#B" n="52" break="no"/>fluus fuisset locus terrae spatiosus 
+      ex<lb ed="#B" n="53" break="no"/>tra paradisum. Si fuit casurus; cum 
+      ex<lb ed="#B" n="54" break="no"/>tra sit productus: uidetur, quod frustra 
+      pro<lb ed="#B" n="55" break="no"/>ductus est paradisus. Respondetur, quod quia 
+      <lb ed="#B" n="56"/>paradisus fuit locus congruus homini 
+      <lb ed="#B" n="57"/>secundum naturam institutam, &amp; 
+      inte<lb ed="#B" n="58" break="no"/>gram, &amp; terra secundum naturam 
+      lap<lb ed="#B" n="59" break="no"/>sam: Deus, qui produxit hominem in 
+      <lb ed="#B" n="60"/>statu naturae integrae, praeuiderat eum 
+      <lb ed="#B" n="61"/>lapsurum. Et ita secundum duos status 
+      <lb ed="#B" n="62"/>hominis suturos: pro utroque locum 
+      <lb ed="#B" n="63"/>congruum produxit, paradisum propter 
+      <lb ed="#B" n="64"/>hominem institutum, terram propter 
+      <lb ed="#B" n="65"/>hominem lapsurum. Voluit etiam deus 
+      <lb ed="#B" n="66"/>hominem, quem praeuiderat casurum, 
+      <lb ed="#B" n="67"/>ponere in paradisum ante casum: ut 
+      per<lb ed="#B" n="68" break="no"/>eius eiectionem de loco uoluptatis 
+      co<lb ed="#B" n="69" break="no"/>gnosceret sensibiliter, quanta bona 
+      spi<lb ed="#B" n="70" break="no"/>ritualia amisisset per culpam, per quam 
+      <lb ed="#B" n="71"/>tanta corporalia puta paradisum 
+      perdi<lb ed="#B" n="72" break="no"/>derat per eandem. Cognosceret etiam, 
+      <lb ed="#B" n="73"/>quanta esset differentia inter eum, 
+      qui<lb ed="#B" n="74" break="no"/>domino humiliter obedit: &amp; eum, 
+      qui<lb ed="#B" n="75" break="no"/>ipsum superbe contennit. Nec tamen 
+      si<lb ed="#B" n="76" break="no"/>homo stetisset: alia pars terrae 
+      superffue<lb ed="#B" n="77" break="no"/>ret, quia bestiis seruientibus homini 
+      ha<lb ed="#B" n="78" break="no"/>bitaculum praeberet, &amp; hominis 
+      habita<lb ed="#B" n="79" break="no"/>culum, quam esset excellens sua 
+      inferio<lb ed="#B" n="80" break="no"/>ritate ostenderet: &amp; sua magnitudine 
+      <lb ed="#B" n="81"/>decoraret: sic magna platea decorat 
+      pa<lb ed="#B" n="82" break="no"/>latium, &amp; aula decorat cameram. Est. n. 
+      <lb ed="#B" n="83"/>palatium magis decorum, si fuerit latis 
+      <lb ed="#B" n="84"/>plateis circundatum. Tantum de 
+      quae<lb ed="#B" n="85" break="no"/>stione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

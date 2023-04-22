@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="111-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b54318"><!-- l2-d18q1 -->
+            <head xml:id="gbs333-b54318-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b54318-Hd1e103" type="question-title">
+      Utrum in costa Ade 
+      fuerat ratio seminalis, 
+      peret quam de ea productum sit 
+      corpus mulieris
+    </head>
+            <p xml:id="gbs333-b54318-d1e106">
+               <lb ed="#B" n="14"/>QVAESTIO VNICA 
+      <lb ed="#B" n="15"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="16"/>quaeritur. Vtrum in costa Ade 
+      <lb ed="#B" n="17"/>fuerat ratio seminalis, 
+      per<lb ed="#B" n="18" break="no"/>&amp; quam de ea productum sit 
+      cor<lb ed="#B" n="19" break="no"/>pus mulieris. Primo declarabuntur 
+      ter<lb ed="#B" n="20" break="no"/>mini. Secundo respondebitur. Tertio 
+      <lb ed="#B" n="21"/>dubia mouebuntur.
+    </p>
+            <p xml:id="gbs333-b54318-d1e126">
+      ¶ Circa primum 
+      no<lb ed="#B" n="22" break="no"/>tandum, quod ut recitat Sco. hac 
+      distin<lb ed="#B" n="23" break="no"/>ctione: quidam imaginati sunt 
+      ratio<lb ed="#B" n="24" break="no"/>nem seminalem esse quendam actum 
+      <lb ed="#B" n="25"/>in materia. Vnde in materia tria 
+      con<lb ed="#B" n="26" break="no"/>siderant scilicet materiae essentiam, 
+      po<lb ed="#B" n="27" break="no"/>tentiam receptiuam, &amp; actum, idest 
+      in<lb ed="#B" n="28" break="no"/>choationem formae producendae in 
+      ma<lb ed="#B" n="29" break="no"/>teria. Ratio seminalis non potest esse 
+      <lb ed="#B" n="30"/>materia: quia secundum August. x. 
+      su<lb ed="#B" n="31" break="no"/>per Gen. ad literam. Leui fuit in 
+      lum<lb ed="#B" n="32" break="no"/>bis Abraae: &amp; similiter Christus fuit in 
+      <lb ed="#B" n="33"/>Abraam secundum Apostolum. Heb. vij. 
+      <lb ed="#B" n="34"/>sed diuersimode. Nam Leui fuit in 
+      A<lb ed="#B" n="35" break="no"/>braam secundum rationem seminalem. 
+      <lb ed="#B" n="36"/>Vnde &amp; Apostolus ibi eum dicit fuisse 
+      <lb ed="#B" n="37"/>in lumbis Abraae: sed Christus non fuit 
+      <lb ed="#B" n="38"/>in Abraam secundum rationem seminalem: 
+      <lb ed="#B" n="39"/>sed tantum secundum corpulentam 
+      substan<lb ed="#B" n="40" break="no"/>tiam. Vterque tamen tam Leui quam 
+      Chri<lb ed="#B" n="41" break="no"/>stus fuit secundum materiam, uel potentiam 
+      <lb ed="#B" n="42"/>materiaepassiuam in Abraam, ideo nec 
+      ma<lb ed="#B" n="43" break="no"/>teria, nec potentia eius passiua est ratio 
+      se<lb ed="#B" n="44" break="no"/>minalis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e178">
+      ¶ Item quod potentia receptiua, uel 
+      <lb ed="#B" n="45"/>passiua materie non sit ratio seminalis. 
+      <lb ed="#B" n="46"/>Patet etiam Beatum Augu. ix. super 
+      Gen<lb ed="#B" n="47" break="no"/>&amp; ponitur in litera. Multa Deus 
+      produ<lb ed="#B" n="48" break="no"/>xit in materia, uel de materia, ad quae non 
+      <!--253.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>fuit ratio seminalis: nihil tamen fecit de mate 
+      <lb ed="#B" n="50"/>ria, cuius materia non fuerit receptiua: 
+      <lb ed="#B" n="51"/>ideo ratio seminalis non est potentia 
+      re<lb ed="#B" n="52" break="no"/>ceptiua. Relinquitur ergo, quod sit actus. 
+      <lb ed="#B" n="53"/>Ponitur autem actus ille esse aliquod 
+      for<lb ed="#B" n="54" break="no"/>mae coeuum materiae eiusdem rationis 
+      <lb ed="#B" n="55"/>cum forma generanda, &amp; est principium 
+      <lb ed="#B" n="56"/>intrinsecum generationis. Et licet sit 
+      <lb ed="#B" n="57"/>imperfecta forma, &amp; praeexistens forme 
+      <lb ed="#B" n="58"/>inducendae: tamen nata est coagere 
+      ge<lb ed="#B" n="59" break="no"/>neranti extrinseco: &amp; per hoc est ratio 
+      <lb ed="#B" n="60"/>seminalis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e221">
+      ¶ Per hunc ergo modum 
+      sal<lb ed="#B" n="61" break="no"/>uant, quod generatio non est creatio, &amp; quod 
+      <lb ed="#B" n="62"/>est naturalis transmutatio. Primum 
+      pa<lb ed="#B" n="63" break="no"/>tet: quia sic forma generanda non est de 
+      <lb ed="#B" n="64"/>nihilo cum aliquid eius praesupponatur  
+      <lb ed="#B" n="65"/>&amp; ideo non creatur. Secundum: quia cum 
+      <lb ed="#B" n="66"/>praeexistens est aliquid formae generandes 
+      <lb ed="#B" n="67"/>&amp; principium eius intrinsecum: 
+      generatio<lb ed="#B" n="68" break="no"/>non erit totaliter a principio extrinse- 
+      <lb ed="#B" n="69"/>co: sed partim ab intrinseco: &amp; sic erit 
+      <lb ed="#B" n="70"/>naturalis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e245">
+      ¶ Sed illa opiniostare non potest; 
+      <lb ed="#B" n="71"/>quia sequeretur, quod aut nihil nouum 
+      pro<lb ed="#B" n="72" break="no"/>ducitur: aut omnia producta creantur. 
+      <lb ed="#B" n="73"/>Vtrumque illatum falsum est, &amp; contra eos. 
+      <lb ed="#B" n="74"/>Probatur tamen consequentia: quia quae 
+      <lb ed="#B" n="75"/>ro de illa parte formae praecisae, quae 
+      ad<lb ed="#B" n="76" break="no"/>ditur in generatione praeexistenti parti, 
+      <lb ed="#B" n="77"/>quae est ratio seminalis, siue formae 
+      in<lb ed="#B" n="78" break="no"/>choatio aut praefuit in materia: aut non. 
+      <lb ed="#B" n="79"/>Siprimum: non producitur de nouo: 
+      si<lb ed="#B" n="80" break="no"/>cut ratio seminalis, &amp; eius inchoatio: &amp; 
+      <lb ed="#B" n="81"/>ita erunt simul producta, &amp; quodlibet  
+      <lb ed="#B" n="82"/>erit in quolibet contra philoso. j. 
+      physi<lb ed="#B" n="83" break="no"/>corum. Si non praefuit: ergo fuit nihil: 
+      <lb ed="#B" n="84"/>&amp; per consequens creatur: quia de 
+      ni<lb ed="#B" n="85" break="no"/>hilo sui producitur. Nec propter 
+      salua<lb ed="#B" n="86" break="no"/>re naturalitatem generationis oportet 
+      <lb ed="#B" n="87"/>ponere, quod sit a principio intrinseco: sed  
+      <lb ed="#B" n="88"/>sufficit, quod passum conferat uim, id est 
+      <lb ed="#B" n="89"/>ad formam inducendam naturaliter in 
+      <lb ed="#B" n="90"/>clinetur: siue illa mutatio fiat effectiue 
+      <lb ed="#B" n="91"/>a principio extrinseco, siue intrinseco. 
+      <lb ed="#B" n="92"/>Nam supposito, quod sensus, &amp; intellectus 
+      <lb ed="#B" n="93"/>habent se pure passiue ad actum 
+      cogni<lb ed="#B" n="94" break="no"/>tionis: nihilominus cognitio esset 
+      na<lb ed="#B" n="95" break="no"/>turalis, licet tunc esset omnino a 
+      prin<lb ed="#B" n="96" break="no"/>cipio extrinseco. Vnde dicitur, quod tales 
+      <lb ed="#B" n="97"/>inchoationes formarum ponendae non 
+      <lb ed="#B" n="98"/>sunt: quia frustra ponerentur. Omnit 
+      <!--254.xml-->
+      <pb ed="#B" n="112-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>autem forma, quae naturaliter 
+      gene<lb ed="#B" n="2" break="no"/>ratur: simpliciter de nihilo sui 
+      produ<lb ed="#B" n="3" break="no"/>citur: ita quod nihil formae praefuit: nec 
+      <lb ed="#B" n="4"/>tamen ideo creatur, ut ex supradictis 
+      <lb ed="#B" n="5"/>distin. prima patet: quia creatio non 
+      so<lb ed="#B" n="6" break="no"/>lum excludit omne, quod est aliquid 
+      for<lb ed="#B" n="7" break="no"/>mae producendae: sed etiam materiam in 
+      <lb ed="#B" n="8"/>suo genere causandi: nam quod creatur 
+      <lb ed="#B" n="9"/>non educitur de potentia materiae ut 
+      su<lb ed="#B" n="10" break="no"/>pra habitum est.
+    </p>
+            <p xml:id="gbs333-b54318-d1e336">
+      ¶ Est ergo secundo 
+      no<lb ed="#B" n="11" break="no"/>tandum, quod differunt semen, &amp; ratio 
+      semi<lb ed="#B" n="12" break="no"/>nalis. Nam semen est corpus 
+      imperfe<lb ed="#B" n="13" break="no"/>ctum productum a generante non 
+      pro<lb ed="#B" n="14" break="no"/>pter se: sed tanquam uia ascendendi ad 
+      <lb ed="#B" n="15"/>ulteriores formas perfectas.
+    </p>
+            <p xml:id="gbs333-b54318-d1e349">
+      ¶ Vbi 
+      ad<lb ed="#B" n="16" break="no"/>uertendum, quod agentium quedam 
+      produ<lb ed="#B" n="17" break="no"/>cunt effectu inimediate siue sibi similem, 
+      <lb ed="#B" n="18"/>siue alterius rationis: ut in producente 
+      <lb ed="#B" n="19"/>aequiuoco: ut ignis ignem: sol ranam. Alia 
+      <lb ed="#B" n="20"/>producunt effectum mediante 
+      propaga<lb ed="#B" n="21" break="no"/>tione: ut asinus generans asinum, non 
+      <lb ed="#B" n="22"/>inimediate producit formam asini: sed  
+      <lb ed="#B" n="23"/>de se producit effectum medium scilicet semen 
+      <lb ed="#B" n="24"/>mediante, quo producitur forma asini¬ 
+    </p>
+            <p xml:id="gbs333-b54318-d1e371">
+               <lb ed="#B" n="25"/>¶ Vnde potest distingui duplex 
+      proces<lb ed="#B" n="26" break="no"/>sus innatura inhis, quae producunt sibi 
+      <lb ed="#B" n="27"/>simile mediate, uelcorrumpunt. Nam 
+      <lb ed="#B" n="28"/>unus est ascendendo de forma 
+      imperfe<lb ed="#B" n="29" break="no"/>cta ad perfectiorem. Sunt enim in 
+      tali<lb ed="#B" n="30" break="no"/>productione multae formae mediae 
+      ordi<lb ed="#B" n="31" break="no"/>natae: ut per eas tanquam per uias induca 
+      <lb ed="#B" n="32"/>tur forma intenta: ita ut nulla earum 
+      na<lb ed="#B" n="33" break="no"/>ta sit terminare actionem agentis: sic 
+      <lb ed="#B" n="34"/>ut in ea qescat transmutatio: ut est 
+      pro<lb ed="#B" n="35" break="no"/>cessus a forma seminis ad formam 
+      sangui<lb ed="#B" n="36" break="no"/>nis ab illa forma sanguinis ad formam 
+      <lb ed="#B" n="37"/>aliam scilicet embrionis, uel alterius: &amp; 
+      <lb ed="#B" n="38"/>sic consequenter donec ueniatur ad 
+      <lb ed="#B" n="39"/>formam uiuentem similem agenti, quae 
+      <lb ed="#B" n="40"/>est ultima, &amp; perfecta. Alius processus, 
+      <lb ed="#B" n="41"/>quo descenditur a pfectis ad imperfecta 
+      <lb ed="#B" n="42"/>resoluendo uiuens in cadauer: cadauer 
+      <lb ed="#B" n="43"/>infeces, donec ueniatur ad elementa uel 
+      <lb ed="#B" n="44"/>materiam primam. In primo igitur 
+      pro<lb ed="#B" n="45" break="no"/>cessu illud, a quo incipit natura: &amp; in 
+      <lb ed="#B" n="46"/>quo non sistit: sed per illud tendit ad 
+      <lb ed="#B" n="47"/>tormam perfectam agenti similem: 
+      di<lb ed="#B" n="48" break="no"/>citur semen. Est ergo semen non 
+      inten<lb ed="#B" n="49" break="no"/>tum a natura propter se: sed propter 
+      <lb ed="#B" n="50"/>aliud perfectius. Sed ratio seminalis 
+      <!--254.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est qualitas aliqua in semine disponens 
+      <lb ed="#B" n="52"/>inductione formae perfectioris.
+    </p>
+            <p xml:id="gbs333-b54318-d1e439">
+      ¶ Vtrum 
+      <lb ed="#B" n="53"/>autem illa uis seminalis concurrat 
+      acti<lb ed="#B" n="54" break="no"/>ue ad generationem formae ultimae 
+      ac<lb ed="#B" n="55" break="no"/>perfectae sunt opiniones. Si teneretur, 
+      <lb ed="#B" n="56"/>quod accidens non potest producere 
+      sub<lb ed="#B" n="57" break="no"/>stantiam, ut tenet Ioan. Dicendum 
+      <lb ed="#B" n="58"/>esset, quod non: sed solum concurrit ad 
+      <lb ed="#B" n="59"/>productionem qualitatis disponentis 
+      <lb ed="#B" n="60"/>materiam ad formae receptionem, qua 
+      <lb ed="#B" n="61"/>materia disposita forma substantialis 
+      ui<lb ed="#B" n="62" break="no"/>uens immediate a solo Deo 
+      produci<lb ed="#B" n="63" break="no"/>tur.
+    </p>
+            <p xml:id="gbs333-b54318-d1e466">
+      ¶ Sed quia oppositum uidetur 
+      pro<lb ed="#B" n="64" break="no"/>babilius. nam eadem ratione, qua 
+      pro<lb ed="#B" n="65" break="no"/>batur comunt modo probandi, quod ignis 
+      <lb ed="#B" n="66"/>producit ignem, etiam probatur, quod 
+      ca<lb ed="#B" n="67" break="no"/>lor producit ignem. Ideo tenendo, quod 
+      <lb ed="#B" n="68"/>accidens concurrit actiue ad productio 
+      <lb ed="#B" n="69"/>nem formae substantialis tanquam 
+      cau<lb ed="#B" n="70" break="no"/>sa partialis: consequenter potest dici, 
+      <lb ed="#B" n="71"/>quod etiam uis seminalis actiue concurrit 
+      <lb ed="#B" n="72"/>ad ultimam formam substantialem. Non 
+      <lb ed="#B" n="73"/>autem forma substantialis seminis: quia 
+      <lb ed="#B" n="74"/>illa non est, cum inducitur forma 
+      sub<lb ed="#B" n="75" break="no"/>stantialis uiuentis, nihil autem causat, 
+      <lb ed="#B" n="76"/>quando non est. Oportet enim formam 
+      <lb ed="#B" n="77"/>substantialem seminis corrumpi, ut 
+      intro<lb ed="#B" n="78" break="no"/>ducatur forma uitalis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e501">
+      ¶ An autem uis 
+      <lb ed="#B" n="79"/>seminalis sit qualitas prima, uel 
+      ali<lb ed="#B" n="80" break="no"/>qua proprietas occulta dispositiua 
+      pro<lb ed="#B" n="81" break="no"/>introductione formae uiuentis, &amp; 
+      or<lb ed="#B" n="82" break="no"/>ganixatione membrorum: sicut in 
+      pipe<lb ed="#B" n="83" break="no"/>re est qualitas occulta calefactiua: 
+      re<lb ed="#B" n="84" break="no"/>linquo studiosius inquirenti.
+    </p>
+            <p xml:id="gbs333-b54318-d1e517">
+      ¶ 
+      Quan<lb ed="#B" n="85" break="no"/>tum ad secundum articulum est 
+      conclu<lb ed="#B" n="86" break="no"/>sio prima. Nec semen, nec ratio 
+      semi<lb ed="#B" n="87" break="no"/>nalis fuit in costa Adae respectu 
+      forman<lb ed="#B" n="88" break="no"/>di corporis Euae. Patet conclusio 
+      per<lb ed="#B" n="89" break="no"/>beatum Augustinum, &amp; magistrum in 
+      <lb ed="#B" n="90"/>textu. Et probatur ratione: quia costa 
+      <lb ed="#B" n="91"/>Adae immediate conuersa est a Deo 
+      in<lb ed="#B" n="92" break="no"/>corpus mulieris miraculose sine 
+      acqui<lb ed="#B" n="93" break="no"/>sitione formarum mediarum. ergo non 
+      <lb ed="#B" n="94"/>fuit ibi semen: neque fuit aliqua 
+      qua<lb ed="#B" n="95" break="no"/>litas in costa concurrens actiue ad cor 
+      <lb ed="#B" n="96"/>ruptionem costae, &amp; formationem 
+      cor<lb ed="#B" n="97" break="no"/>poris mulieris: ergo nec ratio 
+      semina<lb ed="#B" n="98" break="no"/>lis. Vtraque consequentia tenet ex quid 
+      <lb ed="#B" n="99"/>nominis seminis, &amp; rationis seminalis. 
+      <lb ed="#B" n="100"/>Antecedens patet: quia nihiltale medium inter¬ 
+      <!--255.xml-->
+      <pb ed="#B" n="112-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uenisse commemorat scriptura: nec 
+      ra<lb ed="#B" n="2" break="no"/>tio, aut experientia probat. ergo non est 
+      <lb ed="#B" n="3"/>ponendum: nihil enim ponendum est 
+      <lb ed="#B" n="4"/>sine ratione aut auctoritate.
+    </p>
+            <p xml:id="gbs333-b54318-d1e569">
+      ¶ 
+      Secun<lb ed="#B" n="5" break="no"/>da conclusio. Non solum in productio 
+      <lb ed="#B" n="6"/>ne uiuentis a uiuente semen ponitur: 
+      <lb ed="#B" n="7"/>sed in omni actione, in qua format 
+      per<lb ed="#B" n="8" break="no"/>formas medias ad formam principaliter 
+      <lb ed="#B" n="9"/>intentam ordinate proceditur. Illa 
+      con<lb ed="#B" n="10" break="no"/>clusio probatur auctoritate beati Aug. 
+      <lb ed="#B" n="11"/>iij. de trini. c. viij. ubi dicit. Omnium 
+      <lb ed="#B" n="12"/>quippe rerum. quae corporaliter 
+      uisibi<lb ed="#B" n="13" break="no"/>literque nascuntur: occulta quaedam 
+      se<lb ed="#B" n="14" break="no"/>mina in istis corporeis mundi huius ese 
+      <lb ed="#B" n="15"/>mentis latent. Possunt etiam 
+      elemen<lb ed="#B" n="16" break="no"/>ta sic contemperari, quod in eis causa 
+      <lb ed="#B" n="17"/>tur quaedam quantas, uel forma, quae erit 
+      <lb ed="#B" n="18"/>uia ad aliam perfectiorem. Et per hoc  
+      <lb ed="#B" n="19"/>potest beatus Augu. habere intentum 
+      <lb ed="#B" n="20"/>suum; quod in eodem capitulo nititur 
+      <lb ed="#B" n="21"/>ostendere scilicet quomodo magi Pharaonis 
+      <lb ed="#B" n="22"/>ecerunt ranas. Nam rationes seminales 
+      <lb ed="#B" n="23"/>talium sunt in elementis contenperatis, quem 
+      <lb ed="#B" n="24"/>contemperantia non est aliud, nisi quaedam iux 
+      <lb ed="#B" n="25"/>ta positio elementi iuxta elementum 
+      <lb ed="#B" n="26"/>secundum qualitatem proportionatam. 
+      <lb ed="#B" n="27"/>Et quia angelus malus nouit illam 
+      qua<lb ed="#B" n="28" break="no"/>litatem, &amp; proportionem, &amp; corpora 
+      <lb ed="#B" n="29"/>huiusmodi obediunt ei, quantum ad 
+      mo<lb ed="#B" n="30" break="no"/>tum localem: igitur potest 
+      coniunge<lb ed="#B" n="31" break="no"/>re elementa actiua passiuis secundum de 
+      <lb ed="#B" n="32"/>bitum contemperamentum; &amp; 
+      applica<lb ed="#B" n="33" break="no"/>re illa directe corporibus caelestibus 
+      ha<lb ed="#B" n="34" break="no"/>bentibus inffuere super huiusmodi 
+      con<lb ed="#B" n="35" break="no"/>temperantiam: &amp; sic generare ranas. 
+      <lb ed="#B" n="36"/>Et sic elementa possunt dici semina mix 
+      <lb ed="#B" n="37"/>torum; &amp; qualitates eius influxaea 
+      cae<lb ed="#B" n="38" break="no"/>lo dici possut rationes seminales.
+    </p>
+            <p xml:id="gbs333-b54318-d1e645">
+      ¶ 
+      Ter<lb ed="#B" n="39" break="no"/>tia conclusio. Vnum elementum non est 
+      <lb ed="#B" n="40"/>semen alterius elementi ex se 
+      geniti<lb ed="#B" n="41" break="no"/>Probatur: quia in actionibus, quibus 
+      <lb ed="#B" n="42"/>immediate unum ex alio gignitur, non 
+      <lb ed="#B" n="43"/>requiritur medium aliquod: 
+      semenau<lb ed="#B" n="44" break="no"/>tem est medium, &amp; uia inter actiuum 
+      prin<lb ed="#B" n="45" break="no"/>cipale, &amp; formam ultimo intentam 
+      per<lb ed="#B" n="46" break="no"/>fectiorem. In transmutationibus autem 
+      <lb ed="#B" n="47"/>elementorum, quibus unum generatur 
+      <lb ed="#B" n="48"/>exalio; ut ex aqua aer, uel 
+      econuerso<lb ed="#B" n="49" break="no"/>nulla generatio mediat; quia uel elemen 
+      <lb ed="#B" n="50"/>ti, uel mixti. Non primum manifestum 
+      <!--255.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est. Non secundum: quia medium est im 
+      <lb ed="#B" n="52"/>perfectius forma principaliter intenta. 
+      <lb ed="#B" n="53"/>Nullum autem mixtum est imperfectius 
+      <lb ed="#B" n="54"/>elemento: quia elementa sunt 
+      imperfe<lb ed="#B" n="55" break="no"/>ctissima in oenere substantiae: ut uult 
+      con<lb ed="#B" n="56" break="no"/>men. iij. caen. Similiter ignis 
+      producen<lb ed="#B" n="57" break="no"/>do ignem, non oportet, quod primo 
+      pro<lb ed="#B" n="58" break="no"/>ducat rationem seminalem, quae sibi 
+      <lb ed="#B" n="59"/>coagat, uel agenti uniuersali: sed 
+      imme<lb ed="#B" n="60" break="no"/>diate producit ignem ex aqua, aut 
+      alio<lb ed="#B" n="61" break="no"/>corpore combustibili sibi approximato.  
+    </p>
+            <p xml:id="gbs333-b54318-d1e702">
+               <lb ed="#B" n="62"/>¶ Ex illo sequitur, quod respectu esementi 
+      <lb ed="#B" n="63"/>generandi non oportet semen poneret: 
+      <lb ed="#B" n="64"/>quia semen est imperfectius forma 
+      ge<lb ed="#B" n="65" break="no"/>neranda: nihil autem imperfectius 
+      ese<lb ed="#B" n="66" break="no"/>mento in substantijs, etiam semen agit 
+      <lb ed="#B" n="67"/>non agente: immo non existente eo, 
+      <lb ed="#B" n="68"/>quod produxit semen: sed cessante igne 
+      <lb ed="#B" n="69"/>ab actione sua, cessat actio caloris 
+      ge<lb ed="#B" n="70" break="no"/>neratiua ignis: cessante enim 
+      calefa<lb ed="#B" n="71" break="no"/>ctione aquae, aqua reducit se ad frigidi 
+      <lb ed="#B" n="72"/>tatem: &amp; suo modo de alijs elementis. 
+      <lb ed="#B" n="73"/>Ideo non oportet ponere uirtutem 
+      se<lb ed="#B" n="74" break="no"/>minalem mediam ad productionem 
+      ele<lb ed="#B" n="75" break="no"/>menti.
+    </p>
+            <p xml:id="gbs333-b54318-d1e736">
+      ¶ Quarta conclusio. Semen aut  
+      <lb ed="#B" n="76"/>ratio seminalis non est coaeua materiae: 
+      <lb ed="#B" n="77"/>Probatur: quia semen decisum a 
+      propa<lb ed="#B" n="78" break="no"/>gante non semper est in principio 
+      pro<lb ed="#B" n="79" break="no"/>pagatiuo: quia semen generatur de 
+      su<lb ed="#B" n="80" break="no"/>perssuo alimenti tertiae digestionis. Neque  
+      <lb ed="#B" n="81"/>est semper in elementis ratio 
+      semina<lb ed="#B" n="82" break="no"/>lis: quia secundum praemissa ratio 
+      se<lb ed="#B" n="83" break="no"/>minalis inducitur, dum esementa 
+      fue<lb ed="#B" n="84" break="no"/>rint contemperata a uirtute caelorum 
+      <lb ed="#B" n="85"/>influxiua. unde cum omnium 
+      corpora<lb ed="#B" n="86" break="no"/>lium semina dicuntur esse in materia, 
+      <lb ed="#B" n="87"/>seu elementis intelligendum est aptitudina 
+      <lb ed="#B" n="88"/>liter, non actualiter.
+    </p>
+            <p xml:id="gbs333-b54318-d1e767">
+      ¶ Quantum ad ter 
+      <lb ed="#B" n="89"/>tium articulum est dubium. Vtrum de 
+      <lb ed="#B" n="90"/>costa Adae formatum sit corpus 
+      mulie<lb ed="#B" n="91" break="no"/>ris sine addito alterius materiae. De isto 
+      <lb ed="#B" n="92"/>dubio est opinio magistri: etiam Hugo. 
+      <lb ed="#B" n="93"/>lib. i. de sacra. parte. vj. c. xxxvj. quod 
+      cor<lb ed="#B" n="94" break="no"/>pus multeris factum est de costa Adae 
+      si<lb ed="#B" n="95" break="no"/>ne additione alterius materiae: ut supra 
+      <lb ed="#B" n="96"/>patuit in secunda conclusione textuali. 
+      <lb ed="#B" n="97"/>Possibilitas probatur: quia deus de 
+      ni<lb ed="#B" n="98" break="no"/>hilo produxit materiam: multo magis 
+      <lb ed="#B" n="99"/>potuit de modica materia facere 
+      ma<lb ed="#B" n="100" break="no"/>gnam: non per additionem materiae 
+      <!--256.xml-->
+      <pb ed="#B" n="113-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aliunde sumptae: sicut in segetibus &amp; in 
+      <lb ed="#B" n="2"/>productione corporis animalis ex 
+      semi<lb ed="#B" n="3" break="no"/>ne, quod nutritur, facit per additionem 
+      <lb ed="#B" n="4"/>alterius materiae: sed per 
+      multiplicatio<lb ed="#B" n="5" break="no"/>nem eiusdem materiae in se ipsa.
+    </p>
+            <p xml:id="gbs333-b54318-d1e813">
+      ¶ Item 
+      <lb ed="#B" n="6"/>si deus ad perficiendum corpus mulieris 
+      <lb ed="#B" n="7"/>aliam materiam addidisset: maius fuisset 
+      <lb ed="#B" n="8"/>illud additum, quam costa: &amp; sic potius 
+      <lb ed="#B" n="9"/>debuit corpus mulleris dici factum fuisse 
+      <lb ed="#B" n="10"/>de alia materia, quam de costa. Sed hoc  
+      <lb ed="#B" n="11"/>est contra scripturam, quae de sola costa 
+      <lb ed="#B" n="12"/>facit mentionem. Adducunt ad idem 
+      <lb ed="#B" n="13"/>exemplum multiplicationis quinque 
+      pa<lb ed="#B" n="14" break="no"/>num.
+    </p>
+            <p xml:id="gbs333-b54318-d1e835">
+      ¶ ooo. hominum saturantium, qui sine 
+      <lb ed="#B" n="15"/>additione alicuius materiae aliunde sum 
+      <lb ed="#B" n="16"/>ptae; multiplicabantur ad satietatem 
+      sin<lb ed="#B" n="17" break="no"/>gulorum.
+    </p>
+            <p xml:id="gbs333-b54318-d1e844">
+      ¶ Alia est opinio Grego. de 
+      <lb ed="#B" n="18"/>arim. dist. praesenti: quam dicit esse 
+      do<lb ed="#B" n="19" break="no"/>ctorum communiter, quae tenet, quod 
+      <lb ed="#B" n="20"/>corpus mulieris formatum est de costa, 
+      <lb ed="#B" n="21"/>addita etiam alia materia, uel de nouo 
+      <lb ed="#B" n="22"/>creata, uel undecunque; domino placuit 
+      <lb ed="#B" n="23"/>sumpta.
+    </p>
+            <p xml:id="gbs333-b54318-d1e860">
+      ¶ Pro ista conclusione arguunt: 
+      <lb ed="#B" n="24"/>quia nisi sic corpus mulleris fuisset 
+      ni<lb ed="#B" n="25" break="no"/>mis rarum: quia illud corpus est rarius, 
+      <lb ed="#B" n="26"/>quod sub magna extensione modicum 
+      <lb ed="#B" n="27"/>materiae habet. Et sic cum costa uix sit 
+      <lb ed="#B" n="28"/>ioc. pars corporis Adae: corpus Euae 
+      <lb ed="#B" n="29"/>fuisset in centuplo rarius corpore Adae: 
+      <lb ed="#B" n="30"/>quod non est sentiendum, maxime de 
+      <lb ed="#B" n="31"/>prima muliere. Quae quia immediate a 
+      <lb ed="#B" n="32"/>Deo producta, habuit corpus qualitate, 
+      <lb ed="#B" n="33"/>&amp; quantitate perfectissimum: quia 
+      dei<lb ed="#B" n="34" break="no"/>perfecta sunt opera. Deute. xxxij.
+    </p>
+            <p xml:id="gbs333-b54318-d1e887">
+      ¶ Item 
+      <lb ed="#B" n="35"/>si nihil fuisset costae additum: sed fuisset 
+      <lb ed="#B" n="36"/>in se multiplicata, non fuisset corpus 
+      <lb ed="#B" n="37"/>formatum maius costa: nisi per 
+      exten<lb ed="#B" n="38" break="no"/>sionem earundem partium costae. 
+      Con<lb ed="#B" n="39" break="no"/>sequens falsum: quia tunc non 
+      fuis<lb ed="#B" n="40" break="no"/>set corpus substantialiter maius costa. 
+      <lb ed="#B" n="41"/>Et sic non ita perfectum substantialiter,  
+      <lb ed="#B" n="42"/>sicut corpus ceterarum mulierum. 
+      Con<lb ed="#B" n="43" break="no"/>sequentia probatur: quia si nihil est 
+      ad<lb ed="#B" n="44" break="no"/>ditum: nulla fuit ibi substantia, nisi 
+      sub<lb ed="#B" n="45" break="no"/>stantia costae: idem autem non est maius 
+      <lb ed="#B" n="46"/>seipso substantialiter.
+    </p>
+            <p xml:id="gbs333-b54318-d1e916">
+      ¶ Item si nihil fuit 
+      <lb ed="#B" n="47"/>costae additum: quaero utrum tota costa 
+      <lb ed="#B" n="48"/>seu costae materia fuit in crure: uel 
+      non<lb ed="#B" n="49" break="no"/>Non secundum cum non minus: immo 
+      mul<lb ed="#B" n="50" break="no"/>toplus habeat crus de materiali substan¬ 
+      <!--256.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tia, quam costa. Nec primum: quia si tota 
+      <lb ed="#B" n="52"/>fuit in crure: nihil eius fuit in brachio, 
+      <lb ed="#B" n="53"/>uel capite: &amp; ita caeterae partes fuissent 
+      <lb ed="#B" n="54"/>de alia materia materiae costae addita. 
+    </p>
+            <p xml:id="gbs333-b54318-d1e940">
+               <lb ed="#B" n="55"/>¶ Si dicis, quod tota costae materia fuit in 
+      <lb ed="#B" n="56"/>crure: &amp; tota etiam in brachio: &amp; sic de 
+      <lb ed="#B" n="57"/>alijs partibus costae aequalibus. Contra: 
+      <lb ed="#B" n="58"/>tunc brachium non fuisset distinctum a 
+      <lb ed="#B" n="59"/>erure: quia utrobique fuisset eadem 
+      ma<lb ed="#B" n="60" break="no"/>teria secundum numerum, &amp; eadem forma. 
+      <lb ed="#B" n="61"/>Item cum materia costae sit dimensiue 
+      <lb ed="#B" n="62"/>in corpore Euae: sequitur, quod idem 
+      nu<lb ed="#B" n="63" break="no"/>mero fuisset circunscriptiue in diuersis 
+      <lb ed="#B" n="64"/>locis, quod multi reputant simpliciter 
+      <lb ed="#B" n="65"/>impossibile.
+    </p>
+            <p xml:id="gbs333-b54318-d1e966">
+      ¶ Ad dubium respondetur, quod 
+      <lb ed="#B" n="66"/>uterque modus fuit Deo possibilis. Et quod 
+      <lb ed="#B" n="67"/>de costa in se multiplicata sine extraneae 
+      <lb ed="#B" n="68"/>materiae additione formaret corpus 
+      per<lb ed="#B" n="69" break="no"/>fectum quantitate, &amp; densitate Euae: &amp; etiam 
+      <lb ed="#B" n="70"/>cum additione materiae uel de nouo 
+      crea<lb ed="#B" n="71" break="no"/>tae: uel aliunde, de quo uoluit 
+      elemento<lb ed="#B" n="72" break="no"/>uel mixto assumptae: nec rationes hinc 
+      <lb ed="#B" n="73"/>inde argutae demonstrant.
+    </p>
+            <p xml:id="gbs333-b54318-d1e986">
+      ¶ Vnde tenem 
+      <lb ed="#B" n="74"/>do primam opinionem magistri, 
+      respon<lb ed="#B" n="75" break="no"/>detur ad rationes secundae opinionis. 
+    </p>
+            <p xml:id="gbs333-b54318-d1e993">
+               <lb ed="#B" n="76"/>¶ Ad prima dicitur, quod procederet 
+      argu<lb ed="#B" n="77" break="no"/>mentum, quando modica materia sine 
+      sui<lb ed="#B" n="78" break="no"/>multiplicatione multum extenderetur, tumc 
+      <lb ed="#B" n="79"/>induceret raritatem: sed in formatione 
+      <lb ed="#B" n="80"/>corporis Euae: materia costae in seipsa 
+      <lb ed="#B" n="81"/>multiplicata est: &amp; per hoc corpus Euae 
+      <lb ed="#B" n="82"/>non caruit debita densitate.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1012">
+      ¶ Ad 
+      secun<lb ed="#B" n="83" break="no"/>dum distinguitur de Iy maius sustantialiter; 
+      <lb ed="#B" n="84"/>quia uidetur esse impropria: cum maius, &amp; 
+      <lb ed="#B" n="85"/>minus dicantur secundum quantitatem uel 
+      <lb ed="#B" n="86"/>molis, uel perfectionis. Prima non 
+      respi<lb ed="#B" n="87" break="no"/>cit substantiam: sed secunda respicit 
+      indif<lb ed="#B" n="88" break="no"/>ferenter tam substantiam, quam accidens. 
+      <lb ed="#B" n="89"/>Et sic conceditur, quod corpus Euae non 
+      <lb ed="#B" n="90"/>fuit maius id est perfectius costa quantum ad 
+      <lb ed="#B" n="91"/>materiam: quia omnes materiae sunt eiusdem 
+      <lb ed="#B" n="92"/>rationis, &amp; perfectionis: nec perfectior 
+      <lb ed="#B" n="93"/>est materia totius, quam materia partis. 
+      <lb ed="#B" n="94"/>Si autem maius substantialiter ualet 
+      tan<lb ed="#B" n="95" break="no"/>tum id es. habens tantam materiam, &amp; cum hoc aliam: 
+      <lb ed="#B" n="96"/>tuc conceditur, quod corpus Euae non fuit 
+      <lb ed="#B" n="97"/>substantialiter maius costa: quia non 
+      ha<lb ed="#B" n="98" break="no"/>buitaliam materiam, quam materiam costae. 
+      <lb ed="#B" n="99"/>Nec tamen sequitur, quod fuerit substatialiter  
+      <lb ed="#B" n="100"/>minus perfectum corporibus aliarum mulie 
+      <!--257.xml-->
+      <pb ed="#B" n="113-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rum: quia paucitas uel multitudo mate 
+      <lb ed="#B" n="2"/>riae non arguit perfectionem maiorem, uel 
+      <lb ed="#B" n="3"/>minorem: cum sit eiusdem rationis, &amp; non 
+      <lb ed="#B" n="4"/>intensibilis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1069">
+      ¶ Ad tertium dicitur, quod 
+      to<lb ed="#B" n="5" break="no"/>ta materia costae fuitiu crure, &amp; tota in 
+      <lb ed="#B" n="6"/>brachio: &amp; sic de alijs partibus costae 
+      <lb ed="#B" n="7"/>aequalibus: quia multiplicata est aliquo 
+      <lb ed="#B" n="8"/>modo simili sicut anima tota replicata 
+      <lb ed="#B" n="9"/>est sub qualibet parte corporis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1082">
+      ¶ Et cum 
+      <lb ed="#B" n="10"/>ar guitur: tunc brachium non esset 
+      di<lb ed="#B" n="11" break="no"/>stinctum a crure. Conceditur, quod substam 
+      <lb ed="#B" n="12"/>tialiter non est distinctum: est tamen 
+      distin<lb ed="#B" n="13" break="no"/>ctum accidentaliter, quia alia accidentia 
+      <lb ed="#B" n="14"/>sibi inhaerent in uno loco, quam in alio: 
+      <lb ed="#B" n="15"/>est tamen una substantia secundum materiam, &amp; 
+      <lb ed="#B" n="16"/>formam: sicut etiam animae in oculo 
+      inhae<lb ed="#B" n="17" break="no"/>ret uisio, &amp; non in pede: &amp; tamen est una 
+      ani<lb ed="#B" n="18" break="no"/>ma. Et cum infertur: tuc idem numero 
+      fuis<lb ed="#B" n="19" break="no"/>set circunscriptiue in diuersis locis. Hoc 
+      <lb ed="#B" n="20"/>conceditur: nec est magis impossibile, 
+      <lb ed="#B" n="21"/>quam idem diffinitiue esse in diuersis 
+      lo<lb ed="#B" n="22" break="no"/>cis. quod secundum omnes catholicos 
+      <lb ed="#B" n="23"/>conceditur de aniia intellectiua. Et 
+      si<lb ed="#B" n="24" break="no"/>qui oppositum tenent, defendat suam 
+      opi<lb ed="#B" n="25" break="no"/>nionem, si possunt: reputo. nio. eausa 
+      improba<lb ed="#B" n="26" break="no"/>bile, &amp; falsam. Posset etiam Deus alio 
+      mo<lb ed="#B" n="27" break="no"/>do materiam in se multiplicare, qui nobis 
+      <lb ed="#B" n="28"/>est incognitus: quia plura potest, quam 
+      <lb ed="#B" n="29"/>nos intelligere ualemus.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1128">
+      ¶ Si uero 
+      pla<lb ed="#B" n="30" break="no"/>cuerit secunda opinio: facile respondetur 
+      <lb ed="#B" n="31"/>ad rationes primae opinionis.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1135">
+      ¶ Ad 
+      pri<lb ed="#B" n="32" break="no"/>mam dico, quod Deus de nihilo potest 
+      pro<lb ed="#B" n="33" break="no"/>ducere materiam magnam, uel paruam. Sed 
+      <lb ed="#B" n="34"/>de materia iam existente facere corpus 
+      <lb ed="#B" n="35"/>maius sine additione alicuius, uel de 
+      no<lb ed="#B" n="36" break="no"/>uo producti, uel praeexistentis, non est 
+      in<lb ed="#B" n="37" break="no"/>telligibile: &amp; hoc sine rarefactione: nec 
+      <lb ed="#B" n="38"/>multiplicatio eiusdem facit rem maiorem: 
+      si<lb ed="#B" n="39" break="no"/>cut anima intellectiua non est maior in 
+      <lb ed="#B" n="40"/>corpore, quam manum: nec maior in 
+      ma<lb ed="#B" n="41" break="no"/>nu quam digito: licet forte sit 
+      multipli<lb ed="#B" n="42" break="no"/>cior id est multiplicius replicata in manum, 
+      <lb ed="#B" n="43"/>quam digito. Materia aut corporis Euae 
+      <lb ed="#B" n="44"/>fuit simpliciter maior materia costae 
+      si<lb ed="#B" n="45" break="no"/>ne raritate maiore. ergo necesse fuit 
+      <lb ed="#B" n="46"/>addi materiam aliam a materia costae.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1170">
+      ¶ Ad 
+      <lb ed="#B" n="47"/>secundum dicitur, quod non sequitur: quia sic 
+      <lb ed="#B" n="48"/>est in generatione arboris: licet plus ad 
+      <lb ed="#B" n="49"/>ditur de nutrimento terrestri, quam sit 
+      <lb ed="#B" n="50"/>semeniactum in terra. Dicitur tamen 
+      <!--257.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>in arboribus esse ex semine magis, quam 
+      <lb ed="#B" n="52"/>ex nutrimento: quia semen principium 
+      <lb ed="#B" n="53"/>est suae generationis: sic etiam in 
+      produ<lb ed="#B" n="54" break="no"/>ctione animalium per propagationem, &amp; 
+      <lb ed="#B" n="55"/>frequenter seinem est minima pars 
+      geniti<lb ed="#B" n="56" break="no"/>ex semine.
+    </p>
+            <p xml:id="gbs333-b54318-d1e1200">
+      ¶ Ad exemplum quinque panum 
+      <lb ed="#B" n="57"/>dicunt, quod est pro eis: nam 
+      multiplicatio<lb ed="#B" n="58" break="no"/>panum de qua Ioan. vj. facta fuit per 
+      ad<lb ed="#B" n="59" break="no"/>ditionem materiae de nouo creatae, uel 
+      <lb ed="#B" n="60"/>aliunde sumptae. Vnde dicunt 
+      Augu<lb ed="#B" n="61" break="no"/>stinum manifeste hoc sensisse: quia dicit. 
+      <lb ed="#B" n="62"/>Ille in manibus suis multiplicauit 
+      quin<lb ed="#B" n="63" break="no"/>que panes, qui de paucis granis creat 
+      se<lb ed="#B" n="64" break="no"/>getes. Certum autem est, quod legetes 
+      cre<lb ed="#B" n="65" break="no"/>scunt de granis per additionem materiae 
+      <lb ed="#B" n="66"/>nutrimentalis. Sed si dixisset August. Sic 
+      <lb ed="#B" n="67"/>multiplicauit panes sicut de granis 
+      se<lb ed="#B" n="68" break="no"/>getes. manifestius haberent intentum. 
+      <lb ed="#B" n="69"/>sed dixit: qui facit illa. Ex quo habetur, 
+      <lb ed="#B" n="70"/>quod idem est factor utriusque: sed non 
+      ha<lb ed="#B" n="71" break="no"/>betur, quod idem est modus faciendi. 
+      Se<lb ed="#B" n="72" break="no"/>cunda opinio est intelligibilior: quae 
+      au<lb ed="#B" n="73" break="no"/>tem sit uerior: ille nouit, quifecit. Tam 
+      <lb ed="#B" n="74"/>tum dequaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

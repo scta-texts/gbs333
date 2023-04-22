@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="148-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b72267"><!-- l2-d29q1 -->
+            <head xml:id="gbs333-b72267-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b72267-Hd1e103" type="question-title">
+      Utrum homo in 
+      statu naturae integrae gratiam 
+      habuit, qua aeque 
+      efficaciter, sicut post lapsum mereri potuit
+    </head>
+            <p xml:id="gbs333-b72267-d1e106">
+               <lb ed="#B" n="77"/>QVAESTIO VNICA 
+      <lb ed="#B" n="78"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="79"/>quaeritur. Vtrum homo in 
+      <lb ed="#B" n="80"/>statu naturae integrae gratiam 
+      <lb ed="#B" n="81"/>habuit, qua aeque 
+      efficaci<lb ed="#B" n="82" break="no"/>ter, sicut post lapsum mereri potuit. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e122">
+               <lb ed="#B" n="83"/>¶ Praemissis notabilibus ponent 
+      conclu<lb ed="#B" n="84" break="no"/>siones cum suis solutionibus dubiorum. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e129">
+               <lb ed="#B" n="85"/>¶ Quantum ad primum aduertendum, quod dicenda 
+      <lb ed="#B" n="86"/>intelligi debent de gratia gratum faciente. 
+      <lb ed="#B" n="87"/>Et licet secundum potentia dei absolutam 
+      <lb ed="#B" n="88"/>talis gratia non sit simpliciter necessaria 
+      <lb ed="#B" n="89"/>ad meritum: ita quod posse mereri sine 
+      gra<lb ed="#B" n="90" break="no"/>tia includat contradictionem: ut 
+      osten<lb ed="#B" n="91" break="no"/>ditur in primo dist. xvij. &amp; supra 
+      tan<lb ed="#B" n="92" break="no"/>gitur distinct. xxvij. Tamen secundum 
+      <lb ed="#B" n="93"/>legem staturam impossibile est mere, 
+      <lb ed="#B" n="94"/>ri sine gratia in quocunque; statu. 
+      Cu<lb ed="#B" n="95" break="no"/>ius rei congruitates quatuor assignat  
+      <!--327.xml-->
+      <pb ed="#B" n="148-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sanctus Bona. q. ij. huius dist. quae sumum 
+      <lb ed="#B" n="2"/>tur ex conditione retribuentis, &amp; 
+      retri<lb ed="#B" n="3" break="no"/>
+               <lb ed="#B" n="4"/>nis. Primae duae respiciunt statum naturae 
+      <lb ed="#B" n="5"/>integrae. Omnes autem quatuor 
+      respi<lb ed="#B" n="6" break="no"/>ciunt statum naturae lapsae.
+    </p>
+            <p xml:id="gbs333-b72267-d1e176">
+      ¶ Ex prima 
+      <lb ed="#B" n="7"/>conditione retribuentis: quoniam ipse 
+      <lb ed="#B" n="8"/>deus bonorum nostrorum non indiget, 
+      <lb ed="#B" n="9"/>ideo nec acceptat hominem propter 
+      ope<lb ed="#B" n="10" break="no"/>ra, tanquam aliquid sibi conferentia: nec 
+      <lb ed="#B" n="11"/>aliquod meritum ipsum obligare potest 
+      <lb ed="#B" n="12"/>in ratione dati, &amp; accepti, ideo ad hoc, 
+      <lb ed="#B" n="13"/>quod aliquod bonum creaturae suae ad 
+      remu<lb ed="#B" n="14" break="no"/>
+               <lb ed="#B" n="15"/>ut ipsius gratuitae bonitatis inffuentia 
+      <lb ed="#B" n="16"/>in operante praecedat, per quam 
+      crea<lb ed="#B" n="17" break="no"/>tura ipsi creatori grata existat.
+    </p>
+            <p xml:id="gbs333-b72267-d1e202">
+      ¶ 
+      Secun<lb ed="#B" n="18" break="no"/>do propter conditionem retributionis. 
+      <lb ed="#B" n="19"/>Nam praemium, quod meremur, est 
+      bea<lb ed="#B" n="20" break="no"/>titudo aeterna, quae consistit in habendo 
+      <lb ed="#B" n="21"/>eum, qui est omne, &amp; summum bonum, 
+      <lb ed="#B" n="22"/>qui est super omnem creaturam 
+      exal<lb ed="#B" n="23" break="no"/>tatus: &amp; lucem habitat inaccessibilem. 
+      <lb ed="#B" n="24"/>Et ideo ut homo ad illud summum 
+      bo<lb ed="#B" n="25" break="no"/>num ascendat, &amp; perueniat, requiritur 
+      <lb ed="#B" n="26"/>adiutorium, quod sit ultra naturam: hoc  
+      <lb ed="#B" n="27"/>adiutorium est gratia gratum faciens. 
+      <lb ed="#B" n="28"/>Et hae conditiones locum habent etiam 
+      <lb ed="#B" n="29"/>in statu naturae integrae: ut patet.
+    </p>
+            <p xml:id="gbs333-b72267-d1e231">
+      ¶ In 
+      <lb ed="#B" n="30"/>statuautem naturae lapsae non solum in 
+      <lb ed="#B" n="31"/>diget gratia ad merendum propter has 
+      <lb ed="#B" n="32"/>conditiones: sed ultra has etiam 
+      pro<lb ed="#B" n="33" break="no"/>pter conditionem operantis, &amp; 
+      opera<lb ed="#B" n="34" break="no"/>tionis meritoriae.
+    </p>
+            <p xml:id="gbs333-b72267-d1e244">
+      ¶ Tertio operantis 
+      qui<lb ed="#B" n="35" break="no"/>dem: nam operans semper est in 
+      pecca<lb ed="#B" n="36" break="no"/>to in statu naturae lapsae non habens 
+      gra<lb ed="#B" n="37" break="no"/>tiam: &amp; ita inimicus dei, nisi a peccato 
+      <lb ed="#B" n="38"/>releuetur per gratiae donum: &amp; ideo quic 
+      <lb ed="#B" n="39"/>quid facit: nisi uoluntas eius 
+      praeuenia<lb ed="#B" n="40" break="no"/>tur a gratia, quae deo reconciliet: nihil 
+      <lb ed="#B" n="41"/>meretur merito condigni pro eo, quod est 
+      <lb ed="#B" n="42"/>aduersarius, &amp; inimicus, deus autem 
+      <lb ed="#B" n="43"/>opera non acceptat: nisi prius acce- 
+      <lb ed="#B" n="44"/>ptaret personam. sicut innuitur. 
+      Gen<lb ed="#B" n="45" break="no"/>iiij. Respexit dominus ad Abel, &amp; ad 
+      <lb ed="#B" n="46"/>munera eius. prius ad Abel, &amp; postea 
+      <lb ed="#B" n="47"/>ad munera eius. Cuius ratio: quia 
+      mu<lb ed="#B" n="48" break="no"/>nera cum nihil conferant deo, non 
+      <lb ed="#B" n="49"/>possunt ex se placere deo, sicut 
+      homi<lb ed="#B" n="50" break="no"/>ni possunt placere munera, quae sibi pro 
+      <!--327.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>sunt: etiam si dantur ab eo, qui non 
+      <lb ed="#B" n="52"/>diligitur propter ipsa munera: quia 
+      pro<lb ed="#B" n="53" break="no"/>sunt accipienti. Sed dumtaxat placent 
+      <lb ed="#B" n="54"/>deo ex opere operante: quia operans 
+      <lb ed="#B" n="55"/>placet.
+    </p>
+            <p xml:id="gbs333-b72267-d1e296">
+      ¶ Propter conditionem etiam 
+      <lb ed="#B" n="56"/>operationis: quia nulla est operatio 
+      me<lb ed="#B" n="57" break="no"/>ritoria uisi recta: &amp; nulla est recta, 
+      nisi<lb ed="#B" n="58" break="no"/>fiat ex recta intentione. &amp; nulla potest 
+      <lb ed="#B" n="59"/>esse recta intentio: nisi quae summum 
+      <lb ed="#B" n="60"/>bonum omni bono praeponat. Hoc 
+      au<lb ed="#B" n="61" break="no"/>tem non potest homo facere in statu 
+      na<lb ed="#B" n="62" break="no"/>turae lapsae sine dono gratiae. Non 
+      po<lb ed="#B" n="63" break="no"/>test: id est uix, uel uon nisi 
+      difficillime<lb ed="#B" n="64" break="no"/>potest propter recuruationem uolunta 
+      <lb ed="#B" n="65"/>tis ad seipsum, propter quam nihil 
+      ma<lb ed="#B" n="66" break="no"/>gis se diligit. Indiget ergo gratia, qua se 
+      <lb ed="#B" n="67"/>cleuet supra se ad summum bonum: ideo 
+      <lb ed="#B" n="68"/>quamcunque faciat homo operationem 
+      <lb ed="#B" n="69"/>absque gratia non meretur: quia non 
+      pen<lb ed="#B" n="70" break="no"/>sat deus quantum, sed ex quanto faciat. 
+      <lb ed="#B" n="71"/>Et hoc est quod dicit magister in litera, 
+      <lb ed="#B" n="72"/>quod homo indigebat gratia operante, &amp; 
+      <lb ed="#B" n="73"/>cooperante in statu naturae institutae: 
+      li<lb ed="#B" n="74" break="no"/>cet non secundum omnem modum 
+      gra<lb ed="#B" n="75" break="no"/>tiae operantis.
+    </p>
+            <p xml:id="gbs333-b72267-d1e342">
+      ¶ Secundo notandum, quod de 
+      <lb ed="#B" n="76"/>materia suppositi in quaestione scilicet an 
+      ho<lb ed="#B" n="77" break="no"/>mo in statu naturae institutae habuerit 
+      <lb ed="#B" n="78"/>gratiam. Apud doctores sunt opiniones 
+      <lb ed="#B" n="79"/>contrariae sicut eriam de angelis. Vtrum 
+      <lb ed="#B" n="80"/>habuerint gratiam ante 
+      confirmatio<lb ed="#B" n="81" break="no"/>nem. supra. dis. iiij. recitatae sunt opinio 
+      <lb ed="#B" n="82"/>nes. Nam euidenter sciri non potest (cum 
+      <lb ed="#B" n="83"/>in facto consistat) nisi per reuelationem. 
+      <lb ed="#B" n="84"/>&amp; auctoritates sanctorum hinc inde expo 
+      <lb ed="#B" n="85"/>ni possunt: ideo non nisi probabiliter 
+      ac<lb ed="#B" n="86" break="no"/>cipienda est responsio.
+    </p>
+            <p xml:id="gbs333-b72267-d1e369">
+      ¶ Tertio notandum 
+      <lb ed="#B" n="87"/>quod efficacia meriti principaliter ex 
+      tri<lb ed="#B" n="88" break="no"/>bus colligitur secundum sanctum. Bona. q.v. 
+      <lb ed="#B" n="89"/>huius dist. scilicet ex difficuitate operis, 
+      <lb ed="#B" n="90"/>promptitudine uoluntatis, &amp; ex 
+      magni<lb ed="#B" n="91" break="no"/>tudine charitatis.
+    </p>
+            <p xml:id="gbs333-b72267-d1e382">
+      ¶ Difficultas operis 
+      <lb ed="#B" n="92"/>multum facit ad meritum, &amp; intatum, ut homo, 
+      <lb ed="#B" n="93"/>qui est multo minoris charitatis, quam 
+      an<lb ed="#B" n="94" break="no"/>gelus, possit mereri, ut perueniat ad sub 
+      <lb ed="#B" n="95"/>limitatem angelicam. Sed quod colligitur 
+      <lb ed="#B" n="96"/>ex eo, quod dicitur de Ioanne Baptista 
+      <lb ed="#B" n="97"/>Mat. xj. Qui minor est in regno caelorum, 
+      <lb ed="#B" n="98"/>maior est eo. Nec est dubitandum, 
+      quin<lb ed="#B" n="99" break="no"/>beatus Ioannes sit exaltatus ad ordines 
+      <lb ed="#B" n="100"/>excellentium angelorum, &amp; tamen secundum statum 
+      <!--328.xml-->
+      <pb ed="#B" n="149-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uiae minoris charitatis erat, quam aliquis 
+      <lb ed="#B" n="2"/>eorum: quia minimus in regno caelorum 
+      <lb ed="#B" n="3"/>dicitur maior eo, quod intelligi potest 
+      <lb ed="#B" n="4"/>quantum ad effectu charitatis, non quam 
+      <lb ed="#B" n="5"/>tum ad substantiam habitus.
+    </p>
+            <p xml:id="gbs333-b72267-d1e421">
+      ¶ Etiam 
+      prom<lb ed="#B" n="6" break="no"/>ptitudo uoluntatis plurimu facit ad 
+      me<lb ed="#B" n="7" break="no"/>ritum: quantumcunque enim in homine 
+      <lb ed="#B" n="8"/>sit gratia: nii sit uoluntas gratiae 
+      con<lb ed="#B" n="9" break="no"/>sentanea, nunquam elicit opera 
+      merito<lb ed="#B" n="10" break="no"/>ria, &amp; quanto magis uoluntas gratiae 
+      subia<lb ed="#B" n="11" break="no"/>cet, &amp; conformatur: tanto magis 
+      ho<lb ed="#B" n="12" break="no"/>mo in operibus meritoriis exercetur. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e439">
+               <lb ed="#B" n="13"/>¶ Magnitudo charitatis principaliter 
+      <lb ed="#B" n="14"/>inter omnia facit ad meritum: quod 
+      secun<lb ed="#B" n="15" break="no"/>dum illius quantitatem attenditur 
+      remu<lb ed="#B" n="16" break="no"/>neratio praemij substantialis. Pondus. n. 
+      <lb ed="#B" n="17"/>amoris dat ualorem operibus meritorijs. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e452">
+               <lb ed="#B" n="18"/>¶ Quantum ad articulum secundum, est haec 
+      <lb ed="#B" n="19"/>conclusio prima probabilis. Primus 
+      ho<lb ed="#B" n="20" break="no"/>mo ante lapsum gratiam gratum facientem 
+      <lb ed="#B" n="21"/>habuit, per quam non solum malo resistere, 
+      <lb ed="#B" n="22"/>sed etiam in bono proficere potuit. Haec 
+      <lb ed="#B" n="23"/>conclusio probatur auctoritate magistri 
+      <lb ed="#B" n="24"/>in hac distinctione, &amp; auctoritatu 
+      per<lb ed="#B" n="25" break="no"/>eum allegatarum Augustini, &amp; 
+      Ambio<lb ed="#B" n="26" break="no"/>sij: ut patet in textu. Item glos. Luc. x. 
+      su<lb ed="#B" n="27" break="no"/>per illud. Expoliauerunt eum plagis 
+      im<lb ed="#B" n="28" break="no"/>positis: dicit Expoliauerunt eum 
+      gratui<lb ed="#B" n="29" break="no"/>tis, &amp; uulnerauerunt in naturalibus. 
+      <lb ed="#B" n="30"/>Quod intelligitur de primo homine. 
+      <lb ed="#B" n="31"/>Item Adae datum fuit praeceptum, ut 
+      per<lb ed="#B" n="32" break="no"/>meritum obedientiae mereretur caelum: sed  
+      <lb ed="#B" n="33"/>sine gratia mereri non potuit, ergo 
+      fru<lb ed="#B" n="34" break="no"/>stra datum fuisset mandatum, si non 
+      gra<lb ed="#B" n="35" break="no"/>tia fuisset largita: quod de deo 
+      sentien<lb ed="#B" n="36" break="no"/>dum non est.
+    </p>
+            <p xml:id="gbs333-b72267-d1e496">
+      ¶ Secunda conclusio. 
+      Ratio<lb ed="#B" n="37" break="no"/>ne difficultatis in operando gratia, &amp; 
+      uir<lb ed="#B" n="38" break="no"/>tutes efficaciores sunt ad merendum in sta 
+      <lb ed="#B" n="39"/>tunaturae lapiae; quam fuissent in statu 
+      na<lb ed="#B" n="40" break="no"/>turae conditae. Patet conclusio. quia numc 
+      <lb ed="#B" n="41"/>in statu naturae corruptae magis 
+      impu<lb ed="#B" n="42" break="no"/>gnatur: &amp; impugnando probatur, &amp; 
+      <lb ed="#B" n="43"/>examinatur uirtus, quam tunc: sicut  
+      <lb ed="#B" n="44"/>patet in sanctis martpribus. Item ij. ad 
+      <lb ed="#B" n="45"/>Timo. ij. Nemo coronabitur, nisi qui 
+      le<lb ed="#B" n="46" break="no"/>gitime certauerit. Sed magis 
+      impugna<lb ed="#B" n="47" break="no"/>tur secundum statum naturae lapsae, quam 
+      <lb ed="#B" n="48"/>secundum statum naturae institutae. 
+      Er<lb ed="#B" n="49" break="no"/>go si has pugnas uicerit gloriosius 
+      triun<lb ed="#B" n="50" break="no"/>phat, &amp; sic maiorem meretur coro¬ 
+      <!--328.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>nam. Et per consequens gratia, &amp; 
+      uir<lb ed="#B" n="52" break="no"/>tures, quibus meretur, sunt 
+      efficacio<lb ed="#B" n="53" break="no"/>res.
+    </p>
+            <p xml:id="gbs333-b72267-d1e541">
+      ¶ Item si homo stetisset, aut christus 
+      <lb ed="#B" n="54"/>incarnatus non fuisset, aut non passus. 
+      <lb ed="#B" n="55"/>Passione autem sua non meruit sibi; sed  
+      <lb ed="#B" n="56"/>nobis. Et tam merita nostra, quam ipsa 
+      sa<lb ed="#B" n="57" break="no"/>cramenta efficaciam habent a passione, 
+      <lb ed="#B" n="58"/>&amp; eius fide, quae fuit hostia deo patri 
+      ac<lb ed="#B" n="59" break="no"/>ceptissima. Illam ergo efficaciam non 
+      <lb ed="#B" n="60"/>habuissent merita in statu naturae 
+      insti<lb ed="#B" n="61" break="no"/>tutae: ergo nunc sunt efficaciora.
+    </p>
+            <p xml:id="gbs333-b72267-d1e561">
+      ¶ Item 
+      <lb ed="#B" n="62"/>propter difficultatem magis indiget 
+      ho<lb ed="#B" n="63" break="no"/>mo adiutorio post lapsum, quam ante. 
+      <lb ed="#B" n="64"/>ergo deus, qui in necessariis nulli de est: 
+      <lb ed="#B" n="65"/>efficaciores dat gratiam, &amp; uirtutes in 
+      <lb ed="#B" n="66"/>statu naturae lapsae, quam ante.
+    </p>
+            <p xml:id="gbs333-b72267-d1e574">
+      ¶ Tertia 
+      con<lb ed="#B" n="67" break="no"/>clusio. Quantum ad uoluntatis 
+      prompti<lb ed="#B" n="68" break="no"/>tudinem, gratia &amp; uirtutes tunc, quam nuc, 
+      <lb ed="#B" n="69"/>fuissent efficaciores. Patet: quia 
+      uolun<lb ed="#B" n="70" break="no"/>tas tunc quasi continue fuisset in bonis 
+      <lb ed="#B" n="71"/>operibus deo placentibus, sine 
+      retarda<lb ed="#B" n="72" break="no"/>tione uirium inferiorum: nunc autem 
+      si<lb ed="#B" n="73" break="no"/>ue ex lassitudine, siue ex surreptione fre 
+      <lb ed="#B" n="74"/>quenter cessata bonis operibus. Et inten 
+      <lb ed="#B" n="75"/>dit etiam quandoque inutilibus, aut 
+      no<lb ed="#B" n="76" break="no"/>ciuis: tum propter difficultatem ad 
+      bo<lb ed="#B" n="77" break="no"/>num, tum propter promptitudinem ad 
+      <lb ed="#B" n="78"/>malum. Item amor uisibilium, &amp; 
+      soli<lb ed="#B" n="79" break="no"/>citatio circa terrena impediunt 
+      homi<lb ed="#B" n="80" break="no"/>nem, neperfecte iungatur deo: cum 
+      er<lb ed="#B" n="81" break="no"/>go in statu innocentiae nulla uiguit 
+      con<lb ed="#B" n="82" break="no"/>cupiscentia: uidetur, quod tunc promptius 
+      <lb ed="#B" n="83"/>adhaerebat motioni gratiae &amp; uirtutum, 
+      <lb ed="#B" n="84"/>&amp; ita ex hac parte efficacius erat 
+      dispo<lb ed="#B" n="85" break="no"/>situs ad merendum.
+    </p>
+            <p xml:id="gbs333-b72267-d1e618">
+      ¶ Quarta conclusio. 
+      <lb ed="#B" n="86"/>Comparando personam singularem ad 
+      <lb ed="#B" n="87"/>personam status huius, &amp; illius, gratia 
+      <lb ed="#B" n="88"/>&amp; uirtutes quantum ad magnitudinem 
+      <lb ed="#B" n="89"/>charitatis, habent se in operatione me 
+      <lb ed="#B" n="90"/>ritoria sicut excedentia, &amp; excessa. 
+      Pa<lb ed="#B" n="91" break="no"/>ter: quia satis probabiliter credi 
+      po<lb ed="#B" n="92" break="no"/>test, quod aliqui in statu praesenti habent 
+      <lb ed="#B" n="93"/>maiorem gratiam, &amp; charitatem 
+      ali<lb ed="#B" n="94" break="no"/>quibus, qui fuissent in statu 
+      innocen<lb ed="#B" n="95" break="no"/>tiae: &amp; aliqui minorem: sicut dici 
+      so<lb ed="#B" n="96" break="no"/>set cum comparatur status legis scriptae 
+      <lb ed="#B" n="97"/>ad statum legis euangelice.
+    </p>
+            <p xml:id="gbs333-b72267-d1e647">
+      ¶ Quinta 
+      <lb ed="#B" n="98"/>conclusio. Probabile est comparando 
+      <lb ed="#B" n="99"/>statum ad statum: quod deus maiora 
+      mu<lb ed="#B" n="100" break="no"/>nera gratiae largitus est lapso homini, 
+      <!--329.xml-->
+      <pb ed="#B" n="149-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quam dedisset ei in statu innocentiae 
+      <lb ed="#B" n="2"/>permanenti. Probatur tamen ex parte 
+      homi<lb ed="#B" n="3" break="no"/>nis lapsi, tum ex parte dei, tum ex parte 
+      <lb ed="#B" n="4"/>mediatoris Christi.
+    </p>
+            <p xml:id="gbs333-b72267-d1e671">
+      ¶ Ex parte 
+      homi<lb ed="#B" n="5" break="no"/>nis lapsi, quia homo maiori gratiae 
+      adiu<lb ed="#B" n="6" break="no"/>torio indiget in statu naturae corruptae 
+      <lb ed="#B" n="7"/>ex causis tactis: ergo maiorem deus 
+      tri<lb ed="#B" n="8" break="no"/>buit: quia in necessariis non deficit. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e683">
+               <lb ed="#B" n="9"/>¶ Ex parte dei: quia decet deum de 
+      ma<lb ed="#B" n="10" break="no"/>lo maius bonum elicere, quam sit bonum 
+      <lb ed="#B" n="11"/>illud, quod malum nocendo ademit: 
+      <lb ed="#B" n="12"/>alioquin malum fieri non permitteret 
+      <lb ed="#B" n="13"/>secundum Beatum Aug.
+    </p>
+            <p xml:id="gbs333-b72267-d1e696">
+      ¶ Exparte mediato 
+      <lb ed="#B" n="14"/>ris: quia mediator, &amp; intercessor inter 
+      <lb ed="#B" n="15"/>pellat pro nobis, quem decet exaudiri in 
+      <lb ed="#B" n="16"/>omnibus pro sua reuerentia. Heb. v. Vn 
+      <lb ed="#B" n="17"/>de cum appareat uultui dei semper ad 
+      <lb ed="#B" n="18"/>interpellandum pro nobis. Heb. vij. 
+      Qui<lb ed="#B" n="19" break="no"/>&amp; in cruce pro nobis oblatus est, &amp; 
+      quo<lb ed="#B" n="20" break="no"/>tidie offertur. Valde probabile uidetur, 
+      <lb ed="#B" n="21"/>quod maius munus gratiae tribuatur 
+      no<lb ed="#B" n="22" break="no"/>bis, quam si ipse non fuisset incarnatus, 
+      <lb ed="#B" n="23"/>&amp; passus. Quod innuitur, Ioan. vij. 
+      <lb ed="#B" n="24"/>cum dicitur, quod spiritus nondum erat  
+      <lb ed="#B" n="25"/>datus: quia Tesus nondum erat 
+      glori<lb ed="#B" n="26" break="no"/>ficatus. Vnde cum ascendisset in 
+      al<lb ed="#B" n="27" break="no"/>tum, tunc dedit dona hominibus. Ex 
+      <lb ed="#B" n="28"/>hac ergo triplici ratione, quarum una 
+      <lb ed="#B" n="29"/>est in commendatione misericor diae. 
+      <lb ed="#B" n="30"/>Secunda in commendatione sapientiae 
+      <lb ed="#B" n="31"/>Tertia in commendatione diuinae 
+      iu<lb ed="#B" n="32" break="no"/>stitiae, satis colligitur, quod nunc magis 
+      <lb ed="#B" n="33"/>sunt efficacia dona gratuita ad 
+      meren<lb ed="#B" n="34" break="no"/>dum, quamm in statu innocentiae: non so 
+      <lb ed="#B" n="35"/>lum ratione difficultatis: sed etiam 
+      ra<lb ed="#B" n="36" break="no"/>tione gratiae, &amp; charitatis: secus tamen 
+      <lb ed="#B" n="37"/>ratione promptitudinis uoluntatis. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e751">
+               <lb ed="#B" n="38"/>¶ Quantum ad tertium articulum 
+      du<lb ed="#B" n="39" break="no"/>bitatur primo. Vtrum homo in statu in 
+      <lb ed="#B" n="40"/>nocentiae absque dono gratiae fuerit ac 
+      <lb ed="#B" n="41"/>ceptus deo, &amp; uidetur quod sic: quiam 
+      <lb ed="#B" n="42"/>statu illo homo nihilhabuit, quod fuit 
+      <lb ed="#B" n="43"/>dignum odio: quia nullum peccatum, 
+      <lb ed="#B" n="44"/>diligitautem deus omnia, &amp; nihil 
+      odis<lb ed="#B" n="45" break="no"/>eorum, quae fecit. ut innuitur Sap. xi. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e771">
+               <lb ed="#B" n="46"/>¶ Item artifex complacet sibi in suo 
+      o<lb ed="#B" n="47" break="no"/>pere, in quo defectus non est, talis fuit 
+      <lb ed="#B" n="48"/>homo in statu naturae conditae: 
+      secun<lb ed="#B" n="49" break="no"/>dum illud Gen. j. Vidit deus cuncta, 
+      <lb ed="#B" n="50"/>quae fecerat, &amp; erant ualde bona. 
+      <!--329.xml-->
+      <cb ed="#B" n="b"/>
+            </p>
+            <p xml:id="gbs333-b72267-d1e789">
+               <lb ed="#B" n="51"/>¶ Ad hoc dubium respondet sanctus Bo 
+      <lb ed="#B" n="52"/>nauen. q. i. huius dist. praemittendo, quod du. Duplici 
+      <lb ed="#B" n="53"/>pliciter contingit aliqud acceptari a deo. ter 
+      ali<lb ed="#B" n="54" break="no"/>Vno modo acceptatione generali, quo quid 
+      <lb ed="#B" n="55"/>modo idem est acceptare, &amp; bonum aesti. Deo 
+      at<lb ed="#B" n="56" break="no"/>mare, &amp; in bono conseruare: &amp; hac acce ceptum. 
+      <lb ed="#B" n="57"/>ptatione deus acceptat omne opus 
+      bo<lb ed="#B" n="58" break="no"/>num. Alia est acceptatio specialis, qua 
+      <lb ed="#B" n="59"/>acceptat aliquid tanquam dignum uita 
+      <lb ed="#B" n="60"/>aeterna. quo modo acceptat solam 
+      ratio<lb ed="#B" n="61" break="no"/>nalem creaturam, illa enim tantum 
+      ca<lb ed="#B" n="62" break="no"/>pax est beatitudinis. De hoc latius 
+      O<lb ed="#B" n="63" break="no"/>ckam in. j. distin. xvij. quaest. j. Acceptat  
+      <lb ed="#B" n="64"/>autem rationalem creaturam tamenc: cum conse 
+      <lb ed="#B" n="65"/>crat eam in templum, adoptat in filium, 
+      <lb ed="#B" n="66"/>&amp; assumit in coniugium. Animae 
+      quippe<lb ed="#B" n="67" break="no"/>sanctae, quae deo placent, dicuntur templum 
+      dei<lb ed="#B" n="68" break="no"/>filiae; &amp; sponsae: ut patet ex scripturis 
+      utri<lb ed="#B" n="69" break="no"/>usque testamenti. Primum acceptationis 
+      ge<lb ed="#B" n="70" break="no"/>nus non requirit superadditum donum 
+      <lb ed="#B" n="71"/>gratiae ultra ea, quae sunt de conditione 
+      <lb ed="#B" n="72"/>naturae. Secundum uero genus non 
+      po<lb ed="#B" n="73" break="no"/>test non esse gratuitum, tum propter 
+      gra<lb ed="#B" n="74" break="no"/>tuitam deicondescensionem, tum propter 
+      <lb ed="#B" n="75"/>creaturae super naturae terminos 
+      exal<lb ed="#B" n="76" break="no"/>tationem. Cum enim deus immensus 
+      ha<lb ed="#B" n="77" break="no"/>bitare uelit in anima, ut in templo, 
+      ser<lb ed="#B" n="78" break="no"/>uum reputare pro filio, ancillam 
+      assume<lb ed="#B" n="79" break="no"/>re pro coniugio, dubitare nemo potest 
+      <lb ed="#B" n="80"/>illud esse merae gratiae, &amp; 
+      condescensio<lb ed="#B" n="81" break="no"/>nis liberalissimae. Similiter, quod creatura 
+      <lb ed="#B" n="82"/>sic consecretur in dei templum, adopte 
+      <lb ed="#B" n="83"/>tur in filium, assumatur in coniugium 
+      <lb ed="#B" n="84"/>est supernaturale complementum 
+      om<lb ed="#B" n="85" break="no"/>nis creaturae. Ideo nec consecratio: nec 
+      <lb ed="#B" n="86"/>adoptio naturae: nec unio animae ad defum 
+      <lb ed="#B" n="87"/>sit per aliquam proprietatem naturae: sed  
+      <lb ed="#B" n="88"/>per aliquod donum gratiae naturae super 
+      <lb ed="#B" n="89"/>additum, quo anima consecretur, ut sit 
+      <lb ed="#B" n="90"/>templum, assimiletur, ut sit dei filia, 
+      de<lb ed="#B" n="91" break="no"/>coretur, ut sit dei sponsa. Haec aunt omnia 
+      <lb ed="#B" n="92"/>facit gratia gratum faciens, quae quia est 
+      <lb ed="#B" n="93"/>summum donum dei creatu: animam cui 
+      <lb ed="#B" n="94"/>infunditur sanctificat, deo assimilat, 
+      ip<lb ed="#B" n="95" break="no"/>samqueuenustat. Et per hoc est ratio 
+      ac<lb ed="#B" n="96" break="no"/>ceptandi animam secundum has pro- 
+      <lb ed="#B" n="97"/>prietates supradictas, quae conueniunt 
+      <lb ed="#B" n="98"/>animae: non secundum tropum aut 
+      tran<lb ed="#B" n="99" break="no"/>sumptionem, sed secundum ueritatem, 
+      <lb ed="#B" n="100"/>&amp; proprietatem. Haec ratio, &amp; con¬ 
+      <!--330.xml-->
+      <pb ed="#B" n="150-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gruentia sumpta est ex parte animae 
+      ac<lb ed="#B" n="2" break="no"/>ceptatae.
+    </p>
+            <p xml:id="gbs333-b72267-d1e911">
+      ¶ Potest etiam sumi 
+      congru<lb ed="#B" n="3" break="no"/>entia ex parte dei acceptantis: deus. n. 
+      <lb ed="#B" n="4"/>qui omnia fecit ad gloriam suam: 
+      secun<lb ed="#B" n="5" break="no"/>dum illud Prouerb. xvj. Vniuersa 
+      pro<lb ed="#B" n="6" break="no"/>pter semetipsum opatus est dominus. Et  
+      <lb ed="#B" n="7"/>cum nullius indiget potissime requirit a 
+      <lb ed="#B" n="8"/>creatura rationali honorem. Et quia 
+      <lb ed="#B" n="9"/>honorem deo exhibemus, quamdo omnia in 
+      <lb ed="#B" n="10"/>ipsum referimus, tanquam in omnium 
+      au<lb ed="#B" n="11" break="no"/>ctorem, &amp; finem: decreuit deus homines 
+      <lb ed="#B" n="12"/>non producere ad perfectionem gloriae 
+      <lb ed="#B" n="13"/>per aliquid, quod haberet ortum ex 
+      prin<lb ed="#B" n="14" break="no"/>cipiis naturae: sed per munus additum 
+      <lb ed="#B" n="15"/>naturalibus: ut ex hoc homo magis 
+      gra<lb ed="#B" n="16" break="no"/>tus existeret, &amp; totius salutis suae opus 
+      <lb ed="#B" n="17"/>deo attribueret. Vnde patet responsio 
+      <lb ed="#B" n="18"/>ad dubium negatiua: loquendo de acce- 
+      <lb ed="#B" n="19"/>ptatione illa speciali ad uitam 
+      beatifican<lb ed="#B" n="20" break="no"/>Sic enim nulla creatura acceptatur, siue 
+      <lb ed="#B" n="21"/>angelica siue humana, sine gratia 
+      gratum<lb ed="#B" n="22" break="no"/>faciente. Rationes uero in contrarium 
+      <lb ed="#B" n="23"/>procedunt de complacentia primo 
+      mo<lb ed="#B" n="24" break="no"/>duo dicta, quae se extendit ad uniuersa 
+      <lb ed="#B" n="25"/>creata.
+    </p>
+            <p xml:id="gbs333-b72267-d1e964">
+      ¶ Posset moueri dubium, Vtrum 
+      <lb ed="#B" n="26"/>Adam creatus esset in gratia. Sed quia 
+      <lb ed="#B" n="27"/>simile tractatum est supra de angelis, &amp; 
+      <lb ed="#B" n="28"/>eodem modo erit dicendum hic sicut  
+      <lb ed="#B" n="29"/>ibi: ideo rescinditur.
+    </p>
+            <p xml:id="gbs333-b72267-d1e975">
+      ¶ Secundo dubita 
+      <lb ed="#B" n="30"/>tur contra conclusionem primam: quia 
+      <lb ed="#B" n="31"/>non uidetur, quod deus gratiam dedit ei, 
+      <lb ed="#B" n="32"/>quem sciebat statim lapsurum: &amp; ita 
+      gra<lb ed="#B" n="33" break="no"/>tiam non fuisse sibi ut ilem: sed potius 
+      ei<lb ed="#B" n="34" break="no"/>esse in nocumentum, &amp; culpae 
+      aggraua<lb ed="#B" n="35" break="no"/>tionem. similiter cum Adam habuit 
+      op<lb ed="#B" n="36" break="no"/>tima naturalia, &amp; nullam pronitatem 
+      <lb ed="#B" n="37"/>ad malum, nec difficultatem ad bonum, 
+      <lb ed="#B" n="38"/>si habuisset gratiam, totaliter deo 
+      ad<lb ed="#B" n="39" break="no"/>haesisset, &amp; in peccatum non cecidisset 
+      <lb ed="#B" n="40"/>Solutio: deus in conferendo gratiam non 
+      <lb ed="#B" n="41"/>attendit futura peccata: sed praesentem 
+      <lb ed="#B" n="42"/>dispositionem, &amp; idoneitatem ad 
+      reci<lb ed="#B" n="43" break="no"/>piendum gratiam, sicut &amp; modo confert 
+      <lb ed="#B" n="44"/>gratiam ei, quem scit casurum: immo 
+      <lb ed="#B" n="45"/>quem ab aeterno reprobauit, nec 
+      fru<lb ed="#B" n="46" break="no"/>stra. Nouit enim dominus etiam 
+      bo<lb ed="#B" n="47" break="no"/>num ex lapsu elicere, &amp; ex eo, quod 
+      gra<lb ed="#B" n="48" break="no"/>tiam confert casuro. In utroque enim 
+      <lb ed="#B" n="49"/>commendatur deilargitas, &amp; sapientia: 
+      <lb ed="#B" n="50"/>&amp; arguitur hominis ingratitudo, &amp; in¬ 
+      <!--330.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>iustitia, qui a tauma benefico, &amp; benigno 
+      se<lb ed="#B" n="52" break="no"/>auertit sine causa. Hoc quoad primum. 
+    </p>
+            <p xml:id="gbs333-b72267-d1e1032">
+               <lb ed="#B" n="53"/>¶ Quoad secundum dicitur, quod gratia non 
+      <lb ed="#B" n="54"/>necessitathoiem ad bonum: sicut nec 
+      ha<lb ed="#B" n="55" break="no"/>bitus acqusitus uirtuosus necessitat 
+      ho<lb ed="#B" n="56" break="no"/>minem ad opus uirtutis, inclinat autem, sed  
+      <lb ed="#B" n="57"/>libertatem arbitrij non tollit. Ideo habens 
+      <lb ed="#B" n="58"/>gratiam per li. ar. moueri potest, &amp; frequem 
+      <lb ed="#B" n="59"/>ter mouetur, praeter gratiae inclinationem: 
+      <lb ed="#B" n="60"/>nihilconsiderans de eo, ad quod gratia 
+      <lb ed="#B" n="61"/>inclinat. Vnde saepe contingit habentem 
+      <lb ed="#B" n="62"/>gratiam non semper actualiter ferri in 
+      <lb ed="#B" n="63"/>illud summum bonu, ad quod habet desiderium 
+      <lb ed="#B" n="64"/>habituale. Quis enim homo habens 
+      cha<lb ed="#B" n="65" break="no"/>ritatem peccaret: si semper actu conside 
+      <lb ed="#B" n="66"/>raret, quantum deus amabilis est, &amp; quam 
+      <lb ed="#B" n="67"/>nefas est offendere eum. Vnde accipitur 
+      <lb ed="#B" n="68"/>salubris regula, quod homo per deuotas 
+      me<lb ed="#B" n="69" break="no"/>ditationes se conuertat frequenter ad 
+      do<lb ed="#B" n="70" break="no"/>minum, considerando actualiter eius 
+      bo<lb ed="#B" n="71" break="no"/>nitatem: &amp; peccati, inquantum contra 
+      <lb ed="#B" n="72"/>tamen bonum est, malitiam, sic. nione numquam 
+      pecca<lb ed="#B" n="73" break="no"/>ret.
+    </p>
+            <p xml:id="gbs333-b72267-d1e1080">
+      ¶ Tertio dubitatur. Vtrum homo in 
+      <lb ed="#B" n="74"/>statu innocentiae habuit omnes uirtutes 
+      <lb ed="#B" n="75"/>&amp; gratias, quas habet post sapsum.
+    </p>
+            <p xml:id="gbs333-b72267-d1e1087">
+      ¶ 
+      Re<lb ed="#B" n="76" break="no"/>spondetur loquendo de donis gratiae 
+      gra<lb ed="#B" n="77" break="no"/>tis datae, &amp; comparando statum ad statu, 
+      ali<lb ed="#B" n="78" break="no"/>qua dona habuit Adam aanm lapsum, quae non 
+      <lb ed="#B" n="79"/>habuit ipse, uel aliquis posterior post 
+      la<lb ed="#B" n="80" break="no"/>psum, &amp; econuerso. Aliqua dona 
+      habue<lb ed="#B" n="81" break="no"/>runt posteri, quae non habuit ipse ante 
+      <lb ed="#B" n="82"/>casum. Primupatet de originali iusti 
+      <lb ed="#B" n="83"/>tia, &amp; de dono, quo potuit non 
+      mori<lb ed="#B" n="84" break="no"/>Secundum patet de gratia sanitatum 
+      ope<lb ed="#B" n="85" break="no"/>ratione uirtutum, &amp; gratia linguarum. 
+      <lb ed="#B" n="86"/>Alia enim dona conueniebant 
+      illitem<lb ed="#B" n="87" break="no"/>pori, alia isti. Sed loquendo de gratia 
+      gra<lb ed="#B" n="88" break="no"/>tum faciente, &amp; uirtutibus infusis, illa 
+      <lb ed="#B" n="89"/>caedem fuerunt in utroque, statu, quantum 
+      <lb ed="#B" n="90"/>ad habitus, non quantum ad actus 
+      om<lb ed="#B" n="91" break="no"/>nes: quia non fuisset ibi actus 
+      fortitu<lb ed="#B" n="92" break="no"/>dinis in perpessione terribilium, quae ibi 
+      <lb ed="#B" n="93"/>non fuisset: nec actus penitentiae; qui 
+      con<lb ed="#B" n="94" break="no"/>sistit in detestatione peccatorum 
+      com<lb ed="#B" n="95" break="no"/>mistorum. Et sic de similibus actibus, 
+      qui<lb ed="#B" n="96" break="no"/>habent aliquam imperfectionem 
+      anne<lb ed="#B" n="97" break="no"/>xam. Aum autem illae uirtutes ibi habuissent 
+      <lb ed="#B" n="98"/>aliquos actus, &amp; quos, uidendum erit in 
+      <lb ed="#B" n="99"/>tertio lib. quia eadem quaestio, quae est 
+      <lb ed="#B" n="100"/>de actibus eorum in beatitudine. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

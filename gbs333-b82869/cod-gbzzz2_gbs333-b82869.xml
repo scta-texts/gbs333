@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="170-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b82869"><!-- l2-d37prae -->
+            <head xml:id="gbs333-b82869-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b82869-d1e103">
+               <lb ed="#B" n="20"/>DISTINCTIO xxxVII 
+      <lb ed="#B" n="21"/>VTT suprade 
+      pecca<lb ed="#B" n="22" break="no"/>to actuali quantum 
+      <lb ed="#B" n="23"/>ad eius quidditatem 
+      <lb ed="#B" n="24"/>secundum opinionem 
+      <lb ed="#B" n="25"/>unam. In hac 
+      distin<lb ed="#B" n="26" break="no"/>ctione agit de eodem 
+      <lb ed="#B" n="27"/>secundum opinionem 
+      <lb ed="#B" n="28"/>aliam, neutram tamen determinando 
+      as<lb ed="#B" n="29" break="no"/>serit: sed iudicium earum lectoris 
+      iudi<lb ed="#B" n="30" break="no"/>cio, siue arbitrio derelinquit.
+    </p>
+            <p xml:id="gbs333-b82869-d1e129">
+      ¶ 
+      Senten<lb ed="#B" n="31" break="no"/>tia ergo huius distinctionis in his tribus 
+      <lb ed="#B" n="32"/>conclusionibus summaric continetur 
+    </p>
+            <p xml:id="gbs333-b82869-d1e136">
+               <lb ed="#B" n="33"/>¶ Prinia conclusio. Aliorum 
+      opinio<lb ed="#B" n="34" break="no"/>actus malos uoluntatis, locutionis &amp; 
+      <lb ed="#B" n="35"/>operis peccata esse asserit, quae nullo modo 
+      <lb ed="#B" n="36"/>a deo fore: nec ulla ratione esse bona 
+      <lb ed="#B" n="37"/>contendit.
+    </p>
+            <p xml:id="gbs333-b82869-d1e149">
+      ¶ Secunda conclusio 
+      secun<lb ed="#B" n="38" break="no"/>dum eosdem: Actus mali, &amp; peccata 
+      <lb ed="#B" n="39"/>non sunt substantiae, uel naturae: sed  
+      <lb ed="#B" n="40"/>dicuntur nihil: non quod non sint res 
+      <lb ed="#B" n="41"/>alique: sed quia separant a uero esse 
+      <lb ed="#B" n="42"/>summi, scilicet boni participatione. 
+    </p>
+            <p xml:id="gbs333-b82869-d1e163">
+               <lb ed="#B" n="43"/>¶ Tertia conclusio. Cum secundum 
+      <lb ed="#B" n="44"/>omnes deus mali auctor esse negatur: 
+      <lb ed="#B" n="45"/>non de malo poenae: sed de malo culpae 
+      <lb ed="#B" n="46"/>dictum intelligitur. Has conclusiones 
+      <lb ed="#B" n="47"/>magister prosequitur latius 
+      declaran<lb ed="#B" n="48" break="no"/>do. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="187-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b91200"><!-- l2-d42prae -->
+            <head xml:id="gbs333-b91200-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b91200-d1e103">
+      <!--404.xml-->
+               <pb ed="#B" n="187-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>DISTINCTIO xxxxII 
+      <lb ed="#B" n="2"/>N hac distinctione 
+      <lb ed="#B" n="3"/>xlij. agit de peccato 
+      <lb ed="#B" n="4"/>actuali quantum ad 
+      ua<lb ed="#B" n="5" break="no"/>riam eius distinctionem, 
+      <lb ed="#B" n="6"/>tam actus exterioris 
+      <lb ed="#B" n="7"/>ab interiori, quam 
+      <lb ed="#B" n="8"/>utrorumque in 
+      diuer<lb ed="#B" n="9" break="no"/>sas species, &amp; membra. Et sumatur 
+      sen<lb ed="#B" n="10" break="no"/>tentia textus in tribus conclusionibus, 
+      <lb ed="#B" n="11"/>quarum prima.
+    </p>
+            <p xml:id="gbs333-b91200-d1e136">
+      ¶ Quamuis uoluntas actus 
+      <lb ed="#B" n="12"/>&amp; actio exterior in eodem, &amp; respectu 
+      <lb ed="#B" n="13"/>eiusdem sint res duae numero distinctae: 
+      <lb ed="#B" n="14"/>unum tamen sunt peccatum diuersis 
+      man<lb ed="#B" n="15" break="no"/>datis prohibitae.
+    </p>
+            <p xml:id="gbs333-b91200-d1e147">
+      ¶ Secunda: Transeunte 
+      <lb ed="#B" n="16"/>actu peccati interiori, &amp; exteriori ab 
+      <lb ed="#B" n="17"/>anima, manet ipsa reatu poenae 
+      obliga<lb ed="#B" n="18" break="no"/>ta:
+    </p>
+            <p xml:id="gbs333-b91200-d1e156">
+      ¶ Tertia conclusio. Variae sunt 
+      distin<lb ed="#B" n="19" break="no"/>ctiones peccatorum, quorum superbia, seu 
+      <lb ed="#B" n="20"/>cupiditas radix est, &amp; initium omnium 
+      ma<lb ed="#B" n="21" break="no"/>lorum.
+    </p>
+            <p xml:id="gbs333-b91200-d1e166">
+      ¶ Ponit autem magister 
+      sextu<lb ed="#B" n="22" break="no"/>plicem peccati diuisionem: quibus 
+      prae<lb ed="#B" n="23" break="no"/>misit supra dist. xxx. aliam. Accipiuntur 
+      <lb ed="#B" n="24"/>autem illae peccatorum distinctiones penes 
+      <lb ed="#B" n="25"/>aliam, &amp; aliam peccati comparationem, 
+      <lb ed="#B" n="26"/>siue considerationem. Nam si peccatum 
+      consi<lb ed="#B" n="27" break="no"/>deratur in ordine ad causam: tunc 
+      diui<lb ed="#B" n="28" break="no"/>ditur in originale, &amp; actuale. Ad poenamn: 
+      <lb ed="#B" n="29"/>&amp; sic diuiditur in mortale, &amp; ueniale. 
+      <lb ed="#B" n="30"/>Ad motiuum: &amp; sic diuiditur in 
+      pecca<lb ed="#B" n="31" break="no"/>tum ex amore, &amp; peccatum ex timore. 
+      <lb ed="#B" n="32"/>Ad actum substractum: &amp; sic diuiditur in 
+      <lb ed="#B" n="33"/>peccatum cogitationis, oris, operis, &amp; 
+      <lb ed="#B" n="34"/>additur consuetudinis. Ad obiectum, 
+      <lb ed="#B" n="35"/>contra quod peccatur: &amp; sic diuiditur 
+      <lb ed="#B" n="36"/>in peccatum in deum, seipsum, &amp; 
+      pro<lb ed="#B" n="37" break="no"/>ximum. Ad mandatum, cui opponitur: 
+      <lb ed="#B" n="38"/>&amp; sic diuiditur in peccatum, &amp; delictum: 
+      <lb ed="#B" n="39"/>i. in peccatum conmissionis, &amp; omissionis. 
+      <lb ed="#B" n="40"/>Ad uitia. a quibus oritur: &amp; sic diuiditur 
+      <lb ed="#B" n="41"/>in septem uitia capitalia. Sunt tamen &amp; 
+      aliaedi<lb ed="#B" n="42" break="no"/>uisiones ad illas reducibiles, quas 
+      ma<lb ed="#B" n="43" break="no"/>gister non ponit: quaere in sancto 
+      Bona<lb ed="#B" n="44" break="no"/>uem. in dubijs literalibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

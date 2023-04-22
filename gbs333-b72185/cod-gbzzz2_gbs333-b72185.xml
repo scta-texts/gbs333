@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="148-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b72185"><!-- l2-d29prae -->
+            <head xml:id="gbs333-b72185-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b72185-d1e103">
+      <!--326.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>DISTINCTIO xxIx 
+      <lb ed="#B" n="49"/>OVTQVAM 
+      ma<lb ed="#B" n="50" break="no"/>gister determina 
+      <lb ed="#B" n="51"/>uit de gratia 
+      quan<lb ed="#B" n="52" break="no"/>tum ad statum 
+      na<lb ed="#B" n="53" break="no"/>turae hominis lapsae: 
+      <lb ed="#B" n="54"/>in hac dist. xxix. 
+      <lb ed="#B" n="55"/>agit de eadem gratia 
+      <lb ed="#B" n="56"/>quantum ad statum naturae 
+      integraein<lb ed="#B" n="57" break="no"/>uestigans an homo ante 
+      peccatiregue<lb ed="#B" n="58" break="no"/>rit gratia, ac uirtutibus: annectens de 
+      poe<lb ed="#B" n="59" break="no"/>na expulsionis de paradiso, quam 
+      inci<lb ed="#B" n="60" break="no"/>dit per peccatum. Et potest sententia tex 
+      <lb ed="#B" n="61"/>tus in his tribus conclusionibus colligi¬ 
+    </p>
+            <p xml:id="gbs333-b72185-d1e140">
+               <lb ed="#B" n="62"/>¶ Prima conclusio. Homo in statu 
+      in<lb ed="#B" n="63" break="no"/>nocentiae gratia, &amp; uirtutibus ad libera 
+      <lb ed="#B" n="64"/>tionem sui a peccato non indiguit: sed  
+      <lb ed="#B" n="65"/>ad operis boni efficaciam, &amp; meritorum 
+      <lb ed="#B" n="66"/>carere non potuit.
+    </p>
+            <p xml:id="gbs333-b72185-d1e153">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="67"/>Homo peccati demerito eiectus de para 
+      <lb ed="#B" n="68"/>diso ne indignus sumeret de ligno uitae 
+      <lb ed="#B" n="69"/>per angelicum ministerium, &amp; custodia 
+      <lb ed="#B" n="70"/>igneam in ipsum prohibitus est redire. 
+    </p>
+            <p xml:id="gbs333-b72185-d1e164">
+               <lb ed="#B" n="71"/>¶ Tertia conclusio. Licet Adam 
+      insta<lb ed="#B" n="72" break="no"/>tuinnocentiae comederit de ligno 
+      ui<lb ed="#B" n="73" break="no"/>tae secundum quorundam opinionem: quia 
+      <lb ed="#B" n="74"/>tamen eius usum non habuit, non 
+      obti<lb ed="#B" n="75" break="no"/>nuit immortalitatem. Harum declara 
+      <lb ed="#B" n="76"/>tio patet in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

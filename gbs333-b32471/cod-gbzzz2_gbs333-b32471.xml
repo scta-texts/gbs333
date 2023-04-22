@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="67-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b32471"><!-- l2-d9prae -->
+            <head xml:id="gbs333-b32471-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b32471-d1e103">
+               <lb ed="#B" n="25"/>DISTINCTIO IX 
+      <lb ed="#B" n="26"/>VIT supra de 
+      ange<lb ed="#B" n="27" break="no"/>lorum habitudine 
+      <lb ed="#B" n="28"/>quantum ad corpora 
+      <lb ed="#B" n="29"/>assumpta, &amp; aliena: 
+      <lb ed="#B" n="30"/>consequenter agit 
+      <lb ed="#B" n="31"/>de habitudine eorum, 
+      <lb ed="#B" n="32"/>quantum ad 
+      distin<lb ed="#B" n="33" break="no"/>ctionem, muiis ionem &amp; ministeria in 
+      tri<lb ed="#B" n="34" break="no"/>bus sessientibus distinctionibus. In 
+      prae<lb ed="#B" n="35" break="no"/>senti de eorum distinctione: in decima 
+      <lb ed="#B" n="36"/>de eorum missione; in undecima de cum 
+      <lb ed="#B" n="37"/>stodiae administratione.
+    </p>
+            <p xml:id="gbs333-b32471-d1e134">
+      ¶ Colligitur 
+      au<lb ed="#B" n="38" break="no"/>tem sententia textus in his tribus 
+      con<lb ed="#B" n="39" break="no"/>clusionibus.
+    </p>
+            <p xml:id="gbs333-b32471-d1e141">
+      ¶ Prima conclusio Ter 
+      tri<lb ed="#B" n="40" break="no"/>ni sunt angelorum ordines sub 
+      hicrar<lb ed="#B" n="41" break="no"/>chiatriplici, nominibus &amp; donis 
+      excel<lb ed="#B" n="42" break="no"/>lentioribus impositis distincti.
+    </p>
+            <p xml:id="gbs333-b32471-d1e150">
+      ¶ Secunda 
+      <lb ed="#B" n="43"/>conclusio. In eisdem angelorum 
+      ordi<lb ed="#B" n="44" break="no"/>nibus post creationem per gratuita 
+      do<lb ed="#B" n="45" break="no"/>na distinctis, plures sunt angeli 
+      dispa<lb ed="#B" n="46" break="no"/>res in gratia, atque donis.
+    </p>
+            <p xml:id="gbs333-b32471-d1e162">
+      ¶ Tertia. 
+      As<lb ed="#B" n="47" break="no"/>sumendi sunt homines ad singulos or¬ 
+      <!--164.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>dines angelorum secundum numerum 
+      <lb ed="#B" n="49"/>spirituum beatorum.
+    </p>
+            <p xml:id="gbs333-b32471-d1e175">
+      ¶ Conclusiones 
+      <lb ed="#B" n="50"/>illae in textu declarantur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

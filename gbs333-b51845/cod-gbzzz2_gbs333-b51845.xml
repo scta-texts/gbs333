@@ -1,0 +1,895 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="106-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b51845"><!-- l2-d17q1 -->
+            <head xml:id="gbs333-b51845-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b51845-Hd1e103" type="question-title">
+      Utrum 
+      anima rationalis sit ex 
+      tradue ce, et educta de potentia 
+      materiae
+    </head>
+            <p xml:id="gbs333-b51845-d1e106">
+               <lb ed="#B" n="5"/>QVAESTIO I 
+      <lb ed="#B" n="6"/>QVAERITVR circa hanc 
+      <lb ed="#B" n="7"/>quod distinctionem. Vtrum 
+      ani<lb ed="#B" n="8" break="no"/>ma rationalis sit ex 
+      tradu<lb ed="#B" n="9" break="no"/>e ce, &amp; educta de potentia 
+      ma<lb ed="#B" n="10" break="no"/>teriae. In quaestione erunt tres articuli. 
+      <lb ed="#B" n="11"/>Primus terminos declarabit. Secundus 
+      <lb ed="#B" n="12"/>ad quaestionem respondebit. Tertius 
+      mo<lb ed="#B" n="13" break="no"/>uebit dubia.
+    </p>
+            <p xml:id="gbs333-b51845-d1e128">
+      ¶ Quantum ad primum notandum, 
+      <lb ed="#B" n="14"/>quod animam esse ex traduce dupliciter 
+      <lb ed="#B" n="15"/>potest intelligi. Vno modo est animam 
+      <lb ed="#B" n="16"/>esse diuisam ab anima, seu forma 
+      gene<lb ed="#B" n="17" break="no"/>rantis: aut animam secundum aliquam 
+      sui<lb ed="#B" n="18" break="no"/>partem in ea realiter manentem, fuisse 
+      <lb ed="#B" n="19"/>in principio suo productiuo. Illo modo 
+      <lb ed="#B" n="20"/>corpus animalis per seminis transfusio 
+      <lb ed="#B" n="21"/>nem propagatum, cuius seminis 
+      mate<lb ed="#B" n="22" break="no"/>ria manet in corpore, ppagato: dicitur 
+      <lb ed="#B" n="23"/>esse ex traduce: similiter &amp; totum 
+      composi<lb ed="#B" n="24" break="no"/>tum propter eius partem, quae est 
+      cor<lb ed="#B" n="25" break="no"/>pus. Secundo modo aliquid esse ex 
+      tra<lb ed="#B" n="26" break="no"/>duce est aliquid educi de potentia mate 
+      <lb ed="#B" n="27"/>riae concurrente aliqua uirtute 
+      naturali<lb ed="#B" n="28" break="no"/>effectiue decisa a principio generante. 
+      <lb ed="#B" n="29"/>Illo modo anima bruti sensitiua est ex 
+      <lb ed="#B" n="30"/>traduce: quia educitur de potentia 
+      ma<lb ed="#B" n="31" break="no"/>teriae uirture seminis a principio 
+      gene<lb ed="#B" n="32" break="no"/>rante decisi: actiue ad productionem 
+      ani<lb ed="#B" n="33" break="no"/>mae brutalis concurrente. Primo autem 
+      <lb ed="#B" n="34"/>modo nulla forma substantialis est ex 
+      <lb ed="#B" n="35"/>traduce: quia nihil substantialis formae, 
+      <lb ed="#B" n="36"/>quae generatur: aliquid praefuit in 
+      gene<lb ed="#B" n="37" break="no"/>rante: quia nihil alterius rationis a 
+      for<lb ed="#B" n="38" break="no"/>ma genita; cum forma sit substantia 
+      sim<lb ed="#B" n="39" break="no"/>plex non composita ex partibus 
+      diuersa<lb ed="#B" n="40" break="no"/>rum rationum: nec aliquid eiusdem 
+      ra<lb ed="#B" n="41" break="no"/>tionis cum forma genita: quia uel tota 
+      <lb ed="#B" n="42"/>forma praefuit in generante, uel pars. 
+      <lb ed="#B" n="43"/>Non tota: quia tunc non generaretur; 
+      <lb ed="#B" n="44"/>cum non acciperet esse de nouo: quia 
+      <lb ed="#B" n="45"/>praefuit in generante. Nec pars quia 
+      <lb ed="#B" n="46"/>tunc illa pars non generaretur; quia 
+      prae<lb ed="#B" n="47" break="no"/>fuit. Nec reliqua pars de nouo ad 
+      geni<lb ed="#B" n="48" break="no"/>ta: quia illius partis nihil praefuit in ge¬ 
+      <!--243.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>nerante; &amp; ita illa pars non esset ex 
+      tra<lb ed="#B" n="50" break="no"/>duce: &amp; ita nec totum.
+    </p>
+            <p xml:id="gbs333-b51845-d1e215">
+      ¶ Secundo 
+      sup<lb ed="#B" n="51" break="no"/>ponitur ex dictis in q. j. huius secundi, 
+      <lb ed="#B" n="52"/>quid sit educi de potetia materiae.
+    </p>
+            <p xml:id="gbs333-b51845-d1e223">
+      ¶ Ter 
+      <lb ed="#B" n="53"/>tio notandum, quod de materia huius 
+      quae<lb ed="#B" n="54" break="no"/>stionis plures fuere opiniones. Vna 
+      <lb ed="#B" n="55"/>fuit, quam etiam magister tangit in 
+      li<lb ed="#B" n="56" break="no"/>tera: quod anima est de substantia dei. Alex. 
+      <lb ed="#B" n="57"/>parte ij. q. Ix. unde arguunt. Bormauit  
+      <lb ed="#B" n="58"/>deus hominem de limo terrae: &amp; 
+      inspi<lb ed="#B" n="59" break="no"/>rauit in faciem eius spiraculum uitae. hoc  
+      <lb ed="#B" n="60"/>spiraculum fuit anima: ergo inspirauit  
+      <lb ed="#B" n="61"/>animam: ergo anima est spiritus, uel 
+      fla<lb ed="#B" n="62" break="no"/>tus dei: sed spiritus dei non est nisi de 
+      <lb ed="#B" n="63"/>deo. Item Ioan. xx. Insufflauit in eos 
+      <lb ed="#B" n="64"/>dicens. Accipite spiritumsanctum &amp;c. 
+      <lb ed="#B" n="65"/>Nihil autem aliud est spiritus, quem 
+      in<lb ed="#B" n="66" break="no"/>sufflauit nisi spiritus procedens de 
+      sub<lb ed="#B" n="67" break="no"/>stantia patris, &amp; filij. Ideo dicit ibi glo. 
+      <lb ed="#B" n="68"/>Augu. quod in hoc ostendit ex se 
+      procede<lb ed="#B" n="69" break="no"/>re spiritum sanctum. Ergo pari ratione. 
+      <lb ed="#B" n="70"/>flatus ille, quem spirauit in faciem 
+      ho<lb ed="#B" n="71" break="no"/>minis, fuit de substantia dei.
+    </p>
+            <p xml:id="gbs333-b51845-d1e267">
+      ¶ Item 
+      Et<lb ed="#B" n="72" break="no"/>clesiast. ulti. Donec reuertatur puluis 
+      <lb ed="#B" n="73"/>in terram suam, unde erat: &amp; spiritus 
+      <lb ed="#B" n="74"/>redeat ad deum, qui dedit illum. Ergo 
+      <lb ed="#B" n="75"/>sicut homo quantum ad carnem est de 
+      <lb ed="#B" n="76"/>terra, ita qnantum ad spiritum redit ad 
+      <lb ed="#B" n="77"/>dei substantiam, qui dedit illum, 
+    </p>
+            <p xml:id="gbs333-b51845-d1e283">
+               <lb ed="#B" n="78"/>¶ Item Actuum. xvij. Genus enim 
+      dei<lb ed="#B" n="79" break="no"/>sumus. Sed quae sunt eiusdem generis: 
+      <lb ed="#B" n="80"/>sunt eiusdem naturae.
+    </p>
+            <p xml:id="gbs333-b51845-d1e292">
+      ¶ Addunt etiam 
+      <lb ed="#B" n="81"/>rationes parum ualentes, &amp; nihil 
+      con<lb ed="#B" n="82" break="no"/>cludentes. Sed opinio haec erronea est 
+      <lb ed="#B" n="83"/>haeretica, &amp; fatua. Nam est 
+      contra<lb ed="#B" n="84" break="no"/>scripturae ueritatem: est etiam 
+      contra<lb ed="#B" n="85" break="no"/>rationem.
+    </p>
+            <p xml:id="gbs333-b51845-d1e305">
+      ¶ Contra ueritatem 
+      scri<lb ed="#B" n="86" break="no"/>pturae: dicitur enim Gen. j. Paciamus 
+      <lb ed="#B" n="87"/>hominem ad imaginem &amp;c. Hoc 
+      di<lb ed="#B" n="88" break="no"/>ctum est de homine secundum animam. 
+      <lb ed="#B" n="89"/>Pactio autem in deo locum non habet: 
+      <lb ed="#B" n="90"/>sicut nec mutatio. Ego sum dominus, 
+      <lb ed="#B" n="91"/>&amp; non mutor. Malach. iij.
+    </p>
+            <p xml:id="gbs333-b51845-d1e321">
+      ¶ Contra 
+      <lb ed="#B" n="92"/>rationem: nam in deo non est 
+      com<lb ed="#B" n="93" break="no"/>positio; nec est componibilis: cum sit 
+      <lb ed="#B" n="94"/>suinme simplex. Sed si anima est ex 
+      <lb ed="#B" n="95"/>dei substantia; erit pars hominis: &amp; ita 
+      <lb ed="#B" n="96"/>componibilis.
+    </p>
+            <p xml:id="gbs333-b51845-d1e335">
+      ¶ Item cum dei 
+      sub<lb ed="#B" n="97" break="no"/>stantia sit indiuisibilis: tota dei 
+      sub<lb ed="#B" n="98" break="no"/>stantia erit anima, uel pars eius: &amp; 
+      <!--244.xml-->
+      <pb ed="#B" n="107-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ita anima erit deus, uelcomponitur ex 
+      <lb ed="#B" n="2"/>deo.
+    </p>
+            <p xml:id="gbs333-b51845-d1e353">
+      ¶ Item uel substantia dei esset 
+      ma<lb ed="#B" n="3" break="no"/>teria animae: uelforma. Non materia: 
+      <lb ed="#B" n="4"/>quia illa est imperfectior altera parte 
+      <lb ed="#B" n="5"/>constituente similiter &amp; toto. Nec 
+      for<lb ed="#B" n="6" break="no"/>ma: quia tumc esset deus; quia forma 
+      sua<lb ed="#B" n="7" break="no"/>denominationem communicat toti¬ 
+    </p>
+            <p xml:id="gbs333-b51845-d1e366">
+               <lb ed="#B" n="8"/>¶ Si dicitur, quod habeat aliam formam 
+      su<lb ed="#B" n="9" break="no"/>per inductam: hoc non ualet. Tum 
+      <lb ed="#B" n="10"/>quia nihilominus ipsa denominaretur 
+      <lb ed="#B" n="11"/>deus a substantia dei: sic secundum 
+      po<lb ed="#B" n="12" break="no"/>nentes multas formas in composito: 
+      ni<lb ed="#B" n="13" break="no"/>
+               <lb ed="#B" n="14"/>denominationem. Tum quia tunc 
+      sub<lb ed="#B" n="15" break="no"/>stantia diuina esset subiectum formae 
+      su<lb ed="#B" n="16" break="no"/>perinductae, &amp; ita imperfectior ea.
+    </p>
+            <p xml:id="gbs333-b51845-d1e388">
+      ¶ Item 
+      <lb ed="#B" n="17"/>sic contingeret diuinam substantiam de 
+      <lb ed="#B" n="18"/>prauari, damnari: &amp; alia multa 
+      impos<lb ed="#B" n="19" break="no"/>sibilia, &amp; absurdissima sequuntur ad illum 
+      <lb ed="#B" n="20"/>errorem.
+    </p>
+            <p xml:id="gbs333-b51845-d1e399">
+      ¶ Alia fuit opinio non 
+      mi<lb ed="#B" n="21" break="no"/>nus impia Manichaeorum stulteerrantium: 
+      <lb ed="#B" n="22"/>dicentium in homine esse duas animas: 
+      <lb ed="#B" n="23"/>sicut recitat beatus Augu. in libro. de 
+      <lb ed="#B" n="24"/>duabus animabus. Quarum una inclinat  
+      <lb ed="#B" n="25"/>ad bona: &amp; haec est de substatia dei. Alia 
+      <lb ed="#B" n="26"/>inclinat ad mala: &amp; haec numquam potest 
+      <lb ed="#B" n="27"/>facere bona: sicut prima non potest 
+      fa<lb ed="#B" n="28" break="no"/>ceremala. Sed haec heresis quoad prima 
+      <lb ed="#B" n="29"/>partem reprobata est. Quoad secundam 
+      <lb ed="#B" n="30"/>partem eius falsitas patet, quia anima 
+      ma<lb ed="#B" n="31" break="no"/>la uel est a deo bono: &amp; hoc contra eos. 
+      <lb ed="#B" n="32"/>&amp; patet falsum: quia uidit deus cuncta, 
+      <lb ed="#B" n="33"/>quae fecerat, &amp; erant ualde bona. Nec 
+      <lb ed="#B" n="34"/>a deo malo: quia impossibile est esse 
+      plu<lb ed="#B" n="35" break="no"/>res deos: ut patet lib. j. dist. ij.
+    </p>
+            <p xml:id="gbs333-b51845-d1e434">
+      ¶ Illis 
+      er<lb ed="#B" n="36" break="no"/>go erroribus reprobatis: ad rationes 
+      il<lb ed="#B" n="37" break="no"/>iarum opinionum respondendum est 
+      <lb ed="#B" n="38"/>Ad primam dicendum, quod inspirare, uel 
+      <lb ed="#B" n="39"/>insufflare secundum aliam 
+      translatio<lb ed="#B" n="40" break="no"/>nem in praedicta auctoritate idem est, 
+      <lb ed="#B" n="41"/>quod spiritum facere: &amp; eum corpori 
+      uni<lb ed="#B" n="42" break="no"/>re. Dixit, &amp; facta sunt. Dixit 
+      uolun<lb ed="#B" n="43" break="no"/>tate practica, quia dicere dei, facere 
+      <lb ed="#B" n="44"/>est. Vnde sicut deus res produxit 
+      di<lb ed="#B" n="45" break="no"/>cendo. Tiat &amp;c. non fuit uox 
+      mate<lb ed="#B" n="46" break="no"/>rialis: ita nec flatus aliquis 
+      corpora<lb ed="#B" n="47" break="no"/>lis. Nec ualet similitudo adducta de 
+      <lb ed="#B" n="48"/>Ioan. c. xx. quia slatus ille 
+      proce<lb ed="#B" n="49" break="no"/>dens de Christi humanitate, non fuit 
+      <lb ed="#B" n="50"/>spiritussanctus: sicut nec columba ap¬ 
+      <!--244.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>parens super Christum baptixatum. 
+      <lb ed="#B" n="52"/>Nec ignis sedens super singulos 
+      apo<lb ed="#B" n="53" break="no"/>stolorum. Sed signa fuerunt creata 
+      ui<lb ed="#B" n="54" break="no"/>sibilia, repraesentantes inuisibilem 
+      spi<lb ed="#B" n="55" break="no"/>ritussancti ab utroque processionem: simul 
+      <lb ed="#B" n="56"/>&amp; temporalem missionem.
+    </p>
+            <p xml:id="gbs333-b51845-d1e487">
+      ¶ Ad illud 
+      <lb ed="#B" n="57"/>de ecclesiaste dicitur, quod ibi non 
+      poni<lb ed="#B" n="58" break="no"/>tur nota similitudinis: sed est una 
+      co<lb ed="#B" n="59" break="no"/>pulatiua significans resolutionem 
+      cor<lb ed="#B" n="60" break="no"/>porum in terram. Vnde sumptum est, 
+      tan<lb ed="#B" n="61" break="no"/>quam a principio materiali. Et reditum 
+      <lb ed="#B" n="62"/>spiritus ad deum, tanquam ad effectiuum 
+      <lb ed="#B" n="63"/>principium per unionem gloriae: in quo 
+      <lb ed="#B" n="64"/>erat uirtualiter: sicut effectus in causa 
+      <lb ed="#B" n="65"/>ante sui productionem. Ideo caute in 
+      <lb ed="#B" n="66"/>auctoritate allegata dicitur de carne- 
+      <lb ed="#B" n="67"/>Reuertatur puluis in terram: unde erat  
+      <lb ed="#B" n="68"/>scilicet facta. Non autem dicitur de 
+      spi<lb ed="#B" n="69" break="no"/>ritu redeat in: sed ad deum: nec dicitur 
+      <lb ed="#B" n="70"/>unde erat: ne intelligatur esse de substa 
+      <lb ed="#B" n="71"/>tia dei: sicut caro de substantia terrae: sed  
+      <lb ed="#B" n="72"/>ad deum, qui dedit illum tanquam causa 
+      <lb ed="#B" n="73"/>producens effectum.
+    </p>
+            <p xml:id="gbs333-b51845-d1e526">
+      ¶ Ad illud Actuum. 
+      <lb ed="#B" n="74"/>xvij. Genus deisumus dicitur, quod aliqua 
+      <lb ed="#B" n="75"/>dicuntur esse eiusdem generis, prout 
+      ge<lb ed="#B" n="76" break="no"/>nus dicit consanguinitatem: quia 
+      de<lb ed="#B" n="77" break="no"/>scenderunt ab uno generationis 
+      princi<lb ed="#B" n="78" break="no"/>pio: sic non loquitur apostolus. Alio 
+      mo<lb ed="#B" n="79" break="no"/>do, quae compraehenduntur sub eodem 
+      <lb ed="#B" n="80"/>genere logicali maxime propinquo, &amp; 
+      <lb ed="#B" n="81"/>sic anima rationalis, &amp; angeius 
+      dicun<lb ed="#B" n="82" break="no"/>tur esse eiusdem generis cum deo: quia 
+      <lb ed="#B" n="83"/>sunt substantiae spirituales, &amp; intellectua 
+      <lb ed="#B" n="84"/>les: sicut deus: &amp; compraehenduntur sub 
+      <lb ed="#B" n="85"/>hoc genere spiritus intellectualis: 
+      quo<lb ed="#B" n="86" break="no"/>modo nulla alia creatura est eiusdem 
+      ge<lb ed="#B" n="87" break="no"/>neris cum deo. Vel posset dici, quod illud 
+      <lb ed="#B" n="88"/>dicitur esse genus dei, quod accedit ad 
+      <lb ed="#B" n="89"/>deum aliqua proprietate: analogice 
+      ta<lb ed="#B" n="90" break="no"/>men: &amp; ita accedit natura intellectualis 
+      <lb ed="#B" n="91"/>creata ad deum, quadam maiori 
+      similitu<lb ed="#B" n="92" break="no"/>dine, quam caeterae non intellectuales: 
+      <lb ed="#B" n="93"/>quauis tamen adhuc natura intellectua 
+      <lb ed="#B" n="94"/>lis infinite distet a deo secundum 
+      perfe<lb ed="#B" n="95" break="no"/>ctionem: etiam secundum modum 
+      in<lb ed="#B" n="96" break="no"/>telligendi.
+    </p>
+            <p xml:id="gbs333-b51845-d1e578">
+      ¶ Tertia opinio fuit: quod ani¬ E 
+      <lb ed="#B" n="97"/>marum productio fiat mediante 
+      intelli<lb ed="#B" n="98" break="no"/>gentia: ut sicut corpus caelestae facit 
+      <lb ed="#B" n="99"/>ad productionem corporis humani: sic 
+      <lb ed="#B" n="100"/>etiam intelligentia concurrit actiue 
+      <!--245.xml-->
+      <pb ed="#B" n="107-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ad productionem animae rationalis. Et  
+      <lb ed="#B" n="2"/>hoc uidetur sensisse auctor de causis. 
+      <lb ed="#B" n="3"/>Mouebantur isti ex eo: quia deus 
+      pro<lb ed="#B" n="4" break="no"/>pter sui unitatem summam non potuit 
+      <lb ed="#B" n="5"/>immediate producere plura: ideo deus 
+      <lb ed="#B" n="6"/>immediate prima intelligentiam 
+      pro<lb ed="#B" n="7" break="no"/>duxit: &amp; mediante illa secundam; &amp; 
+      me<lb ed="#B" n="8" break="no"/>diante intelligentia animam &amp;c.
+    </p>
+            <p xml:id="gbs333-b51845-d1e613">
+      ¶ Sed 
+      <lb ed="#B" n="9"/>haec opinio simpliciter est erronea: &amp; 
+      <lb ed="#B" n="10"/>auctoritas auctoris de causis in ea parte 
+      <lb ed="#B" n="11"/>tanquam haeretica est respuenda. Nec 
+      <lb ed="#B" n="12"/>producere multos effectus opponitur 
+      <lb ed="#B" n="13"/>unitati creaturae: cum omnis 
+      multipli<lb ed="#B" n="14" break="no"/>citas ad unitatem sit reducenda.
+    </p>
+            <p xml:id="gbs333-b51845-d1e629">
+      ¶ 
+      Quar<lb ed="#B" n="15" break="no"/>ta opinio suit: quod anima esset ex anima 
+      <lb ed="#B" n="16"/>sicut caro ex carne: &amp; sicut ab una 
+      can<lb ed="#B" n="17" break="no"/>dela multae accenduntur candelae: sic ab 
+      <lb ed="#B" n="18"/>una anima per suimultiplicationem, 
+      si<lb ed="#B" n="19" break="no"/>ne sui diminuitione, multa corpora 
+      ui<lb ed="#B" n="20" break="no"/>uificantur. Et ita animam ponunt esse 
+      <lb ed="#B" n="21"/>ex traduce ab alia anima. Ad hoc 
+      alle<lb ed="#B" n="22" break="no"/>gatur illud Exod. i. Omnes animae, quae 
+      <lb ed="#B" n="23"/>egressae sunt de femore Tacob &amp;c.
+    </p>
+            <p xml:id="gbs333-b51845-d1e651">
+      ¶ Item 
+      <lb ed="#B" n="24"/>in formatione Euae dicitur, quod deus 
+      <lb ed="#B" n="25"/>inspirauit spiraculum uitae de Adam: 
+      <lb ed="#B" n="26"/>sed &amp; dicitur, Aedificauit igitur 
+      domi<lb ed="#B" n="27" break="no"/>nus deus costam, quam tulerat de Adam 
+      <lb ed="#B" n="28"/>in mulierem: igitur mulierem quoad 
+      car<lb ed="#B" n="29" break="no"/>nem, &amp; animam formauit de Adam. 
+    </p>
+            <p xml:id="gbs333-b51845-d1e668">
+               <lb ed="#B" n="30"/>¶ Item originale peccatum a 
+      parenti<lb ed="#B" n="31" break="no"/>bus descendit in filios. Peccatum autem 
+      <lb ed="#B" n="32"/>solum in anima est. Et ideo sicut 
+      pec<lb ed="#B" n="33" break="no"/>catum a parentibus descendit in filios: 
+      <lb ed="#B" n="34"/>ita anima geniti descendit ab anima 
+      <lb ed="#B" n="35"/>gignentis, a quo peccatum; quod non 
+      <lb ed="#B" n="36"/>est nisi in anima. Huius opinionis uide 
+      <lb ed="#B" n="37"/>tur fuisse Aug. nihil uerius dubitasse de 
+      <lb ed="#B" n="38"/>eius ueritate. Dicit enim, quod non 
+      po<lb ed="#B" n="39" break="no"/>tuit uenire ad ueritatem huius 
+      quaestio<lb ed="#B" n="40" break="no"/>Gnis.
+    </p>
+            <p xml:id="gbs333-b51845-d1e694">
+      ¶ Quinta opi. posset esse, quod anima 
+      <lb ed="#B" n="41"/>licet non sit ex traduce primo modo: 
+      <lb ed="#B" n="42"/>est tamen ex traduce secundo modo: 
+      <lb ed="#B" n="43"/>quia educitur de potentia materiae 
+      con<lb ed="#B" n="44" break="no"/>currente ui seminali effectiue ad eius 
+      <lb ed="#B" n="45"/>productionem, eo modo, quo anima 
+      <lb ed="#B" n="46"/>bruti educitur de potentia materiae.
+    </p>
+            <p xml:id="gbs333-b51845-d1e710">
+      ¶ Et  
+      <lb ed="#B" n="47"/>arguitur pro illa opin. sic. Inter 
+      om<lb ed="#B" n="48" break="no"/>nes formas corpora perficientes, 
+      ani<lb ed="#B" n="49" break="no"/>ma humana est perfectissima: ergo 
+      ope<lb ed="#B" n="50" break="no"/>ratio formae imperfectioris ab ea negan¬ 
+      <!--245.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>da non est. Sed animae brutales habent 
+      <lb ed="#B" n="52"/>uirtutem generatiuam sibi similis: 
+      er<lb ed="#B" n="53" break="no"/>go &amp; anima intellectiua.
+    </p>
+            <p xml:id="gbs333-b51845-d1e732">
+      ¶ Item maior 
+      <lb ed="#B" n="54"/>est congruentia hominis ad hominem, 
+      <lb ed="#B" n="55"/>quam bruti ad brutum. Et perfectior est 
+      <lb ed="#B" n="56"/>lis generatiua in homine, quam in 
+      bru<lb ed="#B" n="57" break="no"/>to. Si ergo brutum producit brutum: 
+      <lb ed="#B" n="58"/>&amp; quantum ad corpus ministrando 
+      ma<lb ed="#B" n="59" break="no"/>teriam: &amp; quantum ad formam 
+      educen<lb ed="#B" n="60" break="no"/>do ipsam de materiae potentia, etiam 
+      ho<lb ed="#B" n="61" break="no"/>mini hoc idem conuenit.
+    </p>
+            <p xml:id="gbs333-b51845-d1e752">
+      ¶ Item 
+      ani<lb ed="#B" n="62" break="no"/>ma rationalis educitur de potentia ma 
+      <lb ed="#B" n="63"/>teriae, sicut forma bruti: ergo. 
+      Antece<lb ed="#B" n="64" break="no"/>dens probatur: quia producitur in 
+      ma<lb ed="#B" n="65" break="no"/>teria: materia in suo genere 
+      concurren<lb ed="#B" n="66" break="no"/>te. Suscipit. nio. materia in se subiectiue 
+      <lb ed="#B" n="67"/>animam rationalem. Et hoc est materiam 
+      <lb ed="#B" n="68"/>concurrere in suo genere causandi, quod  
+      <lb ed="#B" n="69"/>genus causaudi materiae est esse subiectum 
+      <lb ed="#B" n="70"/>formae.
+    </p>
+            <p xml:id="gbs333-b51845-d1e774">
+      ¶ Si dicis, quod no educitur de 
+      po<lb ed="#B" n="71" break="no"/>tentia materiae: licet subiectetur in 
+      ma<lb ed="#B" n="72" break="no"/>teria: quia producens scilicet deus non 
+      re<lb ed="#B" n="73" break="no"/>uirit materiam: posset enim animum 
+      ra<lb ed="#B" n="74" break="no"/>tionalem producere extra materiam, sicut  
+      <lb ed="#B" n="75"/>conseruat extra materiam. Contra: tumnc 
+      <lb ed="#B" n="76"/>eadem ratione forma bruti non educere 
+      <lb ed="#B" n="77"/>tur de potentia materiae: quia nec deus 
+      <lb ed="#B" n="78"/>producens bruti formam requirit 
+      neces<lb ed="#B" n="79" break="no"/>sario materiam. Potest enim omnem 
+      <lb ed="#B" n="80"/>formam, &amp; producere, &amp; conseruare 
+      ex<lb ed="#B" n="81" break="no"/>tra materiam.
+    </p>
+            <p xml:id="gbs333-b51845-d1e801">
+      ¶ Si dicis ad productionem 
+      <lb ed="#B" n="82"/>formae bruticoncurrit agens naturale scilicet 
+      <lb ed="#B" n="83"/>uirtus seminalis. Contra illa etiam 
+      re<lb ed="#B" n="84" break="no"/>quirit, seu concurrit in productione 
+      ani<lb ed="#B" n="85" break="no"/>mae rationalis: quia sicut sine seminis 
+      <lb ed="#B" n="86"/>decisione non producitur brutum 
+      per<lb ed="#B" n="87" break="no"/>fectum: ita nec homo sine semine 
+      hu<lb ed="#B" n="88" break="no"/>mano. Et omnis ratio probans, uel 
+      per<lb ed="#B" n="89" break="no"/>suadens uirtutem seminalem concurre 
+      <lb ed="#B" n="90"/>re ad productionem animae bruti, 
+      eun<lb ed="#B" n="91" break="no"/>dem locum habet in homine.
+    </p>
+            <p xml:id="gbs333-b51845-d1e825">
+      ¶ Et si 
+      di<lb ed="#B" n="92" break="no"/>cis: corporale non potest producere 
+      spi<lb ed="#B" n="93" break="no"/>rituale, neque corruptibile 
+      incorrupti<lb ed="#B" n="94" break="no"/>bile. Anima autem rationalis est 
+      imma<lb ed="#B" n="95" break="no"/>terialis, &amp; incorruptibilis. secus de 
+      ani<lb ed="#B" n="96" break="no"/>ma bruti: &amp; uirtus seminalis est agens 
+      <lb ed="#B" n="97"/>materiale, &amp; corruptibile. Ergo non 
+      con<lb ed="#B" n="98" break="no"/>currit actiue ad productionem non 
+      cor<lb ed="#B" n="99" break="no"/>poralis.
+    </p>
+            <p xml:id="gbs333-b51845-d1e845">
+      ¶ Contra obiectum materiale 
+      <lb ed="#B" n="100"/>concurrit actiue ad productionem no¬ 
+      <!--246.xml-->
+      <pb ed="#B" n="108-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>titiae intellectiuae intuitiuae; quae est 
+      im<lb ed="#B" n="2" break="no"/>materialis: &amp; esset perpetua: si 
+      obie<lb ed="#B" n="3" break="no"/>ctum semper esset praesens a quo 
+      depen<lb ed="#B" n="4" break="no"/>det: non tantum in fieri: sed in esse, &amp; 
+      <lb ed="#B" n="5"/>conseruari.
+    </p>
+            <p xml:id="gbs333-b51845-d1e867">
+      ¶ Sexta opinio &amp; 
+      catholi<lb ed="#B" n="6" break="no"/>ca est, quod anima immmediate a deo 
+      crea<lb ed="#B" n="7" break="no"/>tur: &amp; non educitur de potentia 
+      mate<lb ed="#B" n="8" break="no"/>riae: de qua uidebitur in conclusionibus. 
+    </p>
+            <p xml:id="gbs333-b51845-d1e876">
+               <lb ed="#B" n="9"/>¶ Quantum ad secundum articulum est 
+      <lb ed="#B" n="10"/>prima conclusio. Anima rationalis non 
+      <lb ed="#B" n="11"/>est producta de substantia dei secundum 
+      <lb ed="#B" n="12"/>eriorem primarum duarum opinionum. 
+      <lb ed="#B" n="13"/>Patet illa conclusio ex reprobatione. 
+      <lb ed="#B" n="14"/>carundem.
+    </p>
+            <p xml:id="gbs333-b51845-d1e892">
+      ¶ Secunda conclusio. 
+      Ani<lb ed="#B" n="15" break="no"/>ma rationalis non est effectiuc ab 
+      intel<lb ed="#B" n="16" break="no"/>ligentia. Probatur: quia anima aut 
+      crea<lb ed="#B" n="17" break="no"/>tur: aut educitur de potentia materiae: 
+      <lb ed="#B" n="18"/>Si primum: tunc producitur a solo deo. 
+      <lb ed="#B" n="19"/>nam ad effectum creationis creatura 
+      es<lb ed="#B" n="20" break="no"/>fectiue non concurrit. Si educitur de 
+      <lb ed="#B" n="21"/>potentia materiae: sufficit potentia 
+      na<lb ed="#B" n="22" break="no"/>turalis cum prima causa: ideo praeter 
+      il<lb ed="#B" n="23" break="no"/>las non debet poni intelligentia: cum 
+      <lb ed="#B" n="24"/>pluralitas sit uitanda, &amp; nihil ponendum 
+      <lb ed="#B" n="25"/>sit sine causa: nulla autem causa assigna 
+      <lb ed="#B" n="26"/>ri potest sufficiens conuincens 
+      intelli<lb ed="#B" n="27" break="no"/>gentiam concurrere ad productionem 
+      <lb ed="#B" n="28"/>animae rationalis.
+    </p>
+            <p xml:id="gbs333-b51845-d1e926">
+      ¶ Tertia conclusio. 
+      <lb ed="#B" n="29"/>Anima intellectiua non est ex 
+      traduce<lb ed="#B" n="30" break="no"/>secundum imaginationem quartae 
+      opinio<lb ed="#B" n="31" break="no"/>nis. Probatur per illud Esa. xxvij. 
+      Om<lb ed="#B" n="32" break="no"/>nem slatum ego feci. Loquitur de flatu 
+      <lb ed="#B" n="33"/>spirituali, qui est anima rationalis. 
+      Si<lb ed="#B" n="34" break="no"/>cut ergo solus deus insufflauit 
+      spiraculum<lb ed="#B" n="35" break="no"/>uitae in faciem Adae: ita creat animam 
+      <lb ed="#B" n="36"/>cuiuslibet hominis. Hinc dicitur in psal 
+      <lb ed="#B" n="37"/>xxxij. Qui finxit singillatim corda eo 
+      <lb ed="#B" n="38"/>rum. Item Vach. Qui plasmauit animam 
+      <lb ed="#B" n="39"/>hominis in eum. Item Esa. Qui finxit, &amp; 
+      <lb ed="#B" n="40"/>fecit teinutero. Item Gen. ij. dixit Adam 
+      <lb ed="#B" n="41"/>Hoc nunc os ex ossibus meis, &amp; caro de 
+      <lb ed="#B" n="42"/>carne mea. Non dicit anima ex anima 
+      <lb ed="#B" n="43"/>mea. Vnde datur intelligi, quod animae 
+      ra<lb ed="#B" n="44" break="no"/>tionales non sunt de anima primi 
+      homi<lb ed="#B" n="45" break="no"/>nis: sed caro de carne. Item beatus 
+      Aug<lb ed="#B" n="46" break="no"/>in lib. noui testa. Inhonestum, puto, si 
+      dican<lb ed="#B" n="47" break="no"/>tur alae corporis generari, ut anima 
+      na<lb ed="#B" n="48" break="no"/>scat ex anima. Ite in lib. de eccle. dog. 
+      <lb ed="#B" n="49"/>ma. Animae non cum corporibus 
+      seminan<lb ed="#B" n="50" break="no"/>tur. Hugo uenerabilis lib. j. de sacra¬ 
+      <!--246.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>parte. vij. c. xxx. Pides catholica magis 
+      <lb ed="#B" n="52"/>eligit credendum animas quotidie 
+      cor<lb ed="#B" n="53" break="no"/>poribus uiuificandis sociandas de 
+      ni<lb ed="#B" n="54" break="no"/>hilofieri: quam secundum corporis 
+      na<lb ed="#B" n="55" break="no"/>turam, &amp; humanae carnis proprietatem 
+      <lb ed="#B" n="56"/>de traduce propagari. Adducit ad idem 
+      <lb ed="#B" n="57"/>plures persuasiones: licet non reputat 
+      <lb ed="#B" n="58"/>eas demonstratiuas: sufficiat tamen 
+      ra<lb ed="#B" n="59" break="no"/>tio supra in notabili posita probans 
+      for<lb ed="#B" n="60" break="no"/>mam ex forma non fieri.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1002">
+      ¶ Quarta 
+      <lb ed="#B" n="61"/>conclusio. Ad animae rationalis 
+      produ<lb ed="#B" n="62" break="no"/>ctionem non currit actiue uirtus aliqua 
+      <lb ed="#B" n="63"/>naturalis: puta uis paterni, ac decisi se 
+      <lb ed="#B" n="64"/>minis. Probatur: quia anima 
+      rationa<lb ed="#B" n="65" break="no"/>lis secundum suam naturam est 
+      incorru<lb ed="#B" n="66" break="no"/>ptibilis: ergo non producitur ab 
+      ali<lb ed="#B" n="67" break="no"/>quo corruptibili. Tenet consequentia: 
+      <lb ed="#B" n="68"/>quia incorruptibile, &amp; perpetuum non 
+      <lb ed="#B" n="69"/>dependet a corruptibili neque in fieri, 
+      <lb ed="#B" n="70"/>neque inesse. Secundum patet. Primum 
+      <lb ed="#B" n="71"/>quod non in fieri. Probatur: quia non potest 
+      <lb ed="#B" n="72"/>causa corruptibilis dare esse 
+      incorrupti<lb ed="#B" n="73" break="no"/>bili: quod sibiipsi praestare non potest. 
+      <lb ed="#B" n="74"/>Estautem causa praestantior causato ii. a 
+      <lb ed="#B" n="75"/>xime effectiua: ideo non potest dare 
+      es<lb ed="#B" n="76" break="no"/>se incorruptibile: quod est perfectius 
+      <lb ed="#B" n="77"/>suo esse. Ratiohaec persuaderi potest: non 
+      <lb ed="#B" n="78"/>autem demonstrat. Cui accedit 
+      decen<lb ed="#B" n="79" break="no"/>tia quaedam secundum sanctum 
+      Bona<lb ed="#B" n="80" break="no"/>uen. ex animarum dignitate: quia cum 
+      <lb ed="#B" n="81"/>anima sit imago dei, &amp; nata immediate 
+      <lb ed="#B" n="82"/>fieri in deum, &amp; in ipso beatificari per 
+      cla<lb ed="#B" n="83" break="no"/>ram eius uisionem, ac fruitionem 
+      dili<lb ed="#B" n="84" break="no"/>gendo ipsum ex tota anima: totum sunes 
+      <lb ed="#B" n="85"/>se immediate ab ipso debuit habere: ut  
+      <lb ed="#B" n="86"/>sic ipsum ex toto corde tenetur 
+      dilige<lb ed="#B" n="87" break="no"/>re.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1063">
+      ¶ Acper hoc ad rationes quintae 
+      opi<lb ed="#B" n="88" break="no"/>nionis, contra quam haec conclusio est 
+      <lb ed="#B" n="89"/>posita. Adprimam dicitur negando 
+      con<lb ed="#B" n="90" break="no"/>sequentiam; quia non oportet omnem 
+      ope<lb ed="#B" n="91" break="no"/>rationem naturae imperfectioris conuenire 
+      <lb ed="#B" n="92"/>naturaeperfectiori. Nam angelus pfectior 
+      <lb ed="#B" n="93"/>est quocumque uiuente corporali, &amp; tamen 
+      ei<lb ed="#B" n="94" break="no"/>non conuenit operatio uegetatiua, aut se 
+      <lb ed="#B" n="95"/>sitiua, neque nutrit, nec generat sibi 
+      simi<lb ed="#B" n="96" break="no"/>se, nec sentit. Nec hoc arguit impfectio 
+      <lb ed="#B" n="97"/>nem in angelo, &amp; hoie: sed magis pfectio 
+      <lb ed="#B" n="98"/>nem: quia propter suam pfectionem no possunt 
+      p<lb ed="#B" n="99" break="no"/>duci a creatura: sed a solo deo: nec 
+      indi<lb ed="#B" n="100" break="no"/>gentiisuis opationibeorgano corporali¬ 
+      <!--247.xml-->
+      <pb ed="#B" n="108-v"/>
+               <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="gbs333-b51845-d1e1100">
+               <lb ed="#B" n="1"/>¶ Ad secundum dicitur similiter 
+      conceden<lb ed="#B" n="2" break="no"/>do, quod maior sit congruentia: idest 
+      con<lb ed="#B" n="3" break="no"/>uenientia seu similitudo: quia 
+      perfe<lb ed="#B" n="4" break="no"/>ctior hominis ad hominem, pro quanto 
+      <lb ed="#B" n="5"/>homo perfectior est bruto. Potest etiam 
+      <lb ed="#B" n="6"/>concedi quod perfectior sit uis generatiua 
+      <lb ed="#B" n="7"/>in homine. Et negetur consequentia: quia 
+      <lb ed="#B" n="8"/>uis generatiua quantum ad eductionem 
+      <lb ed="#B" n="9"/>formae in homine praeuenitur a deo: 
+      qui<lb ed="#B" n="10" break="no"/>in eo instanti quo uis generatiua (si 
+      suae<lb ed="#B" n="11" break="no"/>relinqueretur naturae) educeret formam 
+      <lb ed="#B" n="12"/>sensitiuam nobiliorem quacumque alia 
+      sen<lb ed="#B" n="13" break="no"/>sitiua: creat nobiliorem animam scilicet 
+      intel<lb ed="#B" n="14" break="no"/>lectiuam. Nec propter hoc uis 
+      genera<lb ed="#B" n="15" break="no"/>tiua frustra est in homine, siue in huma 
+      <lb ed="#B" n="16"/>no semine: quia organitat materiam, &amp; 
+      <lb ed="#B" n="17"/>disponit eaum pro receptione animae 
+      in<lb ed="#B" n="18" break="no"/>tellectiuae quantum ad operationes 
+      ue<lb ed="#B" n="19" break="no"/>getatiuas, &amp; sensitiuas. Et hoc 
+      tenen<lb ed="#B" n="20" break="no"/>do, quod non sit nisi una anima in 
+      homi<lb ed="#B" n="21" break="no"/>ne. Si uero teneatur, quod praeter animam 
+      <lb ed="#B" n="22"/>intellectiuam, sit etiam in homine 
+      ani<lb ed="#B" n="23" break="no"/>ma sensitiua: illa educitur per uirtutem 
+      <lb ed="#B" n="24"/>generatiuam hominis de potentia 
+      ma<lb ed="#B" n="25" break="no"/>teriae: non autem intellectiua. Vel 
+      po<lb ed="#B" n="26" break="no"/>test dici, quod in homine non est uis 
+      gene<lb ed="#B" n="27" break="no"/>ratiua sibi sinuilis hominis, seu forme 
+      <lb ed="#B" n="28"/>humanae: sed duntaxat uis organixandi 
+      <lb ed="#B" n="29"/>corpus: nec hoc arguit imperfectionem 
+      <lb ed="#B" n="30"/>in homine, sed magis perfectionem. 
+      <lb ed="#B" n="31"/>Perfectionis enim est, quod tanta est 
+      no<lb ed="#B" n="32" break="no"/>bilitas animae humanae: quod respectu eius 
+      <lb ed="#B" n="33"/>nulla creatura habet actiuitatem, sed a 
+      <lb ed="#B" n="34"/>solo deo potest produci. Et haec 
+      respon<lb ed="#B" n="35" break="no"/>sio uidetur uerior; quiam esto, quod homo 
+      <lb ed="#B" n="36"/>sibi derelicti secundum priorem 
+      responsio<lb ed="#B" n="37" break="no"/>nem produceret formam sensitiuam in mate 
+      <lb ed="#B" n="38"/>ria praeiacente: per hoc non produceret 
+      <lb ed="#B" n="39"/>hominem. Id enim compositum non esset 
+      ho<lb ed="#B" n="40" break="no"/>mo: quia non esset animal rationale, seu 
+      <lb ed="#B" n="41"/>intellectiuum.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1191">
+      ¶ Ad tertiam, quae 
+      nititpro<lb ed="#B" n="42" break="no"/>bare, quod anima intellectiua educatur de 
+      <lb ed="#B" n="43"/>potentia materiae. Dicitur sicut responsum 
+      <lb ed="#B" n="44"/>est in replica, quod anima bruti educit de 
+      <lb ed="#B" n="45"/>potentia materiae: non ratione dei 
+      princi<lb ed="#B" n="46" break="no"/>paliter agentis ille, none non requirit 
+      mate<lb ed="#B" n="47" break="no"/>teriam: sed ratione agentis naturalis acti 
+      <lb ed="#B" n="48"/>uecum deo concurrentis scilicet uirtutis 
+      gene<lb ed="#B" n="49" break="no"/>ratiuae, quae requirit materiam.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1211">
+      ¶ Et cum 
+      <lb ed="#B" n="50"/>contra hanc solutionem obijcitur. In 
+      <!--247.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>homine etiam concurrit uis generatiua 
+      <lb ed="#B" n="52"/>actiua respectu animae rationalis. 
+      Nege<lb ed="#B" n="53" break="no"/>tur. Et cum arguitur cum omnis ratio, quae 
+      <lb ed="#B" n="54"/>persuadet illa concurrere in bruto: etiam 
+      <lb ed="#B" n="55"/>habet locum in homine. Nam ad 
+      prae<lb ed="#B" n="56" break="no"/>sentiam uirtutis seminalis in matrice 
+      cae<lb ed="#B" n="57" break="no"/>teris paribus: producitur anima 
+      huma<lb ed="#B" n="58" break="no"/>na: &amp; sine ea numquam producitur 
+      omni<lb ed="#B" n="59" break="no"/>bus alijs existentibus, ergo est eius 
+      cau<lb ed="#B" n="60" break="no"/>sa. Tenet consequentia ex conmuni medio 
+      <lb ed="#B" n="61"/>probandi aliquid esse causam alterius. 
+      <lb ed="#B" n="62"/>Respondetur ut sup. quod nullum inedium 
+      <lb ed="#B" n="63"/>dari potest probandi efficaciter unam 
+      crea<lb ed="#B" n="64" break="no"/>turam esse causam efficientem alterius: 
+      <lb ed="#B" n="65"/>quia semper posset dici, quod solus deus 
+      om<lb ed="#B" n="66" break="no"/>nia producit: licet hoc uoluntarie agat  
+      <lb ed="#B" n="67"/>ad praesentiam alicuius creaturae: sicut in 
+      <lb ed="#B" n="68"/>sacramento altaris, ad praesentia 
+      calefa<lb ed="#B" n="69" break="no"/>cientis producitur caliditas in specie 
+      sa<lb ed="#B" n="70" break="no"/>cramentali: &amp; tamen a solo deo: cum 
+      creatu<lb ed="#B" n="71" break="no"/>ra non possit producere formaum extra 
+      <lb ed="#B" n="72"/>materiam. Verum est sufficiens persuasio: 
+      <lb ed="#B" n="73"/>nisi auctoritas fidei, &amp; scripturae doceat  
+      <lb ed="#B" n="74"/>productum esse a solo Deo per 
+      creatio<lb ed="#B" n="75" break="no"/>nem: &amp; sic est in proposito.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1275">
+      ¶ Ad 
+      replican<lb ed="#B" n="76" break="no"/>conceditur, quod corruptibile no 
+      produ<lb ed="#B" n="77" break="no"/>cit incorruptibile, tanquam agens 
+      prin<lb ed="#B" n="78" break="no"/>cipale secundarium. Obiectum uero 
+      ma<lb ed="#B" n="79" break="no"/>teriale producens sui notitiam 
+      intuiti<lb ed="#B" n="80" break="no"/>uam non producit incorruptibile: nec 
+      <lb ed="#B" n="81"/>produceret quid spirituale: nisi concurre 
+      <lb ed="#B" n="82"/>ret intellectus immaterialis 
+      principali<lb ed="#B" n="83" break="no"/>ter agens.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1295">
+      ¶ Quinta conclusio. Anima 
+      <lb ed="#B" n="84"/>intellectiuaa solo deo creatur, ac 
+      crean<lb ed="#B" n="85" break="no"/>do materiae praeparatae infunditur. Illa 
+      <lb ed="#B" n="86"/>conclusio patet: quia anima 
+      intellecti<lb ed="#B" n="87" break="no"/>ua producitur: cum non sit a se: &amp; non 
+      de<lb ed="#B" n="88" break="no"/>potentia materiae: nec de aliquo: quia 
+      <lb ed="#B" n="89"/>nec de substantia dei: nec ex traduce: ut  
+      <lb ed="#B" n="90"/>deductum est, ergo producitur de nihilo: 
+      <lb ed="#B" n="91"/>&amp; per cosequens creatur. Et quia 
+      crea<lb ed="#B" n="92" break="no"/>tura a solo Deo creatu: cum creatura 
+      crea<lb ed="#B" n="93" break="no"/>re non possit: non creatur extra materiam: 
+      <lb ed="#B" n="94"/>quia tumc haberet aliquem actum 
+      intelligen<lb ed="#B" n="95" break="no"/>di, uel uolendi, priusquam infunderetur: non 
+      <lb ed="#B" n="96"/>nione potest esse frustra: &amp; tumc ante 
+      unitio<lb ed="#B" n="97" break="no"/>nem eius cum corpore posset mereri: 
+      <lb ed="#B" n="98"/>quod apostolus de Tacob &amp; Esau 
+      lo<lb ed="#B" n="99" break="no"/>quens negat ad Rom. ix. c. 
+      Praesuppo<lb ed="#B" n="100" break="no"/>nit enim eos ante natiuitatem nihil 
+      <!--248.xml-->
+      <pb ed="#B" n="109-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>egisse. ergo creatur in materia: &amp; ita 
+      <lb ed="#B" n="2"/>creando infunditur. Probatur etiam 
+      <lb ed="#B" n="3"/>conclusio auctoritatibus ad 
+      conclusio<lb ed="#B" n="4" break="no"/>nem tertiam allegatis. Eacit etiam illud Aug. 
+      <lb ed="#B" n="5"/>de eccl. dog. c. xvij. &amp; praesertim. c. xiij. 
+      <lb ed="#B" n="6"/>Dicimus tantum corpus cougij copulam 
+      <lb ed="#B" n="7"/>seminari. Creationem uero animae 
+      so<lb ed="#B" n="8" break="no"/>lum creatorem nosse. Et habetur dist. seq. 
+      <lb ed="#B" n="9"/>c. ulti. ubi etiam aliegatur Hiero. anathe 
+      <lb ed="#B" n="10"/>matixans dicentes animam esse ex 
+      tradu<lb ed="#B" n="11" break="no"/>ce: inducens auctoritatem prophetae. 
+      qui<lb ed="#B" n="12" break="no"/>finxit singillatim corda eorum. Hoc 
+      <lb ed="#B" n="13"/>satis innuit propheta Psal. xxxij. quod non 
+      <lb ed="#B" n="14"/>ipsananima de anima facit Deus: sed 
+      sin<lb ed="#B" n="15" break="no"/>gulatim ipsas de nihilo creat.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1373">
+      ¶ Quantum 
+      <lb ed="#B" n="16"/>ad tertium articulum dubitatur. Vtrum 
+      <lb ed="#B" n="17"/>animae rationales omnium suerunt simul 
+      <lb ed="#B" n="18"/>productae. Respondetur post sanctum 
+      Bo<lb ed="#B" n="19" break="no"/>nauent. dist. xviij. q.v. quod de isto 
+      dubio<lb ed="#B" n="20" break="no"/>fuit estimatio. Vna philosophorum scilicet 
+      <lb ed="#B" n="21"/>Platonis. Alia fuit haereticorum. Tertia 
+      <lb ed="#B" n="22"/>orthodoxorum. Plato posuit, quod animae 
+      si<lb ed="#B" n="23" break="no"/>mul creatae fuerunt in stellis, &amp; 
+      postefor<lb ed="#B" n="24" break="no"/>matis corporibus sibi idonei: ad haec 
+      <lb ed="#B" n="25"/>corpora uiuificanda descendunt per firma 
+      <lb ed="#B" n="26"/>mentum, &amp; alios orbes planetarum. Post 
+      <lb ed="#B" n="27"/>corporum uero corruptionem, ad easdem 
+      <lb ed="#B" n="28"/>stellas reuertuntur: ac suo loco, &amp; 
+      tem<lb ed="#B" n="29" break="no"/>pore iterum descendunt. Et cum 
+      descen<lb ed="#B" n="30" break="no"/>dunt, obliuiscuntur prius cognitorum. 
+      <lb ed="#B" n="31"/>Et cum ascendunt similiter 
+      obliuiscun<lb ed="#B" n="32" break="no"/>tur eorum, quae in corpore passae sunt, 
+      <lb ed="#B" n="33"/>uel gesserunt. Hanc positionem 
+      appro<lb ed="#B" n="34" break="no"/>bare nititur Macrobius explanans 
+      sen<lb ed="#B" n="35" break="no"/>tentiam Scipionis. Tangit etiam hanc 
+      <lb ed="#B" n="36"/>opinionem Boe. iij. de consola. me. ix. 
+      <lb ed="#B" n="37"/>Tu causis, inquit, animas paribus, 
+      ui<lb ed="#B" n="38" break="no"/>tasque; minores. Prouehis, &amp; leuibus 
+      subli<lb ed="#B" n="39" break="no"/>mes curribus aptans, Caelum terramque;  
+      <lb ed="#B" n="40"/>seris. Quas lege benigna ad te 
+      conuer<lb ed="#B" n="41" break="no"/>sas reduci facis igne reuerti. Et me. vj. 
+      <lb ed="#B" n="42"/>eiusdem. Hic clausit membris animos 
+      <lb ed="#B" n="43"/>cessa, sed potitos. Sed uere ista 
+      positio<lb ed="#B" n="44" break="no"/>inquit, Bonauent. plus est somnium, 
+      <lb ed="#B" n="45"/>quam dictum autenticum: quia talis 
+      <lb ed="#B" n="46"/>creatio, &amp; ascensus, &amp; descensus 
+      nul<lb ed="#B" n="47" break="no"/>lam omnino habere potest 
+      certitudi<lb ed="#B" n="48" break="no"/>nem: cum nemo hoc conuincere 
+      pos<lb ed="#B" n="49" break="no"/>sit ratiocinando. Nemo etiam sit, qui  
+      <lb ed="#B" n="50"/>possit dicere se talium recordari: &amp; ita 
+      <!--248.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>de illo nulla haberi potest experientia, 
+      <lb ed="#B" n="52"/>a qua sumitur principium artis.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1460">
+      ¶ 
+      Conti<lb ed="#B" n="53" break="no"/>net etiam manifestam absurditatem; quia 
+      <lb ed="#B" n="54"/>si esset talis animarum circulatio: 
+      ani<lb ed="#B" n="55" break="no"/>ma non esset uera corporis perfectio: 
+      <lb ed="#B" n="56"/>cum proprius actus in propria materia 
+      <lb ed="#B" n="57"/>habet fieri. Etiam tunc nulla esset 
+      ani<lb ed="#B" n="58" break="no"/>uiae beatitudo: cum de ratione 
+      beati<lb ed="#B" n="59" break="no"/>tudinis sit perpetuitas, &amp; certitudo. lib. 
+      <lb ed="#B" n="60"/>xiiij. de trini. Et ita non stat cum eo 
+      <lb ed="#B" n="61"/>huiusmodi circulatio.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1482">
+      ¶ Secunda 
+      posi<lb ed="#B" n="62" break="no"/>tio Manichaeorum haereticorum fuit, quod 
+      <lb ed="#B" n="63"/>animae simul fuerunt creatae in caelo 
+      <lb ed="#B" n="64"/>cum angelis: ut puta, quia sunt eiusdem 
+      <lb ed="#B" n="65"/>naturae: &amp; postmodum ad 
+      suggestio<lb ed="#B" n="66" break="no"/>nem Dei tenebrarum peccauerunt. Et  
+      <lb ed="#B" n="67"/>merito illius peccati in corpora sunt 
+      <lb ed="#B" n="68"/>detrusae tanquam in carceres, ut ibi 
+      pur<lb ed="#B" n="69" break="no"/>gentur: &amp; cum purgatae fuerint, 
+      ad<lb ed="#B" n="70" break="no"/>caelestem patriam reuocentur. Ista 
+      <lb ed="#B" n="71"/>impiissimorum haeresis Manicheorum 
+      <lb ed="#B" n="72"/>est contra fidem catholicam. cum 
+      po<lb ed="#B" n="73" break="no"/>nit animas peccasse, priusquam essent 
+      <lb ed="#B" n="74"/>corporibus unitae: contra illud 
+      Ro<lb ed="#B" n="75" break="no"/>ma. ix. supra allegatum de Iacob, &amp; 
+      <lb ed="#B" n="76"/>Esau.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1517">
+      ¶ Est etiam contra 
+      Philoso<lb ed="#B" n="77" break="no"/>phum cum ponit animas circum ire diuer 
+      <lb ed="#B" n="78"/>sa corpora; cum propria forma 
+      requi<lb ed="#B" n="79" break="no"/>rat propriam materiam; &amp; forma nec 
+      <lb ed="#B" n="80"/>substantialis, nec accidentalis migrare 
+      <lb ed="#B" n="81"/>possit de subjecto in subiectum: neque  
+      <lb ed="#B" n="82"/>anima esset in corpore tamquam 
+      per<lb ed="#B" n="83" break="no"/>fectibili; sed tanquam in carcere; &amp; ita 
+      <lb ed="#B" n="84"/>homo non esset simpliciterunum; nec 
+      <lb ed="#B" n="85"/>homines constituerent ueram speciem. 
+    </p>
+            <p xml:id="gbs333-b51845-d1e1540">
+               <lb ed="#B" n="86"/>¶ Est etiam contra sensibilem 
+      experien<lb ed="#B" n="87" break="no"/>tiam. Experimur enim animam 
+      quan<lb ed="#B" n="88" break="no"/>tumcunque; bonam nolle a corpore 
+      sepa<lb ed="#B" n="89" break="no"/>rari; secundum illud apostoli. 
+      Nolu<lb ed="#B" n="90" break="no"/>mus expoliari; sed superuestiri. Quod  
+      <lb ed="#B" n="91"/>utique non esset, si non haberet natura 
+      <lb ed="#B" n="92"/>dem inclinationem ad corpus tanquam 
+      <lb ed="#B" n="93"/>ad perfectibile, sed esset in eo tanquam 
+      <lb ed="#B" n="94"/>in carcere. Item non nouimus ea, nisi quae 
+      <lb ed="#B" n="95"/>post natiuitatem didicimus. Et 
+      mitues<lb ed="#B" n="96" break="no"/>set, quod omnino nihil de praecedentibus 
+      <lb ed="#B" n="97"/>natiuitatem sciremus.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1569">
+      ¶ Quod si dicis, quod 
+      <lb ed="#B" n="98"/>mole corporis obruta omnium 
+      obliuisci<lb ed="#B" n="99" break="no"/>tur: illud omnino uoluntarium est: &amp; 
+      nul<lb ed="#B" n="100" break="no"/>la ratione, nec auctoritate pbatum: necui¬ 
+      <!--249.xml-->
+      <pb ed="#B" n="109-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>detur, quod non successu temporis saltem 
+      <lb ed="#B" n="2"/>aliquorum rememoraretur.
+    </p>
+            <p xml:id="gbs333-b51845-d1e1589">
+      ¶ Est ergo 
+      <lb ed="#B" n="3"/>tertia positio orthodoxorum uera; quod 
+      <lb ed="#B" n="4"/>animae non sunt simulcreatae, sed 
+      succes<lb ed="#B" n="5" break="no"/>siue in suis corporibus creantur, quod 
+      <lb ed="#B" n="6"/>apud omnes doctores catholicos certum 
+      <lb ed="#B" n="7"/>habet; licet de anima Adgan fuerit 
+      an<lb ed="#B" n="8" break="no"/>te corpus creatum legitur aliquando 
+      <lb ed="#B" n="9"/>Augustinum dubitasse; quia aliquae 
+      ra<lb ed="#B" n="10" break="no"/>tiones persuadent de caeteris animabus: 
+      <lb ed="#B" n="11"/>quae non persuadent efficaciter de 
+      ani<lb ed="#B" n="12" break="no"/>ma Adae. Quarum una haec est: quia si 
+      ani<lb ed="#B" n="13" break="no"/>mae creatae essentante corpus: uel tunc 
+      <lb ed="#B" n="14"/>haberent cognitionem, aut liberum 
+      ar<lb ed="#B" n="15" break="no"/>bitrium: aut non. Sinon: tunc frustra 
+      es<lb ed="#B" n="16" break="no"/>sent etiam: cum nullum posset alle 
+      <lb ed="#B" n="17"/>gari impedimentum; cur non 
+      cogno<lb ed="#B" n="18" break="no"/>sceret ante, sicut postseparationem a 
+      <lb ed="#B" n="19"/>corpore: cum tunc multa intuitiue 
+      co<lb ed="#B" n="20" break="no"/>gnoscat, quae coniuncta non habet. 
+      Si<lb ed="#B" n="21" break="no"/>sic: ergo in eis fuisset meritum, uel 
+      de<lb ed="#B" n="22" break="no"/>meritum ante corporis unionem; quod 
+      <lb ed="#B" n="23"/>falsum est, quia per corporis contagionem 
+      <lb ed="#B" n="24"/>contrahit peccatum originale; quod 
+      <lb ed="#B" n="25"/>omnia alia peccata, &amp; merita antecedit 
+      <lb ed="#B" n="26"/>igitur non est ante corpus. Secunda est 
+      <lb ed="#B" n="27"/>ignorantia: quam a principio natiuita 
+      <lb ed="#B" n="28"/>tis contrahimus, ut nihil noscimus; 
+      nisi<lb ed="#B" n="29" break="no"/>quod persensus addiscimus. Illae duae qua 
+      <lb ed="#B" n="30"/>lescunque causae non habent locum in 
+      <lb ed="#B" n="31"/>anima Adae, quae nec originale habuit; 
+      <lb ed="#B" n="32"/>nec ignorans in principiosuae 
+      creatio<lb ed="#B" n="33" break="no"/>nis fuit. Est tamen idem dicendum de 
+      <lb ed="#B" n="34"/>aia Adae sicut de caeteris. Et si qui docto 
+      <lb ed="#B" n="35"/>rum uidentur oppositum dicere; aut 
+      scri<lb ed="#B" n="36" break="no"/>pturae auctoritas ad oppositum sonare: 
+      <lb ed="#B" n="37"/>exponendae sunt, &amp; excusandae, ut quod 
+      <lb ed="#B" n="38"/>loquuntur de ordine non temporis; sed  
+      <lb ed="#B" n="39"/>naturae. Vel quod loquuntur secundum aliam 
+      <lb ed="#B" n="40"/>opionionem. unde &amp; illud Iob. c. xl. 
+      Behe<lb ed="#B" n="41" break="no"/>moth, quem feci tecum: quasi bos faenum 
+      <lb ed="#B" n="42"/>comedet. Non est intelligendum, quod 
+      <lb ed="#B" n="43"/>anima Iob simultempore creata sit cum 
+      <lb ed="#B" n="44"/>behemoth:id est lucifero: ut tecum, 
+      di<lb ed="#B" n="45" break="no"/>cat associationem quantum ad 
+      simul<lb ed="#B" n="46" break="no"/>tatemi durationis; sed dicit 
+      conformi<lb ed="#B" n="47" break="no"/>tatem in participatione rationis; 
+      quasi<lb ed="#B" n="48" break="no"/>diceret, feci tecum: id est tibi similem. 
+      <lb ed="#B" n="49"/>Neque propter hoc, quod angeli, &amp; 
+      caeli<lb ed="#B" n="50" break="no"/>suntsimul creati: animae debuerunt simul 
+      <!--249.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>creari: quia anima habet naturalem 
+      in<lb ed="#B" n="52" break="no"/>clinationem ad corpus, tanquam 
+      perfe<lb ed="#B" n="53" break="no"/>ctio ad proprium perfectibile; ideo non 
+      <lb ed="#B" n="54"/>debuit creariante corpus. Quod uero 
+      <lb ed="#B" n="55"/>separatur a corpore non est secundum 
+      <lb ed="#B" n="56"/>naturamanimae: sed ex peccato: sicut  
+      <lb ed="#B" n="57"/>dicit apostolus Roma. v. Per unum 
+      ho<lb ed="#B" n="58" break="no"/>minem peccatum in hunc mundum 
+      in<lb ed="#B" n="59" break="no"/>trauit; &amp; per peccatum mors. Nihil 
+      ta<lb ed="#B" n="60" break="no"/>se est uel in angelis, uel in caelis. Neque 
+      <lb ed="#B" n="61"/>ex hoc, quod corpus est propter animam: 
+      <lb ed="#B" n="62"/>sequitur animam esse priorem corpore 
+      <lb ed="#B" n="63"/>in existentia actuali: sed sufficit, quod sit 
+      <lb ed="#B" n="64"/>prior in intentione: sicut materia est 
+      <lb ed="#B" n="65"/>propter formam, &amp; tamen forma non 
+      <lb ed="#B" n="66"/>est prior materia. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

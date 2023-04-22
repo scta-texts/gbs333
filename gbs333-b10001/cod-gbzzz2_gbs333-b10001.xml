@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="1-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b10001"><!-- l2-d1prae -->
+            <head xml:id="gbs333-b10001-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b10001-d1e103">
+      <!--32.xml-->
+               <pb ed="#B" n="1-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>EnREVIATVRVS 
+      <lb ed="#B" n="2"/>dogmata 
+      clarissimi<lb ed="#B" n="3" break="no"/>doctoris 
+      Guilielmi<lb ed="#B" n="4" break="no"/>Ockam circa tres 
+      <lb ed="#B" n="5"/>ultimos sententiarum 
+      <lb ed="#B" n="6"/>libros, conabor 
+      di<lb ed="#B" n="7" break="no"/>uino aspirante ductu, 
+      <lb ed="#B" n="8"/>ed circa singulas 
+      distin<lb ed="#B" n="9" break="no"/>ctiones scholasticas mouere 
+      quaestio<lb ed="#B" n="10" break="no"/>nes: &amp; ubi praefatus doctor scribit suam 
+      <lb ed="#B" n="11"/>sententiam simul, &amp; uerba abbreuiare. 
+      <lb ed="#B" n="12"/>Abi uero non scribit, aliorum doctorum 
+      <lb ed="#B" n="13"/>sententias a dicti doct. principiis non 
+      <lb ed="#B" n="14"/>deuiantes, quantum potero, comportare, 
+      <lb ed="#B" n="15"/>Nonnunquam quaedam recitaturus: 
+      <lb ed="#B" n="16"/>quae conformia suis principijs dici 
+      pos<lb ed="#B" n="17" break="no"/>sunt: licet doct. ipse oppositum sensisse 
+      <lb ed="#B" n="18"/>uideatur. In his omnibus 
+      theologica<lb ed="#B" n="19" break="no"/>protestationi per me frequentius 
+      repe<lb ed="#B" n="20" break="no"/>titae inhaerens, me semper haec quoque 
+      <lb ed="#B" n="21"/>collecta; &amp; quaecunque siue docturus 
+      <lb ed="#B" n="22"/>sum, siue dicturus fuero emendationi 
+      <lb ed="#B" n="23"/>fancta Romanae Ecclesiae, &amp; cuilibet 
+      or<lb ed="#B" n="24" break="no"/>thodoxo, ac pio subijcio correctori.
+  </p>
+            <p xml:id="gbs333-b10001-d1e164">
+               <lb ed="#B" n="25"/>N HOC Libro magister 
+      <lb ed="#B" n="26"/>post tractatum de Deo 
+      secun<lb ed="#B" n="27" break="no"/>dum rationem naturalis 
+      per<lb ed="#B" n="28" break="no"/>uae fectionis libro primo 
+      expe<lb ed="#B" n="29" break="no"/>ditum, agit de Deo inquantum relucet 
+      <lb ed="#B" n="30"/>eius potentia in opere creationis: 
+      prae<lb ed="#B" n="31" break="no"/>nittes quasi proemialiter de creatione. 
+      <lb ed="#B" n="32"/>in genere: ut ordinem statuat 
+      dicendo<lb ed="#B" n="33" break="no"/>um. Secundo in dist. sequenti idem 
+      pro<lb ed="#B" n="34" break="no"/>sequitur in particulari, in specie. Tria 
+      <lb ed="#B" n="35"/>rigo in psenti dist. principaliter tract. 
+    </p>
+            <p xml:id="gbs333-b10001-d1e190">
+               <lb ed="#B" n="36"/>¶ Primo emanationem creaturae a Deo, 
+      <lb ed="#B" n="37"/>ianquam a principio efficiente per 
+      ip<lb ed="#B" n="38" break="no"/>sius creationem. Secundo de 
+      emana<lb ed="#B" n="39" break="no"/>none eius a Deo, tanquam a 
+      principio<lb ed="#B" n="40" break="no"/>inali per eius in Deum reductionem. 
+      <lb ed="#B" n="41"/>Tertio, ut ordinem tractandorum in hoc 
+      <lb ed="#B" n="42"/>iu. instituat rationalis creaturae: quae 
+      <!--32.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="43"/>immediate in Deum reducitur, 
+      inter<lb ed="#B" n="44" break="no"/>serit distinctionem.
+    </p>
+            <p xml:id="gbs333-b10001-d1e216">
+      ¶ Secundum haec 
+      <lb ed="#B" n="45"/>de tribus quaerendum erit. Primo de 
+      <lb ed="#B" n="46"/>deo inquantum est causa efficies creaturae 
+      <lb ed="#B" n="47"/>Secundo de eo, prout est causa finalis. Ter 
+      <lb ed="#B" n="48"/>tio de distinct. creaturae angelicae, &amp; 
+      hu<lb ed="#B" n="49" break="no"/>manae.
+    </p>
+            <p xml:id="gbs333-b10001-d1e230">
+      ¶ Circa primum ostendit magister, 
+      <lb ed="#B" n="50"/>Deum omnium uisibilium, &amp; inuisibilium 
+      <lb ed="#B" n="51"/>esse creatorem, &amp; principium causale 
+      <lb ed="#B" n="52"/>effectiuum.
+    </p>
+            <p xml:id="gbs333-b10001-d1e239">
+      ¶ Circa quam partem 
+      distin<lb ed="#B" n="53" break="no"/>ctionis primo auctor quaerit de 
+      quiddi<lb ed="#B" n="54" break="no"/>tate creationis tam actiue, quam passiue.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

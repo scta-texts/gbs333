@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="22-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b10698"><!-- l2-d2qprae -->
+            <head xml:id="gbs333-b10698-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b10698-d1e103">
+               <lb ed="#B" n="54"/>DISTINCTIO II 
+      <lb ed="#B" n="55"/>OVTQVAM 
+      ma<lb ed="#B" n="56" break="no"/>gister in praecedenti 
+      <lb ed="#B" n="57"/>distinctione egit de 
+      <lb ed="#B" n="58"/>creatione in genera 
+      <lb ed="#B" n="59"/>li: hic incipit agere 
+      <lb ed="#B" n="60"/>de creaturarum 
+      pro<lb ed="#B" n="61" break="no"/>ductione in 
+      speciali<lb ed="#B" n="62" break="no"/>Et primo de creatura pure spirituali 
+      <lb ed="#B" n="63"/>in. x. sequenti. distin. deinde de pure 
+      <lb ed="#B" n="64"/>corporali per. iiij. dist. a. xij. usque ad xvj. 
+      <lb ed="#B" n="65"/>Tertio de creatura ex spirituali, &amp; 
+      cor<lb ed="#B" n="66" break="no"/>porali composita. hoc est de homine: 
+      <lb ed="#B" n="67"/>a dist. xvj. usque ad finem libri.
+    </p>
+            <p xml:id="gbs333-b10698-d1e136">
+      ¶ 
+      Cir<lb ed="#B" n="68" break="no"/>canaturam pure spiritualem, quae 
+      <lb ed="#B" n="69"/>est natura angelica. Primo determinat 
+      <lb ed="#B" n="70"/>de eorum creatione: &amp; his, quae 
+      con<lb ed="#B" n="71" break="no"/>ueniunt eis ex eorum productione. 
+      Se<lb ed="#B" n="72" break="no"/>cundo de creatorum habitudine ad 
+      <lb ed="#B" n="73"/>deum, &amp; creaturam ex eorum 
+      conuer<lb ed="#B" n="74" break="no"/>sione, &amp; auersione dist. v. ¶. Circa 
+      pri<lb ed="#B" n="75" break="no"/>mum tria principaliter inuestigat. 
+      Pri<lb ed="#B" n="76" break="no"/>mo creationis tempus, &amp; locum 
+      quan<lb ed="#B" n="77" break="no"/>do, &amp; ubi sint producti. Secundo 
+      crea<lb ed="#B" n="78" break="no"/>torum qualitatem: an producti sint 
+      bo<lb ed="#B" n="79" break="no"/>ni aut mali. dist. iij. Tertio uirtutis 
+      quan<lb ed="#B" n="80" break="no"/>titatem, an orti sint perfecti, uel 
+      im<lb ed="#B" n="81" break="no"/>perfecti. dist. iiij.
+    </p>
+            <p xml:id="gbs333-b10698-d1e169">
+      ¶ In hac ergo secunda 
+      <lb ed="#B" n="82"/>dist. sunt duae conclusiones principales. 
+      <lb ed="#B" n="83"/>Prima. Angelicanatura, &amp; corporalis. 
+      <lb ed="#B" n="84"/>iiij. elementorum, confusa materia: 
+      si<lb ed="#B" n="85" break="no"/>mul cum tempore: non ex tempore, 
+      <lb ed="#B" n="86"/>nec in tempore, in principio sunt 
+      crea<lb ed="#B" n="87" break="no"/>ta. Cum tempore dicit, quod 
+      simulta<lb ed="#B" n="88" break="no"/>tem importat. Non ex tempore, nec 
+      <lb ed="#B" n="89"/>intelligitur ordo prioritatis temporis 
+      <lb ed="#B" n="90"/>ad alia creata. Naec in tempore: 
+      ne<lb ed="#B" n="91" break="no"/>designetur excessus temporis, sicut  
+      <lb ed="#B" n="92"/>continentis ad contenta in ea.
+    </p>
+            <p xml:id="gbs333-b10698-d1e195">
+      ¶ 
+      Se<lb ed="#B" n="93" break="no"/>cunda conclusio. In caelo empyreo, &amp; 
+      <lb ed="#B" n="94"/>cum illo omnes angeli simulsunt 
+      crea<lb ed="#B" n="95" break="no"/>ti. In quo caeteris manentibus, 
+      su<lb ed="#B" n="96" break="no"/>perbientes sunt prolapsi. Has 
+      conclu<lb ed="#B" n="97" break="no"/>siones auctoritatibus probat, &amp; de 
+      <lb ed="#B" n="98"/>ducit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="111-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b54240"><!-- l2-d18prae -->
+            <head xml:id="gbs333-b54240-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b54240-d1e103">
+               <lb ed="#B" n="86"/>DISTINCTIO XVIII. 
+      <lb ed="#B" n="87"/>IN distinctione 
+      deci<lb ed="#B" n="88" break="no"/>maoctaua magister 
+      <lb ed="#B" n="89"/>agit de 
+      constitutio<lb ed="#B" n="90" break="no"/>ne mulieris 
+      adiuto<lb ed="#B" n="91" break="no"/>rio uiri, quantum ad 
+      <lb ed="#B" n="92"/>principia 
+      constituti<lb ed="#B" n="93" break="no"/> ua sicut praecedenti 
+      <lb ed="#B" n="94"/>distinctione fecerat, quantum ad uiri 
+      es<lb ed="#B" n="95" break="no"/>sentialia. Et sumatur sententia huius 
+      di<lb ed="#B" n="96" break="no"/>stinctionis in his tribus conclusionibus. 
+    </p>
+            <p xml:id="gbs333-b54240-d1e129">
+               <lb ed="#B" n="97"/>¶ Prima conclusio. Ad
+      commendatio<lb ed="#B" n="98" break="no"/>nem unitatis principii de costa Adae in 
+      <!--253.xml-->
+      <pb ed="#B" n="111-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>paradiso dormientis sine additione 
+      ali<lb ed="#B" n="2" break="no"/>cuius extrinseci, a deo formatum est cor 
+      <lb ed="#B" n="3"/>pus mulieris.
+    </p>
+            <p xml:id="gbs333-b54240-d1e149">
+      ¶ Secunda conclusio. In 
+      <lb ed="#B" n="4"/>natura non fuit ratio seminalis, 
+      per<lb ed="#B" n="5" break="no"/>quam de costa Adae corpus Euae 
+      fie<lb ed="#B" n="6" break="no"/>ret. Erat autem habitudo, idest 
+      poten<lb ed="#B" n="7" break="no"/>tia obedientialis, ut de ea a deo fieri 
+      <lb ed="#B" n="8"/>posset.
+    </p>
+            <p xml:id="gbs333-b54240-d1e162">
+      ¶ Tertia conclusio. 
+      Catholica<lb ed="#B" n="9" break="no"/>Ecclesia rationales animas docet non 
+      <lb ed="#B" n="10"/>simul nec extraduce fieri: sed 
+      corpori<lb ed="#B" n="11" break="no"/>bus seminatis, &amp; formatis infundendo 
+      <lb ed="#B" n="12"/>creari, &amp; creando infundi. Declaratio 
+      <lb ed="#B" n="13"/>patet ex textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

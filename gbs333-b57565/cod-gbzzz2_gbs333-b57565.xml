@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="118-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b57565"><!-- l2-d21prae -->
+            <head xml:id="gbs333-b57565-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b57565-d1e103">
+               <lb ed="#B" n="33"/>DISTINCTIO XXI. 
+      <lb ed="#B" n="34"/>ETERMINATO de 
+      <lb ed="#B" n="35"/>hominis 
+      productio<lb ed="#B" n="36" break="no"/>ne, ac conseruatione. 
+      <lb ed="#B" n="37"/>in esse naturae. in hac 
+      <lb ed="#B" n="38"/>dist. xxi. incipit agere 
+      <lb ed="#B" n="39"/>de eius destitutione, 
+      <lb ed="#B" n="40"/>per lapsum culpae 
+      us<lb ed="#B" n="41" break="no"/>que in finem libri. Et quia cuipa triplex 
+      <lb ed="#B" n="42"/>est. Nam quaedam est, qua persona cor 
+      <lb ed="#B" n="43"/>rumpit naturam: quale fuit peccatum 
+      <lb ed="#B" n="44"/>primi hominis. Alia, qua natura 
+      corrun<lb ed="#B" n="45" break="no"/>pit personam, quale est peccatum 
+      origina<lb ed="#B" n="46" break="no"/>le. Quaedam, in qua persona corrumpit 
+      <lb ed="#B" n="47"/>seipsam: quale est peccatum actuale. 
+      <lb ed="#B" n="48"/>Ideo diuiditur textus iste usque ad finem 
+      <!--266.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>libri in tres partes. In prima agit de 
+      pec<lb ed="#B" n="50" break="no"/>cato primorum parentum. In secunda 
+      <lb ed="#B" n="51"/>de peccato originali ab illo personali 
+      <lb ed="#B" n="52"/>peccato causato distin. xxx. Tertio de 
+      <lb ed="#B" n="53"/>peccato actuali posterorum dist. xxxiiij. 
+      <lb ed="#B" n="54"/>Circa primum primo determinat de 
+      <lb ed="#B" n="55"/>culpa, per quam homo primus cecidit. 
+      <lb ed="#B" n="56"/>Secundo de potentia, per quam stare 
+      <lb ed="#B" n="57"/>potuit dist. xxiiij. Et quia peccatum 
+      Adae<lb ed="#B" n="58" break="no"/>comparari potest ad diabolum 
+      tentan<lb ed="#B" n="59" break="no"/>tem: ad hominem cadentem: ad Deum 
+      <lb ed="#B" n="60"/>permittentem, ideo primo agit de 
+      dia<lb ed="#B" n="61" break="no"/>boli tentatione dist. praesenti. Secundo 
+      <lb ed="#B" n="62"/>de hominis primi transgressione dist. 
+      <lb ed="#B" n="63"/>xxii. Tertio de permissione Dei 
+      distin<lb ed="#B" n="64" break="no"/>xxiii.
+    </p>
+            <p xml:id="gbs333-b57565-d1e179">
+      ¶ Colligitur autem sententia 
+      hu<lb ed="#B" n="65" break="no"/>ius distin. in tribus conclusionibus. 
+    </p>
+            <p xml:id="gbs333-b57565-d1e184">
+               <lb ed="#B" n="66"/>¶ Prima conclusio. Diabolus salutem, 
+      <lb ed="#B" n="67"/>quam perdiderat, homini inuidens, 
+      ip<lb ed="#B" n="68" break="no"/>sum non ui: sed fraude ad peccatum 
+      ten<lb ed="#B" n="69" break="no"/>tauit per serpentem caeteris 
+      animanti<lb ed="#B" n="70" break="no"/>bus callidiorem: gulam, inanem gloriam, 
+      <lb ed="#B" n="71"/>&amp; auaritiam persuadens uicit, &amp; 
+      pro<lb ed="#B" n="72" break="no"/>strauit.
+    </p>
+            <p xml:id="gbs333-b57565-d1e202">
+      ¶ Secunda conclusio. Existente 
+      <lb ed="#B" n="73"/>duplici tentatione, exteriore, &amp; 
+      interio<lb ed="#B" n="74" break="no"/>re: soli exteriori, quaem leuior est, homo 
+      <lb ed="#B" n="75"/>cedens peccato cecidit grauiore.
+    </p>
+            <p xml:id="gbs333-b57565-d1e212">
+      ¶ 
+      Ter<lb ed="#B" n="76" break="no"/>tia conclusio. Transgressione mandati 
+      <lb ed="#B" n="77"/>ad mulierem per uirum deriuati 
+      alte<lb ed="#B" n="78" break="no"/>rius impulsu totus homo labitur; 
+      pro<lb ed="#B" n="79" break="no"/>pterea decenter per gratiam alterius 
+      <lb ed="#B" n="80"/>ad ueniam reparatur. Has latius 
+      magi<lb ed="#B" n="81" break="no"/>ster in textu deducit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

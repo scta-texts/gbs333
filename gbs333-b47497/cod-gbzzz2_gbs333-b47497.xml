@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="97-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b47497"><!-- l2-d16prae -->
+            <head xml:id="gbs333-b47497-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b47497-d1e103">
+      <!--225.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>DISTINVTIO xVI. 
+      <lb ed="#B" n="52"/>IN distinctione 
+      deci<lb ed="#B" n="53" break="no"/>masexta, in qua 
+      inci<lb ed="#B" n="54" break="no"/>pit tertia pars 
+      prin<lb ed="#B" n="55" break="no"/>cipalis huius 
+      secun<lb ed="#B" n="56" break="no"/>di libri. Determina 
+      <lb ed="#B" n="57"/>to enim in 
+      speciali<lb ed="#B" n="58" break="no"/>de productione crea 
+      <lb ed="#B" n="59"/>turae pure spirituali simul &amp; pure 
+      corpo<lb ed="#B" n="60" break="no"/>rali, agit nunc de creatura ex utraque 
+      spi<lb ed="#B" n="61" break="no"/>rituali natura, &amp; corporali 
+      compo<lb ed="#B" n="62" break="no"/>sita: hoc est de homine. Et primo de 
+      <lb ed="#B" n="63"/>eius constitutione in esse naturali. 
+      Se<lb ed="#B" n="64" break="no"/>cundo de eius destitutione per lapsum 
+      <lb ed="#B" n="65"/>in esse criminali dist. xxj.
+    </p>
+            <p xml:id="gbs333-b47497-d1e142">
+      ¶ Circa primum 
+      <lb ed="#B" n="66"/>agit primo de homine, quantum ad eius 
+      <lb ed="#B" n="67"/>productionem. Secundo quantum ad eius 
+      <lb ed="#B" n="68"/>conseruationem dist. xix. Quo ad primum 
+      <lb ed="#B" n="69"/>prosequitur de hominis productione 
+      <lb ed="#B" n="70"/>quantum ad principium effectiuum. 
+      Se<lb ed="#B" n="71" break="no"/>cundo quantum ad principium constitutiuum 
+      <lb ed="#B" n="72"/>dist. xvij. In hac igitur distinctione de 
+      <lb ed="#B" n="73"/>terminat qualiter homo factus sit 
+      quan<lb ed="#B" n="74" break="no"/>tum ad deum: principium eius effectiuum 
+      tra<lb ed="#B" n="75" break="no"/>ctans illud Gen. j. Eaciamus hominem ad 
+      <lb ed="#B" n="76"/>imaginem, &amp; similitudinem nostram.
+    </p>
+            <p xml:id="gbs333-b47497-d1e168">
+      ¶ 
+      Colli<lb ed="#B" n="77" break="no"/>git aut sententia textus in subiectis 
+      tri<lb ed="#B" n="78" break="no"/>bus conclusionibus.
+    </p>
+            <p xml:id="gbs333-b47497-d1e175">
+      ¶ Prima hominem ad 
+      <lb ed="#B" n="79"/>imaginem, &amp; similitudinem dei esse factum 
+      <lb ed="#B" n="80"/>scriptura docet. Paciamus, inquit; 
+      homi<lb ed="#B" n="81" break="no"/>nem &amp;c. in prsona patris loquens, non ad 
+      an<lb ed="#B" n="82" break="no"/>gelos; sed ad filium, &amp; spiritum sanctu.
+    </p>
+            <p xml:id="gbs333-b47497-d1e187">
+      ¶ 
+      Se<lb ed="#B" n="83" break="no"/>cunda conclusio. Homo factus est ad 
+      trini<lb ed="#B" n="84" break="no"/>tatis imaginem, secundum memoriam, 
+      intelli<lb ed="#B" n="85" break="no"/>gentiam, &amp; dilectionem secundum innocentia 
+      <lb ed="#B" n="86"/>aunt, &amp; naturalem iustitia ad eius 
+      similitu<lb ed="#B" n="87" break="no"/>dinem.
+    </p>
+            <p xml:id="gbs333-b47497-d1e200">
+      ¶ Tertia conclusio. Tilius natus 
+      <lb ed="#B" n="88"/>est non ad imaginem: sed imago patris 
+      ei<lb ed="#B" n="89" break="no"/>per omnia aequalis. Homo factus est ad 
+      <lb ed="#B" n="90"/>imaginem, &amp; imago trinitatis imparis 
+      <lb ed="#B" n="91"/>accessu similitudinis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

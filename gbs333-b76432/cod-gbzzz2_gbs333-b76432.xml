@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="156-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b76432"><!-- l2-d32prae -->
+            <head xml:id="gbs333-b76432-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b76432-d1e103">
+               <lb ed="#B" n="83"/>DISTINCTIO XXXII 
+      <lb ed="#B" n="84"/>GITde 
+      peccatiori<lb ed="#B" n="85" break="no"/>ginalis quidditate, &amp; 
+      <lb ed="#B" n="86"/>transfusione, in hac 
+      <lb ed="#B" n="87"/>distinctione xxxij. 
+      <lb ed="#B" n="88"/>consequenter agit de 
+      <lb ed="#B" n="89"/>eius remissione, 
+      sol<lb ed="#B" n="90" break="no"/>uens quasdam 
+      quae<lb ed="#B" n="91" break="no"/>stiunculas breues circa peccatum 
+      origi<lb ed="#B" n="92" break="no"/>nale incidentes. Et colligitur 
+      senten<lb ed="#B" n="93" break="no"/>tia magistri in tribus conclusionibus, 
+      <lb ed="#B" n="94"/>quae sequuntur.
+    </p>
+            <p xml:id="gbs333-b76432-d1e132">
+      ¶ Prima 
+      conclusio<lb ed="#B" n="95" break="no"/>Per baptismum originale peccatum 
+      di<lb ed="#B" n="96" break="no"/>mittitur, ita quod ad cuipam seu reatum non 
+      <lb ed="#B" n="97"/>impuratur: &amp; quantum ad concupiscentiae 
+      ui<lb ed="#B" n="98" break="no"/>tium debilitatur.
+    </p>
+            <p xml:id="gbs333-b76432-d1e143">
+      ¶ Secunda conclusio. 
+      <!--344.xml-->
+      <pb ed="#B" n="157-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Concupiscentia, quae ante baptismum 
+      <lb ed="#B" n="2"/>poena est, &amp; culpa: &amp; post baptismum 
+      tan<lb ed="#B" n="3" break="no"/>tum poena, est a deo auctore inquantum 
+      <lb ed="#B" n="4"/>poena, non inquantum culpa.
+    </p>
+            <p xml:id="gbs333-b76432-d1e161">
+      ¶ Tertia 
+      con<lb ed="#B" n="5" break="no"/>clusio. Peccatum originale ex uolunta 
+      <lb ed="#B" n="6"/>te primi hominis contractum est: quia 
+      <lb ed="#B" n="7"/>dicitur uoluntarium. Et quia transfusio 
+      <lb ed="#B" n="8"/>ne factum est haereditarium; dici potest 
+      <lb ed="#B" n="9"/>necessarium. Prosecutio patet in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

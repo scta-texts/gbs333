@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="156-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b76101"><!-- l2-d31prae -->
+            <head xml:id="gbs333-b76101-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b76101-d1e103">
+      <!--342.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>DISTINCTIO xxxI. 
+      <lb ed="#B" n="52"/>VITdepeccatiori 
+      <lb ed="#B" n="53"/>ginalis quidditate: 
+      <lb ed="#B" n="54"/>agit in hac 
+      distin<lb ed="#B" n="55" break="no"/>ctione xxxj. de eius 
+      <lb ed="#B" n="56"/>traductione. Com 
+      <lb ed="#B" n="57"/>praehenditur autem 
+      <lb ed="#B" n="58"/>u sententia textus in 
+      <lb ed="#B" n="59"/>tribus conclusionibus, quarum prima 
+      <lb ed="#B" n="60"/>est haec.
+    </p>
+            <p xml:id="gbs333-b76101-d1e132">
+      ¶ Peccatum originale, quod non 
+      <lb ed="#B" n="61"/>carm inheret, sed animae; per carnem solan, 
+      <lb ed="#B" n="62"/>non per animam contralitur a prole.
+    </p>
+            <p xml:id="gbs333-b76101-d1e139">
+      ¶ Secunda. 
+      <lb ed="#B" n="63"/>Poslutio quaedam, quam ex libidinosa parem 
+      <lb ed="#B" n="64"/>tum concupiscentia caro contrahit, dum 
+      <lb ed="#B" n="65"/>concipitur, causa est peccatioriginalis 
+      <lb ed="#B" n="66"/>in anima: quae uitium siue corrruptio 
+      <lb ed="#B" n="67"/>carnis appellatur.
+    </p>
+            <p xml:id="gbs333-b76101-d1e152">
+      ¶ Tertia. Non 
+      fecun<lb ed="#B" n="68" break="no"/>ditas naturae humanae facit hominem 
+      <lb ed="#B" n="69"/>cum peccato nasci: sed foeditas 
+      libidi<lb ed="#B" n="70" break="no"/>nis, quam homines habent ex istius 
+      iu<lb ed="#B" n="71" break="no"/>stissima condemnatione peccati. 
+      Ha<lb ed="#B" n="72" break="no"/>rum probationes textus prosequitur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

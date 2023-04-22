@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="130-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b63495"><!-- l2-d25prae -->
+            <head xml:id="gbs333-b63495-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b63495-d1e103">
+               <lb ed="#B" n="62"/>DISTINCTIO XXV. 
+      <lb ed="#B" n="63"/>distinctione uicesi 
+      <lb ed="#B" n="64"/>maquinta agit de 
+      li<lb ed="#B" n="65" break="no"/>bero arbitrio 
+      se<lb ed="#B" n="66" break="no"/>cundum se quantum: 
+      <lb ed="#B" n="67"/>ad subiectum, 
+      quan<lb ed="#B" n="68" break="no"/>tum ad obiectum, &amp; 
+      <lb ed="#B" n="69"/>quantum ad uirturem, 
+      <lb ed="#B" n="70"/>&amp; effectum. Cuius sententia in subiectis 
+      <lb ed="#B" n="71"/>conclusionibus continetur.
+    </p>
+            <p xml:id="gbs333-b63495-d1e127">
+      ¶ Prima. 
+      <lb ed="#B" n="72"/>Liberum arbitrium respiciens 
+      contin<lb ed="#B" n="73" break="no"/>gens futurum diuersimode est in deo, in 
+      <lb ed="#B" n="74"/>angelis, &amp; in hominibus secundum 
+      qua<lb ed="#B" n="75" break="no"/>druplicem hominis statum. Hi status 
+      ho<lb ed="#B" n="76" break="no"/>minis sunt. Status ante peccatum: post 
+      <lb ed="#B" n="77"/>peccatum, &amp; ante gratiam, post peccatum 
+      <lb ed="#B" n="78"/>data gratia, in beatitudine aeterna.
+    </p>
+            <p xml:id="gbs333-b63495-d1e145">
+      ¶ 
+      Se<lb ed="#B" n="79" break="no"/>cunda conclusio. Humana uoluntas 
+      sem<lb ed="#B" n="80" break="no"/>per a coactione est libera: non autem 
+      <lb ed="#B" n="81"/>a peccato, &amp; a miseria: nec ad bonum 
+      <lb ed="#B" n="82"/>operandum sine gratia.
+    </p>
+            <p xml:id="gbs333-b63495-d1e156">
+      ¶ Tertia 
+      con<lb ed="#B" n="83" break="no"/>clusio. Libertas hominis ante peccatum 
+      <lb ed="#B" n="84"/>ad bonum nulla difficultate, aut carnis 
+      <lb ed="#B" n="85"/>rebellione impedita, per peccatum 
+      de<lb ed="#B" n="86" break="no"/>praessa est: &amp; grauiter diminuta. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

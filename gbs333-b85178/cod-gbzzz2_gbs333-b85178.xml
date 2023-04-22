@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="174-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b85178"><!-- l2-d38q1 -->
+            <head xml:id="gbs333-b85178-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b85178-Hd1e103" type="question-title">
+      Utrum uoluntatis 
+      finis, et intentionis sit distinctio realis, 
+      aut tantum rationis
+    </head>
+            <p xml:id="gbs333-b85178-d1e106">
+               <lb ed="#B" n="43"/>QVAESTIO VNICA 
+      <lb ed="#B" n="44"/>QVIA de causa bonitatis 
+      uo<lb ed="#B" n="45" break="no"/>luntatis dicendum erit 
+      in<lb ed="#B" n="46" break="no"/> fra distinct. xl. Ideo tantum 
+      <lb ed="#B" n="47"/>quaeritur hic iuxta materiam 
+      <!--379.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>tertiae conclusionis. Vtrum uoluntatis 
+      <lb ed="#B" n="49"/>finis, &amp; intentionis sit distinctio realis, 
+      <lb ed="#B" n="50"/>aut tantum rationis. Positis pro articu 
+      <lb ed="#B" n="51"/>lo primo notabilibus terminorum 
+      de<lb ed="#B" n="52" break="no"/>claratiuis: ponentur conclusiones 
+      pro<lb ed="#B" n="53" break="no"/>articulo secundo cum dubijs pro 
+      ter<lb ed="#B" n="54" break="no"/>tio arti.
+    </p>
+            <p xml:id="gbs333-b85178-d1e139">
+      ¶ Quantum ad primum notandum, 
+      <lb ed="#B" n="55"/>quod nomen uoluntas aliquando accipitur 
+      <lb ed="#B" n="56"/>pro potentia appetitiua rationali, id est 
+      <lb ed="#B" n="57"/>pro anima rationali nata obiectum sibi 
+      <lb ed="#B" n="58"/>per rationem ostensum appetere, uel re 
+      <lb ed="#B" n="59"/>futare: &amp; sic potest accipi Luc. ij. Et in 
+      <lb ed="#B" n="60"/>terra pax hominibus bonae uoluntatis id est 
+      <lb ed="#B" n="61"/>uoluntatis bene habituatae. Aliquando 
+      <lb ed="#B" n="62"/>accipitur pro actu appetitiuo scilicet a 
+      <lb ed="#B" n="63"/>ipso uelle, aut nolle: sic dicij. j. ad 
+      Thes<lb ed="#B" n="64" break="no"/>sa. iiij. Voluntas dei est sanctificatio 
+      ue<lb ed="#B" n="65" break="no"/>stra, idest hoc uult deus, siue hoc est 
+      uel<lb ed="#B" n="66" break="no"/>le dei sanctificatio uestra, &amp; Lu. xij. 
+      Ser<lb ed="#B" n="67" break="no"/>uus, qui cognouit uoluntatem domini 
+      <lb ed="#B" n="68"/>sui, &amp; non se praeparauit, &amp; non fecit se 
+      <lb ed="#B" n="69"/>cundum uoluntatem eius, uapulabit 
+      mul<lb ed="#B" n="70" break="no"/>tis. Accipitur quandoque pro obiecto 
+      <lb ed="#B" n="71"/>uolito: ut ibi. Non mea, sed tua 
+      uolun<lb ed="#B" n="72" break="no"/>tas fiat. Mat. xxvj. In proposito 
+      accipi<lb ed="#B" n="73" break="no"/>tur pro potentia uolitiua, uel pro 
+      uolun<lb ed="#B" n="74" break="no"/>tatis actu.
+    </p>
+            <p xml:id="gbs333-b85178-d1e185">
+      ¶ Secundo notandum, quod 
+      dif<lb ed="#B" n="75" break="no"/>ferentia est inter finem, &amp; causam fina 
+      <lb ed="#B" n="76"/>lem, ut dictum est distin. j. quaest. v. Nam 
+      <lb ed="#B" n="77"/>finis est terminus rei, uel operationis. i. 
+      <lb ed="#B" n="78"/>effectus productus. Sed causa finalis est 
+      <lb ed="#B" n="79"/>aliquid amatum ab agente aliquid 
+      pro<lb ed="#B" n="80" break="no"/>pter ipsum, quod mouet agens ad agendum 
+      <lb ed="#B" n="81"/>producente. accipitur tamen 
+      frequen<lb ed="#B" n="82" break="no"/>ter finis, ut etiam se extendit ad causam 
+      <lb ed="#B" n="83"/>finalem.
+    </p>
+            <p xml:id="gbs333-b85178-d1e208">
+      ¶ Vnde sic accipiendo finem: 
+      <lb ed="#B" n="84"/>finis secundum Grego. de arim. capitui 
+      <lb ed="#B" n="85"/>tripliciter: communiter, proprie, &amp; 
+      ma<lb ed="#B" n="86" break="no"/>gis proprie. Communiter quodlibet 
+      uo<lb ed="#B" n="87" break="no"/>litum siue uolitionis obiectum dicitur 
+      <lb ed="#B" n="88"/>finis. Sic accipit Aug. xj. de trini. c. vj. 
+      <lb ed="#B" n="89"/>ubi dicit: quod uoluntas uidendi non 
+      ha<lb ed="#B" n="90" break="no"/>bet finem, nisi uisionem: siue illud 
+      refe<lb ed="#B" n="91" break="no"/>rat ad aliud, siue non referat: &amp; 
+      uolun<lb ed="#B" n="92" break="no"/>tas uidendi fenestram, finem habet 
+      fe<lb ed="#B" n="93" break="no"/>nestram. Einis proprie dicitur non quod  
+      <lb ed="#B" n="94"/>cunque uolitum, sed uolitum propter, quod 
+      <lb ed="#B" n="95"/>aliud est uolitum, &amp; sic accipitur finis, quod 
+      <lb ed="#B" n="96"/>est cuius gratia scilicet aliud est uolitu, 
+      <lb ed="#B" n="97"/>&amp; illos duos modos distinguit magister 
+      <!--380.xml-->
+      <pb ed="#B" n="175-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>in litera cum dicit. Tinis uoluntatis est 
+      <lb ed="#B" n="2"/>uelle illud, quid uolumus, per quod 
+      im<lb ed="#B" n="3" break="no"/>pletur ipsa uoluntas, uelpotius aliud 
+      pro<lb ed="#B" n="4" break="no"/>pter quod illud uolumus. Einis magis 
+      <lb ed="#B" n="5"/>propriae, est id, propter quod aliud est 
+      uo<lb ed="#B" n="6" break="no"/>litum, &amp; ipsum propter se tantum est 
+      uo<lb ed="#B" n="7" break="no"/>litum, sic dicitur ij. Metaphy. Tinis est, 
+      <lb ed="#B" n="8"/>quod non est alius causa: sed alia illius id est 
+      <lb ed="#B" n="9"/>finis est, quod non est uolitum propter 
+      <lb ed="#B" n="10"/>aliud: sed propter se tantum, alia autem 
+      <lb ed="#B" n="11"/>sunt uolita propter ipsum. &amp; 
+      commen<lb ed="#B" n="12" break="no"/>ibidem commen. viij. dicit: quod descriptio 
+      <lb ed="#B" n="13"/>causae finalis est, non ut sit propter aliam 
+      <lb ed="#B" n="14"/>causam. pro eodem ergo capit finem ibi, 
+      <lb ed="#B" n="15"/>&amp; causam finalem.
+    </p>
+            <p xml:id="gbs333-b85178-d1e280">
+      ¶ Tertio notandum 
+      cir<lb ed="#B" n="16" break="no"/>ca illum terminum intentio: quod secun- 
+      <lb ed="#B" n="17"/>dum Bona. q.vj. huius dis. Intentio mul 
+      <lb ed="#B" n="18"/>tipliciter accipitur. Vno modo pro 
+      po<lb ed="#B" n="19" break="no"/>tentia intendente: alio modo pro 
+      habi<lb ed="#B" n="20" break="no"/>tu, quo intendit: tertio modo pro actu 
+      <lb ed="#B" n="21"/>intendendi: quandoque pro obiecto, quod 
+      <lb ed="#B" n="22"/>intenditur. Primo modo accipitur cum 
+      <lb ed="#B" n="23"/>intentio dicitur oculus: cum uero 
+      dici<lb ed="#B" n="24" break="no"/>tur lumen, accipitur pro habitu 
+      dirigen<lb ed="#B" n="25" break="no"/>te: cum dicitur quod intentio est finis ipse: 
+      <lb ed="#B" n="26"/>sicut dicit magister in litera, accipitur 
+      <lb ed="#B" n="27"/>pro intento: cum uero dicitur, quod inten 
+      <lb ed="#B" n="28"/>tio quaedam est recta, quaedam obliqua, 
+      <lb ed="#B" n="29"/>accipitur pro actu: principalius 
+      tamen<lb ed="#B" n="30" break="no"/>intentionis nomen impositum est actui: 
+      <lb ed="#B" n="31"/>&amp; sic accipitur in proposito, sic autem 
+      ge<lb ed="#B" n="32" break="no"/>neraliter acceptum est actus potentiae, 
+      quo<lb ed="#B" n="33" break="no"/>actu fertur in aliquid siue moueatur a 
+      <lb ed="#B" n="34"/>se, siue ab alio.
+    </p>
+            <p xml:id="gbs333-b85178-d1e324">
+      ¶ Tertur autem potentia in 
+      <lb ed="#B" n="35"/>aliquid dupliciter: uel tamquam in obiectum, 
+      <lb ed="#B" n="36"/>siue finem. Primo modo est cuiuslibet 
+      po<lb ed="#B" n="37" break="no"/>tentiae. Secundo potest distingui. Aut 
+      poten<lb ed="#B" n="38" break="no"/>tia fertur in fine ducta ab alio, sicut 
+      fer<lb ed="#B" n="39" break="no"/>tur potentia non cognoscens, quo 
+      mo<lb ed="#B" n="40" break="no"/>do dicit conmen. quod natura non cognoscens 
+      <lb ed="#B" n="41"/>dirigitur ab agente infallibili, &amp; sic 
+      om<lb ed="#B" n="42" break="no"/>ne agens agit propter finem, siue per intem 
+      <lb ed="#B" n="43"/>tione finis. Vel potentia fertur in finem 
+      <lb ed="#B" n="44"/>non ducta ab alio, sed ducens se in aliud: 
+      <lb ed="#B" n="45"/>&amp; sic non potest esse alicuius potentiae 
+      <lb ed="#B" n="46"/>naturalis: sed tantum liberae quia 
+      secun<lb ed="#B" n="47" break="no"/>dum Damal. Appetitus non liber 
+      duci<lb ed="#B" n="48" break="no"/>tur, &amp; non ducit: &amp; hoc modo accipitur 
+      <lb ed="#B" n="49"/>hic pro actu scilicet potentiae rationalis libere, 
+      <lb ed="#B" n="50"/>quo fertur in aliquid, tamquam in finem: non 
+      <!--380.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tanquam in obiectum: &amp; hoc est, quod uult 
+      <lb ed="#B" n="52"/>beatus. Ansel. In oni (inquit) uolitione 
+      <lb ed="#B" n="53"/>contingit accipere quid, &amp; cur. Intendere non 
+      <lb ed="#B" n="54"/>respicit quid, sed cur: hoc est finem per aliud  
+      <lb ed="#B" n="55"/>tanquam per medium: est ergo intentio 
+      <lb ed="#B" n="56"/>actus uoluntatis respectu finis.
+    </p>
+            <p xml:id="gbs333-b85178-d1e379">
+      ¶ Et 
+      secun<lb ed="#B" n="57" break="no"/>dum quod finis accipitur tripliciter, 
+      cons<lb ed="#B" n="58" break="no"/>muniter, proprie, &amp; magis proprie: sic 
+      <lb ed="#B" n="59"/>intentio accipitur tripliciter scilicet 
+      commu<lb ed="#B" n="60" break="no"/>niter: &amp; sic omnis uolitio est intentio: 
+      <lb ed="#B" n="61"/>sicut quodlibet uolitum dicitur finis 
+      <lb ed="#B" n="62"/>communiter. Proprie: &amp; sic uolitio illius 
+      <lb ed="#B" n="63"/>propter quod aliquid est uolitum, 
+      dici<lb ed="#B" n="64" break="no"/>tur intentio. Magis proprie: uolitio 
+      <lb ed="#B" n="65"/>eius, quod est propter se uolitum, &amp; aliud 
+      <lb ed="#B" n="66"/>propter ipsum intentio appellatur.
+    </p>
+            <p xml:id="gbs333-b85178-d1e403">
+      ¶ Ex 
+      <lb ed="#B" n="67"/>quibus patet, quod omnis his tribus modis 
+      <lb ed="#B" n="68"/>intentio aliqua est usus, aliqua fruitio, 
+      <lb ed="#B" n="69"/>aliqua medium inter usum, &amp; fruitionem: 
+      <lb ed="#B" n="70"/>si ponitur medium de quo dis. j. primi sem 
+      <lb ed="#B" n="71"/>per tamen est finis medij, uel ultimi.
+    </p>
+            <p xml:id="gbs333-b85178-d1e416">
+      ¶ 
+      Quan<lb ed="#B" n="72" break="no"/>tum ad secundum articulum est 
+      coclusio<lb ed="#B" n="73" break="no"/>prima. Accipiendo uoluntatem, &amp; 
+      in<lb ed="#B" n="74" break="no"/>tentionem pro obiectis: &amp; finem 
+      com<lb ed="#B" n="75" break="no"/>muniter pro omni uolito, inter 
+      uolun<lb ed="#B" n="76" break="no"/>tatem, intentionem, &amp; finem nulla est 
+      <lb ed="#B" n="77"/>distinctio. Probatur conclusio. quia nec 
+      <lb ed="#B" n="78"/>est inter ea distinctio realis, nec 
+      ratio<lb ed="#B" n="79" break="no"/>nis: ergo nulla. Tenet consequentia a 
+      suf<lb ed="#B" n="80" break="no"/>ficienti diuisione: non n. pono 
+      distin<lb ed="#B" n="81" break="no"/>ctionem formalem in creaturis. 
+      Antece<lb ed="#B" n="82" break="no"/>dens probatur: non realis, quia eadem res 
+      <lb ed="#B" n="83"/>uolita est uoluntas: obiectum 
+      uolunta<lb ed="#B" n="84" break="no"/>tis, sinis &amp; intentio, quia idem est 
+      obie<lb ed="#B" n="85" break="no"/>ctum uolitionis, &amp; intentionis: &amp; ipsum 
+      <lb ed="#B" n="86"/>est finis communiter acceptus. Nec 
+      ra<lb ed="#B" n="87" break="no"/>tionis: quia illa non est rerum: sed 
+      tan<lb ed="#B" n="88" break="no"/>tum rationum, conceptuum scilicet uel signo 
+      <lb ed="#B" n="89"/>rum.
+    </p>
+            <p xml:id="gbs333-b85178-d1e459">
+      ¶ Secunda conclusio. Accipiendo 
+      <lb ed="#B" n="90"/>uoluntatem, &amp; intentionem pro 
+      poten<lb ed="#B" n="91" break="no"/>tia, uel actu uniformiter, finis 
+      distingui<lb ed="#B" n="92" break="no"/>tur ab utroque realiter, non tamen 
+      uni<lb ed="#B" n="93" break="no"/>uersaliter. Probatur. quia finis, qui est 
+      <lb ed="#B" n="94"/>obiectum uolitum, aut gratia cuius 
+      distin<lb ed="#B" n="95" break="no"/>guitur realiter a potentia, &amp; ab eius actu: 
+      <lb ed="#B" n="96"/>ergo a uoluntate, uel intentione sic 
+      ac<lb ed="#B" n="97" break="no"/>ceptis. Consequentia nota. Antecedens 
+      <lb ed="#B" n="98"/>pbatur. Quia frequenter finis est 
+      extrin<lb ed="#B" n="99" break="no"/>secus, &amp; distans a potentia, &amp; actu: nam 
+      <lb ed="#B" n="100"/>potentia dilectione tendens in deum, 
+      <!--381.xml-->
+      <pb ed="#B" n="175-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>uel aliud dilectum citra deum realiter 
+      <lb ed="#B" n="2"/>distinguitur a dilecto, simul &amp; a dilectic 
+      <lb ed="#B" n="3"/>ne.
+    </p>
+            <p xml:id="gbs333-b85178-d1e498">
+      ¶ Dicitur non tamen uniuersaliter: 
+      <lb ed="#B" n="4"/>quia cum uoluntas sit potentia resse. 
+      <lb ed="#B" n="5"/>xiua potens se amore teflectere super 
+      <lb ed="#B" n="6"/>se, &amp; amorem suum: ipsa potentia, uel actus 
+      <lb ed="#B" n="7"/>est suijpsius obiectum, &amp; finis ut dum uult 
+      <lb ed="#B" n="8"/>se, &amp; actum suum propter seipsum.
+    </p>
+            <p xml:id="gbs333-b85178-d1e511">
+      ¶ Tertia 
+      <lb ed="#B" n="9"/>conclusio. Accipiendo uoluntatem, &amp; 
+      <lb ed="#B" n="10"/>intentionem pro actu: &amp; finem coniter. 
+      <lb ed="#B" n="11"/>uoluntas, &amp; intensio non distinguuntur: sed  
+      <lb ed="#B" n="12"/>magis adinuicem conuertuntur. Patet 
+      <lb ed="#B" n="13"/>conclusio: quia sic accipiendo omnis 
+      uo<lb ed="#B" n="14" break="no"/>luntas est intentio, &amp; omnis intentio est 
+      <lb ed="#B" n="15"/>uoluntas, intentio enim est uolitio finis, 
+      <lb ed="#B" n="16"/>&amp; loquendo coniter, omne uolitum est finis 
+      <lb ed="#B" n="17"/>ergo omnis uolitio est intentio: cum omnis 
+      <lb ed="#B" n="18"/>uolitio est uolitio uoliti, &amp; accipitur hic 
+      <lb ed="#B" n="19"/>uolitio gnaliter pro omni actu 
+      uolun<lb ed="#B" n="20" break="no"/>tatis tam affirmatiuo, quam negatiuo. i. 
+      <lb ed="#B" n="21"/>pro uelle, &amp; nolle: &amp; sic econuerso omnis 
+      <lb ed="#B" n="22"/>intentio est uolitio.
+    </p>
+            <p xml:id="gbs333-b85178-d1e544">
+      ¶ Quarta 
+      conclu<lb ed="#B" n="23" break="no"/>sio. Accipiendo intentionem proprie siue 
+      <lb ed="#B" n="24"/>magis proprie: &amp; uoluntatem pro actu: 
+      <lb ed="#B" n="25"/>aliqua uoluntas, &amp; intentio distinguunt: 
+      <lb ed="#B" n="26"/>&amp; aliqua uoluntas, &amp; intentio non 
+      di<lb ed="#B" n="27" break="no"/>stinguuntur. Primum patet de uoluntate 
+      <lb ed="#B" n="28"/>medij tantum uoliti non propterse, illa 
+      <lb ed="#B" n="29"/>uoluntas inquantum est medij, non est 
+      <lb ed="#B" n="30"/>intentio. Patet: quia intentio tantum est 
+      <lb ed="#B" n="31"/>uoluntas finis. Secundum patet de 
+      uolun<lb ed="#B" n="32" break="no"/>tate finis propinqui, uel ultimi, quae est in 
+      <lb ed="#B" n="33"/>tentio.
+    </p>
+            <p xml:id="gbs333-b85178-d1e570">
+      ¶ Quinta conclusio. Voluntas, 
+      <lb ed="#B" n="34"/>&amp; intentionis nomina re, &amp; ratione sunt  
+      <lb ed="#B" n="35"/>distincta. Quod re distinguuntur, patet 
+      <lb ed="#B" n="36"/>quia unum nomen non est aliud: cum differunt 
+      <lb ed="#B" n="37"/>in literis, &amp; syvllabis. Quod ratione: quia 
+      <lb ed="#B" n="38"/>non sunt sVnonyma: &amp; eis correspondet 
+      <lb ed="#B" n="39"/>diuersi conceptus: ut patet ex illo 
+      arti<lb ed="#B" n="40" break="no"/>culo.
+    </p>
+            <p xml:id="gbs333-b85178-d1e588">
+      ¶ Quantum ad tertium articulum 
+      <lb ed="#B" n="41"/>dubitatur primo: utrum intentio sit unius 
+      <lb ed="#B" n="42"/>potentiae; uel duarum: &amp; uidetur, quod sit 
+      <lb ed="#B" n="43"/>duarum potentiarum. Nam intentio est 
+      <lb ed="#B" n="44"/>actus lib. arbi. sedlibe. arbi 
+      compraehen<lb ed="#B" n="45" break="no"/>dit rationem, &amp; uoluntatem: nam scum 
+      <lb ed="#B" n="46"/>Aug. est facultas rationis, &amp; facultatis, qua 
+      <lb ed="#B" n="47"/>bonum eligitur gratia assistente &amp;c. ut 
+      pa<lb ed="#B" n="48" break="no"/>ter in tex. dist. xxiiij. ergo est actus 
+      dua<lb ed="#B" n="49" break="no"/>rum potentiarum. In oppositum: intentio est 
+      <lb ed="#B" n="50"/>unus actus: sed unus actus est unius po¬ 
+      <!--381.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tentiae: igit.
+    </p>
+            <p xml:id="gbs333-b85178-d1e620">
+      ¶ Hic tenet san. Bona. quod in 
+      <lb ed="#B" n="52"/>none intentionis clauditur simul actus 
+      <lb ed="#B" n="53"/>rationis, &amp; uoluntatis: quia ut dicit, 
+      inten<lb ed="#B" n="54" break="no"/>tio dicit quandodam collationem unius ad aliud  
+      <lb ed="#B" n="55"/>&amp; cum hoc quandam conuersionem cum 
+      quie<lb ed="#B" n="56" break="no"/>tatione, primum ptinet ad intellectum: sedm 
+      <lb ed="#B" n="57"/>ad uolutatem: sed quia supra dist. xxv. 
+      <lb ed="#B" n="58"/>ostensum est, quolibe. arbi non est duae 
+      po<lb ed="#B" n="59" break="no"/>tentiae: sed una potentia: ita &amp; 
+      inten<lb ed="#B" n="60" break="no"/>tio non est duo actus: sed actus unus 
+      <lb ed="#B" n="61"/>unius potentiae: nam licet intensio non sit 
+      <lb ed="#B" n="62"/>sine actu intellectus, finem, &amp; medium oste 
+      <lb ed="#B" n="63"/>dentis: sicut est omnis actus uoluntatis posuj 
+      <lb ed="#B" n="64"/>ponit actum intellectus pro quanto 
+      uolun<lb ed="#B" n="65" break="no"/>tas non tendit in incognitum: non tamen deo 
+      <lb ed="#B" n="66"/>actus uoluntatis est duo actus, nec est 
+      <lb ed="#B" n="67"/>actus intellectus. Sic &amp; intentio poprie 
+      <lb ed="#B" n="68"/>accepta est uolitio finis assequendi 
+      per<lb ed="#B" n="69" break="no"/>media: &amp; illa uolitio est unus actus: 
+      li<lb ed="#B" n="70" break="no"/>cet nomen intentio posset connotare 
+      <lb ed="#B" n="71"/>plures actus scilicet actum medij relati in 
+      fi<lb ed="#B" n="72" break="no"/>nem supponit tamen intentio pro uoli 
+      <lb ed="#B" n="73"/>tione finis, quam est unus actus.
+    </p>
+            <p xml:id="gbs333-b85178-d1e670">
+      ¶ Et per hoc  
+      <lb ed="#B" n="74"/>patet ad dubium, quod intentio est actus unius 
+      <lb ed="#B" n="75"/>potentiae tantum scilicet uoluntatis: &amp; 
+      <lb ed="#B" n="76"/>eum arguitur de libe. arbitrio, dictum est 
+      <lb ed="#B" n="77"/>supra dist. xxv. quod liberum arbitrium non est 
+      <lb ed="#B" n="78"/>duae; sed una potentia scilicet uoluntas: licet  
+      <lb ed="#B" n="79"/>nomen liberiarbitrij connotat rationem, 
+      <lb ed="#B" n="80"/>uel intellectum, ut ibi ostensum est. Et  
+      <lb ed="#B" n="81"/>ad rationes Beati Bonau. dicendum, quod 
+      <lb ed="#B" n="82"/>conferre permodum iudicij est solius 
+      in<lb ed="#B" n="83" break="no"/>tellectus, sicut &amp; intelligere: sed referre 
+      <lb ed="#B" n="84"/>utendo, siue ordinando unum amabile 
+      <lb ed="#B" n="85"/>ad aliud est uoluntatis: sicut enim uolum 
+      <lb ed="#B" n="86"/>tas est reflexiua, quia immaterialis: ita 
+      <lb ed="#B" n="87"/>&amp; collatiua, uel potens referre suo 
+      mo<lb ed="#B" n="88" break="no"/>do.
+    </p>
+            <p xml:id="gbs333-b85178-d1e705">
+      ¶ Secundo dubitatur: ostenso, &amp; in 
+      <lb ed="#B" n="89"/>tentio sit unius potentiae scilicet uoluntatis: 
+      <lb ed="#B" n="90"/>an sit unus actus, uel duo eiusdem 
+      po<lb ed="#B" n="91" break="no"/>tentiae, &amp; uidetur, quod sint duo actus: quia 
+      <lb ed="#B" n="92"/>intentionis est referre media in finem: 
+      <lb ed="#B" n="93"/>nam qui intendit, intendendo refert, 
+      seu<lb ed="#B" n="94" break="no"/>ordinat unum in aliud: ergo complecti 
+      <lb ed="#B" n="95"/>tur duos actus, unum uoliti propter finem, 
+      <lb ed="#B" n="96"/>&amp; unum ipsius finis. Respondetur ad 
+      du<lb ed="#B" n="97" break="no"/>bium, quod quia intentio, ut dictum est, est 
+      <lb ed="#B" n="98"/>uolitio finis: quia aunt finis est alicuins 
+      fi<lb ed="#B" n="99" break="no"/>nis scilicet relati in ipsum: ideo intentio, quae 
+      <lb ed="#B" n="100"/>est finis, similiter connotat uolitionem 
+      <!--382.xml-->
+      <pb ed="#B" n="176-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>eius, quod est adfinem, siue cuius est finis. 
+      <lb ed="#B" n="2"/>Potet etiam secundum aliquos uoluntas unc 
+      <lb ed="#B" n="3"/>actuuelle finem, &amp; medium propter finem: 
+      <lb ed="#B" n="4"/>uel distinctis: ut dictum est in. j. dist. i. &amp; 
+      <lb ed="#B" n="5"/>tunc ille actus est simulactus, &amp; fruitio: 
+      <lb ed="#B" n="6"/>usus pro quanto est medij propter finem: 
+      <lb ed="#B" n="7"/>fruitio inquantum est finis perper seipsum: 
+      <lb ed="#B" n="8"/>&amp; tunc etia actus ille simulest usus, &amp; in 
+      <lb ed="#B" n="9"/>tentio. Potest etiam uoluntas duobus 
+      <lb ed="#B" n="10"/>distinctis actibus ferri in medium, &amp; in 
+      <lb ed="#B" n="11"/>finem, quorum primus est usus, &amp; non 
+      <lb ed="#B" n="12"/>fruitio. secundus fruitio, &amp; non usus: &amp; 
+      <lb ed="#B" n="13"/>tumc intentio supponit peo uolitione finis: 
+      <lb ed="#B" n="14"/>connotat tamen uolitionem eius, quod 
+      <lb ed="#B" n="15"/>ordinatur in finem, &amp; sic patet, quod semp 
+      <lb ed="#B" n="16"/>intentio est unus actus, licet coexigat 
+      <lb ed="#B" n="17"/>alium.
+    </p>
+            <p xml:id="gbs333-b85178-d1e777">
+      ¶ Tertio dubitatur: cum intentio sit 
+      <lb ed="#B" n="18"/>actus uoluntatis: quodo dicitur oculus, &amp; 
+      <lb ed="#B" n="19"/>lumen, haec. n.e pertinent ad intellectum: nun 
+      <lb ed="#B" n="20"/>autem Mat. vj. Si oculus tuus fuerit 
+      sim<lb ed="#B" n="21" break="no"/>plex, totum corpus lucidum erit, &amp; ibidem. 
+      <lb ed="#B" n="22"/>Vide ergo nelumen quod in te est &amp;c. 
+      <lb ed="#B" n="23"/>Glol. exponitoculum, &amp; lume de inten 
+      <lb ed="#B" n="24"/>tione. Respondetur, quod intentio dicitur 
+      <lb ed="#B" n="25"/>oculus, &amp; sumen metaphorice: &amp; ita non 
+      <lb ed="#B" n="26"/>semper pertinent ad intellectum; sed etiam 
+      <lb ed="#B" n="27"/>ad uoluntatem: unde intentio diitur 
+      ocu<lb ed="#B" n="28" break="no"/>lus uoluntatis, pro quanto per 
+      intentio<lb ed="#B" n="29" break="no"/>nem discernit: qua uoluntatis operatio 
+      bo<lb ed="#B" n="30" break="no"/>na, uel praua dicatur. Dicitur aut lumen: 
+      <lb ed="#B" n="31"/>quia, manifesta est intendenti, non sic opus: scit 
+      <lb ed="#B" n="32"/>n. homo, quid intendit: qduero ex opere 
+      se<lb ed="#B" n="33" break="no"/>quat, nescit, ideo opa dicuntur tenebrae: 
+      <lb ed="#B" n="34"/>intentio, quae manifesta est homini 
+      age<lb ed="#B" n="35" break="no"/>ti lumen secundum illud Apostoli Ephe. 
+      <lb ed="#B" n="36"/>r. Omne quod manifestatur, lumem est.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

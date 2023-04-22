@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="174-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b85096"><!-- l2-d38prae -->
+            <head xml:id="gbs333-b85096-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b85096-d1e103">
+               <lb ed="#B" n="15"/>DISCTINTIO xxxVIII. 
+      <lb ed="#B" n="16"/>GIT de peccato 
+      a<lb ed="#B" n="17" break="no"/>ctuali quantum ad 
+      <lb ed="#B" n="18"/>eius quidditatem. con 
+      <lb ed="#B" n="19"/>sequenter in 
+      distin<lb ed="#B" n="20" break="no"/>vj. sequenti. agit de 
+      <lb ed="#B" n="21"/>eodem quantum ad 
+      <lb ed="#B" n="22"/>actum interiorem, &amp; 
+      <lb ed="#B" n="23"/>exteriorem. Et primo quantum ad actum 
+      <lb ed="#B" n="24"/>interiorem: secundo quantum ad exte 
+      <lb ed="#B" n="25"/>riorem distin. xl.
+    </p>
+            <p xml:id="gbs333-b85096-d1e129">
+      ¶ Circa primum 
+      inqu<lb ed="#B" n="26" break="no"/>rit prauitatem in actu interiori 
+      uolun<lb ed="#B" n="27" break="no"/>tatis. Secundo causam inuestigat, cur 
+      <lb ed="#B" n="28"/>magis peccati prauitas consistit in actu 
+      <lb ed="#B" n="29"/>uoluntatis, quam intellectus, uel 
+      memo<lb ed="#B" n="30" break="no"/>riae distinct. xxxix.
+    </p>
+            <p xml:id="gbs333-b85096-d1e142">
+      ¶ Colligitur autem 
+      <lb ed="#B" n="31"/>sententia huius distin. in conclusionibus. 
+      <lb ed="#B" n="32"/>tribus.
+    </p>
+            <p xml:id="gbs333-b85096-d1e149">
+      ¶ Prima. Ex fine bono, qui deus 
+      <lb ed="#B" n="33"/>est, charitas, &amp; beatitudo, cognoscitur 
+      <lb ed="#B" n="34"/>bonae uoluntatis rectitudo.
+    </p>
+            <p xml:id="gbs333-b85096-d1e157">
+      ¶ Secunda 
+      <lb ed="#B" n="35"/>conclusio. Omnes bonae uoluntates 
+      <lb ed="#B" n="36"/>unum habent finem principalem, &amp; 
+      ul<lb ed="#B" n="37" break="no"/>timum: licet finem alium, atque alium 
+      ha<lb ed="#B" n="38" break="no"/>beant immediatum.
+    </p>
+            <p xml:id="gbs333-b85096-d1e168">
+      ¶ Tertia 
+      conclusio<lb ed="#B" n="39" break="no"/>Quamuis finis distinguitur a 
+      uolunta<lb ed="#B" n="40" break="no"/>te; utrumque tamen quandoque; 
+      significa<lb ed="#B" n="41" break="no"/>tur intentionis nomine. Has latius pro 
+      <lb ed="#B" n="42"/>sequitur magister in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="90-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b43814"><!-- l2-d14prae -->
+            <head xml:id="gbs333-b43814-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b43814-d1e103">
+               <lb ed="#B" n="53"/>DISTINCTIO xIIII. 
+      <lb ed="#B" n="54"/>IN distinctione 
+      deci<lb ed="#B" n="55" break="no"/>ma quarta postquam 
+      <lb ed="#B" n="56"/>egit de lucis 
+      produ<lb ed="#B" n="57" break="no"/>ctione; qua caetera 
+      <lb ed="#B" n="58"/>corpora 
+      cognoscun<lb ed="#B" n="59" break="no"/>tur: consequenter 
+      <lb ed="#B" n="60"/>&amp; 
+      <lb ed="#B" n="61"/>de aliorum 
+      corpo<lb ed="#B" n="62" break="no"/>rum productione prosequitur;, &amp; 
+      primo<lb ed="#B" n="63" break="no"/>corporum simplicium caeli, &amp; 
+      elemento<lb ed="#B" n="64" break="no"/>rum. Deinde mixtorum. xv. dist. In hac 
+      <lb ed="#B" n="65"/>ergo dist. secundum trium dierum scilicet 
+      se<lb ed="#B" n="66" break="no"/>cundi, tertij, &amp; quarti operantur 
+      aquaetra<lb ed="#B" n="67" break="no"/>cta: Sententia textus in tribus 
+      conclu<lb ed="#B" n="68" break="no"/>sionibus colligitur.
+    </p>
+            <p xml:id="gbs333-b43814-d1e140">
+      ¶ Prima 
+      conclusio<lb ed="#B" n="69" break="no"/>Deus dic secunda caelum Iydereum 
+      pro<lb ed="#B" n="70" break="no"/>duxit dictum firmamentum: non 
+      pro<lb ed="#B" n="71" break="no"/>pter quietis stationem; sed propter 
+      aqua<lb ed="#B" n="72" break="no"/>rum superiorum, &amp; inferiorum, quas 
+      di<lb ed="#B" n="73" break="no"/>uidit; in transgressibilem 
+      terminatio<lb ed="#B" n="74" break="no"/>nem. Secunda conclusio. Aquas 
+      sub<lb ed="#B" n="75" break="no"/>caelestes condensatas, &amp; partim in 
+      ca<lb ed="#B" n="76" break="no"/>uernis latentibus receptas, deus dic 
+      <lb ed="#B" n="77"/>tertia, congregauit, &amp; aerem seruant 
+      <lb ed="#B" n="78"/>simulterram, herbam, arboresque 
+      ger<lb ed="#B" n="79" break="no"/>minantem fundauit. Tertia 
+      conclusio<lb ed="#B" n="80" break="no"/>Die quarta cum sequentibus 
+      simpli<lb ed="#B" n="81" break="no"/>cium corpora ornatui deputatis, soles 
+      <lb ed="#B" n="82"/>luna, &amp; stellis deus ornauit 
+      firmamen<lb ed="#B" n="83" break="no"/>tum; ac tempora; annos, dies, 
+      eorum<lb ed="#B" n="84" break="no"/>que partes per eorum designauit motum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

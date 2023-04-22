@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="78-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b38079"><!-- l2-d11q1 -->
+            <head xml:id="gbs333-b38079-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b38079-Hd1e103" type="question-title">
+      Utrum 
+      cuilibet homini deputatur 
+      angelus bonus a natiuitatis 
+      suae principio usque ad praesentis uitae 
+      terminum, eius custodiae assignatus
+    </head>
+            <p xml:id="gbs333-b38079-d1e106">
+               <lb ed="#B" n="31"/>QVAESTIO VNICA 
+      <lb ed="#B" n="32"/>QVAERITVR circa hanc 
+      <lb ed="#B" n="33"/>distinctionem. Vtrum 
+      cui<lb ed="#B" n="34" break="no"/>libet homini deputatur 
+      an<lb ed="#B" n="35" break="no"/>gelus bonus a natiuitatis 
+      <lb ed="#B" n="36"/>suae principio usque ad praesentis uitae 
+      <lb ed="#B" n="37"/>terminum, eius custodiae assignatus. 
+      <lb ed="#B" n="38"/>Praemisso breui notabili conclusionibus 
+      <lb ed="#B" n="39"/>sequentibus dubia annectentur.
+    </p>
+            <p xml:id="gbs333-b38079-d1e128">
+      ¶ 
+      Quar<lb ed="#B" n="40" break="no"/>tum ad primum aduertendum, quod licet 
+      <lb ed="#B" n="41"/>homo habet liberum arbitrium. ita ut  
+      <lb ed="#B" n="42"/>quantum ad interiores uoluntatis actus 
+      <lb ed="#B" n="43"/>uiolentari non possit per potentiam 
+      <lb ed="#B" n="44"/>creataim; est tamen inconstans, &amp; cito 
+      <lb ed="#B" n="45"/>mobilis: &amp; in utranque partem uertibi¬ 
+      <!--187.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="46"/>lis, &amp; post primi hominis peccatum, 
+      pro<lb ed="#B" n="47" break="no"/>nior ad malum, multaque habet 
+      inclinan<lb ed="#B" n="48" break="no"/>tia ad lapsum, inter quae numerantur 
+      im<lb ed="#B" n="49" break="no"/>perceptibiles demonum salutem 
+      homi<lb ed="#B" n="50" break="no"/>num impedire molientium doli, &amp; 
+      frau<lb ed="#B" n="51" break="no"/>des, quorum nulla quies in tentando, 
+      <lb ed="#B" n="52"/>Circumeunt enim tanquam scones 
+      ru<lb ed="#B" n="53" break="no"/>gientes, quaerentes quem deuorent. e. 
+      <lb ed="#B" n="54"/>Petri. v. Indiget igitur angelica 
+      custo<lb ed="#B" n="55" break="no"/>dia, &amp; praesidio.
+    </p>
+            <p xml:id="gbs333-b38079-d1e170">
+      ¶ Indiget ut 
+      <name xml:id="gbs333-b38079-Nd1e172">sanctus Bo<lb ed="#B" n="56"/>nauen.</name> post <name xml:id="gbs333-b38079-Nd1e177">Alexan.</name> innuit ad quatuor 
+      <lb ed="#B" n="57"/>in genere; scilicet ad proficiendum in 
+      <lb ed="#B" n="58"/>gratia, ad praeseruationem a cuipa, ad 
+      <lb ed="#B" n="59"/>resurgendum e noxa perpetrata, &amp; a 
+      fa<lb ed="#B" n="60" break="no"/>cinorum multiplici pluralitate commit 
+      <lb ed="#B" n="61"/>tenda in profectu impeditur, ad casum 
+      <lb ed="#B" n="62"/>pellitur, in lapsu detinetur, &amp; ad 
+      ulte<lb ed="#B" n="63" break="no"/>riora committenda peccati admissi 
+      potes<lb ed="#B" n="64" break="no"/>dere aggrauatur.
+    </p>
+            <p xml:id="gbs333-b38079-d1e198">
+      ¶ Quo praemisso, est Art. 
+      <lb ed="#B" n="65"/>haec pro articulo secundo conclusio pri. 
+      Concl<lb ed="#B" n="66" break="no"/>ma. Ad custodiam hominis cuiuslibet 
+      E<lb ed="#B" n="67" break="no"/>uiatoris, deputatur angelus bonus a 
+      prin<lb ed="#B" n="68" break="no"/>cipio natiuitatis. Patet per magistrum 
+      <lb ed="#B" n="69"/>in textu allegantem illud Hicro. 
+      expo<lb ed="#B" n="70" break="no"/>nentis illud Mat. xviij. Angeli eorum 
+      <lb ed="#B" n="71"/>semper uident faciem patris. Magna est 
+      <lb ed="#B" n="72"/>dignitas animarum, ut unaqueque ab 
+      ortu<lb ed="#B" n="73" break="no"/>suae natiuitatis in sui custodiam habeat  
+      <lb ed="#B" n="74"/>angelum sibi deputatum. Quod potest 
+      <lb ed="#B" n="75"/>intelligi uel de natiuitate n utero; quem 
+      <lb ed="#B" n="76"/>est cum anima in sui creatione faerui 
+      in<lb ed="#B" n="77" break="no"/>funditur. Vel de natiuitate ex utero, 
+      <lb ed="#B" n="78"/>Item Esa. ixij. Super muros tuos 
+      Hie<lb ed="#B" n="79" break="no"/>rusalem constitui custodes. Muri sunt 
+      <lb ed="#B" n="80"/>Apostoli, custodes sunt angeli. ut dicit 
+      <lb ed="#B" n="81"/>glos. Item Ecclesiast. xvij. In una 
+      qua<lb ed="#B" n="82" break="no"/>que gentium praesupponit rectores. 
+      gloil<lb ed="#B" n="83" break="no"/>idest angelos.
+    </p>
+            <p xml:id="gbs333-b38079-d1e242">
+      ¶ Addit sanctus Bonauen. 
+      <lb ed="#B" n="84"/>rationes congruitatis tam ex parte 
+      dei<lb ed="#B" n="85" break="no"/>quam ex parte hominis. Ex parte 
+      dei<lb ed="#B" n="86" break="no"/>sumptas, ex altitudine diuinae potentiae. 
+      <lb ed="#B" n="87"/>Ex ordine diuinae sapientiae, &amp; ex dulce 
+      <lb ed="#B" n="88"/>dine diuinae misericordiae.
+    </p>
+            <p xml:id="gbs333-b38079-d1e255">
+      ¶ Ex primo, 
+      <lb ed="#B" n="89"/>ut altitudo diuinae potentiae etiam 
+      ap<lb ed="#B" n="90" break="no"/>pareat in obedientia sanctorum ange- 
+      <lb ed="#B" n="91"/>lorum, ex dei mandato creaturae 
+      infe<lb ed="#B" n="92" break="no"/>riori famulantium. Et ut aduersarios 
+      <lb ed="#B" n="93"/>suos non solum per se: sed per suos 
+      mi<lb ed="#B" n="94" break="no"/>nistros deuincat: ut merito deus 
+      saba<lb ed="#B" n="95" break="no"/>oth, idest exercituum appelletur.
+    </p>
+            <p xml:id="gbs333-b38079-d1e273">
+      ¶ Ex 
+      <!--188.xml-->
+      <pb ed="#B" n="79-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>secundo: quia ordinem diuinae 
+      sapien<lb ed="#B" n="2" break="no"/>tiae decet. Nam hic est ordo, quem 
+      di<lb ed="#B" n="3" break="no"/>uina lex in suis operibus exequitur, &amp; 
+      <lb ed="#B" n="4"/>conseruat; ut extrema per media 
+      redu<lb ed="#B" n="5" break="no"/>cat ad summa. Cum ergo angelus tam 
+      <lb ed="#B" n="6"/>ratione immortalis naturae, tam etiam 
+      <lb ed="#B" n="7"/>ratione gratiae consummatae medium 
+      <lb ed="#B" n="8"/>tenet inter deum, &amp; hominem lapsum: 
+      <lb ed="#B" n="9"/>decens fuit, ut deus per angelos 
+      adiu<lb ed="#B" n="10" break="no"/>uando, &amp; custodiendo hominem lapsum 
+      <lb ed="#B" n="11"/>ad se reduceret.
+    </p>
+            <p xml:id="gbs333-b38079-d1e306">
+      ¶ Ex tertio: quia decet 
+      <lb ed="#B" n="12"/>diuinae misericordiae dulcedinem, qui  
+      <lb ed="#B" n="13"/>finum suum lapso homini aperuit, ut 
+      <lb ed="#B" n="14"/>nec in aliquo ei deficiat, quod spectat  
+      <lb ed="#B" n="15"/>ad salutis suae promotionem. Et ideo 
+      <lb ed="#B" n="16"/>cum homo lapsus uenundatus esset, ut  
+      <lb ed="#B" n="17"/>faceret malum, ministrauit ei praecium 
+      <lb ed="#B" n="18"/>sanguinis filijsui, ut faceret bonum. Et  
+      <lb ed="#B" n="19"/>quia habet aduersarium impugnantem 
+      <lb ed="#B" n="20"/>dedit eiministrum custodientem, &amp; 
+      au<lb ed="#B" n="21" break="no"/>xiliantem: ut ex nulla parte humana 
+      m<lb ed="#B" n="22" break="no"/>seria remaneret sine misericordiae 
+      diui<lb ed="#B" n="23" break="no"/>nae subfidio, ac beneficio. Congruebat  
+      <lb ed="#B" n="24"/>igitur homini lapso ex hac tripiici 
+      ra<lb ed="#B" n="25" break="no"/>tione habere angelicam custodiam.
+    </p>
+            <p xml:id="gbs333-b38079-d1e339">
+      ¶ Neque  
+      <lb ed="#B" n="26"/>ex hoc ministerio minuit angelica 
+      dign<lb ed="#B" n="27" break="no"/>tas: iuxta illud. Maior est, qui 
+      recum<lb ed="#B" n="28" break="no"/>bit, quam qui ministrat: quoniam hoc  
+      <lb ed="#B" n="29"/>uerum est, quando minister recumbent 
+      <lb ed="#B" n="30"/>ministrat propter seipsum: sicut seruus 
+      <lb ed="#B" n="31"/>regi ministrat propter eius dignitatem, 
+      <lb ed="#B" n="32"/>&amp; imperium. Non autem habet 
+      uerita<lb ed="#B" n="33" break="no"/>tem, quando ministrans habet respectum 
+      <lb ed="#B" n="34"/>ad alium, ut dum magnus miles seruit 
+      <lb ed="#B" n="35"/>non tantum regi: sed etiam toti 
+      fami<lb ed="#B" n="36" break="no"/>liae: nec aliquem despicit propter 
+      utili<lb ed="#B" n="37" break="no"/>tatem personae. Non enim considerat, 
+      <lb ed="#B" n="38"/>quis est. sed regem, cuius est seruus. Sic 
+      <lb ed="#B" n="39"/>in proposito, angelus non homini 
+      pro<lb ed="#B" n="40" break="no"/>pter se ministrat: sed propter deum, cuius 
+      <lb ed="#B" n="41"/>gerit imaginem. Vel etiam uerbum 
+      il<lb ed="#B" n="42" break="no"/>lud intelligitur de ministro subjectionis 
+      <lb ed="#B" n="43"/>non praesidentiae. Custodire autem 
+      ho<lb ed="#B" n="44" break="no"/>minem, etsi ministerium dicat, magis 
+      <lb ed="#B" n="45"/>tamen importat angelum praesidere 
+      ho<lb ed="#B" n="46" break="no"/>mini, quam esse subiectum.
+    </p>
+            <p xml:id="gbs333-b38079-d1e388">
+      ¶ Ex parte 
+      <lb ed="#B" n="47"/>hominis congruum fuit, &amp; necessarium, 
+      <lb ed="#B" n="48"/>ut eum ab inuisibili aduersario angelus 
+      <lb ed="#B" n="49"/>defendat. Quia enim homo non habet 
+      <lb ed="#B" n="50"/>tantum colluctationem aduersus car¬ 
+      <!--188.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>nem, &amp; sanguinem, sed aduersus mundi 
+      <lb ed="#B" n="52"/>rectores, &amp; aduersus spiritalia nequitiae 
+      <lb ed="#B" n="53"/>in coelestibus: ut dicit apostolus Ephe. 
+      <lb ed="#B" n="54"/>vj. qui sunt hostes inuisibiles, debet 
+      per<lb ed="#B" n="55" break="no"/>oppositum habere inuisibiles adiutores 
+      <lb ed="#B" n="56"/>ad suiipsius defensionem. Et quia aduer 
+      <lb ed="#B" n="57"/>sarius undique impugnat nos. Nam 
+      ra<lb ed="#B" n="58" break="no"/>tionem seducit per astutias, uoluntatem 
+      <lb ed="#B" n="59"/>allicit per blanditias, uirtutes 
+      executi<lb ed="#B" n="60" break="no"/>uas corporales. idest membra, ut in 
+      ob<lb ed="#B" n="61" break="no"/>sessis opprimit per uiolentias. Ideo 
+      ne<lb ed="#B" n="62" break="no"/>cesse fuit bonum angelum specialiter 
+      <lb ed="#B" n="63"/>ad hoc dari; ut hominem defendat ab 
+      <lb ed="#B" n="64"/>oppressione; ut hominem erudiat, &amp; 
+      di<lb ed="#B" n="65" break="no"/>rigat contra fallaciam; ut hominem ex 
+      <lb ed="#B" n="66"/>hortetur, &amp; incitet ad bonum contra 
+      <lb ed="#B" n="67"/>blanditias. Et quia diabolus homine erat  
+      <lb ed="#B" n="68"/>fortior; &amp; in proposito malitiae 
+      per<lb ed="#B" n="69" break="no"/>tinacior, competebat homini, ut daret 
+      <lb ed="#B" n="70"/>angelica custodia, quae comprimeret 
+      <lb ed="#B" n="71"/>potestatem aduersarij in praemissis.
+    </p>
+            <p xml:id="gbs333-b38079-d1e449">
+      ¶ Et  
+      <lb ed="#B" n="72"/>quia rationes illae etiam locum habent 
+      <lb ed="#B" n="73"/>in statu naturae institutae, non lapsae 
+      so<lb ed="#B" n="74" break="no"/>lum; sicut patet in deceptione 
+      primi<lb ed="#B" n="75" break="no"/>parentis: licet magis nunc, quam tunc 
+      <lb ed="#B" n="76"/>indigeat; patet, quod non solum deputatus 
+      <lb ed="#B" n="77"/>est angelus ad custodiam hominis in 
+      <lb ed="#B" n="78"/>statu naturae lapsae; sed etiam institutae 
+      <lb ed="#B" n="79"/>seu integrae. Quod etiam ex uerbis 
+      Bea<lb ed="#B" n="80" break="no"/>ti Hiero, elici potest. Magna est 
+      digni<lb ed="#B" n="81" break="no"/>tas animarum, &amp;c. quia si deputatio 
+      an<lb ed="#B" n="82" break="no"/>gelicae custodiae pertinet ad dignitatem 
+      <lb ed="#B" n="83"/>animae: cum anima secundum statum 
+      na<lb ed="#B" n="84" break="no"/>turae institutae dignior fuit, quam 
+      secun<lb ed="#B" n="85" break="no"/>dum statum naturae lapsae: si nunc habet 
+      <lb ed="#B" n="86"/>angelum ad sui custodiam deputatum 
+      <lb ed="#B" n="87"/>maxime tunc. Et quia in illo statu 
+      ha<lb ed="#B" n="88" break="no"/>buit angelum tentantem, necesse fuit 
+      <lb ed="#B" n="89"/>&amp; habere angelum custodientem.
+    </p>
+            <p xml:id="gbs333-b38079-d1e491">
+      ¶ 
+      Se<lb ed="#B" n="90" break="no"/>cunda conclusio. Non deserit hominem 
+      <lb ed="#B" n="91"/>angelica custodia, quandiu permanet 
+      <lb ed="#B" n="92"/>hic in uia. Probatur: quia non debet 
+      <lb ed="#B" n="93"/>cessari custodia angeli, quandiu potest 
+      <lb ed="#B" n="94"/>pficere homini Sed amni uiatori: &amp; in 
+      <lb ed="#B" n="95"/>quodl. eius statu potest pficere uiatori;: 
+      er<lb ed="#B" n="96" break="no"/>go Consequentia nota. Maior ex alle. 
+      <lb ed="#B" n="97"/>gatis peorprima conclusione patet. Minor 
+      <lb ed="#B" n="98"/>ostenditur. Nam effectus angelicae 
+      cu<lb ed="#B" n="99" break="no"/>stodiae est respectu boni, &amp; respectu 
+      ma<lb ed="#B" n="100" break="no"/>li. Respectu boni conseruandi, &amp; acqui¬ 
+      <!--189.xml-->
+      <pb ed="#B" n="79-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>rendi, uel augmentandi. Respectu 
+      mali<lb ed="#B" n="2" break="no"/>euitandi, deserendi, uel minuendi. Item 
+      <lb ed="#B" n="3"/>est respectu corporis, &amp; anime. 
+      Respe<lb ed="#B" n="4" break="no"/>ctu corporis consistit in repulsione, seu 
+      <lb ed="#B" n="5"/>coertione daemonis; ne opprimat 
+      cor<lb ed="#B" n="6" break="no"/>pora. Respectu animae in arcendo 
+      ip<lb ed="#B" n="7" break="no"/>sum; neperuertat animas tollendo, uel 
+      <lb ed="#B" n="8"/>impediendo bona spiritualia. Sed 
+      cuili<lb ed="#B" n="9" break="no"/>bet uiatori etiam obstinatissimo potest 
+      <lb ed="#B" n="10"/>impendi aliquis dictorum effectuum: 
+      <lb ed="#B" n="11"/>Potest enim corpus obstinatia 
+      daemo<lb ed="#B" n="12" break="no"/>nis oppressione defendi. Neque enim 
+      <lb ed="#B" n="13"/>patitur angelus custos hominem usque 
+      <lb ed="#B" n="14"/>ad uitae terminum a daemone occidi; 
+      ni<lb ed="#B" n="15" break="no"/>si quando aliter exigit sententia 
+      diui<lb ed="#B" n="16" break="no"/>ni iudicij; alioquin nullus talis uiueret. 
+      <lb ed="#B" n="17"/>Non enim relinqueret diabolus 
+      pecca<lb ed="#B" n="18" break="no"/>torem gratia priuatum; &amp; secundum 
+      prae<lb ed="#B" n="19" break="no"/>sentem iustitiam damnatum in uita, 
+      <lb ed="#B" n="20"/>praeueniens eius conuersionem ad 
+      poe<lb ed="#B" n="21" break="no"/>nitentiam. Sic potest etiam quantumcunque;  
+      <lb ed="#B" n="22"/>obstinatus per custodiam angelicam 
+      <lb ed="#B" n="23"/>praeseruari; ne continue labatur in peius 
+      <lb ed="#B" n="24"/>nunc per occasionum subtractionem: 
+      <lb ed="#B" n="25"/>nunc per modos alios; quo etsi non 
+      <lb ed="#B" n="26"/>uitatur damnatio; tamen hoc agitur, 
+      <lb ed="#B" n="27"/>ut saltem tolerabilior fiat; dum saltem 
+      <lb ed="#B" n="28"/>ab aliquibus peccatis praeseruatur 
+      per<lb ed="#B" n="29" break="no"/>custodiam. Quae enim peccata non 
+      con<lb ed="#B" n="30" break="no"/>mitteret homo desperatus, &amp; 
+      obstina<lb ed="#B" n="31" break="no"/>tus in malitia. Quod enim multa non 
+      con<lb ed="#B" n="32" break="no"/>mittit, operatur angelica custodia.
+    </p>
+            <p xml:id="gbs333-b38079-d1e593">
+      ¶ Sic 
+      <lb ed="#B" n="33"/>in omni statu hominis effectum aliquem 
+      <lb ed="#B" n="34"/>habere potest angelica custodia. In 
+      <lb ed="#B" n="35"/>utero: extra uterum; ante rationis usum: 
+      <lb ed="#B" n="36"/>&amp; postquam peruenerit ad rationis usum. 
+      <lb ed="#B" n="37"/>Nam in utero animato foetu defendi 
+      <lb ed="#B" n="38"/>potest, ne interimatur. &amp; similiter 
+      na<lb ed="#B" n="39" break="no"/>tus in mundum ante baptismum, quod  
+      <lb ed="#B" n="40"/>si fieret, damnaretur; etiam post 
+      bap<lb ed="#B" n="41" break="no"/>tismum ante adultam aetatem; &amp; ab 
+      in<lb ed="#B" n="42" break="no"/>teritu corporis, &amp; multiplicibus 
+      pe<lb ed="#B" n="43" break="no"/>riculis, &amp; corporis indispositionibus: 
+      <lb ed="#B" n="44"/>propter quas minus idoneum reddetur 
+      <lb ed="#B" n="45"/>seruire spiritui. Et per hoc ab 
+      augmen<lb ed="#B" n="46" break="no"/>to meritorum; &amp; per consequens 
+      praemio<lb ed="#B" n="47" break="no"/>rum impediri. In adulta uero aetate in 
+      <lb ed="#B" n="48"/>supradictis potest multipliciter profice- 
+      <lb ed="#B" n="49"/>re.
+    </p>
+            <p xml:id="gbs333-b38079-d1e632">
+      ¶ Ex illo sequitur corollaric, quod 
+      an<lb ed="#B" n="50" break="no"/>gelus custos deputatur etiam infanti¬ 
+      <!--189.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>nondum ex utero nato. Patet, quia 
+      <lb ed="#B" n="52"/>potestibi a malis erui: &amp; ab 
+      aduersario<lb ed="#B" n="53" break="no"/>defendi; nec obest, quod adhuc corpore 
+      <lb ed="#B" n="54"/>coniunctus est corpori matris; quia 
+      <lb ed="#B" n="55"/>anima non est conuncta animae. Et  
+      <lb ed="#B" n="56"/>posset anima pueridam nariputa in 
+      ute<lb ed="#B" n="57" break="no"/>ro matre saluata: &amp; secundum hoc 
+      au<lb ed="#B" n="58" break="no"/>ctoritas Hieronu. intelligenda est de 
+      <lb ed="#B" n="59"/>natiuitate in utero, quae sit per 
+      infusio<lb ed="#B" n="60" break="no"/>nem animae uel extra uterum: quae 
+      per<lb ed="#B" n="61" break="no"/>ingressum inlucem huius mundi: ut  
+      <lb ed="#B" n="62"/>dicit Bonauent. in dubijs literalibus 
+      <lb ed="#B" n="63"/>praesentis distinctionis.
+    </p>
+            <p xml:id="gbs333-b38079-d1e669">
+      ¶ Item quia 
+      cu<lb ed="#B" n="64" break="no"/>stodia pertinet ad dignitatem 
+      anima<lb ed="#B" n="65" break="no"/>rum; nulla anima debet ea priuari, in 
+      <lb ed="#B" n="66"/>quo potest habere aliquem effectum: promo 
+      <lb ed="#B" n="67"/>uendo salutem; uel impediendo 
+      dam<lb ed="#B" n="68" break="no"/>nationem mediate, uel immediate.
+    </p>
+            <p xml:id="gbs333-b38079-d1e683">
+      ¶ 
+      Se<lb ed="#B" n="69" break="no"/>eundo sequitur, quod etiam Antichristo 
+      <lb ed="#B" n="70"/>deputabitur angelus bonus ad 
+      custo<lb ed="#B" n="71" break="no"/>diam. Patet; quia cum angelus bonus 
+      <lb ed="#B" n="72"/>potentior sit ad bonum, quam homo ad 
+      <lb ed="#B" n="73"/>malum; non subtrahit custodiam: 
+      quandiu<lb ed="#B" n="74" break="no"/>effectum aliquem habere potest, potautem 
+      <lb ed="#B" n="75"/>habere in antechristo quoad corpus, 
+      <lb ed="#B" n="76"/>&amp; eius animam in praeseruatione 
+      ma<lb ed="#B" n="77" break="no"/>li; etsi non in promotione boni.
+    </p>
+            <p xml:id="gbs333-b38079-d1e705">
+      ¶ Sed 
+      <lb ed="#B" n="78"/>contra hoc uidetur esse glo. super illud 
+      <lb ed="#B" n="79"/>Hiere. li. Curauimus babusonem, &amp; 
+      <lb ed="#B" n="80"/>non est sanata: derelinquamus eam: 
+      <lb ed="#B" n="81"/>&amp; eamus unusquisque in terram suam, 
+      <lb ed="#B" n="82"/>dicit. Medici sunt angeli, quos a 
+      no<lb ed="#B" n="83" break="no"/>bis repellimus, dum: eorum 
+      confilio<lb ed="#B" n="84" break="no"/>non acquiescimus. Item alia glol. 
+      ibi<lb ed="#B" n="85" break="no"/>dem. Caue nequando relinquat te 
+      me<lb ed="#B" n="86" break="no"/>dicus; si enim reliquerit: patet quod 
+      reces<lb ed="#B" n="87" break="no"/>sus medici damnatio tua sit: ergo 
+      ange<lb ed="#B" n="88" break="no"/>lius hominem, quem custodit, aliquando 
+      <lb ed="#B" n="89"/>derelinquit. Iten. Dama. dicit, quod 
+      Anti<lb ed="#B" n="90" break="no"/>christus carebit angelorum prefidio. 
+    </p>
+            <p xml:id="gbs333-b38079-d1e736">
+               <lb ed="#B" n="91"/>¶ Ad illa dicitur, quod bonus angelus non 
+      <lb ed="#B" n="92"/>dimittit etiam quantuncunque 
+      obstina<lb ed="#B" n="93" break="no"/>tos quantum ad actum eustodiae, 
+      qui<lb ed="#B" n="94" break="no"/>respicit malum: quia semper subtrahit  
+      <lb ed="#B" n="95"/>hominem ne labatur in peius; uel in 
+      <lb ed="#B" n="96"/>tot mala, in quot caderet semota 
+      cu<lb ed="#B" n="97" break="no"/>stodia angelorum. Quantum uero ad 
+      <lb ed="#B" n="98"/>actum, qui respicit bonum: obstinatos 
+      <lb ed="#B" n="99"/>deserit, &amp; antichristum non custodiet. 
+      <lb ed="#B" n="100"/>Et sic exponendae sunt auctoritates 
+      <!--190.xml-->
+      <pb ed="#B" n="80-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>glo. &amp; Dam. cum loquuntur de 
+      ange<lb ed="#B" n="2" break="no"/>li derelictione &amp;c. Intelligitur enim 
+      <lb ed="#B" n="3"/>angelus discedere; non quod non defendat 
+      <lb ed="#B" n="4"/>ab aduersario; uel non retraliat a malo; 
+      <lb ed="#B" n="5"/>sed quia non perducit ad bonum 
+      ex<lb ed="#B" n="6" break="no"/>hortando, &amp; monendo, &amp; ad custodiae 
+      <lb ed="#B" n="7"/>principalem finem. Vnde sicut arguit 
+      <lb ed="#B" n="8"/>Alexander de Hales quaestione. xij. ij. 
+      <lb ed="#B" n="9"/>parte. membro quinto. Teruentior est 
+      <lb ed="#B" n="10"/>bonus angelus in custodiendo, &amp; 
+      iu<lb ed="#B" n="11" break="no"/>uando, quam malus in nocendo. Sed 
+      <lb ed="#B" n="12"/>malus angelus etiam in cruce Christo 
+      <lb ed="#B" n="13"/>non defuit; sicut habetur in Glol. Tob. 
+      <lb ed="#B" n="14"/>ulti. Ergo multo fortius bonus 
+      ange<lb ed="#B" n="15" break="no"/>lus nulli homini quantumcunque male 
+      <lb ed="#B" n="16"/>deest; sed semper adest expectans 
+      quo<lb ed="#B" n="17" break="no"/>modo posset eum iuuare usque ad ter 
+      <lb ed="#B" n="18"/>minum. Et licet custodia non habet 
+      sem<lb ed="#B" n="19" break="no"/>per effectum in promotione boni; tamen 
+      <lb ed="#B" n="20"/>hoc non stat per angelum: sed per 
+      ho<lb ed="#B" n="21" break="no"/>minem nolentem acquiescere; non 
+      n<lb ed="#B" n="22" break="no"/>custodit necessitando liberum arbitrium 
+      <lb ed="#B" n="23"/>ad bonum; sed persuadendo, inclinando 
+      <lb ed="#B" n="24"/>&amp;c. Et per hoc dicitur derelinquere 
+      <lb ed="#B" n="25"/>quo ad istos effectus, qui propter liberum 
+      <lb ed="#B" n="26"/>arbitrium hominis non consentientis, 
+      <lb ed="#B" n="27"/>&amp; se auertentis non consequuntur, &amp; 
+      <lb ed="#B" n="28"/>sic etiam est intelligendum illud Hiere. 
+      De<lb ed="#B" n="29" break="no"/>relinquamus eam, quod intelligitur de 
+      <lb ed="#B" n="30"/>illis, qui disperati sunt, quia iam in 
+      il<lb ed="#B" n="31" break="no"/>lis tollitur illud, per quod deberet esse 
+      <lb ed="#B" n="32"/>medicina. Paenitentia enim medicina 
+      <lb ed="#B" n="33"/>est ad reuocandum hominem ab 
+      aegri<lb ed="#B" n="34" break="no"/>tudine spirituali. Impoenitens autem 
+      <lb ed="#B" n="35"/>est ad modum aegri despicientis 
+      medici<lb ed="#B" n="36" break="no"/>nam cum medico: &amp; ideo medicus eum 
+      <lb ed="#B" n="37"/>derelinquit quantum ad humc effectum, 
+      <lb ed="#B" n="38"/>qui est reuocare a morbo, potest 
+      ta<lb ed="#B" n="39" break="no"/>men adhuc ei assistere, ne incidat in 
+      pe<lb ed="#B" n="40" break="no"/>iorem morbum; uel ut diutius sustentet, 
+      <lb ed="#B" n="41"/>Sic inproposito: uide quid dicit 
+      Hie<lb ed="#B" n="42" break="no"/>ro. In fructuosa est anima, quae non 
+      ha<lb ed="#B" n="43" break="no"/>bet deum hospitem; nec praesidium 
+      an<lb ed="#B" n="44" break="no"/>gelorum. Infructuosa quidem quantum 
+      <lb ed="#B" n="45"/>ad fructum uitae aeternae. Etiam si 
+      ange<lb ed="#B" n="46" break="no"/>lus per reuelationem sciret custoditum 
+      <lb ed="#B" n="47"/>esse damnandum, &amp; praescitum: quia 
+      ta<lb ed="#B" n="48" break="no"/>men quantitatem damnationis 
+      igno<lb ed="#B" n="49" break="no"/>rat, adhuc non derelinquit custodiens, 
+      <lb ed="#B" n="50"/>ne toties peccaret: etsi quantitas dam¬ 
+      <!--190.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>nationis reuelaretur; nihilominus 
+      custo<lb ed="#B" n="52" break="no"/>dit ne plus peccando maiorem 
+      damna<lb ed="#B" n="53" break="no"/>tione mereatur. Vnde quia multi sunt 
+      <lb ed="#B" n="54"/>effectus custodiae; potest relinquere 
+      <lb ed="#B" n="55"/>quoad unum, &amp; non quoad alium. 
+      Cre<lb ed="#B" n="56" break="no"/>dendum est enim, quod multis modis 
+      ange<lb ed="#B" n="57" break="no"/>linos custodiant, studeantque promoue 
+      <lb ed="#B" n="58"/>re ad bonum, &amp; retrahbere a malo; 
+      quan<lb ed="#B" n="59" break="no"/>uis hoc non percipiat hebetudo 
+      spiri<lb ed="#B" n="60" break="no"/>tus nostri: propter quod multi 
+      super<lb ed="#B" n="61" break="no"/>biunt; multi in grati frequenter sibiat: 
+      <lb ed="#B" n="62"/>tribuunt, quod exangelico habent 
+      be<lb ed="#B" n="63" break="no"/>neficio; &amp; ex hoc minus efsiciuntur 
+      di<lb ed="#B" n="64" break="no"/>gni; ut ab angelis adiuuentur; ea 
+      pro<lb ed="#B" n="65" break="no"/>pter perutile est nosse, &amp; intelligere 
+      es<lb ed="#B" n="66" break="no"/>fectus angelicae custodiae.
+    </p>
+            <p xml:id="gbs333-b38079-d1e914">
+      ¶ 
+      Assignan<lb ed="#B" n="67" break="no"/>tur autem communiter. xij. effectus 
+      an<lb ed="#B" n="68" break="no"/>gelicae custodiae: qui colliguntur in 
+      di<lb ed="#B" n="69" break="no"/>uersis passibus scripturae. Primus pro 
+      <lb ed="#B" n="70"/>delictis increpare. Iudicum. ij. 
+      Ascen<lb ed="#B" n="71" break="no"/>dit angelus domini de galgala ad 
+      locun<lb ed="#B" n="72" break="no"/>ssentium; &amp; ait. Eduxi uos de Acgypto. 
+      <lb ed="#B" n="73"/>&amp; post. Et noluistis audire uocem 
+      me<lb ed="#B" n="74" break="no"/>am. Secundus est a peccatorum uinculis 
+      <lb ed="#B" n="75"/>absoluere. Actuum. xij. de Petro 
+      di<lb ed="#B" n="76" break="no"/>citur. Angelus astitit &amp;c. &amp; sequitur. 
+      <lb ed="#B" n="77"/>Et cediderunt catenae de manibus suis, 
+      <lb ed="#B" n="78"/>quod intelligendum est dispositiue, 
+      <lb ed="#B" n="79"/>Tertius est impedientia a bono auferre 
+      <lb ed="#B" n="80"/>quod figuratur Exod. xij. ubi angelus 
+      <lb ed="#B" n="81"/>percussit primogenita Aegrpti. 
+      Quar<lb ed="#B" n="82" break="no"/>tus est arcere daemones. Tob. xij. 
+      Daemo<lb ed="#B" n="83" break="no"/>nem ab uxore mea compescuit: dixit 
+      To<lb ed="#B" n="84" break="no"/>bias nobis minor de angelo Raphaele. 
+      <lb ed="#B" n="85"/>Quintus est docere, &amp; intus illuminat. 
+      <lb ed="#B" n="86"/>Danielis. ix. Nunc egressus sum, ut 
+      do<lb ed="#B" n="87" break="no"/>cerem te, ut intelligeres. Sextus est 
+      se<lb ed="#B" n="88" break="no"/>creta reuelare. Gen. xviij. Tres 
+      angeli<lb ed="#B" n="89" break="no"/>apparuerunt Abraae dicentes. Num 
+      ce<lb ed="#B" n="90" break="no"/>lare potero Abraam, quae facturus 
+      <lb ed="#B" n="91"/>sum. Septimus est consolari afflictos. 
+      <lb ed="#B" n="92"/>Tob. v. Porti animo esto: in 
+      proxi<lb ed="#B" n="93" break="no"/>mo est, ut a deo cureris. Octauus in 
+      <lb ed="#B" n="94"/>uia dei confortare, tert. Regum. 
+      <lb ed="#B" n="95"/>xix. Angelus ad Heliam dicit. 
+      <lb ed="#B" n="96"/>Surge, &amp; comede; grandis enim 
+      tibi<lb ed="#B" n="97" break="no"/>restat uia. Nonus est in uia 
+      deduce<lb ed="#B" n="98" break="no"/>re, &amp; conducere. Tobiae 
+      quinto<lb ed="#B" n="99" break="no"/>Ego ducam, &amp; reducam eum ad 
+      te<lb ed="#B" n="100" break="no"/>Raphael ad Tobiam seniorem de fi¬ 
+      <!--191.xml-->
+      <pb ed="#B" n="80-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lio suo. Decimus, hostes deijcere. Esa. 
+      <lb ed="#B" n="2"/>xxxvij. Epressus angelus domini 
+      percus<lb ed="#B" n="3" break="no"/>sit in castris Assvriorum. Vndecimus 
+      <lb ed="#B" n="4"/>tentationes mitigare. Genesis. xxxij. 
+      <lb ed="#B" n="5"/>Iacobluctatus est cum angelo ubi 
+      bene<lb ed="#B" n="6" break="no"/>dictione accepta confortatus est 
+      postlu<lb ed="#B" n="7" break="no"/>ctam; terigit neruum femoris eius; &amp; sta 
+      <lb ed="#B" n="8"/>tim emarcuit Duodecimus est 
+      oratio<lb ed="#B" n="9" break="no"/>nes deferre Quando orabas cum 
+      lachri<lb ed="#B" n="10" break="no"/>mis, &amp; sepeliebas mortuos &amp;c. Tob. xij. 
+      <lb ed="#B" n="11"/>Gerson cancellarius parisienm. reducit 
+      <lb ed="#B" n="12"/>effectus illos ad numerum septenarium: 
+      <lb ed="#B" n="13"/>sumptum ex his, quae angelus missus ad 
+      Pe<lb ed="#B" n="14" break="no"/>triliberationem operatus est. Actuum. 
+      <lb ed="#B" n="15"/>xij. quae in his meritis compraehendit. 
+      <lb ed="#B" n="16"/>tracta. viij. super magnificat. Angelus 
+      <lb ed="#B" n="17"/>astat, fulget, pullat, surgere clamat. 
+      Sol<lb ed="#B" n="18" break="no"/>uit, &amp; eduxit: libertatique relinquit. 
+      <lb ed="#B" n="19"/>Astat, ut ponderemus in trutina 
+      cor<lb ed="#B" n="20" break="no"/>dis, quis sit finis. Nam &amp; diabolus quae 
+      <lb ed="#B" n="21"/>rit claudere, uel penitus eruere oculum 
+      <lb ed="#B" n="22"/>fidei, ne cogitemus finem nostrum, qui 
+      <lb ed="#B" n="23"/>deus est: conueniens igitur est, ut astet 
+      <lb ed="#B" n="24"/>angelus bonus: ac illuminet oculos cor 
+      <lb ed="#B" n="25"/>dis in uiam, &amp; in finem pacis.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1051">
+      ¶ Eulger 
+      <lb ed="#B" n="26"/>in carcere mortis huius; ut sciat 
+      unus<lb ed="#B" n="27" break="no"/>quisque positus in tenebris, qualis sit 
+      sta<lb ed="#B" n="28" break="no"/>tus suus proprius; ut iuxta qualitates 
+      <lb ed="#B" n="29"/>morborum quaerantur qualitates auxi¬- 
+      <lb ed="#B" n="30"/>liorum.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1064">
+      ¶ Pulsat incitans ad bonum; 
+      fa<lb ed="#B" n="31" break="no"/>cit enim nos scire impellia sathan; ut 
+      sci<lb ed="#B" n="32" break="no"/>to periculo solicitudine maiori 
+      fugia<lb ed="#B" n="33" break="no"/>tur ad auxilium.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1074">
+      ¶ Tubet surgere 
+      ueloci<lb ed="#B" n="34" break="no"/>ter: dum per speciem diuinam mandata 
+      <lb ed="#B" n="35"/>seruari suggerit alioquiniacet uetus homo 
+      <lb ed="#B" n="36"/>noster obrutus peccatis de se desperans, 
+      <lb ed="#B" n="37"/>aut non cum minore discrimine nimis 
+      <lb ed="#B" n="38"/>sperans id est praesumens.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1087">
+      ¶ Soluit a catenis 
+      <lb ed="#B" n="39"/>uitiorum uinctum a mendicitate, &amp; 
+      fer<lb ed="#B" n="40" break="no"/>ro: concussus enimtimore casto &amp; 
+      san<lb ed="#B" n="41" break="no"/>cto cum gratiae domini magnificatione. 
+      <lb ed="#B" n="42"/>iam se praecingit uirtute actionis: iam 
+      <lb ed="#B" n="43"/>se calciat caligas praeceptorum in 
+      praepa<lb ed="#B" n="44" break="no"/>ratione euangelij pacis.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1103">
+      ¶ Aperit ultro 
+      <lb ed="#B" n="45"/>portam ferream penitentiae: transit 
+      ui<lb ed="#B" n="46" break="no"/>cum satisfactionis arctae: tandem sic 
+      <lb ed="#B" n="47"/>eductum libertati relinquit; ut sane 
+      de<lb ed="#B" n="48" break="no"/>inceps, quae retro sunt derelinquens, in 
+      <lb ed="#B" n="49"/>anteriora se totus extendat, reuersus 
+      <lb ed="#B" n="50"/>quidem ad se gratus deo, &amp; angelo suo 
+      <!--191.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>dicat. Nunc scio uere, quia misit deus 
+      <lb ed="#B" n="52"/>angelum suum, &amp; cripiuit me de 
+      ma<lb ed="#B" n="53" break="no"/>nu herodis. Quatuor prima spectant ad 
+      <lb ed="#B" n="54"/>omnes oeneraliter, qui purgantur. 
+      Spe<lb ed="#B" n="55" break="no"/>ctant alia duo magis ad illuminandos, 
+      <lb ed="#B" n="56"/>tamquam ad proficientes. Septimum 
+      <lb ed="#B" n="57"/>adiam eductos, quasi perfectos. Haec 
+      <lb ed="#B" n="58"/>Gerson.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1140">
+      ¶ Tertia conclusio. Animae 
+      <lb ed="#B" n="59"/>nec prius, quam coniungatur corpori, 
+      <lb ed="#B" n="60"/>nec posteius separationem deputatur 
+      cu<lb ed="#B" n="61" break="no"/>stodia angeli: Prima pars probatur; quia 
+      <lb ed="#B" n="62"/>ante coniunctionem animae anima non 
+      <lb ed="#B" n="63"/>est: ergo. Antecedens patet: quia 
+      in<lb ed="#B" n="64" break="no"/>fundendo creatur, &amp; creando 
+      infundi<lb ed="#B" n="65" break="no"/>tur. Sed nec embrioni ante 
+      anima<lb ed="#B" n="66" break="no"/>tionem angelus proprius pro custode 
+      <lb ed="#B" n="67"/>deputatur, quia illa custodia 
+      principa<lb ed="#B" n="68" break="no"/>lius respicit spiritum, quam corpus, ideo 
+      <lb ed="#B" n="69"/>non debet specialem angelum ad sui cu 
+      <lb ed="#B" n="70"/>stodiam habere, ante quam spiritus 
+      in<lb ed="#B" n="71" break="no"/>fundatur: etiam priusquam embrio 
+      ani<lb ed="#B" n="72" break="no"/>metur nihil uidetur distinctum habere 
+      <lb ed="#B" n="73"/>a corpore matris; ideo custos matris 
+      <lb ed="#B" n="74"/>erit etiam custos huius portionis, quae 
+      <lb ed="#B" n="75"/>censetur pars matris, sicut pomum 
+      non<lb ed="#B" n="76" break="no"/>dum maturum pars arboris. Secunda 
+      <lb ed="#B" n="77"/>pars probatur, quia post separationem 
+      <lb ed="#B" n="78"/>animae ipsa est in termino meriti, &amp; 
+      de<lb ed="#B" n="79" break="no"/>meriti proficiendi, &amp; deficiendi. Et ita 
+      <lb ed="#B" n="80"/>frustra esset ibi custodia angelica, cum 
+      <lb ed="#B" n="81"/>nullum posset habere effectum circa 
+      hu<lb ed="#B" n="82" break="no"/>iusmodi animam. Quod maxime uerum 
+      <lb ed="#B" n="83"/>est postiudicium particulare statim post 
+      <lb ed="#B" n="84"/>separationem celebratum. Quia forte 
+      <lb ed="#B" n="85"/>si mora aliqua. interuenit, posset 
+      indi<lb ed="#B" n="86" break="no"/>gere custodia propter uiolentiam 
+      dae<lb ed="#B" n="87" break="no"/>monum. Nec obuiat, quod legitur, ut  
+      <lb ed="#B" n="88"/>recitat beatus Hiero. Ad paulam. 
+      Quan<lb ed="#B" n="89" break="no"/>doque angelos animas in caelum 
+      deduxis<lb ed="#B" n="90" break="no"/>se cum laudibus, &amp; claritate; quia haec 
+      <lb ed="#B" n="91"/>ministeria angelorum non sunt 
+      adhibi<lb ed="#B" n="92" break="no"/>ta ad custodiam, sed ad gloriae 
+      declara<lb ed="#B" n="93" break="no"/>tionem animae, &amp; eius honorem 
+      anm<lb ed="#B" n="94" break="no"/>pliorem, &amp; consecutae beatitudinis 
+      te<lb ed="#B" n="95" break="no"/>stimonium.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1223">
+      ¶ Quantum ad articulum, 
+      <lb ed="#B" n="96"/>tertium, est primum dubium. Vtrum 
+      <lb ed="#B" n="97"/>christus habuit angelum custodem. 
+      Re<lb ed="#B" n="98" break="no"/>spondetur secundum Alexam. quod christus 
+      <lb ed="#B" n="99"/>habuit angelos ministros: sed non 
+      cu<lb ed="#B" n="100" break="no"/>stodes. Primum patet Matth. iiij. Ac¬ 
+      <!--192.xml-->
+      <pb ed="#B" n="81-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cesserunt angeli, &amp; ministrabant 
+      ei<lb ed="#B" n="2" break="no"/>Ministrabant, inquam, tamquam subie 
+      <lb ed="#B" n="3"/>cti suo domino; sicut &amp; ministrant 
+      pa<lb ed="#B" n="4" break="no"/>tri, cui perfecte obediunt. Secundum 
+      pa<lb ed="#B" n="5" break="no"/>tet: quia custodire secundum Alex. 
+      ul<lb ed="#B" n="6" break="no"/>tra hoc, quod dicit praesidentiam, &amp; 
+      prohi<lb ed="#B" n="7" break="no"/>bitionem nocumenti in custodiente: 
+      <lb ed="#B" n="8"/>connotat in custodito indigentiam Et  
+      <lb ed="#B" n="9"/>quod habeat naturam lapsam, uellabilem, 
+      <lb ed="#B" n="10"/>reu defectibilem non solum penae: sed etiam 
+      <lb ed="#B" n="11"/>culpae: in custodiente aute naturam 
+      stan<lb ed="#B" n="12" break="no"/>tem. Nunc in christo nulla fuit 
+      indigen<lb ed="#B" n="13" break="no"/>tia: neque natura lapsa, aut labilis, sed 
+      mi<lb ed="#B" n="14" break="no"/>nisterium: nihil tale connotat in eo, cui 
+      <lb ed="#B" n="15"/>ministratur neque indigentiam: neque de 
+      <lb ed="#B" n="16"/>fectibilitatem. Piunt enim ministeria 
+      <lb ed="#B" n="17"/>etiam ad honorem eius, cui ministratur 
+      <lb ed="#B" n="18"/>etiam eius, qui ministrat. Nam &amp; 
+      serui<lb ed="#B" n="19" break="no"/>re deo regnare est; &amp; summa libertas 
+      <lb ed="#B" n="20"/>atque honor creaturae: ut uult Boe. Et 
+      li<lb ed="#B" n="21" break="no"/>cet christus labilis fuit quantum ad 
+      na<lb ed="#B" n="22" break="no"/>turam assumptam: quia mortalis; non 
+      <lb ed="#B" n="23"/>tamen indigens praesidio aut custodia, 
+      <lb ed="#B" n="24"/>quia &amp; pati, &amp; mori in sua uoluntate, 
+      <lb ed="#B" n="25"/>&amp; potestate positum erat. Oblatus enim 
+      <lb ed="#B" n="26"/>est, quia uoluit. Esa. liij. &amp; Ioan. x. Ego 
+      <lb ed="#B" n="27"/>pono animam meam, &amp; iterum sumo eaus; 
+      ne<lb ed="#B" n="28" break="no"/>mo eausa tollit a me, sed ego pono eausa a 
+      me<lb ed="#B" n="29" break="no"/>ipso. Potestatem habeo ponendi eam: 
+      <lb ed="#B" n="30"/>&amp; potestatem habeoiterum sumendi eaus, 
+      <lb ed="#B" n="31"/>Nec obstat quod dicitur Luc. xxij. 
+      Ap<lb ed="#B" n="32" break="no"/>paruit ei angelus de caelo confortans eum 
+      <lb ed="#B" n="33"/>&amp; confortatio quedam custodia esse 
+      ui<lb ed="#B" n="34" break="no"/>detur, siquidem est confortatio potesta 
+      <lb ed="#B" n="35"/>tiua, &amp; ministerialis. Potestatiua 
+      bene<lb ed="#B" n="36" break="no"/>includit custodiam. Nam qui potestate 
+      <lb ed="#B" n="37"/>cofortat, eminentior est; &amp; habet custo 
+      <lb ed="#B" n="38"/>ditum sibi subiectum. Non sic fuit de 
+      chri<lb ed="#B" n="39" break="no"/>sto; quoniam etsi secundum naturam 
+      hu<lb ed="#B" n="40" break="no"/>mana paulominus minoratus est ab 
+      an<lb ed="#B" n="41" break="no"/>gel. maior tamen fuit eisdem, etiam secundum 
+      hu<lb ed="#B" n="42" break="no"/>manitatem, gratia, ueritate, &amp; potesta 
+      <lb ed="#B" n="43"/>te: ut puta plenus gratia: quantum ad parten 
+      <lb ed="#B" n="44"/>motiuam; &amp; ueritatis quoad cognitiuam. 
+      <lb ed="#B" n="45"/>Et sic plenus quantum ad omnem potentiam, quod 
+      <lb ed="#B" n="46"/>non poterat, proficere; quia datus fuit 
+      <lb ed="#B" n="47"/>ei spiritus no ad mensuram. Ioan. iij. Et ita se 
+      <lb ed="#B" n="48"/>cundum totam animae capacitatem plenus fuit 
+      <lb ed="#B" n="49"/>etiam potestate. quia ait. Data est mihi 
+      om<lb ed="#B" n="50" break="no"/>nu potestas in caelo, &amp; in terra. Matth. 
+      <!--192.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ulti. Confortatio uero ministerialis non in 
+      <lb ed="#B" n="52"/>cludit, nec coexigit custodiam; quia potest 
+      <lb ed="#B" n="53"/>heri ubi nulla est indigentia, uel 
+      defe<lb ed="#B" n="54" break="no"/>ctus: sic armigermilitem docendo aliqua 
+      <lb ed="#B" n="55"/>excitantia ipsum ad fortiter agendum. 
+    </p>
+            <p xml:id="gbs333-b38079-d1e1366">
+               <lb ed="#B" n="56"/>¶ Quod uero inpsal. xc. dicitur. 
+      Ange<lb ed="#B" n="57" break="no"/>lis suis mandauit de te; ut custodiant te 
+      in<lb ed="#B" n="58" break="no"/>omnibus uijs tuis. Non est intelligendum 
+      <lb ed="#B" n="59"/>de capite christo propter se; sed de mem 
+      <lb ed="#B" n="60"/>bris. Nec obest, quod passus est angelum 
+      ten<lb ed="#B" n="61" break="no"/>tatorem. Matthei. iiij quia illatentatio 
+      so<lb ed="#B" n="62" break="no"/>lum fuit exterius; non ad probationem, &amp; 
+      <lb ed="#B" n="63"/>&amp; exercitium: sed ad nostri instructionem, 
+      <lb ed="#B" n="64"/>&amp; aduersarij confutationem, ex qua 
+      christi<lb ed="#B" n="65" break="no"/>dignitas non minuebatur; sed 
+      manifesta<lb ed="#B" n="66" break="no"/>ta est in eius uictoria. Non sic de custodia 
+      <lb ed="#B" n="67"/>quae importat imperfectionem, &amp; 
+      indigen<lb ed="#B" n="68" break="no"/>tiam custodito; quae non fuit in christo. 
+      <lb ed="#B" n="69"/>Non enim poterat aduersarius 
+      uiolen<lb ed="#B" n="70" break="no"/>tiam inferre corporidiuinitati unito; nec 
+      <lb ed="#B" n="71"/>per astutias seducere intellectum a 
+      uer<lb ed="#B" n="72" break="no"/>bo plenariae illustratum; nec per 
+      blandi<lb ed="#B" n="73" break="no"/>tias allicere effectum plenitudine gratiae 
+      <lb ed="#B" n="74"/>confirmatum. Ideo non indigebat custo 
+      <lb ed="#B" n="75"/>de; nec quantum ad defensionem 
+      cor<lb ed="#B" n="76" break="no"/>poris, nec quantum ad eruditionem 
+      ra<lb ed="#B" n="77" break="no"/>tionis; nec quantum ad incitationem afse 
+      <lb ed="#B" n="78"/>ctionis.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1419">
+      ¶ Secundum dubium. Vtrum 
+      ange<lb ed="#B" n="79" break="no"/>lus ex custodia mereatur augmentum 
+      gau<lb ed="#B" n="80" break="no"/>dij: &amp; incurrat tristitia ex danatione cum 
+      <lb ed="#B" n="81"/>stoditi.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1428">
+      ¶ Supponitur, quod duplex est 
+      gau<lb ed="#B" n="82" break="no"/>dij augmentum scilicet secundum intensionem, 
+      <lb ed="#B" n="83"/>&amp; secundum extensionem. Primum attenditur 
+      <lb ed="#B" n="84"/>secundum additionem, &amp; unionemplurium 
+      <lb ed="#B" n="85"/>graduum gaudij. Secundum penes 
+      plu<lb ed="#B" n="86" break="no"/>ralitatem obiectorum de quibus est gaudium. 
+    </p>
+            <p xml:id="gbs333-b38079-d1e1441">
+               <lb ed="#B" n="87"/>¶ Secundo, quod est, gaudium essentiale, 
+      <lb ed="#B" n="88"/>quod habetur de obiecto beatifico, quid 
+      <lb ed="#B" n="89"/>est deus. Est &amp; gaudium accidentale, quid de 
+      <lb ed="#B" n="90"/>creatura habetur siue de se, siue de alio¬ 
+    </p>
+            <p xml:id="gbs333-b38079-d1e1452">
+               <lb ed="#B" n="91"/>¶ Tertio supponitur, quod nihil impedit 
+      ali<lb ed="#B" n="92" break="no"/>quem esse in termino respectu unius, &amp; 
+      <lb ed="#B" n="93"/>non respectu alterius, &amp; per consequens posse 
+      <lb ed="#B" n="94"/>mereri respectu unius, &amp; non alterius. 
+    </p>
+            <p xml:id="gbs333-b38079-d1e1463">
+               <lb ed="#B" n="95"/>¶ Tunc respondetur, quod angelorum 
+      cu<lb ed="#B" n="96" break="no"/>stodientium gaudium essentiale non 
+      <lb ed="#B" n="97"/>augmentatur, neque intensiue, neque 
+      ex<lb ed="#B" n="98" break="no"/>tensiue. Patet quia quantum ad hoc  
+      <lb ed="#B" n="99"/>sunt perfecte beati. Beatitudo autem 
+      <lb ed="#B" n="100"/>est status omnium bonorum congrega¬ 
+      <!--193.xml-->
+      <pb ed="#B" n="81-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>gaudet, licet eueniat uolitum; quia deus 
+      <lb ed="#B" n="2"/>ad gaudium causandum non 
+      concur<lb ed="#B" n="3" break="no"/>rit.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1492">
+      ¶ Dubitatur tertio, utrum angelus 
+      <lb ed="#B" n="4"/>bonus resistat angelo in custodiae 
+      suae<lb ed="#B" n="5" break="no"/>officio. Dubium illud pro tanto mouetr: quia 
+      <lb ed="#B" n="6"/>Dan. x. legitur, angelum, qui loquebatur da 
+      <lb ed="#B" n="7"/>nieli, dixisse. Princeps regni plarum 
+      resti<lb ed="#B" n="8" break="no"/>tit mihi xxj. diebus. Per principe autem 
+      <lb ed="#B" n="9"/>persarum secundum glo. Hiero, &amp; Greg. 
+      in<lb ed="#B" n="10" break="no"/>telligitur angelus.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1511">
+      ¶ Vnde notandum, quod 
+      si<lb ed="#B" n="11" break="no"/>cut cuilibet homini deputatus est 
+      ange<lb ed="#B" n="12" break="no"/>lus ad custodiam: ita cuilibet prouinciae 
+      <lb ed="#B" n="13"/>deputatus est angelus bonus, &amp; malus 
+      <lb ed="#B" n="14"/>ad custodiam, &amp; exercitium, qui dicuntur 
+      <lb ed="#B" n="15"/>principes; eo quod sunt de ordine 
+      principa<lb ed="#B" n="16" break="no"/>tus secundum quosdam: de quo Hiero. 
+      Da<lb ed="#B" n="17" break="no"/>niel. x. in glo. Videtur mihi hic angelus 
+      <lb ed="#B" n="18"/>esse, cui Persis credita est: iuxta illud 
+      <lb ed="#B" n="19"/>Deut. xxxij. Quando diuidebat 
+      altissi<lb ed="#B" n="20" break="no"/>inus gentes, quando separabat filios Adam: 
+      <lb ed="#B" n="21"/>statuit terminos gentium iuxta numerum 
+      <lb ed="#B" n="22"/>angelorum dei. Ex illis sunt de qbus 
+      Pau<lb ed="#B" n="23" break="no"/>lus. j. Corint. ij. dicit. Sapientiam 
+      loqui<lb ed="#B" n="24" break="no"/>mur inter perfectos, quam nemo 
+      prin<lb ed="#B" n="25" break="no"/>cipum huius seculi cognouit. Si enim 
+      <lb ed="#B" n="26"/>cognouissent, numquam dominum gloriae 
+      <lb ed="#B" n="27"/>crucifixissent.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1550">
+      ¶ Per hoc dicitur ad 
+      du<lb ed="#B" n="28" break="no"/>bium, quod angelus bonus resistit angelo 
+      <lb ed="#B" n="29"/>bono in custodiendi officio; uoluntate 
+      <lb ed="#B" n="30"/>non simpliciter contraria; sed ex 
+      condi<lb ed="#B" n="31" break="no"/>tione diuersa. Primum patet, quia 
+      quili<lb ed="#B" n="32" break="no"/>bet angelus bonus custos gentis suae, 
+      <lb ed="#B" n="33"/>quantum in eo est, procurat bona. 
+      Con<lb ed="#B" n="34" break="no"/>tingit autem, quod bona diuersarum gentium 
+      <lb ed="#B" n="35"/>adinuicem repugnant; sicut bonum fuis 
+      <lb ed="#B" n="36"/>set Persis, quod filij Ilrael mansissent in 
+      <lb ed="#B" n="37"/>habysonia; quia per illos multi ex Persis 
+      <lb ed="#B" n="38"/>conuertebantur adcultum unius dei. 
+      Ei<lb ed="#B" n="39" break="no"/>liis autem Ilrael bonum fuisset redire in ter 
+      <lb ed="#B" n="40"/>ram suam: ubi erat templum dumi, ut separati ab 
+      <lb ed="#B" n="41"/>idolatris liberius Deoseruirent; &amp; ut 
+      con<lb ed="#B" n="42" break="no"/>mixti inter gentes non discerent opera 
+      <lb ed="#B" n="43"/>eorum; ideo angelus Persarum ostendens in 
+      <lb ed="#B" n="44"/>conspectu dei quantum bonum sequeret psis, 
+      <lb ed="#B" n="45"/>si manerent filij Ifrael, interpellabat  
+      <lb ed="#B" n="46"/>apud deum, ut manerent: angelus uero 
+      <lb ed="#B" n="47"/>Danielis, &amp; captiuorum iudeorum in 
+      <lb ed="#B" n="48"/>Babylone cum Michacie principe 
+      svna<lb ed="#B" n="49" break="no"/>gogae praeces Danmelis pro liberatione. 
+      <lb ed="#B" n="50"/>popuii iudeorum, fusas dumo prsentarunt. osten¬ 
+      <!--193.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tione perfectus; sed ubi est status 
+      perfe<lb ed="#B" n="52" break="no"/>ctus, ibi non est profectus.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1611">
+      ¶ Item sicut in 
+      <lb ed="#B" n="53"/>Deo non est augmentum bonorum: ita nec in 
+      <lb ed="#B" n="54"/>angelo beato augmentum charitatis; quia 
+      <lb ed="#B" n="55"/>ian confirmati sunt, &amp; in termino; ergo 
+      <lb ed="#B" n="56"/>non est augmentum gaudij respectu Dei. 
+    </p>
+            <p xml:id="gbs333-b38079-d1e1622">
+               <lb ed="#B" n="57"/>¶ Secundo dicitur: quod gaudium 
+      acciden<lb ed="#B" n="58" break="no"/>tale angelorum custodientium augetur 
+      <lb ed="#B" n="59"/>ex beatificatione custoditorum 
+      inten<lb ed="#B" n="60" break="no"/>siue, &amp; extensiue. Secundum manifestum 
+      <lb ed="#B" n="61"/>est, quia deo pluribus gaudent. Primum 
+      <lb ed="#B" n="62"/>patet; quia ex euentu effectus 
+      desidera<lb ed="#B" n="63" break="no"/>ti crescit gaudium intensiue si praefuit: 
+      <lb ed="#B" n="64"/>aut de nouo generatur; sicut ex oppo 
+      <lb ed="#B" n="65"/>sito tristitia de aduentu noliti secundum 
+      <lb ed="#B" n="66"/>Aug. xiiij. de ciuitate dei. Sed angelus 
+      <lb ed="#B" n="67"/>desiderat beatitudinem eius, quem 
+      cu<lb ed="#B" n="68" break="no"/>stodit: ergo.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1651">
+      ¶ Item si gaudium est angelis 
+      <lb ed="#B" n="69"/>de uno peccatore paenitentia agente: 
+      <lb ed="#B" n="70"/>quanto magis, &amp; maius de beatitudine 
+      <lb ed="#B" n="71"/>eiusdem paenitentis: non aut maius 
+      exten<lb ed="#B" n="72" break="no"/>siue, quia non de alio: sed de illo de quo 
+      <lb ed="#B" n="73"/>nunc habet gaudium conuersionis: 
+      er<lb ed="#B" n="74" break="no"/>go maius intensiue.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1667">
+      ¶ Tertio dicitur, 
+      <lb ed="#B" n="75"/>quod augmentum gaudij acccidentalis 
+      an<lb ed="#B" n="76" break="no"/>gelus meretur per opera custodiae. 
+      Pro<lb ed="#B" n="77" break="no"/>batur; quia quantum ad illa respectu 
+      ac<lb ed="#B" n="78" break="no"/>cidentalis praemij non est in 
+      termi<lb ed="#B" n="79" break="no"/>no: ergo mereri potest. Tenet conse- 
+      <lb ed="#B" n="80"/>quentia, quia omne procedens ex 
+      cha<lb ed="#B" n="81" break="no"/>ritate eius, qui in uia est, est meritorium: 
+      <lb ed="#B" n="82"/>sed opera custodiae sunt huiusmodi: 
+      er<lb ed="#B" n="83" break="no"/>go &amp;c.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1690">
+      ¶ Quarto dicitur quod ex 
+      damna<lb ed="#B" n="84" break="no"/>tione custoditi, angelus custos non 
+      tri<lb ed="#B" n="85" break="no"/>statur. Probatur: tum quia uehemens 
+      <lb ed="#B" n="86"/>gaudium, &amp; delectatio expellit omnem 
+      <lb ed="#B" n="87"/>tristitia etiam contingentem. vij. Et hico 
+      <lb ed="#B" n="88"/>rum. Tum quia beatitudini repugnat 
+      om<lb ed="#B" n="89" break="no"/>nis tristitia, &amp; paena: sicut econuerso 
+      mi<lb ed="#B" n="90" break="no"/>seriae omnis delectatio, &amp; gaudium. Et 
+      li<lb ed="#B" n="91" break="no"/>cet ex danatione eueniat nolitum: non tamen 
+      <lb ed="#B" n="92"/>sequitur tristitia in beatis angelis; quia 
+      <lb ed="#B" n="93"/>deus non concurrit. Nolitum dico ex 
+      con<lb ed="#B" n="94" break="no"/>ditione, quia beati non uolunt simpliciter 
+      <lb ed="#B" n="95"/>malos dainari, quos per suam iustitiam 
+      <lb ed="#B" n="96"/>deus uult daminari; nolunt tamen ex 
+      con<lb ed="#B" n="97" break="no"/>ditione, quae sufficeret ad tristitiam cum 
+      <lb ed="#B" n="98"/>euentu oppositi; si deus concurreret. 
+      <lb ed="#B" n="99"/>Sic ex opposito diabolus de 
+      danatio<lb ed="#B" n="100" break="no"/>ne seductorum per eorum fraudes non 
+      <!--194.xml-->
+      <pb ed="#B" n="82-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dentes eas exauditione dignas. Hoc 
+      er<lb ed="#B" n="2" break="no"/>go modo contra se praeliari dicuntur: 
+      si<lb ed="#B" n="3" break="no"/>cut dicitur in Daniele ubi supra. Et numc 
+      <lb ed="#B" n="4"/>reuertar, ut praelier aduersus 
+      principen<lb ed="#B" n="5" break="no"/>Persarum.
+    </p>
+            <p xml:id="gbs333-b38079-d1e1747">
+      ¶ Secundum patet: quia 
+      <lb ed="#B" n="6"/>uoluntates angelorum bonorum sunt  
+      <lb ed="#B" n="7"/>conformes diuinae uoluntati, quia 
+      ta<lb ed="#B" n="8" break="no"/>mem de futuris Dei uoluntatem ignorant; 
+      <lb ed="#B" n="9"/>ideo quandoque consulendo Deum de 
+      ali<lb ed="#B" n="10" break="no"/>quo futuro circa populos, quibiis 
+      prae<lb ed="#B" n="11" break="no"/>sunt: allegant merita contraria: 
+      quili<lb ed="#B" n="12" break="no"/>bet uult bona suae gentis non simpliciter, 
+      <lb ed="#B" n="13"/>sed si ita Deo placuerit: unde quando eis 
+      <lb ed="#B" n="14"/>reuelatur diuina uoluntas simpliciter 
+      <lb ed="#B" n="15"/>concordant in ea Et hoc est, quod dicit 
+      <lb ed="#B" n="16"/>Greg. in glo. supra allegatum capitulum: 
+      <lb ed="#B" n="17"/>subdens, inquit, Spiritus gentibus 
+      princi<lb ed="#B" n="18" break="no"/>pantes; nequaquam pro iniuste agentibus 
+      <lb ed="#B" n="19"/>decertant: sed eorum facta iuste 
+      diiudicam<lb ed="#B" n="20" break="no"/>tes examinant; &amp; uniuscuiusque gentis 
+      iu<lb ed="#B" n="21" break="no"/>stitiam, uel culpam supernae curiae 
+      con<lb ed="#B" n="22" break="no"/>sistoria est sui per se uoluntas opificis; 
+      uo<lb ed="#B" n="23" break="no"/>luntas summa, quam cum semper aspiciunt, 
+      <lb ed="#B" n="24"/>quod obtinere non ualent nunquam 
+      uo<lb ed="#B" n="25" break="no"/>lunt. Et tantum de illo dubio, ac 
+      quaestio<lb ed="#B" n="26" break="no"/>ne: &amp; de tota materia angelorum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

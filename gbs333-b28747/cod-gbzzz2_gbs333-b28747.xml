@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="59-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b28747"><!-- l2-d8prae -->
+            <head xml:id="gbs333-b28747-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b28747-d1e103">
+               <lb ed="#B" n="8"/>DISTINCTIO VIII 
+      <lb ed="#B" n="9"/>VIT supra de. 
+      con<lb ed="#B" n="10" break="no"/>uersione, &amp; auersio 
+      <lb ed="#B" n="11"/>ne angelorum. In 
+      <lb ed="#B" n="12"/>sequenti. iiij. 
+      distin<lb ed="#B" n="13" break="no"/>ctione agit de 
+      ua<lb ed="#B" n="14" break="no"/>riis habitudinibus, 
+      <lb ed="#B" n="15"/>gl distinctionibus, &amp; 
+      <lb ed="#B" n="16"/>officijs eorundem. Et primo de 
+      habi<lb ed="#B" n="17" break="no"/>tudine eorum ad sua, uel aliotum cor 
+      <lb ed="#B" n="18"/>pora distinctione praesenti. Secundo 
+      <lb ed="#B" n="19"/>quantum ad eorum distinctionem, &amp; 
+      <lb ed="#B" n="20"/>ministeria. In hac ergo distinctione 
+      <lb ed="#B" n="21"/>inquirit, an sint corporei, an assumant  
+      <lb ed="#B" n="22"/>corpora. De apparitionibus 
+      corpora<lb ed="#B" n="23" break="no"/>libus quo deus, uel angeli apparuerunt 
+      <lb ed="#B" n="24"/>patribus. De illapsu quibus in existunt 
+      <lb ed="#B" n="25"/>mentibus hominum, uel eorum 
+      corpo<lb ed="#B" n="26" break="no"/>ribus. Cuius sententia in his tribus 
+      <lb ed="#B" n="27"/>colligitur conclusionibus.
+    </p>
+            <p xml:id="gbs333-b28747-d1e149">
+      ¶ Prima 
+      con<lb ed="#B" n="28" break="no"/>clusio. Probabile est angelos esse 
+      natu<lb ed="#B" n="29" break="no"/>ra incorporeos; assumere tamen 
+      quan<lb ed="#B" n="30" break="no"/>doque corpora suis actionibus, &amp; 
+      mi<lb ed="#B" n="31" break="no"/>nisterijs congrua.
+    </p>
+            <p xml:id="gbs333-b28747-d1e160">
+      ¶ Secunda 
+      conclu<lb ed="#B" n="32" break="no"/>sio. Etsi deus quandoque incorporeis 
+      <lb ed="#B" n="33"/>figuris per se uel angelos in eius 
+      loquen<lb ed="#B" n="34" break="no"/>tes persona apparuit: uiatoribus tamen 
+      <lb ed="#B" n="35"/>suam propriam speciem non ostendit. 
+    </p>
+            <p xml:id="gbs333-b28747-d1e171">
+               <lb ed="#B" n="36"/>¶ Tertia conclusio. Daemones nec 
+      me<lb ed="#B" n="37" break="no"/>tibus, nec hominum corporibus 
+      sub<lb ed="#B" n="38" break="no"/>stantialiter illabuntur: eis tamen 
+      per<lb ed="#B" n="39" break="no"/>malitiae effectum iunguntur, &amp; per 
+      eo<lb ed="#B" n="40" break="no"/>rum prohibitionem expelluntur. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="150-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b73410"><!-- l2-d30q1 -->
+            <head xml:id="gbs333-b73410-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b73410-Hd1e103" type="question-title">
+      Utrum iustitia originalis 
+      in primo parente fuit donum 
+      supernaturale
+    </head>
+            <p xml:id="gbs333-b73410-d1e106">
+               <lb ed="#B" n="35"/>QVAESTIO I 
+      <lb ed="#B" n="36"/>QVIA de peccato originali 
+      <lb ed="#B" n="37"/>quod agitur, quod priuat iustitia 
+      <lb ed="#B" n="38"/>originalem: ideo primo 
+      queri<lb ed="#B" n="39" break="no"/>tur. Vtrum iustitia originalis 
+      <lb ed="#B" n="40"/>in primo parente fuit donum 
+      superna<lb ed="#B" n="41" break="no"/>turale.
+    </p>
+            <p xml:id="gbs333-b73410-d1e124">
+      ¶ Hanc quaestionem tractat 
+      di<lb ed="#B" n="42" break="no"/>lucide doctor subtilis dist. xxix. 
+      secun<lb ed="#B" n="43" break="no"/>di, quem in hac materia imitatur Ockanm: 
+      <lb ed="#B" n="44"/>ideo breuiter eius dicta recitabo. Primo 
+      <lb ed="#B" n="45"/>ponens notabilia, deinde conclusiones, &amp; 
+      <lb ed="#B" n="46"/>tertio dubiorum solutiones.
+    </p>
+            <p xml:id="gbs333-b73410-d1e137">
+      ¶ Quantum ad 
+      <lb ed="#B" n="47"/>primum notandum primo, quod comuniter secun¬ 
+      <!--331.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>dum doct. iustitia originalis hunc ponitur 
+      <lb ed="#B" n="49"/>habuisse effectum scilicet facere perfecta 
+      tran<lb ed="#B" n="50" break="no"/>quillitatem in anima quantum ad omnes 
+      po<lb ed="#B" n="51" break="no"/>tentias: ita quod natura inferior non 
+      inclina<lb ed="#B" n="52" break="no"/>ret contra iudicium superioris. Aut si 
+      incli<lb ed="#B" n="53" break="no"/>naret quantum est ex se: posset tamen 
+      ordina<lb ed="#B" n="54" break="no"/>ri, &amp; regulari sine difficultate supiorum: 
+      <lb ed="#B" n="55"/>&amp; sine tristitia inferiorum: &amp; per hoc tolle 
+      <lb ed="#B" n="56"/>re rebellionem sensualitatis, quo aduersat  
+      <lb ed="#B" n="57"/>rationi ac uoluntati regulatae.
+    </p>
+            <p xml:id="gbs333-b73410-d1e169">
+      ¶ Secundo 
+      <lb ed="#B" n="58"/>notandum, quod naturale est unicuique 
+      appeti<lb ed="#B" n="59" break="no"/>tui ferri in suum appetibile: &amp; si est 
+      appeti<lb ed="#B" n="60" break="no"/>tus non libere tumnc naturale est ei summe 
+      <lb ed="#B" n="61"/>ferri quantum potest. Quia sicut talis appeti 
+      <lb ed="#B" n="62"/>tus secundum Dam. ducitur: &amp; non est inptante 
+      <lb ed="#B" n="63"/>sua eius actus: ita non est in ptante sua 
+      in<lb ed="#B" n="64" break="no"/>tentio actus, quin agat, quantu potest. Igitur 
+      <lb ed="#B" n="65"/>cum appetitus sensitiuus existens in puris 
+      <lb ed="#B" n="66"/>naturalibus habeat poprium appetibile, &amp; 
+      <lb ed="#B" n="67"/>delectabile: sume haberet tendere in id, 
+      <lb ed="#B" n="68"/>quantum est de se. Et illud tendere 
+      impedi<lb ed="#B" n="69" break="no"/>ret actum rationis: quia essent illae 
+      poten<lb ed="#B" n="70" break="no"/>tiae in eadem essentia sicut modo. Propter 
+      <lb ed="#B" n="71"/>quam unitatem impediunt se mutuo 
+      in<lb ed="#B" n="72" break="no"/>suis actibus intensis secundum Auicen. vj. 
+      <lb ed="#B" n="73"/>naturalium. Ergo cum ratio deberet 
+      co<lb ed="#B" n="74" break="no"/>nari ad impediendum ista delectationem 
+      <lb ed="#B" n="75"/>summam partis sensitiuae: &amp; non posset 
+      in<lb ed="#B" n="76" break="no"/>ferior potentia cohiberi sine aliqua 
+      tri<lb ed="#B" n="77" break="no"/>stitia, &amp; difficultate in ipsa existete. Nam 
+      <lb ed="#B" n="78"/>sicut ipsa summe inclinatur: ita ex parte 
+      <lb ed="#B" n="79"/>sui sume renitit ad oppositum: &amp; sic esset 
+      <lb ed="#B" n="80"/>rebellio. Quia inclinatio potentiae 
+      in<lb ed="#B" n="81" break="no"/>ferioris ad delectandum contra indicium 
+      ra<lb ed="#B" n="82" break="no"/>tionis, &amp; etiam difficultas ad refrenandum 
+      <lb ed="#B" n="83"/>illum appetitum.
+    </p>
+            <p xml:id="gbs333-b73410-d1e228">
+      ¶ Tertio notandum, quod 
+      <lb ed="#B" n="84"/>uoluntas coniuncta appetitui sensitiuo 
+      <lb ed="#B" n="85"/>nata est condelectarisibi, sicut intellectus 
+      <lb ed="#B" n="86"/>coniunctus sensui, natus est intelligere 
+      <lb ed="#B" n="87"/>sensibilia. Et si uoluntas multis 
+      sensiti<lb ed="#B" n="88" break="no"/>uis appetitibus coniugitur, nata est 
+      con<lb ed="#B" n="89" break="no"/>delectari illis omnibus: &amp; ita non tantum 
+      <lb ed="#B" n="90"/>illum appetitum non potest retrabere a suo 
+      de<lb ed="#B" n="91" break="no"/>lectabili sine contraria inclinatione, &amp; 
+      <lb ed="#B" n="92"/>difficultate ex parte illius appetitus 
+      sen<lb ed="#B" n="93" break="no"/>sitiui: sed nec etiam uidetur seipsum 
+      <lb ed="#B" n="94"/>posse retraliere sine difficultate, &amp; 
+      tri<lb ed="#B" n="95" break="no"/>stitia, de non condelectando 
+      sensiti<lb ed="#B" n="96" break="no"/>uo appetitui. Ad hoc autem ut se 
+      de<lb ed="#B" n="97" break="no"/>lectabiliter retraliat, oportet eum in 
+      <!--332.xml-->
+      <pb ed="#B" n="151-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aliud ferri sibi delectabilius, quam sit illud 
+      <lb ed="#B" n="2"/>delectabile appetitus inferioris, cui 
+      con<lb ed="#B" n="3" break="no"/>delectaret, si illud delectabilius non esset: 
+      <lb ed="#B" n="4"/>sicut &amp; nunc: si uoluntas delectatur, debet  
+      <lb ed="#B" n="5"/>se auertere a delectationibus 
+      inordina<lb ed="#B" n="6" break="no"/>tis sensitiuis, indiget habitibus 
+      uirtuo<lb ed="#B" n="7" break="no"/>sis intensis: uoluntate plus ac delectabilius 
+      <lb ed="#B" n="8"/>inclinantibus ad opus uirtutis quam 
+      in<lb ed="#B" n="9" break="no"/>clinetur ad condelectandum appetitui 
+      in<lb ed="#B" n="10" break="no"/>feriori sensitiuo, uel naturali. Illud 
+      au<lb ed="#B" n="11" break="no"/>tem quicquid fuerit, quo se uoluntas 
+      de<lb ed="#B" n="12" break="no"/>lectabiliter retraberet a condelectando 
+      <lb ed="#B" n="13"/>uiribus inferioribus, uocatur iustitia 
+      ori<lb ed="#B" n="14" break="no"/>ginalis: quia per tale uoluntas semper 
+      <lb ed="#B" n="15"/>posset obedire rationi delectabiliter, &amp; 
+      <lb ed="#B" n="16"/>tolleret rebellio: ac poneretur 
+      tramquil<lb ed="#B" n="17" break="no"/>litas potentiatum, quae sunt effectus 
+      attri<lb ed="#B" n="18" break="no"/>buti iustitiae originali.
+    </p>
+            <p xml:id="gbs333-b73410-d1e306">
+      ¶ Quantum ad 
+      ar<lb ed="#B" n="19" break="no"/>ticulum secundum est haec prima conclusio: 
+      <lb ed="#B" n="20"/>Ad saluandum in primo parente tramquil 
+      <lb ed="#B" n="21"/>litatem potentiarum: necesse est pone- 
+      <lb ed="#B" n="22"/>re aliquam qualitatem, uel donum 
+      uo<lb ed="#B" n="23" break="no"/>luntatis superadditum. Probatur: quia 
+      <lb ed="#B" n="24"/>rebellio uirium inferiorum uoluntati 
+      <lb ed="#B" n="25"/>rectae est naturalis id est sequitur principia 
+      <lb ed="#B" n="26"/>naturae: ideo non potest tolli nisi 
+      per<lb ed="#B" n="27" break="no"/>aliquod naturae superadditum. Consequen 
+      <lb ed="#B" n="28"/>tia nota. Antecedens patet: quia 
+      appe<lb ed="#B" n="29" break="no"/>titus sensitiuus naturaliter delectatur a 
+      <lb ed="#B" n="30"/>suo obiecto delectabili: etiam non 
+      obstan<lb ed="#B" n="31" break="no"/>te, quod ratio recta oppositum dictaret: 
+      er<lb ed="#B" n="32" break="no"/>go delectatur naturaliter contra 
+      uolun<lb ed="#B" n="33" break="no"/>tatem rectae rationis dictamini se 
+      con<lb ed="#B" n="34" break="no"/>formantem: &amp; ita natura rebellat 
+      uolun<lb ed="#B" n="35" break="no"/>tati rectae.
+    </p>
+            <p xml:id="gbs333-b73410-d1e345">
+      ¶ Secunda coclusio. Qualitas 
+      <lb ed="#B" n="36"/>inducens tramquillitatem generaliter in 
+      <lb ed="#B" n="37"/>potentijs superiore, &amp; inferiore, non 
+      <lb ed="#B" n="38"/>est donum aliquod naturale. Probatur: 
+      <lb ed="#B" n="39"/>quia nec est donum innatum, nec 
+      acqui<lb ed="#B" n="40" break="no"/>situm. Non primum: quia tunc 
+      rebes<lb ed="#B" n="41" break="no"/>lio illa non esset in puris naturalibus. 
+      <lb ed="#B" n="42"/>Prohibetur enim perdonum innatum: quod 
+      <lb ed="#B" n="43"/>quia innatum esset naturale. consequens 
+      <lb ed="#B" n="44"/>falsum: quia tumc posset probari per 
+      ratio<lb ed="#B" n="45" break="no"/>nem naturalem, hunc statum non esse 
+      <lb ed="#B" n="46"/>naturalem. Quia manifestum est nunc 
+      <lb ed="#B" n="47"/>esse rebellionem in potentiis 
+      inferiori<lb ed="#B" n="48" break="no"/>bus, quae rebellio si non inesset a natura 
+      <lb ed="#B" n="49"/>potentiarum: sed ex peccato, praecise 
+      co<lb ed="#B" n="50" break="no"/>gnosci posset non esse ex natura, quod  
+      <!--332.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est inconueniens: quia praeclarissimi 
+      phi<lb ed="#B" n="52" break="no"/>losophi ad hoc pertingere non potuerunt. 
+      <lb ed="#B" n="53"/>Tertia conclusio: Iustitia originalis 
+      <lb ed="#B" n="54"/>est supernaturale donum dei infusum 
+      uo<lb ed="#B" n="55" break="no"/>luntati parentis primi. Probatur: quia 
+      <lb ed="#B" n="56"/>iustitia originalis est, quod facit traquil 
+      <lb ed="#B" n="57"/>litatem in potentijs: ut patet ex notabili 
+      <lb ed="#B" n="58"/>tertio. Et illud est qualitas seu donum 
+      na<lb ed="#B" n="59" break="no"/>turae superadditum ex conclusione prima: 
+      <lb ed="#B" n="60"/>&amp; non naturale ex conclusione secunda, 
+      <lb ed="#B" n="61"/>ergo supernaturale, quod est 
+      conclusio<lb ed="#B" n="62" break="no"/>tertia. Item ut supra dictum est in notabili, 
+      <lb ed="#B" n="63"/>ad hoc, quod uoluntas se delectabiliter 
+      re<lb ed="#B" n="64" break="no"/>trahat a condelectando inordinate 
+      ap<lb ed="#B" n="65" break="no"/>petitui inferiori, oportet ipsum ferri in 
+      <lb ed="#B" n="66"/>aliquod delectabilius: &amp; cum nihil tale sit 
+      <lb ed="#B" n="67"/>ex se delectabilius: quantum est ex parte 
+      uo<lb ed="#B" n="68" break="no"/>luntatis: oportet aliquod supernaturale 
+      <lb ed="#B" n="69"/>esse in uoluntate, per quod finis fiat sibi 
+      <lb ed="#B" n="70"/>delectabilior, qua quodcumque; delectabile 
+      <lb ed="#B" n="71"/>appetitus inferioris. Illud ergo quo 
+      <lb ed="#B" n="72"/>deus delectabiliorerat uoluntati, quam 
+      <lb ed="#B" n="73"/>quodcumque obiectum inferioris appetitus 
+      <lb ed="#B" n="74"/>fuit donum supernaturale.
+    </p>
+            <p xml:id="gbs333-b73410-d1e436">
+      ¶ Quantum ad 
+      <lb ed="#B" n="75"/>tertium articulum est primum dubium: 
+      Qua<lb ed="#B" n="76" break="no"/>se sit hoc donum iustitiae originalis: 
+      an<lb ed="#B" n="77" break="no"/>substantia: an accidens. Respondetur, quod 
+      <lb ed="#B" n="78"/>non est substantia, nec materia, nec 
+      for<lb ed="#B" n="79" break="no"/>nia substantialis, nec compositum: quia in 
+      <lb ed="#B" n="80"/>homine non est nisi una materia &amp; una 
+      <lb ed="#B" n="81"/>substantialis forma secundum praedicta: 
+      <lb ed="#B" n="82"/>&amp; unum compositum, quod est ipse 
+      ho<lb ed="#B" n="83" break="no"/>mo.
+    </p>
+            <p xml:id="gbs333-b73410-d1e458">
+      ¶ Secundo dicitur, quod est quaedam 
+      <lb ed="#B" n="84"/>qualitas de secunda specie qualitatis, 
+      ad<lb ed="#B" n="85" break="no"/>modum habitus subiectiuc inhaerens 
+      uo<lb ed="#B" n="86" break="no"/>untati disponens ipsum ad melius 
+      scili<lb ed="#B" n="87" break="no"/>cet ad delectabilius promptiusque ad obe- 
+      <lb ed="#B" n="88"/>diendum rectae rationi, quam cuicumque 
+      in<lb ed="#B" n="89" break="no"/>feriori delectationi. Non tamen est 
+      <lb ed="#B" n="90"/>qualitas acquisita: sed a deo 
+      immedia<lb ed="#B" n="91" break="no"/>te infusa, sicut &amp; gratia.
+    </p>
+            <p xml:id="gbs333-b73410-d1e479">
+      ¶ Dubitatur 
+      se<lb ed="#B" n="92" break="no"/>cundo, quomodo se habeat originalis 
+      <lb ed="#B" n="93"/>iustitia ad gratiam. Respondetur quod iustitia 
+      <lb ed="#B" n="94"/>originalis non fuit principium meriti. 
+      <lb ed="#B" n="95"/>Non enim poterat mereri Adam in 
+      statu<lb ed="#B" n="96" break="no"/>nnocentiae sine gratia: licet habuerit 
+      iu<lb ed="#B" n="97" break="no"/>stitiam originalem: sicut nec angeli sine 
+      <lb ed="#B" n="98"/>pratia, in quibus tamen nulla fuit rebel 
+      <lb ed="#B" n="99"/>lio: coniunxit tamen uoluntatem 
+      ul<lb ed="#B" n="100" break="no"/>timo fini firmius, quam gratia. Ita enim 
+      <!--333.xml-->
+      <pb ed="#B" n="151-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>coniunxit secundum aliquos, quod non 
+      con<lb ed="#B" n="2" break="no"/>patiebatur aliquod peccatum ueniale, 
+      <lb ed="#B" n="3"/>charitas autem compatitur.
+    </p>
+            <p xml:id="gbs333-b73410-d1e514">
+      ¶ Vel 
+      secun<lb ed="#B" n="4" break="no"/>dum praedicta, saltem ita coniunxit, quod 
+      faci<lb ed="#B" n="5" break="no"/>lius, &amp; delectabilius erat ei patiab 
+      ali<lb ed="#B" n="6" break="no"/>qua tristitia inferiori, quam alicui delecta 
+      <lb ed="#B" n="7"/>tioni inferiori acquiescenti recedendo 
+      <lb ed="#B" n="8"/>a delectatione finis. Istam facilitatem 
+      <lb ed="#B" n="9"/>non facit gratia, cum qua stat 
+      pro<lb ed="#B" n="10" break="no"/>nitas ad malum, &amp; difficultas ad 
+      bo<lb ed="#B" n="11" break="no"/>num nisi esset multum intensa. Immo 
+      <lb ed="#B" n="12"/>nec hoc operatur, si fuerit 
+      intensissi<lb ed="#B" n="13" break="no"/>ma: ut patet de Christo, qui habuit 
+      <lb ed="#B" n="14"/>summam gratiam, &amp; tamen magnam 
+      <lb ed="#B" n="15"/>tristitia. Tristis est anima mea usque ad 
+      <lb ed="#B" n="16"/>mortem: inquit Matth. xxvj. Sed 
+      gra<lb ed="#B" n="17" break="no"/>tia excedit in hoc, quod ipsa coniungit 
+      fi<lb ed="#B" n="18" break="no"/>ni ut bono supernaturali, &amp; 
+      supernatu<lb ed="#B" n="19" break="no"/>raliter per meritum attingendo. Non sic 
+      <lb ed="#B" n="20"/>iustitia originalis: sed tantum 
+      coniunge<lb ed="#B" n="21" break="no"/>bat illi bono, ut conuenienti &amp; delecta 
+      <lb ed="#B" n="22"/>bili.
+    </p>
+            <p xml:id="gbs333-b73410-d1e558">
+      ¶ Ex quo patet, quod gratia &amp; 
+      origi<lb ed="#B" n="23" break="no"/>nalis iustitia habent se ad inuicem ut 
+      ex<lb ed="#B" n="24" break="no"/>cedens, &amp; excessum. Tan gratia 
+      simplici<lb ed="#B" n="25" break="no"/>ter perfectior est originali iustitia: quia 
+      <lb ed="#B" n="26"/>comungit fini ut summe honesto 
+      pro<lb ed="#B" n="27" break="no"/>pter se summe diligendo.
+    </p>
+            <p xml:id="gbs333-b73410-d1e571">
+      ¶ Tertio dubita 
+      <lb ed="#B" n="28"/>tur, utrum iustitia originalis abstulit 
+      om<lb ed="#B" n="29" break="no"/>nem rebellionem appetitus inferioris. Hic 
+      <lb ed="#B" n="30"/>dupliciter potest responderi. Vno 
+      mo<lb ed="#B" n="31" break="no"/>do, quod licet uoluntas delectabiliter non 
+      <lb ed="#B" n="32"/>condelectatur delectationi inferioris 
+      <lb ed="#B" n="33"/>appetitus per donum iustitiae originalis 
+      <lb ed="#B" n="34"/>sibi inhaerens: inferior tamen appetitus non 
+      <lb ed="#B" n="35"/>auellitur a suo delectabili sine tristitia. 
+      <lb ed="#B" n="36"/>Sed quia illud, quod conuenit homini 
+      se<lb ed="#B" n="37" break="no"/>cundum potentiam superiorem: 
+      simpli<lb ed="#B" n="38" break="no"/>citer conuenit homini: nec propter hoc  
+      <lb ed="#B" n="39"/>negatur ab homine, si non conueniat 
+      es<lb ed="#B" n="40" break="no"/>secundum potentiam inferiorem. Ideo 
+      di<lb ed="#B" n="41" break="no"/>citur, quod totus homo delectabiliter 
+      ab<lb ed="#B" n="42" break="no"/>stinet a delectabili sensus inferioris: 
+      li<lb ed="#B" n="43" break="no"/>cet appetitus inferior cum tristitia 
+      absti<lb ed="#B" n="44" break="no"/>neat. Secundum hunc modum dicitur, quod 
+      iu<lb ed="#B" n="45" break="no"/>stitia originalis abstulit omnem 
+      rebellio<lb ed="#B" n="46" break="no"/>nem a toto homine, non a parte 
+      infe<lb ed="#B" n="47" break="no"/>riori, pro quanto omnem difficultatem 
+      <lb ed="#B" n="48"/>abstulita uoluntate, &amp; tristitiam in non 
+      <lb ed="#B" n="49"/>condelectando inferiori: licet adhuc 
+      <lb ed="#B" n="50"/>mansit difficultas in appetitu inferio¬ 
+      <!--333.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ri: ipsa tamen non poterat diffinire 
+      uo<lb ed="#B" n="52" break="no"/>luntatem.
+    </p>
+            <p xml:id="gbs333-b73410-d1e632">
+      ¶ Aliter dicitur, quod omnis rebel 
+      <lb ed="#B" n="53"/>lio abiata est per iustitiam originalem, 
+      <lb ed="#B" n="54"/>etiam in uiribus inserioribus: ita, quod 
+      <lb ed="#B" n="55"/>etiam potentiae inferiores ex parte 
+      su<lb ed="#B" n="56" break="no"/>delectabiliter obediebant rationi. Et ad 
+      <lb ed="#B" n="57"/>hoc saluandum uidetur, quod oportet 
+      ali<lb ed="#B" n="58" break="no"/>quid ponere in potentia inferiori, 
+      quo<lb ed="#B" n="59" break="no"/>sic delectabiliter feratur in delectabile 
+      <lb ed="#B" n="60"/>uoluntati. Non enim uidetur, quod ex 
+      na<lb ed="#B" n="61" break="no"/>tura illius potentiae posset delecta biliter 
+      <lb ed="#B" n="62"/>auellia suo delectabili: neque etiam ex 
+      na<lb ed="#B" n="63" break="no"/>tura illius potentiae; inquantum est 
+      infe<lb ed="#B" n="64" break="no"/>rior uoluntate. Nam iste ordo essentialis 
+      <lb ed="#B" n="65"/>potentiarum numc manet: &amp; tamen numc 
+      <lb ed="#B" n="66"/>non est talis delectatio. Et oportet in 
+      sin<lb ed="#B" n="67" break="no"/>gulis appetitiuis potentijs inferioribus 
+      <lb ed="#B" n="68"/>ponere singula dona: ita ut quilibet 
+      per<lb ed="#B" n="69" break="no"/>donum suum delectabiliter moueretur a 
+      <lb ed="#B" n="70"/>uoluntate: &amp; uoluntas ipsa per suum 
+      do<lb ed="#B" n="71" break="no"/>num moueret se delectabiliter ad 
+      poten<lb ed="#B" n="72" break="no"/>tias inferiores. Inter talia autem plura 
+      <lb ed="#B" n="73"/>dona, donum potissimum fuit iustitia 
+      <lb ed="#B" n="74"/>originalis, quae fuit in uoluntate. Per 
+      <lb ed="#B" n="75"/>illud enim donum uoluntas quasdam 
+      de<lb ed="#B" n="76" break="no"/>lectationes appetitus sensitiui 
+      praeueni<lb ed="#B" n="77" break="no"/>ret: ne unquam illae inessent, puta 
+      uo<lb ed="#B" n="78" break="no"/>suntatem adulterandi cum aliena. Quasdam 
+      <lb ed="#B" n="79"/>imperasset, &amp; bene eis usa fuisset puta 
+      <lb ed="#B" n="80"/>cognoscendi suam obediendo illi 
+      prae<lb ed="#B" n="81" break="no"/>cepto diuino: Crescite, &amp; 
+      multiplica<lb ed="#B" n="82" break="no"/>mini. Ita, quod illas delectationes licitas 
+      <lb ed="#B" n="83"/>quandoque habendas. pro tunc quando 
+      <lb ed="#B" n="84"/>inerant, non habuisset profine, sed ad 
+      <lb ed="#B" n="85"/>finem debitum retulisset. Aquibus etiam 
+      <lb ed="#B" n="86"/>delectationibus licitis quandoque 
+      haben<lb ed="#B" n="87" break="no"/>dis, quandoque se auertisset: sicut ab 
+      il<lb ed="#B" n="88" break="no"/>la, quae non crathabenda nisi pro 
+      tem<lb ed="#B" n="89" break="no"/>pore. Et quodcunque illorum siue 
+      prae<lb ed="#B" n="90" break="no"/>uenire, siue bene uti habitis, siue 
+      auer<lb ed="#B" n="91" break="no"/>tere ab habendis delectationibus 
+      uolun<lb ed="#B" n="92" break="no"/>tas delectabiliter faceret per illud 
+      do<lb ed="#B" n="93" break="no"/>num supernaturale, quo delectabilius 
+      <lb ed="#B" n="94"/>sibi fuisset fini ultimo inhaerere: &amp; 
+      om<lb ed="#B" n="95" break="no"/>nibus ordinatis ad illum, quam ab illo 
+      <lb ed="#B" n="96"/>separari: inhaerendo alicui delectabili 
+      <lb ed="#B" n="97"/>non ordinato ad finem.
+    </p>
+            <p xml:id="gbs333-b73410-d1e732">
+      ¶ Etiam 
+      for<lb ed="#B" n="98" break="no"/>te non est necesse ponere, quod nullus 
+      ap<lb ed="#B" n="99" break="no"/>petitus sensitiuus potuerit tunc 
+      tri<lb ed="#B" n="100" break="no"/>stari, potuit enim uisus tunc uidere 
+      <!--334.xml-->
+      <pb ed="#B" n="152-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aliquod turpe uisibile. Et auditus 
+      <lb ed="#B" n="2"/>turpe audibile, &amp; utrumque potuit 
+      of<lb ed="#B" n="3" break="no"/>fendere appetitum sensitiuum: sicut  
+      <lb ed="#B" n="4"/>&amp; conuentens sensibile delectare. Sed 
+      <lb ed="#B" n="5"/>tunc uoluntas bene usa illis fuisset tristi 
+      <lb ed="#B" n="6"/>tijs, &amp; delectabiliter, ita quod non fuisset 
+      con<lb ed="#B" n="7" break="no"/>tristata ab appetitibus inferioribus: sicut  
+      <lb ed="#B" n="8"/>bene fuisset usa delectationibus eorum, 
+      <lb ed="#B" n="9"/>non immoderate condelectando.
+    </p>
+            <p xml:id="gbs333-b73410-d1e768">
+      ¶ 
+      Du<lb ed="#B" n="10" break="no"/>bitatur quarto contra conclusionem ter 
+      <lb ed="#B" n="11"/>tiam. Nam uidetur, quod iustitia originalis 
+      <lb ed="#B" n="12"/>sit donum naturale: quia uoluntas in suis 
+      <lb ed="#B" n="13"/>naturalibus est recta, non autem est 
+      fa<lb ed="#B" n="14" break="no"/>cta a deo curua. Nam deo auctore nihil 
+      <lb ed="#B" n="15"/>sit deterius: secundum Aug. lib. Ixxxiij. 
+      <lb ed="#B" n="16"/>q. Et ita rectitudo uoluntatis est ab 
+      ori<lb ed="#B" n="17" break="no"/>gine, &amp; per consequens iustitia: quia 
+      re<lb ed="#B" n="18" break="no"/>ctitudo uoluntatis est iustitia: igitur 
+      ori<lb ed="#B" n="19" break="no"/>ginalem iustitiam habet ex naturalibus. 
+    </p>
+            <p xml:id="gbs333-b73410-d1e792">
+               <lb ed="#B" n="20"/>¶ Item in statu innocentiae non fuisset 
+      <lb ed="#B" n="21"/>aliqua paena: etiam secluso quocunque; 
+      su<lb ed="#B" n="22" break="no"/>pernaturali dono: quia poena non 
+      praece<lb ed="#B" n="23" break="no"/>dit culpam: ergo non fuisset mors, neque  
+      <lb ed="#B" n="24"/>rebellio, quae non est sine poena. Sed 
+      ho<lb ed="#B" n="25" break="no"/>rum remotio effectus est originalis 
+      iusti<lb ed="#B" n="26" break="no"/>tiae. Tuisset ergo originalis iustitia 
+      seclu<lb ed="#B" n="27" break="no"/>so quocunque supernaturali dono.
+    </p>
+            <p xml:id="gbs333-b73410-d1e812">
+      ¶ 
+      Er<lb ed="#B" n="28" break="no"/>go si iustitia originalis esset donum 
+      su<lb ed="#B" n="29" break="no"/>pernaturale, peccatum originale esset 
+      <lb ed="#B" n="30"/>tantum carentia istius doni 
+      supernatu<lb ed="#B" n="31" break="no"/>ralis: ergo aliquis factus in puris 
+      natu<lb ed="#B" n="32" break="no"/>ralibus esset aequalis illi, qui per 
+      peccan<lb ed="#B" n="33" break="no"/>tum amisisset iustitiam originalem: quia 
+      <lb ed="#B" n="34"/>utrobique esset carentia iustitiae origina 
+      <lb ed="#B" n="35"/>lis: &amp; per consequens aequaliter essent 
+      <lb ed="#B" n="36"/>puniendi, quod est inconuentens.
+    </p>
+            <p xml:id="gbs333-b73410-d1e834">
+      ¶ Ad 
+      <lb ed="#B" n="37"/>illa respondetur, quod rectitudo naturalis 
+      <lb ed="#B" n="38"/>uoluntatis est libertas uoluntatis, qua 
+      <lb ed="#B" n="39"/>secundum propriam naturam a deo 
+      ac<lb ed="#B" n="40" break="no"/>ceptam, potest se conformare rectae 
+      ra<lb ed="#B" n="41" break="no"/>tioni. Haec autem rectitudo secum com 
+      <lb ed="#B" n="42"/>patitur rebellionem inferiorum 
+      poten<lb ed="#B" n="43" break="no"/>tiarum. Nec eausa consequuntur effectus 
+      <lb ed="#B" n="44"/>supradicti: tranquillitas animae, &amp; 
+      poten<lb ed="#B" n="45" break="no"/>tiarum omnimoda concordia. Ideo 
+      prae<lb ed="#B" n="46" break="no"/>ter uoluntatis libertatem oportet 
+      po<lb ed="#B" n="47" break="no"/>nere iustitia originalem, quae tollitur 
+      <lb ed="#B" n="48"/>per, peccatum. Rectitudo autem natura 
+      <lb ed="#B" n="49"/>lis uoluntatis, eius scilicet libertas non 
+      cor<lb ed="#B" n="50" break="no"/>rumpitur per peccatum: illa enim 
+      <!--334.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est realiter, ipsa uoluntas: nec ab ea 
+      se<lb ed="#B" n="52" break="no"/>parabilis. Et in illa rectitudine 
+      crea<lb ed="#B" n="53" break="no"/>ta est a deo sine curuitate, sed non 
+      si<lb ed="#B" n="54" break="no"/>ne potentia se incuruandi, seu 
+      pec<lb ed="#B" n="55" break="no"/>candi: quae potentia bona est, &amp; 
+      ma<lb ed="#B" n="56" break="no"/>la. Nec data est libertas uoluntati ad 
+      <lb ed="#B" n="57"/>peccandum: sed ad libere se, &amp; 
+      lau<lb ed="#B" n="58" break="no"/>dabiliter ad bonum conuertendum: 
+      <lb ed="#B" n="59"/>&amp; a malo se auertendum. Potest tamen 
+      <lb ed="#B" n="60"/>sua libertate abuti, non uitio creatoris, 
+      <lb ed="#B" n="61"/>sed culpa suae abusionis.
+    </p>
+            <p xml:id="gbs333-b73410-d1e895">
+      ¶ Ad secundum 
+      <lb ed="#B" n="62"/>dicitur, quod mors, &amp; rebellio in statu 
+      in<lb ed="#B" n="63" break="no"/>nocentiae; si addita non fuisset iustitia 
+      <lb ed="#B" n="64"/>originalis non fuisset paene: sed conditio 
+      <lb ed="#B" n="65"/>nes naturae, sicut &amp; nunc mors brutorum, 
+      <lb ed="#B" n="66"/>ut corum infirmitas, aut corruptio, non 
+      <lb ed="#B" n="67"/>sunt paenae: quia poena suppponit pro 
+      af<lb ed="#B" n="68" break="no"/>flictione aliqua ppter demeritum culpae. 
+    </p>
+            <p xml:id="gbs333-b73410-d1e913">
+               <lb ed="#B" n="69"/>¶ Ad tertium patebit quaestione 
+      sequen<lb ed="#B" n="70" break="no"/>ti, quod cuipa originalis non est tantu 
+      ca<lb ed="#B" n="71" break="no"/>rentia iustitiae; sed est carentia iustitiae cum 
+      <lb ed="#B" n="72"/>debito habendi. Vnde Adam si fuit crea 
+      <lb ed="#B" n="73"/>tus in puris naturalibus, in instati 
+      crea<lb ed="#B" n="74" break="no"/>tionis caruit originali iustitia, &amp; tamemn 
+      <lb ed="#B" n="75"/>non habuit tunc culpam originalem. Et  
+      <lb ed="#B" n="76"/>ita non fuit aequalis carenti originali 
+      <lb ed="#B" n="77"/>per peccatum: quia iustitia originalis 
+      <lb ed="#B" n="78"/>non fuit sibi debita in instanti 
+      creatio<lb ed="#B" n="79" break="no"/>nis. Sed qui ea caret per peccatum: 
+      il<lb ed="#B" n="80" break="no"/>se est debitor eius. Et tantum de 
+      quae<lb ed="#B" n="81" break="no"/>stione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

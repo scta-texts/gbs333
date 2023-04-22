@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="47-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b22960"><!-- l2-d5prae -->
+            <head xml:id="gbs333-b22960-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b22960-d1e103">
+               <lb ed="#B" n="57"/>DISTINCTIO V 
+      <lb ed="#B" n="58"/>IN distinctione 
+      quin<lb ed="#B" n="59" break="no"/>ta magister postquam 
+      <lb ed="#B" n="60"/>determinauit de 
+      an<lb ed="#B" n="61" break="no"/>gelorum creatione; &amp; 
+      <lb ed="#B" n="62"/>his, quae eis 
+      conue<lb ed="#B" n="63" break="no"/>niunt ex eorum 
+      pro<lb ed="#B" n="64" break="no"/>ductione; in tribus 
+      <lb ed="#B" n="65"/>praecedentibus distinct. consequenter 
+      <lb ed="#B" n="66"/>in sequentibus distinctio. vij. agit de 
+      <lb ed="#B" n="67"/>eorum uaria habitudine creationem 
+      <lb ed="#B" n="68"/>consequente. Et primo de eorum 
+      con<lb ed="#B" n="69" break="no"/>uersione, &amp; auersione in tribus 
+      distin<lb ed="#B" n="70" break="no"/>Deinde de eorum uaria habitudine, 
+      con<lb ed="#B" n="71" break="no"/>uersionem, &amp; auersionem 
+      consequen<lb ed="#B" n="72" break="no"/>te.
+    </p>
+            <p xml:id="gbs333-b22960-d1e140">
+      ¶ Circa primum agit de 
+      conuersio<lb ed="#B" n="73" break="no"/>ne, &amp; auersione in genere, distinctio, 
+      <lb ed="#B" n="74"/>praesenti. Deinde de effectu scilicet 
+      rui<lb ed="#B" n="75" break="no"/>na auersionem consequente in specie 
+      <lb ed="#B" n="76"/>distinctio. vj. &amp; vij. In hac ergo 
+      distin<lb ed="#B" n="77" break="no"/>agit simulde auersione, &amp; 
+      conuersio<lb ed="#B" n="78" break="no"/>ne a deousque ad deum.
+    </p>
+            <p xml:id="gbs333-b22960-d1e156">
+      ¶ Eius 
+      senten<lb ed="#B" n="79" break="no"/>tia his tribus conclusionibus 
+      contine<lb ed="#B" n="80" break="no"/>tur. Prima conclusio. Post creationem 
+      <lb ed="#B" n="81"/>angelorum, quidam ad deum per 
+      cha<lb ed="#B" n="82" break="no"/>ritatem sunt conuersi, &amp; per hanc 
+      illu<lb ed="#B" n="83" break="no"/>minati. Alii per superbiam libere sunt 
+      <lb ed="#B" n="84"/>auersi, &amp; auersione protinus excaecati, 
+    </p>
+            <p xml:id="gbs333-b22960-d1e172">
+               <lb ed="#B" n="85"/>¶ Secunda conclusio. In auersione, 
+      <lb ed="#B" n="86"/>gratia non operans, sed cooperans 
+      bo<lb ed="#B" n="87" break="no"/>nis apposita, malis propter auersionem 
+      <lb ed="#B" n="88"/>praeuiam est negata. Gratia operans, 
+      <lb ed="#B" n="89"/>est qua impius iustificatur. Cooperans 
+      <lb ed="#B" n="90"/>quo ad bene operandum, &amp; 
+      perseueran<lb ed="#B" n="91" break="no"/>dum adiuuatur.
+    </p>
+            <p xml:id="gbs333-b22960-d1e191">
+      ¶ Tertia conclusio. 
+      <lb ed="#B" n="92"/>Beatitudinem, quam conuersi in sua 
+      con<lb ed="#B" n="93" break="no"/>uersione receperunt, sequentibus 
+      obe<lb ed="#B" n="94" break="no"/>dientiae obsequiis, &amp; non 
+      praecedenti<lb ed="#B" n="95" break="no"/>bus, nec conuersionem 
+      concomitan<lb ed="#B" n="96" break="no"/>tibus meruerunt. In hoc autem ultimo 
+      <lb ed="#B" n="97"/>magister communiter a doct. non 
+      te<lb ed="#B" n="98" break="no"/>netur.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

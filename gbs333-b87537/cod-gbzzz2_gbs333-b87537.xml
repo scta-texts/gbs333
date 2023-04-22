@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="179-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b87537"><!-- l2-d40prae -->
+            <head xml:id="gbs333-b87537-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b87537-d1e103">
+               <lb ed="#B" n="3"/>DTSTINCTIO XL 
+      <lb ed="#B" n="4"/>VIT de prauitate 
+      <lb ed="#B" n="5"/>peccati quantum ad 
+      <lb ed="#B" n="6"/>actum uoluntatis 
+      in<lb ed="#B" n="7" break="no"/>teriorem: 
+      consequen<lb ed="#B" n="8" break="no"/>ter in quatuor 
+      di<lb ed="#B" n="9" break="no"/>stinctionibus 
+      sequen<lb ed="#B" n="10" break="no"/>dtibus agit de eadem 
+      <lb ed="#B" n="11"/>quantum ad actum exteriorem. Et 
+      pri<lb ed="#B" n="12" break="no"/>mo de peccatis in generali. Secundo 
+      <lb ed="#B" n="13"/>de quodam peccato scilicet in spiritum sanctum 
+      <lb ed="#B" n="14"/>in speciali distinctione xliuij. seu 
+      penul<lb ed="#B" n="15" break="no"/>tima.
+    </p>
+            <p xml:id="gbs333-b87537-d1e134">
+      ¶ Circa primum primo agit de 
+      pec<lb ed="#B" n="16" break="no"/>cato actus exterioris quantum ad finis 
+      <lb ed="#B" n="17"/>intentionem. Secundo quantum ad 
+      prin<lb ed="#B" n="18" break="no"/>cipium mouens fidem scilicet &amp; uoluntatem, 
+      <lb ed="#B" n="19"/>distinctione xli. Tertio quantum ad eius 
+      <lb ed="#B" n="20"/>uariam distinctionem, dist. xlii. Sententia 
+      <lb ed="#B" n="21"/>huius distinctionis in sequentibus tribus 
+      <lb ed="#B" n="22"/>conclusionibus colligitur.
+    </p>
+            <p xml:id="gbs333-b87537-d1e152">
+      ¶ Prima 
+      con<lb ed="#B" n="23" break="no"/>clusio. Licet omnes actus inquantum 
+      <lb ed="#B" n="24"/>natura quidam sint boni, quidam tamen 
+      <lb ed="#B" n="25"/>simpliciter non boni, sed mali sunt dicen 
+      <lb ed="#B" n="26"/>di.
+    </p>
+            <p xml:id="gbs333-b87537-d1e163">
+      ¶ Secunda conclusio. Nullus actus 
+      bo<lb ed="#B" n="27" break="no"/>nus esse potert, si non caum bonam, &amp; finem 
+      <lb ed="#B" n="28"/>bonum habuerit.
+    </p>
+            <p xml:id="gbs333-b87537-d1e171">
+      ¶ Tertia conclusio. 
+      Quae<lb ed="#B" n="29" break="no"/>dam constat esse peccata, que nulla 
+      bo<lb ed="#B" n="30" break="no"/>na intentione sunt facienda. Has in 
+      tex<lb ed="#B" n="31" break="no"/>tu magister multipliciter deducit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

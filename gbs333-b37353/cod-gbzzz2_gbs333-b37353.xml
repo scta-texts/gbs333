@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="77-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b37353"><!-- l2-d10q1 -->
+            <head xml:id="gbs333-b37353-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b37353-Hd1e103" type="question-title">
+      Utrum omnes spiritus 
+      intellectuales a solo deo 
+       mittantur ad homines 
+      uiatores
+    </head>
+            <p xml:id="gbs333-b37353-d1e106">
+               <lb ed="#B" n="33"/>QVAESTIO VNICA 
+      <lb ed="#B" n="34"/>CIRCA distinctionem quaem 
+      <lb ed="#B" n="35"/>ro. Vtrum omnes spiritus 
+      <lb ed="#B" n="36"/>intellectuales a solo deo 
+      <lb ed="#B" n="37"/> mittantur ad homines 
+      uia<lb ed="#B" n="38" break="no"/>tores.
+    </p>
+            <p xml:id="gbs333-b37353-d1e122">
+      ¶ Quaestio haec quatuor 
+      bre<lb ed="#B" n="39" break="no"/>uibus articulis terminatur. Primus: 
+      an<lb ed="#B" n="40" break="no"/>angeli mittantur ad homines uiato res. 
+      <lb ed="#B" n="41"/>Secundus, an omnes boni mittantur. 
+      <lb ed="#B" n="42"/>Tertius utrum etiam mali mittantur: 
+      <lb ed="#B" n="43"/>deo. Quartus, an solus deus, an etiam 
+      <lb ed="#B" n="44"/>angelus mittat angelum.
+    </p>
+            <p xml:id="gbs333-b37353-d1e138">
+      ¶ Quantum 
+      <lb ed="#B" n="45"/>ad primum, notandum, quod angelum 
+      mi<lb ed="#B" n="46" break="no"/>ti nihil aliud est, quam angelum ministe 
+      <lb ed="#B" n="47"/>rium aliquod diuina auctoritate circa 
+      <lb ed="#B" n="48"/>alium exercere; siue ipsum illuminado, 
+      <!--184.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>siue auxilium quodcunque praestando. II 
+      <lb ed="#B" n="50"/>la autem missio sit quandoque cum 
+      mo<lb ed="#B" n="51" break="no"/>tu locali angeli; ut cum de caelo 
+      mitti<lb ed="#B" n="52" break="no"/>tur ad terras, in qua missione relinquit  
+      <lb ed="#B" n="53"/>celum, &amp; sit praesens terris, &amp; expleto 
+      <lb ed="#B" n="54"/>legationis suae officio, redit in caelu: quaem 
+      <lb ed="#B" n="55"/>non siunt sine locali mutatione. Sic 
+      se<lb ed="#B" n="56" break="no"/>gitur de angelo manuae apparente. 
+      <lb ed="#B" n="57"/>Cumque ascenderet flamma altaris in 
+      <lb ed="#B" n="58"/>celum: angelus domini pariter in flam 
+      <lb ed="#B" n="59"/>ma ascendit. Iudicum. xiij. &amp; Luc. ij. de 
+      <lb ed="#B" n="60"/>angelis dominicam natiuitatem pasto 
+      <lb ed="#B" n="61"/>ribus nuntiantibus, dicitur. Cum 
+      disces<lb ed="#B" n="62" break="no"/>serunt angeli ab eis in caelum. Pieri etiam 
+      <lb ed="#B" n="63"/>potest sine locali motu; ut dum deus 
+      an<lb ed="#B" n="64" break="no"/>gelum unum illuminat per alium 
+      ange<lb ed="#B" n="65" break="no"/>lum a priori localiter non distante.
+    </p>
+            <p xml:id="gbs333-b37353-d1e191">
+      ¶ Est 
+      <lb ed="#B" n="66"/>ergo conclusio ad illum articulum 
+      cer<lb ed="#B" n="67" break="no"/>tissima. Angeli beati a deo mittuntur 
+      <lb ed="#B" n="68"/>ad uiatores: ut caelestis regni 
+      ascriban<lb ed="#B" n="69" break="no"/>tur haeredes. Probatur Heb. j. Omnes 
+      <lb ed="#B" n="70"/>sunt administra. spiritus in ministe. 
+      mis<lb ed="#B" n="71" break="no"/>si propter eos, qui haeredita. ca. salutis. 
+      <lb ed="#B" n="72"/>Denique plena est utriusque 
+      testamenti<lb ed="#B" n="73" break="no"/>pagina. Nec obstat, quod deus praesens 
+      <lb ed="#B" n="74"/>est uiatoribus; quodque missus est mediator 
+      <lb ed="#B" n="75"/>perfectissimus, &amp; saluator christus: 
+      mis<lb ed="#B" n="76" break="no"/>sus est, &amp; cordium illuminator 
+      spiri<lb ed="#B" n="77" break="no"/>tus paracletus: quibus sufficienter 
+      sa<lb ed="#B" n="78" break="no"/>lus acquisita est toti mortalium 
+      gene<lb ed="#B" n="79" break="no"/>ri: quoniam licet ex parte dei omnia 
+      <lb ed="#B" n="80"/>sufficienter exhibita sunt: quae nostrae 
+      <lb ed="#B" n="81"/>saluti restituendae sunt necessaria; tamen 
+      <lb ed="#B" n="82"/>etiam exigitur aliqua cooperatio 
+      nostri<lb ed="#B" n="83" break="no"/>liberi arbitrij secundum quam coopera 
+      <lb ed="#B" n="84"/>tores dei sumus: sicut dicit apostolus j. 
+      <lb ed="#B" n="85"/>Cor. iij. quod liberum arbitrium: quia in 
+      no<lb ed="#B" n="86" break="no"/>bis pigrum est, &amp; mutabile: indiget 
+      mul<lb ed="#B" n="87" break="no"/>tiplici adiutorio excitante, roborante 
+      <lb ed="#B" n="88"/>contra tentationis infidias defendenti 
+      <lb ed="#B" n="89"/>&amp;c. Et quamuis ad omnia sufficeret 
+      <lb ed="#B" n="90"/>deus immediate, quia tamen quae a deo 
+      <lb ed="#B" n="91"/>sunt: ordinata sunt. Ro. xiij. Congruit 
+      <lb ed="#B" n="92"/>autem ordini ut inferiora per media 
+      <lb ed="#B" n="93"/>reducantur ad suprema: ideo 
+      mittun<lb ed="#B" n="94" break="no"/>tur angeli tanquam mediatores inter 
+      <lb ed="#B" n="95"/>deum, &amp; hominem: ut per eos homo 
+      inferior<lb ed="#B" n="96" break="no"/>ad beatitudinis summa reducatur. Haec 
+      <lb ed="#B" n="97"/>etiam missio secundum sanctum Bonau. 
+      <lb ed="#B" n="98"/>concordat charitati diuinae angelicae, &amp; 
+      <!--185.xml-->
+      <pb ed="#B" n="77-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>humanae. Diuinae, que in hoc nobis 
+      mani<lb ed="#B" n="2" break="no"/>festatur, dum nobilissimos spiritus 
+      inti<lb ed="#B" n="3" break="no"/>ma sibi charitate coniunctos mittit ad 
+      <lb ed="#B" n="4"/>procurandum salutem nostram. 
+      Ange<lb ed="#B" n="5" break="no"/>licae, dum uidentes nos suo auxilio 
+      in<lb ed="#B" n="6" break="no"/>digere contra malorum angelorum 
+      im<lb ed="#B" n="7" break="no"/>pugnationes multiplices, &amp; 
+      fraudulen<lb ed="#B" n="8" break="no"/>tas, charitate quae in eis feruet, &amp; 
+      per<lb ed="#B" n="9" break="no"/>fectissima est tanquam desiderantes 
+      no<lb ed="#B" n="10" break="no"/>stram salutem his se pro nos, ad nostrum 
+      mini<lb ed="#B" n="11" break="no"/>sterium deo offerunt dicentes illud 
+      Esa<lb ed="#B" n="12" break="no"/>vj. Ecce ego domine mitte me. Congruit  
+      <lb ed="#B" n="13"/>etiam charitati humanae, quae quia 
+      de<lb ed="#B" n="14" break="no"/>bilis est: quamdiu sumus in uia, indiget 
+      <lb ed="#B" n="15"/>foueri, nutriri, &amp; excitari. Congruit  
+      <lb ed="#B" n="16"/>ergo, quod angeli, quorum conci. es 
+      su<lb ed="#B" n="17" break="no"/>mus futuri, cum non possint per 
+      natu<lb ed="#B" n="18" break="no"/>rae similitudinem nos excitare ad 
+      amo<lb ed="#B" n="19" break="no"/>rem, saltem hoc faciant nobis iuncti 
+      <lb ed="#B" n="20"/>per obsequij beneficentiam.
+    </p>
+            <p xml:id="gbs333-b37353-d1e315">
+      ¶ Quantum 
+      <lb ed="#B" n="21"/>ad articulum secundum: quia Beatus 
+      <lb ed="#B" n="22"/>Greg. an supiores angeli per se, uel sub 
+      <lb ed="#B" n="23"/>iecta agmina nobis ministrant, non 
+      <lb ed="#B" n="24"/>uult affirmare: eo quod certis 
+      testimo<lb ed="#B" n="25" break="no"/>nijs non approbatur; ideo magister 
+      re<lb ed="#B" n="26" break="no"/>citat opinionem, ut ex conclusionibus 
+      <lb ed="#B" n="27"/>textus piissis patet. Ideo breuiter hic 
+      <lb ed="#B" n="28"/>Sco. se expedit circa hanc distinctionem 
+      <lb ed="#B" n="29"/>dicens. Absolute concedenda est aucto 
+      <lb ed="#B" n="30"/>ritas Apostoli Pauli dicen. Omnes 
+      <lb ed="#B" n="31"/>sunt administra. spiritus mis. &amp;c. Sed 
+      di<lb ed="#B" n="32" break="no"/>stinguendum de missione interiori, &amp; 
+      <lb ed="#B" n="33"/>exteriori. Nam secundum communem 
+      <lb ed="#B" n="34"/>cursum, &amp; ordinem reuelantur secreta 
+      <lb ed="#B" n="35"/>dei mvsteria prius superioribus, quam 
+      in<lb ed="#B" n="36" break="no"/>ferioribus angelis, &amp; ita supiores mittum 
+      <lb ed="#B" n="37"/>tur ad inferiores loquendo, &amp; illumina 
+      <lb ed="#B" n="38"/>do eos interius; &amp; alij inferiores 
+      mit<lb ed="#B" n="39" break="no"/>tuntur extra ad nos secundum tertiam 
+      <lb ed="#B" n="40"/>conclusionem textualem supra positam 
+      <lb ed="#B" n="41"/>Et sic possunt exponi omnes auctorita: 
+      <lb ed="#B" n="42"/>tes, quas magister, &amp; alij hinc inde 
+      ad<lb ed="#B" n="43" break="no"/>ducunt. Et dictum est secundum conmunem 
+      <lb ed="#B" n="44"/>cursum; quia uidetur quod etiam supremi, uel 
+      <lb ed="#B" n="45"/>aliqui de supremis mittuntur, quomque ad 
+      <lb ed="#B" n="46"/>exrra. Nam incarnationem Christi 
+      nescie<lb ed="#B" n="47" break="no"/>runt multi angeli ante tempus 
+      incarna<lb ed="#B" n="48" break="no"/>tionis, passionis, resurrectionis, 
+      ac<lb ed="#B" n="49" break="no"/>ascensionis: ut praecedenti quaestione 
+      <lb ed="#B" n="50"/>deductum est. Constat autem angelum ad 
+      <!--185.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>beatam uirginem missum ad hoc nuntiam 
+      <lb ed="#B" n="52"/>dum non latuisse: ergo erat de 
+      superiori<lb ed="#B" n="53" break="no"/>bus, &amp; non de infimis, quos latuit hoc  
+      <lb ed="#B" n="54"/>facrum musterium. Et per hoc ad 
+      aucto<lb ed="#B" n="55" break="no"/>ritatem Danielis. Milia milium &amp;c. quod 
+      <lb ed="#B" n="56"/>intelligenda est de communiter 
+      assisten<lb ed="#B" n="57" break="no"/>tibus, &amp; conmuniter ministrantibus 
+      Au<lb ed="#B" n="58" break="no"/>ctoritas ergo apostoli concedenda est 
+      <lb ed="#B" n="59"/>ad literam: sed indistincte de missione ad 
+      <lb ed="#B" n="60"/>itra, &amp; ad extra. Sic ergo ad illum articulum 
+      <lb ed="#B" n="61"/>tenetur tertia conclusio supra 
+      textua<lb ed="#B" n="62" break="no"/>lis, quam etiam magister magis uidetur 
+      <lb ed="#B" n="63"/>reputare probabilem. Et exponuntur 
+      <lb ed="#B" n="64"/>auctoritates contrariae, sicut exponit 
+      <lb ed="#B" n="65"/>magister in tex. Et sic patet responsio 
+      <lb ed="#B" n="66"/>ad illum articulum.
+    </p>
+            <p xml:id="gbs333-b37353-d1e422">
+      ¶ Quantum ad 
+      <lb ed="#B" n="67"/>tertium articulum notandum post Ale- 
+      <lb ed="#B" n="68"/>xan. de Hales parte. ij. q. xxxvi. membr. 
+      <lb ed="#B" n="69"/>ij. quod missio demonis respicit ordinatio 
+      <lb ed="#B" n="70"/>nem potestatis ad tentandum, quae 
+      po<lb ed="#B" n="71" break="no"/>testas tentandi est sub potestate diuina. 
+      <lb ed="#B" n="72"/>Et licet intentio diaboli in tentando, 
+      <lb ed="#B" n="73"/>contraria est intentioni diuinae, cum 
+      <lb ed="#B" n="74"/>illa sit mala, ista bona, nihilominus 
+      <lb ed="#B" n="75"/>utitur deus tentatione diaboli ad 
+      bo<lb ed="#B" n="76" break="no"/>num. Tentatione enimi, qua diabolus 
+      <lb ed="#B" n="77"/>tentauit Beatum Iob, quantum fuit de 
+      <lb ed="#B" n="78"/>uoluntate diaboli, suit ad seducendum, 
+      <lb ed="#B" n="79"/>sed eam ordinauit dominus ad bonum 
+      <lb ed="#B" n="80"/>scilicet ad patientiae probationem, &amp; 
+      <lb ed="#B" n="81"/>coronationem. Sic cum dominus 
+      per<lb ed="#B" n="82" break="no"/>mitti malos tentatione diaboli uinci, 
+      <lb ed="#B" n="83"/>deceptio ipsa, qua tentatus decipitur 
+      <lb ed="#B" n="84"/>inquantum paena debita peccatis 
+      de<lb ed="#B" n="85" break="no"/>cepti a deo est. Nam &amp; poena, quia 
+      <lb ed="#B" n="86"/>iusta, bona est, &amp; cuipae ordinatiua, 
+      <lb ed="#B" n="87"/>Est ergo conclusio ad illum articulum. 
+      <lb ed="#B" n="88"/>Angeli mali a deo mittuntur. 
+      Proba<lb ed="#B" n="89" break="no"/>tur per illud. iij. Regum. ulti. ubi 
+      dici<lb ed="#B" n="90" break="no"/>tur quod exercitus coeli stabat coram 
+      <lb ed="#B" n="91"/>domino a dextris, &amp; a sinistris scilicet  
+      <lb ed="#B" n="92"/>boni angeli, &amp; mali. Et ait dominus. 
+      <lb ed="#B" n="93"/>Quis decipiet Achab. Dixit dominus 
+      <lb ed="#B" n="94"/>spiritui decipere uolenti per 
+      menda<lb ed="#B" n="95" break="no"/>cia prophetarum Baal. Egredere, &amp; 
+      <lb ed="#B" n="96"/>facita. Igitur dicendo egredere, &amp; fac 
+      <lb ed="#B" n="97"/>ita: misit spiritum mendacem dominus. 
+      <lb ed="#B" n="98"/>Similiter in tentatione Iob, cum ait 
+      <lb ed="#B" n="99"/>dominus Sathan. Vniuersa, quae 
+      possi<lb ed="#B" n="100" break="no"/>det in manum tua sunt, ueruntamen in 
+      <!--186.xml-->
+      <pb ed="#B" n="78-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cum non extendas manum, potestatem 
+      <lb ed="#B" n="2"/>tentandi concedendo, eamque 
+      ordinan<lb ed="#B" n="3" break="no"/>do misit eum: malis. n. angelis utitur deus 
+      <lb ed="#B" n="4"/>bene, sicut &amp; homo dei creaturis 
+      ma<lb ed="#B" n="5" break="no"/>le, ut dicit glos. Augustini super illud 
+      <lb ed="#B" n="6"/>psal. Ixxvij. Immissiones per angelos 
+      <lb ed="#B" n="7"/>malos. Et Beatus Grego. ij. moralium. 
+      <lb ed="#B" n="8"/>Sicut de bonis angelis in hac uita 
+      labo<lb ed="#B" n="9" break="no"/>rantibus auxilium pietatis impenditur: 
+      <lb ed="#B" n="10"/>ita isti scilicet mali occulte eius 
+      iusti<lb ed="#B" n="11" break="no"/>tiae nesciendo seruientes, ministerium 
+      <lb ed="#B" n="12"/>exequi reprobationis conantur; non 
+      <lb ed="#B" n="13"/>enim ministrant deo soli boni, qui 
+      adiu<lb ed="#B" n="14" break="no"/>uent: sed etiam mali, qui probent: non 
+      <lb ed="#B" n="15"/>solum qui redcuntes a cuipa subseuent, 
+      <lb ed="#B" n="16"/>sed etiam qui redire uolentes grauent. 
+      <lb ed="#B" n="17"/>Item Mat. viij. superillud. Mitte nos in 
+      <lb ed="#B" n="18"/>oregem porcorum. Glolice quaedam ait. 
+      <lb ed="#B" n="19"/>Per porcos significantur mali, &amp; 
+      luxu<lb ed="#B" n="20" break="no"/>tiosi, in quos mittuntur, nec tamen 
+      pro<lb ed="#B" n="21" break="no"/>pter hoc deus mittit eos ad seducendum 
+      <lb ed="#B" n="22"/>&amp; perdendum animas, cuius est saluare: 
+      <lb ed="#B" n="23"/>secundum illud. j. Timo. ij. Qui uult 
+      om<lb ed="#B" n="24" break="no"/>nes homines saluos fieri. Et secundum 
+      <lb ed="#B" n="25"/>hoc quod deceptio, &amp; fallacia culpa dicit 
+      <lb ed="#B" n="26"/>ex parte eius, qui fallitr uel ut dicit 
+      cul<lb ed="#B" n="27" break="no"/>pam ex parte eius, qui fallit: sed scum quod 
+      di<lb ed="#B" n="28" break="no"/>cit penam ex parte eius, qui decipitur: nam 
+      <lb ed="#B" n="29"/>deceptio poena est eius, qui decipitur 
+      pr<lb ed="#B" n="30" break="no"/>pter merita eius; nam peccatum 
+      quando<lb ed="#B" n="31" break="no"/>que poena est peccati: &amp; ut sic esse potest a 
+      <lb ed="#B" n="32"/>a deo. Vnde Greg. Voluntas electorum 
+      spi<lb ed="#B" n="33" break="no"/>rituum diuinae deseruit potestati, &amp; 
+      re<lb ed="#B" n="34" break="no"/>proborum sensus suae seruiens malitiae, 
+      <lb ed="#B" n="35"/>iudicio omnipotentis obtemperat. Sic 
+      <lb ed="#B" n="36"/>ergo deus malam diaboli intentionem 
+      <lb ed="#B" n="37"/>cognoscens, ex qua sequitur seductio, 
+      <lb ed="#B" n="38"/>quod perditio, mittit, sed propter bonum, 
+      <lb ed="#B" n="39"/>quod deus ex illo malo elicit, unde etsi 
+      <lb ed="#B" n="40"/>maipeccant, peccatum &amp; perditionem 
+      <lb ed="#B" n="41"/>tentati appetendo; deus tamen iuste 
+      o<lb ed="#B" n="42" break="no"/>peratur propter peccata penam 
+      inffi<lb ed="#B" n="43" break="no"/>gendo. Vnde glol. super illud Psal. 
+      su<lb ed="#B" n="44" break="no"/>pra allegatum. Immissiones per angelos 
+      <lb ed="#B" n="45"/>malos, &amp; est Beati Augustini. Possumus 
+      <lb ed="#B" n="46"/>sine dubitatione malis angelis attribue 
+      <lb ed="#B" n="47"/>re mortes pecorum, &amp; mortes 
+      primo<lb ed="#B" n="48" break="no"/>genitorum, &amp; obdurationes 
+      Aegi<lb ed="#B" n="49" break="no"/>ptiorum. Hanc enim deus cum facere 
+      <lb ed="#B" n="50"/>dicitur: non instigando, &amp; inspirando: 
+      <!--186.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>sed deserendo hoc facit: ut illi 
+      operen<lb ed="#B" n="52" break="no"/>tur in filios diffidentiae: quod deus 
+      iu<lb ed="#B" n="53" break="no"/>ste debiteque permittit. Missio ergo 
+      ma<lb ed="#B" n="54" break="no"/>lorum nihil aliud est, quam ordinatio 
+      <lb ed="#B" n="55"/>potestatis eorum ad pumendum, &amp; 
+      per<lb ed="#B" n="56" break="no"/>missio uoluntatis eorundem ad 
+      sedu<lb ed="#B" n="57" break="no"/>cendum.
+    </p>
+            <p xml:id="gbs333-b37353-d1e633">
+      ¶ Quantum ad articulum 
+      <lb ed="#B" n="58"/>quartum, aduertendum, quod est 
+      missio<lb ed="#B" n="59" break="no"/>quaedam per auctoritatem; ut quando 
+      <lb ed="#B" n="60"/>mittens propria potestate non ab 
+      alio<lb ed="#B" n="61" break="no"/>subdelegata alium mittit; alia est 
+      per<lb ed="#B" n="62" break="no"/>ministerium, uel subauctoritatem. 
+    </p>
+            <p xml:id="gbs333-b37353-d1e646">
+               <lb ed="#B" n="63"/>¶ Per hoc respondetur ad hunc 
+      articu<lb ed="#B" n="64" break="no"/>lum per hanc conclusionem.
+    </p>
+            <p xml:id="gbs333-b37353-d1e653">
+      ¶ 
+      Quam<lb ed="#B" n="65" break="no"/>uis a solo deo per auctoritatem 
+      mittan<lb ed="#B" n="66" break="no"/>tur angeli, tamen ministerialiter 
+      con<lb ed="#B" n="67" break="no"/>tingit ab angelo angelum mitti. 
+      Pri<lb ed="#B" n="68" break="no"/>mum patet: quia a quocunque angelus 
+      <lb ed="#B" n="69"/>mittitur, refertur ad auctoritatem 
+      di<lb ed="#B" n="70" break="no"/>uinam, tanquam ad causam 
+      principa<lb ed="#B" n="71" break="no"/>lem, &amp; primam.
+    </p>
+            <p xml:id="gbs333-b37353-d1e672">
+      ¶ Secunda pars patet 
+      <lb ed="#B" n="72"/>per illud Racha. ij. Angelus, qui 
+      loque<lb ed="#B" n="73" break="no"/>batur in me egrediebatur: &amp; alius 
+      an<lb ed="#B" n="74" break="no"/>gelus egrediebatur in occursum eius: 
+      <lb ed="#B" n="75"/>&amp; dicit ad eum. Curre, loquere ad 
+      pue<lb ed="#B" n="76" break="no"/>rum istum dicens. Absque muro 
+      habi<lb ed="#B" n="77" break="no"/>tabitur Hierusalem. Super quo Grego. 
+      <lb ed="#B" n="78"/>In conspectu conditoris angelica 
+      mi<lb ed="#B" n="79" break="no"/>nisteria ordinata sunt, ut pro 
+      commu<lb ed="#B" n="80" break="no"/>ni faelicitate beatitudinis, opificem 
+      <lb ed="#B" n="81"/>suum uidentes gaudeant: cum pro 
+      di<lb ed="#B" n="82" break="no"/>spensatione dignitatis alij aliis 
+      sub<lb ed="#B" n="83" break="no"/>ministrant. Ad prophetam angelus 
+      an<lb ed="#B" n="84" break="no"/>gelum mittit; &amp; quae secum de deo 
+      <lb ed="#B" n="85"/>communiter conspicit, &amp; docet, &amp; 
+      <lb ed="#B" n="86"/>erigit: quia eumper superiorem 
+      scien<lb ed="#B" n="87" break="no"/>tiam uirtute cognitionis, &amp; 
+      praestan<lb ed="#B" n="88" break="no"/>tiorem gratiam culmine potestatis 
+      <lb ed="#B" n="89"/>excedit. Idem. Dum angelus 
+      di<lb ed="#B" n="90" break="no"/>cit ad alium angelum. Curre, &amp; 
+      lo<lb ed="#B" n="91" break="no"/>quere: dubium non est, quod alius alium 
+      <lb ed="#B" n="92"/>mittit. Simile habetur Danielis. viij. 
+      <lb ed="#B" n="93"/>ubi dicitur. Audiui uocem uiri inter ulais 
+      <lb ed="#B" n="94"/>&amp; clamauit, &amp; ait. Gabriel fac istum 
+      <lb ed="#B" n="95"/>intelligere uisionem. Ecce angelus 
+      <lb ed="#B" n="96"/>angelo imperat; &amp; sic imperando 
+      mit<lb ed="#B" n="97" break="no"/>tit. Nec tamen propter hoc 
+      ange<lb ed="#B" n="98" break="no"/>lus dicitur minister angeli, aut 
+      ange<lb ed="#B" n="99" break="no"/>lus angeli; quia omnis illa missio, &amp; 
+      <lb ed="#B" n="100"/>ministeria illa reducuntur ad aucto¬ 
+      <!--187.xml-->
+      <pb ed="#B" n="78-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ritatem dei; cuius mandatis, &amp; 
+      ordina<lb ed="#B" n="2" break="no"/>tioni omnes parent. Sicut in simili Num 
+      <lb ed="#B" n="3"/>tius missus a principe per officialem suum: 
+      <lb ed="#B" n="4"/>non dicitur nuntius officialis, sed 
+      prin<lb ed="#B" n="5" break="no"/>cipis. Et tantum de illa quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="120-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b58579"><!-- l2-d22prae -->
+            <head xml:id="gbs333-b58579-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b58579-d1e103">
+      <!--270.xml-->
+               <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>DISTINCTIO xxII. 
+      <lb ed="#B" n="51"/>DICTVM est de 
+      pec<lb ed="#B" n="52" break="no"/>cato hominis quantum 
+      <lb ed="#B" n="53"/>ad diabolum 
+      tentan<lb ed="#B" n="54" break="no"/>tem. In hac distinct. 
+      <lb ed="#B" n="55"/>xxij. agit de eodem 
+      <lb ed="#B" n="56"/>quantum ad hominem 
+      <lb ed="#B" n="57"/>transgredientem. 
+      <lb ed="#B" n="58"/>Agit enim de peccato primi hominis 
+      <lb ed="#B" n="59"/>quantum ad eius originem ex parte 
+      ho<lb ed="#B" n="60" break="no"/>minis peccantis, grauitatem, &amp; peccantium 
+      <lb ed="#B" n="61"/>ignorantiam. Colligitur autem 
+      senten<lb ed="#B" n="62" break="no"/>tia textus in his tribus conclusionibus 
+    </p>
+            <p xml:id="gbs333-b58579-d1e138">
+               <lb ed="#B" n="63"/>¶ Prima conclusio. Non ex simili 
+      super<lb ed="#B" n="64" break="no"/>bia, qua prodijt peccatum, Euae ortum 
+      <lb ed="#B" n="65"/>duxit transgressio Adae.
+    </p>
+            <p xml:id="gbs333-b58579-d1e147">
+      ¶ Secunda 
+      con<lb ed="#B" n="66" break="no"/>clusio. Mulier quamuis plus uiro 
+      pecca<lb ed="#B" n="67" break="no"/>uit: neutrum tamen ignorantia, quae 
+      dis<lb ed="#B" n="68" break="no"/>similiter in utroque fuit: ullatenus 
+      ex<lb ed="#B" n="69" break="no"/>cusauit.
+    </p>
+            <p xml:id="gbs333-b58579-d1e158">
+      ¶ Tertia conclusio. Ex 
+      diaboli<lb ed="#B" n="70" break="no"/>persuasione, &amp; bono hominis liberi 
+      ar<lb ed="#B" n="71" break="no"/>bitrij uoluntas mala prodiit, qua 
+      pri<lb ed="#B" n="72" break="no"/>mus parens iustitiam deseruit, &amp; 
+      iniqui<lb ed="#B" n="73" break="no"/>tatem inchoauit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

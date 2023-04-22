@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="158-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b77032"><!-- l2-d33prae -->
+            <head xml:id="gbs333-b77032-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b77032-d1e103">
+               <lb ed="#B" n="26"/>DISTINCTIO xxxIII. 
+      <lb ed="#B" n="27"/>VITmagister de 
+      <lb ed="#B" n="28"/>peccati originalis 
+      <lb ed="#B" n="29"/>quidditate, 
+      transfu<lb ed="#B" n="30" break="no"/>sione, remissione: 
+      <lb ed="#B" n="31"/>nunc consequenter 
+      <lb ed="#B" n="32"/>agit de eius in poste 
+      <lb ed="#B" n="33"/>ros augmentatione. 
+      <lb ed="#B" n="34"/>&amp; punitione. Vnde tres conclusiones 
+      <lb ed="#B" n="35"/>principalem huius distinctionis 
+      senten<lb ed="#B" n="36" break="no"/>tiam comprehendunt. Prima 
+      conclu<lb ed="#B" n="37" break="no"/>sio. Per peccata parentum posteriorum 
+      <lb ed="#B" n="38"/>Adae non augmentatur in paruulis 
+      pec<lb ed="#B" n="39" break="no"/>catum originale.
+    </p>
+            <p xml:id="gbs333-b77032-d1e136">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="40"/>Primorum parentum transgressio, licet 
+      <lb ed="#B" n="41"/>fuerit grauis, &amp; non grauissima: 
+      origi<lb ed="#B" n="42" break="no"/>nale tamen peccatum per eos 
+      transfu<lb ed="#B" n="43" break="no"/>sum punitur in paruulis poena 
+      mitissi<lb ed="#B" n="44" break="no"/>ma.
+    </p>
+            <p xml:id="gbs333-b77032-d1e149">
+      ¶ Tertia conclusio. Peccata 
+      actua<lb ed="#B" n="45" break="no"/>lia parentum in siliis usque ad tertiam, 
+      <lb ed="#B" n="46"/>&amp; quartam generationem puniuntur: 
+      <!--346.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>qui patrum exempla propriijs suis 
+      cri<lb ed="#B" n="48" break="no"/>minibus imitantur. Harum declaratio 
+      <lb ed="#B" n="49"/>patet in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="59-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b28834"><!-- l2-d8q1 -->
+            <head xml:id="gbs333-b28834-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b28834-Hd1e103" type="question-title">
+      Utrum angeli 
+      naturaliter incorporei possint 
+      assumere corpora, et in eis exercere 
+      opera uitae
+    </head>
+            <p xml:id="gbs333-b28834-d1e106">
+               <lb ed="#B" n="41"/>QVAESTIO I 
+      <lb ed="#B" n="42"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="43"/> mouetur haec quaestio 
+      pri<lb ed="#B" n="44" break="no"/>ma. Vtrum angeli 
+      natura<lb ed="#B" n="45" break="no"/>liter incorporei possint 
+      as<lb ed="#B" n="46" break="no"/>sumere corpora, &amp; in eis exercere ope¬ 
+      <!--149.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="47"/>ra uitae. In quaestione erunt quatuor 
+      <lb ed="#B" n="48"/>articuli. Tres secundum tria, quae 
+      tan<lb ed="#B" n="49" break="no"/>guntur in titulo. Quartus mouet 
+      du<lb ed="#B" n="50" break="no"/>bia.
+    </p>
+            <p xml:id="gbs333-b28834-d1e135">
+      ¶ Quantum ad primum queritur, 
+      <lb ed="#B" n="51"/>utrum angeli sint corporei, quod nihi 
+      <lb ed="#B" n="52"/>aliud est quaerere, quam utrum angelus sit 
+      <lb ed="#B" n="53"/>natura composita ex quodam 
+      potentio<lb ed="#B" n="54" break="no"/>nali, materiali &amp; perfectibili, &amp; forma 
+      <lb ed="#B" n="55"/>illi inhaerente, eamque perficiente: sicut  
+      <lb ed="#B" n="56"/>homo componitur ex materia, &amp; 
+      for<lb ed="#B" n="57" break="no"/>ma intellectiua eam inhaesiue 
+      perficien<lb ed="#B" n="58" break="no"/>te.
+    </p>
+            <p xml:id="gbs333-b28834-d1e155">
+      ¶ Secundo notandum, quod olim fuit 
+      <lb ed="#B" n="59"/>haec quaestio multum dubia, diuersis 
+      do<lb ed="#B" n="60" break="no"/>ctoribus diuersa de ea sentientibus, ut  
+      <lb ed="#B" n="61"/>tangit magister in textu. Vnde 
+      uiden<lb ed="#B" n="62" break="no"/>tur quidam tenuisse partem 
+      affirmati<lb ed="#B" n="63" break="no"/>uam; nihilque esse simpliciter 
+      incorpo<lb ed="#B" n="64" break="no"/>reum, praeter solum deum. Ad hoc 
+      al<lb ed="#B" n="65" break="no"/>legatur illud Orige. in periarch. 
+      So<lb ed="#B" n="66" break="no"/>lus dei id est patris, &amp; filij, &amp; spiritus lancti 
+      <lb ed="#B" n="67"/>illud proprium est: ut sine materiali 
+      sub<lb ed="#B" n="68" break="no"/>stantia, &amp; absque ulla corporeae 
+      adiectio<lb ed="#B" n="69" break="no"/>nis societate intelligatur existere.
+    </p>
+            <p xml:id="gbs333-b28834-d1e182">
+      ¶ Item 
+      <lb ed="#B" n="70"/>illud Bern. homil. vj. super can. Demus 
+      <lb ed="#B" n="71"/>deo soli sicut immortalitatem, sic 
+      in<lb ed="#B" n="72" break="no"/>corporeitatem: cuius natura sola neque;  
+      <lb ed="#B" n="73"/>propter se, neque propter alium, 
+      solatio<lb ed="#B" n="74" break="no"/>indiget instrumenti corporei: liquet  
+      <lb ed="#B" n="75"/>autem omnem spiritum creatum 
+      cor<lb ed="#B" n="76" break="no"/>poreo indigere solatio.
+    </p>
+            <p xml:id="gbs333-b28834-d1e200">
+      ¶ Item illud 
+      <lb ed="#B" n="77"/>Grego. In homil. epiphaniae: ubi 
+      nomi<lb ed="#B" n="78" break="no"/>nat angelum rationale animal. Animal 
+      <lb ed="#B" n="79"/>autem compositum est, &amp; corporeum. 
+    </p>
+            <p xml:id="gbs333-b28834-d1e209">
+               <lb ed="#B" n="80"/>¶ Item ex Augu. ea quae magister 
+      alle<lb ed="#B" n="81" break="no"/>gat in textu.
+    </p>
+            <p xml:id="gbs333-b28834-d1e216">
+      ¶ Sed oppositum nunc 
+      con<lb ed="#B" n="82" break="no"/>muniter dicunt omnes doctores 
+      con<lb ed="#B" n="83" break="no"/>corditer: cui etiam uidetur magister 
+      <lb ed="#B" n="84"/>consentire.
+    </p>
+            <p xml:id="gbs333-b28834-d1e225">
+      ¶ Vnde secundum hoc 
+      po<lb ed="#B" n="85" break="no"/>nitur haec conclusio ad illum articulum: 
+      <lb ed="#B" n="86"/>Angeli tam boni, quam mali sunt 
+      naturali<lb ed="#B" n="87" break="no"/>ter incorporei, &amp; immateriales: ita quod 
+      <lb ed="#B" n="88"/>non habent corpora sibi unita tamquam 
+      par<lb ed="#B" n="89" break="no"/>tem sui essentialem. Probatur conclusio 
+      au<lb ed="#B" n="90" break="no"/>ctoritate, &amp; ratione. Auctoritate 
+      beati<lb ed="#B" n="91" break="no"/>Diony. de diuinis nominibus c. iiij. 
+      cir<lb ed="#B" n="92" break="no"/>ca principium. Intelligibiles omnes 
+      spi<lb ed="#B" n="93" break="no"/>ritualesque; substantiae uelut incorporales, 
+      <lb ed="#B" n="94"/>&amp; omni materia carentes intelliguntur. 
+      <lb ed="#B" n="95"/>Ad idem plura adduci possunt ex libro de 
+      <lb ed="#B" n="96"/>caele. hierar. Item Damalic. diffiniens ange¬ 
+      <!--150.xml-->
+      <pb ed="#B" n="60-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lum dicit. Est substantia intelligibilis 
+      in<lb ed="#B" n="2" break="no"/>corporea. Et addit ad hoc Richar. 
+      si<lb ed="#B" n="3" break="no"/>gnim. quod corpus modicae quantitatis a 
+      ma<lb ed="#B" n="4" break="no"/>xima multitudine daemonum obsidetur. 
+      <lb ed="#B" n="5"/>Vnde legitur Mar. v. ubi dicitur ex 
+      per<lb ed="#B" n="6" break="no"/>sona daemonis. Legio mihi nomen est. 
+      <lb ed="#B" n="7"/>Continet autem legio secundum 
+      Richar<lb ed="#B" n="8" break="no"/>Scos. Si ergo corpora haberent 
+      daemo<lb ed="#B" n="9" break="no"/>nes, tot nullo modo intrare possent cor 
+      <lb ed="#B" n="10"/>pus humanum tamn modicum.
+    </p>
+            <p xml:id="gbs333-b28834-d1e282">
+      ¶ Ite consonas 
+      <lb ed="#B" n="11"/>ratio, quia creatura aliqua est mere cor 
+      <lb ed="#B" n="12"/>poralis; ut elementa, &amp; mixta non 
+      niuen<lb ed="#B" n="13" break="no"/>tia. Aliqua est composita ex spirituali, &amp; 
+      <lb ed="#B" n="14"/>corpore; ut homo. Ideo etiam erit 
+      ali<lb ed="#B" n="15" break="no"/>qua creatura pure spiritualis; 
+      alioquin<lb ed="#B" n="16" break="no"/>modi essendi in creaturis non essent 
+      con<lb ed="#B" n="17" break="no"/>pleti.
+    </p>
+            <p xml:id="gbs333-b28834-d1e301">
+      ¶ Item creatura mere spiritualis 
+      <lb ed="#B" n="18"/>perfeciior est corporali, &amp; composita ex 
+      <lb ed="#B" n="19"/>corporali, &amp; spirituali. Si ergo illa 
+      defi<lb ed="#B" n="20" break="no"/>ceret, in uniuerso deficeret nobilissima 
+      <lb ed="#B" n="21"/>creatura, &amp; esset creatura quasi 
+      acepha<lb ed="#B" n="22" break="no"/>la carens digniori sua parte. Ad 
+      Ori<lb ed="#B" n="23" break="no"/>genem dicitur, quod Orige. in illo sicut in 
+      <lb ed="#B" n="24"/>multis alijs sequens antiquorum 
+      philoso<lb ed="#B" n="25" break="no"/>phorum opinionem deceptus est; ita dicit 
+      <lb ed="#B" n="26"/>beatus Tho.
+    </p>
+            <p xml:id="gbs333-b28834-d1e323">
+      ¶ Ad beatum bern. dicitur, 
+      <lb ed="#B" n="27"/>quod aliquid dupliciter dicitur esse incor 
+      <lb ed="#B" n="28"/>poreum. Vno modo, quod non indiget 
+      so<lb ed="#B" n="29" break="no"/>latio corporis, nec ppter se nec propter 
+      <lb ed="#B" n="30"/>alios, &amp; ita solus deus est incorporeus 
+      <lb ed="#B" n="31"/>Aliomodo, quod non indiget propter se 
+      <lb ed="#B" n="32"/>Nam quantum ad operationes proprias 
+      nu<lb ed="#B" n="33" break="no"/>lomodo corporibus adiuuatur: indiger 
+      <lb ed="#B" n="34"/>tamen corpore aliquando in 
+      ministerio<lb ed="#B" n="35" break="no"/>aliorum, seu propter alios. Sic angelus cum 
+      <lb ed="#B" n="36"/>mittitur, indiget, quandoque corpore 
+      <lb ed="#B" n="37"/>propter eos, quibus mittitur: &amp; illo 
+      mo<lb ed="#B" n="38" break="no"/>do angeli sunt incorporei. Primo 
+      mo<lb ed="#B" n="39" break="no"/>do accipit beatus Bern. ut patet ex con 
+      <lb ed="#B" n="40"/>textu uerborum suorum.
+    </p>
+            <p xml:id="gbs333-b28834-d1e356">
+      ¶ Ad beatum 
+      Greg<lb ed="#B" n="41" break="no"/>dicitur, quod accipit animal rationale 
+      tra<lb ed="#B" n="42" break="no"/>sumptiue pro omni illo, quod habet 
+      ra<lb ed="#B" n="43" break="no"/>tionem siue intellectum.
+    </p>
+            <p xml:id="gbs333-b28834-d1e365">
+      ¶ Ad auctoritates 
+      <lb ed="#B" n="44"/>beati Augu. quas magister allegat, 
+      sol<lb ed="#B" n="45" break="no"/>uit ipse dicens eum locutum secundum aliorum 
+      <lb ed="#B" n="46"/>opinionem: non propriam.
+    </p>
+            <p xml:id="gbs333-b28834-d1e374">
+      ¶ Quantum ad 
+      ar<lb ed="#B" n="47" break="no"/>ticulum secundum nota, quod sicut 
+      colligi<lb ed="#B" n="48" break="no"/>tur ex dictis doctorum Alex. Sco. Tho. &amp; 
+      <lb ed="#B" n="49"/>aliorum: spum assumere corpus, est spiritum 
+      <lb ed="#B" n="50"/>coadsistere corpori diffinitiue ut mo¬ 
+      <!--150.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>torem intrinsecum mobili tamquam instrumem 
+      <lb ed="#B" n="52"/>tum ad sui, uel dei repraesentationem.
+    </p>
+            <p xml:id="gbs333-b28834-d1e394">
+      ¶ 
+      Di<lb ed="#B" n="53" break="no"/>citur primo in hac descriptione 
+      coadsi<lb ed="#B" n="54" break="no"/>stere corpori: in hoc enim dicitur 
+      spiri<lb ed="#B" n="55" break="no"/>tus assumere. it ad se assumere corpus: 
+      <lb ed="#B" n="56"/>quia coniugitur ei per indistantiam 
+      loca<lb ed="#B" n="57" break="no"/>lem non solum per operationem.
+    </p>
+            <p xml:id="gbs333-b28834-d1e408">
+      ¶ Et 
+      ad<lb ed="#B" n="58" break="no"/>ditur diffinitiue, ad excludendum deum, 
+      <lb ed="#B" n="59"/>qui licet apparuerit patribus in figuris 
+      <lb ed="#B" n="60"/>corporalibus: Abraaei tribus uiris, 
+      Moy<lb ed="#B" n="61" break="no"/>si in igne, populo in nube &amp;c. Illa tamen 
+      <lb ed="#B" n="62"/>corpora non assumpsit deus, alioquin cum 
+      <lb ed="#B" n="63"/>omnibus sit intuitiue praesens; &amp; omnia 
+      <lb ed="#B" n="64"/>operetur in omnibus, omnia corpora 
+      as<lb ed="#B" n="65" break="no"/>sumeret; &amp; maxime in omnibus, in 
+      qui<lb ed="#B" n="66" break="no"/>bus se manifestauit creaturae rationali: 
+      <lb ed="#B" n="67"/>&amp; ita assumeret corpus praedicatoris 
+      uer<lb ed="#B" n="68" break="no"/>bum dei praęedicantis. Nec dicitur 
+      assumpsis<lb ed="#B" n="69" break="no"/>se columbae speciem; in qua apparuit 
+      spiri<lb ed="#B" n="70" break="no"/>tussanctus. Nec stellam magis appatentem, 
+      <lb ed="#B" n="71"/>nec igneas linguas, nec ignem in rubo, 
+      <lb ed="#B" n="72"/>aut in monte Sina. Sed omnes illae 
+      appa<lb ed="#B" n="73" break="no"/>ritiones factae sunt per angelos 
+      huiusmo<lb ed="#B" n="74" break="no"/>di corpora figuralia assumentes, &amp; in 
+      per<lb ed="#B" n="75" break="no"/>sona dei loquentes. Vnde Aug. ij. &amp; iij. 
+      <lb ed="#B" n="76"/>de trin pene per totum materiam illam 
+      di<lb ed="#B" n="77" break="no"/>sputans ostendit. c. xj. tertij omnes illas 
+      <lb ed="#B" n="78"/>apparitiones: in quibus manifeste 
+      scri<lb ed="#B" n="79" break="no"/>ptura deum apparuisse, &amp; locutum fuisse 
+      pa<lb ed="#B" n="80" break="no"/>tribus, &amp; populo: dicit angelorum (in 
+      per<lb ed="#B" n="81" break="no"/>sona dei loquentium) ministerio factas 
+      <lb ed="#B" n="82"/>Vnde ait. Illa omnia, quae patribus uisa 
+      <lb ed="#B" n="83"/>sunt; cum deus illis secundum 
+      dispensatio<lb ed="#B" n="84" break="no"/>nem suam temporibus congruam praesentare 
+      <lb ed="#B" n="85"/>tur: per creaturam facta manifestum est. 
+      <lb ed="#B" n="86"/>Et si nos latet quomodo ea ministris 
+      an<lb ed="#B" n="87" break="no"/>gelis fecerit: per angelos tamen esse 
+      fa<lb ed="#B" n="88" break="no"/>cta non ex nostro sensu dicimus. Extat 
+      <lb ed="#B" n="89"/>enim auctoritas diuinarum 
+      scriptura<lb ed="#B" n="90" break="no"/>rum, unde mens nostra deuiare non 
+      de<lb ed="#B" n="91" break="no"/>bet. Et deinde prosequitur auctorita 
+      <lb ed="#B" n="92"/>tes illud probantes apostoli scilicet ad Heb. &amp; 
+      <lb ed="#B" n="93"/>ex actibus apostolorum, ac libris ueteris 
+      <lb ed="#B" n="94"/>testamenti: per totum illud capitulum: 
+      <lb ed="#B" n="95"/>Et circa finem recapitulando dicit. 
+      Sa<lb ed="#B" n="96" break="no"/>tis demonstratum est, cum antiquis 
+      pa<lb ed="#B" n="97" break="no"/>tribus nostris ante incarnatione 
+      salua<lb ed="#B" n="98" break="no"/>toris; cum deus apparere dicebatur; 
+      uo<lb ed="#B" n="99" break="no"/>ces illae ac species corporales per 
+      ange<lb ed="#B" n="100" break="no"/>los factae sunt, siue ipsis loquentibus, uel 
+      <!--151.xml-->
+      <pb ed="#B" n="60-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>agentibus aliquid ex persona dei. 
+      Si<lb ed="#B" n="2" break="no"/>cut etiam prophaetas solere ostendimus: 
+      <lb ed="#B" n="3"/>siue angelis assumentibus ex creatura, 
+      <lb ed="#B" n="4"/>quod ipsi non essent: ubi deus figurate 
+      <lb ed="#B" n="5"/>ostenderetur hominibus. Ecce cum 
+      di<lb ed="#B" n="6" break="no"/>cat angelos assumpsisse siguras, in eis 
+      <lb ed="#B" n="7"/>deum apparuisse. Non autem, inquit, 
+      il<lb ed="#B" n="8" break="no"/>las figuras assumpsisse, cuius mihi (sine 
+      <lb ed="#B" n="9"/>temeritate loquor) alia ratio non 
+      ap<lb ed="#B" n="10" break="no"/>paret, nisi quia angeli huiusmodi 
+      corpo<lb ed="#B" n="11" break="no"/>ralibus figuris coextiterunt diffinitiue, 
+      <lb ed="#B" n="12"/>non autem deus. Et propter hoc puto 
+      <lb ed="#B" n="13"/>Sco. addidisse hanc dictionem diffinitiue. 
+    </p>
+            <p xml:id="gbs333-b28834-d1e538">
+               <lb ed="#B" n="14"/>¶ Dicitur consequenter in descriptione; 
+      <lb ed="#B" n="15"/>ut motorem intrinsecum mobili, ad 
+      desi<lb ed="#B" n="16" break="no"/>gnandum, quod assumptio illa non est 
+      per<lb ed="#B" n="17" break="no"/>informationem, sicut anima assumit. 
+      <lb ed="#B" n="18"/>Nec per hupostaticam unionem, sicut  
+      <lb ed="#B" n="19"/>uerbum assumpsit humanam naturam: 
+      <lb ed="#B" n="20"/>sed duntaxat per motionem, &amp; usum 
+      cor<lb ed="#B" n="21" break="no"/>poris ad operationem: sicut artifex utitur 
+      <lb ed="#B" n="22"/>instrumento.
+    </p>
+            <p xml:id="gbs333-b28834-d1e560">
+      ¶ Additur ad sui, uel 
+      dei<lb ed="#B" n="23" break="no"/>repraesentationem id est significationem. 
+      <lb ed="#B" n="24"/>Hoc uerum est de angelis bonis tantum: 
+      <lb ed="#B" n="25"/>quia mali saepe assumunt corpora non 
+      <lb ed="#B" n="26"/>propter dei repraesentationem; quia non 
+      <lb ed="#B" n="27"/>propter solum motum spiritus dicitur 
+      assu<lb ed="#B" n="28" break="no"/>mere corpus; alioquin intelligentia 
+      mo<lb ed="#B" n="29" break="no"/>trix orbis assumeret orbe. Et sicut 
+      A<lb ed="#B" n="30" break="no"/>lex. dicit: si moueret magnam turrim, 
+      il<lb ed="#B" n="31" break="no"/>lam assumeret, quod non conceditur. Et  
+      <lb ed="#B" n="32"/>in hoc etiam tangitur causa finalis huius 
+      <lb ed="#B" n="33"/>assumptionis. Nam secundum sanctum 
+      Bo<lb ed="#B" n="34" break="no"/>nauent. angeli non indigent solatio cor 
+      <lb ed="#B" n="35"/>poris propter se: sed ut nobis congruen- 
+      <lb ed="#B" n="36"/>tius condescendant: indigent solatio id est 
+      <lb ed="#B" n="37"/>adiutorio. Indigent, inquam, ad aliquas 
+      <lb ed="#B" n="38"/>operationes exercendas, indigent ad 
+      seip<lb ed="#B" n="39" break="no"/>sos manifestandos; indigent ad nosmetip 
+      <lb ed="#B" n="40"/>sos laetificandos, siue confirmandos. 
+      Loqui<lb ed="#B" n="41" break="no"/>tur de bonis angelis. Et ideo assumunt 
+      <lb ed="#B" n="42"/>corpora sicut instrumenta, uel organa 
+      <lb ed="#B" n="43"/>ad operandum, sicut signa ad manifestandum, 
+      <lb ed="#B" n="44"/>sicut cooperimenta uel habitacula ad 
+      con<lb ed="#B" n="45" break="no"/>seruandum. Vnde corpus assumptum 
+      con<lb ed="#B" n="46" break="no"/>iungitur illi sicut instrumentum motori, 
+      <lb ed="#B" n="47"/>sicut signum significatori, sicut 
+      habitacu<lb ed="#B" n="48" break="no"/>lum habitatori &amp;c. Haec sanctus Bonauen. 
+    </p>
+            <p xml:id="gbs333-b28834-d1e619">
+               <lb ed="#B" n="49"/>¶ Secundo notandum, quod quia finis 
+      <lb ed="#B" n="50"/>imponit necessitatem his, quae sunt ad 
+      <!--151.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>finem; ideo angelus assumit corpus prout 
+      <lb ed="#B" n="52"/>congruit operationi, &amp; significationi. 
+      <lb ed="#B" n="53"/>Vnde non assumit corpus celeste; quia 
+      <lb ed="#B" n="54"/>caelum non est susceptiuum illorum 
+      ac<lb ed="#B" n="55" break="no"/>cidentium, in quibus apparet. 
+      Potestau<lb ed="#B" n="56" break="no"/>tem assumere corpus mixtum a natura iam 
+      <lb ed="#B" n="57"/>formatum; ut cadauer mortui, uel aliquid 
+      <lb ed="#B" n="58"/>tale. Potest etiam assumere corpus 
+      non<lb ed="#B" n="59" break="no"/>dum a causis naturalibus causatum, uel 
+      <lb ed="#B" n="60"/>formatum; sed quod, quasi tunc dum 
+      uo<lb ed="#B" n="61" break="no"/>lunt assumere, formatur subito, &amp; com 
+      <lb ed="#B" n="62"/>pleta operatione disparet, sicut fuit de 
+      <lb ed="#B" n="63"/>Raphaele Tobiae per totum. &amp; Phanuale. 
+      <lb ed="#B" n="64"/>Gen. xxxij. Et de angelo apparente 
+      Ma<lb ed="#B" n="65" break="no"/>nuae in specie uiri. Iudicum. xiij. Tunc 
+      <lb ed="#B" n="66"/>dicunt aliqui (ut recitat sanctus 
+      Bona<lb ed="#B" n="67" break="no"/>uent.) quod corpus tale formatur de 
+      natu<lb ed="#B" n="68" break="no"/>ra elementari simplici scilicet aeris hoc 
+      mo<lb ed="#B" n="69" break="no"/>do. Nam elementum aeris de sui 
+      natu<lb ed="#B" n="70" break="no"/>ra est rarefactibile, &amp; condensabile: si adsit 
+      <lb ed="#B" n="71"/>uirtus, quae hoc possit. Vnde sicut 
+      ui<lb ed="#B" n="72" break="no"/>demus aquam solidari in glacien, &amp; 
+      ery<lb ed="#B" n="73" break="no"/>stallum ex frigore; si contingit aliqua 
+      <lb ed="#B" n="74"/>uirture occulta, quae nos latet, 
+      ange<lb ed="#B" n="75" break="no"/>lum aerem condensare posse secundum 
+      <lb ed="#B" n="76"/>magis, &amp; minus ad uoluntatem 
+      angeli<lb ed="#B" n="77" break="no"/>operantis. Hoc autem corpus cum 
+      conden<lb ed="#B" n="78" break="no"/>satur, potest suscipere figura, &amp; effigiem 
+      <lb ed="#B" n="79"/>talem, qualem uult angelus; &amp; ita 
+      cor<lb ed="#B" n="80" break="no"/>pori organixato effici conforme. 
+      Po<lb ed="#B" n="81" break="no"/>test nihilominus in una parte 
+      conden<lb ed="#B" n="82" break="no"/>sari plus, in alia minus, in alia minime: 
+      <lb ed="#B" n="83"/>&amp; sic conformari neruo, ossi, &amp; carni. 
+      <lb ed="#B" n="84"/>Potest est in una sui parte recipere plus 
+      <lb ed="#B" n="85"/>de luce, in alia minus, in alia minime, 
+      <lb ed="#B" n="86"/>&amp; secundum hoc habere in se diuersos 
+      co<lb ed="#B" n="87" break="no"/>lores, &amp; ita corpori humano effici qua 
+      <lb ed="#B" n="88"/>si in omnibus conforme; et ita idoneum 
+      <lb ed="#B" n="89"/>instrumentu, signum &amp; habitaculum: ut ab 
+      <lb ed="#B" n="90"/>angelo assumatur.
+    </p>
+            <p xml:id="gbs333-b28834-d1e717">
+      ¶ Aliis tamen non placet, 
+      <lb ed="#B" n="91"/>quod corpus assumendum sit de simplici 
+      ese<lb ed="#B" n="92" break="no"/>mento; sed quod sit exaere cum admixtione 
+      <lb ed="#B" n="93"/>alterius elementi; sicut in nube, quod non 
+      <lb ed="#B" n="94"/>est corpus plene mixtum: habet tamen in se 
+      <lb ed="#B" n="95"/>naturam plurium elementorum. Et 
+      per<lb ed="#B" n="96" break="no"/>hunc modum corpus ab angelo 
+      assum<lb ed="#B" n="97" break="no"/>ptum principaliter ab aere putatur 
+      es<lb ed="#B" n="98" break="no"/>se formatum, concurrente ad hoc 
+      natu<lb ed="#B" n="99" break="no"/>ra alicuius uaporis terrestris, uel 
+      aquo<lb ed="#B" n="100" break="no"/>si: quo faciat tam ad uarietatem con¬ 
+      <!--152.xml-->
+      <pb ed="#B" n="61-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>densationis, quam ad multiformitatem 
+      co<lb ed="#B" n="2" break="no"/>loris. Hanc aunt non oportet angelum de 
+      lo<lb ed="#B" n="3" break="no"/>ginquo mendicare; cum aer po magna 
+      sui<lb ed="#B" n="4" break="no"/>parte mixtus sit uagoribus. Non est 
+      er<lb ed="#B" n="5" break="no"/>go corpus assumptum ab angelo mixtum 
+      <lb ed="#B" n="6"/>plena mixtione. Tum quia tale corpus non 
+      <lb ed="#B" n="7"/>posset tam subito generari, aut formari, 
+      <lb ed="#B" n="8"/>quia non esset natum generari nisi se 
+      <lb ed="#B" n="9"/>cundum determinatum processum 
+      na<lb ed="#B" n="10" break="no"/>turae. Nam si appareret in corpore 
+      ho<lb ed="#B" n="11" break="no"/>minis non prius geniti pernaturam: illud 
+      <lb ed="#B" n="12"/>corpus non posset gnrari nisi in matrice. 
+      <lb ed="#B" n="13"/>Nec potest dici, quod angelus subito inducat  
+      <lb ed="#B" n="14"/>illam formam in materiam; quia non potest 
+      natu<lb ed="#B" n="15" break="no"/>ralem formam inducere, sed tantum potest 
+      <lb ed="#B" n="16"/>actiua, &amp; passiua consequenter applicare 
+      <lb ed="#B" n="17"/>&amp; corporibus caelestibus in situ 
+      conuenten<lb ed="#B" n="18" break="no"/>ti approximare; ut inducatur forma qua 
+      <lb ed="#B" n="19"/>lis nata est a talibus agentibus 
+      particu<lb ed="#B" n="20" break="no"/>laribus induci. Itaque corpus quasi quiad 
+      <lb ed="#B" n="21"/>subito formatur resoluitur: est mixtum 
+      <lb ed="#B" n="22"/>imperfecta mixtione, qualis potest 
+      in<lb ed="#B" n="23" break="no"/>duci ab agentibus naturalibus; 
+      qua<lb ed="#B" n="24" break="no"/>si subito facta approximatione 
+      esemen<lb ed="#B" n="25" break="no"/>torum; ita quod magis assimilatur 
+      impres<lb ed="#B" n="26" break="no"/>sioni, quae est imperfecte mixta. Cuius 
+      <lb ed="#B" n="27"/>signum est (dicit Sco.) quia quando 
+      di<lb ed="#B" n="28" break="no"/>sparet tale corpus: non remanet aliquid 
+      <lb ed="#B" n="29"/>talis corporis, in quod esset naturaliter 
+      <lb ed="#B" n="30"/>resolubile immediate corpus assumptum: 
+      <lb ed="#B" n="31"/>si fuisset pfecte mixtum. Corpus enim 
+      hu<lb ed="#B" n="32" break="no"/>manum si esset perfecte mixtum, non 
+      <lb ed="#B" n="33"/>esset natum redire nisi in cadauer.
+    </p>
+            <p xml:id="gbs333-b28834-d1e819">
+      ¶ 
+      Il<lb ed="#B" n="34" break="no"/>lis praemissis est haec conclusio: quo ad 
+      <lb ed="#B" n="35"/>illum articulum responsalis. Angeli tam 
+      <lb ed="#B" n="36"/>boni, quam mali possunt assumere 
+      cor<lb ed="#B" n="37" break="no"/>pora in quibus apparent homini. Ista 
+      con<lb ed="#B" n="38" break="no"/>clusio manifesta est ex scriptura 
+      utrius<lb ed="#B" n="39" break="no"/>que testamenti. Vbi habetur angelos in 
+      <lb ed="#B" n="40"/>humanis corporibus apparuisse. Ad illa 
+      <lb ed="#B" n="41"/>corpora angelihabebant specialem 
+      con<lb ed="#B" n="42" break="no"/>iuctionem; auas non magis apparuissent 
+      <lb ed="#B" n="43"/>angeli, quam alia creatura. Non autem fuit 
+      <lb ed="#B" n="44"/>illa coniunctio tanquam formae ad 
+      perfe<lb ed="#B" n="45" break="no"/>ctibile: nec tanquam suppositantis 
+      ad<lb ed="#B" n="46" break="no"/>naturam suppositatam; ut patet ex illo 
+      <lb ed="#B" n="47"/>articulo. Nec alia dari potest nisi moto 
+      <lb ed="#B" n="48"/>ris, &amp; mobilis: &amp; talis quando sit ad 
+      signifi<lb ed="#B" n="49" break="no"/>candum sui uel dei praesentiam est 
+      assun<lb ed="#B" n="50" break="no"/>ptio: ergo.
+    </p>
+            <p xml:id="gbs333-b28834-d1e859">
+      ¶ Quantu adtertium articulum: 
+      <!--152.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>de operationibus, quas operantur in cor 
+      <lb ed="#B" n="52"/>poribus assumptis: supponit, quod multiplex 
+      <lb ed="#B" n="53"/>est opatio. Quaedam ad locum, quae uocatur 
+      <lb ed="#B" n="54"/>motus localis. Alia ad formam absolutam. 
+      <lb ed="#B" n="55"/>&amp; haec est multiplex secundum 
+      multipli<lb ed="#B" n="56" break="no"/>citate formarum Nam sunt formae non 
+      ui<lb ed="#B" n="57" break="no"/>tales: similiter quaedam uitales Et harum 
+      ali<lb ed="#B" n="58" break="no"/>quae sunt uegetatiuae potentiae 
+      tan<lb ed="#B" n="59" break="no"/>tum, alic sensitiuae, aliae potentiae 
+      intel<lb ed="#B" n="60" break="no"/>lectiuae. Bormae, ad quas est operatio 
+      ue<lb ed="#B" n="61" break="no"/>getatiua sunt formae substantiales tota 
+      <lb ed="#B" n="62"/>les, ad quas est generatio. Vel pertiales, 
+      <lb ed="#B" n="63"/>ad quas est nutritio, uel 
+      augmentatio<lb ed="#B" n="64" break="no"/>formae potentiae sensitiuae, &amp; intellectiuae 
+      <lb ed="#B" n="65"/>sunt formae accidentales scilicet cognitionis 
+      <lb ed="#B" n="66"/>sensitiuae &amp; intellectiuae.
+    </p>
+            <p xml:id="gbs333-b28834-d1e901">
+      ¶ Scum haec 
+      po<lb ed="#B" n="67" break="no"/>nunt conclusiones: &amp; primo de motu 
+      loca<lb ed="#B" n="68" break="no"/>li: de quo est haec coclusio prima. 
+      Oem<lb ed="#B" n="69" break="no"/>motum localem potest causare ange- 
+      <lb ed="#B" n="70"/>lus in assumpto corpore secundum 
+      spe<lb ed="#B" n="71" break="no"/>ciem: &amp; ita motum membrorum 
+      paspe<lb ed="#B" n="72" break="no"/>brarum, manuum, pedum, linguae &amp;c. 
+      mo<lb ed="#B" n="73" break="no"/>tum etiam inspirationis, &amp; respirationis: 
+      <lb ed="#B" n="74"/>etiam motum qui uidet esse progressiuus. 
+      <lb ed="#B" n="75"/>Probatur coclusio: quia non est aliquod  
+      <lb ed="#B" n="76"/>corpus ita imperfectu in uniuerso, 
+      quin<lb ed="#B" n="77" break="no"/>habeat in uirtute sua actiua aliquod ubi 
+      <lb ed="#B" n="78"/>ut patet de grano respectu centri. Ergo 
+      <lb ed="#B" n="79"/>multo magis habet hoc angelus 
+      respe<lb ed="#B" n="80" break="no"/>ctu corporis assumpti. Non enim 
+      negan<lb ed="#B" n="81" break="no"/>dum est a perfectiore, quid conuenit 
+      imper<lb ed="#B" n="82" break="no"/>fectiori: cum semper dignificanda sit 
+      natu<lb ed="#B" n="83" break="no"/>ra. Quod uerum est de his, quae non 
+      impor<lb ed="#B" n="84" break="no"/>tat imperfectionem: quale est mouere: 
+      <lb ed="#B" n="85"/>quod etiam deo conuenit.
+    </p>
+            <p xml:id="gbs333-b28834-d1e945">
+      ¶ Secunda 
+      con<lb ed="#B" n="86" break="no"/>clusio. Angelus in corpe assumpto non 
+      <lb ed="#B" n="87"/>potest in opationes uitales potentiae uegeta 
+      <lb ed="#B" n="88"/>tiuae. Probatur tamn de opere nutritiois, &amp; aug 
+      <lb ed="#B" n="89"/>mentationis, quam gnationis. De primis 
+      <lb ed="#B" n="90"/>duobus patet: quia illa opa non praesent eem 
+      uisi<lb ed="#B" n="91" break="no"/>compositi substantialis: in quo forma 
+      ui<lb ed="#B" n="92" break="no"/>uenspducit partiale formam eiusdem rationis 
+      <lb ed="#B" n="93"/>in materia nutrimenti &amp;c. sed ibi non est 
+      <lb ed="#B" n="94"/>compositum uiuens; nec forma uegetatiua: 
+      <lb ed="#B" n="95"/>ergo. Sed nec angelus in materiam exte 
+      <lb ed="#B" n="96"/>riorem potest ducere quamcunque formam 
+      ab<lb ed="#B" n="97" break="no"/>soluta materialem: potest tamen applicare 
+      passi<lb ed="#B" n="98" break="no"/>uis actiua, ut pbat magister d. vij. In cor 
+      <lb ed="#B" n="99"/>pore autem assumpto nihil est actiuum 
+      <lb ed="#B" n="100"/>formae uiuentis: neque conuersiuum nutri¬ 
+      <!--153.xml-->
+      <pb ed="#B" n="61-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>menti in substantia aliti. Similiter in 
+      ope<lb ed="#B" n="2" break="no"/>re generationis; quae sit per decisionem 
+      se<lb ed="#B" n="3" break="no"/>minis a uiuente: in quo est uirtus forma 
+      <lb ed="#B" n="4"/>tiua faetus &amp;c. requiritur compositum 
+      ui<lb ed="#B" n="5" break="no"/>uens, de cuius nutrimenti tertiae 
+      digestio<lb ed="#B" n="6" break="no"/>nis supssuo pducitur semen &amp;c. quae 
+      om<lb ed="#B" n="7" break="no"/>nia deficiunt in corpore assumpto 
+      pran<lb ed="#B" n="8" break="no"/>gelum.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1004">
+      ¶ Et dicitur notanter, quod non 
+      <lb ed="#B" n="9"/>potest in operationes uitales; quia 
+      an<lb ed="#B" n="10" break="no"/>gelus potest in comestionem, quae praecedit 
+      <lb ed="#B" n="11"/>nu tritionem. Illa. no. non est nisi diuisio 
+      <lb ed="#B" n="12"/>cibi per motum localem maxillarum, &amp; 
+      tra<lb ed="#B" n="13" break="no"/>iectio eius in uentrem similiter per 
+      mo<lb ed="#B" n="14" break="no"/>tum locale. Et tunc potest fieri 
+      exhala<lb ed="#B" n="15" break="no"/>tio, &amp; resolutio in humores, uel 
+      esemen<lb ed="#B" n="16" break="no"/>ta. Illi enim motus, locales non possunt 
+      <lb ed="#B" n="17"/>fieri circa assumpta corpora uirture acti 
+      <lb ed="#B" n="18"/>ua angeli. Vnde dixit RaphaeI Tobiae. 
+      <lb ed="#B" n="19"/>xij. Videbar quidem uobiscum 
+      mandu<lb ed="#B" n="20" break="no"/>care, &amp; bibere: sed ego cibo inuisibili 
+      <lb ed="#B" n="21"/>&amp; potu, quae ab hominibus uideri non 
+      <lb ed="#B" n="22"/>potest, utor. Si quidem uisus fuit cibum 
+      <lb ed="#B" n="23"/>masticare, &amp; traijcere: sed conuersus non 
+      <lb ed="#B" n="24"/>fuit in corpus uiuens. Et licet non 
+      pos<lb ed="#B" n="25" break="no"/>sit fieri uera nutritio, posset tamen 
+      fie<lb ed="#B" n="26" break="no"/>ri iuxta positio elementi per angelum: 
+      <lb ed="#B" n="27"/>quod potest subito imperfecte misceri, 
+      <lb ed="#B" n="28"/>si uellet: ut sic apponendo corpori 
+      ap<lb ed="#B" n="29" break="no"/>paret augmentari, &amp; crescere. Sic etiam 
+      <lb ed="#B" n="30"/>potest daemon alicui succumbendo in 
+      <lb ed="#B" n="31"/>assumpto corpore in specie mulieris 
+      ali<lb ed="#B" n="32" break="no"/>cuius semen suscipere, &amp; seruare illud 
+      <lb ed="#B" n="33"/>in sua naturali qualitate conuententi 
+      <lb ed="#B" n="34"/>naturali generationi, quousque 
+      trans<lb ed="#B" n="35" break="no"/>fundat illud in matricem alicuius 
+      faemi<lb ed="#B" n="36" break="no"/>nae ipsi incubando: &amp; per hunc modum 
+      <lb ed="#B" n="37"/>faeminas impgnare. Vbi nihil facit, 
+      nisi<lb ed="#B" n="38" break="no"/>quod primo recipit semen a uiro ei in 
+      spe<lb ed="#B" n="39" break="no"/>cie foeminae succcumbendo: &amp; postea 
+      <lb ed="#B" n="40"/>mouet illud localiter transfundendo in 
+      <lb ed="#B" n="41"/>foeminae matricem ei incubando. Et sic 
+      <lb ed="#B" n="42"/>si semenillud receptum, &amp; transfusum 
+      <lb ed="#B" n="43"/>non amittit suam uim naturalem, &amp; 
+      qua<lb ed="#B" n="44" break="no"/>litatem conuenientem, potest per 
+      ipsun<lb ed="#B" n="45" break="no"/>fieri conceptio, &amp; generatio: ac si 
+      pri<lb ed="#B" n="46" break="no"/>immediate transfusum fuisset in 
+      foemi<lb ed="#B" n="47" break="no"/>mo de uiro a cuius corpore decisum est 
+      <lb ed="#B" n="48"/>nam illa. De hoc beatus Aug. xv. de 
+      ci<lb ed="#B" n="49" break="no"/>ui. dei. c. xxiij. dicit. Quoniam 
+      creberri<lb ed="#B" n="50" break="no"/>ma sama est: multique se expertos, uel 
+      <!--153.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ab eis, qui experti essent, de quorum fide 
+      <lb ed="#B" n="52"/>dubitandum non est, audisse confirmant, 
+      <lb ed="#B" n="53"/>syluanos atque faunos (quos uulgo 
+      in<lb ed="#B" n="54" break="no"/>cubos uocant) improbos saepe extitisse 
+      <lb ed="#B" n="55"/>mulieribus, &amp; earum appetisse, &amp; 
+      pere<lb ed="#B" n="56" break="no"/>gisse concubitum: &amp; quosdam daemones, 
+      <lb ed="#B" n="57"/>quos dusios galli nuncupant: 
+      assi<lb ed="#B" n="58" break="no"/>due hanc immunditiam, &amp; tentare, &amp; 
+      <lb ed="#B" n="59"/>efficere: plures talesque asseuerant: ut  
+      <lb ed="#B" n="60"/>hoc negare impudentiae uideatur. Haec 
+      <lb ed="#B" n="61"/>ille. Et hoc modo attribuitur angelo: 
+      <lb ed="#B" n="62"/>non quidem bono. (Absit enim ut tam 
+      <lb ed="#B" n="63"/>uilibus se immisceat) sed malo 
+      genera<lb ed="#B" n="64" break="no"/>re; non quod de sua substantia generet; sed  
+      <lb ed="#B" n="65"/>quia constituendo se primo succubum: 
+      <lb ed="#B" n="66"/>deinde incubum semen receptum 
+      trans<lb ed="#B" n="67" break="no"/>fundit. Nec demon sic pater est pueri 
+      <lb ed="#B" n="68"/>geniti, sed uir a quo decisum est illud 
+      <lb ed="#B" n="69"/>semen: &amp; a daemone succubo receptum. 
+      <lb ed="#B" n="70"/>Et ita intelligenda sunt, quae de incubis 
+      <lb ed="#B" n="71"/>&amp; succubis in historijs, &amp; sanctorum 
+      se<lb ed="#B" n="72" break="no"/>gendis leguntur.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1150">
+      ¶ Tertia conclusio. An Ce 
+      <lb ed="#B" n="73"/>gelus in assumpto corpore non potest 
+      <lb ed="#B" n="74"/>producere actus potentiae sensitiuae: 
+      co<lb ed="#B" n="75" break="no"/>gnitiones, scilicet &amp; appetitiones: hoc  
+      <lb ed="#B" n="76"/>est neque uisionem, neque auditionem 
+      <lb ed="#B" n="77"/>&amp;c. Patet: quia illi actus requirunt 
+      ani<lb ed="#B" n="78" break="no"/>mam sensitiuam tanquam principium 
+      <lb ed="#B" n="79"/>actiuum: &amp; organum perfecte mixtum 
+      <lb ed="#B" n="80"/>corporis uiuentis tanquam subiectum: 
+      <lb ed="#B" n="81"/>uel totum compositum ex potentia, &amp; 
+      <lb ed="#B" n="82"/>organo. Talia autem deficiunt in corpo 
+      <lb ed="#B" n="83"/>re assumpto: ergo.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1176">
+      ¶ Quarta conclusio.¬ 
+      <lb ed="#B" n="84"/>Omnes cognitiones, quasangelus 
+      habe<lb ed="#B" n="85" break="no"/>re uidetur per membra, seu partes assum 
+      <lb ed="#B" n="86"/>pti corporis: non sunt nisi cognitiones 
+      <lb ed="#B" n="87"/>intellectiuae, quas etiam habere posset 
+      <lb ed="#B" n="88"/>corpore non assumpto. Patet: quia 
+      mo<lb ed="#B" n="89" break="no"/>uendo linguam, uerba format, quibus 
+      <lb ed="#B" n="90"/>loqui uidetur, &amp; per haec uerba 
+      conce<lb ed="#B" n="91" break="no"/>ptus suos aliis exprimere. Percipit etiam 
+      <lb ed="#B" n="92"/>uoces loquentium: &amp; intelligit 
+      sermo<lb ed="#B" n="93" break="no"/>nes eorum, quae sine cognitione fieri 
+      <lb ed="#B" n="94"/>non possunt. Hae autem cognitio 
+      <lb ed="#B" n="95"/>nes in angelo non sunt sensitiuae: ergo 
+      <lb ed="#B" n="96"/>sunt intellectiuae Tenet consequentia a 
+      <lb ed="#B" n="97"/>sufficienti diuisione. Et antecedens 
+      pa<lb ed="#B" n="98" break="no"/>ter per conclusionem praecedenteni. 
+      <lb ed="#B" n="99"/>Haec sunt de intentione doctorum 
+      con<lb ed="#B" n="100" break="no"/>muniter Alexan. Tho. Sco. Bonauen. &amp; 
+      <!--154.xml-->
+      <pb ed="#B" n="62-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>caeterorum. Vide ad idem Ockam. q. 
+      <lb ed="#B" n="2"/>xx. secundi libri.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1227">
+      ¶ Quantum ad 
+      arti<lb ed="#B" n="3" break="no"/>culum quartum mouentur aliqua 
+      du<lb ed="#B" n="4" break="no"/>bia. Primum contra conclusionem 
+      secun<lb ed="#B" n="5" break="no"/>dam articuli tertij. Nam angelos 
+      ueri<lb ed="#B" n="6" break="no"/>tatis non decet fictio: sed si in 
+      corpo<lb ed="#B" n="7" break="no"/>re assumpto, quod apparet uiuum non 
+      <lb ed="#B" n="8"/>operarentur opera uitae uere: sed 
+      tan<lb ed="#B" n="9" break="no"/>tum apparenter esset fictio. Item in 
+      ope<lb ed="#B" n="10" break="no"/>ribus angelorum non debet aliquod 
+      es<lb ed="#B" n="11" break="no"/>se frustra. Prustra autem in corpore 
+      as<lb ed="#B" n="12" break="no"/>sumpto essentaures, &amp;c. nisi per illas 
+      sen<lb ed="#B" n="13" break="no"/>tiret.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1253">
+      ¶ Ad primum dicitur negando, quod 
+      <lb ed="#B" n="14"/>sit fictio in eo, quod angeli in assumpto 
+      <lb ed="#B" n="15"/>corpore apparenter, &amp; non uere opera 
+      <lb ed="#B" n="16"/>uitae operantur. Pictio enim est signum 
+      <lb ed="#B" n="17"/>falsi; ut quando aliquid adhibetur ad 
+      si<lb ed="#B" n="18" break="no"/>gnificandum aliquid uel aliqualiter scilice 
+      <lb ed="#B" n="19"/>quod uel qualiter non est. 
+      Quandocun<lb ed="#B" n="20" break="no"/>que autem est correspondentia seu ad 
+      <lb ed="#B" n="21"/>aequatio signati ad signum: ita quod res 
+      si<lb ed="#B" n="22" break="no"/>gnificatae ita se habent sicut 
+      significan<lb ed="#B" n="23" break="no"/>tur: non est fictio: licet signum sit 
+      al<lb ed="#B" n="24" break="no"/>terius naturae, quam significatum nam 
+      <lb ed="#B" n="25"/>uocibus quae accidentia sunt 
+      significa<lb ed="#B" n="26" break="no"/>mus substantiam. Et sicut cum aliquis 
+      <lb ed="#B" n="27"/>gestu corporis significat qualitatem 
+      men<lb ed="#B" n="28" break="no"/>tis alterius, cuius personam induit; 
+      li<lb ed="#B" n="29" break="no"/>cet in eo non sunt qualitates mentis, 
+      <lb ed="#B" n="30"/>quas figurat, non tamen ibi est fictio 
+      <lb ed="#B" n="31"/>Sic intelligibilia sub figuris sensibilibus 
+      <lb ed="#B" n="32"/>propter similitudinem quandam siue 
+      fi<lb ed="#B" n="33" break="no"/>ctionem significamus: licet 
+      intelligibi<lb ed="#B" n="34" break="no"/>lia non sint sensibilia. Ita non 
+      repu<lb ed="#B" n="35" break="no"/>gnat ueritati sanctorum angelorum, quod 
+      <lb ed="#B" n="36"/>corpora assumpta apparent uiuentia: 
+      li<lb ed="#B" n="37" break="no"/>cet non sint. Non enim assumuntur ad 
+      <lb ed="#B" n="38"/>repraesentandum uitam ipsorum 
+      cor<lb ed="#B" n="39" break="no"/>porum; sed ad repraesentandum 
+      praesen<lb ed="#B" n="40" break="no"/>tiam angelorum qui uereuiuunt. &amp; ut  
+      <lb ed="#B" n="41"/>per similitudinem humanorum operum, 
+      <lb ed="#B" n="42"/>designentur proprietates, &amp; opera 
+      an<lb ed="#B" n="43" break="no"/>gelorum siueearum re um, ad quas 
+      re<lb ed="#B" n="44" break="no"/>praesentandas corpora assumit. sic 
+      an<lb ed="#B" n="45" break="no"/>gelus Raphael loquebatur Tobiae 
+      appa<lb ed="#B" n="46" break="no"/>renter comedit &amp; bibit &amp;c. Vt per hoc  
+      <lb ed="#B" n="47"/>se exhibuerat cong uum itineris socium: 
+      <lb ed="#B" n="48"/>&amp; ductorem: acdiuinam misericordiam 
+      <lb ed="#B" n="49"/>ei impensam manifestaret; ac in multis 
+      <lb ed="#B" n="50"/>Vinstrueret.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1336">
+      ¶ Per hoc patet responsio ad 
+      <!--154.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>secundum. Ad quod dicitur, quod 
+      mem<lb ed="#B" n="52" break="no"/>bra in corpore assumpto non sunt 
+      fru<lb ed="#B" n="53" break="no"/>stra: licet per ea uitalia opera angeli non 
+      <lb ed="#B" n="54"/>exerceant: quia ad hoc non sunt assum 
+      <lb ed="#B" n="55"/>pta; sed ad significandum proprietates 
+      <lb ed="#B" n="56"/>angelorum: &amp; adcongruam 
+      informa<lb ed="#B" n="57" break="no"/>tionem eorum, ad quos mittuntur. Non 
+      <lb ed="#B" n="58"/>est enim figura oculi in assumpto 
+      corpo<lb ed="#B" n="59" break="no"/>re ut per ipsum angelus uideat: sed ut  
+      <lb ed="#B" n="60"/>significet uirtutem cognitiuam angelo 
+      <lb ed="#B" n="61"/>rum.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1367">
+      ¶ Secundo dubitatur. Si 
+      come<lb ed="#B" n="62" break="no"/>stio angelorum non fuit uere 
+      operatio<lb ed="#B" n="63" break="no"/>uitalis, tunc comestio christi cum 
+      disci<lb ed="#B" n="64" break="no"/>pulis non fuisset probatio sufficiens 
+      ue<lb ed="#B" n="65" break="no"/>rae resurrectionis: cum tamen ad hoc  
+      <lb ed="#B" n="66"/>christus cum discipulis comedit, ut 
+      se<lb ed="#B" n="67" break="no"/>uere resurrexisse ad uitam 
+      comproba<lb ed="#B" n="68" break="no"/>ret.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1385">
+      ¶ Pro illo dubio uide Augu. 
+      episto<lb ed="#B" n="69" break="no"/>la. xlix. &amp; est ad Deo gratias. de sex quem 
+      <lb ed="#B" n="70"/>stionibusin. q. i. Respondet Sco. dist. 
+      il<lb ed="#B" n="71" break="no"/>la: quod ad probandum resurrectionem 
+      chri<lb ed="#B" n="72" break="no"/>sti ueram sunt multa alia argumenta efsi 
+      <lb ed="#B" n="73"/>caciora in euangelio: cum quibus &amp; 
+      <lb ed="#B" n="74"/>comestio christi satis probat ueram 
+      re<lb ed="#B" n="75" break="no"/>surrectionem, etsi non per se tantum. 
+    </p>
+            <p xml:id="gbs333-b28834-d1e1403">
+               <lb ed="#B" n="76"/>¶ Vel dicitur secundum eundem, quod 
+      co<lb ed="#B" n="77" break="no"/>mestio christi fuit uera comestio 
+      or<lb ed="#B" n="78" break="no"/>dinata ad ueram nutritionem: quia 
+      <lb ed="#B" n="79"/>Sco. non reputat inconueniens, quod 
+      <lb ed="#B" n="80"/>corpus gloriosum possit conuertere cor 
+      <lb ed="#B" n="81"/>pus non gloriosum in ipsum: sicut 
+      cor<lb ed="#B" n="82" break="no"/>pus non gloriosum esse simul potest cum 
+      <lb ed="#B" n="83"/>corpore glorioso; nec propter hoc est 
+      <lb ed="#B" n="84"/>corruptibile, quod potest aliquid 
+      conuer<lb ed="#B" n="85" break="no"/>tere in se. Posset enim deus corpus 
+      glo<lb ed="#B" n="86" break="no"/>riosum facere in minima quantitate: &amp; 
+      <lb ed="#B" n="87"/>augere illud per comestionem; nec 
+      ta<lb ed="#B" n="88" break="no"/>men aliquid corrumperetur de nutrimen 
+      <lb ed="#B" n="89"/>to, &amp; aucto. Haec Sco. Illa enim 
+      nu<lb ed="#B" n="90" break="no"/>tritio; &amp; augmentatio non fieret 
+      per<lb ed="#B" n="91" break="no"/>susceptionem nutrimenti in poros 
+      per<lb ed="#B" n="92" break="no"/>resolutionem partium corporis 
+      glorio<lb ed="#B" n="93" break="no"/>si causatos: cum corpora gloriosa sint  
+      <lb ed="#B" n="94"/>incorruptibilia. Nec fieret ad 
+      restaura<lb ed="#B" n="95" break="no"/>tionem deperditi: sed fieret per 
+      appo<lb ed="#B" n="96" break="no"/>sitionem nutrimenti, &amp; eius 
+      conuer<lb ed="#B" n="97" break="no"/>sionem in corpus gloriosum. Sed de hoc  
+      <lb ed="#B" n="98"/>alibi.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1456">
+      ¶ Tertio dubitatur. Quare 
+      Abraan<lb ed="#B" n="99" break="no"/>angelis sibi apparentibus cibos obtulit; 
+      <lb ed="#B" n="100"/>cum sciret angelos escis non indigere; 
+      <!--155.xml-->
+      <pb ed="#B" n="62-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; illos intelligeret esse angelos. Quod 
+      <lb ed="#B" n="2"/>ex eo patet: quia eos adorauit. 
+      Respon<lb ed="#B" n="3" break="no"/>det Alex. de Hal. par. iij. q. xxxiiij. mem 
+      <lb ed="#B" n="4"/>bro. vj. quod Abraam primo putabat eos 
+      es<lb ed="#B" n="5" break="no"/>se homines, &amp; cibo indigere: propter 
+      <lb ed="#B" n="6"/>quod cibos obtulit; sed postea 
+      cogno<lb ed="#B" n="7" break="no"/>uit eos esse angelos; dum se ad 
+      Sodo<lb ed="#B" n="8" break="no"/>mae subuersionem descendisse 
+      declara<lb ed="#B" n="9" break="no"/>bant: ut habetur Gen. xviij.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1489">
+      ¶ Et si 
+      re<lb ed="#B" n="10" break="no"/>plicatur, quod prius adorauit, quam 
+      ci<lb ed="#B" n="11" break="no"/>bum obtulit: &amp; ita prius eos fuisse 
+      an<lb ed="#B" n="12" break="no"/>gelos recognouit. Dicendum, quod illa 
+      <lb ed="#B" n="13"/>adoratio non fuit latria, quae deo 
+      offer<lb ed="#B" n="14" break="no"/>tur; nec dulia, quae angelis exhibetur: 
+      <lb ed="#B" n="15"/>sed dulia, quae exhibet hominibus 
+      reue<lb ed="#B" n="16" break="no"/>rentiae causa. Vnde cum adorauit eos 
+      <lb ed="#B" n="17"/>Abraam: nondum cognouit, ut 
+      ange<lb ed="#B" n="18" break="no"/>los: sed adorauit ut homines quos uidit 
+      <lb ed="#B" n="19"/>in reuerenda persona. Postmodum 
+      au<lb ed="#B" n="20" break="no"/>tem intellexit eos angelos: &amp; deum in 
+      <lb ed="#B" n="21"/>eis apparuisse, unde trinitatem in 
+      uni<lb ed="#B" n="22" break="no"/>tate cognouit; ut dicit Augu. in lib. de 
+      <lb ed="#B" n="23"/>trini. Vnde de ipso canitur. Tres uidit, 
+      <lb ed="#B" n="24"/>&amp; unum adorauit. Cum scilicet dixit. 
+      <lb ed="#B" n="25"/>Loquar ad dominum deum meum; cum 
+      <lb ed="#B" n="26"/>simpuluis &amp; cinis.
+    </p>
+            <p xml:id="gbs333-b28834-d1e1528">
+      ¶ Vltimo dubitatur. 
+      <lb ed="#B" n="27"/>Vtrum angelus ad hoc, ut loquatur 
+      in<lb ed="#B" n="28" break="no"/>digeat plectro lingue assumpti corporis. 
+      <lb ed="#B" n="29"/>Respondetur secundum Alexan. ubi 
+      su<lb ed="#B" n="30" break="no"/>pra. q. xxxv. circa si. quod angelus potest 
+      <lb ed="#B" n="31"/>formare uoces sensitiuas in aere sine 
+      <lb ed="#B" n="32"/>lingua, &amp; instrumentis corporeis ad hoc 
+      <lb ed="#B" n="33"/>a natura determinatis. Quod patet: 
+      <lb ed="#B" n="34"/>quia uoces in praeceptorum datione Exo. 
+      <lb ed="#B" n="35"/>xx. angeli formauerunt: sic in baptisma 
+      <lb ed="#B" n="36"/>te, &amp; transfiguratione Mat. iij. &amp; xvij. 
+      au<lb ed="#B" n="37" break="no"/>dita ex uox. Hic est filius meus dilectus 
+      <lb ed="#B" n="38"/>&amp;c. Similiter loquebatur per asinam 
+      Ba<lb ed="#B" n="39" break="no"/>laam, cuius tamen lingua non fuit aptum 
+      <lb ed="#B" n="40"/>instrumentum ad loquendum. Vnde 
+      li<lb ed="#B" n="41" break="no"/>cet sint certa instrumenta ad uocem 
+      ar<lb ed="#B" n="42" break="no"/>ticulatam formandam necessaria scilicet 
+      lin<lb ed="#B" n="43" break="no"/>gua palatum, dentes &amp;c. Verum est 
+      <lb ed="#B" n="44"/>ad formandum uocem ab homine; hoc  
+      <lb ed="#B" n="45"/>est: haec instrumenta sunt necessaria 
+      ho<lb ed="#B" n="46" break="no"/>mini: sed non angelo. Nam quod agit 
+      <lb ed="#B" n="47"/>anima corpori coniuncta per organum 
+      <lb ed="#B" n="48"/>corporeum: hoc facit spiritus separatus 
+      <lb ed="#B" n="49"/>sine organo corporis assumpti: licet 
+      an<lb ed="#B" n="50" break="no"/>gelus formans uoces, non facit eas sine 
+      <!--155.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>fractione aeris, uel alterius medij. Sed 
+      <lb ed="#B" n="52"/>frangere potest aerem, uel aliud medium 
+      <lb ed="#B" n="53"/>sine corporis assumptione: sicut homo 
+      <lb ed="#B" n="54"/>citharixat sine uocalisono. Et tantum 
+      <lb ed="#B" n="55"/>de hac quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

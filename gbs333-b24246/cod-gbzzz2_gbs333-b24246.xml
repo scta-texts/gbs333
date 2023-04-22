@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="50-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b24246"><!-- l2-d6prae -->
+            <head xml:id="gbs333-b24246-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b24246-d1e103">
+               <lb ed="#B" n="67"/>DISTINCTIO VI 
+      <lb ed="#B" n="68"/>IN distinctione 
+      sex<lb ed="#B" n="69" break="no"/>ta post 
+      determina<lb ed="#B" n="70" break="no"/>tionem 
+      conuersio<lb ed="#B" n="71" break="no"/>nis, &amp; auersionis in 
+      <lb ed="#B" n="72"/>genere; agit de 
+      es<lb ed="#B" n="73" break="no"/>fectu consequente. 
+      <lb ed="#B" n="74"/>Et primo quoad 
+      ma<lb ed="#B" n="75" break="no"/>los. Secundo distin. vij. simul quoad 
+      bo<lb ed="#B" n="76" break="no"/>nos, &amp; malos. In hac ergo distinct. agit 
+      <lb ed="#B" n="77"/>de consequenti ruina, quantum ad 
+      ruen<lb ed="#B" n="78" break="no"/>tium qualitatem, culpam, locum, 
+      prae<lb ed="#B" n="79" break="no"/>lationem, &amp; hominum tentationem. Et  
+      <lb ed="#B" n="80"/>potest sententia magistri in tribus 
+      con<lb ed="#B" n="81" break="no"/>clusionibus summari.
+    </p>
+            <p xml:id="gbs333-b24246-d1e138">
+      ¶ Prinia 
+      conclu<lb ed="#B" n="82" break="no"/>sio. Lucifer angelorum primus, cum 
+      <lb ed="#B" n="83"/>aliquibus de singulis ordinibus sibi 
+      <lb ed="#B" n="84"/>adhaerentibus per superbiam a deo auer 
+      <lb ed="#B" n="85"/>sus, in hunc acrem caliginosum, &amp; quam 
+      <lb ed="#B" n="86"/>tum ad aliquos in infernum 
+      carcerali<lb ed="#B" n="87" break="no"/>ter est detrusus.
+    </p>
+            <p xml:id="gbs333-b24246-d1e154">
+      ¶ Secunda 
+      conclusio<lb ed="#B" n="88" break="no"/>Sicut in angelis bonis, &amp; hominibus 
+      <lb ed="#B" n="89"/>usque in diem iudicij praelationes existunt: 
+      <lb ed="#B" n="90"/>ita in daemonibus alius unius prouinciae: 
+      <lb ed="#B" n="91"/>alius unius hominis, alius unius uitij 
+      <lb ed="#B" n="92"/>praesidentiam usurpare, ad deceptionem 
+      <lb ed="#B" n="93"/>hominum non omittunt.
+    </p>
+            <p xml:id="gbs333-b24246-d1e170">
+      ¶ Tertia 
+      con<lb ed="#B" n="94" break="no"/>clusio. Demone ad unum uitium 
+      ten<lb ed="#B" n="95" break="no"/>tante ab homine pie iusteque uiuente 
+      ui<lb ed="#B" n="96" break="no"/>cto, potestas adimitur tentandi alios in 
+      <lb ed="#B" n="97"/>simili uitio.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

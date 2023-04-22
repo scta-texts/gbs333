@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="1-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b10011"><!-- l2-d1q1 -->
+            <head xml:id="gbs333-b10011-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b10011-Hd1e103" type="question-title">
+    Utrum creatio passio distinguitur 
+    a creatura.
+  </head>
+            <p xml:id="gbs333-b10011-d1e106">
+               <lb ed="#B" n="55"/>DISTINCTIO I 
+      <lb ed="#B" n="56"/>QVAESTIO I 
+      <lb ed="#B" n="57"/>VTRVM creatio 
+      <lb ed="#B" n="58"/>actio, qua Deus 
+      de<lb ed="#B" n="59" break="no"/>nominatur, 
+      formali<lb ed="#B" n="60" break="no"/>ter creans, differat a 
+      <lb ed="#B" n="61"/>creatore, ex natura 
+      <lb ed="#B" n="62"/>rei. Addamus &amp; 
+      se<lb ed="#B" n="63" break="no"/>cundam eius 
+      quaestio<lb ed="#B" n="64" break="no"/>nem. Vtrum creatio passio distinguitur 
+      <lb ed="#B" n="65"/>a creatura.
+    </p>
+            <p xml:id="gbs333-b10011-d1e132">
+      ¶ Quaestiones illae eodem 
+      <lb ed="#B" n="66"/>pede currunt: &amp; solutio unius aperit 
+      so<lb ed="#B" n="67" break="no"/>lutionem alterius. Dimissis rationibus 
+      <lb ed="#B" n="68"/>pro, &amp; contra. praemittentur quaedam 
+      <lb ed="#B" n="69"/>suppositiones. Deinde subiungentur 
+      con<lb ed="#B" n="70" break="no"/>clusiones. Tertio quaedam dubia 
+      mo<lb ed="#B" n="71" break="no"/>uebuntur.
+    </p>
+            <p xml:id="gbs333-b10011-d1e148">
+      ¶ Quoad primum suppono: 
+      <lb ed="#B" n="72"/>quod haec nomina. creatio actio: &amp; creatio 
+      <lb ed="#B" n="73"/>passio: abstracta sunt horum 
+      concreto<lb ed="#B" n="74" break="no"/>rum: creans, creatus absoluendo a 
+      tem<lb ed="#B" n="75" break="no"/>pore, quae relationem siue respectum 
+      im<lb ed="#B" n="76" break="no"/>portant: sicut agens patiens: producens 
+      <lb ed="#B" n="77"/>productum. Sunt enim termini 
+      praedi<lb ed="#B" n="78" break="no"/>camenti actionis, &amp; passionis: qui 
+      im<lb ed="#B" n="79" break="no"/>portant respectum extrinsecum ad 
+      sen<lb ed="#B" n="80" break="no"/>sum infra exprimendum.
+    </p>
+            <p xml:id="gbs333-b10011-d1e171">
+      ¶ Secundo 
+      sup<lb ed="#B" n="81" break="no"/>pono ex dic. lib. primi dist. xxx. quod de re 
+      <lb ed="#B" n="82"/>lationibus siue respectibus: an sint res 
+      <lb ed="#B" n="83"/>quaedam distinctae a rebus absolutis: tres 
+      <!--33.xml-->
+      <pb ed="#B" n="1-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>sunt opiniones famosae.
+    </p>
+            <p xml:id="gbs333-b10011-d1e189">
+      ¶ Vna est, quod 
+      re<lb ed="#B" n="2" break="no"/>latio est quoddam accidens respectiuum 
+      <lb ed="#B" n="3"/>siue in anima, siue extra, distinctum ab 
+      <lb ed="#B" n="4"/>omnibiis absolutis, requirens ad suum 
+      <lb ed="#B" n="5"/>esse non solum subiectum, quasi funda 
+      <lb ed="#B" n="6"/>mentum, sed etiam terminum, sine quo 
+      <lb ed="#B" n="7"/>simpliciter esse non potest, neque 
+      per<lb ed="#B" n="8" break="no"/>potentiam diuinam. Propter hoc dic 
+      <lb ed="#B" n="9"/>tur ens, non ad se, sed ens ad aliud: 
+      cu<lb ed="#B" n="10" break="no"/>ius esse non solum est esse, aut inesse, 
+      <lb ed="#B" n="11"/>sed esse ad aliud, &amp; ad aliud quodam: 
+      <lb ed="#B" n="12"/>modo se habere. Et sicut non potest 
+      <lb ed="#B" n="13"/>esse, ita nec intelligi sine 
+      fundamen<lb ed="#B" n="14" break="no"/>to, &amp; termino. Et per hoc distinguitur 
+      <lb ed="#B" n="15"/>ab omni re absoluta, siue in anima, siue 
+      <lb ed="#B" n="16"/>extra. Exemplum: ut paternitas, que 
+      se<lb ed="#B" n="17" break="no"/>cundum illos est res quaedam inhaerens 
+      <lb ed="#B" n="18"/>patri, requirens ad suum esse, filium, quo 
+      <lb ed="#B" n="19"/>non existente impossibile est 
+      paterni<lb ed="#B" n="20" break="no"/>tatem esse. Sic de filiatione 
+      inhaesio<lb ed="#B" n="21" break="no"/>ne &amp;c. Et ab illis respectibus, siue 
+      enti<lb ed="#B" n="22" break="no"/>bus respectiuis subiecta quibus inhaerent: 
+      <lb ed="#B" n="23"/>denominantur denominatione 
+      respe<lb ed="#B" n="24" break="no"/>ctiua, ut pater, similis inhaerens &amp;c. 
+    </p>
+            <p xml:id="gbs333-b10011-d1e241">
+               <lb ed="#B" n="25"/>¶ Alia est opinio huic contraria: tenens 
+      <lb ed="#B" n="26"/>quod nulla talis entitas est ponenda: sed 
+      om<lb ed="#B" n="27" break="no"/>ne existens, siue substantia, siue 
+      acci<lb ed="#B" n="28" break="no"/>dens est quaedam entitas absoluta in se: 
+      <lb ed="#B" n="29"/>quae intelligi potest omni alio circum 
+      <lb ed="#B" n="30"/>scripto. &amp; per consequens per 
+      conce<lb ed="#B" n="31" break="no"/>ptum absolutum significari. Quodque 
+      <lb ed="#B" n="32"/>termini respectiui non significent 
+      for<lb ed="#B" n="33" break="no"/>maliter tales paruas res relatiuas, sed 
+      si<lb ed="#B" n="34" break="no"/>gnificant plures res absolutas certo 
+      mo<lb ed="#B" n="35" break="no"/>do ad inuicem consideratas. Vt pater, 
+      <lb ed="#B" n="36"/>uel paternitas significat patrem, &amp; filium 
+      <lb ed="#B" n="37"/>a se genitum, quae sunt duae substantiae, 
+      <lb ed="#B" n="38"/>&amp; nullam aliam rem patri, aut filio 
+      in<lb ed="#B" n="39" break="no"/>haerentem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e276">
+      ¶ Tertia opinio est quasi 
+      me<lb ed="#B" n="40" break="no"/>dia, quae ponit, quod quidam respectus ex 
+      <lb ed="#B" n="41"/>trinseci distinguuntur ab omnibus 
+      ab<lb ed="#B" n="42" break="no"/>solutis: eo modo, quo prima opinio 
+      po<lb ed="#B" n="43" break="no"/>nit respectus distingui. Nullum autem 
+      <lb ed="#B" n="44"/>respectum intrinsecum siue de 
+      praedica<lb ed="#B" n="45" break="no"/>mento relationis, aut extrinsecum 
+      alio<lb ed="#B" n="46" break="no"/>rum sex praedicamentorum ponit, sic 
+      <lb ed="#B" n="47"/>distingui ab absolutis. Exemplum primi, 
+      <lb ed="#B" n="48"/>ut unio naturae assumptae ad uerbum. 
+      <lb ed="#B" n="49"/>Inhaesio formae substantialis, uel 
+      acci<lb ed="#B" n="50" break="no"/>dentalis in materia. Exemplum secundi, 
+      <!--33.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>paternitas, dupleitas, similitudo, aequali 
+      <lb ed="#B" n="52"/>tas. Horum terminorum significata 
+      for<lb ed="#B" n="53" break="no"/>malia non sunt res distinctae ab 
+      absolu<lb ed="#B" n="54" break="no"/>tis, sicut dicit secunda opinio.
+    </p>
+            <p xml:id="gbs333-b10011-d1e315">
+      ¶ Ratio 
+      <lb ed="#B" n="55"/>mouens sic opinantes est: quia 
+      impossi<lb ed="#B" n="56" break="no"/>bile est, quod extrema alicuius contradictio 
+      <lb ed="#B" n="57"/>nis successiue uerificentur de aliquo, 
+      <lb ed="#B" n="58"/>nisi propter mutationem alicuius positiui 
+      <lb ed="#B" n="59"/>in eo, de quo contradictio uerificatur, 
+      <lb ed="#B" n="60"/>uel in alio. Mutationem dico 
+      acquisi<lb ed="#B" n="61" break="no"/>tiuam, uel deperditiuam alicuius rei 
+      po<lb ed="#B" n="62" break="no"/>sitiuae. Vel mutationem localem, aut  
+      <lb ed="#B" n="63"/>temporis, si nullus modus granmaticalis, 
+      <lb ed="#B" n="64"/>uel logicalis impediatur. Si ergo in 
+      hu<lb ed="#B" n="65" break="no"/>iusmodi uerificatione successiua 
+      con<lb ed="#B" n="66" break="no"/>tradictoriorum de aliquo nulla sit 
+      mu<lb ed="#B" n="67" break="no"/>tatio acquisitiua, uel deperditiua rei ab 
+      <lb ed="#B" n="68"/>solutae: neque motus localis alicuius, 
+      <lb ed="#B" n="69"/>aut temporis transitus est in causa non 
+      <lb ed="#B" n="70"/>uariatis modis logicalibus, uel gramma 
+      <lb ed="#B" n="71"/>ticalibus: necesse est, quod res aliqua rela 
+      <lb ed="#B" n="72"/>tiua acquiratur, uel deperdatur. Quem 
+      <lb ed="#B" n="73"/>respectum formaliter importabit 
+      alte<lb ed="#B" n="74" break="no"/>rum extremum cotradictionum. Huic 
+      <lb ed="#B" n="75"/>opinioni fauere uidetur Ockam in 
+      se<lb ed="#B" n="76" break="no"/>cundo q. i. &amp; ij. Et in primo dist. xxx. 
+      <lb ed="#B" n="77"/>qeiiij. ubi materia ista, &amp; opiniones istae 
+      <lb ed="#B" n="78"/>latius tractantur cum suis motiuis: licet  
+      <lb ed="#B" n="79"/>det uias, &amp; modos soluendi omnes 
+      ra<lb ed="#B" n="80" break="no"/>tiones contra opinionem secundam 
+      ne<lb ed="#B" n="81" break="no"/>gantem omnes respectus distinctos ab 
+      <lb ed="#B" n="82"/>absolutis in creaturis.
+    </p>
+            <p xml:id="gbs333-b10011-d1e378">
+      ¶ Tertio 
+      suppo<lb ed="#B" n="83" break="no"/>no ex dictis dist. xxx. primi. q. i. quod tenenm 
+      <lb ed="#B" n="84"/>do opinionem secundam, uel tertiam 
+      <lb ed="#B" n="85"/>de respectibus: duplex, uel triplex est 
+      <lb ed="#B" n="86"/>modus loquendi de significato 
+      abstra<lb ed="#B" n="87" break="no"/>ctorum relatiuorum, ut relatio, 
+      pater<lb ed="#B" n="88" break="no"/>nitas, similitudo. Vnde dicunt quidam, 
+      <lb ed="#B" n="89"/>ut Ockam tangit dist. xxx. primi in 
+      plu<lb ed="#B" n="90" break="no"/>ribus locis: &amp; clarius dist. xxxi. q. i. quod Iy 
+      <lb ed="#B" n="91"/>relatio, &amp; caetera abstracta relatiuorum 
+      <lb ed="#B" n="92"/>important conceptum mentis relatiuum. 
+      <lb ed="#B" n="93"/>quo intellectus cognoscit rem in 
+      ordi<lb ed="#B" n="94" break="no"/>ne ad aliam. ut simuitudo est conceptus 
+      <lb ed="#B" n="95"/>mentis correspondens ad hanc 
+      uocensi<lb ed="#B" n="96" break="no"/>milis, quo intellectus refert sortem 
+      al<lb ed="#B" n="97" break="no"/>bum ad Platonem album id est quo 
+      cogno<lb ed="#B" n="98" break="no"/>scit sortem, &amp; Platonem habere 
+      colo<lb ed="#B" n="99" break="no"/>rem eiusdem speciei. quod est 
+      cognosce<lb ed="#B" n="100" break="no"/>rerelatiuae: &amp; unum ad alterum referre,
+    </p>
+            <p xml:id="gbs333-b10011-d1e421">
+      <!--34.xml-->
+               <pb ed="#B" n="2-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>
+               <!-- line coord error -->
+               <lb ed="#B" n="2"/>et licet sortes, &amp; Plato sint realiter 
+      si<lb ed="#B" n="3" break="no"/>miles circumscripto quocunque actu 
+      <lb ed="#B" n="4"/>intellectus: per hoc solum, quod habent in 
+      <lb ed="#B" n="5"/>se qualitates eiusdem speciei: tamen non 
+      <lb ed="#B" n="6"/>possunt referri ad inuicem nisi per actum 
+      <lb ed="#B" n="7"/>intellectus. Referre enim unum ad 
+      al<lb ed="#B" n="8" break="no"/>terum, est actus intellectus, &amp; nihil aliud, 
+      <lb ed="#B" n="9"/>quam cognoscere rem unam, &amp; aliam 
+      <lb ed="#B" n="10"/>conuententes, uel differentes in aliquo. 
+      <lb ed="#B" n="11"/>fctus itaque intellectus relatiuus est 
+      <lb ed="#B" n="12"/>realiter ipsa relatio. Et secundum hoc, 
+      <lb ed="#B" n="13"/>omnia abstracta praedicamenti 
+      relatio<lb ed="#B" n="14" break="no"/>nis sunt termini secundae intentionis. 
+    </p>
+            <p xml:id="gbs333-b10011-d1e463">
+               <lb ed="#B" n="15"/>¶ Aliter dicunt alii, quod abstracta 
+      relati<lb ed="#B" n="16" break="no"/>uorum important extrema relationis id est 
+      <lb ed="#B" n="17"/>res adinuicem relatas: &amp; 
+      fundamen<lb ed="#B" n="18" break="no"/>tum si distinguitur a termino, a quo, 
+      <lb ed="#B" n="19"/>&amp; pro illis conunctim supponit: &amp; 
+      pro<lb ed="#B" n="20" break="no"/>nullo horum seorsum. Vt similitudo 
+      sup<lb ed="#B" n="21" break="no"/>ponit pro duobus similibus, &amp; 
+      composi<lb ed="#B" n="22" break="no"/>tae secundum quam dicuntur similes. 
+      Pa<lb ed="#B" n="23" break="no"/>ternitas pro patre, &amp; filio ab eo 
+      geni<lb ed="#B" n="24" break="no"/>o. Illo modo, quo pluralis numerus, 
+      <lb ed="#B" n="25"/>aut nomen collectiuum, uel pronomen 
+      <lb ed="#B" n="26"/>demonstratiuum demonstrans plura 
+      con<lb ed="#B" n="27" break="no"/>iunctim supponit pro pluribus, &amp; nullo 
+      <lb ed="#B" n="28"/>seorsum. Et sicut dum quaeritur: quid 
+      <lb ed="#B" n="29"/>est populus; recte respondetur: est 
+      mul<lb ed="#B" n="30" break="no"/>ti homines. Ita in proposito dicitur: quod 
+      <lb ed="#B" n="31"/>similitudo, qua sortes albus est similis 
+      <lb ed="#B" n="32"/>latoni albo, est duo homines: sortes, 
+      <lb ed="#B" n="33"/>&amp; plato: &amp; duae albedines eorum 
+      cor<lb ed="#B" n="34" break="no"/>poribus inhaerentes: quia illis 
+      exi<lb ed="#B" n="35" break="no"/>stentibus omnibus alijs 
+      circumscri<lb ed="#B" n="36" break="no"/>ptis sortes est similis Platoni. Sic 
+      or<lb ed="#B" n="37" break="no"/>do uniuersi, est partes uniuersi 
+      ordina<lb ed="#B" n="38" break="no"/>te. Approximatio causarum causae non 
+      <lb ed="#B" n="39"/>impeditae. Vnio partium continui: 
+      par<lb ed="#B" n="40" break="no"/>tes inter quas nihil mediat. Et dualitas 
+      <lb ed="#B" n="41"/>est res duae. Dupleitas duo numeri: quo 
+      <lb ed="#B" n="42"/>rum unus continet alterum bis: &amp; sic 
+      <lb ed="#B" n="43"/>de alijs.
+    </p>
+            <p xml:id="gbs333-b10011-d1e528">
+      ¶ Et ille secundus modus uide 
+      <lb ed="#B" n="44"/>tur probabilior prinmio. Nam cum 
+      ab<lb ed="#B" n="45" break="no"/>stra au significat illud, quo aliquid 
+      for<lb ed="#B" n="46" break="no"/>maliter denominatur denominatione. 
+      <lb ed="#B" n="47"/>sua concretiua, patet, quod abstracta 
+      rela<lb ed="#B" n="48" break="no"/>tiuorum res extra significantium non 
+      <lb ed="#B" n="49"/>important conceptum mentis. Nam per 
+      <lb ed="#B" n="50"/>conceptum mentis non conuenit 
+      de<lb ed="#B" n="51" break="no"/>nominatio relatiuis rebus extra. Non 
+      <!--34.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="52"/>Quaestio I 
+      <lb ed="#B" n="53"/>enim dicitur sortes similis Platoni 
+      pro<lb ed="#B" n="54" break="no"/>pter conceptum mentis: sed propter 
+      <lb ed="#B" n="55"/>qualitates eiusdem speciei eis 
+      inhaeren<lb ed="#B" n="56" break="no"/>tes: licet sortes referatur ad Platonem 
+      <lb ed="#B" n="57"/>per actum intellectus, ut dictum est. Sic 
+      <lb ed="#B" n="58"/>enim saluatur, quod relatio, &amp; ad aliquod  
+      <lb ed="#B" n="59"/>sunt termini primae intentionis, &amp; 
+      ge<lb ed="#B" n="60" break="no"/>nus generalissimum relatiuorum 
+      pri<lb ed="#B" n="61" break="no"/>mae intentionis sicut &amp; sua concreta: 
+      <lb ed="#B" n="62"/>quamuis dici potest, quod Iy ad aliquod  
+      <lb ed="#B" n="63"/>est, concretum significatione: &amp; 
+      re<lb ed="#B" n="64" break="no"/>latio eius abstractum. Possunt tamen 
+      <lb ed="#B" n="65"/>Iy ad aliquid, &amp; relatio, etiam 
+      acci<lb ed="#B" n="66" break="no"/>i pro terminis secundae intentionis, 
+      <lb ed="#B" n="67"/>sicut, &amp; substantia, qualitas, quantitas, pr 
+      <lb ed="#B" n="68"/>terminis praedicamenti ad aliquid: sed  
+      <lb ed="#B" n="69"/>sic non sunt genus generalissimum. 
+      <lb ed="#B" n="70"/>Posset etiam tertio dici, quod abstracta 
+      re<lb ed="#B" n="71" break="no"/>latiua supponunt pro uno extremo 
+      pu<lb ed="#B" n="72" break="no"/>ta termino a quo: &amp; connotant 
+      reli<lb ed="#B" n="73" break="no"/>quum cum fundamento: si distinguitur 
+      <lb ed="#B" n="74"/>a termino a quo. Vt paternitas 
+      suppo<lb ed="#B" n="75" break="no"/>nit propatre: connotando filium a 
+      se<lb ed="#B" n="76" break="no"/>genitum. Similitudo fortis ad Platonem 
+      <lb ed="#B" n="77"/>supponit pro sorte, &amp; connotat 
+      Plato<lb ed="#B" n="78" break="no"/>nem: &amp; duas qualitates in sorte, &amp; 
+      Pla<lb ed="#B" n="79" break="no"/>tone eiusdem speciei. Et per hoc patet, 
+      <lb ed="#B" n="80"/>quid respondendum est ad quaestionem de 
+      <lb ed="#B" n="81"/>abstractis relatiuoru, per quid est, uel in 
+      <lb ed="#B" n="82"/>quo est, &amp; similes. Et secundum hoc uidet 
+      <lb ed="#B" n="83"/>concedendum: quod abstracta, &amp; 
+      concre<lb ed="#B" n="84" break="no"/>ta relatiua sunt synonpma. sicut abstra 
+      <lb ed="#B" n="85"/>cta, &amp; concreta substantiae, &amp; quantita 
+      <lb ed="#B" n="86"/>tis.
+    </p>
+            <p xml:id="gbs333-b10011-d1e628">
+      ¶ Quarto supponenda est 
+      differen<lb ed="#B" n="87" break="no"/>tia inter relationem intrinsecam, &amp; 
+      re<lb ed="#B" n="88" break="no"/>ationem extrinsecam. Item inter 
+      re<lb ed="#B" n="89" break="no"/>lationem realem, &amp; rationis. Nam rela 
+      <lb ed="#B" n="90"/>tio intrinseca est, qua semesposita sem 
+      <lb ed="#B" n="91"/>per manet manentibus extremis, &amp; 
+      fun<lb ed="#B" n="92" break="no"/>damento: ut diuersitas, similitudo.
+    </p>
+            <p xml:id="gbs333-b10011-d1e644">
+      ¶ 
+      Di<lb ed="#B" n="93" break="no"/>citur notanter semesposita propter 
+      pa<lb ed="#B" n="94" break="no"/>ternitatem, quae est relatio intrinseca. 
+      <lb ed="#B" n="95"/>uia licet sortes genuit Platonem, 
+      ta<lb ed="#B" n="96" break="no"/>men posset Deus Platonem creare. &amp; 
+      <lb ed="#B" n="97"/>tunc essent extrema, scilicet sortes, &amp; 
+      <lb ed="#B" n="98"/>Plato; &amp; non paternitas. Tamen posita 
+      <lb ed="#B" n="99"/>semel paternitate per actum generatio 
+      <lb ed="#B" n="100"/>nis filij, manetibus genito, &amp; genitore: 
+      <lb ed="#B" n="101"/>manet paternitas. Quod sic 
+      intelligen<lb ed="#B" n="102" break="no"/>dum est secundum Ockam. Relatio in¬ 
+      <!--35.xml-->
+      <pb ed="#B" n="2-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>trinseca est relatiua: quae postquam 
+      se<lb ed="#B" n="2" break="no"/>mel supposuerunt; pro certis absolutis 
+      <lb ed="#B" n="3"/>illis manentibus; simul &amp; re absoluta; 
+      si<lb ed="#B" n="4" break="no"/>quam idest fundamento connotant: 
+      <lb ed="#B" n="5"/>semper supponunt pro eis. Per 
+      opposi<lb ed="#B" n="6" break="no"/>tum dicitur de relatione intrinseca: ut 
+      <lb ed="#B" n="7"/>unio, inhaesio: &amp; relationes sex 
+      praedi<lb ed="#B" n="8" break="no"/>camentorum.
+    </p>
+            <p xml:id="gbs333-b10011-d1e692">
+      ¶ De secunda differentia 
+      <lb ed="#B" n="9"/>inter relationem scilicet realem, &amp; rationis 
+      <lb ed="#B" n="10"/>tractat auctor. q. v. dist. xxx. lib. primi. 
+      <lb ed="#B" n="11"/>Et quantum nunc sufficit: relatio 
+      rea<lb ed="#B" n="12" break="no"/>lis uno modo dicitur respectus, qui est 
+      <lb ed="#B" n="13"/>uera res distincta ab absolutis. Et ille 
+      <lb ed="#B" n="14"/>modo non capitur hic secundum 
+      opi<lb ed="#B" n="15" break="no"/>nionem secundam supra de relatiuis 
+      re<lb ed="#B" n="16" break="no"/>citat. Alio modo relatio realis est 
+      re<lb ed="#B" n="17" break="no"/>latio, quae praedicatur de absolutis 
+      cir<lb ed="#B" n="18" break="no"/>cumscripto quocunque actu intellectus 
+      <lb ed="#B" n="19"/>Haec est relatio praedicabilis de 
+      absolu<lb ed="#B" n="20" break="no"/>tis, quae sunt talia, qualia significantur 
+      <lb ed="#B" n="21"/>esse per relationem; circunscripto 
+      quo<lb ed="#B" n="22" break="no"/>cumque opere intellectus; ut similitudo, 
+      <lb ed="#B" n="23"/>paternitas, distinctio, identitas &amp;c Pet 
+      <lb ed="#B" n="24"/>oppositum de relatione rationis: ut sub 
+      <lb ed="#B" n="25"/>iectum, praedicatum, praecium. Nihilenim 
+      <lb ed="#B" n="26"/>est subiectum, uel praedicatum sine 
+      ope<lb ed="#B" n="27" break="no"/>re intellectus: ut est declaratum dist. xxx. 
+      <lb ed="#B" n="28"/>q. v.
+    </p>
+            <p xml:id="gbs333-b10011-d1e739">
+      ¶ Quantum ad secundum articulum 
+      <lb ed="#B" n="29"/>est haec conclusio prima: Creatio actio 
+      <lb ed="#B" n="30"/>qua Deus denominatur formaliter 
+      cre<lb ed="#B" n="31" break="no"/>ans: non est respectus realis in Deo 
+      crea<lb ed="#B" n="32" break="no"/>tore; accipiendo respectum realem 
+      pri<lb ed="#B" n="33" break="no"/>mo modo. Patet: quia in diuinis non 
+      <lb ed="#B" n="34"/>est aliqua realis relatio praeter 
+      relatio<lb ed="#B" n="35" break="no"/>nem originis. Sed nullam harum dicit 
+      <lb ed="#B" n="36"/>creatio: quia nec paternitatem, nec 
+      fi<lb ed="#B" n="37" break="no"/>liationem, nec spirationem. Item 
+      crea<lb ed="#B" n="38" break="no"/>tio de nouo, &amp; ex tempore dicitur de 
+      <lb ed="#B" n="39"/>Deo. ergo non importat aliquid reale 
+      <lb ed="#B" n="40"/>in Deo. Consequentia probatur: quia 
+      <lb ed="#B" n="41"/>quicquid, est reale in Deo, conuenit 
+      <lb ed="#B" n="42"/>Deo ab aeterno. Nam si aliquid reale 
+      <lb ed="#B" n="43"/>de nouo adueniret Deo. Deus esset 
+      mu<lb ed="#B" n="44" break="no"/>tabilis. Antecedens patet per magistrum 
+      <lb ed="#B" n="45"/>dist. xxx. primi, &amp; post. Appellatio, qua 
+      <lb ed="#B" n="46"/>creator relatiue dicitur ad creaturam, 
+      <lb ed="#B" n="47"/>relatiua quidem est, sed nullam notat 
+      re<lb ed="#B" n="48" break="no"/>lationem, quae sit in creatore.
+    </p>
+            <p xml:id="gbs333-b10011-d1e785">
+      ¶ 
+      Secun<lb ed="#B" n="49" break="no"/>da conclusio. Creatio actio non est: 
+      ne<lb ed="#B" n="50" break="no"/>que dicit respectu rationis. Probatur: 
+      <!--35.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>quia quando aliquid denominatur 
+      as<lb ed="#B" n="52" break="no"/>aliquo aequaliter, siue intellectus sit, 
+      si<lb ed="#B" n="53" break="no"/>ue non sit: illud denominans non dicie 
+      <lb ed="#B" n="54"/>formaliter relationem rationis. Quod 
+      <lb ed="#B" n="55"/>patet: quia quod non habet esse, nisi 
+      per<lb ed="#B" n="56" break="no"/>aliud, non habet denominari, nisi 
+      per<lb ed="#B" n="57" break="no"/>aliud. Igitur per oppositum, quo 
+      deno<lb ed="#B" n="58" break="no"/>minatur siue aliud sit, siue non sit, non 
+      <lb ed="#B" n="59"/>habet esse denominatum per illud aliud: 
+      <lb ed="#B" n="60"/>sed Deus de nominatur creans, siue in 
+      <lb ed="#B" n="61"/>tellectus noster sit: siue non sit. Immo 
+      <lb ed="#B" n="62"/>etiam loquendo de quocunque 
+      intelle<lb ed="#B" n="63" break="no"/>ctu per impossibile; quia licet Deus non 
+      <lb ed="#B" n="64"/>posset producere creaturam rationalem 
+      <lb ed="#B" n="65"/>sine intellectu absolute, tamen si per 
+      im<lb ed="#B" n="66" break="no"/>possibile esset intellectus, posset easa pro 
+      <lb ed="#B" n="67"/>ducere. Item illa denominatio, quae 
+      ori<lb ed="#B" n="68" break="no"/>tur positis extremis circumscripto 
+      in<lb ed="#B" n="69" break="no"/>tellectu; non est per operationem 
+      in<lb ed="#B" n="70" break="no"/>tellectus. Sed posito deo, &amp; lapide, cir 
+      <lb ed="#B" n="71"/>cumscripto omni intellectu per 
+      impos<lb ed="#B" n="72" break="no"/>sibile, deus dicitur creans.
+    </p>
+            <p xml:id="gbs333-b10011-d1e844">
+      ¶ Tertia 
+      con<lb ed="#B" n="73" break="no"/>clusio. Creatio actio dicit diuinam 
+      es<lb ed="#B" n="74" break="no"/>sentiam, &amp; creaturam non potentem 
+      <lb ed="#B" n="75"/>existere, nisi posita diuina essentia, &amp; 
+      ni<lb ed="#B" n="76" break="no"/>hil aliud. Patet prima pars, quia 
+      termi<lb ed="#B" n="77" break="no"/>nus dicit, aut significat quicquid 
+      requi<lb ed="#B" n="78" break="no"/>ritur ad uerificationem, siue 
+      supposi<lb ed="#B" n="79" break="no"/>tionem sui de aliquo, uel pro aliquo. Sed 
+      <lb ed="#B" n="80"/>ad hoc, quod creatio actio supponat 
+      respe<lb ed="#B" n="81" break="no"/>ctu uerbi est: requiritur essentia diuina, 
+      <lb ed="#B" n="82"/>&amp; creatura, siue res creata non potens 
+      <lb ed="#B" n="83"/>esse sine deo. Ergo dicit, seu significat  
+      <lb ed="#B" n="84"/>essentiam diuinam, &amp; creaturam. 
+      Secun<lb ed="#B" n="85" break="no"/>da pars patet, quia illis existentibus 
+      om<lb ed="#B" n="86" break="no"/>nibus alijs circumscriptis est 
+      creatio<lb ed="#B" n="87" break="no"/>Ergo praeter illa nihil aliud dicit. Tenet 
+      <lb ed="#B" n="88"/>consequentia, quia abstractum nihil 
+      di<lb ed="#B" n="89" break="no"/>cit: quo circumscripto nihilominus 
+      con<lb ed="#B" n="90" break="no"/>municat alicui suam denominationem. 
+      <lb ed="#B" n="91"/>Antecedens patet: quia eoipso, quod deus 
+      <lb ed="#B" n="92"/>est, &amp; creatura (quae sine deo esse non 
+      <lb ed="#B" n="93"/>potest) est, creatio est: quia dicitur deus 
+      <lb ed="#B" n="94"/>creator, &amp; creatura creata.
+    </p>
+            <p xml:id="gbs333-b10011-d1e894">
+      ¶ Quarta Cu 
+      <lb ed="#B" n="95"/>conclusio. Creatio actio est relatio 
+      rea<lb ed="#B" n="96" break="no"/>lis: secundo modo accipiendo 
+      relatio<lb ed="#B" n="97" break="no"/>nem realem. Patet: quia deus ita uere, 
+      <lb ed="#B" n="98"/>&amp; realiter dicitur creans circumscripta 
+      <lb ed="#B" n="99"/>operatione intellectus: sicut una 
+      albe<lb ed="#B" n="100" break="no"/>do est ex natura rei similis alteri. Nec 
+      <!--36.xml-->
+      <pb ed="#B" n="3-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>plus facit intellectus creatus, ad hoc, quod 
+      <lb ed="#B" n="2"/>deus sit creans, quam ad hoc, quod Sortes 
+      <lb ed="#B" n="3"/>albus sit similis Platoni albo. Et hoc 
+      <lb ed="#B" n="4"/>modo potest dici creatio relatio rea 
+      <lb ed="#B" n="5"/>lis quia importat ueras res, quae non 
+      re<lb ed="#B" n="6" break="no"/>quirunt operationem intellectus, ut  
+      <lb ed="#B" n="7"/>una dicatur creans, alia creata. De hoc. 
+      <lb ed="#B" n="8"/>j. q.v dist. xxx. primi.
+    </p>
+            <p xml:id="gbs333-b10011-d1e933">
+      ¶ Quinta 
+      conclusio<lb ed="#B" n="9" break="no"/>Tenendo secundum modum de 
+      significa<lb ed="#B" n="10" break="no"/>tione abstractorum relatiuorum in 
+      sup<lb ed="#B" n="11" break="no"/>positione tertia recitatum. creatio 
+      <lb ed="#B" n="12"/>actio, qua deus formaliter dicitur creans, 
+      <lb ed="#B" n="13"/>est realiter distincta a deo: &amp; similiter 
+      <lb ed="#B" n="14"/>a creatura creatione producta. Patet: 
+      <lb ed="#B" n="15"/>quia omne aggregatum realiter distiguitur a 
+      <lb ed="#B" n="16"/>qualibet partium aggregati: sicut sortes, 
+      <lb ed="#B" n="17"/>&amp; Plato, nec est Sortes, nec Plato. Sed 
+      <lb ed="#B" n="18"/>creatio actio est diuina essentia, &amp; 
+      crea<lb ed="#B" n="19" break="no"/>tura porducta copulatim: ut patet ex 
+      sup<lb ed="#B" n="20" break="no"/>positione. Ergo nec est diuina essentia: 
+      <lb ed="#B" n="21"/>nec creatura, sed utrunque simul. Et per 
+      <lb ed="#B" n="22"/>consequens realiter distinguitur ab utro 
+      <lb ed="#B" n="23"/>lt. que.
+    </p>
+            <p xml:id="gbs333-b10011-d1e968">
+      ¶ Sexta conclusio. Tenendo 
+      ter<lb ed="#B" n="24" break="no"/>tium modum de significatione 
+      abstra<lb ed="#B" n="25" break="no"/>ctiuorum actiua creatio non 
+      distingu<lb ed="#B" n="26" break="no"/>tur a deo: sed est realiter deus. Probat; 
+      <lb ed="#B" n="27"/>quia secundum illum modum loquendi 
+      <lb ed="#B" n="28"/>creatio actiua supponit pro creante. &amp; 
+      <lb ed="#B" n="29"/>connotat creaturam non potentem esse 
+      <lb ed="#B" n="30"/>sine deo, &amp; ita est realiter deus. Sicut 
+      al<lb ed="#B" n="31" break="no"/>bum supponit pro subjecto, &amp; connotat 
+      <lb ed="#B" n="32"/>abedi enm: &amp; per continens subiectum 
+      <lb ed="#B" n="33"/>est album. Similes conclusiones possunt 
+      <lb ed="#B" n="34"/>lu. poni de creatione passiua.
+    </p>
+            <p xml:id="gbs333-b10011-d1e995">
+      ¶ Prima. 
+    </p>
+            <p xml:id="gbs333-b10011-d1e997">
+               <lb ed="#B" n="35"/>¶ Creatio passio non dicit relationem 
+      <lb ed="#B" n="36"/>realem primo modo accipiendo 
+      relatio<lb ed="#B" n="37" break="no"/>nem reale in creatura. Talis enim 
+      enti<lb ed="#B" n="38" break="no"/>tas respectiua ab omnibus absolutis 
+      ui<lb ed="#B" n="39" break="no"/>stincta non est ponenda: ut ostensum est 
+      <lb ed="#B" n="40"/>dist. xxx. primi q. i. Item posito deo, &amp; 
+      <lb ed="#B" n="41"/>creatura non potente esse sine deo: 
+      po<lb ed="#B" n="42" break="no"/>nitur creatiopassiua: alijs omnibus 
+      cir<lb ed="#B" n="43" break="no"/>cumscriptis igitur nihil aliud dicit.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1019">
+      ¶ 
+      Se<lb ed="#B" n="44" break="no"/>cunda conclusio. Creatio passio non 
+      <lb ed="#B" n="45"/>dicit relationem rationis: eadem 
+      ratio<lb ed="#B" n="46" break="no"/>ine: qua creatio actiua.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1028">
+      ¶ Tertia 
+      conclu<lb ed="#B" n="47" break="no"/>sio Creatio, &amp; passio dicit creaturam 
+      <lb ed="#B" n="48"/>non potentem sine deo existere diuinam 
+      <lb ed="#B" n="49"/>essentiam: nihil aliud. Patet ut supra. 
+      <lb ed="#B" n="50"/>¶¶ Quarta conclusio. Creatio passio¬ 
+      <!--36.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est relatio realis secundo modo 
+      accipien<lb ed="#B" n="52" break="no"/>do relationem realem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1048">
+      ¶ Quinta 
+      con<lb ed="#B" n="53" break="no"/>clusio. Tenendo quod abstracta supponunt 
+      <lb ed="#B" n="54"/>pro omnibus coniunctim, quae 
+      signifi<lb ed="#B" n="55" break="no"/>cant, creatio passio realiter distinguitur 
+      <lb ed="#B" n="56"/>a creatura.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1059">
+      ¶ Sexta conclusio. 
+      Tenen<lb ed="#B" n="57" break="no"/>do tertium modum de significatione. 
+      <lb ed="#B" n="58"/>abstractorum creatio passio non 
+      distin<lb ed="#B" n="59" break="no"/>guitur a creatura: sed est realiter 
+      crea<lb ed="#B" n="60" break="no"/>tura a deo producta, non potens existe 
+      <lb ed="#B" n="61"/>re sine deo. Sic eninmi creatio passio 
+      sup<lb ed="#B" n="62" break="no"/>ponit pro creatura: &amp; connotat 
+      essen<lb ed="#B" n="63" break="no"/>tiam creatricem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1078">
+      ¶ Quantum ad tertium 
+      <lb ed="#B" n="64"/>articulum, plura possent moueri dubia 
+      <lb ed="#B" n="65"/>contra fundamentum quatuor primarum 
+      <lb ed="#B" n="66"/>conclusionum: scilicet quod non sunt 
+      po<lb ed="#B" n="67" break="no"/>nendi respectus ab absolutis distincti. 
+      <lb ed="#B" n="68"/>Sed quia de hoc latius tractatur. q. i. 
+      <lb ed="#B" n="69"/>dist. xxx. lib. primi. ideo rescinditur. Ta 
+      <lb ed="#B" n="70"/>men propter solutionem rationis Sco: 
+      <lb ed="#B" n="71"/>quam ponit. q.v. huius distinctionis 
+      pri<lb ed="#B" n="72" break="no"/>mae, quam magnipendit: est dubium. An 
+      <lb ed="#B" n="73"/>ponere relationem non distingui a 
+      re<lb ed="#B" n="74" break="no"/>bus abstractis sit contra primum 
+      princi<lb ed="#B" n="75" break="no"/>pium. Et uidetur quod sic: assumendo 
+      ar<lb ed="#B" n="76" break="no"/>gumentum suum. Nihil est idem. a. rea 
+      <lb ed="#B" n="77"/>liter sine quo. a. potest esse. Et ponatur  
+      <lb ed="#B" n="78"/>qo. a. significet fundamentum alicuius 
+      <lb ed="#B" n="79"/>relationis. Gratia exempli, albedinem 
+      <lb ed="#B" n="80"/>in Sorte, quae est fundamentum 
+      similitu<lb ed="#B" n="81" break="no"/>dinis, qua sortes est similis Platoni albo. 
+      <lb ed="#B" n="82"/>Sed. a. potest esse sine similitudine. 
+      Er<lb ed="#B" n="83" break="no"/>go similitudo non est idem. a. realiter. 
+      <lb ed="#B" n="84"/>Discursus uidetur bonus: quia ad 
+      svllo<lb ed="#B" n="85" break="no"/>gismum reducibilis sit. Nihil sine 
+      quo<lb ed="#B" n="86" break="no"/>a. potest esse est idem. a. realiter: sed 
+      simi<lb ed="#B" n="87" break="no"/>litudo est sine qua. a. potest esse. ergo 
+      si<lb ed="#B" n="88" break="no"/>militudo non est idem. a. realiter. Sic 
+      <lb ed="#B" n="89"/>erit discursus in quarto primae. Et ut  
+      <lb ed="#B" n="90"/>omnia diuerticula semoueantur: 
+      adda<lb ed="#B" n="91" break="no"/>tur minori extremitati pronomen 
+      de<lb ed="#B" n="92" break="no"/>monstratiuum singularitans pro illa 
+      si<lb ed="#B" n="93" break="no"/>militudine qua. a. est simile albedini 
+      Pla<lb ed="#B" n="94" break="no"/>tonis. Maior probatur: quia stet 
+      oppo<lb ed="#B" n="95" break="no"/>situm. Aliquid sine quo. a. potest esse, 
+      <lb ed="#B" n="96"/>est idem realiter. a. ergo aliquid est 
+      rea<lb ed="#B" n="97" break="no"/>liter. a, &amp; non est tealiter. a: Nam uocet 
+      <lb ed="#B" n="98"/>illud, pro quo oppositum maioris 
+      uerifi<lb ed="#B" n="99" break="no"/>catur. b. tunc. b. est realiter. a. ex 
+      propo<lb ed="#B" n="100" break="no"/>sitione; &amp; sine ipso potest esse. a. ponatur 
+      <!--37.xml-->
+      <pb ed="#B" n="3-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>in esse. Sine. b. est. a. ergo. b. non est 
+      <lb ed="#B" n="2"/>a. Hoc autem est oppositum primi 
+      prin<lb ed="#B" n="3" break="no"/>cipii. b. esse. a, &amp; non esse. a.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1174">
+      ¶ Alijs etiam 
+      <lb ed="#B" n="4"/>mediis illam maiorem probat. Minor 
+      <lb ed="#B" n="5"/>probatur: quia albedo. a. potest esse sine 
+      <lb ed="#B" n="6"/>similitudine ista, si albedo in Platone de 
+      <lb ed="#B" n="7"/>struatur.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1185">
+      ¶ Potest eadem ratio sub alia 
+      <lb ed="#B" n="8"/>forma fieri quam idem doctor tangit 
+      <lb ed="#B" n="9"/>sic. Illa sunt distincta realiter, quorum 
+      <lb ed="#B" n="10"/>unum potest manere sine altero. 
+      Sub<lb ed="#B" n="11" break="no"/>sumatur. A. potest manere sine 
+      simili<lb ed="#B" n="12" break="no"/>litudine: ergo. a. &amp; similitudo 
+      distin<lb ed="#B" n="13" break="no"/>guuntur realiter.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1201">
+      ¶ Vt autem 
+      ui<lb ed="#B" n="14" break="no"/>deatur efficacia rationis, potest in 
+      simi<lb ed="#B" n="15" break="no"/>li sic formari. Nihil sine quo potest 
+      <lb ed="#B" n="16"/>esse petrus, est petrus. Amicus dei est, 
+      <lb ed="#B" n="17"/>sine quo potest esse petrus. Igitur 
+      ami<lb ed="#B" n="18" break="no"/>cus dei non est petrus. Minor 
+      proba<lb ed="#B" n="19" break="no"/>tur: quia petrus potest non esse amicus 
+      <lb ed="#B" n="20"/>dei: quia potest non habere amicitiam 
+      <lb ed="#B" n="21"/>dei, scilicet gratiam. Igitur 
+      alioquin<lb ed="#B" n="22" break="no"/>posset esse amicus sine amicitia, siue 
+      gra<lb ed="#B" n="23" break="no"/>tia. Vltra. Ergo amicus dei est, sine quo 
+      <lb ed="#B" n="24"/>potest esse petrus.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1227">
+      ¶ Responsio ad 
+      du<lb ed="#B" n="25" break="no"/>bium: quod ponere relationem non 
+      distin<lb ed="#B" n="26" break="no"/>gui ab absolutis, non repugnat primo 
+      <lb ed="#B" n="27"/>principio. Et ad rationem Sco. 
+      dici<lb ed="#B" n="28" break="no"/>tur, quod discursus bonus est. Et uerum 
+      con<lb ed="#B" n="29" break="no"/>cludit, quod similitudo non est idem 
+      fun<lb ed="#B" n="30" break="no"/>damento. Ex hoc autem non sequitur, 
+      <lb ed="#B" n="31"/>quod similitudo distinguatur ab absolutis, 
+      <lb ed="#B" n="32"/>Nec opinio tenet, quod relatio sit idem 
+      <lb ed="#B" n="33"/>fundamento. Sed tenet, quod sit entitas 
+      <lb ed="#B" n="34"/>absoluta, uel entitas absolute: quia 
+      <lb ed="#B" n="35"/>siue sit conceptus mentis, siue idem 
+      <lb ed="#B" n="36"/>fundamento, &amp; termino, non est 
+      fun<lb ed="#B" n="37" break="no"/>damentum. Sed argumentum proce- 
+      <lb ed="#B" n="38"/>deret contra tertium modum 
+      loquen<lb ed="#B" n="39" break="no"/>dide abstractis; qui tenet, quod 
+      paterni<lb ed="#B" n="40" break="no"/>tas similitudo supponunt pro 
+      termi<lb ed="#B" n="41" break="no"/>no a quo, &amp; connotant terminum ad 
+      <lb ed="#B" n="42"/>quem &amp;c. Et hunc tenendo negetur 
+      <lb ed="#B" n="43"/>minor rationis, quia similitudo in 
+      ca<lb ed="#B" n="44" break="no"/>su est albedo sortis, &amp; sine albedine 
+      sor<lb ed="#B" n="45" break="no"/>tis. a. non potest esse. Ad probationem 
+      <lb ed="#B" n="46"/>negetur minor quo. a. potest esse sine 
+      <lb ed="#B" n="47"/>similitudine, hoc est sine illa re quem 
+      <lb ed="#B" n="48"/>nunc est similitudo. Et destructa 
+      albe<lb ed="#B" n="49" break="no"/>dine platonis non manet. a. sine 
+      simili<lb ed="#B" n="50" break="no"/>tudine: quia similitudine supponit pro 
+      <!--37.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>illo, quod nunc est similitudo, scilicet 
+      <lb ed="#B" n="52"/>pro. a: quia ponitur respectu copulae, 
+      prae<lb ed="#B" n="53" break="no"/>sentis temporis.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1297">
+      ¶ Si dicis, quod manet, 
+      di<lb ed="#B" n="54" break="no"/>cit tempus futurum, &amp; ideo 
+      similitudi<lb ed="#B" n="55" break="no"/>ne sequens solum supponit pro 
+      simili<lb ed="#B" n="56" break="no"/>tudine futura. Haec autem non est. a. 
+      <lb ed="#B" n="57"/>Respondetur illo posito, similitudine 
+      <lb ed="#B" n="58"/>aequiuocatur. Inferendo igitur 
+      di<lb ed="#B" n="59" break="no"/>stinguitur a similitudine, quia in 
+      pri<lb ed="#B" n="60" break="no"/>ma supponit, uel accipitur pro 
+      similitu<lb ed="#B" n="61" break="no"/>dine futura: in ista pro similitudine 
+      <lb ed="#B" n="62"/>praesenti, &amp; non futura.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1320">
+      ¶ Similiter 
+      <lb ed="#B" n="63"/>respondetur ad secundam arguendi 
+      <lb ed="#B" n="64"/>formam: negando minorem, nec 
+      pro<lb ed="#B" n="65" break="no"/>batur.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1329">
+      ¶ De illa forma arguendi latius 
+      <lb ed="#B" n="66"/>patuit supra in primo distin. j. quaest. iij. 
+      <lb ed="#B" n="67"/>Ad tertiam formam similiter dicitur 
+      <lb ed="#B" n="68"/>negando minorem. Ad probationem, 
+      <lb ed="#B" n="69"/>petrus potest non esse amicus dei. Illa 
+      <lb ed="#B" n="70"/>negetur; quia amicus ibi distribuitur 
+      <lb ed="#B" n="71"/>pro perro, &amp; aliis amicis: &amp; sic 
+      seque<lb ed="#B" n="72" break="no"/>retur descendendo, quod posset non esse 
+      <lb ed="#B" n="73"/>ille amicus dei, qui est petrus. Et cum 
+      <lb ed="#B" n="74"/>probatur: potest non habere gratiam. 
+      <lb ed="#B" n="75"/>concedendo, &amp; negetur 
+      consequen<lb ed="#B" n="76" break="no"/>tia. Ergo potest non esse amicus, quia 
+      <lb ed="#B" n="77"/>ualet tantum. Ergo potest non esse 
+      <lb ed="#B" n="78"/>quicunque est, uel potest esse amicus. 
+      <lb ed="#B" n="79"/>Et cum arguitur: alioquin possit esse 
+      <lb ed="#B" n="80"/>amicus sine amicitia, &amp; gratia. Non se 
+      <lb ed="#B" n="81"/>quitur, ut patet diligentius intuenti. 
+      <lb ed="#B" n="82"/>Et si adhuc arguitur. a. manet, quando 
+      <lb ed="#B" n="83"/>non manet similitudo; igitur 
+      distingui<lb ed="#B" n="84" break="no"/>tur a similitudine. Respondetur: si 
+      Iy<lb ed="#B" n="85" break="no"/>similitudo utrobique supponit pro 
+      eo<lb ed="#B" n="86" break="no"/>dem, bonum est argumentum: quia 
+      si<lb ed="#B" n="87" break="no"/>utrobique supponit pro similitudine 
+      <lb ed="#B" n="88"/>futura, uerum infertur accipiendo 
+      di<lb ed="#B" n="89" break="no"/>stinguilarge. Si utrobique pro 
+      simili<lb ed="#B" n="90" break="no"/>tudine praesenti, antecedens est falsum. 
+      <lb ed="#B" n="91"/>Si in antecedente supponit pro 
+      simili<lb ed="#B" n="92" break="no"/>tudine praesenti, &amp; in consequenti 
+      pro<lb ed="#B" n="93" break="no"/>futura non ualet argumentum propter 
+      <lb ed="#B" n="94"/>fallaciam aequiuocationis.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1394">
+      ¶ Secundum 
+      <lb ed="#B" n="95"/>dubium. In quo aut quomodo 
+      distin<lb ed="#B" n="96" break="no"/>guitur creatio actiua, &amp; creatio 
+      pas<lb ed="#B" n="97" break="no"/>uua. Et uidetur, quod non distinguitur: 
+      <lb ed="#B" n="98"/>quia dicunt praecise idem. Vtrunque 
+      <lb ed="#B" n="99"/>enim dicit diuinam essentiam, &amp; 
+      crea<lb ed="#B" n="100" break="no"/>turam non potentem existere sint 
+      <!--38.xml-->
+      <pb ed="#B" n="4-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>deo, &amp; nihil plus, ut patet ex 
+      conclu<lb ed="#B" n="2" break="no"/>sionibus.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1420">
+      ¶ In oppositum est: quia sunt 
+      <lb ed="#B" n="3"/>diuersorum praedicamentorum: &amp; 
+      per<lb ed="#B" n="4" break="no"/>consequens distinguuntur.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1427">
+      ¶ 
+      Respon<lb ed="#B" n="5" break="no"/>sio, quod dubium potest intelligi, uel de re, 
+      <lb ed="#B" n="6"/>quae est actiua creatio, &amp; creatio 
+      pas<lb ed="#B" n="7" break="no"/>siua: uel de terminis. Primo modo 
+      <lb ed="#B" n="8"/>patet responsio ex conclusionibus. 
+      Se<lb ed="#B" n="9" break="no"/>cundo modo dicendum, quod illi termini 
+      <lb ed="#B" n="10"/>non sunt synonymi, non obstante, 
+      <lb ed="#B" n="11"/>quod significant idem praecise: quia non 
+      <lb ed="#B" n="12"/>lignificant eodem modo. Nam 
+      tenen<lb ed="#B" n="13" break="no"/>do tertium modum de abstractis, 
+      crea<lb ed="#B" n="14" break="no"/>tio actio significat subtractiue id: 
+      <lb ed="#B" n="15"/>quod significat creatio passio 
+      forma<lb ed="#B" n="16" break="no"/>liter, &amp; econuerso. Sic enim 
+      crea<lb ed="#B" n="17" break="no"/>tio actio supponit pro creante, &amp; 
+      con<lb ed="#B" n="18" break="no"/>notat creaturam. Creatio passio econ 
+      <lb ed="#B" n="19"/>terso supponit pro creatura, &amp; 
+      con<lb ed="#B" n="20" break="no"/>notat creantem deum. Si tenetur 
+      se<lb ed="#B" n="21" break="no"/>eundus modus: tunc licet supponit 
+      <lb ed="#B" n="22"/>pro eodem praecise scilicet coniunctim 
+      pro<lb ed="#B" n="23" break="no"/>deo, &amp; creatura. tam en creatio actio 
+      <lb ed="#B" n="24"/>significat deum per modum termini 
+      <lb ed="#B" n="25"/>a quo. &amp; creaturam per modum 
+      ter<lb ed="#B" n="26" break="no"/>mini ad quem. Creatio passio 
+      econ<lb ed="#B" n="27" break="no"/>uerso. Si tenetur primus modus, tunc 
+      <lb ed="#B" n="28"/>non significant idem, quia sic 
+      signifi<lb ed="#B" n="29" break="no"/>tant conceptus mentis, quae sunt 
+      di<lb ed="#B" n="30" break="no"/>stincti, &amp; non synonvmi.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1486">
+      ¶ Tertio 
+      du<lb ed="#B" n="31" break="no"/>bitatur. Vtrum omnis effectus 
+      cree<lb ed="#B" n="32" break="no"/>tur a deo. Et uidetur quod sic: quia 
+      om<lb ed="#B" n="33" break="no"/>nis creatura creatur, &amp; non nisi a deo: 
+      <lb ed="#B" n="34"/>&amp; omnis effectus est creatura.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1498">
+      ¶ In 
+      <lb ed="#B" n="35"/>oppositum: non quilibet effectus sit ex 
+      <lb ed="#B" n="36"/>nihilo. Igitur non quilibet creatur. 
+      Pa<lb ed="#B" n="37" break="no"/>ter per magistrum distinctione 
+      praesenti<lb ed="#B" n="38" break="no"/>Creare est aliquid de nihilo facere. 
+      De<lb ed="#B" n="39" break="no"/>nihilo idest non de materia.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1511">
+      ¶ Pro 
+      respon<lb ed="#B" n="40" break="no"/>sione ad dubium notandum 
+      postOockan<lb ed="#B" n="41" break="no"/>secundo quodlibet quaestio. viij. &amp; 
+      in<lb ed="#B" n="42" break="no"/>fra tangetur in iiij. distinct. j. quaestio. 
+      <lb ed="#B" n="43"/>j. quod creare multipliciter accipitur. 
+      <lb ed="#B" n="44"/>Quandoque accipitur pro promouere 
+      <lb ed="#B" n="45"/>id dignitates, sic dicunt canonistae 
+      <lb ed="#B" n="46"/>quod Papa creat Cardinales: sic nihil ad 
+      <lb ed="#B" n="47"/>propositum. Aliter accipitur quatuor 
+      <lb ed="#B" n="48"/>modis. Primo modo large pro 
+      pro<lb ed="#B" n="49" break="no"/>ducere: sic dicit commentator. iij. de 
+      <lb ed="#B" n="50"/>anima. Intellectus erat intellecta. Se¬ 
+      <!--38.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>eundo modo accipitur stricte pro 
+      fa<lb ed="#B" n="52" break="no"/>cere aliquid de nihilo mediate, uel 
+      im<lb ed="#B" n="53" break="no"/>mediate: idest ipsum, uel id, de quo 
+      <lb ed="#B" n="54"/>factum est. Sic dicit Augustinus 
+      su<lb ed="#B" n="55" break="no"/>per Ioannem, quod segetes creantur. 
+      <lb ed="#B" n="56"/>Tertio modo capitur strictius: &amp; sic est 
+      <lb ed="#B" n="57"/>agens facere aliquid postquam fuit 
+      ni<lb ed="#B" n="58" break="no"/>hil, quod posset ipsum facere sine 
+      sub<lb ed="#B" n="59" break="no"/>iecto. Quarto modo strictissime. &amp; 
+      <lb ed="#B" n="60"/>sic est deum facere aliquid, postquam 
+      <lb ed="#B" n="61"/>fuit nihil sine concursu agentis: quod  
+      <lb ed="#B" n="62"/>necessario requirit passum, siue 
+      su<lb ed="#B" n="63" break="no"/>biectum. Quo praemisso respondetur 
+      <lb ed="#B" n="64"/>ad dubium per tres propositiones 
+      se<lb ed="#B" n="65" break="no"/>cundum Ockam ubi supra quaestione 
+      <lb ed="#B" n="66"/>viij. secundi quodlibet.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1576">
+      ¶ Prima 
+      acci<lb ed="#B" n="67" break="no"/>piendo creare primis duobus modis, 
+      <lb ed="#B" n="68"/>quilibet effectus creatura deo. 
+      Pa<lb ed="#B" n="69" break="no"/>ter: quia omnis effectus producitur a 
+      <lb ed="#B" n="70"/>deo de nihilo secundum se, uel 
+      secun<lb ed="#B" n="71" break="no"/>dum illud, de quo ultimo producitur. 
+      <lb ed="#B" n="72"/>Quia prima rerum productio fuit de 
+      <lb ed="#B" n="73"/>nihilo: &amp; sic uera est prima 
+      conclu<lb ed="#B" n="74" break="no"/>sio magistri, quod deus est creator omnium 
+      <lb ed="#B" n="75"/>uisibilium, &amp; inuisibilium.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1598">
+      ¶ Secunda 
+      <lb ed="#B" n="76"/>propositio. Accipiendo creare tertio 
+      <lb ed="#B" n="77"/>modo: solus, &amp; omnis effectus simplex 
+      <lb ed="#B" n="78"/>creatur a deo. Quod solus patet: 
+      <lb ed="#B" n="79"/>quia compositum per generationem 
+      <lb ed="#B" n="80"/>productum praefuit secundum mate 
+      <lb ed="#B" n="81"/>riam, &amp; ita non sit postquam fuit 
+      ni<lb ed="#B" n="82" break="no"/>hil. Illud enim dicitur fuisse nihil, 
+      cu<lb ed="#B" n="83" break="no"/>ius nulla pars praefuit. Secunda pars 
+      <lb ed="#B" n="84"/>scilicet, quod omnis effectus simplex, quia 
+      <lb ed="#B" n="85"/>quilibet talis ante productionem nihil 
+      <lb ed="#B" n="86"/>tuit: &amp; ad omnis effectus 
+      productio<lb ed="#B" n="87" break="no"/>nem concurrit deus, qui non 
+      re<lb ed="#B" n="88" break="no"/>quirit de necessitate subiectum in 
+      <lb ed="#B" n="89"/>agendo. Quicquid enim producit 
+      <lb ed="#B" n="90"/>in subjecto potest producere 
+      ex<lb ed="#B" n="91" break="no"/>tra subiectum; sicut potest 
+      conserua<lb ed="#B" n="92" break="no"/>re extra subiectum: sicut patet de 
+      acci<lb ed="#B" n="93" break="no"/>dentibus, de quibus minus uidetur 
+      ue<lb ed="#B" n="94" break="no"/>rum. Qui tamen poneret respectus 
+      <lb ed="#B" n="95"/>distingui ab absolutis: haberet hoc 
+      ne<lb ed="#B" n="96" break="no"/>gare. Talis enim simpliciter non 
+      po<lb ed="#B" n="97" break="no"/>test esse sine fundamento, &amp; termino 
+      <lb ed="#B" n="98"/>secundum eos.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1650">
+      ¶ Corollarium: idem 
+      <lb ed="#B" n="99"/>effectus generatur, &amp; creatur. 
+      Gene<lb ed="#B" n="100" break="no"/>ratur a creatura, &amp; creatur a deo Pa¬ 
+      <!--39.xml-->
+      <pb ed="#B" n="4-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ter de forma substantiali ignis genita 
+      <lb ed="#B" n="2"/>ab alio igne, &amp; simul producta a Deo. 
+      <lb ed="#B" n="3"/>Vide Ockam. qeiiij. &amp; v. secundi non 
+      <lb ed="#B" n="4"/>longe a fine. Nec est illud magis 
+      in<lb ed="#B" n="5" break="no"/>conueniens, quam quod idem effectus, 
+      pu<lb ed="#B" n="6" break="no"/>ta uolitio producatur libere, &amp; 
+      contin<lb ed="#B" n="7" break="no"/>genter a uoluntate, &amp; necessario a 
+      co<lb ed="#B" n="8" break="no"/>gnitione. Sic ait Augustinus 
+      supe<lb ed="#B" n="9" break="no"/>Psal. Ixx. Ver. Deus quis similis tibi. 
+      <lb ed="#B" n="10"/>Parentibus generantibus, deus creat. 
+      <lb ed="#B" n="11"/>Secundum patet: quia omnis effectus 
+      <lb ed="#B" n="12"/>priusquam producatur, est purum 
+      ni<lb ed="#B" n="13" break="no"/>hil: id est nihil fuit. Nec impedit, quod 
+      di<lb ed="#B" n="14" break="no"/>citur fuisse in potentia materiae: quia 
+      <lb ed="#B" n="15"/>non magis est in potentia materiae; quam 
+      <lb ed="#B" n="16"/>in potentia agentis. Immo omnis 
+      es<lb ed="#B" n="17" break="no"/>fectus magis est in potentia agentis 
+      <lb ed="#B" n="18"/>primi, scilicet dei, quam in potentia 
+      ma<lb ed="#B" n="19" break="no"/>teriae, eo quod simpliciter non potest pro- 
+      <lb ed="#B" n="20"/>duci, nisi a causa prima. Potest autem 
+      <lb ed="#B" n="21"/>produci non concurrente materia, &amp; 
+      <lb ed="#B" n="22"/>tamen anima producta ante productio 
+      <lb ed="#B" n="23"/>nem: licet fuerit in potentia agentis, 
+      <lb ed="#B" n="24"/>tamen simpliciter nihil fuit, 
+      anoquin<lb ed="#B" n="25" break="no"/>non crearetur. Nam esse in potentia 
+      <lb ed="#B" n="26"/>materiae, non est esse aliquid, sed est, 
+      <lb ed="#B" n="27"/>posse produci in materia ab agente 
+      re<lb ed="#B" n="28" break="no"/>quirente materiam recipientem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1724">
+      ¶ Ter 
+      <lb ed="#B" n="29"/>tia propositio. Solus effectus, &amp; 
+      qui<lb ed="#B" n="30" break="no"/>libet, qui secundum se, &amp; quodlibet 
+      sui<lb ed="#B" n="31" break="no"/>producitur a deo solo non 
+      concurren<lb ed="#B" n="32" break="no"/>te causa secunda, &amp; effectiue: creatur 
+      <lb ed="#B" n="33"/>quarto modo accipiendo creare. 
+      Pa<lb ed="#B" n="34" break="no"/>ter ex descriptione quarti modi.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1741">
+      ¶ 
+      Ra<lb ed="#B" n="35" break="no"/>tiones pro, &amp; contra dubium soluuntur 
+      <lb ed="#B" n="36"/>per diuersam acceptionem huius, quod 
+      <lb ed="#B" n="37"/>est creare. Nam prima ratio procedit 
+      <lb ed="#B" n="38"/>secundum duas primas acceptiones. 
+      Se<lb ed="#B" n="39" break="no"/>cunda procedit secundum tertiam, &amp; 
+      <lb ed="#B" n="40"/>quartam acceptionem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1757">
+      ¶ Et nota, quod in 
+      <lb ed="#B" n="41"/>omnibus praemissis creatio accipitur, ut  
+      <lb ed="#B" n="42"/>extendit se ad conseruationem.
+    </p>
+            <p xml:id="gbs333-b10011-d1e1764">
+      ¶ Sed 
+      <lb ed="#B" n="43"/>diceret quis contra corollarium. 
+      Con<lb ed="#B" n="44" break="no"/>tradictio est, quod aliquid situul, &amp; 
+      semel<lb ed="#B" n="45" break="no"/>fiat de aliquo, &amp; de nihilo. Sed quod  
+      <lb ed="#B" n="46"/>creatur, sit denihilo: quod generatur. 
+      <lb ed="#B" n="47"/>sit de aliquo: quia de potentia materiae: 
+      <lb ed="#B" n="48"/>ideo contradictio est idem generari, &amp; 
+      <lb ed="#B" n="49"/>creari. Respondetur negando, quod 
+      il<lb ed="#B" n="50" break="no"/>lud, quod generatur, non sit de nihilo 
+      <!--39.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>saltem loquendo de forma 
+      simplici<lb ed="#B" n="52" break="no"/>Vnde ita uere forma, quae producitur 
+      <lb ed="#B" n="53"/>in materia a causa naturali sit de 
+      nihi<lb ed="#B" n="54" break="no"/>lo, sicut quae creatur: quia nihil 
+      for<lb ed="#B" n="55" break="no"/>mae generandae praeexistit in materia. 
+      <lb ed="#B" n="56"/>alioquin non generaretur. De quo 
+      po<lb ed="#B" n="57" break="no"/>stea uidebitur. Nec sequitur. Eit de 
+      po<lb ed="#B" n="58" break="no"/>tentia materiae. Igitur non sit de 
+      ni<lb ed="#B" n="59" break="no"/>hilo. Quia educere de potentia 
+      ma<lb ed="#B" n="60" break="no"/>teriae nihil aliud est, quam agens aliquod 
+      <lb ed="#B" n="61"/>producere formam in materia: ita quod 
+      <lb ed="#B" n="62"/>necessario in producendo requirit 
+      ma<lb ed="#B" n="63" break="no"/>teriam concausantem in suo genere,. 
+      <lb ed="#B" n="64"/>hoc est materiam suscipientem. Haec 
+      <lb ed="#B" n="65"/>enim est causalitas materiae. Ex quo 
+      pa<lb ed="#B" n="66" break="no"/>ter, quod non tantum forma naturalis: 
+      <lb ed="#B" n="67"/>sed etiam forma uiolenter introducta 
+      <lb ed="#B" n="68"/>educitur de potentia materiae: ut puta 
+      <lb ed="#B" n="69"/>frigiditas in aqua. Nam agens 
+      uiolen<lb ed="#B" n="70" break="no"/>tum hanc producere non potest, 
+      nisi<lb ed="#B" n="71" break="no"/>in materia aquae ipsam subiectante. 
+    </p>
+            <p xml:id="gbs333-b10011-d1e1834">
+               <lb ed="#B" n="72"/>¶ Vnde haec sola est differentia inter 
+      <lb ed="#B" n="73"/>generare, &amp; creare: quia creare est agens 
+      <lb ed="#B" n="74"/>producere aliquid, ita quod necessario 
+      re<lb ed="#B" n="75" break="no"/>quirit materiam concausantem. 
+      Ge<lb ed="#B" n="76" break="no"/>nerare uero est agens producere 
+      ali<lb ed="#B" n="77" break="no"/>quid, quod necessario in tali 
+      pro<lb ed="#B" n="78" break="no"/>ductione requirit materiam 
+      concau<lb ed="#B" n="79" break="no"/>santem. Vnde patet, quod deus cum 
+      <lb ed="#B" n="80"/>omnem formam absolutam produce- 
+      <lb ed="#B" n="81"/>re potest extra materiam, omnem 
+      for<lb ed="#B" n="82" break="no"/>mam, quam producit etiam in 
+      mate<lb ed="#B" n="83" break="no"/>ria creat: quia etsi aliquando causat in 
+      <lb ed="#B" n="84"/>materia, non necessario requirit 
+      mate<lb ed="#B" n="85" break="no"/>riam: quia posset eundem effectum 
+      pro<lb ed="#B" n="86" break="no"/>ducere extra materiam. Omnis uero 
+      <lb ed="#B" n="87"/>causa secunda producens formam 
+      ge<lb ed="#B" n="88" break="no"/>nerat. Non ergo magis inconueniens 
+      <lb ed="#B" n="89"/>est dicere, eandem formam simul 
+      ge<lb ed="#B" n="90" break="no"/>nerari, &amp; creari, quam dicere eandem 
+      <lb ed="#B" n="91"/>formam produci a duobus agentibus, 
+      <lb ed="#B" n="92"/>quorum unum necessario requirit in 
+      <lb ed="#B" n="93"/>tali productione materiam 
+      con<lb ed="#B" n="94" break="no"/>causantem, aliud non 
+      requi<lb ed="#B" n="95" break="no"/>rit. Et tantum de isto 
+      <lb ed="#B" n="96"/>dubio, &amp; tota quae 
+      <lb ed="#B" n="97"/>stione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

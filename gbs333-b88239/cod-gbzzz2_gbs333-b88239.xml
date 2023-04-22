@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="180-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b88239"><!-- l2-d41prae -->
+            <head xml:id="gbs333-b88239-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b88239-d1e103">
+               <lb ed="#B" n="90"/>DISTINCTIO xxxxI. 
+      <lb ed="#B" n="91"/>VIT de peccato 
+      <lb ed="#B" n="92"/>actus exterioris quam 
+      <lb ed="#B" n="93"/>tum ad intentionem 
+      <lb ed="#B" n="94"/>finis: agit consequem 
+      <lb ed="#B" n="95"/>ter de eisdem 
+      quan<lb ed="#B" n="96" break="no"/>tum ad principium 
+      <lb ed="#B" n="97"/>fidei, &amp; uoluntatis: 
+      <lb ed="#B" n="98"/>inuestigans an omne opus, quod non 
+      <!--392.xml-->
+      <pb ed="#B" n="181-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>est ex fide sit peccatum: an etiam 
+      om<lb ed="#B" n="2" break="no"/>ne peccatum sit uoluntarium. 
+      Colligi<lb ed="#B" n="3" break="no"/>tur autem sententia textus in tribus 
+      con<lb ed="#B" n="4" break="no"/>clusionibus, quae sequuntur.
+    </p>
+            <p xml:id="gbs333-b88239-d1e140">
+      ¶ Prima 
+      con<lb ed="#B" n="5" break="no"/>clusio. Quamuis quorundam opinio 
+      <lb ed="#B" n="6"/>omnem actum non ex fide &amp; charitate 
+      <lb ed="#B" n="7"/>procedentem peccatum esse astruat: alio 
+      <lb ed="#B" n="8"/>rum tamen sententia quosdam 
+      infide<lb ed="#B" n="9" break="no"/>lium actus bonus fore, non autem 
+      me<lb ed="#B" n="10" break="no"/>ritorios: probabiliter affirmat.
+    </p>
+            <p xml:id="gbs333-b88239-d1e156">
+      ¶ 
+      Se<lb ed="#B" n="11" break="no"/>cunda conclusio. Nullum est peccatum, 
+      <lb ed="#B" n="12"/>quod non sit modo quodam 
+      uolunta<lb ed="#B" n="13" break="no"/>rium.
+    </p>
+            <p xml:id="gbs333-b88239-d1e165">
+      ¶ Tertia conclusio. Cum 
+      uolun<lb ed="#B" n="14" break="no"/>tas mala peccatum sit mortale, constat 
+      <lb ed="#B" n="15"/>uoluntatem ipsam mortale peccatum 
+      <lb ed="#B" n="16"/>esse. Declaratio patet in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

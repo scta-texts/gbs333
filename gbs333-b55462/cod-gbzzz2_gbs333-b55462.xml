@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="113-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b55462"><!-- l2-d19prae -->
+            <head xml:id="gbs333-b55462-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b55462-d1e103">
+               <lb ed="#B" n="75"/>DISTINCTIO RIx 
+      <lb ed="#B" n="76"/>GITde hominis 
+      con<lb ed="#B" n="77" break="no"/>stitutione in esse 
+      na<lb ed="#B" n="78" break="no"/>turali, consequenter 
+      <lb ed="#B" n="79"/>agit de eius 
+      conser<lb ed="#B" n="80" break="no"/>uatione in essentia 
+      <lb ed="#B" n="81"/>tali. Et primo de 
+      <lb ed="#B" n="82"/>l conseruatione 
+      quan<lb ed="#B" n="83" break="no"/>tum ad indiuiduum, per nutrimenti 
+      <lb ed="#B" n="84"/>sumptionem distinctione 
+      praesenti<lb ed="#B" n="85" break="no"/>Secundo quantum ad esse speciuocum 
+      <lb ed="#B" n="86"/>per prolis generationem, distinct. xx. 
+    </p>
+            <p xml:id="gbs333-b55462-d1e132">
+               <lb ed="#B" n="87"/>¶ Colligitur autem sententia huius 
+      di<lb ed="#B" n="88" break="no"/>stinctionis in tribus conclusionibus: 
+      <lb ed="#B" n="89"/>quarum prima est haec.
+    </p>
+            <p xml:id="gbs333-b55462-d1e141">
+      ¶ In triplici 
+      ho<lb ed="#B" n="90" break="no"/>minis statu praeterito, praesenti, &amp; 
+      futu<lb ed="#B" n="91" break="no"/>ro: triplex fuit ad mortalitatem, &amp; 
+      im<lb ed="#B" n="92" break="no"/>mortalitatem hominis habitudo. Et de 
+      <lb ed="#B" n="93"/>clarat hanc conclusionem, nam in 
+      statu<lb ed="#B" n="94" break="no"/>innocentiae praeterito potuit mori; &amp; 
+      po<lb ed="#B" n="95" break="no"/>tuit non mori. In secundo statu 
+      praesen<lb ed="#B" n="96" break="no"/>ti naturae lapsae non potuit non mori. 
+      <lb ed="#B" n="97"/>In tertio statu futuro beatitudinis 
+      <lb ed="#B" n="98"/>consumatae non potuit mori.
+    </p>
+            <p xml:id="gbs333-b55462-d1e163">
+      ¶ Se¬ 
+      <!--258.xml-->
+      <pb ed="#B" n="114-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cunda conclusio. Corpus hominis 
+      <lb ed="#B" n="2"/>ante peccatum mortalitatem per 
+      na<lb ed="#B" n="3" break="no"/>turam habuit: immortalitatem autem 
+      <lb ed="#B" n="4"/>lignum uitae ex gratiae dono dedit.
+    </p>
+            <p xml:id="gbs333-b55462-d1e182">
+      ¶ Ter 
+      <lb ed="#B" n="5"/>tia conclusio. Posse non mori 
+      secun<lb ed="#B" n="6" break="no"/>dum quorundam sententiam infuit 
+      ho<lb ed="#B" n="7" break="no"/>mini a cibo lignorum paradisi. Aligno 
+      ui<lb ed="#B" n="8" break="no"/>tae tantundatum fuisset onno non posse mori 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="106-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b51759"><!-- l2-d17prae -->
+            <head xml:id="gbs333-b51759-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b51759-d1e103">
+               <lb ed="#B" n="75"/>DISTINCTIO XVII 
+      <lb ed="#B" n="76"/>IN distinctione. xvij. 
+      <lb ed="#B" n="77"/>prosequitur 
+      magi<lb ed="#B" n="78" break="no"/>ster productionem 
+      ho<lb ed="#B" n="79" break="no"/>minis quantum ad 
+      <lb ed="#B" n="80"/>principia ipsius 
+      con<lb ed="#B" n="81" break="no"/>stitutiua, corpus scilicet 
+      <lb ed="#B" n="82"/>animam: &amp; hoc 
+      pri<lb ed="#B" n="83" break="no"/>mo de uiro: secundo de muliere uiri 
+      adiu<lb ed="#B" n="84" break="no"/>torio dist. xviij.
+    </p>
+            <p xml:id="gbs333-b51759-d1e127">
+      ¶ Sententia huius 
+      di<lb ed="#B" n="85" break="no"/>stinctionis in his tribus conclusionibus 
+      <lb ed="#B" n="86"/>summaric continetur.
+    </p>
+            <p xml:id="gbs333-b51759-d1e134">
+      ¶ Prima. Deus 
+      <lb ed="#B" n="87"/>hominis corpus de limo terrae uolunta 
+      <lb ed="#B" n="88"/>te formauit: ac uitae spiraculum 
+      inspi<lb ed="#B" n="89" break="no"/>rans, animam scilicet non de sua, neque 
+      mate<lb ed="#B" n="90" break="no"/>riae substantia: sed de nihilo in corpore 
+      <lb ed="#B" n="91"/>creando infudit: &amp; infundendo 
+      crea<lb ed="#B" n="92" break="no"/>uit.
+    </p>
+            <p xml:id="gbs333-b51759-d1e150">
+      ¶ Secunda. Adam in uirili aetate 
+      <lb ed="#B" n="93"/>ex tra paradisum corporalem 
+      produ<lb ed="#B" n="94" break="no"/>ctus: in ipso in orientali parte alta, &amp; 
+      <lb ed="#B" n="95"/>secreta, a principio amaenissime plantata, 
+      <lb ed="#B" n="96"/>dmo est locatus.
+    </p>
+            <p xml:id="gbs333-b51759-d1e162">
+      ¶ Tertia. Productis 
+      li<lb ed="#B" n="97" break="no"/>gno uitae a pprietate: ac ligno scientiae 
+      bo<lb ed="#B" n="98" break="no"/>ni, &amp; mali: sic ab euentu dictis in paradi¬ 
+      <!--243.xml-->
+      <pb ed="#B" n="106-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>so. Secundom quod malum non erat: ut 
+      obe<lb ed="#B" n="2" break="no"/>dientiae, bonum monstraretur: 
+      prohibi<lb ed="#B" n="3" break="no"/>tus est primus homo. Declaratio patet 
+      <lb ed="#B" n="4"/>in textu.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

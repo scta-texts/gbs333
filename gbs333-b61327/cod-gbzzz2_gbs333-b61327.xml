@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="125-v"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b61327"><!-- l2-d23prae -->
+            <head xml:id="gbs333-b61327-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b61327-d1e103">
+               <lb ed="#B" n="66"/>DISTINCTIO XXIII 
+      <lb ed="#B" n="67"/>IN hac distinctione 
+      <lb ed="#B" n="68"/>magister agit de 
+      pec<lb ed="#B" n="69" break="no"/>cato primi hominis 
+      <lb ed="#B" n="70"/>quantum ad Deum 
+      <lb ed="#B" n="71"/>permittentem: sicut  
+      <lb ed="#B" n="72"/>prius de eodem egit, 
+      <lb ed="#B" n="73"/>quantum ad 
+      diabo<lb ed="#B" n="74" break="no"/>lum tentantem, &amp; hominem cadentem: 
+      <lb ed="#B" n="75"/>annectens simulde hominis scientia, qua 
+      <lb ed="#B" n="76"/>praeditus est secundum statum 
+      primor<lb ed="#B" n="77" break="no"/>dialem,. colligitur autem sententia tex 
+      <lb ed="#B" n="78"/>tus in his conclusionibus tribus.
+    </p>
+            <p xml:id="gbs333-b61327-d1e134">
+      ¶ 
+      Pri<lb ed="#B" n="79" break="no"/>ma. Deus hominem, quem praesciuit 
+      ca<lb ed="#B" n="80" break="no"/>surum, &amp; crearempotuit, ut peccare 
+      nol<lb ed="#B" n="81" break="no"/>let (&amp; ita meliorem) fecit uertibilem: 
+      <lb ed="#B" n="82"/>neque sua potentia cum posset, 
+      praeser<lb ed="#B" n="83" break="no"/>uauit, uolutati relinquens proprie: qua 
+      <lb ed="#B" n="84"/>tenus si uellet, bene ageret non 
+      infru<lb ed="#B" n="85" break="no"/>ctuose: uel male non tamen impune. 
+    </p>
+            <p xml:id="gbs333-b61327-d1e152">
+               <lb ed="#B" n="86"/>¶ Secunda conclusio. Triplici cognitio 
+      <lb ed="#B" n="87"/>ne, creatoris, rerum propter se condita 
+      <lb ed="#B" n="88"/>rum, &amp; sui homo fuit praeditus, quam non 
+      <lb ed="#B" n="89"/>studio per temporum interualla: sed a 
+      <lb ed="#B" n="90"/>Deo recepit mox conditus.
+    </p>
+            <p xml:id="gbs333-b61327-d1e165">
+      ¶ Tertia con 
+      <lb ed="#B" n="91"/>clusio. Homo antelapsum accepit 
+      man<lb ed="#B" n="92" break="no"/>datum, &amp; scientiam circa facienda 
+      <lb ed="#B" n="93"/>non praescientiam eorum, quem 
+      <lb ed="#B" n="94"/>erant futura. 
+      Declara<lb ed="#B" n="95" break="no"/>tio patet ex 
+      <lb ed="#B" n="96"/>textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

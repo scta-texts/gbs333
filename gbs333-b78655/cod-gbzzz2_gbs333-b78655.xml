@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="161-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b78655"><!-- l2-d34q1 -->
+            <head xml:id="gbs333-b78655-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b78655-Hd1e103" type="question-title">
+      Utrum malum, quod  
+      non est ab aliquo 
+      efficiente: sit a bono sicut a causa 
+      deficienti
+    </head>
+            <p xml:id="gbs333-b78655-d1e106">
+               <lb ed="#B" n="92"/>QVAESTIO VNICA 
+      <lb ed="#B" n="93"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="94"/>quaeritur. Vtrum malum, quod  
+      <lb ed="#B" n="95"/>non est ab aliquo 
+      efficien<lb ed="#B" n="96" break="no"/>te: sit a bono sicut a causa 
+      <lb ed="#B" n="97"/>deficienti.
+    </p>
+            <p xml:id="gbs333-b78655-d1e122">
+      ¶ Praemissis notabilibus pro 
+      <!--353.xml-->
+      <pb ed="#B" n="161-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>articulo primo inferentur conclusiones 
+      <lb ed="#B" n="2"/>pro articulo secundo. cum dubijs 
+      particu<lb ed="#B" n="3" break="no"/>lo iij.
+    </p>
+            <p xml:id="gbs333-b78655-d1e138">
+      ¶ Quoad primum notandum: quod ut 
+      re<lb ed="#B" n="4" break="no"/>citat sanctus Bon. q. i. huius dist. Circa 
+      <lb ed="#B" n="5"/>materiam huius qustionis fuit heresis 
+      im<lb ed="#B" n="6" break="no"/>pijssimi manichaerponentis primam causa 
+      <lb ed="#B" n="7"/>mali esse malum, non bonum. Vnde quia homo 
+      <lb ed="#B" n="8"/>potest utrumques cilicet bene facere, &amp; peccare, 
+      po<lb ed="#B" n="9" break="no"/>fuit in homine duas animas, quarum una 
+      <lb ed="#B" n="10"/>est a deo bono, quaem sempe cupit bona. Alia 
+      <lb ed="#B" n="11"/>a deo malo, quae semper cupit malum: &amp; 
+      <lb ed="#B" n="12"/>omnia mala in nobis oriuntur a malo 
+      <lb ed="#B" n="13"/>principio, sicut bona abono: &amp; hinc est 
+      <lb ed="#B" n="14"/>in nobis continua pugna carnis contra 
+      <lb ed="#B" n="15"/>spiritum. Ponit quoque duo principia, 
+      si<lb ed="#B" n="16" break="no"/>ue duos deos, quorum unum est bonum, 
+      <lb ed="#B" n="17"/>nihil habens de malo: &amp; aliud malum, 
+      <lb ed="#B" n="18"/>nihil habes de bono.
+    </p>
+            <p xml:id="gbs333-b78655-d1e174">
+      ¶ Sed ponere 
+      ma<lb ed="#B" n="19" break="no"/>sum esse, quod nihilhabeat de bono, non 
+      <lb ed="#B" n="20"/>solum est peruersitas haereticae, sed etiam 
+      <lb ed="#B" n="21"/>manifestae caecitatis &amp; stultitia: nam ipsa 
+      <lb ed="#B" n="22"/>positio includit in se opposita: &amp; per hoc  
+      <lb ed="#B" n="23"/>destruit seipsam: implicat enim, quod illud 
+      <lb ed="#B" n="24"/>summum sit, &amp; non sit: quod possit, &amp; non 
+      <lb ed="#B" n="25"/>possit: quod sciat, &amp; non sciat: quod sit malum, 
+      <lb ed="#B" n="26"/>&amp; non malum: quae sunt manifesta 
+      con<lb ed="#B" n="27" break="no"/>tradictoria respectu eiusdem.
+    </p>
+            <p xml:id="gbs333-b78655-d1e196">
+      ¶ Primum 
+      <lb ed="#B" n="28"/>patet, quia si ponitur illud summum 
+      ma<lb ed="#B" n="29" break="no"/>lum nihil habens de bono ipsum non 
+      ha<lb ed="#B" n="30" break="no"/>bet esse: quia esse, est aliquod bonum, 
+      er<lb ed="#B" n="31" break="no"/>go habet esse, quia ponitur: &amp; non habet 
+      <lb ed="#B" n="32"/>esse, quia nihil boni habet: est ergo &amp; non 
+      <lb ed="#B" n="33"/>est.
+    </p>
+            <p xml:id="gbs333-b78655-d1e212">
+      ¶ Secundum probatur: omnis 
+      poten<lb ed="#B" n="34" break="no"/>tia secundum philosophum est de 
+      gene<lb ed="#B" n="35" break="no"/>nere bonorum: ergo si aliquod est 
+      sum<lb ed="#B" n="36" break="no"/>me malum, nihil habens boni, non 
+      ha<lb ed="#B" n="37" break="no"/>bet potentiam, &amp; sic nihil potest: &amp; quia 
+      <lb ed="#B" n="38"/>est summum, plus potest, quam 
+      quod<lb ed="#B" n="39" break="no"/>cunque malum circa summum: sed 
+      ma<lb ed="#B" n="40" break="no"/>la, non summa multa possunt: sicut  
+      <lb ed="#B" n="41"/>anima mala hominis secundum eos: 
+      er<lb ed="#B" n="42" break="no"/>go eoipso, quod summum multa mala 
+      po<lb ed="#B" n="43" break="no"/>test, ergo potest, &amp; non potest.
+    </p>
+            <p xml:id="gbs333-b78655-d1e236">
+      ¶ 
+      Ter<lb ed="#B" n="44" break="no"/>tium ostenditur: omnis scientia est de 
+      <lb ed="#B" n="45"/>genere bonorum. j. de anima. non 
+      so<lb ed="#B" n="46" break="no"/>sum scientia bonorum: sed etiam 
+      scien<lb ed="#B" n="47" break="no"/>tia mali: scire enim malum bonum est; 
+      <lb ed="#B" n="48"/>ergo summum malum caret notitia 
+      bo<lb ed="#B" n="49" break="no"/>ni, &amp; mali: ergo nec seit facere 
+      ma<lb ed="#B" n="50" break="no"/>lum nec laedere: sed hoc ipso, quod est sum¬ 
+      <!--353.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>me malum scit laedere bonum: ergo 
+      eo<lb ed="#B" n="52" break="no"/>ipso quod summum malum est, scit, &amp; 
+      ne<lb ed="#B" n="53" break="no"/>icit bona, &amp; mala.
+    </p>
+            <p xml:id="gbs333-b78655-d1e265">
+      ¶ Quartum 
+      proba<lb ed="#B" n="54" break="no"/>tur: quia summe malum est malum 
+      per<lb ed="#B" n="55" break="no"/>essentiam: &amp; ita naturale est ei facere 
+      <lb ed="#B" n="56"/>malum: &amp; unum quodque dum facit, quod  
+      <lb ed="#B" n="57"/>est sibi naturale. bene facit: &amp; quod bene 
+      <lb ed="#B" n="58"/>facit, est bonum: ergo non malum, &amp; 
+      <lb ed="#B" n="59"/>summe malum.
+    </p>
+            <p xml:id="gbs333-b78655-d1e281">
+      ¶ Item ut arguit Sco. 
+      <lb ed="#B" n="60"/>si ponitur primum, &amp; summum malum 
+      <lb ed="#B" n="61"/>ex aequo ad primum bonum: hoc est 
+      ta<lb ed="#B" n="62" break="no"/>le, &amp; tantum in malo: quale, &amp; quantum 
+      <lb ed="#B" n="63"/>primum bonum in bono: ipsum erit 
+      ne<lb ed="#B" n="64" break="no"/>cesse esse, &amp; omnino imparticipatum, &amp; 
+      <lb ed="#B" n="65"/>independens: esse autem necesse esse &amp; 
+      <lb ed="#B" n="66"/>imparticipatum, &amp; independens: non 
+      con<lb ed="#B" n="67" break="no"/>uenit nisi perfectissimo: &amp; ita summe 
+      <lb ed="#B" n="68"/>malum esse perfectissimum, &amp; ita 
+      sum<lb ed="#B" n="69" break="no"/>mum.
+    </p>
+            <p xml:id="gbs333-b78655-d1e306">
+      ¶ Hanc etiam haeresim dementissi 
+      <lb ed="#B" n="70"/>mam quantum ad duas animas, quas 
+      po<lb ed="#B" n="71" break="no"/>nit efficaciter reprobat beatus Augu. in 
+      <lb ed="#B" n="72"/>lib. de duabus animabus. quem libellum 
+      <lb ed="#B" n="73"/>Aug. edidit contra manichaeos, rationi 
+      <lb ed="#B" n="74"/>bus sumptis ab ipsa culpa peccati, &amp; ab 
+      <lb ed="#B" n="75"/>eius opposito scilicet paenitentia fundans 
+      <lb ed="#B" n="76"/>ibi duo principia. Primum, quod peccatum 
+      <lb ed="#B" n="77"/>est uoluntas retinendi, uel 
+      consequen<lb ed="#B" n="78" break="no"/>di, quod iustitia uetat: unde liberum est 
+      <lb ed="#B" n="79"/>abstinere. Secundum uoluntas est animi 
+      mo<lb ed="#B" n="80" break="no"/>tus nullo cogente ad aliquid non 
+      admit<lb ed="#B" n="81" break="no"/>tendum, uel adipiscendum. Si quis. n. has 
+      <lb ed="#B" n="82"/>duas diffinitiones uoluntatis, atque 
+      pec<lb ed="#B" n="83" break="no"/>cati ueras esse concedit, totam manichaeorum 
+      <lb ed="#B" n="84"/>haeresim breuissimis, &amp; paucissimis, sed  
+      <lb ed="#B" n="85"/>plane &amp; inuictissimis munimentis sine 
+      <lb ed="#B" n="86"/>cunctatione condemnat. Nam si anima 
+      mala<lb ed="#B" n="87" break="no"/>non potest bona facere, ut ponit haeresis: &amp; 
+      <lb ed="#B" n="88"/>tamen principium est peccati secundum 
+      <lb ed="#B" n="89"/>propriam naturam, sequitur quod peccando 
+      <lb ed="#B" n="90"/>non peceat: nam agendo secundum propriam 
+      na<lb ed="#B" n="91" break="no"/>turam, non est sibi liberum abstinere: 
+      cogi<lb ed="#B" n="92" break="no"/>tur. ni. a propria sua natura, ex qua habet 
+      <lb ed="#B" n="93"/>malum facere, &amp; non bene facere: ergo sic 
+      <lb ed="#B" n="94"/>faciendo non peccat: ergo peccando non 
+      <lb ed="#B" n="95"/>peccat. Similiter manifestum est, quod paenite 
+      <lb ed="#B" n="96"/>re depeccato bonum, &amp; iustum est etiam 
+      possi<lb ed="#B" n="97" break="no"/>bile homini: nam ipsi manichaei hoc suadent  
+      <lb ed="#B" n="98"/>certum etiam est: quod eius est penitere, qui 
+      fa<lb ed="#B" n="99" break="no"/>cit malum: ergo idem ipsu, quid fuit principium 
+      <lb ed="#B" n="100"/>mali, potest esse principium boni: sed esse 
+      <!--354.xml-->
+      <pb ed="#B" n="162-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>principium boni, bonum est: ergo malum 
+      <lb ed="#B" n="2"/>est a bono: sic ergo seipsam destruit. 
+    </p>
+            <p xml:id="gbs333-b78655-d1e387">
+               <lb ed="#B" n="3"/>¶ Secundo notandum: quod cum sit malum cul 
+      <lb ed="#B" n="4"/>pae, &amp; malum poenae, nunc solum loquimur 
+      <lb ed="#B" n="5"/>de malo culpae: non n. dubium est malum 
+      <lb ed="#B" n="6"/>poenae esse, quid positiuum: &amp; habere 
+      cau<lb ed="#B" n="7" break="no"/>sam positiuam etiam ipsum deum: secundum 
+      <lb ed="#B" n="8"/>illud Amos. iij. Si erit malum in ciuitate, 
+      <lb ed="#B" n="9"/>quod dominus non fecerit, loquitur ibi 
+      <lb ed="#B" n="10"/>propheta de malo poenae.
+    </p>
+            <p xml:id="gbs333-b78655-d1e407">
+      ¶ Malum quoque  
+      <lb ed="#B" n="11"/>culpaedupliciter potest accipi secundum 
+      <lb ed="#B" n="12"/>beatu Bonauem. q. vj. huius dist. Vno 
+      mo<lb ed="#B" n="13" break="no"/>do concretiue: alio abstractiue. 
+      Concreti<lb ed="#B" n="14" break="no"/>ue concernit duo substractum scilicet quod res illa 
+      <lb ed="#B" n="15"/>est, quae denominatur a malitia: puta 
+      ho<lb ed="#B" n="16" break="no"/>mo malus, uel anima mala, aut actio ma 
+      <lb ed="#B" n="17"/>la. Et connotatum, hoc est malitia, a qua 
+      <lb ed="#B" n="18"/>homo peccator dicitur malus. Alio 
+      mo<lb ed="#B" n="19" break="no"/>do abstractiue ut solum connotatum 
+      im<lb ed="#B" n="20" break="no"/>portat, a quo peccator dicitur malus Et  
+      <lb ed="#B" n="21"/>hoc modo malum idem est, quod malitia, &amp; 
+      <lb ed="#B" n="22"/>habet se ad Iy malitiosus, sicut peccatum 
+      <lb ed="#B" n="23"/>ad Iy peccator.
+    </p>
+            <p xml:id="gbs333-b78655-d1e438">
+      ¶ Verum quod &amp; malitia, &amp; 
+      <lb ed="#B" n="24"/>peccatum possunt quandoque accipi pure 
+      <lb ed="#B" n="25"/>abstractiue: ut praecise important illud, 
+      <lb ed="#B" n="26"/>a quo res aliqua primo denominatur 
+      ma<lb ed="#B" n="27" break="no"/>la, &amp; non rem ipsam denominata. Alio 
+      mo<lb ed="#B" n="28" break="no"/>do ut actum aliquem importat substractiue, 
+      <lb ed="#B" n="29"/>quem in se habet peccator: uel quem 
+      fa<lb ed="#B" n="30" break="no"/>ciendo dicitur peccator: &amp; connotat 
+      il<lb ed="#B" n="31" break="no"/>lud, a quo dicitur formaliter peccatum: ut  
+      <lb ed="#B" n="32"/>actum homicidij dicimus peccatum, &amp; actum 
+      <lb ed="#B" n="33"/>intemperantiae: licet actus ille esse posset, 
+      <lb ed="#B" n="34"/>&amp; non esse peccatum: non ergo actus 
+      ho<lb ed="#B" n="35" break="no"/>micidij gratia exempli a se denominatur 
+      <lb ed="#B" n="36"/>peccatum: sed ab aliquo alio.
+    </p>
+            <p xml:id="gbs333-b78655-d1e469">
+      ¶ 
+      Supponi<lb ed="#B" n="37" break="no"/>tur etiam, quod res quandoque denominatur 
+      <lb ed="#B" n="38"/>a re positiua, quam habet ut ab anima 
+      ratio<lb ed="#B" n="39" break="no"/>nali rationalis, ab albedine albus; a gra 
+      <lb ed="#B" n="40"/>tia gratus. Qomque a re aliqua, qua caret. 
+      <lb ed="#B" n="41"/>ut caecus a carentia uisus: iniustus a carem 
+      <lb ed="#B" n="42"/>tia iustitiae. Et secundum hoc aliquae deno 
+      <lb ed="#B" n="43"/>minationes dicuntur positiuae: aliquae 
+      pri<lb ed="#B" n="44" break="no"/>uatiuae, uel negatiuae.
+    </p>
+            <p xml:id="gbs333-b78655-d1e489">
+      ¶ Primatum 
+      deno<lb ed="#B" n="45" break="no"/>minationum abstracta supponunt pro 
+      ali<lb ed="#B" n="46" break="no"/>qua re seu entitate uel pro pluribus 
+      re<lb ed="#B" n="47" break="no"/>bus.
+    </p>
+            <p xml:id="gbs333-b78655-d1e499">
+      ¶ Secundarum uero abstracta non 
+      <lb ed="#B" n="48"/>supponunt pro re aliqua: sed important  
+      <lb ed="#B" n="49"/>carentiam rei, ut tenebra non 
+      suppo<lb ed="#B" n="50" break="no"/>nit pro aliqua re: sed dicit absentiam 
+      <!--354.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>lucis.
+    </p>
+            <p xml:id="gbs333-b78655-d1e515">
+      ¶ Et propositiones affirmatiuae de 
+      <lb ed="#B" n="52"/>talibus abstractis, ut uere sint: 
+      accipien<lb ed="#B" n="53" break="no"/>dae sunt negatiue, ut si dicimus. Adsunt 
+      <lb ed="#B" n="54"/>tenebrae, accipienda est pro illa: non ad est 
+      <lb ed="#B" n="55"/>lux. caecitas inest oculod e. oculus caret, 
+      <lb ed="#B" n="56"/>seu no habet uisum. Nam de rigore 
+      uer<lb ed="#B" n="57" break="no"/>borum, omnes affirmatiuae falsae sunt, 
+      <lb ed="#B" n="58"/>cuius alterum extremum est terminus 
+      <lb ed="#B" n="59"/>non supponens, &amp; ita omnes illae 
+      assir<lb ed="#B" n="60" break="no"/>matiuae falsae sunt, in quibus alterum ex 
+      <lb ed="#B" n="61"/>tremum est abstractum priuatiuum, 
+      sal<lb ed="#B" n="62" break="no"/>tem non ampliatiue. Et haec est intentio 
+      <lb ed="#B" n="63"/>beati Augustini in lib. de uita beata, in 
+      <lb ed="#B" n="64"/>disputatione tertiae dici. c. iij. ubi 
+      dispu<lb ed="#B" n="65" break="no"/>tans quid sit miseria, &amp; egestas, ait. 
+      Ha<lb ed="#B" n="66" break="no"/>bere egestatem, authabere stultitiam, 
+      ta<lb ed="#B" n="67" break="no"/>se est, ac si locum aliquem, qui lumine 
+      ca<lb ed="#B" n="68" break="no"/>ret, dicamus habere tenebras: quod 
+      ni<lb ed="#B" n="69" break="no"/>hil aliud est, quam lumen non habere. 
+      <lb ed="#B" n="70"/>Non enim tenebre quasi ueniunt, aut 
+      re<lb ed="#B" n="71" break="no"/>cedunt: sed carere lumine hoc ipsum est 
+      <lb ed="#B" n="72"/>iam tenebrosum esse: non enim ueste ac 
+      <lb ed="#B" n="73"/>cedente, ueluti aliqua res mobilis 
+      nudi<lb ed="#B" n="74" break="no"/>tas fugit. Sic ergo dicimus aliquem 
+      ha<lb ed="#B" n="75" break="no"/>bere egestatem: quasi dicamus habere 
+      nu<lb ed="#B" n="76" break="no"/>ditatem. Egestas enim uerbum est non 
+      <lb ed="#B" n="77"/>habendi: quamobrem, ut quod uolo, 
+      <lb ed="#B" n="78"/>explicem, sicut possum: ita dicitur 
+      habe<lb ed="#B" n="79" break="no"/>re egestatem: quasi dicatur, habet non 
+      <lb ed="#B" n="80"/>haberae. Haec Aug. Idem super Gen. adlite 
+      <lb ed="#B" n="81"/>ram super illo. Et tenebrae erant super 
+      fa<lb ed="#B" n="82" break="no"/>ciem abissi, ait. Reuera, qui diligenter 
+      <lb ed="#B" n="83"/>considerat, quid sunt tenebrae: nihil aliud 
+      <lb ed="#B" n="84"/>inuenit, quam lucis absentiam: ita 
+      er<lb ed="#B" n="85" break="no"/>go dictum est. Tenebrae erant super 
+      fa<lb ed="#B" n="86" break="no"/>ciem abissi, ac si dictum esset, Non erat  
+      <lb ed="#B" n="87"/>lux super abissum. Omnes ergo 
+      locu<lb ed="#B" n="88" break="no"/>tiones, &amp; auctoritates significantes 
+      <lb ed="#B" n="89"/>priuationem esse in rebus quibuscunque;  
+      <lb ed="#B" n="90"/>non sunt accipiendae in sua proprie- 
+      <lb ed="#B" n="91"/>tate: sed ad sensum, quem 
+      auctorita<lb ed="#B" n="92" break="no"/>tes habebant, quae non intendebant 
+      <lb ed="#B" n="93"/>aliquam entitatem esse in rebus 
+      pri<lb ed="#B" n="94" break="no"/>uationis: sed magis non inesse, quae 
+      <lb ed="#B" n="95"/>inesse debebant: &amp; ideo cum malum 
+      <lb ed="#B" n="96"/>aliquid dicitur esse in re al qua non aliud 
+      <lb ed="#B" n="97"/>significatur, nisi quod aliquod bonum non 
+      <lb ed="#B" n="98"/>habet, quod habere deberet: &amp; ita 
+      om<lb ed="#B" n="99" break="no"/>nes affirmatiuae in negatiuas sunt  
+      <lb ed="#B" n="100"/>resoluendae. Haec Grego. de arim. 
+      <!--355.xml-->
+      <pb ed="#B" n="162-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>in distin. praesenti. Similia habentur in 
+      <lb ed="#B" n="2"/>de ciui. dei lib. xj. c. x. de tenebra. Item 
+      <lb ed="#B" n="3"/>lib. xiiij. c. xj. de malo. Item lib. xj. c. xxij. 
+      <lb ed="#B" n="4"/>de malo uide ibi.
+    </p>
+            <p xml:id="gbs333-b78655-d1e639">
+      ¶ Supponitur ult. 
+      se<lb ed="#B" n="5" break="no"/>quent. dist. probandum, quod malum pure abstra 
+      <lb ed="#B" n="6"/>ctiue seu peccatum, non est ens aliquod: sed  
+      <lb ed="#B" n="7"/>priuatio boni: ut dist. sequenti patet. 
+    </p>
+            <p xml:id="gbs333-b78655-d1e648">
+               <lb ed="#B" n="8"/>¶ Quantum ad secundum articulum, est 
+      pri<lb ed="#B" n="9" break="no"/>ma conclusio. Accipiendo malum 
+      con<lb ed="#B" n="10" break="no"/>cretiue, aut abstractiue non pure 
+      secun<lb ed="#B" n="11" break="no"/>do modo dicto: ut importat rem aliquam 
+      <lb ed="#B" n="12"/>substractiue: omne malum est a causa 
+      posi<lb ed="#B" n="13" break="no"/>tiua efficiente. Probatur: quia omnis 
+      <lb ed="#B" n="14"/>res positiua, quae non est creator, habet 
+      <lb ed="#B" n="15"/>causam positiuam efficientem: cum 
+      ni<lb ed="#B" n="16" break="no"/>hil creatum sit a se, uel ex se. Nec 
+      po<lb ed="#B" n="17" break="no"/>test esse a nihilo: quia a nihilo nihil sit: 
+      <lb ed="#B" n="18"/>ergo est ab aliquo existente. Et ita a 
+      cau<lb ed="#B" n="19" break="no"/>sa positiua efficiente. Sed omne malum 
+      <lb ed="#B" n="20"/>dicto modo acceptum est res positiua: 
+      <lb ed="#B" n="21"/>quia peccator uel actus peccandi 
+      inte<lb ed="#B" n="22" break="no"/>rior, uel exterior aut habitus &amp; non 
+      crea<lb ed="#B" n="23" break="no"/>tor: ergo omne peccatum habet causam 
+      <lb ed="#B" n="24"/>positiuam efficientem. Cosequentia 
+      no<lb ed="#B" n="25" break="no"/>ta: &amp; praemissae probatae sunt.
+    </p>
+            <p xml:id="gbs333-b78655-d1e690">
+      ¶ Corolla 
+      <lb ed="#B" n="26"/>rium: omne malum hoc modo acceptum 
+      <lb ed="#B" n="27"/>est a causa bona efficiente. Patet: quia 
+      <lb ed="#B" n="28"/>tale malum est a causa positiua: &amp; omne 
+      <lb ed="#B" n="29"/>ens positiuum est bonum: cum nihil sit 
+      <lb ed="#B" n="30"/>simpliciter malum: ut probatum est prioriar 
+      <lb ed="#B" n="31"/>ticulo contra manichaeos.
+    </p>
+            <p xml:id="gbs333-b78655-d1e706">
+      ¶ Secunda 
+      <lb ed="#B" n="32"/>conclusio. Malum acceptum pure abstra 
+      <lb ed="#B" n="33"/>ctiue secundum sermonis proprietatem, 
+      <lb ed="#B" n="34"/>non habet causam positiuam, neque 
+      efsi<lb ed="#B" n="35" break="no"/>cientem, neque deficientem. Probatur: que  
+      <lb ed="#B" n="36"/>sic accipiendo malum, malum nihil est 
+      <lb ed="#B" n="37"/>Eius autem, quid nihil est, non est causa 
+      ef<lb ed="#B" n="38" break="no"/>ficiens, neque causa alia: de termino, nio 
+      <lb ed="#B" n="39"/>non supponente nihil affirmari potest. 
+      <lb ed="#B" n="40"/>Item omne efficiens facit aliquid esse, 
+      <lb ed="#B" n="41"/>&amp; aliquam entitatem: nec proprie dicitur 
+      <lb ed="#B" n="42"/>factum, quam nihil est. Vnde vij. 
+      metaphy<lb ed="#B" n="43" break="no"/>dicit philosophus: quod omnia, quae siunt, 
+      <lb ed="#B" n="44"/>ab aliquo siunt, &amp; ex aliquo, &amp; aliquid. 
+      <lb ed="#B" n="45"/>Cuius dictum quantum ad primam, &amp; 
+      ul<lb ed="#B" n="46" break="no"/>timam eius particulam utique; uerum est: licet 
+      <lb ed="#B" n="47"/>non quoad secundam, propter creatio 
+      <lb ed="#B" n="48"/>nem, qua aliquid sit non ex aliquo. Et 
+      confir<lb ed="#B" n="49" break="no"/>matur per beatum Aug. super Gen. ad 
+      <lb ed="#B" n="50"/>literam dicentem. Non no. deum tenebras 
+      <!--355.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>fecisse dictum est in illa scilicet scriptura Gen. 
+      <lb ed="#B" n="52"/>qua uniuersorum creatio prima refertur: 
+      <lb ed="#B" n="53"/>quoniam spens ipsas deus fecit: id est res 
+      <lb ed="#B" n="54"/>habentes species non priuationes, quae 
+      <lb ed="#B" n="55"/>ad nihilum pertinent. unde ab artifice 
+      <lb ed="#B" n="56"/>deo facta sunt omnia. Et paulo post. 
+      <lb ed="#B" n="57"/>species, naturasque ipsas, &amp; deus facit, &amp; 
+      <lb ed="#B" n="58"/>ordinat. Item in responsione prima 
+      Hippo<lb ed="#B" n="59" break="no"/>nem. circa medium. Mors, inqt, priuatio 
+      ui<lb ed="#B" n="60" break="no"/>tae est, non tantum habens non essentiam: 
+      <lb ed="#B" n="61"/>&amp; ideo deus eius auctor ee dici non potest. 
+      <lb ed="#B" n="62"/>Quicquid. no. deum fecisse dicimus, 
+      ha<lb ed="#B" n="63" break="no"/>bet essentiam id est species est: essentia, n. dici 
+      <lb ed="#B" n="64"/>tur ab eo, quid est.
+    </p>
+            <p xml:id="gbs333-b78655-d1e785">
+      ¶ Tertia conclusio. 
+      Ma<lb ed="#B" n="65" break="no"/>lum habens causam efficientem proprie 
+      quan<lb ed="#B" n="66" break="no"/>tum ad significatum suum substractiuu, &amp; 
+      <lb ed="#B" n="67"/>materiale, habet causam deficientem 
+      im<lb ed="#B" n="68" break="no"/>proprie quantum ad priuationem boni, quae 
+      <lb ed="#B" n="69"/>est significatum suum formale. Prima 
+      <lb ed="#B" n="70"/>pars patet ex conclusione prima. Secunda 
+      <lb ed="#B" n="71"/>pbatur auctoritate beati Aug. lib. xij. de 
+      <lb ed="#B" n="72"/>ciui. dei c. vij. sic dicentis. Nemo 
+      quae<lb ed="#B" n="73" break="no"/>rat efficientem causam malae 
+      uolunta<lb ed="#B" n="74" break="no"/>tis: non enim est efficiens, sed deficiens, 
+      <lb ed="#B" n="75"/>quia nec illa scilicet uoluntas mala 
+      effectio<lb ed="#B" n="76" break="no"/>est, sed defectio. Deficere namque ab 
+      <lb ed="#B" n="77"/>eo, quod summum est ad id, quod 
+      mi<lb ed="#B" n="78" break="no"/>nus est: hoc est incipere habere 
+      uolun<lb ed="#B" n="79" break="no"/>tatem malam. Causas porro 
+      defectio<lb ed="#B" n="80" break="no"/>num istarum: cum efficientes non sint, 
+      <lb ed="#B" n="81"/>sed deficientes, uelle inuenite tale est. 
+      <lb ed="#B" n="82"/>ac si quisquam uelit uidere tenebras, &amp; 
+      <lb ed="#B" n="83"/>audire filentium. Et in fine capituli. In 
+      <lb ed="#B" n="84"/>quantum deficiunt, male faciunt, &amp; quid 
+      <lb ed="#B" n="85"/>faciunt nisi uana, quaecausas habent 
+      de<lb ed="#B" n="86" break="no"/>ficientes. Et in principio c. ix. Nec 
+      ta<lb ed="#B" n="87" break="no"/>lem uoluntatem facit nisi defectio, qua 
+      <lb ed="#B" n="88"/>deseritur deus, cuius etiam 
+      defectio<lb ed="#B" n="89" break="no"/>nis causa deficit. Ex quibus uerbis, &amp; 
+      <lb ed="#B" n="90"/>praecedentibus, &amp; sequentibus satis 
+      in<lb ed="#B" n="91" break="no"/>nuit beatus Aug. quod malum quantum ad 
+      <lb ed="#B" n="92"/>rationem formalem mali, sicut nihil 
+      <lb ed="#B" n="93"/>est, quia priuatio boni sic non habet causa 
+      <lb ed="#B" n="94"/>efficientem, sed deficientem. Hoc est 
+      <lb ed="#B" n="95"/>non habet causam, per quam sit 
+      aliquid<lb ed="#B" n="96" break="no"/>Sed quia deficit causa ipsum quoque 
+      de<lb ed="#B" n="97" break="no"/>ficit: hoc est quia bonum non est: 
+      ma<lb ed="#B" n="98" break="no"/>lum esse dicitur id est priuatio boni.
+    </p>
+            <p xml:id="gbs333-b78655-d1e861">
+      ¶ Et  
+      <lb ed="#B" n="99"/>ideo dictum est notanter in 
+      conclusio<lb ed="#B" n="100" break="no"/>ne improprie: nam causa dupliciter ac¬ 
+      <!--356.xml-->
+      <pb ed="#B" n="163-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>cipiturscilicet proprie &amp; improprie. 
+      Pri<lb ed="#B" n="2" break="no"/>mo accipitur proprie pro illo, adcuius 
+      <lb ed="#B" n="3"/>esse sequitur aliud: quo scilicet 
+      posito<lb ed="#B" n="4" break="no"/>aliud ponitur: &amp; eo non posito, 
+      nopone<lb ed="#B" n="5" break="no"/>retur ad bonum intellectum supra. q.ij. dist. 
+      <lb ed="#B" n="6"/>j. huius lib. positum. &amp; sic malum quantum 
+      <lb ed="#B" n="7"/>ad formale non habet causam 
+      deficien<lb ed="#B" n="8" break="no"/>tem. Alio modo accipitur improprie 
+      pro<lb ed="#B" n="9" break="no"/>positione aliqua habente aliquam 
+      prio<lb ed="#B" n="10" break="no"/>ritatem ad aliam secundum consequentiam, 
+      <lb ed="#B" n="11"/>Sic antecedens, quamdo peripsum 
+      cognosci<lb ed="#B" n="12" break="no"/>mus ueritatem consequentis: dicitur 
+      cau<lb ed="#B" n="13" break="no"/>sa consequentis: sic dicimus Petrum non 
+      <lb ed="#B" n="14"/>moueri esse causam manendi in eodem 
+      lo<lb ed="#B" n="15" break="no"/>co, &amp; ignem non approximari passo esse 
+      <lb ed="#B" n="16"/>causa non calefaciendi: quia ex hoc, quod 
+      <lb ed="#B" n="17"/>cognoscimus Petrum non moueri, cogno 
+      <lb ed="#B" n="18"/>scimus eum manere in eodem loco. Et si co 
+      <lb ed="#B" n="19"/>gnoscimus calefaciens non esse 
+      appro<lb ed="#B" n="20" break="no"/>ximatum calefactibili, cognoscimus non 
+      <lb ed="#B" n="21"/>fieri calefactionem. Et illo modo 
+      pri<lb ed="#B" n="22" break="no"/>uatio habet causam deficientem: quia 
+      <lb ed="#B" n="23"/>ex propositione exprimente defectum, 
+      <lb ed="#B" n="24"/>seu absentiam aliquorum, sequitur 
+      pro<lb ed="#B" n="25" break="no"/>positio importans priuationem aliorum: 
+      <lb ed="#B" n="26"/>ut in proposito bene sequitur. 
+      Volun<lb ed="#B" n="27" break="no"/>tas in tali actu non conuertit se ad 
+      ho<lb ed="#B" n="28" break="no"/>num inconmutabile, cum debeat: ergo non est 
+      <lb ed="#B" n="29"/>rectitudo debita in tali actu. Et sic 
+      pri<lb ed="#B" n="30" break="no"/>uatio illa rectitudinis debitae inesse 
+      ha<lb ed="#B" n="31" break="no"/>bet causam defectiuam: quia ueritas 
+      il<lb ed="#B" n="32" break="no"/>lius propositionis priuationem 
+      huiusmo<lb ed="#B" n="33" break="no"/>di significantis, sequitur ad aliam 
+      propos<lb ed="#B" n="34" break="no"/>tionem significantem defectum alicuius: quod 
+      si<lb ed="#B" n="35" break="no"/>non deficeret, propositio illa uera non 
+      <lb ed="#B" n="36"/>esset.
+    </p>
+            <p xml:id="gbs333-b78655-d1e952">
+      ¶ Quantu ad articulum tertium est 
+      <lb ed="#B" n="37"/>dubium primum. Vtrum malum sit a bono 
+      secun<lb ed="#B" n="38" break="no"/>dum intentionem uel praeter intentionem. 
+      Re<lb ed="#B" n="39" break="no"/>spondetur secundum lanctum Bona. 
+      Possu<lb ed="#B" n="40" break="no"/>mus loqui de malo quantum ad substractum, 
+      <lb ed="#B" n="41"/>uel materiale, uel quantum ad formale. 
+      <lb ed="#B" n="42"/>Quantum ad materiale significatum id est rem 
+      <lb ed="#B" n="43"/>illa siue actum, qui denominatur malus, 
+      <lb ed="#B" n="44"/>qualis est actus intemperantiae siue 
+      fur<lb ed="#B" n="45" break="no"/>ti, contingit malum intendere, &amp; 
+      tan<lb ed="#B" n="46" break="no"/>quam finem, &amp; tanquam medium ad 
+      fi<lb ed="#B" n="47" break="no"/>nem. Sic aliquis finaliter intendere 
+      <lb ed="#B" n="48"/>potest actum intemperantiae tanquam 
+      <lb ed="#B" n="49"/>delectabile: ut potest intendere 
+      fur<lb ed="#B" n="50" break="no"/>tum, tanquam utile, ut possit uoluptuo¬ 
+      <!--356.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>se uiuere: &amp; mendacium, ut possit 
+      ua<lb ed="#B" n="52" break="no"/>nelaudari.
+    </p>
+            <p xml:id="gbs333-b78655-d1e994">
+      ¶ Quantum uero ad 
+      forma<lb ed="#B" n="53" break="no"/>le, potest dupliciter accipi: aut ita, quod 
+      in<lb ed="#B" n="54" break="no"/>tendat hoc uoluntas sub ratione malisim. 
+      <lb ed="#B" n="55"/>pliciter, &amp; mali sibi. Sic nullus potest 
+      inten<lb ed="#B" n="56" break="no"/>dere malum: quia sub illa ratione non est 
+      <lb ed="#B" n="57"/>appetibile. bonum. n. est, quod omnia 
+      ap<lb ed="#B" n="58" break="no"/>petunt. j. Et hico. Et beatus Dion. 
+      Ne<lb ed="#B" n="59" break="no"/>mo operatur ad malum respiciens: nihil 
+      <lb ed="#B" n="60"/>ergo intenditura uoluntate nisi tantum 
+      <lb ed="#B" n="61"/>bonum simpliciter, uelbonum sibi. Aliter 
+      <lb ed="#B" n="62"/>potest accipi, ut intendat aliquod malum 
+      <lb ed="#B" n="63"/>simpliciter: sed bonum sibi, sic malum 
+      po<lb ed="#B" n="64" break="no"/>test fieri, &amp; sit quandoque ex intentione: 
+      <lb ed="#B" n="65"/>licet non nisi a malitiosis. Sunt. n. 
+      quae<lb ed="#B" n="66" break="no"/>dam, quae habent malitiam 
+      inseparabili<lb ed="#B" n="67" break="no"/>ter conunctam. Et qui talia intendunt, 
+      per<lb ed="#B" n="68" break="no"/>consequens intendunt id, quod est eis in 
+      <lb ed="#B" n="69"/>separabiliter coniunctum.
+    </p>
+            <p xml:id="gbs333-b78655-d1e1033">
+      ¶ Verum uidetur 
+      <lb ed="#B" n="70"/>aliter dici posse: quod etiam malitiosis licet  
+      <lb ed="#B" n="71"/>placeat defectus circunstantiae propter 
+      <lb ed="#B" n="72"/>quem actus uolitus est malus: non tamen 
+      <lb ed="#B" n="73"/>sub ratione mali: quia non placet eis 
+      pri<lb ed="#B" n="74" break="no"/>uatio, &amp; defectio circunstantiae ut debite 
+      <lb ed="#B" n="75"/>nesse. Nemo enim, quam operatur aliquid 
+      <lb ed="#B" n="76"/>cum carentia circunstantiae, quam uult non 
+      <lb ed="#B" n="77"/>inesse, uult se esse debitorem illius 
+      cir<lb ed="#B" n="78" break="no"/>cunstantiae. In hoc enim quod uult non 
+      ines<lb ed="#B" n="79" break="no"/>se illam circunstantia, non uult se esse debi 
+      <lb ed="#B" n="80"/>torem. Si quidem nemo uult se esse 
+      debi<lb ed="#B" n="81" break="no"/>torem rei eius, quam non uult: sic ergo 
+      <lb ed="#B" n="82"/>nemo intendit malitiam, inquantum est 
+      <lb ed="#B" n="83"/>malitia, &amp; itanemo intendit malum. Haec 
+      <lb ed="#B" n="84"/>enim de rigore uerborum est falsa 
+      pro<lb ed="#B" n="85" break="no"/>pter appellationem rationis huius 
+      ter<lb ed="#B" n="86" break="no"/>mini malum. Et secundum hoc 
+      intelligi<lb ed="#B" n="87" break="no"/>tur illud Diony. de diuinis nominibus 
+      <lb ed="#B" n="88"/>Malum est praeterintentionem, 
+      natu<lb ed="#B" n="89" break="no"/>ram, &amp; causam. Contingit enim 
+      ma<lb ed="#B" n="90" break="no"/>lum praeterintentionem, &amp; naturam id est 
+      <lb ed="#B" n="91"/>appetitum rationalem, &amp; naturalem: 
+      <lb ed="#B" n="92"/>quia nullus appetitus fertur in ipsum 
+      <lb ed="#B" n="93"/>sub ratione mali: nec ipsa priuatio, quem 
+      <lb ed="#B" n="94"/>est ratio mali, habet causam proprie: ut  
+      <lb ed="#B" n="95"/>iam dictum est.
+    </p>
+            <p xml:id="gbs333-b78655-d1e1092">
+      ¶ Secundum dubium: 
+      <lb ed="#B" n="96"/>utrum concedendum sit, quod malum sit 
+      <lb ed="#B" n="97"/>in bono sibi opposito: secundum illud 
+      <lb ed="#B" n="98"/>beati Augu. in Ench. c. xiij. ubi dicit 
+      <lb ed="#B" n="99"/>regulam dialecticorum deficere, cum 
+      <lb ed="#B" n="100"/>inquit. Bona, &amp; mala nullus ambigit 
+      <!--357.xml-->
+      <pb ed="#B" n="163-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>esse contraria, non solum simul esse 
+      pos<lb ed="#B" n="2" break="no"/>sunt: sed etiam mala omnino sine bonis: 
+      <lb ed="#B" n="3"/>&amp; nisi in bonis esse non possunt: quamuis 
+      <lb ed="#B" n="4"/>bona sine malis esse possunt.
+    </p>
+            <p xml:id="gbs333-b78655-d1e1121">
+      ¶ Ad 
+      du<lb ed="#B" n="5" break="no"/>bium dicitur secundum distinctionem 
+      <lb ed="#B" n="6"/>praemissam, quod malum quantum ad mate 
+      <lb ed="#B" n="7"/>riale suum, non est in bono id est in natura 
+      <lb ed="#B" n="8"/>bona sibi opposita secundum rationem 
+      <lb ed="#B" n="9"/>boni, &amp; mali: quae secundum idem sunt 
+      <lb ed="#B" n="10"/>opposita. Et in hoc deficit regula 
+      dia<lb ed="#B" n="11" break="no"/>lecticorum ista, quod contraria no possunt 
+      <lb ed="#B" n="12"/>esse simul. Deficit, non, quod sit falsa: sed  
+      <lb ed="#B" n="13"/>deficit id est non se extendit ad huiusmodi 
+      con<lb ed="#B" n="14" break="no"/>traria. Intelligendo autem per malum 
+      pri<lb ed="#B" n="15" break="no"/>uationem, quam formaliter importat: 
+      <lb ed="#B" n="16"/>tumc priuatio in nullo est neque in bono, 
+      <lb ed="#B" n="17"/>neque in malo; cum simpliciter nihilsit. Pet 
+      <lb ed="#B" n="18"/>illas aut affirmatiuas intelligi debent 
+      <lb ed="#B" n="19"/>negatiuae secundum regulam beati Aug. su 
+      <lb ed="#B" n="20"/>pra positam. Malum est in bono id est bono 
+      <lb ed="#B" n="21"/>aliquo caret bonum, quam habere deberet 
+      <lb ed="#B" n="22"/>caret. i tale non habet.
+    </p>
+            <p xml:id="gbs333-b78655-d1e1163">
+      ¶ Vel sic malum 
+      <lb ed="#B" n="23"/>concretiue non est nisi in bono: hoc est de 
+      <lb ed="#B" n="24"/>nullo praęedicatur, nisi de subjecto 
+      suppo<lb ed="#B" n="25" break="no"/>nente pro aliquo bono secundum 
+      natu<lb ed="#B" n="26" break="no"/>ram. Et si nihil tale bonum esset 
+      secun<lb ed="#B" n="27" break="no"/>dum naturam, nihil posset esse malum, hoc est 
+      <lb ed="#B" n="28"/>de nullo prodicaret malum. Sed malum abstra 
+      <lb ed="#B" n="29"/>ctiue acceptum put est priuatio boni 
+      debi<lb ed="#B" n="30" break="no"/>ti: de nullo affirmatiue praedicatur: quia 
+      <lb ed="#B" n="31"/>cum priuatio non dicit esse: sed non esse, nec 
+      <lb ed="#B" n="32"/>est aliquid, nec est in aliquo, phoc patet 
+      <lb ed="#B" n="33"/>responsio ad dubium: nam malum esse in bono 
+      <lb ed="#B" n="34"/>concretiue uerum est: non abstractiue: sicut  
+      <lb ed="#B" n="35"/>caecus, &amp; priuatum uisu de aliquo scilicet de 
+      ho<lb ed="#B" n="36" break="no"/>mine praedicatur: caecitas autem de 
+      nul<lb ed="#B" n="37" break="no"/>lo.
+    </p>
+            <p xml:id="gbs333-b78655-d1e1198">
+      ¶ Et per idem patet responsio ad 
+      du<lb ed="#B" n="38" break="no"/>bium, quo quaeritur: an malum sit in bono 
+      <lb ed="#B" n="39"/>tanquam habitus, uel tanquam pura 
+      pri<lb ed="#B" n="40" break="no"/>uatio: nam aliquod malum concretiue 
+      si<lb ed="#B" n="41" break="no"/>cut uitium est habitus inhaerens 
+      anime<lb ed="#B" n="42" break="no"/>quae est natura bona scilicet capiendo malum 
+      <lb ed="#B" n="43"/>abstractiue prout est pura priuatio; non 
+      <lb ed="#B" n="44"/>est habitus. Dicitur autem priuatio esse 
+      <lb ed="#B" n="45"/>in bono: quia bonum aliquod priuatur 
+      <lb ed="#B" n="46"/>bono inesse debito: sed illa secundum 
+      ri<lb ed="#B" n="47" break="no"/>gorem uerborum falsa est. in bono est priua 
+      <lb ed="#B" n="48"/>tio mali: sed concedit, ut saepe dictum est pr 
+      <lb ed="#B" n="49"/>illa: bonum est priuatum id est no hent bonum, quid 
+      <lb ed="#B" n="50"/>habere deberet. Tantum de illa quaestione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

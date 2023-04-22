@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="118-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b57696"><!-- l2-d21q1 -->
+            <head xml:id="gbs333-b57696-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b57696-Hd1e103" type="question-title">
+      Utrum omne 
+      peccatum hominis oriatur ex 
+      tentatione daemonis
+    </head>
+            <p xml:id="gbs333-b57696-d1e106">
+               <lb ed="#B" n="82"/>QVAESTIO VNICA. 
+      <lb ed="#B" n="83"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="84"/>quaeritur. Vtrum omne 
+      pec<lb ed="#B" n="85" break="no"/>catum hominis oriatur ex 
+      <lb ed="#B" n="86"/>tentatione demonis.
+    </p>
+            <p xml:id="gbs333-b57696-d1e119">
+      ¶ 
+      Prae<lb ed="#B" n="87" break="no"/>missis notabilibus ponentur 
+      conclusio<lb ed="#B" n="88" break="no"/>nes, deinde mouebuntur quaedam dubi 
+      <lb ed="#B" n="89"/>tationes.
+    </p>
+            <p xml:id="gbs333-b57696-d1e128">
+      ¶ Quoad primum notandum. Ten 
+      <lb ed="#B" n="90"/>tare ut dicunt doct. nihil aliud est, quam 
+      <lb ed="#B" n="91"/>probare aliquid: uel experimentum 
+      su<lb ed="#B" n="92" break="no"/>mere de aliquo, ut aliquid sciatur. 
+      Ad<lb ed="#B" n="93" break="no"/>dunt aliquiprius incognitum; unde 
+      at<lb ed="#B" n="94" break="no"/>tribuitur deo homini &amp; diabolus. Nam 
+      <lb ed="#B" n="95"/>glol. Cassiod. super illud psalmus. Pro 
+      <lb ed="#B" n="96"/>ba me domine, &amp; tenta me. dicit. 
+      <!--267.xml-->
+      <pb ed="#B" n="118-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Tentat deus, ut erudiat, homo ut sciat: 
+      <lb ed="#B" n="2"/>diabolus, ut seducat.
+    </p>
+            <p xml:id="gbs333-b57696-d1e158">
+      ¶ Attribuitur &amp; 
+      <lb ed="#B" n="3"/>mundo, &amp; carni. unde faco. i. 
+      Vnusquis<lb ed="#B" n="4" break="no"/>que tentatur a concupiscentia sua 
+      ab<lb ed="#B" n="5" break="no"/>stractus, &amp; illectus. Vnde sub hac 
+      gene<lb ed="#B" n="6" break="no"/>ralitate potest sic describi. Tentare est 
+      <lb ed="#B" n="7"/>experimentalem notitiam alicuius in se 
+      <lb ed="#B" n="8"/>uel in alio causare principaliter, uel 
+      oc<lb ed="#B" n="9" break="no"/>casionaliter. Dicitur experimentalem 
+      <lb ed="#B" n="10"/>notitiam: quia secundum Alexand. 
+      par<lb ed="#B" n="11" break="no"/>ij quaest. exvij. &amp; sanctum Tho. Tentare 
+      <lb ed="#B" n="12"/>est experiri. Vnde notitia, quae per 
+      ratio<lb ed="#B" n="13" break="no"/>nes, acquiritur: non acquiritur tentatio 
+      <lb ed="#B" n="14"/>ne. Dicitur alicuius scilicet, &amp; non 
+      tali<lb ed="#B" n="15" break="no"/>ter noti. Vnde sciens aliquid per 
+      ratio<lb ed="#B" n="16" break="no"/>nes uel fidem, nihilominus tentande 
+      <lb ed="#B" n="17"/>potest illud scire notitia causata per 
+      ex<lb ed="#B" n="18" break="no"/>perientiam. Dicitur in se, propter 
+      homi<lb ed="#B" n="19" break="no"/>nem, &amp; daemonem tentantem. Dicitur 
+      <lb ed="#B" n="20"/>uel inalio: quia deus tentando non 
+      cau<lb ed="#B" n="21" break="no"/>sat notitiam in se: quia notitia dei non 
+      cau<lb ed="#B" n="22" break="no"/>satur cum sit aeterna. Causat autem in 
+      <lb ed="#B" n="23"/>illo, quem tentat: uel in aliis quos 
+      sci<lb ed="#B" n="24" break="no"/>re facit de tentato, quod nesciebant. Sic 
+      <lb ed="#B" n="25"/>intelligitur omnis scriptura, qua Deus 
+      <lb ed="#B" n="26"/>dicitur tentare, &amp; sciat uel nunc 
+      quasi<lb ed="#B" n="27" break="no"/>de nouo aliquid scire possit, qui scit 
+      om<lb ed="#B" n="28" break="no"/>nia antequam fiant: sicut illud. 
+      Tenta<lb ed="#B" n="29" break="no"/>uit dominus Abraam. Gen. xxij. &amp; 
+      se<lb ed="#B" n="30" break="no"/>quituribi. Nunc cognoui, quod timeas 
+      de<lb ed="#B" n="31" break="no"/>minum, idest cognoscere te feci. Dicit 
+      <lb ed="#B" n="32"/>principaliter propter Deum hominem 
+      <lb ed="#B" n="33"/>uel diabolum; qui ex intentione 
+      cogno<lb ed="#B" n="34" break="no"/>scendi aliquid, de aliquo tentant. 
+      Dici<lb ed="#B" n="35" break="no"/>tur uel occasionaliter, propter carnem 
+      <lb ed="#B" n="36"/>quae tentare dicitur, inquantum cogne 
+      <lb ed="#B" n="37"/>sci potest per carnis concupiscentiam 
+      <lb ed="#B" n="38"/>pullantem, uel mundum aduersis 
+      repel<lb ed="#B" n="39" break="no"/>sentem, uel prosperis allicientem, qua 
+      <lb ed="#B" n="40"/>lis sit homo. An uirture constans: an 
+      no<lb ed="#B" n="41" break="no"/>bilis: &amp; his diabolus frequenter utitur 
+      <lb ed="#B" n="42"/>ad tentandum.
+    </p>
+            <p xml:id="gbs333-b57696-d1e247">
+      ¶ Ex hoc patet, quod licet 
+      <lb ed="#B" n="43"/>immediatus finis tentationis, est 
+      scien<lb ed="#B" n="44" break="no"/>tia experimentalis in se uel in alio: ille 
+      <lb ed="#B" n="45"/>tamen finis quandoqueimmo 
+      frequen<lb ed="#B" n="46" break="no"/>ter ordinatur in alium finem, bonum uel malum 
+      <lb ed="#B" n="47"/>Vnde secundum sanctum Bonauent. 
+      <lb ed="#B" n="48"/>quandoque tentans tentando intendit 
+      <lb ed="#B" n="49"/>probare, aut approbare, siue probatum 
+      <lb ed="#B" n="50"/>ostendere. Hoc modo tentat Deus, ut 
+      <!--267.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tentatum scire faciat: &amp; 
+      experimenta<lb ed="#B" n="52" break="no"/>liter cognoscere seipsum: sicut Deute. 
+      <lb ed="#B" n="53"/>xiij. Tentat uos dominus deus uester: 
+      <lb ed="#B" n="54"/>ut palam fiat utrum diligatis eum, an non 
+      <lb ed="#B" n="55"/>in toto corde, &amp; in tota anima uestra. 
+      <lb ed="#B" n="56"/>Et Sap. iij. Deus tentauit illos, &amp; 
+      inue<lb ed="#B" n="57" break="no"/>nit eos dignos se: tamquam aurum in 
+      for<lb ed="#B" n="58" break="no"/>nace probauit eos.
+    </p>
+            <p xml:id="gbs333-b57696-d1e289">
+      ¶ Aut secundo 
+      ten<lb ed="#B" n="59" break="no"/>tans intendit reprobum facere: sic 
+      ten<lb ed="#B" n="60" break="no"/>tat diabolus, ut peccatum inducat: 
+      secun<lb ed="#B" n="61" break="no"/>dum illud Act. v. Cur tentauit cor tuum 
+      <lb ed="#B" n="62"/>Sathanas mentiri te spiritui sancto: &amp; 
+      <lb ed="#B" n="63"/>fraudare de praecio agri.
+    </p>
+            <p xml:id="gbs333-b57696-d1e302">
+      ¶ Aut tertio: 
+      <lb ed="#B" n="64"/>quia intendit solum experimentum 
+      su<lb ed="#B" n="65" break="no"/>mere eius, quem tentat: ut sciat, quid  
+      <lb ed="#B" n="66"/>sit in eo. Sic homo tentat hominem 
+      se<lb ed="#B" n="67" break="no"/>uel alium, sicut. j. Reg. xvij. de Dauid 
+      di<lb ed="#B" n="68" break="no"/>citur; Caepit tentare, si armatus posset 
+      <lb ed="#B" n="69"/>incedere Et. iij. Reg. x. Venit regina 
+      Sa<lb ed="#B" n="70" break="no"/>ba tentare Salomonem in enigmatibus. 
+      <lb ed="#B" n="71"/>Sic magister tentat discipulum. Sic 
+      non<lb ed="#B" n="72" break="no"/>nulli tentant dominum, qui quasi 
+      incer<lb ed="#B" n="73" break="no"/>ti experiri uolunt Dei uirtutem, contra 
+      <lb ed="#B" n="74"/>quos dicitur. Non tentabis dominum Deum 
+      <lb ed="#B" n="75"/>tuum. Deut. vj.
+    </p>
+            <p xml:id="gbs333-b57696-d1e331">
+      ¶ Aut quarto: si pulsans 
+      <lb ed="#B" n="76"/>non intendat: tamen ad eius 
+      pulsatio<lb ed="#B" n="77" break="no"/>nem sequitur approbatio; uel 
+      reproba<lb ed="#B" n="78" break="no"/>tio hominis. Sic caro tentat: quia ad eius 
+      <lb ed="#B" n="79"/>tit illationem probatur homo, si resistit, 
+      <lb ed="#B" n="80"/>uel reprobatur, si consentit: ut supra, 
+      <lb ed="#B" n="81"/>Iaco. j. Vnusquisque tentatur a 
+      concu<lb ed="#B" n="82" break="no"/>piscentia sua &amp;c. Sic de mundo dicitur 
+      <lb ed="#B" n="83"/>Haebre. xj. Lapidati sunt, tentati sunt, 
+      <lb ed="#B" n="84"/>fecti sunt &amp;c. Haec enim sanctia 
+      tpran<lb ed="#B" n="85" break="no"/>nis huius saeculi, passi sunt, &amp; Sap. xiiij. 
+      <lb ed="#B" n="86"/>Creaturae Dei factae sunt m odium, &amp; 
+      <lb ed="#B" n="87"/>in tentationem animae hominum: &amp; in 
+      <lb ed="#B" n="88"/>muscipulam pedibius insipientium. Sic 
+      <lb ed="#B" n="89"/>autem capitur tentare indifferenter in 
+      <lb ed="#B" n="90"/>bono, &amp; malo. Aliquando accipitur 
+      tan<lb ed="#B" n="91" break="no"/>tum in malo; sic dicitur laco. j. Nemo 
+      <lb ed="#B" n="92"/>cum tentatur dicant, quoniam a deo 
+      tem<lb ed="#B" n="93" break="no"/>tatur. Hoc de tentatione ad malum in 
+      <lb ed="#B" n="94"/>telligitur. unde sequitur. Deus enim in 
+      <lb ed="#B" n="95"/>tentator malorum est, ipse autem neminem 
+      <lb ed="#B" n="96"/>tentat. Illo modo diffinit tentationem 
+      <lb ed="#B" n="97"/>Cassiod. Tentatio est assimilatio boni 
+      <lb ed="#B" n="98"/>ad fallendum. Et Hugo de sancto Victo 
+      <lb ed="#B" n="99"/>re. Tentare est callide experiri, &amp; 
+      quasi<lb ed="#B" n="100" break="no"/>quibusdam blandis conatibus ante uio¬ 
+      <!--268.xml-->
+      <pb ed="#B" n="119-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lentam pullationem probare. 
+      Accipien<lb ed="#B" n="2" break="no"/>do autem tentare sic in malo: tentare 
+      <lb ed="#B" n="3"/>est officium proprium diaboli: sicut 
+      di<lb ed="#B" n="4" break="no"/>cit glos. interlinea. j. Thessal. iij. super 
+      il<lb ed="#B" n="5" break="no"/>lud. Ne forte tentauerit uos is, qui ten 
+      <lb ed="#B" n="6"/>tat. glol. idest solus diabolus, cuius 
+      of<lb ed="#B" n="7" break="no"/>cium est tentare. Nam etsi homo aliquam 
+      <lb ed="#B" n="8"/>do sic tentat: hoc agit inquantum est 
+      <lb ed="#B" n="9"/>minister diaboli.
+    </p>
+            <p xml:id="gbs333-b57696-d1e414">
+      ¶ Secundo notandum, 
+      <lb ed="#B" n="10"/>quod licet tentatio multipliciter diuidi 
+      <lb ed="#B" n="11"/>posset secundum diuersa causarum 
+      ge<lb ed="#B" n="12" break="no"/>nera, prout late prosequitur Alexander 
+      <lb ed="#B" n="13"/>de Hales parte. ij. quaest. exvij. membro, 
+      <lb ed="#B" n="14"/>vj. Tamen secundum magistrum in tex 
+      <lb ed="#B" n="15"/>tu ponitur duplex tentatio: exterior, &amp; 
+      <lb ed="#B" n="16"/>interior. Exterior, quando nobis 
+      extrin<lb ed="#B" n="17" break="no"/>secus malum uisibiliter suggeritur 
+      uer<lb ed="#B" n="18" break="no"/>bo, uel signo aliquo: ut tentatus ad cor 
+      <lb ed="#B" n="19"/>sensum peccati declinet. Interior, est 
+      <lb ed="#B" n="20"/>quando inuisibiliter nobis malum 
+      in<lb ed="#B" n="21" break="no"/>trinsecus suggeritur. Haec autem 
+      diui<lb ed="#B" n="22" break="no"/>sio non est tentationis in genere: sed  
+      <lb ed="#B" n="23"/>tentationis ad peccatum. quia de illa 
+      lo<lb ed="#B" n="24" break="no"/>quitur magister: non de ista, quae est ad 
+      <lb ed="#B" n="25"/>probationem. Et ideo addit in 
+      primo<lb ed="#B" n="26" break="no"/>membro: ut tentatus ad consensum 
+      pec<lb ed="#B" n="27" break="no"/>cati declinet. Quod etiam in secundo 
+      <lb ed="#B" n="28"/>membro addendum est. alioquin 
+      mem<lb ed="#B" n="29" break="no"/>bra diuidentia excederent diuisum, ut  
+      <lb ed="#B" n="30"/>hic accipitur. Potest enim &amp; tentatio 
+      <lb ed="#B" n="31"/>ad probationem esse exterior, &amp; 
+      inte<lb ed="#B" n="32" break="no"/>rior. Quod etiam in primo membro 
+      di<lb ed="#B" n="33" break="no"/>cit uisibiliter, capitur generaliter 
+      pro<lb ed="#B" n="34" break="no"/>sensibiliter. Nam secundum Beatum. Aug. 
+      <lb ed="#B" n="35"/>super Gen. adliteram. Videre 
+      commu<lb ed="#B" n="36" break="no"/>niter se habet ad omnem sensum. sicut 
+      <lb ed="#B" n="37"/>Exod. xx. dicitur. Cunctus populus 
+      ui<lb ed="#B" n="38" break="no"/>debat uoces. Vnde per omnem sensum 
+      <lb ed="#B" n="39"/>contingit esse exteriorem tentationem 
+      <lb ed="#B" n="40"/>maxime tamen per uisum mediante 
+      si<lb ed="#B" n="41" break="no"/>gno: &amp; per auditum mediante uerbo. 
+    </p>
+            <p xml:id="gbs333-b57696-d1e487">
+               <lb ed="#B" n="42"/>¶ Est ergo tentatio exterior ostensic 
+      <lb ed="#B" n="43"/>alicuius obiecti sensibilis a uirtute 
+      ex<lb ed="#B" n="44" break="no"/>teriori: ut appraehendens ad peccatum 
+      <lb ed="#B" n="45"/>alliciatur. Hanc tentationem 
+      sempe<lb ed="#B" n="46" break="no"/>dicit esse a diabolo. quod uerum est 
+      me<lb ed="#B" n="47" break="no"/>diate, uel immediate. Trequenter enim 
+      <lb ed="#B" n="48"/>tentat per malos homines, &amp; creaturas 
+      <lb ed="#B" n="49"/>mundanas, quibus utitur tamquam 
+      instri<lb ed="#B" n="50" break="no"/>mentis: ut supra dictum est.
+    </p>
+            <p xml:id="gbs333-b57696-d1e509">
+      ¶ Tentatio 
+      <!--268.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>interior est motio hominis ad 
+      peccati<lb ed="#B" n="52" break="no"/>consensum orta ab aliqua uirture 
+      inte<lb ed="#B" n="53" break="no"/>riori sine sensibili obiecto exteriori, ut  
+      <lb ed="#B" n="54"/>cum oritur ex imaginatione, intellectu 
+      <lb ed="#B" n="55"/>aut motiua uirtute, illa ut dicit 
+      magi<lb ed="#B" n="56" break="no"/>ster quandoque sit ab hoste, aliquando a 
+      <lb ed="#B" n="57"/>carne. Quandoque enim imaginatiua 
+      no<lb ed="#B" n="58" break="no"/>stra ab hoste mouetur mouendo species 
+      <lb ed="#B" n="59"/>uel habitus in sensu reseruatas, &amp; per 
+      il<lb ed="#B" n="60" break="no"/>las cognitiuam, &amp; affectiuam ad 
+      pecca<lb ed="#B" n="61" break="no"/>ti consensum: de quo dictum est 
+      supra<lb ed="#B" n="62" break="no"/>que. ij. dist. ix. Quandoque est a carnis 
+      <lb ed="#B" n="63"/>infectione spiritui rebellante, &amp; 
+      quos<lb ed="#B" n="64" break="no"/>dam bestiales motus in sensualitate ex 
+      <lb ed="#B" n="65"/>citante. Hanc interiorem tentationem 
+      <lb ed="#B" n="66"/>quae sit in carne, dicit magister non esst 
+      <lb ed="#B" n="67"/>sine peccato: quia titillatio, quam care 
+      <lb ed="#B" n="68"/>mouet, motus est bestialis, &amp; illicitus 
+      <lb ed="#B" n="69"/>ideo non sine peccato ueniali. Sed de 
+      <lb ed="#B" n="70"/>isto uidendum erit inferius, dum siet 
+      se<lb ed="#B" n="71" break="no"/>mo de primis motibus. Tentatio autem, 
+      <lb ed="#B" n="72"/>quae sit ab hoste, non habet peccatum 
+      <lb ed="#B" n="73"/>necessario annexum, nisi ei 
+      consentia<lb ed="#B" n="74" break="no"/>tur: sed est materia exercendae uirtutis 
+      <lb ed="#B" n="75"/>Et quoniam tentatio a carne interius 
+      <lb ed="#B" n="76"/>oppugnans de nostro contra nos 
+      robo<lb ed="#B" n="77" break="no"/>ratur: ideo difficilius uincitur. Verum 
+      <lb ed="#B" n="78"/>hoc intelligendum est secundum 
+      san<lb ed="#B" n="79" break="no"/>ctum Bonauen. respectu eiusdem 
+      pec<lb ed="#B" n="80" break="no"/>cati scilicet carnalis: Tentatio enim 
+      car<lb ed="#B" n="81" break="no"/>nalis difficilius uincitur propter 
+      con<lb ed="#B" n="82" break="no"/>iunctionem carnis ad spiritum, propter 
+      <lb ed="#B" n="83"/>quam magis incuruat animam carnina 
+      <lb ed="#B" n="84"/>turaliter inclinatam: secundum illud Eph. 
+      <lb ed="#B" n="85"/>V. Nemo unquam carnem suam odio 
+      ha<lb ed="#B" n="86" break="no"/>buit, sed nutrit, &amp; fouet eam. Huic igit 
+      <lb ed="#B" n="87"/>carnali peccato difficilius resistitur 
+      pro<lb ed="#B" n="88" break="no"/>pter carnis continuam molestia, cui con 
+      <lb ed="#B" n="89"/>tinue adhaeret: quam propter hostis 
+      instiga<lb ed="#B" n="90" break="no"/>tionem. Si uero fiat comparatio respectu 
+      di<lb ed="#B" n="91" break="no"/>uersorum pctorum: ut puta tentatio carnis 
+      <lb ed="#B" n="92"/>intelligit respectu pctorum carnalium, &amp; 
+      <lb ed="#B" n="93"/>tentatio hostis respectu spiritualium, sic 
+      <lb ed="#B" n="94"/>se habentur excedentia, &amp; excessa. 
+      Qui<lb ed="#B" n="95" break="no"/>dam enim homines sunt magis 
+      proni<lb ed="#B" n="96" break="no"/>ad peccata carnalia, puta ad incontinem 
+      <lb ed="#B" n="97"/>tiam, quam ad superbiam, &amp; his difficilius est 
+      <lb ed="#B" n="98"/>resistere tentationi carnis, quam 
+      ho<lb ed="#B" n="99" break="no"/>stis. Quidam econuerso proniores sunt 
+      <lb ed="#B" n="100"/>ad peccata spiritualia, quam ad carna¬ 
+      <!--269.xml-->
+      <pb ed="#B" n="119-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>lia: ut qui magis desiderant honores, quam 
+      <lb ed="#B" n="2"/>uoluptates. His difficilius est uincere 
+      <lb ed="#B" n="3"/>peccata spiritualia, quam carnalia. 
+      <lb ed="#B" n="4"/>quis autem sit indifferens ad utrumque; 
+      <lb ed="#B" n="5"/>&amp; aequaliter pronus quantum est de se 
+      <lb ed="#B" n="6"/>ad utrunque; illi quodammodo difficilius 
+      <lb ed="#B" n="7"/>est uincere carnalia: &amp; quodammodo 
+      <lb ed="#B" n="8"/>spiritualia. Carnalia propter magis 
+      in<lb ed="#B" n="9" break="no"/>trinsecam &amp; continuam adherentiam. 
+      <lb ed="#B" n="10"/>Spiritualia propter maiorem boni 
+      pro<lb ed="#B" n="11" break="no"/>missi apparentiam, &amp; latentiorem 
+      in<lb ed="#B" n="12" break="no"/>stigantis fallaciam, qui multa uitia sub 
+      <lb ed="#B" n="13"/>specie uirtutis palliat. Transfigurat. no 
+      <lb ed="#B" n="14"/>se in angelum lucis ij. Corum. xj. Et 
+      li<lb ed="#B" n="15" break="no"/>cet hostis sit fortior secundum illud Iob. 
+      <lb ed="#B" n="16"/>xlj. Non est superterram potestas, quae 
+      <lb ed="#B" n="17"/>comparetur ei. Sit etiam callidior, &amp; 
+      <lb ed="#B" n="18"/>occultior: secundum illud Apostoli. 
+      <lb ed="#B" n="19"/>Non est nobis colluctatio aduersus 
+      car<lb ed="#B" n="20" break="no"/>nem, &amp; sanguinem: sed aduersus 
+      prin<lb ed="#B" n="21" break="no"/>cipes, &amp; potestates, aduersus mundi 
+      re<lb ed="#B" n="22" break="no"/>ctores tenebrarumharum, contra 
+      spiri<lb ed="#B" n="23" break="no"/>talia nequitiae in caelestibus. Ephe. vj. 
+      <lb ed="#B" n="24"/>Tamen non permittitur tentare 
+      secun<lb ed="#B" n="25" break="no"/>dum totam suam potentiam, &amp; astutiam: 
+      <lb ed="#B" n="26"/>sed reprimitur potestate diuina, &amp; etiam 
+      <lb ed="#B" n="27"/>angelica. Et itadiuerlis respectibus 
+      ha<lb ed="#B" n="28" break="no"/>bent se ut excedentia, &amp; excessa.
+    </p>
+            <p xml:id="gbs333-b57696-d1e691">
+      ¶ 
+      Ter<lb ed="#B" n="29" break="no"/>tio notandum, quod aliquid dicitur esse 
+      cau<lb ed="#B" n="30" break="no"/>sa alicuius directe, proprie, &amp; 
+      immedia<lb ed="#B" n="31" break="no"/>te, quod scilicet immediate attingit 
+      es<lb ed="#B" n="32" break="no"/>fectum. sic sol, est causa caloris. Alio 
+      mo<lb ed="#B" n="33" break="no"/>do indirecte, occasionaliter, &amp; 
+      media<lb ed="#B" n="34" break="no"/>te, quod scilicet est causa. uel quia 
+      cau<lb ed="#B" n="35" break="no"/>sat aliquam dispositionem ad effectum 
+      <lb ed="#B" n="36"/>aliquem, ut secans ligna potest dici 
+      cau<lb ed="#B" n="37" break="no"/>sa combustionis. De causa mediata, &amp; 
+      <lb ed="#B" n="38"/>immediata habes supra distinc. j. quaest. 
+      <lb ed="#B" n="39"/>ij. Haec de articulo primo.
+    </p>
+            <p xml:id="gbs333-b57696-d1e717">
+      ¶ Quantum 
+      <lb ed="#B" n="40"/>ad secundum articulum, est conclusio 
+      <lb ed="#B" n="41"/>prima Nonquaelibet hominis peccata 
+      <lb ed="#B" n="42"/>sunt a Daeimone tanquam a causa dire- 
+      <lb ed="#B" n="43"/>cta, &amp; immediata. Patet quia non 
+      om<lb ed="#B" n="44" break="no"/>nia peccatacommittuntur diabolo 
+      im<lb ed="#B" n="45" break="no"/>mediate instigante. Multa enim siunt a 
+      <lb ed="#B" n="46"/>libero arbitrio, &amp; carnis corruptione. 
+      <lb ed="#B" n="47"/>Vnde dicitur in sicclesiasticis 
+      dogma<lb ed="#B" n="48" break="no"/>tibus. Non omnes cogitationes nostrae 
+      <lb ed="#B" n="49"/>malae a diabolo excitantur, sed 
+      aliquo<lb ed="#B" n="50" break="no"/>ties ex arbitrij nostri motu emergut, &amp; 
+      <!--269.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>Orige. dicit. Etiam si diabolus non 
+      es<lb ed="#B" n="52" break="no"/>set, homines haberent appetitum 
+      cibo<lb ed="#B" n="53" break="no"/>rum, &amp; uenereorum, circa quae multa 
+      <lb ed="#B" n="54"/>inordinatio contingit: nisi per rationem 
+      <lb ed="#B" n="55"/>talis appetitus refrenetur. Refrenare 
+      au<lb ed="#B" n="56" break="no"/>tem &amp; ordinare huiusmodi appetitum 
+      <lb ed="#B" n="57"/>subiacet libero arbitrio. Ergo ex sola 
+      ar<lb ed="#B" n="58" break="no"/>bitrij negligentia in refrenando sine 
+      <lb ed="#B" n="59"/>speciali, &amp; immediata instigatione 
+      dia<lb ed="#B" n="60" break="no"/>boli contingere potest peccatum. Item 
+      <lb ed="#B" n="61"/>tentatio carnis distinguitur a 
+      tentatio<lb ed="#B" n="62" break="no"/>ne diabol, isecundum magistrum in prae 
+      <lb ed="#B" n="63"/>senti distin ergo possunt separari, &amp; ita 
+      <lb ed="#B" n="64"/>peccare aliquis sola tentatione carnis. 
+    </p>
+            <p xml:id="gbs333-b57696-d1e778">
+               <lb ed="#B" n="65"/>¶ Secunda conclusio. Omne peccatum 
+      <lb ed="#B" n="66"/>hominis mediate, uel immediate oritur 
+      <lb ed="#B" n="67"/>ex tentatione daemonis. Probatur: quia 
+      <lb ed="#B" n="68"/>daemon est causa mediata omnis 
+      pecca<lb ed="#B" n="69" break="no"/>ti: quia instigauit primum hominem ad 
+      <lb ed="#B" n="70"/>peccandum, ex cuius peccato in 
+      toto<lb ed="#B" n="71" break="no"/>genere humano consecuta est quaedam 
+      <lb ed="#B" n="72"/>pronitas ad omnia peccata.
+    </p>
+            <p xml:id="gbs333-b57696-d1e798">
+      ¶ Item 
+      om<lb ed="#B" n="73" break="no"/>ne peccatum oritur ex tentatione 
+      ali<lb ed="#B" n="74" break="no"/>qua. Nemo enim ad malum aspiciens 
+      <lb ed="#B" n="75"/>operatur secundum Diony. Nemo. no. 
+      <lb ed="#B" n="76"/>operatur aliquid propter finem ab 
+      eo<lb ed="#B" n="77" break="no"/>intentum, ut malum: sed ad minus sub 
+      <lb ed="#B" n="78"/>ratione boni honesti, aut delectabilis, 
+      <lb ed="#B" n="79"/>aut utilis: sed omnis tentatio est a 
+      dae<lb ed="#B" n="80" break="no"/>mone, uel a carne. Tentatio autem a 
+      car<lb ed="#B" n="81" break="no"/>ne etiam est adaemone tanquam a 
+      mo<lb ed="#B" n="82" break="no"/>uenteprimo, uel inediato: quia omnis 
+      <lb ed="#B" n="83"/>tentatio carnis est ex eius corruptione, 
+      <lb ed="#B" n="84"/>quae ertum habet ex prima hominis 
+      ten<lb ed="#B" n="85" break="no"/>tatione. Et ita intelligenda est 
+      auctori<lb ed="#B" n="86" break="no"/>tas Hiero. super illo Plalmus. Declina 
+      a<lb ed="#B" n="87" break="no"/>malo, &amp; fac bonum. Mala omnia ab 
+      in<lb ed="#B" n="88" break="no"/>stinctu diaboli procedunt: sicut bona 
+      <lb ed="#B" n="89"/>ab instinctu dei. Verum ibi Iy sicut, non 
+      <lb ed="#B" n="90"/>dicit omnimodam similitudinem; quia 
+      <lb ed="#B" n="91"/>mala omnia procedunt ex instinctu dia 
+      <lb ed="#B" n="92"/>boli mediate, uel immediate. Bona autem 
+      <lb ed="#B" n="93"/>omnia procedunt a deo inimediate. Est 
+      <lb ed="#B" n="94"/>enim deus causa immediata omnium es 
+      <lb ed="#B" n="95"/>fectuum positiuorum: ut dictum est. q. 
+      <lb ed="#B" n="96"/>ij. distinct. i.
+    </p>
+            <p xml:id="gbs333-b57696-d1e854">
+      ¶ Itemillud Diony. c. iiij. de 
+      <lb ed="#B" n="97"/>diui. no. Multitudo daemonum est causa 
+      <lb ed="#B" n="98"/>omnium malorum sibi, &amp; alijs. Et illud 
+      <lb ed="#B" n="99"/>Damasce. Omnis malitia, &amp; omnis 
+      im<lb ed="#B" n="100" break="no"/>munditia a diabolo excogitatae sunt.  
+      <!--270.xml-->
+      <pb ed="#B" n="120-r"/>
+               <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="gbs333-b57696-d1e872">
+               <lb ed="#B" n="1"/>¶ Quantum ad tertium articulum dubi 
+      <lb ed="#B" n="2"/>tatur primo. Vtrum tentatio, qua 
+      diabo<lb ed="#B" n="3" break="no"/>lus tentat hominem, oriatur ab inuidi: 
+      <lb ed="#B" n="4"/>uel superbia diaboli. Responsio secundum 
+      <lb ed="#B" n="5"/>sanctum Bona. Haec duo peccata 
+      super<lb ed="#B" n="6" break="no"/>bia &amp; inuidia, sunt pene inseparabilia: 
+      <lb ed="#B" n="7"/>&amp; unum comitatur ad alterum. Superbus 
+      <lb ed="#B" n="8"/>enim amat excellentiam: &amp; ita nullum 
+      <lb ed="#B" n="9"/>uult parem: &amp; per hoc appetit 
+      excellen<lb ed="#B" n="10" break="no"/>tiam singulariter possidere: &amp; ideo 
+      sta<lb ed="#B" n="11" break="no"/>tim actu uel habitu inuidet: cum nolit 
+      <lb ed="#B" n="12"/>bonos consimili bono: quod appetit: 
+      al<lb ed="#B" n="13" break="no"/>terum communicare. Mens ergo 
+      dia<lb ed="#B" n="14" break="no"/>boli his duobus uitiis possessa est 
+      <lb ed="#B" n="15"/>nam ex his uitiis ut dicit 
+      Augustin<lb ed="#B" n="16" break="no"/>quae prius fuit Lucifer diabolus factus 
+      <lb ed="#B" n="17"/>est, uidens statum hominis, in quo 
+      po<lb ed="#B" n="18" break="no"/>tuit cadere, &amp; ascendere: &amp; cadendo sub 
+      <lb ed="#B" n="19"/>diabolica potestate redigi, ascendendo 
+      <lb ed="#B" n="20"/>ad supernam ciuitatem: unde ipse 
+      ceci<lb ed="#B" n="21" break="no"/>dit peruenire ex superbia motus est 
+      si<lb ed="#B" n="22" break="no"/>mul, &amp; inuidia ad ipsum tentandum. Ex 
+      <lb ed="#B" n="23"/>superbia: ut ipsum sibi subijceret. Ex 
+      <lb ed="#B" n="24"/>inuidia: ut ipsum a superna faelicitate 
+      im<lb ed="#B" n="25" break="no"/>pediret. Euit ergo superbia tanquam 
+      mo<lb ed="#B" n="26" break="no"/>uens primum, inuidia uero tanquam 
+      mo<lb ed="#B" n="27" break="no"/>uens proximum, &amp; inimediatum. Este 
+      <lb ed="#B" n="28"/>tamen, quod non posset dominium 
+      su<lb ed="#B" n="29" break="no"/>per ipsum acquirere, studuisset 
+      nihilo<lb ed="#B" n="30" break="no"/>minus ipsum a paradisi gaudiis 
+      impedi<lb ed="#B" n="31" break="no"/>re: &amp; ideo scriptura dicit diabolum ex 
+      <lb ed="#B" n="32"/>inuidia hominem tentasse. Sap. ij. 
+      Inui<lb ed="#B" n="33" break="no"/>dia diabolimors introiuit in orbem 
+      tel<lb ed="#B" n="34" break="no"/>rarum. Et magister. Videns diabolus 
+      ho<lb ed="#B" n="35" break="no"/>minem per obedientiae humilitatem 
+      pos<lb ed="#B" n="36" break="no"/>se ascendere: unde ipse per 
+      superbian<lb ed="#B" n="37" break="no"/>corruerat, inuidit ei. Et qui prius per su 
+      <lb ed="#B" n="38"/>perbiam diabolus fuerat, idest deorsum 
+      <lb ed="#B" n="39"/>lapsus, xelo inuidiae factus est Sathan. i. 
+      <lb ed="#B" n="40"/>aduersarius. Patet ergo ad dubium 
+      re<lb ed="#B" n="41" break="no"/>sponsio: quod tentatio diaboli ex utroque 
+      <lb ed="#B" n="42"/>uitio orta est. Tuit tamen superbia ra 
+      <lb ed="#B" n="43"/>dix prima, inuidia radix proxima. Mul 
+      <lb ed="#B" n="44"/>ta alia dubia hic moueri possent de 
+      ten<lb ed="#B" n="45" break="no"/>tatione, quorum aliqua post in aliis 
+      di<lb ed="#B" n="46" break="no"/>stinctionibus tangentur. Aliqua, &amp; plur: 
+      <lb ed="#B" n="47"/>ad hanc materiam facientia tacta 
+      <lb ed="#B" n="48"/>sunt in expositione canonis 
+      <lb ed="#B" n="49"/>missae. lec. Ixxviij. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

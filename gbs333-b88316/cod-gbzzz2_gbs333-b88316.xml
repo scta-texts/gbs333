@@ -1,0 +1,1505 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="181-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b88316"><!-- l2-d41q1 -->
+            <head xml:id="gbs333-b88316-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b88316-Hd1e103" type="question-title">
+      Utrum inter humanos 
+      actus, aliquis indifferens sit 
+      dicendus
+    </head>
+            <p xml:id="gbs333-b88316-d1e106">
+               <lb ed="#B" n="17"/>QVAESTIO VNICA 
+      <lb ed="#B" n="18"/>CIRCA distinctionem 
+      quae<lb ed="#B" n="19" break="no"/>ritur. Vtrum inter humanos 
+      <lb ed="#B" n="20"/>actus, aliquis indifferens sit 
+      <lb ed="#B" n="21"/>dicendus.
+    </p>
+            <p xml:id="gbs333-b88316-d1e119">
+      ¶ Notabilibus 
+      prae<lb ed="#B" n="22" break="no"/>missis: conclusiones subiungentur cum 
+      <lb ed="#B" n="23"/>dubijs.
+    </p>
+            <p xml:id="gbs333-b88316-d1e126">
+      ¶ Quantum ad primum 
+      notan<lb ed="#B" n="24" break="no"/>dum, quod per actum humanum 
+      intelligi<lb ed="#B" n="25" break="no"/>tur actus hominis deliberatiuus. i.t actus 
+      <lb ed="#B" n="26"/>libere productus cum certa 
+      appraehen<lb ed="#B" n="27" break="no"/>sione obiecti. Vnde casualis fricatio 
+      <lb ed="#B" n="28"/>barbae: aut motus manus, aut pedis 
+      fa<lb ed="#B" n="29" break="no"/>ctus non a proposito non dicitur 
+      hu<lb ed="#B" n="30" break="no"/>manus.
+    </p>
+            <p xml:id="gbs333-b88316-d1e145">
+      ¶ Secundo notandum. 
+      Supposi<lb ed="#B" n="31" break="no"/>tis his quae habet Ockam q. x. &amp; xiij. 
+      <lb ed="#B" n="32"/>tertij sententiarum. Item quae 
+      tangun<lb ed="#B" n="33" break="no"/>tur dist. xxiij. q. i. collecto. huius tertij: 
+      <lb ed="#B" n="34"/>Item in iij. quodlibet. Ocham in diuer 
+      <lb ed="#B" n="35"/>sis quaestionibus: ut puta. q. xiij. xiiij. xv. 
+      <lb ed="#B" n="36"/>Item quodlibet iiij. q. vi. in quaestione 
+      <lb ed="#B" n="37"/>de connexione uirtutum, &amp; alibi: quod actu: 
+      <lb ed="#B" n="38"/>indifferens dupliciter accipitur. Vno 
+      mo<lb ed="#B" n="39" break="no"/>do pro actu humano, qui nec est uirtuo 
+      <lb ed="#B" n="40"/>sus nec uitiosus: puta quinon est elicitus, 
+      <lb ed="#B" n="41"/>uel imperatus conformiter recto 
+      ratio<lb ed="#B" n="42" break="no"/>ni, &amp; propter hoc quod ratio sic dictauit 
+      <lb ed="#B" n="43"/>fiendum. Neque difformiter contrarie: 
+      <lb ed="#B" n="44"/>licet difformiter condictorie, ut si aliquis 
+      <lb ed="#B" n="45"/>actum aliquem elicit, uel imperat: non 
+      <lb ed="#B" n="46"/>quia sic fieri debere recta ratio 
+      dicta<lb ed="#B" n="47" break="no"/>uit, nec oppositum; sed quia ita facere 
+      <lb ed="#B" n="48"/>placuit, ut operari aliquid pro 
+      delecta<lb ed="#B" n="49" break="no"/>tione: quod recta ratio neque dictauit: 
+      <!--392.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="50"/>neque eius contrarium. Secundo modo 
+      acci<lb ed="#B" n="51" break="no"/>pitur actus indifferens, ut est actus primo 
+      <lb ed="#B" n="52"/>indifferens nec bonus, nec malus 
+      morali<lb ed="#B" n="53" break="no"/>ter: potens idem numero fieri bono, &amp; 
+      ma<lb ed="#B" n="54" break="no"/>lus: non simul sed successiue: ut est actus 
+      <lb ed="#B" n="55"/>primo noordinatus in finem aliquem, 
+      ordi<lb ed="#B" n="56" break="no"/>nabilis tamen in finem bonum, &amp; etiam in 
+      fi<lb ed="#B" n="57" break="no"/>nem malum: ut ire ad ecclesiam, quamdo primo non 
+      <lb ed="#B" n="58"/>ordinatur in finem uirtutis, &amp; post fieri 
+      <lb ed="#B" n="59"/>potest propter finem laudabilem, uel 
+      uitupe<lb ed="#B" n="60" break="no"/>rabilem.
+    </p>
+            <p xml:id="gbs333-b88316-d1e217">
+      ¶ Tertio notandum, quod actus 
+      <lb ed="#B" n="61"/>humanus bonus est duplex. Qudam est 
+      <lb ed="#B" n="62"/>inrtinsece bonus, &amp; uirtuosus: quidam 
+      <lb ed="#B" n="63"/>extrinsece. Intrinsece uirtuosus seu 
+      bo<lb ed="#B" n="64" break="no"/>nus est, qui est bonus necessario: ita quod 
+      <lb ed="#B" n="65"/>non potest esse actus humanus, &amp; non 
+      <lb ed="#B" n="66"/>esse bonus. Extrinsece uirtuosus est, qui  
+      <lb ed="#B" n="67"/>est uirtuosus per coexistentiam alicuius 
+      al<lb ed="#B" n="68" break="no"/>terius actus, sine quo esse potest. Et ita 
+      <lb ed="#B" n="69"/>est contingenter bonus: quia posset esse 
+      <lb ed="#B" n="70"/>idem numero, &amp; esse non bonus. De hoc  
+      <lb ed="#B" n="71"/>j. distinct. xxiij. q. i. in tertio.
+    </p>
+            <p xml:id="gbs333-b88316-d1e243">
+      ¶ Quantum 
+      <lb ed="#B" n="72"/>ad secundum articulum est 
+      conclusio<lb ed="#B" n="73" break="no"/>prima. Aliquis actus uoluntatis tam 
+      eli<lb ed="#B" n="74" break="no"/>citus, quam imperatus potest esse 
+      indif<lb ed="#B" n="75" break="no"/>ferens primo modo: i, nec bonus, neque 
+      <lb ed="#B" n="76"/>malus. Illa conclusio probatur primo 
+      <lb ed="#B" n="77"/>de actu elicito: illo enim probato patet 
+      <lb ed="#B" n="78"/>de actu imperato. Nam uoluntas potest 
+      <lb ed="#B" n="79"/>aliquem actuclicere propterfinem a se prae 
+      <lb ed="#B" n="80"/>stitutum: &amp; non tamnqua dictatum a recta 
+      ratio<lb ed="#B" n="81" break="no"/>ne, cuius contrarium etiam non dictatur 
+      ra<lb ed="#B" n="82" break="no"/>tio. Et talis nec est bonus moraliter, 
+      <lb ed="#B" n="83"/>neque malus, ergo indifferens. 
+      Conse<lb ed="#B" n="84" break="no"/>quentia nota ex quid nominis actus 
+      in<lb ed="#B" n="85" break="no"/>differentis primo modo accepti. Maior 
+      <lb ed="#B" n="86"/>pbatur: quia potest uoluntas alicui uelle 
+      <lb ed="#B" n="87"/>bene facere ex sua libertate, absque hoc, 
+      <lb ed="#B" n="88"/>quod ratio dictet illi benefaciendum, uel eius 
+      <lb ed="#B" n="89"/>oppositum: quia cum uoluntas potest sibi 
+      <lb ed="#B" n="90"/>praestituere finem contra rectam rationem. 
+      <lb ed="#B" n="91"/>ut delectationem noxiam: ergo multo 
+      <lb ed="#B" n="92"/>magis potest praestituere sibifinem, 
+      qui<lb ed="#B" n="93" break="no"/>non est contrarius rectae rationi. 
+      Con<lb ed="#B" n="94" break="no"/>sequentia nota: quia si potest contra rationem, 
+      <lb ed="#B" n="95"/>pot etiam pter rationem. Antecedens patet: 
+      <lb ed="#B" n="96"/>quia uoluntas potest fruiseipsa, aut creatura, 
+      <lb ed="#B" n="97"/>quo casu pstituit sibi finem contra rectam 
+      <lb ed="#B" n="98"/>rationem. Minor principalis pbatur: quia 
+      ta<lb ed="#B" n="99" break="no"/>lis actus sic elicitus non est elicitus secundum 
+      <!--393.xml-->
+      <pb ed="#B" n="181-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>dictamen rectae rationis: ergo non est 
+      uir<lb ed="#B" n="2" break="no"/>tuosus, nec contra dictamen rationis: 
+      <lb ed="#B" n="3"/>ergo nec uitiosus. Confirmatur. 
+      Volun<lb ed="#B" n="4" break="no"/>tas potest elicere actum conformen 
+      ratio<lb ed="#B" n="5" break="no"/>ni. Vt gratia exempli Velle reficere 
+      <lb ed="#B" n="6"/>esurientem pauperem, quod ratio dictat es 
+      <lb ed="#B" n="7"/>se faciendum, &amp; tamen non elicere propter 
+      <lb ed="#B" n="8"/>hoc, quod ratio recta dictauit esse uolendum: 
+      <lb ed="#B" n="9"/>In quo casu actus ille non est uitiosus 
+      <lb ed="#B" n="10"/>qui est conformis dictam ini rectae 
+      ra<lb ed="#B" n="11" break="no"/>tionis. Nec uirtuosus: quia non elicitur 
+      <lb ed="#B" n="12"/>propter hoc: quia sic dictatum est: quod 
+      ta<lb ed="#B" n="13" break="no"/>men requiritur ad hoc, ut actus sit 
+      uir<lb ed="#B" n="14" break="no"/>tuosus. Probatur etiam conclusio de actu 
+      <lb ed="#B" n="15"/>imperato: quia qualis est actus elicitus, ta 
+      <lb ed="#B" n="16"/>lis est imperatus: cum bonitas actus 
+      im<lb ed="#B" n="17" break="no"/>perati dependet a bonitate actus eliciti: 
+      <lb ed="#B" n="18"/>similiter &amp; eius malitia, &amp; indifferentia, 
+      <lb ed="#B" n="19"/>igitur cum elicitus potest esse indifferem 
+      <lb ed="#B" n="20"/>etiam imperatus poterit esse 
+      indiffe<lb ed="#B" n="21" break="no"/>rens.
+    </p>
+            <p xml:id="gbs333-b88316-d1e358">
+      ¶ Secunda conclusio. Omnis actus 
+      <lb ed="#B" n="22"/>imperatus a uoluntate, siue intellectus, 
+      <lb ed="#B" n="23"/>siue alterius potentiae est indifferens 
+      <lb ed="#B" n="24"/>secundo modo, &amp; extrinsece. Probatur 
+      <lb ed="#B" n="25"/>conclusio: quia omnis talis manens idem 
+      <lb ed="#B" n="26"/>numero potest primo esse nec bonus, 
+      <lb ed="#B" n="27"/>nec malus: &amp; post fieribonus, ac 
+      dein<lb ed="#B" n="28" break="no"/>de malus, &amp; econuerso. ergo omnis 
+      ta<lb ed="#B" n="29" break="no"/>lis est indifferens extrinsecae. Tenet 
+      con<lb ed="#B" n="30" break="no"/>quentia: quia ille actus dicitur indiffe 
+      <lb ed="#B" n="31"/>rens extrinsece, qui potest fieri bonus, 
+      <lb ed="#B" n="32"/>&amp; malus: ac mutaride opposito in 
+      oppo<lb ed="#B" n="33" break="no"/>situm. Ille uero intrinsece indifferens, 
+      <lb ed="#B" n="34"/>qui nec est bonus, nec malus: nec 
+      po<lb ed="#B" n="35" break="no"/>test ficribonus, neque malus, manens 
+      <lb ed="#B" n="36"/>naturaliter idem numero. Antecedens 
+      <lb ed="#B" n="37"/>patet: quia omnis talis actus manens 
+      <lb ed="#B" n="38"/>idem in se, uel in esse naturae, potest 
+      fie<lb ed="#B" n="39" break="no"/>ri diuersa intentione. Potest enim 
+      ordi<lb ed="#B" n="40" break="no"/>nari in diuersos fines; &amp; secundum hoc 
+      <lb ed="#B" n="41"/>mutari de bonitate in malitiam 
+      mora<lb ed="#B" n="42" break="no"/>lem. &amp; econuerso. Potest enim quis 
+      spe<lb ed="#B" n="43" break="no"/>culari propter deum primo: &amp; 
+      conti<lb ed="#B" n="44" break="no"/>nuare eundem speculationis actum 
+      pro<lb ed="#B" n="45" break="no"/>pter uanam gloriam, &amp; sicut est de 
+      a<lb ed="#B" n="46" break="no"/>ctu intellectus, &amp; similiter de actibus ex 
+      <lb ed="#B" n="47"/>terioribus.
+    </p>
+            <p xml:id="gbs333-b88316-d1e417">
+      ¶ Tertia conclusio. 
+      Ali<lb ed="#B" n="48" break="no"/>quis actus elicitus a uoluntate non est 
+      <lb ed="#B" n="49"/>indifferens: sed uirtuosus necessario, &amp; 
+      <lb ed="#B" n="50"/>intrinsece. Probatur illa conclusio: 
+      <!--393.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>quia aliquis actus est contingenter uit 
+      <lb ed="#B" n="52"/>tuosus: ergo aliquis est necessario 
+      uir<lb ed="#B" n="53" break="no"/>tuosus. Tenet consequentia: quia 
+      om<lb ed="#B" n="54" break="no"/>nis actus uirtuosus contingenter est de 
+      <lb ed="#B" n="55"/>se indisserens ad esse uitiosum, &amp; 
+      uir<lb ed="#B" n="56" break="no"/>tuosum. Si ergo sit determinate 
+      uir<lb ed="#B" n="57" break="no"/>tuosus: hoc erit per conformitatem 
+      <lb ed="#B" n="58"/>eius ad alium actum interiorem 
+      uir<lb ed="#B" n="59" break="no"/>tuosum: aut ergo ille actus interior 
+      <lb ed="#B" n="60"/>est contingenter uirtuosus, aut 
+      neces<lb ed="#B" n="61" break="no"/>sario. Si secundum, habetur 
+      proposi<lb ed="#B" n="62" break="no"/>tum. Si primum, quaero similiter de 
+      il<lb ed="#B" n="63" break="no"/>lo secundo actu, sicut de primo. Et 
+      opor<lb ed="#B" n="64" break="no"/>ter darè tertium, propter quem 
+      secun<lb ed="#B" n="65" break="no"/>dus sit determinate uirtuosus: &amp; ita 
+      fie<lb ed="#B" n="66" break="no"/>ret processus in infinitum, qui est 
+      im<lb ed="#B" n="67" break="no"/>possibilis: tunc enim nullus actus esset 
+      <lb ed="#B" n="68"/>uirtuosus: quia non posset deueniti ad 
+      <lb ed="#B" n="69"/>primum, propter quem alij dicerentur 
+      <lb ed="#B" n="70"/>uirtuosi.
+    </p>
+            <p xml:id="gbs333-b88316-d1e474">
+      ¶ Quod autem omnis actus 
+      con<lb ed="#B" n="71" break="no"/>tingenter uirtuosus, fiat uirtuosus 
+      de<lb ed="#B" n="72" break="no"/>terminate per alium actum uirtuo 
+      <lb ed="#B" n="73"/>sum nouum, probatur: quia non potest 
+      <lb ed="#B" n="74"/>fieri actus non uirtuosus de nouo uirtuo 
+      <lb ed="#B" n="75"/>sus, nisi per mutationem aliquam scilie 
+      produ<lb ed="#B" n="76" break="no"/>ctionem alicuius noui: aut per 
+      destru<lb ed="#B" n="77" break="no"/>ctionem alicuius praeexistentis: quia non 
+      <lb ed="#B" n="78"/>potest fieri transitus sine mutatione: non 
+      <lb ed="#B" n="79"/>autem in proposito sit illa mutatio, siue 
+      <lb ed="#B" n="80"/>transitus per destructionem. Manifestum 
+      <lb ed="#B" n="81"/>est: ergo aliquod nouum producitur. 
+      <lb ed="#B" n="82"/>Illud autem non potest esse nisi actus 
+      <lb ed="#B" n="83"/>nouus uirtuosus libere a uoluntate 
+      eli<lb ed="#B" n="84" break="no"/>citus. Probatur: quia impossibile est 
+      a<lb ed="#B" n="85" break="no"/>ctum non uirtuosum fieri uirtuosum per 
+      <lb ed="#B" n="86"/>actum naturalem, &amp; non liberum, 
+      qui<lb ed="#B" n="87" break="no"/>non est in potestate uoluntatis: quia 
+      <lb ed="#B" n="88"/>propter actum naturalem nihil est 
+      lau<lb ed="#B" n="89" break="no"/>dabile, uel uituperabile: omnis actus 
+      au<lb ed="#B" n="90" break="no"/>tem praeter actum uoluntatis est natura 
+      <lb ed="#B" n="91"/>lis, &amp; non in potestate uoluntatis. ergo 
+      ne<lb ed="#B" n="92" break="no"/>cesse est actum illum nouum, per cuius 
+      <lb ed="#B" n="93"/>conformitatem actus non uirtuosus sit 
+      <lb ed="#B" n="94"/>uirtuosus, esse actum liberum, &amp; in 
+      pote<lb ed="#B" n="95" break="no"/>state uoluntatis.
+    </p>
+            <p xml:id="gbs333-b88316-d1e532">
+      ¶ Ex quo sequitur, quod 
+      <lb ed="#B" n="96"/>actus non potest fieri uirtuosus, qui 
+      pri<lb ed="#B" n="97" break="no"/>us fuit non uirtuosus per solam 
+      coexi<lb ed="#B" n="98" break="no"/>stentiam nouam rectae rationis: quia 
+      nisi<lb ed="#B" n="99" break="no"/>interueniat actus uoluntatis, quem libere 
+      <lb ed="#B" n="100"/>elicit secundum dictamen rationis: &amp; propter 
+      <!--394.xml-->
+      <pb ed="#B" n="182-r"/>
+               <cb ed="#B" n="a"/>
+            </p>
+            <p xml:id="gbs333-b88316-d1e552">
+               <lb ed="#B" n="1"/>¶ hoc nullus actus sit de nouo uirtuosus. 
+      <lb ed="#B" n="2"/>Patet de actu interiori elicito: quia 
+      si<lb ed="#B" n="3" break="no"/>fuerit in uoluntate actus elicitus, 
+      quo<lb ed="#B" n="4" break="no"/>uult uoluntas aliquid uolibile 
+      conue<lb ed="#B" n="5" break="no"/>niens propter debitum finem cum 
+      cae<lb ed="#B" n="6" break="no"/>teris circumstantijs omnibus requisitis, 
+      <lb ed="#B" n="7"/>excepto, quod non elicuit propter hoc, 
+      <lb ed="#B" n="8"/>quia sic ratio dictauit, ille actus non est 
+      <lb ed="#B" n="9"/>uirtuosus: quia quamuis uoluntas sic 
+      eli<lb ed="#B" n="10" break="no"/>ciendo elicuit, quod iustumn est: sed non 
+      quo<lb ed="#B" n="11" break="no"/>modo iuste operatur. idest non quia 
+      iu<lb ed="#B" n="12" break="no"/>stum est. sic enim iusti operantur, quaiusta 
+      <lb ed="#B" n="13"/>sunt: ut patet. ij. Ethic. Ergo tali actu in 
+      <lb ed="#B" n="14"/>uoluntateiam existente, quantumcunque  
+      <lb ed="#B" n="15"/>coexistat ratio recta, non erit uirtuosus, 
+      <lb ed="#B" n="16"/>quia non est elicitus propter hoc. Sed 
+      si<lb ed="#B" n="17" break="no"/>debeat fieri uirtuosus, oportet, quod 
+      con<lb ed="#B" n="18" break="no"/>tinuetur propter hoc: &amp; id non potest 
+      <lb ed="#B" n="19"/>fieri nisi per nouum actum uoluntatis, queo 
+      <lb ed="#B" n="20"/>uoluntas actum (quem non elicuit: quia 
+      <lb ed="#B" n="21"/>sic dictatum est a ratione recta) continuet: 
+      <lb ed="#B" n="22"/>quia sic dictatum est a ratione recta. 
+    </p>
+            <p xml:id="gbs333-b88316-d1e602">
+               <lb ed="#B" n="23"/>¶ Nec potest saluari per nouum respectum 
+      <lb ed="#B" n="24"/>actusiam eliciti ad rationem recta de 
+      no<lb ed="#B" n="25" break="no"/>uo sibi coexistentem: quia si poneret ille 
+      <lb ed="#B" n="26"/>respectus, eentquid mere naturale, &amp; non 
+      <lb ed="#B" n="27"/>in potestate uoluntatis: &amp; ideo per 
+      ip<lb ed="#B" n="28" break="no"/>sum nihil erit uirtuosum de nouo sine 
+      <lb ed="#B" n="29"/>nouo actu uoluntatis libere elicito. 
+    </p>
+            <p xml:id="gbs333-b88316-d1e620">
+               <lb ed="#B" n="30"/>¶ Item propter illum respectum non est 
+      <lb ed="#B" n="31"/>aliquis actus in uoluntate elicitus 
+      pro<lb ed="#B" n="32" break="no"/>pter hoc. ergo nec actus uirtuosus. 
+      An<lb ed="#B" n="33" break="no"/>tecedens probatur non actus praeexistens: 
+      <lb ed="#B" n="34"/>quia ante positionem respectus est 
+      eli<lb ed="#B" n="35" break="no"/>citus: &amp; ita respectu eius ratio recta non 
+      <lb ed="#B" n="36"/>habet aliquam causalitatem: oportet ergo 
+      <lb ed="#B" n="37"/>ponere nouum actum uoluntatis.
+    </p>
+            <p xml:id="gbs333-b88316-d1e640">
+      ¶ Item 
+      <lb ed="#B" n="38"/>tunc non posset esse actus conformis 
+      <lb ed="#B" n="39"/>rationi in alijs circumstantiis in 
+      uolun<lb ed="#B" n="40" break="no"/>tate, &amp; ratio in intellectu, quin esset 
+      <lb ed="#B" n="41"/>uirtuosus. quia illis positis, ponitur 
+      re<lb ed="#B" n="42" break="no"/>spectus: quia est intrinsecus, per quem 
+      <lb ed="#B" n="43"/>actus est uirtuosus. Consequens falsum: 
+      <lb ed="#B" n="44"/>quia si dictauerit ratio nunc esse 
+      subue<lb ed="#B" n="45" break="no"/>niendum huic pauperi: quia est homo in 
+      <lb ed="#B" n="46"/>necessitate extrema positus, et 
+      uolun<lb ed="#B" n="47" break="no"/>tas uelit sic subuenire: sed non, quia ratio 
+      <lb ed="#B" n="48"/>hocdictauit, sed ex mera libertate: actus 
+      <lb ed="#B" n="49"/>ille non est uirtuosus: ut probatum est: 
+      <lb ed="#B" n="50"/>&amp; tamenibiortus est re pectus illius a¬ 
+      <!--394.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ctus ad rectam rationem.
+    </p>
+            <p xml:id="gbs333-b88316-d1e677">
+      ¶ Quarta 
+      con<lb ed="#B" n="52" break="no"/>clusio. Omnis actus uoluntatis 
+      secun<lb ed="#B" n="53" break="no"/>dum dictamen rectae rationis, &amp; propter 
+      <lb ed="#B" n="54"/>hoc elicitus, est necessario, &amp; intrinse- 
+      <lb ed="#B" n="55"/>ce uirtuosus. Probatur: quia omnis 
+      ta<lb ed="#B" n="56" break="no"/>lis est uirtuosus, &amp; non potest esse uitio 
+      <lb ed="#B" n="57"/>sus manens naturaliter idem numero: 
+      <lb ed="#B" n="58"/>ut dicetur infra in tertio distinct. xxiij. 
+      <lb ed="#B" n="59"/>quaest. i. seu manens actus humanus: 
+      er<lb ed="#B" n="60" break="no"/>go est intrinsece uirtuosus. 
+      Consequen<lb ed="#B" n="61" break="no"/>tia nota ex descriptione actus intrinse- 
+      <lb ed="#B" n="62"/>ce uirtuosi. Antecedens probatur pro 
+      <lb ed="#B" n="63"/>prima parte: quia si posset fieri 
+      uitio<lb ed="#B" n="64" break="no"/>sus maxime propter uariationem 
+      ali<lb ed="#B" n="65" break="no"/>cuius circumstantiae finis, uel alterius, 
+      <lb ed="#B" n="66"/>ut si primo uolo intrareecclesiam 
+      pro<lb ed="#B" n="67" break="no"/>pter deum: postea uolo idem propter 
+      <lb ed="#B" n="68"/>lucrum. Sed hoc non probatur, mutato 
+      <lb ed="#B" n="69"/>fine in intentione, mutatur ipsa 
+      uoli<lb ed="#B" n="70" break="no"/>tio. Et distinguitur secundus actus 
+      siue<lb ed="#B" n="71" break="no"/>secundum uelle quo uolo intrare 
+      eccle<lb ed="#B" n="72" break="no"/>siam propter lucrum, a primo uelle, quo 
+      <lb ed="#B" n="73"/>uolo intrare ecclesiam propter deum: 
+      <lb ed="#B" n="74"/>secus est de actibus imperatis, qui 
+      ma<lb ed="#B" n="75" break="no"/>nent ijdem in esse nature: ergo non est 
+      <lb ed="#B" n="76"/>idem actus primo uirtuosus, &amp; secundo 
+      <lb ed="#B" n="77"/>uitiosus. Quod autem mutata 
+      circumsta<lb ed="#B" n="78" break="no"/>tia mutatur actus elicitus, probatur: 
+      <lb ed="#B" n="79"/>quia mutato obiecto, mutatur actus 
+      <lb ed="#B" n="80"/>elicitus tam uoluntatis, quam 
+      intelle<lb ed="#B" n="81" break="no"/>ctius: quia penes obiecta distinguuntur 
+      <lb ed="#B" n="82"/>actus: sed circumstantiae sunt obiecta 
+      <lb ed="#B" n="83"/>partialia actus eliciti uoluntatis simul 
+      <lb ed="#B" n="84"/>tum recta ratione: ergo horum aliqua 
+      <lb ed="#B" n="85"/>mutata, mutatur actus elicitus.
+    </p>
+            <p xml:id="gbs333-b88316-d1e754">
+      ¶ Quod  
+      <lb ed="#B" n="86"/>sint obiecta probatur: obiectum est 
+      su<lb ed="#B" n="87" break="no"/>per quo actus fertur. Et ad 
+      proposi<lb ed="#B" n="88" break="no"/>tum: illud est obiectum uolitionis, quod 
+      <lb ed="#B" n="89"/>uoluntas uult ipsa uolitione: sicut 
+      ob<lb ed="#B" n="90" break="no"/>iectum intellectionis est, quod 
+      intelle<lb ed="#B" n="91" break="no"/>ctus intelligit ipsa intellectione: si 
+      uo<lb ed="#B" n="92" break="no"/>luntas uolens aliquid cum certis 
+      circun<lb ed="#B" n="93" break="no"/>stantijs, uult etiam illas circunstantias: ut  
+      <lb ed="#B" n="94"/>uolens aliquid propter deum: &amp; quia sic 
+      <lb ed="#B" n="95"/>dictatum est, &amp; in tali loco, &amp; tempore: uult 
+      <lb ed="#B" n="96"/>etiam deus rationes, tempus, &amp; locum: &amp; 
+      <lb ed="#B" n="97"/>omnia illa simuluna uolitione: ergo 
+      sin<lb ed="#B" n="98" break="no"/>gula sunt partialia obiecta: quamuis 
+      <lb ed="#B" n="99"/>unum sit principalius alio.
+    </p>
+            <p xml:id="gbs333-b88316-d1e787">
+      ¶ 
+      Praete<lb ed="#B" n="100" break="no"/>rea nisi sic sequitur, quod nullus actus es¬ 
+      <!--395.xml-->
+      <pb ed="#B" n="182-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>set intrinsece uirtuosus, cuius oppositum 
+      <lb ed="#B" n="2"/>probatum est.
+    </p>
+            <p xml:id="gbs333-b88316-d1e803">
+      ¶ Secundo sequitur, quod de 
+      <lb ed="#B" n="3"/>actu uirtuoso, &amp; non meritorio fiere 
+      <lb ed="#B" n="4"/>actus uirtuosus, &amp; meritorius per alique 
+      <lb ed="#B" n="5"/>mere naturale, quod non est in potesta 
+      <lb ed="#B" n="6"/>te uoluntatis, utrumque est inconueniens 
+      <lb ed="#B" n="7"/>Primum probatur: quia cum actus 
+      uoli<lb ed="#B" n="8" break="no"/>tatis mutatur ad mutationem obiecti, 
+      <lb ed="#B" n="9"/>&amp; non circumstantiarum: tunc quicumque;  
+      <lb ed="#B" n="10"/>actus uoluntatis elicitus cum certis 
+      cir<lb ed="#B" n="11" break="no"/>cunstantijs per rationem dictatis: &amp; ita 
+      <lb ed="#B" n="12"/>uirtuosus potest manere idem uariatis 
+      <lb ed="#B" n="13"/>circumstantijs, manente eodem 
+      obie<lb ed="#B" n="14" break="no"/>cto, &amp; ita fieri uitiosus: &amp; per consequens 
+      <lb ed="#B" n="15"/>non erit intrinsece uirtuosus. Secundum 
+      <lb ed="#B" n="16"/>probatur: quia si recta ratio non esset 
+      <lb ed="#B" n="17"/>obiectum uolitionis: eadem uolitio, 
+      <lb ed="#B" n="18"/>prius non fuit uirtuosa, &amp; meritoria: pr 
+      <lb ed="#B" n="19"/>solam ass istentiam dictaminis rectae 
+      rationi<lb ed="#B" n="20" break="no"/>fieretuirtuosus, &amp; meritorius: &amp; sic 
+      per<lb ed="#B" n="21" break="no"/>aliquod mere naturale, quod non est in 
+      <lb ed="#B" n="22"/>potestate uoluntatis: fieret de non 
+      me<lb ed="#B" n="23" break="no"/>ritorio meritorium, &amp; de non uirtuoso 
+      <lb ed="#B" n="24"/>uirtuosum: dictamen enim rationis non 
+      <lb ed="#B" n="25"/>est liberum, nec in potestate uoluntatis: 
+      <lb ed="#B" n="26"/>siquidem non est in potestate uoluntatis 
+      <lb ed="#B" n="27"/>quod ratio dictat.
+    </p>
+            <p xml:id="gbs333-b88316-d1e860">
+      ¶ Et dicitur notanter, 
+      <lb ed="#B" n="28"/>quod actus necessario, &amp; intrinsece 
+      uirtuc<lb ed="#B" n="29" break="no"/>sus est, qui non potest fieri uitiosus 
+      ma<lb ed="#B" n="30" break="no"/>nens actus humanus: quia quicumque actus 
+      <lb ed="#B" n="31"/>uirtuosus uoluntatis elicitus potest 
+      per<lb ed="#B" n="32" break="no"/>potentiam dei fieri non uirtuosus 
+      per<lb ed="#B" n="33" break="no"/>diuinum miraculum. Nam si actum talen 
+      <lb ed="#B" n="34"/>deus solus in uoluntate conseruaret 
+      su<lb ed="#B" n="35" break="no"/>spendendo causalitatem prudentie, 
+      ue<lb ed="#B" n="36" break="no"/>rectae rationis in conseruando, iam ille 
+      <lb ed="#B" n="37"/>actus non esset uirtuosus: quiaiam 
+      nul<lb ed="#B" n="38" break="no"/>lum haberet ordinem ad prudentiam 
+      <lb ed="#B" n="39"/>quia non dependeret ab ea in aliquo 
+      ge<lb ed="#B" n="40" break="no"/>nere causae: &amp; esset perinde ac si nullum 
+      <lb ed="#B" n="41"/>esset dictamen rationis Sed tunc non 
+      es<lb ed="#B" n="42" break="no"/>set actus humanus: quia non esset actus 
+      <lb ed="#B" n="43"/>deliberatiuus, neque obiecti ut cogniti 
+      <lb ed="#B" n="44"/>ue apprehensi: &amp; licet in casu praedicto 
+      <lb ed="#B" n="45"/>actus ille non esset uirtuosus, non tamen 
+      <lb ed="#B" n="46"/>uitiosus: quia non contra rectam rationem. 
+    </p>
+            <p xml:id="gbs333-b88316-d1e904">
+               <lb ed="#B" n="47"/>¶ Quinta conclusio probabilis. Nullus 
+      <lb ed="#B" n="48"/>actus indifferens elicitus potest fieri 
+      bo<lb ed="#B" n="49" break="no"/>nus, aut uitiosus. Probatur: quia talis 
+      <lb ed="#B" n="50"/>actus nec potest fieri bonus, aut malus 
+      <!--395.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>intrinsece, nec extrinsece: ergo nullo 
+      <lb ed="#B" n="52"/>modo. Consequentia tenet ex 
+      sufficien<lb ed="#B" n="53" break="no"/>ti diuisione. Antecedens patet: quod non 
+      <lb ed="#B" n="54"/>intrinsece patet. Nec extrinsece: quia 
+      <lb ed="#B" n="55"/>hoc esset per conformitatem eius ad 
+      a<lb ed="#B" n="56" break="no"/>ctum nouum uoluntatis respectu 
+      eius<lb ed="#B" n="57" break="no"/>dem obiecti intrinsece bonum, aut 
+      ma<lb ed="#B" n="58" break="no"/>lum. Sed hoc non, quia respectu eiusdem 
+      <lb ed="#B" n="59"/>obiecti principalis non possunt esse 
+      plu<lb ed="#B" n="60" break="no"/>res actus simul: si eiimprimo uoluero. a. 
+      <lb ed="#B" n="61"/>non propter finem uirtutis erit actus 
+      <lb ed="#B" n="62"/>indifferens elicitus: sed si postea 
+      uolue<lb ed="#B" n="63" break="no"/>ro. a. propter deum elicito secundo actu 
+      <lb ed="#B" n="64"/>primus destruitur: alias haberem simul 
+      <lb ed="#B" n="65"/>duos actus respectu eiusdem obiecti, quod 
+      <lb ed="#B" n="66"/>uidetur inconueniens. De hoc uide 
+      O<lb ed="#B" n="67" break="no"/>ckam in tertio quaest. x. iuxtafinem: &amp; 
+      <lb ed="#B" n="68"/>in collectorio tertio distinctione. xxiij 
+      <lb ed="#B" n="69"/>quaest. i. plura de hoc dicentur, quae hic 
+      <lb ed="#B" n="70"/>ommittuntur de bonitate actuum 
+      uir<lb ed="#B" n="71" break="no"/>tuosorum &amp;c.
+    </p>
+            <p xml:id="gbs333-b88316-d1e965">
+      ¶ Ex illa conclusione 
+      se<lb ed="#B" n="72" break="no"/>quitur, quod actus elicitus indifferens est 
+      <lb ed="#B" n="73"/>essentialiter siue intrinsece indifferens. 
+      <lb ed="#B" n="74"/>ita quod non potest esse bonus, neque 
+      ma<lb ed="#B" n="75" break="no"/>lus: &amp; sic erit indifferens primo modo, &amp; 
+      <lb ed="#B" n="76"/>non secundo modo dicto in primo 
+      ar<lb ed="#B" n="77" break="no"/>ticulo. Verum si teneretur, uoluntas 
+      po<lb ed="#B" n="78" break="no"/>test habere duplex uelle eiusdem obie- 
+      <lb ed="#B" n="79"/>cti principalis: conclusio illa cum suo 
+      <lb ed="#B" n="80"/>corollario non esset uera.
+    </p>
+            <p xml:id="gbs333-b88316-d1e988">
+      ¶ Quantum ad 
+      <lb ed="#B" n="81"/>articulum tertium dubitatur primo. 
+      <lb ed="#B" n="82"/>Vtrum sit aliquis actus indifferens 
+      compa<lb ed="#B" n="83" break="no"/>rando actum ad meritum, &amp; demeritum. 
+      <lb ed="#B" n="84"/>Respondetur primo de actu exteriori 
+      <lb ed="#B" n="85"/>uel interiori imperato. Secundo de 
+      actu<lb ed="#B" n="86" break="no"/>interiorielicito.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1004">
+      ¶ De primo per omnia 
+      <lb ed="#B" n="87"/>dicendum de actu imperato respectu 
+      bo<lb ed="#B" n="88" break="no"/>ni meritorij, sicut respectu boni 
+      mora<lb ed="#B" n="89" break="no"/>lis. Nam actus imperatus bonus 
+      mora<lb ed="#B" n="90" break="no"/>liter potest esse indifferens ad meritum, 
+      <lb ed="#B" n="91"/>&amp; non meritum. Actus enim bonus 
+      mo<lb ed="#B" n="92" break="no"/>raliter imperatus, ut comedere 
+      come<lb ed="#B" n="93" break="no"/>denda pro loco, &amp; tempore pro 
+      susten<lb ed="#B" n="94" break="no"/>tatione naturae, est actus moraliter 
+      bo<lb ed="#B" n="95" break="no"/>nus: &amp; manens idem potest esse 
+      merito<lb ed="#B" n="96" break="no"/>rius: ut si manente actu comestionis, 
+      or<lb ed="#B" n="97" break="no"/>dinem ipsum in deum per charitatem 
+      <lb ed="#B" n="98"/>inexistentem. Similiter siprimo incipiam 
+      <lb ed="#B" n="99"/>propter deum, secundum illud Aposto 
+      <lb ed="#B" n="100"/>li. Siue manducatis, siuebibitis, siue qud 
+      <!--396.xml-->
+      <pb ed="#B" n="183-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>aliud facitis: oia in gloriam dei facite. j. 
+      <lb ed="#B" n="2"/>Corin. x. Et postea continue ppter 
+      na<lb ed="#B" n="3" break="no"/>turalem sustentationem ibi sistendo, &amp; 
+      <lb ed="#B" n="4"/>non ultra in deum ordinando: actus 
+      co<lb ed="#B" n="5" break="no"/>medendi primo est meritorius: &amp; idem 
+      <lb ed="#B" n="6"/>manens in esse moris, &amp; naturae desinit 
+      <lb ed="#B" n="7"/>esse meritorius: non tamen manens 
+      bo<lb ed="#B" n="8" break="no"/>nus moraliter potest esse demeritorius: 
+      <lb ed="#B" n="9"/>quia cum actu peccati mortalis, non 
+      <lb ed="#B" n="10"/>potest stare, quod ipse idem sit bonus mora 
+      <lb ed="#B" n="11"/>liter: quia si fuerit demeritorius, aut de 
+      <lb ed="#B" n="12"/>ficit aliqua circumstantia, quam recta 
+      <lb ed="#B" n="13"/>ratio dictat inesse, aut adest aliqua, quam 
+      <lb ed="#B" n="14"/>dictat non inesse debere: &amp; ita semper 
+      <lb ed="#B" n="15"/>actus erit difformis contrarie rectae 
+      ra<lb ed="#B" n="16" break="no"/>tioni: &amp; ita moraliter malus. Actus 
+      ta<lb ed="#B" n="17" break="no"/>men indifferens moraliter potest 
+      fieri<lb ed="#B" n="18" break="no"/>meritorius, &amp; post demeritorius, &amp; econ 
+      <lb ed="#B" n="19"/>uerso: ut si intro ecclesiam propter finem 
+      <lb ed="#B" n="20"/>indifferentem. gratia exempli propter 
+      <lb ed="#B" n="21"/>recreationem, uel etiam finem 
+      morali<lb ed="#B" n="22" break="no"/>ter bonum: non tamen quia ratio sic 
+      di<lb ed="#B" n="23" break="no"/>ctauit: sed ex mera libertate uoluntatis, 
+      <lb ed="#B" n="24"/>tunc est actus moraliter indifferens. 
+      si<lb ed="#B" n="25" break="no"/>postea muto intentionem 
+      continuan<lb ed="#B" n="26" break="no"/>do actum intrandi ecclesiam propter deum 
+      <lb ed="#B" n="27"/>erit meritorius: aut propter uanam glo 
+      <lb ed="#B" n="28"/>tiam erit demeritorius.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1104">
+      ¶ Secundo 
+      dici<lb ed="#B" n="29" break="no"/>tur, quod loquendo de actu illicito 
+      indif<lb ed="#B" n="30" break="no"/>ferenti secundo modo: quia nullus talis 
+      <lb ed="#B" n="31"/>est indifferens moraliter: sic etiam nullus 
+      <lb ed="#B" n="32"/>talis est indifferens quo ad meritum, &amp; 
+      <lb ed="#B" n="33"/>demeritum. Patet: quia manens idem 
+      natura<lb ed="#B" n="34" break="no"/>liter non potest mutari de opponsito in 
+      op<lb ed="#B" n="35" break="no"/>positum: hoc enim fieri non potest nisi 
+      per<lb ed="#B" n="36" break="no"/>mutationem alicuius circunstantiae: sed 
+      <lb ed="#B" n="37"/>mutata circunstantia mutatur actus 
+      elici<lb ed="#B" n="38" break="no"/>tus: ut patet ex secundo articulo, &amp; ita 
+      <lb ed="#B" n="39"/>non manet idem. Vide pro intellectu 
+      cla<lb ed="#B" n="40" break="no"/>riori dicta in dist. xxiij. q. i. tertij.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1133">
+      ¶ Sed 
+      <lb ed="#B" n="41"/>loquendo de actu indifferenti primo 
+      mo<lb ed="#B" n="42" break="no"/>do, idest nec meritorio, nec 
+      demerito<lb ed="#B" n="43" break="no"/>rio, praesuppositis his, quaedicta sunt 
+      su<lb ed="#B" n="44" break="no"/>pra distinct. xxviij. recitat sanctus Bona 
+      <lb ed="#B" n="45"/>uent. tres opiniones.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1146">
+      ¶ Prima, quod nullus 
+      <lb ed="#B" n="46"/>actus humanus deliberatiuus sit 
+      indif<lb ed="#B" n="47" break="no"/>ferens: quia nihil facit homo ex 
+      delibe<lb ed="#B" n="48" break="no"/>ratione, quod non imputat deus ad 
+      prae<lb ed="#B" n="49" break="no"/>mium, uel ad demeritum. Nam dicit 
+      A<lb ed="#B" n="50" break="no"/>postolus. j. Corint. x. Omnia in gloriam 
+      <!--396.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>dei facite. Et ad Coloss. iij. Omnia quaem 
+      <lb ed="#B" n="52"/>cunque facitis siue in uerbo, siue in 
+      o<lb ed="#B" n="53" break="no"/>pere, omnia in nomine domini 
+      nostri<lb ed="#B" n="54" break="no"/>Iesu Christi facite. Aut ergo actio 
+      no<lb ed="#B" n="55" break="no"/>stra est in gloriam dei, aut non. Si sic: 
+      er<lb ed="#B" n="56" break="no"/>pobona, si non ergo mala: quia 
+      omit<lb ed="#B" n="57" break="no"/>titur id, quod mandat Apostolus. unde 
+      <lb ed="#B" n="58"/>in die iudicij de omni actu 
+      deliberati<lb ed="#B" n="59" break="no"/>uo rationem reddemus, ut dicunt. Et 
+      si<lb ed="#B" n="60" break="no"/>cut non peribit capillus de capite, ita 
+      <lb ed="#B" n="61"/>nec momentum idest minimum de 
+      ope<lb ed="#B" n="62" break="no"/>re. ut dicit Bernar. &amp; Anselmus. Quod 
+      <lb ed="#B" n="63"/>exigetur a nobis omne tempus 
+      impen<lb ed="#B" n="64" break="no"/>sum qualiter fuerit expensum. Cui 
+      ui<lb ed="#B" n="65" break="no"/>detur illud uerbum saluatoris alludere. 
+      <lb ed="#B" n="66"/>Omne uerbum ociosum, quod 
+      locuti<lb ed="#B" n="67" break="no"/>fuerint homines, de eo reddent 
+      ratio<lb ed="#B" n="68" break="no"/>nem in dic iudicij. Mat. xij. Cuius 
+      opi<lb ed="#B" n="69" break="no"/>nionis uidetur fuisse Grego. de arim. 
+      <lb ed="#B" n="70"/>ut supra tactum est distinct. xxviij. 
+      qui<lb ed="#B" n="71" break="no"/>omnem actionem nostram, quae non 
+      or<lb ed="#B" n="72" break="no"/>dinatur in finem ultimum: pro eo, quod 
+      ca<lb ed="#B" n="73" break="no"/>ret circumstantia finis, dicit esse 
+      uitio<lb ed="#B" n="74" break="no"/>sam.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1216">
+      ¶ Alia est opinio, quam dicit, quod actio, 
+      <lb ed="#B" n="75"/>quae non est propria uoluntati siue 
+      ho<lb ed="#B" n="76" break="no"/>mini rationali: ut comedere, ambulare, 
+      <lb ed="#B" n="77"/>&amp; caetera, quae &amp; brutis conueniunt, 
+      po<lb ed="#B" n="78" break="no"/>test esse indisterens. Actiones uero, quae 
+      <lb ed="#B" n="79"/>proprie sunt homini: ut loqui, aut sunt 
+      <lb ed="#B" n="80"/>bonae aut malae: nec est reperite medium. 
+      <lb ed="#B" n="81"/>Omnis enim (ut inquiunt) locutio 
+      bo<lb ed="#B" n="82" break="no"/>na est, aut mala: quia utilis, uel 
+      ociosa<lb ed="#B" n="83" break="no"/>Si ociosa, tunc est mala: secundum 
+      uer<lb ed="#B" n="84" break="no"/>bum domini de uerbo ocioso allegatum: 
+      <lb ed="#B" n="85"/>propter quod Beatus laco. in canonica 
+      <lb ed="#B" n="86"/>sua. c. iij. dicit. Qui in uerbo non 
+      ossen<lb ed="#B" n="87" break="no"/>dit, hic perfectus est uir. Ideo dicit 
+      qui<lb ed="#B" n="88" break="no"/>dam. Quod uerbum prius debet uenire 
+      <lb ed="#B" n="89"/>ad limam, quam adlinguam.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1252">
+      ¶ Sed 
+      utra<lb ed="#B" n="90" break="no"/>que dictarum opinionum nimis arctat  
+      <lb ed="#B" n="91"/>uiam ad regnum, nam sic cogitatio de 
+      <lb ed="#B" n="92"/>ueritate non propter deum esset 
+      pec<lb ed="#B" n="93" break="no"/>catum. Similiter si quis ex naturali 
+      pie<lb ed="#B" n="94" break="no"/>tate, uel ciuili urbanitate salutaret 
+      oc<lb ed="#B" n="95" break="no"/>currentem in uia, peccaret: quod nimis 
+      <lb ed="#B" n="96"/>est durum dicere.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1270">
+      ¶ Tertia est opinio, 
+      <lb ed="#B" n="97"/>quam ipse approbat. quae ponit, quod non 
+      <lb ed="#B" n="98"/>omnis actio non ordinata in finem 
+      ul<lb ed="#B" n="99" break="no"/>timum scilicet deum, est mala, &amp; 
+      deme<lb ed="#B" n="100" break="no"/>ritoria. Quaedam enim est inordinata 
+      <!--397.xml-->
+      <pb ed="#B" n="183-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>propter inordinatam conuersionem 
+      uo<lb ed="#B" n="2" break="no"/>luntatis ad creaturam. Quaedam non ordina 
+      <lb ed="#B" n="3"/>ta, ppter operantis negligentiam. Quaedam 
+      <lb ed="#B" n="4"/>propter operantis infirmitatem. Prima 
+      ma<lb ed="#B" n="5" break="no"/>la est malitia conmissionis. Secunda 
+      ma<lb ed="#B" n="6" break="no"/>la est malitia omissionis. Tertia 
+      indiffe<lb ed="#B" n="7" break="no"/>rens est. Et illa est, quando aliquis circa 
+      <lb ed="#B" n="8"/>creaturam non afficitur inordinate: nec 
+      <lb ed="#B" n="9"/>tamen actum circa illam comparat ad 
+      <lb ed="#B" n="10"/>deum: hoc est ordinat in deum: sed facit 
+      <lb ed="#B" n="11"/>propter aliquem finem, qui respicit 
+      indi<lb ed="#B" n="12" break="no"/>gentiam naturae: ut cum quis ambulat, 
+      <lb ed="#B" n="13"/>ut recreetur: aut comedit, ut reficiatur. 
+      <lb ed="#B" n="14"/>talis actio est indifferens: quia deus nec 
+      <lb ed="#B" n="15"/>illam remunerat, nec imputat in culpam; 
+      <lb ed="#B" n="16"/>&amp; hoc quia in tali actione non est 
+      mali<lb ed="#B" n="17" break="no"/>tia commissionis: quia non est inordina 
+      <lb ed="#B" n="18"/>ta delectatio. Nec etiam omissionis, non 
+      <lb ed="#B" n="19"/>enim semper omittit homo scilicet omissionis 
+      <lb ed="#B" n="20"/>pcto, quando actiones suas non refert 
+      <lb ed="#B" n="21"/>in deum. Indulgetur enim naturae 
+      fragi<lb ed="#B" n="22" break="no"/>li, &amp; infirmae, ut multa talia possit 
+      face<lb ed="#B" n="23" break="no"/>re: nec deus requirit in tali statu 
+      distra<lb ed="#B" n="24" break="no"/>ctionis, &amp; miseriae, quod omnia dum facit, 
+      <lb ed="#B" n="25"/>referat ad se: requirit tamen aliquando, quando 
+      <lb ed="#B" n="26"/>est locus &amp; tempus: &amp; tunc si homo non 
+      <lb ed="#B" n="27"/>referat, omittendo peccat.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1346">
+      ¶ Secundum hanc 
+      <lb ed="#B" n="28"/>igitur opinionem, quae est temperatior, &amp; 
+      <lb ed="#B" n="29"/>communior: dicitur, quod non omnis actus 
+      <lb ed="#B" n="30"/>elicitus est meritorius, uel demeritorius 
+      <lb ed="#B" n="31"/>sed aliquis est indifferens tam in 
+      haben<lb ed="#B" n="32" break="no"/>tegiam, quam non habente: non enim 
+      <lb ed="#B" n="33"/>omnis actus pctoris pctum est. Nam 
+      pec<lb ed="#B" n="34" break="no"/>cator honorando parentes, bene 
+      facien<lb ed="#B" n="35" break="no"/>do indigenti, credendo uerum, nec 
+      pec<lb ed="#B" n="36" break="no"/>cat, licet haec agendo non mereat. 
+      Simili<lb ed="#B" n="37" break="no"/>ter existens in gia, &amp; haec faciens propter 
+      <lb ed="#B" n="38"/>naturalem honestate, compassionem &amp; 
+      ue<lb ed="#B" n="39" break="no"/>ritatis apparentiam non meret: eo quo 
+      <lb ed="#B" n="40"/>non per gratiam. haec refert in deum. Sed 
+      <lb ed="#B" n="41"/>nec demeretur: quia a deo non obligat 
+      <lb ed="#B" n="42"/>omnem actum suum referre in deum. Non 
+      <lb ed="#B" n="43"/>enim praecepta, que ad certos actus 
+      cer<lb ed="#B" n="44" break="no"/>to modo agendos obligant, pro semp 
+      obli<lb ed="#B" n="45" break="no"/>gant: sed pro certo tempore, loco, uel caus: 
+      <lb ed="#B" n="46"/>cum quibus existentibus si non reserret, 
+      pec<lb ed="#B" n="47" break="no"/>caret. Posset quidem deus secundum 
+      iusti<lb ed="#B" n="48" break="no"/>tiae rigorem onem nostram uitam, &amp; 
+      actio<lb ed="#B" n="49" break="no"/>nem exigere, ut in eum referremus: sed  
+      <lb ed="#B" n="50"/>non exigit per miam. Hinc sumpsisse canscel¬ 
+      <!--397.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>larium Parien. aestimo, quod in suo triparti 
+      <lb ed="#B" n="52"/>to. cap. iiij. scribit. Cognoscens (inquit 
+      <lb ed="#B" n="53"/>ipse) piissimus pater nostram fragilitatem, 
+      <lb ed="#B" n="54"/>&amp; exiguam potentiam, non requirit a 
+      <lb ed="#B" n="55"/>nobis omne seruitium, quod secundum iu 
+      <lb ed="#B" n="56"/>stitiae rigorem exigere posset: dedit 
+      quin<lb ed="#B" n="57" break="no"/>potius certum numerum praeceptorum, 
+      <lb ed="#B" n="58"/>quorum obseruatio sibi sufficiens esset: 
+      <lb ed="#B" n="59"/>quae etiam legis decalogo continentur. 
+      <lb ed="#B" n="60"/>Sic &amp; gratiae diuinae, ac miae deputat, 
+      <lb ed="#B" n="61"/>quod non omnem offensam uult de facto 
+      <lb ed="#B" n="62"/>imputare ad mortem aeternam: cum id 
+      <lb ed="#B" n="63"/>iustissime posset: quia omnis dei 
+      ofsen<lb ed="#B" n="64" break="no"/>sa de sua indignitate est mortifera: &amp; 
+      se<lb ed="#B" n="65" break="no"/>cundum stricta dei iustitiam a uita gloriae 
+      <lb ed="#B" n="66"/>exclusiua: immo de facto excluderet, 
+      <lb ed="#B" n="67"/>nisi remitteretur ut idem Gerson probat 
+      in<lb ed="#B" n="68" break="no"/>de uita spirituali animae lectione prima. 
+    </p>
+            <p xml:id="gbs333-b88316-d1e1442">
+               <lb ed="#B" n="69"/>¶ Pet hoc ad motiua primae opinionis 
+      <lb ed="#B" n="70"/>dicitur, quod uerbum Apostoli consilium est omnes 
+      <lb ed="#B" n="71"/>praeceptu: sicut niultae aliae monitiones 
+      <lb ed="#B" n="72"/>eiusdem Apostoli, &amp; sapientis in 
+      pro<lb ed="#B" n="73" break="no"/>uerbijs, &amp; caeteris sapientiae libris. Vel 
+      <lb ed="#B" n="74"/>secundum aliquos intelligitur 
+      negati<lb ed="#B" n="75" break="no"/>ue id est nihil contra gloriam dei facite: &amp; sic 
+      <lb ed="#B" n="76"/>est praeceptum. Aliteretiam alij exponunt. 
+    </p>
+            <p xml:id="gbs333-b88316-d1e1462">
+               <lb ed="#B" n="77"/>¶ Ad aliud de uerbo ocioso. Respondet 
+      <lb ed="#B" n="78"/>ianctus Bonauem. quod uerbum ociosum cum 
+      <lb ed="#B" n="79"/>dicitur illud, quod non ordinatur in finem: 
+      <lb ed="#B" n="80"/>sed illud, quod caret omni utilitate, dum tamen 
+      <lb ed="#B" n="81"/>aliquam deberet habere. Et sic 
+      intelli<lb ed="#B" n="82" break="no"/>gendum est illud Greg. Verbum 
+      ocio<lb ed="#B" n="83" break="no"/>sum est, quod caret ratione iustae 
+      necessi<lb ed="#B" n="84" break="no"/>tatis, &amp; intentione piae utilitatis. Et 
+      in<lb ed="#B" n="85" break="no"/>ter tale ociosum, &amp; meritorium cadit 
+      <lb ed="#B" n="86"/>medium, quando aliquis aliquid loquitur, 
+      <lb ed="#B" n="87"/>quod non est omnimoda utilitate 
+      pri<lb ed="#B" n="88" break="no"/>uatum: nec tamen est ordinatum in 
+      deun<lb ed="#B" n="89" break="no"/>tanquam in finem ultimum. Erequenteraunt  
+      <lb ed="#B" n="90"/>uerba, quae uidentur inutilia, ut ilia fiunt, 
+      <lb ed="#B" n="91"/>dum ordinantur ad recreationem 
+      ali<lb ed="#B" n="92" break="no"/>quam spiritus, &amp; ad exclusionem accidiae: 
+      <lb ed="#B" n="93"/>secundum, quod refertur Beatum Ber. dixisse, 
+      <lb ed="#B" n="94"/>cum quaedam fecit cespitare. Otiosum 
+      <lb ed="#B" n="95"/>inquit fuit factum: sed non otiose factum, 
+      <lb ed="#B" n="96"/>fecerat enim hoc laetificandum, illum 
+      <lb ed="#B" n="97"/>quem uiderat maestum.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1510">
+      ¶ Quod addit, 
+      <lb ed="#B" n="98"/>Sicut non peribit capillus &amp;c. ita nec 
+      <lb ed="#B" n="99"/>momentum de tempore: quia secundum 
+      <lb ed="#B" n="100"/>Bern. in uia dei stare retrocedere est. 
+      <!--398.xml-->
+      <pb ed="#B" n="184-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>Dicitur, quod uerum est, quando debet 
+      am<lb ed="#B" n="2" break="no"/>bulare, tunc stare, est regredi: &amp; sic non 
+      <lb ed="#B" n="3"/>peribit momentum de tempore, quo homo de 
+      <lb ed="#B" n="4"/>bet opari, quin respondere habeat in 
+      iu<lb ed="#B" n="5" break="no"/>dicio. Velregredi est quantum ad meritum, 
+      <lb ed="#B" n="6"/>quod illo tempore posset acquirere, 
+      si<lb ed="#B" n="7" break="no"/>operaretur ad gloriam dei. Et uenit in 
+      iu<lb ed="#B" n="8" break="no"/>dicium quantum ad priuationem huius 
+      gra<lb ed="#B" n="9" break="no"/>dus gloriae; qui ramenderet merito, si oper: 
+      <lb ed="#B" n="10"/>tus fuisset.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1548">
+      ¶ Dubitatur secundo. Vtrum 
+      so<lb ed="#B" n="11" break="no"/>lus actus qui non refertur in ultimum finem: 
+      <lb ed="#B" n="12"/>sit indifferens quantum ad meritum, &amp; 
+      <lb ed="#B" n="13"/>demeritum: an etiam aliquis relatus ad hunc 
+      <lb ed="#B" n="14"/>finem sit indifferens.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1559">
+      ¶ Pro solutione 
+      <lb ed="#B" n="15"/>notandum secundum sanctum Bonauen. 
+      <lb ed="#B" n="16"/>quaem imitatur Sco. dist. presenti, 
+      clario<lb ed="#B" n="17" break="no"/>ribus tamen uerbis, quod tripliciter possunt 
+      <lb ed="#B" n="18"/>intelligi actus referri in ultimum finem 
+      <lb ed="#B" n="19"/>scilicet actualiter, uirtualiter, &amp; 
+      habi<lb ed="#B" n="20" break="no"/>tualiter.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1575">
+      ¶ Actualiter, dum actu 
+      cogi<lb ed="#B" n="21" break="no"/>tans de fine diligit illum, &amp; uult aliquid 
+      <lb ed="#B" n="22"/>propter istum. Virtualiter, quando ex 
+      <lb ed="#B" n="23"/>cognitione, &amp; difectione finis, 
+      de<lb ed="#B" n="24" break="no"/>uentum est ad uolitionem huius entis ad 
+      <lb ed="#B" n="25"/>finem: licet tunc cum actum producit, non 
+      <lb ed="#B" n="26"/>cogitat de fine. Exemplum ponit Sco. 
+      <lb ed="#B" n="27"/>Si ex dilectione, &amp; cognitione dei 
+      per<lb ed="#B" n="28" break="no"/>tinente ad portionem superiorem, 
+      pot<lb ed="#B" n="29" break="no"/>tio inferior considerat talem actum, 
+      pu<lb ed="#B" n="30" break="no"/>ta poenitentiae assumendum: &amp; postea 
+      <lb ed="#B" n="31"/>illum exequatur uolendo, non tamen tumc 
+      <lb ed="#B" n="32"/>referendo in finem: quia nec tumc actua 
+      <lb ed="#B" n="33"/>liter finis cognoscitur, nec diligitur: 
+      a<lb ed="#B" n="34" break="no"/>ctus ille poenitentiae uirtualiter 
+      refer<lb ed="#B" n="35" break="no"/>tur in finem. Aliud exemplum ponit 
+      san<lb ed="#B" n="36" break="no"/>ctus Bonauen. Si aliquis intendit 
+      pro<lb ed="#B" n="37" break="no"/>pter deum dare decem marchas, &amp; 
+      inci<lb ed="#B" n="38" break="no"/>pit dare, &amp; cogitat de deo in prima 
+      mar<lb ed="#B" n="39" break="no"/>cha: in alijs uero non cogitat de deo 
+      <lb ed="#B" n="40"/>nihilominus omnes illae dationes aliae 
+      <lb ed="#B" n="41"/>uirtualiter referuntur in deum: quia 
+      <lb ed="#B" n="42"/>consequenter se habent, siue conse 
+      <lb ed="#B" n="43"/>quuntur ad illam operationem, quae a 
+      <lb ed="#B" n="44"/>ctualiter fuerat relata in deum. Si tamen 
+      <lb ed="#B" n="45"/>inquit, opus alterius generis. i. imper 
+      <lb ed="#B" n="46"/>tinens, ad primam intentionem 
+      incipe<lb ed="#B" n="47" break="no"/>ret: oportet quod intentio renouaretur ad 
+      <lb ed="#B" n="48"/>hoc, quod hoc opus ordinaretur in finem 
+    </p>
+            <p xml:id="gbs333-b88316-d1e1638">
+               <lb ed="#B" n="49"/>¶ Habitualiter, omnis actus refertur in 
+      <lb ed="#B" n="50"/>finem, qui simulmanens cum charita¬ 
+      <!--398.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>te est referibilis in finem. Quod 
+      addi<lb ed="#B" n="52" break="no"/>tur propter peccatum ueniale, quod stat  
+      <lb ed="#B" n="53"/>cum charitate, seu gratia: &amp; tamen non 
+      re<lb ed="#B" n="54" break="no"/>fertur habitualiter in deum. Sic aliquis 
+      a<lb ed="#B" n="55" break="no"/>ctus dicitur non referri negatiue: quia nec 
+      <lb ed="#B" n="56"/>uirtualiter, nec actualiter refertur. 
+      Pri<lb ed="#B" n="57" break="no"/>uatiue: quia non est natus referri, ut 
+      a<lb ed="#B" n="58" break="no"/>ctus peccati uenialis. Contrarie, ut 
+      pecca<lb ed="#B" n="59" break="no"/>tum mortale, quod corrumpit 
+      princi<lb ed="#B" n="60" break="no"/>pium referendi. Veniale uero etsi stet 
+      <lb ed="#B" n="61"/>cum gratia, non tamen est natum referri in 
+      <lb ed="#B" n="62"/>deum. Vide in Sco. distin. xij.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1675">
+      ¶ Per hoc  
+      <lb ed="#B" n="63"/>dicitur ad dubium. Nullus actus habens 
+      <lb ed="#B" n="64"/>charitatem relatus in finem ultimum 
+      <lb ed="#B" n="65"/>uirtualiter, ac actualiter est indifferens, 
+      <lb ed="#B" n="66"/>Patet: quia omnis talis est meritorius: 
+      <lb ed="#B" n="67"/>ergo non indifferens. Antecedens 
+      de<lb ed="#B" n="68" break="no"/>primo est manifestum: quia successiue 
+      <lb ed="#B" n="69"/>non esset meritorius: immo nullus 
+      om<lb ed="#B" n="70" break="no"/>nino est meritorius: quia nullus magis 
+      <lb ed="#B" n="71"/>ordinatur in finem. De secundo est ual 
+      <lb ed="#B" n="72"/>de probabile: quia cum ille dependet a 
+      <lb ed="#B" n="73"/>charitate, &amp; actu eius meritorio: &amp; est 
+      <lb ed="#B" n="74"/>uelut effectus eius: ideo &amp; ipse est 
+      me<lb ed="#B" n="75" break="no"/>ritorius. Ex quo infert sanctus 
+      Bo<lb ed="#B" n="76" break="no"/>nauent. ualde consolatorium uiris 
+      re<lb ed="#B" n="77" break="no"/>ligiosis scilicet, quod qui in principio ex 
+      <lb ed="#B" n="78"/>charitate deo uouerunt portare 
+      reli<lb ed="#B" n="79" break="no"/>gionis pondus, quicquid faciunt, quod  
+      <lb ed="#B" n="80"/>ad suae religionis obseruantiam spectat, 
+      <lb ed="#B" n="81"/>ex prima intentione est eis meritorium 
+      <lb ed="#B" n="82"/>ad salutem: nisiforte (quod absit) 
+      con<lb ed="#B" n="83" break="no"/>traria intentio superuenerit. In alijs 
+      <lb ed="#B" n="84"/>autem, quae ad religionem non spectant, 
+      <lb ed="#B" n="85"/>secus est: quia illa intentio se non extem 
+      <lb ed="#B" n="86"/>dit ad alia uirtualiter. Ex quo infero, 
+      <lb ed="#B" n="87"/>quod quicquid facit religiosus ex obe- 
+      <lb ed="#B" n="88"/>dientia sui praelati, etiam si fuerit 
+      la<lb ed="#B" n="89" break="no"/>bor corporalis pertinens ad uitae 
+      susten<lb ed="#B" n="90" break="no"/>tationem: si fuerit in gratia, est sibi 
+      me<lb ed="#B" n="91" break="no"/>ritorium: licet tunc non ordinet in 
+      de<lb ed="#B" n="92" break="no"/>um ex prima intentione, qua se 
+      pro<lb ed="#B" n="93" break="no"/>pter deum subdidit obedientiae: propter 
+      <lb ed="#B" n="94"/>quod non est paruae securitatis 
+      religio<lb ed="#B" n="95" break="no"/>nem introire.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1749">
+      ¶ Intelligo autem per 
+      reli<lb ed="#B" n="96" break="no"/>giosum non solum eum, qui profitetur 
+      <lb ed="#B" n="97"/>regulam factitiam: sed omnes, qui alicui 
+      <lb ed="#B" n="98"/>praelato secundum ecclesigordinationem 
+      se<lb ed="#B" n="99" break="no"/>subdiderint: immo eadem ratione quicumque;  
+      <lb ed="#B" n="100"/>statum aliquem a Christo, aut ecclesia app¬ 
+      <!--399.xml-->
+      <pb ed="#B" n="184-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>batum propter deum suscipiunt, quod  
+      <lb ed="#B" n="2"/>extendi potest usque ad statum naturae 
+      <lb ed="#B" n="3"/>matrimonialem. Et aestimo illud 
+      potissi<lb ed="#B" n="4" break="no"/>mum fore intelligendum suo modo de 
+      <lb ed="#B" n="5"/>religione Christiana, quae utique est ma 
+      <lb ed="#B" n="6"/>ior factitia: quia sine ea factitia non 
+      suf<lb ed="#B" n="7" break="no"/>ficeret ad salutem. Addit tamen sanctus 
+      <lb ed="#B" n="8"/>Bonauentu. magis specificando 
+      pri<lb ed="#B" n="9" break="no"/>us dictum ab eo. Relationem uero 
+      ha<lb ed="#B" n="10" break="no"/>bitualem, hoc est uirtualem (hanc enim 
+      <lb ed="#B" n="11"/>intelligit per habitualem: &amp; habitualem 
+      <lb ed="#B" n="12"/>supra descriptam ipse nominat 
+      habitu<lb ed="#B" n="13" break="no"/>dinalem) Relationem ergo uirtualem, 
+      <lb ed="#B" n="14"/>inquit, uoco: non qua quis refert in 
+      <lb ed="#B" n="15"/>generali ad deum omnia opera 
+      dici<lb ed="#B" n="16" break="no"/>uel anni: sed qua quis refert aliquoc 
+      <lb ed="#B" n="17"/>opus certum ad deum: ita ut opus 
+      se<lb ed="#B" n="18" break="no"/>quens directam habeat ad opus primum 
+      <lb ed="#B" n="19"/>ordinationem, &amp; consequentiam: sicut  
+      <lb ed="#B" n="20"/>est in illo, qui dat centum marchas, 
+      <lb ed="#B" n="21"/>uel quiintendit ire ad sanctum Iacobum. 
+      <lb ed="#B" n="22"/>In aliis autem non habet locum.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1817">
+      ¶ 
+      Qui<lb ed="#B" n="23" break="no"/>sic intelligo, quod opus illud uirtualiter 
+      re<lb ed="#B" n="24" break="no"/>fertur in deum, cuius praecedens opus 
+      <lb ed="#B" n="25"/>actualiter in deum relatum est aliquo 
+      <lb ed="#B" n="26"/>modo causa: ita, quod illud opus non 
+      fie<lb ed="#B" n="27" break="no"/>ret, nisi aliud praecessisset. Et facile 
+      sciri<lb ed="#B" n="28" break="no"/>potest de opere, an uirtualiter referatur 
+      <lb ed="#B" n="29"/>in deum, &amp; an consequatur ad opus actua 
+      <lb ed="#B" n="30"/>liter relatum. Siquaeras. Cur hoc facis, 
+      <lb ed="#B" n="31"/>ut in praemissis exemplis. Si quaero: cui 
+      <lb ed="#B" n="32"/>das tertiam, uel secundam marcham: aut  
+      <lb ed="#B" n="33"/>cur paras peram, &amp; calceos. Si uere 
+      re<lb ed="#B" n="34" break="no"/>sponderi potest per actum actualiter 
+      re<lb ed="#B" n="35" break="no"/>latum: ut quia uolo dare centum mar 
+      <lb ed="#B" n="36"/>chas: aut quia uolo ire ad sanctum 
+      laco<lb ed="#B" n="37" break="no"/>bum, signum est, quod uirtualiter refertur 
+      <lb ed="#B" n="38"/>in deum, &amp; per consequens est opus 
+      me<lb ed="#B" n="39" break="no"/>ritorium.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1856">
+      ¶ Secundo dicitur ad dubium, 
+      <lb ed="#B" n="40"/>quod actus, qui habitualiter tantum, &amp; non 
+      <lb ed="#B" n="41"/>actualiter, nec uirtualiter referum ad deum 
+      <lb ed="#B" n="42"/>in habente charitatem: non est 
+      merito<lb ed="#B" n="43" break="no"/>rius, nec demeritorius, sed indifferens, 
+      <lb ed="#B" n="44"/>Patet, quod non sit meritorius: quia non 
+      <lb ed="#B" n="45"/>dependet a charitate talis actus, nec 
+      eli<lb ed="#B" n="46" break="no"/>citursecundum inclinationem gratiae: 
+      <lb ed="#B" n="47"/>aeque enim fieret, si gratia non 
+      coexi<lb ed="#B" n="48" break="no"/>steret: &amp; ita gratia non habet se ad 
+      ta<lb ed="#B" n="49" break="no"/>lem actum in ratione principij 
+      media<lb ed="#B" n="50" break="no"/>te, uel immediate. Nullus autem actus 
+      <!--399.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>est meritorius: nisi respectu cuius gratia 
+      <lb ed="#B" n="52"/>habet aliquo modo rationem principij: 
+      <lb ed="#B" n="53"/>ut supra dictum est. Nec est 
+      demeri<lb ed="#B" n="54" break="no"/>torius: quia non habet sufficientem 
+      ra<lb ed="#B" n="55" break="no"/>tionem malitiae pertinentem ad 
+      pec<lb ed="#B" n="56" break="no"/>catum ueniale, quia possibile est 
+      nul<lb ed="#B" n="57" break="no"/>lam deordinationem esse in eis, quem 
+      <lb ed="#B" n="58"/>sufficiat ad rationem peccati: non enim 
+      <lb ed="#B" n="59"/>tenetur homo nec tentione 
+      necessita<lb ed="#B" n="60" break="no"/>tis, contra quam sit mortale peccatum: 
+      <lb ed="#B" n="61"/>nec tentione minori, contra quam sit 
+      <lb ed="#B" n="62"/>peccatum ueniale, referre semperactum 
+      <lb ed="#B" n="63"/>suum in deum actualiter, uel uirtualiter 
+      <lb ed="#B" n="64"/>quia deus ad hoc nos non obligauit.  
+    </p>
+            <p xml:id="gbs333-b88316-d1e1917">
+               <lb ed="#B" n="65"/>¶ Et dicitur frequenter in praemissis 
+      re<lb ed="#B" n="66" break="no"/>fertur, uel referibilis, ad excludendum 
+      <lb ed="#B" n="67"/>peccatum ueniale: quia licet coexistat 
+      gra<lb ed="#B" n="68" break="no"/>tiae, non tamen est referibile in finem ultimum. 
+      <lb ed="#B" n="69"/>Siquidem nullum peccatum refcribile est 
+      <lb ed="#B" n="70"/>in deum ratione non crrante: &amp; ideo 
+      <lb ed="#B" n="71"/>peccatum etiam ueniale non est actus 
+      <lb ed="#B" n="72"/>indifferens: sed est actus demeritorius 
+      <lb ed="#B" n="73"/>licet non poenae aeternae.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1939">
+      ¶ Tertio 
+      dubi<lb ed="#B" n="74" break="no"/>tatur iuxta secundam conclusionem tex 
+      <lb ed="#B" n="75"/>tus. Vtrum omne peccatum sit uolunta 
+      <lb ed="#B" n="76"/>rium. Et uidetur, quod non. Nam peccatum 
+      <lb ed="#B" n="77"/>omissionis, quod ignoranter 
+      committi<lb ed="#B" n="78" break="no"/>tur (gratia exempli) non intrans 
+      eccle<lb ed="#B" n="79" break="no"/>siam die festo, &amp; ignorans esse festum: 
+      <lb ed="#B" n="80"/>aut non cogitans illud, non est uolunta 
+      <lb ed="#B" n="81"/>rium: quia nihil uoluntarium, nisi 
+      co<lb ed="#B" n="82" break="no"/>gnitum: hic autem non praecedit 
+      cogni<lb ed="#B" n="83" break="no"/>tio, sed ignorantia.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1963">
+      ¶ Item nihil est 
+      uo<lb ed="#B" n="84" break="no"/>luntarium nisiper actum uoluntatis: sed  
+      <lb ed="#B" n="85"/>stat uoluntatem nullum habere actum 
+      <lb ed="#B" n="86"/>respectu omissionis: ergo non erit 
+      uo<lb ed="#B" n="87" break="no"/>luntaria: &amp; tamen omissio 
+      praeceptiaf<lb ed="#B" n="88" break="no"/>firmatiui pro tempore, &amp; loco, quo 
+      obli<lb ed="#B" n="89" break="no"/>gat, est peccatum. ergo &amp;c.
+    </p>
+            <p xml:id="gbs333-b88316-d1e1979">
+      ¶ Item 
+      uenia<lb ed="#B" n="90" break="no"/>lia peccata sunt pcta: &amp; tamen non sunt uolum 
+      <lb ed="#B" n="91"/>taria. ergo. Minor probatu. quod uitari 
+      <lb ed="#B" n="92"/>non potest, non est uoluntarium: uenia 
+      <lb ed="#B" n="93"/>lia autem uitari non possunt. vnde 
+      Au<lb ed="#B" n="94" break="no"/>gust. in lib. retractationum. Sunt 
+      quae<lb ed="#B" n="95" break="no"/>dam necessitate facta improbanda, ut  
+      <lb ed="#B" n="96"/>qui uult recte facere, &amp; non potest. 
+      un<lb ed="#B" n="97" break="no"/>de Apostolus ad Roma. vij. Non quod 
+      <lb ed="#B" n="98"/>uolo bonum, hoc facio: sed quod nolo 
+      <lb ed="#B" n="99"/>malum, hoc ago. Talia autem sunt 
+      ue<lb ed="#B" n="100" break="no"/>nialia. Primo dicetur de peccato 
+      <!--400.xml-->
+      <pb ed="#B" n="185-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>peccato omissionis Secundo de uenia 
+      <lb ed="#B" n="2"/>li.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2017">
+      ¶ Quo ad primum aduertendum, quod 
+      <lb ed="#B" n="3"/>peccatu omissionis dupliciter dicitur. 
+      <lb ed="#B" n="4"/>Vno modo improprie, prpeceato, quem 
+      <lb ed="#B" n="5"/>aliquis non omittit, quod tenetur omit 
+      <lb ed="#B" n="6"/>tere: &amp; sic omissio semperconiuncta est 
+      <lb ed="#B" n="7"/>peccato commissionis. Qui enim non 
+      <lb ed="#B" n="8"/>omittit aliquid, quid omittere tenetur: 
+      fa<lb ed="#B" n="9" break="no"/>cit, quid prohibitum est. ergo non 
+      omit<lb ed="#B" n="10" break="no"/>tendo comittit: &amp; sic non accipitur hic: 
+      <lb ed="#B" n="11"/>quia sic non dicitura pcto conmissionis 
+      se<lb ed="#B" n="12" break="no"/>cundum rem, &amp; non est dubium, omne 
+      pecca<lb ed="#B" n="13" break="no"/>tum commissionis esse uoluntarium. 
+      Se<lb ed="#B" n="14" break="no"/>cundo modo accipitur proprie: &amp; est, 
+      <lb ed="#B" n="15"/>dum aliquis omittit actum, quem tenetur 
+      fa<lb ed="#B" n="16" break="no"/>cere: &amp; ita contrariatur praecepto 
+      affir<lb ed="#B" n="17" break="no"/>matiuo.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2052">
+      ¶ Consequenter notandum, quod ut  
+      <lb ed="#B" n="18"/>recitat beatus Thom. j. ij. q.ixxi. art. s 
+      <lb ed="#B" n="19"/>De hoc an peccatum dimissionis esse pos 
+      <lb ed="#B" n="20"/>sit sine actu positiuo uoluntatis: duae 
+      re<lb ed="#B" n="21" break="no"/>periuntur opiniones. Vna, quod in omni 
+      <lb ed="#B" n="22"/>peccato omissionis est actus aliquis 
+      in<lb ed="#B" n="23" break="no"/>terior uoluntatis elicitus: uel 
+      exterior<lb ed="#B" n="24" break="no"/>imperatus. Interior, ut uelle omittere. 
+      <lb ed="#B" n="25"/>siue uelle non facere, quid praeceptum est: 
+      <lb ed="#B" n="26"/>aut uelle suspendere actum, quem tenetur 
+      fa<lb ed="#B" n="27" break="no"/>cere: aut uelle facere actum incompossibilem 
+      <lb ed="#B" n="28"/>actui, ad quem tenet: &amp; per consequens 
+      <lb ed="#B" n="29"/>uelle carere actu, ad que tenetur. 
+      Exte<lb ed="#B" n="30" break="no"/>rior, ut operatio alicuius ea hora, qua 
+      <lb ed="#B" n="31"/>tenetur aliquid facere, quo impeditur 
+      <lb ed="#B" n="32"/>ab eo, quod tenetur. Alia opinio 
+      dicen<lb ed="#B" n="33" break="no"/>tium, quod licet, inpcto omissionis frequenter 
+      <lb ed="#B" n="34"/>concurrat talis actus positiuus: non tamen 
+      <lb ed="#B" n="35"/>oportet, nec requiritur ad pctum 
+      omis<lb ed="#B" n="36" break="no"/>sionis aliquis actus positiuus. Ipsum, n. 
+      <lb ed="#B" n="37"/>non facere, quid praeceptum est, est peccatum 
+      <lb ed="#B" n="38"/>omissionis: secluso omni actu positiuo. 
+      <lb ed="#B" n="39"/>Huic opinioni fauet sanctus Tho. fauet 
+      <lb ed="#B" n="40"/>&amp; Guil. Ockam in suo tertio. q. x. &amp; 
+      pro<lb ed="#B" n="41" break="no"/>bat sic: quia ponamus, quod aliquis tenetur 
+      <lb ed="#B" n="42"/>diligere Deum actualiter die Dnico 
+      semo<lb ed="#B" n="43" break="no"/>to impedimento: talis sublato omni 
+      im<lb ed="#B" n="44" break="no"/>pedimento, potest ptotum dic non diligere 
+      <lb ed="#B" n="45"/>deum: non. n. necessitatur ad diligendum deum: 
+      <lb ed="#B" n="46"/>&amp; per consequens potest peccare no diligendo 
+      <lb ed="#B" n="47"/>pcto omissionis. Si ergo ad hoc, quod 
+      pec<lb ed="#B" n="48" break="no"/>cet pcto omissionis, requiritur etia 
+      pec<lb ed="#B" n="49" break="no"/>catu conmissionis siue actus positiuus 
+      uo<lb ed="#B" n="50" break="no"/>luntatis. Quaero de illo actu uolunta¬ 
+      <!--400.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tis, siue sit actus nolendi diligere deum: 
+      <lb ed="#B" n="52"/>siue sit actus uolondi contrarius 
+      dile<lb ed="#B" n="53" break="no"/>ctioni dei: aut est in potestate 
+      uolunta<lb ed="#B" n="54" break="no"/>tis: sic quod uoluntas stante pcto omissionis, 
+      <lb ed="#B" n="55"/>potest illum actum conmissionis omittere, 
+      elice<lb ed="#B" n="56" break="no"/>re, uel non elicere: uel non potest non elicere: 
+      <lb ed="#B" n="57"/>sed necessario elicit stante peccato 
+      omis<lb ed="#B" n="58" break="no"/>sionis. Siprimum: potest uoluntas illum actum 
+      <lb ed="#B" n="59"/>non elicere: &amp; per consequens potest 
+      pec<lb ed="#B" n="60" break="no"/>care peccato omissionis non peccando 
+      <lb ed="#B" n="61"/>peccato commissionis. Si detur 
+      secun<lb ed="#B" n="62" break="no"/>dum: ergo in eliciendo illum secundum 
+      <lb ed="#B" n="63"/>actum non peccabit: quia nullus peccat 
+      <lb ed="#B" n="64"/>in eo, quiad uitare non potest.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2161">
+      ¶ Sed contra 
+      <lb ed="#B" n="65"/>ista opinionem arguitur. Nam pono, quod 
+      ali<lb ed="#B" n="66" break="no"/>quis phora, qua tenetur audire missam, 
+      <lb ed="#B" n="67"/>noncogitet de missa audienda: &amp; ita non 
+      <lb ed="#B" n="68"/>uadat, sed omittat audire missa. Quaero, 
+      <lb ed="#B" n="69"/>an peccet peccato omissionis in eo 
+      pei<lb ed="#B" n="70" break="no"/>se, quod non audit missam: uel non. Si dicis 
+      <lb ed="#B" n="71"/>secundum, quod non peccat, quamuis omittat, 
+      <lb ed="#B" n="72"/>nulla alia assignari poterit causa: nisi quia 
+      <lb ed="#B" n="73"/>respectu actus omissi, non habuit aliquem 
+      <lb ed="#B" n="74"/>actum uoluntatis, sine quo nullum est 
+      <lb ed="#B" n="75"/>peccatum actuale: &amp; sic requiritur actus 
+      <lb ed="#B" n="76"/>uoluntatis positiuus, ut omissio illa sit 
+      <lb ed="#B" n="77"/>peccatum.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2192">
+      ¶ Sidicis, quod peccat non eundo 
+      <lb ed="#B" n="78"/>ad missam audienda. Cotra. Nemo 
+      pec<lb ed="#B" n="79" break="no"/>cat in eo, quid uitari non potest: sed talis 
+      <lb ed="#B" n="80"/>non potuit uitare illam omissionem: 
+      er<lb ed="#B" n="81" break="no"/>go omittendo non peccat. Minor 
+      pro<lb ed="#B" n="82" break="no"/>batur: quia non potuit ille ire ad 
+      audien<lb ed="#B" n="83" break="no"/>dum missam non cogitans de missa: 
+      co<lb ed="#B" n="84" break="no"/>gitatio autem de missa non est in sua 
+      <lb ed="#B" n="85"/>potestate: potest enim distrabi, aut 
+      obli<lb ed="#B" n="86" break="no"/>uisci contra suam uoluntatem.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2214">
+      ¶ Si dicis, 
+      <lb ed="#B" n="87"/>quod poterat cessare ab illo opere, quo 
+      di<lb ed="#B" n="88" break="no"/>stractus est, &amp; ita cauere distractionem, 
+      <lb ed="#B" n="89"/>&amp; per aliquod monitorium cauere 
+      obli<lb ed="#B" n="90" break="no"/>uionem: &amp; ita non faciendo, quod in 
+      <lb ed="#B" n="91"/>se est: ne obliuisceretur uirtualiter, 
+      uo<lb ed="#B" n="92" break="no"/>luntaricomisit: &amp; ita uitare 
+      potuitomis<lb ed="#B" n="93" break="no"/>sionem.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2232">
+      ¶ Contra ad excludendum 
+      om<lb ed="#B" n="94" break="no"/>nia talia, uolo, quod obliuio, aut distractio 
+      <lb ed="#B" n="95"/>accidat sine omni sua culpa, quod 
+      fieri<lb ed="#B" n="96" break="no"/>non potest. Potest enim ante horam 
+      <lb ed="#B" n="97"/>audiendi missam utili, &amp; laudabili 
+      ope<lb ed="#B" n="98" break="no"/>ri intendere (gratia exempli) 
+      deuo<lb ed="#B" n="99" break="no"/>tae orationi, &amp; eam continuare usque  
+      <lb ed="#B" n="100"/>ad horam: &amp; ipsa deuotione distrahi, aut  
+      <!--401.xml-->
+      <pb ed="#B" n="185-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ob audire pullum, uel monitorem suum 
+      <lb ed="#B" n="2"/>esse negligentem, quem ordinauit ad 
+      se<lb ed="#B" n="3" break="no"/>uocandum: tunc incidit distractionem: &amp; ita 
+      <lb ed="#B" n="4"/>impotentiam eundi ad missa sine sua cul 
+      <lb ed="#B" n="5"/>pa: &amp; ita peccabit in eo, quod sine sui 
+      culpa<lb ed="#B" n="6" break="no"/>uitare no potuit.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2270">
+      ¶ Item non plus peccat 
+      <lb ed="#B" n="7"/>ille, quam hora illa dormiens: sed dormiens 
+      <lb ed="#B" n="8"/>illa hora, et si ex culpa sua obdormiuit  
+      <lb ed="#B" n="9"/>ut puta, quia prius inordinate uigilauit  
+      <lb ed="#B" n="10"/>non peceat. ergo. Consequentia 
+      nota<lb ed="#B" n="11" break="no"/>Maior patet: quia ita non est in 
+      pote<lb ed="#B" n="12" break="no"/>state illius audire missam in casu, sicut  
+      <lb ed="#B" n="13"/>dormientis. Minor probatur: quia 
+      ratio<lb ed="#B" n="14" break="no"/>ne, qua ebrius in ebrietate, qua priuatur 
+      <lb ed="#B" n="15"/>rationis usu occidens aliquem, uel 
+      furio<lb ed="#B" n="16" break="no"/>sus in furia non peccat: eadem ratione. 
+      <lb ed="#B" n="17"/>nec dormiens: quia utrobique non est 
+      <lb ed="#B" n="18"/>usus rationis, sine quo non peccatur: 
+      li<lb ed="#B" n="19" break="no"/>cet poterat ex sua culpa incidere ebrie 
+      <lb ed="#B" n="20"/>tatem, &amp; furiam.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2303">
+      ¶ Durum etiam 
+      uide<lb ed="#B" n="21" break="no"/>tur, quod is qui nulla malignitate, aut con 
+      <lb ed="#B" n="22"/>temptu omittit actum sibi debitum: sed  
+      <lb ed="#B" n="23"/>ex nuda obliuione, uel distractione non 
+      <lb ed="#B" n="24"/>omissurus si cogitaret: quod ille peccet 
+      <lb ed="#B" n="25"/>mortaliter. Et si obliuio ipsa non 
+      fue<lb ed="#B" n="26" break="no"/>rit culpabilis, nullus omnino erit in 
+      o<lb ed="#B" n="27" break="no"/>missione contemptus: nec uerus, nec 
+      in<lb ed="#B" n="28" break="no"/>terpretatiuus. ergo nec peccatum morta 
+      <lb ed="#B" n="29"/>se: quia non peccatur mortaliter sine 
+      con<lb ed="#B" n="30" break="no"/>temptu.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2327">
+      ¶ Propter istas rationes declina 
+      <lb ed="#B" n="31"/>re uidetur Alex. ad prima opinionem scilicet 
+      <lb ed="#B" n="32"/>quod pctum omissionis non est sine actu 
+      <lb ed="#B" n="33"/>positiuo interiori scilicet nolle facere, 
+      <lb ed="#B" n="34"/>aut uelle non facere: &amp; utrunque est actus 
+      <lb ed="#B" n="35"/>positiuus uoluntatis. Potest tamen esse 
+      pec<lb ed="#B" n="36" break="no"/>catum omissionis sine actu exteriori: 
+      <lb ed="#B" n="37"/>quo aliqud operatur etiam sine interiori 
+      <lb ed="#B" n="38"/>contrario actui, quem omittit: ut quis 
+      po<lb ed="#B" n="39" break="no"/>test peccare non diligendo deum absque;  
+      <lb ed="#B" n="40"/>hoc quod odiat deum: non autem potest 
+      pec<lb ed="#B" n="41" break="no"/>care omittendo diligere deum sine 
+      a<lb ed="#B" n="42" break="no"/>ctu uoluntatis, quo uult non diligere 
+      <lb ed="#B" n="43"/>deum formaliter, uel uirtualiter. unde 
+      <lb ed="#B" n="44"/>ait Alexan. par. ij. q.exxx. me. x. In 
+      omis<lb ed="#B" n="45" break="no"/>sione actus uoluntatis: interioris 
+      quie<lb ed="#B" n="46" break="no"/>scit super ipsum non facere, unde dicit 
+      <lb ed="#B" n="47"/>omittens uolo non facere: aut non 
+      uo<lb ed="#B" n="48" break="no"/>lo facere: uelle autem, &amp; non uelle sunt 
+      <lb ed="#B" n="49"/>actus uoluntatis: accipit non uelle 
+      pro<lb ed="#B" n="50" break="no"/>nolle. Sequitur: ideo dicimus, quod  
+      <!--401.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>peccatum ipsius omissionis in actu 
+      prpe<lb ed="#B" n="52" break="no"/>tratur: hoc est in actu uoluntatis 
+      interio<lb ed="#B" n="53" break="no"/>ris: &amp; non in ipso defectu, aut carentia 
+      bo<lb ed="#B" n="54" break="no"/>ni.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2386">
+      ¶ Et tenendo hanc opinionem potest ramende 
+      <lb ed="#B" n="55"/>ri ad rationes oppositae opinionis admit 
+      <lb ed="#B" n="56"/>tendo casum: quod potest non diligendo dum 
+      <lb ed="#B" n="57"/>deum per totam dien dominicamsa peccare 
+      pec<lb ed="#B" n="58" break="no"/>cato omissionis: sed non nisi 
+      concurren<lb ed="#B" n="59" break="no"/>te actu noluntatis, quo uult non 
+      dili<lb ed="#B" n="60" break="no"/>gere deum: aut quo uult aliquid 
+      repu<lb ed="#B" n="61" break="no"/>gnans dilectioni dei: ut qu uult tota 
+      die<lb ed="#B" n="62" break="no"/>dormire, aut laboribus intendere, cum 
+      <lb ed="#B" n="63"/>quibus non stat dilectio accidentalis dei: 
+      <lb ed="#B" n="64"/>nam circunscripto illo actu uoluntatis: 
+      <lb ed="#B" n="65"/>sola omissio non erit pctum.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2412">
+      ¶ Ad 
+      proba<lb ed="#B" n="66" break="no"/>tionem cum quritur de illo actu uoluntatis, 
+      <lb ed="#B" n="67"/>an sit in ptante uoluntatis &amp;c. Dicitur, quod 
+      <lb ed="#B" n="68"/>actus ille simpliciter est in ptante uolunta 
+      <lb ed="#B" n="69"/>tis stante omissione: sed non est in ptante 
+      <lb ed="#B" n="70"/>uoluntatis stante pcto omissionis. .t actus 
+      <lb ed="#B" n="71"/>quidem ille est in potestate uoluntatia 
+      <lb ed="#B" n="72"/>ad eliciendum, uel non eliciendum: sed  
+      <lb ed="#B" n="73"/>si non elicituriam omissio manens, non 
+      <lb ed="#B" n="74"/>erit pctum: sicut in simili actus faciendi 
+      <lb ed="#B" n="75"/>opus seruile in die festo est in ptante 
+      uo<lb ed="#B" n="76" break="no"/>luntatis stante praecepto de feriando, 
+      <lb ed="#B" n="77"/>sed facere seruile opus non peccando stam 
+      <lb ed="#B" n="78"/>re praecepto non est in uoluntatis 
+      pote<lb ed="#B" n="79" break="no"/>state. Non enim omissio peccatum nisi 
+      per<lb ed="#B" n="80" break="no"/>actum uoluntatis omissionem acceptantis, 
+      <lb ed="#B" n="81"/>seu in omissionem consentientis, 
+      forma<lb ed="#B" n="82" break="no"/>liter: quia uult omittere. Aut uirtualiter: 
+      <lb ed="#B" n="83"/>quia uult aliquid, ad quod sequitur talis com 
+      <lb ed="#B" n="84"/>missio. Vnde si nullum actum habet 
+      uo<lb ed="#B" n="85" break="no"/>luntas respectu omissionis formaliter: 
+      <lb ed="#B" n="86"/>uel uirtualiter: non uidetur quomodo 
+      <lb ed="#B" n="87"/>omissio sit uoluntaria: &amp; per consequens 
+      <lb ed="#B" n="88"/>quo sit peccatum.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2464">
+      ¶ Et si diceres contra illa 
+      <lb ed="#B" n="89"/>secunda opinionem, sequitur, quod nullum 
+      <lb ed="#B" n="90"/>esset pctum omissionis: quia pura 
+      omissio<lb ed="#B" n="91" break="no"/>ilicet non currente actu uoluntatis non est 
+      <lb ed="#B" n="92"/>pctum. ideo non omissio, sed actus ille 
+      <lb ed="#B" n="93"/>uoluntatis, quo uult omittere 
+      formali<lb ed="#B" n="94" break="no"/>ter, uel uirtualiter, est pctum, ille aut est 
+      <lb ed="#B" n="95"/>actus positiuus: &amp; sic est pctum 
+      commis<lb ed="#B" n="96" break="no"/>sionis. Respondetur concedendo, quod pura 
+      <lb ed="#B" n="97"/>omissio non est peccatum: sed omisio cum 
+      <lb ed="#B" n="98"/>actu uoluntatis. Dicitur autem ille actus 
+      <lb ed="#B" n="99"/>uoluntatis peccatum omissionis: quia 
+      <lb ed="#B" n="100"/>eo uult uoluntas omittere, quod face- 
+      <!--402.xml-->
+      <pb ed="#B" n="186-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>re tenetur. Vnde diceretur 
+      consequen<lb ed="#B" n="2" break="no"/>ter, quod peccatum commissionis est uelle 
+      <lb ed="#B" n="3"/>facere, quod prohibitum est: 
+      pecca<lb ed="#B" n="4" break="no"/>tum omissionis est uelle omittere, 
+      <lb ed="#B" n="5"/>quod praeceptum est: utrumque ergo 
+      <lb ed="#B" n="6"/>peccatum est actus positiuus 
+      inte<lb ed="#B" n="7" break="no"/>rior uoluntatis, uel non sine tali. Nec 
+      di<lb ed="#B" n="8" break="no"/>citur omissionis: quia sit sine actu 
+      uolun<lb ed="#B" n="9" break="no"/>tatis interiori positiuo: sed dicitur 
+      pec<lb ed="#B" n="10" break="no"/>catum omissionis ex causa tacta.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2522">
+      ¶ Illa 
+      <lb ed="#B" n="11"/>opinio uidetur satis rationabilis, &amp; 
+      falli<lb ed="#B" n="12" break="no"/>bilis: quia satis aperte patet, quomodo 
+      <lb ed="#B" n="13"/>peccatum omissionis sit uoluntarium: 
+      <lb ed="#B" n="14"/>quia non sit sine actu uoluntatis forma 
+      <lb ed="#B" n="15"/>liter, uel uirtualiter.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2535">
+      ¶ Sed contra 
+      opi<lb ed="#B" n="16" break="no"/>nionem illam est una ratio probans, quod 
+      <lb ed="#B" n="17"/>pura omissio sine actu uoluntatis 
+      respe<lb ed="#B" n="18" break="no"/>ctu omissionis est peccatum: illa 
+      scili<lb ed="#B" n="19" break="no"/>cet. Nam pono, quod Ioannes appraehendat  
+      <lb ed="#B" n="20"/>se nunc debere audite missam, potest 
+      suspen<lb ed="#B" n="21" break="no"/>dere actum uoluntatis respectu 
+      omissio<lb ed="#B" n="22" break="no"/>nis missae. Suspendere dico non actu 
+      po<lb ed="#B" n="23" break="no"/>sitiuo: sed non eliciendo uelle, neque  
+      <lb ed="#B" n="24"/>nolle audire missam: quia quacunque 
+      ap<lb ed="#B" n="25" break="no"/>prebiensione stante in intellectu, non 
+      <lb ed="#B" n="26"/>necessitatur uoluntas ad eliciendum 
+      <lb ed="#B" n="27"/>actum circa appraehensum: 
+      alioquin<lb ed="#B" n="28" break="no"/>non esset libera. Pono ergo, quod ita 
+      fa<lb ed="#B" n="29" break="no"/>ciat: tunc peccat peccato omissionis: 
+      <lb ed="#B" n="30"/>quia omittit actum praecepti, quem 
+      pos<lb ed="#B" n="31" break="no"/>set non omittere: &amp; tamen nullum 
+      ha<lb ed="#B" n="32" break="no"/>bet actum positiuum respectu 
+      omissio<lb ed="#B" n="33" break="no"/>nis.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2577">
+      ¶ Propter hanc rationem uideatur 
+      <lb ed="#B" n="34"/>opinio Ockam q. x. tertij sententiarum: 
+      <lb ed="#B" n="35"/>ubi late hanc materiam prosequitur. Et  
+      <lb ed="#B" n="36"/>secundum Tho. uerior: licet raro 
+      contin<lb ed="#B" n="37" break="no"/>gat obiectum aliquod apprehendere, &amp; 
+      <lb ed="#B" n="38"/>uoluntatem nullum actum circa ipsum 
+      elice<lb ed="#B" n="39" break="no"/>re: &amp; ideo uix aut raro contingit 
+      cogi<lb ed="#B" n="40" break="no"/>tare, quod nunc audienda est missa: &amp; stante 
+      <lb ed="#B" n="41"/>cogitatione nec uelle, nec nolle 
+      audi<lb ed="#B" n="42" break="no"/>re missam: &amp; tamen possibile est: potest 
+      <lb ed="#B" n="43"/>enim uoluntas fluctuare circa hanc cogita 
+      <lb ed="#B" n="44"/>tionem, donec tempus audiendi missam 
+      tran<lb ed="#B" n="45" break="no"/>siit.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2606">
+      ¶ Et per hoc ad rationem factam contra 
+      <lb ed="#B" n="46"/>secundam opinionem admisso casu, dicitur, 
+      <lb ed="#B" n="47"/>quod peccat praecise peccato omissionis 
+      <lb ed="#B" n="48"/>non audiendo missam: nisi sua culpa 
+      in<lb ed="#B" n="49" break="no"/>cideret non apprehensionem, seu 
+      cogi<lb ed="#B" n="50" break="no"/>tationem de missa audienda: quia tumc no¬ 
+      <!--402.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>peccaret.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2626">
+      ¶ Et cum arguitur: nemo peccat  
+      <lb ed="#B" n="52"/>in eo, quod uitare non potest. Dicitur 
+      <lb ed="#B" n="53"/>secundum sanctum Tho, quod uerum est, quando 
+      <lb ed="#B" n="54"/>illam impossibilitatem non incidit ex sua 
+      <lb ed="#B" n="55"/>cuipa: ut si quis uoluntarie se 
+      praecipita<lb ed="#B" n="56" break="no"/>ret in soueam, unde exire non posset, 
+      <lb ed="#B" n="57"/>non excusatur a peccato omissionis pro 
+      <lb ed="#B" n="58"/>pter impossibilitatem faciendi: quia 
+      ip<lb ed="#B" n="59" break="no"/>sa impossibilitas fuit uoluntaria. Siuero 
+      <lb ed="#B" n="60"/>impossibilitas non est uoluntaria: aut 
+      si<lb ed="#B" n="61" break="no"/>incidit sine sui culipa: puta fecit, quod in 
+      <lb ed="#B" n="62"/>se est: dicitur quod tunc non audiendo 
+      mis<lb ed="#B" n="63" break="no"/>sam non peccat. Et huius causa est, non 
+      <lb ed="#B" n="64"/>quia non habuit actum uoluntatis 
+      respe<lb ed="#B" n="65" break="no"/>ctu omissionis: sed quia impossibilitas est 
+      <lb ed="#B" n="66"/>cuspabilis audiendi missam: ideo 
+      excu<lb ed="#B" n="67" break="no"/>sat omissionem a peccato. Illa autem 
+      im<lb ed="#B" n="68" break="no"/>possibilitas contingit ex defectu actus in 
+      <lb ed="#B" n="69"/>tellectus, scilicet appraehensionis, quae non 
+      <lb ed="#B" n="70"/>est in potestate omittentis.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2670">
+      ¶ Sed 
+      con<lb ed="#B" n="71" break="no"/>tra hanc solutionem procedit alia ratio de 
+      <lb ed="#B" n="72"/>dormiente. Ideo aliter uidetur dicendum, 
+      <lb ed="#B" n="73"/>uod ex quacunque causa aliquis incidat 
+      im<lb ed="#B" n="74" break="no"/>possibilitatem non omittendi actum 
+      praece<lb ed="#B" n="75" break="no"/>pti siue ex culpa, siue non ex culpa sua 
+      <lb ed="#B" n="76"/>omittendi praecise non peccat: sicut de 
+      fu<lb ed="#B" n="77" break="no"/>rioso etiam si sua cuipa furiam inciderit. Vn 
+      <lb ed="#B" n="78"/>de si ex distractione, uel obliuione non 
+      <lb ed="#B" n="79"/>cogitat de missa hora illa, qua tenetur 
+      <lb ed="#B" n="80"/>ad missam, non peccat non audiendo 
+      mis<lb ed="#B" n="81" break="no"/>sam: peccat tamen si ex cuipa sua 
+      obli<lb ed="#B" n="82" break="no"/>uionem, seu distractionem incidit. Vnde 
+      di<lb ed="#B" n="83" break="no"/>cit beatus lacob. c. iiij. Scienti, &amp; non 
+      fa<lb ed="#B" n="84" break="no"/>cienti peccatum est illi non cogitans aunt, 
+      <lb ed="#B" n="85"/>non est sciens saltem actualiter. Et huic 
+      <lb ed="#B" n="86"/>consonat, quod Alexander dicit, dum 
+      <lb ed="#B" n="87"/>quaerit. Siquis obdormit maturinas, ad 
+      <lb ed="#B" n="88"/>uas tenetur: quando dicitur omissio 
+      perpe<lb ed="#B" n="89" break="no"/>trari. Ait. n. quod non debet dici omittere, 
+      <lb ed="#B" n="90"/>quando non surgit: quia tunc dormit, 
+      <lb ed="#B" n="91"/>nullum autem peccatum sit a 
+      dormien<lb ed="#B" n="92" break="no"/>te: ergo nec omissio, quae est 
+      pecca<lb ed="#B" n="93" break="no"/>tum. Nec quando se ordinat 
+      dormi<lb ed="#B" n="94" break="no"/>tioni: quia potest adhuc contingere, quod 
+      <lb ed="#B" n="95"/>uigilet, &amp; surgathora debita. Sed tuc 
+      <lb ed="#B" n="96"/>debet dici omissionem perpetrare: quam 
+      <lb ed="#B" n="97"/>do aliquis applicat se ad actum illicitum 
+      <lb ed="#B" n="98"/>incompossibilem cum illo actu, ad quem 
+      <lb ed="#B" n="99"/>tenetur: ut si iste tenetur ire ad 
+      matu<lb ed="#B" n="100" break="no"/>tinas, &amp; inebriet se, uel sit in collo¬ 
+      <!--403.xml-->
+      <pb ed="#B" n="186-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quio infructuoso: &amp; sic de alijs, propter 
+      <lb ed="#B" n="2"/>quod non surgat ad maturinas: tumc omit 
+      <lb ed="#B" n="3"/>tit, cum se inebriat: aut dum infructuosa 
+      fa<lb ed="#B" n="4" break="no"/>bulatur. Siuero applicat se alicui actui 
+      <lb ed="#B" n="5"/>bono, ad quem tenetur: &amp; ex illo fessus 
+      <lb ed="#B" n="6"/>dormiat, &amp; non surgat, non omittit. Si 
+      ue<lb ed="#B" n="7" break="no"/>ro fuerit actus indifferens: &amp; tamen 
+      impe<lb ed="#B" n="8" break="no"/>ditiuus actus, ad quem tenetur illi 
+      inten<lb ed="#B" n="9" break="no"/>dendo, omittit. Sed posito, quod teneatur 
+      <lb ed="#B" n="10"/>surgere, &amp; non surgat: nec hoc est ex 
+      ali<lb ed="#B" n="11" break="no"/>qua causa praecedente, quae in ipso sit: 
+      <lb ed="#B" n="12"/>sed tantum ligata est uis sensibilis, que 
+      <lb ed="#B" n="13"/>ritur, nunquid omittit dormiendo. Re 
+      <lb ed="#B" n="14"/>spondetur, dicendum est, quod non: 
+      subin<lb ed="#B" n="15" break="no"/>telligendum est. n. quod tenetur surgere, cum 
+      <lb ed="#B" n="16"/>audierit signum surgendi: sed si non surre 
+      <lb ed="#B" n="17"/>xerit ex causa, quae fuit in ipso: tumc omit 
+      <lb ed="#B" n="18"/>tit, cum causam perpetrat. Haec Alexander 
+    </p>
+            <p xml:id="gbs333-b88316-d1e2784">
+               <lb ed="#B" n="19"/>¶ Sic dici potest, quod qui hora audiendi 
+      mis<lb ed="#B" n="20" break="no"/>sam non cogitat de missa, non peccat omit 
+      <lb ed="#B" n="21"/>tendo, si ipse non est in causa non cogitam 
+      <lb ed="#B" n="22"/>di: si uero est in causa, quia, aliquid uolens 
+      <lb ed="#B" n="23"/>fecit, uel omisit ad quod sequebatur 
+      nen<lb ed="#B" n="24" break="no"/>cogitare, tunc peccat peccato 
+      omissio<lb ed="#B" n="25" break="no"/>nis: non tumc quando non cogitat: sed quamdo id 
+      <lb ed="#B" n="26"/>uolens egit, ad quod sequebatur illud non 
+      <lb ed="#B" n="27"/>cogitare.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2806">
+      ¶ Ex illo infere, quod aliquod 
+      pec<lb ed="#B" n="28" break="no"/>catum omissionis non sit sine actu seu 
+      <lb ed="#B" n="29"/>peccato commissionis: quando scilicet 
+      <lb ed="#B" n="30"/>omissio habet causam praecedentem 
+      ue<lb ed="#B" n="31" break="no"/>luntariam: ut in casibus positis. Sed quam 
+      <lb ed="#B" n="32"/>do non habet causam praecedentem: ut quando 
+      <lb ed="#B" n="33"/>tempore, quotenetur ad actum perficien 
+      <lb ed="#B" n="34"/>dum, &amp; potest perficere: non cogitat  
+      <lb ed="#B" n="35"/>actumiam esse faciendum potest non 
+      <lb ed="#B" n="36"/>perficere actum debitum absque 
+      omni<lb ed="#B" n="37" break="no"/>actu positiuo uoluntatis: &amp; tunc est 
+      <lb ed="#B" n="38"/>omissio pura sine commissione.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2832">
+      ¶ Et  
+      <lb ed="#B" n="39"/>per hoc ad dubium dicitur, quod omne 
+      pec<lb ed="#B" n="40" break="no"/>catum actuale est uoluntarium. ita quod 
+      <lb ed="#B" n="41"/>in potestate uoluntatis est peccare tali 
+      <lb ed="#B" n="42"/>peccato, &amp; non peccare: quia omne 
+      pec<lb ed="#B" n="43" break="no"/>catum, aut est peccatum commissionis, 
+      <lb ed="#B" n="44"/>uel omissionis. Si primum: potest actum 
+      <lb ed="#B" n="45"/>illum non elicere. Si omissionis tunc 
+      <lb ed="#B" n="46"/>aut potest elicere actum uolendi, quem 
+      <lb ed="#B" n="47"/>omittit: &amp; ita si non elicit uoluntarie 
+      <lb ed="#B" n="48"/>omittit: aut tunc non potest, quando 
+      <lb ed="#B" n="49"/>tenetur, aut propter impetum, quod fuit 
+      <lb ed="#B" n="50"/>im potestate uoluntatis: aut quod non 
+      <!--403.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>fuit in potestate uoluntatis. Si secundum: 
+      <lb ed="#B" n="52"/>non peccat dimittendo. Si primum: 
+      uo<lb ed="#B" n="53" break="no"/>lens non amouit impedimentum: &amp; ita 
+      <lb ed="#B" n="54"/>uolens uirtualiter omisit. Quisquis enim 
+      <lb ed="#B" n="55"/>uult antecedens, uirtualiter uult: &amp; 
+      con<lb ed="#B" n="56" break="no"/>sequens ergo.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2878">
+      ¶ Et per hoc soluta est 
+      pri<lb ed="#B" n="57" break="no"/>ma ratio in principio dubij de peccato 
+      <lb ed="#B" n="58"/>omissionis, quod ignoranter 
+      committi<lb ed="#B" n="59" break="no"/>tur: quia tale quandoque est uoluntarium. 
+      <lb ed="#B" n="60"/>Et incognitum potest esse uoluntarium 
+      <lb ed="#B" n="61"/>uirtualiter: licet non formaliter: &amp; hoc  
+      <lb ed="#B" n="62"/>sufficit ad rationem peccati. Similiter 
+      li<lb ed="#B" n="63" break="no"/>cet stet uoluntatem non habere actum 
+      <lb ed="#B" n="64"/>respectu omissionis peccati formaliter: 
+      <lb ed="#B" n="65"/>nunquam tamen omissio est peccatum, 
+      <lb ed="#B" n="66"/>quin uoluntas habeat circa ipsum actum 
+      <lb ed="#B" n="67"/>aliquem uirtualiter ad minus uolendo, 
+      <lb ed="#B" n="68"/>uel nolendo, scilicet aliquid, ad quod se 
+      <lb ed="#B" n="69"/>quitur omissio.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2909">
+      ¶ De secundo scilicet peccato 
+      <lb ed="#B" n="70"/>ueniali dicitur, quod onine peccatu 
+      uenia<lb ed="#B" n="71" break="no"/>se est uoluntarium: quianemo peccat 
+      ue<lb ed="#B" n="72" break="no"/>nialiter: nisiiam habeat uoluntatis usum 
+      <lb ed="#B" n="73"/>nemo etiam peccat uenialiter in eo, quoc 
+      <lb ed="#B" n="74"/>nullo modo potest prohiberi: aut etiam 
+      <lb ed="#B" n="75"/>non potuit cauere. Venialia enim 
+      pecca<lb ed="#B" n="76" break="no"/>ta etsi non omnia possint praecaueri, uel 
+      <lb ed="#B" n="77"/>prohiberi: nullum tamen est singulare 
+      pec<lb ed="#B" n="78" break="no"/>catum, quod non possit, nec potuerit prae 
+      <lb ed="#B" n="79"/>caueri.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2933">
+      ¶ Et per hoc ad rationem dicitur, 
+      <lb ed="#B" n="80"/>quod quodlibet uenialium uitari potest, 
+      li<lb ed="#B" n="81" break="no"/>cet forte non omnia: sicut uunquam 
+      pec<lb ed="#B" n="82" break="no"/>care uenialiter.
+    </p>
+            <p xml:id="gbs333-b88316-d1e2943">
+      ¶ Ad Augu. quaedam de 
+      <lb ed="#B" n="83"/>necessitate facta sunt improbanda: 
+      dici<lb ed="#B" n="84" break="no"/>tur, quod loquitur de necessitate uenialium: 
+      <lb ed="#B" n="85"/>non quantum ad hoc, uel illud: sed 
+      ge<lb ed="#B" n="86" break="no"/>neraliter quantum ad peccata uenialia: 
+      <lb ed="#B" n="87"/>quia non possumus omnia simul uitare, 
+    </p>
+            <p xml:id="gbs333-b88316-d1e2956">
+               <lb ed="#B" n="88"/>¶ Ad apostolum dicit sanctus 
+      Boniuen<lb ed="#B" n="89" break="no"/>quod nolo, non priuat omnimodam 
+      uolun<lb ed="#B" n="90" break="no"/>tatem. sed uoluntatem principaliter 
+      mo<lb ed="#B" n="91" break="no"/>uentem: quia in peccato ueniali (maxi- 
+      <lb ed="#B" n="92"/>me quod excitat concupiscentia carnis) 
+      <lb ed="#B" n="93"/>uoluntas non praeuenit mouendo: sed 
+      mo<lb ed="#B" n="94" break="no"/>tioni accedit complacendo, uel 
+      <lb ed="#B" n="95"/>non reprimendo: &amp; ideo 
+      <lb ed="#B" n="96"/>uenialia non sunt 
+      sim<lb ed="#B" n="97" break="no"/>pliciter 
+      inuo<lb ed="#B" n="98" break="no"/>luntaria. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

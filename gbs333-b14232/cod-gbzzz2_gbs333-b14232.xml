@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="29-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b14232"><!-- l2-d2q3 -->
+            <head xml:id="gbs333-b14232-Hd1e101">Quaestio 3</head>
+            <head xml:id="gbs333-b14232-Hd1e103" type="question-title">
+      Utrum angelus 
+      possit moueri localiter
+    </head>
+            <p xml:id="gbs333-b14232-d1e106">
+               <lb ed="#B" n="80"/>QVAESTIO III 
+      <lb ed="#B" n="81"/>TERTIO quaeritur circa 
+      <lb ed="#B" n="82"/>Equ hanc distinctionem. Vtrum 
+      <lb ed="#B" n="83"/>angelus 
+      possit moueri
+      loca<lb ed="#B" n="84" break="no"/>liter.
+    </p>
+            <p xml:id="gbs333-b14232-d1e119">
+      ¶ Pro decisione 
+      que<lb ed="#B" n="85" break="no"/>stionis notandum post Ockam. idest 
+      <lb ed="#B" n="86"/>quodl. q.v. quod motus localis est 
+      coexi<lb ed="#B" n="87" break="no"/>stentia alicuius successiua, &amp; 
+      con<lb ed="#B" n="88" break="no"/>tinua diuersis locis sine quiete 
+      media<lb ed="#B" n="89" break="no"/>Dicitur successiua, quia si simul 
+      co<lb ed="#B" n="90" break="no"/>assisteret diuersis locis; sicut anima 
+      <lb ed="#B" n="91"/>diuersis corporis membris non 
+      mo<lb ed="#B" n="92" break="no"/>ueretur: propter quod deus, qui 
+      om<lb ed="#B" n="93" break="no"/>nibus locis praesens est semper; non 
+      <lb ed="#B" n="94"/>mouetur localiter.
+    </p>
+            <p xml:id="gbs333-b14232-d1e143">
+      ¶ Dicitur 
+      diuer<lb ed="#B" n="95" break="no"/>us locis; quia manens in eodem 
+      lo<lb ed="#B" n="96" break="no"/>co praecise non mouetur.
+    </p>
+            <p xml:id="gbs333-b14232-d1e151">
+      ¶ Dicitur 
+      <lb ed="#B" n="97"/>continue, sine quiete media: quia 
+      <!--90.xml-->
+      <pb ed="#B" n="30-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>si intercipitur per quietem, non est 
+      <lb ed="#B" n="2"/>iam motus unus: sed possunt esse 
+      plu<lb ed="#B" n="3" break="no"/>res. Similiter si deus corpus unum 
+      exi<lb ed="#B" n="4" break="no"/>stens in uno loco corrumperet, &amp; 
+      <lb ed="#B" n="5"/>postea reproduceret inlio loco non 
+      <lb ed="#B" n="6"/>esse motus localis; licet corpus illud 
+      <lb ed="#B" n="7"/>successiue coexisteret diuersis locis: 
+      <lb ed="#B" n="8"/>quia non est successio continua. Ex 
+      <lb ed="#B" n="9"/>illo patet differentia inter motum. 
+      <lb ed="#B" n="10"/>t. &amp; mutationem.
+    </p>
+            <p xml:id="gbs333-b14232-d1e184">
+      ¶ Secundo 
+      notan<lb ed="#B" n="11" break="no"/>dum: quod quaestio non est de angelo 
+      <lb ed="#B" n="12"/>coassistente corporaliter, utrum 
+      il<lb ed="#B" n="13" break="no"/>se moueatur ad motum corporis: 
+      si<lb ed="#B" n="14" break="no"/>cut anima rationalis mouetur ad 
+      mo<lb ed="#B" n="15" break="no"/>tum corporis, quod informat; sed  
+      <lb ed="#B" n="16"/>de angelo in se: utrum possit 
+      relin<lb ed="#B" n="17" break="no"/>quere corpus, cui nunc coassistit 
+      <lb ed="#B" n="18"/>&amp; locum quo continetur, &amp; 
+      moue<lb ed="#B" n="19" break="no"/>s:. n ad alium iocum.
+    </p>
+            <p xml:id="gbs333-b14232-d1e206">
+      ¶ Quo 
+      praemis<lb ed="#B" n="20" break="no"/>so ponuntur conclusiones. Prima 
+      <lb ed="#B" n="21"/>t. Angelus potest moueri localiter. 
+      Pro<lb ed="#B" n="22" break="no"/>Ebatur: quia potest successiue coassiste. 
+      <lb ed="#B" n="23"/>re diuersis locis sine quiete media, 
+      igi<lb ed="#B" n="24" break="no"/>tur. Tenet consequentia per locum 
+      <lb ed="#B" n="25"/>a diffinitione. Antecedens probatur: 
+      <lb ed="#B" n="26"/>per illud ad Heb. j. Nonne omnes sunt 
+      <lb ed="#B" n="27"/>administratorij spiritus missi propter 
+      <lb ed="#B" n="28"/>eos, qui haereditatem capiunt 
+      salu<lb ed="#B" n="29" break="no"/>tis. Cum autem mittuntur de caelo ad 
+      <lb ed="#B" n="30"/>nos, sunt in diuersis locis continue, 
+      <lb ed="#B" n="31"/>&amp; successiue. Non enim possunt simul, 
+      <lb ed="#B" n="32"/>&amp; pro eodem instanti esse in caelo; in 
+      <lb ed="#B" n="33"/>locis mediis, &amp; nobiscum in terra: quia 
+      <lb ed="#B" n="34"/>tantus locus est eis improportionatus: 
+      <lb ed="#B" n="35"/>cum non possunt esse primo in loco 
+      <lb ed="#B" n="36"/>quantumcunque magno; nec esse 
+      <lb ed="#B" n="37"/>possunt ubique. Hinc Damasce. lib. 
+      <lb ed="#B" n="38"/>ij. c. iij. Dum sunt in caelo empreo: 
+      <lb ed="#B" n="39"/>non sunt in terra; &amp; dum ad terram 
+      <lb ed="#B" n="40"/>a deo mittuntur: non manent in cae 
+      <lb ed="#B" n="41"/>lo: Ideo cum mittuntur de caelo ad 
+      <lb ed="#B" n="42"/>terram successiue assistunt diuersis 
+      lo<lb ed="#B" n="43" break="no"/>tis.
+    </p>
+            <p xml:id="gbs333-b14232-d1e261">
+      ¶ Item confirmatur: quia 
+      ani<lb ed="#B" n="44" break="no"/>ma beata aequabitur angelo, iuxta 
+      pro<lb ed="#B" n="45" break="no"/>missiones christi Matth. xxij. 
+      Erum<lb ed="#B" n="46" break="no"/>sicut angeli dei in caelo. Anima uero 
+      <lb ed="#B" n="47"/>beata; immo beatissima; quae est 
+      chri<lb ed="#B" n="48" break="no"/>sti, localiter mouebatur, quia 
+      descen<lb ed="#B" n="49" break="no"/>dit ad inferos; sicut dicit articulus fidei. 
+      <lb ed="#B" n="50"/>l:.
+    </p>
+            <p xml:id="gbs333-b14232-d1e279">
+      ¶ Secunda conclusio. Angelus non 
+      <!--90.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>solum admotum corporis, cui assistit: 
+      <lb ed="#B" n="52"/>per se immediate absque corporis 
+      cuius<lb ed="#B" n="53" break="no"/>cunque mutatione, potest localiter 
+      mo<lb ed="#B" n="54" break="no"/>ueri. Probatur: quia non semper cum 
+      <lb ed="#B" n="55"/>mittuntur assumunt corpora, non enim 
+      <lb ed="#B" n="56"/>semper mittuntur ad operationes 
+      cor<lb ed="#B" n="57" break="no"/>porales exercendas; quomodo missus 
+      <lb ed="#B" n="58"/>fuit RaphaeI Tobiae: sed frequenter ad 
+      <lb ed="#B" n="59"/>intellectus illuminationem, aut effectus 
+      <lb ed="#B" n="60"/>inclinationem, sicut angelus missus ad 
+      <lb ed="#B" n="61"/>Ioseph insomnis. Matth. ij. Haec autem 
+      <lb ed="#B" n="62"/>non siunt in corpore, sed in 
+      mente<lb ed="#B" n="63" break="no"/>ut infra patebit.
+    </p>
+            <p xml:id="gbs333-b14232-d1e314">
+      ¶ Item anima 
+      separa<lb ed="#B" n="64" break="no"/>ta mouetur de loco, ad locum sine cor 
+      <lb ed="#B" n="65"/>pore: qu uia non in corpore suo, quod ia 
+      <lb ed="#B" n="66"/>cet immobile in sepulcro, neque in 
+      <lb ed="#B" n="67"/>alieno, ergo non est hoc negandum a 
+      <lb ed="#B" n="68"/>perfectiori angelo. Et licet angelus 
+      nun<lb ed="#B" n="69" break="no"/>quam sit in loco, quin assistat 
+      corpori<lb ed="#B" n="70" break="no"/>locato, eo quod nullus corporalis locus 
+      <lb ed="#B" n="71"/>est sine corpore, non tamen oportet, 
+      <lb ed="#B" n="72"/>quod illud corpus, cui adaequate assistit in 
+      <lb ed="#B" n="73"/>caelo empyreo; secum deferat ad terram 
+      <lb ed="#B" n="74"/>cum mittitur; sed manentibus 
+      corpo<lb ed="#B" n="75" break="no"/>ribus in caelo, &amp; inter caelum, &amp; terram 
+      <lb ed="#B" n="76"/>immotis in locis suis successiue assistit 
+      <lb ed="#B" n="77"/>illis transeundo per illa: alioquin 
+      por<lb ed="#B" n="78" break="no"/>tio caelidescenderet cum angelo, quod 
+      <lb ed="#B" n="79"/>patet falsum.
+    </p>
+            <p xml:id="gbs333-b14232-d1e352">
+      ¶ Sed hic sunt aliqua 
+      du<lb ed="#B" n="80" break="no"/>bia. Primum: An angelus possit mouer 
+      <lb ed="#B" n="81"/>in instanti.
+    </p>
+            <p xml:id="gbs333-b14232-d1e359">
+      ¶ Secundo: An angelus 
+      mo<lb ed="#B" n="82" break="no"/>uendo se de loco, ad locum, necessario 
+      <lb ed="#B" n="83"/>moueatur permedium.
+    </p>
+            <p xml:id="gbs333-b14232-d1e366">
+      ¶ Ad primum 
+      <lb ed="#B" n="84"/>dico sine preiudicio melius 
+      sentien<lb ed="#B" n="85" break="no"/>tium, suppositis his, quae habet Ockam 
+      <lb ed="#B" n="86"/>ubi supra. j. q.v. Si motus capitur 
+      pro<lb ed="#B" n="87" break="no"/>prie, ut includit successionem; 
+      quae<lb ed="#B" n="88" break="no"/>stio nulla est, &amp; est implicatio in 
+      termi<lb ed="#B" n="89" break="no"/>nis. Est enim talis, utrum angelus 
+      po<lb ed="#B" n="90" break="no"/>ssit mutari successiue de loco ad 
+      io<lb ed="#B" n="91" break="no"/>cum in instanti success onei non 
+      ha<lb ed="#B" n="92" break="no"/>benti. Ideo melius quaeri posiet, an 
+      an<lb ed="#B" n="93" break="no"/>gelus possit mutari de loco, ad 
+      lo<lb ed="#B" n="94" break="no"/>cum in instanti, ita ut totus simul 
+      es<lb ed="#B" n="95" break="no"/>set in termino a quo: &amp; in termino ad 
+      <lb ed="#B" n="96"/>quem. Et uidetur respondendum sub 
+      <lb ed="#B" n="97"/>distinctione, aut enim ante muta 
+      <lb ed="#B" n="98"/>tionem angelus assistit loco minoti 
+      <lb ed="#B" n="99"/>quam loco sibi adaequato. Dictum enim 
+      <lb ed="#B" n="100"/>est supra quod dabilis est locus maxi- 
+      <!--91.xml-->
+      <pb ed="#B" n="30-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>mus: cui angelus potest assistere: &amp; ille 
+      <lb ed="#B" n="2"/>dicitur adaequatus: non autem datium 
+      <lb ed="#B" n="3"/>minimus. Potest ergo esse in loco 
+      mi<lb ed="#B" n="4" break="no"/>nori: &amp; sic potest mutari in instanti ad 
+      <lb ed="#B" n="5"/>locum maiorem, cuius minor est pars. 
+      <lb ed="#B" n="6"/>Vt gratia exempli. Si locus adaequatus 
+      <lb ed="#B" n="7"/>angeli, fuerit unius leucae: &amp; angelus 
+      <lb ed="#B" n="8"/>as sistat eius medietati, tunc 
+      potestan<lb ed="#B" n="9" break="no"/>gelus non dimittendo illam 
+      medieta<lb ed="#B" n="10" break="no"/>tem se facere praesuntem toti loco sine 
+      <lb ed="#B" n="11"/>successione Patet: quia nulla potest ibi 
+      <lb ed="#B" n="12"/>esse causa necessaria successionis: non 
+      <lb ed="#B" n="13"/>enim angelus primo est in loco 
+      indiui<lb ed="#B" n="14" break="no"/>sibili; licet ipse sit indiuisibilis; cum 
+      nul<lb ed="#B" n="15" break="no"/>lus sit indiuisibilis. Sed primo est in 
+      <lb ed="#B" n="16"/>aliquo loco diuisibili; totus in 
+      quali<lb ed="#B" n="17" break="no"/>bet parte eius tanto, quanto uoluerit: 
+      <lb ed="#B" n="18"/>dum tamen non excedat locum sibi 
+      <lb ed="#B" n="19"/>adaequatum. Non enim ab alio; sed a 
+      <lb ed="#B" n="20"/>sua uoluntate mouetur: neque est ibi 
+      <lb ed="#B" n="21"/>aliqua resistentia: quia nihil prius 
+      exi<lb ed="#B" n="22" break="no"/>stens in loco; ad quem se transfert 
+      an<lb ed="#B" n="23" break="no"/>gelus; cogitur cedere praesentiae 
+      ange<lb ed="#B" n="24" break="no"/>li. Si uero ante mutationem angeli, 
+      <lb ed="#B" n="25"/>angelus fuit in loco sibi adaequato; &amp; 
+      <lb ed="#B" n="26"/>transfert se ad alium locum adaequatum; 
+      <lb ed="#B" n="27"/>&amp; per consequens dimittit priorem: 
+      <lb ed="#B" n="28"/>illa translatio non potest fieri in 
+      in<lb ed="#B" n="29" break="no"/>stanti, quia si fieret in instanti; tunc 
+      <lb ed="#B" n="30"/>dimitteret primum locum totum 
+      si<lb ed="#B" n="31" break="no"/>mul: &amp; faceret se praesentem secundo 
+      lo<lb ed="#B" n="32" break="no"/>co totisimul: &amp; ita dimitteret primum 
+      <lb ed="#B" n="33"/>locum per ultimum instans esse in eo: 
+      <lb ed="#B" n="34"/>&amp; inciperet esse in secundo loco 
+      per<lb ed="#B" n="35" break="no"/>primum esse in eo. Tunc quaero utrum 
+      <lb ed="#B" n="36"/>illa instantia sint duo, uel unum. Non 
+      <lb ed="#B" n="37"/>secundum: quia tunc simul esset in 
+      <lb ed="#B" n="38"/>duobus locis sibi adaequatis; quod est 
+      <lb ed="#B" n="39"/>impossibile per potentiam suam 
+      natu<lb ed="#B" n="40" break="no"/>ralem. Si duo cum non possunt esse 
+      im<lb ed="#B" n="41" break="no"/>mediata; inter illa erit tempus 
+      me<lb ed="#B" n="42" break="no"/>dium; per quod sit translatio: &amp; sic non 
+      <lb ed="#B" n="43"/>est instans.
+    </p>
+            <p xml:id="gbs333-b14232-d1e505">
+      ¶ Ad illam rationem 
+      re<lb ed="#B" n="44" break="no"/>spondet Grego. concedendo, quod est idem 
+      <lb ed="#B" n="45"/>instans: &amp; in illo est angelus simul in 
+      <lb ed="#B" n="46"/>termino a quo in medio, &amp; in 
+      ter<lb ed="#B" n="47" break="no"/>mino ad quem. Quod uero dicitur 
+      <lb ed="#B" n="48"/>idem non posse esse in diuersis locis: 
+      <lb ed="#B" n="49"/>dicit intelligendum permanenter. 
+      se<lb ed="#B" n="50" break="no"/>cus intransitu. Quod si placet, ponatur 
+      <!--91.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>responsio opposita. Nihil enim in his 
+      <lb ed="#B" n="52"/>materiis a nobis absconditis puto 
+      te<lb ed="#B" n="53" break="no"/>mere asserendum.
+    </p>
+            <p xml:id="gbs333-b14232-d1e534">
+      ¶ Ad secundum 
+      di<lb ed="#B" n="54" break="no"/>citur, quod posito medio, necesse est 
+      ip<lb ed="#B" n="55" break="no"/>sum moueri ter medium, priusquam 
+      <lb ed="#B" n="56"/>attingat extremum. Patet: quia 
+      mo<lb ed="#B" n="57" break="no"/>tus dicit successionem; successio 
+      re<lb ed="#B" n="58" break="no"/>quirit medium inter terminum, &amp; 
+      ter<lb ed="#B" n="59" break="no"/>minum. nam si non est medium; non 
+      <lb ed="#B" n="60"/>erit successio.
+    </p>
+            <p xml:id="gbs333-b14232-d1e552">
+      ¶ Item sicut est ordo 
+      es<lb ed="#B" n="61" break="no"/>sentialis inter partes temporis; ita 
+      in<lb ed="#B" n="62" break="no"/>ter partes loci; sed impossibile est 
+      tran<lb ed="#B" n="63" break="no"/>sire de praeterito ad futurum, nisi 
+      per<lb ed="#B" n="64" break="no"/>praesens; ita impossibile uidetur 
+      tran<lb ed="#B" n="65" break="no"/>lire de loco ad locum temporaliter; 
+      <lb ed="#B" n="66"/>nisi per medium. Si quaeris. Vtrum 
+      <lb ed="#B" n="67"/>instantanee potest mutari de loco ad 
+      <lb ed="#B" n="68"/>locum, &amp; non per medium. Dicitur 
+      <lb ed="#B" n="69"/>si termini illius mutationis sunt 
+      indi<lb ed="#B" n="70" break="no"/>stantes, potest: quia tunc non est 
+      me<lb ed="#B" n="71" break="no"/>dium. Similiter si esset in uacuo; 
+      pos<lb ed="#B" n="72" break="no"/>set transire localiter instantanee, uel 
+      <lb ed="#B" n="73"/>successiue de termino, adterminum. 
+      <lb ed="#B" n="74"/>Si uero termini distant per medium; 
+      ui<lb ed="#B" n="75" break="no"/>detur, quod non possit transire de 
+      termi<lb ed="#B" n="76" break="no"/>no ad terminum uirtute propria 
+      natu<lb ed="#B" n="77" break="no"/>rali, &amp; non per medium propter 
+      ordi<lb ed="#B" n="78" break="no"/>nem naturalem, &amp; essentialem inter 
+      <lb ed="#B" n="79"/>partes loci, quae experimur in 
+      corpo<lb ed="#B" n="80" break="no"/>ralibus; nec aliud apparet in 
+      spirituali<lb ed="#B" n="81" break="no"/>bus. Potest tamen uirtute diuina, quem 
+      <lb ed="#B" n="82"/>non limitatur ad aliquem ordinem: 
+      un<lb ed="#B" n="83" break="no"/>de Christus facit corpus suum in 
+      caelo<lb ed="#B" n="84" break="no"/>praesens sub hostia sine transitu per me 
+      <lb ed="#B" n="85"/>dium transitu per media; ut declaratur 
+      <lb ed="#B" n="86"/>in quarto, ita posset facere de angelo. 
+      <lb ed="#B" n="87"/>Verum, an angelus possit moueri 
+      per<lb ed="#B" n="88" break="no"/>uacuum tractat Ockam q. vj. 
+      quod<lb ed="#B" n="89" break="no"/>libet. j. Et tantum de illa quaestione.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

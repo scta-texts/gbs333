@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="31-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b14828"><!-- l2-d3q1 -->
+            <head xml:id="gbs333-b14828-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b14828-Hd1e103" type="question-title">
+      Utrum omnes angeli inter 
+      et se personaliter discreti, 
+      essentiali specie sint distincti
+    </head>
+            <p xml:id="gbs333-b14828-d1e106">
+               <lb ed="#B" n="17"/>QVAESTIO I 
+      <lb ed="#B" n="18"/>QVAERITVR primo 
+      cir<lb ed="#B" n="19" break="no"/>&amp; ca primam conclusionem. 
+      <lb ed="#B" n="20"/>&amp; Vtrum omnes angeli inter 
+      <lb ed="#B" n="21"/>&amp; se personaliter discreti, 
+      essen<lb ed="#B" n="22" break="no"/>tiali specie sint distincti. quaestio 
+      suppo<lb ed="#B" n="23" break="no"/>nit, quod angelus sit persona. Quaerit an 
+      <lb ed="#B" n="24"/>omnes distinguuntur specie; an 
+      aliqui<lb ed="#B" n="25" break="no"/>solo numero.
+    </p>
+            <p xml:id="gbs333-b14828-d1e128">
+      ¶ Pro utroque notandi 
+      <lb ed="#B" n="26"/> id et primo; quod licet nomen angelus 
+      secun<lb ed="#B" n="27" break="no"/>dum uocis proprietatem nomen sit 
+      of<lb ed="#B" n="28" break="no"/>ficij: ut uult Greg. de quo infra 
+      distin<lb ed="#B" n="29" break="no"/>ix. tamen in proposito accipitur, ut 
+      di<lb ed="#B" n="30" break="no"/>cit substantiam, siue materiam 
+      angeli<lb ed="#B" n="31" break="no"/>cam. Et sic acceptum describitur 
+      ange<lb ed="#B" n="32" break="no"/>lus a Damasce. Angelus est substantia 
+      <lb ed="#B" n="33"/>icorporea, intellectualis, seper mobilis 
+      <lb ed="#B" n="34"/>arbitrio libera, deo ministrans, gratia 
+      <lb ed="#B" n="35"/>non natura immortalitatem suscipiens. 
+    </p>
+            <p xml:id="gbs333-b14828-d1e152">
+               <lb ed="#B" n="36"/>¶ Substantia incorporea ponitur 
+      pro<lb ed="#B" n="37" break="no"/>genere, &amp; accipitur incorporea 
+      stri<lb ed="#B" n="38" break="no"/>cte pro substantia, quae neque est cor 
+      <lb ed="#B" n="39"/>pus in se, neque corpori unibilis, ut 
+      for<lb ed="#B" n="40" break="no"/>ma. &amp; per hoc includitur anima 
+      intel<lb ed="#B" n="41" break="no"/>lectiua tam coniuncta, quam separata. 
+    </p>
+            <p xml:id="gbs333-b14828-d1e169">
+               <lb ed="#B" n="42"/>¶ Dicitur intellectualis: ad 
+      excluden<lb ed="#B" n="43" break="no"/>dum quamcunque naturam non 
+      co<lb ed="#B" n="44" break="no"/>gnoscentem. Posset enim deus de 
+      no<lb ed="#B" n="45" break="no"/>uo producere substantiam spiritualem 
+      <lb ed="#B" n="46"/>non cognoscentem, quae per hoc non 
+      <lb ed="#B" n="47"/>esset angelus. Dicitur semper mobilis, 
+      <!--92.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="48"/>&amp; hoc quantum ad motum localem: 
+      <lb ed="#B" n="49"/>quia tali motu infatigabilis est. 
+      Per<lb ed="#B" n="50" break="no"/>hoc etiam innuitur, quod non 
+      determi<lb ed="#B" n="51" break="no"/>nat sibi locum naturalem, in quo 
+      na<lb ed="#B" n="52" break="no"/>turaliter quiescat; quia est de se 
+      indif<lb ed="#B" n="53" break="no"/>ferens ad omnem locum corporalem. 
+    </p>
+            <p xml:id="gbs333-b14828-d1e202">
+               <lb ed="#B" n="54"/>¶ Dicitur arbitrio libera; quantum ad 
+      <lb ed="#B" n="55"/>motum affectionum.
+    </p>
+            <p xml:id="gbs333-b14828-d1e209">
+      ¶ Dicitur deo 
+      mi<lb ed="#B" n="56" break="no"/>nistrans: ubi tangitur causa finalis: de 
+      <lb ed="#B" n="57"/>cuius mysterio infra tractatur distin. ix. 
+    </p>
+            <p xml:id="gbs333-b14828-d1e216">
+               <lb ed="#B" n="58"/>¶ Dicitur suscipiens immortalitatem 
+      <lb ed="#B" n="59"/>non natura, sed gratia diuina; quia 
+      an<lb ed="#B" n="60" break="no"/>gelus; sicut quaelibet creatura; de se 
+      <lb ed="#B" n="61"/>habet uertibilitatem in nihil. Eoipso 
+      <lb ed="#B" n="62"/>enim, quod de nihilo creatus est; potest 
+      <lb ed="#B" n="63"/>redite in nihil; &amp; rediret in nihil nisi 
+      a<lb ed="#B" n="64" break="no"/>deo conseruaretur. quod ergo perpetuus est; 
+      <lb ed="#B" n="65"/>non habet ex se; sed ex dono condito 
+      <lb ed="#B" n="66"/>ris conseruantis. Et ideo licet non sit 
+      <lb ed="#B" n="67"/>corruptibilis ex principiis intrinsecis: 
+      <lb ed="#B" n="68"/>cum sit substantia simplex; nec habet 
+      <lb ed="#B" n="69"/>contraria extrinseca sicut elementa; 
+      ta<lb ed="#B" n="70" break="no"/>men ner subtractionem 
+      conseruatio<lb ed="#B" n="71" break="no"/>nis est annihilabilis. Conseruatur 
+      au<lb ed="#B" n="72" break="no"/>tem benignissima, &amp; gratiosa dei 
+      uo<lb ed="#B" n="73" break="no"/>luntate; &amp; ita dono gratiae. Et licet  
+      <lb ed="#B" n="74"/>breuius posset describi dicendo, 
+      crea<lb ed="#B" n="75" break="no"/>tura intellectualis incorporea, 
+      tamen<lb ed="#B" n="76" break="no"/>reliquae particulae non supersluunt: 
+      <lb ed="#B" n="77"/>quia eis exprimitur causa finalis, 
+      ope<lb ed="#B" n="78" break="no"/>ratio, &amp; duratio angelorum.
+    </p>
+            <p xml:id="gbs333-b14828-d1e264">
+      ¶ Aliam 
+      <lb ed="#B" n="79"/>ponit angelorum commendatoriam 
+      <lb ed="#B" n="80"/>Beatus Dionisius de diuinis 
+      nomini<lb ed="#B" n="81" break="no"/>bus scilicet; Angelus est imago dei, 
+      <lb ed="#B" n="82"/>manifestatio occulti, suminis speculum 
+      <lb ed="#B" n="83"/>purum, splendidissimum, 
+      immacula<lb ed="#B" n="84" break="no"/>tum, incontaminatum 
+      incoinquina<lb ed="#B" n="85" break="no"/>tum recipiens totam (si iustum est 
+      di<lb ed="#B" n="86" break="no"/>cere) speciositatem bene formatae 
+      dei<lb ed="#B" n="87" break="no"/>formitatis: &amp; pure declarans in 
+      seip<lb ed="#B" n="88" break="no"/>so, sicut possibile est; bonitatem, quae 
+      <lb ed="#B" n="89"/>est in abditis. Hanc per singula 
+      uerba<lb ed="#B" n="90" break="no"/>late prosequitur Alexan. de ales. 
+      par<lb ed="#B" n="91" break="no"/>te ij. quaestio. xx. men. iij. arti. ij.
+    </p>
+            <p xml:id="gbs333-b14828-d1e295">
+      ¶ 
+      Se<lb ed="#B" n="92" break="no"/>cundo supponitur ex his, quae distinctio 
+      <lb ed="#B" n="93"/>ne xxiij. lib. j. Ockam ponit, quod persona 
+      <lb ed="#B" n="94"/>est summum intellectuale. Est autem 
+      <lb ed="#B" n="95"/>summumens completum, non 
+      consti<lb ed="#B" n="96" break="no"/>tuens aliquod ens unum; non natum 
+      <lb ed="#B" n="97"/>inhaerere: nec ab alio sustentatum. Per¬ 
+      <!--93.xml-->
+      <pb ed="#B" n="31-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>primum scilicet ens completum, 
+      exclu<lb ed="#B" n="2" break="no"/>ditur omne, quod potest esse pars 
+      alte<lb ed="#B" n="3" break="no"/>rius essentialis, siue actu componat, siue 
+      <lb ed="#B" n="4"/>non. Per secundum scilicet no constituen 
+      <lb ed="#B" n="5"/>&amp;c. excluditur diuina essentia: &amp; 
+      simili<lb ed="#B" n="6" break="no"/>ter relationes diuinae, quae non sunt forma 
+      <lb ed="#B" n="7"/>liter persona; sed constituunt personas. 
+      <lb ed="#B" n="8"/>Pet tertium non natum inhaerere; 
+      ex<lb ed="#B" n="9" break="no"/>cluduntur omnia accidentia. Per quar 
+      <lb ed="#B" n="10"/>tum; nec ab alio sustentatum: excluditur 
+      <lb ed="#B" n="11"/>natura humana a uerbo assumpta. 
+    </p>
+            <p xml:id="gbs333-b14828-d1e342">
+               <lb ed="#B" n="12"/>¶ Huic diffinitioni concordat 
+      diffini<lb ed="#B" n="13" break="no"/>tio Boet. Persona est rationalis 
+      natu<lb ed="#B" n="14" break="no"/>rae indiuidua substantia. Per 
+      indi<lb ed="#B" n="15" break="no"/>uiduam substantiam intelligitur summum 
+      <lb ed="#B" n="16"/>substantiale. Per rationalem naturam, 
+      <lb ed="#B" n="17"/>natura intellectualis. Concordat Rich. 
+      <lb ed="#B" n="18"/>de sancto uictore personam sic 
+      diffi<lb ed="#B" n="19" break="no"/>niens: Est intelligibilis naturae 
+      in<lb ed="#B" n="20" break="no"/>communieabilis existentia. Intelligens 
+      <lb ed="#B" n="21"/>per incommunicabilem existentiam, 
+      <lb ed="#B" n="22"/>omne illud, quod non 
+      communica<lb ed="#B" n="23" break="no"/>tur alteri: uel ut pars, seu constitutiuum 
+      <lb ed="#B" n="24"/>aut accidens, aut sustentatum. Ex illo 
+      <lb ed="#B" n="25"/>sequitur: quod persona ultra naturam, 
+      <lb ed="#B" n="26"/>uel essentiam rei, nullam aliam rem 
+      po<lb ed="#B" n="27" break="no"/>sitiuam importat: sed dumtaxat 
+      con<lb ed="#B" n="28" break="no"/>notat negationem quadruplicis 
+      com<lb ed="#B" n="29" break="no"/>municabilitatis, quae dicta est. Ex queo 
+      <lb ed="#B" n="30"/>sequitur secundo, quod res non 
+      persona<lb ed="#B" n="31" break="no"/>tur per aliquam entitatem positiuam, 
+      <lb ed="#B" n="32"/>sed eoipso, quod res est: &amp; non est pars 
+      al<lb ed="#B" n="33" break="no"/>terius; nec constituit aliud: nec 
+      na<lb ed="#B" n="34" break="no"/>tum est inhaerere; nec ab alio 
+      susten<lb ed="#B" n="35" break="no"/>tatur; est summum. Et si fuerit natura, 
+      <lb ed="#B" n="36"/>intellectualis est persona.
+    </p>
+            <p xml:id="gbs333-b14828-d1e399">
+      ¶ Sequitur 
+      <lb ed="#B" n="37"/>tertio, quod personalitas non est aliquic 
+      <lb ed="#B" n="38"/>distinctum a persona; quo res, quae 
+      <lb ed="#B" n="39"/>est summum formaliter dicatur 
+      perso<lb ed="#B" n="40" break="no"/>na; sed est ipsa res non communica 
+      <lb ed="#B" n="41"/>bilis modis supradictis, Et de hoc 
+      la<lb ed="#B" n="42" break="no"/>tius uidendum erit in tertio lib. 
+      di<lb ed="#B" n="43" break="no"/>stinctio. j. quaestio. j.
+    </p>
+            <p xml:id="gbs333-b14828-d1e417">
+      ¶ Tertio 
+      suppo<lb ed="#B" n="44" break="no"/>nendum secundum mentem phi. j. To 
+      <lb ed="#B" n="45"/>pic. c. v. dicentis. Eadem specie sunt. quae 
+      <lb ed="#B" n="46"/>eadem specie continentur, per 
+      opposi<lb ed="#B" n="47" break="no"/>tum diuersa specie. Supponendum 
+      ita<lb ed="#B" n="48" break="no"/>que, quod illa differunt specie essentiali: 
+      <lb ed="#B" n="49"/>quae continentur sub diuersis speciebus 
+      <lb ed="#B" n="50"/>absolutis. Est autem species absoluta 
+      <!--93.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>conceptus hominis abstractus a conue- 
+      <lb ed="#B" n="52"/>nientia essentiali aliquorum, quae 
+      ha<lb ed="#B" n="53" break="no"/>bent supra se genus. Illa uero sunt 
+      eius<lb ed="#B" n="54" break="no"/>dem speciei essentialis; quae sub eadem 
+      <lb ed="#B" n="55"/>specie specialissima continentur. Et  
+      <lb ed="#B" n="56"/>illa continentur sub eadem specie 
+      spe<lb ed="#B" n="57" break="no"/>cialissima absoluta: quae sunt similia in 
+      <lb ed="#B" n="58"/>essentialibus: ita quod non possunt 
+      da<lb ed="#B" n="59" break="no"/>re aliqua similiora; ut petrus, &amp; 
+      pau<lb ed="#B" n="60" break="no"/>sus ita sunt similes in essentialibus: 
+      <lb ed="#B" n="61"/>ut non possunt dari aliqui similiores 
+      <lb ed="#B" n="62"/>tam ex parte materiae, quam formae: 
+      <lb ed="#B" n="63"/>quia aeque similes sunt omnes materiae 
+      <lb ed="#B" n="64"/>essentialiter: similiter omnes animae in 
+      <lb ed="#B" n="65"/>tellectiuae. Nec potest assignari maior 
+      <lb ed="#B" n="66"/>conuententia inter has animas 
+      intelle<lb ed="#B" n="67" break="no"/>ctiuas, quam illas: secus de petro, &amp; 
+      <lb ed="#B" n="68"/>hoc asino.
+    </p>
+            <p xml:id="gbs333-b14828-d1e478">
+      ¶ His praemissis est prima 
+      con<lb ed="#B" n="69" break="no"/>clusio responsiua ad summum. Omnes 
+      <lb ed="#B" n="70"/>angeli sunt inter se personaliter discre 
+      <lb ed="#B" n="71"/>ti. Probatur; quia quilibet angelus est 
+      <lb ed="#B" n="72"/>distinctus a quolibet alio; &amp; quilibet est 
+      <lb ed="#B" n="73"/>persona; ergo conclusio uera. 
+      Con<lb ed="#B" n="74" break="no"/>sequentia nota cum maiore. Et 
+      mi<lb ed="#B" n="75" break="no"/>nor patet ex diffinitione personae: quia 
+      <lb ed="#B" n="76"/>quilibet angelus est summum 
+      intelle<lb ed="#B" n="77" break="no"/>ctuale, quia nullus angelus est pars, 
+      <lb ed="#B" n="78"/>uel constituens; nec forma alicuius: 
+      <lb ed="#B" n="79"/>nec ab alio supposito sustentatum; &amp; 
+      <lb ed="#B" n="80"/>est natura intellectualis; ut patet 
+      per<lb ed="#B" n="81" break="no"/>diffinitionem angeli praemissam.
+    </p>
+            <p xml:id="gbs333-b14828-d1e509">
+      ¶ 
+      Se<lb ed="#B" n="82" break="no"/>cunda conclusio responsiua ad 
+      quae<lb ed="#B" n="83" break="no"/>situm: Possibile est esse plures 
+      ange<lb ed="#B" n="84" break="no"/>os in eadem specie. Probatur; quia 
+      <lb ed="#B" n="85"/>deus potest creare duos angelos 
+      similli<lb ed="#B" n="86" break="no"/>mos in essentia, &amp; uni infundere 
+      maio<lb ed="#B" n="87" break="no"/>rem gratiam, &amp; cognitionem quam 
+      al<lb ed="#B" n="88" break="no"/>teri; &amp; illi essent eiusdem speciei ergo. 
+      <lb ed="#B" n="89"/>Consequentia nota. Et minor patet 
+      <lb ed="#B" n="90"/>ex ultimo notabili. Maior probatur: 
+      <lb ed="#B" n="91"/>quia esse duos angelos simillimos 
+      nul<lb ed="#B" n="92" break="no"/>lam includit contradictionem; ergo 
+      <lb ed="#B" n="93"/>deus potest illos creare. Item omnes 
+      <lb ed="#B" n="94"/>animae intellectiuae sunt eiusdem 
+      spe<lb ed="#B" n="95" break="no"/>ciei specialissimae. ergo &amp; angeli 
+      aliqui<lb ed="#B" n="96" break="no"/>possunt esse eiusdem speciei 
+      specialissi<lb ed="#B" n="97" break="no"/>mae. Tenet consequentia, quia non 
+      ui<lb ed="#B" n="98" break="no"/>detur, unde hoc plus repugnet 
+      ange<lb ed="#B" n="99" break="no"/>lis, quam animabus: cum animae 
+      intelle<lb ed="#B" n="100" break="no"/>ctiuae ita sunt spus in se simplices, sicut  
+      <!--94.xml-->
+      <pb ed="#B" n="32-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>ingelus; nec impedit, quod animae 
+      intel<lb ed="#B" n="2" break="no"/>lediuae possunt informare materias. Et  
+      <lb ed="#B" n="3"/>ideo possunt esse plures animae in 
+      ea<lb ed="#B" n="4" break="no"/>dem specie propter diuersitatem 
+      ma<lb ed="#B" n="5" break="no"/>teriae. Non sic de angelis; quia 
+      mate<lb ed="#B" n="6" break="no"/>ria est penitus extrinseca animae; &amp; 
+      <lb ed="#B" n="7"/>non est de essentia animae si identitas, 
+      <lb ed="#B" n="8"/>iel diuersitas speciuoca non 
+      conue<lb ed="#B" n="9" break="no"/>nitanimae per materiam: immo si 
+      om<lb ed="#B" n="10" break="no"/>nes animae creatae essent extra materiam; 
+      <lb ed="#B" n="11"/>ut tenuiterror Origenis. etfi nunquam 
+      <lb ed="#B" n="12"/>informarent materiam: adhuc 
+      conue<lb ed="#B" n="13" break="no"/>nitent specie. Item animae intellectiuae 
+      <lb ed="#B" n="14"/>sunt in seipsis quaedam aentitates 
+      omni<lb ed="#B" n="15" break="no"/>bus alijs circumscriptis; ergo in seipsis 
+      <lb ed="#B" n="16"/>sunt eiusdem speciei, uel diuersarum, 
+      <lb ed="#B" n="17"/>Non secundum: ergo primum. Tenet 
+      <lb ed="#B" n="18"/>consequentia: quia quaecunque duae res 
+      <lb ed="#B" n="19"/>signatur omnibus alijs circumscriptis, 
+      <lb ed="#B" n="20"/>sunt res duae: uel ergo tantum numero, 
+      <lb ed="#B" n="21"/>uel specie. non est dare medium: quia 
+      <lb ed="#B" n="22"/>quaecunque differunt non tantum 
+      nu<lb ed="#B" n="23" break="no"/>mero; differunt plusquam numero, &amp; 
+      <lb ed="#B" n="24"/>ita specie.
+    </p>
+            <p xml:id="gbs333-b14828-d1e611">
+      ¶ Tertia conclusio: Probabi 
+      <lb ed="#B" n="25"/>tle est multos angelos eiusdem 
+      hicrar<lb ed="#B" n="26" break="no"/>thiae, &amp; ordinis de facto esse eiusdem 
+      spe<lb ed="#B" n="27" break="no"/>tiei, &amp; solum numero differre. 
+      Proba<lb ed="#B" n="28" break="no"/>tur: quia probabile est nullam speciem 
+      <lb ed="#B" n="29"/>naturae intellectualis totam esse damna 
+      <lb ed="#B" n="30"/>am; sed multi angeli sunt damnatis 
+      <lb ed="#B" n="31"/>ergo nulli constituerunt totam 
+      spe<lb ed="#B" n="32" break="no"/>ciem. Consequentia est in festino: sic 
+      <lb ed="#B" n="33"/>formando: Nulla tota species naturae 
+      <lb ed="#B" n="34"/>intellectualis est damnata, aliqui 
+      an<lb ed="#B" n="35" break="no"/>geli sunt damnati, igitur aliqui non 
+      <lb ed="#B" n="36"/>sunt tota species; &amp; per consequens 
+      <lb ed="#B" n="37"/>sunteiusdem speciei cum alijs non dam 
+      <lb ed="#B" n="38"/>natis, cum quibus constituunt totam 
+      <lb ed="#B" n="39"/>speciem. Minor nota. Maior 
+      proba<lb ed="#B" n="40" break="no"/>tur per illud Augustini in ench. c 
+      <lb ed="#B" n="41"/>xxiiij. Placuit uniuersitatis creatori, 
+      <lb ed="#B" n="42"/>&amp; moderatori deo; ut cum non 
+      to<lb ed="#B" n="43" break="no"/>ia multitudo angelorum deum 
+      de<lb ed="#B" n="44" break="no"/>seiendo perierat; ea, quae 
+      perie<lb ed="#B" n="45" break="no"/>tat in perpetua damnatione 
+      rema<lb ed="#B" n="46" break="no"/>neret. Quae autem cum deo illa 
+      de<lb ed="#B" n="47" break="no"/>serente perstiterat, de sua certissima 
+      <lb ed="#B" n="48"/>cognita semper futura felicitate 
+      se<lb ed="#B" n="49" break="no"/>cura gauderet. Alia uero 
+      creatu<lb ed="#B" n="50" break="no"/>ra rationalis; quae in hominibus erat, 
+      <!--94.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>quoniam peccatis, &amp; supplicijs, &amp; 
+      ori<lb ed="#B" n="52" break="no"/>ginalibus, &amp; proprijs tota perierat: ex 
+      <lb ed="#B" n="53"/>eius parte reparata. quod angelicae 
+      so<lb ed="#B" n="54" break="no"/>cietati certatim iungeretur; quod  
+      <lb ed="#B" n="55"/>ruina illa diabiolica minuerat, 
+      supple<lb ed="#B" n="56" break="no"/>retur illa totali, &amp; partialitas in 
+      an<lb ed="#B" n="57" break="no"/>gelis non uidetur esse rationalis; 
+      ni<lb ed="#B" n="58" break="no"/>si ponatur, quod nulla species angelica 
+      <lb ed="#B" n="59"/>quantum ad omnia indiuidua) 
+      tota<lb ed="#B" n="60" break="no"/>liter perierat. Et ita de quacunque 
+      <lb ed="#B" n="61"/>specie angelorum, aliqui 
+      perstite<lb ed="#B" n="62" break="no"/>runt, aliqui ceciderunt. Multa hic 
+      <lb ed="#B" n="63"/>moueri possent: quae in distinctio. 
+      <lb ed="#B" n="64"/>ij. primi latius sunt tractata. 
+      Tan<lb ed="#B" n="65" break="no"/>tum de illa quaestione. De 
+      simplici<lb ed="#B" n="66" break="no"/>tate angelicae naturae uidebitur infra 
+      <lb ed="#B" n="67"/>viij. distinctio. Et de libertate arbitrij 
+      <lb ed="#B" n="68"/>distinctione. vj. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

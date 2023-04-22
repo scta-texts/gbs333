@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="82-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b39776"><!-- l2-d12prae -->
+            <head xml:id="gbs333-b39776-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b39776-d1e103">
+               <lb ed="#B" n="27"/>DISTINCTIO XII 
+      <lb ed="#B" n="28"/>
+      xPEDITOtra<lb ed="#B" n="29" break="no"/>ctatu de natura 
+      an<lb ed="#B" n="30" break="no"/>gelica, que est 
+      natu<lb ed="#B" n="31" break="no"/>ra mere spiritualis: 
+      <lb ed="#B" n="32"/>sequit tractatus de 
+      <lb ed="#B" n="33"/>natura mere 
+      corpo<lb ed="#B" n="34" break="no"/>rali in iiij. dist. sequem 
+      <lb ed="#B" n="35"/>tibus. iEt prmo agitur de earum 
+      produ<lb ed="#B" n="36" break="no"/>ctione, quantum ad materiam, quae dici 
+      <lb ed="#B" n="37"/>tur creatio dist. praesenti. Secundo, quo ad 
+      <lb ed="#B" n="38"/>formam, quae dicitur distinctio in tribus 
+      <lb ed="#B" n="39"/>dist. sequentibus.
+    </p>
+            <p xml:id="gbs333-b39776-d1e134">
+      ¶ In hac ergo. xij. 
+      di<lb ed="#B" n="40" break="no"/>stinctione tractat de materiae confusae 
+      <lb ed="#B" n="41"/>productione diuersis eius nominibus, &amp; 
+      <lb ed="#B" n="42"/>eius distinctione: de tenebrarum 
+      quid<lb ed="#B" n="43" break="no"/>ditate, ac materiae informis loco &amp; quam 
+      <lb ed="#B" n="44"/>titate: &amp; secundum haec sumatur 
+      sen<lb ed="#B" n="45" break="no"/>tentia textus in tribus conclusionibus. 
+    </p>
+            <p xml:id="gbs333-b39776-d1e150">
+               <lb ed="#B" n="46"/>¶ Prima materia elementorum 
+      confu<lb ed="#B" n="47" break="no"/>sa diuersimode nominata cum caelo 
+      a<lb ed="#B" n="48" break="no"/>principio ante omnem diem creata; 
+      <!--194.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>postmodum sex diebus per formas 
+      pro<lb ed="#B" n="50" break="no"/>prias est distincta.
+    </p>
+            <p xml:id="gbs333-b39776-d1e168">
+      ¶ Secunda 
+      conclusio<lb ed="#B" n="51" break="no"/>Tenebrae super faciem abvssi diffuse, 
+      in<lb ed="#B" n="52" break="no"/>telliguntur lucis absentia, &amp; non aliquae 
+      <lb ed="#B" n="53"/>res positiuae.
+    </p>
+            <p xml:id="gbs333-b39776-d1e178">
+      ¶ Tertia. Materia 
+      infor<lb ed="#B" n="54" break="no"/>mis nondum formis speciuoce 
+      distin<lb ed="#B" n="55" break="no"/>cta in eodem loco, quo nunc formis 
+      <lb ed="#B" n="56"/>substat: in suae creationis principio 
+      lo<lb ed="#B" n="57" break="no"/>caliter est diffusa. Has declarat 
+      magi<lb ed="#B" n="58" break="no"/>ster in textu. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

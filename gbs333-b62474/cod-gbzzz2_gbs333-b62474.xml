@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="128-r"/>
+            <cb ed="#B" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b62474"><!-- l2-d24q1 -->
+            <head xml:id="gbs333-b62474-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b62474-Hd1e103" type="question-title">
+      Utrum portio 
+      animae superior, et portio 
+      inferior sint potentiae 
+      aliquo modo ad inuicem distinctae
+    </head>
+            <p xml:id="gbs333-b62474-d1e106">
+               <lb ed="#B" n="38"/>QVAESTIO VNICA 
+      <lb ed="#B" n="39"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="40"/>quaeritur. Vtrum portio 
+      <lb ed="#B" n="41"/>animae superior, &amp; portio 
+      <lb ed="#B" n="42"/>
+               <!-- line coord error -->
+               <lb ed="#B" n="43"/>inferior sint potentiae 
+      ali<lb ed="#B" n="44" break="no"/>quo modo ad inuicem distinctae.
+    </p>
+            <p xml:id="gbs333-b62474-d1e126">
+      ¶ In 
+      <lb ed="#B" n="45"/>quaestione erunt articuli tres. Primus 
+      <lb ed="#B" n="46"/>erit declaratiuus terminorum. 
+      Secun<lb ed="#B" n="47" break="no"/>dus adiunctiuus respondentium 
+      con<lb ed="#B" n="48" break="no"/>clusionum. Tertius absolutiuus dubio¬ 
+      <!--286.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="49"/>rum.
+    </p>
+            <p xml:id="gbs333-b62474-d1e144">
+      ¶ Quantum ad primum notandum, 
+      <lb ed="#B" n="50"/>quod portio inferior, &amp; superior 
+      ponun<lb ed="#B" n="51" break="no"/>tur tantum in parte animae rationali: &amp; 
+      <lb ed="#B" n="52"/>non in parte sensitiua. De portione 
+      su<lb ed="#B" n="53" break="no"/>periore manifestum est: quia illa est 
+      dun<lb ed="#B" n="54" break="no"/>taxat respectu eternorum, quae 
+      sensu<lb ed="#B" n="55" break="no"/>non sunt compraehensibilia. Sed de 
+      in<lb ed="#B" n="56" break="no"/>seriori similiter patet: quia secundum 
+      <lb ed="#B" n="57"/>Beatum Augustinum xij. de trini. ca. 
+      <lb ed="#B" n="58"/>ij. &amp; iij. &amp; in principio libri. 
+      Portio<lb ed="#B" n="59" break="no"/>nis inferioris est circa exteriora 
+      siue<lb ed="#B" n="60" break="no"/>temporalia ex his, quae in memoria 
+      <lb ed="#B" n="61"/>sunt: uerisimilia a ueris discernere: ac 
+      <lb ed="#B" n="62"/>de illis disponere &amp; iudicare, quod  
+      <lb ed="#B" n="63"/>ad rationem pertinet. Vnde non id, 
+      <lb ed="#B" n="64"/>quod commune habemus cum 
+      pecori<lb ed="#B" n="65" break="no"/>bus. sed rationale nostrum in sui 
+      ope<lb ed="#B" n="66" break="no"/>ris dispartitur officium.
+    </p>
+            <p xml:id="gbs333-b62474-d1e184">
+      ¶ Accipitur 
+      au<lb ed="#B" n="67" break="no"/>tem portio supior dupliciter. Vno 
+      men<lb ed="#B" n="68" break="no"/>large: alio modo stricte. Large accipit 
+      <lb ed="#B" n="69"/>ut non tantum extendit se ad obiecta ae 
+      <lb ed="#B" n="70"/>terna: sed etiam ad temporalia in 
+      ordi<lb ed="#B" n="71" break="no"/>ne ad aeterna siue secundum regulam 
+      le<lb ed="#B" n="72" break="no"/>gis aeternae. Et secundum hoc 
+      intelli<lb ed="#B" n="73" break="no"/>gi potest illud Augustini, &amp; est in textu. 
+      <lb ed="#B" n="74"/>Rationis pars superior aeternis 
+      rationi<lb ed="#B" n="75" break="no"/>bus conspiciendis, uel consulendis 
+      ad<lb ed="#B" n="76" break="no"/>haerescit. Conspiciendis tanquam obie¬. 
+      <lb ed="#B" n="77"/>ctis: uel consulendis tanquam regulis ad 
+      <lb ed="#B" n="78"/>obiecta temporalia regenda. Sic 
+      portio<lb ed="#B" n="79" break="no"/>nis superioris est actiones circa 
+      crea<lb ed="#B" n="80" break="no"/>turas per regulas aeternaelegis 
+      modera<lb ed="#B" n="81" break="no"/>ri; &amp; in deum ordinare: dum in agendis 
+      <lb ed="#B" n="82"/>temporalibus consusit diuinam uolunta 
+      <lb ed="#B" n="83"/>tem. Et sic portio inferior est, quae 
+      obie<lb ed="#B" n="84" break="no"/>ctis creatis adhaeret secundum regulas 
+      <lb ed="#B" n="85"/>morales, &amp; naturalis honestatis 
+      tan<lb ed="#B" n="86" break="no"/>tum, sine relatione ad diuinas.
+    </p>
+            <p xml:id="gbs333-b62474-d1e230">
+      ¶ Sed 
+      <lb ed="#B" n="87"/>accipiendo portionem superiorem 
+      stri<lb ed="#B" n="88" break="no"/>cte: sic est ea uis rationis, quae circa 
+      <lb ed="#B" n="89"/>aeterna uersatur, tanquam circa obie- 
+      <lb ed="#B" n="90"/>cta, &amp; non circa temporalia: &amp; tunc 
+      de<lb ed="#B" n="91" break="no"/>scriptio August. sic est intelligenda, 
+      <lb ed="#B" n="92"/>Portio, quae aeternis rationibus conspicien 
+      <lb ed="#B" n="93"/>dis, &amp; consulendis adhaerescit. i.t est ratio quad 
+      <lb ed="#B" n="94"/>circa aeterna uersatur, tanquam circa 
+      ob<lb ed="#B" n="95" break="no"/>iecta. Vnde anima intellectiua habens 
+      <lb ed="#B" n="96"/>actum aliquem intellectiuum, uel 
+      appe<lb ed="#B" n="97" break="no"/>titiuum: hoc est cognitionem, uel 
+      uoli<lb ed="#B" n="98" break="no"/>tionem circa deum, aut diuinam uoluntatem, 
+      <!--287.xml-->
+      <pb ed="#B" n="128-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>qui solus est aeternus tanquam obiectum 
+      <lb ed="#B" n="2"/>est portio superior.
+    </p>
+            <p xml:id="gbs333-b62474-d1e269">
+      ¶ Portio inferior 
+      <lb ed="#B" n="3"/>est, quae ad temporalia gubernanda 
+      de<lb ed="#B" n="4" break="no"/>flectitur.d est est ratio uersata circa 
+      tempo<lb ed="#B" n="5" break="no"/>ralia: tanquam circa obiecta. Vnde 
+      co<lb ed="#B" n="6" break="no"/>gnitio, qua cognosco Deum trinum, &amp; 
+      <lb ed="#B" n="7"/>unum: &amp; caetera ad deum pertinentia, 
+      <lb ed="#B" n="8"/>pertinet ad portionem superiorem. 
+      Co<lb ed="#B" n="9" break="no"/>gnitio uero, qua cognosco creaturam, 
+      <lb ed="#B" n="10"/>pertinet ad portionem inferiorem.
+    </p>
+            <p xml:id="gbs333-b62474-d1e289">
+      ¶ Ex 
+      <lb ed="#B" n="11"/>quo sequitur corollarium primum: 
+      <lb ed="#B" n="12"/>quod ratio intendens regulis aeternis 
+      con<lb ed="#B" n="13" break="no"/>templandis pertinet ad portionem 
+      su<lb ed="#B" n="14" break="no"/>periorem. Ratio, quae intendit 
+      tempo<lb ed="#B" n="15" break="no"/>ralibus secundum regulas aeternas, 
+      per<lb ed="#B" n="16" break="no"/>tinet ad portionem inferiorem.
+    </p>
+            <p xml:id="gbs333-b62474-d1e305">
+      ¶ 
+      Co<lb ed="#B" n="17" break="no"/>rollarium secundum. Omnis usus saltem 
+      <lb ed="#B" n="18"/>ordinatus pertinet ad portionem 
+      infe<lb ed="#B" n="19" break="no"/>riorem: &amp; omnis fruitio ordinata 
+      per<lb ed="#B" n="20" break="no"/>tinet ad portionem superiorem. Patet: 
+      <lb ed="#B" n="21"/>quia usus (ut distinguitur contra 
+      ab<lb ed="#B" n="22" break="no"/>usum) obiectum est creaturae: 
+      fruitio<lb ed="#B" n="23" break="no"/>nis uero ordinatae solus deus, est obie- 
+      <lb ed="#B" n="24"/>ctum.
+    </p>
+            <p xml:id="gbs333-b62474-d1e325">
+      ¶ Corrollarium tertium. Aliquis 
+      <lb ed="#B" n="25"/>actus unus numero pertinet ad utramque  
+      <lb ed="#B" n="26"/>portionem. Patet de actu, qui simulest 
+      <lb ed="#B" n="27"/>usus, &amp; fruitio: ut dilectio proximi 
+      pro<lb ed="#B" n="28" break="no"/>pter deum tamquam finem. Ille enimi 
+      ha<lb ed="#B" n="29" break="no"/>bet duplex obiectum, proximum, &amp; deum. 
+      <lb ed="#B" n="30"/>Inquantum ergo terminatur ad proxi- 
+      <lb ed="#B" n="31"/>mum, est usus: &amp; sic pertinet ad 
+      portio<lb ed="#B" n="32" break="no"/>nem inferiorem. Inquantum 
+      termina<lb ed="#B" n="33" break="no"/>tur ad deum est fruitio; &amp; ita pertinet 
+      <lb ed="#B" n="34"/>ad portionem superiorem. Suo modo 
+      <lb ed="#B" n="35"/>potest dici de iudicio intellectus.
+    </p>
+            <p xml:id="gbs333-b62474-d1e352">
+      ¶ 
+      Se<lb ed="#B" n="36" break="no"/>cundo notandum, quod duplex potest esse 
+      <lb ed="#B" n="37"/>sensus quaestionis. Vnus comparando 
+      <lb ed="#B" n="38"/>portionem quamlibet ad suos actus: &amp; 
+      <lb ed="#B" n="39"/>est sensus. An portio superior sit plures 
+      <lb ed="#B" n="40"/>potentiae distinctae secundum eius 
+      diuer<lb ed="#B" n="41" break="no"/>sos actus: an tantum una potentia. Et  
+      <lb ed="#B" n="42"/>similiter an portio inferior sit una 
+      po<lb ed="#B" n="43" break="no"/>tentia tantum: aut plures potentiae 
+      di<lb ed="#B" n="44" break="no"/>stinctae. Alius intellectus quaestionis est 
+      <lb ed="#B" n="45"/>comparando portionem superiorem ad 
+      <lb ed="#B" n="46"/>inferiorem: &amp; tunc est quaerere utrum 
+      <lb ed="#B" n="47"/>portio superior sit alia potentia ab 
+      infe<lb ed="#B" n="48" break="no"/>riore; &amp; portio inferior sit alia 
+      poten<lb ed="#B" n="49" break="no"/>tia a portione superiore: ut gratia exem 
+      <lb ed="#B" n="50"/>pli. Vtrum intellectus superioris por¬ 
+      <!--287.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>tionis distinguatur ab intellectu 
+      portio<lb ed="#B" n="52" break="no"/>nis inferioris.
+    </p>
+            <p xml:id="gbs333-b62474-d1e396">
+      ¶ Tertio notandum, quod 
+      <lb ed="#B" n="53"/>secundum beatum Aug. portio superior 
+      <lb ed="#B" n="54"/>est respectu aeternorum: ut dictum est. 
+      <lb ed="#B" n="55"/>Est autem respectu aeternorum 
+      memo<lb ed="#B" n="56" break="no"/>ria, intelligentia, &amp; uoluntas: quia 
+      Aug<lb ed="#B" n="57" break="no"/>in portione superiore posuit rationem. 
+      <lb ed="#B" n="58"/>imaginis beatissimae trinitatis, quae non 
+      <lb ed="#B" n="59"/>est nisi secundum illas tres potentias, aut 
+      <lb ed="#B" n="60"/>actus eius. Similiter portio inferior, 
+      <lb ed="#B" n="61"/>quae est respectu obiecti temporalis 
+      con<lb ed="#B" n="62" break="no"/>plectitur memoriam, intellectum, &amp; 
+      uo<lb ed="#B" n="63" break="no"/>luntatem. Nam respectu talis obiecti ani 
+      <lb ed="#B" n="64"/>ma quandoque habet habitum scientiae 
+      <lb ed="#B" n="65"/>alicuius conclusionis uere: &amp; sic 
+      respi<lb ed="#B" n="66" break="no"/>cit memoriam. Quandoque est in actu 
+      in<lb ed="#B" n="67" break="no"/>telligendi, &amp; sic respicit intellectum: ex 
+      <lb ed="#B" n="68"/>hoc autem quod actu intelligit, sequitur 
+      <lb ed="#B" n="69"/>uolitio in uoluntate. Et ita secundum cos, 
+      <lb ed="#B" n="70"/>qui distinguunt inter illas potentias 
+      me<lb ed="#B" n="71" break="no"/>nioriam, intellectum, &amp; uoluntatem: 
+      <lb ed="#B" n="72"/>manifestum est, quod nec superior 
+      portio<lb ed="#B" n="73" break="no"/>est una potentia: nec portio inferior: 
+      <lb ed="#B" n="74"/>quia in utraque est memoria, intellectus, 
+      <lb ed="#B" n="75"/>&amp; uoluntas. Quod autem in portione 
+      <lb ed="#B" n="76"/>superiori praecise considerata consistat  
+      <lb ed="#B" n="77"/>ratio imaginis in his tribus dictis 
+      po<lb ed="#B" n="78" break="no"/>tentijs, aut actibus: &amp; quod quandoque 
+      po<lb ed="#B" n="79" break="no"/>nitur ab Aug. etiam in portione 
+      inferio<lb ed="#B" n="80" break="no"/>ri patet. Nam sicut in imagine 
+      increa<lb ed="#B" n="81" break="no"/>ta est aliquid unum indistinctum, ut 
+      essen<lb ed="#B" n="82" break="no"/>tia diuina, &amp; est aliquorum distinctio: ut  
+      <lb ed="#B" n="83"/>personarum inter se habentium 
+      origi<lb ed="#B" n="84" break="no"/>nem. Sic ratio imaginis creatae, quae 
+      re<lb ed="#B" n="85" break="no"/>praesentat in creatam imaginem: 
+      consi<lb ed="#B" n="86" break="no"/>stit in aliquibus habentibus unitatem: 
+      <lb ed="#B" n="87"/>cum diuersitate aliquorum habentium 
+      <lb ed="#B" n="88"/>modum originis: ut in potentiis animae, 
+      <lb ed="#B" n="89"/>quae realiter sunt una essentia animae; &amp; 
+      <lb ed="#B" n="90"/>actibus eius notitia &amp; amore, quorum 
+      <lb ed="#B" n="91"/>notitia est ab anima: &amp; amorab anima 
+      <lb ed="#B" n="92"/>simul &amp; notitia, &amp; in hoc consistit 
+      ra<lb ed="#B" n="93" break="no"/>tio iniaginis in generali Sed quando 
+      il<lb ed="#B" n="94" break="no"/>li actus sunt respectu obiecti aeterni, &amp; 
+      <lb ed="#B" n="95"/>increati, ultra communem rationem 
+      ima<lb ed="#B" n="96" break="no"/>ginis habent quandam rationem 
+      simi<lb ed="#B" n="97" break="no"/>litudinis spiritualis ad obiectum increa 
+      <lb ed="#B" n="98"/>tum, quam non habent respectu 
+      obie<lb ed="#B" n="99" break="no"/>cti creati. Actus enim est similitudo 
+      re<lb ed="#B" n="100" break="no"/>praesentatiua. obiecti. Ideo praeter hoc, 
+      <!--288.xml-->
+      <pb ed="#B" n="129-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>quod actus habent adinuicem habitudinem 
+      <lb ed="#B" n="2"/>originis, habent specialem habitudinem 
+      <lb ed="#B" n="3"/>ad obiectum diuinum. Quando uero 
+      il<lb ed="#B" n="4" break="no"/>li actus sunt circa obiectum temporale: 
+      <lb ed="#B" n="5"/>est bene ibi conmunis ratio imaginis, &amp; 
+      <lb ed="#B" n="6"/>assimilatio ad obiectum tale. Deficit 
+      au<lb ed="#B" n="7" break="no"/>tem illa similitudo spunalis respectu 
+      obie<lb ed="#B" n="8" break="no"/>cti increati: &amp; remanet tantum conis 
+      simili<lb ed="#B" n="9" break="no"/>tudo ad obiectum. Item quandoque 
+      atten<lb ed="#B" n="10" break="no"/>ditur ratio imaginis ex his actibus 
+      respe<lb ed="#B" n="11" break="no"/>ctu animae rationalis, ut obiecti: &amp; tumc 
+      <lb ed="#B" n="12"/>magis habet rationem istius similitudinis: 
+      <lb ed="#B" n="13"/>quam quando sunt respectu alicuius rei tempora 
+      <lb ed="#B" n="14"/>lis pro quanto anima in se est imago 
+      tri<lb ed="#B" n="15" break="no"/>nitatis. Et ideo quantum ad rationem 
+      simi<lb ed="#B" n="16" break="no"/>litudinis obiecti, magis attenditur 
+      ima<lb ed="#B" n="17" break="no"/>go respectu obiecti increati, &amp; respectu 
+      <lb ed="#B" n="18"/>animae, quam respectu rei alterius 
+      tempo<lb ed="#B" n="19" break="no"/>ralis. Et ideo beatus Aug. non ponit 
+      ra<lb ed="#B" n="20" break="no"/>tionem imaginis proprie: nisi respectu 
+      <lb ed="#B" n="21"/>obiecti increati: quia respectu illius 
+      ha<lb ed="#B" n="22" break="no"/>bet omnem similitudinem, quam 
+      habe<lb ed="#B" n="23" break="no"/>re potest imago ad imaginatum Secundo 
+      <lb ed="#B" n="24"/>ponit eam minus principaliter in 
+      cogni<lb ed="#B" n="25" break="no"/>tione, &amp; amore anime respectu sui: 
+      <lb ed="#B" n="26"/>quia ibi est prfectior ratioimaginis, quae 
+      <lb ed="#B" n="27"/>potest esse respectu creaturae. Sed 
+      respe<lb ed="#B" n="28" break="no"/>ctu inferiorum, non ponit quo ad hanc 
+      simi<lb ed="#B" n="29" break="no"/>litudinem: sed ibi tamen est ratio generalis 
+      <lb ed="#B" n="30"/>imaginis. Patet ergo, quod proprie Aug. 
+      <lb ed="#B" n="31"/>rationem imaginis ponit in superiore 
+      ra<lb ed="#B" n="32" break="no"/>tionis portione. Haec de primo 
+      articu<lb ed="#B" n="33" break="no"/>lo.
+    </p>
+            <p xml:id="gbs333-b62474-d1e581">
+      ¶ Quantum ad secundum articulum est haec 
+      <lb ed="#B" n="34"/>conclusiomprima secundsi primum intellectum 
+      <lb ed="#B" n="35"/>quaestionis. Accipiendo potentia pro eo 
+      <lb ed="#B" n="36"/>praecise, quid se tenet ex parte animae, in per 
+      <lb ed="#B" n="37"/>ductione suorum actuum portio superior 
+      <lb ed="#B" n="38"/>est una potentia: neque in seipsa: neque ab 
+      <lb ed="#B" n="39"/>anima distincta: diuersorum tamen actuum 
+      re<lb ed="#B" n="40" break="no"/>spectu obiecti aeterni productiua. 
+      Pro<lb ed="#B" n="41" break="no"/>bat: quia licet in portione superiore sunt 
+      <lb ed="#B" n="42"/>memoria, intellectus, &amp; uoluntas: &amp; uolum 
+      <lb ed="#B" n="43"/>tas respectu obiecti aeterni: non tamen ab 
+      in<lb ed="#B" n="44" break="no"/>uicem distinguuntur: sed sut realiter ipsa 
+      <lb ed="#B" n="45"/>anima rationalis ut supra pbatum est dist. 
+      <lb ed="#B" n="46"/>xij. similis conclusio potest poni de 
+      por<lb ed="#B" n="47" break="no"/>tione inferiori.
+    </p>
+            <p xml:id="gbs333-b62474-d1e614">
+      ¶ Secunda conclusio. 
+      <lb ed="#B" n="48"/>Inteiligendo quaestionem secundo modo, 
+      <lb ed="#B" n="49"/>portio superior non distinguit realiter, 
+      <lb ed="#B" n="50"/>nec ex natura rei ab inferiore: &amp; hoc lo¬ 
+      <!--288.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>quendo uniformiter de utraque. i. 
+      intel<lb ed="#B" n="52" break="no"/>lectus portionis superioris no 
+      distingui<lb ed="#B" n="53" break="no"/>tur ab intellectu portionis inferioris. 
+      <lb ed="#B" n="54"/>Sic de memoria, &amp; uoluntate. Probatur 
+      <lb ed="#B" n="55"/>auctoritate beati Aug. xij. de trin. c. iiij. 
+      <lb ed="#B" n="56"/>Cum disserimus de natura mentis 
+      hu<lb ed="#B" n="57" break="no"/>manae, de una quadam re disserimus. Nec 
+      <lb ed="#B" n="58"/>causm in haec duo, quae numc conmemoramus, 
+      <lb ed="#B" n="59"/>nisi per officia geminamus. Pecit autem 
+      <lb ed="#B" n="60"/>mentionem de his duabus portionibus. 
+      <lb ed="#B" n="61"/>Ratione probatur: quia eadem potentia 
+      <lb ed="#B" n="62"/>cognoscit prmcipium, &amp; conclusionem, quae 
+      <lb ed="#B" n="63"/>sequitur ex principio: quia alias nulla 
+      <lb ed="#B" n="64"/>portio cognosceret conclusionem 
+      scientifi<lb ed="#B" n="65" break="no"/>ce: quia illa non cognoscitur nisi ex 
+      col<lb ed="#B" n="66" break="no"/>latione ad principium. Intellectus autem 
+      <lb ed="#B" n="67"/>ut est portio superior, cognoscit 
+      princi<lb ed="#B" n="68" break="no"/>piu, quod est regula legis aeternae. Vt est 
+      <lb ed="#B" n="69"/>portio inferior: cognoscit conclusionem 
+      <lb ed="#B" n="70"/>de agendis ex illis principijs aeternis. Nam 
+      <lb ed="#B" n="71"/>non iudicat illud esse faciendum nisi ex 
+      re<lb ed="#B" n="72" break="no"/>gula aeterna: &amp; secundum praeceptum legis 
+      <lb ed="#B" n="73"/>diuinae; sed quod praecepta ex charitate 
+      dei<lb ed="#B" n="74" break="no"/>sunt implenda, uel aliquid tale. Ergo est 
+      <lb ed="#B" n="75"/>una potentia intellectiua portio. supior, 
+      <lb ed="#B" n="76"/>quae est respectu principij: &amp; portio 
+      in<lb ed="#B" n="77" break="no"/>ferior, quae est respectu conclusionis. Item 
+      <lb ed="#B" n="78"/>probatur ex speciali actu beatifico. 
+      Bea<lb ed="#B" n="79" break="no"/>titudo non consistit nisi in actu unius 
+      <lb ed="#B" n="80"/>potentiae. Vnius dico secundum rationem: 
+      <lb ed="#B" n="81"/>hoc est non in pluribus potentijs eiusdem 
+      <lb ed="#B" n="82"/>rationis. Nam etsi beatitudo sit simul 
+      in<lb ed="#B" n="83" break="no"/>intellectu, &amp; uoluntate: non tamen est in 
+      <lb ed="#B" n="84"/>pluribus intellectiuis potentijs: nec in 
+      <lb ed="#B" n="85"/>pluribus uolitiuis: immo necessario 
+      a<lb ed="#B" n="86" break="no"/>ctus beatificus unius rationis est in 
+      una<lb ed="#B" n="87" break="no"/>potentiatantum; quia beatitudo secundum 
+      <lb ed="#B" n="88"/>theologos, &amp; philosophos est optimum 
+      <lb ed="#B" n="89"/>hominis bonum: ergo in una uirtute 
+      con<lb ed="#B" n="90" break="no"/>sistit eiusdem rationis: sed beatitudo est 
+      <lb ed="#B" n="91"/>portionis superioris rationis. Manifestum 
+      <lb ed="#B" n="92"/>est similiter, quod est potentiae inferioris 
+      <lb ed="#B" n="93"/>portionis; quia beatitudo est illius 
+      po<lb ed="#B" n="94" break="no"/>tentiae; quae est principium merendi: quaem 
+      <lb ed="#B" n="95"/>ilicet elicit actum meritorium: non solum circa 
+      <lb ed="#B" n="96"/>deum: sed etiam circa proximum, &amp; alia 
+      tem<lb ed="#B" n="97" break="no"/>poralia. Huiusmodi aunt est tota 
+      portio<lb ed="#B" n="98" break="no"/>rationis inferioris. Si ergo tota 
+      poten<lb ed="#B" n="99" break="no"/>tia intellectiua, &amp; beatificabilis 
+      superio<lb ed="#B" n="100" break="no"/>ris portionis, &amp; inferioris, seqtur, quod in¬ 
+      <!--289.xml-->
+      <pb ed="#B" n="129-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>tellectiua utriusque portionis sit una. sic 
+      <lb ed="#B" n="2"/>de uolitiua.
+    </p>
+            <p xml:id="gbs333-b62474-d1e747">
+      ¶ Item idem habitus 
+      sim<lb ed="#B" n="3" break="no"/>plex non perficit duas potentias: sed  
+      <lb ed="#B" n="4"/>eadem charitas perficit uoluntatem 
+      su<lb ed="#B" n="5" break="no"/>perioris portionis, &amp; inferioris: ergo 
+      <lb ed="#B" n="6"/>non sunt duae potentiae. Maior patet: 
+      <lb ed="#B" n="7"/>quia distinctio posterioris non arguit 
+      <lb ed="#B" n="8"/>distinctionem prioris: ideo maior 
+      seni<lb ed="#B" n="9" break="no"/>per est unitas in priore, quam in 
+      posterio<lb ed="#B" n="10" break="no"/>re: potentia autem est prior habitu. 
+      Mi<lb ed="#B" n="11" break="no"/>nor probatur: quia charitas, qua diligit 
+      <lb ed="#B" n="12"/>deus, est in uoluntate portionis 
+      superio<lb ed="#B" n="13" break="no"/>ris. Et eadem est similiter in uoluntate 
+      por<lb ed="#B" n="14" break="no"/>tionis inferioris, qua diligimus pximum: 
+      <lb ed="#B" n="15"/>quia proximus est obiectu temporale. 
+      Qu<lb ed="#B" n="16" break="no"/>autem sit eadem patet; quia una est 
+      cha<lb ed="#B" n="17" break="no"/>ritas, qua diligimus omnia diligibilia: ut  
+      <lb ed="#B" n="18"/>docent magister in iij. dist. xvij. ergo 
+      <lb ed="#B" n="19"/>una est uolutas. Haec conclusio cum suis 
+      <lb ed="#B" n="20"/>probationibus est doct. subtilis. Concor 
+      <lb ed="#B" n="21"/>dat etiam in conclusione beatus Tho. 
+      par<lb ed="#B" n="22" break="no"/>j. q. xix. Et sanctus Bonauen. dist. 
+      praesen<lb ed="#B" n="23" break="no"/>ti. qeiij.
+    </p>
+            <p xml:id="gbs333-b62474-d1e795">
+      ¶ Quantum ad articulum tertium 
+      <lb ed="#B" n="24"/>dubitatur primo. Vtrum ab inuicem 
+      dis<lb ed="#B" n="25" break="no"/>ferunt portio inserior, &amp; homo exterior: 
+      si<lb ed="#B" n="26" break="no"/>cut homo interior, &amp; portio superior. 
+      <lb ed="#B" n="27"/>Ad hoc dubium respondet Alexam. q. Ixviij. 
+      <lb ed="#B" n="28"/>membro iij. par. ij. Exterior homo 
+      di<lb ed="#B" n="29" break="no"/>citur proprie cum conuertitur homo ad 
+      <lb ed="#B" n="30"/>exteriorabona concupiscenda propter 
+      <lb ed="#B" n="31"/>se. Interior uero homo dicitur, cum 
+      con<lb ed="#B" n="32" break="no"/>uertitur homo ad interiora, siue aeterna 
+      <lb ed="#B" n="33"/>propter se. Et secundum hoc exterior cor 
+      <lb ed="#B" n="34"/>rumpitur: interior renouatur. Cum. no 
+      <lb ed="#B" n="35"/>homo (sicut dicit Grego.) incipit 
+      ex<lb ed="#B" n="36" break="no"/>terius interite: tunc incipit interius 
+      ui<lb ed="#B" n="37" break="no"/>uere. Propter quod dicit apostolus ad 
+      <lb ed="#B" n="38"/>Ephel. capeiiij. &amp; Col. iij. 
+      Expolian<lb ed="#B" n="39" break="no"/>tes uos ueterem hominem cum actibus 
+      <lb ed="#B" n="40"/>suis, induite nouum. Aliter dicitur in 
+      <lb ed="#B" n="41"/>glos. ij. Corinth. iiij. Quicquid est in 
+      <lb ed="#B" n="42"/>nobis comune cum pecore exterior 
+      ho<lb ed="#B" n="43" break="no"/>mo est: is qui intus est, imago dei. Et  
+      <lb ed="#B" n="44"/>August. xij. de trin.c. i &amp; lib. xiiij. cap. 
+      <lb ed="#B" n="45"/>xvi. &amp;c. Quicquid habemus in anima 
+      <lb ed="#B" n="46"/>commune cum pecore recte dicitur ad 
+      <lb ed="#B" n="47"/>exteriorem hominem pertinere. 
+      Sequi<lb ed="#B" n="48" break="no"/>tur, ubi incipit nobis aliquid occurre- 
+      <lb ed="#B" n="49"/>re: quod non est nobis conmune cum 
+      be<lb ed="#B" n="50" break="no"/>stiis: ibi incipit ratio, ubi homo interior 
+      <!--289.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>ian possit agnosci. Sed hoc dicit Alexam. 
+      <lb ed="#B" n="52"/>intelligit inquantum coniungitur cum 
+      ratio<lb ed="#B" n="53" break="no"/>nali parte, ad quam ordinatur. Ex quibus 
+      <lb ed="#B" n="54"/>colligi potest, quid interest inter hominem 
+      <lb ed="#B" n="55"/>exteriorem: hominem uetere, &amp; portionem 
+      <lb ed="#B" n="56"/>inferiorem. Similiter inter hominem 
+      inte<lb ed="#B" n="57" break="no"/>riorem, hominem nouum &amp; portionem 
+      su<lb ed="#B" n="58" break="no"/>periorem. Nam homo exterior dupliciter 
+      ac<lb ed="#B" n="59" break="no"/>cipitur. Aut peorparte sensitiua hominis: 
+      <lb ed="#B" n="60"/>ut dicit glos. ii. Cor. iiij ia statim alle- 
+      <lb ed="#B" n="61"/>gata. Cui consonat glos. Ephes. iiij. super 
+      <lb ed="#B" n="62"/>illud. Deponite ueterem hominem. corpus 
+      <lb ed="#B" n="63"/>exterior homo est: anima interior. Corpus 
+      <lb ed="#B" n="64"/>accipitur p anima sensitiua, anima qpeor 
+      par<lb ed="#B" n="65" break="no"/>te intellectiua. Secundo accipit ho exte 
+      <lb ed="#B" n="66"/>rior po homine finem suum in exterioribus 
+      <lb ed="#B" n="67"/>creaturis ponente. Homo interior per 
+      <lb ed="#B" n="68"/>oppositum est homo finem suum in deo 
+      crea<lb ed="#B" n="69" break="no"/>tore constituens: ut supra habitum est. 
+    </p>
+            <p xml:id="gbs333-b62474-d1e903">
+               <lb ed="#B" n="70"/>¶ Secundum Alexand homo uetus est, 
+      ho<lb ed="#B" n="71" break="no"/>mo peccator propago ueteris Adae. Vn 
+      <lb ed="#B" n="72"/>de gloil. ad Ephes. iiii. super illud. 
+      Depo<lb ed="#B" n="73" break="no"/>nite uos: Et est Ambro. Homo interior 
+      <lb ed="#B" n="74"/>si uitia pristina sequitur: uetus dicitur. 
+      <lb ed="#B" n="75"/>Si aut in nouitate uitae ambulat, alienus 
+      <lb ed="#B" n="76"/>a seculari errore: nouus dicitur. Et gloilie 
+      <lb ed="#B" n="77"/>interli. Col. iii. super illud. Expoliate 
+      <lb ed="#B" n="78"/>uos ueterem hominem. Homo uetus, 
+      <lb ed="#B" n="79"/>uita uerus in peccatis secundum Adam. &amp; 
+      <lb ed="#B" n="80"/>in glol. allegata ad Eph. iiij. In 
+      inte<lb ed="#B" n="81" break="no"/>riore homine agitur hec uetustas, &amp; 
+      no<lb ed="#B" n="82" break="no"/>uitas. Patet ergo, quod homo uetus, &amp; nouus 
+      <lb ed="#B" n="83"/>pertinet ad interiorem hominem acce- 
+      <lb ed="#B" n="84"/>ptum pro parte intellectiua: &amp; non ad 
+      <lb ed="#B" n="85"/>exteriorem acceptum pro parte sensiti 
+      <lb ed="#B" n="86"/>ua: &amp; uterque uetus, &amp; nouus inuenitur 
+      <lb ed="#B" n="87"/>in utraque portione inferiore, &amp; 
+      superio<lb ed="#B" n="88" break="no"/>re: quia secundum utramque portionem 
+      <lb ed="#B" n="89"/>contingit peccare, &amp; mereri. De 
+      infe<lb ed="#B" n="90" break="no"/>riori manifestum est: quia circa 
+      tempo<lb ed="#B" n="91" break="no"/>poralia meremur, &amp; demeremur: de 
+      su<lb ed="#B" n="92" break="no"/>periore patet supra dist. xxij. q. i.
+    </p>
+            <p xml:id="gbs333-b62474-d1e955">
+      ¶ 
+      Ho<lb ed="#B" n="93" break="no"/>mo uero exterior acceptus secundo 
+      <lb ed="#B" n="94"/>modo pertinet ad portionem 
+      inferio<lb ed="#B" n="95" break="no"/>rem. Interior uero ad utrumque: quia 
+      <lb ed="#B" n="96"/>contemplando finem, agit secundum 
+      por<lb ed="#B" n="97" break="no"/>tionem superiorem. Ordinando 
+      exterio<lb ed="#B" n="98" break="no"/>ra ad finem, agit secundum portionem 
+      infe<lb ed="#B" n="99" break="no"/>riorem. Accipiedo aut hominem exteriorem 
+      <lb ed="#B" n="100"/>primo modo pro parte sensitiua signon 
+      <!--290.xml-->
+      <pb ed="#B" n="130-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>pertinet ad aliquam portionem rationis: 
+      <lb ed="#B" n="2"/>interior uero proparte intellectiua 
+      per<lb ed="#B" n="3" break="no"/>tinet ad utramque.
+    </p>
+            <p xml:id="gbs333-b62474-d1e988">
+      ¶ Secundo dubitatur. 
+      <lb ed="#B" n="4"/>Vtrum contingat peccatum mortale 
+      es<lb ed="#B" n="5" break="no"/>se in inferiore portione, absque hoc, quod 
+      <lb ed="#B" n="6"/>sit in superiore: &amp; econuerso. 
+      Respon<lb ed="#B" n="7" break="no"/>detur, quod cum peccatum esse non possit 
+      <lb ed="#B" n="8"/>mortale sine contemptu dei, &amp; regula 
+      <lb ed="#B" n="9"/>rum aeternae, ac diuinae legis uero, uel in 
+      <lb ed="#B" n="10"/>terpraetatiuo: ut infra dicitur: siportio 
+      <lb ed="#B" n="11"/>superior accipitur stricte: peccatum 
+      mor<lb ed="#B" n="12" break="no"/>tale potest esse in portione inferiori, &amp; 
+      <lb ed="#B" n="13"/>non in superiori: ut peccatum quo quis 
+      <lb ed="#B" n="14"/>peccat in proximum uel in seipsum, 
+      cu<lb ed="#B" n="15" break="no"/>ius deus non est obiectum. Nam sic 
+      nul<lb ed="#B" n="16" break="no"/>slum peccatum est in portione superiori: 
+      <lb ed="#B" n="17"/>nisi quod immediate conmittitur in deum. 
+      <lb ed="#B" n="18"/>Haec enimportio sic accepta, non 
+      uer<lb ed="#B" n="19" break="no"/>satur circa aliud obiectum, quam circa 
+      <lb ed="#B" n="20"/>deum. Accipiendo autem portionem 
+      <lb ed="#B" n="21"/>superiorem large: nullum peccatum mor 
+      <lb ed="#B" n="22"/>tale committitur: quin portio superior 
+      <lb ed="#B" n="23"/>sit in culpa. Cum enim non 
+      committi<lb ed="#B" n="24" break="no"/>tur sine auersione a deo, &amp; solius 
+      supe<lb ed="#B" n="25" break="no"/>rioris portionis est auerti a deo. sicut 
+      con<lb ed="#B" n="26" break="no"/>uerti ad deum secundum regulas aeterne 
+      <lb ed="#B" n="27"/>legis, sic accipiendo portionem 
+      superio<lb ed="#B" n="28" break="no"/>tem in omni mortali peccato, portio 
+      su<lb ed="#B" n="29" break="no"/>perior auertit se a deo uere, uel 
+      inter<lb ed="#B" n="30" break="no"/>praetatiue. Vere, dum legem aeternam at 
+      <lb ed="#B" n="31"/>tendens contra eam consentit portioni 
+      <lb ed="#B" n="32"/>inferiori in actum contrarium legi. 
+      In<lb ed="#B" n="33" break="no"/>terpretatiue dum non cohibet 
+      inferio<lb ed="#B" n="34" break="no"/>rem, dum tenetur secundum legem. Et  
+      <lb ed="#B" n="35"/>ita negligendo auertitur, dum se non 
+      con<lb ed="#B" n="36" break="no"/>uertit, &amp; conuertere setenetur. Et illo 
+      <lb ed="#B" n="37"/>modo uerum est illud Augu. quod si 
+      pecca<lb ed="#B" n="38" break="no"/>tum non diuteneatur in delectatione 
+      co<lb ed="#B" n="39" break="no"/>gitationis, sed statim ut mulierem id est 
+      in<lb ed="#B" n="40" break="no"/>feriorem portionem tetigit uir id est 
+      supe<lb ed="#B" n="41" break="no"/>rioris portionis auctoritate repellatur: 
+      <lb ed="#B" n="42"/>ueniale est. Si uero diu in delectatione. 
+      <lb ed="#B" n="43"/>cogitationis tenetur: ersi uoluntas 
+      per<lb ed="#B" n="44" break="no"/>ficiendi desit: mortale est: &amp; pro eo 
+      dan<lb ed="#B" n="45" break="no"/>nabitur simuluir, &amp; muller id est totus 
+      ho<lb ed="#B" n="46" break="no"/>mo: quia &amp; tunc uir non sicut debuit 
+      mu<lb ed="#B" n="47" break="no"/>lierem cohibuit, unde potest dici 
+      consen<lb ed="#B" n="48" break="no"/>sisse. Haec magister. Ex quibus patet quod 
+      <lb ed="#B" n="49"/>beatus Augu. &amp; magister accipiunt 
+      por<lb ed="#B" n="50" break="no"/>tionem superioremlarge: ut eius est rege¬ 
+      <!--290.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>re portionem inferiorem secundum 
+      le<lb ed="#B" n="52" break="no"/>ges aeternas. In portione uero 
+      superio<lb ed="#B" n="53" break="no"/>ri potest esse peccatum moitale absque 
+      <lb ed="#B" n="54"/>hoc, quod sit in portione inferiori. ut 
+      pa<lb ed="#B" n="55" break="no"/>tet de peccato infidelitatis circa 
+      articu<lb ed="#B" n="56" break="no"/>lum trinitatis: quia circa tale obiectum 
+      <lb ed="#B" n="57"/>non est portio inferior. Multa hic 
+      mo<lb ed="#B" n="58" break="no"/>ueri possent dubia de differentia 
+      pecca<lb ed="#B" n="59" break="no"/>torum mortalium, &amp; uenialium; quae 
+      <lb ed="#B" n="60"/>magis posterius dum de peccatis 
+      age<lb ed="#B" n="61" break="no"/>tur in genere locum habent. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praeambulum</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praeambulum</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="142-v"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b69652"><!-- l2-d28prae -->
+            <head xml:id="gbs333-b69652-Hd1e101">Praeambulum</head>
+            <p xml:id="gbs333-b69652-d1e103">
+               <lb ed="#B" n="90"/>DISTINCTIO XXVIII. 
+      <lb ed="#B" n="91"/>VTERMINATA 
+      <lb ed="#B" n="92"/>ueritate quo ad 
+      na<lb ed="#B" n="93" break="no"/>turam lapiam: in hac 
+      <lb ed="#B" n="94"/>distinctione 
+      repro<lb ed="#B" n="95" break="no"/>bat haeresim 
+      Pelagia<lb ed="#B" n="96" break="no"/>nam. Cuius primo 
+      <lb ed="#B" n="97"/>errores ponit. 
+      Secun<lb ed="#B" n="98" break="no"/>do motiua exprimit. Tertio ueritatem 
+      <lb ed="#B" n="99"/>conclu¬ 
+      <!--316.xml-->
+      <pb ed="#B" n="143-r"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>concludit.
+    </p>
+            <p xml:id="gbs333-b69652-d1e136">
+      ¶ Secundum haec sententia 
+      <lb ed="#B" n="2"/>huius distinctionis tribus 
+      conclusioni<lb ed="#B" n="3" break="no"/>bus aperitur.
+    </p>
+            <p xml:id="gbs333-b69652-d1e143">
+      ¶ Prima conclusio. 
+      Pela<lb ed="#B" n="4" break="no"/>gianorum haerelis asserit per liberum ar 
+      <lb ed="#B" n="5"/>bitrium sine gratia mandata dei imple- 
+      <lb ed="#B" n="6"/>ri posse. Gratiam uero, qua ab 
+      impieta<lb ed="#B" n="7" break="no"/>te liberamur, &amp; adiuuamur, secundum 
+      <lb ed="#B" n="8"/>nostra merita dari. Orationes Ecclesiae 
+      <lb ed="#B" n="9"/>pro infidelibus, ut conuertantur, pro 
+      fi<lb ed="#B" n="10" break="no"/>delibus, ut perseuerent, &amp; fide crescant, 
+      <lb ed="#B" n="11"/>frustrari, paruulos quoque sine omni 
+      ge<lb ed="#B" n="12" break="no"/>nerali culpa nasci. Hunc errorem uide 
+      <lb ed="#B" n="13"/>in epistolari Beati August. epistola cuj. 
+      <lb ed="#B" n="14"/>Item. xcv. &amp; in multis alijs.
+    </p>
+            <p xml:id="gbs333-b69652-d1e169">
+      ¶ Secunda 
+      <lb ed="#B" n="15"/>conclusio. Pelagius pluribus beati 
+      Au<lb ed="#B" n="16" break="no"/>gustini inductionibus, quas contra suam 
+      <lb ed="#B" n="17"/>expositionem male intelligendo de pra 
+      <lb ed="#B" n="18"/>uat errorem suum munit, &amp; confirmat.  
+    </p>
+            <p xml:id="gbs333-b69652-d1e181">
+               <lb ed="#B" n="19"/>¶ Tertia conclusio. Ita liberum 
+      confi<lb ed="#B" n="20" break="no"/>temur arbitrium: ut nos intelligamus 
+      di<lb ed="#B" n="21" break="no"/>uino auxilio indigere quo deserente 
+      ho<lb ed="#B" n="22" break="no"/>mo potest peccare: adsistente potest 
+      pec<lb ed="#B" n="23" break="no"/>catum uitare. Horum latiorem declara 
+      <lb ed="#B" n="24"/>tionem prosequitur textus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

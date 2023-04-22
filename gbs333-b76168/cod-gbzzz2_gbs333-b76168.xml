@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#GabrielBiel">Gabriel Biel</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2023-04-19">April 22, 2023</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="B" n="cod-gbzzz2">Brescia 1574, vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2023-04-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#B" n="156-r"/>
+            <cb ed="#B" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="gbs333-b76168"><!-- l2-d31q1 -->
+            <head xml:id="gbs333-b76168-Hd1e101">Quaestio 1</head>
+            <head xml:id="gbs333-b76168-Hd1e103" type="question-title">
+      Utrum peccatum 
+      originale in anima prolis 
+      lege propagationis genite, 
+      contrahatur ab anima uel a carne
+    </head>
+            <p xml:id="gbs333-b76168-d1e106">
+               <lb ed="#B" n="73"/>QVAESTIO VNICA 
+      <lb ed="#B" n="74"/>CIRCA hanc distinctionem 
+      <lb ed="#B" n="75"/>quaeritur. Vtrum peccatum 
+      <lb ed="#B" n="76"/>originale in anima prolis 
+      le<lb ed="#B" n="77" break="no"/>ge propagationis genite, 
+      <lb ed="#B" n="78"/>contrahatur ab anima uel a carne.
+    </p>
+            <p xml:id="gbs333-b76168-d1e122">
+      ¶ Ad 
+      <lb ed="#B" n="79"/>quaestionem illam summarie &amp; breuiter 
+      <lb ed="#B" n="80"/>respondendum est: quia materia eius 
+      si<lb ed="#B" n="81" break="no"/>cut sequentium duarum distinctionum 
+      <lb ed="#B" n="82"/>condependet priori quaestioni: &amp; eius 
+      <lb ed="#B" n="83"/>solutio ex prioris quaestionis 
+      solutio<lb ed="#B" n="84" break="no"/>ne. Et quia ut dictum est quaestione 
+      prae<lb ed="#B" n="85" break="no"/>cedenti in originali peccato duo 
+      con<lb ed="#B" n="86" break="no"/>siderantur: fomes scilicet, &amp; carentia 
+      <lb ed="#B" n="87"/>iustitiagoriginalis. De utraque; dictum est, 
+      <lb ed="#B" n="88"/>unde causitur: &amp; per hoc unde 
+      contrahi<lb ed="#B" n="89" break="no"/>tur: etiam quomodo se habeant ad rationem 
+      <lb ed="#B" n="90"/>peccati originalis secundum diuersas 
+      opi<lb ed="#B" n="91" break="no"/>niones supra recitatas. Nam de fomite 
+      <lb ed="#B" n="92"/>habitum est, quomodo causatus est in 
+      <lb ed="#B" n="93"/>primo parente, deinde quomodo ex in 
+      <lb ed="#B" n="94"/>fectione carnis, &amp; generatiuae 
+      uirtu<lb ed="#B" n="95" break="no"/>tis per concupiscentiae ardorem, ac 
+      li<lb ed="#B" n="96" break="no"/>bidinem infectum est semen. Et 
+      qua<lb ed="#B" n="97" break="no"/>litas huiusmodi causata in carne prolis: 
+      <!--343.xml-->
+      <pb ed="#B" n="156-v"/>
+               <cb ed="#B" n="a"/>
+               <lb ed="#B" n="1"/>&amp; sic a parentibus transfusa in prolem: 
+      <lb ed="#B" n="2"/>hoc est causata in prolem. Et quod de quali 
+      <lb ed="#B" n="3"/>tate illa morbida in carne prolis 
+      causa<lb ed="#B" n="4" break="no"/>ta, somes in anima causatus est: &amp; ita a 
+      <lb ed="#B" n="5"/>carne infecta est anima in eius 
+      coniun<lb ed="#B" n="6" break="no"/>ctione cum carne infecta.
+    </p>
+            <p xml:id="gbs333-b76168-d1e185">
+      ¶ Verum apud 
+      <lb ed="#B" n="7"/>eos, qui ponunt plures animas in eodem 
+      <lb ed="#B" n="8"/>homine scilicet uegetatiuam, &amp; 
+      sensiti<lb ed="#B" n="9" break="no"/>uam, quae sunt ex traduce: quia de 
+      poten<lb ed="#B" n="10" break="no"/>tia materiae: ita in homine sicut in caete 
+      <lb ed="#B" n="11"/>ris animantibus genitae, &amp; animam 
+      in<lb ed="#B" n="12" break="no"/>tellectiuam non genitam: seda solo dec 
+      <lb ed="#B" n="13"/>creatam, &amp; creando infusam. Posset 
+      es<lb ed="#B" n="14" break="no"/>se difficultas: utrum fomes animae 
+      pro<lb ed="#B" n="15" break="no"/>lis contrahitur ab anima sensitiua, uel 
+      <lb ed="#B" n="16"/>uegetatiua parentis: quia tamen 
+      osten<lb ed="#B" n="17" break="no"/>sum est supra distinct. xvj. quod in homine 
+      <lb ed="#B" n="18"/>est tantum una forma substantialis 
+      sci<lb ed="#B" n="19" break="no"/>licet anima intellectiua, quae non est ex 
+      <lb ed="#B" n="20"/>traduce, nec a parentibus genita: sed a 
+      <lb ed="#B" n="21"/>deo creata, ideo non habet hic locum. 
+      <lb ed="#B" n="22"/>Cum enim anima non est ex traduce: 
+      <lb ed="#B" n="23"/>sed immediate a deo, qui finxit 
+      singilla<lb ed="#B" n="24" break="no"/>tim corda idest animas hominum, non 
+      <lb ed="#B" n="25"/>habet anima prolis dependentiam ad 
+      <lb ed="#B" n="26"/>animam parentis: &amp; ideo nihil 
+      contra<lb ed="#B" n="27" break="no"/>hit ab anima parentis. Quantum uero 
+      <lb ed="#B" n="28"/>ad priuationem iustitiae debitae inesse 
+      <lb ed="#B" n="29"/>etiam duo considerantur, scilicet nuda 
+      <lb ed="#B" n="30"/>priuatio, quae dicitur carentia iustitia 
+      <lb ed="#B" n="31"/>originalis: &amp; debitum habendi. Priuatio: 
+      <lb ed="#B" n="32"/>quia quod nihil est, non contrahitur: sed  
+      <lb ed="#B" n="33"/>ista priuatio est ex absentia causae 
+      pro<lb ed="#B" n="34" break="no"/>ducentis. Deus, nion quia non producit 
+      <lb ed="#B" n="35"/>seu infundit donum originalis iustitiae 
+      <lb ed="#B" n="36"/>ideo non est in anima prolis. Debitum 
+      <lb ed="#B" n="37"/>uero, quo proles est debitrix iustitiae 
+      <lb ed="#B" n="38"/>qua caret, illud contrahit anima seu 
+      pro<lb ed="#B" n="39" break="no"/>les mediante carne. Non ita, quod caro 
+      <lb ed="#B" n="40"/>per qualitatem aliquam sibi inhaerentem 
+      <lb ed="#B" n="41"/>causet debitum illud, quasi quandam qua 
+      <lb ed="#B" n="42"/>litatem in anima plis: sed ex hoc, quod caro 
+      <lb ed="#B" n="43"/>concupiscibiliter seminatur: &amp; ex ea sic 
+      se<lb ed="#B" n="44" break="no"/>minata formatur corpus organicum, cui 
+      <lb ed="#B" n="45"/>infunditur anima cum carne constituens 
+      <lb ed="#B" n="46"/>psonam, quae est filius, uel filia Adae. Ista 
+      pe<lb ed="#B" n="47" break="no"/>sona: quia naturalis proles Adae, est debi 
+      <lb ed="#B" n="48"/>trix iustitiae originalis a deo ipsi Adae, ac 
+      <lb ed="#B" n="49"/>omnibus suis filijs ab eo propagationis 
+      <lb ed="#B" n="50"/>lege genitis datae.
+    </p>
+            <p xml:id="gbs333-b76168-d1e284">
+      ¶ Ex his possunt elici¬ 
+      <!--343.xml-->
+      <cb ed="#B" n="b"/>
+               <lb ed="#B" n="51"/>duae conclusiones ad quaestionis titulum 
+      <lb ed="#B" n="52"/>responsiuae. Prima. Eomes peccati 
+      ori<lb ed="#B" n="53" break="no"/>ginalis in anima contrabitur a carne 
+      <lb ed="#B" n="54"/>morbida qualitate infecta. Probatur: 
+      <lb ed="#B" n="55"/>quia inde contrahitur, unde causatur, 
+      <lb ed="#B" n="56"/>sed fomes in anima causatur a morbida 
+      <lb ed="#B" n="57"/>qualitate carnis. ergo. Consequentia 
+      <lb ed="#B" n="58"/>nota cum maiore. Minor multipliciter 
+      <lb ed="#B" n="59"/>est probata.
+    </p>
+            <p xml:id="gbs333-b76168-d1e310">
+      ¶ Secunda conclusio. 
+      Pec<lb ed="#B" n="60" break="no"/>catum originale prolis quantum ad de 
+      <lb ed="#B" n="61"/>bitum iustitiae originalis, eiusque 
+      caren<lb ed="#B" n="62" break="no"/>tiam contrahitur mediante carne: &amp; non 
+      <lb ed="#B" n="63"/>mediante anima a primo parente. 
+      Pro<lb ed="#B" n="64" break="no"/>batur: quia mediante illo contrahitur 
+      <lb ed="#B" n="65"/>a patre Adam mediante quo est natura 
+      <lb ed="#B" n="66"/>lis filius Ade: sed mediante carne est 
+      fi<lb ed="#B" n="67" break="no"/>lius naturalis Adae, &amp; non mediante 
+      ani<lb ed="#B" n="68" break="no"/>ma: ergo conclusio uera. 
+      Consequen<lb ed="#B" n="69" break="no"/>tia nota. Maior patet: quia ideo proles 
+      <lb ed="#B" n="70"/>debitrix est iustitiae originalis: quia filius 
+      <lb ed="#B" n="71"/>naturalis Adae: ut supra probatum est. 
+      <lb ed="#B" n="72"/>Minor patet: quia caro prolis, ratio est, 
+      <lb ed="#B" n="73"/>quod ipsa est filius naturalis Adae, quod non 
+      ani<lb ed="#B" n="74" break="no"/>nia: non enim descendit proles ab Adam, 
+      <lb ed="#B" n="75"/>secundum animam, quam non habet ex 
+      <lb ed="#B" n="76"/>Adam per traduce, sed immediate a deo: 
+      <lb ed="#B" n="77"/>sed descendit ab eo secundum carnem: 
+      <lb ed="#B" n="78"/>hanc naturam habet ab Adam per 
+      pro<lb ed="#B" n="79" break="no"/>pagationem. Hac etiam iustitia caret 
+      <lb ed="#B" n="80"/>per peccatum Adae: quia sicut eam in 
+      <lb ed="#B" n="81"/>Adam perdidit. Et tantum de illa 
+      quae<lb ed="#B" n="82" break="no"/>stione breuissima solutione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
