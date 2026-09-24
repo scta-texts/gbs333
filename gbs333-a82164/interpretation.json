@@ -1,0 +1,89 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "89aa433963741acd3877d87c96f6021ec6374717",
+    "generation_method": "hierarchical"
+  },
+
+  "gbs333-a82164-d1e104": {
+    "summary": "A rubric heading marking the start of Distinction 37, followed by a transitional announcement that the sense (sententia) of this distinction can be summarized in three conclusions.",
+    "claims": [
+      "The sense of Distinction 37 is summarized in three conclusions."
+    ],
+    "concepts": ["distinction 37", "three summary conclusions"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-a82164-Hd1e102"]
+    }
+  },
+
+  "gbs333-a82164-d1e117": {
+    "summary": "States the first conclusion: although God is in all things principally, potentially, and essentially, he dwells more excellently in the saints through the grace of adoption, and most excellently of all in the man Christ through the grace of union.",
+    "claims": [
+      "First conclusion: God is in all things principally, potentially, and essentially.",
+      "God dwells more excellently in the saints, through the grace of adoption.",
+      "God dwells most excellently of all in Christ's humanity, through the grace of union."
+    ],
+    "concepts": ["general presence of God in all things", "grace of adoption", "grace of union (hypostatic union)", "grades of divine indwelling"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-a82164-d1e104"]
+    }
+  },
+
+  "gbs333-a82164-d1e135": {
+    "summary": "States the second conclusion: God is everywhere without any change in himself; in every substance without being defined or limited by it; in every place without being circumscribed by it; and in every time without mutability or vicissitude, i.e., unchangingly and eternally.",
+    "claims": [
+      "Second conclusion: God is everywhere without change of himself.",
+      "God is in every matter/substance without being definitively limited by it.",
+      "God is in every place without being circumscribed by it.",
+      "God is in every time without mutability or vicissitude."
+    ],
+    "concepts": ["divine immutability", "definitive vs. circumscriptive presence", "divine eternity"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-a82164-d1e117"]
+    }
+  },
+
+  "gbs333-a82164-d1e154": {
+    "summary": "States the third conclusion: although God is everywhere, he is nonetheless wholly non-local, incircumscriptible, and atemporal, existing always in himself even when no creature exists. Notes that this is made clear from Lombard's text.",
+    "claims": [
+      "Third conclusion: though God is everywhere, he is entirely without locality, uncircumscribed, and atemporal.",
+      "God exists always in himself, even when no creature exists.",
+      "This is shown to be clear from Lombard's text."
+    ],
+    "concepts": ["divine non-locality", "incircumscriptibility", "atemporality", "God's existence independent of creation"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-a82164-d1e135"]
+    }
+  },
+
+  "gbs333-a82164": {
+    "summary": "This Praeambulum introduces Distinction 37 by summarizing its content in three conclusions. The first distinguishes grades of divine indwelling: God is in all things principally, potentially, and essentially, but dwells more excellently in the saints through the grace of adoption, and most excellently in Christ's humanity through the grace of union. The second characterizes how God's universal presence differs from that of created things: he is everywhere without change, in every substance without being defined by it, in every place without being circumscribed by it, and in every time without mutability. The third draws the corollary that, notwithstanding his universal presence, God is wholly non-local, incircumscriptible, and atemporal, existing eternally in himself independently of creation — a point the text of Lombard is said to make clear. Together these three conclusions set out the general (as opposed to special or singular) mode of divine presence that the following quaestio will examine in detail.",
+    "claims": [
+      "God's presence admits of grades: general (in all things), special (in the saints, by adoption), and singular (in Christ, by union) — with each successive grade more excellent.",
+      "God's universal presence in things, places, substances, and time is unlike creaturely presence in each: unchanging, undefined, uncircumscribed, and immutable.",
+      "God is nonetheless entirely non-local, incircumscriptible, and atemporal in himself, existing eternally independent of the existence of any creature."
+    ],
+    "concepts": ["distinction 37", "grades of divine indwelling", "grace of adoption", "grace of union", "divine immutability and eternity", "non-locality and incircumscriptibility"],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "gbs333-a82164-d1e104",
+        "gbs333-a82164-d1e117",
+        "gbs333-a82164-d1e135",
+        "gbs333-a82164-d1e154"
+      ]
+    }
+  }
+}

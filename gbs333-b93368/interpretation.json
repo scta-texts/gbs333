@@ -1,0 +1,108 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-09-24T00:00:00Z",
+    "model": "claude-sonnet-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "7b4ae689b991aebb8ee9b59a2acb29d8ff3e9fda",
+    "generation_method": "hierarchical"
+  },
+
+  "gbs333-b93368-d1e103": {
+    "summary": "A rubric heading marking the start of the final distinction of book II: Distinction 44.",
+    "claims": [],
+    "concepts": ["distinction 44 (final distinction of book II)"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-Hd1e101"]
+    }
+  },
+
+  "gbs333-b93368-d1e108": {
+    "summary": "Introduces the final distinction by recalling that Lombard has already, in the preceding distinctions, determined the actual, original, and subjective cause of sin, together with its quiddity and act. In this last distinction he turns instead to the power to sin, asking where it comes from: from God, from man, or from the devil.",
+    "claims": [
+      "In the preceding ten distinctions, Lombard treated the actual, original, and subjective cause of sin, and its quiddity and act.",
+      "In this final distinction, Lombard instead asks whence the power to sin comes: from God, from man, or from the devil."
+    ],
+    "concepts": ["cause of sin (actual, original, subjective)", "quiddity and act of sin", "potentia peccandi", "origin of the power to sin"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-d1e103"]
+    }
+  },
+
+  "gbs333-b93368-d1e132": {
+    "summary": "Transitional sentence announcing that the sense of Lombard's text is gathered into three conclusions, and introducing the first.",
+    "claims": [
+      "The sense of Lombard's text in this distinction is summarized in three conclusions."
+    ],
+    "concepts": ["three conclusions summarizing Lombard's text"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-d1e108"]
+    }
+  },
+
+  "gbs333-b93368-d1e137": {
+    "summary": "States the first conclusion: notwithstanding the contrary opinion of some, every power to act well or badly is from God.",
+    "claims": [
+      "First conclusion: every power of acting well or badly is from God, against the contrary opinion held by some."
+    ],
+    "concepts": ["all power (potestas) as from God", "power to act well or badly"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-d1e132"]
+    }
+  },
+
+  "gbs333-b93368-d1e147": {
+    "summary": "States the second conclusion: although a well-administered power must be obeyed, its abuse must nonetheless be resisted manfully.",
+    "claims": [
+      "Second conclusion: a well-administered power is to be obeyed, but its abuse is to be resisted vigorously."
+    ],
+    "concepts": ["obedience to legitimate power", "resistance to abuse of power"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-d1e137"]
+    }
+  },
+
+  "gbs333-b93368-d1e156": {
+    "summary": "States the third conclusion: when an inferior power commands something against a superior power, that inferior command is to be disregarded, and the superior power is to be heeded instead.",
+    "claims": [
+      "Third conclusion: when an inferior power commands contrary to a superior power, the inferior command is to be set aside and the superior power obeyed."
+    ],
+    "concepts": ["hierarchy of powers", "priority of superior authority over inferior command"],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": ["gbs333-b93368-d1e147"]
+    }
+  },
+
+  "gbs333-b93368": {
+    "summary": "This Praeambulum introduces the final distinction of book II (distinction 44), noting that whereas the preceding ten distinctions treated the actual, original, and subjective cause of sin and its quiddity and act, this last distinction turns to the power to sin itself, asking whether it comes from God, man, or the devil. It then summarizes the sense of Lombard's text in three conclusions: all power to act well or badly is from God, notwithstanding contrary opinions; a well-administered power must be obeyed, but its abuse must be manfully resisted; and when an inferior power commands against a superior one, the inferior command is to be disregarded in favor of the superior power. These three conclusions set the agenda that the following quaestio (on whether the power to sin was granted by God to the rational creature) will examine in detail.",
+    "claims": [
+      "This final distinction (44) shifts focus from the cause of sin (treated in the preceding ten distinctions) to the power to sin itself, asking its origin: God, man, or the devil.",
+      "Lombard's text is summarized in three conclusions: (1) all power to act well or badly is from God; (2) legitimate power must be obeyed but its abuse resisted; (3) when inferior and superior powers conflict, the superior is to be heeded."
+    ],
+    "concepts": ["distinction 44", "potentia peccandi", "origin of the power to sin", "hierarchy of powers", "obedience and resistance to abuse of power"],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "gbs333-b93368-d1e103",
+        "gbs333-b93368-d1e108",
+        "gbs333-b93368-d1e132",
+        "gbs333-b93368-d1e137",
+        "gbs333-b93368-d1e147",
+        "gbs333-b93368-d1e156"
+      ]
+    }
+  }
+}
