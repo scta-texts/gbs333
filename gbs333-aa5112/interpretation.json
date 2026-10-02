@@ -1,0 +1,177 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-02T12:27:20Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "23cbb183fb94c3f60f46da814bd55fb09d1cddf8",
+    "generation_method": "hierarchical"
+  },
+  "gbs333-aa5112-d1e107": {
+    "summary": "States the question: whether in every demonstration the definition is the middle term of demonstrating.",
+    "claims": [],
+    "concepts": [
+      "demonstration",
+      "definition as middle term"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-Hd1e104"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e123": {
+    "summary": "First notandum restricting the question to the most powerful demonstration (demonstratio potissima), defined as a demonstration propter quid that is universal in both senses and affirmative. From these marks it follows that it proceeds through a causal middle, is in the first mode of the first figure, and is ostensive rather than by reduction.",
+    "claims": [
+      "The question concerns demonstratio potissima.",
+      "Demonstratio potissima is propter quid, doubly universal, and affirmative.",
+      "It therefore proceeds through a causal middle, in the first figure's first mode (Barbara), and ostensively."
+    ],
+    "concepts": [
+      "demonstratio potissima",
+      "demonstration propter quid",
+      "causal middle term",
+      "first figure syllogism",
+      "ostensive demonstration"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e107"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e146": {
+    "summary": "Second notandum distinguishing two kinds of definition, quid rei and quid nominis, and subdividing the real definition: when given through intrinsic causes or essential principles of the thing (its material part, formal part, or both), it is a 'formal' definition, which belongs only to substantial composites or to things with distinct parts of the same kind, such as a triangle composed of three lines.",
+    "claims": [
+      "Definition is either quid rei or quid nominis.",
+      "A real definition through intrinsic causes or essential principles is called formal.",
+      "Such a formal definition belongs only to a substantial composite or to a thing with distinct parts of the same kind."
+    ],
+    "concepts": [
+      "definitio quid rei",
+      "definitio quid nominis",
+      "formal definition",
+      "intrinsic causes",
+      "essential parts"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e123",
+        "gbs333-aa5112-d1e172"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e172": {
+    "summary": "Completes the division of real definition: a definition sometimes given through extrinsic factors is called 'material', since it frequently names the matter, i.e., the subject.",
+    "claims": [
+      "A real definition given through extrinsic factors is called material, because it often names the subject."
+    ],
+    "concepts": [
+      "material definition",
+      "extrinsic causes",
+      "subject as matter"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e146"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e181": {
+    "summary": "Distinguishes two senses of nominal definition: the phrase that everyone understands by a name, and a phrase whose truth of the defined follows from something prior.",
+    "claims": [
+      "Nominal definition is taken either as the phrase commonly understood by the name or as a phrase whose truth of the definitum follows from something prior."
+    ],
+    "concepts": [
+      "definitio quid nominis",
+      "nominal vs. real definition"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e146"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e194": {
+    "summary": "First conclusion: the middle term of a demonstratio potissima is sometimes a definition and sometimes not. When nothing mediates between the subject's definition and the attribute, the definition can serve as middle (as 'having three angles equal to two right angles' is demonstrated of the triangle through its definition); but when something intervenes—as the intellective soul mediates between the definition of man and 'capable of learning'—the definition cannot be the middle, because the proposition linking attribute and definition is then demonstrable, whereas the premises of a demonstratio potissima must be immediate.",
+    "claims": [
+      "The definition is the middle of a demonstratio potissima only when nothing intervenes between it and the attribute.",
+      "When something intervenes, the proposition predicating the attribute of the definition is demonstrable and hence not immediate.",
+      "The premises of a demonstratio potissima must be immediate.",
+      "The intellective soul mediates between the definition of man and the property of being capable of learning."
+    ],
+    "concepts": [
+      "immediacy of premises",
+      "definition as middle term",
+      "attribute (passio)",
+      "demonstrability"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e123",
+        "gbs333-aa5112-d1e146"
+      ]
+    }
+  },
+  "gbs333-aa5112-d1e231": {
+    "summary": "Second conclusion: when a definition is the middle of a demonstratio potissima, it must be the definition of the subject, not of the attribute. The middle must signify only causes of the attribute; the attribute's definition includes the attribute itself, which cannot cause itself, whereas the subject's definition signifies the subject, which is the material cause of the attribute (taking 'matter' broadly to include the subject).",
+    "claims": [
+      "When the middle of a demonstratio potissima is a definition, it is the definition of the subject, not of the attribute.",
+      "The middle term should signify only causes of the attribute.",
+      "The attribute cannot be its own cause.",
+      "The subject is the material cause of its attribute, broadly speaking."
+    ],
+    "concepts": [
+      "subject as material cause",
+      "definition of subject vs. definition of attribute",
+      "causal middle"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-aa5112-d1e194",
+        "gbs333-aa5112-d1e123"
+      ]
+    }
+  },
+  "gbs333-aa5112": {
+    "summary": "Quaestio 5, one of the logical questions of the prologue on the conditions of strict scientific knowledge, asks whether the definition is the middle term in every demonstration. It first restricts the inquiry to demonstratio potissima (propter quid, universal, affirmative, hence causal, first-figure, and ostensive), then distinguishes real definitions (formal, through intrinsic principles; material, through extrinsic factors such as the subject) from nominal definitions. Two conclusions follow: the definition is sometimes but not always the middle, since it can serve only when nothing intervenes between it and the attribute (otherwise the premise is demonstrable and not immediate); and when it is the middle, it must be the definition of the subject, which is the attribute's material cause, rather than of the attribute, which cannot cause itself.",
+    "claims": [
+      "Not every demonstratio potissima has a definition as its middle term; only those where nothing intervenes between definition and attribute.",
+      "When a definition is the middle, it must be the definition of the subject, not of the attribute."
+    ],
+    "concepts": [
+      "demonstratio potissima",
+      "definition as middle term",
+      "real vs. nominal definition",
+      "immediacy of premises",
+      "subject as material cause of attribute"
+    ],
+    "_metadata": {
+      "level": "quaestio",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "gbs333-aa5112-d1e107",
+        "gbs333-aa5112-d1e123",
+        "gbs333-aa5112-d1e146",
+        "gbs333-aa5112-d1e172",
+        "gbs333-aa5112-d1e181",
+        "gbs333-aa5112-d1e194",
+        "gbs333-aa5112-d1e231"
+      ]
+    }
+  }
+}
