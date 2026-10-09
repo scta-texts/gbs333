@@ -1,0 +1,113 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-09T08:23:47Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4fc896926e26d4268d9ee78f3d0ac64b9d139910",
+    "generation_method": "hierarchical"
+  },
+  "gbs333-h59848-d1e102": {
+    "summary": "Links Distinction 25 to the two preceding ones, which treated faith in its substance and its object. Distinction 25 treats faith with respect to its subject, that is, those who believe. Lombard asks what the faith of the fathers of both testaments was, and what faith is required of the simple. The teaching is set out in three conclusions.",
+    "claims": [
+      "Distinction 25 treats faith with respect to its subject, the believers.",
+      "It asks about the faith of the fathers of both testaments and the faith required of simple believers."
+    ],
+    "concepts": [
+      "subject of faith",
+      "faith of the patriarchs",
+      "faith of the simple (simplices)"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h59848-Hd1e100",
+        "gbs333-h59848-d1e135"
+      ]
+    }
+  },
+  "gbs333-h59848-d1e135": {
+    "summary": "First conclusion: in every age, faith in the mediator was necessary for those to be saved, although that faith, like knowledge, grew over time in quantity and in devotion. Glosses 'quantity' as the number of articles to be believed explicitly and 'devotion' as the firmness of adherence.",
+    "claims": [
+      "Faith in the mediator was necessary for salvation at all times.",
+      "Faith grew over time in quantity (the number of articles believed explicitly) and in devotion (firmness of adherence)."
+    ],
+    "concepts": [
+      "fides mediatoris",
+      "growth of faith through history",
+      "explicit belief in articles",
+      "firmness of adherence"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h59848-d1e102"
+      ]
+    }
+  },
+  "gbs333-h59848-d1e159": {
+    "summary": "Second conclusion: in both testaments, the greater (the learned and prelates) and their unlearned and simple subjects alike were bound to a faith greater in quantity and devotion.",
+    "claims": [
+      "In both testaments, both the learned and the simple were obliged to a fuller faith, in quantity and devotion."
+    ],
+    "concepts": [
+      "majores and minores in faith",
+      "obligation to believe",
+      "faith of the simple"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h59848-d1e135"
+      ]
+    }
+  },
+  "gbs333-h59848-d1e171": {
+    "summary": "Third conclusion: faith, hope, charity, and operation are in some respect equal in the wayfaring state, though in the homeland faith and hope pass away while charity remains.",
+    "claims": [
+      "Faith, hope, charity, and operation are in some respect equal in this life.",
+      "In the homeland, faith and hope pass away while charity remains."
+    ],
+    "concepts": [
+      "equality of the virtues",
+      "via and patria",
+      "permanence of charity"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h59848-d1e102"
+      ]
+    }
+  },
+  "gbs333-h59848": {
+    "summary": "This Praeambulum introduces Distinction 25. After faith's substance (d. 23) and object (d. 24), this distinction treats its subject, the believers. Lombard asks what the faith of the fathers of both testaments was and what is required of the simple. Three conclusions state his teaching. (1) Faith in the mediator was necessary for salvation in every age, though it grew over time in quantity (the number of explicitly believed articles) and in devotion (firmness of adherence). (2) In both testaments, the learned and the simple alike were bound to fuller faith. (3) Faith, hope, charity, and operation are in some respect equal in this life, though in the homeland only charity remains.",
+    "claims": [
+      "Faith in the mediator has always been necessary for salvation.",
+      "Faith has grown historically in the number of explicitly believed articles and in firmness of adherence.",
+      "Both the learned and the simple were obliged to a fuller faith in both testaments.",
+      "Faith and hope pass away in the homeland, while charity remains."
+    ],
+    "concepts": [
+      "subject of faith",
+      "fides mediatoris",
+      "explicit and implicit faith",
+      "faith of the simple",
+      "via and patria"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "gbs333-h59848-d1e102",
+        "gbs333-h59848-d1e135",
+        "gbs333-h59848-d1e159",
+        "gbs333-h59848-d1e171"
+      ]
+    }
+  }
+}

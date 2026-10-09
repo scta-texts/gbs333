@@ -1,0 +1,112 @@
+{
+  "_metadata": {
+    "schema_version": "1.0",
+    "generated_at": "2026-10-09T08:23:47Z",
+    "model": "claude-opus-5-5",
+    "prompt_version": "interpretation-v1",
+    "source_commit": "4fc896926e26d4268d9ee78f3d0ac64b9d139910",
+    "generation_method": "hierarchical"
+  },
+  "gbs333-h58041-d1e102": {
+    "summary": "Links Distinction 24 to the previous one. Distinction 23 treated faith with respect to its substance (habit and act), and d. 24 treats it with respect to its object, the credibilia. The guiding inquiry is whether there can be faith about things seen and known. Announces that the teaching can be stated in three conclusions.",
+    "claims": [
+      "Distinction 24 treats faith with respect to its object, that is, the things believed.",
+      "Its guiding question is whether faith can concern things seen and known."
+    ],
+    "concepts": [
+      "object of faith",
+      "credibilia",
+      "faith and sight"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h58041-Hd1e100",
+        "gbs333-h58041-d1e137"
+      ]
+    }
+  },
+  "gbs333-h58041-d1e137": {
+    "summary": "First conclusion: faith taken improperly, which does not build us up in Christ, can concern things seen, but faith properly speaking concerns only what is not apparent and not evidently known.",
+    "claims": [
+      "Faith improperly so called can concern things seen.",
+      "Faith properly so called concerns only things not apparent and not evidently known."
+    ],
+    "concepts": [
+      "proper vs. improper faith",
+      "non apparentia",
+      "evidence and faith"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h58041-d1e102"
+      ]
+    }
+  },
+  "gbs333-h58041-d1e148": {
+    "summary": "Second conclusion, illustrating how the seen and the believed can be joined in one event. Peter did not know by faith that the man Christ suffered, since he saw it with his eyes. He believed by faith that the one who suffered was God, which he did not perceive by the bodily senses.",
+    "claims": [
+      "Peter saw, rather than believed, that the man Christ suffered.",
+      "Peter believed by faith that the one who suffered was God, which is not perceptible to the senses."
+    ],
+    "concepts": [
+      "faith and sense perception",
+      "divinity of Christ as object of faith",
+      "seen and unseen aspects of one event"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h58041-d1e137"
+      ]
+    }
+  },
+  "gbs333-h58041-d1e162": {
+    "summary": "Third conclusion, on the mutual priority of faith and understanding. Some things cannot be known and understood unless they are first believed, and some cannot be believed unless they are first understood. The latter 'understanding' is partial, not perfect, since what is wholly unknown cannot be believed. Notes that Lombard develops the conclusions more fully in the text.",
+    "claims": [
+      "Some things can be understood only if first believed.",
+      "Some things can be believed only if first understood, at least partially.",
+      "What is entirely unknown cannot be believed."
+    ],
+    "concepts": [
+      "faith and understanding",
+      "credo ut intelligam",
+      "partial understanding as precondition of belief"
+    ],
+    "_metadata": {
+      "level": "paragraph",
+      "generation_method": "source_text_with_context",
+      "context_ids": [
+        "gbs333-h58041-d1e102"
+      ]
+    }
+  },
+  "gbs333-h58041": {
+    "summary": "This Praeambulum introduces Distinction 24, which turns from the substance of faith (d. 23) to its object, the credibilia, and asks whether faith can be about things seen and known. Its three conclusions hold the following. (1) Only improper faith can concern things seen; faith properly speaking concerns only what is not apparent or evidently known. (2) In Peter's case, he saw the man Christ suffer but believed by faith that the sufferer was God, so the visible and the believed belong to different aspects of the same event. (3) Faith and understanding are mutually prior: some things must be believed to be understood, and others must be at least partially understood to be believed, since what is wholly unknown cannot be believed.",
+    "claims": [
+      "Faith properly speaking concerns only what is not apparent and not evidently known.",
+      "In one and the same event, what is perceived by the senses is not believed, while its unseen aspect, such as Christ's divinity, is believed.",
+      "Belief and understanding are mutually prior in different respects, and some understanding is required for belief."
+    ],
+    "concepts": [
+      "object of faith",
+      "faith and evidence",
+      "faith and sight",
+      "faith and understanding"
+    ],
+    "_metadata": {
+      "level": "praeambulum",
+      "generation_method": "descendant_summaries",
+      "input_ids": [
+        "gbs333-h58041-d1e102",
+        "gbs333-h58041-d1e137",
+        "gbs333-h58041-d1e148",
+        "gbs333-h58041-d1e162"
+      ]
+    }
+  }
+}
